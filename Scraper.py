@@ -8,7 +8,7 @@ from langid import classify
 
 from Utils import get_stoplist
 
-from Stats import compute_stats, compute_diff_stats, compute_classified_diff_stats
+from Stats import compute_stats
 
 
 def clean_scrapes():
@@ -98,8 +98,6 @@ def exercice2():
     classify_with_langid()
     classify_with_true_lang()
 
-    compute_classified_diff_stats()
-
 
 def exercice1():
     clean_scrapes()
@@ -107,13 +105,12 @@ def exercice1():
     scrape_with_justext()
     scrape_with_beautifulsoup()
 
-    compute_stats()
-    compute_diff_stats()
-
 
 def main():
     exercice1()
     exercice2()
+
+    compute_stats()
 
 
 if __name__ == '__main__':

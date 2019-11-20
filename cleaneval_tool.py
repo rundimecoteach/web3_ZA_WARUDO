@@ -38,7 +38,7 @@ files in directory <align_dir>.
 '''
 
 def slurp_file(filename):
-	fh = open(filename)
+	fh = open(filename, encoding="utf-8")
 	body = fh.read()
 	fh.close()
 	return body

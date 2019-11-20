@@ -52,17 +52,20 @@ def compute_stats():
     clean = read_values('./clean/')
     justext_langid = read_values('./JT_langid/')
     justext_truelg = read_values('./JT_trueLg/')
+    uf = read_values('./UF/')
 
     justext_diff = list()
     beautifulsoup_diff = list()
     justext_langid_diff = list()
     justext_truelg_diff = list()
+    uf_diff = list()
 
     for i in range(len(clean[1])):
         justext_diff.append(abs(justext[1][i] - clean[1][i]))
         beautifulsoup_diff.append(abs(beautifulsoup[1][i] - clean[1][i]))
         justext_langid_diff.append(abs(justext_langid[1][i] - clean[1][i]))
         justext_truelg_diff.append(abs(justext_truelg[1][i] - clean[1][i]))
+        uf_diff.append(abs(uf[1][i] - clean[1][i]))
 
     # Compute average lines and chars from clean files
     clean_lines = sum(clean[0])
@@ -128,6 +131,19 @@ def compute_stats():
 
     data.append(['BEAUTIFUL_SOUP', str(bf4_lines), str(bf4_chars), str(bf4_lines_avg), str(bf4_chars_avg),
                   str(bf4_lines_stdev), str(bf4_chars_stdev), str(beautifulsoup_avg), str(beautifulsoup_stdev)])
+
+    # Compute average lines and chars from unfluff
+    uf_lines = sum(uf[0])
+    uf_chars = sum(uf[1])
+    uf_lines_avg = mean(uf[0])
+    uf_chars_avg = mean(uf[1])
+    uf_lines_stdev = stdev(uf[0])
+    uf_chars_stdev = stdev(uf[1])
+    uf_avg = mean(uf_diff)
+    uf_stdev = stdev(uf_diff)
+
+    data.append(['UF', str(uf_lines), str(uf_chars), str(uf_lines_avg), str(uf_chars_avg),
+                 str(uf_lines_stdev), str(uf_chars_stdev), str(uf_avg), str(uf_stdev)])
 
     write_to_csv(data)
 
