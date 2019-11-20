@@ -1,0 +1,383 @@
+<p>	document.domain = 'nationalpost.com';</p>
+<p>	var sXDComm = 'http://news.nationalpost.com/xdcomm/';</p>
+<p>	JANRAIN.SSO.CAPTURE.check_login({</p>
+<p>		sso_server: 'https://sso.canada.com',</p>
+<p>		client_id: 'nqag25dsn6hp6ct8r7dps5h9ukegdc3p',</p>
+<p>		redirect_uri: 'http://news.nationalpost.com/sso/',</p>
+<p>		logout_uri: 'http://news.nationalpost.com/sso/?signout',</p>
+<p>		xd_receiver: sXDComm</p>
+<p>	});</p>
+<p>  Norwalk-like virus strikes 50 at student journalism conference in Victoria | News | National Post</p>
+<p>		/* <![CDATA[ */</p>
+<p>			if ( 'function' === typeof WPRemoteLogin ) {</p>
+<p>				document.cookie = "wordpress_test_cookie=test; path=/";</p>
+<p>				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {</p>
+<p>					WPRemoteLogin();</p>
+<p>				}</p>
+<p>			}</p>
+<p>		/* ]]> */</p>
+<p>		</p>
+<p>/* <![CDATA[ */</p>
+<p>function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}</p>
+<p>/* ]]> */</p>
+<p>	/* <![CDATA[ */</p>
+<p>			/* ]]> */</p>
+<p>	</p>
+<p>var sBlogSlug='news';var sck=';sck=canada;sck=news;sck=science-health;tag=norovirus;tag=victoria;aid=129655;page=story;author=postmedianews';var npAReady=[],npReady=function(f){npAReady.push(f)}</p>
+<p>	var _sf_startpt = (new Date()).getTime();</p>
+<p>var disqus_category_id=869867;	try {</p>
+<p>		var _gaq = _gaq || [];</p>
+<p>		_gaq.push(['_setAccount', 'UA-17097415-1']);</p>
+<p>		_gaq.push(['_setDomainName', '.nationalpost.com']);</p>
+<p>		_gaq.push(['_trackPageview']);</p>
+<p>	} catch(err) {}</p>
+<p>Canada.com Networknationalpost.comfinancialpost.comToday's PaperDeliveryContactDigital Paper</p>
+<p>National Post</p>
+<p>HomemoreToday's Paper & ArchiveTwitter AccountsServicesNewslettersDigital PaperHome DeliveryAdvertise with usRaise A ReaderTop Stories FeedCosta Concordia captain ignored coastguard's pleas to return to ship, recording showsAccusations, kisses fly as Shafia mother wraps up testimonyChina has our forests, now we’re sending our oilfields tooLiberals choose once again to play follow the leaderForeign-backed groups trying to delay pipeline hearings: HarperMitt Romney beats back attacks in Republican debate, as Rick Perry adds Turkey to the terror listBusinessmoreNewsOpinionMarketsInvestingPersonal FinanceTech DeskLegal PostExecutiveEntrepreneurLatest Business Headlines FeedLooks like last quarter's bounce was a head-fakeHere's why Kinross is getting hammered todayTech in 2012: The end of unlimited Internet and the return of UBBNorthern Gateway endangers environment, energy security: geologistThe Left's revengeFracking may have caused blowout in southern AlbertaRBC and Shoppers Drug Mart to offer new debit and loyalty cardDundee REIT to buy WhiterockNewsmoreCanadaWorldPosted TorontoCanadian PoliticsEditors BlogToday's Paper & ArchiveBreaking News FeedCosta Concordia captain ignored coastguard's pleas to return to ship, recording showsAccusations, kisses fly as Shafia mother wraps up testimonyChina has our forests, now we’re sending our oilfields tooLiberals choose once again to play follow the leaderForeign-backed groups trying to delay pipeline hearings: HarperMitt Romney beats back attacks in Republican debate, as Rick Perry adds Turkey to the terror listOpinionmoreFull CommentLetters to the EditorGary ClementColumnistsChristie BlatchfordAndrew CoyneJohn IvisonKelly McParlandTerence CorcoranDiane FrancisLatest Opinion Headlines FeedKelly McParland: McGuinty demonstrates Ontario’s loser mentalityToday’s letters: Our Forces’ toy role models should be of both gendersLorne Gunter: Let Montreal build a ‘magnificent’ bridge … but on its own dimeTerry Glavin: China has our forests, now we’re sending our oilfields tooMatt Gurney: Some good, but mostly bad, news from OntarioChris Selley: It’s a perilous — and political —  road from evidence to policyArtsmoreMoviesBooksThe SceneShinan GovaniMusicTelevisionTV ListingsOn StageLatest Arts Headlines FeedDownton Abbey and 'the cult of the English country house'Red Means Run author Brad Smith: ‘I have an aversion to cops’Theatre Review: Buddies in Bad Times’ Penelopiad is explosively funnyShinan: Where was Ryan Gosling at the Golden Globes?The Big Pink fill in for the Great British Guitar BandKathleen Edwards bares it all on VoyageurLifemoreRunningHealthStyleThe AppetizerWineTravelHoly PostHoroscopesLatest Life Headlines FeedDiscerning germs: ‘Hygiene hypothesis’ favours exposure over manic cleanlinessSearching for salami of the gods in SeattleHotel harrumphing: On the indignity of asking to see the third room firstAloha, Mickey MouseHappy Hour: The smooth simplicity of a stingerHer life in a bag: Shelley Rozenwald of The BaySportsmoreNHLMLBNBANFLCFLGolfBruce ArthurLatest Sports Headlines FeedImagining a Leafs-Wings Winter ClassicMalkin leads the way for PenguinsPerkins gone but never forgotten in BostonDjokovic dominant, Raonic, Wozniak advanceUnplugged: Axford on shaving his Fu ManchuMental errors costly as Raptors fall againLeafs hope Bozak can ignite top lineHomesmorePost HomesCondosDécorCottage & CabinLatest Homes Headlines FeedFor Sale: Karma CondosThe Model: This condo makes you feel elated thanks to its upbeat decorSold: More than $50,000 in upgradesFor Sale: South-facing, upgraded suitePynn Pointers: To slipcover or not?A brush job that really needs to be done slowlyCarsmorePost DrivingDriving VideosUsed Cars - GTADriving.caLatest Cars Headlines FeedLoeb begins quest for ninth rally titleRally Dakar 2012 finish! Peterhansel races to 10th Dakar crownReincarnation: 1966 Dodge Power Wagon gets a mightier heartRoad Test: 2012 Volkswagen BeetleCARgo: JVC’s nice gesture and stay inReachRoad Trip: New Delhi, IndiaMultimediamorePhotosGraphicsPodcastsVideosLatest Podcasts FeedFP PodcastsPosted TorontoClassifiedsmoreFlyertownSelf-ServeBuy and SellDrivingWorkingShoppingHousehuntingObituariesCelebratingConnectingSite Map</p>
+<p>Costa Concordia | Christie Blatchford | Australian Open | Andrew Coyne | Tipping | GOP primaries | Tim Hortons</p>
+<p>National Post</p>
+<p> News</p>
+<p> Canada</p>
+<p>Graphics</p>
+<p>Internet</p>
+<p>Science & Health</p>
+<p>U.S.</p>
+<p>World</p>
+<p> </p>
+<p>					tile += 1;</p>
+<p>					document.write('<script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/' + adsite + zone + ';loc=top;sz=120x90;tile=' + tile + ';dcopt=ist;' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>				</p>
+<p>News</p>
+<p>Norwalk-like virus strikes 50 at student journalism conference in Victoria</p>
+<p>Postmedia News </p>
+<p>Jan 15, 2012 – 4:01 PM ET</p>
+<p> | Last Updated: Jan 15, 2012 6:43 PM ET</p>
+<p>Comments</p>
+<p>Email</p>
+<p>Twitter </p>
+<p>By Robert Hiltz</p>
+<p> </p>
+<p>Normally, when people walk out of one of Chris Jones’ speeches, he assumes it is because people don’t like what he’s saying.</p>
+<p>But when people stared leaving in the middle of the Esquire magazine writer’s keynote address at a student journalism conference Saturday in Victoria, it was a sign of something much, much worse.</p>
+<p>Severe gastrointestinal discomfort, to be delicate.</p>
+<p>More than 50 of the almost 360 delegates at the Canadian University Press conference at the Harbour Towers Hotel and Suites — along with Jones — were stricken by what the Vancouver Island Health Authority called a “Norwalk-like virus,” sending 11 people to hospital suffering from the effects of dehydration.</p>
+<p>“If you told me I puked out of my ears, I wouldn’t be surprised,” Jones said of his experience in the middle of the night — what he called “20 minutes of ultraviolence.”</p>
+<p>“I think I got off super easy. There are kids who are there who were puking last night and are still puking today,” Jones said from the Vancouver International Airport on Sunday.</p>
+<p>The event organizers were forced to cancel an evening gala event and awards ceremony for the assembled delegates because of the number of people getting sick — some of them while they were on a bus leaving the hotel for the gala.</p>
+<p>“My speech ended probably around 9:30 and that’s when I heard about the first people (getting sick), and by 11 p.m. (the hotel) was just mayhem,” Jones said.</p>
+<p>VIHA spokeswoman Suzanne Germain said the students affected by the illness will be in for a rough ride over the next few days — but they weren’t in any mortal danger.</p>
+<p>“You may wish you were dead, but it’s not going to kill you,” Germain said.</p>
+<p>She said the symptoms typically associated with the norovirus — namely, vomiting and diarrhea — had shown up in about 50 of the attendees from universities around the country. While they weren’t able to definitively say the illness affecting the conference delegates was norovirus — also known as Norwalk — all signs pointed to it.</p>
+<p>“It’s classic symptoms of Norwalk,” Germain said. “It’s walking like a duck, it’s talking like a duck so we’re pretty sure it’s Norwalk.”</p>
+<p>Emma Godmere, CUP national bureau chief, said 11 students went to hospital to receive fluids and medication, but all were promptly released. Only one had to be taken by ambulance, she said.</p>
+<p>Godmere said that conference attendees who were showing signs of infection were urged to stay in their hotel rooms to prevent spreading the virus any further.</p>
+<p>“Some people who are feeling well are heading back to their papers and home cities,” Godmere said.</p>
+<p>She said the hotel was helping the infected to make arrangements to stay in the hotel past the scheduled end of the conference on Sunday.</p>
+<p>Health officials and paramedics were called to the Harbour Towers hotel Saturday night to provide assistance. Anyone affected by the virus was told to stay in their hotel rooms and drink lots of fluids to prevent dehydration — one of the dangers of the norovirus.</p>
+<p>Despite the onslaught of infection, Godmere said the event was an overall success.</p>
+<p>“Luckily, yesterday was our last day of workshops and speakers, so I’m kind of thankful it didn’t happen earlier in the conference, otherwise people would have missed some of these great sessions and speakers,” she said.</p>
+<p>The spread of the virus also meant that CUP officials had to cancel the organization’s planned annual general meeting Sunday.</p>
+<p>Norovirus is highly contagious and is transmitted through fecal matter and through the air.</p>
+<p>Germain said there should be no need for anyone that is infected to go to the emergency room over worries the virus would spread throughout the hospital population.</p>
+<p>The VIHA spokeswoman said health officials were expected to return to the hotel to follow up with the infected.</p>
+<p>VIHA suspects a visitor to the hotel already had the virus, which likely spread once in contact with so many people in such a confined space.</p>
+<p>With files from the Victoria Times Colonist</p>
+<p> </p>
+<p> </p>
+<p>Posted in: Canada, News, Science & Health </p>
+<p>				Tags: Norovirus, Victoria </p>
+<p>Postmedia News</p>
+<p> </p>
+<p>Tori Stafford family steels itself for emotional trial of man accused of murdering eight-year-oldDelaying parenthood has serious medical risks for both men and women, study warnsForeign-backed groups trying to delay pipeline hearings: HarperMatthew Fisher: Canada loses one of its greatest friends in AfghanistanCosta Concordia disaster sounds alarm on cruise industry issues, expert says </p>
+<p>More from Postmedia News »</p>
+<p>	var npDsqSso = /^[\s\S]*\bdisqus-sso=([^;]+)[\s\S]*$/i.test(document.cookie),</p>
+<p>		npDsq_remote_auth_s3 = 'e30= ceb437869a1dfec0b963f134ecccba50d17e242b 1326817035',</p>
+<p>		npDsq_api_key = '4ArDk9sCU7Y27T6Ni9ixYD3n90ZSiXdMtCOI9mcHFCEf6gnVGHpnKgereuyCJ3Rn';</p>
+<p>	http://fastfails.com/suspected-norovirus-hits-bc-student-conference-cbc-ca/						Suspected norovirus hits BC student conference – CBC.ca | Fast Fails | The Best Fail Channels</p>
+<p>[...] a student journalism conference at Victoria's Harbour Towers Hotel and Suites have …Norwalk virus hits students at journalism conference in VictoriaNational PostNorovirus hits 30 at student conference in downtown hotelVancouver SunNorovirus hits 60 [...]</p>
+<p>blog comments powered by Disqus</p>
+<p>	var disqus_url = 'http://news.nationalpost.com/2012/01/15/norwalk-virus-hits-students-at-journalism-conference-in-victoria/';</p>
+<p>	var disqus_identifier = '129655 http://news.nationalpost.com/?p=129655';</p>
+<p>	var disqus_container_id = 'disqus_thread';</p>
+<p>	var disqus_domain = 'disqus.com';</p>
+<p>	var disqus_shortname = 'npdigital';</p>
+<p>		var disqus_config = function () {</p>
+<p>	    var config = this; // Access to the config object</p>
+<p>	    /* </p>
+<p>	       All currently supported events:</p>
+<p>	        * preData — fires just before we request for initial data</p>
+<p>	        * preInit - fires after we get initial data but before we load any dependencies</p>
+<p>	        * onInit  - fires when all dependencies are resolved but before dtpl template is rendered</p>
+<p>	        * afterRender - fires when template is rendered but before we show it</p>
+<p>	        * onReady - everything is done</p>
+<p>	     */</p>
+<p>		config.callbacks.preData.push(function() {</p>
+<p>			// clear out the container (its filled for SEO/legacy purposes)</p>
+<p>			document.getElementById(disqus_container_id).innerHTML = '';</p>
+<p>		})</p>
+<p>		config.callbacks.onReady.push(function() {</p>
+<p>			// sync comments in the background so we don't block the page</p>
+<p>			var req = new XMLHttpRequest();</p>
+<p>			req.open('GET', '?cf_action=sync_comments&post_id=129655', true);</p>
+<p>			req.send(null);</p>
+<p>		});</p>
+<p>		</p>
+<p>		config.callbacks.afterRender.push(npDsq_afterRender);this.page.remote_auth_s3 = npDsq_remote_auth_s3;this.page.api_key = npDsq_api_key;	};</p>
+<p>	</p>
+<p>	var facebookXdReceiverPath = 'http://nationalpostnews.wordpress.com/wp-content/themes/vip/plugins/disqus/xd_receiver.htm';</p>
+<p>	var DsqLocal = {</p>
+<p>		'trackbacks': [</p>
+<p>			{</p>
+<p>				'author_name':	'Suspected norovirus hits BC student conference &amp;#8211; CBC.ca | Fast Fails | The Best Fail Channels',</p>
+<p>				'author_url':	'http://fastfails.com/suspected-norovirus-hits-bc-student-conference-cbc-ca/',</p>
+<p>				'date':			'01/15/2012 04:53 PM',</p>
+<p>				'excerpt':		'[...] a student journalism conference at Victoria&amp;#039;s Harbour Towers Hotel and Suites have &amp;#8230;Norwalk virus hits students at journalism conference ...',</p>
+<p>				'type':			'pingback'</p>
+<p>			}</p>
+<p>		],</p>
+<p>		'trackback_url': 'http://news.nationalpost.com/2012/01/15/norwalk-virus-hits-students-at-journalism-conference-in-victoria/trackback/'</p>
+<p>	};</p>
+<p>(function() {</p>
+<p>	var dsq = document.createElement('script'); dsq.type = 'text/javascript';</p>
+<p>	dsq.async = true;</p>
+<p>	dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.40';</p>
+<p>	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);</p>
+<p>})();</p>
+<p>Search</p>
+<p>News</p>
+<p>Stock Quote</p>
+<p>Powered by Interactive Data Managed Solutions</p>
+<p>				tile += 1;</p>
+<p>				document.write('<script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/npo.com' + zone + ';loc=top;sz=300x250,300x251,300x600;tile=' + tile + ';' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>			</p>
+<p> Recent Posts </p>
+<p>Toronto council approves 2.5% property tax hike</p>
+<p>New photos expose the frantic search for the Costa Concordia missing</p>
+<p>Five new bodies found in wreckage of the Costa Concordia</p>
+<p>Tori Stafford family steels itself for emotional trial of man accused of murdering eight-year-old</p>
+<p>Russia faces violent revolution if it doesn’t embrace democracy, billionaire Putin challenger declares</p>
+<p>Recent Tweets</p>
+<p>From @postedtoronto: Rob Ford argues against property tax hike, against using surplus to save services as... http://t.co/uTlPeb5O #toronto 16 minutes ago</p>
+<p>Five new bodies found in wreckage of the Costa Concordia http://t.co/LkrUHsMY 20 minutes ago</p>
+<p>From @fullcomment:  Kelly McParland: McGuinty demonstrates Ontario’s loser mentality http://t.co/w28WTSLi 34 minutes ago</p>
+<p>Follow @nationalpost </p>
+<p>				tile += 1;</p>
+<p>				document.write('<script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/npo.com' + zone + ';loc=bot;sz=300x250,300x252,300x600;tile=' + tile + ';' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>			</p>
+<p> Powered by WordPress.com VIP</p>
+<p>National Post</p>
+<p>Financial Post</p>
+<p>Full Comment</p>
+<p>News</p>
+<p>Posted Toronto</p>
+<p>Sports</p>
+<p>Arts</p>
+<p>The Afterword</p>
+<p>Syndication</p>
+<p>Podcasts</p>
+<p>All Feeds</p>
+<p>Our Partners</p>
+<p>The Province (Vancouver)</p>
+<p>Vancouver Sun</p>
+<p>Edmonton Journal</p>
+<p>Calgary Herald</p>
+<p>Regina Leader-Post</p>
+<p>Saskatoon StarPhoenix</p>
+<p>Windsor Star</p>
+<p>Ottawa Citizen</p>
+<p>The Gazette (Montreal)</p>
+<p>DOSE</p>
+<p>Swarmjam Sweet Deals</p>
+<p>Flyertown</p>
+<p>Privacy | Terms | Contact us | Advertise with us | Copyright and permissions | Today's paper | Digital paper | Newsletters | News Feeds | Subscription services | Site map</p>
+<p>© 2012 National Post, a division of Postmedia Network Inc.  All rights reserved. Unauthorized distribution, transmission or republication strictly prohibited.</p>
+<p>	</p>
+<p>	document.write('<' + 'script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/' + adsite + zone + ';loc=top;sz=1x1;tile=' + tile + ';dcopt=ist;' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>/* <![CDATA[ */</p>
+<p>var WPGroHo = {"my_hash":""};</p>
+<p>/* ]]> */</p>
+<p>var _qevents = _qevents || [], wpcomQuantcastData = {"qacct":"p-18-mFEk4J448M","labels":",language.en,type.wpcom,posttag.norovirus,posttag.victoria,vip.nationalpostnews"};</p>
+<p>function wpcomQuantcastPixel( labels, options ) {</p>
+<p>	var i, defaults = wpcomQuantcastData, data = { event: 'ajax' };</p>
+<p>	labels  = labels  || '';</p>
+<p>	options = options || {};</p>
+<p>	if ( typeof labels != 'string' )</p>
+<p>		options = labels;</p>
+<p>	for ( i in defaults ) {</p>
+<p>		data[i] = defaults[i];</p>
+<p>	}</p>
+<p>	for ( i in options ) {</p>
+<p>		data[i] = options[i];</p>
+<p>	}</p>
+<p>	if ( data.labels ) {</p>
+<p>		data.labels += ',' + labels;</p>
+<p>	} else {</p>
+<p>		data.labels = labels;</p>
+<p>	}</p>
+<p>	_qevents.push( data );</p>
+<p>};</p>
+<p>(function() {var elem = document.createElement('script');elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem, scpt);  })();</p>
+<p>_qevents.push( wpcomQuantcastData );</p>
+<p>	/* <![CDATA[ */</p>
+<p>		jQuery(document).ready( function($) {</p>
+<p>			// Remove the login box when clicking the page</p>
+<p>			$( document ).mousedown( function( e ) {</p>
+<p>				if ( null == $( e.target ).closest( '#wpl-mustlogin' ).get( 0 ) ) {</p>
+<p>					$( '#wpl-mustlogin' ).remove();</p>
+<p>				}</p>
+<p>			});</p>
+<p>			// Handle clicking the like button itself</p>
+<p>			$('#wpl-button > a.like').click( function(e) {</p>
+<p>				e.preventDefault();</p>
+<p>				</p>
+<p>				$.post( 'http://news.nationalpost.com/wp-admin/admin-ajax.php', {</p>
+<p>					'action': 'wpl_record_stat',</p>
+<p>					'stat_name': 'loggedout_like_click'</p>
+<p>				} );</p>
+<p>				var tenMins = new Date();</p>
+<p>				tenMins.setTime( tenMins.getTime() + 600000 );</p>
+<p>				document.cookie = 'wpl_rand=287abf49e9; expires=' + tenMins.toGMTString() + '; domain=wordpress.com; path=/;';</p>
+<p>				$('#wpl-count').after( '\</p>
+<p>					<div id="wpl-mustlogin"> \</p>
+<p>						<form action="https://nationalpostnews.wordpress.com/wp-login.php" method="post"> \</p>
+<p>							<p>Just one more step to like this post:</p> \</p>
+<p>							<label><span>Username</span> <input type="text" name="log" id="user_login" class="input" value="" size="20" tabindex="80" /></label> \</p>
+<p>							<label><span>Password</span> <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" tabindex="81" /></label> \</p>
+<p>							<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In" tabindex="82" /> \</p>
+<p>							<input type="hidden" name="redirect_to" value="http://news.nationalpost.com/2012/01/15/norwalk-virus-hits-students-at-journalism-conference-in-victoria/?like=1" /> \</p>
+<p>							<input type="hidden" name="wpl_rand" value="287abf49e9" /> \</p>
+<p>							<p>Not a member yet? <a href="http://wordpress.com/signup/?ref=likebox" id="wpl-signup-link">Sign up with WordPress.com</a></p> \</p>
+<p>						</form> \</p>
+<p>					</div> \</p>
+<p>				');</p>
+<p>				$('#wpl-mustlogin').hide().slideDown('fast');</p>
+<p>			} );</p>
+<p>			</p>
+<p>			$('#wpl-mustlogin input.input').live( 'focus', function() {</p>
+<p>				$(this).prev().hide();</p>
+<p>			}).live( 'blur', function() {</p>
+<p>				if ( $(this).val() == '' )</p>
+<p>					$(this).prev().show();</p>
+<p>			});</p>
+<p>			</p>
+<p>			$('#wpl-mustlogin input#wp-submit').live( 'click', function(e) {</p>
+<p>				e.preventDefault();</p>
+<p>				</p>
+<p>				$.post( 'http://news.nationalpost.com/wp-admin/admin-ajax.php', { </p>
+<p>					'action': 'wpl_record_stat',</p>
+<p>					'stat_name': 'loggedout_login_submit'</p>
+<p>				}, function() {</p>
+<p>					$('#wpl-mustlogin form').submit();</p>
+<p>				} );</p>
+<p>			});			</p>
+<p>			</p>
+<p>			$('#wpl-mustlogin a#wpl-signup-link').live( 'click', function(e) {</p>
+<p>				e.preventDefault();</p>
+<p>				</p>
+<p>				var link = $(this).attr('href');</p>
+<p>				</p>
+<p>				$.post( 'http://news.nationalpost.com/wp-admin/admin-ajax.php', { </p>
+<p>					'action': 'wpl_record_stat',</p>
+<p>					'stat_name': 'loggedout_signup_click'</p>
+<p>				}, function() {</p>
+<p>					location.href = link;</p>
+<p>				} );</p>
+<p>			});					</p>
+<p>			</p>
+<p>		});</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>try{COMSCORE.beacon({c1:2,c2:7518284});}catch(e){}</p>
+<p>// <![CDATA[</p>
+<p>(function() {</p>
+<p>try{</p>
+<p>  if ( window.external &&'msIsSiteMode' in window.external) {</p>
+<p>    if (window.external.msIsSiteMode()) {</p>
+<p>      var jl = document.createElement('script');</p>
+<p>      jl.type='text/javascript';</p>
+<p>      jl.async=true;</p>
+<p>      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';</p>
+<p>      var s = document.getElementsByTagName('script')[0];</p>
+<p>      s.parentNode.insertBefore(jl, s);</p>
+<p>    }</p>
+<p>  }</p>
+<p>}catch(e){}</p>
+<p>})();</p>
+<p>// ]]></p>
+<p>st_go({'blog':'11573641','v':'wpcom','user_id':'0','post':'129655','subd':'nationalpostnews'});</p>
+<p>function st_vt() {var x=document.createElement("img");x.src="http://stats.wordpress.com/g.gif?blog=11573641&v=wpcomvt&user_id=0&post=129655&subd=nationalpostnews&rand="+Math.random();}</p>
+<p>ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdhWHZSS3A2XzY5fmljQz0lcVVBfFRDM1tncTlJajlseVZvS1g0b0ZWJUg3RFdtW0MwazZoND9KZWZxXzgxY1RqVjlGV3ZoODBpfEZIPWYmU0YxZGd4ekRMWH5QVWxTLEdQXXB5eDFzZmFVJjRFPXRMQUZIYUxLUEQuP21ORXcsPS1ROVd5JklCVEZWLyZZSy8sSmIrZ1Z8cnVpNF8mMWZuTzlNazB1SXg='});</p>
+<p>addLoadEvent(function(){linktracker_init('11573641',129655);});</p>
+<p>	</p>
+<p>	window.fbAsyncInit = function() {</p>
+<p>		FB.init({appId: '114466555268868', status: true, cookie: true, xfbml: true});</p>
+<p>	};</p>
+<p>	(function() {</p>
+<p>		var e = document.createElement('script');</p>
+<p>		e.async = true;</p>
+<p>		e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';</p>
+<p>		document.getElementById('fb-root').appendChild(e);</p>
+<p>	}());</p>
+<p><!--</p>
+<p>	/* You may give each page an identifying name, server, and channel on the next lines. */</p>
+<p>	</p>
+<p>	aPath = window.location.pathname.toLowerCase().replace(/^\/(.+)(?:\/(?:[^\/.]+\.[\w\d]+)?)$/, '$1').split('/');</p>
+<p>	s.pageName=window.location.pathname.toLowerCase();</p>
+<p>	s.server=window.location.hostname.toLowerCase();</p>
+<p>	s.channel='';</p>
+<p>	s.pageType='';</p>
+<p>	s.prop1=aPath.slice(0, 2).join('/');</p>
+<p>	s.prop2=aPath.join('/');</p>
+<p>	s.prop3='canwest';</p>
+<p>	s.prop4=/\bAT=[^;]+/i.test(document.cookie)?'Registered':'Non-Registered';</p>
+<p>	s.prop5=s.prop4 + ': ' + s.pageName;</p>
+<p>	s.prop6='';</p>
+<p>	s.prop7='';</p>
+<p>	s.prop8='';</p>
+<p>	s.prop9='';</p>
+<p>	s.prop10='';</p>
+<p>	s.prop13='';</p>
+<p>	s.prop23=document.title;</p>
+<p>	s.prop24=s.prop8;</p>
+<p>	s.prop25=s.pageName.replace(/^.*?\/([^\/.]*)[^\/]*?$/, '$1');</p>
+<p>	s.prop26=aPath[0];</p>
+<p>	s.prop27=s.prop1;</p>
+<p>	s.prop28=s.prop2;</p>
+<p>	s.prop29='';</p>
+<p>	s.prop36='';</p>
+<p>	s.prop37='npo.com';</p>
+<p>	/* E-commerce Variables */</p>
+<p>	s.state='';</p>
+<p>	s.zip='';</p>
+<p>	s.events='';</p>
+<p>	s.products='';</p>
+<p>	s.purchaseID='';</p>
+<p>	s.transactionID = s.purchaseID;</p>
+<p>	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>	var s_code=s.t();if(s_code)document.write(s_code)</p>
+<p>//--></p>
+<p><!--</p>
+<p>	if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>var _sf_async_config = {uid: 5314, domain: 'nationalpost.com'};</p>
+<p>	_sf_async_config.authors = 'Postmedia News';(function(){</p>
+<p>	function loadChartbeat() {</p>
+<p>		window._sf_endpt = (new Date()).getTime();</p>
+<p>		var e = document.createElement('script');</p>
+<p>		e.setAttribute('type', 'text/javascript');</p>
+<p>		e.setAttribute('src',</p>
+<p>(('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://') +</p>
+<p>'static.chartbeat.com/js/chartbeat.js');</p>
+<p>		document.body.appendChild(e);</p>
+<p>	}</p>
+<p>	var oldonload = window.onload;</p>
+<p>	window.onload = typeof window.onload !== 'function' ? loadChartbeat : function () {</p>
+<p>		oldonload();</p>
+<p>		loadChartbeat();</p>
+<p>	};</p>
+<p>}());</p>
+<p>(function() {</p>
+<p>	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>

@@ -1,0 +1,578 @@
+<p>Man denies infecting women with HIV (From Basingstoke Gazette)</p>
+<p>		audienceScienceSegments='';</p>
+<p>		var rsi_segs = [];</p>
+<p>		var segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>		if (segs_beg>=0){</p>
+<p>			segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>			if(segs_beg>0){</p>
+<p>				var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>				if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>				rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');</p>
+<p>				audienceScienceSegments= document.cookie.substring(segs_beg,segs_end)</p>
+<p>			}</p>
+<p>		}</p>
+<p>    </p>
+<p>Jump to main content</p>
+<p>News</p>
+<p>Sport</p>
+<p>Weather forecast</p>
+<p>createGMTDate();</p>
+<p>Mobile site</p>
+<p>News feed </p>
+<p>E-Newsletters</p>
+<p>Site map</p>
+<p>Register</p>
+<p>Log in</p>
+<p>Man denies infecting women with HIV (From Basingstoke Gazette)</p>
+<p>When news happens, text BAZ and your photos or videos to 80360. Or contact us by email and phone.</p>
+<p>Search: </p>
+<p>News</p>
+<p>Sport</p>
+<p>Leisure</p>
+<p>Business</p>
+<p>Info</p>
+<p>Letters</p>
+<p>Family</p>
+<p>Family Announcements</p>
+<p>Advertise</p>
+<p>Buy & Sell</p>
+<p>Click2Find</p>
+<p>Dating</p>
+<p>Cars</p>
+<p>Homes</p>
+<p>Jobs</p>
+<p>Local</p>
+<p>National News</p>
+<p>Education</p>
+<p>Picture Gallery</p>
+<p>Regional</p>
+<p>Basingstoke Gazette »</p>
+<p>News »</p>
+<p>               News</p>
+<p>               </p>
+<p>                  RSS Feed</p>
+<p>Send your news, pictures & videos</p>
+<p>Man denies infecting women with HIV</p>
+<p>2:51pm Monday 16th January 2012 in News</p>
+<p>                        </p>
+<p>                        </p>
+<p>                        By Chris Gregory</p>
+<p>                        </p>
+<p>                        »</p>
+<p>Skip social links</p>
+<p>Print</p>
+<p>Email</p>
+<p>Comments(0)</p>
+<p>Tweet</p>
+<p>  A BASINGSTOKE man has pleaded not guilty to infecting two women with the HIV virus.</p>
+<p>  Henry Assumang, 33, of Coppice Pale, Chineham, denied two counts of inflicting grievous bodily harm at Winchester Crown Court this morning.</p>
+<p>  It is alleged that Assumang, who is HIV positive, had sexual relationships with the two women after meeting them in Basingstoke between 2007 and 2010. The women cannot be identified for legal</p>
+<p>  reasons.</p>
+<p>  Assumang, who is originally from Ghana, spoke only to confirm his identity and to deny the two charges.</p>
+<p>  Recorder Maria Lamb granted him bail. A trial will start on Monday, June 11, and is expected to last between five and seven days.</p>
+<p>Read these News stories</p>
+<p>Twitter twit gets police in a flutter</p>
+<p>Stolen cable causes train delays</p>
+<p>'Being a loser made me into a winner'</p>
+<p>Reduced speed limit for A339</p>
+<p>Woman, 90, loses £10k to pickpockets</p>
+<p>Maggie spreads word over switch to digital</p>
+<p>Council will set own rules over discipline</p>
+<p>Robbery crimes may be linked, say police</p>
+<p>200 jobs to go at council as cash cuts bite</p>
+<p>Council delays fuel Free School project</p>
+<p>Comment now! Register or sign in below.</p>
+<p>Log in with us</p>
+<p>Fields marked with * are mandatory.</p>
+<p>*Email</p>
+<p>*Password</p>
+<p>Remember me</p>
+<p>Forgotten password »</p>
+<p>Forgotten email »</p>
+<p>FAQ »</p>
+<p>Log in »</p>
+<p>Or</p>
+<p>                function nextPage(){</p>
+<p>                    window.open('/my/facebook/login/?callback='+window.location.pathname, '_blank', 'height=400,width=580px,location=no,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no');</p>
+<p>                }</p>
+<p>                function nextPageGoogle(){</p>
+<p>                    window.open('/my/google/login/?callback='+window.location.pathname, '_blank', 'height=400,width=580px,location=no,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no');</p>
+<p>                }</p>
+<p>            </p>
+<p>Log in with</p>
+<p>                  </p>
+<p>                     </p>
+<p>                     Henry Assumang</p>
+<p>                  </p>
+<p>                  </p>
+<p>     </p>
+<p>     google_ad_client = "pub-1163627261638862";  </p>
+<p>     google_ad_slot = "2146042145";  </p>
+<p>     google_max_num_ads = "2";   </p>
+<p>     google_ad_output = "js";    </p>
+<p>     google_ad_type = "text";    </p>
+<p>     //google_adtest = "on"; //testing script ads    </p>
+<p>     google_feedback = "on";     </p>
+<p>     if  (google_adnum) {    </p>
+<p>         google_skip = google_adnum;     </p>
+<p>     } else {    </p>
+<p>         var google_adnum = 0;   </p>
+<p>     }   </p>
+<p>     </p>
+<p>     function google_ad_request_done(google_ads){    </p>
+<p>     </p>
+<p>         if(google_ads.length==0){return }   </p>
+<p>     </p>
+<p>         var s="";   </p>
+<p>     </p>
+<p>         if(google_ads[0].type=="text"){     </p>
+<p>             s+='<h4><a href=\"' + google_info.feedback_url + '\">Ads by Google</a></h4>';   </p>
+<p>             s+='<ul class="gads">';     </p>
+<p>             for(i=0;i<google_ads.length;++i){   </p>
+<p>                 s+="<li>";  </p>
+<p>                 s+='<h5><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].line1+"</a></h5>";    </p>
+<p>                 s+="<p>"+google_ads[i].line2+" "+google_ads[i].line3+"</p>";    </p>
+<p>                 s+='<p><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].visible_url+"</a></p>";    </p>
+<p>                 s+="</li>"  </p>
+<p>             }   </p>
+<p>             s+="</ul>"  </p>
+<p>          }  </p>
+<p>          if (google_ads[0].bidtype == "CPC") {  /* insert this snippet for each ad call */  </p>
+<p>             google_adnum = google_adnum + google_ads.length;    </p>
+<p>          }  </p>
+<p>          function createAdsContainer(){     </p>
+<p>             var AdsContainer=document.getElementById("google-ads-container2");  </p>
+<p>             if(AdsContainer){   </p>
+<p>                 AdsContainer.innerHTML=s;   </p>
+<p>             }   </p>
+<p>         }   </p>
+<p>     </p>
+<p>         createAdsContainer();   </p>
+<p>     </p>
+<p>         return;     </p>
+<p>     }   </p>
+<p> </p>
+<p>Most popular</p>
+<p>    panelHandler.loadPanel('MostPopularDataPanel','elt_MostPopularDataPanel',{});</p>
+<p><!--</p>
+<p>                var google_adnum = 0;</p>
+<p>                google_ad_client = "pub-1163627261638862";</p>
+<p>                google_ad_slot = "2146042145";</p>
+<p>                google_ad_output = "js";</p>
+<p>                google_max_num_ads = "2";</p>
+<p>                google_ad_type = "text";</p>
+<p>                //google_adtest = "on"; //testing script ads</p>
+<p>                google_feedback = "on";</p>
+<p>                google_skip = google_adnum;</p>
+<p>               function google_ad_request_done(google_ads){</p>
+<p>                    if(google_ads.length==0){return }</p>
+<p>                    var s="";</p>
+<p>                    if(google_ads[0].type=="text"){</p>
+<p>                        s+='<h4><a href=\"' + google_info.feedback_url + '\">Ads by Google</a></h4>';</p>
+<p>                        s+='<ul class="gads">';</p>
+<p>                        for(i=0;i<google_ads.length;++i){</p>
+<p>                            s+="<li>";</p>
+<p>                            s+='<h5><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].line1+"</a></h5>";</p>
+<p>                            s+="<p>"+google_ads[i].line2+" "+google_ads[i].line3+"</p>";</p>
+<p>                            s+='<p><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].visible_url+"</a></p>";</p>
+<p>                            s+="</li>"</p>
+<p>                        }</p>
+<p>                        s+="</ul>"</p>
+<p>                     }</p>
+<p>                     if (google_ads[0].bidtype == "CPC") {  /* insert this snippet for each ad call */</p>
+<p>                        google_adnum = google_adnum + google_ads.length;</p>
+<p>                     }</p>
+<p>                     function createAdsContainer(){</p>
+<p>                        var AdsContainer=document.getElementById("google-ads-container1");</p>
+<p>                        if(AdsContainer){</p>
+<p>                            AdsContainer.innerHTML=s;</p>
+<p>                        }</p>
+<p>                    }</p>
+<p>                    createAdsContainer();</p>
+<p>                    return;</p>
+<p>                }//--></p>
+<p>            </p>
+<p>            panelHandler.loadPanel('EditorsChoicePanel','elt_EditorsChoicePanel',{});</p>
+<p>        </p>
+<p>                   var options = {"width":"auto","location":"Basingstoke"};</p>
+<p>                   panelHandler.loadPanel('weather', 'weather', options);</p>
+<p>                   </p>
+<p>            panelHandler.loadPanel('EventsLiveTravelPanel','elt_EventsLiveTravelPanel',{});</p>
+<p>        </p>
+<p>        panelHandler.loadPanel('JobsClassifiedHotJobs','elt2',{type: 'jobs', 'return': 'none', 'title': 'Featured Jobs'});</p>
+<p>    </p>
+<p>Local Information</p>
+<p>Enter your postcode, town or place name</p>
+<p>Local info search</p>
+<p>House prices »  </p>
+<p>        Schools »  </p>
+<p>        Crime »  </p>
+<p>        Hospitals »</p>
+<p>Local Businesses</p>
+<p>Unknown</p>
+<p>Search »</p>
+<p>     </p>
+<p>     google_ad_client = "pub-1163627261638862";  </p>
+<p>     google_ad_slot = "4842677671";  </p>
+<p>     google_max_num_ads = "4";   </p>
+<p>     google_ad_output = "js";    </p>
+<p>     google_ad_type = "text";    </p>
+<p>     //google_adtest = "on"; //testing script ads    </p>
+<p>     google_feedback = "on";     </p>
+<p>     if  (google_adnum) {    </p>
+<p>         google_skip = google_adnum;     </p>
+<p>     } else {    </p>
+<p>         var google_adnum = 0;   </p>
+<p>     }   </p>
+<p>     </p>
+<p>     function google_ad_request_done(google_ads){    </p>
+<p>     </p>
+<p>         if(google_ads.length==0){return }   </p>
+<p>     </p>
+<p>         var s="";   </p>
+<p>     </p>
+<p>         if(google_ads[0].type=="text"){     </p>
+<p>             s+='<h4><a href=\"' + google_info.feedback_url + '\">Ads by Google</a></h4>';   </p>
+<p>             s+='<ul class="gads">';     </p>
+<p>             for(i=0;i<google_ads.length;++i){   </p>
+<p>                 s+="<li>";  </p>
+<p>                 s+='<h5><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].line1+"</a></h5>";    </p>
+<p>                 s+="<p>"+google_ads[i].line2+" "+google_ads[i].line3+"</p>";    </p>
+<p>                 s+='<p><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].visible_url+"</a></p>";    </p>
+<p>                 s+="</li>"  </p>
+<p>             }   </p>
+<p>             s+="</ul>"  </p>
+<p>          }  </p>
+<p>          if (google_ads[0].bidtype == "CPC") {  /* insert this snippet for each ad call */  </p>
+<p>             google_adnum = google_adnum + google_ads.length;    </p>
+<p>          }  </p>
+<p>          function createAdsContainer(){     </p>
+<p>             var AdsContainer=document.getElementById("google-ads-container3");  </p>
+<p>             if(AdsContainer){   </p>
+<p>                 AdsContainer.innerHTML=s;   </p>
+<p>             }   </p>
+<p>         }   </p>
+<p>     </p>
+<p>         createAdsContainer();   </p>
+<p>     </p>
+<p>         return;     </p>
+<p>     }   </p>
+<p> </p>
+<p>Jobs</p>
+<p> Find a new job in Basingstoke and north Hampshire</p>
+<p>            Search Now »</p>
+<p> </p>
+<p>Dating</p>
+<p>Find a partner in Basingstoke and north Hampshire</p>
+<p>              Search Now »</p>
+<p>Homes</p>
+<p>Find a new home in Basingstoke and north Hampshire</p>
+<p>          Search Now »</p>
+<p>Cars</p>
+<p>Find a new car in Basingstoke and north Hampshire</p>
+<p>          Search Now »</p>
+<p> </p>
+<p>News</p>
+<p>Sport</p>
+<p>Leisure</p>
+<p>Business</p>
+<p>Info</p>
+<p>Letters</p>
+<p>Family</p>
+<p>Family Announcements</p>
+<p>Advertise</p>
+<p>Buy & Sell</p>
+<p>Click2Find</p>
+<p>Dating</p>
+<p>Cars</p>
+<p>Homes</p>
+<p>Jobs</p>
+<p>Contact Us</p>
+<p>Subscribe</p>
+<p>Photo Sales</p>
+<p>Advertise</p>
+<p>AdChoices </p>
+<p>Archive</p>
+<p>Topics</p>
+<p>Announcements</p>
+<p>Site Map</p>
+<p>Buy & Sell</p>
+<p>Terms & Conditions</p>
+<p>Privacy Policy © Copyright 2001-2012</p>
+<p>Newsquest Media Group</p>
+<p>A Gannett Company</p>
+<p>This site is part of Newsquest's audited local newspaper network</p>
+<p>Newsquest site network</p>
+<p>// parse any facebook elements</p>
+<p>FB.init({appId: '185053311536431', </p>
+<p>         status: true, </p>
+<p>         cookie: true, </p>
+<p>         xfbml: true,</p>
+<p>         oauth2: true,</p>
+<p>         xfbml: true,</p>
+<p>         channelUrl: 'http://www.basingstokegazette.co.uk/fbchannel/'});</p>
+<p>function recordLike(type, omnitureRef, omnitureName)</p>
+<p>{</p>
+<p>    $.ajax({</p>
+<p>        url: "/misc/like/",</p>
+<p>        type: "POST",</p>
+<p>        data: {url: 'http://www.basingstokegazette.co.uk/news/9474198.Man_denies_infecting_women_with_HIV/', 'type': type, 'title': document.title}</p>
+<p>    });</p>
+<p>    s.events=omnitureRef;</p>
+<p>    s.linkTrackVars='eVar2,eVar4,eVar5,eVar6,eVar10,eVar16,eVar17,eVar18,eVar19,eVar25,eVar43,events';</p>
+<p>    s.linkTrackEvents=omnitureRef;</p>
+<p>    s.tl(document,'o', omnitureName); </p>
+<p>}</p>
+<p>twttr.events.bind('tweet', function(event) { recordLike('twitter', 'event32', 'Tweet') });</p>
+<p>FB.Event.subscribe('message.send', function(response){ recordLike('facebook', 'event33', 'Facebook Send') });</p>
+<p>FB.Event.subscribe('edge.create', function(response){ recordLike('facebook', 'event34', 'Facebook Recommend') });</p>
+<p>$('a[href="/my/account/emailthispage/"]').attr('href', '/my/account/emailthispage/?title='+encodeURI(document.title));</p>
+<p>// parse any facebook items</p>
+<p>FB.XFBML.parse();</p>
+<p>// Start the (document).ready() function as the dom is ready enough and we don't have to wait for advertising and omniture</p>
+<p>jQuery.ready();</p>
+<p>    var s_account="newsquestbasingstokegazetteprod,newsquestgroupprod";</p>
+<p>path = document.location.href.split("/");</p>
+<p>var pType="ArticleModule"</p>
+<p>for(x=4; x<7; x++)</p>
+<p>{</p>
+<p>    if (typeof path[x] == 'undefined')</p>
+<p>    {</p>
+<p>        path[x] = '';</p>
+<p>    }</p>
+<p>    if(path[x] == "" || (pType == "ArticleModule" && path[x].match(/[0-9]+\./)) || (path[x].indexOf('?') > -1))</p>
+<p>    {</p>
+<p>        path[x] = path[x-1];</p>
+<p>    }</p>
+<p>    else</p>
+<p>    {</p>
+<p>        path[x] = path[x-1] + "/" + path[x];</p>
+<p>    }</p>
+<p>    path[x] = path[x].replace(/\/undefined/g,"");</p>
+<p>} </p>
+<p>sitename = path[2].split(".");</p>
+<p>pathN= document.location.pathname.toString();</p>
+<p>matches = pathN.match(/(\w+)\.(in|near|compare)\.([\,a-zA-Z0-9\ _-]+)[\/]?$/);</p>
+<p>detailMatches = pathN.match(/(\w+)\.detail\.(.*)$/);</p>
+<p>if (detailMatches !== null && detailMatches.length > 1)</p>
+<p>{</p>
+<p>    matches = detailMatches;   </p>
+<p>}</p>
+<p>if (matches !== null && matches.length > 1)</p>
+<p>{</p>
+<p>    var subfolder = '';</p>
+<p>    path[3] = 'li';</p>
+<p>    path[4] = 'li/'+subfolder;</p>
+<p>    path[5] = 'li/'+subfolder+'/'+matches[1];</p>
+<p>    path[6] = 'li/'+subfolder+'/'+matches[1];</p>
+<p>}</p>
+<p>if (pathN === '/')</p>
+<p>{</p>
+<p>    path[3] = 'homepage';</p>
+<p>    path[4] = 'homepage';</p>
+<p>    path[5] = 'homepage';</p>
+<p>    path[6] = 'homepage';</p>
+<p>}</p>
+<p><!--</p>
+<p>/* You may give each page an identifying name, server, and channel on</p>
+<p>the next lines. */</p>
+<p>s.pageName="(www) /news/9474198.Man_denies_infecting_women_with_HIV/"</p>
+<p>s.server=""</p>
+<p>s.channel=""</p>
+<p>s.pageType=""</p>
+<p>s.prop1=""</p>
+<p>s.prop2=""</p>
+<p>s.prop3=document.title</p>
+<p>s.prop4="9474198"</p>
+<p>s.prop5="ArticleModule" /* get from Martini */</p>
+<p>s.prop6=path[3]</p>
+<p>s.prop7=path[4]</p>
+<p>s.prop8=path[5]</p>
+<p>s.prop9=path[6]</p>
+<p>s.prop10=""</p>
+<p>s.prop16=path[2]</p>
+<p>s.prop17="Basingstoke"</p>
+<p>s.prop18="Martini"</p>
+<p>s.prop19="1"</p>
+<p>s.prop20=s.getPreviousValue(s.pageName,'gpv_pn');</p>
+<p>if (s.prop20){</p>
+<p>s.prop21=s.getPercentPageViewed();</p>
+<p>}</p>
+<p>s.prop22=s.getDaysSinceLastVisit('s_lv');</p>
+<p>s.prop43=s.getQueryParam('ref') </p>
+<p>s.prop25 = 'Unknown'</p>
+<p>s.linkInternalFilters="javascript:,basingstokegazette.co.uk,fish4.co.uk,adsys.newsquest.co.uk,www.exchangeandmart.co.uk,www.communigate.co.uk,"</p>
+<p>/* Conversion Variables */</p>
+<p>s.campaign=""</p>
+<p>s.state=""</p>
+<p>s.zip=""</p>
+<p>s.events=""</p>
+<p>s.products=""</p>
+<p>s.purchaseID=""</p>
+<p>s.eVar14=""</p>
+<p>s.eVar15=""</p>
+<p>if(qs.get('action') === 'success' && (s.prop5 === 'ArticleModule' || s.prop5 === 'BMDModule')) { </p>
+<p>s.events=s.apl(s.events,'event9',',',2)</p>
+<p>}</p>
+<p>/* Hierarchy Variables */</p>
+<p>s.hier1="newsquest," + "Basingstoke" + ",www.basingstokegazette.co.uk," + path[6].replace(/\//,",");</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p> function quantcastPropValidator(property) {</p>
+<p>     return (property !='undefined' && typeof(property)=='string' && property.length > 0);</p>
+<p> }</p>
+<p> function quantcastLabelBuilder(){</p>
+<p>     if(quantcastPropValidator(s.prop6) && quantcastPropValidator(s.prop17)) {</p>
+<p>         return 'Property.' + s.prop17 + '.Site Section.' + s.prop6;</p>
+<p>     }</p>
+<p> }</p>
+<p> _qoptions={</p>
+<p>     qacct:"p-42Bk1WKC7O3WM",</p>
+<p>     labels:quantcastLabelBuilder()</p>
+<p> };</p>
+<p> </p>
+<p>quantSegs="";</p>
+<p>function qc_results(result) {</p>
+<p> for (var i = 0; i < result.segments.length; i++) {</p>
+<p>    quantSegs += result.segments[i].id + "|";</p>
+<p> }</p>
+<p>}</p>
+<p>var crtg_nid="1393";</p>
+<p>var crtg_cookiename="cto_newsquest";</p>
+<p>function crtg_getCookie(c_name){</p>
+<p>      var i,x,y,ARRcookies=document.cookie.split(";");</p>
+<p>      for(i=0;i<ARRcookies.length;i++){</p>
+<p>            x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));</p>
+<p>            y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);</p>
+<p>            x=x.replace(/^\s+|\s+$/g,"");</p>
+<p>            if(x==c_name){</p>
+<p>                  return unescape(y);</p>
+<p>            }</p>
+<p>      }return'';</p>
+<p>}</p>
+<p>var crtg_content=crtg_getCookie(crtg_cookiename);</p>
+<p>var crtg_rnd=Math.floor(Math.random()*99999999999);</p>
+<p>var crtg_url='http://rta.criteo.com/dis/rtt.js?networkId='+escape(crtg_nid);crtg_url+='&cookieName='+escape(crtg_cookiename);</p>
+<p>crtg_url+='&rnd='+crtg_rnd;crtg_url+='&varName=crtg_content';</p>
+<p>var crtg_script=document.createElement('script');</p>
+<p>crtg_script.type='text/javascript';</p>
+<p>crtg_script.src=crtg_url;</p>
+<p>crtg_script.async=true;</p>
+<p>if(document.getElementsByTagName("head").length>0)</p>
+<p>    document.getElementsByTagName("head")[0].appendChild(crtg_script);</p>
+<p>else if(document.getElementsByTagName("body").length>0)</p>
+<p>    document.getElementsByTagName("body")[0].appendChild(crtg_script); </p>
+<p>    </p>
+<p>    </p>
+<p>    advertising_context = 'Unknown';</p>
+<p>    jobs_oas_querystring = '';</p>
+<p>    cars_oas_querystring = '';</p>
+<p>    weather_context = 'rain';</p>
+<p>    search_context = encodeURI(''.toLowerCase().replace(/"/g,''));</p>
+<p>    OAS_query = '';</p>
+<p>    if(advertising_context.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += '&context='+advertising_context; // yes, not HTTP-spec</p>
+<p>    }</p>
+<p>    if(search_context.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += '&site_search='+search_context; </p>
+<p>    }</p>
+<p>    </p>
+<p>    if(weather_context.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += '&weather='+weather_context;</p>
+<p>    }</p>
+<p>    if(jobs_oas_querystring.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += jobs_oas_querystring</p>
+<p>    }</p>
+<p>    if(cars_oas_querystring.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += cars_oas_querystring</p>
+<p>    }</p>
+<p>    if(audienceScienceSegments.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += '&asSegements='+audienceScienceSegments;</p>
+<p>    }</p>
+<p>    if(quantSegs.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += '&qcSegements='+quantSegs;</p>
+<p>    }</p>
+<p>    if(crtg_content.length > 0)</p>
+<p>    {</p>
+<p>       OAS_query += '&crtSegements='+crtg_content;</p>
+<p>    }</p>
+<p>    OAS_url = 'http://oas.newsquestdigital.co.uk/RealMedia/ads/';</p>
+<p>    OAS_sitepage = 'www.basingstokegazette.co.uk' +  window.location.pathname;</p>
+<p>    if (OAS_sitepage.charAt(OAS_sitepage.length - 1) == '/')</p>
+<p>    {</p>
+<p>        OAS_sitepage += 'index.php';</p>
+<p>    }</p>
+<p>    OAS_sitepage = OAS_sitepage.replace('--','');</p>
+<p>    OAS_listpos = checkOasPositions('Bottom2,Bottom,Frame2,Frame1,Top,Position1,TopRight,Top3,x82,Right,Right1,Right2,Right3,Top2,x40,x41,x42,x43,x60,x61,x62,x63,x64,x65,x67,x68,x69,Left2');</p>
+<p>    OAS_version = 10;</p>
+<p>    OAS_rn = new String (Math.random());</p>
+<p>    OAS_rns = OAS_rn.substring (2, 11);</p>
+<p>    function OAS_NORMAL(pos)</p>
+<p>    {</p>
+<p>            document.write('<a href="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos +'?' + OAS_query + '">');</p>
+<p>            document.write('<img src="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos +'?' + OAS_query + '" alt="" /><'+'/a>');</p>
+<p>    }</p>
+<p>    OAS_version = 11;</p>
+<p>    if (navigator.userAgent.indexOf('Mozilla/3') != -1 || navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)</p>
+<p>    {</p>
+<p>        OAS_version = 10;</p>
+<p>    }</p>
+<p>    if (OAS_version >= 11) </p>
+<p>    {</p>
+<p>        document.write('<scr' + 'ipt type="text/javascript" src="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos +'?' + OAS_query + '"><\/scr' + 'ipt>');</p>
+<p>    }</p>
+<p>    function OAS_AD(pos)</p>
+<p>    {</p>
+<p>        if (OAS_version >= 11)</p>
+<p>        {</p>
+<p>            OAS_RICH(pos);</p>
+<p>        }</p>
+<p>        else</p>
+<p>        {</p>
+<p>            OAS_NORMAL(pos);</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function do_dp_ad()</p>
+<p>    {</p>
+<p>        //compat with m5</p>
+<p>    }</p>
+<p> OAS_AD('Bottom2'); </p>
+<p> OAS_AD('Bottom'); </p>
+<p> OAS_AD('Frame2'); </p>
+<p> OAS_AD('Frame1'); </p>
+<p> OAS_AD('Top'); </p>
+<p> OAS_AD('Position1'); </p>
+<p> OAS_AD('TopRight'); </p>
+<p> OAS_AD('Top3'); </p>
+<p> OAS_AD('x82'); </p>
+<p> OAS_AD('Right'); </p>
+<p> OAS_AD('Right1'); </p>
+<p> OAS_AD('Right2'); </p>
+<p> OAS_AD('Right3'); </p>
+<p> OAS_AD('Top2'); </p>
+<p> OAS_AD('x40'); </p>
+<p> OAS_AD('x41'); </p>
+<p> OAS_AD('x42'); </p>
+<p> OAS_AD('x43'); </p>
+<p> OAS_AD('x60'); </p>
+<p> OAS_AD('x61'); </p>
+<p> OAS_AD('x62'); </p>
+<p> OAS_AD('x63'); </p>
+<p> OAS_AD('x64'); </p>
+<p> OAS_AD('x65'); </p>
+<p> OAS_AD('x67'); </p>
+<p> OAS_AD('x68'); </p>
+<p> OAS_AD('x69'); </p>
+<p> OAS_AD('Left2'); </p>
+<p>    delayOAS();</p>
+<p>E10918.DM_tag();</p>

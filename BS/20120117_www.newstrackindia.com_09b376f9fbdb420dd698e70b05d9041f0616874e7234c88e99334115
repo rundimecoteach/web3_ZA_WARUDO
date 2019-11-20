@@ -1,0 +1,221 @@
+<p>function checkEmail(email) {</p>
+<p>	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){</p>
+<p>	return (true)</p>
+<p>	}</p>
+<p>	alert("Please enter correct e-mail")</p>
+<p>	return (false);</p>
+<p>}</p>
+<p>function validateForm(theForm){</p>
+<p>		</p>
+<p>	if(theForm.name.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your name!");</p>
+<p>		theForm.name.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(theForm.email.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your email address!");</p>
+<p>		theForm.email.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(checkEmail(theForm.email.value) == false){</p>
+<p>		theForm.email.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(theForm.phno.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your phone no!");</p>
+<p>		theForm.phno.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	</p>
+<p>	if(theForm.commentText.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your Comment here!");</p>
+<p>		theForm.commentText.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	</p>
+<p>	return true;</p>
+<p>}</p>
+<p>var min=8;</p>
+<p>var max=18;</p>
+<p>function increaseFontSize() {</p>
+<p>   var p = document.getElementsByTagName('p');</p>
+<p>   for(i=0;i<p.length;i++) {</p>
+<p>      if(p[i].style.fontSize) {</p>
+<p>         var s = parseInt(p[i].style.fontSize.replace("px",""));</p>
+<p>      } else {</p>
+<p>         var s = 12;</p>
+<p>      }</p>
+<p>      if(s!=max) {</p>
+<p>         s += 1;</p>
+<p>      }</p>
+<p>      p[i].style.fontSize = s+"px"</p>
+<p>   }</p>
+<p>}</p>
+<p>function decreaseFontSize() {</p>
+<p>   var p = document.getElementsByTagName('p');</p>
+<p>   for(i=0;i<p.length;i++) {</p>
+<p>      if(p[i].style.fontSize) {</p>
+<p>         var s = parseInt(p[i].style.fontSize.replace("px",""));</p>
+<p>      } else {</p>
+<p>         var s = 12;</p>
+<p>      }</p>
+<p>      if(s!=min) {</p>
+<p>         s -= 1;</p>
+<p>      }</p>
+<p>      p[i].style.fontSize = s+"px"</p>
+<p>   }   </p>
+<p>}</p>
+<p>Exponents slam New York Times' 'Yoga can damage your body' article</p>
+<p>		</p>
+<p>		Tue, Jan 17, 2012</p>
+<p> <!--</p>
+<p>   e9 = new Object();</p>
+<p>   e9.size = "728x90,468x60";</p>
+<p>   e9.noAd = 1;</p>
+<p>//--></p>
+<p>    </p>
+<p>  </p>
+<p>HOME |</p>
+<p>SOCIETY |  WORLD  |  ECONOMY |  SPORTS  |  </p>
+<p>SCI-TECH  |  EDITORIAL  |  FEATURES  |  HUMOUR  |  HEALTH |  LIFE STYLE  |  ARTS-CULTURE  |  ENTERTAINMENT  |  SPECIAL</p>
+<p>Search</p>
+<p>Look for:</p>
+<p>				   Last 1 Month</p>
+<p>				   Last 6 Months</p>
+<p>				   All time</p>
+<p>				</p>
+<p>TOP SEARCHES:</p>
+<p>							 </p>
+<p>							</p>
+<p>UGC,</p>
+<p>							</p>
+<p>Delhi,</p>
+<p>							</p>
+<p>Maharashtra,</p>
+<p>							</p>
+<p>Rajasthan,</p>
+<p>							</p>
+<p>Mumbai,</p>
+<p>							</p>
+<p>Karnataka,</p>
+<p>							</p>
+<p>Agra,</p>
+<p>							</p>
+<p>Police,</p>
+<p>							</p>
+<p>inflation,</p>
+<p>							</p>
+<p>ICICI Bank,</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p>           </p>
+<p> </p>
+<p> </p>
+<p>           </p>
+<p>OTHER TOP STORIES</p>
+<p>Manipur journalists condemn threats to media from insurgents</p>
+<p>X-ray of rare Shiva statue surprises Amsterdam museum</p>
+<p>Stacy Keibler signed up by famous talent agency</p>
+<p>India, China set up working mechanism to resolve boundary issues</p>
+<p>Jodie Marsh wants another boob job despite worrying over PIP </p>
+<p>'Multicolored hair band' lands tennis star Laura Robson in gay rights controversy</p>
+<p><!--</p>
+<p>google_ad_client = "pub-8521061892309803";</p>
+<p>//200x200, created 1/11/08</p>
+<p>google_ad_slot = "3713164742";</p>
+<p>google_ad_width = 200;</p>
+<p>google_ad_height = 200;</p>
+<p>//--></p>
+<p>More from this section</p>
+<p>Prenatal alcohol exposure can lead to abnormalities in offspring</p>
+<p>Doubts cast over HRT link to breast cancer </p>
+<p>Internet could help nurses treat obesity: Southampton Varsity study</p>
+<p>Vitamin D pills may help prevent blindness in elders</p>
+<p>Gaming may be a coping mechanism for depression </p>
+<p>Prenatal alcohol exposure can lead to abnormalities in offspring</p>
+<p><!--</p>
+<p>google_ad_client = "pub-8521061892309803";</p>
+<p>//160x600, created 1/11/08</p>
+<p>google_ad_slot = "1829600949";</p>
+<p>google_ad_width = 160;</p>
+<p>google_ad_height = 600;</p>
+<p>//--></p>
+<p>Home</p>
+<p>::</p>
+<p>Health</p>
+<p>Exponents slam New York Times' 'Yoga can damage your body' article</p>
+<p>London,</p>
+<p>Sun, 15 Jan 2012</p>
+<p>ANI</p>
+<p>London, Jan 15 (ANI): 'Yoga can damage your body' article in the New York Times has thrown its exponents off-balance and outraged a 5illion dollars by saying that the keep fit regime is bad for the body. This article was published on guardian.co.uk on Saturday 14 January 2012 and a version appeared on p26 of the Main section section of the Observer on Sunday 15 January 2012. One of the most common sights in New York is slim, young professional women scurrying across the city with rolled-up yoga mats under theirrms and determined looks, cramming in a dawn or lunchtime session between power moves in the office. So perhaps it should come as no surprise that an incendiary magazine piece in the New York Times, under the headline, 'How yoga can wreck your body', has turned the usually chilled community of yoga-lovers upside down. In the US, and perhaps even in Britain, where an estimated million people practice regularly, yoga may never be theame again. The offending article, which appeared across several pages of the paper's prestigious Sunday magazine, was written by senior science writer William Broad. In it, he alleged that students and even "celebrated teachers" were injuring themselves "in droves" by over-ambitious and under-taught yoga moves. He also quoted at length the views of local yoga veteran Glenn Black, who seriously hurt his back after years of practice. According to Black, "the vast majority of people should give up yoga altogether"ecause it's too likely to cause them serious damage. The result has been acrimony, recrimination and a ferocious backlash from representatives of a 5 billion dollars-plus industry in Americaith an estimated 20 million followers - five times more than 10 years ago. Drivel, sensationalism, disgraceful hype, bizarre and misleading were just some of the criticisms posted online and expressed to thebserver. After more than 700 comments had been posted on the New York Times website, there was no room for more. The well-known Ashtanga New York group retaliated with an article on its own website entitled "How the New York Times can wreck yoga". Meanwhile, the controversy has quickly become the talk of the hundreds of studios all over the city and the hundreds of thousands beyond. "I'm shocked. Yoga transformed my life and I love going to practise - it's made me healthier and much calmer and my body feels more alive," the Guardian quoted Susan Davies, a software designer as saying. "I'm more balanced and yet more assertive and efficient at work - my friends who do yoga say the same," she said. "The controversy is massive. People in the circles I run in are going crazy, because lots of people who were going to try yoga - the peopleou can bring in and heal - are going to be afraid now and they'll think yoga's bad. That's so tragic and angering," Paula Tulsi, whouns the Manhattan practice Reflections Yoga, said. Tales of yoga disasters are not difficult to find in New York. Arts administrator Elizabeth Bennett, 45, slipped a disc in her neck aftereing "bullied" into a headstand at a New York yoga studio. "When I hesitated, he called me a wimp. There are too many teachers who push unwitting students too far to serve their own egos," sheaid. Despite having health insurance, she ended up spending about 8,000 dollars of her own money on acupuncture and months of physiotherapyntil she was pain-free again. Bennett added that people trust yoga and rely on it as a source of healing, not injury, but are nowearning to be a lot more sceptical and discerning in their choice of studio. The $5 community class, like many, simply had a leader to mimic, with no expert correction of students' postures or warnings about injuriesr not pushing one's limits. In an industry where there is cursory certification and no official licensing, yoga teachers can becomequalified" with a 200-hour online course. "Many teachers are coming out of training and don't even know the three different hamstring muscles," Emilia Conradson, who branched outrom teaching the Forrest school of yoga into her own therapy business Body In Balance in New York, said. "Their understanding of anatomy is laughable, and yet yoga is about the physical as well as the spiritual and needs to be safe," she said. Other experts blame the "westernisation" of yoga as more of a workout than a holistic practice. Even Tulsi, while furious at the inflammatory nature of Broad's attack, does admit that the debate is timely. "It's not yoga, it's the bad translation or teaching of yoga that's the problem," she said. After a row that threatened to throw one of America's favourite middle-class leisure pursuits off balance the lesson for devotees islear - take care and take your time when choosing your next yoga class. (ANI) </p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* 336x280-bottom-1 */</p>
+<p>google_ad_slot = "7119820977";</p>
+<p>google_ad_width = 336;</p>
+<p>google_ad_height = 280;</p>
+<p>//--></p>
+<p>RELATED STORIES</p>
+<p>Exponents slam New York Times' 'Yoga can damage your body' article. </p>
+<p>Exponents slam New York Times' 'Yoga can damage your body' article. </p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* bottom-link-1 */</p>
+<p>google_ad_slot = "2530436883";</p>
+<p>google_ad_width = 468;</p>
+<p>google_ad_height = 15;</p>
+<p>//--></p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* bottom-link-1 */</p>
+<p>google_ad_slot = "2530436883";</p>
+<p>google_ad_width = 468;</p>
+<p>google_ad_height = 15;</p>
+<p>//--></p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* bottom-link-1 */</p>
+<p>google_ad_slot = "2530436883";</p>
+<p>google_ad_width = 468;</p>
+<p>google_ad_height = 15;</p>
+<p>//--></p>
+<p>MORE...</p>
+<p>Top Searches.</p>
+<p>Social bookmark this page</p>
+<p>  addthis_url    = location.href;   </p>
+<p>  addthis_title  = document.title;  </p>
+<p>  addthis_pub    = 'newstrackindia';     </p>
+<p>Comment Details</p>
+<p>HOME |</p>
+<p>SOCIETY |  </p>
+<p>WORLD  |  </p>
+<p>ECONOMY |  </p>
+<p>SPORTS  |  </p>
+<p>SCI-TECH  |  </p>
+<p>EDITORIAL  |  </p>
+<p>FEATURES  |  </p>
+<p>HUMOUR  |  </p>
+<p>HEALTH |  </p>
+<p>LIFE STYLE  |  </p>
+<p>ARTS-CULTURE  |  </p>
+<p>ENTERTAINMENT  |  </p>
+<p>SPECIAL</p>
+<p>Careers | </p>
+<p>Privacy Policy | </p>
+<p>Feedback | </p>
+<p>About Us | </p>
+<p>Contact Us |</p>
+<p>|</p>
+<p>Latest News</p>
+<p>Copyright © 2011 NEWS TRACK India All rights reserved.</p>
+<p>_uacct = "UA-287488-2";</p>
+<p>urchinTracker();</p>
+<p>var dc_AdLinkColor = 'blue' ;</p>
+<p>var dc_UnitID = 14 ;</p>
+<p>var dc_PublisherID = 31247 ;</p>
+<p>var dc_adprod = 'ADL' ;</p>

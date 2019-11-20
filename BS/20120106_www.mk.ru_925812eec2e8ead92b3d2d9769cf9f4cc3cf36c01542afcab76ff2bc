@@ -1,0 +1,690 @@
+<p>Еврокомиссия предупредит страны, где продавались имплантаты Poly, об их плохом качестве - Новости общества и общественной жизни - МК</p>
+<p>  {lang: 'ru'}</p>
+<p>		var user_login;</p>
+<p>		userStatus(false);</p>
+<p>	</p>
+<p>		FB.init({</p>
+<p>			appId: 317926728255909, status: true,  cookie: true, xfbml: true, oauth: true});</p>
+<p>	</p>
+<p>	  VK.init({apiId: 2828576, nameTransportPath: '/xd_receiver.html'});</p>
+<p>	</p>
+<p> </p>
+<p>body {</p>
+<p>	background: url('/i/brand/diva/fon.jpg') !important;</p>
+<p>	background-position: center top !important;</p>
+<p>	background-attachment:fixed !important;</p>
+<p>	background-repeat: no-repeat !important;</p>
+<p>}</p>
+<p><!--</p>
+<p>new Image().src = "//counter.yadro.ru/hit;mk?r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";h"+escape(document.title.substring(0,80))+</p>
+<p>";"+Math.random();//--></p>
+<p>var img = new Image();</p>
+<p>img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*mk_ru/ru/CP1251/tmsec=mk_total/';</p>
+<p> var openstat = { counter: 1124673, next: openstat , track_links: "all" }; document.write(unescape("%3Cscript%20src=%22http" +</p>
+<p>(("https:" == document.location.protocol) ? "s" : "") +</p>
+<p>"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </p>
+<p>(function (d, w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter1598573 = new Ya.Metrika({id:1598573, enableAll: true, webvisor:true});</p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>    </p>
+<p>    var n = d.getElementsByTagName("script")[0],</p>
+<p>        s = d.createElement("script"),</p>
+<p>        f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>    if (w.opera == "[object Opera]") {</p>
+<p>        d.addEventListener("DOMContentLoaded", f);</p>
+<p>    } else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>
+<p>16+</p>
+<p>MK.RU</p>
+<p>МК ТВ</p>
+<p>АвтоВзгляд.ру</p>
+<p>Охотники.ру</p>
+<p>WomanHit.ru</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=25672&bn=2&target=blank&bt=36&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=728 height=90 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p> </p>
+<p>АрхангельскБарнаулБлаговещенскВладивостокВладимирВолгоградВологдаВоронежДагестанЕкатеринбургИвановоИжевскИркутскЙошкар-ОлаКазаньКарелияКировКостромаКраснодарКрасноярскМагаданНальчикНижний НовгородНовосибирскОмскОрелОренбургПермьРостов-на-ДонуРязаньСаратовСерпуховСмоленскСочиСтаврополь (Кавказ)ТамбовТверьТомскТулаТюменьУлан-УдэУфаХабаровскЧебоксарыЧелябинскЮграЯрославльМоскваСанкт-ПетербургГерманияГрецияКазахстанИзраильТурцияСШАВсе регионы... </p>
+<p>9 апреля</p>
+<p>вторник</p>
+<p>в Москве  23:54 </p>
+<p>регионы</p>
+<p>					$("#rh_reg_win").hide();</p>
+<p>					$("#rh_reg_button").click(function(){</p>
+<p>					</p>
+<p>						if ($("#rh_reg_button").hasClass('rh_reg_button')) {</p>
+<p>							$("#rh_reg_button").removeClass('rh_reg_button');</p>
+<p>							$("#rh_reg_button").addClass('rh_reg_button2');</p>
+<p>						} else {</p>
+<p>							$("#rh_reg_button").removeClass('rh_reg_button2');</p>
+<p>							$("#rh_reg_button").addClass('rh_reg_button');					</p>
+<p>						}</p>
+<p>						$("#rh_reg_win").fadeToggle("fast");</p>
+<p>					});</p>
+<p>				</p>
+<p>войти  |  </p>
+<p>									регистрация</p>
+<p> </p>
+<p>Новости</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Происшествия</p>
+<p>Общество</p>
+<p>Культура</p>
+<p>Наука</p>
+<p>Спорт</p>
+<p>Свежий МК</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=25672&bn=1&target=blank&bt=43&pz=0&tail256=');</p>
+<p> </p>
+<p>Здоровье</p>
+<p>Мегаполис</p>
+<p>Мельман-ТВ</p>
+<p>Образование</p>
+<p>Правосудие</p>
+<p>Светская жизнь</p>
+<p>Семья</p>
+<p>Москва</p>
+<p>Подмосковье</p>
+<p>Рейтинги</p>
+<p>Авторы</p>
+<p>Блоги</p>
+<p>Фото</p>
+<p>Пресс-центр</p>
+<p>Опросы</p>
+<p>Карикатуры Меринова</p>
+<p>Умерла Маргарет Тэтчер</p>
+<p>КНДР угрожает войной</p>
+<p>Новый Папа Римский</p>
+<p>Скандал с депутатом Исаевым</p>
+<p>Банковский кризис на Кипре</p>
+<p>Все сюжеты</p>
+<p> </p>
+<p>По теме</p>
+<p>Путин пообещал скостить долг Кипру</p>
+<p>А чиновники из Никосии больше не будут летать первым классом</p>
+<p>Кипр может повысить “несправедливый” налог до 15,6%</p>
+<p>Но небольшие вклады он не затронет</p>
+<p>К делу «Газпрома» подключили тяжелую артиллерию</p>
+<p>Госмонополию решил защитить лично президент Владимир Путин</p>
+<p>Европа начала копать под “Газпром”</p>
+<p>ЕК начала расследование против российского монополиста</p>
+<p>Европейцы перестанут седеть</p>
+<p>При виде счетов за роуминг</p>
+<p> </p>
+<p>Общество</p>
+<p>О детях — хорошо или ничего</p>
+<p>Злоба дня</p>
+<p>"Википедия" не будет подчиняться давлению "слабых и трусливых политиков"</p>
+<p>Основатель интернет-энциклопедии Джимми Уэйлс прокомментировал угрозу закрытия портала в России</p>
+<p>18 новых улиц в Москве назвали в честь старых</p>
+<p>Следующие безымянные улицы получат имена героев</p>
+<p>Компании группы «Аэрофлот» вновь достигли успеха на премии «Крылья России»</p>
+<p>Компании группы «Аэрофлот» стали победителями в основных номинациях национальной авиационной премии «Крылья России» по итогам 2012 года. Торжественная церемония награждения прошла в понедельник в отеле «Ренессанс Москва Монарх Центр».</p>
+<p> </p>
+<p>Фото</p>
+<p>Старт экспедиции Федора Конюхова и Виктора Симонова с Северного полюса </p>
+<p>Итоги недели моды: зима будет голой</p>
+<p>Парк «Кузьминки» уходит от пикникового имиджа</p>
+<p>Заседание коллегии Министерства финансов Российской Федерации</p>
+<p>Новости</p>
+<p>23:29</p>
+<p>В Сербии объявлен общенациональный день траура в связи с убийством 13 человек в селе Велика-Иванча</p>
+<p>23:09</p>
+<p>США призывают найти виновных в нападении на Михаила Бекетова</p>
+<p>21:17</p>
+<p>Проход журналистов на суд над Навальным будет осуществляться в порядке живой очереди</p>
+<p>17:52</p>
+<p>Пресс-служба "ВКонтакте" опровергает сообщения, что за рулем Mercedes, сбившим полицейского, был Павел Дуров</p>
+<p>Видео</p>
+<p>Украинского депутата Колесниченко забрасывают свежими фекалиями</p>
+<p>Коммунисты ставят мат министру образования, пока Ливанов материт своего зама   </p>
+<p>Путин в Амстердаме - про геев, однополые браки в Чечне, колбасу, сало и прелести FEMEN.</p>
+<p>Мы все, как и Путин, против мата и других сомнительных слов. Винни-Пух с цензурой.</p>
+<p>  </p>
+<p>Еврокомиссия предупредит страны, где продавались имплантаты Poly, об их плохом качестве</p>
+<p>печать</p>
+<p>комментарии</p>
+<p>текст</p>
+<p>Как сообщил представитель ЕК Фредерик Вансен, Еврокомиссия намерена информировать третьи страны о ситуации с некачественными силиконовыми грудными имплантатами, произведенными французской компанией Poly Implant Prothese (PIP). "Согласно оценкам, в третьи страны были экспортированы несколько десятков тысяч этих протезов", - сказал Вансен.</p>
+<p>На долю продукции компании приходилось 84% мирового рынка. Некачественные грудные имплантаты Poly были проданы в 65 странах, в том числе в России и Белоруссии. По словам представителя ЕК, носителями произведенных PIP грудных имплантатов во Франции являются около 30 тысяч женщин, в Великобритании - от 40 до 50 тысяч. По данным Франс Пресс, во всем мире эти недорогие по цене имплантаты носят от 400 тысяч до 500 тысяч женщин.</p>
+<p>В ноябре 2011 года во Франции скончалась первая женщина, которой ранее были вставлены имплантаты французской компании. Сообщалось, что у нее развился рак груди. Основатель PIP Жан-Клод Мас объявлен Интерполом в международный розыск.  </p>
+<p>									</p>
+<p>										источник:</p>
+<p>											РИА Новости</p>
+<p>																			теги:</p>
+<p>																							еврокомиссия, 																											импланты</p>
+<p>материал размещен 5 января 2012 в 18:15, просмотров: 5377 </p>
+<p>		#share_form2 table td {padding:0;}</p>
+<p>		#export-preview2 img {border:none;}</p>
+<p>		#export-preview2 table {margin-left:10px; border:1px solid silver;}</p>
+<p>		#export-preview2 td {padding:5px !important;}</p>
+<p>		</p>
+<p><!--</p>
+<p>					document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));</p>
+<p>					--></p>
+<p>Tweet</p>
+<p>Серф</p>
+<p>5 января 2012 г. 18:15Еврокомиссия предупредит страны, где продавались имплантаты Poly, об их плохом качествеЧитать дальше...</p>
+<p>Опубликуйте анонс материала в вашем блоге или скопируйте код для вставки.</p>
+<p>5 января 2012 г. 18:15</p>
+<p>Еврокомиссия предупредит страны, где продавались имплантаты Poly, об их плохом качестве</p>
+<p>Читать дальше...</p>
+<p>SMI2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/10171.js'; sc.charset = 'windows-1251';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>Россия потеряла Илью Резника"</p>
+<p>Николай Агурбаш назначил дату свадьбы</p>
+<p> Заворотнюк рассказала всю правду о разводе</p>
+<p> У Пугачевой и Кузьмина есть сын</p>
+<p> </p>
+<p> </p>
+<p>						$(document).ready(function() {</p>
+<p>							articleLeftBlocks ()</p>
+<p>						}); </p>
+<p>					</p>
+<p>24SMI</p>
+<p>    (function() {</p>
+<p>    var sm = document.createElement("script");</p>
+<p>    sm.type = "text/javascript";</p>
+<p>    sm.async = true;</p>
+<p>    sm.src = "http://jsn.24smi.org/i/m/k/mk.ru.1541.js";</p>
+<p>    var s = document.getElementsByTagName("script")[0];</p>
+<p>    s.parentNode.insertBefore(sm, s);})();</p>
+<p> </p>
+<p>			 </p>
+<p>		</p>
+<p> </p>
+<p>		var comments_owner_type = 1;</p>
+<p>		var element_id = 658554;</p>
+<p>		var show_count = 10;</p>
+<p>		var allow_add_comment = 1;</p>
+<p>		var comments_start_index = 0;</p>
+<p>		var comments_count = 0;</p>
+<p>		var last_reply_element = null;</p>
+<p>		var last_reply_parent_id = null;</p>
+<p>		var comments_view_type = 'list';</p>
+<p>	</p>
+<p>Оставьте ваш комментарий</p>
+<p>Войдите или </p>
+<p>									зарегистрируйте уникальное имя и аватар!</p>
+<p>								</p>
+<p>Правила комментирования</p>
+<p>Ваше мнение</p>
+<p> </p>
+<p>		var url = window.location.href, tmp;</p>
+<p>		if (url.indexOf('#start') > 0) {</p>
+<p>			tmp = show_count;</p>
+<p>			show_count = parseInt(url.substring(url.indexOf('#start=')+7, url.length));</p>
+<p>			getMoreComments(tmp);</p>
+<p>		}</p>
+<p>	</p>
+<p>                                                          </p>
+<p>                                                          </p>
+<p>                                                          </p>
+<p>                                                          </p>
+<p>                                                          </p>
+<p>                                                          </p>
+<p>						</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=25672&bn=2&target=blank&bt=22&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=400 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p> </p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="' + ('https:' == document.location.protocol ? 'https:' : 'http:') + '//ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=25672&bn=1&target=blank&w=240&h=80&bt=26&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=80 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p> </p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=25672&bn=2&target=blank&bt=26&w=240&h=80&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=80 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=25672&bn=3&target=blank&bt=26&w=240&h=80&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=80 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>yandex_partner_id = 19417;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_stat_id = 40864;</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1;</p>
+<p>yandex_direct_type = 'flat';</p>
+<p>yandex_direct_limit = 2;</p>
+<p>yandex_direct_title_font_size = 2;</p>
+<p>yandex_direct_title_color = '1A6290';</p>
+<p>yandex_direct_url_color = '940F04';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '940F04';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p> </p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=25672&bn=3&target=blank&bt=22&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=400 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Сегодня смотрят</p>
+<p>1:14</p>
+<p>				 	</p>
+<p>				5924</p>
+<p>Украинского депутата Колесниченко забрасывают свежими фекалиями</p>
+<p>опрос</p>
+<p>Спасибо за Ваше мнение!</p>
+<p>Все опросы</p>
+<p>Автовзгляд</p>
+<p>«Ночных волков» защищает Кремль и патриархия?</p>
+<p>Следственные органы не торопятся разбираться в конфликте двух байкерских объединений</p>
+<p>Фото Maserati Ghibli появились в Сети</p>
+<p>Изображения нового седана бизнес-класса опубликовали до премьеры</p>
+<p>Российский авторынок все-таки упал</p>
+<p>В первом квартале 2013 года продажи новых автомобилей упали на 4%</p>
+<p>«Mercedes-Benz», «Audi», BMW: битва богов</p>
+<p>Гонка «большой немецкой тройки» за первое место в мировом табеле о рангах в премиум-сегменте стала бескомпромиссной </p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date();</p>
+<p>var dl = escape(document.location);</p>
+<p>var pr1 = Math.floor(Math.random() * 1000000);//var pr1 = 1234;</p>
+<p> </p>
+<p>function AdWolf_SetLayerVis(spritename,state){document.getElementById(spritename).style.visibility=state;}</p>
+<p>function AdWolf_ShowOver(show){if(show){AdWolf_SetLayerVis('AdWolf_DivBaseFlash',"hidden"); AdWolf_SetLayerVis('AdWolf_DivOverFlash',"visible");}else{AdWolf_SetLayerVis('AdWolf_DivOverFlash',"hidden"); AdWolf_SetLayerVis('AdWolf_DivBaseFlash',"visible");}}</p>
+<p>function AdWolf_Open(){AdWolf_ShowOver(true);}</p>
+<p>function AdWolf_Close(){AdWolf_ShowOver(false);}</p>
+<p> </p>
+<p>document.write('<div id="AdWolf_banner_'+pr1+'"><\/div>');</p>
+<p>document.write('<div style="visibility:hidden; position:absolute;"><iframe id="AdWolf_iframe_'+pr1+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');</p>
+<p> </p>
+<p>function AdWolf_getCodeScript(AW_n,AW_src){</p>
+<p>   var AW_doc;</p>
+<p>   if(AW_n<10){</p>
+<p>      try{</p>
+<p>	     if(document.all && !window.opera){</p>
+<p>		    AW_doc = window.frames['AdWolf_iframe_'+pr1].document;</p>
+<p>			}else if(document.getElementById){</p>
+<p>			         AW_doc = document.getElementById('AdWolf_iframe_'+pr1).contentDocument;</p>
+<p>					 }</p>
+<p>		 }catch(e){}</p>
+<p>    if(AW_doc){</p>
+<p>	   AW_doc.write('<scr'+'ipt type="text/javascript" src="'+AW_src+'"><\/scr'+'ipt>');</p>
+<p>	   }else{</p>
+<p>	      setTimeout('AdWolf_getCodeScript('+(++AW_n)+','+AW_src+')', 100);</p>
+<p>		  }</p>
+<p>		  }</p>
+<p>}</p>
+<p>AdWolf_getCodeScript(1,'http://a.adwolf.ru/prepareCode?p1=bce&p2=m&pct=a&pfc=a&pfb=a&plp=a&pli=a&pop=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '&puid1=&puid2=&puid3=&dl='+dl+'&pr1='+pr1);</p>
+<p>// --></p>
+<p>Partner</p>
+<p>Главное</p>
+<p>В колледже Техаса студент устроил кровавую резню</p>
+<p>Ранены не менее 15 человек</p>
+<p>										</p>
+<p>									В 11:20 утра (когда в Москве было 20:20) в американском колледже Lone Star близ Хьюстона разыгралась кровавая драма. Студент с ножом стал нападать на людей и ранил не менее 15 человек. Сейчас он задержан, 12 человек госпитализированы. Но в здании может оставаться второй подозреваемый, хотя полиция считает, что преступник действовал один.								</p>
+<p>Пресс-секретарь Вконтакте от вопроса про сбитого инспектора ДПС отделался анекдотом</p>
+<p>История про наезд «Мерседеса» с блатными номерами на полицейского и Павлом Дуровым обросла циничными подробностями</p>
+<p>										</p>
+<p>									Скандалы не оставляют основателя сети ВКонтакте Павла Дурова. Несколько дней назад «Новая газета» опубликовала переписку пресс-секретаря Вконтакте Владислава Цыплухина, которая свидетельствовала о контактах с Кремлем по поводу дискредитации оппозиционных политиков в соцсети. Теперь же в Петербурге белый «Мерседес» наехал на инспектора ДПС, а водитель скрылся. Тот же самый «Мерседес» засветился во флэшмобе с Павлом Дуровым...</p>
+<p>								</p>
+<p>Смерть Маргарет Тэтчер привела к столкновениям в Британии</p>
+<p>Десятки молодых англичан цинично празднуют кончину бывшего премьер-министра</p>
+<p>										</p>
+<p>									...Смотрю на телеэкран и не верю своим глазам. На центральной площади одного из крупнейших британских городов толпа из нескольких десятков пляшущих, гримасничающих и визжащих от радости молодых людей. 								</p>
+<p>Украинского слугу народа забросали свежими фекалиями</p>
+<p>Депутат Верховной Рады Вадим Колесниченко поплатился за популяризацию русского языка?</p>
+<p>										</p>
+<p>									Киев от души потешается над выходкой некой девушки, пробравшейся на пресс-конференцию депутата Верховной Рады Вадима Колесниченко с двумя пакетами... с экскрементами. 								</p>
+<p>"Википедия" не будет подчиняться давлению "слабых и трусливых политиков"</p>
+<p>Основатель интернет-энциклопедии Джимми Уэйлс прокомментировал угрозу закрытия портала в России</p>
+<p>										</p>
+<p>									Основатель "Википедии", директор компании Wikia Джимми Уэйлс сделал заявление по поводу угроз Роскомнадзора закрыть портал из-за неугодных статей. Он заявил, что блокировка всегда предпочтительнее, чем уступки цензорам. Кроме этого "Википедия" опровергла сообщения, что отредактировала статью по просьбе российских чиновников.								</p>
+<p>Imagine Cup едет в Россию!</p>
+<p>В июле 2013 года в нашей стране впервые пройдет финал престижного конкурса, проводимого при поддержке Microsoft</p>
+<p>										</p>
+<p>									Крупнейший в мире ежегодный студенческий технологический конкурс Imagine Cup проводится с 2003 года. За это время в нём приняло более 1,65 млн. студентов со всего мира.								</p>
+<p>Самые читаемые</p>
+<p> </p>
+<p>1</p>
+<p>52498</p>
+<p>Скрытый гной</p>
+<p> </p>
+<p> </p>
+<p>2</p>
+<p>49391</p>
+<p>Откуда взялся путинский миллиард долларов</p>
+<p> </p>
+<p> </p>
+<p>3</p>
+<p>40714</p>
+<p>Колоноскопы Отечества</p>
+<p> </p>
+<p> </p>
+<p>4</p>
+<p>37780</p>
+<p>Борьба с коррупцией погубит Российскую Федерацию</p>
+<p> </p>
+<p> </p>
+<p>5</p>
+<p>36423</p>
+<p>"Челси" - "Рубин": Казанцы уступили лондонскому гранду</p>
+<p> </p>
+<p> </p>
+<p>6</p>
+<p>35793</p>
+<p>22.45. "Бавария" - "Ювентус" и ПСЖ - "Барселона": Онлайн-трансляция главных матчей недели </p>
+<p> </p>
+<p> </p>
+<p>7</p>
+<p>35281</p>
+<p>Жанна Фриске родила сына</p>
+<p> </p>
+<p> </p>
+<p>8</p>
+<p>34766</p>
+<p>Якубович - о скандале с «Аэрофлотом»: «Да они меня благодарить должны!» </p>
+<p> </p>
+<p> </p>
+<p>9</p>
+<p>29879</p>
+<p>Навальный: Хочу стать президентом</p>
+<p> </p>
+<p> </p>
+<p>10</p>
+<p>29842</p>
+<p>“Одноклассников” исключили из интернета</p>
+<p> </p>
+<p>Весь рейтинг</p>
+<p>Самые обсуждаемые</p>
+<p> </p>
+<p>1</p>
+<p>685</p>
+<p>Навальный: Хочу стать президентом</p>
+<p> </p>
+<p> </p>
+<p>2</p>
+<p>251</p>
+<p>Активистка FEMEN, напавшая на Путина: «Вы что, хотели бы, чтобы нас на год посадили?» </p>
+<p> </p>
+<p> </p>
+<p>3</p>
+<p>240</p>
+<p>Всех российских школьников оденут в шапочки</p>
+<p> </p>
+<p> </p>
+<p>4</p>
+<p>200</p>
+<p>Борьба с коррупцией погубит Российскую Федерацию</p>
+<p> </p>
+<p> </p>
+<p>5</p>
+<p>188</p>
+<p>Оппозиция вышла на митинг в поддержку "узников 6 мая"</p>
+<p> </p>
+<p> </p>
+<p>6</p>
+<p>179</p>
+<p>Откуда взялся путинский миллиард долларов</p>
+<p> </p>
+<p> </p>
+<p>7</p>
+<p>178</p>
+<p>Скрытый гной</p>
+<p> </p>
+<p> </p>
+<p>8</p>
+<p>175</p>
+<p>Голодец повергла в шок: 45% россиян вообще не платят налоги </p>
+<p> </p>
+<p> </p>
+<p>9</p>
+<p>172</p>
+<p>Якубович - о скандале с «Аэрофлотом»: «Да они меня благодарить должны!» </p>
+<p> </p>
+<p> </p>
+<p>10</p>
+<p>172</p>
+<p>Пипец подкрался не конкретно</p>
+<p> </p>
+<p>Весь рейтинг</p>
+<p>Партнеры</p>
+<p>24SMI</p>
+<p>    (function() {</p>
+<p>    var sm = document.createElement("script");</p>
+<p>    sm.type = "text/javascript";</p>
+<p>    sm.async = true;</p>
+<p>    sm.src = "http://jsn.24smi.org/i/m/k/mk.ru.1136.js";</p>
+<p>    var s = document.getElementsByTagName("script")[0];</p>
+<p>    s.parentNode.insertBefore(sm, s);})();</p>
+<p> </p>
+<p>		pageHasInfofooter = true;</p>
+<p>		pageId = 27;</p>
+<p>	</p>
+<p>Партнеры</p>
+<p>// <!--</p>
+<p>var zr7_login = "mk_ru";</p>
+<p>var zr7_options = "options=N";</p>
+<p>var zr7_random = Math.round(Math.random() * 100000);</p>
+<p>$('#zr-52327346237467').html ('<iframe src="http://tiz150-70.zarabotki.ru/cgi-bin/iframe/'+zr7_login+'?'+zr7_random+'&'+zr7_options+'&n=4&style=http://www.mk.ru/css/dni.css" width="100%" height="135" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://tiz150-70.zarabotki.ru/cgi-bin/href/'+zr7_login+'?'+zr7_random +'" target="_blank" ><img src="http://tiz150-70.zarabotki.ru/cgi-bin/banner/'+zr7_login+'?'+zr7_random +'&'+zr7_options+'" alt="Zarabotki" width="100%" height="135" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p>  </p>
+<p>(function(w, d, n, s, t) {</p>
+<p>    w[n] = w[n] || [];</p>
+<p>    w[n].push(function() {</p>
+<p>        Ya.Direct.insertInto(19417, "yandex_ad", {</p>
+<p>            stat_id: 40322,</p>
+<p>            site_charset: "utf-8",</p>
+<p>            ad_format: "direct",</p>
+<p>            font_size: 0.9,</p>
+<p>            type: "horizontal",</p>
+<p>            limit: 4,</p>
+<p>            title_font_size: 2,</p>
+<p>            site_bg_color: "FFFFFF",</p>
+<p>            title_color: "333333",</p>
+<p>            url_color: "666666",</p>
+<p>            text_color: "000000",</p>
+<p>            hover_color: "940F04",</p>
+<p>            favicon: true</p>
+<p>        });</p>
+<p>    });</p>
+<p>    t = d.documentElement.firstChild;</p>
+<p>    s = d.createElement("script");</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.src = "http://an.yandex.ru/system/context.js";</p>
+<p>    s.setAttribute("async", "true");</p>
+<p>    t.insertBefore(s, t.firstChild);</p>
+<p>})(window, document, "yandex_context_callbacks");</p>
+<p>		</p>
+<p>				| Все регионы</p>
+<p>				| Москва</p>
+<p>				| Питер</p>
+<p>				| Казахстан</p>
+<p>				| Израиль</p>
+<p>				| Турция</p>
+<p>				| В новом свете</p>
+<p>				| Германия</p>
+<p>				</p>
+<p>			 | Архангельск | Барнаул | Благовещенск | Владивосток | Владимир | Волгоград | Вологда | Воронеж | Греция | Дагестан | Екатеринбург | Иваново | Ижевск | Иркутск | Йошкар-Ола | Казань | Карелия | Киров | Кострома | Краснодар | Красноярск | Кузбасс | Магадан | Нальчик | Нижний Новгород | Новосибирск | Омск | Орел | Оренбург | Пермь | Ростов-на-Дону | Рязань | Саратов | Серпухов | Смоленск | Сочи | Ставрополь (Кавказ) | Тамбов | Тверь | Томск | Тула | Тюмень | Улан-Удэ | Уфа | Хабаровск | Чебоксары | Челябинск | Югра | Якутия | Ярославль</p>
+<p>Вакансии</p>
+<p>Карта сайта</p>
+<p>ФОТОАРХИВ МК</p>
+<p>«РитейлМедиаГрупп»</p>
+<p>«МК-Сервис»</p>
+<p>ООО «АПП-«МК-подписка»</p>
+<p>«МК. Медиа-Сервис»</p>
+<p>Агентство «Компания ФРЕГАТ»</p>
+<p>«МК. Российский региональный еженедельник»</p>
+<p>Издания</p>
+<p>Реклама</p>
+<p>Доска объявлений Сlassifieds</p>
+<p>Подписка</p>
+<p>Контактная информация</p>
+<p>					.counters img {border:0;}</p>
+<p>					</p>
+<p>var _top100q = _top100q || [];</p>
+<p>_top100q.push(["setAccount", "209431"]);</p>
+<p>_top100q.push(["trackPageviewByLogo", document.getElementById("top100counter")]);</p>
+<p>(function(){</p>
+<p>var top100 = document.createElement("script"); top100.type = "text/javascript";</p>
+<p>top100.async = true;</p>
+<p>top100.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//st.top100.ru/pack/pack.min.js";</p>
+<p>var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(top100, s);</p>
+<p>})();</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-2395626-1");</p>
+<p>pageTracker._setDomainName("www.mk.ru");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>var pp_gemius_identifier = new String('BxZAe6dTa3Rjg_WB606vhrPW78dWemerRWwM4PV5.E..s7');</p>
+<p>//--><!]]></p>
+<p>Партнер «Рамблера»</p>
+<p> </p>
+<p>© ЗАО "Редакция газеты "Московский Комсомолец"</p>
+<p>Электронное периодическое издание «MK.ru»</p>
+<p>Зарегистрировано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор).</p>
+<p>Свидетельство  Эл № ФС77-45245</p>
+<p>Редакция - ЗАО "Редакция газеты "Московский Комсомолец".</p>
+<p>Адрес редакции: 123995, г. Москва, ул. 1905 года, д. 7, стр. 1. Телефон: +7(495)609-44-44, +7(495)609-44-33</p>
+<p>Все права на материалы, опубликованные на сайте mk.ru, принадлежат</p>
+<p>редакции и охраняются в соответствии с законодательством РФ.</p>
+<p>Использование  материалов,  опубликованных на сайте mk.ru допускается</p>
+<p>только с письменного разрешения правообладателя и с обязательной прямой гиперссылкой на</p>
+<p>страницу, с которой материал заимствован. Гиперссылка должна</p>
+<p>размещаться непосредственно в тексте, воспроизводящем оригинальный</p>
+<p>материал mk.ru, до или после цитируемого блока.</p>
+<p>				</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=175488&target=top&bt=43&pz=0&tail256=');</p>
+<p> </p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write('<img src="http://ad.adriver.ru/cgi-bin/rle.cgi?' + 'sid=25672&bn=1&bt=21&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '" border=0 width=1 height=1>')</p>
+<p>//--></p>
+<p>if (typeof (pr) == 'undefined') var pr = Math.floor(Math.random() * 1000000);</p>
+<p>if (typeof (document.referrer) != 'undefined') {</p>
+<p>    if (typeof (afReferrer) == 'undefined') afReferrer = escape(document.referrer);</p>
+<p>} else {</p>
+<p>    afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date();</p>
+<p>(function(placeholderId, bannerPosition, banWidth, banHeight, link){</p>
+<p>    var dl = escape(document.location),</p>
+<p>        placeholder = document.getElementById(placeholderId);</p>
+<p>    link += '&dl=' + dl + '&phid=' + placeholderId + '&pap1=' + bannerPosition;</p>
+<p>    function addEvent(e,t,f){</p>
+<p>        if (e.addEventListener) e.addEventListener(t, f, false);</p>
+<p>        else if (e.attachEvent) e.attachEvent('on'+t, f);</p>
+<p>    }</p>
+<p>    function removeEvent(e,t,f){</p>
+<p>        if (e.removeEventListener) e.removeEventListener(t, f, false);</p>
+<p>        else if (e.detachEvent) e.detachEvent('on'+t, f);</p>
+<p>    }</p>
+<p>    function loadScriptAdWolf(obj,src){</p>
+<p>        var createElementScript = document.createElement("script");</p>
+<p>        createElementScript.type = 'text/javascript';</p>
+<p>        createElementScript.async = true;</p>
+<p>        createElementScript.src = src;</p>
+<p>        afterPlaceholder = obj.nextSibling;</p>
+<p>        afterPlaceholder.parentNode.insertBefore(createElementScript, afterPlaceholder);</p>
+<p>    }</p>
+<p>    function getPosition(obj){</p>
+<p>        var t = 0, l = 0;</p>
+<p>        if (obj) {</p>
+<p>            while (obj.offsetParent) {</p>
+<p>                t += obj.offsetTop;</p>
+<p>                l += obj.offsetLeft;</p>
+<p>                obj = obj.offsetParent;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        return {"left":l, "top":t};</p>
+<p>    }</p>
+<p>    function getWindowGeometry() {</p>
+<p>        var cMode = document.compatMode,</p>
+<p>            ch = self.innerHeight || cMode == "CSS1Compat" && document.documentElement.clientHeight || document.body.clientHeight,</p>
+<p>            st = self.pageYOffset || cMode == "CSS1Compat" && document.documentElement.scrollTop || document.body.scrollTop,</p>
+<p>            cw = self.innerWidth || cMode == "CSS1Compat" && document.documentElement.clientWidth || document.body.clientWidth,</p>
+<p>            sl = self.pageXOffset || cMode == "CSS1Compat" && document.documentElement.scrollLeft || document.body.scrollLeft;</p>
+<p>        return {"clientHeight":ch, "clientWidth":cw, "scrollTop":st, "scrollLeft":sl};</p>
+<p>    }</p>
+<p>    function getBannerVisibility(){</p>
+<p>        var position = getPosition(placeholder),</p>
+<p>            windowGeometry = getWindowGeometry();</p>
+<p>        if ( (position.top < windowGeometry.clientHeight && position.left < windowGeometry.clientWidth) || ( (windowGeometry.scrollTop - position.top < banHeight && windowGeometry.clientHeight + windowGeometry.scrollTop > position.top) && (windowGeometry.scrollLeft - position.left < banWidth && windowGeometry.clientWidth + windowGeometry.scrollLeft > position.left) ) ) { </p>
+<p>            removeEvent(window, 'scroll', getBannerVisibility);</p>
+<p>            loadScriptAdWolf(placeholder,link);</p>
+<p>        }</p>
+<p>    }</p>
+<p>    if (placeholder) addEvent(window, 'scroll', getBannerVisibility);</p>
+<p>})('placeholderIdAdwolf40x200', 'bottom_left', 40, 200, 'http://a.adwolf.ru/prepareCode?p1=ced&p2=cd&pct=a&pfc=a&pfb=a&plp=a&pli=a&pop=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '&puid1=&puid2=&puid3=&puid5=&puid6=');</p>

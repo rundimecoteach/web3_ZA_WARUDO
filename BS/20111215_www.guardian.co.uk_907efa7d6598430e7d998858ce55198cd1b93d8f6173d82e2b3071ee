@@ -1,0 +1,1001 @@
+<p>                                        document.domain = "guardian.co.uk";</p>
+<p>                        </p>
+<p>			//<![CDATA[</p>
+<p>				OAS_url = 'http://oas.guardian.co.uk/RealMedia/ads/';</p>
+<p>				OAS_sitepage = "www.guardian.co.uk/healthcare-network/2011/dec/14/london-trusts-merger-gathers-pace/oas.html";</p>
+<p>				OAS_listpos = 'Top,Middle2,Middle1,x11,x12,x13,x14';</p>
+<p>								OAS_query = 'k=business-intelligence&k=hospitals-and-acute-care&k=healthcare-network&k=efficiency&k=england&cf=health+society&pid=&ct=article&pt=article&';</p>
+<p>				OAS_target = '_blank';</p>
+<p>				OAS_rn = '001234567890';</p>
+<p>				OAS_rns = '1234567890';</p>
+<p>				OAS_rn = new String (Math.random());</p>
+<p>				OAS_rns = OAS_rn.substring (2, 11);</p>
+<p>			//]]></p>
+<p>		</p>
+<p> London trusts merger gathers pace | Healthcare Network | Guardian Professional </p>
+<p>//<![CDATA[</p>
+<p>	if (!commonStaticRoot) {	</p>
+<p>		var commonStaticRoot = "http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/common/";</p>
+<p>	}</p>
+<p>	if (!sectionStaticRoot) {	</p>
+<p>		var sectionStaticRoot = "http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/healthcare-network/";</p>
+<p>	}</p>
+<p>	if (!staticHost) {	</p>
+<p>		var staticHost="http://www.guardian.co.uk/";</p>
+<p>	}</p>
+<p>	if (!sitePrefixUrl) {</p>
+<p>		var sitePrefixUrl = "http://www.guardian.co.uk";</p>
+<p>	}</p>
+<p>//]]></p>
+<p>.component h2</p>
+<p>{</p>
+<p>	color: #000;</p>
+<p>}</p>
+<p>.crumb-wrapper #crumb1 a </p>
+<p>{</p>
+<p>	background-image: url("http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/healthcare-network/images/crumb_1.png");</p>
+<p>}</p>
+<p>		</p>
+<p>.crumb-wrapper #crumb2 a </p>
+<p>{</p>
+<p>	background-image: url("http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/healthcare-network/images/crumb_2.png");</p>
+<p>}</p>
+<p>.crumb-wrapper #crumb3 a </p>
+<p>{</p>
+<p>	background-image: url("http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/healthcare-network/images/crumb_3.png");</p>
+<p>}</p>
+<p>.crumb-wrapper ul.related-to-crumb2 li a:focus,</p>
+<p>.crumb-wrapper ul.related-to-crumb2 li a:hover,</p>
+<p>.crumb-wrapper ul.related-to-crumb2 li a:active</p>
+<p>{</p>
+<p>	background-color: #062660;</p>
+<p>}</p>
+<p>.crumb-wrapper ul.related-to-crumb3 li a:focus,</p>
+<p>.crumb-wrapper ul.related-to-crumb3 li a:hover,</p>
+<p>.crumb-wrapper ul.related-to-crumb3 li a:active</p>
+<p>{</p>
+<p>	background-color: #062660;</p>
+<p>}</p>
+<p>    var _sf_startpt=(new Date()).getTime();</p>
+<p>window.jQuery || document.write('<script src="http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/common/scripts/libs/jquery/1.6.4/jquery.min.js">\x3C/script>')</p>
+<p>var jQ = jQuery.noConflict();</p>
+<p>	//<![CDATA[</p>
+<p>	function insertStyleSheet(href) {</p>
+<p>		var styleObject = document.createElement('link');</p>
+<p>		styleObject.setAttribute('href', commonStaticRoot + href);</p>
+<p>		styleObject.setAttribute('type', 'text/css');</p>
+<p>		styleObject.setAttribute('media', 'screen');</p>
+<p>		styleObject.setAttribute('rel', 'stylesheet');</p>
+<p>		var head = document.getElementsByTagName('head')[0];</p>
+<p>		head.appendChild(styleObject);</p>
+<p>	}</p>
+<p>	insertStyleSheet('styles/js-on.css');</p>
+<p>	insertPluckStylesheet = true;</p>
+<p>	//]]></p>
+<p>	//<![CDATA[</p>
+<p>	function init() {</p>
+<p>		urlStack.clearUrlStack();</p>
+<p>		var signOutLink = document.getElementById("sign-out");</p>
+<p>		if (signOutLink) {</p>
+<p>			signOutLink.onclick = signOut;</p>
+<p>		}</p>
+<p>		</p>
+<p>		// Purely styling</p>
+<p>		jQ('.js-show').removeClass('js-show');</p>
+<p>	}</p>
+<p>    guardian.r2.resourceRoot = "http://resource.guim.co.uk/";</p>
+<p>    var pageUrl = "http://www.guardian.co.uk/healthcare-network/2011/dec/14/london-trusts-merger-gathers-pace";</p>
+<p>    var pageSignature =  "5e0eac5ce6981ccc559fef275cdef1b68842b040374fcbe17b63d5c2da6c4813";</p>
+<p>    </p>
+<p>	var thirdPartyReferralCookieService = new guardian.r2.ThirdPartyReferralCookieService();</p>
+<p>	thirdPartyReferralCookieService.setThirdPartyReferralCookie();</p>
+<p>		</p>
+<p>	var urlStack = new UrlStack(".guardian.co.uk");	</p>
+<p>	var communitiesSite = false;</p>
+<p>    </p>
+<p>            </p>
+<p>	guardian.r2.signInListeners = new guardian.r2.SignInListeners();</p>
+<p>    (function () {	</p>
+<p>		var signInView = new guardian.r2.SignInView("http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/common/scripts/md5.js", communitiesSite);</p>
+<p>		guardian.r2.signInController = new guardian.r2.SignInController(signInView, guardian.r2.signInListeners, "http://www.guardian.co.uk/tools/signin", pageUrl, pageSignature);</p>
+<p>		</p>
+<p>	}) ();</p>
+<p>	</p>
+<p>	(function () {</p>
+<p>		var profileLinkView = new guardian.r2.ProfileLinkView();</p>
+<p>		profileLinkController = new guardian.r2.ProfileLinkController(profileLinkView, "http://www.guardian.co.uk/discussion/user/");</p>
+<p>	}) ();</p>
+<p>	jQ(document).ready(init);</p>
+<p>	//]]></p>
+<p>Turn autoplay off</p>
+<p>Turn autoplay on</p>
+<p>Please activate cookies in order to turn autoplay off</p>
+<p>Jump to content [s]</p>
+<p>Jump to comments [c]</p>
+<p>Jump to site navigation [0]</p>
+<p>Jump to search [4]</p>
+<p>Terms and conditions [8]</p>
+<p>Edition: UK</p>
+<p>US</p>
+<p>Sign in</p>
+<p>Mobile</p>
+<p>		</p>
+<p>	        About us</p>
+<p>    </p>
+<p>About us</p>
+<p>Contact us</p>
+<p>Press office</p>
+<p>Guardian Print Centre</p>
+<p>Guardian readers' editor</p>
+<p>Observer readers' editor</p>
+<p>Terms of service</p>
+<p>Privacy policy</p>
+<p>Advertising guide</p>
+<p>Digital archive</p>
+<p>Digital edition</p>
+<p>Guardian Weekly</p>
+<p>Buy Guardian and Observer photos</p>
+<p>Subscribe</p>
+<p>		</p>
+<p>	        Today's paper</p>
+<p>    </p>
+<p>The Guardian</p>
+<p>G2 features</p>
+<p>Comment and debate</p>
+<p>Editorials, letters and corrections</p>
+<p>Obituaries</p>
+<p>Other lives</p>
+<p>Sport</p>
+<p>Subscribe</p>
+<p>		</p>
+<p>	        Subscribe</p>
+<p>    </p>
+<p>Subscribe to the Guardian</p>
+<p>iPhone app</p>
+<p>iPad edition</p>
+<p>Kindle</p>
+<p>Extra</p>
+<p>Guardian Weekly</p>
+<p>Digital edition</p>
+<p>All our services</p>
+<p>	ensurePackage('guardian.r2');</p>
+<p>	guardian.r2.dropDownMenu = function () {</p>
+<p>	</p>
+<p>		// bar set up</p>
+<p>		jQ('.top-navigation').show().addClass('top-navigation-js');</p>
+<p>		jQ('#fake-bar').remove();</p>
+<p>		// functionality</p>
+<p>		jQ('.drop-down').mouseover(function() {</p>
+<p>			jQ(this).find('ul').css('display', 'block');</p>
+<p>		});</p>
+<p>		jQ('.drop-down').mouseout(function() {</p>
+<p>			jQ(this).find('ul').css('display', 'none');</p>
+<p>		});</p>
+<p>	};	</p>
+<p>	</p>
+<p>	jQ(document).ready(function() {</p>
+<p>		var myDropDownMenu = new guardian.r2.dropDownMenu();</p>
+<p>	});</p>
+<p>The Guardian</p>
+<p>Healthcare Network</p>
+<p>User comments</p>
+<p>Web</p>
+<p>News</p>
+<p>Sport</p>
+<p>Comment</p>
+<p>Culture</p>
+<p>Business</p>
+<p>Money</p>
+<p>Life & style</p>
+<p>Travel</p>
+<p>Environment</p>
+<p>TV</p>
+<p>Data</p>
+<p>Video</p>
+<p>Mobile</p>
+<p>Offers</p>
+<p>Jobs</p>
+<p>Professional</p>
+<p>Healthcare Network</p>
+<p>Policy</p>
+<p>Informatics</p>
+<p>Workforce</p>
+<p>Primary</p>
+<p>Profiles</p>
+<p>Jobs</p>
+<p>Events</p>
+<p>Join</p>
+<p>London trusts merger gathers pace</p>
+<p>NHS London approves merger of Barts and the London, Newham and Whipps Cross trusts</p>
+<p>Tweet this</p>
+<p>reddit this</p>
+<p>omnitracker.omniTrackEVarEvent( 12, 16, 'Healthcare Network: Reddit', 'click', '.reddit a' );</p>
+<p>Comments (…)</p>
+<p>																						Gill Hitchcock </p>
+<p>Guardian Professional,</p>
+<p>															</p>
+<p>				            Wednesday 14 December 2011 17.38 GMT</p>
+<p>Article history</p>
+<p>About this article</p>
+<p>Close</p>
+<p>London trusts merger gathers pace</p>
+<p>		   		    									This article was published on</p>
+<p>							guardian.co.uk</p>
+<p>							at 17.38 GMT on Wednesday 14 December 2011. </p>
+<p>					   	It was last modified at 14.32 GMT on Thursday 15 December 2011.</p>
+<p>						  							</p>
+<p>NHS London approves merger of Barts and the London (pictured), Newham and Whipps Cross trusts. Photograph: Alamy</p>
+<p>The business case for the merger of three London NHS trusts – Barts and the London, Newham university hospital and Whipps Cross university hospital – has been approved by the NHS London board.The approval follows an agreement to proceed with a merger by each of the three trust boards, as well as a confirmation of support from inner north-east London and outer north-east London clusters last week.A spokeswoman for merger project said: "The merger has been talked about since 2009, but gathered momentum this March when we had a strategic outline case published."According to the three trusts, the merger into a single organisation with the proposed name of Barts Health, will provide better standards of care for patients.They have claimed that current services will be more sustainable, both financially and clinically, patients will get faster access to specialists services and nearly home, and the new trust will be able to understand local health needs better.The next step will be for the strategic health authority to pass on its recommendation to the Department of Health transaction board, which will consider the case early next year.The target date for the merger is 1 April 2012.This article is published by Guardian Professional. Join the Guardian Healthcare Network to receive regular emails on NHS innovation.</p>
+<p>Printable version</p>
+<p>Send to a friend</p>
+<p>Share</p>
+<p>Clip</p>
+<p>Contact us</p>
+<p>larger | </p>
+<p>			smaller </p>
+<p>Email</p>
+<p>Close</p>
+<p>Recipient's email address</p>
+<p>Your first name</p>
+<p>Your surname</p>
+<p>Add a note (optional)</p>
+<p>Your IP address will be logged</p>
+<p>Share</p>
+<p>Close</p>
+<p>				Short link for this page:</p>
+<p>				http://gu.com/p/3455q</p>
+<p>StumbleUpon</p>
+<p>				</p>
+<p>reddit</p>
+<p>				</p>
+<p>Tumblr</p>
+<p>				</p>
+<p>Digg</p>
+<p>				</p>
+<p>LinkedIn</p>
+<p>				</p>
+<p>Google Bookmarks</p>
+<p>				</p>
+<p>del.icio.us</p>
+<p>				</p>
+<p>livejournal</p>
+<p>				</p>
+<p>Facebook</p>
+<p>				</p>
+<p>Twitter</p>
+<p>				</p>
+<p>Contact us</p>
+<p>Close</p>
+<p>					                        Report errors or inaccuracies: userhelp@guardian.co.uk</p>
+<p>											Letters for publication should be sent to: letters@guardian.co.uk</p>
+<p>					If you need help using the site: userhelp@guardian.co.uk</p>
+<p>					Call the main Guardian and Observer switchboard: +44 (0)20 3353 2000</p>
+<p>Advertising guide</p>
+<p>License/buy our content</p>
+<p>Healthcare Network</p>
+<p>Hospitals and acute care ·															</p>
+<p>England ·															</p>
+<p>Business intelligence ·															</p>
+<p>Efficiency </p>
+<p>More 			news</p>
+<p>	</p>
+<p>NHS services get £2.5bn funding boost</p>
+<p>											                        </p>
+<p>                                    			Andrew Lansley announces extra 2.8% increase in funding as investigation reveals many commissioner GPs sliding into red</p>
+<p>		</p>
+<p>Nuffield and Oxford Radcliffe merge</p>
+<p>											                        </p>
+<p>                                    			Nuffield Orthopaedic Centre and the Oxford Radcliffe trust integrate and form new working agreement with Oxford University</p>
+<p>		</p>
+<p>Related</p>
+<p>17 Mar 2011</p>
+<p>Open data pushes Addenbrooke's staff into improvements</p>
+<p>6 Jan 2011</p>
+<p>Quality accounts fail patients, says King's Fund</p>
+<p>18 Nov 2011</p>
+<p>This is no time for the NHS to get out of risky business</p>
+<p>1 Nov 2011</p>
+<p>Outcome data needed to fill information gap</p>
+<p>Printable version</p>
+<p>Send to a friend</p>
+<p>Share</p>
+<p>Clip</p>
+<p>Contact us</p>
+<p>Article history</p>
+<p>Email</p>
+<p>Close</p>
+<p>Recipient's email address</p>
+<p>Your first name</p>
+<p>Your surname</p>
+<p>Add a note (optional)</p>
+<p>Your IP address will be logged</p>
+<p>Share</p>
+<p>Close</p>
+<p>				Short link for this page:</p>
+<p>				http://gu.com/p/3455q</p>
+<p>StumbleUpon</p>
+<p>				</p>
+<p>reddit</p>
+<p>				</p>
+<p>Tumblr</p>
+<p>				</p>
+<p>Digg</p>
+<p>				</p>
+<p>LinkedIn</p>
+<p>				</p>
+<p>Google Bookmarks</p>
+<p>				</p>
+<p>del.icio.us</p>
+<p>				</p>
+<p>livejournal</p>
+<p>				</p>
+<p>Facebook</p>
+<p>				</p>
+<p>Twitter</p>
+<p>				</p>
+<p>Contact us</p>
+<p>Close</p>
+<p>					                        Report errors or inaccuracies: userhelp@guardian.co.uk</p>
+<p>											Letters for publication should be sent to: letters@guardian.co.uk</p>
+<p>					If you need help using the site: userhelp@guardian.co.uk</p>
+<p>					Call the main Guardian and Observer switchboard: +44 (0)20 3353 2000</p>
+<p>Advertising guide</p>
+<p>License/buy our content</p>
+<p>About this article</p>
+<p>Close</p>
+<p>London trusts merger gathers pace</p>
+<p>		   		    									This article was published on</p>
+<p>							guardian.co.uk</p>
+<p>							at 17.38 GMT on Wednesday 14 December 2011. </p>
+<p>					   	It was last modified at 14.32 GMT on Thursday 15 December 2011.</p>
+<p>						  							</p>
+<p>google_ad_client = 'ca-guardian_js';</p>
+<p>google_ad_channel = 'healthcarenetwork';</p>
+<p>google_max_num_ads = '3';</p>
+<p>		//<![CDATA[</p>
+<p>			if (true) {</p>
+<p>					  writeScript("http://pagead2.googlesyndication.com/pagead/show_ads.js", false, function(){});</p>
+<p>			}</p>
+<p>		// ]]></p>
+<p>		</p>
+<p>Comments in chronological order (Total 0 comments)</p>
+<p>There are no comments yet for this article.</p>
+<p>Sign in to comment </p>
+<p>	    or create your Guardian account to join the conversation</p>
+<p>	</p>
+<p>jQ(document).ready(function(){</p>
+<p>	// check jQuery UI hasn't been loaded in by a microapp. short-term fix.</p>
+<p>	if (!jQuery.ui) {</p>
+<p>	  	jQ.getScript('http://resource.guim.co.uk/discussion/static/1764/jquery-ui-1.7.3.custom.min.js');</p>
+<p>	}</p>
+<p>});</p>
+<p>	</p>
+<p>	function fix_domain_for_careers(url){</p>
+<p>		var re, fixed_url;</p>
+<p>		var careers_length = "careers".length;</p>
+<p>		</p>
+<p>		if (window.location.host.substr(0, careers_length) === "careers") {</p>
+<p>			re = /http:\/\/www\./;</p>
+<p>		    fixed_url = url.replace(re, "http://careers.");</p>
+<p>		} else {</p>
+<p>			re = /http:\/\/careers\./;</p>
+<p>		    fixed_url = url.replace(re, "http://www.");</p>
+<p>		}</p>
+<p>		</p>
+<p>		return fixed_url;</p>
+<p>	}</p>
+<p>	</p>
+<p>	jQ(function() {</p>
+<p>        fixPluckCommentUrl('http://www.guardian.co.uk/discussion/api/resolvePluckCommentKey?pluck-comment-keys=&amp;callback=');</p>
+<p>		var loading_box = jQ("<div class='report-form-loading'>Loading</div>");</p>
+<p>        jQ('a.report-abuse:not(.no-abuse-popup)').live('click', function(ev) {</p>
+<p>			ev.preventDefault();</p>
+<p>			loading_box.dialog({</p>
+<p>				title: "Abuse report",</p>
+<p>				draggable: false,</p>
+<p>				modal: true,</p>
+<p>				width: 400,</p>
+<p>				minHeight: 320,</p>
+<p>				resizable: false,</p>
+<p>				beforeclose: function(event, ui) {</p>
+<p>					var readOnly = jQ('.report-abuse-ajax-readonly').length;</p>
+<p>					if(readOnly == 1) return true;</p>
+<p>					var reason = jQ('.report-abuse-ajax-form textarea#id_reason').val();</p>
+<p>					var thanksPage = jQ('.report-form-loading p[data-abuse-report-accepted-for-comment]').length;</p>
+<p>					if (thanksPage == 0) {</p>
+<p>					    thanksPage = jQ('.report-form-loading p[data-abuse-report-accepted-for-profile]').length;</p>
+<p>					}</p>
+<p>					if(thanksPage == 0) {</p>
+<p>						if(reason == 0) {</p>
+<p>							return true;</p>
+<p>						} else {</p>
+<p>							return confirm("Closing this window without pressing \"Report\" will result in your words being lost. Are you sure?");</p>
+<p>						}</p>
+<p>					}</p>
+<p>					else {</p>
+<p>						return true;</p>
+<p>					}</p>
+<p>		        },</p>
+<p>				close: function(ev, ui) { loading_box.remove(); }</p>
+<p>			});</p>
+<p>			</p>
+<p>			abuse_report_url = this.href.replace('report-abuse', 'report-abuse-ajax');			</p>
+<p>			abuse_report_url = fix_domain_for_careers(abuse_report_url);</p>
+<p>			</p>
+<p>			jQ.ajax({</p>
+<p>              url: abuse_report_url,</p>
+<p>              success: function(data){</p>
+<p>                  loading_box.html(data);</p>
+<p>              }</p>
+<p>            });</p>
+<p>		});</p>
+<p>		jQ('body').delegate('.report-abuse-ajax-form form', 'submit', function(ev) {</p>
+<p>			ev.preventDefault();</p>
+<p>			var form = jQ(this);</p>
+<p>			var url = fix_domain_for_careers(form.attr('action'));</p>
+<p>			jQ.post(url, form.serialize(), function(html) {</p>
+<p>				form.parents('.ui-dialog-content').html(html);</p>
+<p>				// Has the abuse report been accepted?</p>
+<p>				var el = jQ(html);</p>
+<p>				var comment_id = el.attr('data-abuse-report-accepted-for-comment');</p>
+<p>				var profile_id = el.attr('data-abuse-report-accepted-for-profile');</p>
+<p>				if (comment_id) {</p>
+<p>					jQ('ul#comment-' + comment_id).find('li.abuse-report').remove();</p>
+<p>				} else if (profile_id) {</p>
+<p>				    jQ('p.report-abuse').remove();</p>
+<p>				}</p>
+<p>				var is_successful_submission = (comment_id || profile_id);</p>
+<p>				if (is_successful_submission) {</p>
+<p>					</p>
+<p>					/*</p>
+<p>					if(guardian.r2.omniture.isAvailable()) {</p>
+<p>						// track with omniture</p>
+<p>						s.linkTrackVars = 'events,eVar37';</p>
+<p>			        	s.linkTrackEvents = 'event37';</p>
+<p>			    		s.eVar37 = 'Comment:Report Abuse';</p>
+<p>			        	s.events = 'event37';</p>
+<p>			            s.tl(true, 'o', 'Comment report abuse');</p>
+<p>					}</p>
+<p>					*/</p>
+<p>					</p>
+<p>				    window.setTimeout(function() {</p>
+<p>					    loading_box.dialog("close");</p>
+<p>				    }, 3000);</p>
+<p>				}</p>
+<p>			});</p>
+<p>		});</p>
+<p>		</p>
+<p>	    //make sure submit button is enabled onReady.</p>
+<p>	    jQ('#newcommenting-form input[type=submit]' ).removeAttr('disabled');</p>
+<p>    	var newFormURL = window.location.protocol + '//' + window.location.host + window.location.pathname + '?#post-area';</p>
+<p>    	jQ('div#login-container form.post-your-comments').attr('action', newFormURL);</p>
+<p>    	jQ('div#signup-container input').click(function(){</p>
+<p>    		urlStack.clearUrlStack();</p>
+<p>    		urlStack.pushUrlOntoStack(newFormURL);</p>
+<p>    		document.location = 'http://users.guardian.co.uk/signup/tr/1,,-720,00.html';</p>
+<p>    	});</p>
+<p>        </p>
+<p>	    jQ('.recomended').show();</p>
+<p>        jQ('#newcommenting-form').submit(function(){</p>
+<p>            jQ('input[type=submit]', this).attr('disabled', 'disabled');</p>
+<p>        });</p>
+<p>	}); //end jQ ready</p>
+<p>	function openAbuseBox(commentId) {</p>
+<p>		jQ("#abuse-report-comment-id").val(commentId);</p>
+<p>		var loading_box = jQ('<div class="report-form-loading">Loading</div>');</p>
+<p>		loading_box.dialog({</p>
+<p>			title:"Abuse report",</p>
+<p>			draggable: false,</p>
+<p>			modal:true,</p>
+<p>			width:400,</p>
+<p>			minHeight:320,</p>
+<p>			resizable: false,</p>
+<p>			beforeclose: function(event, ui) {</p>
+<p>				var reason = jQ('textarea#id_reason').val();</p>
+<p>				if (reason != "") {</p>
+<p>					return confirm("Closing this window without pressing \"Report\" will result in your words being lost. Are you sure?");</p>
+<p>				} else {</p>
+<p>					return true;</p>
+<p>				}</p>
+<p>			}</p>
+<p>		});</p>
+<p>	}</p>
+<p>	function recommendComment(commentId) {</p>
+<p>	    var post_url = "http://www.guardian.co.uk/discussion/handlers/recommendComment";	    </p>
+<p>	    post_url = fix_domain_for_careers(post_url);</p>
+<p>	    </p>
+<p>		jQ.post(post_url, { comment_id: commentId }, function(data) {</p>
+<p>			if (data == "OK") {</p>
+<p>				var span = jQ("#recommended-count-" + commentId);</p>
+<p>				span.prev('a').contents().unwrap();</p>
+<p>				span.text(parseInt(span.text(), 10)+1);</p>
+<p>			}</p>
+<p>			else {</p>
+<p>				var span = jQ("#recommended-count-" + commentId);</p>
+<p>				span.prev('a').contents().unwrap();</p>
+<p>			}</p>
+<p>		});</p>
+<p>	}</p>
+<p>		</p>
+<p>	        Join the healthcare network</p>
+<p>    </p>
+<p>Sign up now for email updates and much more</p>
+<p>Jobs of the week</p>
+<p>Find the latest jobs in your sector:</p>
+<p>Arts & heritage</p>
+<p>Charities</p>
+<p>Education</p>
+<p>Environment</p>
+<p>Government</p>
+<p>Graduate</p>
+<p>Health</p>
+<p>Marketing & PR</p>
+<p>Media</p>
+<p>Sales</p>
+<p>Senior executive</p>
+<p>Social care</p>
+<p>Browse all jobs</p>
+<p>  .m-zeitgeist .hd { margin-bottom: 0; padding-bottom: 0px; min-height:28px; }</p>
+<p>  .m-zeitgeist .hd h2 { margin-bottom: 0 !important; }</p>
+<p>  .m-zeitgeist #att-toggle { background-color: #ededed; float: left; padding-bottom: 10px; }</p>
+<p>  .m-zeitgeist #att-panes { background-color: #fff; float: left; margin: 0 10px 10px 10px; }</p>
+<p>  .m-zeitgeist .att-toggle-pane { min-width: 280px; }</p>
+<p>  .m-zeitgeist .tabs { margin-right: 10px !important; }</p>
+<p>  .m-zeitgeist ol { padding: 0 5px; }</p>
+<p>  .m-zeitgeist #most-zeitgeist ol { padding-left: 0; }</p>
+<p>  .m-zeitgeist .zg-date { color: #D61D00; padding-left:5px; padding-top: 5px; }</p>
+<p>  .m-zeitgeist ol li { clear: both; padding-left: 15px; }</p>
+<p>  .m-zeitgeist div#att-most-viewed ol li.l1,</p>
+<p>  .m-zeitgeist div#att-latest ol li.l1 { padding-bottom: 9px !important; }</p>
+<p>  .m-zeitgeist ol li.footer { clear: both; padding-left: 0px !important; padding-top: 5px !important; }</p>
+<p>  .m-zeitgeist .rank { float: left; margin-left: -15px; }</p>
+<p>  .m-zeitgeist ol li.thumb { padding-left: 0; }</p>
+<p>  .m-zeitgeist ol li.thumb .rank { margin-left: 0; }</p>
+<p>  .m-zeitgeist ol li img { float: left; margin: 0 10px 3px 0; }</p>
+<p>  .m-zeitgeist #most-zeitgeist ol li { border-top: none; padding: 0; border-top: none; }  </p>
+<p>  .m-zeitgeist #most-zeitgeist ol li .zeit-link {background-color: #fff; padding: 5px 0 9px 5px; border-top: 1px dotted #999; margin-bottom: 0px;  }  </p>
+<p>  .m-zeitgeist #most-zeitgeist ol li.footer { border-top:1px dotted #999; padding: 5px 0 9px 10px; margin-left: 5px }  </p>
+<p>	.m-zeitgeist #most-zeitgeist .m-zeigeist ol { padding-left: 0}</p>
+<p>  /* zeit-up */</p>
+<p>  .m-zeitgeist #most-zeitgeist .what-is { float: none; padding: 0 3px; vertical-align: middle; cursor: pointer; }</p>
+<p>  .about-zeit { position: relative; }</p>
+<p>  .zeit-popup { position: absolute; display: none; background-color: #dbedf3; color: #333; padding: 6px; width: 200px; }    </p>
+<p>    </p>
+<p>.fade-1 { border-left: 5px solid #0363A8 !important;}</p>
+<p>.fade-2 { border-left: 5px solid #2D7DB6 !important;}</p>
+<p>.fade-3 { border-left: 5px solid #5797C4 !important;}</p>
+<p>.fade-4 { border-left: 5px solid #81B1D2 !important;}</p>
+<p>.fade-5 { border-left: 5px solid #ABCBE0 !important;}</p>
+<p>.m-zeitgeist div.hd { padding-bottom: 0; }</p>
+<p>.m-zeitgeist.most-viewed div.hd { padding-bottom: 7px; }</p>
+<p>jQ(function($){$('.about-zeit').each(function(){var distance=-10;var time=250;var hideDelay=500;var hideDelayTimer=null;var beingShown=false;var shown=false;var trigger=$('.what-is',this);var info=$('.zeit-popup',this).css('opacity',0);$([trigger.get(0),info.get(0)]).mouseover(function(){if(hideDelayTimer)clearTimeout(hideDelayTimer);if(beingShown||shown){return;}else{beingShown=true;info.css({top:-97,right:0,display:'block'}).animate({top:'-='+distance+'px',opacity:1},time,'swing',function(){beingShown=false;shown=true;});}return false;}).mouseout(function(){if(hideDelayTimer)clearTimeout(hideDelayTimer);hideDelayTimer=setTimeout(function(){hideDelayTimer=null;info.animate({top:'-='+distance+'px',opacity:0},time,'swing',function(){shown=false;info.css('display','none');});},hideDelay);return false;});});});</p>
+<p>On Healthcare Network</p>
+<p>Most viewed</p>
+<p>Zeitgeist</p>
+<p>Latest</p>
+<p>Last 24 hours</p>
+<p>1. </p>
+<p>Achieving foundation status a 'tall order' for many NHS trusts</p>
+<p>2. </p>
+<p>London trusts merger gathers pace</p>
+<p>3. </p>
+<p>NHS Facebook misuse should be resolved at local level</p>
+<p>4. </p>
+<p>NHS services get £2.5bn funding boost</p>
+<p>5. </p>
+<p>How anonymous is NHS patient data?</p>
+<p>More most viewed</p>
+<p>Last 24 hours</p>
+<p>NHS services get £2.5bn funding boost</p>
+<p>Achieving foundation status a 'tall order' for many NHS trusts</p>
+<p>Preventative care and early intervention in mental health</p>
+<p>London trusts merger gathers pace</p>
+<p>CSC to receive further £2bn for National Programme for IT</p>
+<p>More zeitgeist</p>
+<p>What is Zeitgeist?</p>
+<p>Zeitgeist is an experiment in showing trending news, topics and articles from the Guardian. Find out more in our blog post.</p>
+<p>Last 24 hours</p>
+<p>1. </p>
+<p>Technology key to 'new model' of NI health and social care</p>
+<p>2. </p>
+<p>Achieving foundation status a 'tall order' for many NHS trusts</p>
+<p>3. </p>
+<p>Preventative care and early intervention in mental health</p>
+<p>4. </p>
+<p>NHS services get £2.5bn funding boost</p>
+<p>5. </p>
+<p>London trusts merger gathers pace</p>
+<p>All today's stories</p>
+<p>		</p>
+<p>	        Market intelligence</p>
+<p>    </p>
+<p>		</p>
+<p>	        Healthcare guides</p>
+<p>    </p>
+<p>Department of Health's top suppliers</p>
+<p>Connecting for Health's top suppliers</p>
+<p>Private healthcare providers</p>
+<p>Electronic health records</p>
+<p>Healthcare systems: Belgium, France, Germany and Sweden</p>
+<p>Australia, Canada, Ireland and USA</p>
+<p>Brazil, Russia, India and China (BRICs)</p>
+<p>Healthcare from the Guardian</p>
+<p>Tweets from Guardian sections and writers</p>
+<p>GdnSocialCare: Technology key to 'new model' of NI health and social care http://t.co/HefWz3ZH #gdnsc</p>
+<p>about 1 hour, 11 minutes ago</p>
+<p>GdnHealthcare: Have you checked out our seminars page? Soon 'Making the Leap: Social Enterprise & the NHS'  (Members get 20% discount) http://t.co/Us0SCqFk</p>
+<p>about 1 hour, 40 minutes ago</p>
+<p>GdnHealthcare: We've had quite detailed comments on this week's Patient from hell blog on the @TheBMA... http://t.co/xsJ7l9og #healthcare #nhs\</p>
+<p>about 1 hour, 43 minutes ago</p>
+<p>GdnHealthcare: NHS London approves merger of Barts and the London, Newham and Whipps Cross trusts - way forward? http://t.co/HmBZzWLb</p>
+<p>about 3 hours, 54 minutes ago</p>
+<p>More healthcare coverage from the Guardian</p>
+<p>		</p>
+<p>	        About Guardian Professional</p>
+<p>    </p>
+<p>Guardian Professional Networks are community-focused sites, where we bring together advice, best practice and insight from a wide range of professional communities. </p>
+<p>Click here for details of all our networks. Some of our specialist hubs within these sites are supported by funding from external companies and organisations. All editorial content is independent of any sponsorship, unless otherwise clearly stated. We make Partner Zones available for sponsors' own content. Guardian Professional is a division of Guardian News & Media.</p>
+<p>Related information</p>
+<p>Healthcare Network</p>
+<p>Hospitals and acute care · England · Business intelligence · Efficiency</p>
+<p>Stephen Dorrell – 'NHS must seize opportunities offered by new technology'</p>
+<p>29 Nov 2011</p>
+<p>The former health secretary, now chair of health select committee says that better use of IT will help eliminate waste in the NHS, reports Gill Hitchcock</p>
+<p>15 Dec 2011</p>
+<p>Preventative care and early intervention in mental health</p>
+<p>15 Dec 2011</p>
+<p>Achieving foundation status a 'tall order' for many NHS trusts</p>
+<p>26 Jan 2011</p>
+<p>NHS Employers pushes pay and increment freeze</p>
+<p>5 Jan 2011</p>
+<p>NHS bosses back pay and increment freeze</p>
+<p>Are hospital cuts a false economy?</p>
+<p>15 Mar 2011</p>
+<p>Argument rages over hospital job cuts and the prospects for protecting services, writes Gill Hitchcock</p>
+<p>		</p>
+<p>	        On this site</p>
+<p>    </p>
+<p>About us</p>
+<p>Advertising</p>
+<p>A-Z of this site</p>
+<p>Glossary</p>
+<p>Become a member</p>
+<p>Contact us</p>
+<p>Twitter</p>
+<p>Informatics</p>
+<p>Workforce</p>
+<p>NHS organisational profiles</p>
+<p>GPs and primary care</p>
+<p>Hospitals and acute care</p>
+<p>Mental health</p>
+<p>Social care network</p>
+<p>England</p>
+<p>Scotland</p>
+<p>Wales</p>
+<p>Northern Ireland</p>
+<p>International</p>
+<p>North</p>
+<p>Midlands</p>
+<p>South</p>
+<p>London</p>
+<p>License/buy our content</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>Privacy policy</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>Terms & conditions</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>Advertising guide</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>Accessibility</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>A-Z index</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>Inside the Guardian blog</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>About us</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>Work for us</p>
+<p>					</p>
+<p>  |     			    				    </p>
+<p>																																										</p>
+<p>				</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>						</p>
+<p>		</p>
+<p>Join our dating site today</p>
+<p>© 2011 Guardian News and Media Limited or its affiliated companies. All rights reserved.</p>
+<p>.ten-col .important-story { </p>
+<p>    border-bottom-color: #fff !important; </p>
+<p>}</p>
+<p>	//<![CDATA[</p>
+<p>	if(true) {</p>
+<p>		var s_account="guardiangu-jobs,guardiangu-healthcare,guardiangu-network";</p>
+<p>		writeScript('http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/common/scripts/omniture-H.22.4.js', false, function(){});</p>
+<p>	}</p>
+<p>	//]]></p>
+<p>	</p>
+<p>	//<![CDATA[</p>
+<p>	if(true) {</p>
+<p>		if (false) {</p>
+<p>		    s.pageName = document.title;</p>
+<p>		} else {</p>
+<p>			s.pageName="London trusts merger gathers pace:Article:1676861";</p>
+<p>		}</p>
+<p>		s.channel = "Healthcare Network";</p>
+<p>		s.pageType="";</p>
+<p>		s.server='08';</p>
+<p>		s.prop2='GUID:(none)';</p>
+<p>					s['prop3']="Guardian Professional";</p>
+<p>					s['prop4']="PRO: Healthcare Network,PRO: Hospitals and acute care (Healthcare network),PRO: England (Healthcare network),PRO: Business intelligence (Healthcare network),PRO: Efficiency (Healthcare network)";</p>
+<p>					s['prop5']="Not commercially useful";</p>
+<p>					s['prop6']="Gill Hitchcock";</p>
+<p>					s['prop7']="11-Dec-15";</p>
+<p>					s['prop8']="1676861";</p>
+<p>					s['prop9']="Article";</p>
+<p>					s['prop10']="News";</p>
+<p>					s['prop11']="Healthcare Network";</p>
+<p>					s['prop13']="";</p>
+<p>					s['prop25']="";</p>
+<p>					s['prop30']="content";</p>
+<p>		</p>
+<p>		s.hier2="GU/Healthcare Network/Hospitals and acute care";</p>
+<p>		s.events="";</p>
+<p>		s.eVar23="";</p>
+<p>		try {</p>
+<p>			if (guardian.r2.OmnitureTrackingOverride) {</p>
+<p>				new guardian.r2.OmnitureTrackingOverride(s);</p>
+<p>			}</p>
+<p>		}</p>
+<p>		catch(err) {</p>
+<p>		}</p>
+<p>        if(jQ.cookie("GU_OMNITURE") !== null) {</p>
+<p>            s.events = jQ.cookie("GU_OMNITURE");</p>
+<p>            jQ.cookie("GU_OMNITURE", null, { path: '/', domain: '.guardian.co.uk'});</p>
+<p>        }</p>
+<p>        var s_code=s.t();if(s_code)document.write(s_code);</p>
+<p>	}</p>
+<p>	//]]></p>
+<p>	</p>
+<p>		var _qevents = _qevents || [];</p>
+<p>		(function() {</p>
+<p>			var elem = document.createElement('script');</p>
+<p>			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";</p>
+<p>			elem.async = true;</p>
+<p>			elem.type = "text/javascript";</p>
+<p>			var scpt = document.getElementsByTagName('script')[0];</p>
+<p>			scpt.parentNode.insertBefore(elem, scpt);</p>
+<p>		})();</p>
+<p>		_qevents.push( { qacct:'p-73ktnlRTKQPTw', labels: 'healthcare-network'} );</p>
+<p>		</p>
+<p>			var qcResults = function (result) {</p>
+<p>				for (var i = 0, len = result.segments.length; i < len; i++) {</p>
+<p>					OAS_query += 'qc=' + result.segments[i].id + '&';</p>
+<p>				}</p>
+<p>			}</p>
+<p>		</p>
+<p>if (true) {</p>
+<p>    jQ(document).ready(function () {</p>
+<p>        jQ('a[data-cpt]').each(</p>
+<p>            function () {</p>
+<p>            jQ(this).click(</p>
+<p>                function () {</p>
+<p>                var cpId = jQ(this).attr('data-cpt').split("-")[1];</p>
+<p>                var currentLink = jQ(this).attr('href');</p>
+<p>                if (currentLink.indexOf('intcmp=') == -1) {</p>
+<p>                    if(currentLink.indexOf('?') == -1) {</p>
+<p>                        var separator = '?'</p>
+<p>                    } else {</p>
+<p>                        var separator = '&'</p>
+<p>                    }</p>
+<p>                    jQ(this).attr('href', currentLink + separator + "intcmp=" + cpId);</p>
+<p>                }</p>
+<p>            });</p>
+<p>        });</p>
+<p>    });</p>
+<p>}</p>
+<p>//<![CDATA[</p>
+<p>	if (false) {</p>
+<p>        // guardian.co.uk Connect Adprobe Tag, MPU [9814], Leaderboard [9815]</p>
+<p>        var wlOrd = new Date().getTime();</p>
+<p>        document.write('<scr' + 'ipt type="text/javascript" src="http://req.connect.wunderloop.net/AP/1566/5823/9815/js?cus=9815,9814&ord=' + wlOrd + '"></sc' + 'ript>');</p>
+<p>	}</p>
+<p>// ]]></p>
+<p>//<![CDATA[</p>
+<p>	if (false) {</p>
+<p>        OAS_query += 'wl9815=' + wl9815camp + '&wl9814=' + wl9814camp + '&';</p>
+<p>	}</p>
+<p>// ]]></p>
+<p>	//<![CDATA[</p>
+<p>	if(true) {</p>
+<p>		ensurePackage("guardian.r2.revsci");</p>
+<p>		guardian.r2.revsci.cookieDomain = '.guardian.co.uk';</p>
+<p>		guardian.r2.revsci.gu_geo_country = '(none)';</p>
+<p>		guardian.r2.revsci.siteName = 'Healthcare Network';</p>
+<p>					guardian.r2.revsci.commercialFolder = 'Health+Society'</p>
+<p>				</p>
+<p>		addEvent(null, 'load', function () {</p>
+<p>			writeScript('http://js.revsci.net/gateway/gw.js?csid=E05516', true, function() {</p>
+<p>				writeScript('http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/common/scripts/revsci.js', true, function() {</p>
+<p>					rs_initTracking();</p>
+<p>				})</p>
+<p>			})</p>
+<p>		});</p>
+<p>	}</p>
+<p>	// ]]></p>
+<p>	</p>
+<p>		//<![CDATA[</p>
+<p>											function OAS_NORMAL(pos) {</p>
+<p>							document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + pos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');</p>
+<p>							document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + pos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');</p>
+<p>						}</p>
+<p>						OAS_version = 11;</p>
+<p>						if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)) OAS_version = 10;</p>
+<p>                        if (true) {</p>
+<p>                            if (OAS_version >= 11) document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCRIPT>');</p>
+<p>                        }</p>
+<p>						function OAS_AD(pos) {</p>
+<p>                            if (true) {</p>
+<p>                                if (typeof(OAS_RICH) !== 'undefined' && OAS_version >= 11) {</p>
+<p>                                    OAS_RICH(pos);</p>
+<p>                                } else {</p>
+<p>                                    OAS_NORMAL(pos);</p>
+<p>                                }</p>
+<p>                            }</p>
+<p>						}</p>
+<p>					</p>
+<p>				//]]></p>
+<p>				</p>
+<p>                //<![CDATA[</p>
+<p>                jQ('#ad-placeholder-Top').writeCapture().replaceWith('<script>OAS_AD("Top")<' + '/script>');</p>
+<p>                //]]></p>
+<p>            </p>
+<p>              jQ('#ad-temp-Top').hide();</p>
+<p>          </p>
+<p>                //<![CDATA[</p>
+<p>                jQ('#ad-placeholder-Middle2').writeCapture().replaceWith('<script>OAS_AD("Middle2")<' + '/script>');</p>
+<p>                //]]></p>
+<p>            </p>
+<p>              jQ('#ad-temp-Middle2').hide();</p>
+<p>          </p>
+<p>                //<![CDATA[</p>
+<p>                jQ('#ad-placeholder-Middle1').writeCapture().replaceWith('<script>OAS_AD("Middle1")<' + '/script>');</p>
+<p>                //]]></p>
+<p>            </p>
+<p>              jQ('#ad-temp-Middle1').hide();</p>
+<p>          </p>
+<p>                //<![CDATA[</p>
+<p>                jQ('#ad-placeholder-x11').writeCapture().replaceWith('<script>OAS_AD("x11")<' + '/script>');</p>
+<p>                //]]></p>
+<p>            </p>
+<p>              jQ('#ad-temp-x11').hide();</p>
+<p>          </p>
+<p>                //<![CDATA[</p>
+<p>                jQ('#ad-placeholder-x12').writeCapture().replaceWith('<script>OAS_AD("x12")<' + '/script>');</p>
+<p>                //]]></p>
+<p>            </p>
+<p>              jQ('#ad-temp-x12').hide();</p>
+<p>          </p>
+<p>                //<![CDATA[</p>
+<p>                jQ('#ad-placeholder-x13').writeCapture().replaceWith('<script>OAS_AD("x13")<' + '/script>');</p>
+<p>                //]]></p>
+<p>            </p>
+<p>              jQ('#ad-temp-x13').hide();</p>
+<p>          </p>
+<p>                //<![CDATA[</p>
+<p>                jQ('#ad-placeholder-x14').writeCapture().replaceWith('<script>OAS_AD("x14")<' + '/script>');</p>
+<p>                //]]></p>
+<p>            </p>
+<p>              jQ('#ad-temp-x14').hide();</p>
+<p>          </p>
+<p>ensurePackage('guardian.r2.omniture');</p>
+<p>guardian.r2.omniture.isAvailable = function(){</p>
+<p>			return true;</p>
+<p>	}</p>
+<p>	//	<![CDATA[</p>
+<p>	if(true) {</p>
+<p>        var OAS_taxonomy='&Paneled_Site=guardian.co.uk&Paneled_Section=healthcare-network';</p>
+<p>		jQ(document).ready(function(){</p>
+<p>			jQ.getScript('http://static.guim.co.uk/static/b5c4e8d780aa8be3b8dd5e21c7bbe4b6245fb74c/common/scripts/kantarmedia.js');</p>
+<p>		});</p>
+<p>	}</p>
+<p>	// ]]></p>
+<p>	if(true) {</p>
+<p>        		jQ(function() {</p>
+<p>		  if ('undefined' !== typeof MatchingEngine) {</p>
+<p>		    MatchingEngine.logEvent('article', 'id=http://www.guardian.co.uk/healthcare-network/2011/dec/14/london-trusts-merger-gathers-pace');</p>
+<p>		  }</p>
+<p>		});</p>
+<p>	}</p>
+<p>    if (true) {</p>
+<p>        var _sf_async_config = {};</p>
+<p>        /** CONFIGURATION START **/</p>
+<p>        _sf_async_config.uid = 30676;</p>
+<p>        _sf_async_config.domain = document.domain;</p>
+<p>        _sf_async_config.sections = 'Healthcare Network';</p>
+<p>        _sf_async_config.authors = 'Gill Hitchcock';</p>
+<p>        /** CONFIGURATION END **/</p>
+<p>        (function() {</p>
+<p>            function loadChartbeat() {</p>
+<p>                window._sf_endpt = (new Date()).getTime();</p>
+<p>                var e = document.createElement('script');</p>
+<p>                e.setAttribute('language', 'javascript');</p>
+<p>                e.setAttribute('type', 'text/javascript');</p>
+<p>                e.setAttribute('src',</p>
+<p>                        (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +</p>
+<p>                                'js/chartbeat.js');</p>
+<p>                document.body.appendChild(e);</p>
+<p>            }</p>
+<p>            var oldonload = window.onload;</p>
+<p>            window.onload = (typeof window.onload != 'function') ?</p>
+<p>                    loadChartbeat : function() {</p>
+<p>                oldonload();</p>
+<p>                loadChartbeat();</p>
+<p>            };</p>
+<p>        })();</p>
+<p>    }</p>

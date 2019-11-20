@@ -1,0 +1,1166 @@
+<p>  </p>
+<p>var startLoadTime = (new Date()).getTime();</p>
+<p>Patients die or suffer harm in 10% of NHS safety mishaps - Wales News - News - WalesOnline</p>
+<p> var gs_channels = "default";</p>
+<p>			</p>
+<p>			//<![CDATA[</p>
+<p>			if(document.location.protocol == 'http:') {</p>
+<p>				var Tynt = Tynt || [];</p>
+<p>				Tynt.push('buV5OqPIGr349Zadbi-bnq');</p>
+<p>				Tynt.i = {"ap" : "Read More"};</p>
+<p>				$.getScript('http://tcr.tynt.com/ti.js');</p>
+<p>			}</p>
+<p>			//]]></p>
+<p>			</p>
+<p>	//<![CDATA[</p>
+<p>		var statsPageProps = new Object;</p>
+<p>		statsPageProps.eventsList = '';</p>
+<p>	//]]></p>
+<p>	</p>
+<p>		//<![CDATA[</p>
+<p>			var useGoogleJSLogo = true; //displayhandler may override this value</p>
+<p>			function setGoogleLogoIfNeeded() {</p>
+<p>				if (useGoogleJSLogo) {</p>
+<p>					setGoogleLogo();</p>
+<p>				}</p>
+<p>			}</p>
+<p>			tm.imageServer = 'http://images.icnetwork.co.uk/';</p>
+<p>	</p>
+<p>		delete tm.teaserBlocks;</p>
+<p>	</p>
+<p>		//]]></p>
+<p>		</p>
+<p>//<![CDATA[</p>
+<p>				tm.kyte.sitename = 'icwales2';</p>
+<p>			//]]></p>
+<p>			//<![CDATA[</p>
+<p>				document.domain="walesonline.co.uk";</p>
+<p>			//]]></p>
+<p>			</p>
+<p>			//<![CDATA[</p>
+<p>				tm.siteLife.daapi.setServerUrl('http://community.walesonline.co.uk/ver1.0/Direct/Process');</p>
+<p>			//]]></p>
+<p>			</p>
+<p>			//<![CDATA[</p>
+<p>				tm.zones = ';zone=news;zone1=wales%2Dnews';</p>
+<p>			//]]></p>
+<p>			</p>
+<p>				//<![CDATA[</p>
+<p>				var rsi_segs = [];</p>
+<p>				var segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>				if (segs_beg>=0){</p>
+<p>					segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>					if(segs_beg>0){</p>
+<p>						var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>						if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>						rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');</p>
+<p>					}</p>
+<p>				}</p>
+<p>				var segLen=20;</p>
+<p>				var segQS="";</p>
+<p>				if (rsi_segs.length<segLen){</p>
+<p>					segLen=rsi_segs.length</p>
+<p>				}</p>
+<p>				for (var i=0;i<segLen;i++){</p>
+<p>					segQS+=("rsi"+"="+rsi_segs[i]+";")					</p>
+<p>				}</p>
+<p>			//]]>			</p>
+<p>			</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=top%5Fleaderboard;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=728x90;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';dcopt=ist' +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=top%5Fad;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=255x90;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>Updated 8:47am 12 January 2012:</p>
+<p>		</p>
+<p>			//<![CDATA[</p>
+<p>				/*</p>
+<p>	$Copyright Trinity Mirror $Date: 2009-08-11 16:28:00 +0100 (Tue, 11 Aug 2009) $</p>
+<p>	$Revision: 52471 $</p>
+<p>*/</p>
+<p>// parse document.cookie</p>
+<p>// returns a string or null.</p>
+<p>function getCookieVal(key) {</p>
+<p>	var pos = document.cookie.indexOf( key + "=" );</p>
+<p>	if( pos != -1 ) {</p>
+<p>		var start = pos + key.length + 1; </p>
+<p>		var end = document.cookie.indexOf(";", start);</p>
+<p>		if( end == -1 ) end = document.cookie.length;</p>
+<p>		var value = document.cookie.substring(start, end);</p>
+<p>		return unescape(value);</p>
+<p>	}</p>
+<p>	return null;</p>
+<p>}</p>
+<p>/*</p>
+<p>set a key in document.cookie with optional expiry and path.</p>
+<p>*/</p>
+<p>function setCookieVal(key,value,duration_sec,path) {</p>
+<p>	var theCookie = key + "=" + escape(value);</p>
+<p>	if (duration_sec && duration_sec > 0) {</p>
+<p>		var exp = new Date();</p>
+<p>		exp.setTime(exp.getTime() + (duration_sec * 1000));</p>
+<p>		theCookie += '; expires=' + exp.toGMTString();</p>
+<p>	}</p>
+<p>	if (path) {</p>
+<p>		theCookie += ';path=' + path;</p>
+<p>	}</p>
+<p>	document.cookie = theCookie;</p>
+<p>}</p>
+<p>/*</p>
+<p> * </p>
+<p> * Writes out headers for being logged in or not.</p>
+<p> * </p>
+<p> */</p>
+<p>function writeAuthHeader(regionId, needsCookies, regUrl, mailAddress, needsDiv, commProfileUrl, </p>
+<p>		type, profileUrl) {	</p>
+<p>	var siteLifeUId = "";</p>
+<p>	var siteLifeDisplayName = "";</p>
+<p>	if (!type) { // consumer type</p>
+<p>		type = 2;</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (needsCookies) {</p>
+<p>		mailAddress = getCookieVal("AUTH_SITE" + regionId + "_EMAIL");</p>
+<p>		if (commProfileUrl) {</p>
+<p>			var at = getCookieVal("AT");</p>
+<p>			if (at) {</p>
+<p>				var atVals = at.split("&");</p>
+<p>				for (var i = 0; i < atVals.length; i++) {</p>
+<p>					if (atVals[i].length > 2 && atVals[i].substring(0,2) == 'u=') {</p>
+<p>						siteLifeUId = atVals[i].substring(2);</p>
+<p>					}</p>
+<p>					if (atVals[i].length > 2 && atVals[i].substring(0,2) == 'a=') {</p>
+<p>						siteLifeDisplayName = atVals[i].substring(2);</p>
+<p>						if (type != 1) {</p>
+<p>							profileUrl = commProfileUrl + siteLifeDisplayName + '/';</p>
+<p>						} </p>
+<p>					}</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	if (type == 1) { // i.e. forums</p>
+<p>		if (!profileUrl) {</p>
+<p>			profileUrl = '/profile.php?mode=editprofile';</p>
+<p>		} else {</p>
+<p>			//try to append session id to the profile url</p>
+<p>			var sid = document.body.innerHTML.match(/sid=[0-9a-fA-F]+/);</p>
+<p>			if (sid && sid.length) {</p>
+<p>				profileUrl = profileUrl + '&' + sid;</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p> 	if (needsDiv) {</p>
+<p> 		document.write('<div class="RegistrationHeader">');</p>
+<p>	}</p>
+<p>	var a_redirect = location.href.match(/[&?]redirect=([^?&]*)/i);</p>
+<p>	if (a_redirect != null) {</p>
+<p>		var queryString = location.href.replace(/^[^?]*\?/, '');</p>
+<p>		redirectURL = a_redirect[1] + '&' + queryString.replace(/[&?](redirect|account|logout|register)=([^?&]*)/gi, '');</p>
+<p>	} else {</p>
+<p>		redirectURL = escape(location.href);</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (mailAddress) {</p>
+<p>		// User is logged in</p>
+<p>		writeAuthHeaderLoggedIn(mailAddress,</p>
+<p>								regUrl + '?account=1',</p>
+<p>								regUrl + '?logout=1&redirect=' + redirectURL,</p>
+<p>								profileUrl,</p>
+<p>								siteLifeUId,</p>
+<p>								siteLifeDisplayName); </p>
+<p>	} else {</p>
+<p>		// User is not logged in</p>
+<p>		</p>
+<p>		//removed register=1 to allow toggle between login and register pages</p>
+<p>		var loginURL = regUrl + '?' + (type != 2 ? 'type='+type+'&' : '') </p>
+<p>				+ 'redirect=' + redirectURL;</p>
+<p>		loginURL = loginURL.replace(/[&?](register)=([^?&]*)/gi, '');</p>
+<p>		writeAuthHeaderLoggedOut(loginURL, regUrl + '?register=1&type='+type+'&redirect=' + </p>
+<p>				redirectURL, profileUrl);</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (needsDiv) {</p>
+<p>		document.write('</div>');</p>
+<p>	}</p>
+<p>}</p>
+<p>			//]]></p>
+<p>			</p>
+<p>		//<![CDATA[</p>
+<p>function setAvatar(profileURL, loggedIn, profileURL ) {</p>
+<p>	if (profileURL && loggedIn) {</p>
+<p>		var avatar = document.getElementById('header-pluck-avatar');</p>
+<p>		if (avatar) { //see if we have a cookie with user avatar image</p>
+<p>			var avatarImgURL = getCookieVal("PLUCK_USER_AVATAR");</p>
+<p>			var avatarImg = avatar.getElementsByTagName('IMG');</p>
+<p>			if (avatarImg.length == 1 && avatarImgURL) {</p>
+<p>				avatarImg[0].src = avatarImgURL; </p>
+<p>			}</p>
+<p>			var avatarURL = avatar.getElementsByTagName('A');</p>
+<p>			if (avatarURL) {</p>
+<p>				avatarURL[0].href = profileURL;</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>	</p>
+<p>function writeAuthHeaderLoggedOut(loginURL, registerURL, profileURL) {</p>
+<p>	document.write(</p>
+<p>			'Join the Community!<br/>' +</p>
+<p>			'<a href="' + loginURL + '">Log In</a>' + </p>
+<p>			' | ' + </p>
+<p>			'<a href="' + registerURL + '">Register</a>'</p>
+<p>		);</p>
+<p>		</p>
+<p>	//hide the avatar if needed</p>
+<p>	setAvatar(profileURL, false);</p>
+<p>}</p>
+<p>function truncName( nam, cnt ) {</p>
+<p>	var tNam = nam.substr(0, cnt);</p>
+<p>	if (tNam != nam) {</p>
+<p>		tNam = tNam + '&hellip;';</p>
+<p>	}</p>
+<p>	return tNam;</p>
+<p>}</p>
+<p>function writeAuthHeaderLoggedIn(mailAddress, accountURL, logoutURL,</p>
+<p>						profileURL, siteLifeUId, displayName) {</p>
+<p>	if (profileURL && siteLifeUId && displayName) {</p>
+<p>		var welcome = 'Welcome ' + </p>
+<p>				'<span class="username">' + </p>
+<p>					'<a href="' + profileURL + '">' + </p>
+<p>						truncName(displayName, 10) + </p>
+<p>					'</a>' + </p>
+<p>				'</span>';</p>
+<p>		setAvatar(true, true, profileURL);</p>
+<p>	} else {</p>
+<p>		var welcome = 'Welcome ' + </p>
+<p>				'<span class="username">' +</p>
+<p>					truncName(displayName ? displayName : mailAddress, 10 ) +</p>
+<p>				'</span>';</p>
+<p>		//hide the avatar if needed</p>
+<p>		setAvatar(false, true, profileURL ? profileURL : accountURL);</p>
+<p>	}</p>
+<p>	</p>
+<p>	document.write(	</p>
+<p>			welcome + '<br />' + </p>
+<p>			'<span class="your-account"><a href="' + accountURL + '">My account</a></span>' +</p>
+<p>			' | ' +</p>
+<p>			'<span class="log-out"><a href="' + logoutURL + '">Log out</a></span>'</p>
+<p>		);</p>
+<p>}</p>
+<p>writeAuthHeader(54,</p>
+<p>				true,</p>
+<p>				'http://www.walesonline.co.uk/registration/index.cfm',</p>
+<p>				null,</p>
+<p>				false,</p>
+<p>				'http://www.walesonline.co.uk/community/profile/',</p>
+<p>				2 </p>
+<p>				);</p>
+<p>	//]]></p>
+<p>	</p>
+<p>Get involved</p>
+<p>Send your stories |</p>
+<p>Contact us</p>
+<p>RSS news for you</p>
+<p>HomeNewsWales NewsCardiffOnlineValleysOnlineDatastoreLocal Welsh NewsColumnistsUK NewsWorld NewsPoliticsEducation NewsHealth NewsCountry and FarmingLetters to the editorNeed to ReadCorrections and clarificationsRugbyRugby NewsFocus on RugbyRugby ColumnistsBluesDragonsScarletsOspreysWelsh PremierDivisions 1 East & WestDivisions 2 - 6Rugby BlogsRugby World Cup 2011 ArchiveSportsSports NewsColumnistsGrassrootsParklifeOlympics 2012AthleticsCyclingBoxingTennisGlamorgan CCCCricketIce HockeyGolfRugby LeagueMotor SportFootballFootball NewsFootball ColumnistsWales FootballCardiff CitySwansea CityWrexhamMerthyr TydfilNewport CountyWelsh PremierFootball Videos & PicturesFootball BlogsFarewell to NinianLifestyleShowbizReal LifeEntertainmentThe Beauty BoxHealth & FitnessWeddingsFood & DrinkStyle & ShoppingHome & InteriorsWellbeingBooksWM MagazineLifestyle BlogsColumnistsHoroscopesEntertainmentBusinessBusiness NewsFeaturesBusiness ColumnistsCommercial PropertyPersonal FinanceVideos & PicturesBusiness AdviceAppointmentsAssembly BusinessBusiness DebateBusiness CalendarBusiness DealsBusiness StyleTop 300Business in Wales magazineClassifiedsBusiness in WalesBusiness in SwanseaBusiness in CardiffBookanad.comLocalMoleJobs WalesMotors WalesHomes WalesBuySellDiscount VouchersFamily Notices BMDPublic NoticesDatingYour MoneyTravelVideos & PicsNewsPembrokeshire MurdersRoyal WeddingSportBusinessPoliticsHistory & NostalgiaHealth Check WalesGo GreenEntertainmentYour Videos & PicsBuy A PhotoPhotoblogPhotomarathonBig PictureGo GreenNewsGreen LivingClimate ChangeBusinessEnergyEnvironmentPartnersGo Green VideoTransportWasteCommunitiesGreen BlogsHealth Check WalesHealth NewsDietFitnessHealth FeaturesUK & World Health NewsInformationCardiffOnlineCardiff newsCardiff RugbyCardiff FootballyourCardiff</p>
+<p>//<![CDATA[</p>
+<p>				</p>
+<p>				function megaHoverOver(){</p>
+<p>                       $(this).find(".sub").stop().fadeTo('fast', 1).show();</p>
+<p>                       </p>
+<p>                       //Calculate width of all ul's</p>
+<p>                       (function($){</p>
+<p>                           jQuery.fn.calcSubWidth = function(){</p>
+<p>                               rowWidth = 0;</p>
+<p>                               //Calculate row</p>
+<p>                               $(this).find("ul").each(function(){</p>
+<p>                                   rowWidth += $(this).width();</p>
+<p>                               });</p>
+<p>                           };</p>
+<p>                       })(jQuery);</p>
+<p>                       </p>
+<p>                       if ($(this).find(".row").length > 0) { //If row exists...</p>
+<p>                           var biggestRow = 0;</p>
+<p>                           //Calculate each row</p>
+<p>                           $(this).find(".row").each(function(){</p>
+<p>                               $(this).calcSubWidth();</p>
+<p>                               //Find biggest row</p>
+<p>                               if (rowWidth > biggestRow) {</p>
+<p>                                   biggestRow = rowWidth;</p>
+<p>                               }</p>
+<p>                           });</p>
+<p>                           //Set width</p>
+<p>                           $(this).find(".sub").css({</p>
+<p>                               'width': biggestRow</p>
+<p>                           });</p>
+<p>                           $(this).find(".row:last").css({</p>
+<p>                               'margin': '0'</p>
+<p>                           });</p>
+<p>                           </p>
+<p>                       }</p>
+<p>                       else { //If row does not exist...</p>
+<p>                           $(this).calcSubWidth();</p>
+<p>                           //Set Width</p>
+<p>                           $(this).find(".sub").css({</p>
+<p>                               'width': rowWidth</p>
+<p>                           });</p>
+<p>                           </p>
+<p>                       }</p>
+<p>                   }</p>
+<p>                   </p>
+<p>                   function megaHoverOut(){</p>
+<p>                       $(this).find(".sub").stop().fadeTo('fast', 0, function(){</p>
+<p>                           $(this).hide();</p>
+<p>                       });</p>
+<p>                   }</p>
+<p>                   </p>
+<p>                   </p>
+<p>                   var config = {</p>
+<p>                       sensitivity: 1, // number = sensitivity threshold (must be 1 or higher)    </p>
+<p>                       interval: 50, // number = milliseconds for onMouseOver polling interval    </p>
+<p>                       over: megaHoverOver, // function = onMouseOver callback (REQUIRED)    </p>
+<p>                       timeout: 100, // number = milliseconds delay before onMouseOut    </p>
+<p>                       out: megaHoverOut // function = onMouseOut callback (REQUIRED)    </p>
+<p>                   };</p>
+<p>                   </p>
+<p>                   $("ul#topnav li .sub").css({</p>
+<p>                       'opacity': '0'</p>
+<p>                   });</p>
+<p>                   $("ul#topnav li").hoverIntent(config);</p>
+<p>                   </p>
+<p>                   //add new flag based on the newuntil attribute set above</p>
+<p>                   var subNavItems = $('.newuntil');</p>
+<p>                   </p>
+<p>                   $('.newuntil').each(function(){</p>
+<p>                   	try {</p>
+<p>                    	var dateBits = $(this).attr('class').replace('newuntil ', '');</p>
+<p>                    	var dateBits = dateBits ? dateBits.split('/') : [];</p>
+<p>                    	var d = new Date();</p>
+<p>                    	if (dateBits.length == 3 ) {</p>
+<p>                    		var today = new Date(d.getFullYear(), d.getMonth()+1, d.getDate());</p>
+<p>                    		var navExpiryDate = new Date( dateBits[2], dateBits[1], dateBits[0]);</p>
+<p>	                    	if ( navExpiryDate >= today ) {</p>
+<p>                    			$('a', this).append('<span>new</span>');</p>
+<p>                    			tm.logger.info(['New Nav Item', nDate + ' IS >= ' + cDate ]);</p>
+<p>                    		} else {</p>
+<p>                    			tm.logger.info(['Old Nav Item', nDate + ' IS NOT >= ' + cDate ]);</p>
+<p>                    		}</p>
+<p>                    	}</p>
+<p>                    } catch (Ex) {}</p>
+<p>                   });</p>
+<p>            //]]>   </p>
+<p>            </p>
+<p>Hot Topics »</p>
+<p>Boundary changes</p>
+<p>Celebrity Big Brother</p>
+<p>Katherine Jenkins</p>
+<p>Join our Flickr Group</p>
+<p>Jacks Banter</p>
+<p>Bluebirds Banter</p>
+<p>Popular articles</p>
+<p>Home</p>
+<p>News</p>
+<p>Wales News</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=sponsorship;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=140x60;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>Patients die or suffer harm in 10% of NHS safety mishaps</p>
+<p>by Madeleine Brindley, WalesOnline</p>
+<p>Jan 12 2012</p>
+<p>	//<![CDATA[</p>
+<p>	</p>
+<p>	(function(){</p>
+<p>	var sitelifeId = tm.siteLife.display.getUniqueId();</p>
+<p>	document.write('<div class="SiteLife_comment"><a id="sitelife-commentsWidget-top" href="#sitelife-commentsWidget-bottom" onclick="window.location.hash=this.href.split(\'#\')[1];return false;"></a></div>');</p>
+<p>	</p>
+<p>	tm.siteLife.daapi.getArticle(</p>
+<p>	"54-91466-30105868",</p>
+<p>	function(article){</p>
+<p>	tm.siteLife.display.displayCommentCount(</p>
+<p>	article,</p>
+<p>	'sitelife-commentsWidget-top',</p>
+<p>	false,</p>
+<p>	'Comments',</p>
+<p>	true,</p>
+<p>	false</p>
+<p>	);</p>
+<p>	}</p>
+<p>	);</p>
+<p>	})();//call anonymous function</p>
+<p>	//]]></p>
+<p>	</p>
+<p>	//<![CDATA[</p>
+<p>	gSiteLife.Recommend("ExternalResource", "54-91466-30105868");</p>
+<p>	//]]></p>
+<p>	</p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>	var addthis_config = {"data_track_clickback":true,</p>
+<p>	services_compact: 'reddit,stumbleupon,tumblr,delicious,blogger,wordpress'</p>
+<p>	};</p>
+<p>	var addthis_share = {</p>
+<p>	url: self.location+''</p>
+<p>	, title: document.title.substr(0, document.title.lastIndexOf("-") - 1 , document.title.length )</p>
+<p>	</p>
+<p>	+ " from @walesonline"</p>
+<p>	</p>
+<p>	};</p>
+<p>	//]]></p>
+<p>Surgical instruments</p>
+<p>Almost one in 10 patient safety incidents in the NHS Wales results in significant harm to patients, new figures show.</p>
+<p>The reports, which cover the six months between April and September last year, show there were 55 deaths and 68 incidents of “severe harm” to patients in health boards and NHS trusts in Wales from such incidents.</p>
+<p>In some parts of the NHS the number of deaths and incidents of severe harm have risen steeply in the last six months.</p>
+<p>Kirsty Williams, leader of the Welsh Liberal Democrats, has called on Health Minister Lesley Griffiths to investigate relatively high death rates in some health boards.</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'article_mpu;slot=article%5Fmpu;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=300x250;gs_cat='+gs_channels+'' + tm.zones +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>	//]]></p>
+<p>According to reports submitted to the National Patient Safety Agency, more than 40 patients have died in patient safety incidents at Betsi Cadwaladr University Health Board in the course of 18 months and there were almost 30 deaths at both Abertawe Bro Morgannwg University Health Board and Hywel Dda Health Board, in the same period.</p>
+<p>An investigation was launched into a reported 41 deaths at Aneurin Bevan Health Board between April and September and it resulted in the figure being revised to 18.</p>
+<p>Ms Williams said: “It is accepted that some patients will die in hospitals, but it is unacceptable that patients die due to hospital error.</p>
+<p>“In the last two years, more than 40 patients have died unnecessarily under the care of the Betsi Cadwaladr University Health Board. Surely that statistic is alarming enough to warrant an investigation?</p>
+<p>“If the health boards can learn from their mistakes, they can reduce the number of people who die needlessly in our NHS.</p>
+<p>“Patient safety and welfare is paramount, which is why I have written to the Health Minister demanding that she looks into this issue with a matter of urgency. This is clearly a systematic problem that the Labour Government needs to address.”</p>
+<p>The figures also raise concerns about whether health boards are reporting all incidents as Powys Local Health Board said there had been just one between April and September last year.</p>
+<p>But in the previous six months, the health board had reported 264 incidents, including one which resulted in the death of a patient.</p>
+<p>A spokesman for Powys Local Health Board said: “There has clearly been an error in the data published. We are looking into the process of preparing and uploading this data to identify the error. Once this is complete we will ensure that the report is corrected as soon as possible.”</p>
+<p>Overall, the April to September 2011 figures show there were 26,749 reported incidents, a 9% drop on the previous six-month period. The vast majority of these incidents – 91% – resulted in no or “low” harm to a patient.</p>
+<p>A Welsh Government spokesman said: “Every year, thousands of patients receive high quality, safe and effective treatment, but in a modern health system – where increasingly complicated procedures are being undertaken – sadly, mistakes can, and will, still happen.</p>
+<p>“When this happens, the NHS must investigate and take action, where appropriate, and provide assurances and feedback to patients.</p>
+<p>“As the figures show, the overwhelming majority of incidents result in no harm to patients. It is important every incident, no matter how small or serious, is reported to ensure they can be investigated and measures put in place to reduce the risk of them happening again.</p>
+<p>“We encourage high reporting as this provides organisations with more opportunities to learn from incidents and improve safety.</p>
+<p>“We know from research that high reporting is a positive indicator of an open and supportive safety culture.</p>
+<p>“The 1,000 Lives campaign saved an additional 1,199 lives in Welsh healthcare and staff continue to deliver major improvements on critical care wards, in operating theatres and in the community, including the reduction of pressure ulcers and healthcare associated infections.”</p>
+<p>	//<![CDATA[</p>
+<p>	</p>
+<p>	(function(){</p>
+<p>	var sitelifeId = tm.siteLife.display.getUniqueId();</p>
+<p>	document.write('<div class="SiteLife_comment"><a id="sitelife-commentsWidget-middle" href="#sitelife-commentsWidget-bottom" onclick="window.location.hash=this.href.split(\'#\')[1];return false;"></a></div>');</p>
+<p>	</p>
+<p>	tm.siteLife.daapi.getArticle(</p>
+<p>	"54-91466-30105868",</p>
+<p>	function(article){</p>
+<p>	tm.siteLife.display.displayCommentCount(</p>
+<p>	article,</p>
+<p>	'sitelife-commentsWidget-middle',</p>
+<p>	false,</p>
+<p>	'Comments',</p>
+<p>	true,</p>
+<p>	false</p>
+<p>	);</p>
+<p>	}</p>
+<p>	);</p>
+<p>	})();//call anonymous function</p>
+<p>	//]]></p>
+<p>	</p>
+<p>	//<![CDATA[</p>
+<p>	gSiteLife.Recommend("ExternalResource", "54-91466-30105868");</p>
+<p>	//]]></p>
+<p>	</p>
+<p> </p>
+<p>	//<![CDATA[</p>
+<p>	var OB_Template = 'WalesOnline';</p>
+<p>	var OB_permalink = 'http://www.walesonline.co.uk/news/wales-news/2012/01/12/patients-die-or-suffer-harm-in-10-of-nhs-safety-mishaps-91466-30105868/';</p>
+<p>	if (typeof(OB_Script) != 'undefined') {</p>
+<p>	OutbrainStart();</p>
+<p>	}</p>
+<p>	else {</p>
+<p>	var OB_Script = true;</p>
+<p>	document.write(unescape("%3Cscript src=\'http://widgets.outbrain.com/outbrainWidget.js\' type=\'text/javascript\'%3E%3C/script%3E"));</p>
+<p>	}</p>
+<p>	//]]></p>
+<p>	</p>
+<p>Related Tags</p>
+<p>1000 lives plus, 						</p>
+<p>							</p>
+<p>deaths, 						</p>
+<p>							</p>
+<p>nhs, 						</p>
+<p>							</p>
+<p>patient safety</p>
+<p>(What's this)</p>
+<p>Related Stories</p>
+<p>NHS Wales chief executive David Sissling sets out five challenges facing the service in 2012</p>
+<p>Jan 9 2012</p>
+<p>Blind and deaf are ‘forgotten’ by NHS, report reveals</p>
+<p>Jan 9 2012</p>
+<p>Blind patient discusses difficulties of accessing NHS services</p>
+<p>Jan 9 2012</p>
+<p>Seventy-two million and rising - what happens to your prescription?</p>
+<p>Jan 9 2012</p>
+<p>NHS in Wales will pay to remove banned breast implants</p>
+<p>Jan 6 2012</p>
+<p>Head of NHS in Wales calls for reduction on spending on agency and locum staff</p>
+<p>Jan 6 2012</p>
+<p>Data: NHS Agency Staff Spend</p>
+<p>Jan 4 2012</p>
+<p>Should Chris Coleman be the next Wales football manager?</p>
+<p>				//<![CDATA[</p>
+<p>				var google_adnum = 0;</p>
+<p>			</p>
+<p>				function google_ad_request_done(google_ads) {</p>
+<p>			</p>
+<p>					if (google_ads.length == 0) {</p>
+<p>						return;</p>
+<p>					}</p>
+<p>					function anchorLink(str,url,visible_url,cssclass) {</p>
+<p>						 return '<a href="'+ url + '" '</p>
+<p>							+ ((typeof(cssclass)=='undefined')?(' '):(' class="'+cssclass+'" '))</p>
+<p>							+ '\'" onmouseover="window.status=\''  + encodeURI(visible_url)</p>
+<p>							+ '\'" onmouseout="window.status=\'\'">' + str + '</a>';</p>
+<p>					}</p>
+<p>					google_adnum += google_ads.length;</p>
+<p>					if (typeof(google_info)=="undefined"){</p>
+<p>						var feedback_url = "http://services.google.com/feedback/online_hws_feedback";</p>
+<p>					} else {</p>
+<p>						var feedback_url = google_info.feedback_url;</p>
+<p>					}</p>
+<p>					if('pub-6059318011805114'=='pub-4010713000150964'){</p>
+<p>						var s =	'<div class="'+ wrapperClass +'"><h4 class="list-head-color1 "><a class="google-adlink" href="'+feedback_url+'">Sponsored Links</a></h4>';</p>
+<p>					} else {</p>
+<p>						var s =	'<div class="'+ wrapperClass +'"><h4 class="list-head-color1 ">Sponsored Links</h4>' +</p>
+<p>								'<div class="sponsored-link"><p><a class="google-adlink" href="'</p>
+<p>								+feedback_url+'">Ads by Google</a></p></div>';</p>
+<p>					}</p>
+<p>					for (var i = 0; i < google_ads.length; ++i) {</p>
+<p>						if (google_ads[i].type == "image") {</p>
+<p>							s +='<a href="' + google_ads[i].url +</p>
+<p>								'" target="_top" title="go to ' + google_ads[i].visible_url +</p>
+<p>								'"><img style="border:0" src="' + google_ads[i].image_url +</p>
+<p>								'"width="' + google_ads[i].image_width +</p>
+<p>								'"height="' + google_ads[i].image_height + '"/></a>';</p>
+<p>						} else {</p>
+<p>							s += '<div class="sponsored-link">' +</p>
+<p>								'<h5>' + anchorLink(google_ads[i].line1,google_ads[i].url,</p>
+<p>										google_ads[i].visible_url) + '</h5>'</p>
+<p>								+ '<p>' + google_ads[i].line2 + '&nbsp;'</p>
+<p>								+ ((typeof(google_ads[i].line3)=='undefined')?(' '):( google_ads[i].line3 ))</p>
+<p>								+ '<br />'</p>
+<p>								+ '<span>' + anchorLink(google_ads[i].visible_url,google_ads[i].url,</p>
+<p>										google_ads[i].visible_url,"google-adlink") + '</span>'</p>
+<p>								+ '</p></div>';</p>
+<p>						}</p>
+<p>					}</p>
+<p>					s += '</div>' + "\r\n";</p>
+<p>					wrapperClass = null;</p>
+<p>					document.write(s);</p>
+<p>					return;</p>
+<p>				}</p>
+<p>				//]]></p>
+<p>		</p>
+<p>	</p>
+<p>	</p>
+<p>		google_max_num_ads = '2';</p>
+<p>		google_ad_channel = '3941327537+7778083637';</p>
+<p>		google_ad_type = 'text';</p>
+<p>		google_ad_client = 'pub-6059318011805114';</p>
+<p>		google_feedback = 'on';</p>
+<p>		google_language = 'en';</p>
+<p>		google_encoding = 'utf8';</p>
+<p>		</p>
+<p>			google_skip = google_adnum;</p>
+<p>			google_ad_output = 'js';</p>
+<p>		</p>
+<p>		var wrapperClass = 'share-article';</p>
+<p>	</p>
+<p>Share</p>
+<p>		//<![CDATA[</p>
+<p>			</p>
+<p>			</p>
+<p>			var fcwLogger = function(){};</p>
+<p>			if( tm.siteLife.logger != null){</p>
+<p>				fcwLogger = function(level){</p>
+<p>					tm.siteLife.logger.log(level, 'fullCommentsWidget', arguments);</p>
+<p>				}</p>
+<p>				fcwLogger('info','log enabled');</p>
+<p>			}</p>
+<p>			(function(){</p>
+<p>				var sitelifeId = tm.siteLife.display.getUniqueId();</p>
+<p>				document.write('<span id="sitelife-comments-bottom"></span>');</p>
+<p>				document.write('<div id="sitelife-commentsWidget-bottom"></div>');</p>
+<p>				tm.siteLife.daapi.getArticle(</p>
+<p>					"54-91466-30105868",</p>
+<p>					function(article){</p>
+<p>						tm.siteLife.display.displayCommentCount(</p>
+<p>							article,</p>
+<p>							'sitelife-commentsWidget-bottom',</p>
+<p>							false,</p>
+<p>							'Comments',</p>
+<p>							false</p>
+<p>						);</p>
+<p>					}</p>
+<p>				);</p>
+<p>			})();</p>
+<p>			var pluckLoginURL =</p>
+<p>						"http://www.walesonline.co.uk/registration/index.cfm?redirect=",</p>
+<p>					pluckRegisterURL =</p>
+<p>						"http://www.walesonline.co.uk/registration/index.cfm?register=1&type=4&redirect=";</p>
+<p>		//]]></p>
+<p>		</p>
+<p>Related Stories</p>
+<p>NHS Wales chief executive David Sissling sets out five challenges facing the service in 2012</p>
+<p>Jan 9 2012</p>
+<p>Blind and deaf are ‘forgotten’ by NHS, report reveals</p>
+<p>Jan 9 2012</p>
+<p>Blind patient discusses difficulties of accessing NHS services</p>
+<p>Jan 9 2012</p>
+<p>Seventy-two million and rising - what happens to your prescription?</p>
+<p>Jan 9 2012</p>
+<p>NHS in Wales will pay to remove banned breast implants</p>
+<p>Jan 6 2012</p>
+<p>			//<![CDATA[</p>
+<p>					function checktopsearch(frm) {</p>
+<p>						if (frm.q.value.replace(/^[\s\t]*/, "").replace(/[\s\t]*$/, "") == '') {</p>
+<p>							alert("Please enter some search text");</p>
+<p>							frm.q.focus();</p>
+<p>							return false;</p>
+<p>						}</p>
+<p>						return true;</p>
+<p>					}</p>
+<p>					useGoogleJSLogo = true;</p>
+<p>			//]]></p>
+<p>			</p>
+<p> Site</p>
+<p> Web</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrdT160x60 == 'undefined') dartOrdT160x60=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;tp=1;tn=2;to=h;tr=1;tcs=2;te=2;slot=right%5Ftable1%5FR21;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=160x60,160x120;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrdT160x60 +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=mpu;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=300x250,300x600;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>Walesonline Classifieds</p>
+<p>bookanad.com</p>
+<p>Jobs in Wales</p>
+<p>Cars in Wales</p>
+<p>Find a dream date</p>
+<p>Photosales</p>
+<p>Wales Vouchers</p>
+<p>Find local business</p>
+<p>Homes in Wales</p>
+<p>BuySell</p>
+<p>Cashback</p>
+<p>Advertise</p>
+<p>Video Production</p>
+<p>LocalMole.co.uk Business Finder</p>
+<p>Please enter a Business and Location.</p>
+<p>Pubs in Cardiff</p>
+<p>Plumbers in Cardiff</p>
+<p>Restaurants in Cardiff</p>
+<p>Builders in Cardiff</p>
+<p>Hotels in Cardiff</p>
+<p>Schools in Cardiff</p>
+<p>More Cardiff Businesses »</p>
+<p>Accountants in Cardiff</p>
+<p>Architects in Cardiff</p>
+<p>Beauty Salons in Cardiff</p>
+<p>Business Centres in Cardiff</p>
+<p>Business Services in Cardiff</p>
+<p>Cafes in Cardiff</p>
+<p>Caravan Dealers in Cardiff</p>
+<p>Car Dealers in Cardiff</p>
+<p>Car Hire in Cardiff</p>
+<p>Care Homes in Cardiff</p>
+<p>Cleaners in Cardiff</p>
+<p>Computer Repair in Cardiff</p>
+<p>Debt Advice in Cardiff</p>
+<p>Dentists in Cardiff</p>
+<p>Doctors in Cardiff</p>
+<p>Driving Schools in Cardiff</p>
+<p>Electricians in Cardiff</p>
+<p>Estate Agents in Cardiff</p>
+<p>Florists in Cardiff</p>
+<p>Funeral Directors in Cardiff</p>
+<p>Garden Centres in Cardiff</p>
+<p>Hairdressers in Cardiff</p>
+<p>Insurance Services in Cardiff</p>
+<p>Lawyers in Cardiff</p>
+<p>Locksmiths in Cardiff</p>
+<p>Marketing Companies in Cardiff</p>
+<p>Mobile Phones in Cardiff</p>
+<p>Museums in Cardiff</p>
+<p>Nursery Schools in Cardiff</p>
+<p>Office Rental in Cardiff</p>
+<p>Pet Services in Cardiff</p>
+<p>Plasterers in Cardiff</p>
+<p>Solicitors in Cardiff</p>
+<p>Takeaways in Cardiff</p>
+<p>Taxis in Cardiff</p>
+<p>Wedding Services in Cardiff</p>
+<p>	$("a.lm-toggle").toggle(</p>
+<p>	function(){</p>
+<p>	$(this).parent().next().show();</p>
+<p>	$(this).text("Hide");</p>
+<p>	return false;</p>
+<p>	}, </p>
+<p>	function(){</p>
+<p>	$(this).parent().next().hide();</p>
+<p>	$(this).text("More Businesses in Cardiff");</p>
+<p>	return false;</p>
+<p>	}</p>
+<p>	);</p>
+<p>	</p>
+<p>List your business for free »</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrdT160x60 == 'undefined') dartOrdT160x60=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;tp=1;tn=2;to=h;tr=1;tcs=2;te=2;slot=right%5Ftable2%5FR21;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=160x60,160x120;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrdT160x60 +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>	</p>
+<p>	</p>
+<p>		google_max_num_ads = '6';</p>
+<p>		google_ad_channel = '8617321078+7778083637';</p>
+<p>		google_ad_type = 'text';</p>
+<p>		google_ad_client = 'pub-6059318011805114';</p>
+<p>		google_feedback = 'on';</p>
+<p>		google_language = 'en';</p>
+<p>		google_encoding = 'utf8';</p>
+<p>		</p>
+<p>			google_skip = google_adnum;</p>
+<p>			google_ad_output = 'js';</p>
+<p>		</p>
+<p>		var wrapperClass = 'one-col';</p>
+<p>	</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=right%5Fsky;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=120x600,160x600;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>Hot Topics »</p>
+<p>Boundary changes</p>
+<p>Celebrity Big Brother</p>
+<p>Katherine Jenkins</p>
+<p>Join our Flickr Group</p>
+<p>Jacks Banter</p>
+<p>Bluebirds Banter</p>
+<p>Popular articles</p>
+<p>WalesOnline, the best source for Welsh news, sport, business and entertainment. Powered by the Western Mail, South Wales Echo, Wales on Sunday and Celtic Weekly Newspapers. Produced by Media Wales Ltd. Contact us.</p>
+<p>About us</p>
+<p> WalesOnline, the best source for Welsh news, sport, business and lifestyle and entertainment. Powered by the Western Mail, South Wales Echo, Wales on Sunday and Celtic Weekly Newspapers. Produced by Media Wales Ltd. </p>
+<p>Login or Register</p>
+<p>Popular sections</p>
+<p>Home</p>
+<p>News</p>
+<p>Cardiff News</p>
+<p>South Wales Valleys News</p>
+<p>UK News</p>
+<p>Rugby News</p>
+<p>Cardiff Blues</p>
+<p>Dragons</p>
+<p>Scarlets</p>
+<p>Ospreys</p>
+<p>Welsh Premier League</p>
+<p>FootballNation</p>
+<p>Football News</p>
+<p>Cardiff City FC News</p>
+<p>Swansea City FC News</p>
+<p>Business</p>
+<p>Videos & Pics</p>
+<p>News Videos</p>
+<p>Sports Videos</p>
+<p>News Pictures</p>
+<p>Sports Pictures</p>
+<p>Join our Flickr Group</p>
+<p>Audio</p>
+<p>Country & Farming</p>
+<p>Special Features</p>
+<p>Useful links</p>
+<p>Sitemap </p>
+<p>Contact Us</p>
+<p>Complaints</p>
+<p>Corrections and Clarifications</p>
+<p>Book an advert in our newspapers or online</p>
+<p>Accessibility </p>
+<p>RSS feed info </p>
+<p>Weather</p>
+<p>Send Your Stories </p>
+<p>Our Twitter Feed</p>
+<p>Our Facebook Group</p>
+<p>yourCardiff</p>
+<p>Letters to the editor</p>
+<p>Datastore</p>
+<p>Topic Index</p>
+<p>Journalist directory</p>
+<p>Community Guidelines</p>
+<p>Frequently Asked Questions</p>
+<p>Advertising Information</p>
+<p>Subscriptions</p>
+<p>Buy a photo</p>
+<p>Our site network</p>
+<p>Jobs Wales</p>
+<p>Homes Wales</p>
+<p>Motors Wales</p>
+<p>WalesOnline Dating</p>
+<p>The Geek Files</p>
+<p>Buy & Sell Locally</p>
+<p>Book an ad</p>
+<p>Cashback</p>
+<p>LocalMole - Trusted Local Businesses</p>
+<p>Property Search Cardiff</p>
+<p>Mirror Reader Offers</p>
+<p>Copyright and Trade Mark Notice © 2012 owned by or licensed to Media Wales Ltd. WalesOnline™ is a trade mark of Media Wales Ltd. Please read our Terms and Conditions and Privacy Statement before using this site.</p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=bottom%5Fleaderboard;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=728x90;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=bottom%5Fad;sect=wales%2Dnews;templ=page;cat=News;reg=Wales;st=other;oid=30105868;sz=255x90;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p><!--</p>
+<p>var OMNI_DEBUG_LEVEL = 33; </p>
+<p>function GetURLVars()</p>
+<p>{</p>
+<p>	</p>
+<p>	var args = new Object();</p>
+<p>	a_pairs = document.location.search.split(/[?&]/);</p>
+<p>	for (i = 0; i < a_pairs.length; i ++) {</p>
+<p>		</p>
+<p>		a_bits = a_pairs[i].split('=');</p>
+<p>		if ((a_bits.length == 2) && (a_bits[0].length)) {</p>
+<p>			if (args[a_bits[0]] == undefined) {</p>
+<p>				</p>
+<p>				args[a_bits[0]] = unescape(a_bits[1]);</p>
+<p>			} else {</p>
+<p>				</p>
+<p>				args[a_bits[0]] = args[a_bits[0]] + ',' + unescape(a_bits[1]);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	return args;</p>
+<p>}</p>
+<p>function GetCampaign()</p>
+<p>{</p>
+<p>	var urlvars = GetURLVars();</p>
+<p>	var campaignSrc;</p>
+<p>	if (typeof(urlvars.campaign) != 'undefined') {</p>
+<p>		campaignSrc = urlvars.campaign;</p>
+<p>	} else {</p>
+<p>		campaignSrc ="";</p>
+<p>	}</p>
+<p>	return campaignSrc;</p>
+<p>}</p>
+<p>var s_account;</p>
+<p>s_account = s_account || "mgntrinitymirroraggregate,tmr-icwales";</p>
+<p>//--></p>
+<p><!--</p>
+<p>var pageName = "icwales2/News/Wales News"</p>
+<p>if (typeof startLoadTime != 'undefined') {</p>
+<p>	var endLoadTime = (new Date()).getTime();</p>
+<p>	var totalLoadTime = Math.round((endLoadTime - startLoadTime) / 100) /10;</p>
+<p>}</p>
+<p>else {</p>
+<p>	var totalLoadTime = 0;</p>
+<p>}</p>
+<p>s.channel="News";</p>
+<p>s.pageType="";</p>
+<p>s.prop1="News|Wales News";</p>
+<p>s.prop2="";</p>
+<p>s.prop3="";</p>
+<p>s.prop4="";</p>
+<p>s.prop5 = "icwales2";</p>
+<p>try {</p>
+<p>	var omnitureSitename = (</p>
+<p>		(typeof getCookieVal == 'undefined')?getCookie:getCookieVal</p>
+<p>	)('brandingheader_site_name');</p>
+<p>	if (omnitureSitename) s.prop5 = omnitureSitename;</p>
+<p>} catch(e) {</p>
+<p>	</p>
+<p>}</p>
+<p>s.prop9="page.cfm"</p>
+<p>s.prop10="30105868"</p>
+<p>s.prop11=""</p>
+<p>s.prop12=""</p>
+<p>s.prop13=""</p>
+<p>s.prop14=GetCampaign();</p>
+<p>s.prop16="Wales"</p>
+<p>s.prop18="News"</p>
+<p>s.prop19="30105868"</p>
+<p>s.prop21="Wales-WME"</p>
+<p>s.prop24=""</p>
+<p>s.prop27 = totalLoadTime</p>
+<p>s.prop30="article"</p>
+<p>s.hier1="icwales2|News|Wales News"</p>
+<p>s.campaign=s.prop14</p>
+<p>s.state=""</p>
+<p>s.zip=""</p>
+<p>s.products=""</p>
+<p>s.purchaseID=""</p>
+<p>var eVar1Val=""</p>
+<p>var eVar2Val=""</p>
+<p>var eVar3Val=""</p>
+<p>var eVar4Val=""</p>
+<p>var eventsList=""</p>
+<p>s.prop15="icwales2_patients-die-or-suffer-harm-in-10-of-nhs-safety-mishaps"</p>
+<p>s.prop22=s.prop23=""</p>
+<p>if (typeof(statsPageProps)!='undefined'){</p>
+<p>	if (typeof(statsPageProps.productCode)!='undefined')s.products=';'+statsPageProps.productCode</p>
+<p>	if (typeof(statsPageProps.jobSearchLocation)!='undefined')eVar3Val=statsPageProps.jobSearchLocation</p>
+<p>	if (typeof(statsPageProps.jobSearchIndustry)!='undefined')eVar4Val=statsPageProps.jobSearchIndustry</p>
+<p>	eventsList=statsPageProps.eventsList</p>
+<p>	if (typeof(statsPageProps.videoTitle)!='undefined'){</p>
+<p>		eVar2Val=s.prop23=statsPageProps.videoTitle;</p>
+<p>	</p>
+<p>	}</p>
+<p>	/* override props if defined from header var statsPageProps */</p>
+<p>	if (typeof(statsPageProps.path1) != 'undefined') {</p>
+<p>			s.prop1 = statsPageProps.path1;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.path2) != 'undefined') {</p>
+<p>			s.prop2 = statsPageProps.path2;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.path3) != 'undefined') {</p>
+<p>			s.prop3 = statsPageProps.path3;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.siteName) != 'undefined') {</p>
+<p>			s.prop5 = statsPageProps.siteName;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.region) != 'undefined') {</p>
+<p>		s.prop16 = statsPageProps.region;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.itemTitle) != 'undefined') {</p>
+<p>		s.prop19 = statsPageProps.itemTitle;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.publishingGroup) != 'undefined') {</p>
+<p>		s.prop21 = statsPageProps.publishingGroup;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.channel) != 'undefined') {</p>
+<p>		s.channel = statsPageProps.channel;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.classifiedCategory) != 'undefined') {</p>
+<p>		statsClassifiedCategory = statsPageProps.classifiedCategory;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.contentCategory) != 'undefined') {</p>
+<p>		statsContentCategory = statsPageProps.contentCategory;</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (typeof(statsPageProps.moleBusinessName) != 'undefined') {</p>
+<p>		s.prop26='Mole-Enquiry';</p>
+<p>		s.eVar7=statsPageProps.moleBusinessName;</p>
+<p>	}</p>
+<p>	// in case the kyte video starts playing before s is defined, then the event will be sent here</p>
+<p>	if (typeof(statsPageProps.kyteEvent) != 'undefined') {</p>
+<p>		eventsList += (eventsList ? ',' : '') + statsPageProps.kyteEvent;</p>
+<p>	}</p>
+<p>	// for image gallery kyte shows</p>
+<p>	if (typeof(statsPageProps.galleryName) != 'undefined') {</p>
+<p>		s.prop35=statsPageProps.galleryName;</p>
+<p>		s.eVar12=statsPageProps.galleryName;</p>
+<p>	}</p>
+<p>	</p>
+<p>	// for offers flyout</p>
+<p>	if (typeof(statsPageProps.flyout) != 'undefined') {</p>
+<p>		s.prop36 = statsPageProps.flyout;</p>
+<p>	}</p>
+<p>}</p>
+<p>s.events=eventsList</p>
+<p>s.eVar1=eVar1Val</p>
+<p>s.eVar2=eVar2Val</p>
+<p>s.eVar3=eVar3Val</p>
+<p>s.eVar4=eVar4Val</p>
+<p>s.eVar5=""</p>
+<p>s.pageName = setOmniturePageName(pageName);</p>
+<p>if (typeof(statsPageProps)!='undefined' && typeof(statsPageProps.pageNameSuffix)!='undefined') {</p>
+<p>	s.pageName += statsPageProps.pageNameSuffix; // adds a suffix if present on page.</p>
+<p>}</p>
+<p>if (typeof(statsClassifiedCategory) != "undefined") {</p>
+<p>	</p>
+<p>	s.prop4 = statsClassifiedCategory;</p>
+<p>	</p>
+<p>	s.prop18 = s.prop18 || statsClassifiedCategory;</p>
+<p>}</p>
+<p>if (typeof(statsContentCategory) != "undefined") {</p>
+<p>	s.prop18 = statsContentCategory;</p>
+<p>}</p>
+<p>if (s.prop4 != "" && s.prop5 != "") s.prop12 = s.prop5 + "_" + s.prop4;</p>
+<p>if (s.prop4 != "" && s.prop16 != "") s.prop17 = s.prop16 + "_" + s.prop4;</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code);</p>
+<p>var puffLinks = $('*[type=puff] a');</p>
+<p>//Add click event</p>
+<p>puffLinks.click(function(){</p>
+<p>	//get object id</p>
+<p>	var parentEl = $(this);</p>
+<p>	var objectId = "";</p>
+<p>	var containerName = "";</p>
+<p>	</p>
+<p>	//We want to find the content object on the page.</p>
+<p>	do {</p>
+<p>		parentEl = parentEl.parent();</p>
+<p>	} while (parentEl && </p>
+<p>			!parentEl.attr('tagName').toLowerCase().match(/(tm:)?contentobject/));</p>
+<p>	if (!parentEl) {</p>
+<p>		tm.logger.error(['Puff Tracking:', 'No parent tm:contentobject tag'], OMNI_DEBUG_LEVEL);</p>
+<p>		return !tm.logger.enabled; //if debug mode don't follow link</p>
+<p>	} else {</p>
+<p>		objectId = parentEl.attr('objectid');</p>
+<p>	}</p>
+<p>	</p>
+<p>	// So we now have the content object we are looking for - we continue on up the tree</p>
+<p>	// to get the name of the container holding it.</p>
+<p>	do {</p>
+<p>		parentEl = parentEl.parent();</p>
+<p>	} while (parentEl && </p>
+<p>			!parentEl.attr('tagName').toLowerCase().match(/(tm:)?container/) );</p>
+<p>	if (!parentEl) {</p>
+<p>		tm.logger.error(['Puff Tracking:', 'no parent tm:container tag'], OMNI_DEBUG_LEVEL);</p>
+<p>		return !tm.logger.enabled; //if debug mode don't follow link</p>
+<p>	} else {</p>
+<p>		containerName = parentEl.attr('name');</p>
+<p>	}</p>
+<p>	tm.logger.debug(['Puff Tracking:', 'objectId:', objectId, </p>
+<p>			'containerName:', containerName, parentEl ], OMNI_DEBUG_LEVEL);</p>
+<p>	s.eVar13 = s.pageName + '-' + containerName + '-' + objectId;</p>
+<p>	s.events = 'event17';</p>
+<p>	s.t();</p>
+<p>	</p>
+<p>	tm.logger.info(['Puff Tracking:', 'Omniture event sent' ], OMNI_DEBUG_LEVEL);</p>
+<p>	return tm.logger.debugLevel != OMNI_DEBUG_LEVEL; //if debug mode don't follow link</p>
+<p>});</p>
+<p>//Log to console if required.</p>
+<p>tm.logger.debug( [ 'Puff Tracking: Links', puffLinks ], OMNI_DEBUG_LEVEL );</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>		//<![CDATA[</p>
+<p>	</p>
+<p>	if (typeof displayTopAds == 'function') {displayTopAds();} </p>
+<p>	</p>
+<p>	if (tm.defer) {tm.defer.renderDeferred();}</p>
+<p>		//]]></p>
+<p>		</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>document.write('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/icwales2.5293/' +</p>
+<p> 'news;slot=contextual;cat=News;sz=1x1' + tm.zones  +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>					//<![CDATA[</p>
+<p>						tm.siteLife.daapi.post();</p>
+<p>					//]]></p>
+<p>					</p>
+<p>					//<![CDATA[</p>
+<p>						tm.removeUnwantedDivs();</p>
+<p>					//]]></p>
+<p>				</p>

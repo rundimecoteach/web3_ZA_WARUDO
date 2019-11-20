@@ -1,0 +1,391 @@
+<p>USF researcher disputes Alzheimer’s as a disease - News - The Oracle </p>
+<p>var webserverpath = ".cmn.atex.cniweb.net:8080" + "/se/" + "USF_Oracle";</p>
+<p>var omniSectionName = "news";</p>
+<p>var articleTitle="The Oracle - USF researcher disputes Alzheimer’s as a disease";</p>
+<p>var anCPCd = "5";</p>
+<p>var anCPPipe = "1";</p>
+<p>var paperID = "880";</p>
+<p>var omniSectionName = "News";</p>
+<p>var omniPaperName = "The Oracle";</p>
+<p>var omniPaperUrl = "http://www.usforacle.com";</p>
+<p>var omniPaperID = "880";</p>
+<p>var omniURLPath = document.location.pathname.toString();</p>
+<p>var omniPIPE = "PIPE1";</p>
+<p>CPN_PARTNER = "false";</p>
+<p>(function() {</p>
+<p>var _r = Math.floor(Math.random()*1000000);</p>
+<p>if (_r < 300000) {</p>
+<p>CPN_PARTNER = "true";</p>
+<p>}</p>
+<p>})();</p>
+<p>/*</p>
+<p><![CDATA[</p>
+<p>*/</p>
+<p>(function() {</p>
+<p>var proto = "http:";</p>
+<p>var host = "cdn.adgear.com";</p>
+<p>var bucket = "a";</p>
+<p>if (window.location.protocol == "https:") {</p>
+<p>proto = "https:";</p>
+<p>host = "a.adgear.com";</p>
+<p>bucket = "";</p>
+<p>}</p>
+<p>document.writeln('<scr' + 'ipt type="text/ja' + 'vascr' + 'ipt" s' + 'rc="' +</p>
+<p>proto + '//' + host + '/' + bucket + '/adgear.js/current/adgear.js' +</p>
+<p>'"></scr' + 'ipt>');</p>
+<p>})();</p>
+<p>/*</p>
+<p>]]></p>
+<p>*/</p>
+<p>/*</p>
+<p><![CDATA[</p>
+<p>*/</p>
+<p>ADGEAR.tags.script.init();</p>
+<p>ADGEAR.lang.namespace("ADGEAR.site_callbacks");</p>
+<p>/*</p>
+<p>* Make this return a hash of key/value pairs you would like to have automatically</p>
+<p>* sent through to AdGear via the querystring in every impression:</p>
+<p>*/</p>
+<p>ADGEAR.site_callbacks.variables = function() {</p>
+<p>return { };</p>
+<p>}</p>
+<p>/*</p>
+<p>]]></p>
+<p>*/</p>
+<p>ADGEAR.site_callbacks.variables = function() {</p>
+<p>return { "CPN_PARTNER": CPN_PARTNER }; }</p>
+<p>var isChrome = navigator.userAgent.toLowerCase().indexOf("safari") > -1;</p>
+<p>var adGearSeg_adPaperID= "880";</p>
+<p>adGearSeg_adPaperID=adGearSeg_adPaperID.toString().trim();</p>
+<p>var url=document.location.toString();</p>
+<p>var adGearSeg_Section1="News";</p>
+<p>var adGearSeg_Section=document.location.pathname;</p>
+<p>  if (url.indexOf("guide.")>0)</p>
+<p>    adGearSeg_Section="/fromguide"+adGearSeg_Section;</p>
+<p>var adGearSeg_Zone=adGearSeg_Section;</p>
+<p>var papername="The Oracle";</p>
+<p>getAdGearCMNSections(adGearSeg_adPaperID);</p>
+<p>var linkrss='http://www.usforacle.com/se/oracle-css-1.544474';</p>
+<p>linkrss=linkrss.replace('/se/','/se/localcss-');</p>
+<p>document.writeln('<link rel="stylesheet" type="text/css" href="' + linkrss + '"/>');</p>
+<p>{</p>
+<p>  'zone':"dTKxq8ipip8KDbN83NR5UY",</p>
+<p>  'mode':"meter",</p>
+<p>  'debug':0</p>
+<p>}</p>
+<p>startList = function() { navRoot = document.getElementById("primeNav");</p>
+<p>for (i=0; i<navRoot.childNodes.length; i++) { node =</p>
+<p>navRoot.childNodes[i];</p>
+<p>if (node.className == "drop") { node.onmouseover=function() {</p>
+<p>this.className+=" over"; };</p>
+<p>node.onmouseout=function() { this.className=this.className.replace("over", ""); }; }; }; };</p>
+<p>window.onload=startList;</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>var anCPPaperUrl=omniPaperUrl.substring(omniPaperUrl.indexOf("http://")+7, omniPaperUrl.length);</p>
+<p>var anCPPaperName=omniPaperName;</p>
+<p>var anCPPaperId=omniPaperID;</p>
+<p>anCPPaperId.replace(/^\s*/,"");</p>
+<p>anCPPaperId.replace(/\s*/,"");</p>
+<p>anCPPaperId.replace(/%20/g,"");</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-1064236-19");</p>
+<p>pageTracker._setCustomVar(1, "pu", anCPPaperUrl, 3);</p>
+<p>pageTracker._setCustomVar(2, "pi", anCPPaperId, 3);</p>
+<p>pageTracker._setCustomVar(3, "pn", anCPPaperName, 3);</p>
+<p>pageTracker._setCustomVar(4, "ppp", anCPPipe, 3);</p>
+<p>pageTracker._setCustomVar(5, "pcp", anCPCd, 3);</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>var anCPPaperUrl=omniPaperUrl.substring(omniPaperUrl.indexOf("http://")+7, omniPaperUrl.length);</p>
+<p>var anCPPaperName=omniPaperName;</p>
+<p>var anCPPaperId=omniPaperID;</p>
+<p>anCPPaperId.replace(/^\s*/,"");</p>
+<p>anCPPaperId.replace(/\s*/,"");</p>
+<p>anCPPaperId.replace(/%20/g,"");</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-18994242-2");</p>
+<p>pageTracker._setCustomVar(1, "pu", anCPPaperUrl, 3);</p>
+<p>pageTracker._setCustomVar(2, "pi", anCPPaperId, 3);</p>
+<p>pageTracker._setCustomVar(3, "pn", anCPPaperName, 3);</p>
+<p>pageTracker._setCustomVar(4, "ppp", anCPPipe, 3);</p>
+<p>pageTracker._setCustomVar(5, "pcp", anCPCd, 3);</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-10747412-37']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>_gaq.push(['_trackPageLoadTime']);</p>
+<p>(function() {</p>
+<p>var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>
+<p>Top College News Subscribe to the Newsletter</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '11' + '&' + adGearSeg_Section + '&' + papername + '" width="728" height="' + (isChrome ? 98 : 90) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p> Home </p>
+<p> </p>
+<p>News Blog</p>
+<p>Sports Blog</p>
+<p>Twitter</p>
+<p>Facebook</p>
+<p>Search this site</p>
+<p>Login | Register</p>
+<p>Receive campus news in your inbox. Sign up for the email edition.</p>
+<p>Home</p>
+<p>News</p>
+<p>News Home</p>
+<p>Around the World</p>
+<p>Montage</p>
+<p>Sports</p>
+<p>Opinion</p>
+<p>Opinion Home</p>
+<p>Letter to the Editor</p>
+<p>Cartoons & Crosswords</p>
+<p>Scene & Heard</p>
+<p>Guide & Deals</p>
+<p>Multimedia</p>
+<p>Archives</p>
+<p>Place a classified ad</p>
+<p>Today's Classifieds</p>
+<p>About</p>
+<p>Contact Info</p>
+<p>Staff Bios</p>
+<p>Advertise</p>
+<p>Twitter</p>
+<p>The Oracle</p>
+<p>></p>
+<p>News</p>
+<p>var secParents = "$content.securityparent.content.name";</p>
+<p>         FB.init({</p>
+<p>            appId:'165641466807545', cookie:true,</p>
+<p>            status:true, xfbml:true</p>
+<p>         });</p>
+<p>      </p>
+<p>USF researcher disputes Alzheimer’s as a disease</p>
+<p>var author = "Jessica Velez ASST. NEWS EDITOR".replace("'","");</p>
+<p>author=author.replace('|'," frame ");</p>
+<p>//alert(author);</p>
+<p>document.write("<p class='author'><span class='by'>By</span> <a href='/search?q=&quot;"+author+"&quot;'>Jessica Velez ASST. NEWS EDITOR</a></p>");</p>
+<p>Published: Thursday, January 12, 2012</p>
+<p>Updated: Thursday, January 12, 2012 01:01</p>
+<p>var fullArticle=(window.location).toString();</p>
+<p>if(fullArticle.indexOf("?") > -1)</p>
+<p>fullArticle= fullArticle.substring(0,fullArticle.indexOf("?"));</p>
+<p>function printwholeArticle(urllink){</p>
+<p>//var myPopup = window.createPopup();</p>
+<p>//myPopup.show(100,100,100,200,document.body);</p>
+<p>var printWindow = window.open(urllink, 'prnwindowName2', 'width=200, height=77, toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes,visible=false ');</p>
+<p>//printWindow.document.write(printContent.innerHTML);</p>
+<p>//printWindow.location=urllink;</p>
+<p>printWindow.focus();</p>
+<p>//printWindow.style.visibility="hidden";</p>
+<p>//printWindow.print();</p>
+<p>//printWindow.close();</p>
+<p>}</p>
+<p>var addthis_config = {"data_track_addressbar":true};</p>
+<p>	 </p>
+<p>	USF has been committed to finding a cure for Alzheimer's disease, with millions of dollars given or donated to the USF Health Byrd Alzheimer's Institute in the past year alone.</p>
+<p>	However, one researcher is convinced that money might be going to a cure that doesn't exist.</p>
+<p>	A recently published study in the Journal of Alzheimer's Disease by Ming Chen, an associate professor in the molecular pharmacology and physiology department, suggests that Alzheimer's in the elderly has no cure because it is not a disease, but rather a misnomer for a natural condition caused primarily by age.</p>
+<p>	"Over 20 years, I studied Alzheimer's," he said. "Then after the first 10 years, I started to realize that something might be wrong that turned things upside-down."</p>
+<p>	Chen said that neurotransmission, or the movement of signals sent through the brain, is regulated by calcium. While Chen expected calcium levels to decrease in a person with Alzheimer's because of the symptoms of impaired brain function, he found, as did the medical community at large, that calcium levels increased.</p>
+<p>	"From there, I realized something must be fundamentally wrong," he said. "This is due to advanced aging plus risk factor."</p>
+<p>	The study lists inactive lifestyles and unhealthy food as risk factors that increase a person's chances of getting Alzheimer's. While people can lessen their risk with exercise and a healthy diet, in the long run, he said people won't be able to escape Alzheimer's any more than they can escape death.</p>
+<p>	Chen said Alzheimer's is better categorized in terms of senile dementia and presenile dementia — dementia found in younger persons -— which he said is a disease. The causes of presenile dementia, three mutant genes, were not seen in senile dementia patients.</p>
+<p>	Chen likened the difference between senile and presenile dementia to the difference between hearing loss found in a member of the elderly and hearing loss found in a child.</p>
+<p>	"This is why we have geriatric medicine," he said. "For example, all people get hearing loss. That is due to aging, we all know that. However, if in young people there's lost hearing, then that must be disease, then that must be caused by a gene mutation or a virus or bacteria."</p>
+<p>	Chen said the controversial viewpoint isolated him from the medical community, as few scientists agree with him.</p>
+<p>	"There are a lot of (scientists) in USF, but I won't name any of them to avoid controversy," he said. "Our biggest challenge, is getting grant funding. To get a grant, you have to make a proposal and the proposal is reviewed by scientists in a field — a peer review. That's the problem. My views are different than the majority of the scientific community."</p>
+<p>	Dave Morgan, CEO of the USF Health Byrd Alzheimer's Institute, said Chen's argument has a few problems.</p>
+<p>	"Two names: George Burns and Betty White," he said. "So if it's normal aging, they should have it. They're both in their 90s, (and) they don't have it. So this is the problem with his argument. If it was from old age, everyone would have it."</p>
+<p>	Chen, however, said things are not so simple.</p>
+<p>	"It's like a radio in the car," he said. "You have an old radio, that radio will eventually die because of aging — not only radio, but the whole car will die. Not every (car) engine will overrun the radio's lifespan. There's always some cars dead with bad engine, with bad radio, but other cars dead with working radio. Alzheimer's will not affect everybody, no matter how long we live."</p>
+<p>	Huntington Potter, director of the Florida Alzheimer's Disease Research Center, said he agreed with Chen in regards to age itself being the No. 1 risk factor for developing Alzheimer's. </p>
+<p>	But Alzheimer's is a disease, he said, and all forms of disease are curable.</p>
+<p>	"I think a disease should be defined by any physiological process that is detrimental to health or happiness," he said. "So for any disease we seek scientists to prevent it or halt it or reverse its effects. And possibly all three."</p>
+<p>	Potter said the medical community should focus on understanding the effects of aging on the brain as to figure out the pathology, or cause, of the disease, and in doing so, "find a way to halt" Alzheimer's.</p>
+<p>	"We know quite clearly that it is very common for you to get Alzheimer's in your 80s, but it turns out if you reach the age of 100, your risks go down," Morgan said. "So that definitely proves that Alzheimer's is not a function of aging." </p>
+<p>Recommended: Articles that may interest you</p>
+<p>var OutbrainPermaLink=(window.location).toString();</p>
+<p>var OB_Template = "cmn";</p>
+<p>var OB_demoMode = false;</p>
+<p>var OBITm = "1249506835342";</p>
+<p>var OB_langJS ='http://widgets.outbrain.com/lang_en.js';</p>
+<p>if ( typeof(OB_Script)!='undefined' )</p>
+<p>OutbrainStart();</p>
+<p>else {</p>
+<p>var OB_Script = true;</p>
+<p>var str = '<script src="http://widgets.outbrain.com/OutbrainRater.js" type="text/javascript"><\/script>';</p>
+<p>document.write(str);</p>
+<p>}</p>
+<p>var articleId = '2684967';</p>
+<p>//alert(articleId);</p>
+<p>//articleId=articleId.substring(articleId.indexOf("1."), articleId.lastIndexOf("."));</p>
+<p>Facebook Comments</p>
+<p>Site Comments</p>
+<p>function clearField(el) {</p>
+<p>	if (el.value == el.defaultValue) el.value = '';</p>
+<p>}</p>
+<p>function resetField(el) { </p>
+<p>	if (el.value == '') el.value = el.defaultValue;</p>
+<p>}</p>
+<p>Be the first to comment on this article!</p>
+<p>Add comment</p>
+<p>I am not posting spam. I understand posting spam or other comments that are unrelated to this article will cause my comment to be flagged for deletion and possibly cause my IP address to be permanently banned from this server.</p>
+<p>							</p>
+<p>         var serverName='www.usforacle.com';</p>
+<p>         serverName=serverName.replace('www.','');</p>
+<p>        document.write('<img src="http://'+serverName+':80/kaptcha.jpg" />');</p>
+<p>        </p>
+<p>Enter the characters in the image above:</p>
+<p>				function enabledSubmit(){</p>
+<p>					document.getElementById('submitComment').disabled=false;</p>
+<p>				              if(document.getElementById('kaptcha_answer')){</p>
+<p>                                                var kaptcha_value=(document.getElementById('kaptcha_answer')).value;</p>
+<p>                                                if(kaptcha_value==""){</p>
+<p>                                                   alert("Enter the characters in the image above:");</p>
+<p>                                                   document.getElementById('submitComment').disabled=true;</p>
+<p>                                                   return false;</p>
+<p>                                                   }</p>
+<p>                                        }</p>
+<p>				}</p>
+<p>				function checkComment(){</p>
+<p>				        if(document.getElementById('body')){</p>
+<p>                                         var comment_value=(document.getElementById('body')).value;</p>
+<p>            if(!document.getElementById('accept').checked)</p>
+<p>		alert("Please check the \"I am not posting spam\" box");</p>
+<p>                                         if( comment_value == ""){</p>
+<p>                                                alert("Please enter a comment.");</p>
+<p>                                                document.getElementById('submitComment').disabled=true;</p>
+<p>                                                return false;</p>
+<p>                                          }</p>
+<p>                                        }</p>
+<p>				}</p>
+<p>				function checkCaptcha(){</p>
+<p>                                              if(document.getElementById('kaptcha_answer')){</p>
+<p>                                               var kaptchaEntry=(document.getElementById('kaptcha_answer')).value;</p>
+<p>                                                if(kaptchaEntry==""){</p>
+<p>                                                   alert("Enter the characters in the image above:");</p>
+<p>                                                   document.getElementById('submitComment').disabled=true;</p>
+<p>                                                   return false;</p>
+<p>                                                   }</p>
+<p>					}</p>
+<p>				}</p>
+<p>                                function enableButton(){</p>
+<p>                                        document.getElementById('submitComment').disabled=false;</p>
+<p>                                }</p>
+<p>				function getnewurl()</p>
+<p>				{</p>
+<p>					var formurl=(document.getElementsByName('formURL'))[0].value;</p>
+<p>					if(formurl.indexOf("?")!=-1){</p>
+<p>						formurl=formurl.substring(0,formurl.indexOf("?"));</p>
+<p>					}</p>
+<p>					(document.getElementsByName('formURL'))[0].value=formurl;</p>
+<p>					(document.getElementsByName('formID'))[0].value="comments";</p>
+<p>				}</p>
+<p>				function getlogout()</p>
+<p>				{</p>
+<p>					getnewurl();</p>
+<p>					window.location= "/jsp/logout.jsp?returnTo="+(document.getElementsByName('formURL'))[0].value;</p>
+<p>				}</p>
+<p>			</p>
+<p>log out</p>
+<p>		     var curUrl=document.URL;</p>
+<p>		function refresh(){</p>
+<p>		     if(curUrl.indexOf("&http")!=-1){</p>
+<p>			curUrl=curUrl.substring(curUrl.indexOf("&http"));</p>
+<p>			curUrl=curUrl.substring(curUrl.indexOf("&http")+1,curUrl.indexOf("="));</p>
+<p>			curUrl=curUrl+"?formURL=refresh";</p>
+<p>				setTimeout("window.location=curUrl",1000);</p>
+<p>		//	javascript:location.reload(true);</p>
+<p>		  }</p>
+<p>		}</p>
+<p>		</p>
+<p>		  javascript:refresh();</p>
+<p>$(document).ready(function(){</p>
+<p>$("#tabs_article_comments > ul").tabs();</p>
+<p>});</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '23' + '&' + adGearSeg_Section + '&' + papername + '" width="468" height="' + (isChrome ? 68 : 60) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '12' + '&' + adGearSeg_Section + '&' + papername + '" width="300" height="' + (isChrome ? 258 : 250) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>Donate</p>
+<p>Subscribe to our RSS feed</p>
+<p>iPhone App</p>
+<p>Android App</p>
+<p>new TWTR.Widget({</p>
+<p>  version: 2,</p>
+<p>  type: 'profile',</p>
+<p>  rpp: 3,</p>
+<p>  interval: 6000,</p>
+<p>  width: 'auto',</p>
+<p>  height: 300,</p>
+<p>  theme: {</p>
+<p>    shell: {</p>
+<p>      background: '#004d3b',</p>
+<p>      color: '#ffffff'</p>
+<p>    },</p>
+<p>    tweets: {</p>
+<p>      background: '#ffffff',</p>
+<p>      color: '#000000',</p>
+<p>      links: '#277008'</p>
+<p>    }</p>
+<p>  },</p>
+<p>  features: {</p>
+<p>    scrollbar: false,</p>
+<p>    loop: false,</p>
+<p>    live: false,</p>
+<p>    hashtags: true,</p>
+<p>    timestamp: true,</p>
+<p>    avatars: false,</p>
+<p>    behavior: 'all'</p>
+<p>  }</p>
+<p>}).render().setUser('usforacle').start();</p>
+<p>Oracle VideosView more...</p>
+<p>Latest Video</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '22' + '&' + adGearSeg_Section + '&' + papername + '" width="300" height="' + (isChrome ? 258 : 250) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>var templateNo="/se/template1.custom.css";</p>
+<p>if(templateNo.indexOf("template9") == -1)</p>
+<p>{</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '21' + '&' + adGearSeg_Section + '&' + papername + '" width="160" height="' + (isChrome ? 608 : 600) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>}</p>
+<p>else if(templateNo.indexOf("template9") > -1 && 1 == 0)</p>
+<p>{</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '21' + '&' + adGearSeg_Section + '&' + papername + '" width="160" height="' + (isChrome ? 608 : 600) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>}</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '31' + '&' + adGearSeg_Section + '&' + papername + '" width="300" height="' + (isChrome ? 258 : 250) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>Guide & Deals</p>
+<p>This site is powered by:</p>
+<p> is a member of the </p>
+<p>Official Music Sponsor: </p>
+<p>document.write(webserverpath);</p>
+<p>var short_domain="http://www.usforacle.com";</p>
+<p>var matchbin_domain = "http://directory." + short_domain.substring(short_domain.indexOf("www.")+4, short_domain.length);</p>
+<p>document.writeln('<a href=' + matchbin_domain + '><b>CMN Local Business Directory</b></a> powered by:');</p>
+<p> </p>
+<p>var paperNameFooter = "USF_Oracle".toLowerCase();</p>
+<p>paperNameFooter =paperNameFooter.replace(/^\s+|\s+$/g,"");</p>
+<p>var articleId = "";</p>
+<p>articleId = "article 1.1732410";articleId = articleId.substring(articleId.indexOf("article")+8, articleId.length);</p>
+<p> document.write("<a href=\"/" + "Privacy Policy".replace(/ /gi, "-").replace("(", "").replace(")", "").replace("/", "-").replace("/", "-") + "-" + articleId + "\" >" + "Privacy Policy" + "</a>");</p>
+<p>articleId = "article 1.1732415";articleId = articleId.substring(articleId.indexOf("article")+8, articleId.length);</p>
+<p> document.write("|");</p>
+<p>document.write("<a href=\"/" + "Terms of Use".replace(/ /gi, "-").replace("(", "").replace(")", "").replace("/", "-").replace("/", "-") + "-" + articleId + "\" >" + "Terms of Use" + "</a>");</p>
+<p>    (function() {</p>
+<p>        function loadHorizon() { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;</p>
+<p>            s.src = ('https:'==location.protocol?'https://d1gp8joe0evc8s.cloudfront.net':'http://cdn.sail-horizon.com')+'/horizon/v1.js';</p>
+<p>            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);</p>
+<p>        }</p>
+<p>        loadHorizon();</p>
+<p>        var oldOnLoad = window.onload;</p>
+<p>        window.onload = function() {</p>
+<p>            if (typeof oldOnLoad === 'function') {</p>
+<p>                oldOnLoad();</p>
+<p>            }</p>
+<p>            Sailthru.setup({</p>
+<p>                domain: 'horizon.collegepublisher.com',</p>
+<p>            });</p>
+<p>        };</p>
+<p>    })();</p>
+<p>showNetworkBanner(41);</p>

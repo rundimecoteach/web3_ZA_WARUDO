@@ -1,0 +1,196 @@
+<p> </p>
+<p>Najnowsze fryzury gwiazd > Trendy fryzjerskie</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('olfguvseWvyK19bH_8BdHpRMzbu6687GjlTw7AcVBez.57');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'uroda', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_big_board_board1_uroda");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 500;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_uroda");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_uroda");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Uroda</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_uroda");</p>
+<p>	</p>
+<p>Uroda</p>
+<p>Moda Zdrowie Seks Lifestyle</p>
+<p>Ślub Dziecko Kulinaria Dom więcej</p>
+<p>Makijaż i stylizacjaTrendy fryzjerskiePielęgnacja i zabiegiKosmetykiPorady wizażystkiSłownik urody Uroda Forum </p>
+<p>UrodaTrendy fryzjerskieNajnowsze fryzury gwiazd </p>
+<p>	</p>
+<p>	var WinWidth = $(window).width();</p>
+<p>	</p>
+<p>	if(document.screening == 0 && WinWidth >= 1356){</p>
+<p>	GA_googleFillSlot("we2_sky1_sky1_uroda");	</p>
+<p>	}</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_uroda");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_uroda");</p>
+<p>Trendy fryzjerskie02 Sty 2012kom. (0)690Agata ChabierskaNajnowsze fryzury gwiazd </p>
+<p>		Strona 1 z 6</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_uroda");</p>
+<p>Czyli jak czesały się ostatnio kobiety, na które patrzy cały świat – od warkoczy po upięcia…</p>
+<p> </p>
+<p>1</p>
+<p>   z 6 </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_uroda");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_uroda");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123450.00/0  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Trendy fryzjerskie</p>
+<p>		Dwa warkocze dobierane wzdłuż głowy	</p>
+<p>	Warkocz to bardzo efektowna, ale również prosta do wykonania...</p>
+<p>	</p>
+<p>		Fryzura w stylu RockMantic	</p>
+<p>		Radykalne strzyżenie i stylizacja	</p>
+<p>		Fryzury z kampanii modowych	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Osoby</p>
+<p>Milla Jovovich</p>
+<p>Tagi</p>
+<p>modne fryzury</p>
+<p>fryzury gwiazd</p>
+<p>aktorka</p>
+<p>loki</p>
+<p>fryzura</p>
+<p>warkocz</p>
+<p>uma thurman</p>
+<p>balejaż</p>
+<p>modne upięcia</p>
+<p>fryzura retro</p>
+<p>Hillary Duff</p>
+<p>splot</p>
+<p>Katie Price</p>
+<p>Rachel Evan Woods</p>
+<p>Skomentuj Najnowsze fryzury gwiazdfunction valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (0) - Najnowsze fryzury gwiazdBrak komentarzy do Najnowsze fryzury gwiazd - rozpocznij dyskusję i dodaj komentarz</p>
+<p>Podobne do Najnowsze fryzury gwiazdNajmodniejsze grzywki gwiazd!Grzywka w tym roku powróciła tryumfalnie na wybiegi mody i czerwone dywany. Specjalnie dla Was przypominamy najciekawsze pomysły na firankę nad czołem…więcej0.00/ 01570Skomentuj  (0)Krótkie włosy gwiazd HollywoodGwiazdy kina i estrady tworzą najnowsze trendy w modzie. Spójrzcie jakie uczesania z krótkich włosów są modne wśród gwiazd Hollywood.więcej4.67/ 32006Skomentuj  (1)Najnowsze fryzury gwiazdSą kobiety, którym przytrafiają się wspaniałe uczesania. Są też takie, po których spodziewać się można tylko najlepszego. Galeria najnowszych uczesań gwiazd, które mają głowę na karku i dobrego fryzjera…więcej5.00/ 33262Skomentuj  (4)Fryzury gwiazdKażda ze znanych gwiazd kina i estrady ma swój styl. Zawsze zachwycają swoim strojem, uczesaniem, makijażem...więcej3.86/ 2112180Skomentuj  (4)Fryzury gwiazdWarkocze, koczki, upięcia, fale i pasemka – jednym słowem dla każdego coś miłego - tym razem w wydaniu prosto z czerwonych dywanów…więcej1.00/ 1581Skomentuj  (1)Fryzury gwiazdZobacz jakie fryzury noszą polskie gwiazdywięcej3.50/ 812341Skomentuj  (1)Najlepsze Oscarowe fryzury!Z wielką niecierpliwością wyczekiwaliśmy na najnowsze propozycje oprawek na rok 2010. Z zachwytem przeglądaliśmy projekty u najbardziej wziętych projektantów. Prezentujemy najświeższe trendy i tendencje w okularach.więcej0.00/ 0198Skomentuj  (3)Zobacz podobne do Najnowsze fryzury gwiazd</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_uroda");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_uroda");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_uroda");</p>
+<p>GA_googleFillSlot("we2_column1_art1_uroda");</p>
+<p>	</p>
+<p>Fryzury na karnawał oraz studniówkęMakijaże gwiazdMakijaż sylwestrowy 2011Farbowanie włosów, strzyżenie i lekko drapieżna stylizacjaKolory makijażu na gwiazdkę</p>
+<p>Wydania We2.plwięcej »05StyModna czerń i czerwień oraz Karnawałowe fryzury 2012</p>
+<p>Prosta i tania reklama w Internecie sprzedawana za pomocą AdTaily(PLALLADTAILY0002)</p>
+<p>Gorące tematyPopularneKomentowaneNoweVademecum zimowej skóryFryzury gwiazdDlaczego bać się parabenów?Dbaj o pH skóry!Kosmetyki miesiąca: październikMakijaż sylwestrowy 2011</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_uroda");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_uroda");</p>
+<p>Galerie UrodaNajmodniejsze  spódnice na jesień 2011!Makijaże wieczorowe - Sylwester i karnawałDługie suknie na Sylwestra i karnawał -...Fryzury - krótkie włosy Popularne zdjęciaKolekcje, pokazyFascynacja kolorem  - Mohito jesień/zima 2011/12Kolekcje, pokazyCottonfield - kolekcja męska na sezon zima 2011/12więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródZespoły muzyczne"ABC" Zespół Muzyczny / vel KrzysztofSala zabaw dla dzieci w KoszalinieOrkiestra - muzyka rozrywkowa</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_uroda");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_uroda");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_uroda");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.3.1.1','');</p>
+<p>bmone2n.addPosition('177.3.2.2','');</p>
+<p>bmone2n.addPosition('177.3.7.3','');</p>
+<p>bmone2n.addPosition('177.3.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

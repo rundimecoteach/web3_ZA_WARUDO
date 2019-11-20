@@ -1,0 +1,192 @@
+<p>Polacy wybrali najważniejsze wydarzenie minionego roku</p>
+<p>function loadJsScript(f,b,c){try{var d=!0,a=null,e=!1;b||(e=!0);var g=RegExp(b,"ig");if(e||!0!==g.test(navigator.userAgent))a=document.createElement("script"),a.setAttribute("type","text/javascript"),a.setAttribute("src",f),c&&(a.onreadystatechange=a.onload=function(){var b=a.readyState;if(!c.done&&(!b||/loaded|complete/.test(b)))c.done=!0,c()}),document.head.appendChild(a)}catch(h){d=!1}return d};</p>
+<p>        var tightScreen=false;</p>
+<p>        var smallScreen=false;</p>
+<p>        var a=0;if(self.innerWidth){a=self.innerWidth;}else if(document.documentElement&&document.documentElement.clientWidth){a=document.documentElement.clientWidth;}else if(document.body){a=document.body.clientWidth;}</p>
+<p>        if(screen && screen.width){if(screen.width<a) a = screen.width;}</p>
+<p>        if(a==0){a = screen.width;}if(a<252){tightScreen = true;}a==0&&/MSIE (\\d+\\.\\d+);/.test(navigator.userAgent)&&!/Windows Phone/.test(navigator.userAgent)&& (xxcsr_alt_url="",tightScreen=false);a>=712&&(xxcsr_alt_url="")</p>
+<p>        if(a<768) smallScreen=true;</p>
+<p>        var flashDetect=false;</p>
+<p>        function getFlashVersion(){return"0,0,0"}</p>
+<p>        var html5Detect=false;function supports_canvas(){return!!document.createElement("canvas").getContext}function supports_video(){return!!document.createElement("video").canPlayType}supports_canvas()&&supports_video()&&(html5Detect=true);var adKeyword="level0",adKeyword=a<288||!html5Detect?"level0":a<768?"level1":flashDetect?"level3":"level2";</p>
+<p>        var adKeyWords = new Array(adKeyword);</p>
+<p>    </p>
+<p>		if (!tightScreen) {</p>
+<p>			var hyphenatorCallback = function() {</p>
+<p>				if(window.Hyphenator){Hyphenator.run();}</p>
+<p>			}</p>
+<p>			loadJsScript('http://ocdn.eu/static/template-engine/YTA7MDA_/eae816004f16afa764b85a10fabe568a/hyphenator-pl-gcc.js', 'BlackBerry|Symbian|MSIE 6.0|MSIEMobile|Windows Phone 6', hyphenatorCallback);</p>
+<p>		}</p>
+<p>    </p>
+<p>/* <![CDATA[ */</p>
+<p>    </p>
+<p>    pp_gemius_identifier='B3A1LS7XlTvt72yOpeCRmcSrTDM_Fri8.QNH.9K78Un.D7';</p>
+<p>    onetAds={ </p>
+<p>                  'target':'MOBI/WIADOMOSCI/KRAJ',  </p>
+<p>                  'adSlots':[],</p>
+<p>                  'sgn_cookie': 0,</p>
+<p>                  'mobile': 1,</p>
+<p>                  'kropka': {</p>
+<p>                      'DV':'ART'</p>
+<p>                    }</p>
+<p>                    </p>
+<p>              };</p>
+<p>    googleBoxChannel = 5716326316;</p>
+<p>    adsNoBanner = false;</p>
+<p>    /* ]]> */</p>
+<p>Onet</p>
+<p>Wiadomości</p>
+<p>Sport</p>
+<p>Biznes</p>
+<p>Rozrywka</p>
+<p>Gadżety</p>
+<p>Styl życia</p>
+<p>Wiedza i świat</p>
+<p>Popularne</p>
+<p>Mapa serwisów</p>
+<p>Strona główna</p>
+<p>Więcej</p>
+<p>                </p>
+<p>                Wiadomości</p>
+<p>                </p>
+<p>                </p>
+<p>                </p>
+<p>Uwaga! Ta strona zawiera treści przeznaczone tylko dla dorosłych</p>
+<p>Jeśli nie masz ukończonych 18 lat, nie powinieneś jej oglądać.</p>
+<p>Anuluj</p>
+<p>Tak</p>
+<p>Wiadomości </p>
+<p>    </p>
+<p>        › Kraj</p>
+<p>            </p>
+<p>                3 sty 12 13:48</p>
+<p>                ,</p>
+<p>                    </p>
+<p>                        GK</p>
+<p>                    </p>
+<p>                </p>
+<p>                 | </p>
+<p>                     </p>
+<p>                           PAP</p>
+<p>                     </p>
+<p>                </p>
+<p>            </p>
+<p>        </p>
+<p>Polacy wybrali najważniejsze wydarzenie minionego roku</p>
+<p>  Jedna czwarta Polaków za najważniejsze wydarzenie minionego roku w Polsce uznała wybory; jako najbardziej istotne wydarzenie na świecie jedna piąta badanych wskazała kryzys - wynika z sondażu CBOS.       Sejm, fot. Maciej Stankiewicz/Onet.pl    Jedna czwarta badanych (25 proc.) uważa, że wybór nowego parlamentu to najważniejsze wydarzenie ubiegłego roku. Ankietowani podkreślili przede wszystkim ponowne zwycięstwo partii rządzącej (PO), wskazywali na porażkę PiS, wspominali również niespodziewany sukces partii Janusza Palikota.   Co dziesiąty badany (10 proc.) za najważniejsze wydarzenie 2011 r. uznał polskie przewodnictwo w Radzie Unii Europejskiej.   Inne wydarzenia wymieniane były zdecydowanie rzadziej: 3 proc. ankietowanych wskazało na przygotowania naszego kraju do Euro 2012, tyle samo osób za wydarzenie roku uznało stan polskiej gospodarki na tle ogólnoeuropejskiego kryzysu.   Tym żyła Polska w 2011 roku. Dowiedz się więcej!   Na kolejnych pozycjach rankingu najważniejszych wydarzeń w Polsce w minionym roku znalazły się - oceniane pozytywnie - beatyfikacja Jana Pawła II i szczęśliwe awaryjne lądowanie na Okęciu boeinga 767 pilotowanego przez polską załogę, ale także takie, które traktowano jako powód do wstydu – zamieszki w Warszawie w trakcie manifestacji i kontrmanifestacji z okazji Święta Niepodległości (po 2 proc.).   Równie często wskazywano rocznicę katastrofy prezydenckiego samolotu pod Smoleńskiem – zarówno jej obchody, jak i różnie oceniane wyniki śledztwa w sprawie wyjaśnienia przyczyn tragedii (2 proc.).   Z badania wynika, że rok 2011 raczej nie był dla Polaków szczególny, obfitujący w wydarzenia o wyjątkowym czy przełomowym znaczeniu. Połowa badanych nie pamięta żadnego faktu, który zasługiwałby na miano wydarzenia roku, w tym 9 proc. stwierdziło, że nic takiego w ogóle nie miało miejsca.   Pod tym względem 2011 r. zasadniczo różni się od 2010 r., mogącego uchodzić za rok katastrof, natomiast wcześniejsze lata – 2009 i 2008 – słabiej niż miniony rok zapisywały się w pamięci Polaków.   Tym żył świat w 2011 roku. Dowiedz się więcej!   W poprzednim roku wyborczym (2007 r.), wybory też zostały uznane za najważniejsze wydarzenie roku, jednak wówczas miały one dla Polaków znacznie wyższą rangę - za wydarzenie roku uznało je 39 proc. ankietowanych.   Wydarzenia na świecie w zeszłym roku zdominował przede wszystkim kryzys finansowy, którego kolejna fala szczególnie dotknęła kraje europejskie i zagroziła strefie euro.   Co piąty Polak (20 proc.) wymienił kryzys jako wydarzenie roku na świecie, przy czym 3 proc. mówiło konkretnie o widmie bankructwa i protestach społecznych w Grecji.   Kryzys gospodarczy wygrał z drugim ważnym wydarzeniem politycznym (choć nieco bardziej odległym) – arabską wiosną, czyli rewolucjami w krajach północnej Afryki i Bliskiego Wschodu, które doprowadziły do upadku większość panujących tam dyktatur. Te wydarzenia wymienił co dziesiąty ankietowany (10 proc.), w tym 5 proc. szczególnie duże znaczenie Polacy przypisuje najbardziej spektakularnej klęsce – upadkowi i śmierci dyktatora Libii Muammara Kaddafiego.   Trzecim z najważniejszych wydarzeń na świecie, które utrwaliły się w świadomości Polaków, było trzęsienie ziemi w Japonii i jego skutki (5 proc.) – fala tsunami, która spustoszyła wybrzeże tego kraju, w tym 2 proc. wskazało na awarię elektrowni atomowej w Fukushimie, która była następstwem tej katastrofy.   Trzech na stu badanych jako wydarzenie roku wskazało śmierć najbardziej poszukiwanego terrorysty świata – Osamy bin Ladena.   Do wydarzeń światowych Polacy zaliczyli także beatyfikację Jana Pawła II oraz polską prezydencję w UE.   Ankietowani wspominali jeszcze o wycofaniu wojsk USA z Iraku, zapowiedzi wycofania sił NATO z Afganistanu, a także o innych wojnach i konfliktach zbrojnych na świecie.   Ponad połowa badanych (53 proc.) nie potrafiła sobie przypomnieć żadnego z wydarzenia na świecie, które zasługiwałoby na miano wydarzenia roku, a dalsze 4 proc. uważa, że w minionym roku nic znaczącego się nie wydarzyło. W 2010 roku odsetek tego typu odpowiedzi był nieco większy – 58 proc. „trudno powiedzieć” i 5 proc. „nie było takiego wydarzenia”.   Badanie przeprowadzono w dniach 1 – 8 grudnia 2011 r. na próbie 950 dorosłych Polaków.       var liveScoresName, dateNow = Date.now(), dateStart = Date.parse("2012-01-03 13:48:00+0100"), dateStartMidnight = new Date(dateStart).setHours(0,0,0,0); if (dateNow < dateStart) { if (dateNow >= dateStartMidnight) { liveScoresName = "Zapraszamy na relację na żywo od godziny " + new Date(dateStart).getHours() + ':' + new Date(dateStart).getMinutes(); } else { liveScoresName = "Relacja na żywo: " + new Date(dateStart).toLocaleDateString() + ' ' + new Date(dateStart).getHours() + ':' + new Date(dateStart).getMinutes(); } } else if (dateNow > (dateStart + 7200000)) { liveScoresName = "Przeczytaj zapis relacji"; } else { liveScoresName = "Relacja trwa, dołącz teraz!"; }; if(document.getElementById("liveScoresName1")){ document.getElementById("liveScoresName1").innerHTML = liveScoresName; } if(document.getElementById("liveScoresName2")){ document.getElementById("liveScoresName2").innerHTML = liveScoresName; }  </p>
+<p> </p>
+<p>		Komentarze  (454)</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Wiadomości</p>
+<p>   Tragiczny wypadek czy zamach? Oto cała prawda o Smoleńsku Tylko w Onecie Znani aktorzy apelują. Chodzi też o ich dzieci Tylko w Onecie Prof. Kik: rodzi się stary Lech Wałęsa Tylko w Onecie Szczecin: Były poseł PO nie jest kłamcą lustracyjnym Szczecin    poprzednie następne  </p>
+<p>Na skróty</p>
+<p>Pogoda</p>
+<p>Program TV</p>
+<p>Cynk</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>    </p>
+<p>    if (google_ads.length > 0 && typeof google_info !== "undefined" && typeof google_info.feedback_url !== "undefined") {</p>
+<p>        var header = document.createElement("div");</p>
+<p>        header.className = "bxad_title1";</p>
+<p>        var a1 = document.createElement('a');</p>
+<p>        a1.href = google_info.feedback_url;</p>
+<p>        a1.title = "Reklamy Google"</p>
+<p>        a1.innerHTML = a1.title;</p>
+<p>        header.appendChild(a1);</p>
+<p>        </p>
+<p>        var bxadBox = document.getElementById("googleBox");</p>
+<p>        bxadBox.appendChild(header);</p>
+<p>        </p>
+<p>        var adsList = document.createElement("ul");</p>
+<p>        adsList.id = "bxad_ads_script_bxad_slot_bxad_slot_0";</p>
+<p>        </p>
+<p>        var i;</p>
+<p>        for (i=0; i<google_ads.length; i++) {</p>
+<p>            var ad = google_ads[i];</p>
+<p>            var ad_line = document.createElement("li");</p>
+<p>            if (i==0) {ad_line.className="li_left";}</p>
+<p>            var ad_title = document.createElement("h6");</p>
+<p>            var title_link = document.createElement("a");</p>
+<p>            title_link.href = ad.url.replace(/amp;/g,"");</p>
+<p>            title_link.innerHTML = ad.line1;</p>
+<p>            title_link.target = "_blank";</p>
+<p>            ad_title.appendChild(title_link);</p>
+<p>            ad_line.appendChild(ad_title);</p>
+<p>            var ad_body = document.createElement("p");</p>
+<p>            ad_body.innerHTML = ad.line2 + " " + ad.line3 + " ";</p>
+<p>            var main_ad_link = document.createElement("a");</p>
+<p>            main_ad_link.href=ad.url.replace(/amp;/g,"");;</p>
+<p>            main_ad_link.target = "_blank";</p>
+<p>            main_ad_link.innerHTML = ad.visible_url;</p>
+<p>            ad_body.appendChild(main_ad_link);</p>
+<p>            ad_line.appendChild(ad_body);</p>
+<p>            </p>
+<p>            adsList.appendChild(ad_line);</p>
+<p>        }</p>
+<p>        bxadBox.appendChild(adsList);</p>
+<p>        </p>
+<p>        </p>
+<p>    }</p>
+<p>}</p>
+<p>function urlencode(str){var hexStr=function(dec){return'%'+dec.toString(16).toUpperCase()};var ret='',unreserved=/[\w.]/;str=(str+'').toString();for(var i=0,dl=str.length;i<dl;i++){var ch=str.charAt(i);if(unreserved.test(ch)){ret+=ch}else{var code=str.charCodeAt(i);if(code===32){ret+='+'}else if(code===45){ret+='%2D'}else if(code<128){ret+=hexStr(code)}else if(code>=128&&code<2048){ret+=hexStr((code>>6)|0xC0);ret+=hexStr((code&0x3F)|0x80)}else if(code>=2048&&code<65536){ret+=hexStr((code>>12)|0xE0);ret+=hexStr(((code>>6)&0x3F)|0x80);ret+=hexStr((code&0x3F)|0x80)}else if(code>=65536){ret+=hexStr((code>>18)|0xF0);ret+=hexStr(((code>>12)&0x3F)|0x80);ret+=hexStr(((code>>6)&0x3F)|0x80);ret+=hexStr((code&0x3F)|0x80)}}}return ret}</p>
+<p> </p>
+<p>if ( typeof adsNoBanner !== "undefined" && adsNoBanner != true && document.getElementById('pageHeader').offsetWidth>=712 ) {</p>
+<p>var numAds = 3;</p>
+<p>var a = Math.round((new Date).getTime() / 1000);</p>
+<p>var src="http://googleads.g.doubleclick.net/pagead/ads?" + </p>
+<p>"client=ca-pub-4069369533017132" +</p>
+<p>"&channel=" +  + </p>
+<p>"&dt=" + (new Date).valueOf() + </p>
+<p>"&lmt=" + (Date.parse(document.lastModified) / 1000) +</p>
+<p>"&skip=" + 0 + </p>
+<p>"&num_ads=" + numAds +</p>
+<p>"&output=js" +</p>
+<p>"&url=" + urlencode(location.href) +</p>
+<p>"&ref=" + urlencode(document.referrer) +</p>
+<p>"&ad_type=text" +</p>
+<p>"&feedback_link=on" +</p>
+<p>"&frm=0" +</p>
+<p>"&correlator=" + (new Date).getTime() +</p>
+<p>"&ga_fc=1" +</p>
+<p>"&ga_sid=" + (window && window.gaGlobal && window.gaGlobal.sid ? window.gaGlobal.sid : a + "") +</p>
+<p>"&ga_vid=" + (window && window.gaGlobal && window.gaGlobal.vid ? window.gaGlobal.vid : Math.round(Math.random()*2147483647) + "." + a) +</p>
+<p>"&ga_hid=" + (window && window.gaGlobal && window.gaGlobal.hid ? window.gaGlobal.hid : Math.round(Math.random()*2147483647));</p>
+<p>var script = document.createElement('script');</p>
+<p>script.type = "text/javascript";</p>
+<p>script.src = src;</p>
+<p>document.getElementsByTagName('head')[0].appendChild(script);</p>
+<p>}</p>
+<p>Więcej na temat</p>
+<p>            </p>
+<p>            </p>
+<p>                3 sty 12 13:48,</p>
+<p>                    </p>
+<p>                        GK</p>
+<p>                    </p>
+<p>                </p>
+<p>                 | </p>
+<p>                     </p>
+<p>                           PAP</p>
+<p>                     </p>
+<p>                </p>
+<p>                 </p>
+<p>                </p>
+<p>                    </p>
+<p>                         | Zobacz pełną wersję artykułu</p>
+<p> </p>
+<p>Strona główna    Mapa serwisów    Archiwum    Klasyczny Onet    Reklama    Copyright © Grupa Onet.pl SA</p>
+<p>/* <![CDATA[ */</p>
+<p>if (typeof adsNoBanner !== "undefined" && adsNoBanner != true) {</p>
+<p>       if (onetAds) {</p>
+<p>                </p>
+<p>        if (typeof adsNoBanner !== "undefined" && adsNoBanner != true) {</p>
+<p>            onetAds.fetch();</p>
+<p>        }</p>
+<p>                </p>
+<p>                </p>
+<p>}</p>
+<p>}</p>
+<p>/* ]]> */</p>

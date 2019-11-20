@@ -1,0 +1,1031 @@
+<p>Исследователи выяснили, какая посуда помогает похудеть - Диета и питание - IVONA - bigmir)net</p>
+<p>	var BM_MAIN_DOMAIN = '.bigmir.net';</p>
+<p>	var HOST = 'ivona.bigmir.net';</p>
+<p>	var BM_IMG_SERVER = 'http://bm.img.com.ua/';</p>
+<p>	var BM_IMG_STORAGE = 'http://v.img.com.ua/b/';</p>
+<p>	if (parent && parent != window && !parent.bm_forever) parent.location.href = window.location.href;</p>
+<p>    // for adriver</p>
+<p>    var N = 3;</p>
+<p>    var ar_bn1 = Math.floor(Math.random() * N + 1);</p>
+<p>        GS_googleAddAdSenseService("ca-pub-5625824244895650");</p>
+<p>        GS_googleEnableAllServices();</p>
+<p>    </p>
+<p>        GA_googleAddSlot("ca-pub-5625824244895650", "DFP_bigmir_468x60_niz_04.08.2011");</p>
+<p>    </p>
+<p>        GA_googleFetchAds();</p>
+<p>    </p>
+<p>body { background: url("http://bm.img.com.ua/widget/81a9c2d12a67c814a21e212481c8d193.jpg") no-repeat top center;background:#000 url("http://bm.img.com.ua/widget/81a9c2d12a67c814a21e212481c8d193.jpg") no-repeat top center !important;}</p>
+<p>                var custom = {};</p>
+<p>                                                    var std = { gender:100, age:101 },i;</p>
+<p>                    for (i in std) { try { custom[std[i]] = eval(i) } catch(e) { } }</p>
+<p>                    new adriver.Plugin.require("old.adriver").onLoadComplete(function(){</p>
+<p>                        new adriver("adriver_top", { sid:85794,bt:52,pz:1, keyword: typeof __keyword != "undefined" ? __keyword : "", bn:ar_bn1, custom: custom , sz:"ivona_tobacco" });</p>
+<p>                });</p>
+<p>                </p>
+<p>На главную</p>
+<p>Все сервисы</p>
+<p>Войти</p>
+<p>Почта</p>
+<p> </p>
+<p>IVONA - Диета и питание</p>
+<p>				                		Главная</p>
+<p>																			</p>
+<p>				                		Шоу-Biz</p>
+<p>																			</p>
+<p>				                		Мода и Красота</p>
+<p>																			</p>
+<p>				                		Здоровье</p>
+<p>																			</p>
+<p>				                		Он и Она</p>
+<p>																			</p>
+<p>				                		Беременность</p>
+<p>																			</p>
+<p>				                		Дети</p>
+<p>																			</p>
+<p>				                		Кулинария</p>
+<p>																			</p>
+<p>				                		Дом</p>
+<p>																			</p>
+<p>				                		Гороскопы</p>
+<p>																			</p>
+<p>				                		Бутик</p>
+<p>																			</p>
+<p> Избранное</p>
+<p>Новости</p>
+<p>Советы</p>
+<p>Диета и питание</p>
+<p>Фитнес</p>
+<p>Онлайн консультация</p>
+<p>Горячие темы: </p>
+<p>НОВЫЙ ГОД 2012</p>
+<p>Жадсон: А где Динамо, где?</p>
+<p>                    Спорт</p>
+<p>                    </p>
+<p>Новичок Динамо порадовался роскошному сюрпризу, но плед за 11 тысяч гривен его смутил</p>
+<p>                    Спорт</p>
+<p>                    </p>
+<p>На затонувшем лайнере нашли еще пять тел погибших</p>
+<p>                    ФОКУС.ua</p>
+<p>                    </p>
+<p>Киев ждет транспортная революция, – КГГА</p>
+<p>                    ФОКУС.ua</p>
+<p>                    </p>
+<p>Госветслужба: Российское мясо опасно для Украины</p>
+<p>                    ФОКУС.ua</p>
+<p>                    </p>
+<p>Киевское Динамо интересуется парагвайским нападающим</p>
+<p>                    Спорт</p>
+<p>                    </p>
+<p>window.NetworkSlider.effect_step = 600;</p>
+<p>window.NetworkSlider.init('standart');</p>
+<p>window.NetworkSlider.initMode(</p>
+<p>		'standart', </p>
+<p>		6, </p>
+<p>		300, </p>
+<p>		2, </p>
+<p>		'gb-network_carousel_m'</p>
+<p>);</p>
+<p>window.NetworkSlider.initMode(</p>
+<p>		'wide', </p>
+<p>		6, </p>
+<p>		310, </p>
+<p>		3, </p>
+<p>		'gb-network_carousel_b'</p>
+<p>);</p>
+<p>//Analytics </p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-3119939-34']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>(function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>function trackLink( targetTo )</p>
+<p>{</p>
+<p>	</p>
+<p>	var pageTracker=_gat._getTracker('UA-3119939-34');    </p>
+<p>	pageTracker._trackEvent('карусель горизонтальная', document.domain, targetTo );</p>
+<p>	return true;</p>
+<p>}</p>
+<p>Исследователи выяснили, какая посуда помогает похудеть</p>
+<p>	if( _gaq == undefined )</p>
+<p>	{</p>
+<p>		var _gaq = _gaq || [];</p>
+<p>		_gaq.push(['_setAccount', 'UA-3119939-34']);</p>
+<p>		_gaq.push(['_trackPageview']);</p>
+<p>		</p>
+<p>		(function() {</p>
+<p>		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/u/ga_beta.js';</p>
+<p>		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>		})();</p>
+<p>	}</p>
+<p>	  </p>
+<p>Сегодня, 13:28Комментариев:0 </p>
+<p>Добавить комментарий </p>
+<p>		function GoogleLIKE_Analytics(obj){</p>
+<p>			_gaq.push(['_trackSocial', 'GooglePlusOne', obj.state, obj.href]);	</p>
+<p>		}</p>
+<p>	    </p>
+<p>Tweet</p>
+<p>	    	  try {</p>
+<p>	    		    if (twttr && twttr.events && twttr.events.bind) {</p>
+<p>	    		      twttr.events.bind('tweet', function(event) {</p>
+<p>	    		        if (event) {</p>
+<p>	    		          var targetUrl; // Default value is undefined.</p>
+<p>	    		          if (event.target && event.target.nodeName == 'IFRAME') {</p>
+<p>	    		        	  targetUrl = function(uri, paramName) {</p>
+<p>	    		        		  if (!uri) {</p>
+<p>	    		        		    return;</p>
+<p>	    		        		  }</p>
+<p>	    		        		  var uri = uri.split('#')[0];  // Remove anchor.</p>
+<p>	    		        		  var parts = uri.split('?');  // Check for query params.</p>
+<p>	    		        		  if (parts.length == 1) {</p>
+<p>	    		        		    return;</p>
+<p>	    		        		  }</p>
+<p>	    		        		  var query = decodeURI(parts[1]);</p>
+<p>	    		        		  // Find url param.</p>
+<p>	    		        		  paramName += '=';</p>
+<p>	    		        		  var params = query.split('&');</p>
+<p>	    		        		  for (var i = 0, param; param = params[i]; ++i) {</p>
+<p>	    		        		    if (param.indexOf(paramName) === 0) {</p>
+<p>	    		        		      return unescape(param.split('=')[1]);</p>
+<p>	    		        		    }</p>
+<p>	    		        		  }</p>
+<p>	    		        		  return;</p>
+<p>	    		        		}(event.target.src, 'url');</p>
+<p>	    		        	  </p>
+<p>	    		             </p>
+<p>	    		          }</p>
+<p>	    		          _gaq.push(['_trackSocial', 'twitter', 'tweet',</p>
+<p>	    		            targetUrl]);</p>
+<p>	    		        }</p>
+<p>	    		      });</p>
+<p>	    		    }</p>
+<p>	    		  } catch (e) {}			</p>
+<p>			</p>
+<p>            $().ready(function(){</p>
+<p>				VK.Observer.subscribe('widgets.like.liked', function(response) {</p>
+<p>					_gaq.push(['_trackSocial', 'vk', 'like']);</p>
+<p>				});		</p>
+<p>				VK.Observer.subscribe('widgets.like.unliked', function(response) {</p>
+<p>					_gaq.push(['_trackSocial', 'vk', 'unlike']);</p>
+<p>				});                </p>
+<p>                VK.init({ apiId: 2438540, onlyWidgets: true });</p>
+<p>            });</p>
+<p>        </p>
+<p>            $().ready(function(){</p>
+<p>                VK.Widgets.Like("vk_like", { type: "mini" });</p>
+<p>            });</p>
+<p>        </p>
+<p>            $().ready(function(){</p>
+<p>               FB.init({</p>
+<p>                 status: true, cookie: true, xfbml: true,</p>
+<p>                 channelUrl  : 'http://ivona.bigmir.net/fb_cu.html'  // custom channel</p>
+<p>               });</p>
+<p>				FB.Event.subscribe('edge.create', function(url) {</p>
+<p>					  _gaq.push(['_trackSocial', 'facebook', 'like', url]);</p>
+<p>					});</p>
+<p>				FB.Event.subscribe('edge.remove', function(url) {</p>
+<p>					_gaq.push(['_trackSocial', 'facebook', 'unlike', url]);</p>
+<p>				});               </p>
+<p>            });</p>
+<p>        </p>
+<p>	$().ready(function (){</p>
+<p>		$('a._addhashonclick').click(function() {</p>
+<p>			var href = $(this).attr('href');</p>
+<p>			if (!$(this).attr('ohref')) $(this).attr('ohref', href);</p>
+<p>			var suff = '&url=' + encodeURIComponent(document.location.href);</p>
+<p>			if ($(this).attr('hashonly')) suff = document.location.hash;</p>
+<p>			$(this).attr('href', $(this).attr('ohref') + suff);</p>
+<p>		});</p>
+<p>	});</p>
+<p>Специалисты из Германии и Швеции пришли к выводу, что посуда красного цвета не дает возможности переедать и злоупотреблять  алкоголем 	.</p>
+<p>Чтобы меньше есть и быстрее расстаться с лишними килограммами, приобрети красную посуду</p>
+<p>/ shutterstock</p>
+<p>                $(function() {</p>
+<p>                    $('#article_slider').data('images', [</p>
+<p>                                                    { 'src' : 'http://v.img.com.ua/b/300x200/0/7a/6e372920e9ad74a0c7755f85337057a0.jpg', 'text' : 'Чтобы меньше есть и быстрее расстаться с лишними килограммами, приобрети красную посуду', 'source' : 'shutterstock' }                                            ]);</p>
+<p>                    $('#article_slider').data('image_max', 1);</p>
+<p>                });</p>
+<p>            </p>
+<p>	По мнению немецких и швейцарских исследователей, люди, которые едят с красной тарелки или пьют из красной чашки, сокращают потребление еды и напитков на 40 процентов.</p>
+<p>Смотри также: Специалисты назвали самые полезные напитки</p>
+<p>	Ученые утверждают, что красный цвет ассоциируется с опасностью, а значит, поощряет любителей поесть избегать переедания на подсознательном уровне. Исследователи также предположили, что пищевая промышленность могла бы использовать красную упаковку для нездоровой еды в качестве сдерживающего фактора, или даже использовать красный цвет в оформлении и пабов, чтобы в них меньше пили.</p>
+<p>	 </p>
+<p>	Проверку данных утверждений специалисты проводили с участием 41 студента мужского пола. Добровольцы должны были пить из красных и синих чашек. Те, кто пил из красных чашек, выпили на 44 процента меньше.</p>
+<p>	Во второй части эксперимента еще 109 добровольцам ежедневно подавали по 10 кренделей на синей, белой или красной тарелке. Согласно полученным результатам те, кто получал еду на красной тарелке, съедали меньше остальных.</p>
+<p>	 </p>
+<p>Читай также: Как посуда влияет на аппетит и настроение?</p>
+<p>	 </p>
+<p>	"Действительно, подобное поведение, скорее всего, связано с тем, что эволюционно красный цвет связывается с опасностью" – считает Урсула Аренс из Британской диетологической ассоциации. </p>
+<p>	 </p>
+<p>	Напомним также, что специалисты придумали тарелку-диетолога.</p>
+<p>Если вы заметили ошибку, выделите текст и нажмите Ctrl+Enter чтобы сообщить об этом редакции</p>
+<p>Теги:   посуда,   переедание,   алкоголь,   лишний вес </p>
+<p>Источник: meddaily.ru, medvesti.com</p>
+<p>Статья добавлена в ваше избранноеЗакрыть </p>
+<p>Статья удалена из вашего избранногоЗакрыть </p>
+<p>	$().ready(function (){</p>
+<p>		$('a._addhashonclick').click(function() {</p>
+<p>			var href = $(this).attr('href');</p>
+<p>			if (!$(this).attr('ohref')) $(this).attr('ohref', href);</p>
+<p>			var suff = '&url=' + encodeURIComponent(document.location.href);</p>
+<p>			if ($(this).attr('hashonly')) suff = document.location.hash;</p>
+<p>			$(this).attr('href', $(this).attr('ohref') + suff);</p>
+<p>		});</p>
+<p>	});</p>
+<p>Статьи по теме</p>
+<p>Позитивное отношение к себе помогает похудеть</p>
+<p>Новости</p>
+<p>Японские палочки для еды помогают похудеть</p>
+<p>Диета и питание</p>
+<p>Грейпфруты помогают похудеть</p>
+<p>Новости</p>
+<p>Сколько стоит стройность?</p>
+<p>Новости</p>
+<p>                    GA_googleFillSlot("DFP_bigmir_468x60_niz_04.08.2011");</p>
+<p>                </p>
+<p> </p>
+<p>            var global_comment_settings_text2='Добавить комментарий';</p>
+<p>            ;</p>
+<p>        </p>
+<p>Комментариев (0)</p>
+<p> </p>
+<p>Имя:</p>
+<p>Комментарий:</p>
+<p>Осталось 300 символов</p>
+<p>Введите символы с картинки:</p>
+<p>Сменить картинку</p>
+<p>            setTimeout(function() { Recaptcha.create(RECAPTCHA_PUBLIC_KEY, "recaptcha_widget", { theme: "custom", custom_theme_widget: "recaptcha_widget", lang : "ru" } ); }, 3000);</p>
+<p>        </p>
+<p>		Включите поддержку JavaScript для отображения картинки с защитным кодом</p>
+<p>	</p>
+<p><!--</p>
+<p>		if(typeof(window.comCaptchaToolTip) != 'function') {</p>
+<p>			function comCaptchaToolTip(event) {</p>
+<p>				event = (event) ? event : window.event;</p>
+<p>				var X = Get_MouseCoord_X(event) - 10 + f_scrollLeft();</p>
+<p>				var Y = Get_MouseCoord_Y(event) - 10 + f_scrollTop();</p>
+<p>				showToolTip(event, 'mouseover', Trim_Str(__$('com_captcha_hidden_desc').innerHTML), X, Y);</p>
+<p>			}</p>
+<p>		}</p>
+<p>		//Attach_EventListener(__$('com_captcha_tooltip'), 'mouseover', comCaptchaToolTip);</p>
+<p>	//--></p>
+<p>	</p>
+<p> </p>
+<p><!--</p>
+<p>		// --- global comment variables container --- //</p>
+<p>		/*</p>
+<p>		window.commJsGlVar = {</p>
+<p>			bmImgServer : "http://bm.img.com.ua/",</p>
+<p>			commCaptchaWebPath : "http://main.bigmir.net/include/c_captcha.inc.php",</p>
+<p>			commScriptFullUrl : "http://ivona.bigmir.net/health/diet/diets/324388-Issledovateli-vyjasnili--kakaja-posuda-pomogaet-pohudet-",</p>
+<p>			commTplIdPrefix : "CMNT_ID_",</p>
+<p>			commTplAnchorPrefix : "CMNT_ANCHOR_",</p>
+<p>			commNullId : "0",</p>
+<p>			commID : "0",</p>
+<p>			commErrorMsg : Boolean()</p>
+<p>		};</p>
+<p>		*/</p>
+<p>		// --- end comment global variables container --- //</p>
+<p>		$().ready(function(){</p>
+<p>			initComments(false);</p>
+<p>		});	</p>
+<p>		var commSortOrder = "DESC";</p>
+<p>		</p>
+<p>	//--></p>
+<p>	</p>
+<p>var RECAPTCHA_PUBLIC_KEY="6LcDxrwSAAAAALVkn89_h8Q_4mgXU-QqWf0vc_Ph";</p>
+<p> </p>
+<p>Популярные теги</p>
+<p>питание</p>
+<p>фигура</p>
+<p>2 кг</p>
+<p>диета</p>
+<p>зима</p>
+<p>организм</p>
+<p>завтрак</p>
+<p>лишний вес</p>
+<p>пэрис хилтон</p>
+<p>вред</p>
+<p>рост</p>
+<p>вес</p>
+<p>живот</p>
+<p>калории</p>
+<p>утро</p>
+<p>празники</p>
+<p>выходные</p>
+<p>Новый год</p>
+<p>рацион</p>
+<p>7 кг</p>
+<p>праздники</p>
+<p>диетолог</p>
+<p>похудение</p>
+<p>диетологи</p>
+<p>морковь</p>
+<p>кожа</p>
+<p>Анастасия Волочкова</p>
+<p>продукты</p>
+<p>балерина</p>
+<p>алкоголь</p>
+<p>Загрузка...</p>
+<p>document.write("<sc"+"ript type='text/javascript' src='http://exchange.newsnet.in.ua/show.ad?inf=253&div=newnet_block253&ref="+escape(document.referrer)+"'></sc"+"ript>");</p>
+<p>Реклама</p>
+<p>                var custom = {};</p>
+<p>                                                var std = { gender:100, age:101 },i;</p>
+<p>                for (i in std){ try{ custom[std[i]]=eval(i)}catch(e){ } }</p>
+<p>                new adriver.Plugin.require("old.adriver").onLoadComplete(function(){</p>
+<p>                    new adriver("adriver_mid", { sid:85794,sz:"ivona_tobacco",bt:52,pz:2, keyword: typeof __keyword != "undefined" ? __keyword : "",bn:ar_bn1, custom: custom });</p>
+<p>                });</p>
+<p>			</p>
+<p>/**</p>
+<p>* inspired by Christopher Manciero</p>
+<p>* http://www.chrismanciero.com/</p>
+<p>*</p>
+<p>*</p>
+<p>*</p>
+<p>*/</p>
+<p>var timerlen = 5;</p>
+<p>var slideAniLen = 300;</p>
+<p>var pluginDivsHeight = {};</p>
+<p>// plugin v2 class</p>
+<p>function PluginV2 (id, num) {</p>
+<p>	this.id = id;</p>
+<p>	this.num = num;</p>
+<p>	this.parent_id = 'parent_' + id;</p>
+<p>}</p>
+<p>PluginV2.prototype = {</p>
+<p>	GA_account: 'UA-3119939-34',</p>
+<p>	num: 0, // real number of the plugin</p>
+<p>	id: '',	// id of the div</p>
+<p>	parent_id: '',	// id of the parent div</p>
+<p>	moving: false,	// true if it's already moving</p>
+<p>	dir: null,	// direction of moving</p>
+<p>	endLength: 0,	// length of opened div</p>
+<p>	startTime: 0,	// start time</p>
+<p>	timerID: 0, // timer id</p>
+<p>	obj: null, // div to slide</p>
+<p>	initialized: false, 	// whether plugins were initialized</p>
+<p>	trackLink: function( domain, pluginName ){</p>
+<p>		</p>
+<p>		var pageTracker=_gat._getTracker(this.GA_account);    </p>
+<p>		pageTracker._trackEvent('баян', domain, pluginName );</p>
+<p>		return true;</p>
+<p>	},</p>
+<p>	</p>
+<p>	// openes plugin</p>
+<p>	open: function() {</p>
+<p>		if (this.moving)</p>
+<p>			return;</p>
+<p>		if (document.getElementById(this.id).style.display != "none")</p>
+<p>			return;</p>
+<p>		this.addClass(this.parent_id, 'gb-informers_project_open');</p>
+<p>		this.moving = true;</p>
+<p>		this.dir = 'down';</p>
+<p>		this.startSlide();</p>
+<p>	},</p>
+<p>	// closes plugin</p>
+<p>	close: function() {</p>
+<p>		if (this.moving)</p>
+<p>			return;</p>
+<p>		if (document.getElementById(this.id).style.display == "none")</p>
+<p>			return;</p>
+<p>		this.removeClass(this.parent_id, 'gb-informers_project_open');</p>
+<p>		document.getElementById(this.id).style.overflow = 'hidden';</p>
+<p>		this.moving = true;</p>
+<p>		this.dir = 'up';</p>
+<p>		this.startSlide();</p>
+<p>	},</p>
+<p>	// toggles plugin</p>
+<p>	toggle: function() {</p>
+<p>		if (!this.initialized) {</p>
+<p>			return;</p>
+<p>		}</p>
+<p>		if (document.getElementById(this.id).style.display == "none") {</p>
+<p>			// div is hidden, so let's open it</p>
+<p>			this.open();</p>
+<p>		}</p>
+<p>		else {</p>
+<p>			// div is visible, so close it</p>
+<p>			this.close();</p>
+<p>		}</p>
+<p>	},</p>
+<p>	isOpened: function() {</p>
+<p>		return document.getElementById(this.id).style.display != "none";</p>
+<p>	},</p>
+<p>	// starts plugin slide</p>
+<p>	startSlide: function() {</p>
+<p>		this.obj = document.getElementById(this.id);</p>
+<p>		this.endLength = pluginDivsHeight[this.obj.id];</p>
+<p>		this.startTime = (new Date()).getTime();</p>
+<p>		if (this.dir == "down")</p>
+<p>			this.obj.style.height = "1px";</p>
+<p>		this.obj.style.display = "block";</p>
+<p>		var self = this;	// closure</p>
+<p>		this.timerID = setInterval(function(){self.slideTick()}, timerlen);</p>
+<p>	},</p>
+<p>	/**</p>
+<p>	*  	checks if it's time to end the slide or to keep sliding</p>
+<p>	*/</p>
+<p>	slideTick: function() {</p>
+<p>		var elapsed = (new Date()).getTime() - this.startTime;</p>
+<p>		if (elapsed > slideAniLen)</p>
+<p>			this.endSlide();</p>
+<p>		else {</p>
+<p>			var d = Math.round(elapsed / slideAniLen * this.endLength);</p>
+<p>			if(this.dir == "up")</p>
+<p>				d = this.endLength - d;</p>
+<p>			obj = this.obj;</p>
+<p>			obj.style.height = d + "px";</p>
+<p>		}</p>
+<p>		return;</p>
+<p>	},</p>
+<p>	/*</p>
+<p>   	*	ends sliding</p>
+<p>   	*/</p>
+<p>	endSlide: function () {</p>
+<p>		clearInterval(this.timerID);</p>
+<p>		if (this.dir == "up")</p>
+<p>			this.obj.style.display = "none";</p>
+<p>		this.obj.style.height = this.endLength + "px";</p>
+<p>		delete(this.moving);</p>
+<p>		delete(this.timerID);</p>
+<p>		delete(this.startTime);</p>
+<p>		delete(this.endLength);</p>
+<p>		delete(this.obj);</p>
+<p>		delete(this.dir);</p>
+<p>		return;</p>
+<p>	},</p>
+<p>	// some utils</p>
+<p>	hasClass: function(id, className) {</p>
+<p>		var obj = document.getElementById(id);</p>
+<p>		return obj.className.indexOf(className) != -1;</p>
+<p>	},</p>
+<p>	addClass: function(id, className) {</p>
+<p>		var obj = document.getElementById(id);</p>
+<p>		if (!this.hasClass(id, className)) obj.className += " " + className;</p>
+<p>	},</p>
+<p>	removeClass: function(id, className) {</p>
+<p>		var obj = document.getElementById(id);</p>
+<p>		if (this.hasClass(id, className)) {</p>
+<p>			var st = obj.className;</p>
+<p>    		obj.className = st.replace(' gb-informers_project_open', '');</p>
+<p>		}</p>
+<p>	},</p>
+<p>	getElementCurrentStyle: function(element, CssStyleProperty) {</p>
+<p>		if (!element) return false;</p>
+<p>		if (element.currentStyle) {</p>
+<p>			return element.currentStyle[this.cssToJavascriptStyle(CssStyleProperty)];</p>
+<p>		}</p>
+<p>		else if (window.getComputedStyle) {</p>
+<p>			var compStyle = window.getComputedStyle(element, '');</p>
+<p>			return compStyle.getPropertyValue(CssStyleProperty);</p>
+<p>		}</p>
+<p>		else {</p>
+<p>			return '';</p>
+<p>		}</p>
+<p>	},</p>
+<p>	cssToJavascriptStyle: function(CssProperty) {</p>
+<p>		var stringArray = CssProperty.toLowerCase().split('-');</p>
+<p>		if (stringArray.length == 1) {</p>
+<p>			return stringArray[0];</p>
+<p>		}</p>
+<p>		var ret = (CssProperty.indexOf("-") == 0) ? stringArray[0].charAt(0).toUpperCase() + stringArray[0].substring(1) : stringArray[0];</p>
+<p>		for (var i = 1; i < stringArray.length; i++) {</p>
+<p>			var s = stringArray[i];</p>
+<p>			ret += s.charAt(0).toUpperCase() + s.substring(1);</p>
+<p>		}</p>
+<p>		return ret;</p>
+<p>	},</p>
+<p>	addGoogleAnalytics: function () {</p>
+<p>//		var pluginDiv = document.getElementById(this.parent_id);</p>
+<p>//		var children = pluginDiv.getElementsByTagName('a');</p>
+<p>//		var parameters = pluginDiv.getAttribute('rel');</p>
+<p>//</p>
+<p>//		for (var i = 0; i < children.length; i++) {</p>
+<p>//			var tagName = children[i].tagName.toLowerCase();</p>
+<p>//			children[i].href = children[i].href + parameters;</p>
+<p>//		}</p>
+<p>		</p>
+<p>	},</p>
+<p>	init: function() {</p>
+<p>    </p>
+<p>		var checked = false;</p>
+<p>		if (pluginTicksCounter++ > 15) {</p>
+<p>			checked = true;</p>
+<p>		}</p>
+<p>		var rootDiv = document.getElementById('gb_informers');</p>
+<p>		var pluginDivs = rootDiv.getElementsByTagName("div");</p>
+<p>		var photoChecked = true;</p>
+<p>		if (document.getElementById('gb-informers_photo_box') != null) {</p>
+<p>			photoChecked = false;</p>
+<p>		}</p>
+<p>		for (var i = 0; i < pluginDivs.length; i++) {</p>
+<p>			// check whether the style is applied already</p>
+<p>			if (!checked && pluginDivs[i].className == 'gb-informers_project_content') {</p>
+<p>				if (!photoChecked) {</p>
+<p>					//gel all child divs</p>
+<p>					var childDivs = pluginDivs[i].getElementsByTagName("div");</p>
+<p>					for (var j = 0; j < childDivs.length; j++) {</p>
+<p>						if (typeof(childDivs[j].className) != 'undefined') {</p>
+<p>							if (childDivs[j].className == 'gb-informers_photo') {</p>
+<p>								if (pluginPhotoLoadCounter > 3) {</p>
+<p>									photoChecked = true;</p>
+<p>								}</p>
+<p>								else {</p>
+<p>									return;</p>
+<p>								}</p>
+<p>							}</p>
+<p>						}</p>
+<p>					}</p>
+<p>					if (!photoChecked) {</p>
+<p>						continue;</p>
+<p>					}</p>
+<p>				}</p>
+<p>				if (((this.getElementCurrentStyle(pluginDivs[i], 'width') == '300px') && photoChecked)) {</p>
+<p>					checked = true;</p>
+<p>				}</p>
+<p>				else {</p>
+<p>					return;</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>        </p>
+<p>		if (checked) {</p>
+<p>			for (var i = 0; i < pluginDivs.length; i++) {</p>
+<p>				if (pluginDivs[i].className == 'gb-informers_project_content_box') {</p>
+<p>					if (pluginDivs[i].style.display == 'none') {</p>
+<p>						pluginDivs[i].style.display = 'block';</p>
+<p>						pluginDivsHeight[pluginDivs[i].id] = pluginDivs[i].offsetHeight;</p>
+<p>						pluginDivs[i].style.display = 'none';</p>
+<p>					}</p>
+<p>					else {</p>
+<p>						pluginDivsHeight[pluginDivs[i].id] = pluginDivs[i].offsetHeight;</p>
+<p>					}</p>
+<p>					var id = pluginDivs[i].id;</p>
+<p>					var key = 'plugin_v2_';</p>
+<p>					var num = id.substring(id.indexOf(key) + key.length)</p>
+<p>					PluginsV2[num] = new PluginV2(id, num);</p>
+<p>					PluginsV2[num].addGoogleAnalytics();</p>
+<p>				}</p>
+<p>				this.initialized = true;</p>
+<p>                togglePluginFirst();</p>
+<p>				clearInterval(pluginTimerID);</p>
+<p>			}</p>
+<p>		}</p>
+<p>       </p>
+<p>	},</p>
+<p>	incPhotoLoadCounter: function() {</p>
+<p>		pluginPhotoLoadCounter++;</p>
+<p>	}</p>
+<p>}</p>
+<p>var PluginsV2 = new Array();</p>
+<p>var pluginTicksCounter = 0;</p>
+<p>var pluginPhotoLoadCounter = 0;</p>
+<p>var pluginTimerID = setInterval('PluginV2.prototype.init()', 100);</p>
+<p>function togglePluginFirst() {</p>
+<p>    var firstBlock = 1;</p>
+<p>    </p>
+<p>    </p>
+<p>                                                firstBlock = 3; // re-init firstBlock</p>
+<p>                        </p>
+<p>    </p>
+<p>    for (i in PluginsV2) {</p>
+<p>		if (typeof PluginsV2[i] == 'object' && typeof PluginsV2[i].num != 'undefined') {</p>
+<p>            if (i!=firstBlock) {</p>
+<p>                PluginsV2[i].close();</p>
+<p>            }</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>function togglePlugin(id) {</p>
+<p>    for (i in PluginsV2) {</p>
+<p>		if (typeof PluginsV2[i] == 'object' && typeof PluginsV2[i].num != 'undefined' && PluginsV2[i].isOpened()) {</p>
+<p>			PluginsV2[i].close();</p>
+<p>		}</p>
+<p>	}</p>
+<p>	var Plugin = PluginsV2[id];</p>
+<p>	Plugin.toggle();</p>
+<p>	return false;</p>
+<p>}</p>
+<p>//Analytics </p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', PluginV2.prototype.GA_account]);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>(function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>Портал для мужчин</p>
+<p>                                            Аль и Ко: ТОП-10 крутейших гангстеров мира</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            США придумывает оружие, которое не убивает (ВИДЕО)</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            Урок пикапа: знакомимся с девушкой</p>
+<p>                                        </p>
+<p>Больше статей</p>
+<p>Все новости спорта</p>
+<p>                                            Хоккей: Донбасс - бронзовый призер Континентального кубка</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            Владимир Кличко: Хотел бы попробовать себя в миксфайте</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            Жесткий троллинг. Как фанаты Ливерпуля поиздевались над Насри (ВИДЕО)</p>
+<p>                                        </p>
+<p>Больше статей</p>
+<p>online-журнал для женщин</p>
+<p>                                            Волочкова снова выложила в блог пикантные фото</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            Громкие секс-скандалы с участием учительниц</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            Что оказывает влияние на рост ребенка</p>
+<p>                                        </p>
+<p>Больше статей</p>
+<p>Новости Финансов</p>
+<p>                                            Почти 25% офисных работников донимает скука</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            Пять врагов здоровья, которые живут в твоем офисе</p>
+<p>                                        </p>
+<p> </p>
+<p>                                            Коммуналка может подорожать на 50%</p>
+<p>                                        </p>
+<p>Больше статей</p>
+<p>Читай нас в удобном формате</p>
+<p>RSS Facebook Вконтакте </p>
+<p>Twitter</p>
+<p>Популярные статьи</p>
+<p>Как похудеть после праздников: Две эффективные диеты</p>
+<p>Диета и питание </p>
+<p>Топ-9 продуктов для завтрака</p>
+<p>Диета и питание </p>
+<p>Худеем после праздников: Режим питания от диетолога</p>
+<p>Диета и питание </p>
+<p>Размести свои видеоматериалы</p>
+<p>Загрузка...</p>
+<p>document.write("<sc"+"ript type='text/javascript' src='http://exchange.newsnet.in.ua/show.ad?inf=296&div=newnet_block296&ref="+escape(document.referrer)+"'></sc"+"ript>");</p>
+<p>Загрузка...</p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>    +'src="http://jsn.dt00.net/i/v/ivona.bigmir.net.8583.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()</p>
+<p>    + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>    </p>
+<p>Внутри IVONA</p>
+<p>Мода и Красота</p>
+<p>В США выбрали самую красивую девушку</p>
+<p>Мода и Красота</p>
+<p>Прыщи в зрелом возрасте: Как избавиться от это...</p>
+<p>Кулинария</p>
+<p>ТОП-5 полезных способов приготовления овощей</p>
+<p>Дом</p>
+<p>Дом Робби Уильямса: Эксцентричный певец выбира...</p>
+<p>Мода и Красота</p>
+<p>Модные провалы звезд на церемонии Золотой глобус</p>
+<p>Он и Она</p>
+<p>Пенсионеры устроили оргию в доме престарелых</p>
+<p>Мода и Красота</p>
+<p>Дизайнеры создали наряды для игрушечных собак</p>
+<p>Здоровье</p>
+<p>Как худеет Пэрис Хилтон: Минус 5 кг за неделю</p>
+<p>Он и Она</p>
+<p>Как оригинально провести зимний день</p>
+<p>Кулинария</p>
+<p>Завтрак выходного дня: Яичница с грибами в дух...</p>
+<p>Мода и Красота</p>
+<p>Анджелина Джоли затмила всех на церемонии Золо...</p>
+<p>Здоровье</p>
+<p>Виноград помогает избежать слепоты</p>
+<p> Пожалуйста, все свои замечания и предложения направляйте в нашу Службу поддержки </p>
+<p>Разместить рекламу</p>
+<p>/* customization */</p>
+<p>table.MediaTraffic tbody td a span {</p>
+<p>  background-color: #FFFFFF;</p>
+<p>  }</p>
+<p>.MediaTraffic_a {</p>
+<p>  color: #2a3f5e;</p>
+<p>  background-color: #dce3ee;</p>
+<p>}</p>
+<p>/* ! */</p>
+<p>table.MediaTraffic {</p>
+<p>  width: auto;</p>
+<p>  border-collapse: collapse;</p>
+<p>  border-spacing: 0;</p>
+<p>  empty-cells: hide;</p>
+<p>  margin: 0;</p>
+<p>  padding: 0;</p>
+<p>  float:left;</p>
+<p>  margin-top:-1px;</p>
+<p>  }</p>
+<p>table.MediaTraffic thead td {</p>
+<p>  padding: 0;</p>
+<p>  }</p>
+<p>.MediaTraffic_a {</p>
+<p>  position: relative;</p>
+<p>  z-index: 1;</p>
+<p>  margin: 0px 9px 0px 0;</p>
+<p>  height: 14px;</p>
+<p>  line-height: 14px;</p>
+<p>  padding: 0 10px;</p>
+<p>  font: 10px Arial, Tahoma, Verdana, sans-serif;</p>
+<p>  text-decoration: none;</p>
+<p>  }</p>
+<p>table.MediaTraffic tbody td {</p>
+<p>  vertical-align: top;</p>
+<p>  width:120px !important;</p>
+<p>  min-height: 84px;</p>
+<p>  overflow:hidden;</p>
+<p>  padding-right: 40px;</p>
+<p>  }</p>
+<p>table.MediaTraffic tbody td a {</p>
+<p>  display: block;</p>
+<p>  outline: none;</p>
+<p>  cursor: pointer;</p>
+<p>  font: 11px Arial, Tahoma, Verdana, sans-serif;</p>
+<p>  width:120px;</p>
+<p>  overflow:hidden;</p>
+<p>}</p>
+<p>table.MediaTraffic tbody td a span {</p>
+<p>  display: block;</p>
+<p>  width: 100%;</p>
+<p>  max-width: 116px;</p>
+<p>  height: 90px;</p>
+<p>  padding: 2px;</p>
+<p>  margin: 0 auto 3px;</p>
+<p>  background-position: 50% 50%;</p>
+<p>  background-repeat: no-repeat;</p>
+<p>  }</p>
+<p><!--</p>
+<p>var mtSite = 5;</p>
+<p>var mtBannerNumber = 3;</p>
+<p>var mtUserStatus = 0;</p>
+<p>MouseMediaTrafic = {</p>
+<p>	pageTracker: null,</p>
+<p>	gaAccount: 'UA-3119939-34',</p>
+<p>	status: 0,</p>
+<p>	age:	0,</p>
+<p>	gender: null,</p>
+<p>	getMtUserStatus: function() {</p>
+<p>		this.status = 0;</p>
+<p>		</p>
+<p>		this.age = this.readCookie('bm_age'); </p>
+<p>		this.gender = this.readCookie('bm_gender');</p>
+<p>		</p>
+<p>		if(this.gender) {</p>
+<p>			this.status += 0x100;</p>
+<p>			this.status += 0x1; //if have sex</p>
+<p>			if(this.gender == 'm') {//if male</p>
+<p>				this.status += 0x2;</p>
+<p>			}</p>
+<p>			if (this.age >= 12 && this.age <= 17)</p>
+<p>				this.status += 0x4;</p>
+<p>			else if (this.age >= 18 && this.age <= 24)</p>
+<p>				this.status += 0x8;</p>
+<p>			else if (this.age >= 25 && this.age <= 30)</p>
+<p>				this.status += 0x10;</p>
+<p>			else if (this.age >= 31 && this.age <= 40)</p>
+<p>				this.status += 0x20;</p>
+<p>			else if (this.age >= 41 && this.age <= 50)</p>
+<p>				this.status += 0x40;</p>
+<p>			else if (this.age > 50)</p>
+<p>				this.status += 0x80;</p>
+<p>		}</p>
+<p>		return this.status;</p>
+<p>	},</p>
+<p>	readCookie: function(name) {</p>
+<p>		var nameEQ = name + "=";</p>
+<p>		var ca = document.cookie.split(';');</p>
+<p>		for(var i=0;i < ca.length;i++) {</p>
+<p>			var c = ca[i];</p>
+<p>			while (c.charAt(0)==' ') c = c.substring(1,c.length);</p>
+<p>			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);</p>
+<p>		}</p>
+<p>		return null;</p>
+<p>	},</p>
+<p>	init: function(){</p>
+<p>		window.mtClick = function(obj, str)</p>
+<p>		{</p>
+<p>		        if (!obj.href)obj.href = str;</p>
+<p>		        if(MouseMediaTrafic.pageTracker == null) MouseMediaTrafic.pageTracker = _gat._getTracker(MouseMediaTrafic.gaAccount);</p>
+<p>		        MouseMediaTrafic.pageTracker._trackEvent('обзор сети mediatraffic', document.domain, document.location.href );</p>
+<p>		        return true;</p>
+<p>		}</p>
+<p>	}</p>
+<p>};</p>
+<p>mtUserStatus = MouseMediaTrafic.getMtUserStatus();</p>
+<p>//Analytics </p>
+<p>if( typeof(_gaq) == 'undefined' )</p>
+<p>{</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(['_setAccount', MouseMediaTrafic.gaAccount]);</p>
+<p>	_gaq.push(['_trackPageview']);</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>	  })();</p>
+<p>	  </p>
+<p>}</p>
+<p>//--></p>
+<p>Аукционы Житомир</p>
+<p>bigmir)net аукционы</p>
+<p>Авто Украина</p>
+<p>Emarket.ua</p>
+<p>Автомагнитолы</p>
+<p>Vcene.ua</p>
+<p>Основные разделы</p>
+<p>bigmir)net в сети</p>
+<p>Авто</p>
+<p>Аукционы</p>
+<p>Афиша</p>
+<p>Видео</p>
+<p>Вопрос-Ответ</p>
+<p>Гороскопы</p>
+<p>Дневники</p>
+<p>Евро-2012</p>
+<p>Ivona</p>
+<p>Игры</p>
+<p>Знакомства</p>
+<p>Карты</p>
+<p>M port</p>
+<p>Новости</p>
+<p>Открытки</p>
+<p>Переводчик</p>
+<p>Погода</p>
+<p>Покупон</p>
+<p>Почта</p>
+<p>Приколы</p>
+<p>Работа</p>
+<p>Рейтинг</p>
+<p>Спорт</p>
+<p>Техно</p>
+<p>ТВ-программа</p>
+<p>Туризм</p>
+<p>Финансы</p>
+<p>Фото</p>
+<p>Чат</p>
+<p>Шоу-Биз</p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>В Контакте</p>
+<p>LiveJournal</p>
+<p>Блог Бигмира</p>
+<p>Наверх</p>
+<p>Корреспондент.net</p>
+<p>Новинар</p>
+<p>Ricardo</p>
+<p>                    © 2000-2011, ООО "КП-ТВ".</p>
+<p>                    Все права защищены.</p>
+<p>					</p>
+<p>Помощь</p>
+<p>                      </p>
+<p>                    Реклама на сайте</p>
+<p>                      </p>
+<p>                                            Правила</p>
+<p>                    </p>
+<p>                      </p>
+<p>                    Связаться с нами</p>
+<p>                      Использование материалов</p>
+<p>                      Договор пользования сайтом</p>
+<p> </p>
+<p><!--</p>
+<p>    bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={ o:1,v:16792470,s:16792470,t:6,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>    for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>    try{ if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>    else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){ ;}</p>
+<p>    try{ bm.y=bmN.javaEnabled()?1:0}catch(e){ ;}</p>
+<p>    try{ bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){ ;}</p>
+<p>    r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){ bm.f=escape(r);bm.v^=r.length}</p>
+<p>    bm.v^=window.location.href.length;for(var x in bm) if(/^[ovstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>    bmD.write('<sc'+'ript type="text/javascript" language="javascript" src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');</p>
+<p>    //--></p>
+<p>    </p>
+<p><!--</p>
+<p>bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={ o:1,v:23,s:23,t:6,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>try{ if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){ ;}</p>
+<p>try{ bm.y=bmN.javaEnabled()?1:0}catch(e){ ;}</p>
+<p>try{ bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){ ;}</p>
+<p>r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){ bm.f=escape(r);bm.v^=r.length}</p>
+<p>bm.v^=window.location.href.length;for(var x in bm) if(/^[ovstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>bmD.write('<sc'+'ript type="text/javascript" language="javascript" src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>    //--></p>
+<p>    </p>
+<p><!--</p>
+<p>    if(window._gat) {</p>
+<p>     try {</p>
+<p>      var firstTracker = _gat._getTracker("UA-1609229-16");</p>
+<p>      firstTracker._initData();</p>
+<p>      firstTracker._trackPageview();</p>
+<p>      var secondTracker = _gat._getTracker("UA-3119939-34");</p>
+<p>      // secondTracker._setDomainName("www.bigmir.net");</p>
+<p>      // Organic Tracker</p>
+<p>      secondTracker._addOrganic("go.mail.ru","q");</p>
+<p>      secondTracker._addOrganic("rambler.ru","query");</p>
+<p>      secondTracker._addOrganic("search.ukr.net","search_query");</p>
+<p>      secondTracker._addOrganic("search.qip.ru","query");</p>
+<p>      secondTracker._addOrganic("images.google.com","q");</p>
+<p>      secondTracker._addOrganic("nigma.ru","s");</p>
+<p>      secondTracker._addOrganic("icq.com","q");</p>
+<p>      secondTracker._addOrganic("meta.ua","q");</p>
+<p>      secondTracker._addOrganic("bigmir.net","z");</p>
+<p>      secondTracker._addOrganic("gogo.ru","q");</p>
+<p>      secondTracker._addOrganic("aport.ru","r");</p>
+<p>      secondTracker._addOrganic("tut.by","query");</p>
+<p>      secondTracker._initData();</p>
+<p>      secondTracker._trackPageview();</p>
+<p>     }catch(e){}</p>
+<p>    }</p>
+<p>    //--></p>
+<p>    </p>
+<p>    <!--//--><![CDATA[//><!--</p>
+<p>    var pp_gemius_identifier = new String('p8XlnPr45Qo.xhw1UPw0KOVD76bdVlrzdKKahEz0Y7f.M7');</p>
+<p>    //--><!]]></p>
+<p>    </p>
+<p><!--</p>
+<p>		var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>		var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>		document.write('<sc' + 'ript language="JavaScript" type="text/javascript" src="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=85794&sz=ivona_tobacco&target=blank&bt=16&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '"><\/sc' + 'ript>');</p>
+<p>	//--></p>
+<p><!--</p>
+<p>    iS='<img src="http://r.i.ua/s?u11&p0&n'+Math.random();</p>
+<p>    iD=document;if(!iD.cookie)iD.cookie="b=b; path=/";if(iD.cookie)iS+='&c1';</p>
+<p>    iS+='&d'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)</p>
+<p>    +"&w"+screen.width+'&h'+screen.height;</p>
+<p>    iT=iD.referrer.slice(7);iH=window.location.href.slice(7);</p>
+<p>    ((iI=iT.indexOf('/'))!=-1)?(iT=iT.substring(0,iI)):(iI=iT.length);</p>
+<p>    if(iT!=iH.substring(0,iI))iS+='&f'+escape(iD.referrer.slice(7));</p>
+<p>    iS+='&r'+escape(iH);</p>
+<p>    iD.write(iS+'" border="0" width="1" height="1" />');</p>
+<p>    //--></p>
+<p>    </p>
+<p><!--</p>
+<p>    new Image().src = "http://counter.yadro.ru/hit?r"+</p>
+<p>    escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>    ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>    screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>    ";"+Math.random();//--></p>
+<p>    var ya_params = {/*Здесь параметры визита*/};</p>
+<p>    </p>
+<p>    (function(w, c) {</p>
+<p>        (w[c] = w[c] || []).push(function() {</p>
+<p>            try {</p>
+<p>                w.yaCounter7234894 = new Ya.Metrika({id:7234894, enableAll: true,params:window.ya_params||{ }});</p>
+<p>            }</p>
+<p>            catch(e) { }</p>
+<p>        });</p>
+<p>    })(window, "yandex_metrika_callbacks");</p>
+<p>    </p>
+<p>Основные разделы</p>
+<p>bigmir)net в сети</p>
+<p>Авто</p>
+<p>Аукционы</p>
+<p>Афиша</p>
+<p>Видео</p>
+<p>Вопрос-Ответ</p>
+<p>Гороскопы</p>
+<p>Дневники</p>
+<p>Евро-2012</p>
+<p>Ivona</p>
+<p>Игры</p>
+<p>Знакомства</p>
+<p>Карты</p>
+<p>M port</p>
+<p>Новости</p>
+<p>Открытки</p>
+<p>Переводчик</p>
+<p>Погода</p>
+<p>Покупон</p>
+<p>Почта</p>
+<p>Приколы</p>
+<p>Работа</p>
+<p>Рейтинг</p>
+<p>Спорт</p>
+<p>Техно</p>
+<p>ТВ-программа</p>
+<p>Туризм</p>
+<p>Финансы</p>
+<p>Фото</p>
+<p>Чат</p>
+<p>Шоу-Биз</p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>В Контакте</p>
+<p>LiveJournal</p>
+<p>Блог Бигмира</p>
+<p>Корреспондент.net</p>
+<p>Новинар</p>
+<p>Ricardo</p>
+<p>$().ready(function(){ $.get('?_ctr=ratepage&id=324388'); });</p>

@@ -1,0 +1,152 @@
+<p>Primary care trust allocations announced | Department of Health</p>
+<p>//<![CDATA[</p>
+<p>	google.load("jquery", "1.4.2");</p>
+<p>	google.load("jqueryui", "1.8.2");</p>
+<p>//	]]></p>
+<p>	/* Custom CSS rules below: */</p>
+<p>	</p>
+<p>	</p>
+<p>	.hp-socmed-channels li.blogs, .hp-subscribe li.blogs{ </p>
+<p>	background: url('/health/files/2011/10/blogicon.gif') no-repeat;</p>
+<p>	padding-left: 20px;</p>
+<p>	margin-bottom: 5px;	</p>
+<p>	line-height: 20px !important;</p>
+<p>}</p>
+<p>.hp-socmed-channels li.phone, .hp-subscribe li.phone{ </p>
+<p>	background: url('/health/files/2011/10/phoneicon16x19.gif') no-repeat;</p>
+<p>	padding-left: 20px;</p>
+<p>	margin-bottom: 5px;	</p>
+<p>	line-height: 20px !important;</p>
+<p>}</p>
+<p>.hp-socmed-channels li.gdenvelope, .hp-subscribe li.gdenvelope{ </p>
+<p>	background: url('/health/files/2011/08/gd_envelope18x18.gif') no-repeat;</p>
+<p>	padding-left: 20px;</p>
+<p>	margin-bottom: 5px;	</p>
+<p>	line-height: 20px !important;</p>
+<p>}</p>
+<p>.ie6 #home-primary, .ie6 #primary, .ie6 #home-secondary, .ie6 #secondary, .ie6 #footer-widget-area #first, .ie6 #footer-widget-area #second {</p>
+<p>   overflow: hidden;</p>
+<p>}</p>
+<p>.ie6 #footer-widget-area #second  {</p>
+<p>  width: 340px;</p>
+<p>  margin-right: 0;</p>
+<p>}</p>
+<p>	var analyticsFileTypes = [''];</p>
+<p>	var analyticsEventTracking = 'enabled';</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(['_setAccount', 'UA-16278926-22']);</p>
+<p>	_gaq.push(['_trackPageview']);</p>
+<p>	(function() {</p>
+<p>		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>	})();</p>
+<p>Skip to content</p>
+<p>Search DH: </p>
+<p>Department of Health</p>
+<p>Public health, adult social care, and the NHS</p>
+<p>Home</p>
+<p>About us</p>
+<p>How we are organised</p>
+<p>People</p>
+<p>Public bodies</p>
+<p>News</p>
+<p>Publications</p>
+<p>Policy</p>
+<p>NHS</p>
+<p>Public health</p>
+<p>Social care</p>
+<p> </p>
+<p>Home > Policy areas > NHS > Primary care trust allocation…		</p>
+<p>Primary care trust allocations announced</p>
+<p>						14 December, 2011					</p>
+<p>The revenue allocations for primary care trusts (PCTs) for 2012-13 are announced today. The total investment in local NHS services for 2012-13 is £91.6 billion an increase of £2.5 billion or 2.8 per cent</p>
+<p>It includes:</p>
+<p>£87.5 billion in recurrent revenue allocations to PCTs including an additional £150 million for reablement (assistance regaining independence if daily living skills are lost through illness or injury), an increase of £2.5 billion</p>
+<p>£4.1 billion in allocations for primary dental services, pharmaceutical services, general ophthalmic services, and to support joint working between health and social care.</p>
+<p>Recurrent revenue allocations</p>
+<p>Recurrent revenue allocations to PCTs are usually determined based on a weighted capitation formula. The weighted capitation formula determines each PCT’s available resources to enable them to commission similar levels of healthcare for populations with similar healthcare need, and to reduce avoidable health inequalities.</p>
+<p>To provide the NHS with financial stability in a year of transition, the weighted capitation formula has not been applied for 2012-13. All PCTs have received a uniform uplift in their 2012-13 recurrent allocations.</p>
+<p>Future allocations</p>
+<p>Subject to the passing of the Health and Social Care Bill, for 2013-14 onwards, the NHS Commissioning Board will be responsible for the allocation of resources to clinical commissioning groups, while the Department of Health will make ring fenced grants to local authorities for their public health responsibilities.</p>
+<p>See table of actual allocations by PCT and exposition book 2012-13</p>
+<p>Read Sir David Nicholson’s allocations letter</p>
+<p>See content on 2011-12 PCT allocations </p>
+<p> </p>
+<p>		  Share: </p>
+<p>		  </p>
+<p>Tweet</p>
+<p>In News, NHS, Publications, Reports and publications </p>
+<p>|</p>
+<p>Tagged NHS allocations, PCTs </p>
+<p>Comments are closed.</p>
+<p>Related content</p>
+<p>Winners of Innovation in Outcomes competition announcedNext steps to deliver an all foundation trust provider landscapeProposed establishment of the NHS Trust Development Authority and Health Education EnglandHealth and Social Care Bill revised Impact Assessment publishedSupporting personal assistants working in adult social care </p>
+<p>Subscribe </p>
+<p>RSS Library</p>
+<p>Email updates</p>
+<p>Connect with DH </p>
+<p>Contact DH</p>
+<p>Read our blogs</p>
+<p>Follow DH on Twitter</p>
+<p>Watch our videos</p>
+<p>See our photos</p>
+<p>DH publications Order online</p>
+<p>Consultations</p>
+<p>Bulletins</p>
+<p> Latest publicationsResults of dentistry patient surveyNHS referral to treatment waiting times statistics – October 2011National Child Measurement Programme key findings published </p>
+<p>Quick A-ZAgeing wellAlistair BurnsAndrew LansleyAnne MiltonAntibiotic resistanceArm's length bodiesAutismBulletinsCampaignsCancerCarersChief Medical OfficerChief Professional OfficersChief Scientific OfficerChild weight managementConsultationsDementiaDeveloping wellDrugs, alcohol and tobaccoEnd of life careFreedom of InformationHealth visitorsHealthy StartImmunisationInfluenzaInnovationLeaflets, booklets and postersLearning disabilitiesLegislationLetters and circularsLiving wellLong term conditionsLord HoweManagement resourcesMedicines and pharmacyMental healthMinistersModernisationNational Quality BoardNewsNHSNHS financeNHS Pension SchemeNHS workforceNutritionObesityOffender healthOlder peoplePatient safetyPaul BurstowPayment by resultsPersonal health budgetsPhysical activityPolicy areasPregnancy and early yearsPrimary careProcurementPublic healthPublic Health Responsibility DealPublicationsQuality, innovation, productivity and preventionReports and publicationsResearch & developmentSexual healthSimon BurnsSocial careSocial care fundingSocial care reformSocial care workforceStarting wellStatisticsThe Green BookTransforming public healthUncategorisedUrgent and emergency careWorking well </p>
+<p>Tag cloudantibiotics</p>
+<p>cancer</p>
+<p>caring for our future</p>
+<p>change4life</p>
+<p>chief nursing officer</p>
+<p>children</p>
+<p>clinical commissioning groups</p>
+<p>commissioning</p>
+<p>david behan</p>
+<p>David Nicholson</p>
+<p>diet</p>
+<p>drugs</p>
+<p>finance</p>
+<p>flu</p>
+<p>funding</p>
+<p>GPs</p>
+<p>health visitors</p>
+<p>influenza</p>
+<p>innovation</p>
+<p>local authorities</p>
+<p>MHRA</p>
+<p>National Institute for Health Research</p>
+<p>nhs commissioning board</p>
+<p>NHS Future Forum</p>
+<p>NHS management</p>
+<p>NHS staff</p>
+<p>obesity</p>
+<p>organ donation</p>
+<p>patient safety</p>
+<p>PbR</p>
+<p>PCT clusters</p>
+<p>PCTs</p>
+<p>pensions</p>
+<p>QIPP</p>
+<p>reference costs</p>
+<p>referral to treatment</p>
+<p>screening</p>
+<p>SHA clusters</p>
+<p>strategy</p>
+<p>substance misuse</p>
+<p>technology</p>
+<p>vaccinations</p>
+<p>waiting times</p>
+<p>workforce</p>
+<p>young people</p>
+<p> Popular tags list - view accessible version of Tag cloud.</p>
+<p> </p>
+<p> </p>
+<p>Terms & conditions  |  Accessibility  |  Sitemap  |  Contact DH  |  FOI</p>
+<p> </p>
+<p>  markExternalLinks();</p>
+<p>  tidyImageTitles();</p>
+<p>  showDownloadableFileIcons();</p>
+<p>  if (_gaq) { gaTrackDownloadableFiles(); }</p>

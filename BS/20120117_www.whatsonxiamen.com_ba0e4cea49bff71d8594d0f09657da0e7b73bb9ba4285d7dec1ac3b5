@@ -1,0 +1,513 @@
+<p>   var bannerAD=new Array();</p>
+<p>   var bannerADlink=new Array();</p>
+<p>   var bannerADtarget=new Array();</p>
+<p>   var adNum=0;</p>
+<p>   var delayTime = 5;</p>
+<p>   bannerAD[0]="images/logo1.jpg";</p>
+<p>   bannerADlink[0]="home.php";</p>
+<p>   bannerADtarget[0]="_php";</p>
+<p>   bannerAD[1]="images/logo2.jpg";</p>
+<p>   bannerADlink[1]="home.php";</p>
+<p>   bannerADtarget[1]="_blank";</p>
+<p>   bannerAD[2]="images/logo3.gif";</p>
+<p>   bannerADlink[2]="home.php";</p>
+<p>   bannerADtarget[2]="_blank";</p>
+<p>   </p>
+<p>   var preloadedimages=new Array();</p>
+<p>   for (i=1;i<bannerAD.length;i++){</p>
+<p>      preloadedimages[i]=new Image();</p>
+<p>      preloadedimages[i].src=bannerAD[i];</p>
+<p>   }</p>
+<p>function setTransition(){</p>
+<p>   if (document.all){</p>
+<p>      bannerADrotator.filters.revealTrans.Transition=12;</p>
+<p>      bannerADrotator.filters.revealTrans.apply();</p>
+<p>   }</p>
+<p>}</p>
+<p>function playTransition(){</p>
+<p>   if (document.all)</p>
+<p>      bannerADrotator.filters.revealTrans.play()</p>
+<p>}</p>
+<p>function nextAd(){</p>
+<p>   if(adNum<bannerAD.length-1)adNum++ ;</p>
+<p>      else adNum=0;</p>
+<p>   setTransition();</p>
+<p>   document.images.bannerADrotator.src=bannerAD[adNum];</p>
+<p>   playTransition();</p>
+<p>   theTimer=setTimeout("nextAd()", delayTime * 1000);</p>
+<p>}</p>
+<p>function jump2url(){</p>
+<p>   jumpUrl=bannerADlink[adNum];</p>
+<p>   jumpTarget=bannerADtarget[adNum];</p>
+<p>   </p>
+<p>   if (jumpUrl != ''){</p>
+<p>      if (jumpTarget != '')window.open(jumpUrl,jumpTarget);</p>
+<p>      else window.open(jumpUrl,"","width=740,height=110,toolbar=no,location=no,directories=no,status=no,scrollbars=no,resizable=no");</p>
+<p>   }</p>
+<p>}</p>
+<p>function displayStatusMsg() { </p>
+<p>   status=bannerADlink[adNum];</p>
+<p>   document.returnValue = true;</p>
+<p>}</p>
+<p>function init() </p>
+<p>{</p>
+<p>   document.write('<img style="cursor:hand;FILTER:revealTrans(duration=1,transition=12)" src="' + bannerAD[0] + '" width="100%" vheight="110" name=bannerADrotator onclick="javascript:jump2url()">');</p>
+<p>}</p>
+<p>function chkfrm1(){</p>
+<p>var con_str=document.postform;</p>
+<p>if(con_str.message.value==""){</p>
+<p>    alert("The message required");</p>
+<p>	return false;</p>
+<p>}</p>
+<p>if(con_str.message.value.length<10){</p>
+<p>	alert("The message can not be less than 10 words");</p>
+<p>	return false;</p>
+<p>}</p>
+<p>}</p>
+<p>Chinese raisin tree extraction could cure hangover: study - What's On Xiamen</p>
+<p>$().ready(function () {</p>
+<p>$("#news_comments_title").click(function(){</p>
+<p>$("#news_com_box").toggle("slow");</p>
+<p>}</p>
+<p>);</p>
+<p>}</p>
+<p>);</p>
+<p><!--</p>
+<p>#nl1 {</p>
+<p>	width:580px;</p>
+<p>	float:left;</p>
+<p>	text-align:left;</p>
+<p>	border-right-width: 1px;</p>
+<p>	border-right-style: solid;</p>
+<p>	border-right-color: #C0E0E0;</p>
+<p>}</p>
+<p>#news_tag {</p>
+<p>	background-image: url(images/icons/tag_blue.jpg);</p>
+<p>	background-repeat: no-repeat;</p>
+<p>	padding-left: 20px;</p>
+<p>	margin-bottom: 5px;</p>
+<p>	margin-top: 3px;</p>
+<p>}</p>
+<p>#news_tag a {</p>
+<p>	color: #0066FF;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>#news_tag a:hover {</p>
+<p>	color: #FFFFFF;</p>
+<p>	background-color: #0066FF;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>#nl2 {</p>
+<p>	width:200px;</p>
+<p>	float:left;</p>
+<p>	margin-left:5px;</p>
+<p>	text-align:left;</p>
+<p>}</p>
+<p>#news_links_nav {</p>
+<p>	border: 1px solid #E0E0E0;</p>
+<p>	margin: 4px;</p>
+<p>	text-align: left;</p>
+<p>	padding-left: 5px;</p>
+<p>	padding-top: 5px;</p>
+<p>	padding-bottom: 5px;</p>
+<p>	background-color: #F6F6F6;</p>
+<p>}</p>
+<p>#news_contet_body {</p>
+<p>}</p>
+<p>#nl3 {</p>
+<p>	width:150px;</p>
+<p>	float:left;</p>
+<p>	margin-left:5px;</p>
+<p>}</p>
+<p>.photo_li {</p>
+<p>	list-style-type: none;</p>
+<p>	background-image: none;</p>
+<p>	float: left;</p>
+<p>	width: 90px;</p>
+<p>	margin-right: 2px;</p>
+<p>	padding: 0px;</p>
+<p>	margin-bottom: 5px;</p>
+<p>}</p>
+<p>#news_content {</p>
+<p>	margin-bottom: 5px;</p>
+<p>}</p>
+<p>#news_share {</p>
+<p>	margin-bottom: 6px;</p>
+<p>	border-top-width: 1px;</p>
+<p>	border-bottom-width: 1px;</p>
+<p>	border-top-style: dashed;</p>
+<p>	border-bottom-style: dashed;</p>
+<p>	border-top-color: #DFDFDF;</p>
+<p>	border-bottom-color: #DFDFDF;</p>
+<p>	margin-top: 6px;</p>
+<p>	padding-top: 5px;</p>
+<p>	padding-bottom: 5px;</p>
+<p>}</p>
+<p>#news_comments {</p>
+<p>	margin-bottom: 10px;</p>
+<p>	margin-top: 10px;</p>
+<p>	background-color: #EEEEEE;</p>
+<p>	border: 1px solid #E7E7E7;</p>
+<p>}</p>
+<p>#news_friend {</p>
+<p>	margin-bottom: 8px;</p>
+<p>}</p>
+<p>#news_comments_title {</p>
+<p>	display: block;</p>
+<p>	padding-top: 5px;</p>
+<p>	font-weight: bold;</p>
+<p>	color: #333333;</p>
+<p>	padding-bottom: 5px;</p>
+<p>	padding-left: 5px;</p>
+<p>	border-bottom-width: 1px;</p>
+<p>	border-bottom-style: solid;</p>
+<p>	border-bottom-color: #E6E6E6;</p>
+<p>}</p>
+<p>.news_com_list_details {</p>
+<p>	border: 1px solid #F2E9F8;</p>
+<p>	margin-bottom: 5px;</p>
+<p>	margin-right: 5px;</p>
+<p>	background-color: #FFFFFF;</p>
+<p>}</p>
+<p>.ncd1 {</p>
+<p>	padding-top: 2px;</p>
+<p>	padding-bottom: 5px;</p>
+<p>	padding-left: 5px;</p>
+<p>}</p>
+<p>.font_red {</p>
+<p>	color: #CC0000;</p>
+<p>}</p>
+<p>#news_com_box {</p>
+<p>	padding-top: 8px;</p>
+<p>	padding-bottom: 8px;</p>
+<p>	padding-left: 5px;</p>
+<p>}</p>
+<p>.ncd2 {</p>
+<p>	padding-left: 5px;</p>
+<p>	padding-top: 2px;</p>
+<p>	padding-bottom: 3px;</p>
+<p>	border-bottom-width: 1px;</p>
+<p>	border-bottom-style: solid;</p>
+<p>	border-bottom-color: #F8F2FB;</p>
+<p>}</p>
+<p>.special_news {</p>
+<p>    text-align:centre;</p>
+<p>	margin:5px; </p>
+<p>	background-color:#EFEFEF; </p>
+<p>	padding-top:5px; </p>
+<p>	padding-bottom:5px; </p>
+<p>	padding-left:2px; </p>
+<p>	padding-right:2px; </p>
+<p>	margin-bottom:8px;</p>
+<p>}</p>
+<p>.news_right_box2 {</p>
+<p>	margin-bottom: 5px;</p>
+<p>	padding-left: 5px;</p>
+<p>	padding-bottom: 5px;</p>
+<p>	padding-top: 5px;</p>
+<p>	border: 1px solid #DDDDDD;</p>
+<p>}</p>
+<p>.news_right_box2 h2 {</p>
+<p>	font-size: 12px;</p>
+<p>	margin-bottom: 5px;</p>
+<p>}</p>
+<p>#news_cname a {</p>
+<p>	color: #5AC7BB;</p>
+<p>}</p>
+<p>#news_cname {</p>
+<p>	width: 99%;</p>
+<p>}</p>
+<p>#news_links {</p>
+<p>	font-size: 12px;</p>
+<p>	height: 28px;</p>
+<p>	margin-left: 0px;</p>
+<p>	width: 100%;</p>
+<p>	padding-top: 5px;</p>
+<p>}</p>
+<p>#news_links a {</p>
+<p>	padding-right: 0px;</p>
+<p>	padding-left: 5px;</p>
+<p>	display: block;</p>
+<p>	float: left;</p>
+<p>	margin-right: 5px;</p>
+<p>	height: 20px;</p>
+<p>	padding-top: 3px;</p>
+<p>	color: #4FB1A4;</p>
+<p>	text-decoration: none;</p>
+<p>	margin-bottom: 5px;</p>
+<p>	padding-bottom: 3px;</p>
+<p>	width: 140px;</p>
+<p>}</p>
+<p>#news_topbar {</p>
+<p>	background-color: #E8F7F5;</p>
+<p>}</p>
+<p>h1.newstitle {</p>
+<p>	font-size: 18px;</p>
+<p>	font-weight: bold;</p>
+<p>	padding-left: 5px;</p>
+<p>	margin-bottom: 10px;</p>
+<p>	padding-top: 3px;</p>
+<p>}</p>
+<p>.page3_corp {</p>
+<p>	padding: 2px;</p>
+<p>	width: 90px;</p>
+<p>	height: 120px;</p>
+<p>	overflow: hidden;</p>
+<p>	margin-right: 3px;</p>
+<p>	margin-bottom: 2px;</p>
+<p>	margin-left: 1px;</p>
+<p>}</p>
+<p>#page3_title a {</p>
+<p>	font-size: 12px;</p>
+<p>	color: #FFFFFF;</p>
+<p>}</p>
+<p>.page3_table {</p>
+<p>	border: 1px solid #000000;</p>
+<p>	background-color: #CC0000;</p>
+<p>}</p>
+<p>#page3_title {</p>
+<p>	padding-left: 5px;</p>
+<p>	padding-top: 5px;</p>
+<p>}</p>
+<p>#news_links a:hover, a#news_current {</p>
+<p>	background-color: #4FB1A4;</p>
+<p>	color: #FFFFFF;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>#news_related {</p>
+<p>	margin-top: 10px;</p>
+<p>	margin-bottom: 10px;</p>
+<p>	margin-right:10px;</p>
+<p>	padding: 5px;</p>
+<p>	width: 200px;</p>
+<p>	float: left;</p>
+<p>	border-top-width: 1px;</p>
+<p>	border-right-width: 2px;</p>
+<p>	border-bottom-width: 2px;</p>
+<p>	border-left-width: 1px;</p>
+<p>	border-top-style: solid;</p>
+<p>	border-right-style: solid;</p>
+<p>	border-bottom-style: solid;</p>
+<p>	border-left-style: solid;</p>
+<p>	border-top-color: #E7E7E7;</p>
+<p>	border-right-color: #DFDFDF;</p>
+<p>	border-bottom-color: #DFDFDF;</p>
+<p>	border-left-color: #E7E7E7;</p>
+<p>}</p>
+<p>#news_related h2 {</p>
+<p>	margin-top: 0px;</p>
+<p>	margin-bottom: 5px;</p>
+<p>	font-size: 13px;</p>
+<p>	color: #FF0000;</p>
+<p>}</p>
+<p>--></p>
+<p>Login | Register</p>
+<p>Directories</p>
+<p>Directory Cover Page</p>
+<p>Taxi Card Yellow PagesClassifieds Made In Xiamen WOX Discounters</p>
+<p>|</p>
+<p>Networking</p>
+<p>Networking Cover Page</p>
+<p>My Personal Page My Control Page Members List Members Group WOX Card Centre Member News Member Photos Sharing Experience My AstrologyChat Room</p>
+<p>|</p>
+<p>Ask</p>
+<p>Ask Cover Page</p>
+<p>Ask & AnswerComments Jobs Real Estate </p>
+<p>|</p>
+<p>Photo</p>
+<p>|</p>
+<p>Travel</p>
+<p>Travel Cover Page</p>
+<p>Travel in Xiamen</p>
+<p>Fujian Travel</p>
+<p>All Travel News</p>
+<p>|</p>
+<p>Tech</p>
+<p>Tech's Cover Page</p>
+<p>Trade & Investment</p>
+<p>All Tech & Sc News</p>
+<p>All Trade News</p>
+<p>|</p>
+<p>  Entertainment</p>
+<p>Entertainment Cover</p>
+<p>WOX Page3</p>
+<p>All Entertainment News</p>
+<p>|</p>
+<p>Body & Sports</p>
+<p>Body & Sports Cover</p>
+<p>Body & Para Sports</p>
+<p>Body & Sports News</p>
+<p>Xiamen Sports</p>
+<p>|</p>
+<p>Food & Wine</p>
+<p>F&W Cover Page</p>
+<p>All F&W News</p>
+<p> WOX Cooking Recipe</p>
+<p>Today's Menu</p>
+<p>|</p>
+<p>Infobank</p>
+<p>Info Cover Page</p>
+<p>A to Z List</p>
+<p>|</p>
+<p>What's On</p>
+<p>What's On  Cover Page</p>
+<p>What's On News</p>
+<p>Special Events</p>
+<p>|</p>
+<p>News</p>
+<p>News Cover Page</p>
+<p>Business & Trade News</p>
+<p>Xiamen News</p>
+<p>Fujian News</p>
+<p>National News</p>
+<p>Asia Pacific News</p>
+<p>World News</p>
+<p>All Trade News</p>
+<p>All News</p>
+<p>|</p>
+<p>Home</p>
+<p> </p>
+<p>           init();</p>
+<p>           nextAd();</p>
+<p>       </p>
+<p>Entertainment</p>
+<p>Books Online</p>
+<p>Celebrity Gossip</p>
+<p>Cultural</p>
+<p>DVDs, Movies & Music</p>
+<p>Entertainment in Video</p>
+<p>Fashion</p>
+<p>Home Entertainment</p>
+<p>IT & Internet</p>
+<p>Pubs, Clubs & Discos</p>
+<p>Shopping</p>
+<p>Showbiz - Asia</p>
+<p>Showbiz - West</p>
+<p>WOX Page3</p>
+<p>WOXpage3 Men</p>
+<p>Entertainment > Health & TCM  > Chinese raisin tree extraction could cure hangover: study </p>
+<p>Chinese raisin tree extraction could cure hangover: study</p>
+<p>Updated: 2012-01-17 Share this news?...Click box  </p>
+<p>var addthis_pub="whatsonxiamen";</p>
+<p> Read more on:</p>
+<p>             alcohol dependency   </p>
+<p>               Chinese Raisin Tree extract  </p>
+<p>              herbal hangover cure  </p>
+<p>              </p>
+<p> </p>
+<p>Hangover cure may be in the herb, says researcher </p>
+<p>Hovenia is an extract from the Chinese Raisin Tree.</p>
+<p> </p>
+<p>If you’re having trouble reading this because your head is pounding from too many drinks last night, help may be on the way. </p>
+<p>Of course, you’ll have to wait until scientists perfect their theory. </p>
+<p>Researchers have uncovered a compound in an ancient Chinese herbal medicine that has been found to stop hangovers and to reduce alcohol dependency in rats, according to a recent study published in the Journal of Neuroscience. </p>
+<p>If the compound is proven to have the same effect in humans, it could help pave the way to a cure for alcoholism, said Dr. Jing Liang, the study’s lead author and an associate professor of pharmacology at the University of California in Los Angeles, in an interview with Postmedia News. </p>
+<p>For others who enjoy an occasional drink but would rather not endure the pounding hangover headache the next day, taking the compound also could be “an easy way to erase the uncomfortable feelings,” said Liang. </p>
+<p>Hovenia is an extract from the Chinese Raisin Tree. </p>
+<p>In Asia, Liang said hovenia has been taken as an herbal supplement to treat hangovers for at least 500 years. </p>
+<p>However, the effectiveness of hovenia as a drug to treat alcohol dependency has never before been closely studied. </p>
+<p>Liang said she became interested in taking a closer look at hovenia when she noticed that when people consumed alcohol along with food cooked with hovenia — as it is also a spice used for cooking in Asia — they seemed to avoid getting drunk. </p>
+<p>In order to study how hovenia works, Liang said she needed to isolate the specific compound that was blocking the effect of alcohol. </p>
+<p>The answer turned out to be dihydromyricetin, or DHM. </p>
+<p>Liang and her research team at UCLA began testing the compound on rats. </p>
+<p>They devised a series of tests to determine what would happen to rats if they were given just alcohol, or alcohol along with DHM. </p>
+<p>For the group given alcohol, the rats’ behaviour when intoxicated was not unlike that of humans, she said. </p>
+<p>When you give a rat alcohol, they act “totally like a human,” said Liang. “You give an animal alcohol and then they’re drunk, and they lose consciousness. They go to sleep.” </p>
+<p>But the rats who were given alcohol plus DHM, showed no signs of intoxication, Liang said. </p>
+<p>"They don’t (get) drunk,” said Liang. “It was amazing. I was so excited.” </p>
+<p>The rats in the alcohol group slept for about 70 minutes, while those in the DHM group only slept for about 10 minutes. Others didn’t sleep at all, she said. </p>
+<p>In another test, the researchers administered DHM to rats who were given alcohol for a prolonged period of time. Their symptoms of alcohol dependency were significantly reduced. </p>
+<p>“From this experiment, even if you establish a high drinking level of alcohol and then give them DHM, their dependence will reduce,” said Liang. </p>
+<p>The rats given DHM along with alcohol did not have any hangover symptoms either, she said. </p>
+<p>The next step, if she is able to secure enough funding, is to test the study’s findings in human clinical trials, said Liang. </p>
+<p>She expects to see the same results in humans, and without any negative side effects. </p>
+<p>"For more than 500 years (that hovenia has been used as a supplement), there have been no reports of poison or toxicity,” she said. “It’s really safe.” </p>
+<p>Liang’s goal is to turn DHM into a medication, possibly in a gum, patch or spray-form, she said. She already has patented her idea. </p>
+<p>Alcohol-use disorders are a major public-health problem around the world, said Liang. </p>
+<p>In her study, she wrote that there are only three medications — oral naltrexone, acamprosate and disulfiram — currently approved for treating alcohol dependence by the U.S. Food and Drug Administration. </p>
+<p>However, Liang said these drugs have major side-effects and have not been proven effective in treating the disorders. </p>
+<p>Bernard Le Foll, a pharmacology professor at the University of Toronto, said the study’s findings are “very promising” for the treatment of alcohol addiction. </p>
+<p>"I think it’s very interesting,” he told Postmedia News. “It’s building on the use of an old plant in Chinese medicine and they seem to have been able to isolate what seems to be the active ingredient.” </p>
+<p>However, Le Foll does not recommend people start taking hovenia to treat their hangovers just yet. </p>
+<p>"More experiments need to be done. We need to validate this in human subjects,” he said. “But what is clear from this experiment is that . . . some drugs appear to accelerate the elimination of alcohol from the body, and also it seems to reduce the desire to drink alcohol.” </p>
+<p>SOURCE: Vancouver Sun</p>
+<p> </p>
+<p>Editorial Message</p>
+<p>This site contains materials from other clearly stated media sources for the purpose of discussion stimulation and content enrichment among our members only. </p>
+<p>whatsonxiamen.com does not necessarily endorse their views or the accuracy of their content. For copyright infringement issues please contact editor@whatsonxiamen.com</p>
+<p>Share this news?...Click box  </p>
+<p>var addthis_pub="whatsonxiamen";</p>
+<p>Previous News: Tainted orange juice didn't enter Xiamen: Coca-colaNext News: Bosco defends for gf Myolie who allegedly paid to sleep with rich  </p>
+<p>Comments Area ( Total Comments: 0 )</p>
+<p>  </p>
+<p>Before posting a comment, click the LOGIN bar on the left</p>
+<p>Other news you maybe interested</p>
+<p>Health & TCM General Guides</p>
+<p>Most Popular</p>
+<p>Jackie Chan spotted 'flirting' with actress during film break </p>
+<p>'Monkey Girl' Charmian Chen goes under the knife for bigger boobs </p>
+<p>Jennifer Garner shows off growing baby bump during shopping trip </p>
+<p>Pics of bikini-clad Cameron Diaz spark speculation of boob job </p>
+<p>Actress Olivia Munn bares all for new PETA campaign </p>
+<p>Lin Xiaofang, a clever and confident model from Yong'an, Fujian </p>
+<p>Latest Comments</p>
+<p>Leandro Penna bares all for nude photoshoot for Nevs Men (1)</p>
+<p>Lin Yimin, a Xiamen college girl & PT model keen in competing (1)</p>
+<p>Lin Xiaofang, a clever and confident model from Yong'an, Fujian (1)</p>
+<p>Daisy Lowe goes topless for latest issue of Esquire magazine (2)</p>
+<p>Actor Peter Ho caught having 100 boxes of condoms in luggage (1)</p>
+<p>WOXpage3 Girls</p>
+<p>      Fujian model Seina is good at calligraphy    </p>
+<p>      Shishi model Smile likes swimming     </p>
+<p>      Fujian model Anita lists jogging as her most favorite sport    </p>
+<p>»More</p>
+<p>Photo Gallery</p>
+<p>»More</p>
+<p>Health & TCM</p>
+<p>Chinese raisin tree extraction could cure hangover: study</p>
+<p> </p>
+<p>Hangover cure may be in the herb, says researcher </p>
+<p>Hovenia is an extract from the Chinese Raisin Tree.</p>
+<p>&nb...</p>
+<p>Acupuncture effective in reduction of chronic stress, says study</p>
+<p>Acupuncture reduces levels of a protein linked to chronic stress</p>
+<p> </p>
+<p>Many people receive a sense of well-being...</p>
+<p>10 anti-aging Chinese herbs to make skin look younger: TCM</p>
+<p>Chinese wolfberry fruit is named in the top 10 anti-aging Chinese herbs</p>
+<p> </p>
+<p>Like an ancient tribe, this country h...</p>
+<p>Gua sha in TCM could relieve pains of office workers</p>
+<p>"Sha" often appears as reddish spots, but can also be purple or black in colour.</p>
+<p> </p>
+<p>Backaches, neck di...</p>
+<p>  </p>
+<p>About Us | </p>
+<p>		  Terms of Service |  </p>
+<p>		  Privacy Policy |  </p>
+<p>		  Sitemap | Rss  | </p>
+<p>		   Links | </p>
+<p>		  Contact Us</p>
+<p>          </p>
+<p>            Copyright 2006-2011 Whats On Xiamen  , Inc. All rights reserved.</p>
+<p>          </p>
+<p>          Reproduction in whole or in part without permission is prohibited.</p>
+<p>		   Min ICP06020464-1 </p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-1954183-1");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>      function replaceText(text){</p>
+<p>	      while(text.lastIndexOf("&") > 0){</p>
+<p>		      text = text.replace('&', '[i-Stats]');</p>
+<p>	      }</p>
+<p>	      return text;</p>
+<p>      }</p>
+<p>      var web_referrer = replaceText(document.referrer);</p>
+<p>      <!--</p>
+<p>      istat = new Image(1,1);</p>
+<p>      istat.src = "http://www.whatsonxiamen.com/ip_status/counter.php?sw="+screen.width+"&sc="+screen.colorDepth+"&referer="+web_referrer+"&page="+location.href;</p>
+<p>      //--></p>
+<p>      </p>

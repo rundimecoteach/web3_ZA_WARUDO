@@ -1,0 +1,263 @@
+<p>За фиксацию детей к кроватям санитарка интерната получила три года условно - МедНовости - MedPortal.ru</p>
+<p>  VK.init({apiId: 2478907, onlyWidgets: true});</p>
+<p>О насМедРеклама</p>
+<p>МедпорталМедновостиКлиникиМедэнциклопедияПоиск лекарствЖурнал «Будь здорова»</p>
+<p><!--</p>
+<p>        if(typeof(ar_cn)=="undefined")</p>
+<p>            var ar_cn=1;</p>
+<p>        var ar_Tail='unknown';</p>
+<p>        if (document.referrer)</p>
+<p>            ar_Tail = escape(document.referrer);</p>
+<p>        var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=mednovosti&target=top&bt=43&pz=1&tail256=" + ar_Tail;</p>
+<p>        function ar_getDoc(t,n,l){</p>
+<p>            var doc;</p>
+<p>            if (t<100) {</p>
+<p>                if(document.all && !window.opera) {</p>
+<p>                    doc = window.frames['ar_container_'+n].document;</p>
+<p>                } else if(document.getElementById) {</p>
+<p>                    doc=document.getElementById('ar_container_'+n).contentDocument;</p>
+<p>                }</p>
+<p>                if(!doc){</p>
+<p>                    setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100);</p>
+<p>                } else {</p>
+<p>                    var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>                    doc.write ('<sc'+'ript language="JavaScript" type="text/javascript">var ar_bnum='+n+';<\/sc'+'ript>');</p>
+<p>                    doc.write ('<sc'+'ript language="JavaScript" type="text/javascript" src="'+l+'&rnd='+RndNum4NoCash+'"><\/sc'+'ript>');</p>
+<p>                }</p>
+<p>            }</p>
+<p>        }</p>
+<p>        function ar_putContainer(n) {</p>
+<p>            document.write('<div style="visibility:hidden;height:0px;"><iframe id="ar_container_'+n+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');</p>
+<p>        }</p>
+<p>        function ar_putDiv(n, f) {</p>
+<p>            document.write('<div id="ad_ph_'+n+'" style="'+(f?'position:absolute;':'')+'display:none"><\/div>');</p>
+<p>        }</p>
+<p>        ar_putContainer(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);</p>
+<p>//--></p>
+<p>Главная</p>
+<p>Профессия</p>
+<p>Общество</p>
+<p>Здоровье</p>
+<p>Происшествия</p>
+<p>Наука</p>
+<p>Бизнес</p>
+<p>Распечатать</p>
+<p>        Воспитанники приозерского интерната. Кадр телеканала "НТВ", архив</p>
+<p>        </p>
+<p>За фиксацию детей к кроватям санитарка интерната получила три года условно</p>
+<p>8 декабря 2011 года, 19:17</p>
+<p>if(!window.pluso){pluso={version:'0.9.1',url:'http://share.pluso.ru/'};h=document.getElementsByTagName('head')[0];l=document.createElement('link');l.href=pluso.url+'pluso.css';l.type='text/css';l.rel='stylesheet';s=document.createElement('script');s.src=pluso.url+'pluso.js';s.charset='utf-8';h.appendChild(l);h.appendChild(s)}</p>
+<p>Санитарка интерната в Ленинградской области осуждена условно за привязывание воспитанников к кровати. Об этом сообщает пресс-служба Генпрокуратуры РФ.</p>
+<p>Приозерский городской суд вынес обвинительный приговор санитарке местного дома-интерната для умственно отсталых детей. Ранее в ее отношении было возбуждено уголовное дело о незаконном лишении свободы, не связанном с похищением (пункты "д" и "ж" части 2 статьи 127 УК РФ), а также неисполнении обязанностей по воспитанию несовершеннолетних, соединенном с жестоким обращением (статья 156 УК РФ).</p>
+<p>Подсудимая исполняла обязанности палатной санитарки по уходу и воспитанию несовершеннолетних. По информации прокуратуры, женщина грубо нарушила должностные инструкции, привязав к кроватям четырех воспитанников интерната, которые находились "в состоянии эмоционального возбуждения". Для этого санитарка использовала пеленки и пояса.</p>
+<p>Убедившись, что дети не могут самостоятельно передвигаться, сотрудница интерната покинула рабочее место. Таким образом, она оставила детей в беспомощном состоянии, причинив им физические и моральные страдания.</p>
+<p>Суд назначил санитарке наказание в виде трех лет лишения свободы условно с испытательным сроком шесть месяцев.</p>
+<p>Ссылки по теме:</p>
+<p>– В Ленинградской области осуждена санитарка детского дома за жестокое обращение с воспитанниками учреждения - Гепрокуратура РФ, 08.12.2011– Челябинский минздрав опроверг незаконную госпитализацию детдомовцев – Медновости, 09.06.2011– Челябинских детдомовцев наказывали психбольницей – Медновости, 08.06.2011– Медработники получили условные сроки за привязанного пациента с белой горячкой – Медновости, 11.01.2011– В Волгограде скончалась привязанная к кровати воспитанница интерната – Медновости, 08.12.2009– Медсестру оштрафовали за привязанных к кровати детей – Медновости, 23.06.2009</p>
+<p>VK.Widgets.Group("vk_groups", {mode: 0, width: "auto", height: "292"}, 41005197);</p>
+<p>Комментарии (13) </p>
+<p>Представьтесь: </p>
+<p>Ваше мнение: </p>
+<p>            Осталось символов:</p>
+<p>                </p>
+<p>Код подтверждения:</p>
+<p>            </p>
+<p>Уважаемые читатели!</p>
+<p>        Ссылки на сторонние ресурсы, нецензурные, бессодержательные, пропагандистские и антинаучные высказывания удаляются без предупреждения. Максимальная длина комментария — 1000 символов.</p>
+<p>            // передаём данные о текущей странице для загрузки комментариев</p>
+<p>            var CommentsURL = 'http://medportal.ru/comments/news/2011/12/08/priozersk/',</p>
+<p>                pageNo = '0';</p>
+<p>            init(CommentsURL, pageNo);</p>
+<p>        </p>
+<p>Это интересно</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('//ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=mednovosti&bn=5&target=top&bt=43&pz=3&tail256=');</p>
+<p>Последние новости</p>
+<p>10:03 Собянин заявил о росте средней зарплаты столичных врачей до 67 тысяч</p>
+<p>09.04 18:38 В Вашингтоне прошел многотысячный митинг против сокращения бюджета NIH</p>
+<p>09.04 17:26 Главврача кемеровской «скорой» уволили за низкие зарплаты подчиненных </p>
+<p>09.04 17:16 Законопроект об орфанных лекарствах отправили на доработку</p>
+<p>09.04 16:37 Популярное лекарство от аритмии связали с риском возникновения рака</p>
+<p>09.04 15:08 Запрет на рекламу абортов будет вынесен на рассмотрение Думы</p>
+<p>09.04 13:07 В опасности красного мяса обвинили кишечные бактерии</p>
+<p>09.04 12:42 Зарплата иркутских врачей снизилась в три раза </p>
+<p>Все новости</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('//ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=mednovosti&bn=6&target=top&bt=43&pz=3&tail256=');</p>
+<p><!--</p>
+<p>if(typeof(ar_cn)=="undefined") var ar_cn=1;</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=mednovosti&bn=3&target=top&bt=43&pz=3&tail256=" + ar_Tail;</p>
+<p>function ar_getDoc(t,n,l){</p>
+<p>    var doc;</p>
+<p>    if(t<100) {</p>
+<p>        if(document.all && !window.opera){</p>
+<p>            doc = window.frames['ar_container_'+n].document;</p>
+<p>        } else if(document.getElementById) {</p>
+<p>            doc=document.getElementById('ar_container_'+n).contentDocument;</p>
+<p>        }</p>
+<p>        if(!doc) {</p>
+<p>            setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100);</p>
+<p>        } else {</p>
+<p>            var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>            doc.write ('<sc'+'ript language="JavaScript" type="text/javascript">var ar_bnum='+n+';<\/sc'+'ript>');</p>
+<p>            doc.write ('<sc'+'ript language="JavaScript" type="text/javascript" src="'+l+'&rnd='+RndNum4NoCash+'"><\/sc'+'ript>');</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
+<p>function ar_putContainer(n) {</p>
+<p>    document.write('<div style="visibility:hidden;height:0px;position:absolute;"><iframe id="ar_container_'+n+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');</p>
+<p>}</p>
+<p>function ar_putDiv(n, f) {</p>
+<p>    document.write('<div id="ad_ph_'+n+'" style="'+(f?'position:absolute;':'')+'display:none"><\/div>');</p>
+<p>}</p>
+<p>ar_putContainer(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);</p>
+<p>//--></p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=mednovosti&bn=10&target=top&bt=43&pz=2&tail256=');</p>
+<p>08.04 16:40</p>
+<p>Судьба пациента</p>
+<p>Чего ждать, когда нечего ждать - несколько историй из одного региона</p>
+<p>08.04 15:58</p>
+<p>Медицинский туризм</p>
+<p>Коротко о главном и подводные камни лечения за рубежом </p>
+<p>04.04 20:34</p>
+<p>Россия на пути к золотому стандарту психоонкологии</p>
+<p>Интервью с психиатром Натальей Ривкиной</p>
+<p>04.04 12:27</p>
+<p>Жить без проблем со зрением – возможно!</p>
+<p>На вопросы читателей МедНовостей ответил офтальмохирург, профессор Кирилл Першин</p>
+<p>26.03 13:37</p>
+<p> Остеоартроз: как не стать инвалидом</p>
+<p>Современный хондропротектор ARTRA остановит болезнь </p>
+<p>25.03 18:21</p>
+<p>Жить без проблем со зрением – возможно!</p>
+<p>Онлайн-конференция офтальмохирурга, профессора Кирилла Першина</p>
+<p>Все статьи</p>
+<p>Происшествия</p>
+<p>08.04 18:17 Пищевые отравления с одним летальным исходом произошли в Москве</p>
+<p>        </p>
+<p>08.04 17:56 Новый госпиталь для ветеранов не сдали в эксплуатацию из-за трещин в стене</p>
+<p>08.04 17:54 Минздрав РСО-Алания займется разоблачением торговцев младенцами</p>
+<p>08.04 15:57 Омский нарколог заплатит штраф в 18 раз больше взятки</p>
+<p>08.04 12:01 В Москве алкоголик в одних трусах угнал «скорую» </p>
+<p>08.04 08:59 Заведующая родильным отделением торговала младенцами</p>
+<p>    new adriver("adriver_banner", {sid:107481,bt:52,pz:2,bn:0});</p>
+<p>    </p>
+<p>Лучшие комментарии</p>
+<p>К статье </p>
+<p>                    «Россия на пути к золотому стандарту психоонкологии»:</p>
+<p>09.04 09:26</p>
+<p>Частный доктор</p>
+<p>Катрис,</p>
+<p>+ к вашему комментарию.</p>
+<p>Уважаемые комментаторы, вы увидели только...</p>
+<p>К новости </p>
+<p>                    «Скончался знаменитый хирург Михаил Перельман»:</p>
+<p>02.04 12:36</p>
+<p>Выпускник ММА 1992</p>
+<p>Как говорится, земля пухом...</p>
+<p>Запомнился Михаил Израилевич на занятиях по фт...</p>
+<p>01.04 13:22</p>
+<p>Василий</p>
+<p>Великий человек! Между прочим отметился и пионером кардиохирургии врожденных ...</p>
+<p>К новости </p>
+<p>                    «Джеймс Уотсон выступил с утверждением о канцерогенной роли антиоксидантов»:</p>
+<p>20.03 17:49</p>
+<p>Мимо шел</p>
+<p>Все хорошо в меру, в нужное время, и в нужном месте - и антиоксиданты, и проо...</p>
+<p>К новости </p>
+<p>                    «Столичные больницы укомплектуют роботами-хирургами»:</p>
+<p>18.03 23:13</p>
+<p>2Дохтор</p>
+<p>У нас стоит ДаВинчи.</p>
+<p>На нем можно проводить удаленные операции, если в сосед...</p>
+<p>Пресс-релизы</p>
+<p>НОВОСТИ КОМПАНИЙ: Специалисты нового поколения в борьбе с онкозаболеванями</p>
+<p>СОБЫТИЯ: Врачи трех крупнейших городов России обсудили вопросы репродуктивного здоровья</p>
+<p>АФИША: Конференция «Консилиум главных врачей»</p>
+<p>СОБЫТИЯ: Жительница Казани выиграла в суде право на лечение</p>
+<p>СОБЫТИЯ: Совет экспертов: программа ВПЧ-вакцинации в ХМАО</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t17.2;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) +";i" + escape("Жж"+document.title.substring(0,80)) + ";" + Math.random() + "' border=0 width=88 height=31 alt='' title='LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня'><\/a>")</p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;</p>
+<p>//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;</p>
+<p>//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height; a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;</p>
+<p>//--></p>
+<p><!--</p>
+<p>js=13;</p>
+<p>//--></p>
+<p><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=1014739" target="_top">'+'<img src="http://db.c7.bf.a0.top.mail.ru/counter?id=1014739;t=242;js='+js+a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');</p>
+<p>//--></p>
+<p>    var img = new Image();</p>
+<p>    img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*medportal_ru/ru/CP1251/tmsec=medportal_total/';</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-2150055-1']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>(function (d, w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter12154165 = new Ya.Metrika({ id:12154165, enableAll: true, webvisor:true });</p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>    </p>
+<p>    var n = d.getElementsByTagName("script")[0],</p>
+<p>        s = d.createElement("script"),</p>
+<p>        f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>    if (w.opera == "[object Opera]") {</p>
+<p>        d.addEventListener("DOMContentLoaded", f);</p>
+<p>    } else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>
+<p>О нас МедРеклама</p>
+<p>Медицинский портал www.medportal.ru. E-mail: info@medportal.ru</p>
+<p>© 1998—2013 Все права защищены.</p>

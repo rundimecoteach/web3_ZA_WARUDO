@@ -1,0 +1,893 @@
+<p>李娜领衔体坛风云人物_网易新闻中心</p>
+<p>.daren-item, .msg-item { zoom: 1; margin: 8px 0; background: #FFF; overflow: hidden; font-size: 12px; padding: 10px 10px 10px 110px; border: 1px solid #d8d9d9; }</p>
+<p>.daren_w .daren-item, .daren_w .msg-item { margin: 0; }</p>
+<p>.avatar { width: 90px; display: inline; margin-left: -100px; float: left; }</p>
+<p>.avatar img { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC; height: 84px; padding: 2px; width: 84px; display: block; }</p>
+<p>.wb-article-folow, .wb-article-minFolow { margin: 6px auto 0; }</p>
+<p>.author-info, .status-info { color: #1e50a2; }</p>
+<p>.info-top { min-height: 72px; _height: 72px; }</p>
+<p>#endText a.author-name, a.author-name { vertical-align: bottom; text-decoration: none; font-size: 14px; font-weight: bold; color: #1e50a2; }</p>
+<p>.daren-icon { vertical-align: top; margin-left: 5px; display: inline-block; width: 19px; height: 19px; background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -8px; }</p>
+<p>.daren-icon {  *vertical-align: baseline; }</p>
+<p>.weibo-up-arr { background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -27px; font-size: 0; height: 8px; left: 16px; position: absolute; top: 18px; width: 11px; }</p>
+<p>#endText a.talk-to, .talk-to { margin-left: 5px; white-space: nowrap; color: #1e50a2; text-decoration: none; vertical-align: bottom; }</p>
+<p>#endText a.talk-to:visited, .talk-to:visited { color: #1e50a2; }</p>
+<p>#endText a.talk-to:hover, .talk-to:hover { text-decoration: underline; color: #1e50a2; }</p>
+<p>.followers { line-height: 24px; color: #636363; }</p>
+<p>.status, .reason { color: #000; line-height: 1.5em; }</p>
+<p>.status-link, #endText .status-link a { text-decoration: none; color: #ba2636; }</p>
+<p>.option-item { text-align: right; color: #999999; }</p>
+<p>#endText .option-item a, .option-item a { color: #8ba4cd; text-decoration: none; }</p>
+<p>#endText .option-item a:hover, .option-item a:hover { text-decoration: underline; }</p>
+<p>.daren-keyword { position: relative; }</p>
+<p>.daren_w { display: none; background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -40px; padding-top: 24px; position: absolute; z-index: 9999; width: 264px; text-align: left; }</p>
+<p>.daren_w .daren-close { width: 9px; height: 8px; background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 0; cursor: pointer; position: absolute; right: 8px; top: 32px; font-size: 0; }</p>
+<p>#btn-retweet { background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -100px; width: 90px; height: 25px; display: none; position: absolute; }</p>
+<p>#btn-retweet:hover { background-position: 0 -125px; }</p>
+<p>#btn-retweet:active { background-position: 0 -150px; }</p>
+<p>function getWeiboDaren() {</p>
+<p>	var html = [], user = userData,</p>
+<p>		userUrl = 'http://t.163.com/' + user.screenName + '?method=click&keyfrom=wenzhang_dr&sitechannel=news';</p>
+<p>	html.push('<div class="daren-item">');</p>
+<p>	html.push('<div class="avatar">');</p>
+<p>	html.push('<a target="_blank" href="' + userUrl + '"><img src="' + user.headPic + '"></img></a>');</p>
+<p>	html.push('<a href="javascript:;" target="_self" hideFocus="true" class="wb-article-btn wb-article-folow" onclick="WbApp.WbFollow(\'' + user.screenName + '\',this,{followfrom:\'wenzhang_DR\',keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">已关注</a>');</p>
+<p>	html.push('</div><div class="author-info">');</p>
+<p>	html.push('<a target="_blank" class="author-name" href="' +userUrl + '">' + user.name + '</a>');</p>
+<p>	if(user.daren == true) {</p>
+<p>		html.push('<a class="daren-icon" href="http://t.163.com/rank/daren" title="网易微博 i 认证"></a>');</p>
+<p>	}</p>
+<p>	html.push('<a class="talk-to" href="javascript:;" target="_self" onclick="WbApp.WbSay(\'' + user.name + '\',{keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">对Ta说</a><br />');</p>
+<p>	html.push('<span class="followers">' + user.follower + '人关注他</span></div>');</p>
+<p>	html.push('<div class="reason">' + user.reason + '</div></div>');</p>
+<p>	return html.join('');</p>
+<p>}</p>
+<p>// 微博消息</p>
+<p>function getWeiboMsg(data) {</p>
+<p>	var html = [], user = data.user, </p>
+<p>		userUrl = 'http://t.163.com/' + user.screenName + '?method=click&keyfrom=wenzhang_mr&sitechannel=news',</p>
+<p>		tweetUrl = 'http://t.163.com/' + user.screenName + '/status/' + data.tweetId + '?method=click&keyfrom=wenzhang_mr&sitechannel=news';</p>
+<p>	html.push('<div class="msg-item"><div class="avatar">');</p>
+<p>	html.push('<a target="_blank" href="' + userUrl + '"><img src="' + user.headPic + '"></img></a>');</p>
+<p>	html.push('<a href="javascript:;" target="_self" hideFocus="true" class="wb-article-btn wb-article-folow" onclick="WbApp.WbFollow(\'' + user.screenName + '\',this,{followfrom:\'wenzhang_DR\',keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">已关注</a></div>');</p>
+<p>	html.push('<div class="status-info"><div class="info-top">');</p>
+<p>	html.push('<a target="_blank" class="author-name" href="' + userUrl + '">' + user.name + '</a>');</p>
+<p>	if(user.daren == true) {</p>
+<p>		html.push('<a class="daren-icon" href="http://t.163.com/rank/daren" title="网易微博 i 认证"></a>');</p>
+<p>	}</p>
+<p>	html.push('：<span class="status">' + data.tweet + '</span>');</p>
+<p>	html.push('<span class="status-link">[<a target="_blank" href="' + tweetUrl + '">查看微博</a>]</span></div>');</p>
+<p>	html.push('<div class="option-item"><a href="javascript:;" target="_self" onclick="WbApp.WbRetweet(\'' + data.tweetId + '\',{keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">转发</a> | ');</p>
+<p>	html.push('<a href="javascript:;" target="_self" onclick="WbApp.WbComment(\'' + data.tweetId + '\',{keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">评论</a></div>');</p>
+<p>	html.push('</div></div>');</p>
+<p>	return html.join('');			</p>
+<p>}</p>
+<p>function renderDaren(data) {</p>
+<p>	document.write(getWeiboDaren());</p>
+<p>}</p>
+<p>function renderMsg(data) {</p>
+<p>	document.write(getWeiboMsg(data));</p>
+<p>}</p>
+<p>function getCoords(el) {</p>
+<p>	var box = el.getBoundingClientRect(),</p>
+<p>		doc = el.ownerDocument,</p>
+<p>		body = doc.body,</p>
+<p>		html = doc.documentElement,</p>
+<p>		clientTop = html.clientTop || body.clientTop || 0,</p>
+<p>		clientLeft = html.clientLeft || body.clientLeft || 0,</p>
+<p>		top = box.top + (self.pageYOffset || html.scrollTop || body.scrollTop) - clientTop,</p>
+<p>		left = box.left + (self.pageXOffset || html.scrollLeft || body.scrollLeft) - clientLeft;</p>
+<p>	return { 'top': top, 'left': left };</p>
+<p>};</p>
+<p>网易首页-新闻-体育-NBA-娱乐-财经-股票-汽车-科技-手机-女人-论坛-视频-健康-房产-家居-教育-读书-游戏-彩票-更多</p>
+<p>车险数码军事时尚旅游博客酒香</p>
+<p>|</p>
+<p>免费邮箱 - 通行证登录 | 微博</p>
+<p>rss</p>
+<p>//<![CDATA[</p>
+<p>NTES.ready( function($){</p>
+<p>$("#navMore").addEvent("click", function(e){</p>
+<p>	NTES($("#navMore .link-item-more")[0]).style.display = this.style.display == "block" ? "none" : "block";</p>
+<p>//	e.preventDefault();</p>
+<p>	e.cancelBubble = true;</p>
+<p>	document.onclick = function(){</p>
+<p>		NTES($("#navMore .link-item-more")[0]).style.display = "none";</p>
+<p>	}</p>
+<p>});</p>
+<p>	var P_INFO = NTES.cookie.get("P_INFO");</p>
+<p>	var S_INFO = NTES.cookie.get("S_INFO");</p>
+<p>	if(P_INFO){</p>
+<p>		var mailconfig = {</p>
+<p>			"163.com":"http://entry.mail.163.com/coremail/fcg/ntesdoor2?verifycookie=1&lightweight=1",</p>
+<p>			"126.com" : "http://entry.mail.126.com/cgi/ntesdoor?verifycookie=1&lightweight=1&style=-1",</p>
+<p>			"vip.126.com" : "http://reg.vip.126.com/enterMail.m",</p>
+<p>			"yeah.net" : "http://entry.yeah.net/cgi/ntesdoor?verifycookie=1&lightweight=1&style=-1",</p>
+<p>			"188" : "http://reg.mail.188.com/servlet/enter",</p>
+<p>			"vip.163.com" : "http://reg.vip.163.com/enterMail.m?enterVip=true-----------"</p>
+<p>		};</p>
+<p>		var passport =  P_INFO.substr(0, P_INFO.indexOf("|"));</p>
+<p>		var username =  passport.substr(0, P_INFO.indexOf("@"));</p>
+<p>		var logstate = P_INFO.split("|")[2];</p>
+<p>		var loginframe = "";</p>
+<p>		var url = "http://t.163.com/service/newMessage/" + passport + "/1/0/0/0/1";</p>
+<p>		var pspt = passport.length >= 6 ? passport.substr(0,6)+"…" : passport;</p>
+<p>		/@([^*]+)/.test(passport);</p>
+<p>		var logdomain = RegExp.$1;</p>
+<p>		if(P_INFO && S_INFO ) {</p>
+<p>			var entrylink_html = '<a href=\"http://reg.163.com/Main.jsp?username='+passport+'\">进入通行证</a>',</p>
+<p>				ntes_nav_html = '<div class="NTES-nav-link-chexian"><a href="http://www.163.com/">网易首页</a>-<a href="http://news.163.com/">新闻</a>-<a href="http://sports.163.com/">体育</a>-<a href="http://sports.163.com/nba/">NBA</a>-<a href="http://ent.163.com/">娱乐</a>-<a href="http://money.163.com/">财经</a>-<a href="http://money.163.com/stock/">股票</a>-<a href="http://auto.163.com/" id="_link_auto">汽车</a>-<a href="http://tech.163.com/">科技</a>-<a href="http://mobile.163.com/">手机</a>-<a href="http://lady.163.com/">女人</a>-<a href="http://bbs.163.com/">论坛</a>-<a href="http://v.163.com/">视频</a>-<a href="http://g.163.com/a?CID=13579&Values=505269036&Redirect=http://www.familydoctor.com.cn/">健康</a>-<a href="http://house.163.com/" id="houseUrl">房产</a>-<a id="homeUrl" href="http://home.163.com/">家居</a>-<a href="http://edu.163.com/">教育</a>-<a href="http://book.163.com/">读书</a>-<a href="http://game.163.com/" id="_link_game">游戏</a>|</div>';</p>
+<p>			if(mailconfig[logdomain] != undefined) {</p>
+<p>				entrylink_html += '<a href=\"'+mailconfig[logdomain]+'\">进入邮箱</a>';</p>
+<p>			}</p>
+<p>			if(logdomain == "popo.163.com" || mailconfig[logdomain] != undefined) {</p>
+<p>				entrylink_html += '<a href="http://blog.163.com/passportIn.do?entry=163">进入博客</a><a href="http://photo.163.com/?username='+passport+'\">进入相册</a>';</p>
+<p>			}</p>
+<p>			entrylink_html += '<a href="http://yuehui.163.com/">进入约会</a><a href="http://t.163.com">进入微博</a><a href="http://caipiao.163.com/#from=dh">进入彩票</a><a href="http://baoxian.163.com/car/index.html?from=dh">进入车险</a><a href="http://baoxian.163.com/#from=dh">进入保险</a><a href="http://mall.163.com/#from=dh">进入商城</a>';</p>
+<p>			if(logdomain == "163.com" || logdomain == "126.com" || logdomain == "yeah.net") {</p>
+<p>				loginframe = '<iframe allowTransparency=\"true\" style=\"width:45px; height:20px; float:left; *margin-top:2px; vertical-align: middle;\" id=\"ifrmNtesMailInfo\" border=\"0\" src=\"http://p.mail.163.com/mailinfo/shownewmsg_www_0819.htm\" frameBorder=\"0\" scrolling=\"no\"></iframe>';</p>
+<p>			}</p>
+<p>			var login_html = '<div class=\"ntes-usercenter\"><div class=\"ntes-usercenter-logined\"><strong id=\"ntes_usercenter_name\" class=\"ntes-usercenter-name\" title=\"欢迎你，'+passport+'\">'+pspt+'</strong></div><div id=\"ntes_usercenter_entry\" class=\"ntes-usercenter-entry\"><span class=\"user-entry\">'+entrylink_html+'</span></div></div><span class="left c-b3">(</span>'+loginframe+'<span class="left c-b3"> | </span><span id="wbLoginAfter"><a href="http://t.163.com/?f=catopmicoblogmsg" class="NTES-nav-wbLogin" style="color:#f6f6f6;" title="进入网易微博">微博</a></span><span class="left c-b3">) | </span><a class=\"ntes-usercenter-loginout left\" href=\"http://reg.163.com/Logout.jsp?username='+passport+'\" target=\"_self\">退出</a></div>';</p>
+<p>			$(".NTES-nav-link")[0].innerHTML = ntes_nav_html;</p>
+<p>			$(".NTES-link")[0].innerHTML = login_html;</p>
+<p>			$("#ntes_usercenter_name").addEvent("click", function(e){</p>
+<p>				$("#ntes_usercenter_entry").style.display = $("#ntes_usercenter_entry").style.display == "block" ? "none" : "block";</p>
+<p>				e.preventDefault();</p>
+<p>				e.cancelBubble = true;</p>
+<p>				document.onclick = function(){</p>
+<p>					$("#ntes_usercenter_entry").style.display = "none";</p>
+<p>				}</p>
+<p>			})</p>
+<p>			NTES.ajax.importJs(url, function() {</p>
+<p>				if (typeof window.resultStatus != "undefined") {</p>
+<p>					if (NTES("#wbLoginAfter")) {</p>
+<p>						var userId = resultStatus.userId;</p>
+<p>						var wbName = resultStatus.name;</p>
+<p>						var wbNameMod = wbName.replace(/[^\x00-\xff]/g,"*?");</p>
+<p>						var xxlen = wbNameMod.substr(0,10).indexOf("*") < 0 ? 0 : wbNameMod.substr(0,10).match(/\*/ig).length;</p>
+<p>						var wbNameEnd = (wbNameMod.length <= 10) ? "" : "…";</p>
+<p>						var totalCount = (parseInt(resultStatus.htlCount) < 100) ? parseInt(resultStatus.htlCount) : "99";</p>
+<p>						var totalCountEnd = (parseInt(resultStatus.htlCount) < 100) ? totalCount : totalCount+"+";</p>
+<p>						if(xxlen > 0){</p>
+<p>							if(wbNameMod.substr(9,1) == "?"){</p>
+<p>								wbName = wbName.substr(0,10-xxlen) + wbNameEnd;</p>
+<p>							}else{</p>
+<p>								wbName = wbName.substr(0,9-xxlen) + wbNameEnd;</p>
+<p>							}</p>
+<p>						}else{</p>
+<p>							wbName = wbName.substr(0,10) + wbNameEnd;</p>
+<p>						}</p>
+<p>						if (totalCount > 0) {</p>
+<p>							NTES("#wbLoginAfter").innerHTML = "<a href='http://t.163.com/?f=catopmicoblogmsg.News' class='NTES-nav-wbMsg fB' style='color:#ba2636;' title='" + wbName + "新消息："+ totalCountEnd +"'>"+ totalCountEnd +"</a>";</p>
+<p>						}else{</p>
+<p>							NTES("#wbLoginAfter").innerHTML = "<a href='http://t.163.com/?f=catopmicoblogmsg.enter' class='NTES-nav-wbLogin' style='color:#f6f6f6;' title='进入网易微博'>微博</a>";</p>
+<p>						}</p>
+<p>						if(userId == 0){</p>
+<p>							NTES("#wbLoginAfter").innerHTML = "<a href='http://t.163.com/service/autoOpenAccount?autoFollow=1&needRedirect=1&f=catopmicoblogmsg.open' class='NTES-nav-wbLogin' style='color:#f6f6f6;' title='开通网易微博'>微博</a>";</p>
+<p>						}</p>
+<p>					};</p>
+<p>				};</p>
+<p>			}, "UTF-8");</p>
+<p>		};</p>
+<p>	}</p>
+<p>})</p>
+<p>//]]></p>
+<p> </p>
+<p> 网易 > 新闻中心 > 滚动新闻 >  正文</p>
+<p>.path .crumb { float:left;}</p>
+<p>.zwr_search {float:right; margin:9px 0 0; display:inline;}</p>
+<p>.zwr_search .select_box {background:url(http://img1.cache.netease.com/cnews/img10/zwrss_bg.gif) left -82px no-repeat; width:45px; height:18px; ove rflow:hidden; border:none; position:relative; text-align:left; cursor:pointer; float:left; margin-right:4px;}</p>
+<p>.zwr_search .select_box .select_list {display:block; position:absolute; width:3em; line-height:19px; left:0; top:0; background:#fff; display:none;}</p>
+<p>.zwr_search .select_box .search_site {height:18px; line-height:20px; padding-left:6px; float:left; overflow:hidden;}</p>
+<p>.zwr_search .select_box .select_list {width:43px; border:1px solid #B4B4B4;}</p>
+<p>.zwr_search .select_box {width:45px;}</p>
+<p>.zwr_search .select_box a {display:block; height:18px; text-indent:5px;}</p>
+<p>.zwr_search .select_box a:hover {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}</p>
+<p>.zwr_search .select_box a.active {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}</p>
+<p>.zwr_search .textBox {width:88px; height:18px; color:#7B7C7D; background:url(http://img1.cache.netease.com/cnews/img10/zwrss_bg.gif) left top no-repeat; border:none; float:left; line-height:18px; text-indent:3px;}</p>
+<p>.zwr_search .btn {overflow:hidden; width:41px; height:18px; background:url(http://img1.cache.netease.com/cnews/img10/zwrss_bg.gif) left -41px no-repeat; border:none; float:left; line-height:19px; font-size:12px; cursor:pointer;}</p>
+<p>.zwr_search form {float:left;}</p>
+<p>新闻</p>
+<p>网页</p>
+<p>//<![CDATA[</p>
+<p>        (function NTES_Guide(){</p>
+<p>            function Y_T(id){</p>
+<p>                return document.getElementById(id);</p>
+<p>            }</p>
+<p>            function clicktselect(e){</p>
+<p>                e = e || window.event;</p>
+<p>                e.cancelBubble = true;</p>
+<p>                var name = this.innerHTML;</p>
+<p>                var txt = document.createTextNode(name);</p>
+<p>                selected.removeChild(selected.firstChild);</p>
+<p>                selected.appendChild(txt);</p>
+<p>                select_main.style.display = "none";</p>
+<p>                var title = this.getAttribute("title");</p>
+<p>                if (title == "新闻") {</p>
+<p>                  Y_T("ttimesort").value="10";</p>
+<p>                  Y_T("tsearchsite").value="163.com";</p>
+<p>                } else {</p>
+<p>                  Y_T("ttimesort").value="0";</p>
+<p>                  Y_T("tsearchsite").value="";</p>
+<p>                }</p>
+<p>            }</p>
+<p>            function at_mouseover () {</p>
+<p>                this.className = "active";</p>
+<p>            }</p>
+<p>            function at_mouseout () {</p>
+<p>                this.className = "";</p>
+<p>            }</p>
+<p>            Y_T("tSelectKey").innerHTML = '<div id="select_area_yt" class="select_box"><span id="selected_yt" class="search_site">新闻</span><div id="select_main_yt" class="select_list"><a title="新闻">新闻</a><a title="网页">网页</a></div></div>';</p>
+<p>            var select_area = Y_T("select_area_yt"), </p>
+<p>            selected = Y_T("selected_yt"), </p>
+<p>            select_main = Y_T("select_main_yt"), </p>
+<p>            select_list = select_main.getElementsByTagName("a"), </p>
+<p>            len = select_list.length;</p>
+<p>            select_area.onclick = select_main.onmouseover = function(){</p>
+<p>                select_main.style.display = "block";</p>
+<p>            }</p>
+<p>            select_main.onmouseout = function(){</p>
+<p>                select_main.style.display = "none";</p>
+<p>            }</p>
+<p>            </p>
+<p>            for (var i = 0; i < len; i++) {</p>
+<p>                select_list[i].onclick = clicktselect;</p>
+<p>                select_list[i].onmouseover = at_mouseover;</p>
+<p>                select_list[i].onmouseout = at_mouseout;</p>
+<p>            }</p>
+<p>        })();</p>
+<p>//]]></p>
+<p>李娜领衔体坛风云人物</p>
+<p>2011-12-16 00:40:28　来源: 京华时报(北京)　有0人参与 手机看新闻</p>
+<p>    (function() {</p>
+<p>        var options = {</p>
+<p>            sourceUrl: "http://news.163.com/",</p>
+<p>            source: encodeURIComponent("网易新闻"),</p>
+<p>            title: encodeURIComponent("李娜领衔体坛风云人物"),</p>
+<p>            link: encodeURIComponent(document.location.href)</p>
+<p>        };</p>
+<p>        NTES.ready(</p>
+<p>        function() {</p>
+<p>            WbApp.initShareTipsSm(options,"wb-article-sharewraper-sm");</p>
+<p>        });</p>
+<p>    })();</p>
+<p>本报讯 （记者毛�磊）体坛风云人物提名奖昨天揭晓，重新归来的刘翔和法网风光无限的李娜分别领衔男女最佳运动员候选人，而刘国梁、李永波等一干名帅将角逐最佳教练称号。</p>
+<p>中国体育军团在2011世锦赛年的表现堪称完美，这使得最佳运动员的竞争格外激烈。在大邱田径世锦赛上演王者归来，刘翔凭借世锦赛110米栏亚军的成绩入围。其余4名入围者陈一冰、林丹、张继科和孙杨是清一色的世锦赛新科冠军得主，前三人收获两个世界冠军头衔，孙杨更是打破了男子1500米自由泳的世界纪录。</p>
+<p>女子最佳的争夺同样激烈。凭借历史性地夺得法网桂冠，李娜成为最大热门。昨天，李娜从德国训练基地返回国内，她将和桑普拉斯、莫亚等一起在家乡上演一场“李娜和她的朋友们”的网球表演赛。</p>
+<p>女子最佳的竞争者都相当强大，她们分别是拿下世乒赛、世界杯和世界杯团体赛三项世界冠军的乒乓新锐丁宁，游泳世锦赛冠军焦刘洋，田径世锦赛冠军李艳凤和收获两项世界冠军的跳水名将吴敏霞。</p>
+<p>刘国梁、黄玉斌、李永波、王海滨和俞觉敏五大教头角逐最佳教练。孙杨表示，要努力让自己的教练朱志根入围明年的教练提名。</p>
+<p>传统强队乒乓球、羽毛球、体操、跳水和排球将争夺最佳团队奖，蔡�/傅海峰等将竞争最佳组合。</p>
+<p>作者：毛�磊</p>
+<p>(本文来源：京华时报)</p>
+<p> </p>
+<p>【有0人参与】</p>
+<p>.endMore {overflow:visible;}</p>
+<p>    (function() {</p>
+<p>        var options = {</p>
+<p>            sourceUrl: "http://news.163.com/",</p>
+<p>            source: encodeURIComponent("网易新闻"),</p>
+<p>            title: encodeURIComponent("李娜领衔体坛风云人物"),</p>
+<p>            link: encodeURIComponent(document.location.href)</p>
+<p>        };</p>
+<p>        NTES.ready(</p>
+<p>         function() {</p>
+<p>            WbApp.initShareTips(options,"wb-article-sharewraper");</p>
+<p>        });</p>
+<p>    })();</p>
+<p>NTES.ready(function(){</p>
+<p>	WbApp.createFollowSelectedHtml("wb-wraper","0001");</p>
+<p>});</p>
+<p> </p>
+<p>关于  李娜 世锦赛 桑普拉斯  的</p>
+<p>新闻</p>
+<p>没有相关新闻</p>
+<p>//<![CDATA[</p>
+<p>var isShowComments = false,tieChannel = "news",isStrict = true;</p>
+<p>//]]></p>
+<p>跟贴区</p>
+<p>有人参与(点击查看)</p>
+<p>跟贴读取中...</p>
+<p>发贴区</p>
+<p>有人参与(点击查看)</p>
+<p>点击登录 | 昵称：</p>
+<p>[如何使用跟贴]</p>
+<p>昵称 |</p>
+<p>网易通行证：</p>
+<p>密码：</p>
+<p>自动登录</p>
+<p>登 录</p>
+<p>注册</p>
+<p>如何使用跟贴</p>
+<p>点击设置头像</p>
+<p> 发言 | 个人设置 | 我的跟贴 | 我的微博 | 退出</p>
+<p>文明上网，登录发贴</p>
+<p>网友评论仅供其表达个人看法，并不表明网易同意其观点或证实其描述。</p>
+<p>同步到微博</p>
+<p>发表跟贴可同步到微博啦，登录立即体验！</p>
+<p>勾选后，如果您还没有开通微博，系统将自动为您激活。</p>
+<p>关闭</p>
+<p>马上发表</p>
+<p>修改昵称</p>
+<p>跟贴昵称修改后，论坛昵称也会变哦</p>
+<p>盖楼回复</p>
+<p>点击登录 | 昵称：</p>
+<p>昵称 |</p>
+<p>网易通行证：</p>
+<p>密码：</p>
+<p>自动登录</p>
+<p>登 录</p>
+<p>注册</p>
+<p>点击设置头像</p>
+<p> 发言 | 个人设置 | 我的跟贴 | 我的微博 | 退出</p>
+<p>文明上网，登录发贴</p>
+<p>同步到微博</p>
+<p>发表跟贴可同步到微博啦，登录立即体验！</p>
+<p>勾选后，如果您还没有开通微博，系统将自动为您激活。</p>
+<p>关闭</p>
+<p>马上发表</p>
+<p>复制收藏</p>
+<p>复制成功，按CTRL+V发送给好友、论坛或博客。</p>
+<p>浏览器限制，请复制链接和标题给好友、论坛或博客。</p>
+<p>确 定</p>
+<p>//<![CDATA[</p>
+<p>(function($) {</p>
+<p>    var tieArea = new tieAnywhere.HotTieArea($("#tieArea"), "7LBTTNT600014AED", "news3_bbs", tieChannel, isStrict);</p>
+<p>    tieArea[isShowComments ? "showPage" : "initView"]();</p>
+<p>    var replyCount = 0,</p>
+<p>        totalCount = 0,</p>
+<p>        totalElem = $("span.tieTotalCount, strong.tieTotalCount");</p>
+<p>    (totalElem.length < 3) && (replyCount = totalCount);</p>
+<p>    totalElem.attr("innerHTML", totalCount);</p>
+<p>    $("span.tieCount, strong.tieCount").attr("innerHTML", replyCount);</p>
+<p>    $("#replycounttop, #replycount001, #replycountbottom").attr("innerHTML", replyCount);</p>
+<p>})(NTES);</p>
+<p>//]]></p>
+<p>网易新闻48小时评论排行手机也能看评论</p>
+<p>辽宁关注马三家女子劳教所报道 已成立调查组 评论18564条</p>
+<p>山东原副省长黄胜贪腐内幕：假离婚变成“裸官” 评论14562条</p>
+<p>抗日剧现大尺度全裸女子 与红军战士相互敬礼 评论14433条</p>
+<p>女子结扎死亡 官方100万元“买断”家属追责权利 评论13474条</p>
+<p>山东济南"万人坑"或成楼盘 日本老兵无处叩拜 评论13420条</p>
+<p>返回网易新闻首页</p>
+<p>document.domain = '163.com';</p>
+<p>(function() {</p>
+<p>	var retweet = document.getElementById('btn-retweet'), timer, img;</p>
+<p>	$('#endText img').each(function() {</p>
+<p>		if(this.width > 300 || this.height > 300) {</p>
+<p>			$(this).addEvent('mouseover', function(e) {</p>
+<p>				if(timer) {</p>
+<p>					clearTimeout(timer);</p>
+<p>				}</p>
+<p>				if(retweet) {</p>
+<p>					var coords;</p>
+<p>					img = this,</p>
+<p>					coords = getCoords(img);</p>
+<p>					retweet.style.left = coords.left + 4 + 'px';</p>
+<p>					retweet.style.top = coords.top + img.clientHeight - 28 + 'px';</p>
+<p>					retweet.style.display = 'block';</p>
+<p>				}</p>
+<p>			}).addEvent('mouseout', function(e) {</p>
+<p>				timer = setTimeout(function() {</p>
+<p>					retweet.style.display = 'none';</p>
+<p>				}, 13);</p>
+<p>			});</p>
+<p>		}</p>
+<p>	});</p>
+<p>	$(retweet).addEvent('mouseover', function(e) {</p>
+<p>		if(timer) {</p>
+<p>			clearTimeout(timer);</p>
+<p>		}</p>
+<p>	}).addEvent('mouseout', function(e) {</p>
+<p>		retweet.style.display = 'none';</p>
+<p>	}).addEvent('click', function() {</p>
+<p>		var options = {</p>
+<p>			sourceUrl: "http://news.163.com/",</p>
+<p>			source: encodeURIComponent("网易新闻"),</p>
+<p>			title: encodeURIComponent("李娜领衔体坛风云人物"),</p>
+<p>			link: encodeURIComponent(document.location.href),</p>
+<p>			images: function() { return img.src; },</p>
+<p>			togImg:true,</p>
+<p>			method: 'click',</p>
+<p>			keyfrom: 'share163tu.click'</p>
+<p>		};</p>
+<p>		WbApp.showPopWindow(options);</p>
+<p>		return false;</p>
+<p>	});</p>
+<p>})();</p>
+<p>NTES.ready(function(NTES) {</p>
+<p>	function ShowDaren(ref, wrapper) {</p>
+<p>		var coords = getCoords(ref);</p>
+<p>		wrapper.style.display = 'none';</p>
+<p>		wrapper.style.top = coords.top + 'px';</p>
+<p>		wrapper.style.left = coords.left - 12 + 'px';</p>
+<p>		wrapper.style.display = 'block';</p>
+<p>	}</p>
+<p>	NTES.event.addEvent(NTES(".daren-keyword"), "mouseover", function() {</p>
+<p>		var self = this,</p>
+<p>			userid = this.getAttribute('userid'),</p>
+<p>			wrapperId = 'daren_w' + userid,</p>
+<p>			darenWrapper = document.getElementById(wrapperId);</p>
+<p>		if(darenWrapper) {</p>
+<p>			ShowDaren(self, darenWrapper);</p>
+<p>		} else {		</p>
+<p>			NTES.ajax.importJs('http://static.t.126.net/share/user/daren/' + userid + '.js', function() {				</p>
+<p>				darenWrapper = document.createElement('div');</p>
+<p>				darenWrapper.id = wrapperId;</p>
+<p>				darenWrapper.className = 'daren_w';</p>
+<p>				darenWrapper.innerHTML = '<div class="weibo-up-arr"></div><div class="daren-close" onclick="this.parentNode.style.display=\'none\'"></div>'</p>
+<p>					+ getWeiboDaren()</p>
+<p>					.replace('wb-article-folow', 'wb-article-minFolow') // 替换按钮样式</p>
+<p>					.replace(/wenzhang_dr/g, 'wenzhang_hc'); // 替换参数</p>
+<p>				darenWrapper.onmouseout = function(e) {</p>
+<p>					var evt = e? e: window.event,</p>
+<p>						target = evt.target? evt.target: evt.srcElement;</p>
+<p>				</p>
+<p>					if ( !evt.relatedTarget && evt.fromElement ) {</p>
+<p>						evt.relatedTarget = evt.fromElement == target ? evt.toElement : evt.fromElement;</p>
+<p>					}</p>
+<p>					var parent = evt.relatedTarget;</p>
+<p>					while ( parent && parent != this ) {</p>
+<p>						try { parent = parent.parentNode; }</p>
+<p>						catch(e) { parent = this; }</p>
+<p>					}</p>
+<p>					if( parent != this ){</p>
+<p>						this.style.display = 'none';</p>
+<p>					}</p>
+<p>				}</p>
+<p>				darenWrapper.onclick = function(e) {</p>
+<p>					var target;</p>
+<p>					e = e? e: window.event;</p>
+<p>					target = e.target? e.target: e.srcElement;</p>
+<p>					if(target.className.indexOf('talk-to') != -1) {</p>
+<p>						this.style.display = 'none';</p>
+<p>					}</p>
+<p>				}</p>
+<p>				document.body.appendChild(darenWrapper);</p>
+<p>				ShowDaren(self, darenWrapper);</p>
+<p>			}, 'utf-8');</p>
+<p>		}</p>
+<p>	});</p>
+<p>});</p>
+<p> </p>
+<p>头条推荐 </p>
+<p> </p>
+<p>【新闻】公安部:闯黄灯暂不处罚教育为主</p>
+<p>【娱乐】大S入围世界最美脸蛋 57岁陈道明罕见激情剧照</p>
+<p>【体育】CBA-青岛罢赛15分钟 八一主场胜</p>
+<p>【财经】评级巨头惠誉调降中国长期本币信用评级</p>
+<p>【女人】悲哀 80%中国人没尝过"求婚"的滋味</p>
+<p>【汽车】途观领衔车展改款车 国产Q3不减配</p>
+<p>【科技】特别策划：微信收费引发的“混战”</p>
+<p>热点推荐</p>
+<p> </p>
+<p>【论坛】抗日剧惊现裸女敬礼镜头 国难变娱乐</p>
+<p>【手机】爆料：闲置的iPhone 3GS自己会“爆炸”</p>
+<p>【数码】微软Surface保修仅1年 苹果iPad5有望夏季投产</p>
+<p>【房产】【楼市版碟中谍】调控：不可能完成的任务</p>
+<p>【游戏】《虫群之心》新补丁发布 极权主义下的出版审查</p>
+<p>【读书】官路遇艳：攀上美女领导 市委书记的贴身秘书</p>
+<p>/* 切换tab */</p>
+<p>.news_h123_tab { float:left; height:26px; line-height:26px; background:url(http://img1.cache.netease.com/cnews/css09/bg_n.gif) left -429px no-repeat; padding-left:11px; overflow:hidden;}</p>
+<p>.news_h123_tab li { padding-top:2px; cursor: pointer; float:left; text-align:center; }</p>
+<p>.news_h123_tab li a {  display:block; text-align:center; float:left;  width:60px;_width:60px;}</p>
+<p>.news_h123_tab li a,.news_h123_tab li a:link,.news_h123_tab li a:visited,.news_h123_tab li a:hover{color:#010101;text-decoration:none; }</p>
+<p>.news_h123_tab li.on a,.news_h123_tab li.on a:link,.news_h123_tab li.on a:visited,.news_h123_tab li.on a:hover{ color:#770703;text-decoration:none; font-weight:bold; }</p>
+<p>.news_h123{display:none;}</p>
+<p>.news_h123_content .on{display: block;}</p>
+<p>热点推荐|</p>
+<p>			</p>
+<p>新闻1小时点击排行榜</p>
+<p>.h123_pic{padding-bottom: 10px;padding-left: 28px;padding-right: 30px;}</p>
+<p>.h123_pic h2{width: 120px; text-align: center; padding-top: 5px;}</p>
+<p>  </p>
+<p>韩国萝莉脸肌肉女爆红</p>
+<p>  </p>
+<p>2012宅男女神大PK</p>
+<p> </p>
+<p> </p>
+<p>					点击数</p>
+<p>				</p>
+<p>1高三女生“拒绝求爱体”走红：想追我上清华143904</p>
+<p>2朝鲜称半岛要打核战 今日或发射导弹117343</p>
+<p>3广东初三学生向警方提供证据遭报复被枪击103876</p>
+<p>4原铁道部长刘志军案今日在北京提起公诉96640</p>
+<p>5三亚海天盛筵被曝"陪睡3天赚60万"女模遭人肉89990</p>
+<p>6白岩松：英国人日本人也闯红灯 但车让人79052</p>
+<p>7男生升旗仪式演讲时突向女生表白 全场掌声轰鸣77100</p>
+<p>8南京城管因禽流感勒令全市杀尽家禽家畜76881</p>
+<p>9人民日报：半岛局势不能由着朝鲜性子来72494</p>
+<p>10撒切尔夫人葬礼17日举行 英女王将罕见出席67641</p>
+<p>	//<![CDATA[</p>
+<p>new NTES.ui.Slide($("#news_h123_tab > li"), $("#news_h123_content > .news_h123"), "on", "mouseover"); // 好123切换</p>
+<p>//]]></p>
+<p>新闻高清图集</p>
+<p>李克强邀村医生座谈</p>
+<p>游客雪球砸狮子取乐</p>
+<p>昆明机场万人滞留</p>
+<p>波音六代机方案出炉</p>
+<p>新闻有态度</p>
+<p>【另一面】讽刺歌曲“唱不衰”政坛铁娘子</p>
+<p>【数　读】空气污染一年致死123万中国人</p>
+<p>【另一面】“自由战士”撒切尔</p>
+<p>【另一面】万能板蓝根：欺骗甚于治病</p>
+<p>【当事人】</p>
+<p> 	占海特：反对我的人没有道理</p>
+<p>【军情观察室】</p>
+<p> 	克钦军实力不足难挡缅军统一大势</p>
+<p>精彩推荐</p>
+<p>QQ浏览器</p>
+<p>孟加拉国的雏妓</p>
+<p>精彩活动</p>
+<p>新闻专题</p>
+<p>撒切尔夫人去世</p>
+<p>习近平首次出访</p>
+<p>多地现H7N9禽流感病例 | 朝鲜半岛局势升级</p>
+<p>习近平出访 | 拉萨矿区山体塌方致80余人被埋</p>
+<p>华西村原书记吴仁宝去世 | 委内瑞拉总统查韦斯病亡</p>
+<p>博客 | 论坛</p>
+<p> 曝王楠退役后"仕途"生涯</p>
+<p> 男人性爱时间短的大危害</p>
+<p> "45天安门事件"亲历回忆</p>
+<p> 西游记中色情戏拍摄过程</p>
+<p> 特别策划：撒切尔夫人的自由遗产</p>
+<p> 撒切尔：假如你想有些作为，问女人</p>
+<p> 我爱翻唱流行歌第二弹：剩女征歌令</p>
+<p> 方舟子：中医能不能防治禽流感？</p>
+<p> </p>
+<p>视频推荐</p>
+<p>少女遭裸拍：视频疯传</p>
+<p>主席逝世真实震撼录像</p>
+<p>楼兰女尸貌美似酣睡</p>
+<p>直击露骨AV拍摄现场</p>
+<p>/* 切换tab */</p>
+<p>.ds_tab { float:left; height:26px; line-height:26px; background:url(http://img1.cache.netease.com/cnews/css09/bg_n.gif) left -429px no-repeat; padding-left:11px; overflow:hidden;}</p>
+<p>.ds_tab li { padding-top:2px; cursor: pointer; float:left; text-align:center; }</p>
+<p>.ds_tab li a {  display:block; text-align:center; float:left;  width:46px;_width:44px;}</p>
+<p>.ds_tab li a,.ds_tab li a:link,.ds_tab li a:visited,.ds_tab li a:hover{color:#010101;text-decoration:none; }</p>
+<p>.ds_tab li.on a,.ds_tab li.on a:link,.ds_tab li.on a:visited,.ds_tab li.on a:hover{ color:#770703;text-decoration:none; font-weight:bold; }</p>
+<p>/* 主体 */</p>
+<p>.infoWrap {line-height: 21px;padding: 10px 5px 0px 9px;	height:175px;}</p>
+<p>.infoWrap ul{ padding:0 0 9px 0; clear:both;}</p>
+<p>.infoWrap li{ padding-left:0; clear:both; }</p>
+<p>.infoWrap li a{ margin-right:12px;}</p>
+<p>.infoWrap li em{ color:#ad8146; padding-right:0px; font-style:normal; float:left; /*margin-left:-60px; position:relative; z-index:1;*/ }</p>
+<p>.infoWrap li span{ float:left;}</p>
+<p>.ulEm2 em{ width:36px;}</p>
+<p>.ulEm2 span{width:300px;}</p>
+<p>.infoWrap .ulEm4 em{ width:60px;}</p>
+<p>.infoWrap .ulEm4 span{width:280px;}</p>
+<p>.infoWrap .pFirst{ line-height:31px; margin:0;}</p>
+<p>.infoWrap .pTwo{ line-height:28px;margin:0;}</p>
+<p>.infoWrap .pFirst a,.infoWrap .pTwo a{margin-right:10px; }</p>
+<p>/* 保险 */</p>
+<p>.infoWrap li em a{margin-right:0px; padding-right:0px;color:#ad8146;}</p>
+<p>.infoWrap li em a,.infoWrap li em a:link,.infoWrap li em a:visited{color:#ad8146;}</p>
+<p>.infoWrap li em a:hover{ color:#ba2636;}</p>
+<p>.infoWrap .p2{padding:5px 0 0 0; margin:0;clear:both; overflow:hidden;}</p>
+<p>.infoWrap .p2 a {display: block;float: left; height: 22px;line-height: 22px;margin: 0 1px;overflow: hidden;text-align: left;width: 169px;}</p>
+<p>/* 美食优惠 */</p>
+<p>.infoWrap .p3{ padding-bottom:8px;margin:0;clear:both; overflow:hidden;}</p>
+<p>.infoWrap .p3 a {display: block;float: left;height: 22px;line-height: 22px;margin: 0 1px;overflow: hidden;text-align: left;width: 107px;}</p>
+<p>/*保健品*/</p>
+<p>.ulBj li a{ margin-right:8px;}</p>
+<p>.ds_tab li .aBj{ width:60px;}</p>
+<p>彩票|</p>
+<p>保险|</p>
+<p>话费|</p>
+<p>点卡|</p>
+<p>保健品</p>
+<p>福彩：双色球3D七乐彩</p>
+<p>体彩：大乐透七星彩排列3排列5</p>
+<p>高频：新时时彩旧时时彩11选5快乐8PK拾</p>
+<p>足彩：胜负彩任选九场足球单场</p>
+<p>竞彩：竞彩足球竞彩篮球</p>
+<p>双色球开奖结果3D开奖结果大乐透开奖结果更多开奖结果</p>
+<p>双色球走势图3D走势图大乐透走势图更多走势图</p>
+<p>交通工具：车险自驾险飞机险地铁公交险</p>
+<p>旅游度假：国内游国外游申根签证境外求学</p>
+<p>防范意外：综合意外险保障自选防癌险重疾保险</p>
+<p>车主集结令，8种好礼送不停多省15%，车险投保选好礼车险怎么买划算，专家来支招 老车老手怎样投保最实惠？60万飞机意外险仅22元/年女性少儿险，低至100元/年10万综合意外险，55元保1年自驾意外险，全年仅需25.3</p>
+<p>热门点卡：问道Q币穿越火线征途龙之谷天龙八部256卡5914卡跑跑卡丁车更多游戏</p>
+<p>热门公司：腾讯巨人盛大金山完美搜狐九城光宇久游世纪天成更多厂商</p>
+<p>热门搜索：热血传奇武林外传赤壁</p>
+<p>游戏直充：三分钟内到账，最低7折起</p>
+<p>热门功效：补肾壮阳维生素类增强免疫性腺养护钙铁锌硒补血养气减肥瘦身解酒护肝美白祛斑健身塑肌蛋白质类调节三高改善睡眠调节肠胃丰胸美胸</p>
+<p>热门品牌：养生堂汤臣倍健健安喜碧生源自然之宝东阿阿胶福施福康比特康力士喜瑞太太金奇仕葡乐安美澳健钙尔奇善存绿A</p>
+<p>全场包邮，买一赠一</p>
+<p>//<![CDATA[</p>
+<p>new NTES.ui.Slide($("#ds_tab > li"), $("#ds_text > div"), "on", "mouseover"); // 电商切换</p>
+<p>//]]></p>
+<p>(function () {</p>
+<p>	var demo = {</p>
+<p>		id : "crossiframe",</p>
+<p>		width : 360,</p>
+<p>		height : 195,</p>
+<p>		obj : [{</p>
+<p>			name :"news",</p>
+<p>			url:"http://news.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"ent",</p>
+<p>			url:"http://ent.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"sports",</p>
+<p>			url:"http://sports.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"v",</p>
+<p>			url:"http://v.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"lady",</p>
+<p>			url:"http://lady.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"money",</p>
+<p>			url:"http://money.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"mobile",</p>
+<p>			url:"http://mobile.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"tech",</p>
+<p>			url:"http://tech.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"digi",</p>
+<p>			url:"http://digi.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"edu",</p>
+<p>			url:"http://edu.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"travel",</p>
+<p>			url:"http://travel.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"book",</p>
+<p>			url:"http://book.163.com/special/acrossthechannel/"</p>
+<p>		}</p>
+<p>	]};</p>
+<p>	var domain = window.location.host;</p>
+<p>		domain = domain.split(".")[0];</p>
+<p>		var len = demo.obj.length;</p>
+<p>		var arr = [];</p>
+<p>		var j = 0;</p>
+<p>		for(var i=j=0;i<len;i++){</p>
+<p>			if(domain != demo.obj[i].name){</p>
+<p>				arr[j] = demo.obj[i].url;</p>
+<p>				j++;</p>
+<p>			}</p>
+<p>		};</p>
+<p>		if(document.getElementById(demo.id) && arr.length != 0){</p>
+<p>			var src = arr[Math.floor(Math.random()*arr.length)];</p>
+<p>			var html = "<iframe src='" + src +"' width='" + demo.width +"' height='" + demo.height +"' frameborder='0' border='0' marginwidth='0' marginheight='0' scrolling='no'></iframe>";</p>
+<p>			document.getElementById(demo.id).innerHTML = html;</p>
+<p>		}</p>
+<p>})();</p>
+<p><!--</p>
+<p>	</p>
+<p>if(cpm_rdm>0.8){</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://img2.126.net/ntesrich/f.js"></scr'+'ipt>');</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://g.163.com/jr?site=netease&affiliate=news&cat=article&type=rich&location=1"></scr'+'ipt>');</p>
+<p>}</p>
+<p>//--></p>
+<p>网易首页-新闻-体育-娱乐-财经-汽车-科技-数码-手机-女人-游戏-论坛-视频-博客-房产-家居-应用-微博</p>
+<p>搜索</p>
+<p>新闻</p>
+<p>网页</p>
+<p> </p>
+<p>北京互联网违法不良信息举报　意见反馈　新闻地图　历史回顾</p>
+<p>About NetEase - 公司简介 - 联系方法 - 招聘信息 - 客户服务 - 隐私政策 - 网络营销 - 网站地图</p>
+<p>网易公司版权所有</p>
+<p>©1997-2013</p>
+<p>(function(){	</p>
+<p>	var version = window.navigator.appVersion;</p>
+<p>	var isIE6 = (version.indexOf("MSIE 6.0") != -1 || version.indexOf("MSIE 5.5") != -1)? true:false;</p>
+<p>	showQR(460, "http://img3.cache.netease.com/news/2012/qr_newapp.png");</p>
+<p>	function showQR(top, imgUrl){</p>
+<p>		var QRbox= document.createElement("div");</p>
+<p>		var QRboxCSS ={</p>
+<p>			'width': "110px",</p>
+<p>			'height': "147px",</p>
+<p>			'position': "fixed",</p>
+<p>			'_position': "absolute",</p>
+<p>			'top': top + "px",</p>
+<p>			'right': "3px",</p>
+<p>			'display':"block",</p>
+<p>			'z-index':100</p>
+<p>		};</p>
+<p>		for(var key in QRboxCSS){</p>
+<p>			QRbox.style[key] = QRboxCSS[key];</p>
+<p>		}</p>
+<p>	 	if(isIE6){</p>
+<p>	 		QRbox.style.position = "absolute";</p>
+<p>	 	}</p>
+<p>	 	</p>
+<p>		QRbox.innerHTML="<a href='http://3g.163.com/links/4102' target='_blank'></a>";</p>
+<p>		var link =QRbox.getElementsByTagName("a")[0];</p>
+<p>		var linkCSS = {</p>
+<p>			display:"block",</p>
+<p>			width: "100%",</p>
+<p>			height: "100%",</p>
+<p>			backgroundImage: "url("+imgUrl+")",</p>
+<p>			backgroundPosition: "0px 0px"</p>
+<p>		};</p>
+<p>		for(var key in linkCSS){</p>
+<p>			link.style[key] = linkCSS[key]</p>
+<p>		}</p>
+<p>		document.body.appendChild(QRbox);</p>
+<p>		var linkEventMap = {</p>
+<p>			"mouseover": function(){</p>
+<p>				link.style.backgroundPosition = "-110px 0px";</p>
+<p>			},</p>
+<p>			"mouseout": function(){</p>
+<p>				link.style.backgroundPosition = "0px 0px";</p>
+<p>			}</p>
+<p>		}</p>
+<p>		for(var evt in linkEventMap){</p>
+<p>			var func = linkEventMap[evt];</p>
+<p>			addEvent(evt, link, func);</p>
+<p>		}</p>
+<p>		addEvent("scroll", window, function(){</p>
+<p>			if(isIE6){</p>
+<p>				QRbox.style.top = getScrollTop() + top + "px";</p>
+<p>			}</p>
+<p>		})</p>
+<p>	}</p>
+<p>	function addEvent(evt, elem, callback){</p>
+<p>		if(elem.addEventListener){</p>
+<p>			elem.addEventListener(evt, callback, false)</p>
+<p>		} else {</p>
+<p>			elem.attachEvent && elem.attachEvent("on"+evt, callback);</p>
+<p>		} </p>
+<p>	}</p>
+<p>	function getScrollTop(){</p>
+<p>	    if(typeof pageYOffset!= 'undefined'){</p>
+<p>	        //most browsers</p>
+<p>	        return pageYOffset;</p>
+<p>	    }</p>
+<p>	    else{</p>
+<p>	        var B= document.body; //IE 'quirks'</p>
+<p>	        var D= document.documentElement; //IE with doctype</p>
+<p>	        D= (D.clientHeight)? D: B;</p>
+<p>	        return D.scrollTop;</p>
+<p>	    }</p>
+<p>	}</p>
+<p>})();</p>
+<p>(function(){function e(e,n,r,i){var r=r||500,s=i||function(){},o,u=parseInt(t(e,"height"),10);e.toggled?o=e.originalHeight:(o=u,e.originalHeight=o);var a=Math.round(r/o);n=="show"&&(e.style.height="0"),e.style.display="block",e.toggled=!0;var f=o;for(var l=f;l>=0;l--)(function(t){var r=n=="show"?t*a:(f-t)*a;setTimeout(function(){(t==0&&n=="hide"||t==f&&n=="show")&&s(),e.style.height=t+"px";var r=t/f;e.style.opacity=r,e.style.filter="alpha(opacity="+r*100+")"},r)})(l)}function t(e,t){if(e.style[t])return e.style[t];if(e.currentStyle)return e.currentStyle[t];if(document.defaultView&&document.defaultView.getComputedStyle){t=t.replace(/([A-Z])/g,"-$1"),t=t.toLowerCase();var n=document.defaultView.getComputedStyle(e,"");return n&&n.getPropertyValue(t)}return null}function n(e,t,n){var r=function(e,t){try{return e.contains?e!=t&&e.contains(t):!!(e.compareDocumentPosition(t)&16)}catch(n){}},i=function(e){var t=e.currentTarget,i=e.relatedTarget;!r(t,i)&&t!=i&&n.call(e.currentTarget,e)};e.addEventListener?t=="mouseenter"?e.addEventListener("mouseover",i,!1):t=="mouseleave"?e.addEventListener("mouseout",i,!1):e.addEventListener(t,n,!1):e.attachEvent("on"+t,n)}function r(t){var r=this;r.cfg=t;var i=function(){n(r.cfg.closeBtn,"click",function(){r.close()}),n(r.cfg.wrap,"mouseenter",function(){r._timingClose("stop")}),n(r.cfg.wrap,"mouseleave",function(){r._timingClose("start",3)}),n(window,"focus",function(){r._pollStop=!1}),n(window,"blur",function(){r._pollStop=!0}),window[r.cfg.pollCallback]=r._push,window[r.cfg.contentCallback]=r._fillContent,r.start()},s=function(e,t){var n="popush_scriptloader";document.getElementById(n)!==null&&document.body.removeChild(document.getElementById(n));var i=document.createElement("script");i.id=n,i.type="text/javascript",i.async=!0,i.src=r.cfg.preventCache?e+"?"+Math.round(Math.random()*1e10):e,i.onload=t||function(){return!1},document.body.appendChild(i)},o=function(){var e=location.host.split(".").reverse()[2],t="?id="+r.cfg.id+"&cname="+e+"&rnd="+Math.round(Math.random()*1e10);(new Image).src=(r.cfg.countUrl||"count.php")+t};r._getDisplayState=function(){return!r._state||r._state=="hide"?"hide":"show"},r._display=function(t){if(r._getDisplayState()==t)return!1;e(r.cfg.contentWrap,t),r._state=t},r._timingClose=function(e,t){if(r._getDisplayState()=="hide")return!1;var t=t||r.cfg.hideAfter;e=="start"?r._closeTimer=setTimeout(function(){r._display("hide")},t*1e3):e=="stop"&&typeof r._closeTimer!="undefined"&&clearTimeout(r._closeTimer)},r.close=function(){if(!-[1,]&&!window.XMLHttpRequest){r.cfg.wrap.style.display="none";return !1;}r._getDisplayState()=="show"?r._display("hide"):r.cfg.wrap.style.display="none"},r._fillContent=function(e){r.contentCache=e,r.cfg.contentWrap.innerHTML=e,r._display("show"),r._timingClose("start")},r.manualShow=function(){if(r._getDisplayState()=="show")return!1;r.contentCache?r._fillContent(r.contentCache):s(r.cfg.contentUrl)},r._push=function(e){var t=Math.round((new Date).valueOf()/1e3),n=parseInt(e,10),i=t-n,u=NTES.cookie.get("PopPushData");if(u==n)return!1;if(r.cfg.oldTime&&i>r.cfg.oldTime)return!1;s(r.cfg.contentUrl),NTES.cookie.set("PopPushData",e,"30m",".163.com","/"),o()},r._poll=function(){r._pollStop||s(r.cfg.pollUrl)},r.start=function(){r._pollStop=!1,r._poll(),window.setInterval(r._poll,r.cfg.pollCycle*1e3)},i()}window.PopPush=r})()</p>
+<p>#instant-news{width:270px;position:fixed;left:40px;bottom:0;z-index:10;</p>
+<p>_position: absolute;</p>
+<p>_top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-172));</p>
+<p>}</p>
+<p>#instant-news-close{color:#B6C4D3;font-size:18px;font-weight:400;position:absolute;top:5px;right:4px;text-align:center;cursor:pointer;margin:0;padding:0;_display:none;}</p>
+<p>#instant-news-content{height:170px;padding:0;border-bottom:1px solid #A6B7C9;overflow:hidden;display:none;}</p>
+<p>×</p>
+<p>(function(N){</p>
+<p>    var t = N.cookie.get("PopPushData");</p>
+<p>    if(t && t != "") N.cookie.set("PopPushData", parseInt(t, 10), "30m", ".163.com", "/");</p>
+<p>})(window.NTES);</p>
+<p>var instant_news_push = new PopPush({</p>
+<p>    id: "instantnews",</p>
+<p>    wrap: document.getElementById('instant-news'),</p>
+<p>    contentWrap: document.getElementById('instant-news-content'),</p>
+<p>    closeBtn: document.getElementById('instant-news-close'),</p>
+<p>    pollUrl: "http://www.163.com/special/0077450P/hot_pop_js.js",</p>
+<p>    pollCallback: "latestInstantNews",</p>
+<p>    contentUrl: "http://temp.163.com/special/00804IKG/instant_news_content_cb.js",</p>
+<p>    contentCallback: "instantNewsContent",</p>
+<p>    pollCycle: 120,</p>
+<p>    hideAfter: 30,</p>
+<p>    oldTime: 7200,</p>
+<p>    countUrl: "http://temp.163.com/special/hot_pop_content/",</p>
+<p>    preventCache: false</p>
+<p>});</p>
+<p> //<![CDATA[	</p>
+<p>        (function END_Nav(){</p>
+<p>            function clickselect2(e){</p>
+<p>                e = e || window.event;</p>
+<p>                e.cancelBubble = true;</p>
+<p>                var name = this.innerHTML;</p>
+<p>                var txt = document.createTextNode(name);</p>
+<p>                selected2.removeChild(selected2.firstChild);</p>
+<p>                selected2.appendChild(txt);</p>
+<p>                select_main2.style.display = "none";</p>
+<p>                var title = this.getAttribute("title");</p>
+<p>                NTES("#siteName2").value = title;</p>
+<p>                if (title == "网易") {</p>
+<p>				document.nisearch_top.action = "http://news.yodao.com/search";</p>
+<p>				}</p>
+<p>				else {document.nisearch_top.action = "http://www.yodao.com/search";</p>
+<p>				}</p>
+<p>            }</p>
+<p>            function a_mouseover2 () {</p>
+<p>                this.className = "active";</p>
+<p>            }</p>
+<p>            function a_mouseout2 () {</p>
+<p>                this.className = "";</p>
+<p>            }</p>
+<p>            </p>
+<p>            if (NTES("#divSelect2")){            </p>
+<p>	            NTES("#divSelect2").innerHTML = '<input id="siteName2" type="hidden" value="网易" name="site" /><div id="select_area2" class="select_box"><span id="selected2" class="search_site">新闻</span><div id="select_main2" class="select_list"><a title="网易">新闻</a><a title="">网页</a></div></div>';	            </p>
+<p>	            var select_area2 = NTES("#select_area2"), selected2 = NTES("#selected2"), select_main2 = NTES("#select_main2"), select_list2 = select_main2.getElementsByTagName("a"), len2 = select_list2.length;	            </p>
+<p>	            select_area2.onclick = select_main2.onmouseover = function(){</p>
+<p>	                select_main2.style.display = "block";</p>
+<p>	            }           </p>
+<p>	            select_main2.onmouseout = function(){</p>
+<p>	                select_main2.style.display = "none";</p>
+<p>	            }</p>
+<p>	            for (var i = 0; i < len2; i++) {</p>
+<p>	                select_list2[i].onclick = clickselect2;</p>
+<p>	                select_list2[i].onmouseover = a_mouseover2;</p>
+<p>	                select_list2[i].onmouseout = a_mouseout2;</p>
+<p>	            }</p>
+<p>            }</p>
+<p>        })();</p>
+<p>			//var endpage_tab = new NTES.ui.Slide(NTES("#menuBar_endpage > li"), NTES("#endpage_tab > ul"), "on", "mouseover"); // 推荐文章切换</p>
+<p>			function changeProduct(type){</p>
+<p>	if(NTES("#query").value=="" || NTES("#query").value.length==0)</p>
+<p>	{</p>
+<p>		alert("请输入关键字!");</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	var SoForm = NTES("#yodaoForm");</p>
+<p>	var vsite = NTES("#ydsite");</p>
+<p>    if(type==2){</p>
+<p>		vsite.value="";</p>
+<p>		SoForm.action="http://www.youdao.com/search";</p>
+<p>	}else if(type==1){</p>
+<p>		vsite.value="网易";</p>
+<p>		SoForm.action="http://news.youdao.com/search";</p>
+<p>	}</p>
+<p>	SoForm.submit();</p>
+<p>	return true;</p>
+<p>}</p>
+<p>            //点击复制</p>
+<p>            var EndPage = function(){</p>
+<p>            }</p>
+<p>            if (NTES("#h1title")) {</p>
+<p>				var getTitle = NTES("#h1title").innerHTML.replace(/["']+/g,'');</p>
+<p>			}</p>
+<p>				else {</p>
+<p>				// alert ("获取标题失败");</p>
+<p>			}</p>
+<p>                EndPage.clearField = function(){</p>
+<p>                if (NTES("#inputWord").value == EndPage.tip) {</p>
+<p>                NTES("#inputWord").value = "";</p>
+<p>                }</p>
+<p>            }</p>
+<p>            EndPage.mail = function(){</p>
+<p>                try {</p>
+<p>                    var RightMailAgent = new ActiveXObject("FlashMailShell.FlashMailIEExt");</p>
+<p>                } </p>
+<p>                catch (e) {</p>
+<p>                    window.open("http://fm.163.com/commend.html?tab=5?yjzf100201", "")</p>
+<p>                }</p>
+<p>                var str = NTES("#endText").innerHTML;</p>
+<p>                str = str.replace(/<\/?(?:embed|object|param)[^>]*>/ig, "");</p>
+<p>				str += "<br /><br />";</p>
+<p>				str += '“你也想和好友分享精彩新闻吗?请\<a href=\"http:\/\/dl.163.com\/NxMail\/Update\/installer\/flashmail-2.0beta.exe\"\>下载闪电邮\<\/a\>,并阅读\<a href=\"http:\/\/fm.163.com\/introduce.html?yjzf100201\"\>闪电邮介绍\<\/a\>”';</p>
+<p>				</p>
+<p>				if (RightMailAgent != null) {</p>
+<p>                    RightMailAgent.addSubject("您的好友推荐文章《"+getTitle+"》");</p>
+<p>                    RightMailAgent.addContent(str);</p>
+<p>                }</p>
+<p>            }</p>
+<p>            EndPage.copyUrl = function(){</p>
+<p>                var cbc = "";</p>
+<p>                cbc += getTitle +'\r\n' + document.URL;</p>
+<p>                window.clipboardData.setData("Text", cbc);</p>
+<p>                NTES("#IECopyUrl").innerHTML = "<span class=\"cDRed\">已复制</span>";</p>
+<p>            }</p>
+<p>           </p>
+<p>		   //初始化 </p>
+<p>            if (NTES.browser.msie) {</p>
+<p>                NTES("#IEHtml").innerHTML = "\<span class=\"right cDGray\"\>\<span class=\"copyLink\" id=\"IECopyUrl\" title=\"点击复制标题和链接\" style=\"background: url(http:\/\/img1.cache.netease.com\/cnews\/css09\/bg_n1.gif\) no-repeat scroll left -362px transparent; padding: 2px 0pt 2px 23px;\"\>\<a style=\"cursor:pointer; text-decoration:none;\"\>复制网址\<\/a\>\<\/span\> \<a href=\"mailto:\" class=\"mail\" id=\"IEMailSend\" title=\"你也想和好友分享精彩新闻吗?请下载闪电邮(点击直接可下载)\" style=\"background: url(http:\/\/img1.cache.netease.com\/cnews\/css09\/bg_n1.gif) no-repeat scroll -154px -363px transparent; padding: 2px 0pt 2px 23px;\"\>闪电邮转发\<\/a\>\<\/span\>";</p>
+<p>                NTES("#IEMailSend").addEvent("click", function(e){</p>
+<p>                    EndPage.mail();</p>
+<p>                    e.preventDefault();</p>
+<p>                });</p>
+<p>                NTES("#IECopyUrl").addEvent("click", function(e){</p>
+<p>                    EndPage.copyUrl();</p>
+<p>                    e.preventDefault();</p>
+<p>                });</p>
+<p>            }</p>
+<p>            //]]></p>
+<p>        </p>
+<p>var vjAcc="860010-0502010100";</p>
+<p>var wrUrl="http://163.wrating.com/";</p>
+<p>vjTrack();</p>
+<p>    _ntes_nacc = "news"; //站点ID。</p>
+<p>    neteaseTracker();</p>
+<p>    </p>

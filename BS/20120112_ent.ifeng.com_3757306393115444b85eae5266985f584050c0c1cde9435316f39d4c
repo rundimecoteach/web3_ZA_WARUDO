@@ -1,0 +1,1256 @@
+<p>郭德纲受访向伤者道歉 称艺人生存现状很悲催_娱乐频道_凤凰网</p>
+<p>function ignoreError() {  return true;}</p>
+<p>window.onerror = ignoreError; </p>
+<p>var docBody = null;</p>
+<p>function zoomDoc(size) {</p>
+<p>  if (!docBody) { return; }</p>
+<p>  if(size == 14) {$('small').className="smallsize";  $('big').className="bigsize";  } </p>
+<p>  else {$('small').className="bigsize";  $('big').className="smallsize";  }</p>
+<p>  docBody.style.fontSize = size + 'px';</p>
+<p>  var __childs = docBody.childNodes;</p>
+<p>  for (var i = 0; i < __childs.length; i++) { if (__childs[i].nodeType == 1) {  __childs[i].style.fontSize = size + 'px';   }  }</p>
+<p>}</p>
+<p>function init() {  docBody = $('artical_real');}</p>
+<p>V.addListener(window, 'load', init);</p>
+<p>.cWhite,.cWhite a:link,.cWhite a:visited,.cWhite a:hover,.cWhite a:active{color:#fff;}</p>
+<p>.clear{clear:both;height:0;line-height:0;font-size:0;overflow:hidden;}</p>
+<p>.h_infoNav{width:100%;margin:0 auto;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_10.gif) repeat-x bottom;height:32px;position:relative;z-index:800;}</p>
+<p>.h_masthead{height:32px;width:990px;margin:0 auto;padding:0 0 0 10px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_10.gif) repeat-x bottom; position:relative;}</p>
+<p>.h_masthead p{float:left; padding-top:10px;}</p>
+<p>.h_infoNav .h_s01{background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_12.gif) no-repeat left center;padding:0 15px;_padding:2px 15px 0}</p>
+<p>.h_infoNav .h_s02{background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_13.gif) no-repeat left center;padding:0 23px 0 12px;_padding:2px 23px 0 12px}</p>
+<p>.h_infoNav .h_set{float:right; padding:10px 10px 0 0;}</p>
+<p>.h_set .cGray a{ padding-left:3px;}</p>
+<p>.h_set .cRed{color:#666; padding-left:10px;}</p>
+<p>.cGray2,.cGray2 a:link,.cGray2 a:visited,.cGray2 a:hover,.cGray2 a:active{color:#999;}</p>
+<p>.h_indexLogin{position:absolute; right:0; top:23px;background:url(http://res.img.ifeng.com/tres/images/channel_login.gif) no-repeat left top; width:341px; height:137px; z-index:100;}</p>
+<p>.h_indexLogin .h_close{float:left; width:332px; height:15px; padding:16px 9px 0 0;}</p>
+<p>.h_indexLogin .h_close a{float:right; background:url(http://res.img.ifeng.com/tres/images/icon_close.gif) no-repeat 0 2px; padding-left:9px;}</p>
+<p>.h_indexLogin ul{ float:left; width:161px; padding:7px 0 0 55px;}</p>
+<p>.h_indexLogin li{ height:30px;}</p>
+<p>.h_indexLogin label{ vertical-align:middle;}</p>
+<p>.h_indexLogin .text{width:124px;height:14px;font-size:12px;vertical-align:middle; padding:2px 0 0 2px;}</p>
+<p>.h_indexLogin .h_btn04{float:right;width:39px;height:19px;background:url(http://res.img.ifeng.com/tres/images/loginBtn.gif) repeat-x top;border:none;cursor:pointer;margin-right:1px; display:inline;}</p>
+<p>.h_indexReg{float:left; width:60px;padding:21px 0 0 30px; line-height:20px; color:#666;}</p>
+<p>.h_indexReg a{text-decoration:underline;}</p>
+<p>.h_indexReg a,.h_indexReg a:link,.h_indexReg a:visited,.h_indexReg a:hover,.h_indexReg a:active{color:#004276;}</p>
+<p>.h_mainNav{width:980px;height:29px;margin:0 auto;color:#ddd;padding:8px 10px 0; font-family:宋体;}</p>
+<p>.h_mainNav span{float:right; height:13px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_11.gif) no-repeat 0 0;padding:1px 0 0 19px;}</p>
+<p>.h_mainNav ul{float:left;width:910px; padding-top:2px;}</p>
+<p>.h_mainNav li{float:left; background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0427/line.gif) no-repeat left center; padding:0 6px 0 9px;}</p>
+<p>.h_mainNav .cRed, .cRed a:link, .cRed a:visited, .cRed a:hover, .cRed a:active {color: #BA2636;}</p>
+<p>  </p>
+<p>凤凰网首页</p>
+<p>手机凤凰网</p>
+<p>注册 登录</p>
+<p>关闭</p>
+<p>账号 </p>
+<p>密码 </p>
+<p>没有账号？</p>
+<p>立即注册</p>
+<p>$("h_getDay").innerHTML=getCnDateTimeStr();</p>
+<p>var h_bkurl=window.location.href;</p>
+<p>$("h_backurl").value=h_bkurl;</p>
+<p>function h_closeloginbox(){</p>
+<p>  $('h_loginbox').style.display='none';</p>
+<p>}</p>
+<p>function h_hideloginbox() {</p>
+<p>  ($("h_loginbox").style.display=="none")?($("h_loginbox").style.display=""):($("h_loginbox").style.display="none");</p>
+<p>}</p>
+<p>function h_CheckInfo(){</p>
+<p>  var cookieEnabled=(navigator.cookieEnabled)?true:false;</p>
+<p>  if(!cookieEnabled){	alert('请开启浏览器COOKIE功能！');	return false;	}</p>
+<p>  if($('h_uname').value==''||$('h_uname').value==null){alert('请输入用户名');	$('h_uname').focus();	return false;}</p>
+<p>  if($('h_pass').value==''||$('h_pass').value==null){	alert('请输入密码');$('h_pass').focus();return false;	}</p>
+<p>  $('h_form1').submit();</p>
+<p>  return false;</p>
+<p>}</p>
+<p>function h_cb_userdetail() {</p>
+<p>  var msg='<span class="cRed"><a href="http://my.ifeng.com/?_c=index&_a=my" target="_blank">'+sso_username+'</a> 欢迎你</span><span class="cGray"><a href="http://my.ifeng.com/?_c=index&_a=logout&backurl='+escape(h_bkurl)+'" id="h_btnlogout">退出</a></span>';</p>
+<p>  $("h_welcome").innerHTML=msg;</p>
+<p>  $("h_login").style.display="none";</p>
+<p>  $("h_welcome").style.display="inline";</p>
+<p>}</p>
+<p>function getCookie_comment(name){</p>
+<p>  var arr = document.cookie.match(new RegExp('(^| )'+name+'=([^;]*)(;|$)'));</p>
+<p>  if(arr!=null) return arr[2];</p>
+<p>  return null;</p>
+<p>}</p>
+<p>var sid = getCookie_comment("sid");</p>
+<p>if(sid&&sid.length>32) {</p>
+<p>  sso_username=decodeURIComponent(sid.substr(32));</p>
+<p>  h_cb_userdetail();</p>
+<p>}</p>
+<p>凤凰卫视</p>
+<p>资讯</p>
+<p>财经</p>
+<p>娱乐</p>
+<p>体育</p>
+<p>时尚</p>
+<p>健康</p>
+<p>亲子</p>
+<p>汽车</p>
+<p>房产</p>
+<p>科技</p>
+<p>旅游</p>
+<p>读书</p>
+<p>教育</p>
+<p>文化</p>
+<p>历史</p>
+<p>军事</p>
+<p>视频</p>
+<p>博客</p>
+<p>快博</p>
+<p>论坛</p>
+<p>公益</p>
+<p>佛教</p>
+<p>星座</p>
+<p>var a = 'http://bc.ifeng.com/main/c?db=ifeng&bid=5400,5212,1224&cid=1388,59,1&sid=12025&advid=57&camid=1306&show=ignore&url=http://www.ftms.com.cn/vehicles/reiz/';</p>
+<p>var ad = 'http://y0.ifengimg.com/mappa/2011/12/30/1795b5e890a7db462263bf4ad5cb8bdc.swf';</p>
+<p>var w = '1000';</p>
+<p>var h = '90';</p>
+<p>(function(flash_ad, flash_a, flash_w, flash_h){</p>
+<p>	var id = "flash_click_" + Math.ceil(Math.random()*1000000);</p>
+<p>	flash_nad = '<object  width="'+flash_w+'px" height="'+flash_h+'px" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" id="flash_swf_'+id+'"><param name="wmode" value="opaque"/><param name="movie" value="'+flash_ad+'"><embed  width="'+flash_w+'px" height="'+flash_h+'px" wmode="opaque" src="'+flash_ad+'" type="application/x-shockwave-flash"></embed></object>';</p>
+<p>	document.write('<div style="clear: both; margin: 0 auto; width:'+flash_w+'px;height:'+flash_h+'px;" id="flash_outer_2_'+id+'"><div style="width:'+flash_w+'px;height:'+flash_h+'px;position:relative;" id="flash_outer_1_'+id+'">'+flash_nad+'<div style="position:absolute; top:0px; left:0px;z-index:3;"><a href="'+flash_a+'" target="_blank"><img style="width:'+flash_w+'px;height:'+flash_h+'px;border:0px" src="http://img.ifeng.com/tres/recommend/html/test/1x1.gif"></a></div></div></div><div class="clear"></div>');</p>
+<p>})(ad, a, w, h);</p>
+<p>不悔深蓝之台湾老兵落叶归乡老兵发妻守活寡，爹娘含恨辞世，乡情血浓于水，压倒蓝绿政见之争。</p>
+<p>凤凰好书榜【2011年12月月榜】</p>
+<p>《求索中国：文革前十年史》《告别皇帝的中国》等十本书上榜。</p>
+<p>叶开：课本进死胡同 小改没用</p>
+<p>作家叶开痛陈教材编写之弊：太多框架、牟利将课本推向死胡同。</p>
+<p>凤凰网娱乐 > 明星 > 郭德纲弟子再打记者 > 正文</p>
+<p>.navFind{float:right;width:323px;padding:6px 0 0}</p>
+<p>.navFind span{float:left}</p>
+<p>.navFind .text{width:182px;height:16px;padding:2px 0 0 5px;margin-top:1px !important;*margin-top:0px !important;margin-top:0;margin-right:7px;background:#fff;border:1px solid #819bb4;color:#646464;font-size:12px}</p>
+<p>.navFind .sel{width:55px;height:16px;margin:1px 9px 0 0;padding:2px 0 0 11px;border:1px solid #819bb4;border-right:none;background:#fff url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_04.gif) no-repeat right center;font-size:12px;color:#646464;cursor:pointer}</p>
+<p>.navFind .button{width:51px;height:20px;padding:1px 0 0 2px;margin:1px 0 0;border:none;background:url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/navFind.gif) no-repeat 0 0;color:#000;font-weight:bold;cursor:pointer}</p>
+<p>#searchFormOption{position:relative;float:left;z-index:80}</p>
+<p>#loginFldselectop{position:absolute;border:1px solid #DFDFDF;top:20px;left:0px;width:48px;background:#fff;z-index:99}</p>
+<p>#loginFldselectop li{line-height:20px;height:20px}</p>
+<p>#loginFldselectop li a{line-height:20px;height:20px;text-decoration:none;color:#000000;padding-left:11px}</p>
+<p>	.stockList{position:absolute;top:28px;left:0;width:300px; border:1px solid #195184; background:#fff; z-index:999;}</p>
+<p>	.stockList a,.stockList a:visited{color:#0A5EA6;}</p>
+<p>	.stockList .tab td{border-bottom:1px solid #ECECEC; height:21px!important;*height:20px!important;height:20px; padding-left:12px; text-align:left; color:#333;}</p>
+<p>	.stockList .tab tr.current{background:#194E80;}</p>
+<p>	.stockList .tab tr.current td{color:#fff;background:#194E80;}</p>
+<p>	.stockList .tab tr.current td a{color:#fff;}</p>
+<p>	.stockList .red{color:#f00;}</p>
+<p>站内</p>
+<p>站内</p>
+<p>站外</p>
+<p>证券</p>
+<p>汽车</p>
+<p>视频</p>
+<p>郭德纲受访向伤者道歉 称艺人生存现状很悲催</p>
+<p>2012年01月12日 15:49来源：凤凰网综合字号:T|T0人参与0条评论打印转发</p>
+<p>郭德纲(资料图)</p>
+<p>相关新闻<<<郭德纲弟子涉嫌打记者 凤凰网独家探访伤者[高清大图]</p>
+<p>1月9日晚，德云社多名工作人员在首都机场到达厅与偷拍人员发生冲突，将对方打伤并闹到了派出所。这是2012年娱乐圈的一个重大负面新闻，事发后，双方各执一词，郭德纲称此事自己不在现场，风行工作室则对郭德纲一方言辞声讨。近日，郭德纲接受了某网站的访问，在采访中他再次强调了儿子不在现场，并称因为其知名度的关系才被卷入舆论漩涡，对此类事情已经习惯了。此外，他对受伤人员表示了歉意。</p>
+<p>再次强调自己的儿子并未参加</p>
+<p>对于再次因“打人”事件处在媒体的风口浪尖，郭德纲称“不如意事十常八九，可与人言无二三，我习惯了”。对于卷入漩涡和话题中时，郭德纲则称是其知名度的问题，“他要说张三说李四谁会抬这个茬啊？他要说德云社的工作人员，就不如说郭德纲的徒弟有意思。要说工作人员因故涉嫌什么，跟有关人员怎么怎么样，就不如说郭德纲徒弟打记者更耸人听闻一点。”随后他表示身处娱乐圈一定要有娱乐的精神和状态。</p>
+<p>在采访中，郭德纲再次强调了自己的儿子并未参加打人事件，“我儿子不在现场也被说成在现场，还被偷拍了一张别人的照片。”</p>
+<p>此外，郭德纲还对受伤人员表示了歉意，称“不管怎么说有受伤的也不好，我不需要他向我的伤者道歉，那么我可以先说向他的伤者道歉。”</p>
+<p>被偷拍长达6年之久</p>
+<p>在谈到被狗仔偷拍的经历时，郭德纲大吐苦水，称自己被该工作室的人跟踪偷拍长达6年之久，长期生活在被偷拍之中。“我们其实这么多年来，也是一种快近似于支持他们的状态了，远的不说，就前一段时间，拍我们在机场说我们霸占厕所，比如说我太太阻拦粉丝献花，比如王海的太太去机场接我们被说成神秘女子熊抱。”</p>
+<p>谈到艺人和狗仔的关系，郭德纲表示大批艺人敢怒不敢言，没有一个人支持狗仔，他只希望好好的活下来，把快乐带给老百姓。“不要让我们在这个状态下很纠结的生存，那将是最悲催的一件事情。”</p>
+<p>#research{ width:560px; border:1px solid #ddd; padding:1px; margin:20px auto;} </p>
+<p>#research h2{ font-size:14px; color:#901D24; font-weight:bold; background:url(http://img.ifeng.com/tres/appres/survey/images/research_bg.gif) repeat-x top; height:26px; border-bottom:1px solid #ddd; text-indent:8px;}  </p>
+<p>#research  .question{ padding:10px 20px; width:520px;}</p>
+<p>#research  .question h3{width:520px; margin:0 auto; text-align:center;font-family:"黑体"; font-size:16px; font-weight:normal; padding:10px 0 12px 0; background:url(http://img.ifeng.com/tres/appres/survey/images/dotline_cms.gif) repeat-x bottom; margin-bottom:12px;}</p>
+<p>#research  .question td{ font-size:14px;} </p>
+<p>#research  .userinfo{ padding:3px 20px; width:520px; font-size:12px;}</p>
+<p>#research .submit{padding:15px 20px 20px 35px; width:500px;line-height: 16px;}</p>
+<p>#research .submit input{ width:50px; height:26px;}    </p>
+<p>var jsonMaxSelect15617={"31012":"2","31013":"2","31014":"2","31019":"2"};</p>
+<p>var jsonQuestion15617={"31012":"\u4f60\u5982\u4f55\u770b\u5f85\u90ed\u5fb7\u7eb2\u518d\u6b21\u9677\u5165\u5f1f\u5b50\u6253\u4eba\u98ce\u6ce2\uff1f","31013":"\u5728\u4f60\u773c\u4e2d\uff0c\u90ed\u5fb7\u7eb2\u662f\u600e\u4e48\u6837\u4e00\u4e2a\u4eba\uff1f","31014":"\u9891\u7e41\u4f20\u51fa\u7684\u660e\u661f\u4e0e\u5a92\u4f53\u66b4\u529b\u51b2\u7a81\u7684\u539f\u56e0\u662f\uff1f","31019":"\u4f60\u600e\u4e48\u770b\u660e\u661f\u5728\u516c\u5171\u573a\u6240\u6253\u4eba\u884c\u4e3a\uff1f"};</p>
+<p>function openSurveyWin15617(btuType, surveyId, width, height, left, top) {</p>
+<p>	var form=document.getElementsByName("voteForm"+surveyId);</p>
+<p>	if(form.length==0) return false;</p>
+<p>	form=form[0];</p>
+<p>    if ( (btuType == null || btuType=="1") && form != null ) {</p>
+<p>        //判断是否没有选择任何一个选项</p>
+<p>        //获得所有复选框</p>
+<p>        var _chk = form.getElementsByTagName("input");</p>
+<p>        //标识是否选择了任意一个备选选项</p>
+<p>        var _selected =new Object();</p>
+<p>        var _selCount = new Object();</p>
+<p>        for(var i = 0; i < _chk.length; i++) {</p>
+<p>            if( (_chk[i].name.search("q_") == 0)) {</p>
+<p>                if (_chk[i].type=="checkbox" && _chk[i].checked) {</p>
+<p>                	qnum=_chk[i].name.replace(/q_(\d+)\[\]/,"$1");</p>
+<p>                    _selected[qnum] = true;</p>
+<p>                    _selCount[qnum]++;</p>
+<p>                } else if (_chk[i].type=="radio" && _chk[i].checked) {</p>
+<p>               		qnum=_chk[i].name.replace(/q_(\d+)\[\]/,"$1");</p>
+<p>                    _selected[qnum] = true;</p>
+<p>                }</p>
+<p>            }</p>
+<p>        }</p>
+<p>        for(var key in jsonMaxSelect15617){</p>
+<p>        	if(_selected[key]>jsonMaxSelect15617[key]){</p>
+<p>        		alert("问题：“"+jsonQuestion15617[key]+"”只能选择"+jsonMaxSelect15617[key]+"项")</p>
+<p>        		return false;</p>
+<p>        	}else if(typeof(_selected[key])=="undefined"){</p>
+<p>        		alert("问题：”"+jsonQuestion15617[key]+"“还没有选择选项");</p>
+<p>        		return false;</p>
+<p>        	}</p>
+<p>        }</p>
+<p>        //用户信息</p>
+<p>        var survey_u=document.getElementById("userinfo"+surveyId);</p>
+<p>        if(survey_u){</p>
+<p>	        var survey_u_fname=new Object();</p>
+<p>	        if(survey_u){</p>
+<p>	        	_ucheck=survey_u.getElementsByTagName("input");</p>
+<p>		        for(var i = 0; i < _ucheck.length; i++) {</p>
+<p>			   		survey_u_fname[ _ucheck[i].name]=true;</p>
+<p>			     }</p>
+<p>		     }</p>
+<p>	        for(var key in survey_u_fname){</p>
+<p>	  			var elements=form.elements;</p>
+<p>	       	 	var ck=false;</p>
+<p>	       	 	 for(var i = 0; i < elements.length; i++) {</p>
+<p>	       	 	 	if(elements[i].name==key){</p>
+<p>		       	 	 	if(elements[i].checked){</p>
+<p>		       	 	 		var ck=true;</p>
+<p>		       	 	 	}</p>
+<p>	       	 	 	}</p>
+<p>	       	 	 }</p>
+<p>	       	 	 if(ck==false){</p>
+<p>	       	 	 	alert("对不起，你还有用户信息没有选择");</p>
+<p>	       	 	 	return false;</p>
+<p>	       	 	 } 	</p>
+<p>	        }</p>
+<p>	        _ucheck=survey_u.getElementsByTagName("select");</p>
+<p>			for(var i = 0; i < _ucheck.length; i++) {</p>
+<p>			   	if(_ucheck[i].value==-1){</p>
+<p>			   		alert("对不起，你还有用户信息没有选择");</p>
+<p>	       	 	 	return false;</p>
+<p>			   	}</p>
+<p>			 }</p>
+<p>		 }</p>
+<p>    }</p>
+<p>    if (btuType != null && btuType != "1") {</p>
+<p>        //查看</p>
+<p>        newWindow = window.open("http://survey.news.ifeng.com/result.php?surveyId=" + surveyId,"surveyResult","toolbar,resizable,scrollbars,dependent");</p>
+<p>        newWindow.focus();</p>
+<p>    } else {</p>
+<p>    	newWindow = window.open("about:blank","surveyResult","toolbar,resizable,scrollbars,dependent,width="+width+",height="+height+",left="+left+",top="+top);</p>
+<p>        newWindow.focus();</p>
+<p>        form.submit();</p>
+<p>    }</p>
+<p>    return false;</p>
+<p>}</p>
+<p> 调查</p>
+<p> </p>
+<p>你如何看待郭德纲再次陷入弟子打人风波？</p>
+<p>1.你如何看待郭德纲再次陷入弟子打人风波？</p>
+<p> </p>
+<p>媒体全责，过度刺探明星隐私引发纠纷</p>
+<p> </p>
+<p>徒弟全责，弟子多了，队伍不好带，打人纯属个人行为</p>
+<p> </p>
+<p>郭德纲全责，屡次暴力事件暴露其教徒无方缺乏领导能力</p>
+<p> </p>
+<p>很难说，事件的原因尚未公布难下定夺</p>
+<p> </p>
+<p>2.在你眼中，郭德纲是怎么样一个人？</p>
+<p> </p>
+<p>缺乏道德文化支撑，行事乖张的市井之徒</p>
+<p> </p>
+<p>天赋傲人，秉承传统文化并将之发扬光大的艺术家</p>
+<p> </p>
+<p>擅长经营炒作的经营者，树大难免招风的成功商人</p>
+<p> </p>
+<p>从底层走出，一路摸爬滚打拼上位的励志草根明星</p>
+<p> </p>
+<p>3.频繁传出的明星与媒体暴力冲突的原因是？</p>
+<p> </p>
+<p>明星恃宠生娇、嚣张跋扈仗势欺人</p>
+<p> </p>
+<p>媒体借题发挥、无视法律屡次侵犯明星隐私</p>
+<p> </p>
+<p>娱乐圈缺少行业规范，道德底线逐渐消失</p>
+<p> </p>
+<p>网民粉丝的窥星欲引发媒体不良竞争，明星成利益牺牲品</p>
+<p> </p>
+<p>4.你怎么看明星在公共场所打人行为？</p>
+<p> </p>
+<p>没错，娱乐圈需要有正义感的人反抗狗仔恶行</p>
+<p> </p>
+<p>没错，明星也是人，有捍卫自己隐私的权利</p>
+<p> </p>
+<p>有错，无论被打者是狗仔还是记者，打人都是不对的</p>
+<p> </p>
+<p>有错，明星作为公众人物，公开暴力行为影响不好</p>
+<p> </p>
+<p> </p>
+<p>相关专题：</p>
+<p>		郭德纲弟子再打记者  </p>
+<p>		</p>
+<p>郭德纲弟子再打人</p>
+<p>最新进展</p>
+<p>·郭德纲：打人者是临时工 律师：德云社已接近犯罪</p>
+<p>·律师：此次狗仔偷拍并未侵权 打人不是正当防卫</p>
+<p>·郭德纲遭偷拍 “临时工”打人已被开除</p>
+<p>·德云社员工与偷拍者发生冲突 警方调查尚未定责</p>
+<p>双方回应</p>
+<p>·郭德纲回应弟子打人事件：打的是狗仔 儿子并未参与</p>
+<p>·郭德纲回应打记者事件：打人者非德云社弟子</p>
+<p>·郭德纲手下又打人 被打方：他们是有蓄谋的</p>
+<p>·郭德纲强调被打者是狗仔 风行：不是记者就能打吗？</p>
+<p>圈中人热议</p>
+<p>·周立波力挺郭德纲怒骂狗仔：没拍死你算祖上积德</p>
+<p>·德云社于谦力挺郭德纲：“打记者”的说法有失公正</p>
+<p>媒体评析</p>
+<p>·重庆晨报：郭德纲放任弟子打人是砸自己招牌</p>
+<p>·娱评：狗仔和郭德纲谁更需要素质教育</p>
+<p>·成都商报：跟郭德纲于谦探讨“打”之外的方法</p>
+<p>围殴现场</p>
+<p>·被打者：因为拍照起肢体冲突 郭德纲紧邻5米未阻止</p>
+<p>·郭德纲徒弟机场殴打记者 郭德纲“围观”</p>
+<p>·郭德纲弟子再打人 受伤记者双下肢软组织顿挫伤</p>
+<p>·郭德纲弟子再打人 知情人透露事件经过</p>
+<p>黄敏</p>
+<p> [责任编辑：黄敏]  标签：郭德纲 打人 打人事件 </p>
+<p>3g.ifeng.com 用手机随时随地看新闻</p>
+<p>0人</p>
+<p> 分享到：</p>
+<p>var kb_reg=/<script[ ]*[^>]*?>[\s\S]*?<\/script>/gi;var kb_reg1=/<style[ ]*[^>]*?>[\s\S]*?<\/style>/gi;var kb_reg2=/<form[ ]*[^>]*?>[\s\S]*?<\/form>/gi;var kb_post=document.getElementById("artical_real").innerHTML;kb_post=kb_post.replace(kb_reg,"");kb_post=kb_post.replace(kb_reg1,"");kb_post=kb_post.replace(kb_reg2,"");var sharedata={type:'blog',sourceUrl:window.location.href,title:document.title,desc:kb_post};</p>
+<p>          凤凰网个人中心 </p>
+<p> 请先登录再进行操作 </p>
+<p>帐号：</p>
+<p>密码：</p>
+<p> </p>
+<p>                记住登录状态</p>
+<p> </p>
+<p>  找回密码</p>
+<p>注册凤凰通行证</p>
+<p>var docid="11935105"; // 文章ID</p>
+<p>var docname="%E9%83%AD%E5%BE%B7%E7%BA%B2%E5%8F%97%E8%AE%BF%E5%90%91%E4%BC%A4%E8%80%85%E9%81%93%E6%AD%89%20%E7%A7%B0%E8%89%BA%E4%BA%BA%E7%94%9F%E5%AD%98%E7%8E%B0%E7%8A%B6%E5%BE%88%E6%82%B2%E5%82%AC"; // 文章标题</p>
+<p>var chnnid="36726"; // 频道ID</p>
+<p>var docurl="http%3A%2F%2Fent.ifeng.com%2Fidolnews%2Fspecial%2Fgdgdizidajizhe%2Fnews1%2Fdetail_2012_01%2F12%2F11935105_0.shtml"; // 文章URL地址</p>
+<p>function renren_connent(type) {</p>
+<p>    var ifr = $('rr_iframe');</p>
+<p>    if (ifr) {</p>
+<p>        ifr.parentNode.removeChild(ifr);</p>
+<p>    }</p>
+<p>    var str = '<iframe width="710" height="600" frameborder="0" style="overflow: hidden; position: absolute; left: -1000px; top: -1000px; z-index: 999999;" src="http://ent.ifeng.com/renren/renren_' + type + '.html" id="rr_iframe" allowtransparency="true"/>';</p>
+<p>    if (document.body.insertAdjacentHTML) {</p>
+<p>        document.body.insertAdjacentHTML('BeforeEnd', str);</p>
+<p>    } else {</p>
+<p>        if (document.body.lastChild) {</p>
+<p>            var range = document.body.ownerDocument.createRange();</p>
+<p>            range.setStartAfter(document.body.lastChild);</p>
+<p>            frag = range.createContextualFragment(str);</p>
+<p>            document.body.appendChild(frag);</p>
+<p>        } else {</p>
+<p>            document.body.innerHTML = str;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    var ifr = $('rr_iframe');</p>
+<p>    ifr.style.left = (document.body.clientWidth - 600) / 2 + 'px';</p>
+<p>    var diffY;</p>
+<p>    if (document.documentElement && document.documentElement.scrollTop) diffY = document.documentElement.scrollTop;</p>
+<p>    else if (document.body) diffY = document.body.scrollTop;</p>
+<p>    ifr.style.top = diffY + 'px';</p>
+<p>}</p>
+<p>function renrenlogin() {</p>
+<p>    var userid = C.getCookie('0fe4891425d9451c9de41f73745bcab9_user');</p>
+<p>    if (userid == undefined || userid == '') {} else {</p>
+<p>        XN_RequireFeatures(["Api"], function() {</p>
+<p>            XN.Main.init("0fe4891425d9451c9de41f73745bcab9", "http://ent.ifeng.com/renren/xd_receiver.html");</p>
+<p>            XN.Main.get_sessionState().waitUntilReady(function() {　　　XN.Main.apiClient.users_getInfo([userid], ['name'], function(result, ex) {</p>
+<p>                    if (!ex) {</p>
+<p>                        //成功获得调用结果result</p>
+<p>                        sso_username = result[0]["name"];</p>
+<p>                        $('cmtLogined').innerHTML = '<b>' + sso_username + '</b><font color="grey">(来自人人网)</font> 凤凰网欢迎您&nbsp;&nbsp;&nbsp;<a href="#" onclick="XN.Connect.logout(function(){logoutSite();});return false;">退出</a>';</p>
+<p>                        //将评论发布到人人网新鲜事</p>
+<p>                        $('snm02').innerHTML = '<input type="checkbox" name="ispubrrnew" value="1" checked="checked" />&nbsp;发布到人人网';</p>
+<p>                        $('cmtLogin').style.display = "none";</p>
+<p>                        $('cmtLogined').style.display = "";</p>
+<p>                        var xmkey = 'ifeng.com' + userid + 'ifeng.com';</p>
+<p>                        C.setCookie('renren_0fe4891425d9451c9de41f73745bcab9_uid', userid, 1, "/", "ifeng.com");</p>
+<p>                        C.setCookie('renren_0fe4891425d9451c9de41f73745bcab9_user', result[0]['name'], 1, "/", "ifeng.com");</p>
+<p>                        C.setCookie('renren_0fe4891425d9451c9de41f73745bcab9_key', xmkey, 1, "/", "ifeng.com");</p>
+<p>                    }</p>
+<p>                });　　</p>
+<p>            });</p>
+<p>        });</p>
+<p>    }</p>
+<p>}</p>
+<p>function logoutSite() {</p>
+<p>    C.deleteCookie('renren_0fe4891425d9451c9de41f73745bcab9_uid', "/", "ifeng.com");</p>
+<p>    C.deleteCookie('renren_0fe4891425d9451c9de41f73745bcab9_user', "/", "ifeng.com");</p>
+<p>    C.deleteCookie('renren_0fe4891425d9451c9de41f73745bcab9_key', "/", "ifeng.com");</p>
+<p>    C.deleteCookie('qq_0fe4891425d9451c9de41f73745bcab9_uid', "/", "ifeng.com");</p>
+<p>    C.deleteCookie('qq_0fe4891425d9451c9de41f73745bcab9_user', "/", "ifeng.com");</p>
+<p>    C.deleteCookie('qq_0fe4891425d9451c9de41f73745bcab9_key', "/", "ifeng.com");</p>
+<p>    window.location.reload();</p>
+<p>}</p>
+<p>function _toQQzoneLogin() {</p>
+<p>    document.domain = 'ifeng.com';</p>
+<p>    var childWindow = window.open("http://comment.ifeng.com/qq_connect/oauth/redirect_to_login.php", "TencentLogin", "modal=yes,width=450,height=320,menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1");</p>
+<p>}</p>
+<p>function __qqLogin() {</p>
+<p>    document.domain = 'ifeng.com';</p>
+<p>    var qquser = getCookie_comment("qq_0fe4891425d9451c9de41f73745bcab9_user") ? decodeURIComponent(getCookie_comment("qq_0fe4891425d9451c9de41f73745bcab9_user")) : null;</p>
+<p>    if (qquser && qquser.length > 1) {</p>
+<p>        document.getElementById('cmtLogin').style.display = "none";</p>
+<p>        //document.getElementById('renren').style.display = "none";</p>
+<p>        //document.getElementById('tencent').style.display = "none";</p>
+<p>        var text = "<b>" + qquser + "</b><font color=\"grey\">(来自腾讯QQ)</font>凤凰网欢迎您&nbsp;&nbsp;&nbsp;<a href=\"#\"  onclick=\"logoutSite();\">退出</a>";</p>
+<p>        //alert(qquser);</p>
+<p>        document.getElementById('cmtLogined').style.display = "block";</p>
+<p>        document.getElementById('cmtLogined').innerHTML = text;</p>
+<p>        document.getElementById('sweibo').style.display = "none";</p>
+<p>        document.getElementById('snm02').style.display = "none";</p>
+<p>        //document.getElementById('pubqzonenew').style.display = 'block';</p>
+<p>        //document.getElementById('pubqzonenew').innerHTML += "<span class=\"d02\" id=\"sqzone\"><input type=\"checkbox\" name=\"ext[sync_mb]\" value=\"1\" checked=\"checked\">&nbsp;同步到QQ空间</span>";</p>
+<p>    }</p>
+<p>}</p>
+<p>function chklogin() {</p>
+<p>    var nsid = getCookie_comment("sid");</p>
+<p>    var rruser = getCookie_comment("renren_0fe4891425d9451c9de41f73745bcab9_user");</p>
+<p>    var qquser = getCookie_comment("qq_0fe4891425d9451c9de41f73745bcab9_user");</p>
+<p>    if ((nsid && nsid.length > 32) || (rruser && rruser.length > 1) || (qquser && qquser.length > 1)) {</p>
+<p>        return true;</p>
+<p>    } else {</p>
+<p>        alert("请您先登录，再发表评论。");</p>
+<p>        $("d_uname").focus();</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>}</p>
+<p>window.onload = __qqLogin;</p>
+<p>0人参与  0条评论(查看)  </p>
+<p>        </p>
+<p>        网友评论</p>
+<p>    </p>
+<p>共有0人参与</p>
+<p>评论0条</p>
+<p>                #comment2 #cmtLogin img{margin-left:3px;display:inline;}</p>
+<p>                </p>
+<p>用户名密码</p>
+<p>文明上网，登录评论！</p>
+<p>                    所有评论仅代表网友意见，凤凰网保持中立</p>
+<p>                </p>
+<p>                         同步到微博</p>
+<p>                        </p>
+<p>                            发布评论可同步到微博，登录试试吧</p>
+<p>                        </p>
+<p>                            如果您还没有开通微博，勾选后会自动开通</p>
+<p>                        </p>
+<p>var docUrl = "http://ent.ifeng.com/idolnews/special/gdgdizidajizhe/news1/detail_2012_01/12/11935105_0.shtml";</p>
+<p>var docName = "郭德纲受访向伤者道歉 称艺人生存现状很悲催";</p>
+<p>var skey = '644e37';</p>
+<p>$("cmtdocName").value = docName;</p>
+<p>$("cmtdocUrl").value = docUrl;</p>
+<p>function getScript_cds(src, callback) {</p>
+<p>    var head = document.getElementsByTagName("head")[0];</p>
+<p>    var js = document.createElement("script");</p>
+<p>    js.setAttribute("src", src);</p>
+<p>    js.onload = js.onreadystatechange = function() {</p>
+<p>        if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {</p>
+<p>            head.removeChild(js);</p>
+<p>            if (callback) callback();</p>
+<p>        }</p>
+<p>    }</p>
+<p>    head.appendChild(js);</p>
+<p>}</p>
+<p>function reguser() {</p>
+<p>    var regURL = 'http://my.ifeng.com/?_c=register&_a=new-account&backurl=' + encodeURIComponent(docUrl);</p>
+<p>    window.open(regURL);</p>
+<p>    return false;</p>
+<p>}</p>
+<p>function viewAllComment() {</p>
+<p>    var commentURL = 'http://comment.ifeng.com/view.php?docName=' + encodeURIComponent(docName) + '&docUrl=' + encodeURIComponent(docUrl) + '&skey=' + skey;</p>
+<p>    window.open(commentURL);</p>
+<p>    return false;</p>
+<p>}</p>
+<p>function getCookie_comment(name) {</p>
+<p>    var arr = document.cookie.match(new RegExp('(^| )' + name + '=([^;]*)(;|$)'));</p>
+<p>    if (arr != null) return arr[2];</p>
+<p>    return null;</p>
+<p>}</p>
+<p>function cmtCheckInfo(prefix) {</p>
+<p>    var cmtUser = prefix + '_uname';</p>
+<p>    var cmtPwd = prefix + '_pass';</p>
+<p>    var cmtFrm = prefix + '_frm';</p>
+<p>    var cookieEnabled = (navigator.cookieEnabled) ? true : false;</p>
+<p>    if (!cookieEnabled) {</p>
+<p>        alert('请开启浏览器COOKIE功能！');</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    if ($(cmtUser).value == '') {</p>
+<p>        alert('请输入用户名');</p>
+<p>        $(cmtUser).focus();</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    if ($(cmtPwd).value == '') {</p>
+<p>        alert('请输入密码');</p>
+<p>        $(cmtPwd).focus();</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    $(cmtFrm).submit();</p>
+<p>    return false;</p>
+<p>}</p>
+<p>function cmtChangeBox(prefix) {</p>
+<p>    var rruser = getCookie_comment("0fe4891425d9451c9de41f73745bcab9_user");</p>
+<p>    var qquser = getCookie_comment("qq_0fe4891425d9451c9de41f73745bcab9_user");</p>
+<p>    if ((sid && sid.length > 32) || (rruser && rruser.length > 1) || (qquser && qquser.length > 1)) {</p>
+<p>        if ($(prefix + '_content').innerHTML == '文明上网，登录评论！') {</p>
+<p>            $(prefix + '_content').innerHTML = '';</p>
+<p>        }</p>
+<p>    } else {</p>
+<p>        $(prefix + '_content').innerHTML = '请您先登录，再发表评论。';</p>
+<p>        $(prefix + '_uname').focus();</p>
+<p>    }</p>
+<p>}</p>
+<p>function ifengcmtcallback(num, allnum) {</p>
+<p>    $('comment_count').innerHTML = $('cmtuser01').innerHTML = $('cmtuser02').innerHTML = num;</p>
+<p>    $('comment_countall').innerHTML = $('cmtuserall01').innerHTML = $('cmtuserall02').innerHTML = allnum;</p>
+<p>}</p>
+<p>function show_msg(prefix) {</p>
+<p>    if (sid && sid.length > 32) {</p>
+<p>        $(prefix + 'tbox2').style.display = '';</p>
+<p>    } else {</p>
+<p>        $(prefix + 'tbox').style.display = '';</p>
+<p>    }</p>
+<p>}</p>
+<p>function remove_msg(prefix) {</p>
+<p>    $(prefix + 'tbox').style.display = 'none';</p>
+<p>    $(prefix + 'tbox2').style.display = 'none';</p>
+<p>}</p>
+<p>getScript_cds("http://comment.ifeng.com/joincount.php?doc_url=" + encodeURIComponent(docUrl));</p>
+<p>function cmtChkLogin(prefix, preuname) {</p>
+<p>    var rruser = getCookie_comment("0fe4891425d9451c9de41f73745bcab9_user");</p>
+<p>    var qquser = getCookie_comment("qq_0fe4891425d9451c9de41f73745bcab9_user");</p>
+<p>    if ((sid && sid.length > 32) || (rruser && rruser.length > 1) || (qquser&&qquser.length>1)) {</p>
+<p>        $(prefix + '_frm').submit();</p>
+<p>    } else {</p>
+<p>        alert("请您先登录，再发表评论。");</p>
+<p>        $(preuname + "_uname").focus();</p>
+<p>    }</p>
+<p>}</p>
+<p>function cmtUserLogin(prefix) {</p>
+<p>    if (sid && sid.length > 32) {</p>
+<p>        var msg = "";</p>
+<p>        if (prefix == "cmt") {</p>
+<p>            msg = '';</p>
+<p>        }</p>
+<p>        msg += '<em><a href="http://comment.ifeng.com/viewpersonal.php?uname=' + sso_username + '" target="_blank">' + sso_username + '</a></em> | <a href="http://t.ifeng.com/" target="_blank">我的微博</a> | <a href="http://my.ifeng.com/" target="_blank">个人中心</a> |<a href="http://my.ifeng.com/?_c=index&_a=logout&backurl=' + docUrl + '"> 退出</a>';</p>
+<p>        $(prefix + "Logined").innerHTML = msg;</p>
+<p>    } else {</p>
+<p>        $(prefix + "Logined").innerHTML = '<b>' + sso_username + '</b><font color="grey">(来自人人网)</font> 凤凰网欢迎您&nbsp;&nbsp;&nbsp;<a href="#" onclick="XN.Connect.logout(function(){logoutSite();});return false;">退出</a>';</p>
+<p>        $('rnm02').innerHTML = '<input type="checkbox" name="ispubrrnew" value="1" checked="checked" />&nbsp;发布到人人网';</p>
+<p>    }</p>
+<p>    $(prefix + "Login").innerHTML = '';</p>
+<p>    $(prefix + "Login").style.display = 'none';</p>
+<p>    $(prefix + "Logined").style.display = '';</p>
+<p>}</p>
+<p>$('comment2').style.display = '';</p>
+<p>var arrBaiduCproConfig=new Array();</p>
+<p>arrBaiduCproConfig['uid'] = 498570;</p>
+<p>arrBaiduCproConfig['n'] = 'ifeng_cpr';</p>
+<p>arrBaiduCproConfig['tm'] = 80; </p>
+<p>arrBaiduCproConfig['cm'] = 90; </p>
+<p>arrBaiduCproConfig['um'] = 34;</p>
+<p>arrBaiduCproConfig['rad'] = 1;</p>
+<p>arrBaiduCproConfig['w'] = 585; </p>
+<p>arrBaiduCproConfig['h'] =180; </p>
+<p>arrBaiduCproConfig['bd'] = '#ffffff'; </p>
+<p>arrBaiduCproConfig['bg'] = '#ffffff'; </p>
+<p>arrBaiduCproConfig['tt'] = '#5256A3'; </p>
+<p>arrBaiduCproConfig['ct'] = '#444444'; </p>
+<p>arrBaiduCproConfig['url'] = '#489948'; </p>
+<p>arrBaiduCproConfig['bdl'] = '#444444'; </p>
+<p>arrBaiduCproConfig['wn'] = 1; </p>
+<p>arrBaiduCproConfig['hn'] = 3; </p>
+<p>arrBaiduCproConfig['ta'] = 'right'; </p>
+<p>arrBaiduCproConfig['tl'] = 'bottom'; </p>
+<p>arrBaiduCproConfig['bu'] = 1; </p>
+<p>arrBaiduCproConfig['nfr'] = 1; </p>
+<p><!--</p>
+<p>document.write(baiduCproIFrame());</p>
+<p>--></p>
+<p>·南宁站街女竟是男儿身</p>
+<p>·女星不务正业进入政坛</p>
+<p>·长相为所欲为13种动物</p>
+<p>·没心没肺有傻福的女星</p>
+<p>·月薪不足千元照旧出轨</p>
+<p>·男友贫寒老妈逼我分手</p>
+<p>·中国剩女竟成老外至爱</p>
+<p>·揭被人夺去初恋的明星</p>
+<p>社会娱乐生活探索</p>
+<p>一周图片</p>
+<p>流浪男为维护正义用榔头专砸“站街女”</p>
+<p>小学生帮女同学背包赚钱遭老师批评01/12 01:31</p>
+<p>考研女生为省钱省时常用泡面充饥确诊胃癌01/12 05:02</p>
+<p>储户2千元定期存款20年变成9万遭拒付01/12 01:45</p>
+<p>12岁男孩体重达280斤 穿衣吃饭都困难01/12 02:08</p>
+<p>女婴医院病死 法医报告称“标本心脏为男性”01/12 04:04</p>
+<p>一周图片</p>
+<p>闫妮洗浴众男“围观”[高清大图]</p>
+<p>梁朝伟蹲马桶迸发灵感[图集]01/12 08:53</p>
+<p>老公在外偷腥 贾静雯气到羊水破裂[图集]01/12 08:56</p>
+<p>杨幂红毯上频扯胸衣[高清大图]01/12 08:57</p>
+<p>阮经天全裸上厕所被拍[图集]01/12 14:00</p>
+<p>林俊杰98年歌唱比赛造型曝光 网友：咋看咋像小沈阳01/12 09:01</p>
+<p>一周图片</p>
+<p>公司年会变“艳会” 白领成舞娘</p>
+<p>两性解读：如何判断男人的床上表现力01/12 11:08</p>
+<p>闻口气提示你身体所患的疾病(图)01/12 08:18</p>
+<p>饮食警惕：十种人不宜喝牛奶(图)01/12 09:54</p>
+<p>孕妈妈的“房事秘密” 你知道多少？01/12 08:30</p>
+<p>男人10句话 哄你甘愿当小三01/12 11:17</p>
+<p>一周图片</p>
+<p>盘点各种“好色”动物 口味各异(组图)</p>
+<p>女子拍摄男友强奸10岁女孩过程 将视频传上网01/12 07:19</p>
+<p>中国美女保镖沙滩"魔鬼"训练 下跪踢臀(高清)01/12 07:41</p>
+<p>伦敦出租司机拍“裸体”日历 可根据日历选车(高清)01/12 07:39</p>
+<p>印度穷人租老婆生意红火 每月收入千元人民币(组图)01/12 07:36</p>
+<p>印度土著女性被当动物展览 裸身跳舞换取食物(图)01/12 11:25</p>
+<p>var tc_twtj=new TabControl();</p>
+<p>tc_twtj.addRange($('twtj').getElementsByTagName('li'),['zixun','yule','shishang','keji']);</p>
+<p>tc_twtj.triggerType="mouseover";</p>
+<p>tc_twtj.init();</p>
+<p>网罗天下</p>
+<p>南京枪案疑犯作案视频</p>
+<p>女子偷拍同事性感照获刑</p>
+<p>男子凿墙入室砍死前妻</p>
+<p>男子嫖娼不给钱称被抢</p>
+<p>重庆男童心脏长肚脐上</p>
+<p>女孩遭诱奸被逼卖淫5年</p>
+<p>九旬老太遭邻羞辱虐待</p>
+<p>货车侧翻男子惊险逃命</p>
+<p>教师疑强暴女生被捅死</p>
+<p>男子猛踢女公交售票员</p>
+<p>男孩被父无意倒车碾死</p>
+<p>黑龙江情侣拌嘴引混战</p>
+<p>var focusPic = new TabControl();</p>
+<p>focusPic.addRange(['bt01','bt02','bt03'],['tpic01','tpic02','tpic03']);</p>
+<p>focusPic.preButton = 'pre_pic';</p>
+<p>focusPic.nextButton = 'next_pic';</p>
+<p>focusPic.triggerType = "click";</p>
+<p>focusPic.enableSlide = true;</p>
+<p>focusPic.autoLoop = true;</p>
+<p>focusPic.slideInterval = 5000;</p>
+<p>focusPic.defaultPage =0;</p>
+<p>focusPic.init();</p>
+<p>function getScript_cds(src,callback){</p>
+<p>  var head=document.getElementsByTagName("head")[0];</p>
+<p>  var js=document.createElement("script");</p>
+<p>  js.setAttribute("src",src);</p>
+<p>  js.onload=js.onreadystatechange=function(){</p>
+<p>    if(!this.readyState||this.readyState=="loaded"||this.readyState=="complete"){</p>
+<p>      head.removeChild(js);</p>
+<p>      if(callback) callback();</p>
+<p>    }</p>
+<p>  }</p>
+<p>  head.appendChild(js);</p>
+<p>}</p>
+<p>if(top.location!==self.location&&document.referrer.search(/http:\/\/[^\/]+\.ifeng\.com/i)!==0){  top.location=self.location;}</p>
+<p>function form9_submit() {</p>
+<p>  var form9_uname = $("form9_uname").value;</p>
+<p>  var form9_pass  = $("form9_pass").value;</p>
+<p>  if(form9_uname != "" && form9_pass != "") {</p>
+<p>    $("uname").value=form9_uname;</p>
+<p>    $("pass").value=form9_pass;</p>
+<p>    $('form1').submit();</p>
+<p>  } else {</p>
+<p>    alert("请输入用户名和密码！");</p>
+<p>    $("form9_uname").focus();</p>
+<p>    $("form9").reset();</p>
+<p>  }</p>
+<p>}</p>
+<p>function form9_show() {</p>
+<p>  $("login_form9").style.display="";</p>
+<p>  $("form9_uname").focus();</p>
+<p>}</p>
+<p>function form9_hide() {</p>
+<p>  $("login_form9").style.display="none";</p>
+<p>}</p>
+<p>function rmd_form9() {</p>
+<p>  if(sid&&sid.length>32) {</p>
+<p>    //调推荐接口</p>
+<p>    getScript_cds('http://iuser.ifeng.com/api.php?appkey=recommend&sid='+sid.substring(0,32)+encodeURIComponent(sso_username)+'&format=js&callback=userRecommend&operation=userRecommend&appid=6&fusername='+encodeURIComponent(sso_username)+'&article[url]=http://ent.ifeng.com/idolnews/special/gdgdizidajizhe/news1/detail_2012_01/12/11935105_0.shtml&article[title]='+encodeURIComponent("郭德纲受访向伤者道歉 称艺人生存现状很悲催")+'&article[posttime]=1326354593&article[summary]='+encodeURIComponent("事后郭德纲虽然表示，这次的打人事件与自己一毛钱的关系都没有，但还是向伤者表达了歉意。”　　在谈到被狗仔偷拍的经历时，郭德纲大吐苦水，称自己被这伙人跟踪偷拍长达6年之久，长期生活在被偷拍之中。"));</p>
+<p>  } else {</p>
+<p>    form9_show();</p>
+<p>  }</p>
+<p>}</p>
+<p>function userRecommend(msg) {</p>
+<p>  if(msg.status != 0) {</p>
+<p>    alert(msg.body.msg);</p>
+<p>  } else {</p>
+<p>    var cnt = parseInt($("rmd_count").value)+1;</p>
+<p>    $("rmd_d").innerHTML=cnt+"人";</p>
+<p>    $("rmd_d").title="共有"+cnt+"人推荐此文章";</p>
+<p>    V.removeListener($("rmd_f"), 'click', function(){rmd_form9();});</p>
+<p>    $("rmd_f").value = "已推荐";</p>
+<p>    $("rmd_f").style.cursor="auto";</p>
+<p>    $("rmd_f").title="";</p>
+<p>    $("rmd_d_left").style.display="";</p>
+<p>    $("rmd_d_center").style.display="";</p>
+<p>    $("rmd_d_right").style.display="";</p>
+<p>  }</p>
+<p>}</p>
+<p>//个人中心对应页面</p>
+<p>function getRecommendUserNum(msg) {</p>
+<p>  var cnt = (msg.body.num==undefined)?0:msg.body.num;</p>
+<p>  if(cnt != 0) {</p>
+<p>    $("rmd_d_left").style.display="";</p>
+<p>    $("rmd_d_center").style.display="";</p>
+<p>    $("rmd_d_right").style.display="";</p>
+<p>  }</p>
+<p>  $("rmd_d").innerHTML=cnt+"人";</p>
+<p>  $("rmd_count").value = cnt;</p>
+<p>  $("rmd_d").title="共有"+cnt+"人推荐此文章";</p>
+<p>  $("rmd_d").href="http://my.ifeng.com/?_c=recommend&_a=recommend-article&url=http://ent.ifeng.com/idolnews/special/gdgdizidajizhe/news1/detail_2012_01/12/11935105_0.shtml";</p>
+<p>  $("rmd_d").target="_blank";</p>
+<p>  $("rmd_d").style.cursor="pointer";</p>
+<p>}</p>
+<p>//调接口判断是否已推荐</p>
+<p>function isRecommend(msg) {</p>
+<p>  if(msg.status == 1) {</p>
+<p>    $("rmd_f").value = "已推荐";</p>
+<p>    $("rmd_f").style.cursor="auto";</p>
+<p>    $("rmd_f").title="";</p>
+<p>  } else {</p>
+<p>    V.addListener($("rmd_f"), 'click', function(){rmd_form9();});</p>
+<p>    $("rmd_f").title="将本文推荐给凤凰好友";</p>
+<p>    $("rmd_f").style.cursor="pointer";</p>
+<p>  }</p>
+<p>}</p>
+<p>//推荐数字</p>
+<p>getScript_cds('http://iuser.ifeng.com/api.php?appkey=recommend&operation=getRecommendUserNum&appid=6&url=http://ent.ifeng.com/idolnews/special/gdgdizidajizhe/news1/detail_2012_01/12/11935105_0.shtml&format=js&callback=getRecommendUserNum');</p>
+<p>var sso_username = '';</p>
+<p>var sid = getCookie_comment("sid");</p>
+<p>if(sid&&sid.length>32) {</p>
+<p>  sso_username=decodeURIComponent(sid.substr(32));</p>
+<p>  getScript_cds('http://iuser.ifeng.com/api.php?appkey=recommend&sid='+sid.substring(0,32)+encodeURIComponent(sso_username)+'&operation=isRecommend&appid=6&fusername='+encodeURIComponent(sso_username)+'&url=http://ent.ifeng.com/idolnews/special/gdgdizidajizhe/news1/detail_2012_01/12/11935105_0.shtml&format=js&callback=isRecommend');</p>
+<p>} else {</p>
+<p>  V.addListener($("rmd_f"), 'click', function(){rmd_form9();});</p>
+<p>  $("rmd_f").title="将本文推荐给凤凰好友";</p>
+<p>  $("rmd_f").style.cursor="pointer";</p>
+<p>}</p>
+<p>V.addListener($("form9_hide"), 'click', function(){form9_hide();});</p>
+<p>V.addListener($("form9_submit"), 'click', function(){form9_submit();});</p>
+<p>$("form9_backurl").value= "http://ent.ifeng.com/idolnews/special/gdgdizidajizhe/news1/detail_2012_01/12/11935105_0.shtml";</p>
+<p>$("form9_reg").href   = "http://my.ifeng.com/?_c=register&_a=new-account&backurl=http://ent.ifeng.com/idolnews/special/gdgdizidajizhe/news1/detail_2012_01/12/11935105_0.shtml";</p>
+<p>var Alternate_2137 = {</p>
+<p>	max:2,</p>
+<p>	current:null,</p>
+<p>	cookie_flag:null,</p>
+<p>	id:2137,</p>
+<p>	getCookie:function(N) {</p>
+<p>		var c = document.cookie.split("; ");</p>
+<p>		for(var i = 0; i < c.length; i ++) {</p>
+<p>			var d = c[i].split("=");</p>
+<p>			if(d[0] == N){	return unescape(d[1]);	}</p>
+<p>		}</p>
+<p>		return "";</p>
+<p>	},</p>
+<p>	setCookie:function(N, V, Q) {</p>
+<p>		var L = new Date();	var z = new Date(L.getTime() + Q * 60000);	var domain = '.ifeng.com';</p>
+<p>		document.cookie = N + "=" + escape(V) + ";path=/;domain=" + domain + ";expires=" + z.toGMTString() + ";"</p>
+<p>	},</p>
+<p>	getRandom:function() {</p>
+<p>		return (parseInt(Math.random()*100000) % this.max);</p>
+<p>	},</p>
+<p>	logic:function() {</p>
+<p>		var sequence = this.getCookie(this.cookie_flag);</p>
+<p>		if(typeof(sequence) === 'undefined' || sequence === '') {</p>
+<p>			this.current = this.getRandom();</p>
+<p>		} else {</p>
+<p>			this.current = sequence;</p>
+<p>		}</p>
+<p>		var sequence_next = (parseInt(this.current) + 1) % this.max;</p>
+<p>		this.setCookie(this.cookie_flag, sequence_next, 60);</p>
+<p>	},</p>
+<p>	play:function() {</p>
+<p>		var _AdHtml = document.getElementById('ArpAdPro_' + this.id + this.current).innerHTML;</p>
+<p>		_AdHtml = _AdHtml.replace('<!-- ArpAdPro_Date','').replace('ArpAdPro_Date_End -->','').replace(/{\+\+}/g,'--');</p>
+<p>		document.write(_AdHtml);</p>
+<p>	},</p>
+<p>	init:function() {</p>
+<p>		this.cookie_flag = 'IfengArp_' + this.id;</p>
+<p>		this.logic();</p>
+<p>		this.play();</p>
+<p>	}</p>
+<p>};</p>
+<p>Alternate_2137.init();</p>
+<p>var a = 'http://bc.ifeng.com/main/c?db=ifeng&bid=5821,5606,1262&cid=1385,59,1&sid=12856&advid=367&camid=1349&show=ignore&url=http://fashion.ifeng.com/biz/special/weixingfu/index.shtml';</p>
+<p>var ad = 'http://y0.ifengimg.com/mappa/2012/01/06/9df26ceec1c57af0e4fea878ccc62020.swf';</p>
+<p>var w = '336';</p>
+<p>var h = '280';</p>
+<p>(function(flash_ad, flash_a, flash_w, flash_h){</p>
+<p>	var id = "flash_click_" + Math.ceil(Math.random()*1000000);</p>
+<p>	flash_nad = '<object  width="'+flash_w+'px" height="'+flash_h+'px" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" id="flash_swf_'+id+'"><param name="wmode" value="opaque"/><param name="movie" value="'+flash_ad+'"><embed  width="'+flash_w+'px" height="'+flash_h+'px" wmode="opaque" src="'+flash_ad+'" type="application/x-shockwave-flash"></embed></object>';</p>
+<p>	document.write('<div style="clear: both; margin: 0 auto; width:'+flash_w+'px;height:'+flash_h+'px;" id="flash_outer_2_'+id+'"><div style="width:'+flash_w+'px;height:'+flash_h+'px;position:relative;" id="flash_outer_1_'+id+'">'+flash_nad+'<div style="position:absolute; top:0px; left:0px;z-index:3;"><a href="'+flash_a+'" target="_blank"><img style="width:'+flash_w+'px;height:'+flash_h+'px;border:0px" src="http://img.ifeng.com/tres/recommend/html/test/1x1.gif"></a></div></div></div><div class="clear"></div>');</p>
+<p>})(ad, a, w, h);</p>
+<p>娱乐推荐</p>
+<p> 被打者：德云社经理扇我耳光</p>
+<p>律师：谁先动手都违法 | 周立波力挺郭德纲</p>
+<p>·龙年春晚主持人推四男两女新组合 周涛缺席</p>
+<p>·赵本山带徒弟“南下” 小沈阳日薪达50万</p>
+<p>·温州商人举办婚礼 曹可凡主持林志颖献唱(图)</p>
+<p>·《潜伏》演员吉思光被以抢劫罪批捕 曾逃亡13年</p>
+<p>·48岁傅艺伟经商成亿万富婆 与19岁儿子合照曝光</p>
+<p>·2012年里如何套牢TA的心 如何躲避2012的爱情劫难</p>
+<p>.hotwords{ margin-bottom:-5px;}</p>
+<p>.hotwords .tit{ font-weight:bold; padding:5px 0;}</p>
+<p>.hotwords .tit span{float:right; font-weight:normal; color:#666;padding-right:14px;}</p>
+<p>.hotwords .tit a{color:#2b2b2b;}</p>
+<p>.hotwords .tit span a{color:#666;}</p>
+<p>.hotwords li{line-height:24px;}</p>
+<p>.hotwords li a{ padding-right:8px;}</p>
+<p>来源：百度新闻新闻热搜词</p>
+<p>  订票电话加价 武广高铁 晚点 悬赏 枪杀案嫌犯   12月CPI 淘宝商城 改名 茅台 奢侈品牌   最牛工资单 郭德纲 临时工 圣元奶粉被疑致死   春晚主持阵容 教室成危楼 郎酒广告 违规  </p>
+<p>商讯</p>
+<p>·“脂肪肝”严重影响人的寿命，如何清除脂肪肝？</p>
+<p>·心脑血管病美国人吃什么？谁说心血管病不能康复</p>
+<p>·酒醉后错把小姨当妻子--事后小姨非要嫁我！</p>
+<p>·前列腺炎尿频急小腹坠会阴痛--轻松自治不求人</p>
+<p>中医药科技成果推广</p>
+<p>·白发：拒绝染发-30天自然转黑-必看（明星视频）</p>
+<p>·痛风病-高尿酸-美国新药，权威治疗、不复发</p>
+<p>·哮喘-气管炎--权威新药，彻底治愈，杜绝反弹</p>
+<p>·牛皮顽癣-皮肤癣-牛皮顽癣-权威新药治疗抗复发</p>
+<p>·糖尿病--口服胰岛素上市--获国际重大突破！</p>
+<p>ADFHOST5493="http://bc.ifeng.com";</p>
+<p>ADFCID5493=732;</p>
+<p>ADFBID5493=5493;</p>
+<p>ADFUSER5493="http://bc.ifeng.com/c?d=ifeng-0&i=z732,347854,5493,12200&k=&p=0&v=834264266&wl=&rf=(null)&u=";</p>
+<p> </p>
+<p>新闻图片</p>
+<p>52岁钟楚红风姿依旧</p>
+<p>阮经天上厕所被拍</p>
+<p>中国体坛关不上的造假门</p>
+<p>《大魔术师》最新剧照</p>
+<p>ADFHOST5558="http://bc.ifeng.com";</p>
+<p>ADFCID5558=733;</p>
+<p>ADFBID5558=5558;</p>
+<p>ADFUSER5558="http://bc.ifeng.com/c?d=ifeng-0&i=z733,356177,5558,12345&k=&p=0&v=559814016&wl=&rf=(null)&u=";</p>
+<p>.label_3{width:320px;background:#fff;margin:9px auto 0 auto;}</p>
+<p>.label_3 ul{float:left;width:320px;height:42px;background:url(http://img.ifeng.com/page/label_2_bg.gif) repeat-y right top;}</p>
+<p>.label_3 li{float:left;width:106px;background:url(http://img.ifeng.com/page/label_3.gif) no-repeat bottom left; height:42px; font:normal 16px/42px 黑体; text-align:center;color:#416571;cursor:pointer;}</p>
+<p>.label_3 li.current{float:left;width:107px;background:url(http://img.ifeng.com/page/label_3.gif) no-repeat top left;}</p>
+<p>.label_3 li a{color:#416571;}</p>
+<p>.con3{float:left;width:292px;border:1px solid #ddd;background:#fff; padding:10px 13px; border-top:none;}</p>
+<p>.con3 img{float:left;width:290px;border:1px solid #ccc;}</p>
+<p>E人E本</p>
+<p>移动办公</p>
+<p>手写电脑</p>
+<p>var label_3_ae=new TabControl();</p>
+<p>label_3_ae.addRange($("label_3_ae_layor").getElementsByTagName("li"),["label_3_ae_1","label_3_ae_2","label_3_ae_3"]);</p>
+<p>label_3_ae.triggerType="mouseover";</p>
+<p>label_3_ae.enableSlide=true;</p>
+<p>label_3_ae.slideInterval=5000;</p>
+<p>label_3_ae.defaultPage=0;</p>
+<p>label_3_ae.init();</p>
+<p>警惕:耳鸣--耳鸣长时耳鸣警惕耳聋</p>
+<p> </p>
+<p>·女人身体三处绝不能动</p>
+<p>·少吃一粒药血压轻松降</p>
+<p>·耳鸣长时耳鸣警惕耳聋</p>
+<p>·女人揉三阴终身不变老</p>
+<p>·惊！糖尿病者远离药物</p>
+<p>·20天练就一口流利英语</p>
+<p>·糖尿病-非药物-巧降糖</p>
+<p>视频</p>
+<p>美称中国试射6枚巨浪2</p>
+<p>X37B逼近“天宫一号”</p>
+<p>美诱惑中国掐伊朗命根</p>
+<p>以色列售华贫铀弹技术</p>
+<p>48小时点击排行</p>
+<p>12581631张敏：大哥背后的女人</p>
+<p>8945972台湾嫩模陈维芊抽臀部脂肪隆胸 整容现</p>
+<p>8188593台“替身女王”大尺度穿衣 百人围观[</p>
+<p>6624224雪村妻子俞晴为公益拍大尺度写真[高清</p>
+<p>6371015张柏芝携新片录节目 现场发力抱何炅[</p>
+<p>612284651岁女星莉达-鲁斯和男友度假被拍[</p>
+<p>5803827郭德纲弟子打人现场 伤者头发被揪秃[</p>
+<p>5781318央视龙年春晚首现80后女主持 李思思</p>
+<p>var a = 'http://bc.ifeng.com/main/c?db=ifeng&bid=4531,4348,745&cid=1382,59,1&sid=10232&advid=318&camid=809&show=ignore&url=http://my.51job.com/my/trace.php?adsnum=233001&ajp=aHR0cDovL215LjUxam9iLmNvbS9jYXJlZXJwb3N0L21hcmtldGluZy9scF8yMDExL2xwXzIwMTFfNi5odG1s';</p>
+<p>var ad = 'http://y0.ifengimg.com/mappa/2012/01/12/b4087c8da701824f7123f72daeb1f351.swf';</p>
+<p>var w = '336';</p>
+<p>var h = '280';</p>
+<p>(function(flash_ad, flash_a, flash_w, flash_h){</p>
+<p>	var id = "flash_click_" + Math.ceil(Math.random()*1000000);</p>
+<p>	flash_nad = '<object  width="'+flash_w+'px" height="'+flash_h+'px" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" id="flash_swf_'+id+'"><param name="wmode" value="opaque"/><param name="movie" value="'+flash_ad+'"><embed  width="'+flash_w+'px" height="'+flash_h+'px" wmode="opaque" src="'+flash_ad+'" type="application/x-shockwave-flash"></embed></object>';</p>
+<p>	document.write('<div style="clear: both; margin: 0 auto; width:'+flash_w+'px;height:'+flash_h+'px;" id="flash_outer_2_'+id+'"><div style="width:'+flash_w+'px;height:'+flash_h+'px;position:relative;" id="flash_outer_1_'+id+'">'+flash_nad+'<div style="position:absolute; top:0px; left:0px;z-index:3;"><a href="'+flash_a+'" target="_blank"><img style="width:'+flash_w+'px;height:'+flash_h+'px;border:0px" src="http://img.ifeng.com/tres/recommend/html/test/1x1.gif"></a></div></div></div><div class="clear"></div>');</p>
+<p>})(ad, a, w, h);</p>
+<p> 女人身体三处绝不能动</p>
+<p>·女人揉三阴终身不变老</p>
+<p>·耳鸣专家提示久鸣必聋</p>
+<p>·少吃一粒药血压轻松降</p>
+<p>·糖尿病不吃药轻松降糖</p>
+<p>·女人渴望被亲吻的部位</p>
+<p>·20天练就一口流利英语</p>
+<p>·耳鸣-长时耳鸣警耳聋</p>
+<p>·女人易出轨真相大揭秘</p>
+<p>·十个动作老公永不出轨</p>
+<p>·女人很伤肾的七个习惯</p>
+<p>·惊！糖尿病者远离药物</p>
+<p>·高血压:非药安全降压</p>
+<p>糖尿病-非药物巧降糖-必看</p>
+<p>·糖尿病--巧降糖--妙招！</p>
+<p>·打呼噜--小心夜间猝死</p>
+<p>·帕金森脑萎缩国际新药</p>
+<p>·高血压--中医重大突破！</p>
+<p>·中医减肥餐--月瘦20斤！</p>
+<p>·糖尿病--口服胰岛素上市</p>
+<p>·茶王：降三高、补肝肾！</p>
+<p>·中医减肥餐每天一顿必瘦</p>
+<p>·牛皮顽癣全新干细胞疗法</p>
+<p>·糖尿病--巧降糖--必看</p>
+<p>·2012中高考必考点曝光</p>
+<p>·高血压非药物降压必看</p>
+<p>凤凰无线短信 音乐 彩铃 视频</p>
+<p>巨乳SDN48过分性感遭批</p>
+<p>孙悦雷照惊翻网友</p>
+<p>精彩MV|特色铃音|首发推荐|奇趣音效|音乐|凤凰图铃</p>
+<p>·日设情报机关·曝小S怀第三胎·逃兵成电影明星</p>
+<p>·白冰背景曝光·汪峰禁唱有隐情·周杰伦大战科比</p>
+<p>·小沈阳成名记·蛇蝎女护士杀人·梁静茹不急造人</p>
+<p>资讯</p>
+<p>新闻：大陆|国际|台湾|社会</p>
+<p>港澳|专题|图片</p>
+<p>评论：自由谈|评中评</p>
+<p>最深度|时事开讲</p>
+<p>军事：</p>
+<p>防务观察|防务写真</p>
+<p>中国军情|环球军情</p>
+<p>体育：</p>
+<p>NBA|国内足球</p>
+<p>国际足球|体育图片</p>
+<p>历史：轶闻秘档|历史映像室</p>
+<p>历史专题|民间说史</p>
+<p>文化：文化时评|文坛往事</p>
+<p>人文轶闻|文化热点</p>
+<p>教育：高考|高校库|考研</p>
+<p>公务员|深度专题</p>
+<p>财经 · 房产</p>
+<p>新闻：大中华经济|环球财经</p>
+<p>政经观察|民生视点</p>
+<p>评论：商业评论|宏观分析</p>
+<p>金融观察|凤凰专栏</p>
+<p>凤凰独家评</p>
+<p>股票：数据频道|凤凰视点</p>
+<p>股市直播|股市投资观察</p>
+<p>理财：基金|理财|银行|保险</p>
+<p>外汇|期指|期货|贵金属</p>
+<p>收藏|职场</p>
+<p>房产：资讯|政策|新房|楼市</p>
+<p>业界|评论|专题|滚动</p>
+<p>别墅豪宅|访谈|开盘</p>
+<p>打折|图库|论坛</p>
+<p>娱乐 · 时尚</p>
+<p>娱乐：明星|电影|电视|图片</p>
+<p>音乐|演出|星座</p>
+<p>趣味测试|影讯查询</p>
+<p>电影库|艺人资料库</p>
+<p>凤凰网·非常道</p>
+<p>时尚：女人|服饰|美容|减肥</p>
+<p>奢侈品|情感|新娘|图片视频|活动</p>
+<p>汽车 · 旅游</p>
+<p>汽车：资讯|业界|金融|专栏</p>
+<p>专题|购车|新车|导购</p>
+<p>行情|试驾|对比|玩车</p>
+<p>车型|图库|SUV|口碑</p>
+<p>车企|人物|车模|投诉</p>
+<p>车吧|上海车展</p>
+<p>旅游：出境游|周边游|国内游</p>
+<p>主题游|业界|达人秀</p>
+<p>购物美食|趣图|视频</p>
+<p>景点大全|旅游图赏</p>
+<p>专栏|专题|户外|论坛</p>
+<p>科技 · 健康</p>
+<p>科技：通信|3G|互联网|传媒</p>
+<p>IT业界|数码|笔记本</p>
+<p>手机|选机中心</p>
+<p>每日点评|风谈天下</p>
+<p>中外名刊|人物</p>
+<p>科技论坛|视频</p>
+<p>科技专题|探索</p>
+<p>健康：养生|食疗|心理|疾病</p>
+<p>热点|自测|论坛|导医</p>
+<p>图库|健康大视界</p>
+<p>专题|卡路里计算器</p>
+<p>视频|百科|悬赏</p>
+<p> </p>
+<p>.clear{ clear:both;}</p>
+<p>.chaFotNav ul, .chaFotNav li{ margin:0px; padding:0px;}/*100318*/</p>
+<p>.chaFotNav li{ list-style:none;}/*100318*/</p>
+<p>.chaFotNav { width:998px; border:1px #d9d9d9 solid; margin:0 auto; font-family:simsun, Arial; font-size:12px; clear:both;background:#fff;}</p>
+<p>.chaFotNav .endNList { width:772px; float:left; padding:8px 0px;}/*100325*/</p>
+<p>.chaFotNav .endNList li { padding:0px 4px 0px 5px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/zxicon_26.gif) right center no-repeat; float:left;}</p>
+<p>.chaFotNav .endNList li a { color:#2b2b2b; text-decoration:none;}</p>
+<p>.chaFotNav .endNList li a:hover{ text-decoration:underline;}</p>
+<p>.chaFotNav .navFocus { width:200px; padding:5px 0 0 0px; margin:0 0px 0 0; color:#ba2636; line-height:18px; float:right;}/*100325*/</p>
+<p>.chaFotNav .navFocus a { line-height:18px; text-decoration:none;}</p>
+<p>.chaFotNav .navFocus a:hover { text-decoration:underline;}</p>
+<p>.chaFotNav .navV a, .chaFotNav .navVIP a, .chaFotNav .ifengPlay a, .chaFotNav .tvPlay a, .chaFotNav .navWap a, .chaFotNav .navTmp a { color:#ba2636; }</p>
+<p>.chaFotNav .navV { width:37px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_14.gif) no-repeat 1px 4px; padding:0 0 0 17px; float:left }</p>
+<p>.chaFotNav .navTmp { width:37px; float: left; }/*100325*/</p>
+<p>/*.chaFotNav .navVIP { width:42px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_09.gif) no-repeat 24px 3px; float:left }*/</p>
+<p>.chaFotNav .ifengPlay { width: 37px; float: left; }/*100325*/</p>
+<p>.chaFotNav .tvPlay { width:55px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_17.gif) no-repeat 0px 3px; padding:0 0 0 15px; float:left }</p>
+<p>.chaFotNav .navWap { width:30px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_06.gif) no-repeat 0px 2px; padding:0 0 0 11px; float:left }</p>
+<p>.chaFotNav .nextTop { width:40px; height:20px; padding:7px 0 0 3px; border-left:1px #d9d9d9 solid; float:left }</p>
+<p>.chaFotNav02 { width:1000px; height:21px; margin:0 auto; background:#fff url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/icon02_04.gif) repeat-x bottom;  font-size:0px; line-height:0px; clear:both }</p>
+<p>.chaFooter{ color:#000; width:1000px; height:72px; margin:0 auto; clear:both; text-align:center; line-height:24px; font-family:Arial, simsun; font-size:12px;background:#fff; padding-top:8px;}</p>
+<p>.chaFooter a{ color:#000; text-decoration:none;}</p>
+<p>.chaFooter a:hover{ color:#000; text-decoration:underline;}</p>
+<p>.chaFooter .footLink{ line-height:22px;}/*100318*/</p>
+<p>.chaFooter .footLink a{ padding:0px 8px;}</p>
+<p>.chaFooter .copyright{ color:#000; line-height:22px;}/*100318*/</p>
+<p>首页</p>
+<p>资讯</p>
+<p>台湾</p>
+<p>评论</p>
+<p>财经</p>
+<p>汽车</p>
+<p>科技</p>
+<p>房产</p>
+<p>旅游</p>
+<p>娱乐</p>
+<p>时尚</p>
+<p>体育</p>
+<p>军事</p>
+<p>历史</p>
+<p>读书</p>
+<p>教育</p>
+<p>健康</p>
+<p>亲子</p>
+<p>游戏</p>
+<p>城市</p>
+<p>论坛</p>
+<p>博报</p>
+<p>微博</p>
+<p>视频·</p>
+<p>纪实·</p>
+<p>直播</p>
+<p>凤凰卫视</p>
+<p> 凤凰新媒体介绍|投资者关系 Investor Relations|广告服务|诚征英才|保护隐私权|免责条款|法律顾问|意见反馈|凤凰卫视介绍 </p>
+<p> 凤凰新媒体 版权所有</p>
+<p>		Copyright © 2011 Phoenix New Media Limited All Rights Reserved. </p>
+<p>var IfengAdCookie = {</p>
+<p>author:"JingWu",</p>
+<p>version:"0.0.1",</p>
+<p>tmp:{},</p>
+<p>set:function(param) {</p>
+<p>if(typeof(param) === 'undefined' || typeof(param.name) === 'undefined' || typeof(param.value) === 'undefined') {</p>
+<p>alert('参数有误，请返回修改! ex:{\'name\':,\'value\':,\'time\':}');</p>
+<p>return false;</p>
+<p>}</p>
+<p>if(typeof(param.time) === 'undefined') {</p>
+<p>var now = new Date();</p>
+<p>var date = new Date(now.getFullYear(), (now.getMonth() + 1), now.getDate(), 23, 59, 59);</p>
+<p>} else {</p>
+<p>var date = new Date(param.time);</p>
+<p>}</p>
+<p>document.cookie = param.name + "=" + escape(param.value) + ";path=/;expires=" + date.toGMTString() + ";"</p>
+<p>},</p>
+<p>get:function(param) {</p>
+<p>if(typeof(param) === 'undefined' || typeof(param.name) === 'undefined') {</p>
+<p>alert('参数有误，请返回修改! ex:{\'name\':}');</p>
+<p>return false;</p>
+<p>}</p>
+<p>var c = document.cookie.split("; ");</p>
+<p>for(var i = 0; i < c.length; i ++) {</p>
+<p>var d = c[i].split("=");</p>
+<p>if(d[0] == param.name) {</p>
+<p>return unescape(d[1]);</p>
+<p>}</p>
+<p>}</p>
+<p>return "";</p>
+<p>}</p>
+<p>};</p>
+<p>var IfengAdAlternate = {</p>
+<p>version:'0.0.1',</p>
+<p>author:'JingWu',</p>
+<p>tmp:{},</p>
+<p>stock:{},</p>
+<p>play:function() {</p>
+<p>if(this.checkParam()) {</p>
+<p>} else {</p>
+<p>return false;</p>
+<p>}</p>
+<p>this.init_stock();</p>
+<p>this.install();</p>
+<p>},</p>
+<p>checkParam:function() {</p>
+<p>var param = this.stock[this.tmp.id];</p>
+<p>var len = this.stock[this.tmp.id].length;</p>
+<p>for(var i=0; i<len; i++) {</p>
+<p>if(typeof(param[i]) == 'undefined' ) {</p>
+<p>continue;</p>
+<p>}</p>
+<p>if( param[i].length == 4 ){</p>
+<p>if( (param[i][0] === '') ) {</p>
+<p>alert('广告代码参数有误，在第 ' + i + ' 个广告，第 1 个参数');</p>
+<p>return false;</p>
+<p>}</p>
+<p>if( param[i][1] === '' || isNaN(param[i][1]) ) {</p>
+<p>alert('广告代码参数有误，在第 ' + i + ' 个广告，第 2 个参数');</p>
+<p>return false;</p>
+<p>}</p>
+<p>if( param[i][2] === true || param[i][2] === false ) {</p>
+<p>} else {</p>
+<p>alert('广告代码参数有误，在第 ' + i + ' 个广告，第 3 个参数');</p>
+<p>return false;</p>
+<p>}</p>
+<p>if( param[i][3] === '' ) {</p>
+<p>alert('广告代码参数有误，在第 ' + i + ' 个广告，第 4 个参数');</p>
+<p>return false;</p>
+<p>}</p>
+<p>} else {</p>
+<p>alert('第 ' + i + ' 个广告参数不全');</p>
+<p>return false;</p>
+<p>}</p>
+<p>}</p>
+<p>return true;</p>
+<p>},</p>
+<p>checkInstall:function() {</p>
+<p>if(typeof(IfengAdAlternate.tmp.checkInstall) == 'undefined') {</p>
+<p>IfengAdAlternate.tmp.checkInstall = 0;</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript" type="text/javascript" src="http://img.ifeng.com/tres/html/birangtest/checkInstall.js\">'+'</'+'script>');</p>
+<p>},</p>
+<p>install:function() {</p>
+<p>IfengAdAlternate.tmp.checkInstall = 0;</p>
+<p>var current_ad = this.getSequence();</p>
+<p>if(current_ad === 'complete') {</p>
+<p>return true;</p>
+<p>} else {</p>
+<p>document.write(current_ad[0]);</p>
+<p>this.tmp.current = current_ad; // 将当前播放的广告放入当前页面的临时变量</p>
+<p>this.checkInstall();</p>
+<p>}</p>
+<p>},</p>
+<p>installSucess:function() {</p>
+<p>return true;</p>
+<p>},</p>
+<p>installFail:function() {</p>
+<p>if(IfengAdAlternate.stock[IfengAdAlternate.tmp.id].length == 1) {</p>
+<p>return true;</p>
+<p>}</p>
+<p>IfengAdAlternate.tmp.checkInstall = 0;</p>
+<p>IfengAdAlternate.install();</p>
+<p>},</p>
+<p>cookie_flag:function() {</p>
+<p>var flag_cookie = "";</p>
+<p>var domain = document.domain.substr(0, (document.domain.length-10));</p>
+<p>var href = document.location.href;</p>
+<p>var start = href.lastIndexOf("/") + 1;</p>
+<p>var end = href.lastIndexOf(".");</p>
+<p>href = href.substr(start, end-start);</p>
+<p>flag_cookie = domain + href;</p>
+<p>return 'IfengAA_' + flag_cookie;</p>
+<p>},</p>
+<p>getSequence:function() {</p>
+<p>var len_current_level = 0;</p>
+<p>var cookie_arr = new Array();</p>
+<p>var next_level = 0;</p>
+<p>var level = 0;</p>
+<p>IfengAdAlternate.tmp.complete = IfengAdAlternate.tmp.complete + 1;</p>
+<p>// 获取 cookie </p>
+<p>var cookieFlag = IfengAdAlternate.cookie_flag();</p>
+<p>var cookie = IfengAdCookie.get({'name': cookieFlag + IfengAdAlternate.tmp.id});</p>
+<p>// 判断需要播放的广告</p>
+<p>if(cookie == '') {</p>
+<p>len_current_level = IfengAdAlternate.tmp.level_list[IfengAdAlternate.tmp.level_arr[0]].length;</p>
+<p>if(len_current_level == 1) { // 只有一个广告</p>
+<p>cookie_arr = [0, 0, 1];</p>
+<p>} else {</p>
+<p>cookie_arr = [0, IfengAdAlternate.random(len_current_level), 1];</p>
+<p>}</p>
+<p>} else {</p>
+<p>cookie_arr = cookie.split('_');</p>
+<p>level = IfengAdAlternate.tmp.level_arr[cookie_arr[0]];</p>
+<p>len_current_level = IfengAdAlternate.tmp.level_list[level].length;</p>
+<p>if(cookie_arr[2] >= len_current_level) {</p>
+<p>// 当前级别广告是否播放完成</p>
+<p>if(cookie_arr[0] >= IfengAdAlternate.tmp.level_arr.length-1) {</p>
+<p>// 广告轮播完成，重新开始轮播</p>
+<p>len_first_level = IfengAdAlternate.tmp.level_list[IfengAdAlternate.tmp.level_arr[0]].length;</p>
+<p>if(len_first_level == 1) { // 只有一个广告</p>
+<p>cookie_arr = [0, 0, 1];</p>
+<p>} else {</p>
+<p>cookie_arr = [0, IfengAdAlternate.random(len_first_level), 1];</p>
+<p>}</p>
+<p>} else {</p>
+<p>// 播放下一级别广告</p>
+<p>next_level = IfengAdAlternate.tmp.level_arr[parseInt(cookie_arr[0])+1];</p>
+<p>len_next_level = IfengAdAlternate.tmp.level_list[next_level].length;</p>
+<p>if(len_next_level == 1) { // 只有一个广告</p>
+<p>cookie_arr = [parseInt(cookie_arr[0])+1, 0, 1];</p>
+<p>} else {</p>
+<p>cookie_arr = [parseInt(cookie_arr[0])+1, IfengAdAlternate.random(len_next_level), 1];</p>
+<p>}</p>
+<p>}</p>
+<p>} else {</p>
+<p>if(cookie_arr[1] >= len_current_level-1) {</p>
+<p>cookie_arr = [cookie_arr[0], 0, parseInt(cookie_arr[2])+1];</p>
+<p>} else {</p>
+<p>cookie_arr = [cookie_arr[0], parseInt(cookie_arr[1]) + 1, parseInt(cookie_arr[2])+1];</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>IfengAdCookie.set({'name':cookieFlag + IfengAdAlternate.tmp.id, 'value': cookie_arr[0] + '_' + cookie_arr[1] + '_' + cookie_arr[2]});</p>
+<p>if(IfengAdAlternate.tmp.complete >= 10) {</p>
+<p>return 'complete';</p>
+<p>} else {</p>
+<p>level = this.tmp.level_arr[cookie_arr[0]];</p>
+<p>return this.tmp.level_list[level][cookie_arr[1]];</p>
+<p>}</p>
+<p>},</p>
+<p>random:function(len) {</p>
+<p>return (parseInt(Math.random()*100000) % len);</p>
+<p>},</p>
+<p>init_stock:function() {</p>
+<p>var list = this.stock[this.tmp.id];</p>
+<p>var len = list.length;</p>
+<p>var len_list=0;</p>
+<p>var level=0;</p>
+<p>var level_arr = new Array();</p>
+<p>var level_list = new Array();</p>
+<p>// 序列存储对原始数据的要求为：按等级顺序排列</p>
+<p>for(var i=0; i<len; i++) {</p>
+<p>level = list[i][1]; // 获取广告级别</p>
+<p>if(level_arr[level_arr.length-1] == level) { // 广告级别已存在，将广告放入同级别数组中</p>
+<p>len_list = level_list[level].length;</p>
+<p>level_list[level][len_list] = list[i];</p>
+<p>} else { // 新的广告级别</p>
+<p>level_arr[level_arr.length] = level;</p>
+<p>level_list[level] = [list[i]];</p>
+<p>}</p>
+<p>}</p>
+<p>IfengAdAlternate.tmp.level_arr = level_arr;</p>
+<p>IfengAdAlternate.tmp.level_list = level_list;</p>
+<p>},</p>
+<p>init:function(param) {</p>
+<p>this.tmp.id = param.id;</p>
+<p>this.tmp.complete = 0;</p>
+<p>this.stock[param.id] = param.list;</p>
+<p>this.play();</p>
+<p>}</p>
+<p>};</p>
+<p>var Alternate_inner={</p>
+<p>id:'fashion',</p>
+<p>list:[</p>
+<p>['<scr'+'ipt language="javascript" type="text/javascript" src="http://sc.ifeng.com/js.ng/level=content&location=2&site=ifeng&type=ifocus\">'+'</'+'script>',1,true,"_IFOCUS_CONTROL_"],</p>
+<p>['<scr'+'ipt language="javascript" type="text/javascript" src="http://static.acs86.com/ifeng/41385.js\">'+'</'+'script>',2,true,"_ACS86_ENABLE_41385_"],</p>
+<p>['<scr'+'ipt language="javascript" type="text/javascript" src="http://img.ifeng.com/tres/html/birangtest/adsame.js\">'+'</'+'script>',2,true,"_ADSAME_CONTROL_"],</p>
+<p>['<scr'+'ipt language="javascript" type="text/javascript" src="http://img.ifeng.com/tres/recommend/cpro/quantone/2010/10/101030/101030-SmartMedia-ent.js\">'+'</'+'script>',2,true,"_SMARTMEDIA_3327886665615566_CTRL_"]</p>
+<p>]</p>
+<p>};</p>
+<p>IfengAdAlternate.init(Alternate_inner);</p>
+<p>if(sid&&sid.length>32){</p>
+<p>    sso_username=decodeURIComponent(sid.substr(32));</p>
+<p>    cmtUserLogin('cmt');</p>
+<p>}else{</p>
+<p>    $("cmtBackUrl").value=docUrl;</p>
+<p>    renrenlogin();</p>
+<p>}</p>

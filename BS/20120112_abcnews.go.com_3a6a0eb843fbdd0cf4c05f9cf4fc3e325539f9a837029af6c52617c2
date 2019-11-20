@@ -1,0 +1,1127 @@
+<p>Allergic Girl Who Died at School Got Peanut From Another Child - ABC News</p>
+<p>(function() </p>
+<p>{var po = document.createElement("script");</p>
+<p>po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";</p>
+<p>var s = document.getElementsByTagName("script")[0];</p>
+<p>s.parentNode.insertBefore(po, s);</p>
+<p>})();</p>
+<p>window.searchBaseUrl = '';</p>
+<p>var agentStr=navigator.userAgent.toLowerCase();</p>
+<p>if(agentStr.indexOf('mac')!=-1){</p>
+<p>	document.write('<link type="text/css" rel="stylesheet" media="screen, print" href="http://a.abcnews.com/assets/css/mac.css?v=5.54" />');</p>
+<p>}</p>
+<p>tq = new Object();</p>
+<p>/*** AD CALL ***/</p>
+<p>tq.path = '/BodyMind/DiseasesConditions/Allergies/story/';</p>
+<p>tq.keywords = ((tq.keywords)&&(tq.keywords!=''))?tq.keywords+'':'';</p>
+<p>tq.show = 'WN';</p>
+<p>tq.recipes = '';</p>
+<p>tq.id = '15341841';</p>
+<p>tq.section = 'health';</p>
+<p>tq.realsection = 'health';</p>
+<p>tq.subsection = 'allergiesfood';</p>
+<p>tq.altsection = 'wn';</p>
+<p>tq.objType = 'story';</p>
+<p>tq.byline = 'katie moisse';</p>
+<p>tq.othersubs = '';</p>
+<p> var digAdData; var digRequestAds = function(){}; var digGetAd = function(){};</p>
+<p>if(tq.path){</p>
+<p>	tq.urlTargetPath = (tq.path)?tq.path:window.location.pathname;</p>
+<p>	tq.urlTargetPath = (tq.urlTargetPath == '/')?'/index':tq.urlTargetPath;</p>
+<p>	tq.urlKeywords = (tq.keywords)?tq.keywords:'';</p>
+<p>	tq.urlRecipes = (tq.recipes)?tq.recipes:'';</p>
+<p>	tq.urlShow = (tq.show)?tq.show:'';</p>
+<p>	tq.urlFullQuery = '&tqkw='+encodeURI(tq.urlKeywords)+'&tqshow='+encodeURI(tq.urlShow)+encodeURI(tq.urlRecipes)+'&url='+encodeURI(tq.urlTargetPath);</p>
+<p>}else{</p>
+<p>	tq.urlFullQuery = '&url='+encodeURI(window.location.pathname);</p>
+<p>}</p>
+<p>var csarUrl = "http://abcnews.csar.go.com/DynamicCSAd?srvc=nws&itype=FPBranding&itype=Banner&itype=HalfBanner&itype=SponsoredByLogo&itype=Rectangle&itype=PromoBox&itype=PromoBox2&itype=Text-1&itype=PopUnder&itype=Survey&itype=OverPage&itype=RevenueScience"+tq.urlFullQuery;</p>
+<p>var paramD = "?"; var regexS = "[\?&]test=([^&#]*)"; var regex = new RegExp(regexS); var resultsT = regex.exec(window.location.href); if(resultsT != null) csarUrl += paramD + "test="+ resultsT[1];</p>
+<p>var cntCodes = "story";</p>
+<p>digRequestAds(csarUrl, true, cntCodes);</p>
+<p>digGetAd("FPBranding");</p>
+<p>digGetAd("Banner");</p>
+<p>Hot Topics: Khloe Kardashian•50 Cent•Sarah Burke</p>
+<p>$(function() {</p>
+<p>    $(".searchtext-new").focus(function() {</p>
+<p>        $(this).filter(function() {</p>
+<p>            // We only want this to apply if there's not</p>
+<p>            // something actually entered</p>
+<p>            return $(this).val() == "" || $(this).val() == "Search"</p>
+<p>        }).removeClass("watermarkOn").val("");</p>
+<p>    });</p>
+<p>    $(".searchtext-new").blur(function() {</p>
+<p>        $(this).filter(function() {</p>
+<p>            // We only want this to apply if there's not</p>
+<p>            // something actually entered</p>
+<p>            return $(this).val() == ""</p>
+<p>        }).addClass("watermarkOn").val("Search");</p>
+<p>    });</p>
+<p>});</p>
+<p>Home</p>
+<p>Video</p>
+<p>Blogs</p>
+<p>News</p>
+<p>Politics</p>
+<p>Investigative</p>
+<p>Health</p>
+<p>Entertainment</p>
+<p>Money</p>
+<p>Tech</p>
+<p>Good Morning America</p>
+<p>20/20</p>
+<p>This Week</p>
+<p>Nightline</p>
+<p>World News</p>
+<p>More Health:  Dr. Richard BesserCold & FluAlzheimer'sDiabetesMen's HealthWomen's HealthPain ManagementSleepWellnessGlobal HealthSaveOne.net</p>
+<p>		 // <![CDATA[</p>
+<p>				subNavList = new Playlist('subNav');</p>
+<p>				subNavMan = new UrlPlaylistManager(subNavList);</p>
+<p>				subNavMan.pane = new Pane("siteSubNav");</p>
+<p>				subNavMan.activeClass="navOver";</p>
+<p>				subNavMan.inactiveClass="navOff";</p>
+<p>				subNavMan.pane.scrape('/sectionSubNav?id=7238407&section=health&urlBase=null');</p>
+<p>				subNavATimer = null;</p>
+<p>				subNavDTimer = null;</p>
+<p>				subNavActive=false;</p>
+<p>				</p>
+<p>									subNavMan.addItem("section","/sectionSubNav?id=7238216&section=&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionvideo","/sectionSubNav?id=9163734&section=video&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionblogs","/sectionSubNav?id=14627243&section=blogs&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionnews","/sectionSubNav?id=7238314&section=news&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionpolitics","/sectionSubNav?id=7238258&section=politics&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionblotter","/sectionSubNav?id=7238440&section=blotter&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionhealth","/sectionSubNav?id=7238407&section=health&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionentertainment","/sectionSubNav?id=7238287&section=entertainment&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionbusiness","/sectionSubNav?id=7238288&section=business&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectiontechnology","/sectionSubNav?id=7238235&section=technology&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectiongma","/sectionSubNav?id=7238218&section=gma&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("section2020","/sectionSubNav?id=7238690&section=2020&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionthisweek","/sectionSubNav?id=7238730&section=thisweek&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionnightline","/sectionSubNav?id=7238712&section=nightline&urlBase=null");</p>
+<p>									</p>
+<p>									subNavMan.addItem("sectionwn","/sectionSubNav?id=7238664&section=wn&urlBase=null");</p>
+<p>									</p>
+<p>			subNavReset = function(){</p>
+<p>				subNavMan.playlist.gotoItem("sectionhealth");</p>
+<p>				subNavDTimer=null;</p>
+<p>				subNavActive = false;</p>
+<p>			};</p>
+<p>			subNavReset();</p>
+<p>			subNavMouseOut = function(){</p>
+<p>				if(subNavATimer != null){</p>
+<p>					window.clearTimeout(subNavATimer);</p>
+<p>				}</p>
+<p>				if(subNavDTimer==null){</p>
+<p>					subNavDTimer = window.setTimeout(subNavReset,1000);</p>
+<p>				}</p>
+<p>			};</p>
+<p>			subNavMouseOver=function(){</p>
+<p>				if(subNavDTimer!=null){</p>
+<p>					window.clearTimeout(subNavDTimer);</p>
+<p>					subNavDTimer=null;</p>
+<p>				}</p>
+<p>			};</p>
+<p>			subNavGoto = function(obj){</p>
+<p>				subNavMouseOver();</p>
+<p>				var o = obj;</p>
+<p>				var time = subNavActive ? 150:300;</p>
+<p>				if(subNavATimer != null){</p>
+<p>					window.clearTimeout(subNavATimer);</p>
+<p>					subNavATimer = null;</p>
+<p>				}</p>
+<p>				subNavATimer = window.setTimeout(function(){</p>
+<p>					subNavActive = true;</p>
+<p>					subNavList.gotoItem(o.id);</p>
+<p>					o=null;</p>
+<p>				},time);</p>
+<p>				subNavList.prepare(o.id);</p>
+<p>			}</p>
+<p>			subNavMan.pane.addMouseOut(subNavMouseOut);</p>
+<p>			subNavMan.pane.addMouseOver(subNavMouseOver);</p>
+<p>			// ]]></p>
+<p>		 </p>
+<p>var _sf_startpt=(new Date()).getTime();</p>
+<p> var addthis_share =</p>
+<p>{</p>
+<p>	url: 'http://abcnews.go.com/Health/AllergiesFood/allergic-girl-died-school-peanut-child/story?id=15341841', //override window url</p>
+<p>	title: '', //override window title</p>
+<p>	description: '', //optional</p>
+<p>	templates: {</p>
+<p>    	twitter: '{{title}} {{url}} (via @ABC)'</p>
+<p>    },</p>
+<p>	url_transforms : {</p>
+<p>		shorten: {</p>
+<p>			twitter: 'bitly'</p>
+<p>		}</p>
+<p>	},</p>
+<p>	shorteners : {</p>
+<p>		bitly : {</p>
+<p>			login: 'abcnewsdotcom',</p>
+<p>			apiKey: 'R_d4cafa374645b367f59563f4d327ebed'</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>Home> Health>Index: Food Allergies</p>
+<p>Allergic Girl Who Died at School Got Peanut From Another Child</p>
+<p>						By  KATIE MOISSE (@katiemoisse) </p>
+<p>					</p>
+<p>Jan. 11, 2012</p>
+<p>videoPhotoCaption = '';</p>
+<p> </p>
+<p>Ammaria Johnson, 7, died after suffering an allergic reaction during recess at her Chesterfield County elementary school.  (ABC News)</p>
+<p>videoPhotoCaption = '\n                        \t<div id=\"caption_video\" class=\"caption_video\">\n\t\t\t\t\t\t\t\t<div id=\"main_cap_short\">\n\t\t\t\t\t\t\t\t\t<div class=\"caption\">Ammaria Johnson, 7, died after suffering an allergic reaction during recess at her Chesterfield County elementary school.  <span class=\"caption_credit\">(ABC News)<\/span><\/div> \n\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t';</p>
+<p>userPref = new Object();</p>
+<p>userPref.getAutoStart = function(){</p>
+<p>    asCookie = readCookie("upautostart");</p>
+<p>    asCookieVal = (asCookie)?asCookie:'true';</p>
+<p>    asCookieVal = (asCookieVal.charAt(0) == 't')?'true':'false';</p>
+<p>    return asCookieVal;</p>
+<p>}</p>
+<p>userPref.setAutoStart = function(state){</p>
+<p>    stateStr = state+'';</p>
+<p>    createCookie("upautostart", stateStr,1000);</p>
+<p>    userPref.renderAutoStartControls();</p>
+<p>}</p>
+<p>userPref.renderAutoStartControls = function(){</p>
+<p>    ascObj = document.getElementById('autostartcontrols');</p>
+<p>    if(ascObj){</p>
+<p>        ascntrlStr = (userPref.getAutoStart() == 'false')?'Auto Start: <a href="#" onclick="userPref.setAutoStart(true);return false;">On</a> <span> | </span> Off':'Auto Start: On <span> | </span> <a href="#" onclick="userPref.setAutoStart(false);return false;">Off</a>';</p>
+<p>        ascObj.innerHTML = ascntrlStr;</p>
+<p>    }</p>
+<p>}</p>
+<p>userPref.autoStart = userPref.getAutoStart();</p>
+<p>addOnload(userPref.renderAutoStartControls());</p>
+<p>baseURL = 'http://a.abcnews.com/assets';</p>
+<p>pageId = '15341841';</p>
+<p>playlistIds = '15297688~13887479~13376920~7095049'</p>
+<p>kalturaIds = '0_t5bpc4yk~0_xeqf7rop~0_b71hfnup~0_8h7nrfku'</p>
+<p>adPattern = 'AC';</p>
+<p>videoAutoStart = userPref.autoStart;</p>
+<p>currLeftRailId = false;</p>
+<p>leftRailVideoOpen = false;</p>
+<p>videoTitle = 'Virginia Girl Dies After Allergic Reaction';</p>
+<p>titleList = new Array();</p>
+<p>             titleList[0] = 'Virginia Girl Dies After Allergic Reaction';</p>
+<p>         </p>
+<p>             titleList[1] = 'Food Allergies in Kids';</p>
+<p>         </p>
+<p>             titleList[2] = 'New Peanut Allergy Test ';</p>
+<p>         </p>
+<p>             titleList[3] = 'Fighting Food Allergies With Food ';</p>
+<p>         </p>
+<p>window.playlist = new Object();</p>
+<p>window.playlist['0_t5bpc4yk'] = '/Health/video/virginia-girl-dies-after-allergic-reaction-15297688';</p>
+<p>window.playlist['adContext-15297688'] = '';</p>
+<p>window.playlist['adContext-0_t5bpc4yk'] = '';</p>
+<p>window.playlist['share-15297688'] = 'true';</p>
+<p>window.playlist['0_xeqf7rop'] = '/Health/video/food-allergies-kids-13887479';</p>
+<p>window.playlist['adContext-13887479'] = '';</p>
+<p>window.playlist['adContext-0_xeqf7rop'] = '';</p>
+<p>window.playlist['share-13887479'] = 'true';</p>
+<p>window.playlist['0_b71hfnup'] = '/Health/video/peanut-allergy-test-kids-children-health-tips-parenting-allergies-food-13376920';</p>
+<p>window.playlist['adContext-13376920'] = '';</p>
+<p>window.playlist['adContext-0_b71hfnup'] = '';</p>
+<p>window.playlist['share-13376920'] = 'true';</p>
+<p>window.playlist['0_8h7nrfku'] = '/Health/video?id=7095049';</p>
+<p>window.playlist['adContext-7095049'] = '';</p>
+<p>window.playlist['adContext-0_8h7nrfku'] = '';</p>
+<p>window.playlist['share-7095049'] = 'true';</p>
+<p>window.playlist['keys'] = new Array('0_t5bpc4yk','0_xeqf7rop','0_b71hfnup','0_8h7nrfku');</p>
+<p>window.playlist['conEdkeys'] = new Array('15297688','13887479','13376920','7095049');</p>
+<p>abcnws_fw_params = {siteSectionId: 'nws_health', siteSectionIdType: 0, siteSectionNetworkId: 168234, siteSectionFallbackId: 109523, customVisitor:'', keyValues:'subsection=allergiesfood&pageType=story'}; pc.fwSeg();pc.fwAppendKeyValues('show=');pc.getSWID();pc.subsectionOverride();</p>
+<p>function fw_config(){return abcnws_fw_params;}if (tq.videoOverrideContext != null) {</p>
+<p>				jsvideoViewEventProp16Value = tq.videoOverrideContext;</p>
+<p>			} else {</p>
+<p>				jsvideoViewEventProp16Value = "none";</p>
+<p>			}</p>
+<p>			if (jsvideoViewEventProp16Value == "none") { jsvideoViewEventProp16Value = ""; }</p>
+<p>			jsvideoViewEventEvar20Value = jsvideoViewEventProp16Value;</p>
+<p>			</p>
+<p>			kdp_embed_default = {</p>
+<p>				doKdpEmbed  : function() {</p>
+<p>					// Should only be changed if you are running Kaltura On Prem / Kaltura CE:</p>
+<p>					var service_url = "http://cdnapi.kaltura.com/";</p>
+<p>					// logic cascade for deciding which entry to load</p>
+<p>					var entry_id = this.getEntryIdFromUrl() || this.getEntryIdFromDataAttr() || this.fallback_entry;</p>
+<p>					flashembed(this.placeholder_id,</p>
+<p>							{	// attributes and params:</p>
+<p>								id :				"kaltura_player_default",</p>
+<p>								src : 				service_url + "/index.php/kwidget/wid/_" + kdp_embed_default.partner_id + </p>
+<p>													"/uiconf_id/" + kdp_embed_default.uiconf_id + "/entry_id/" + entry_id,</p>
+<p>								height :			361,</p>
+<p>								width :				640,</p>
+<p>								bgcolor :			"#000000",</p>
+<p>								allowNetworking : 	"all",</p>
+<p>								version :			[10,0],</p>
+<p>								expressInstall :	"http://cdn.kaltura.org/apis/seo/expressinstall.swf",</p>
+<p>								wmode: "transparent"</p>
+<p>							},</p>
+<p>							{	// flashvars (double-quote the values)</p>
+<p>								externalInterfaceDisabled : "false",</p>
+<p>								jsInterfaceReadyFunc :		"jsInterfaceReady",</p>
+<p>								contentType: "video",</p>
+<p>								//"restrictUserAgent.restrictedUserAgents": "GoogleTV",</p>
+<p>								referer : "http://abcnews.go.com/Health/video/virginia-girl-dies-after-allergic-reaction-15297688",</p>
+<p>								"omniture.videoViewEventEvar15Value" : "player|storypage",</p>
+<p>								"omniture.videoViewEventProp18Value" : "player|storypage",</p>
+<p>								"omniture.videoViewEventProp16Value" : jsvideoViewEventProp16Value,</p>
+<p>								"omniture.videoViewEventEvar20Value" : jsvideoViewEventEvar20Value,</p>
+<p>								"omniture.adStartEvar15Value" : "player|storypage",</p>
+<p>								"omniture.adStartEvar20Value" : jsvideoViewEventEvar20Value,</p>
+<p>								</p>
+<p>								noThumbnail: true,</p>
+<p>								"abcnews.displayEndCard":false,</p>
+<p>								"shareBtnControllerScreen.enabled" : "true",</p>
+<p>							</p>
+<p>								//"video.stretchThumbnail":true,</p>
+<p>								//"volumeBar.initialValue":0.75,</p>
+<p>								//"volumeBar.forceInitialValue":true,</p>
+<p>								debugMode: true</p>
+<p>								</p>
+<p>							}</p>
+<p>					)</p>
+<p>				},</p>
+<p>				onFail : function() {</p>
+<p>					alert("FLASH EMBEDDING FAILED");</p>
+<p>				},</p>
+<p>				getEntryIdFromUrl : function() {</p>
+<p>					if(location.hash.indexOf(kdp_embed_default.url_param_name) != -1) {</p>
+<p>						// get the entry id from the url document fragment (aka hash):</p>
+<p>						return location.hash.split("#")[1].substring((kdp_embed_default.url_param_name.length+1));</p>
+<p>					}</p>
+<p>					else if(location.search.indexOf(kdp_embed_default.url_param_name) != -1) {</p>
+<p>						// get the entry id from the url parameters (aka querystring):</p>
+<p>						return location.search.split("?")[1].substring((kdp_embed_default.url_param_name.length+1));</p>
+<p>					}</p>
+<p>					else {</p>
+<p>						// use the default video defined in "fallback_entry" below:</p>
+<p>//						return kdp_embed_default.fallback_entry;</p>
+<p>						return false;</p>
+<p>					}</p>
+<p>				},</p>
+<p>				getEntryIdFromDataAttr : function() {</p>
+<p>					var data_attr_val = document.getElementById(this.placeholder_id).getAttribute("data-entryid");</p>
+<p>					if(data_attr_val && !(data_attr_val < 1)) {</p>
+<p>						return data_attr_val;</p>
+<p>					}</p>
+<p>					else return false;</p>
+<p>				},</p>
+<p>				on_playerReady : function() {</p>
+<p>					</p>
+<p>				},</p>
+<p>				on_load : function() {</p>
+<p>					</p>
+<p>				},</p>
+<p>				on_play : function() {</p>
+<p>					pc.setClipAtts({});</p>
+<p>				},</p>
+<p>				on_paused : function() {</p>
+<p>					</p>
+<p>				},</p>
+<p>				on_end : function() {</p>
+<p>					playNextVideo();</p>
+<p>				},</p>
+<p>				on_adStart : function() {</p>
+<p>					positionAd();</p>
+<p>				},</p>
+<p>				on_adEnd : function() {</p>
+<p>					resetAd();</p>
+<p>				},</p>
+<p>				on_mediaReady : function() {</p>
+<p>					//pc.checkVolume();</p>
+<p>					storyPlayer.ready();</p>
+<p>				},</p>
+<p>				on_volumeChanged : function(data) {</p>
+<p>					//console.log(' ********** reset cookie = '+data.newVolume+' ************ ');</p>
+<p>					//pc.setVolume(data.newVolume);</p>
+<p>					</p>
+<p>				},</p>
+<p>				</p>
+<p>				// for supporting using of page as landing page with entry id passed as url parameter:</p>
+<p>				url_param_name : 	"entryId",</p>
+<p>				placeholder_id :	"mediaplayer",</p>
+<p>				fallback_entry : 	"0_t5bpc4yk",</p>
+<p>				//fallback_entry : 	"1_45xhfpgk",</p>
+<p>				partner_id : 		483511,</p>
+<p>				uiconf_id : 		3775332,</p>
+<p>				auto_play :			false,</p>
+<p>				height :			"100%",</p>
+<p>				width : 			"100%",</p>
+<p>				playButton :	false,</p>
+<p>				endCard :  false</p>
+<p>			}</p>
+<p>			// embed the player:</p>
+<p>			kdp_embed_default.doKdpEmbed();</p>
+<p>			function jsInterfaceReady() {</p>
+<p>				return true;</p>
+<p>			}</p>
+<p>			function jsCallbackReady(player_id) {</p>
+<p>				// create a (global) reference to the KDP so we don't have to repeat querying the dom.</p>
+<p>				// we use the "window." prefix as a convention to point out that this var is global</p>
+<p>				window.kdp = document.getElementById(player_id);</p>
+<p>				// @todo: this will fail if kdp_embed has not yet been defined</p>
+<p>				</p>
+<p>				</p>
+<p>				if(!kdp_embed_default.endCard) {</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.endScreenOverId", "");</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.endScreenId", "");</p>
+<p>				} </p>
+<p>				</p>
+<p>				if(kdp_embed_default.playButton) {</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.startScreenOverId", "startScreen");</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.startScreenId", "startScreen");</p>
+<p>				} else {</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.startScreenOverId", "");</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.startScreenId", "");</p>
+<p>				}</p>
+<p>				</p>
+<p>				if(kdp_embed_default.auto_play) {</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "autoPlay", "true");</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.startScreenOverId", "");</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "screensLayer.startScreenId", "");</p>
+<p>				} else {</p>
+<p>					kdp.setKDPAttribute("configProxy.flashvars", "autoPlay", "false");</p>
+<p>				}</p>
+<p>				</p>
+<p>				</p>
+<p>					kdp.addJsListener("entryReady", "kdp_embed_default.on_load");</p>
+<p>					</p>
+<p>					kdp.addJsListener("playerPaused", "kdp_embed_default.on_paused");</p>
+<p>					kdp.addJsListener("playerPlayed", "kdp_embed_default.on_play");</p>
+<p>					</p>
+<p>					kdp.addJsListener("playerPlayEnd", "kdp_embed_default.on_end");</p>
+<p>					</p>
+<p>					kdp.addJsListener("volumeChanged", "kdp_embed_default.on_volumeChanged");</p>
+<p>					</p>
+<p>					kdp.addJsListener("adStart", "kdp_embed_default.on_adStart");</p>
+<p>					</p>
+<p>					kdp.addJsListener("adEnd", "kdp_embed_default.on_adEnd");</p>
+<p>					</p>
+<p>					kdp.addJsListener("mediaReady", "kdp_embed_default.on_mediaReady");</p>
+<p>					</p>
+<p>					kdp_embed_default.on_playerReady();</p>
+<p>			}</p>
+<p>		</p>
+<p>	storyPlayer = new Object();</p>
+<p>	storyPlayer.doPlay = false; //player has already played</p>
+<p>	storyPlayer.pos = 'media';</p>
+<p>	</p>
+<p>	storyPlayer.ready = function() {</p>
+<p>		//console.log ('****************** do play set to ' + storyPlayer.doPlay + ' **************************');</p>
+<p>		if (!storyPlayer.doPlay) { //initial state (autostart true/false)</p>
+<p>			if (videoAutoStart == 'true') {</p>
+<p>				$('#rel_image_feature').show();</p>
+<p>				$('#main_media_click').show();			</p>
+<p>				playStoryVideo('media',15297688,true);</p>
+<p>				//console.log ('****************** 1 **************************');</p>
+<p>			} else {</p>
+<p>				kdp.sendNotification('doStop');</p>
+<p>				 $('#main_media_click').show();</p>
+<p>				 //console.log ('****************** 2 **************************');</p>
+<p>			}</p>
+<p>		} else { //already engaged (media & leftrail) </p>
+<p>			kdp.sendNotification('doPlay');</p>
+<p>			storyPlayer.doPlay = true;</p>
+<p>			//console.log ('****************** 3 **************************');</p>
+<p>		}</p>
+<p>	}</p>
+<p>    </p>
+<p>    getObjPos = function(obj){</p>
+<p>        var topVal= 0,leftVal= 0;</p>
+<p>        while(obj){</p>
+<p>            leftVal += obj.offsetLeft;</p>
+<p>            topVal += obj.offsetTop;</p>
+<p>            obj = obj.offsetParent;</p>
+<p>        }</p>
+<p>        return {"left":leftVal,"top":topVal};</p>
+<p>    }</p>
+<p>    positionPlayer = function(obj){</p>
+<p>        objPos = $(obj).offset();</p>
+<p>        storyCoreObjPos = $('#story_core').offset();</p>
+<p>        mediaplayerObjPos = $('#mediaplayerContainer').offset();</p>
+<p>        $('#mediaplayerContainer').css('position', 'absolute');</p>
+<p>        $('#mediaplayerContainer').css('z-index', '1003');</p>
+<p>        $('#mediaplayerContainer').offset({top: objPos.top, left: objPos.left});</p>
+<p>        mediaplayerObjPosNew = $('#mediaplayerContainer').offset();</p>
+<p>    }</p>
+<p>	</p>
+<p>    sendPlaylistToPlayer = function(){</p>
+<p>    	if (!storyPlayer.doPlay && storyPlayer.pos == 'media') {  //video already loaded</p>
+<p>				kdp.sendNotification('doPlay');</p>
+<p>				$('#rel_image_feature').show();</p>
+<p>				$('#main_media_click').show();</p>
+<p>    	} else { // need to change media</p>
+<p>        	pc.playVideoByCID({id:currentVideoId});</p>
+<p>        }</p>
+<p>		storyPlayer.doPlay = true;  </p>
+<p>    }</p>
+<p>	</p>
+<p>	playerLockedState = true;</p>
+<p>    playerLocked = function(){</p>
+<p>	    return playerLockedState;</p>
+<p>    }</p>
+<p>	</p>
+<p>    playStoryVideo = function(id,videoId,repos){</p>
+<p>    	storyPlayer.pos = id;</p>
+<p>    	if (id == 'media' && videoAutoStart == 'true') {</p>
+<p>    		kdp.setKDPAttribute("omniture", "videoViewEvent", "event1,event16");</p>
+<p>    	} else {</p>
+<p>    		kdp.setKDPAttribute("omniture", "videoViewEvent", "event1");</p>
+<p>    	}</p>
+<p>		pc.fwUpdateKeyValues("show",window.playlist["adContext-"+videoId]);</p>
+<p>		currentVideoId = videoId;</p>
+<p>		//playDelay = (repos)?500:6000;</p>
+<p>		//setTimeout("sendPlaylistToPlayer()",playDelay);</p>
+<p>		//kdp.sendNotification('doStop');</p>
+<p>		sendPlaylistToPlayer();</p>
+<p>		if(repos){</p>
+<p>			leftRailVideoOpen = (id == 'media')?false:true;</p>
+<p>			if(id == 'media'){</p>
+<p>				leftRailVideoOpen = false;</p>
+<p>				$('#caption_video').html(videoTitle);</p>
+<p>			}else{</p>
+<p>				$('#caption_video').html(videoPhotoCaption);</p>
+<p>			}</p>
+<p>			kdp.sendNotification("doStop");</p>
+<p>			if(currLeftRailId){</p>
+<p>				leftRail.closeMedia(currLeftRailId);</p>
+<p>			}</p>
+<p>			leftRail.openMedia(id,currentVideoId);</p>
+<p>			leftRailContainerObj = document.getElementById(id);</p>
+<p>			positionPlayer(leftRailContainerObj);</p>
+<p>        	$('#'+id+' > .rel_active > .active_image_closer').css("visibility","visible");</p>
+<p>			mainMedia.sponsoredByAdPosition();</p>
+<p>			currLeftRailId = id;</p>
+<p>		}</p>
+<p>		if (leftRailVideoOpen == false) {</p>
+<p>			$('#caption_video').html(videoTitle);</p>
+<p>		}</p>
+<p>    }</p>
+<p>    closeLeftRailVideo = function(id){</p>
+<p>		leftRail.closeMedia(id);</p>
+<p>		leftRailVideoOpen = false;</p>
+<p>		videoTitle = titleList[0];</p>
+<p>		kdp.sendNotification("doStop");</p>
+<p>		$('#mediaplayerContainer').css('top', '-1000px');</p>
+<p>		resetAd();</p>
+<p>    }</p>
+<p>	playNextVideo = function(){</p>
+<p>	    playlistStr = playlistIds;</p>
+<p>	    if(playlistStr != ''){</p>
+<p>	        if(playlistStr.indexOf('~') != -1){</p>
+<p>	            playlistArr = playlistStr.split('~');</p>
+<p>	            for(i=0;i<playlistArr.length;i++){</p>
+<p>	                if(playlistArr[i] == currentVideoId){</p>
+<p>	                    if((i+1) < playlistArr.length){</p>
+<p>                            nextVideoId = playlistArr[i+1];</p>
+<p>                            videoTitle = titleList[i+1];</p>
+<p>	                    }else{</p>
+<p>	                        nextVideoId = playlistArr[0];</p>
+<p>	                        videoTitle = titleList[0];</p>
+<p>	                    }</p>
+<p>	                    if (leftRailVideoOpen) {</p>
+<p>	                    	 playStoryVideo('rel_'+(i+1),nextVideoId,false);</p>
+<p>	                    } else {</p>
+<p>	                    	 playStoryVideo('media',nextVideoId,false);</p>
+<p>	                    }</p>
+<p>	                   </p>
+<p>	                    break;</p>
+<p>	                }else{</p>
+<p>	                    //close the player</p>
+<p>	                }</p>
+<p>	            }</p>
+<p>	        }</p>
+<p>	    }</p>
+<p>	}</p>
+<p>   </p>
+<p>   adCheck = "";</p>
+<p>   </p>
+<p>    positionAd = function() {</p>
+<p>		//check itremble to display placeholder</p>
+<p>		adCheck = setInterval("restrictAd()",500);</p>
+<p>    	</p>
+<p>    }</p>
+<p>    </p>
+<p>    restrictAd = function() {</p>
+<p>    	var results = $('#_fw_container_300x250slot').html();</p>
+<p>    	//console.log(' ------------- ' + results + ' ------------- ');</p>
+<p>    	if (results != undefined && results != "") {</p>
+<p>    		clearInterval(adCheck);</p>
+<p>    		if (results.indexOf('reid=336259') != -1) {</p>
+<p>    			//check position of videoplayer to determine placeholder</p>
+<p>				if (storyPlayer.pos == 'media') {</p>
+<p>					placeholderDiv = '#adCompanionBanner';</p>
+<p>				} else {</p>
+<p>					placeholderDiv = '#adCompanionBannerLower';</p>
+<p>				}</p>
+<p>				</p>
+<p>				$(placeholderDiv).show();</p>
+<p>				adPlaceholder = $(placeholderDiv).offset();</p>
+<p>				$('#itremble').offset({top:adPlaceholder.top,left:adPlaceholder.left});</p>
+<p>				//console.log('************* show ad ********************');</p>
+<p>				</p>
+<p>    		} </p>
+<p>    		</p>
+<p>    	}</p>
+<p>    	//console.log('************* restrict ad ********************');</p>
+<p>    	</p>
+<p>    }</p>
+<p>    </p>
+<p>    resetAd = function() {</p>
+<p>    	$('#itremble').offset({top:-1000, left:0});</p>
+<p>    	$('.adPlaceHolders').hide();</p>
+<p>    	$('#_fw_container_300x250slot').html('');</p>
+<p>    	clearInterval(adCheck);</p>
+<p>    }</p>
+<p>    </p>
+<p>	$(function(){</p>
+<p>		$('#adCompanionBanner').addClass('adPlaceHolders');</p>
+<p>		$('#adCompanionBannerLower').addClass('adPlaceHolders');</p>
+<p>		resetAd();</p>
+<p>	});</p>
+<p>	</p>
+<p>				 //setup single page url</p>
+<p>                var qFlag = ('/Health/AllergiesFood/allergic-girl-died-school-peanut-child/story?id=15341841').indexOf("?") > -1;</p>
+<p>				var singlePageUrl = qFlag ? '/Health/AllergiesFood/allergic-girl-died-school-peanut-child/story?id=15341841&singlePage=true' : '/Health/AllergiesFood/allergic-girl-died-school-peanut-child/story?id=15341841?singlePage=true';</p>
+<p>                var shareLeft = new shareNewsObj();</p>
+<p>                shareLeft.options = {renderDiv:'share-left', //target div</p>
+<p>                                    numOfComments:'52', //num of comments</p>
+<p>									comments:'/Health/AllergiesFood/allergic-girl-died-school-peanut-child/comments?type=story&id=15341841',</p>
+<p>                                    print:'print?id=15341841', //print url</p>
+<p>                                    single:singlePageUrl, //single page url</p>
+<p>                                    fontDiv:'storyText', //div allowing for font size change</p>
+<p>                                    plusOneConfig: 'g:plusone:count="none" g:plusone:annotation="none" g:plusone:size="small"',</p>
+<p>                                    share: [{title:'', items: [{code:'addthis_button_facebook_like', name:'Facebook','label':false}]},</p>
+<p>                                    {title:'', items:[{code:'addthis_button_tweet',name:'Tweet',label:false},</p>
+<p>                                    	{code:'addthis_button_google_plusone',name:'Google',label:false}]},</p>
+<p>                                    {title:'', items:[{code:'addthis_button_expanded',name:'Share',label:true}]},</p>
+<p>                                    {title:'', items: [{code:'addthis_button_email',name:'Email',label:true},{code:'abcnews_comments',name:'Comments',label:true},</p>
+<p>                                    {code:'abcnews_print',name:'Print',label:true},</p>
+<p>									</p>
+<p>                                    {code:'abcnews_font_sizes',name:'Font Sizes',label:true}]}]};</p>
+<p>                shareLeft.render();</p>
+<p>                </p>
+<p>					digGetAd("SponsoredByLogo");</p>
+<p>			</p>
+<p>Ammaria Johnson, the 7-year-old Virginia girl who died after an allergic reaction at school, was given a peanut by another child unaware of her allergy, police said.</p>
+<p>Johnson ate the peanut on the playground of her Chesterfield County elementary school, Hopkins Elementary, during recess. After noticing hives and shortness of breath, she approached a teacher and was taken to the school clinic. A clinic aid was trying to help her when she stopped breathing, according to police.</p>
+<p>"When emergency crews arrived, she was already in cardiac arrest in the clinic," Lt. Jason Elmore, a spokesman for the Chesterfield County Fire Department, told ABC News.</p>
+<p>An investigation by Chesterfield police concluded that Johnson died from cardiac arrest and anaphylaxis, and that no crime or criminal negligence was committed by the child who shared the peanut, school personnel or Johnson's mother.</p>
+<p>"Although not a crime, Amarria's death is a tragedy and the Chesterfield County Police Department expresses its deepest sympathies to her family, classmates and school personnel as they deal with this difficult and painful event," police chief Col. Thierry Dupuis said in a statement.</p>
+<p>Johnson's death raised questions about how schools and parents should handle severe allergies. Experts say Johnson could have been saved by an EpiPen -- a device that injects epinephrine to reverse the symptoms of anaphylaxis, currently available only by prescription. But Hopkins Elementary had no such device on hand for Johnson.</p>
+<p>ABC NewsAmmaria Johnson, 7, died after suffering an... View Full Size</p>
+<p>ABC NewsAmmaria Johnson, 7, died after suffering an allergic reaction during recess at her Chesterfield County elementary school.</p>
+<p>							Food Allergies in Kids Watch Video</p>
+<p>							New Peanut Allergy Test  Watch Video</p>
+<p>							Fighting Food Allergies With Food  Watch Video</p>
+<p>                     <!--</p>
+<p>                     microsoft_adunitid="10016836";</p>
+<p>                     microsoft_adunit_width="180";</p>
+<p>                     microsoft_adunit_height="150";</p>
+<p>                     microsoft_adunit_legacy="false";</p>
+<p>                     //--></p>
+<p>                 </p>
+<p>Chesterfield County school policy states that parents are responsible for providing the school "with all daily and emergency medications prescribed by the student's health-care provider," and keeping medications up to date.</p>
+<p>"For any medication, the school would have to be in possession of that medication to provide it," said Shawn Smith, a spokesman for Chesterfield County Public Schools. Even if the school had an EpiPen prescribed for another student, they would not be permitted to use it.</p>
+<p>But a proposed bill would encourage states to adopt laws requiring schools stock EpiPens like bandages and other first-aid supplies for any student or staff member in an anaphylactic emergency.</p>
+<p>"When it comes to a life-threatening allergic reaction, it's so simple to save that life," said Maria Acebal, chief executive officer of the Fairfax, Va.-based Food Allergy and Anaphylaxis Network, which championed the bill. "I have no doubt that the school where this little girl went had an EpiPen in the office -- it just didn't have Ammaria's name on it."</p>
+<p>The bill would include liability protection for school officials who give epinephrine in good faith, Acebal said.</p>
+<p>"No one in this country has ever been sued for giving epinephrine, to my knowledge," said Acebal. "All the lawsuits come about because school officials don't give it when it's needed."</p>
+<p>In a healthy child, epinephrine can cause a rapid heart rate, nausea and light-headedness -- mild symptoms that wear off in 15 minutes. It would only be dangerous in children born with a congenital heart condition, which school officials would be aware of.</p>
+<p>"We need to do a better job of educating the public about the safety of epinephrine," said Dr. Dan Atkins, head of ambulatory pediatric at National Jewish Health in Denver. "Because it's an injection, it scares people. And because it's a device, it scares people. But rather than thinking, 'I might kill a kid with this,' they should be thinking, 'I could save a life.'"</p>
+<p>Acebal, whose eldest daughter has a food allergy, said her other children learned how to inject epinephrine by age 6.</p>
+<p>"If I can teach a 6-year-old to do it, we can teach school staff," she said.</p>
+<p>Acebal said having epinephrine on hand in school would give students, staff and parents added peace of mind.</p>
+<p>"My heart breaks for Ammaria's family because any parent who has a child with a food allergy knows what it's like to fear that phone call from the school," she said.</p>
+<p>			</p>
+<p>			var leftRail = new Object;</p>
+<p>            currLeftRailId = false;</p>
+<p>            leftRailVideoOpen = false;</p>
+<p>            leftRail.showStoryPhoto = function(id){</p>
+<p>                //player is there and showing for leftrail</p>
+<p>                if(leftRailVideoOpen){</p>
+<p>					closeLeftRailVideo(currLeftRailId);</p>
+<p>					leftRail.openMedia(id);</p>
+<p>					currLeftRailId = id;</p>
+<p>                }else{</p>
+<p>                    leftRail.openMedia(id);</p>
+<p>                    currLeftRailId = id;</p>
+<p>                }</p>
+<p>				$('#'+currLeftRailId+' > .rel_active > .active_media > .active_image_closer').css('visibility','visible');</p>
+<p>            }</p>
+<p>			</p>
+<p>			leftRail.openMedia = function(id,videoId) {</p>
+<p>		</p>
+<p>				//hide any existing active containers</p>
+<p>				$('div.rel_active').removeClass('rel_active').addClass('rel_inactive');</p>
+<p>				$('div.rel_inactive').hide();</p>
+<p>				</p>
+<p>				//reset outer container width and margin</p>
+<p>				$('div.rel_container').css('width', '200px');</p>
+<p>				$('div.rel_container').css('margin-right', '50px');</p>
+<p>				</p>
+<p>				//show inactive thumb</p>
+<p>				$('div.rel_content').show();</p>
+<p>				</p>
+<p>				//hide active thumb </p>
+<p>				$('#'+id+' > .rel_content').hide();</p>
+<p>				</p>
+<p>				//remove inactive class, set active class on media container</p>
+<p>				$('#'+id+' > .rel_inactive').removeClass('rel_inactive').addClass('rel_active');</p>
+<p>				</p>
+<p>				//set min-height of active box to avoid jump behavior</p>
+<p>				var relHeight = $('#'+id+' > .rel_content').height();</p>
+<p>				$('#'+id+' > .rel_active').css('min-height', relHeight+'px');</p>
+<p>				</p>
+<p>				//adjust width and margin on outer container</p>
+<p>				$('#'+id).css('width', '640px');</p>
+<p>                if(id != 'media'){</p>
+<p>                   $('#'+id).css('margin-bottom', '20px');</p>
+<p>		}</p>
+<p>				$('#'+id).css('margin-right', '0px');</p>
+<p>                //open and animate new active media container</p>
+<p>				$('#'+id+' > .rel_active').toggle(100, function() {</p>
+<p>					// Animation complete</p>
+<p>				});</p>
+<p>				// reset video title for main media</p>
+<p>				videoTitle = titleList[0];</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>			</p>
+<p>			leftRail.closeMedia = function(id) {</p>
+<p>				if(id != 'media'){</p>
+<p>                    $('#'+id).css('width', '200px');</p>
+<p>                    $('#'+id).css('height', 'auto');</p>
+<p>                    $('#'+id).css('margin-right', '50px');</p>
+<p>                    $('#'+id).css('margin-bottom', '0px');</p>
+<p>                    $('#'+id+' > .rel_active').toggle(100, function() {</p>
+<p>                        $('#'+id+' > .rel_content').show();</p>
+<p>                        $('#'+id+' > .rel_active').removeClass('rel_active').addClass('rel_inactive');</p>
+<p>                        $('#'+id+' > .rel_inactive').hide();</p>
+<p>                    });</p>
+<p>                    return false;</p>
+<p>                }</p>
+<p>			}</p>
+<p>			</p>
+<p>			leftRail.openCaption = function() {</p>
+<p>				$('#cap_full').show();</p>
+<p>				$('#cap_short').hide();</p>
+<p>                if(leftRailVideoOpen){</p>
+<p>                    setTimeout(positionPlayer(leftRailContainerObj),500);</p>
+<p>                }</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>			</p>
+<p>			leftRail.closeCaption = function() {</p>
+<p>				$('#cap_short').show();</p>
+<p>				$('#cap_full').hide();</p>
+<p>                if(leftRailVideoOpen){</p>
+<p>                    setTimeout(positionPlayer(leftRailContainerObj),500);</p>
+<p>                }</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>			</p>
+<p>			var mainMedia = new Object;</p>
+<p>			mainMedia.openCaption = function() {</p>
+<p>				$('#main_cap_full').show();</p>
+<p>				$('#main_cap_short').hide();</p>
+<p>				mainMedia.sponsoredByAdPosition();</p>
+<p>				if(leftRailVideoOpen){</p>
+<p>                    setTimeout(positionPlayer(leftRailContainerObj),500);</p>
+<p>                }</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>			</p>
+<p>			mainMedia.closeCaption = function() {</p>
+<p>				$('#main_cap_short').show();</p>
+<p>				$('#main_cap_full').hide();</p>
+<p>				mainMedia.sponsoredByAdPosition();</p>
+<p>				if(leftRailVideoOpen){</p>
+<p>                    setTimeout(positionPlayer(leftRailContainerObj),500);</p>
+<p>                }</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>			</p>
+<p>			mainMedia.sponsoredByAdPosition = function() {</p>
+<p>				$("#sponsoredByAd").css({'top': $('#date_partner').position().top, 'left':430});</p>
+<p>			}</p>
+<p>			</p>
+<p>			var byline = $('#hidden').html();</p>
+<p>			if(byline!=null) {</p>
+<p>				$('#date_partner').html(byline);</p>
+<p>				$('#hidden').remove();</p>
+<p>			}</p>
+<p>			</p>
+<p>			//adjust author/date div if partner logo exists</p>
+<p>			var authorDivWidth = $('.byline_date_inner').width();</p>
+<p>			var logoDivWidth = $('#sponsoredByAd').width();</p>
+<p>			var setAuthorDivWidth = (authorDivWidth - logoDivWidth)-5;</p>
+<p>			$('.byline_date_inner').css('width', setAuthorDivWidth+'px');</p>
+<p>			</p>
+<p>			//position sponsored by ad</p>
+<p>			$("#sponsoredByAd").offset({top: $('#date_partner').position().top, left:430});</p>
+<p>			$("#sponsoredByAd").show();		</p>
+<p>			</p>
+<p>			//adjust the container height based on contents						</p>
+<p>			var byline_height = $('.byline_date').height();	</p>
+<p>			$('#date_partner').css('height', byline_height+'px');	</p>
+<p>		</p>
+<p>			var fffix = '';</p>
+<p>			function fontInit() {</p>
+<p>				$('#'+shareLeft.options.fontDiv).addClass('storyTextColor');</p>
+<p>				clearTimeout(fffix);</p>
+<p>					//console.log('1234567890');</p>
+<p>			}											</p>
+<p>			$(document).ready(function() {</p>
+<p>				$('.backtotop > a').click(function(){</p>
+<p>					$.scrollTo( '.window', 1500);</p>
+<p>				});</p>
+<p>				</p>
+<p>				fffix = setTimeout('fontInit()',20000);</p>
+<p>			});</p>
+<p>						</p>
+<p>		</p>
+<p> </p>
+<p>                    More from ABC News</p>
+<p>                </p>
+<p>Allergic Girl's Death: Did School Respond Appropriately?Food Allergies in Kids on the RiseParents Worry Over New Cheerios Pregnancy and Peanuts: Tricky Allergy TruthsFood Allergies in KidsNew Peanut Allergy Test </p>
+<p>More Video</p>
+<p>                            »</p>
+<p>                        var currentURL = window.location.href.replace(/localhost:8080|newspreview.corp.dig.com|qlvnwsapp01.corp.dig.com:7410|qlvabcweb01.corp.dig.com:7000/, 'abcnews.go.com');</p>
+<p>                        var OB_permalink= currentURL;</p>
+<p>                        var OB_Template="ABC";</p>
+<p>                        var OB_widgetId= "AD_1";</p>
+<p>                        var OB_langJS ="http://widgets.outbrain.com/lang_en.js";</p>
+<p>                        if ( typeof(OB_Script)!="undefined" )</p>
+<p>                        OutbrainStart();</p>
+<p>                        else</p>
+<p>                        {</p>
+<p>                        var OB_Script = true;</p>
+<p>                        var str = "<script src='http://widgets.outbrain.com/outbrainWidget.js'; type='text/javascript'></"+"script>";</p>
+<p>                        document.write(str);</p>
+<p>                        }</p>
+<p>                        </p>
+<p>Related Topics: Allergy, Food Allergy, Heart Attack, Heart Health, Chief Executive, Emphysema, Birth Defect, Public Schools, Peanut Allergy, Health Care</p>
+<p>Follow @abc</p>
+<p>on Twitter, become a fan on Facebook</p>
+<p>                         <!--</p>
+<p>                         microsoft_adunitid="10018527";</p>
+<p>                         microsoft_adunit_width="400";</p>
+<p>                         microsoft_adunit_height="200";</p>
+<p>                         microsoft_adunit_legacy="false";</p>
+<p>                         //--></p>
+<p>                     </p>
+<p>	var shareBottom = new shareNewsObj();</p>
+<p>	shareBottom.options = {renderDiv:'share-bottom', //target div</p>
+<p>						print:'print?id=15341841', //print url</p>
+<p>						plusOneConfig: 'g:plusone:count="none" g:plusone:annotation="none" g:plusone:size="medium"',</p>
+<p>						share: [{title:'', items: [{code:'addthis_button_facebook_like',name:'Facebook','label':false}]},</p>
+<p>						{title:'', items: [{code:'addthis_button_email',name:'Email',label:true}, {code:'abcnews_print',name:'Print',label:true}]},</p>
+<p>						{title:'', items: [{code:'addthis_button_facebook', name:'Facebook','label':false}, {code:'addthis_button_twitter',name:'Tweet',label:false},{code:'addthis_button_google_plusone',name:'Google',label:false},</p>
+<p>						{code:'addthis_button_expanded',name:'Share',label:true}]}]};</p>
+<p>	shareBottom.render();</p>
+<p>	</p>
+<p>Comment & Contribute</p>
+<p>Do you have more information about this topic?  If so, please click here to contact the editors of ABC News.</p>
+<p>					document.write('<input type="hidden" name="returnUrl" value="'+document.URL+'" />');</p>
+<p>					document.write('<input type="hidden" name="contentUrl" value="'+document.URL+'" />');</p>
+<p>				</p>
+<p>Welcome to ABCNews.com.</p>
+<p>Javascript is not enabled on your browser. Please enable javascript to use the community features on this page. If your browser does not support javascript, please visit our browser upgrade page for a list of supported web browsers.</p>
+<p>View All Comments (52)</p>
+<p> </p>
+<p>View All Comments (52)</p>
+<p> </p>
+<p> </p>
+<p>digGetAd("Rectangle");</p>
+<p>                    Watch Evenings on ABC</p>
+<p>                </p>
+<p>Watch the Full Episode</p>
+<p>World News: Scientist Killed</p>
+<p>						Diane Sawyer Recommends</p>
+<p>					</p>
+<p>Romney Wins NH PrimaryMitt Romney: My Opponents' Bain Attacks 'Fell Flat'Newborn Tributes: Which Song Do You Like the Most?</p>
+<p>Most Viewed →</p>
+<p>	carouselManager2 = createCarouselManager('video-carousel-content2');</p>
+<p>	carouselManager2.activeClass = "jumpCircleItemOn";</p>
+<p>	carouselManager2.inactiveClass = "jumpCircleItemOff";</p>
+<p>	carouselList2 = carouselManager2.playlist;</p>
+<p>	</p>
+<p>		carouselManager2.addItem('vcar1-2','/widgets/mediaPlayer/carousel/carouselPreview?ids=15311134~15303725~15343922~&lpos=Story_MostViewed_MiniCarousel');</p>
+<p>		</p>
+<p>		carouselManager2.addItem('vcar2-2','/widgets/mediaPlayer/carousel/carouselPreview?ids=15344358~15344460~15303646~&lpos=Story_MostViewed_MiniCarousel');</p>
+<p>		</p>
+<p>		carouselManager2.addItem('vcar3-2','/widgets/mediaPlayer/carousel/carouselPreview?ids=15344339~15343510~14594513~&lpos=Story_MostViewed_MiniCarousel');</p>
+<p>		</p>
+<p>		carouselManager2.addItem('vcar4-2','/widgets/mediaPlayer/carousel/carouselPreview?ids=15324325~14947460~15337645~&lpos=Story_MostViewed_MiniCarousel');</p>
+<p>		</p>
+<p>		carouselManager2.addItem('vcar5-2','/widgets/mediaPlayer/carousel/carouselPreview?ids=15340357~15302279~15332658~&lpos=Story_MostViewed_MiniCarousel');</p>
+<p>		</p>
+<p>	var carouselPane2 = createCarouselPane(carouselManager2, 328);</p>
+<p>	carouselList2.gotoItem('vcar1-2');</p>
+<p>	</p>
+<p>50 Cent Mocks Jay-Z and Beyonce's BabyCasey Anthony's Other Theory for Caylee's DeathAmid Anguish, Judge Halts Miss. Pardons Photos:  Ashton Kutcher Cleans Up Photos:  Pippa Steps Out in Red Jeans Photos:  Kate Steps Out Ahead of 30</p>
+<p>More Popular News »</p>
+<p>					ABC News on Facebook</p>
+<p>				</p>
+<p>	</p>
+<p>		$('#fb_like').html('<fb:like href="http://www.facebook.com/abcnews" show_faces="false" layout="standard" width="300px"></fb:like>');</p>
+<p>		$('#fb_activity').html('<fb:activity recommendations="true" site="abcnews.go.com" width="300px" height="240px" border_color="#ECEFF4" header="false" ref="abc-fb-recs"></fb:activity>');</p>
+<p>		addOnload(function(){</p>
+<p>			fbInit();</p>
+<p>		});</p>
+<p>		document.getElementById('socialtoolkit').style.display="block";</p>
+<p>		</p>
+<p>	</p>
+<p>				Follow World News</p>
+<p>			</p>
+<p>                     <!--</p>
+<p>                     microsoft_adunitid="10016835";</p>
+<p>                     microsoft_adunit_width="300";</p>
+<p>                     microsoft_adunit_height="250";</p>
+<p>                     microsoft_adunit_legacy="false";</p>
+<p>                     //--></p>
+<p>                 </p>
+<p>				ABC News Newsletters</p>
+<p>			</p>
+<p>pswdLessReg = new Object();</p>
+<p>pswdLessReg.listItem = new Array();</p>
+<p>pswdLessReg.title = 'Sign Up Today!';</p>
+<p>pswdLessReg.listItem[0] = {name:'Breaking News',value:'Breaking_News',desc:'<a href="/Politics/generalContent?id=9999554&type=html" target="_blank"><strong>View sample newsletter »</strong></a>'}</p>
+<p>pswdLessReg.listItem[1] = {name:'GMA Daily Flash',value:'ABCNews_GMAComingUp',desc:'<a href="/GMA/generalContent?id=9954547&type=html" target="_blank"><strong>View sample newsletter »</strong></a>'}</p>
+<p>pswdLessReg.listItem[2] = {name:'GMA Recipe Mail',value:'recipe_email_html',desc:'<a href="/GMA/generalContent?id=9954746&type=html" target="_blank"><strong>View sample newsletter »</strong></a>'}</p>
+<p>pswdLessReg.listItem[3] = {name:'20/20',value:'John_Stossel',desc:'<a href="/2020/generalContent?id=9999466&type=html" target="_blank"><strong>View sample newsletter »</strong></a>'}</p>
+<p>pswdLessReg.listItem[4] = {name:'Politics/This Week',value:'This_Week',desc:'<a href="/Politics/generalContent?id=9999456&type=html" target="_blank"><strong>View sample newsletter »</strong></a>'}</p>
+<p>pswdLessReg.listItem[5] = {name:'World News',value:'jennings_html',desc:'<a href="/WN/generalContent?id=9999399&type=html" target="_blank"><strong>View sample newsletter »</strong></a>'}</p>
+<p>pswdLessReg.listItem[6] = {name:'Nightline',value:'Nightline_email',desc:'<a href="/Nightline/generalContent?id=9999410&type=html" target="_blank"><strong>View sample newsletter »</strong></a>'}</p>
+<p>pswdLessReg.listItem[7] = {name:'The Blotter Alerts',value:'InsiderDTR',desc:''}</p>
+<p>/*</p>
+<p>pswdLessReg.listItem[1] = {name:'GMA Daily Flash',value:'ABCNews_GMAComingUp',desc:''}</p>
+<p>pswdLessReg.listItem[2] = {name:'GMA Recipe Mail',value:'recipe_email_html',desc:''}</p>
+<p>pswdLessReg.listItem[3] = {name:'John Stossel: "Give Me a Break!"',value:'John_Stossel',desc:''}</p>
+<p>pswdLessReg.listItem[4] = {name:'MoneyScope Business Headlines',value:'moneyscope_html',desc:''}</p>
+<p>pswdLessReg.listItem[5] = {name:'Most Popular',value:'ABCNews_MostPopular_NLO_122007',desc:''}</p>
+<p>pswdLessReg.listItem[6] = {name:'Nightline',value:'Nightline_email',desc:''}</p>
+<p>pswdLessReg.listItem[7] = {name:'Photo Gallery: Weekly Reminder',value:'ABCNews_Interactives_113004',desc:''}</p>
+<p>pswdLessReg.listItem[8] = {name:'Political Unit: The Note',value:'Political_Unit',desc:''}</p>
+<p>pswdLessReg.listItem[9] = {name:'The Blotter Alerts',value:'InsiderDTR',desc:''}</p>
+<p>pswdLessReg.listItem[10] = {name:'The Polling Unit',value:'ABCNews_PollingUnit',desc:''}</p>
+<p>pswdLessReg.listItem[11] = {name:'This Week',value:'This_Week',desc:''}</p>
+<p>pswdLessReg.listItem[12] = {name:'World News',value:'jennings_html',desc:''}</p>
+<p>*/</p>
+<p>More Newsletters »</p>
+<p> </p>
+<p>			Today in ABC News</p>
+<p>		</p>
+<p>ABC News Home »</p>
+<p>// <![CDATA[</p>
+<p>	carouselList1 = new Playlist("carousel1");</p>
+<p>	carouselList1.setInterval(50000);</p>
+<p>	carouselList1.setPreload(true);</p>
+<p>	carouselManager = new UrlPlaylistManager(carouselList1);</p>
+<p>	carouselManager.activeClass = "jumpCircleItemOn";</p>
+<p>	carouselManager.inactiveClass = "jumpCircleItemOff";</p>
+<p>		carouselManager.addItem('car1-1','/health/allergiesfood/story/carousel/carouselPreview?ids=15344527~15345412~15343922~');</p>
+<p>		</p>
+<p>// ]]></p>
+<p>	// <![CDATA[</p>
+<p>	var currCar = 1;</p>
+<p>	var carOldProducer = function(){return getElementById(carouselPane1.oldContent,'carousel-dual1');};</p>
+<p>	var carNewProducer = function(){return getElementById(carouselPane1.content,'carousel-dual1');};</p>
+<p>	var carouselPane1 = new Pane('carousel-content1');</p>
+<p>	carouselPane1.addMouseOver(function(){carouselPane1.engage()});</p>
+<p>	carouselPane1.addMouseOut(function(){carouselPane1.disengage()});</p>
+<p>	carouselPane1.addEngage(function(){carouselList1.pause()});</p>
+<p>	carouselPane1.addDisengage(function(){carouselList1.resume()});</p>
+<p>	var carouselQuickAnim = new Animation();</p>
+<p>	var carouselLeftAnim1 = new Animation();</p>
+<p>	//old moving left</p>
+<p>	var carLeftOldSlide = new Sequence();</p>
+<p>	carLeftOldSlide.start = 0;</p>
+<p>	carLeftOldSlide.end = -962;</p>
+<p>	carLeftOldSlide.duration = 1000;</p>
+<p>	carLeftOldSlide.min=0.5;</p>
+<p>	carLeftOldSlide.ease = Easing['easeBothStrong'];</p>
+<p>	carLeftOldSlide.callback = function(){</p>
+<p>		carouselPane1.oldContent.style.left = "-962px";</p>
+<p>	};</p>
+<p>	carLeftOldSlide.handler = function(val){</p>
+<p>		val = Math.round(val);</p>
+<p>		carouselPane1.oldContent.style.left = val+"px";</p>
+<p>		return val;</p>
+<p>	};</p>
+<p>	carouselLeftAnim1.addSequence(0,carLeftOldSlide);</p>
+<p>	//new moving left</p>
+<p>	var carLeftSlide = new Sequence();</p>
+<p>carLeftSlide.start = 962;</p>
+<p>	carLeftSlide.end = 0;</p>
+<p>	carLeftSlide.duration = 1000;</p>
+<p>	carLeftSlide.min=0.5;</p>
+<p>	carLeftSlide.ease = Easing['easeBothStrong'];</p>
+<p>	carLeftSlide.init = function(){</p>
+<p>		if(carouselPane1.content){</p>
+<p>			carouselPane1.content.style.left="962px";</p>
+<p>		}	</p>
+<p>		if(carouselPane1.content && carouselPane1.content.parentNode != carouselPane1.viewport){</p>
+<p>			carouselPane1.viewport.appendChild(carouselPane1.content);</p>
+<p>	};</p>
+<p>};</p>
+<p>	carLeftSlide.handler = function(val){</p>
+<p>		val = Math.round(val);</p>
+<p>		carouselPane1.content.style.left = val+"px";</p>
+<p>		return val;</p>
+<p>	};</p>
+<p>	carLeftSlide.callback = function(){</p>
+<p>		carouselPane1.content.style.left = "0px";</p>
+<p>	}</p>
+<p>	carouselLeftAnim1.addSequence(0,carLeftSlide);</p>
+<p>	var carouselRightAnim1 = new Animation();</p>
+<p>	//old moving right</p>
+<p>	var carRightOldSlide = new Sequence();</p>
+<p>	carRightOldSlide.start = 0;</p>
+<p>carRightOldSlide.end = 962;</p>
+<p>	carRightOldSlide.duration = 1000;</p>
+<p>	carRightOldSlide.min=0.5;</p>
+<p>	carRightOldSlide.ease = Easing['easeBothStrong'];</p>
+<p>	carRightOldSlide.handler = function(val){</p>
+<p>		val = Math.round(val);</p>
+<p>		carouselPane1.oldContent.style.left = val+"px";</p>
+<p>		return val;</p>
+<p>	};</p>
+<p>	carRightOldSlide.callback = function(){</p>
+<p>		carouselPane1.oldContent.style.left = "962px";</p>
+<p>	};</p>
+<p>	carouselRightAnim1.addSequence(0,carRightOldSlide);</p>
+<p>	//new moving right</p>
+<p>	var carRightSlide = new Sequence();</p>
+<p>carRightSlide.start = -962;</p>
+<p>	carRightSlide.end = 0;</p>
+<p>	carRightSlide.duration = 1000;</p>
+<p>	carRightSlide.min=0.5;</p>
+<p>	carRightSlide.ease = Easing['easeBothStrong'];</p>
+<p>	carRightSlide.init = function(){</p>
+<p>		if(carouselPane1.content){</p>
+<p>			carouselPane1.content.style.left="-962px";</p>
+<p>		}	</p>
+<p>		if(carouselPane1.content && carouselPane1.content.parentNode != carouselPane1.viewport){</p>
+<p>			carouselPane1.viewport.appendChild(carouselPane1.content);</p>
+<p>		};</p>
+<p>	};</p>
+<p>	carRightSlide.handler = function(val){</p>
+<p>		val = Math.round(val);</p>
+<p>		carouselPane1.content.style.left = val+"px";</p>
+<p>		return val;</p>
+<p>	};</p>
+<p>	carRightSlide.callback = function(){</p>
+<p>		carouselPane1.content.style.left = "0px";</p>
+<p>	}</p>
+<p>	carouselRightAnim1.addSequence(0,carRightSlide);</p>
+<p>	carouselManager.pane=carouselPane1;</p>
+<p>	carouselList1.gotoItem('car1-1');</p>
+<p>	// ]]></p>
+<p>	</p>
+<p> </p>
+<p>		var s_account = "wdgnewabcnews,wdgasec";</p>
+<p>		</p>
+<p>		s_omni.pageName = "abcn|sec_health|subsec_allergiesfood|altsec_wn|15341841|story|update_moisse_allergies_school_120111"; //content name</p>
+<p>		s_omni.pageURL = ""; //content url</p>
+<p>		s_omni.pageType = ""; //page type</p>
+<p>		s_omni.server = window.document.location.hostname; //reporting domain</p>
+<p>		s_omni.prop4 = "story"; //content type</p>
+<p>		</p>
+<p>		s_omni.prop1   = "abcn"; //site name</p>
+<p>		s_omni.channel = "abcn:wn"; //level1</p>
+<p>		s_omni.prop5   = "abcn:health"; //level2</p>
+<p>		s_omni.prop6   = "abcn:health:allergiesfood:wn"; //level3</p>
+<p>		</p>
+<p>		s_omni.prop13 = "by katie moisse"; </p>
+<p>		s_omni.prop16 = "abcnews"; </p>
+<p>		s_omni.prop18 = "15341841:update_moisse_allergies_school_120111"; </p>
+<p>		s_omni.prop24 = "15341841|Dead Schoolgirl Got Peanut From Child"; //top story</p>
+<p>		s_omni.prop25 = ""; //top video</p>
+<p>		s_omni.prop26 = ""; //top slideshow</p>
+<p>		</p>
+<p>		s_omni.hier1 = "abcn:health:allergiesfood:wn"; //directory structure</p>
+<p>		s_omni.eVar20 = s_omni.prop13; //columnist</p>
+<p>		s_omni.eVar16 = s_omni.pageName; //content name conversion</p>
+<p>		s_omni.eVar17 = s_omni.prop4+":"+s_omni.channel;</p>
+<p>		var s_code=s_omni.t();if(s_code)document.write(s_code);</p>
+<p>		</p>
+<p>					External links are provided for reference purposes. ABC News is not responsible for the content of external Internet sites.  Copyright © 2012 ABC News Internet Ventures.</p>
+<p>				</p>
+<p>Back to top</p>
+<p>SectionsNewsPoliticsInvestigativeHealthEntertainmentMoneyTechnologyTravelRecipesBehind the ScenesNews TopicsShowsGood Morning AmericaWorld News with Diane SawyerNightlineThis Week with George Stephanopoulos20/20PrimetimeWhat Would You Do?ABC News NowABC.comToolsiPad AppMobileRegisterSign InFacebookTwitterBlogsEmails & News AlertsMessage BoardsRSS HeadlinesAboutContact UsFeedbackAdvertisingPrivacy PolicyInterest-Based AdsTerms of UseABC News StoreSite MapSite IndexAuthors List</p>
+<p>var _sf_async_config={};</p>
+<p>/** CONFIGURATION START **/</p>
+<p>_sf_async_config.uid =12240 ;//28332</p>
+<p>_sf_async_config.domain = location.hostname;</p>
+<p>if (typeof tq != 'undefined' && tq.section) {</p>
+<p>    _sf_async_config.sections = tq.section;</p>
+<p>} else if (typeof abcnewsSite != 'undefined' && abcnewsSite.section) {</p>
+<p>    _sf_async_config.sections = abcnewsSite.section;</p>
+<p>} else {</p>
+<p>    _sf_async_config.sections = '';</p>
+<p>}</p>
+<p>if (typeof tq != 'undefined' && tq.byline) {</p>
+<p>    _sf_async_config.authors = tq.byline;</p>
+<p>} else {</p>
+<p>    _sf_async_config.authors = '';</p>
+<p>}</p>
+<p>/** CONFIGURATION END **/</p>
+<p>(function(){</p>
+<p>function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') + 'js/chartbeat.js'); document.body.appendChild(e); }</p>
+<p>addOnload(loadChartbeat);</p>
+<p>})();</p>
+<p>_qoptions={</p>
+<p>qacct:"p-9e_QHc34iBt22",</p>
+<p>labels:"ABC News.Health"</p>
+<p>};</p>
+<p>(function () { </p>
+<p>	var nielsenImg = new Image(1, 1); </p>
+<p>	nielsenImg.onerror = nielsenImg.onload = function () {</p>
+<p>		nielsenImg.onerror = nielsenImg.onload = null; </p>
+<p>	};</p>
+<p>	nielsenImg.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-704476h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');</p>
+<p>})();</p>
+<p>_uacct = "UA-225447-1";</p>
+<p>urchinTracker();</p>
+<p>digGetAd("PopUnder");</p>
+<p>digGetAd("Survey");</p>
+<p>digGetAd("OverPage");</p>
+<p>digGetAd("RevenueScience");</p>
+<p>if(tq){</p>
+<p>	urlTargetPath = (tq.path)?tq.path:window.location.pathname+window.location.search;</p>
+<p>	urlKeywords = (tq.keywords)?tq.keywords:'';</p>
+<p>	urlRecipes = (tq.recipes)?tq.recipes:'';</p>
+<p>	urlShow = (tq.show)?tq.show:'';</p>
+<p>	urlFullQuery = encodeURI(urlTargetPath)+'&tqkw='+encodeURI(urlKeywords)+'&tqshow='+encodeURI(urlShow)+encodeURI(urlRecipes);</p>
+<p>}else{</p>
+<p>	urlFullQuery = encodeURI(window.location.pathname+window.location.search);</p>
+<p>}</p>
+<p>document.write('<iframe src="http://3ps.go.com/DynamicAd?srvc=nws&itype=Inventory&url='+urlFullQuery+'" border="0" width="1" height="1" scrolling="NO" frameborder="0" marginheight="0" marginwidth="0"></iframe>');</p>
+<p>function fbInit(){</p>
+<p>if(!window.fbLoaded || window.fbLoaded == undefined){</p>
+<p>		FB.init({</p>
+<p>		 	appId  : 'fa71b3ce3ced40d47a4850f185b245d9',</p>
+<p>		 	channelUrl: 'http://a.abcnews.go.com/assets/static/perm_cache/channel.html',</p>
+<p>		 	cookie: true,</p>
+<p>		 	xfbml  : true  // parse XFBML</p>
+<p>		});</p>
+<p>		fbLoaded = true;</p>
+<p>	}</p>
+<p>} </p>
+<p> </p>

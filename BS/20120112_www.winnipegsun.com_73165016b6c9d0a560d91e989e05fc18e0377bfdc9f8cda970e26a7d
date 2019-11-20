@@ -1,0 +1,865 @@
+<p> </p>
+<p>	The ball drops at Misericordia |</p>
+<p>Winnipeg </p>
+<p>	</p>
+<p>		| News</p>
+<p>	</p>
+<p> | Winnipeg Sun</p>
+<p>window.jQuery || document.write('<script src="http://www.winnipegsun.com/assets/js/jquery/jquery-1.5.1.min.js">\x3C/script>')</p>
+<p>				</p>
+<p>				$(function() { </p>
+<p>					</p>
+<p>					var news_pin = [{"title":"Misericordia","latitude":"49.879527","longitude":"-97.160747","zindex":"0","information":""}];</p>
+<p>					var useZoom = 0;</p>
+<p>					if (false){</p>
+<p>						useZoom = 0;</p>
+<p>					}</p>
+<p>					</p>
+<p>					function setMarkers(map, locations) {</p>
+<p>						// Add markers to the map</p>
+<p>				</p>
+<p>						// Marker sizes are expressed as a Size of X,Y</p>
+<p>						// where the origin of the image (0,0) is located</p>
+<p>						// in the top left of the image.</p>
+<p>				</p>
+<p>						// Origins, anchor positions and coordinates of the marker</p>
+<p>						// increase in the X direction to the right and in</p>
+<p>						// the Y direction down.</p>
+<p>						var image = new google.maps.MarkerImage('/assets/img/interface/sun_mst_map_pointer.png',</p>
+<p>								// This marker is 20 pixels wide by 32 pixels tall.</p>
+<p>								new google.maps.Size(25, 32),</p>
+<p>								// The origin for this image is 0,0.</p>
+<p>								new google.maps.Point(0,0),</p>
+<p>								// The anchor for this image is the base of the flagpole at 0,32.</p>
+<p>								new google.maps.Point(20, 30));</p>
+<p>						var shape = {</p>
+<p>								coord: [1, 1, 1, 20, 18, 20, 18 , 1],</p>
+<p>								type: 'poly'</p>
+<p>						};</p>
+<p>						</p>
+<p>						for (var i = 0, n = locations.length; i < n; i++) {</p>
+<p>							googlemap_pin(locations[i]);</p>
+<p>						}</p>
+<p>									  </p>
+<p>						function googlemap_pin(news_pin){</p>
+<p>							var myLatLng = new google.maps.LatLng(news_pin.latitude, news_pin.longitude);</p>
+<p>							var marker = new google.maps.Marker({</p>
+<p>								position: myLatLng,</p>
+<p>								map: map,</p>
+<p>								icon: image,</p>
+<p>								shape: shape,</p>
+<p>								title: news_pin.title</p>
+<p>							});</p>
+<p>										</p>
+<p>							google.maps.event.addListener(marker, 'click', function(event) {</p>
+<p>								var info = new google.maps.InfoWindow();</p>
+<p>								info.setContent(news_pin['information']);</p>
+<p>								info.setPosition(myLatLng);</p>
+<p>								info.open(map);</p>
+<p>							});</p>
+<p>						}</p>
+<p>									  </p>
+<p>					}</p>
+<p>					</p>
+<p>					var div = document.getElementById("map_canvas");</p>
+<p>					if (div) {</p>
+<p>						var bounds = new google.maps.LatLngBounds();</p>
+<p>						for (var i = 0, n = news_pin.length; i < n; i++) {</p>
+<p>							var pin = news_pin[i]</p>
+<p>							var latlng = new google.maps.LatLng(pin.latitude, pin.longitude)</p>
+<p>							bounds.extend(latlng);</p>
+<p>						}</p>
+<p>						</p>
+<p>						var map = new google.maps.Map(div, { mapTypeId: google.maps.MapTypeId.ROADMAP });</p>
+<p>						</p>
+<p>						</p>
+<p>						if (useZoom == 0) {</p>
+<p>						  map.fitBounds(bounds);</p>
+<p>						} else {</p>
+<p>						  map.setCenter(bounds.getCenter());</p>
+<p>						  map.setZoom(useZoom);</p>
+<p>						}</p>
+<p>		</p>
+<p>		</p>
+<p>						setMarkers(map, news_pin);</p>
+<p>					}</p>
+<p>					</p>
+<p>					var img = $('#map_generated');</p>
+<p>					if (img) {</p>
+<p>						var html = '<a href="#map_canvas" class="mapBox"><img class="photo" src="http://maps.google.com/maps/api/staticmap?size=210x180&maptype=roadmap&markers=icon:http://img35.imageshack.us/img35/4084/sunmstmappointer.png';</p>
+<p>						for (var i = 0, n = news_pin.length; i < n; i++) {</p>
+<p>							var x = news_pin[i];</p>
+<p>							html += '|' + x['latitude'] + ',' + x['longitude'];</p>
+<p>						}</p>
+<p>						html += '&sensor=false';</p>
+<p>						if (useZoom > 0) {</p>
+<p>							html += '&zoom=' + useZoom;</p>
+<p>						}</p>
+<p>						html +=  '" alt=""/></a>';</p>
+<p>						img.html(html);</p>
+<p>					}</p>
+<p>					</p>
+<p>					</p>
+<p>					// Google maps</p>
+<p>					$(".mapBox").live('click',function(){</p>
+<p>						$.colorbox({</p>
+<p>							inline:true,</p>
+<p>							innerWidth:725,</p>
+<p>							href:'#map_canvas',</p>
+<p>							innerHeight:500,</p>
+<p>							onComplete:function(){</p>
+<p>								google.maps.event.trigger(map, "resize");</p>
+<p>								if (useZoom == 0) {</p>
+<p>									  map.fitBounds(bounds);</p>
+<p>								} else {</p>
+<p>								  map.setCenter(bounds.getCenter());</p>
+<p>								  map.setZoom(useZoom);</p>
+<p>								}</p>
+<p>							}</p>
+<p>						});</p>
+<p>					});</p>
+<p>					</p>
+<p>				});</p>
+<p>				</p>
+<p>			</p>
+<p>		Sunrise.pageDfpTags = new Sunrise.DFPPageTags("can.en.smc.winnipegsun", "news", "news_winnipeg", "news", false); </p>
+<p>	</p>
+<p>		</p>
+<p>		var _gaq = _gaq || [];</p>
+<p>		_gaq.push(['_setAccount', 'UA-22199754-1']); </p>
+<p>		_gaq.push(['_setDomainName', '.winnipegsun.com']); </p>
+<p>		_gaq.push(['_setCustomVar', 1, 'Section', 'News', 3 ]);</p>
+<p>			</p>
+<p>				_gaq.push(['_setCustomVar', 2, 'Sub-Section', 'Winnipeg', 3 ]);</p>
+<p>			</p>
+<p>		_gaq.push(['_trackPageview']);</p>
+<p>		_gaq.push(['_trackPageLoadTime']);</p>
+<p>		</p>
+<p>		_gaq.push(['sunGlobal._setAccount', 'UA-22892640-1']); </p>
+<p>		_gaq.push(['sunGlobal._setDomainName', 'none']);</p>
+<p>		_gaq.push(['sunGlobal._setAllowLinker', true]);</p>
+<p>		_gaq.push(['sunGlobal._setAllowHash', false]);</p>
+<p>		_gaq.push(['sunGlobal._setCookiePath', '/22892640/']);</p>
+<p>		_gaq.push(['sunGlobal._setSessionCookieTimeout',  1800000]);</p>
+<p>		_gaq.push(['sunGlobal._setCampaignCookieTimeout', 2592000000]);</p>
+<p>		_gaq.push(['sunGlobal._setVisitorCookieTimeout', 63072000000]);</p>
+<p>		_gaq.push(['sunGlobal._trackPageview']);</p>
+<p>		_gaq.push(['sunGlobal._trackPageLoadTime']);</p>
+<p>		</p>
+<p>		_gaq.push(['masterGlobal._setAccount', 'UA-21910987-1']);</p>
+<p>		_gaq.push(['masterGlobal._setDomainName', 'none']);</p>
+<p>		_gaq.push(['masterGlobal._setAllowLinker', true]);</p>
+<p>		_gaq.push(['masterGlobal._setAllowHash', false]);</p>
+<p>		_gaq.push(['masterGlobal._setCookiePath', '/21910987/']);</p>
+<p>		_gaq.push(['masterGlobal._setSessionCookieTimeout',  1800000]);</p>
+<p>		_gaq.push(['masterGlobal._setCampaignCookieTimeout', 2592000000]);</p>
+<p>		_gaq.push(['masterGlobal._setVisitorCookieTimeout', 63072000000]);</p>
+<p>		_gaq.push(['masterGlobal._trackPageview']);</p>
+<p>		_gaq.push(['masterGlobal._trackPageLoadTime']);</p>
+<p>		</p>
+<p>		 (function() {</p>
+<p>			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>		 })();</p>
+<p>		</p>
+<p>		//comscore begins</p>
+<p>		var __cs_c1 = 2;</p>
+<p>		var __cs_c2 = "3005667";</p>
+<p>		var __cs_c3 = "3005667";</p>
+<p>		var __cs_c4 = escape(window.location.href);</p>
+<p>		var __cs_c5 = ""; //s.prop22;</p>
+<p>		var __cs_c6 = "";</p>
+<p>		var __cs_c15 = "";</p>
+<p>		var __cs_params = ["c1=", __cs_c1, "&c2=", __cs_c2, "&c3=", __cs_c3, "&c4=", __cs_c4, "&c5=", __cs_c5, "&c6=",</p>
+<p>		__cs_c6, "&c15=", __cs_c15].join('');</p>
+<p>		document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") +</p>
+<p>		".scorecardresearch.com/beacon.js?" + __cs_params +"' %3E%3C/script%3E"));</p>
+<p>		//comscore ends</p>
+<p>		</p>
+<p>	</p>
+<p>      _ga.trackSocial();</p>
+<p>   </p>
+<p>	</p>
+<p>		(function() {		</p>
+<p>			var e = document.createElement('script'); e.async = true;		</p>
+<p>			e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';</p>
+<p>			document.getElementById('fb-root').appendChild(e);</p>
+<p>		})();</p>
+<p>      window.fbAsyncInit = function() {</p>
+<p>			Sunrise.initFacebook();</p>
+<p>         _ga.trackFacebook();</p>
+<p>		};</p>
+<p>	</p>
+<p>Search</p>
+<p>Autos</p>
+<p>Home and Garden</p>
+<p>Classifieds</p>
+<p>Careers</p>
+<p>Obituaries</p>
+<p>Winnipeg Sun</p>
+<p>			Thursday</p>
+<p>			</p>
+<p>			January 12</p>
+<p>			</p>
+<p>			2012</p>
+<p>		</p>
+<p>		if(Sunrise.pageDfpTags) {</p>
+<p>			Sunrise.writePubAdd(Sunrise.pageDfpTags.addDfpTag('leaderboard', '728x90', true));</p>
+<p>		}</p>
+<p>	</p>
+<p>Home</p>
+<p>News</p>
+<p>In News</p>
+<p>Winnipeg</p>
+<p>Manitoba</p>
+<p>Canada</p>
+<p>World</p>
+<p>Weird</p>
+<p>PSA</p>
+<p>Your News</p>
+<p>Archives</p>
+<p>Sports</p>
+<p>In Sports</p>
+<p>Hockey</p>
+<p>Winnipeg Jets</p>
+<p>Basketball</p>
+<p>Grey Cup</p>
+<p>Baseball</p>
+<p>Football</p>
+<p>Blue Bombers</p>
+<p>Soccer</p>
+<p>Golf</p>
+<p>Curling</p>
+<p>Motorsports</p>
+<p>Other Sports</p>
+<p>Archives</p>
+<p>Entertainment</p>
+<p>In Entertainment</p>
+<p>Celebrities</p>
+<p>TV</p>
+<p>Movies</p>
+<p>DVD</p>
+<p>Music</p>
+<p>Books</p>
+<p>Archives</p>
+<p>Life</p>
+<p>In Life</p>
+<p>Sex Files</p>
+<p>Health & Fitness</p>
+<p>Eat</p>
+<p>Fashion</p>
+<p>Green Planet</p>
+<p>Archives</p>
+<p>Tech</p>
+<p>In Tech</p>
+<p>News</p>
+<p>Gadgets</p>
+<p>Gaming</p>
+<p>Discovery</p>
+<p>Archives</p>
+<p>Money</p>
+<p>In Money</p>
+<p>Money Home</p>
+<p>Careers</p>
+<p>Search Jobs</p>
+<p>Archives</p>
+<p>Travel</p>
+<p>In Travel</p>
+<p>Manitoba</p>
+<p>Canada</p>
+<p>USA</p>
+<p>Europe</p>
+<p>International</p>
+<p>Archives</p>
+<p>Opinion</p>
+<p>In Opinion</p>
+<p>Columnists</p>
+<p>Editorial</p>
+<p>Letters</p>
+<p>Blogs</p>
+<p>Cartoons</p>
+<p>Archives</p>
+<p>Photos</p>
+<p>In Photos</p>
+<p>Videos</p>
+<p>In Videos</p>
+<p>Editors Picks</p>
+<p>News</p>
+<p>Sports</p>
+<p>Entertainment</p>
+<p>Tech</p>
+<p>Money</p>
+<p>Sunshine Girl</p>
+<p>Sun Critters</p>
+<p>Sunshine Girl</p>
+<p>In Sunshine Girl</p>
+<p>Calendar 2012</p>
+<p>Swimsuit 2010</p>
+<p>Become a Sunshine Girl</p>
+<p>Sunshine Girl Challenge</p>
+<p>Archives</p>
+<p>+more</p>
+<p>Watch Sun News</p>
+<p> Hockey Pool</p>
+<p>Ski and Snow Report</p>
+<p>Weather</p>
+<p>Contests</p>
+<p>Sun Radio</p>
+<p>Coffee Break</p>
+<p>Special Sections</p>
+<p>Steal The Deal</p>
+<p>Winnipeg Flyers Online</p>
+<p>Lottery results</p>
+<p>Join our Research Panel</p>
+<p>Winnipeg</p>
+<p>Manitoba</p>
+<p>Canada</p>
+<p>World</p>
+<p>Weird</p>
+<p>PSA</p>
+<p>Your News</p>
+<p>Archives</p>
+<p>						</p>
+<p>							$('.sunrise_channel_1297110542562').addClass('active');</p>
+<p>						</p>
+<p>						</p>
+<p>							$('.sunrise_subchannel_1297110542742').addClass('active');</p>
+<p>						</p>
+<p>					</p>
+<p>News</p>
+<p>Winnipeg</p>
+<p>								The ball drops at Misericordia</p>
+<p>							</p>
+<p>0</p>
+<p>		</p>
+<p>			</p>
+<p>			</p>
+<p>			</p>
+<p>							</p>
+<p>							</p>
+<p>					</p>
+<p>					</p>
+<p>						</p>
+<p>						</p>
+<p>							</p>
+<p>							By</p>
+<p>						</p>
+<p>						</p>
+<p>							</p>
+<p>						</p>
+<p>								</p>
+<p>						</p>
+<p>						</p>
+<p>						</p>
+<p>						</p>
+<p>							</p>
+<p>							</p>
+<p>								</p>
+<p>								</p>
+<p>									Paul  Turenne</p>
+<p>,Winnipeg Sun</p>
+<p>                            </p>
+<p>			First posted: </p>
+<p>	</p>
+<p>		</p>
+<p>			</p>
+<p>		</p>
+<p>		</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>		</p>
+<p>			Wednesday, January 11, 2012 10:36 AM CST</p>
+<p>		</p>
+<p>		</p>
+<p>	</p>
+<p>			</p>
+<p>				| Updated: </p>
+<p>	</p>
+<p>		</p>
+<p>		</p>
+<p>			</p>
+<p>		</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>		</p>
+<p>			Wednesday, January 11, 2012 07:01 PM CST</p>
+<p>		</p>
+<p>		</p>
+<p>	</p>
+<p> </p>
+<p> 	function showVideo(brightcodeId){</p>
+<p>		</p>
+<p> 		// Effacer les anciens player</p>
+<p> 		$('#player_box').text('');</p>
+<p> 		</p>
+<p>		var player = CanoeVideoStandalone.create();</p>
+<p>		// Selon le site, on retrouve le publisher id du site dans la configuration par site</p>
+<p>		player.setPublisher(1749345207);</p>
+<p>		</p>
+<p>		// Retrouver le chanel en fonction de la story</p>
+<p>		player.setPlayer(827262475001);</p>
+<p>		</p>
+<p>		// Obtenir l'id du video</p>
+<p>		player.setVideo(brightcodeId);</p>
+<p>		</p>
+<p>		// The video will always start when the player is loaded</p>
+<p>		player.setAutoStart('false'); </p>
+<p>		/*</p>
+<p>		If set to true, then the player will automatically change the social sharing link for each video loaded</p>
+<p>		into a URL that points to the Canoe video portal site (i.e en.video.canoe.tv) instead of the host URL</p>
+<p>		defiï¿½ned in BrightCove.*/</p>
+<p>		//player.setLocalSharing(true, 'www.ottawasun.com');</p>
+<p>		</p>
+<p>		//player.setAdServer(CanoeAdCallVideo);</p>
+<p>		//player.setAdServer("http://ad.doubleclick.net/adi/can.en.smc.winnipegsun");</p>
+<p>		if(Sunrise.pageDfpTags) {</p>
+<p>			var section = Sunrise.pageDfpTags.subChannel;</p>
+<p>			if(!section) {</p>
+<p>				section = Sunrise.pageDfpTags.channel;</p>
+<p>			}</p>
+<p>			player.setAdServer('http://ad.doubleclick.net/pfadx/can.en.smc.winnipegsun/'+section+';');</p>
+<p>			//player.addSuperBanner('http://ad.doubleclick.net/adi/can.en.smc.ottawasun-bc/featured;', '#superbanner');</p>
+<p>			player.addSuperBanner('http://ad.doubleclick.net/adi/can.en.smc.winnipegsun/'+section+';', '#leaderboard_placeholder');</p>
+<p>			//player.addBigBox(CanoeAdCallBigbox, '#bigbox');</p>
+<p>			player.addBigBox('http://ad.doubleclick.net/adi/can.en.smc.winnipegsun/'+section+';', '.bigbox_placeholder:first');</p>
+<p>		}</p>
+<p>		</p>
+<p>		</p>
+<p>		</p>
+<p>		player.setStyle({width: 650, height: 360, bgcolor:  '#000000' });</p>
+<p>		</p>
+<p>		</p>
+<p>		player.setContainer('#player_box');</p>
+<p>		/*player.notifyContentLoad(OnContentLoad);</p>
+<p>		player.notifyVideoChange(OnVideoChange);</p>
+<p>		player.notifyVideoComplete(OnVideoComplete);</p>
+<p>		player.notifyEmbedCodeRetrieved(OnEmbedCodeRetrieved);</p>
+<p>		*/</p>
+<p>		player.generatePlayer();</p>
+<p> 	}</p>
+<p> 	</p>
+<p> 	showVideo(1384506486001);</p>
+<p>	</p>
+<p> 	$(function(){			</p>
+<p>		$('.video_canoe').click(function() {</p>
+<p>			showVideo($(this).attr('rel'));</p>
+<p>		});	</p>
+<p>	});</p>
+<p>	</p>
+<p>Tweet</p>
+<p>			                    	var addthis_config =</p>
+<p>			                    	{</p>
+<p>		                    	        "data_ga_property": 'UA-22199754-1',</p>
+<p>		                    	        "data_track_clickback": true</p>
+<p>			                    	}</p>
+<p>			                    	var addthis_share = {</p>
+<p>			                    		url_transforms : {</p>
+<p>			                    			add: {</p>
+<p>			                    				utm_source: 'addThis',</p>
+<p>			                    				utm_medium: 'addthis_button_'+'{{code}}',</p>
+<p>			                    				utm_campaign: document.title</p>
+<p>			                    			}</p>
+<p>			                    		}</p>
+<p>			                    	}</p>
+<p>			                    </p>
+<p>Change text size for the story</p>
+<p>Print this story</p>
+<p>Report an error</p>
+<p>Related Stories</p>
+<p>Ex-Misericordia clerk charged in $1-M theft</p>
+<p>Misericordia Urgent Care re-opens</p>
+<p>Misericordia Health Centre files suit against auditor</p>
+<p>Go take a Jane's Walk to discover city's heritage</p>
+<p>Misericordia gives free online access</p>
+<p>After more than 100 years of service to the hospital, officials at Misericordia Health Centre have pulled the plug on the Maryland South building.</p>
+<p>The building, the first phase of which was built in 1906, met with a 5,000-pound wrecking ball Wednesday morning, and the meeting was decidedly one-sided.</p>
+<p>Bricks, concrete and other materials rained down as the ball smashed the building's roof, eliciting squeals of delight from the students at Mulvey School, who watched from the schoolyard as the building across the street took blow after blow.</p>
+<p>The old girl did put up a bit of a fight, at one point fraying the supportive cable enough to disconnect the wrecking ball from the crane — something project superintendent George Vincent said isn't uncommon in largescale demos.</p>
+<p>It's expected to take 35 days for the Maryland South building to be completely demolished and the rubble cleaned up.</p>
+<p>Over the years, the building has been home to interim care and acute care units, a cafeteria and a chapel, but hospital brass have been planning its replacement for more than two decades. The project is finally being realized as part of a multi-million dollar redevelopment project that will see a new two-storey health complex rise in the Maryland South building's place. The new complex, to be built over the next 18 to 24 months, will house the Buhler Eye Care Centre, an ambulatory diagnostic centre, and a health centre for seniors touted as a "one-stop shop" for everything from rehabilitation to social activities.</p>
+<p>Phase 2 of the redevelopment plan will see the Sherbrook Building on the other side of the hospital demolished and replaced with a new chapel and front entrance, as well as space for medical programs.</p>
+<p>Ice roads swallow vehicles</p>
+<p>Previous</p>
+<p>Next</p>
+<p>							$(function() {</p>
+<p>								$('#sec_photo_landing select.Select').Select();</p>
+<p>							});</p>
+<p>						</p>
+<p>2 sec.</p>
+<p>3 sec.</p>
+<p>4 sec.</p>
+<p>5 sec.</p>
+<p>6 sec.</p>
+<p>1 2345</p>
+<p>Buy Sun Media photos</p>
+<p>A wrecking ball was used to help demolish the Maryland South building at Misericordia Health Centre in Winnipeg on Jan. 11, 2012. The building is being torn down as part of a redevelopment project. (PAUL TURENNE/Winnipeg Sun)</p>
+<p>Students and staff at Mulvey School watched from the school yard as the Maryland South building across the street was demolished on Wednesday, Jan. 11, 2011. The building demolition is part of a redevelopment project at Misericordia Health Centre in Winnipeg. (PAUL TURENNE/Winnipeg Sun)</p>
+<p>A hospital staff member watches a wrecking ball destroy the Maryland South building at Misericordia Health Centre in Winnipeg on Wednesday, Jan. 11, 2011. It will take more than a month to completely demolish the building and clean up the rubble. (PAUL TURENNE/Winnipeg Sun)</p>
+<p>A wrecking ball was used to help demolish the Maryland South building at Misericordia Health Centre in Winnipeg on Jan. 11, 2012. The building is being torn down as part of a redevelopment project. (PAUL TURENNE/Winnipeg Sun)</p>
+<p>A wrecking ball was used to help demolish the Maryland South building at Misericordia Health Centre in Winnipeg on Jan. 11, 2012. The building is being torn down as part of a redevelopment project. (PAUL TURENNE/Winnipeg Sun)</p>
+<p>A frayed cable caused the wrecking ball to disconnect and fall into the building's interior during a demolition at Misericordia Health Centre in Winnipeg on Wednesday, Jan. 11, 2012. The project's supervisor said that's not an unusual occurrence since the ball is being dragged in and out of jagged holes. (PAUL TURENNE/Winnipeg Sun)</p>
+<p>An artist's rendering of the new two-storey structure planned to replace the Misericordia Health Centre's Maryland South building. The $43-million expansion is expected to be complete in 2013. (HANDOUT)</p>
+<p>The Maryland South building at Winnipeg's Misericordia Health Centre was demolished Jan. 12, 2012. (HANDOUT)</p>
+<p>Reader's comments »</p>
+<p>By adding a comment on the site, you accept our terms and conditions and our netiquette rules.</p>
+<p>							    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */</p>
+<p>							    var disqus_shortname = 'winnipegsun'; // required: replace example with your forum shortname</p>
+<p>							</p>
+<p>							    // The following are highly recommended additional parameters. Remove the slashes in front to use.</p>
+<p>							     var disqus_identifier = 'st-1297227863807';</p>
+<p>							     var disqus_url = 'http://www.winnipegsun.com/2012/01/11/ball-drops-at-misericordia';</p>
+<p>							     var disqus_developer = 1;</p>
+<p>							</p>
+<p>							    /* * * DON'T EDIT BELOW THIS LINE * * */</p>
+<p>							    (function() {</p>
+<p>							        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;</p>
+<p>							        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';</p>
+<p>							        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);</p>
+<p>							    })();</p>
+<p>							</p>
+<p>Please enable JavaScript to view the comments powered by Disqus.</p>
+<p>		if(Sunrise.pageDfpTags) {</p>
+<p>			Sunrise.writePubAdd(Sunrise.pageDfpTags.addDfpTag('bigbox', '300x250', false));</p>
+<p>		}</p>
+<p>	</p>
+<p>Top stories</p>
+<p>Popular</p>
+<p>Latest</p>
+<p>Videos</p>
+<p>Brodbeck: EPC a bunch of blockheads</p>
+<p>0</p>
+<p>Scumbag raped mom in front of kids</p>
+<p>0</p>
+<p>Noel wants Jets to mimic effort of elite</p>
+<p>0</p>
+<p>Man gets 90 days for ambush that followed bad drug deal</p>
+<p>0</p>
+<p>Pilot in fatal crash named</p>
+<p>0</p>
+<p>People's Choice Awards 2012 photos</p>
+<p>0</p>
+<p>U.S. Marines probe video of men urinating on Taliban corpses</p>
+<p>0</p>
+<p>Highlights from the People's Choice Awards</p>
+<p>0</p>
+<p>Dobrev rep dimisses proposal reports</p>
+<p>0</p>
+<p>‘Goodfellas’ to get TV treatment</p>
+<p>0</p>
+<p>Former Hells Angels president sues government</p>
+<p>Another cost overrun for the Canadian Museum For Human Rights</p>
+<p>Police beef up presence after another home shot up</p>
+<p>Winnipeggers enjoy warm weather</p>
+<p>"Winterpeg" not living up to its nickname</p>
+<p>Social activity</p>
+<p>		if(Sunrise.pageDfpTags) {</p>
+<p>			Sunrise.writePubAdd(Sunrise.pageDfpTags.addDfpTag('bigbox', '300x250', false));</p>
+<p>		}</p>
+<p>	</p>
+<p>More from Winnipeg</p>
+<p>U of M art grant gets nod from EPC</p>
+<p>0</p>
+<p>The ball drops at Misericordia</p>
+<p>0</p>
+<p>Man gets 90 days for ambush that followed bad drug deal</p>
+<p>0</p>
+<p>'Peg police searching for missing 37-year-old man</p>
+<p>0</p>
+<p>It's a rapid Transitway, not a sidewalk: city</p>
+<p>0</p>
+<p>Inside Winnipeg sun.com</p>
+<p>News</p>
+<p>Haiti to mark two years after catastrophic quake</p>
+<p>		var photoSmallBox12972280795151326378400108 = false;</p>
+<p>		function cPSB12972280795151326378400108(image){</p>
+<p>		if (photoSmallBox12972280795151326378400108 == false){</p>
+<p>			photoSmallBox12972280795151326378400108 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228079515_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>Entertainment</p>
+<p>'30 Rock' debut gets real</p>
+<p>		var photoSmallBox13229084852471326378400163 = false;</p>
+<p>		function cPSB13229084852471326378400163(image){</p>
+<p>		if (photoSmallBox13229084852471326378400163 == false){</p>
+<p>			photoSmallBox13229084852471326378400163 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1322908485247_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>Entertainment</p>
+<p>People's Choice Awards 2012 photos</p>
+<p>		var photoSmallBox12972280215401326378400171 = false;</p>
+<p>		function cPSB12972280215401326378400171(image){</p>
+<p>		if (photoSmallBox12972280215401326378400171 == false){</p>
+<p>			photoSmallBox12972280215401326378400171 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228021540_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>News</p>
+<p>Doubt hangs over Arab monitoring mission in Syria</p>
+<p>		var photoSmallBox12972280822391326378400181 = false;</p>
+<p>		function cPSB12972280822391326378400181(image){</p>
+<p>		if (photoSmallBox12972280822391326378400181 == false){</p>
+<p>			photoSmallBox12972280822391326378400181 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228082239_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>News</p>
+<p>Myanmar government, rebels sign ceasefire</p>
+<p>		var photoSmallBox12972280816231326378400213 = false;</p>
+<p>		function cPSB12972280816231326378400213(image){</p>
+<p>		if (photoSmallBox12972280816231326378400213 == false){</p>
+<p>			photoSmallBox12972280816231326378400213 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228081623_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>News</p>
+<p>Wanted Rwandan loses bid to stay in Canada</p>
+<p>		var photoSmallBox12972270027271326378400221 = false;</p>
+<p>		function cPSB12972270027271326378400221(image){</p>
+<p>		if (photoSmallBox12972270027271326378400221 == false){</p>
+<p>			photoSmallBox12972270027271326378400221 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297227002727_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>News</p>
+<p>Tippett appeals dangerous offender tag</p>
+<p>		var photoSmallBox12972280806261326378400231 = false;</p>
+<p>		function cPSB12972280806261326378400231(image){</p>
+<p>		if (photoSmallBox12972280806261326378400231 == false){</p>
+<p>			photoSmallBox12972280806261326378400231 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228080626_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>News</p>
+<p>U.S. probes video of men urinating on corpses</p>
+<p>		var photoSmallBox12972280122471326378400241 = false;</p>
+<p>		function cPSB12972280122471326378400241(image){</p>
+<p>		if (photoSmallBox12972280122471326378400241 == false){</p>
+<p>			photoSmallBox12972280122471326378400241 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228012247_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>Life</p>
+<p>Chlorine tied to lung damage in elite swimmers</p>
+<p>		var photoSmallBox12972280783921326378400260 = false;</p>
+<p>		function cPSB12972280783921326378400260(image){</p>
+<p>		if (photoSmallBox12972280783921326378400260 == false){</p>
+<p>			photoSmallBox12972280783921326378400260 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228078392_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>Life</p>
+<p>Choose chicken over beef to cut stroke risk: Study</p>
+<p>		var photoSmallBox12972280779671326378400274 = false;</p>
+<p>		function cPSB12972280779671326378400274(image){</p>
+<p>		if (photoSmallBox12972280779671326378400274 == false){</p>
+<p>			photoSmallBox12972280779671326378400274 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228077967_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>Life</p>
+<p>Cleaner communities more bowel problems: Study</p>
+<p>		var photoSmallBox12972280769971326378400284 = false;</p>
+<p>		function cPSB12972280769971326378400284(image){</p>
+<p>		if (photoSmallBox12972280769971326378400284 == false){</p>
+<p>			photoSmallBox12972280769971326378400284 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228076997_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>Entertainment</p>
+<p>Highlights from the People's Choice Awards</p>
+<p>		var photoSmallBox12972280522691326378400291 = false;</p>
+<p>		function cPSB12972280522691326378400291(image){</p>
+<p>		if (photoSmallBox12972280522691326378400291 == false){</p>
+<p>			photoSmallBox12972280522691326378400291 = true;						</p>
+<p>			image.src="http://storage.canoe.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297228052269_ORIGINAL.jpg?quality=80&size=210x160&clip=1&clip_gravity=center";</p>
+<p>			</p>
+<p>		 }</p>
+<p>		}</p>
+<p>	</p>
+<p>0</p>
+<p>					fctDcopt();</p>
+<p>				</p>
+<p>Home</p>
+<p>Mobile version</p>
+<p>Search</p>
+<p>News</p>
+<p>Winnipeg</p>
+<p>Manitoba</p>
+<p>Canada</p>
+<p>World</p>
+<p>Weird</p>
+<p>PSA</p>
+<p>Your News</p>
+<p>Archives</p>
+<p>Sports</p>
+<p>Hockey</p>
+<p>Winnipeg Jets</p>
+<p>Basketball</p>
+<p>Grey Cup</p>
+<p>Baseball</p>
+<p>Football</p>
+<p>Blue Bombers</p>
+<p>Soccer</p>
+<p>Golf</p>
+<p>Curling</p>
+<p>Motorsports</p>
+<p>Other Sports</p>
+<p>Archives</p>
+<p>Entertainment</p>
+<p>Celebrities</p>
+<p>TV</p>
+<p>Movies</p>
+<p>DVD</p>
+<p>Music</p>
+<p>Books</p>
+<p>Archives</p>
+<p>Life</p>
+<p>Sex Files</p>
+<p>Health & Fitness</p>
+<p>Eat</p>
+<p>Fashion</p>
+<p>Green Planet</p>
+<p>Archives</p>
+<p>Tech</p>
+<p>News</p>
+<p>Gadgets</p>
+<p>Gaming</p>
+<p>Discovery</p>
+<p>Archives</p>
+<p>Money</p>
+<p>Money Home</p>
+<p>Careers</p>
+<p>Search Jobs</p>
+<p>Archives</p>
+<p>Travel</p>
+<p>Manitoba</p>
+<p>Canada</p>
+<p>USA</p>
+<p>Europe</p>
+<p>International</p>
+<p>Archives</p>
+<p>Opinion</p>
+<p>Columnists</p>
+<p>Editorial</p>
+<p>Letters</p>
+<p>Blogs</p>
+<p>Cartoons</p>
+<p>Archives</p>
+<p>Photos</p>
+<p>Videos</p>
+<p>Editors Picks</p>
+<p>News</p>
+<p>Sports</p>
+<p>Entertainment</p>
+<p>Tech</p>
+<p>Money</p>
+<p>Sunshine Girl</p>
+<p>Sun Critters</p>
+<p>Watch Sun News</p>
+<p> Hockey Pool</p>
+<p>Ski and Snow Report</p>
+<p>Weather</p>
+<p>Contests</p>
+<p>Sun Radio</p>
+<p>Coffee Break</p>
+<p>Special Sections</p>
+<p>Steal The Deal</p>
+<p>Winnipeg Flyers Online</p>
+<p>Lottery results</p>
+<p>Join our Research Panel</p>
+<p>Sunshine Girl</p>
+<p>Follow</p>
+<p>Rss</p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>Subscribe</p>
+<p>Print</p>
+<p>e-edition</p>
+<p>Buy SUN items</p>
+<p>Buy photos</p>
+<p>News research</p>
+<p>Winnipeg Sun</p>
+<p>Contact Us</p>
+<p>Letters to the editor</p>
+<p>TV</p>
+<p>Sun News Network</p>
+<p>Online</p>
+<p>Autos</p>
+<p>Homes</p>
+<p>Classifieds</p>
+<p>Careers</p>
+<p>Obituaries</p>
+<p>Advertise</p>
+<p>In print</p>
+<p>Online</p>
+<p>Classified</p>
+<p>Advertising Opportunities</p>
+<p>Sun publications</p>
+<p>Toronto Sun</p>
+<p>Ottawa Sun</p>
+<p>Calgary Sun</p>
+<p>Edmonton Sun</p>
+<p>More Publications</p>
+<p>Site map</p>
+<p>Privacy policy</p>
+<p>Terms & conditions</p>
+<p>Netiquette</p>
+<p>Powered by Fatwire</p>
+<p>Copyright © 2011 mention All rights reserved mention     The Winnipeg Sun is a member of the canoe network</p>
+<p>    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */</p>
+<p>    var disqus_shortname = 'winnipegsun'; // required: replace example with your forum shortname</p>
+<p>    var disqus_developer = 1;</p>
+<p>    </p>
+<p>    /* * * DON'T EDIT BELOW THIS LINE * * */</p>
+<p>    (function () {</p>
+<p>        var s = document.createElement('script'); s.async = true;</p>
+<p>        s.type = 'text/javascript';</p>
+<p>        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';</p>
+<p>        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);</p>
+<p>    }());</p>
+<p> var _rsCI="us-bpaww";</p>
+<p> var _rsCG="0";</p>
+<p> var _rsDN="//secure-us.imrworldwide.com/";</p>
+<p> var _rsPLfl=0;</p>
+<p> var _rsSE=1;</p>
+<p> var _rsSM=1.0;</p>
+<p> var _rsCL=1;</p>

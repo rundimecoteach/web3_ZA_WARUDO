@@ -1,0 +1,975 @@
+<p>国内首条高速公路元旦停止收费 公路计费起价减半_车市_天津站_凤凰网</p>
+<p>var docBody = null;</p>
+<p>function zoomDoc(size) {</p>
+<p>  if (!docBody) {</p>
+<p>    return;</p>
+<p>  }</p>
+<p>  docBody.style.fontSize = size + 'px';</p>
+<p>  var __childs = docBody.childNodes;</p>
+<p>  for (var i = 0; i < __childs.length; i++) {</p>
+<p>    if (__childs[i].nodeType == 1) {</p>
+<p>      __childs[i].style.fontSize = size + 'px';</p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>
+<p>function init() {</p>
+<p>  docBody = document.getElementById('artical_real');</p>
+<p>}</p>
+<p>V.addListener(window, 'load', init);</p>
+<p>function ignoreError() {</p>
+<p>  return true;</p>
+<p>}</p>
+<p>window.onerror = ignoreError; </p>
+<p> </p>
+<p>/*.theDate2 { float: left; width: 283px; height: 25px; padding-left: 8px; line-height: 25px; background: #F8F8F8; margin: 8px 0 0 13px; display: inline; }100402*/</p>
+<p>body { border: 0px; }</p>
+<p>.select_channel {</p>
+<p>    float: left;</p>
+<p>    padding: 6px 0 0 12px;</p>
+<p>    width: 330px;</p>
+<p>}</p>
+<p>.select_channel .title {</p>
+<p>    background: url("http://img.ifeng.com/tres/pub_res/image/singlepage_v3/end_title_bg.gif") no-repeat scroll left center transparent;</p>
+<p>    color: #FFFFFF;</p>
+<p>    font-size: 12px;</p>
+<p>    font-weight: bold;</p>
+<p>    height: 22px;</p>
+<p>    padding: 6px 0 0 26px;</p>
+<p>}</p>
+<p>.select_channel ul {</p>
+<p>    padding: 7px 0 7px 8px;</p>
+<p>    width: 305px;</p>
+<p>}</p>
+<p>.select_channel li {</p>
+<p>    background: url("http://img.ifeng.com/tres/pub_res/image/singlepage_v3/end_icon.gif") no-repeat scroll 2px 8px transparent;</p>
+<p>    border-bottom: 1px solid #D6D6D6;</p>
+<p>    line-height: 24px;</p>
+<p>    padding: 0 0 0 14px;</p>
+<p>}</p>
+<p>.select_channel li a {</p>
+<p>    line-height: 24px;</p>
+<p>}</p>
+<p>.nav .navList a.Ared, .nav .navList a.Ared:hover{color:#8F1D21;}/*100726d*/</p>
+<p>.nav .navList a.Ared2, .nav .navList a.Ared2:hover{color:#8F1D21; text-decoration:none;}/*100726d*/</p>
+<p>.nav .navList a.Ared3, .nav .navList a.Ared3:hover{color:#ba2636;}/*100726d*/</p>
+<p>.nav { width: 1000px; margin: 0 auto 8px auto; padding: 8px 0 5px 0; border-bottom: 10px #2b2b2b solid; background: #fff; }/*100402*/</p>
+<p>/*.spaceA { width: 1000px; height: 1px; margin: 0px; padding: 0px; font-size: 1px; line-height: 0px; float: left; } 100402*/</p>
+<p>.nav .navM { width: 100%; margin: 0px; float: left; }</p>
+<p>.nav .navL { width: 100%; margin: 0px; float: left; height: 54px; overflow: inherit !important; *overflow: inherit !important; overflow: hidden;}/*100426*/</p>
+<p>.nav .Lines { border-top: 1px #e7e7e7 solid; }</p>
+<p>.nav .Lines01 { border-top: 1px #e7e7e7 solid; border-bottom: 1px #e7e7e7 solid; height: 27px; }</p>
+<p>.nav .bo { width: 100%; height: 10px; margin: 0px; padding: 0px; background: #2b2b2b; font-size: 1px; line-height: 0px; float: left; }</p>
+<p>/*.nav .bo .space { width: 1004px; height: 10px; float: left; } 100402*/</p>
+<p>.navCalendar, .navList, .nextNav { float: left; margin-left:9px; _margin-left:4px; display: inline; }/*100426*/</p>
+<p>.Cooperation, .navFind, .navFocus, .navProposal { float: right; margin-right:9px; _margin-right:4px; }/*100402*/</p>
+<p>.nav .navCalendar { width: 400px; padding: 4px 0 0 5px; }</p>
+<p>.nav .Cooperation { padding: 4px 0 0; text-align: right;width:400px;}</p>
+<p>.nav .Cooperation a:hover, .nav .Cooperation a:visited { color: #2B2B2B; }</p>
+<p>.nav .navLogo { float: left; padding:0px; display: inline; width:220px;}/*100908*/</p>
+<p>/*.nav .navLogo { float: left; width: 196px; overflow: hidden; padding:0px; display: inline;} 100426*/</p>
+<p>.nav .navLogo1{ float:left; display:block; border:0px;}/*100331*/</p>
+<p>.nav .navLogo2{ float:left; display:block; border:0px; margin-top:6px;}/*100426*/</p>
+<p>.nav .webSj{width:74px; background:url(http://img.ifeng.com/tres/pub_res/final_image/websj.gif) no-repeat 0 33px; overflow:hidden;padding:30px 0 0 12px; line-height:18px; float:left;}/*100426*/</p>
+<p>.nav .webZm{width:74px; background:url(http://img.ifeng.com/tres/phoenix/icon_sb.gif) no-repeat 0 33px; overflow:hidden;padding:30px 0 0 13px; line-height:18px; float:left;}/*100426*/</p>
+<p> </p>
+<p>.nav .navFind { width: 348px; padding: 23px 0 4px; }/*100426*/</p>
+<p>.nav .navFind span { float: left; }</p>
+<p>.nav .navFind .text { width: 182px; height: 16px; padding: 2px 0 0 5px; margin-top: 1px !important; *margin-top: 0px !important;margin-top:0;margin-right:7px; _margin-right:3px;background:#fff;border:1px solid #819bb4;color:#646464;font-size:12px;}/*100402*/</p>
+<p>.nav .navFind .sel { width: 80px; height: 16px; margin: 1px 9px 0 0; _margin-right:4px; padding: 2px 0 0 11px; border: 1px solid #819bb4; border-right: none; background: #fff url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_04.gif) no-repeat right center; font-size: 12px; color: #646464; cursor: pointer; }/*100402*/</p>
+<p>.nav .navFind .button { width: 51px; height: 20px; padding: 1px 0 0 2px; margin: 1px 0 0; border: none; background: url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/navFind.gif) no-repeat 0 0; color: #000; font-weight: bold; cursor: pointer; }</p>
+<p>#searchFormOption { position: relative; float: left; z-index: 80; }</p>
+<p>#loginFldselectop { position: absolute; border: 1px solid #DFDFDF; top: 20px; left: 0px; width: 73px; background: #fff; z-index: 99; }</p>
+<p>#loginFldselectop li { line-height: 20px; height: 20px; }</p>
+<p>#loginFldselectop li a { line-height: 20px; height: 20px; text-decoration: none; color: #000000; padding-left: 11px; }</p>
+<p>.nav .navList { width:772px;}/*100324*/</p>
+<p>.nav .navList li { border-left: 1px #e7e7e7 solid; padding: 5px 4px 0; height: 22px; float: left; line-height: 18px; }</p>
+<p>.nav .navList .end { border-left: 1px #e7e7e7 solid; border-right: 1px #e7e7e7 solid;}</p>
+<p>#navCurrent { border-right: 1px #fff solid; border-left: none; background: #2b2b2b url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_07.gif) no-repeat left; color: #fff; padding: 4px 5px 0 7px; height: 23px; float: left; }</p>
+<p>#navCurrent a { color: #fff; }</p>
+<p>.nav .navList a:hover, .nav .navList a:visited { color: #2B2B2B; }</p>
+<p>.nav .navFocus {float:right;padding:5px 0 0 5px;color:#ba2636;line-height:18px}</p>
+<p>.nav .navFocus a { line-height: 18px; }</p>
+<p>.nav .navV a, .nav .navTmp a, .nav .navVIP a, .nav .ifengPlay a, .nav .tvPlay a, .nav .navWap a { color: #ba2636; }</p>
+<p>.nav .navV { width: 37px; background: url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_14.gif) no-repeat 1px 4px; padding: 0 0 0 17px; float: left; }</p>
+<p>.nav .navTmp { width: 37px; float: left; }/*100324*/</p>
+<p>/*.nav .navVIP { width: 42px; background: url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_09.gif) no-repeat 24px 3px; float: left; }*/</p>
+<p>.nav .ifengPlay { width: 37px; float: left; }/*100324*/</p>
+<p>.nav .tvPlay {width:50px; background:url(http://img.ifeng.com/logo/tvlogo.gif) no-repeat 0px 0px; padding:0 0 0 15px; float:left;}/*100409*/</p>
+<p>.nav .navWap { width: 30px; background: url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_06.gif) no-repeat 0px 2px; padding: 0 0 0 11px; float: left; }</p>
+<p>.nav .moreWap { width: 14px; margin: 1px 0 0; float: left; position: relative; }</p>
+<p>.nav .moreWap .next { width: 160px; height: 48px; border: 1px #e7e7e7 solid; background: #fff; position: absolute; top: 0px; left: -146px; z-index: 90; }</p>
+<p>.nav .navV a:hover, .nav .navV a:visited { color: #BA2636; }</p>
+<p>.nav .navVIP a:hover, .nav .navVIP a:visited { color: #BA2636; }</p>
+<p>.nav .ifengPlay a:hover, .nav .ifengPlay a:visited { color: #BA2636; }</p>
+<p>.nav .tvPlay a:hover, .nav .tvPlay a:visited { color: #BA2636; }</p>
+<p>.nav .navWap a:hover, .nav .navWap a:visited { color: #BA2636; }</p>
+<p>.nav .navWa a:hover, .nav .navWa a:visited { color: #BA2636; }</p>
+<p>.nav .moreWap a:hover, .nav .moreWap a:visited { color: #004276; }</p>
+<p>.nav .nextNav { padding: 8px 0 0 3px; line-height: 18px; }/*100331*/</p>
+<p>.nav .nextNav a {line-height:18px; padding:0 7px; float:left; background:url(http://img.ifeng.com/tres/TemplateRes/14731/14731/images/general_head/shux.gif) right center no-repeat;word-break:keep-all;}/*100320*/</p>
+<p>.nav .navProposal { width: 100px; text-align: right; padding: 8px 0 0; }</p>
+<p>.navB { width: 1000px; height: 57px; margin: 0 auto; }</p>
+<p>.navBLines { border-top: 1px #f2f2f2 solid; }</p>
+<p>.navBLines01 { border-top: 1px #f2f2f2 solid; border-bottom: 1px #f2f2f2 solid; }</p>
+<p>.navB .navBLeft { width: 123px; height: 49px; padding: 8px 0 0 14px; border-right: 1px #f2f2f2 solid; float: left; }</p>
+<p>.navB .navBRight { width: 862px; float: left; }</p>
+<p>.navB .navBRight .navBRtop { width: 862px; float: left; }</p>
+<p>.navB .navBRight .navBRtop .navBRTLeft { width: 635px; float: left; }</p>
+<p>.navB .navBRight .navBRtop .navBRTRight { width: 209px; padding: 6px 18px 0 0; float: right; }</p>
+<p>.navB .navBRTLeft ul { }</p>
+<p>.navB .navBRTLeft li { border-left: 1px #f2f2f2 solid; padding: 5px 6px 0 7px; height: 22px; float: left; line-height: 18px; }</p>
+<p>.navB .navBRTLeft .end { border-left: 1px #f2f2f2 solid; border-right: 1px #f2f2f2 solid; }</p>
+<p>.navB .navBRTLeft ul .current { border-right: 1px #fff solid; border-left: none; background: #2b2b2b url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_07.gif) no-repeat left; color: #fff; padding: 4px 5px 0 8px; height: 23px; float: left; }</p>
+<p>.navB .navBRTLeft ul .current a { color: #fff; }</p>
+<p>.navB .navBRight .navBRtop .navBRTRight { text-align: right; }</p>
+<p>.navB .navBRTRight a { padding: 0 0 0 8px; }</p>
+<p>.navB .navBRight .navBRbot { width: 862px; float: left; padding: 6px 0 0 0; line-height: 18px; }</p>
+<p>.navB .navBRbot a { line-height: 18px; padding: 0 7px 0 8px; }</p>
+<p>a { color: #2b2b2b; }</p>
+<p>.black { color: #000; }</p>
+<p>.clear { clear: both; height: 0px; margin: 0 auto; font-size: 0px; line-height: 0px;}</p>
+<p>.LightGrey01, .LightGrey01 a { color: #2b2b2b; }</p>
+<p>.LightGrey02, .LightGrey02 a { color: #666; }</p>
+<p>.LightGrey03, .LightGrey03 a { color: #999; }</p>
+<p>.LightGrey04, .LightGrey04 a { color: #d9d9d9; }</p>
+<p>.LightGrey05, .LightGrey05 a { color: #e7e7e7; }</p>
+<p>.white, .white a { color: #fff; }</p>
+<p>.LightWhite, .LightWhite a { color: #f3f3f3; }</p>
+<p>.red, .red a, .red a:hover, .red a:visited { color: #ba2636; }</p>
+<p>.LightBlue01, .LightBlue01 a, .LightBlue01 a:hover { color: #004276; }</p>
+<p>.LightBlue02, .LightBlue02 a { color: #007bbb; }</p>
+<p>.fz11 { font: 11px Arial; color: #666; }</p>
+<p>.fz12 { font-size: 12px; }</p>
+<p>.fz14 { font-size: 14px; }</p>
+<p>.fz16 { font-size: 16px; }</p>
+<p>.fz18 { font-size: 18px; font-family: simhei; }</p>
+<p>.fz20 { font-size: 20px; font-family: simhei; }</p>
+<p>.line18, .line18 a { line-height: 18px; }</p>
+<p>.line20, .line20 a { line-height: 20px; }</p>
+<p>.line22, .line22 a { line-height: 22px; }</p>
+<p>.line24, .line24 a { line-height: 18px; }</p>
+<p>.bol { font-weight: bold; }</p>
+<p>.bolNo { font-weight: normal; }</p>
+<p>.lineul18 li, .lineul18 li a { line-height: 18px; }</p>
+<p>#artical_real .detailPic{margin:0 auto 10px; text-align:center;}</p>
+<p>#artical_real .img_wrapper{text-indent:28px;font-size:14px; margin-bottom:25px; text-align:center;}</p>
+<p>#artical_real .img_wrapper img { text-align:center;clear:right;}</p>
+<p>#artical_real .img_wrapper span{ clear:both;font-size:12px;display:block;font-family:"楷体_gb2312,楷体";}</p>
+<p>FestivalDay.show(); </p>
+<p>公益 | 文化 | 佛教 | 传媒 | 杂志 | 爱玩 | 中医</p>
+<p> </p>
+<p>手机凤凰网</p>
+<p>加入桌面</p>
+<p>站内</p>
+<p>站内</p>
+<p>站外</p>
+<p>证券</p>
+<p>汽车</p>
+<p>视频</p>
+<p> </p>
+<p><!--</p>
+<p>.stockList{position:absolute;top:45px;left:0;width:300px; border:1px solid #195184; background:#fff; z-index:999;}</p>
+<p>.stockList a,.stockList a:visited{color:#0A5EA6;}</p>
+<p>.stockList .tab td{border-bottom:1px solid #ECECEC; height:21px!important;*height:20px!important;height:20px; padding-left:12px; text-align:left; color:#333;}</p>
+<p>.stockList .tab tr.current{background:#194E80;}</p>
+<p>.stockList .tab tr.current td{color:#fff;background:#194E80;}</p>
+<p>.stockList .tab tr.current td a{color:#fff;}</p>
+<p>.stockList .red{color:#f00;}</p>
+<p>--></p>
+<p>var search_action_array = ['http://search.ifeng.com/sofeng/search.action?q=&c=5', 'http://search.ifeng.com/sofeng/search.action?q=&c=1', 'http://sou.ifeng.com/bsearch/bsearch.do?q=', 'http://app.finance.ifeng.com/hq/search.php?q=', 'http://car.auto.ifeng.com/lib/car/suggest_go.php'];</p>
+<p>var search_array = ['ra0', 'ra1', 'ra2', 'ra3', 'ra4'];</p>
+<p>var search_index = 1;</p>
+<p>function switch_search(index) {</p>
+<p>	$('c').value = index == 0 ? 5 : 1;</p>
+<p>	$('searchForm').action = search_action_array[index];</p>
+<p>}</p>
+<p>function init_search() {</p>
+<p>	switch_search(search_index);</p>
+<p>	V.addListener(search_array, 'click', function(e, obj) {</p>
+<p>		//$("suggest_list").style.display='none';</p>
+<p>		var tmp = 0;</p>
+<p>		for (var i = 0; i != search_array.length; i++) {</p>
+<p>			if (obj.id == search_array[i]) {</p>
+<p>				if (obj.id == 'ra4') {//汽车suggest</p>
+<p>					$("q").style.display = 'none';</p>
+<p>					$("q").disabled = true;</p>
+<p>					$("q_car").style.display = 'block';</p>
+<p>					$("q_car").disabled = false;</p>
+<p>					$("suggest_list").innerHTML = '';</p>
+<p>				} else {//其他</p>
+<p>					$("q").style.display = 'block';</p>
+<p>					$("q").disabled = false;</p>
+<p>					$("q_car").style.display = 'none';</p>
+<p>					$("q_car").disabled = true;</p>
+<p>					$("suggest_list").innerHTML = '';</p>
+<p>				}</p>
+<p>				tmp = i;</p>
+<p>				break;</p>
+<p>			}</p>
+<p>		}</p>
+<p>		search_index = tmp;</p>
+<p>		switch_search(tmp);</p>
+<p>	})</p>
+<p>	V.addListener('searchbutton', 'click', function(e, obj) {</p>
+<p>		//$('searchForm').submit();</p>
+<p>	})</p>
+<p>	//$('searchForm').q.focus();</p>
+<p>	  $('searchForm').q.value = PH_HOTWORDS[1];</p>
+<p>}</p>
+<p>function clickLoginSelect() {</p>
+<p>	$("suggest_list").style.display = 'none'; //关闭当前显示的suggest_list</p>
+<p>	if ($("loginFldselectop").style.display == "block") {</p>
+<p>		$("loginFldselectop").style.display = "none";</p>
+<p>	} else {</p>
+<p>		$("loginFldselectop").style.display = "block";</p>
+<p>		selectlist();</p>
+<p>	}</p>
+<p>}</p>
+<p>function myclick(obj,hotword) {</p>
+<p>	$('searchForm').q.value = PH_HOTWORDS[hotword];</p>
+<p>	$("loginUl").innerHTML = obj.innerHTML;</p>
+<p>	$("loginFldselectop").style.display = "none";</p>
+<p>}</p>
+<p>function selectlist() {</p>
+<p>	var liObj = $("loginFldselectop").getElementsByTagName("li");</p>
+<p>	for (var j = 0; j < liObj.length; j++) {</p>
+<p>		liObj[j].onmouseover = function() {</p>
+<p>			this.style.background = "#e7e7e7";</p>
+<p>			this.getElementsByTagName("a")[0].style.color = "black";</p>
+<p>		}</p>
+<p>		liObj[j].onmouseout = function() {</p>
+<p>			this.style.background = "white";</p>
+<p>			this.getElementsByTagName("a")[0].style.color = "black";</p>
+<p>		}</p>
+<p>		liObj[j].onclick = function() {</p>
+<p>			$("loginFldselectop").style.display == "none";</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>var loginMapTimeoutId;</p>
+<p>function loginMapOver() {</p>
+<p>	if (loginMapTimeoutId) clearTimeout(loginMapTimeoutId);</p>
+<p>}</p>
+<p>function loginHide() {</p>
+<p>	$("loginFldselectop").style.display = "none";</p>
+<p>}</p>
+<p>function loginMapOut() {</p>
+<p>	if (loginMapTimeoutId) clearTimeout(loginMapTimeoutId);</p>
+<p>	loginMapTimeoutId = setTimeout("loginHide()", 500);</p>
+<p>}</p>
+<p>function clear_text() {</p>
+<p>	(document.getElementById("q").value == PH_HOTWORDS[1]) ? (document.getElementById("q").value = "") : "";</p>
+<p>}</p>
+<p>var Suggest_v2_nav = {</p>
+<p>	line: 0,</p>
+<p>	count: 0,</p>
+<p>	keyword: "",</p>
+<p>	move: function(_evt) {</p>
+<p>		switch (_evt.keyCode) {</p>
+<p>			case 38: // up</p>
+<p>				if (this.line > 1) {</p>
+<p>					document.getElementById("suggest_" + this.line).className = "";</p>
+<p>					this.line = this.line - 1;</p>
+<p>					document.getElementById("suggest_" + this.line).className = "current";</p>
+<p>				}</p>
+<p>				break;</p>
+<p>			case 40: // down</p>
+<p>				if (this.line > 0 && this.line < this.count) {</p>
+<p>					document.getElementById("suggest_" + this.line).className = "";</p>
+<p>				}</p>
+<p>				if (this.line < this.count) {</p>
+<p>					this.line = this.line + 1;</p>
+<p>					document.getElementById("suggest_" + this.line).className = "current";</p>
+<p>				}</p>
+<p>				break;</p>
+<p>			case 13: // enter</p>
+<p>				if (this.line >= 1 && this.line <= this.count) {</p>
+<p>					document.searchForm.select_type.disabled = false;</p>
+<p>					document.searchForm.select_code.disabled = false;</p>
+<p>					document.searchForm.select_type.value = suggest_json[this.line - 1]["t"];</p>
+<p>					document.searchForm.select_code.value = suggest_json[this.line - 1]["c"];</p>
+<p>				}</p>
+<p>				break;</p>
+<p>			default:</p>
+<p>				break;</p>
+<p>		}</p>
+<p>	},</p>
+<p>	display: function(_display) {</p>
+<p>		if (_display == "inline") {</p>
+<p>			var table_html = document.getElementById("suggest_list").innerHTML;</p>
+<p>			if (table_html != "") {</p>
+<p>				document.getElementById("suggest_list").style.display = _display;</p>
+<p>			}</p>
+<p>		} else if (_display == "none") {</p>
+<p>			document.getElementById("suggest_list").style.display = _display;</p>
+<p>		}</p>
+<p>	},</p>
+<p>	mark_keyword: function(_str, _keyword) {</p>
+<p>		return _str.replace(_keyword, "<font class='red bold'>" + _keyword + "</font>");</p>
+<p>	},</p>
+<p>	work: function() {</p>
+<p>		if (search_index != 3) {</p>
+<p>			return;</p>
+<p>		}</p>
+<p>		var _type_conf = {</p>
+<p>			"stock": "股票",</p>
+<p>			"fund": "基金",</p>
+<p>			"hkstock": "港股",</p>
+<p>			"forex": "外汇",</p>
+<p>			"bond": "债券"</p>
+<p>		};</p>
+<p>		var table_html = "";</p>
+<p>		this.line = 0;</p>
+<p>		this.count = 0;</p>
+<p>		document.searchForm.select_type.disabled = true;</p>
+<p>		document.searchForm.select_code.disabled = true;</p>
+<p>		document.searchForm.select_type.value = "";</p>
+<p>		document.searchForm.select_code.value = "";</p>
+<p>		for (var i = 0; i < suggest_json.length; i++) {</p>
+<p>			this.count++;</p>
+<p>			var code = suggest_json[i]["c"];</p>
+<p>			var symbol = suggest_json[i]["s"];</p>
+<p>			var name = suggest_json[i]["n"];</p>
+<p>			var pinyin = suggest_json[i]["p"];</p>
+<p>			var type = suggest_json[i]["t"];</p>
+<p>			var _type = _type_conf[type];</p>
+<p>			var bgcolor = "";</p>
+<p>			if (i % 2 == 1) {</p>
+<p>				bgcolor = "bgcolor='#F5F5F5'";</p>
+<p>			}</p>
+<p>			if (type == "forex") {</p>
+<p>				table_html += "  <tr id=\"suggest_" + (parseInt(i) + 1) + "\" onmouseover=\"javascript:this.className='current';this.style.cursor='pointer'\" onmouseout=\"javascript:this.className=''\" onclick=\"javascript:window.open('http://finance.ifeng.com/app/hq/" + type + "/" + symbol + "/')\" >";</p>
+<p>			}</p>
+<p>			else {</p>
+<p>				table_html += "  <tr id=\"suggest_" + (parseInt(i) + 1) + "\" onmouseover=\"javascript:this.className='current';this.style.cursor='pointer'\" onmouseout=\"javascript:this.className=''\" onclick=\"javascript:window.open('http://finance.ifeng.com/app/hq/" + type + "/" + code + "/')\" >";</p>
+<p>			}</p>
+<p>			table_html += "    <td " + bgcolor + ">" + Suggest_v2_nav.mark_keyword(symbol.toUpperCase(), this.keyword.toUpperCase()) + "</td>";</p>
+<p>			table_html += "    <td " + bgcolor + ">" + Suggest_v2_nav.mark_keyword(name, this.keyword) + "</td>";</p>
+<p>			table_html += "    <td " + bgcolor + ">" + Suggest_v2_nav.mark_keyword(pinyin.toUpperCase(), this.keyword.toUpperCase()) + "</td>";</p>
+<p>			table_html += "    <td " + bgcolor + ">" + _type + "</td>";</p>
+<p>			table_html += "  </tr>";</p>
+<p>		}</p>
+<p>		if (table_html != "") {</p>
+<p>			table_html = "<table width='100%' border='0' cellspacing='0' cellpadding='0' class='tab'>" + table_html + "</table>";</p>
+<p>		}</p>
+<p>		document.getElementById("suggest_list").innerHTML = table_html;</p>
+<p>		if (table_html != "") {</p>
+<p>			Suggest_v2_nav.display("inline");</p>
+<p>		} else {</p>
+<p>			Suggest_v2_nav.display("none");</p>
+<p>		}</p>
+<p>	},</p>
+<p>	typewrite: function(_keyword) {</p>
+<p>		var search_name = document.getElementById("loginUl").innerHTML;</p>
+<p>		if (_keyword != this.keyword && search_name == '证券') {</p>
+<p>			this.keyword = _keyword;</p>
+<p>			var oHead = document.getElementsByTagName('HEAD').item(0);</p>
+<p>			var oScript = document.createElement("script");</p>
+<p>			oScript.type = "text/javascript";</p>
+<p>			oScript.src = "http://app.finance.ifeng.com/hq/suggest_v2.php?t=all&q=" + _keyword + "&cb=Suggest_v2_nav.work();";</p>
+<p>			oHead.appendChild(oScript);</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>//function $() {return document.getElementById(arguments[0]);}</p>
+<p>function $T() { return document.getElementsByTagName(arguments[0]); }</p>
+<p>function $C() { return document.createElement(arguments[0]); }</p>
+<p>String.prototype.trim = function() {//用正则表达式将前后空格用空字符串替代</p>
+<p>	return this.replace(/(^\s*)|(\s*$)/g, "");</p>
+<p>}</p>
+<p>var SuggestCar =</p>
+<p>{</p>
+<p>	line: 0,</p>
+<p>	count: 0,</p>
+<p>	request_url: 'http://car.auto.ifeng.com/lib/car/suggest_jsonp.php',</p>
+<p>	keyword: '',</p>
+<p>	form_name: 'searchForm',</p>
+<p>	show_list_id: 'suggest_list',</p>
+<p>	move: function(_evt) {</p>
+<p>		switch (_evt.keyCode) {</p>
+<p>			case 38: //up</p>
+<p>				if (this.line > 1) {</p>
+<p>					$('suggest_' + this.line).className = '';</p>
+<p>					this.line = this.line - 1;</p>
+<p>					$('suggest_' + this.line).className = 'current';</p>
+<p>				}</p>
+<p>				break;</p>
+<p>			case 40: //down</p>
+<p>				if (this.line > 0 && this.line < this.count) {</p>
+<p>					$('suggest_' + this.line).className = '';</p>
+<p>				}</p>
+<p>				if (this.line < this.count) {</p>
+<p>					this.line = this.line + 1;</p>
+<p>					$('suggest_' + this.line).className = 'current';</p>
+<p>				}</p>
+<p>				break;</p>
+<p>			case 13: //enter</p>
+<p>				if (this.line >= 1 && this.line <= this.count) {</p>
+<p>					eval('document.' + this.form_name + '.bname.value = "' + suggest_json[this.line - 1][0] + '";');</p>
+<p>					eval('document.' + this.form_name + '.sname.value = "' + suggest_json[this.line - 1][1] + '";');</p>
+<p>					eval('document.' + this.form_name + '.keyword.value="";');</p>
+<p>				}</p>
+<p>				break;</p>
+<p>			default:</p>
+<p>				break;</p>
+<p>		}</p>
+<p>	},</p>
+<p>	display: function(_display) {</p>
+<p>		if (_display == 'inline') {</p>
+<p>			var table_html = $(this.show_list_id).innerHTML;</p>
+<p>			if (table_html != '') {</p>
+<p>				$(this.show_list_id).style.display = _display;</p>
+<p>			}</p>
+<p>		}</p>
+<p>		else if (_display == 'none') {</p>
+<p>			$(this.show_list_id).style.display = _display;</p>
+<p>		}</p>
+<p>	},</p>
+<p>	mark_keyword: function(_str, _keyword) {</p>
+<p>		return _str.replace('<font color=red>' + _keyword.trim() + '</font>', '<font class="red bold">' + _keyword.trim() + '</font>');</p>
+<p>	},</p>
+<p>	work: function() {</p>
+<p>		var table_html = '';</p>
+<p>		this.line = 0;</p>
+<p>		this.count = 0;</p>
+<p>		for (var i = 0; i < suggest_json.length; i++) {</p>
+<p>			this.count++;</p>
+<p>			var brand_name = suggest_json[i][0]; //品牌</p>
+<p>			var serial_name = suggest_json[i][1]; //车系</p>
+<p>			var search_content = suggest_json[i][2]; //匹配的完整内容(品牌+车系)</p>
+<p>			var bgcolor = '';</p>
+<p>			if (i % 2 == 1) {</p>
+<p>				bgcolor = 'bgcolor="#F5F5F5"';</p>
+<p>			}</p>
+<p>			table_html += '<tr id="suggest_' + (parseInt(i) + 1) + '" onmouseover="javascript:this.className=\'current\'; this.style.cursor=\'pointer\'" onmouseout="javascript:this.className=\'\'" onclick="javascript:window.open(\'http://car.auto.ifeng.com/lib/car/suggest_go.php?bname=' + escape(brand_name) + '&sname=' + escape(serial_name) + '\')">';</p>
+<p>			table_html += '<td ' + bgcolor + '>' + SuggestCar.mark_keyword(search_content, this.keyword) + '</td>';</p>
+<p>			table_html += '</tr>';</p>
+<p>			//将第一个模糊匹配值存数bname和sname</p>
+<p>			if (i == 0) {</p>
+<p>				$("bname").value = brand_name;</p>
+<p>				$("sname").value = serial_name;</p>
+<p>			}</p>
+<p>		}</p>
+<p>		if (table_html != '') {</p>
+<p>			table_html = '<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">' + table_html + '</table>';</p>
+<p>		}</p>
+<p>		$(this.show_list_id).innerHTML = table_html;</p>
+<p>		if (table_html != '') {</p>
+<p>			SuggestCar.display('inline');</p>
+<p>		}</p>
+<p>		else {</p>
+<p>			SuggestCar.display('none');</p>
+<p>			$(this.show_list_id).style.display = 'none';</p>
+<p>		}</p>
+<p>	},</p>
+<p>	typewrite: function(_keyword) {</p>
+<p>		if (_keyword != this.keyword) {</p>
+<p>			this.keyword = _keyword;</p>
+<p>			var oHead = $T('HEAD').item(0);</p>
+<p>			var oScript = $C('script');</p>
+<p>			oScript.type = 'text/javascript';</p>
+<p>			//oScript.src='http://car.auto.ifeng.com/lib/car/suggest_jsonp.php?keyword='+_keyword.trim()+'&callback=SuggestCar.work();';</p>
+<p>			oScript.src = this.request_url + '?keyword=' + _keyword.trim() + '&callback=SuggestCar.work();';</p>
+<p>			oHead.appendChild(oScript);</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p> </p>
+<p>init_search(); </p>
+<p>首页</p>
+<p>资讯</p>
+<p>台湾</p>
+<p>评论</p>
+<p>财经</p>
+<p>汽车</p>
+<p>科技</p>
+<p>房产</p>
+<p>亚运</p>
+<p>娱乐</p>
+<p>时尚</p>
+<p>体育</p>
+<p>军事</p>
+<p>历史</p>
+<p>读书</p>
+<p>教育</p>
+<p>健康</p>
+<p>亲子</p>
+<p>游戏</p>
+<p>天津</p>
+<p>论坛</p>
+<p>博报</p>
+<p>微博</p>
+<p>				var _currentSiteUrl = "http://city.finance.ifeng.com/";</p>
+<p>				(function(){</p>
+<p>				var navlistbox = document.getElementById('navlistbox');</p>
+<p>				var navs = navlistbox.getElementsByTagName('a');</p>
+<p>				for(var i=0;i<navs.length;i++)</p>
+<p>				{</p>
+<p>					if(navs[i].href == _currentSiteUrl)</p>
+<p>					{</p>
+<p>						navs[i].parentNode.id = 'navCurrent';</p>
+<p>						break;</p>
+<p>					}</p>
+<p>				}</p>
+<p>			})();</p>
+<p>			</p>
+<p>宽频·</p>
+<p>视点·</p>
+<p>直播</p>
+<p>凤凰卫视</p>
+<p> </p>
+<p>凤眼观津</p>
+<p>凤凰视窗</p>
+<p>财经</p>
+<p>投资理财</p>
+<p>一言堂</p>
+<p>天津生态</p>
+<p>津门旅游</p>
+<p>城事</p>
+<p>凤眼观房</p>
+<p>一日禅</p>
+<p>朝圣</p>
+<p>禅茶一味</p>
+<p>品鉴收藏</p>
+<p>提点意见 </p>
+<p> </p>
+<p> </p>
+<p>·无知无畏的全民输液</p>
+<p>·小灵通退市中被忽略的声音</p>
+<p>·解码旧中国北方“华尔街”</p>
+<p>·傲骨清华 匠人营国</p>
+<p>凤凰网天津站</p>
+<p> > 车市</p>
+<p> > 正文</p>
+<p>国内首条高速公路元旦停止收费 公路计费起价减半</p>
+<p>2012年01月12日 15:52羊城晚报【大 中 小】 【打印】 共有评论0条</p>
+<p> </p>
+<p> </p>
+<p>去年12月29日，车辆排队等候通过上海沪嘉高速南翔收费站</p>
+<p>国内首条高速公路———上海沪嘉高速2012年元旦起停止收费，而上海全市高速公路计费起价也跟着减半。</p>
+<p>沪嘉高速公路是国内第一条高速公路，连接上海市区与卫星城嘉定，于1984年12月21日开建，1988年10月31日建成通车，长约18公里。据上海市建交委介绍，之所以取消收费，是为适应城市发展需求，完善上海市西北地区路网结构，方便周边市民出行。</p>
+<p>点评：国内首条高速公路终于免费了，而这是在它开通的14年之后。在国内有一个奇怪的现象，明明高速公路是帮助社会经济发展提速的利器，却因为绵绵无期的收费，成为了提高成本、阻碍各行各业发展的“双刃剑”。当然，并不是所有的高速公路都不应该收费。但有一些很明显的，如过了收费期限仍在收费、收费偏高等高速公路，因为利益集团等原因，地方政府迟迟不肯放弃公路收费。希望中国首条高速公路停止收费的经验，各地方政府多多学习。除了向钱看，还要着眼长远、着眼民生，早日成为高速公路大国而不是收费大国。</p>
+<p> </p>
+<p>.red, .red a, .red a:hover, .red a:visited{color:#BA2636;}</p>
+<p>.text_tuiguang{font-size:14px; font-weight:bold;text-align:center; margin:20px 0px;color:#ba2636;}</p>
+<p>.text_tuiguang a,.text_tuiguang a:hover{color:#ba2636;}</p>
+<p>/*if(location.href.indexOf("special")>0){</p>
+<p>var breadnav=$("theCurrent").getElementsByTagName("a");</p>
+<p>if(breadnav[breadnav.length-1]&&breadnav[breadnav.length-1].href){</p>
+<p>breadnav[breadnav.length-1].href=breadnav[breadnav.length-1].href.replace("list_0/0.shtml","");</p>
+<p>}</p>
+<p>}*/</p>
+<p>var allbread = $("theCurrent").getElementsByTagName("a");</p>
+<p>	for (var i = 0; i < allbread.length; i++) {</p>
+<p>		if (allbread[i].href.indexOf("special") > 0) {</p>
+<p>			allbread[i].href=allbread[i].href.replace("list_0/0.shtml", "");</p>
+<p>			break;</p>
+<p>		}</p>
+<p>	}</p>
+<p>欢迎订阅凤凰网资讯电子期刊</p>
+<p>.webSjzw{width:200px; margin:0 auto 25px; clear:both;}/*20090629gai*/</p>
+<p>.webSjzw .webSj{background:url(http://img.ifeng.com/tres/pub_res/final_image/websj.gif) no-repeat 4px 2px; overflow:hidden; padding:0 0 0 16px; line-height:18px; float:left;}/*20090629gai*/</p>
+<p>大事发生，手机看凤凰！</p>
+<p>function viewAllComment(){</p>
+<p>	var commentURL='http://comment.ifeng.com/view.php?chId=4194&docId=141506&docName=%E5%9B%BD%E5%86%85%E9%A6%96%E6%9D%A1%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E5%85%83%E6%97%A6%E5%81%9C%E6%AD%A2%E6%94%B6%E8%B4%B9%20%E5%85%AC%E8%B7%AF%E8%AE%A1%E8%B4%B9%E8%B5%B7%E4%BB%B7%E5%87%8F%E5%8D%8A&docUrl=http%3A%2F%2Ftj.city.ifeng.com%2Fcheshi%2Fdetail_2012_01%2F12%2F141506_0.shtml';</p>
+<p>	window.open(commentURL);</p>
+<p>	return false;</p>
+<p>}</p>
+<p>var username;</p>
+<p>var moodflag=1; // 控制该新闻是否显示表情列表 '0'-不显示 '1'-显示</p>
+<p>var docid="141506"; // 文章ID</p>
+<p>var docname="%E5%9B%BD%E5%86%85%E9%A6%96%E6%9D%A1%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E5%85%83%E6%97%A6%E5%81%9C%E6%AD%A2%E6%94%B6%E8%B4%B9%20%E5%85%AC%E8%B7%AF%E8%AE%A1%E8%B4%B9%E8%B5%B7%E4%BB%B7%E5%87%8F%E5%8D%8A"; // 文章标题</p>
+<p>var chnnid="4194"; // 频道ID</p>
+<p>var docurl="http%3A%2F%2Ftj.city.ifeng.com%2Fcheshi%2Fdetail_2012_01%2F12%2F141506_0.shtml"; // 文章URL地址</p>
+<p>function CheckInfo(){</p>
+<p>	var cookieEnabled=(navigator.cookieEnabled)?true:false;</p>
+<p>	if(!cookieEnabled){</p>
+<p>		alert("请开启浏览器COOKIE功能！");</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(document.getElementById("uname").value==""||document.getElementById("uname").value==null){</p>
+<p>		alert("请输入用户名");</p>
+<p>		document.getElementById("uname").focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(document.getElementById("pass").value==""||document.getElementById("pass").value==null){</p>
+<p>		alert("请输入密码");</p>
+<p>		document.getElementById("pass").focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	document.getElementById("form1").submit();</p>
+<p>	document.getElementById("form1").reset();</p>
+<p>	return false;</p>
+<p>}</p>
+<p>function getCookie_comment(name){</p>
+<p>	var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));</p>
+<p>	if(arr!=null) return arr[2];</p>
+<p>	return null;</p>
+<p>}</p>
+<p>function changeBox(){</p>
+<p>	if(sid&&sid.length>32){</p>
+<p>		document.getElementById("content").className="textLogin";</p>
+<p>		if(document.getElementById("content").innerHTML=="文明上网，登录评论！"){</p>
+<p>			document.getElementById("content").innerHTML="";</p>
+<p>		}</p>
+<p>	}else{</p>
+<p>		document.getElementById("content").className="tipLogin";</p>
+<p>		document.getElementById("content").innerHTML="请您先登录，再发表评论。";</p>
+<p>		document.getElementById("uname").focus();</p>
+<p>	}</p>
+<p>}</p>
+<p>var commentNum=0;</p>
+<p>function ifengcmtcallback(num){</p>
+<p>	commentNum=num;</p>
+<p>	document.getElementById('comment_count').innerHTML=document.getElementById('webUser').innerHTML=commentNum;</p>
+<p>}</p>
+<p> </p>
+<p>共有评论0条  点击查看</p>
+<p> </p>
+<p> 用户名</p>
+<p>            </p>
+<p>            密码</p>
+<p>            </p>
+<p>注册 </p>
+<p>文明上网，登录评论！</p>
+<p> </p>
+<p>所有评论仅代表网友意见，凤凰网保持中立。 </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>function cb_userdetail() {</p>
+<p>  var msg = '<font color="#000000"><b>' + sso_username + '</b> 凤凰网欢迎您</font>&nbsp;&nbsp;&nbsp;<a href="http://ucenter.ifeng.com/logout?backurl=' + escape(window.location.href) + '" id="btnlogout" class="ablue">退出</a>';</p>
+<p>  $("Login").innerHTML = msg;</p>
+<p>}</p>
+<p>function cb_login() {</p>
+<p>  var msg2 = ' 用户名<input class="text" id="uname" name="uname" />' +</p>
+<p>          '密码<input class="text" id="pass" type="password" name="pass" />' +</p>
+<p>		  '<input class="button" type="button" value="登录" name="Submit" onclick="javascript:CheckInfo();" />' +</p>
+<p>          '<a href="http://register.ifeng.com/register.html" target="_blank">注册</a>';</p>
+<p>  $("Login").innerHTML = msg2;</p>
+<p>}</p>
+<p>var sid = getCookie_comment("sid");</p>
+<p>var sso_username = '';</p>
+<p>if (sid && sid.length > 32) {</p>
+<p>  sso_username = decodeURIComponent(sid.substr(32));</p>
+<p>  cb_userdetail();</p>
+<p>}			</p>
+<p>document.write('<script type="text/javascript" src="http://comment.ifeng.com/count_' + 'http%3A%2F%2Ftj.city.ifeng.com%2Fcheshi%2Fdetail_2012_01%2F12%2F141506_0.shtml' + '"><' + '/script>');</p>
+<p>  编辑：张敏  </p>
+<p>张敏</p>
+<p>	(function() {</p>
+<p>	  var docNode = $('artical_real');</p>
+<p>	  var divNodes = docNode.getElementsByTagName('div');</p>
+<p>	  var pagerNode;</p>
+<p>	  for (var i = divNodes.length - 1; i != 0; i--) {</p>
+<p>	    if (divNodes[i].className.toLowerCase() == 'pager') {</p>
+<p>	      pagerNode = divNodes[i];</p>
+<p>	      break;</p>
+<p>	    }</p>
+<p>	  }</p>
+<p>	  if (!pagerNode) { return; }</p>
+<p>	  var pagerHTML = pagerNode.innerHTML;</p>
+<p>	  var patt = new RegExp('<a[^>]*?href="([\\w\\.]*?)"[^>]*>后一页[^<]*</a>', 'gi');</p>
+<p>	  var result = patt.exec(pagerHTML); if (!result) { return; }</p>
+<p>	  var nextPage = result[1];</p>
+<p>	  //alert('nextPage:'+nextPage);</p>
+<p>	  /*开始给图片添加点击，修改样式*/</p>
+<p>	  var imgs = docNode.getElementsByTagName('img');</p>
+<p>	  for (var i = 0; i < imgs.length; i++) {</p>
+<p>	    var img = imgs[i]; var ext = img.getAttribute('ext');</p>
+<p>	    if (ext && ext.toLowerCase() == 'nextpage') {</p>
+<p>	      img.style.cursor = 'pointer';</p>
+<p>	      img.alt = '点击进入下一页';</p>
+<p>	      img.onclick = function() { location.href = nextPage; };</p>
+<p>	    }</p>
+<p>	  }</p>
+<p>	})();</p>
+<p>	</p>
+<p>var arrBaiduCproConfig=new Array();</p>
+<p>arrBaiduCproConfig['uid'] = 498570;</p>
+<p>arrBaiduCproConfig['n'] = 'ifeng_cpr';</p>
+<p>arrBaiduCproConfig['tm'] = 80; </p>
+<p>arrBaiduCproConfig['cm'] = 90; </p>
+<p>arrBaiduCproConfig['um'] = 34;</p>
+<p>arrBaiduCproConfig['rad'] = 1;</p>
+<p>arrBaiduCproConfig['w'] = 590; </p>
+<p>arrBaiduCproConfig['h'] =180; </p>
+<p>arrBaiduCproConfig['bd'] = '#ffffff'; </p>
+<p>arrBaiduCproConfig['bg'] = '#ffffff'; </p>
+<p>arrBaiduCproConfig['tt'] = '#5256A3'; </p>
+<p>arrBaiduCproConfig['ct'] = '#444444'; </p>
+<p>arrBaiduCproConfig['url'] = '#489948'; </p>
+<p>arrBaiduCproConfig['bdl'] = '#444444'; </p>
+<p>arrBaiduCproConfig['wn'] = 1; </p>
+<p>arrBaiduCproConfig['hn'] = 3; </p>
+<p>arrBaiduCproConfig['ta'] = 'right'; </p>
+<p>arrBaiduCproConfig['tl'] = 'bottom'; </p>
+<p>arrBaiduCproConfig['bu'] = 1; </p>
+<p>arrBaiduCproConfig['nfr'] = 1; </p>
+<p><!--</p>
+<p>document.write(baiduCproIFrame());</p>
+<p>--></p>
+<p> </p>
+<p>·2011草莓音乐节</p>
+<p>·国乐名师音乐会</p>
+<p>·“日本游”叫停</p>
+<p>·2011红桥区运河桃花节</p>
+<p>·献给安徒生的乐章</p>
+<p>·键盘上的音符</p>
+<p>·天津旅游新条例</p>
+<p>·天津港湾旅游文化节</p>
+<p>更多新闻</p>
+<p>·四川今年投资301亿建设铁路 实现水铁海铁联运</p>
+<p>·重庆今年9000亿投资促发展　快来寻商机(图)</p>
+<p>·浙江警方悬赏征集苏湘渝抢劫杀人案线索</p>
+<p>·深圳“史上最牛工资”属实 科级年薪35万</p>
+<p>·2012年天津将推出多种就业利好政策 将新增就业47万人</p>
+<p>·厦门经济锁定“多赚多花” 财政要“多分”给医食住行</p>
+<p>频道头条 Big News</p>
+<p> 手机上看新闻</p>
+<p>广东遭性骚扰女性81%没有申诉</p>
+<p>40干部遭艳照勒索 照片淫秽不堪</p>
+<p>广州十年总规划 番禺有望跻身中心城区</p>
+<p>厦门公示拟提任8位“厅官” “70后”干部在列</p>
+<p>广东首晒“三公”账本 去年公车费用6.59亿</p>
+<p>黄奇帆：让山里的孩子都能健康、快乐地成长</p>
+<p>广州官博元年揭秘 官博幕后操作员提前受训</p>
+<p>重庆外贸逆势而上 增速连续5个月全国第一</p>
+<p>成都部署五大兴市战略 服务西部经济发展高地建设</p>
+<p>广州平均年终奖4486元?你公司拖后腿了吗</p>
+<p> </p>
+<p>凤眼观津</p>
+<p>·河西区民营经济年会：解民营经济发展之道 </p>
+<p>·运迎霞：城市规划新理念促渤海明珠新腾飞 </p>
+<p>·江铭：解读河西区四大中心城市功能区 </p>
+<p>·蓝天太阳：光伏产业第三代升级的先驱者 </p>
+<p>·天津航空7月实现津港通行 5月预售优惠多 </p>
+<p>·李宁剑讲述天津高新区与清华的不解之缘 </p>
+<p>·杨弈：美食亦如人生 生活是一种态度</p>
+<p>·天津楼市春考 史上第二次供需博弈局 </p>
+<p>·周国平讲“幸福” 人生就是兜圈子 </p>
+<p>·冯骥才亲临义成永画庄古版年画发掘活动  </p>
+<p>·专访王平—— 一位京剧领路人 一份执着梨园情  </p>
+<p> </p>
+<p>	#news_pic { padding: 6px 0px 0 12px; float: left; width: 330px; }</p>
+<p>	#news_pic .title { padding: 6px 0 0 26px; font-weight: bold; font-size: 12px; background: url(http://img.ifeng.com/tres/pub_res/image/singlepage_v3/end_title_bg.gif) no-repeat left 50%; margin-bottom: 4px; color: #fff; height: 22px; }</p>
+<p>	#newsxuanze { float: left; line-height: 22px; margin-top: 8px; height: 25px; }</p>
+<p>	#newsxuanze span { border: 1px solid #ceceff; display: block; float: left; width: 80px; height: 14px !important; height: 15px; padding-top: 4px; padding-bottom: 1px !important; text-align: center; cursor: pointer; background: #e9e9ff; }</p>
+<p>	#newsxuanze span.current { background: white; }</p>
+<p>	#k1, #k2 { display: none; }</p>
+<p>城市资讯</p>
+<p>各地要闻 城市趣闻</p>
+<p>广州未来新增500万人口</p>
+<p>渝三届人大五次会议开幕</p>
+<p>四川灾区振兴“答卷”精彩</p>
+<p>浙江警方绘“犯罪地图”</p>
+<p>元旦三天90.34万游客来津</p>
+<p>厦门经济锁定“多赚多花”</p>
+<p>今年广州要花3000万种花</p>
+<p>极地馆企鹅 春节穿龙袍拜年</p>
+<p>中山大学“哈利波特”选修课</p>
+<p>富翁奢华玩意 菜锅也带钻</p>
+<p>四川年货节 十万商品斗艳</p>
+<p>春运中的国人表情</p>
+<p>var picSwap = new TabControl();</p>
+<p>picSwap.addRange($('newsxuanze').getElementsByTagName('span'), ['k1', 'k2']);</p>
+<p>picSwap.triggerType = "mouseover";</p>
+<p>picSwap.enableSlide = true;</p>
+<p>picSwap.slideInterval = 10000;</p>
+<p>picSwap.init();</p>
+<p>省消委会发布春节期间消费提示 外出就餐须查账单</p>
+<p>天津2014年前将建成千万用户容量的无线城市平台</p>
+<p>福建教科网项目启动 80%农村学校可共享教育专网</p>
+<p>广州今年完成楼市调控目标 明年继续限贷限购限价</p>
+<p>网爆天津体校巨额招待体操队总教练 17人花16万</p>
+<p>风范小市民：改变中国城市新力量</p>
+<p>东莞市委书记刘志庚：“性都”正名者</p>
+<p>中国十大最适合养老的二线城市(图)</p>
+<p>盘点最适合结婚的5大美丽浪漫城市</p>
+<p>伦敦市民组成志愿者队伍清扫街头垃圾</p>
+<p> </p>
+<p> </p>
+<p>#phoenix_video .title a{color:#fff;text-decoration:none;}</p>
+<p>#phoenix_video .title a:hover{color:#fff;text-decoration:underline;}</p>
+<p>#kpxuanze{float:left;line-height:24px;margin-top:8px}</p>
+<p>#kpxuanze span{border:#ceceff 1px solid;display:block;float:left;width:50px;height:14px;padding-top:5px;text-align:center;cursor:pointer;}</p>
+<p>.xuanzhong{border-bottom:0px;background:white;}</p>
+<p>.meixuanzhong{border-bottom:#ceceff 1px solid;background:#e9e9ff;}</p>
+<p>.KPtjShow{clear:both;dipslay:block;}</p>
+<p>.KPtjHide{display:none;}</p>
+<p>.KPtu{float:left;width:150px;padding:3px;}</p>
+<p>.KPtu img{width:140px;height:105px; padding-bottom:5px;}/*20081202gai*/</p>
+<p>凤凰视野</p>
+<p>/*</p>
+<p>var xzKP=setInterval(zidongxuanze,10000);</p>
+<p>var xzNow=0;</p>
+<p>function KPxuanze(xuanxiang){</p>
+<p>document.getElementById("xuanze1").className="meixuanzhong";</p>
+<p>document.getElementById("xuanze2").className="meixuanzhong";</p>
+<p>document.getElementById("xuanze3").className="meixuanzhong";</p>
+<p>document.getElementById("KPtuijian1").className="KPtjHide";</p>
+<p>document.getElementById("KPtuijian2").className="KPtjHide";</p>
+<p>document.getElementById("KPtuijian3").className="KPtjHide";</p>
+<p>document.getElementById("xuanze"+xuanxiang).className="xuanzhong";</p>
+<p>document.getElementById("KPtuijian"+xuanxiang).className="KPtjShow";</p>
+<p>}</p>
+<p>function zidongxuanze(){</p>
+<p>xzNow++;</p>
+<p>if(xzNow>3){xzNow=1};</p>
+<p>KPxuanze(xzNow);</p>
+<p>}</p>
+<p>*/</p>
+<p>社会责任PK个人自由</p>
+<p>留学文化与爱国买卖</p>
+<p>[专题]降价潮真的来了？</p>
+<p>从骑行开始 周游世界</p>
+<p> 凤凰网重庆：潮流志</p>
+<p> 2011宁波民生工程盘点</p>
+<p>[军情] 日军雷达监控覆盖中国 威胁中国空军机密</p>
+<p>[秘闻] 百年辛亥：一场“从头到脚”的革命</p>
+<p>[娱乐] 杰克逊死因案审理 MJ遗体照片曝光</p>
+<p>[视频] 揭秘天宫“座驾”：长征二号整流罩</p>
+<p>[免费视频社区] 锵锵三人行 鲁豫有约 军情观察室 更多</p>
+<p>博客论坛</p>
+<p>幼儿园老师结婚给全班发帖</p>
+<p>宁波环卫工人街头喂饭</p>
+<p>·容纳农民工学校才是城市和谐的关键</p>
+<p>·动车事故的背后是丢了刹车板的中国  </p>
+<p>·刘老根会馆是赵本山下的怪蛋</p>
+<p>   </p>
+<p>·让婚姻复归白手起家共同奋斗的常态 </p>
+<p>·“山寨版”村庄只是食之无味的豆腐 </p>
+<p>·下半年房价能否暴降？ </p>
+<p>·房产测绘隐藏制度性抢劫</p>
+<p>·房产税跟老百姓有啥关系 </p>
+<p>·一房一价并非治本之策 </p>
+<p>·楼市调控宜疏不宜堵 </p>
+<p>·央企还是离房地产远点好 </p>
+<p>·房价高并不等于泡沫大 </p>
+<p>·反房地产暴利从源头入手 </p>
+<p>·中国城市化与住房双轨制 </p>
+<p>·半数地产商三年内出局</p>
+<p>·房地产信托风险很高</p>
+<p>·房地产利润不低于10%</p>
+<p><!--</p>
+<p>.A1 {</p>
+<p>	font-size: 12.5px;</p>
+<p>	font-weight: normal;</p>
+<p>}</p>
+<p>--></p>
+<p><!--</p>
+<p>.fhwx {</p>
+<p>	font-size: 9pt;</p>
+<p>	line-height: 130%;</p>
+<p>	font-weight: normal;</p>
+<p>	color: #518FCD;</p>
+<p>}</p>
+<p>.fhdjt {</p>
+<p>	font-size: 9pt;</p>
+<p>	font-weight: normal;</p>
+<p>	color: #595959;</p>
+<p>	line-height: normal;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>.p10 {</p>
+<p>	font-size: 10.5pt;</p>
+<p>}</p>
+<p>a:link {</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>a:visited {</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>a:hover {</p>
+<p>	text-decoration: underline; COLOR: #666666</p>
+<p>}</p>
+<p>a:active {</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>.style2 {color: #666666; font-size: 12px;}</p>
+<p>.wireless  {</p>
+<p> font-size: 9pt;</p>
+<p> line-height: 130%;</p>
+<p>}</p>
+<p>--></p>
+<p>短信</p>
+<p>音乐</p>
+<p>彩铃</p>
+<p> </p>
+<p> </p>
+<p>精彩MV|特色铃音|首发推荐|奇趣音效|音乐|凤凰图铃</p>
+<p>·俄夜店爆炸</p>
+<p>·曾轶可绵羊音</p>
+<p>·阅兵村黑里美</p>
+<p>·苏珊大妈献唱</p>
+<p>·风云2加长预告</p>
+<p>·天亮了说晚安</p>
+<p>·武僧单挑城管</p>
+<p>·入狱贪官菜谱</p>
+<p>·刺陵精彩预告片</p>
+<p> </p>
+<p> </p>
+<p>.clear{ clear:both;}</p>
+<p>.chaFotNav ul, .chaFotNav li{ margin:0px; padding:0px;}/*100318*/</p>
+<p>.chaFotNav li{ list-style:none;}/*100318*/</p>
+<p>.chaFotNav { width:998px; border:1px #d9d9d9 solid; margin:0 auto 10px auto; font-family:simsun, Arial; font-size:12px; clear:both;}</p>
+<p>.chaFotNav .endNList { width:772px; float:left; padding:8px 0px;}/*100325*/</p>
+<p>.chaFotNav .endNList li { padding:0px 4px 0px 5px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/zxicon_26.gif) right center no-repeat; float:left;}</p>
+<p>.chaFotNav .endNList li a { color:#2b2b2b; text-decoration:none;}</p>
+<p>.chaFotNav .endNList li a:hover{ text-decoration:underline;}</p>
+<p>.chaFotNav .navFocus { width:200px; padding:5px 0 0 0px; margin:0 0px 0 0; color:#ba2636; line-height:18px; float:right;}/*100325*/</p>
+<p>.chaFotNav .navFocus a { line-height:18px; text-decoration:none;}</p>
+<p>.chaFotNav .navFocus a:hover { text-decoration:underline;}</p>
+<p>.chaFotNav .navV a, .chaFotNav .navVIP a, .chaFotNav .ifengPlay a, .chaFotNav .tvPlay a, .chaFotNav .navWap a, .chaFotNav .navTmp a { color:#ba2636; }</p>
+<p>.chaFotNav .navV { width:37px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_14.gif) no-repeat 1px 4px; padding:0 0 0 17px; float:left }</p>
+<p>.chaFotNav .navTmp { width:37px; float: left; }/*100325*/</p>
+<p>/*.chaFotNav .navVIP { width:42px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_09.gif) no-repeat 24px 3px; float:left }*/</p>
+<p>.chaFotNav .ifengPlay { width: 37px; float: left; }/*100325*/</p>
+<p>.chaFotNav .tvPlay { width:55px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_17.gif) no-repeat 0px 3px; padding:0 0 0 15px; float:left }</p>
+<p>.chaFotNav .navWap { width:30px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_06.gif) no-repeat 0px 2px; padding:0 0 0 11px; float:left }</p>
+<p>.chaFotNav .nextTop { width:40px; height:20px; padding:7px 0 0 3px; border-left:1px #d9d9d9 solid; float:left }</p>
+<p>.chaFotNav02 { width:1000px; height:26px; margin:0 auto; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/icon02_04.gif) repeat-x top;  font-size:0px; line-height:0px; clear:both }</p>
+<p>.chaFooter{ color:#000; width:1000px; height:72px; margin:0 auto; clear:both; text-align:center; line-height:24px; font-family:Arial, simsun; font-size:12px;}</p>
+<p>.chaFooter a{ color:#000; text-decoration:none;}</p>
+<p>.chaFooter a:hover{ color:#000; text-decoration:underline;}</p>
+<p>.chaFooter .footLink{ line-height:22px;}/*100318*/</p>
+<p>.chaFooter .footLink a{ padding:0px 8px;}</p>
+<p>.chaFooter .copyright{ color:#000; line-height:22px;}/*100318*/</p>
+<p>首页</p>
+<p>资讯</p>
+<p>台湾</p>
+<p>评论</p>
+<p>财经</p>
+<p>汽车</p>
+<p>科技</p>
+<p>房产</p>
+<p>亚运</p>
+<p>娱乐</p>
+<p>时尚</p>
+<p>体育</p>
+<p>军事</p>
+<p>历史</p>
+<p>读书</p>
+<p>教育</p>
+<p>健康</p>
+<p>亲子</p>
+<p>游戏</p>
+<p>城市</p>
+<p>论坛</p>
+<p>博报</p>
+<p>微博</p>
+<p>宽频·</p>
+<p>视点·</p>
+<p>直播</p>
+<p>凤凰卫视</p>
+<p>凤凰新媒体介绍|</p>
+<p>			凤凰网城市联盟天津站简介|</p>
+<p>			广告服务|</p>
+<p>			诚征英才|</p>
+<p>			保护隐私权|</p>
+<p>			免责条款|</p>
+<p>			法律顾问|</p>
+<p>			投资者关系 Investor Relations</p>
+<p>凤凰网城市联盟监督电话：010-84458078  监督及意见反馈邮箱：huly@ifeng.com</p>
+<p> 凤凰新媒体 版权所有</p>
+<p>		Copyright © 1996-2010 Phoenix New Media Inc. All Rights Reserved. </p>

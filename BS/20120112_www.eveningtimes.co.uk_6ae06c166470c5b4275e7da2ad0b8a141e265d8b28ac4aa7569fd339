@@ -1,0 +1,504 @@
+<p>   Study could help to cut risks of IVF -   	      Evening Times</p>
+<p>	   | 	      News</p>
+<p>	  	  </p>
+<p><!--</p>
+<p>   document.domain = "eveningtimes.co.uk";</p>
+<p>   //--></p>
+<p>   </p>
+<p><!--</p>
+<p>m__tURL      = new String ("http://www.eveningtimes.co.uk/cm/2.1188/news/study-could-help-to-cut-risks-of-ivf-1.1143343");</p>
+<p>m__tLogged   = new String ("$cookie.get('sueid').value.toString()");</p>
+<p>$(document).ready(function () {</p>
+<p>		      if (m__tURL && m__tURL.length > 0) {</p>
+<p>			  m__tURL = m__tURL.replace(/\.(com|co\.uk)\/cm\/[.0-9]+\//, ".$1/");</p>
+<p>			  if (m__tURL.length > 0) {</p>
+<p>			      m_hello(m__tURL);</p>
+<p>			      m_get_comments({"raw": m__tURL}, "");</p>
+<p>                          }</p>
+<p>		      }</p>
+<p>		      return true;</p>
+<p>		  });</p>
+<p>//--></p>
+<p>	var prop6 = "news"; </p>
+<p>	var prop7 = "news"; </p>
+<p>	var prop8 = "news"; </p>
+<p>	var prop9 = "news"; </p>
+<p><!-- if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-') //--></p>
+<p><!--</p>
+<p>var rsi_segs = [];</p>
+<p>var segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>if (segs_beg>=0){</p>
+<p>   segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>   if(segs_beg>0){</p>
+<p>      var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>      if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>      rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');</p>
+<p>   }</p>
+<p>}</p>
+<p>var segLen=20;</p>
+<p>var segQS="";</p>
+<p>if (rsi_segs.length<segLen){segLen=rsi_segs.length}</p>
+<p>for (var i=0;i<segLen;i++){</p>
+<p>   segQS+=("rsi"+"="+rsi_segs[i]+";")</p>
+<p>}</p>
+<p>//--></p>
+<p>// Detect and redirect smart phones</p>
+<p>if(</p>
+<p>    (navigator.userAgent.match(/iPhone/i)) || </p>
+<p>    (navigator.userAgent.match(/iPod/i)) || </p>
+<p>    (navigator.userAgent.match(/series60/i)) ||</p>
+<p>    (navigator.userAgent.match(/symbian/i)) ||</p>
+<p>    (navigator.userAgent.match(/android/i)) ||</p>
+<p>    (navigator.userAgent.match(/windows ce/i)) ||</p>
+<p>    (navigator.userAgent.match(/palm/i)) ||</p>
+<p>    (navigator.userAgent.match(/blackberry/i))</p>
+<p>  ) {</p>
+<p>      var newURL = "http://" + window.location.hostname + "/mobile" + window.location.pathname;</p>
+<p>      window.location.replace(newURL);</p>
+<p>}</p>
+<p>#sitemap-secondrow {</p>
+<p>float:left;	</p>
+<p>}</p>
+<p>News</p>
+<p>Sport</p>
+<p>::Sport Columnists</p>
+<p>Features</p>
+<p>::General Features</p>
+<p>::Style</p>
+<p>::Opinion</p>
+<p>::Letters</p>
+<p>::Columnists</p>
+<p>Times Out</p>
+<p>::Film & Stage</p>
+<p>::Music & Clubs</p>
+<p>::Food & Drink</p>
+<p>Glasgow Site</p>
+<p>Campaigns</p>
+<p>Communities</p>
+<p> E-Dition</p>
+<p> Dating</p>
+<p> View Ads</p>
+<p> Market Place</p>
+<p> Family Notices</p>
+<p> Back Issues</p>
+<p> Photo Sales</p>
+<p>Close</p>
+<p>sitemap</p>
+<p>.disclaimerMessage { margin-top: 20px; padding-top: 10px; text-align: left; border-top: 1px solid #ccc; font-style: italic;}</p>
+<p>function getElementsByClassName(classname, node) { if(!node) node = document.getElementsByTagName("body")[0]; var a = []; var re = new RegExp('\\b' + classname + '\\b'); var els = node.getElementsByTagName("*"); for(var i=0,j=els.length; i<j; i++) if(re.test(els[i].className))a.push(els[i]); return a;}</p>
+<p>function addArchiveDisclaimer() {</p>
+<p>var disclaimerTag = document.createElement("div");</p>
+<p>disclaimerTag.className = "disclaimerMessage";</p>
+<p>disclaimerContents = "We have made every effort to check the copyright and contents of all material in this archive, ";</p>
+<p>disclaimerContents += "but if you have any complaint or comment please contact us using the form on our ";</p>
+<p>disclaimerContents += "<a href='/help-faqs-1.989585'>Help &amp; FAQs page</a>.";</p>
+<p>disclaimerTag.innerHTML = disclaimerContents;</p>
+<p> if (document.getElementById('search-nav')) { document.getElementById("search-nav").appendChild(disclaimerTag); }  if(document.getElementById('contentbody')) { var disclaimerCB = document.getElementById('contentbody');var disclaimerRE = /pubdate.{1,20}(\d+) (\w\w\w) (\d\d\d\d)/;var disclaimerArray = disclaimerRE.exec(disclaimerCB.innerHTML);if</p>
+<p>(disclaimerArray && (disclaimerArray.length > 0) &&</p>
+<p>disclaimerArray[1] && disclaimerArray[2] &&</p>
+<p>disclaimerArray[3]) {disclaimerDate = disclaimerArray[2] + " " + </p>
+<p>disclaimerArray[1] + ", " + disclaimerArray[3];disclaimerD2 = new Date(disclaimerDate);disclaimerD1 = new Date("Aug 01, 2009");if (disclaimerD2 < disclaimerD1) { disclaimerArticle = getElementsByClassName("article", disclaimerCB); if (disclaimerArticle[0]) { disclaimerArticle[0].appendChild(disclaimerTag); }}} }}</p>
+<p>var disclaimeralreadyrunflag=0 //flag to indicate whether target function has already been run</p>
+<p>if (document.addEventListener) { document.addEventListener("DOMContentLoaded", function(){disclaimeralreadyrunflag=1; addArchiveDisclaimer()}, false);} else { if (document.all && !window.opera) { document.write('<script type="text/javascript" id="contentloadtag" defer="defer" src="javascript:void(0)"><\/script>'); var contentloadtag=document.getElementById("contentloadtag"); contentloadtag.onreadystatechange= function() { if (this.readyState=="complete") { disclaimeralreadyrunflag=1; addArchiveDisclaimer(); } } }}</p>
+<p>window.onload=function(){ setTimeout("if (!disclaimeralreadyrunflag) addArchiveDisclaimer()", 0)}</p>
+<p>Browse the archive: 1989 to present</p>
+<p><!--</p>
+<p>              //m_signin_links_tmp('/login-element-et-7.1672?referrer=http://www.eveningtimes.co.uk:80/news/study-could-help-to-cut-risks-of-ivf-1.1143343','/register-element-et-7.1671');</p>
+<p>	      m_signin_links();</p>
+<p>	    //--></p>
+<p>          </p>
+<p>Evening Times</p>
+<p>Thursday 12 January 2012 </p>
+<p>Site map</p>
+<p>RSS</p>
+<p>Front page</p>
+<p>News</p>
+<p>Sport</p>
+<p>Features</p>
+<p>Times Out</p>
+<p>Your Glasgow</p>
+<p>Campaigns</p>
+<p>Communities</p>
+<p>Opt For Life</p>
+<p>Photo Gallery</p>
+<p>Video/Audio</p>
+<p>Sudoku</p>
+<p>Commonwealth Games 2014</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p>Show navigation</p>
+<p>Study could help to cut risks of IVF</p>
+<p> </p>
+<p>Share</p>
+<p>       </p>
+<p>      </p>
+<p>12 Jan 2012</p>
+<p>A PIONEERING Glasgow study could help more women conceive using IVF and reduce the health risks.</p>
+<p>Research has shown that IVF is most effective and safest when no more than two embryos are used – particularly for older women. Current regulations allow for women over 40 to have three embryos implanted in an IVF treatment cycle. However, research carried out by the University of Glasgow has shown the chances of success are no greater than for two while the risk of complications is higher. A major complication of IVF treatment is multiple pregnancy – the birth of twins or triplets – which is associated with higher rates of pre-eclampsia, premature birth and blood loss. The findings are likely to result in new world-wide guidelines for IVF treatment.</p>
+<p>         m_tb_send_to_a_friend_link(document.location.href, "");</p>
+<p>      </p>
+<p>Print</p>
+<p>         m_tb_bookmark_link(document.location.href, "");</p>
+<p>      </p>
+<p>Contact us</p>
+<p>Share</p>
+<p>Digg</p>
+<p>Reddit</p>
+<p>Delicious</p>
+<p>Facebook</p>
+<p>Technorati</p>
+<p>StumbleUpon</p>
+<p>Newsvine</p>
+<p>Text size:  </p>
+<p>Tweet</p>
+<p><!--</p>
+<p>document.write('<ifr' + 'ame src="http://www.facebook.com/plugins/like.php?href=' + escape(location.href) + '&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=recommend&amp;font=arial&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:450px; height:px"></ifr' + 'ame>');</p>
+<p>--></p>
+<p>Tools</p>
+<p>         m_tb_send_to_a_friend_link_small(document.location.href, "");</p>
+<p>      </p>
+<p>Print page</p>
+<p>         m_tb_bookmark_link_small(document.location.href, "");</p>
+<p>      </p>
+<p>Contact us</p>
+<p>Share this</p>
+<p>Digg</p>
+<p>Reddit</p>
+<p>Delicious</p>
+<p>Facebook</p>
+<p>Technorati</p>
+<p>StumbleUpon</p>
+<p>Newsvine</p>
+<p>Text Smaller text Larger text</p>
+<p><!--</p>
+<p>var myImageSrc = "/polopoly_fs/email-digest-main-7.3867!et-digest1.jpg";</p>
+<p>var myHref     = "http://login.eveningtimes.co.uk/login.cgi?referrer=http%3A%2F%2Flogin.eveningtimes.co.uk%2Fpreferences.cgi";</p>
+<p>if (m__tLogged.match(/^[a-zA-Z0-9]+$/)) myHref = "http://login.eveningtimes.co.uk/preferences.cgi";</p>
+<p>var my2write = '<a href="' + myHref + '"><img src="' + myImageSrc + '" alt="News in your inbox" border="0" /></a>';</p>
+<p>document.writeln(my2write);</p>
+<p>//--></p>
+<p>LOCAL HEROES </p>
+<p>Nominate your Community Champion today</p>
+<p>Most read</p>
+<p>Most commented</p>
+<p>Nikica Jelavic's £50k pay shocker</p>
+<p>Conference ace would cost Rangers big money</p>
+<p>Rangers star can’t stop smiling since dream move</p>
+<p>Neil Lennon: SPL standard is match for top talent</p>
+<p>Ibrox regeneration plans could be ‘back on the cards’</p>
+<p>#google-ads-container{</p>
+<p>background:white;</p>
+<p>border-bottom:20px solid #CB2F24;</p>
+<p>margin-bottom:10px;</p>
+<p>font-size:0.8em !important;</p>
+<p>font-family:Verdana,Arial,sans-serif !important;</p>
+<p>background-image:url(http://pagead2.googlesyndication.com/pagead/abglogo/abg-en-100c-000000.png);</p>
+<p>background-position:top right;</p>
+<p>background-repeat:no-repeat;</p>
+<p>}</p>
+<p>#google-ads-container h4</p>
+<p>{</p>
+<p>text-align:right;</p>
+<p>padding-right:5px;</p>
+<p>font-size:11px !important;</p>
+<p>color:white;</p>
+<p>position:relative;</p>
+<p>left:-2500px;</p>
+<p>}</p>
+<p>/* "ads by google" text anchor */</p>
+<p>#google-ads-container h4 a{</p>
+<p>color:white;</p>
+<p>font-size:11px !important;</p>
+<p>text-transform:none !important;</p>
+<p>}</p>
+<p>/* each ad container */</p>
+<p>#google-ads-container ul li{</p>
+<p>list-style-type:none;</p>
+<p>font-size:11px !important;</p>
+<p>margin-top:10px;</p>
+<p>margin-bottom:10px;</p>
+<p>padding-left:10px;</p>
+<p>padding-right:10px;</p>
+<p>}</p>
+<p>/* each ad container title anchor */</p>
+<p>#google-ads-container ul li h5 a{</p>
+<p>color:#CB2F24 !important;</p>
+<p>font-size:11px !important;</p>
+<p>}</p>
+<p>/* each ad container content text */</p>
+<p>#google-ads-container ul li p {</p>
+<p>color:#77140C;</p>
+<p>font-size:11px !important;</p>
+<p>}</p>
+<p>/* each ad container bottom link */</p>
+<p>#google-ads-container ul li p a{</p>
+<p>color:black;</p>
+<p>font-size:10px !important;</p>
+<p>}</p>
+<p>var google_adnum = 0;</p>
+<p>google_ad_client = "pub-1163627261638862";</p>
+<p>google_ad_slot = "5745082745";</p>
+<p>google_ad_output = "js";</p>
+<p>google_max_num_ads = "3";</p>
+<p>google_ad_type = "text";</p>
+<p>//google_adtest = "on"; //testing script ads</p>
+<p>google_feedback = "on";</p>
+<p>google_skip = google_adnum;</p>
+<p>function google_ad_request_done(google_ads){</p>
+<p>if(google_ads.length==0){return }</p>
+<p>var s="";</p>
+<p>if(google_ads[0].type=="text"){</p>
+<p>s+='<h4><a href=\"' + google_info.feedback_url + '\">Ads by Google</a></h4>';</p>
+<p>s+='<ul class="gads">';</p>
+<p>for(i=0;i<google_ads.length;++i){</p>
+<p>s+="<li>";</p>
+<p>s+='<h5><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].line1+"</a></h5>";</p>
+<p>s+="<p>"+google_ads[i].line2+" "+google_ads[i].line3+"</p>";</p>
+<p>s+='<p><a href="'+google_ads[i].url+'" target="_top">'+google_ads[i].visible_url+"</a></p>";</p>
+<p>s+="</li>"</p>
+<p>}</p>
+<p>s+="</ul>"</p>
+<p>}</p>
+<p>if (google_ads[0].bidtype == "CPC") { /* insert this snippet for each ad call */</p>
+<p>google_adnum = google_adnum + google_ads.length;</p>
+<p>}</p>
+<p>function createAdsContainer(){</p>
+<p>var AdsContainer=document.getElementById("google-ads-container");</p>
+<p>if(AdsContainer){</p>
+<p>AdsContainer.innerHTML=s;</p>
+<p>}</p>
+<p>}</p>
+<p>createAdsContainer();</p>
+<p>return;</p>
+<p>}</p>
+<p>COMMUNITY</p>
+<p>Our community reporters are waiting to help you</p>
+<p>STREETS AHEAD</p>
+<p>CAMPAIGN - To build a better Glasgow</p>
+<p>Weather</p>
+<p>The weather ... where you live</p>
+<p> </p>
+<p> ©</p>
+<p> Copyright  2012 Herald & Times Group. All rights reserved. </p>
+<p> </p>
+<p> Our News Services</p>
+<p>Mobile</p>
+<p>Kindle</p>
+<p>Newspaper</p>
+<p>Digital Editions</p>
+<p>Back Issues </p>
+<p>Email,Twitter,RSS</p>
+<p>Syndication </p>
+<p> </p>
+<p>Our Advertising Services</p>
+<p>Family Notices</p>
+<p>Book Your Newspaper Ad online</p>
+<p>Contact the Sales Team</p>
+<p>The Facts and Figure</p>
+<p>View Newspaper Ads</p>
+<p> </p>
+<p> </p>
+<p>Our Personal Services</p>
+<p>Help, Feedback & Contact</p>
+<p>LifeTimes Loyalty Card</p>
+<p>Dating</p>
+<p>Travel Services</p>
+<p>Photo Sales</p>
+<p>Sudoku</p>
+<p> </p>
+<p> </p>
+<p>Our Colleagues</p>
+<p>Herald Scotland</p>
+<p>s1</p>
+<p>Scottish Farmer</p>
+<p>TGO</p>
+<p>Newsquest Media Group</p>
+<p> </p>
+<p> </p>
+<p>About Us</p>
+<p>Herald & Times Group</p>
+<p>Terms & Conditions</p>
+<p>Privacy Policy</p>
+<p>Employment</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>if(window.location.href.search("weather")>0){</p>
+<p>  document.getElementById("subnav").style.display="none";</p>
+<p>  document.getElementsByClassName("breaking")[0].style.display="none";</p>
+<p>}</p>
+<p>var s_account="newsquesteveningtimesprod,newsquestgroupprod";</p>
+<p>href = document.location.href;</p>
+<p>href = href.replace(/\/services\//,"/");</p>
+<p>path = href.split("/");</p>
+<p>pName = "";</p>
+<p>articleId = new Array("","");</p>
+<p>for(x=4; x<7; x++) {</p>
+<p>if (typeof path[x] == 'undefined') path[x] = '';</p>
+<p>if(path[x] == "") {</p>
+<p>path[x] = path[x-1];</p>
+<p>}</p>
+<p>else { path[x] = path[x-1] + "/" + path[x];</p>
+<p>}</p>
+<p>path[x] = path[x].replace(/\/undefined/g,"");</p>
+<p>}</p>
+<p><!-- </p>
+<p>if (typeof mySearchQuery == 'undefined') { </p>
+<p>	mySearchQuery = "";</p>
+<p>	myTotalHitCount = "";</p>
+<p>} </p>
+<p>s.pageName="(www) /" + path[6] + pName;</p>
+<p>s.server="" </p>
+<p>s.channel="" </p>
+<p>s.pageType="" </p>
+<p>s.prop1=mySearchQuery </p>
+<p>s.prop2=myTotalHitCount </p>
+<p>s.prop3=document.title</p>
+<p>    if (document.location.href.match(/\.[0-9]+$/)) {</p>
+<p>      var articleId = document.location.href;</p>
+<p>      articleId = articleId.replace(/^.+\.([0-9]+)$/, "$1");</p>
+<p>      s.prop4 = articleId;</p>
+<p>    }</p>
+<p>s.prop5="" </p>
+<p>if (typeof prop6 == 'undefined') {</p>
+<p>	s.prop6=path[3];</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>	s.prop6=prop6;</p>
+<p>}</p>
+<p>if (typeof prop7 == 'undefined') {</p>
+<p>	s.prop7=path[4];</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>	s.prop7=prop7;</p>
+<p>}</p>
+<p>if (typeof prop8 == 'undefined') {</p>
+<p>	s.prop8=path[5];</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>	s.prop8=prop8;</p>
+<p>}</p>
+<p>if (typeof prop9 == 'undefined') {</p>
+<p>	s.prop9=path[6];</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>	s.prop9=prop9;</p>
+<p>}</p>
+<p>s.prop10="" </p>
+<p>s.prop16=path[2] </p>
+<p>s.prop17="Scotland" </p>
+<p>s.prop18="Martini" </p>
+<p>s.linkInternalFilters="javascript:,eveningtimes.co.uk,et-beta.co.uk,www.et-beta.co.uk" </p>
+<p>/* Conversion Variables */ </p>
+<p>s.campaign="" </p>
+<p>s.state="" </p>
+<p>s.zip="" </p>
+<p>s.events="" </p>
+<p>if (typeof(oo_myEvents) != "undefined" && oo_myEvents.length > 0) {</p>
+<p>	s.events = oo_myEvents.join(",");</p>
+<p>}</p>
+<p>s.products="" </p>
+<p>s.purchaseID="" </p>
+<p>s.eVar14="" </p>
+<p>s.eVar15="" </p>
+<p>if (typeof(m__tLogged) != "undefined" && m__tLogged.match(/^[a-zA-Z0-9]+$/)) </p>
+<p>    s.eVar19 = m__tLogged;</p>
+<p>/* Hierarchy Variables */ </p>
+<p>s.hier1="newsquest," + "Scotland" + "," + path[2] + "," + path[6].replace(/\//,",");</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/ var s_code=s.t();</p>
+<p>if(s_code)document.write(s_code)</p>
+<p>//--></p>
+<p>function quantcastPropValidator(property) { return (property !='undefined' && typeof(property)=='string' && property.length > 0); }</p>
+<p>function quantcastLabelBuilder(){</p>
+<p>if(quantcastPropValidator(s.prop6) && quantcastPropValidator(s.prop17)) { return 'Property.' + s.prop17 + '.Site Section.' + s.prop6; }</p>
+<p>}</p>
+<p>_qoptions={ qacct:"p-42Bk1WKC7O3WM", labels:quantcastLabelBuilder() };</p>
+<p>quantSegs="";</p>
+<p>function qc_results(result) {</p>
+<p>for (var i = 0; i < result.segments.length; i++) { quantSegs += result.segments[i].id + "|"; }</p>
+<p>}</p>
+<p>    audienceScienceSegments='';</p>
+<p>    var rsi_segs = [];</p>
+<p>    var segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>    if (segs_beg>=0){</p>
+<p>        segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>        if(segs_beg>0){</p>
+<p>            var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>            if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>            rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');</p>
+<p>            audienceScienceSegments= document.cookie.substring(segs_beg,segs_end)</p>
+<p>        }</p>
+<p>    }</p>
+<p>// OAS Ad Serving code</p>
+<p>//var OAS_url = 'http://ads.newsquest.co.uk/RealMedia/ads/';</p>
+<p>var OAS_url = 'http://oas.newsquestdigital.co.uk/RealMedia/ads/';</p>
+<p>var OAS_sitepage = 'www.eveningtimes.co.uk' + window.location.pathname;</p>
+<p>if(OAS_sitepage.charAt(OAS_sitepage.length - 1) == '/')</p>
+<p>OAS_sitepage += 'index.php';</p>
+<p>//var OAS_listpos = 'Top,Right,Frame2,x01,x02,x03,x04,x05,x06';</p>
+<p>var OAS_listpos = 'Top,Right,Frame2,x01,x02';</p>
+<p>var OAS_version = 10;</p>
+<p>var OAS_rn = new String (Math.random());</p>
+<p>var OAS_rns = OAS_rn.substring (2, 11);</p>
+<p>OAS_query = '';</p>
+<p>if(quantSegs.length > 0)</p>
+<p>{ OAS_query += '&qcSegements='+quantSegs; }</p>
+<p>    if(audienceScienceSegments.length > 0)</p>
+<p>    {</p>
+<p>        OAS_query += '&asSegements='+audienceScienceSegments;</p>
+<p>    }</p>
+<p>function OAS_NORMAL(pos) {</p>
+<p>    document.write('<a href="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' +</p>
+<p>                   OAS_listpos + '!' + pos +'?' + OAS_query + '">'); document.write('<img src="' +</p>
+<p>                   OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos +</p>
+<p>                   '!' + pos +'?' + OAS_query + '" alt="" /><'+'/a>');</p>
+<p>}</p>
+<p>OAS_version = 11;</p>
+<p>if (navigator.userAgent.indexOf('Mozilla/3') != -1 || navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)</p>
+<p>    OAS_version = 10;</p>
+<p>if (OAS_version >= 11) </p>
+<p>    document.write('<scr' + 'ipt type="text/javascript" src="' + OAS_url + 'adstream_mjx.ads/' +</p>
+<p>                    OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos +'?' + OAS_query + '"><\/scr' + 'ipt>');</p>
+<p>function OAS_AD(pos) {</p>
+<p>if (OAS_version >= 11)</p>
+<p>OAS_RICH(pos);</p>
+<p>else</p>
+<p>OAS_NORMAL(pos);</p>
+<p>}</p>
+<p>function OAS_moveAds() {</p>
+<p>// An implementation of 'fast ads'</p>
+<p>var ls = document.getElementById("leaderboard-source");</p>
+<p>var lt = document.getElementById("leaderboard");</p>
+<p>if (ls && lt) lt.appendChild(ls);</p>
+<p>var ms = document.getElementById("mpu-source");</p>
+<p>var mt = document.getElementById("mpu");</p>
+<p>if (ms && mt) mt.appendChild(ms);</p>
+<p>var ss = document.getElementById("skyscraper-source");</p>
+<p>var st = document.getElementById("skyscraper");</p>
+<p>if (ss && st) st.appendChild(ss);</p>
+<p>var bs = document.getElementById("buttonAds-source");</p>
+<p>var bt = document.getElementById("buttonAds");</p>
+<p>if (bs && bt) bt.appendChild(bs);</p>
+<p>}</p>
+<p>YAHOO.util.Event.onDOMReady(OAS_moveAds);</p>
+<p>OAS_AD('Right');</p>
+<p>OAS_AD('Top');</p>
+<p>OAS_AD('Frame2');</p>
+<p>OAS_AD('x01');</p>
+<p>OAS_AD('x02');</p>
+<p>OAS_AD('x03');</p>
+<p>OAS_AD('x04');</p>
+<p>OAS_AD('x05');</p>
+<p>OAS_AD('x06');</p>
+<p>  </p>
+<p>E10918.DM_tag();</p>
+<p> </p>

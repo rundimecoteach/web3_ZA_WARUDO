@@ -1,0 +1,134 @@
+<p>Politics - Star Princess ban from Falkland Islands: health reasons not politics</p>
+<p>    <!--</p>
+<p>#jflanguageselection { visibility:hidden; }</p>
+<p>			.voting .fcvote {line-height:16px;}</p>
+<p>			.voting .fcvote ul {height:16px;width:80px;}</p>
+<p>			.voting .fcvote ul, .voting .fcvote ul li a:hover, .voting .fcvote ul li.current-rating {background-image:url(http://www.penguin-news.com/components/com_flexicontent/assets/images/star-small.png)!important;}</p>
+<p>			.voting .fcvote ul li a, .voting .fcvote ul li.current-rating {height:16px;line-height:16px;}</p>
+<p>			</p>
+<p>body {background:#ffffff;}</p>
+<p>#rt-body-background, .roksearch-wrapper {background:#fff;}</p>
+<p>#roksearch_results {background-color:#fff;}</p>
+<p>.roksearch_odd:hover, .roksearch_even:hover {background:#fff !important;}</p>
+<p>.box5, .title5 .title, #rokmicronews .micronews-list ul li.active a span {color:#fff;}</p>
+<p>body, body a:hover, #rt-bottom {color:#444;}</p>
+<p>body a {color:#A50C0F;}</p>
+<p>.title7 .module-title, #rokmicronews .micronews-headline {border-color:#444;}</p>
+<p>#rt-header-surround3, #rt-logoblock, .box7, #rt-header .readon, #rt-navigation .readon, .readonstyle-button .box6 .readon, #newsflash .flashing {background-color:transparent;}</p>
+<p>#rt-subnavigation {border-color:transparent;}</p>
+<p>.title span {color:transparent;}</p>
+<p>#rt-logoblock, #rt-logoblock a:hover, .box7, .box7 a:hover, #newsflash .flashing {color:#000000;}</p>
+<p>#rt-logoblock a, .box7 a, .box7 .title span {color:#CF3F1B;}</p>
+<p>#rt-header-surround2, #rt-header, #rt-navigation, #rt-footerbar3, #rt-top, .readonstyle-button .readon, .box6, .menutop .fusion-submenu-wrapper {background-color:#B10D00;}</p>
+<p>#rt-header, #rt-navigation, #rt-top, .readonstyle-button .readon, .readonstyle-button .readon .button, #rt-footer .readon, #rt-copyright .readon, .box6 {color:#ffffff;}</p>
+<p>#rt-header a, #rt-navigation a, #rt-top a, #rt-header .title span, #rt-navigation .title span, #rt-top .title span, .box6 a, .box6 .title span, #rt-subnavigation ul.menu li .item:hover, #rt-subnavigation ul.menu li.active .item, .menutop li .item {color:#ffffff;}</p>
+<p>#rt-subnavigation {background-color:#EBEBEB;}</p>
+<p>#rt-subnavigation {color:#333333;}</p>
+<p>#rt-subnavigation a {color:#333333;}</p>
+<p>#rt-footerbar, .worldmap .location {background-color:#f1f1f1;}</p>
+<p>#rt-footer, #rt-copyright, .rt-details-top {color:#666666;}</p>
+<p>#rt-footer a, #rt-footer .item, #rt-copyright a {color:#A50C0F;}</p>
+<p>.roknewsflash {background:#FEF49C;}</p>
+<p>.roknewsflash ul li a {color:#000;}</p>
+<p>.featuretable-col-border .featuretable-cell, .featuretable-col-border .featuretable-head, .featuretable .featuretable-col.highlight .featuretable-cell {background-color:#fff;}</p>
+<p>.roknewspager .roknewspager-title {border-color:#444;}</p>
+<p>.readonstyle-button .cart_product_add .item_add span, .readonstyle-button .simpleCart_checkout span, .readonstyle-button .simpleCart_empty span {color:#ffffff;}</p>
+<p>.cart_totals div {color:#444;}</p>
+<p>.box1 #roktwittie .title, .box2 #roktwittie .title, .box3 #roktwittie .title, .box4 #roktwittie .title {color:#444;border-color:#444;}</p>
+<p>.box5 #roktwittie .title {color:#fff;border-color:#fff;}</p>
+<p>.box6 #roktwittie .title {color:#ffffff;border-color:#ffffff;}</p>
+<p>.box7 #roktwittie .title {color:#CF3F1B;border-color:#CF3F1B;}</p>
+<p>.box1 #rokweather .degrees .active, .box1 #rokweather .degrees, .box1 #rokweather .day span.low, .box1 #rokweather .day span.high, .box2 #rokweather .degrees .active, .box2 #rokweather .degrees, .box2 #rokweather .day span.low, .box2 #rokweather .day span.high, .box3 #rokweather .degrees .active, .box3 #rokweather .degrees, .box3 #rokweather .day span.low, .box3 #rokweather .day span.high, .box4 #rokweather .degrees .active, .box4 #rokweather .degrees, .box4 #rokweather .day span.low, .box4 #rokweather .day span.high {color:#444;border-color:#444;}</p>
+<p>.box5 #rokweather .degrees .active, .box5 #rokweather .degrees, .box5 #rokweather .day span.low, .box5 #rokweather .day span.high {color:#fff;border-color:#fff;}</p>
+<p>.box6 #rokweather .degrees .active, .box6 #rokweather .degrees, .box6 #rokweather .day span.low, .box6 #rokweather .day span.high {color:#ffffff;border-color:#ffffff;}</p>
+<p>.box7 #rokweather .degrees .active, .box7 #rokweather .degrees, .box7 #rokweather .day span.low, .box7 #rokweather .day span.high {color:#CF3F1B;border-color:#CF3F1B;}</p>
+<p>body.rt-normal .rt-articleinfo, body.rt-flipped .rt-articleinfo, body.rt-left .rt-articleinfo, body.rt-right .rt-articleinfo {color:#A50C0F;}</p>
+<p>body #community-wrap div.greybox .joinbutton #joinButton, body #rt-main #community-wrap .loginform #form-login #submit, body #rt-main #community-wrap .loginform #form-login #submit:hover, body #community-wrap .button {background-color:#B10D00;}</p>
+<p>body #community-wrap div.greybox .joinbutton #joinButton, body #rt-main #community-wrap .loginform #form-login #submit, body #community-wrap .button {color:#ffffff;}</p>
+<p>body #community-wrap .introduction h1, #community-wrap .app-box-title, #community-wrap .cModule h3, body #community-wrap .video-item .video-itembody, body #community-wrap .profile-avatar img, body #community-wrap div#profile-status, #community-wrap .app-item, #community-wrap ul.submenu li a {border-color:#444;}</p>
+<p>#community-wrap .app-box-title {color:#444 !important;}</p>
+<p>body #community-wrap #cToolbarNav.cToolbar, body #community-wrap #cToolbarNav.cToolbar #cToolbar_inner {background: none #B10D00 !important;}</p>
+<p>#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a, #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a, #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover, #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background-color:#EBEBEB !important;}</p>
+<p>#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList div a.has-separator, #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a, #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a.has-separator {border-color:#444 !important;}</p>
+<p>#community-wrap .cToolbar#cToolbarNav ul#cToolbarNavList li#toolbar-item-logout, #community-wrap .cToolbar#cToolbarNav ul#cToolbarNavList li#toolbar-item-logout a {color:#ffffff !important;}</p>
+<p>#community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color:#444 !important;}</p>
+<p>#k2Container .subCategory, #k2Container .itemListCategory, #k2Container .catItemHeader .catItemTitle, #k2Container .itemImageBlock img, #k2Container .catItemHeader .catItemTitle, #k2Container .itemListSubCategories h3, #k2Container .catItemImage img, #k2Container .itemDateModified, #k2Container .itemHeader .itemTitle, #k2Container .itemCommentsForm .itemCommentsFormNotes, #k2Container .userItemImage img {border-color:#444;}</p>
+<p>#k2Container .itemCommentsForm .button {background-color:#B10D00;}</p>
+<p>#k2Container .itemCommentsForm .button {color:#ffffff;}</p>
+<p>div#tienda_category_header, div#tienda_subcategories, #tienda #tienda_product_header {border-color:#444;}</p>
+<p>#vmMainPage h1, #vmMainPage .vmCartContainer, #vmMainPage h3 {border-color:#444;}</p>
+<p>#comments-form .btn a, #comments-report-form .btn a, body #community-wrap div.greybox .joinbutton a#joinButton:hover {background-color:#B10D00;}</p>
+<p>#comments-form .btn a, #comments-report-form .btn a, #comments-form .btn a:hover, #comments-report-form .btn a:hover, body #community-wrap div.greybox .joinbutton a#joinButton:hover {color:#ffffff;}</p>
+<p>#ce-form-container .button {background-color:#B10D00;}</p>
+<p>#ce-form-container .button {color:#ffffff;}</p>
+<p>body #rt-logo {width:405px;height:102px;}</p>
+<p>    --></p>
+<p>  </p>
+<p>		window.addEvent('domready', function(){ var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false}); });</p>
+<p>		window.addEvent('domready', function(){ $$('dl.tabs').each(function(tabs){ new JTabs(tabs, {}); }); });</p>
+<p>			window.addEvent('domready', function() {</p>
+<p>				var modules = ['rt-block'];</p>
+<p>				var header = ['h3','h2','h1'];</p>
+<p>				GantryBuildSpans(modules, header);</p>
+<p>			});</p>
+<p>		</p>
+<p>InputsExclusion.push('.content_vote','#rt-popup','#rt-popuplogin','#vmMainPage','#community-wrap')</p>
+<p>window.addEvent('domready', function() {new GantrySmartLoad({'offset': {'x': 200, 'y': 200}, 'placeholder': '/templates/rt_syndicate_j15/images/blank.gif', 'exclusion': ['ul.menutop,div.roktabs-wrapper,span.image,div.fusion-submenu-wrapper,.module-content ul.menu .image,.roknewspager-div a,#rokintroscroller,.feature-block .image-full']}); });</p>
+<p>  </p>
+<p>			Headlines			    </p>
+<p>			</p>
+<p>			Subscribe			    </p>
+<p>			</p>
+<p>			The Paper			    </p>
+<p>			</p>
+<p>			Contact us			    </p>
+<p>			</p>
+<p>			Columns			    </p>
+<p>			</p>
+<p>			Search site			    </p>
+<p>			</p>
+<p>			Sport			    </p>
+<p>			</p>
+<p>			Politics			    </p>
+<p>			</p>
+<p>			Oil			    </p>
+<p>			</p>
+<p>			Fishing			    </p>
+<p>			</p>
+<p>			Rural			    </p>
+<p>			</p>
+<p>			Community			    </p>
+<p>			</p>
+<p>			Tourism			    </p>
+<p>			</p>
+<p>			<!--</p>
+<p>			var sfolder = '';</p>
+<p>			var fcvote_text=Array(</p>
+<p>				'Your browser does not support Ajax',</p>
+<p>				'loading',</p>
+<p>				'Thank you for voting',</p>
+<p>				'You need to login to favour this item. It will be added to your personal Favourites list.',</p>
+<p>				'You have already voted for this item',</p>
+<p>				'votes',</p>
+<p>				'vote'</p>
+<p>				);</p>
+<p>			--></p>
+<p>			</p>
+<p>	Star Princess ban from Falkland Islands: health reasons not politics</p>
+<p>Created</p>
+<p>Tuesday, 17 January 2012</p>
+<p>Last modified</p>
+<p>Tuesday, 17 January 2012</p>
+<p>Categories</p>
+<p>Politics | Tourism</p>
+<p>FOR only the second time in recent years, on January 14 the Falkland Islands Government refused permission for a cruise ship to land its passengers in the islands' capital, Stanley. The ship in question was the Star Princess which had 2,608 passengers aboard.</p>
+<p>The reason for the ban, according to a press release from a government spokesperson was the presence on the ship of the highly infectious norovirus, which causes sickness and diarrhea. At the time of the ship's arrival it was at what was described as 'red alert' status with 58 registered cases.</p>
+<p>This decision, described as "difficult" in the communiqué, was taken by the Islands' Chief Medical Officer , "following agreed protocols" and after "consultation with both the ship's doctor and a consultant microbiologist in the UK."</p>
+<p>Suggestions from Argentina that the decision to cancel the ship's visit was made as a reprisal for the recent Mercosur countries decision to ban vessels flying the Falkland Islands flag are being ridiculed in Stanley, where the loss of a visit by a ship of this size may have cost the economy over £100,000, including the £46,944 which would have gone to the government's coffers from passenger arrival tax alone.</p>
+<p>Extended story in this Friday's Penguin News</p>
+<p> </p>
+<p>Twitter</p>
+<p>Follow our editor on twitter</p>
+<p>@Lisafalklands </p>
+<p>Designed by Jaytec Ltd</p>
+<p>Scroll To Top</p>

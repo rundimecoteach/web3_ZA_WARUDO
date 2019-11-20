@@ -1,0 +1,1114 @@
+<p>More details over seized assets in Qld fraud case - </p>
+<p>     Latest International News - </p>
+<p>Keep up with Newstalk ZB</p>
+<p>/* Asset: 'bg_wings-section-News' */</p>
+<p>/* Asset: 'bg_wings-show-[var SHOWNAME]' */</p>
+<p>/* Asset: 'bg_wings-[var BG_WINGS]' */</p>
+<p>/* Asset: 'bg_wings-asset-814004569-More-details-over-seized-assets-in-Qld-fraud-case' */</p>
+<p>Newstalk ZB</p>
+<p>Classic Hits</p>
+<p>Coast</p>
+<p>Easy Mix</p>
+<p>Flava</p>
+<p>Hauraki</p>
+<p>Radio Sport</p>
+<p>ZMOnline</p>
+<p>Other</p>
+<p>The Farming Show</p>
+<p>Hokonui Gold</p>
+<p>TimeSaver Traffic</p>
+<p>				<!-- Hide from old browsers</p>
+<p>					adserver = "http://data.radionetwork.co.nz/trn";</p>
+<p>					target = "/SITE=Newstalk_ZB/AREA=ZB_News/SIZE=Big_Banner";</p>
+<p>					// Cache-busting and viewid values</p>
+<p>					random = Math.round(Math.random() * 100000000);</p>
+<p>					if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);</p>
+<p>					document.write('<iframe src="'+adserver+'/hserver/random='+random + target + '/viewid=' + pageNum + '"');</p>
+<p>					document.write(' noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=760 height=120 allowTransparency="true">');</p>
+<p>					document.write('</iframe>');</p>
+<p>				// End Hide --></p>
+<p>				</p>
+<p>Keep up with </p>
+<p>Newstalk ZB</p>
+<p><!--</p>
+<p>    onAirTwitterUsername = "newstalkzb";</p>
+<p>    // ************ START SCHEDULED SHOW INFO *************</p>
+<p>    </p>
+<p>    </p>
+<p>        //Slugline: "/Tim-Roxborogh"</p>
+<p>        //title: "Tim Roxborogh"  </p>
+<p>        </p>
+<p>            var a189124timeRanges = new Array();var a189124localTimeRanges = new Array();</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Tim-Roxborogh",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Tim Roxborogh", </p>
+<p>                "byline": "", </p>
+<p>                "desc" : "6pm to midnight",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/189123/187x208_NewsTalkZB.png",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/189123/187x208_NewsTalkZB.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a189124localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Bruce-Russell"</p>
+<p>        //title: "Bruce Russell"  </p>
+<p>        </p>
+<p>            var a189122timeRanges = new Array();var a189122localTimeRanges = new Array();</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Bruce-Russell",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Bruce Russell", </p>
+<p>                "byline": "", </p>
+<p>                "desc" : "1pm to 6pm",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/189125/bruce-russell-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a189122localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Tim-Dower"</p>
+<p>        //title: "Tim Dower"  </p>
+<p>        </p>
+<p>            var a189121timeRanges = new Array();var a189121localTimeRanges = new Array();</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Tim-Dower",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Tim Dower", </p>
+<p>                "byline": "", </p>
+<p>                "desc" : "6am to 9am",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/189120/187x208_NewsTalkZB.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a189121localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Pam-Corkery"</p>
+<p>        //title: "Pam Corkery"  </p>
+<p>        </p>
+<p>            var a188910timeRanges = new Array();var a188910localTimeRanges = new Array();</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Pam-Corkery",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Pam Corkery", </p>
+<p>                "byline": "", </p>
+<p>                "desc" : "9am to 1pm",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/188909/187x208_NewsTalkZB.png",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/188909/187x208_NewsTalkZB.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a188910localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Kent-Johns"</p>
+<p>        //title: "Kent Johns"  </p>
+<p>        </p>
+<p>            var a188898timeRanges = new Array();var a188898localTimeRanges = new Array();</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Kent-Johns",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Kent Johns", </p>
+<p>                "byline": "", </p>
+<p>                "desc" : "6am to 9am",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/188897/kent-johns-onair.png",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/189159/kent-johns-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a188898localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Christmas-Day-programming"</p>
+<p>        //title: "Christmas programming"  </p>
+<p>        </p>
+<p>            var a188705timeRanges = new Array();var a188705localTimeRanges = new Array();</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Christmas-Day-programming",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Christmas programming", </p>
+<p>                "byline": "", </p>
+<p>                "desc" : "Brought to you by CBA",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/188704/187x208_NewsTalkZB.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a188705localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/SundayNight"</p>
+<p>        //title: "Tim Roxborogh"  </p>
+<p>        </p>
+<p>            var a132209timeRanges = new Array();var a132209localTimeRanges = new Array();a132209timeRanges.push("Sunday 9:00 AM UTC|Saturday 12:00 PM UTC");a132209localTimeRanges.push("Sunday 9:00 PM|Sunday 12:00 AM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/SundayNight",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Tim Roxborogh", </p>
+<p>                "byline": "9pm to midnight Sunday", </p>
+<p>                "desc" : "As the weekend winds down, join Tim Roxborogh on Sunday nights to chat about pretty much anything and everything",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174690/Tim-Roxborogh-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174521/tim-roxborogh-onair.png",</p>
+<p>                "TwittuserName" : "@TimRoxborogh",</p>
+<p>                "Schedule" : a132209localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/RealLife"</p>
+<p>        //title: "Real Life"  </p>
+<p>        </p>
+<p>            var a132208timeRanges = new Array();var a132208localTimeRanges = new Array();a132208timeRanges.push("Sunday 8:00 AM UTC|Sunday 9:00 AM UTC");a132208localTimeRanges.push("Sunday 8:00 PM|Sunday 9:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/RealLife",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Real Life", </p>
+<p>                "byline": "8pm to 9pm Sunday", </p>
+<p>                "desc" : "John Cowan hosts вЂ�Real LifeвЂ™, a weekly nationwide chat show featuring a different high-profile guest every week. John talks with them about their life, their upbringing, their passions and their view of the world.",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174692/Real-Life-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174397/real-life-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a132208localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Nostalgia"</p>
+<p>        //title: "Nostalgia with Jim Sutton"  </p>
+<p>        </p>
+<p>            var a132207timeRanges = new Array();var a132207localTimeRanges = new Array();a132207timeRanges.push("Saturday 6:00 AM UTC|Saturday 11:59 AM UTC");a132207localTimeRanges.push("Saturday 6:00 PM|Saturday 11:59 PM");a132207timeRanges.push("Sunday 6:00 AM UTC|Sunday 8:00 AM UTC");a132207localTimeRanges.push("Sunday 6:00 PM|Sunday 8:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Nostalgia",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Nostalgia with Jim Sutton", </p>
+<p>                "byline": "6pm to midnight Saturday, 6pm to 8pm Sunday", </p>
+<p>                "desc" : "Get transported to a time gone by - every Saturday and Sunday at 6pm, as Jim Sutton brings back memories of the good old days",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174522/jim-sutton-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a132207localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/SundayMorning"</p>
+<p>        //title: "Kerre's Cafe"  </p>
+<p>        </p>
+<p>            var a132205timeRanges = new Array();var a132205localTimeRanges = new Array();a132205timeRanges.push("Monday 9:00 PM UTC|Sunday 12:00 AM UTC");a132205localTimeRanges.push("Sunday 9:00 AM|Sunday 12:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/SundayMorning",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Kerre's Cafe", </p>
+<p>                "byline": "9am to midday Sunday", </p>
+<p>                "desc" : "Ease into your Sunday morning with the newsmakers, guest chefs, what's on the box, the lifestyle hour and more - it's all on Kerre's Cafe",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174695/Kerres-Cafe-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174524/kerre-woodham-onair.png",</p>
+<p>                "TwittuserName" : "@kerrewoodham",</p>
+<p>                "Schedule" : a132205localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Sunday-Breakfast"</p>
+<p>        //title: "Sunday Breakfast"  </p>
+<p>        </p>
+<p>            var a132203timeRanges = new Array();var a132203localTimeRanges = new Array();a132203timeRanges.push("Monday 6:00 PM UTC|Monday 9:00 PM UTC");a132203localTimeRanges.push("Sunday 6:00 AM|Sunday 9:00 AM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Sunday-Breakfast",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Sunday Breakfast", </p>
+<p>                "byline": "6am to 9am Sunday", </p>
+<p>                "desc" : "A bit of gardening, a bit of sport, and the best bits from the week - it's Sunday Breakfast on Newstalk ZB. It starts off at 6am with The Best of Mike Hosking and Leighton Smith (Sean Plunket in Wellington and Mike Yardley in Christchurch), followed by Ruud's Awakening with Ruud 'The Bug Man' Kleinpaste, and then at 8am, Peter Montgomery recaps the weekend's sporting action in Sportsworld",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/176744/Sunday-breakfast-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/178617/sunday-breakfast-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a132203localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Saturday-Sports-Breakfast"</p>
+<p>        //title: "New Zealand Sport Today"  </p>
+<p>        </p>
+<p>            var a132202timeRanges = new Array();var a132202localTimeRanges = new Array();a132202timeRanges.push("Friday 6:00 PM UTC|Friday 9:00 PM UTC");a132202localTimeRanges.push("Saturday 6:00 AM|Saturday 9:00 AM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Saturday-Sports-Breakfast",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "New Zealand Sport Today", </p>
+<p>                "byline": "6am to 9am Saturday", </p>
+<p>                "desc" : "Start off the weekend with a pick 'n' mix of farming, gardening, the garage sale and local sport. It's Saturday Breakfast on Newstalk ZB (Note: programming varies from region to region)",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/180792/187x208_NewsTalkZB.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a132202localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Bruce-Russell-Friday-Night"</p>
+<p>        //title: "Bruce Russell Friday Night"  </p>
+<p>        </p>
+<p>            var a132201timeRanges = new Array();var a132201localTimeRanges = new Array();a132201timeRanges.push("Friday 8:00 AM UTC|Friday 11:59 AM UTC");a132201localTimeRanges.push("Friday 8:00 PM|Friday 11:59 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Bruce-Russell-Friday-Night",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Bruce Russell Friday Night", </p>
+<p>                "byline": "8pm to midnight Friday", </p>
+<p>                "desc" : "Bruce Russell likes to bring his sense of humour to his Friday night talk show, but the serious issues are also tackled and there are many times callers just need someone to talk to on a Friday night. He is widely read, and can talk with people on just about any subject they raise, even the unusual topics, although he has special interest in movies and the entertainment world.",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174696/Bruce-Russell-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174525/bruce-russell-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a132201localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Sportstalk"</p>
+<p>        //title: "Sportstalk"  </p>
+<p>        </p>
+<p>            var a132200timeRanges = new Array();var a132200localTimeRanges = new Array();a132200timeRanges.push("Monday 7:00 AM UTC|Monday 8:00 AM UTC");a132200localTimeRanges.push("Monday 7:00 PM|Monday 8:00 PM");a132200timeRanges.push("Tuesday 7:00 AM UTC|Tuesday 8:00 AM UTC");a132200localTimeRanges.push("Tuesday 7:00 PM|Tuesday 8:00 PM");a132200timeRanges.push("Wednesday 7:00 AM UTC|Wednesday 8:00 AM UTC");a132200localTimeRanges.push("Wednesday 7:00 PM|Wednesday 8:00 PM");a132200timeRanges.push("Thursday 7:00 AM UTC|Thursday 8:00 AM UTC");a132200localTimeRanges.push("Thursday 7:00 PM|Thursday 8:00 PM");a132200timeRanges.push("Friday 7:00 AM UTC|Friday 8:00 AM UTC");a132200localTimeRanges.push("Friday 7:00 PM|Friday 8:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Sportstalk",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Sportstalk", </p>
+<p>                "byline": "7pm to 8pm weeknights", </p>
+<p>                "desc" : "Murray Deaker and Willie Lose take your calls on anything and everything to do with sport from 7pm weeknights in Sportstalk",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/178622/sportstalk-listing.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/180285/187x208_NewsTalkZB.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a132200localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/Scoreboard"</p>
+<p>        //title: "Scoreboard"  </p>
+<p>        </p>
+<p>            var a125126timeRanges = new Array();var a125126localTimeRanges = new Array();a125126timeRanges.push("Saturday 12:00 AM UTC|Saturday 6:00 AM UTC");a125126localTimeRanges.push("Saturday 12:00 PM|Saturday 6:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/Scoreboard",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Scoreboard", </p>
+<p>                "byline": "Midday to 6pm Saturday", </p>
+<p>                "desc" : "Willie Lose is a dynamic sporting personality. HeвЂ™s a West Auckland man by birth and played for Auckland and North Harbour Rugby Unions. HeвЂ™s also represented Tonga in the World Cup in 1995 in South Africa.",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174697/willie-lose-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a125126localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/weekends"</p>
+<p>        //title: "Paul Holmes Saturday Morning"  </p>
+<p>        </p>
+<p>            var a115387timeRanges = new Array();var a115387localTimeRanges = new Array();a115387timeRanges.push("Friday 9:00 PM UTC|Saturday 12:00 AM UTC");a115387localTimeRanges.push("Saturday 9:00 AM|Saturday 12:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/weekends",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Paul Holmes Saturday Morning", </p>
+<p>                "byline": "9am to midday Saturday", </p>
+<p>                "desc" : "Why not spend your Saturday morning with New ZealandвЂ™s best known current affairs personality?",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/180799/Paul-Holmes-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/180800/Paul-Holmes-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a115387localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/drive"</p>
+<p>        //title: "Larry Williams Drive"  </p>
+<p>        </p>
+<p>            var a115386timeRanges = new Array();var a115386localTimeRanges = new Array();a115386timeRanges.push("Monday 4:00 AM UTC|Monday 7:00 AM UTC");a115386localTimeRanges.push("Monday 4:00 PM|Monday 7:00 PM");a115386timeRanges.push("Tuesday 4:00 AM UTC|Tuesday 7:00 AM UTC");a115386localTimeRanges.push("Tuesday 4:00 PM|Tuesday 7:00 PM");a115386timeRanges.push("Wednesday 4:00 AM UTC|Wednesday 7:00 AM UTC");a115386localTimeRanges.push("Wednesday 4:00 PM|Wednesday 7:00 PM");a115386timeRanges.push("Thursday 4:00 AM UTC|Thursday 7:00 AM UTC");a115386localTimeRanges.push("Thursday 4:00 PM|Thursday 7:00 PM");a115386timeRanges.push("Friday 4:00 AM UTC|Friday 7:00 AM UTC");a115386localTimeRanges.push("Friday 4:00 PM|Friday 7:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>             </p>
+<p>                "slugline": "/drive",</p>
+<p>            </p>
+<p>                "title": "Larry Williams Drive", </p>
+<p>                "byline": "with Susan Wood", </p>
+<p>                "desc" : "When he isnвЂ™t playing or thinking about golf heвЂ™s breaking news stories and putting the news makers under the spotlight on Larry Williams Drive",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174702/Larry-Williams-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174300/larry-williams-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a115386localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/weekdays"</p>
+<p>        //title: "Leighton Smith Show"  </p>
+<p>        </p>
+<p>            var a115385timeRanges = new Array();var a115385localTimeRanges = new Array();a115385timeRanges.push("Sunday 8:30 PM UTC|Monday 12:00 AM UTC");a115385localTimeRanges.push("Monday 8:30 AM|Monday 12:00 PM");a115385timeRanges.push("Monday 8:30 PM UTC|Tuesday 12:00 AM UTC");a115385localTimeRanges.push("Tuesday 8:30 AM|Tuesday 12:00 PM");a115385timeRanges.push("Tuesday 8:30 PM UTC|Wednesday 12:00 AM UTC");a115385localTimeRanges.push("Wednesday 8:30 AM|Wednesday 12:00 PM");a115385timeRanges.push("Wednesday 8:30 PM UTC|Thursday 12:00 AM UTC");a115385localTimeRanges.push("Thursday 8:30 AM|Thursday 12:00 PM");a115385timeRanges.push("Thursday 8:30 PM UTC|Friday 12:00 AM UTC");a115385localTimeRanges.push("Friday 8:30 AM|Friday 12:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>             </p>
+<p>                "slugline": "/weekdays",</p>
+<p>            </p>
+<p>                "title": "Leighton Smith Show", </p>
+<p>                "byline": "with Kerre Woodham", </p>
+<p>                "desc" : "Political analysis, news of the world and intelligent talkback feature in Leighton SmithвЂ™s weekday show. From 8.30am to midday, Leighton brings you the real people and stories behind the news thatвЂ™s making headlines. Occasionally his love of wine, food and music (oh and global warming) also slip into the conversation.",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/120143/Leighton-Smith-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/178633/leighton-smith-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a115385localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/late"</p>
+<p>        //title: "Overnight Talk"  </p>
+<p>        </p>
+<p>            var a115384timeRanges = new Array();var a115384localTimeRanges = new Array();a115384timeRanges.push("Monday 12:00 PM UTC|Monday 6:00 PM UTC");a115384localTimeRanges.push("Sunday 12:00 AM|Sunday 6:00 AM");a115384timeRanges.push("Tuesday 12:00 PM UTC|Tuesday 6:00 PM UTC");a115384localTimeRanges.push("Monday 12:00 AM|Monday 6:00 AM");a115384timeRanges.push("Wednesday 12:00 PM UTC|Wednesday 6:00 PM UTC");a115384localTimeRanges.push("Tuesday 12:00 AM|Tuesday 6:00 AM");a115384timeRanges.push("Thursday 12:00 PM UTC|Thursday 6:00 PM UTC");a115384localTimeRanges.push("Wednesday 12:00 AM|Wednesday 6:00 AM");a115384timeRanges.push("Friday 12:00 PM UTC|Friday 6:00 PM UTC");a115384localTimeRanges.push("Thursday 12:00 AM|Thursday 6:00 AM");a115384timeRanges.push("Saturday 12:00 PM UTC|Saturday 6:00 PM UTC");a115384localTimeRanges.push("Friday 12:00 AM|Friday 6:00 AM");a115384timeRanges.push("Sunday 12:00 PM UTC|Sunday 6:00 PM UTC");a115384localTimeRanges.push("Saturday 12:00 AM|Saturday 6:00 AM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/late",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Overnight Talk", </p>
+<p>                "byline": "Midnight to 6am", </p>
+<p>                "desc" : "",</p>
+<p>                "includeinlist" : "0",</p>
+<p>                "mainimagelink" : "",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174624/187x208_NewsTalkZB.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a115384localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/breakfast"</p>
+<p>        //title: "Mike Hosking Breakfast"  </p>
+<p>        </p>
+<p>            var a115383timeRanges = new Array();var a115383localTimeRanges = new Array();a115383timeRanges.push("Sunday 6:00 PM UTC|Sunday 8:30 PM UTC");a115383localTimeRanges.push("Monday 6:00 AM|Monday 8:30 AM");a115383timeRanges.push("Monday 6:00 PM UTC|Monday 8:30 PM UTC");a115383localTimeRanges.push("Tuesday 6:00 AM|Tuesday 8:30 AM");a115383timeRanges.push("Tuesday 6:00 PM UTC|Tuesday 8:30 PM UTC");a115383localTimeRanges.push("Wednesday 6:00 AM|Wednesday 8:30 AM");a115383timeRanges.push("Wednesday 6:00 PM UTC|Wednesday 8:30 PM UTC");a115383localTimeRanges.push("Thursday 6:00 AM|Thursday 8:30 AM");a115383timeRanges.push("Thursday 6:00 PM UTC|Thursday 8:30 PM UTC");a115383localTimeRanges.push("Friday 6:00 AM|Friday 8:30 AM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/breakfast",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Mike Hosking Breakfast", </p>
+<p>                "byline": "with Larry Williams", </p>
+<p>                "desc" : "For all the top interviews, the Mike Hosking Breakfast brings you the stories that set the day's news agenda. Mike asks newsmakers the hard questions, hears from top correspondents around the world and looks at what's making the business world tick.",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174297/Mike-Hosking-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174701/mike-hosking-onair.png",</p>
+<p>                "TwittuserName" : "@hoskingonzb",</p>
+<p>                "Schedule" : a115383localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/nights"</p>
+<p>        //title: "Kerre Woodham Nights"  </p>
+<p>        </p>
+<p>            var a115382timeRanges = new Array();var a115382localTimeRanges = new Array();a115382timeRanges.push("Monday 8:00 AM UTC|Monday 11:59 AM UTC");a115382localTimeRanges.push("Monday 8:00 PM|Monday 11:59 PM");a115382timeRanges.push("Tuesday 8:00 AM UTC|Tuesday 11:59 AM UTC");a115382localTimeRanges.push("Tuesday 8:00 PM|Tuesday 11:59 PM");a115382timeRanges.push("Wednesday 8:00 AM UTC|Wednesday 11:59 AM UTC");a115382localTimeRanges.push("Wednesday 8:00 PM|Wednesday 11:59 PM");a115382timeRanges.push("Thursday 8:00 AM UTC|Thursday 11:59 AM UTC");a115382localTimeRanges.push("Thursday 8:00 PM|Thursday 11:59 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/nights",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Kerre Woodham Nights", </p>
+<p>                "byline": "with Bruce Russell", </p>
+<p>                "desc" : "From Monday to Thursday, 7pm to midnight, Kerre Woodham has ample opportunity to express her special qualities of sassiness, empathy and entertainment.",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174700/Kerre-Woodham-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174544/kerre-woodham-onair.png",</p>
+<p>                "TwittuserName" : "@kerrewoodham",</p>
+<p>                "Schedule" : a115382localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>        //Slugline: "/afternoon"</p>
+<p>        //title: "Danny Watson Afternoons"  </p>
+<p>        </p>
+<p>            var a115381timeRanges = new Array();var a115381localTimeRanges = new Array();a115381timeRanges.push("Monday 12:00 AM UTC|Monday 4:00 AM UTC");a115381localTimeRanges.push("Monday 12:00 PM|Monday 4:00 PM");a115381timeRanges.push("Tuesday 12:00 AM UTC|Tuesday 4:00 AM UTC");a115381localTimeRanges.push("Tuesday 12:00 PM|Tuesday 4:00 PM");a115381timeRanges.push("Wednesday 12:00 AM UTC|Wednesday 4:00 AM UTC");a115381localTimeRanges.push("Wednesday 12:00 PM|Wednesday 4:00 PM");a115381timeRanges.push("Thursday 12:00 AM UTC|Thursday 4:00 AM UTC");a115381localTimeRanges.push("Thursday 12:00 PM|Thursday 4:00 PM");a115381timeRanges.push("Friday 12:00 AM UTC|Friday 4:00 AM UTC");a115381localTimeRanges.push("Friday 12:00 PM|Friday 4:00 PM");</p>
+<p>            OnAirTopSourc.push({ </p>
+<p>             </p>
+<p>                "slugline": "/afternoon",</p>
+<p>             </p>
+<p>            </p>
+<p>                "title": "Danny Watson Afternoons", </p>
+<p>                "byline": "with Tim Dower", </p>
+<p>                "desc" : "He's built apartments.  He's been a Mr Whippy.  He's been in the army.  Had a job in the meatworks. Run a Karate club.  Was a barman in the original Porirua Tavern.  He's had his own TV show. He's travelled, been a farmer, a conservationist and a bee keeper. Danny Watson has been there and done that.",</p>
+<p>                "includeinlist" : "1",</p>
+<p>                "mainimagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/120048/Danny-Watson-header.jpg",</p>
+<p>                "imagelink" : "http://arntrnassets.mediaspanonline.com/radio/n00/174299/danny-watson-onair.png",</p>
+<p>                "TwittuserName" : "",</p>
+<p>                "Schedule" : a115381localTimeRanges</p>
+<p>            });</p>
+<p>        </p>
+<p>    </p>
+<p>    </p>
+<p>    // ************ END SCHEDULED SHOW INFO *************</p>
+<p>    checkOnAirTop('Friday, January 13, 2012 12:07 AM');</p>
+<p>//--></p>
+<p>   Thu, 12 Jan 2012, 23:09</p>
+<p>Newstalk ZB</p>
+<p>Have Your Say</p>
+<p>            Talkback 0800 80 10 80</p>
+<p>            Overseas +64 9 307 1080</p>
+<p>            Text 9292</p>
+<p>Email Us</p>
+<p><!--</p>
+<p>    nowPlayingDoLoad();</p>
+<p>//--></p>
+<p>Follow Us</p>
+<p>Site Search</p>
+<p>Search</p>
+<p>        $('#searchsybmitbtn').click(function () {</p>
+<p>            if ($("#mos-siteSearch [name=keyword]").val() == "Keyword" || $("#mos-siteSearch [name=keyword]").val() == "") {</p>
+<p>                alert("Please enter a keyword!");</p>
+<p>            } else {</p>
+<p>                $('#searchForm').submit();</p>
+<p>            }</p>
+<p>        });</p>
+<p>        $("#mos-siteSearch [name=keyword]").focusin(function () {</p>
+<p>            if ($(this).val() == "Keyword") {</p>
+<p>                $(this).val("");</p>
+<p>            }</p>
+<p>        });</p>
+<p>        $("#mos-siteSearch [name=keyword]").focusout(function () {</p>
+<p>            if ($(this).val() == "") {</p>
+<p>                $(this).val("Keyword");</p>
+<p>            }</p>
+<p>        });</p>
+<p>    </p>
+<p>Select your region:</p>
+<p>    function set_cookie(name, value, exdays, path, domain, secure) {</p>
+<p>        var cookie_string = name + "=" + escape(value);</p>
+<p>        if (exdays) {</p>
+<p>            var exdate = new Date();</p>
+<p>            exdate.setDate(exdate.getDate() + exdays);</p>
+<p>            cookie_string += "; expires=" + exdate.toUTCString();</p>
+<p>        }</p>
+<p>        if (path)</p>
+<p>            cookie_string += "; path=" + escape(path);</p>
+<p>        if (domain)</p>
+<p>            cookie_string += "; domain=" + escape(domain);</p>
+<p>        if (secure)</p>
+<p>            cookie_string += "; secure";</p>
+<p>        document.cookie = cookie_string;</p>
+<p>    }</p>
+<p>    function get_cookie(cookie_name) {</p>
+<p>        var results = document.cookie.match('(^|;) ?' + cookie_name + '=([^;]*)(;|$)');</p>
+<p>        if (results)</p>
+<p>            return (unescape(results[2]));</p>
+<p>        else</p>
+<p>        return "auckland";</p>
+<p>    }</p>
+<p>    var regions = [</p>
+<p>      { "region": 'Auckland', 'address': 'auckland' },</p>
+<p>      { "region": 'Christchurch', 'address': 'christchurch' },</p>
+<p>       { "region": 'Wellington', 'address': 'wellington' }</p>
+<p> ];</p>
+<p>    function createRegionsList() {</p>
+<p>        for (var i = 0; i < regions.length; i++) {</p>
+<p>            //  $('#regions').append(new Option(regions[i].region, regions[i].address));</p>
+<p>            //for IE use this </p>
+<p>            $('#regions').append("<option value='" + regions[i].address + "' >" + regions[i].region + "</option>'");</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function selectCurrentRegion(region) {</p>
+<p>        $('#regions').val(region);</p>
+<p>    }</p>
+<p>    function getRegions() {</p>
+<p>        var craddress = window.location.toString();</p>
+<p>        var newAddress;</p>
+<p>        newAddress = setRegionAddress(get_cookie("region"), craddress);</p>
+<p>        //console.log(newAddress);</p>
+<p>        window.location = newAddress;</p>
+<p>    }</p>
+<p>    function CheckCrAddress(region) {</p>
+<p>        var craddress = window.location.toString();</p>
+<p>        var reg = region;</p>
+<p>        craddress.toUpperCase();</p>
+<p>        reg.toUpperCase();</p>
+<p>        if (craddress.indexOf(reg) != -1) {</p>
+<p>            return true;</p>
+<p>        } else if ((craddress.indexOf(reg) == -1) && (region == "root")) {</p>
+<p>            return true;</p>
+<p>        }         </p>
+<p>        else {</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function changeRegionCookie() {</p>
+<p>        set_cookie("region", $("#regions").val(), 1000, "/");</p>
+<p>        getRegions();</p>
+<p>    }</p>
+<p>    function setRegionAddress(region, currentaddress) {</p>
+<p>        var newaddress</p>
+<p>        var tempaddress;</p>
+<p>        tempaddress = currentaddress.toString();</p>
+<p>        tempaddress = tempaddress.replace("http://", "");</p>
+<p>        tempaddress = tempaddress.split("/");</p>
+<p>      </p>
+<p>        if (tempaddress[1] == undefined || tempaddress[1] == "") {</p>
+<p>           </p>
+<p>            if (region == "root") {</p>
+<p>                newaddress = currentaddress</p>
+<p>            }</p>
+<p>            else {</p>
+<p>                newaddress = currentaddress + region;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        else if (checkRegExist(tempaddress[1])) {</p>
+<p>           // console.log("checkexisit" + tempaddress[1]);</p>
+<p>            if (region == "root") {</p>
+<p>                // change to root from other regions</p>
+<p>                var repstr =  tempaddress[1] + "/"</p>
+<p>                newaddress = currentaddress.replace(repstr, "");</p>
+<p>            } else {</p>
+<p>                // other region  </p>
+<p>                newaddress = currentaddress.replace(tempaddress[1], region);</p>
+<p>            }</p>
+<p>            </p>
+<p>        } else {</p>
+<p>           //console.log("else" + tempaddress[1]);</p>
+<p>            if (region == "root") {</p>
+<p>                newaddress = currentaddress;</p>
+<p>            }</p>
+<p>            else {</p>
+<p>                addreig = region + "/" + tempaddress[1];</p>
+<p>                newaddress = currentaddress.replace(tempaddress[1], addreig);</p>
+<p>            }</p>
+<p>        }</p>
+<p>        return newaddress.toString();</p>
+<p>    }</p>
+<p>    function checkRegExist(region) {</p>
+<p>        var exist = false;</p>
+<p>        for (var i = 0; i < regions.length; i++) {</p>
+<p>            if (regions[i].address.toUpperCase() == region.toUpperCase()) {</p>
+<p>                exist = true;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        return exist;</p>
+<p>    }</p>
+<p>    function SetRegonPageLoad() {</p>
+<p>        createRegionsList();</p>
+<p>        selectCurrentRegion(get_cookie("region"));</p>
+<p>        if (!CheckCrAddress(get_cookie("region"))) {</p>
+<p>            //********* Do not Active this line until you have all pages for region ******************* </p>
+<p>            getRegions();</p>
+<p>        }</p>
+<p>        $("#regions").change(changeRegionCookie); // getRegions   </p>
+<p>        $("#regions").blur(changeRegionCookie);</p>
+<p>    }</p>
+<p>    SetRegonPageLoad();</p>
+<p>    </p>
+<p>Home</p>
+<p>All News </p>
+<p>Latest </p>
+<p>International </p>
+<p>Sport </p>
+<p>Business </p>
+<p>Entertainment </p>
+<p>News</p>
+<p>All </p>
+<p>Latest </p>
+<p>International </p>
+<p>Sport </p>
+<p>Business </p>
+<p>Entertainment </p>
+<p>Weather </p>
+<p>Traffic </p>
+<p>On Demand</p>
+<p>Video </p>
+<p>Audio </p>
+<p>Week on Demand </p>
+<p>Studio Cam </p>
+<p>News on the Hour </p>
+<p>Listen Live </p>
+<p>Listen to FM </p>
+<p>Listen On Mobile </p>
+<p>On Air</p>
+<p>Shows</p>
+<p>Mike Hosking</p>
+<p>Leighton Smith</p>
+<p>Danny Watson</p>
+<p>Larry Williams</p>
+<p>Kerre Woodham</p>
+<p>Paul Holmes</p>
+<p>Kerre's Cafe</p>
+<p>Real Life</p>
+<p>Hosts </p>
+<p>Opinion </p>
+<p>What's On</p>
+<p>What's On </p>
+<p>Community Notices </p>
+<p>Win </p>
+<p>Lifestyle</p>
+<p>Lifestyle </p>
+<p>Recipes </p>
+<p>Books </p>
+<p>Motoring </p>
+<p>Health & Beauty </p>
+<p>Home & Garden </p>
+<p>Galleries </p>
+<p>Contact</p>
+<p>Contact Us </p>
+<p>Follow Us </p>
+<p>Be the Reporter </p>
+<p>Share |</p>
+<p>More details over seized assets in Qld fraud case</p>
+<p>By: ARN | Latest International News | Thursday January 12 2012 13:30</p>
+<p>The assets of a New Zealander accused defrauding Queensland Health of $11 million have been seized by the Public Trustee.</p>
+<p>The seizure happened on Tuesday but the details have just been made public today.</p>
+<p>Lawyers from the Queensland Government want to restrain the assets - including designer clothes, furniture and framed photos - under suspicion they were purchased by Hohepa Morehu-Barlow.</p>
+<p>The assets were found at the home of the accused's sister, Kelly-Ann Barlow.</p>
+<p>   </p>
+<p>     </p>
+<p>        var sHref = "[FacebookLink]"</p>
+<p>        if (sHref == "[" + "FacebookLink" + "]") {</p>
+<p>            sHref = ""</p>
+<p>        }</p>
+<p>        document.write('<fb:like href="' + sHref + '" send="false" width="620" show_faces="false" font=""></fb:like>');</p>
+<p>    </p>
+<p> </p>
+<p> </p>
+<p>Related Subjects</p>
+<p>Queensland</p>
+<p> | </p>
+<p> </p>
+<p>Latest International News</p>
+<p>                Injured fishing crew to be taken to Christchu ...</p>
+<p>                </p>
+<p>Read Now</p>
+<p>                Statue to honour Brisbane's flood volunteers</p>
+<p>                </p>
+<p>Read Now</p>
+<p>   </p>
+<p>                French journalist killed in Syria</p>
+<p>                </p>
+<p>Read Now</p>
+<p>                Obama talks jobs following Romney's win</p>
+<p>                </p>
+<p>Read Now</p>
+<p>   </p>
+<p>                More details over seized assets in Qld fraud  ...</p>
+<p>                </p>
+<p>Read Now</p>
+<p>   </p>
+<p>                Second anniversary of Haiti quake</p>
+<p>                </p>
+<p>Read Now</p>
+<p>                Crackdown on assembly, more military power</p>
+<p>                </p>
+<p>Read Now</p>
+<p>                Tsunami safety on summer agenda</p>
+<p>                </p>
+<p>Read Now</p>
+<p>   </p>
+<p>                Prosecutor killed in German court shooting</p>
+<p>                </p>
+<p>Read Now</p>
+<p>        var carouselID = addIDToLast(".mos-story-carousel", "mos-story-carousel");</p>
+<p>        var thisID = addIDToLast(".mos-story-carousel-container", "mos-story-carousel-container");</p>
+<p>        makeCarouselLite("#" + thisID, "#" + carouselID + " .mos-story-carousel-prev", "#" + carouselID + " .mos-story-carousel-next", 3);</p>
+<p>    </p>
+<p>                Listen to 'Darkness' by Leonard Cohen</p>
+<p>                </p>
+<p>                Win tickets to A Day on the Green</p>
+<p>                </p>
+<p>                Alleged Rotorua shoplifters caught on film</p>
+<p>                </p>
+<p>                Send us your summer snaps</p>
+<p>                </p>
+<p>                Newstalk ZB's smart phone apps</p>
+<p>                </p>
+<p>    var carouselID = addIDToLast(".mos-nopad-carousel", "mos-nopad-carousel");</p>
+<p>    var thisID = addIDToLast(".mos-contentbin-nopad-items", "mos-contentbin-nopad-items");</p>
+<p>    makeCarouselLite("#" + thisID, "#" + carouselID + " .mos-nopad-carousel-prev", "#" + carouselID + " .mos-nopad-carousel-next", 1);</p>
+<p>				<!-- Hide from old browsers</p>
+<p>					adserver = "http://data.radionetwork.co.nz/trn";</p>
+<p>					target = "/SITE=Newstalk_ZB/AREA=ZB_News/SIZE=Rectangle";</p>
+<p>					// Cache-busting and viewid values</p>
+<p>					random = Math.round(Math.random() * 100000000);</p>
+<p>					if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);</p>
+<p>					document.write('<iframe src="'+adserver+'/hserver/random='+random + target + '/viewid=' + pageNum + '"');</p>
+<p>					document.write(' noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=250 allowTransparency="true">');</p>
+<p>					document.write('</iframe>');</p>
+<p>				// End Hide --></p>
+<p>				</p>
+<p>Advertisement</p>
+<p>Advertisement</p>
+<p>Latest News</p>
+<p>Most Read</p>
+<p>var sFormatTime = "6:45 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Fatal crash in Cromwell</p>
+<p>                </p>
+<p>var sFormatTime = "6:24 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Lee excited for first PGA Tour ...</p>
+<p>                </p>
+<p>var sFormatTime = "6:22 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                McCaw's foot rehab on track</p>
+<p>                </p>
+<p>var sFormatTime = "6:20 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Herbert to decide on Paston th ...</p>
+<p>                </p>
+<p>var sFormatTime = "6:55 AM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Man drowns at Fitzroy Beach</p>
+<p>                </p>
+<p>var sFormatTime = "7:06 AM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Labour scoffs at Destiny Churc ...</p>
+<p>                </p>
+<p>var sFormatTime = "1:31 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                More details over seized asset ...</p>
+<p>                </p>
+<p>var sFormatTime = "6:45 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Fatal crash in Cromwell</p>
+<p>                </p>
+<p> changetabs("tabbedComponent_LatestMostRead");</p>
+<p>News on the Hour</p>
+<p>StudioCam</p>
+<p>Watch Newstalk ZB's hourly News recordings</p>
+<p>Watch the Newstalk ZB on-air studio</p>
+<p>    changetabs("tabbedComponent_NewshourCam");</p>
+<p>Latest Audio</p>
+<p>Newstalk ZBeen</p>
+<p>var sFormatTime = "8:19 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                The mood in Carterton</p>
+<p>                </p>
+<p>var sFormatTime = "8:17 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Carterton balloon crash wrecka ...</p>
+<p>                </p>
+<p>var sFormatTime = "8:15 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Strong swells due to batter Re ...</p>
+<p>                </p>
+<p>var sFormatTime = "8:11 PM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                'Fruitless' mediation in port  ...</p>
+<p>                </p>
+<p>var sFormatTime = "4:59 AM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Thursday-Last One - Back Jan 1 ...</p>
+<p>                </p>
+<p>var sFormatTime = "6:11 AM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Wednesday-Protest Loses Steam</p>
+<p>                </p>
+<p>var sFormatTime = "4:53 AM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Tuesday-Billboard Blowup</p>
+<p>                </p>
+<p>var sFormatTime = "5:05 AM";</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace('.','');</p>
+<p>sFormatTime = sFormatTime.replace(':','.');</p>
+<p>document.write (sFormatTime);</p>
+<p>                Monday-Christmas and the Year</p>
+<p>                </p>
+<p>    changetabs("tabbedComponent_AudioZBeen");</p>
+<p> The Labour leadership</p>
+<p>Are you happy with who's been chosen to lead the Labour Party?</p>
+<p>                                                        Yes</p>
+<p>                                                        No</p>
+<p>                                                        Undecided</p>
+<p>Vote Now</p>
+<p>View Results</p>
+<p> The Labour leadership Results</p>
+<p>Are you happy with who's been chosen to lead the Labour Party?</p>
+<p>Yes </p>
+<p> 60%</p>
+<p>Total: 0 votes</p>
+<p>                    $("#pollsubmit").click(function () {</p>
+<p>                        if (funValidatePollMod()) {</p>
+<p>                            var datastrforpost = 'operator=select&choice=' + $("#survey [name=choice]:checked").val() + '&pollsubmit=Vote';</p>
+<p>                            setCookie("poll", "voted");</p>
+<p>                            PollResult(datastrforpost);</p>
+<p>                        }</p>
+<p>                        return false;</p>
+<p>                    });</p>
+<p>                    $("#justresault").click(function () {</p>
+<p>                        var datastrforpost = "";</p>
+<p>                        PollResult(datastrforpost);</p>
+<p>                        return false;</p>
+<p>                    });</p>
+<p>                    function funValidatePollMod() {</p>
+<p>                        var isOK = false;</p>
+<p>                        if ($('#survey input[name=choice]:checked').val()) {</p>
+<p>                            isOK = true;</p>
+<p>                        }</p>
+<p>                        if (!isOK) {</p>
+<p>                            alert("Please select an answer.");</p>
+<p>                        }</p>
+<p>                        return isOK;</p>
+<p>                    }</p>
+<p>                    function PollResult(datastr) {</p>
+<p>                        var dataString = datastr;</p>
+<p>                        $.ajax({</p>
+<p>                            type: "POST",</p>
+<p>                            url: "/polls/results/MOSType-MultiplePoll-labour-leadership-13dec2011",</p>
+<p>                            data: dataString,</p>
+<p>                            success: function (data) {</p>
+<p>                                $("#Results_chart").html(data);</p>
+<p>                                var votechartHtml = " ";</p>
+<p>                                var voteTitles = new Array();</p>
+<p>                                var voteCount = new Array();</p>
+<p>                                var totalvotes = 0;</p>
+<p>                                $("#resaultbasevotedata li").each(function (index, domEle) {</p>
+<p>                                    var resaultsplite = $(domEle).text().split(":");</p>
+<p>                                    voteTitles[index] = resaultsplite[1];</p>
+<p>                                    voteCount[index] = resaultsplite[0];</p>
+<p>                                });</p>
+<p>                                for (var i = 0; i < voteCount.length; i++) {</p>
+<p>                                    totalvotes += parseInt(voteCount[i]);</p>
+<p>                                }</p>
+<p>                                for (var j = 0; j < voteCount.length; j++) {</p>
+<p>                                    num = parseInt(voteCount[j]) / totalvotes * 100;</p>
+<p>                                    tempVote = Math.round(num * Math.pow(10, 2)) / Math.pow(10, 2);</p>
+<p>                                    votechartHtml += "<li><span class='mos-poll-answer'>" + voteTitles[j] + "</span> <span class='mos-poll-bar'><span class='mos-poll-barfill'>";</p>
+<p>                                    votechartHtml += "<img src='/images/poll-bar-fill.png' width='" + Math.round(tempVote) + "%' height='15' /></span></span> <span class='mos-poll-percent'>" + Math.round(tempVote) + " %</span></li>";</p>
+<p>                                }</p>
+<p>                                $("#pollresaultsChart").html(votechartHtml);</p>
+<p>                                $("#polltotalvotes").html(totalvotes);</p>
+<p>                                $("#mos-poll01").hide();</p>
+<p>                                $("#mos-poll02").show();</p>
+<p>                            }</p>
+<p>                        });</p>
+<p>                    }</p>
+<p>                    function getCookie(c_name) {</p>
+<p>                        var i, x, y, ARRcookies = document.cookie.split(";");</p>
+<p>                        for (i = 0; i < ARRcookies.length; i++) {</p>
+<p>                            x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));</p>
+<p>                            y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);</p>
+<p>                            x = x.replace(/^\s+|\s+$/g, "");</p>
+<p>                            if (x == c_name) {</p>
+<p>                                return unescape(y);</p>
+<p>                            }</p>
+<p>                        }</p>
+<p>                    }</p>
+<p>                    function setCookie(c_name, value, exdays) {</p>
+<p>                        var exdate = new Date();</p>
+<p>                        exdate.setDate(exdate.getDate() + exdays);</p>
+<p>                        var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());</p>
+<p>                        document.cookie = c_name + "=" + c_value;</p>
+<p>                    }</p>
+<p>                    function checkPollCookie() {</p>
+<p>                        var username = getCookie("poll");</p>
+<p>                        if (username != null && username != "") {</p>
+<p>                            var datastrforpost = "";</p>
+<p>                            PollResult(datastrforpost);</p>
+<p>                        }</p>
+<p>                    }</p>
+<p>                    checkPollCookie();</p>
+<p>                </p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-0716976507176392";</p>
+<p>/* Newstalk 2011 300x250 */</p>
+<p>google_ad_slot = "2932429059";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Previous</p>
+<p>Next</p>
+<p>Advertisement</p>
+<p>    makeCarouselLite("#adcarouselfooter", "#adcarouselfooter-prev", "#adcarouselfooter-next", 5, 3, true);</p>
+<p>Home</p>
+<p>On Demand</p>
+<p>Video</p>
+<p>Audio</p>
+<p>Week on Demand</p>
+<p>Studio Cam</p>
+<p>News on the Hour</p>
+<p>Listen Live</p>
+<p>Listen to FM</p>
+<p>Listen on Mobile</p>
+<p>News</p>
+<p>All</p>
+<p>Latest</p>
+<p>International</p>
+<p>Sport</p>
+<p>Business</p>
+<p>Entertainment</p>
+<p>Weather</p>
+<p>Traffic</p>
+<p>Opinion</p>
+<p>Win</p>
+<p>On Air</p>
+<p>Shows</p>
+<p>Hosts</p>
+<p>Lifestyle</p>
+<p>Recipes</p>
+<p>Books</p>
+<p>Motoring</p>
+<p>Health & Beauty</p>
+<p>Home & Garden</p>
+<p>Galleries</p>
+<p>What's On</p>
+<p>Community Notices</p>
+<p>Info</p>
+<p>Contact Us</p>
+<p>Subscribe</p>
+<p>Be the Reporter</p>
+<p>Legal</p>
+<p>Frequencies</p>
+<p>Ashburton 873AM</p>
+<p>Auckland 1080AM 89.4FM</p>
+<p>Blenheim 92.1FM</p>
+<p>Central Otago 89.6FM 95.1FM 90.6FM</p>
+<p>Christchurch 1098AM 100.1FM</p>
+<p>Dunedin 1044AM</p>
+<p>Gisborne 945AM</p>
+<p>Greymouth 99.1FM 1287AM</p>
+<p>Hawkes Bay 90.3FM 1278AM</p>
+<p>Kapiti 89.5FM</p>
+<p>Manawatu 100.2FM 927AM</p>
+<p>Masterton 846AM</p>
+<p>Nelson 1341AM</p>
+<p>Northland 1026AM 1215AM</p>
+<p>Oamaru 1395AM</p>
+<p>Rotorua 747AM</p>
+<p>Southland 864AM</p>
+<p>Taranaki 96.4FM 1053AM 1278AM</p>
+<p>Taupo 96.0FM</p>
+<p>Tauranga 90.2FM 1008AM</p>
+<p>Timaru 1152AM</p>
+<p>Tokoroa 1413AM</p>
+<p>Waikato 1296AM 97FM</p>
+<p>Wanganui 1197AM</p>
+<p>Wellington 89.3FM 1035AM</p>
+<p>Follow Us</p>
+<p>RSS</p>
+<p>RSS Webfeed</p>
+<p>var sSubscribeURL = "https://radionetwork.wufoo.com/forms/q7r2k9/def/field3="</p>
+<p>Sign up for the eZB Newsletter</p>
+<p>    $("#mos-subscribeNewsletter [name=email]").focusin(function () {</p>
+<p>        if ($(this).val() == "Your email address") {</p>
+<p>            $(this).val("");</p>
+<p>        }</p>
+<p>    })</p>
+<p>    $("#mos-subscribeNewsletter [name=email]").focusout(function () {</p>
+<p>        if ($(this).val() == "") {</p>
+<p>            $(this).val("Your email address");</p>
+<p>        }</p>
+<p>    })</p>
+<p>Powered by MediaSpan | Web Design by Terabyte</p>
+<p>                     © The Radio Network</p>
+<p><!--</p>
+<p>	var _rsCI="nz-trn";</p>
+<p>	var _rsCG="newstalkzb";</p>
+<p>	</p>
+<p>	var _rsDT=1; // to turn on whether to get the document title, 1=on</p>
+<p>	var _rsDU=0; // to turn on or off the applet, 1=on</p>
+<p>	var _rsDO=0; // to turn on debug output to the console, 1=on, only works if _rsDU=1</p>
+<p>	var _rsX6=0; // to force use of applet with XP and IE6, 1=on, only works if _rsDU=1 </p>
+<p>	var _rsSI=escape(window.location);</p>
+<p>	var _rsLP=location.protocol.indexOf('https')>-1?'https:':'http:';</p>
+<p>	var _rsRP=escape(document.referrer);</p>
+<p>	var _rsND=_rsLP+'//secure-nz.imrworldwide.com/';</p>
+<p>	if (parseInt(navigator.appVersion)>=4)</p>
+<p>	{</p>
+<p>		var _rsRD=(new Date()).getTime();</p>
+<p>		var _rsSE=0;</p>
+<p>		var _rsSV="";</p>
+<p>		var _rsSM=0;</p>
+<p>		_rsCL='<scr'+'ipt language="JavaScript" type="text/javascript" src="'+_rsND+'v51.js"><\/scr'+'ipt>';</p>
+<p>	}</p>
+<p>	else</p>
+<p>	{</p>
+<p>		_rsCL='<img src="'+_rsND+'cgi-bin/m?ci='+_rsCI+'&cg='+_rsCG+'&si='+_rsSI+'&rp='+_rsRP+'">';</p>
+<p>	}</p>
+<p>	document.write(_rsCL);</p>
+<p>//--></p>
+<p>    var _gaq = _gaq || [];</p>
+<p>    _gaq.push(['_setAccount', 'UA-3413449-1']);</p>
+<p>    _gaq.push(['_trackPageview']);</p>
+<p>    (function () {</p>
+<p>        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>    })();</p>

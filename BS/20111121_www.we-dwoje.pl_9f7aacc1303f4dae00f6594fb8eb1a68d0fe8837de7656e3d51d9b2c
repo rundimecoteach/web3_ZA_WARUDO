@@ -1,0 +1,203 @@
+<p> </p>
+<p>Zmęczona wątroba potrzebuje wsparcia z natury > Leki i preparaty</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('..fqHzQXN5W.gB4LxbAhIpSsLW_6247wLmK22DbKBeL.k7');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'zdrowie', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 119;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_zdrowie");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Zdrowie</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_zdrowie");</p>
+<p>	</p>
+<p>Zdrowie</p>
+<p>Uroda Moda Seks Lifestyle</p>
+<p>Ślub Dziecko Kulinaria Dom więcej</p>
+<p>Warto wiedziećChorobyDietaMedycyna naturalnaProfilaktykaLeki i preparatyABC PacjentaBaza aptekBaza ZOZ Zdrowie Forum </p>
+<p>ZdrowieLeki i preparatyZmęczona wątroba potrzebuje wsparcia z natury </p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_zdrowie");</p>
+<p>Leki i preparaty18 Lis 2011kom. (0)159domzdrowia.plZmęczona wątroba potrzebuje wsparcia z natury</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_zdrowie");</p>
+<p>Smakołyki, wykwintne potrawy, pyszne desery, drinki alkoholowe – to nie tylko radość dla podniebienia, ale także kłopot dla wątroby. Bynajmniej nie oznacza to, że masz rezygnować z przyjemności czerpanej ze spożywania ulubionych potraw i napojów. Zastosuj preparat wspomagający pracę twojej wątroby i ciesz się smakiem ulubionych potraw.</p>
+<p>Dlaczego wątroba się „buntuje”?</p>
+<p>	Wątroba, pomimo tego, że nie jest narządem, który bezpośrednio uczestniczy w procesach trawiennych, ma istotne znaczenie dla ich przebiegu. Podstawowymi zadaniami wątroby są: </p>
+<p>syntetyzowanie (enzymów, czynników krzepnięcia krwi, żółci), </p>
+<p>metabolizowanie (węglowodanów, puryn, aminokwasów), </p>
+<p>detoksykacja (neutralizacja toksyn), </p>
+<p>filtracja (usuwanie zbędnych organizmowi substancji), </p>
+<p>magazynowanie (witamin i mikroelementów). </p>
+<p>	W przypadku przejedzenia, spożycia nadmiernej ilości alkoholu, zatrucia – wątroba nie jest w stanie sprostać powierzonym jej funkcjom. Wówczas konieczne jest wsparcie. Najbezpieczniej będzie, jeśli wspomniane wsparcie będzie miało naturalne pochodzenie.</p>
+<p>Po zjedzeniu jakich potraw wątroba może się „zbuntować”?</p>
+<p>	Nasz organizm nie radzi sobie z pewnymi potrawami, lub nawet bardziej dodatkami do potraw, którymi się delektujemy. Ciężkostrawna dieta opiera się głównie na potrawach mięsnych, przyrządzonych w dużej ilości tłuszczu; makaronach, na których wręcz rozpływa się serek; zupach, w których „oka” tłuszczu z trudem walczą o wolną przestrzeń, czy rozgotowanych ziemniakach polewanych sosami na bazie wywarów mięsnych. Najłatwiej powiedzieć, że potrawa, po której czujemy się ociężali, źle wróży naszej wątrobie. Nie zapominajmy, że smakowicie wyglądające desery, udekorowane sporą ilością bitej śmietany i jeszcze dodatkowo polane słodkimi sosami, czy drinki alkoholowe, bazujące na słodzonych napojach, także nie służą zdrowiu naszej wątroby.</p>
+<p>Jakie objawy mogą świadczyć o tym, że twoja wątroba nie funkcjonuje właściwie?</p>
+<p>	Przede wszystkim możesz odczuwać bóle po prawej stronie pod żebrami (w tak zwanym prawym boku). Uczucie jest nieprzyjemne i uciążliwe – występując nawet przez kilka dni. Może pojawiać się zarówno po obfitym posiłku, ale nie tylko. Kolejne objawy wskazujące na problemy wątrobowe to wzdęcia, gazy, zaparcia. Ponadto należy zwrócić uwagę na wyniki badań poziomu cholesterolu i trójglicerydów, które mogą zasugerować, że wątroba nie nadąża z metabolizmem.</p>
+<p>Co zrobić, żeby nie rezygnować z ulubionych potraw?</p>
+<p>	Dietę zawsze można lekko zmodyfikować, ale nie każdy potrafi odmówić sobie ukochanych posiłków. Jeżeli nie potrafisz oprzeć się wspaniale wyglądającym potrawom (które jak sądzisz, mogą nie być lekkostrawne), stosuj leki ziołowe wspomagające regenerację wątroby. </p>
+<p>Wybierz lek, a nie suplement diety</p>
+<p>	Czy dla pacjenta powinno mieć to jakiekolwiek znaczenie? Oczywiście, że tak. Zasadniczą różnicą pomiędzy lekami i suplementami diety jest gwarancja ich składu oraz działania. Suplementy nie wymagają szeregu badań, potwierdzających ich skuteczność i bezpieczeństwo stosowania, które są niezbędne dla procesu rejestracji leków. Zatem decydując się na lek, mamy gwarancję jego jakości i potwierdzoną skuteczność działania.</p>
+<p>Jaki składnik leków wspomoże pracę wątroby?</p>
+<p>	Szczególnie cenionym w usprawnianiu pracy wątroby jest ekstrakt (wyciąg) z ostropestu plamistego (z łac. Silybum marianum). Substancją zawartą w tej roślinie, odpowiedzialną za jej korzystne właściwości jest sylimaryna. Na szczęście w aptekach możesz bez recepty kupić leki zawierające sylimarynę, nie tylko w dobrej cenie, ale także z gwarancją wieloletniego już uznania pacjentów (np. Sylimarol). </p>
+<p>Zalety sylimaryny:</p>
+<p>		Będąc substancją naturalnego pochodzenia, może być stosowane bez większych ograniczeń czasowych (w przeciwieństwie do większości leków syntetycznych).  </p>
+<p>		Posiada właściwości hepatoprotekcyjne, czyli ochronne dla komórek wątroby – hepatocytów. Między innymi dlatego, że jest związkiem o charakterze antyutleniacza (przeciwutleniacza), a więc związkiem neutralizującym negatywny wpływ wolnych rodników. Obecność dużych ilości wolnych rodników jest niebezpieczna, ponieważ prowadzi do uszkodzenia błon komórkowych wielu narządów, w tym także wątroby. Należy pamiętać, że procesy zachodzące w wątrobie stanowią źródło syntezy wolnych rodników. Można zatem stwierdzić, że wątroba pozbawiona przeciwutleniaczy jest w stanie stanowić sama dla siebie zagrożenie.</p>
+<p>		Sylimaryna ponadto ogranicza proces stłuszczenia wątroby, którego konsekwencją jest marskość wątroby. Zdolność przeciwdziałania marskości wątroby opiera się na pozytywnym wpływie sylimaryny na przemiany tłuszczów, które zachodzą w tym narządzie.</p>
+<p>		 Działa żółciotwórczo, a dzięki temu usprawnia procesy trawienne. Równocześnie nie dopuszcza do zastoju żółci w drogach żółciowych.</p>
+<p>		Szczególnie istotną właściwością sylimaryny jest zdolność do obniżania frakcji LDL, czyli tak zwanego „złego cholesterolu”. Utrzymujący się podwyższony poziom „złego cholesterolu”, skutkuje rozwojem miażdżycy. Miażdżyca jest zaliczana do tak zwanych chorób cywilizacyjnych, czyli wynikających z rozwoju cywilizacji. Niestety sama miażdżyca nie jest najpoważniejszą konsekwencją podwyższonego poziomu cholesterolu, bowiem może on skutkować udarem mózgu, zawałem serca, a nawet śmiercią. </p>
+<p>		Sylimaryna nie tylko wzmacnia komórki wątrobowe, ale także usprawnia ich regenerację. Z tego też powodu jest zalecana po kuracjach antywirusowych, czy innych formach terapii silnymi lekami. </p>
+<p>	Nie obawiaj się wzdęć, bólu wątroby, czy zaparć i nie rezygnuj z ulubionych potraw. Pamiętaj, że możesz wspomagać swoją wątrobę regularnie stosując sylimarynę - w aptekach znajdziesz przynajmniej kilka preparatów posiadających ją w swoim składzie (Sylimarol, Syliflex, Silivit, Sylicynar, Sylimax, Legalon). Zapewnisz jej wówczas lepszą regenerację, ochronę i pomoc w obciążających ją procesach  metabolizmu i detoksykacji organizmu.  </p>
+<p>	 </p>
+<p> </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_zdrowie");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_zdrowie");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123450.00/0  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Leki i preparaty</p>
+<p>		Jakie witaminy wybrać dla dziecka?	</p>
+<p>	Twoje dziecko często się choruje? A może jest...</p>
+<p>	</p>
+<p>		Pigułka po	</p>
+<p>		Higiena stref intymnyh - Jak zadbać o...	</p>
+<p>		Zajadasz stres?	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Tagi</p>
+<p>dieta</p>
+<p>zdrowie</p>
+<p>leki</p>
+<p>preparaty</p>
+<p>wątroba</p>
+<p>dom zdrowia</p>
+<p>niestrawność</p>
+<p>sulimaryna</p>
+<p>Skomentuj Zmęczona wątroba potrzebuje wsparcia z naturyfunction valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (0) - Zmęczona wątroba potrzebuje wsparcia z naturyBrak komentarzy do Zmęczona wątroba potrzebuje wsparcia... - rozpocznij dyskusję i dodaj komentarz</p>
+<p>Podobne do Zmęczona wątroba potrzebuje wsparcia z naturyGdy dokucza wątrobaWątroba to kluczowy organ, który odpowiada za prawidłowe funkcjonowanie naszego organizmu. Można ją porównać do wielkiej fabryki i labora¬torium chemicznego, magazynu, ale również oczyszczalni.więcej2.00/ 3206Skomentuj  (1)Koktajl witamin dla każdego rodzaju ceryWiosna to czas, w którym zmęczona po zimie skóra potrzebuje regeneracji, rozjaśnienia oraz ochrony przed wzmagającym się promieniowaniem UV.więcej0.00/ 098Skomentuj  (0)Gdy coś leży na wątrobieWątroba jest największym narządem naszego organizmu. Jej rola w układzie pokarmowym i wydzielniczym jest wielka, jednak bagatelizujemy jej znaczenie, nadmiernie ją obciążając.więcej0.00/ 0298Skomentuj  (1)Dieta wątrobowaChora wątroba to poważny problem, który wymaga nie tylko leczenia, ale także ścisłego przestrzegania zaleceń dietetycznych. Prawidłowo przygotowane i skomponowane posiłki pozwolą na szybszą regenerację chorego narządu...więcej2.50/ 166733Skomentuj  (2)Smażona wątroba w sosie BéarnaiseMąkę mieszamy z solą i pieprzem na talerzu. Plastry mięsa obtaczamy w mące i odkładamy. Na patelni rozgrzewamy masło i szybko obsmażamy wątróbkę z obu stron – w środku mięso powinno być różowe.więcej5.00/ 7304Skomentuj  (2)Ekspresowe odświeżanieSpałaś źle i krótko. Rano trudno ci było wstać łóżka, czujesz się rozbita i zmęczona, a przed tobą długi dzień pracy. Co robić?więcej0.00/ 037Skomentuj  (0)Zobacz podobne do Zmęczona wątroba potrzebuje wsparcia...</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column1_art1_zdrowie");</p>
+<p>	</p>
+<p>Koki z kręconych włosów - jak je zrobić?Budujemy Mosty NadzieiZbadaj piersi z przystojniakiem!Upięcie sylwestrowe dla długich włosówMakijaż pod lupą: Edyta Herbuś</p>
+<p>Wydania We2.plwięcej »21LisStyl Seleny Gomez oraz Fryzury gwiazd 2011</p>
+<p>Prosta i tania reklama w Internecie sprzedawana za pomocą AdTaily(PLALLADTAILY0002)</p>
+<p>Gorące tematyPopularneKomentowaneNoweKoagulogram - badania układu krzepnięciaIle powinnam ważyć?Jakie witaminy wybrać dla dziecka?Nie daj się złamać! Zapobiegaj osteoporozie!Badania profilaktyczne mężczyzn po 30-tym roku życiaKleptomania - czy to choroba?</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_zdrowie");</p>
+<p>Galerie Najmodniejsze sukienki w kolekcji...Polskie gwiazdy w czarnych kreacjachKolekcja Cottonfield na sezon jesień 2011Obuwie damskie Pull&Bear na sezon... Popularne zdjęciaTorebkiTorebki od Stradivarius na jesień i zimę 2011/2012SpodnieSpodnie damskie New Yorker - kolekcja...więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródAgenci ślubniAgape - organizacja ślubów i wesel....Beauty LookEXTRA-SHOP</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_zdrowie");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.4.1.1','');</p>
+<p>bmone2n.addPosition('177.4.2.2','');</p>
+<p>bmone2n.addPosition('177.4.7.3','');</p>
+<p>bmone2n.addPosition('177.4.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

@@ -1,0 +1,1082 @@
+<p>Australian poison report sparks call for tighter energy drink rules - Health - NZ Herald News</p>
+<p>var thisDynamicDomain 			= 'http://dynamic.nzherald.co.nz';</p>
+<p>var thisSecureDynamicDomain 	= 'https://secure.nzherald.co.nz';  </p>
+<p>var headlinesData 				= {"set1":{"data":"","counter":0},"set2":{"data":"","counter":0},"set3":{"data":"","counter":0},"configName":""};</p>
+<p>//ads variables</p>
+<p>document.write('<script src="/shareddata/nzhdata/nzhdata.js?_='+new Date().getTime()+'">\x3C/script>')</p>
+<p>if (headlinesData.configName.length == 0) {</p>
+<p>headlinesData.configName = "NZH:default";</p>
+<p>}</p>
+<p>var keyword = "australian+poison+sparks+call+tighter+energy+drink+rules+world+sharp+rise+emergency+calls+drinks+high+caffeine+content+prompted+regulation+compulsory+health+warnings+rejected+industry+came+research+university+sydney+south+wales+poisons+information";</p>
+<p>$.get("/modules/headlines-list.cfm?c_id=204&sr=0&max=10", function(data){</p>
+<p>headlinesData.set1.data = data;</p>
+<p>});</p>
+<p>$.get("/modules/headlines-list.cfm?c_id=698&sr=0&max=10", function(data){</p>
+<p>headlinesData.set2.data = data;</p>
+<p>});</p>
+<p>$.get("/modules/headlines-list.cfm?c_id=2&sr=0&max=10", function(data){</p>
+<p>headlinesData.set3.data = data;</p>
+<p>});</p>
+<p>var hb 								= "";</p>
+<p>var hbmatch 						= "";</p>
+<p>var hb 								=  $.cookie('HasBeen'); //Current value of cookie</p>
+<p>var hbArray 						= new Array();</p>
+<p>var scw 							= screen.width; </p>
+<p>var sch 							= screen.height;					</p>
+<p>var wloc 							= "none";</p>
+<p>var wlow 							= "none";</p>
+<p>var whigh 							= "none";</p>
+<p>var wicon 							= "none";</p>
+<p>var cid 							= "204";</p>
+<p>var classification 					= "NOTRWC"; //Variable for RWC classification </p>
+<p>var relatedcid 						= ""; // Variable for related RWC classification</p>
+<p>var syndicator 						= "NONE"; //Variable for syndicator (to check for Fair Use, Official RWC and herald RWC content)</p>
+<p>var geoblock 						= "N"; // Variable for Geoblock</p>
+<p>var time 							= "NONE"; // Variable for video time</p>
+<p>var value 							= "NONE"; //Variable for video value</p>
+<p>var play 							= "NONE"; // Variable for click to play or auto play</p>
+<p>var relatedClass 					= "N"; //Related RWC classification</p>
+<p>var subarea 						= "";</p>
+<p>// Weather Location</p>
+<p>if ($.cookie('nzh_weatherlocation') != null) {</p>
+<p>var locationid 					= $.cookie('nzh_weatherlocation');</p>
+<p>} else {</p>
+<p>var locationid 					= 12; /* Default to Auckland*/</p>
+<p>}</p>
+<p>var region 							= nzhdata.json.weather["_" + locationid].name;</p>
+<p>// AI Match Segs</p>
+<p>var rsi_segs 						= []; </p>
+<p>var segs_beg 						= document.cookie.indexOf('rsi_segs='); </p>
+<p>if (segs_beg>=0){   </p>
+<p>segs_beg 						= document.cookie.indexOf('=',segs_beg)+1;   </p>
+<p>if(segs_beg>0){     </p>
+<p>var segs_end 				= document.cookie.indexOf(';',segs_beg);     </p>
+<p>if(segs_end==-1) segs_end 	= document.cookie.length; </p>
+<p>rsi_segs 					= document.cookie.substring(segs_beg,segs_end)              </p>
+<p>.split('|');   </p>
+<p>} </p>
+<p>} </p>
+<p>var segLen 							= 20; </p>
+<p>var segQS 							= ""; </p>
+<p>if (rsi_segs.length<segLen){</p>
+<p>segLen 							= rsi_segs.length</p>
+<p>} </p>
+<p>for (var i=0;i<segLen;i++){</p>
+<p>if (rsi_segs == undefined || rsi_segs == "") {</p>
+<p>segQS += ("NONE");</p>
+<p>}</p>
+<p>else {</p>
+<p>var temp_segs = '';</p>
+<p>temp_segs = rsi_segs[i].split("H11217_")[1];</p>
+<p>segQS += ("AS" + temp_segs + ".");</p>
+<p>} </p>
+<p>}</p>
+<p>var subarea 						= "/S1=WORLD/S2=NONE/S3=NONE/S4=NONE/S5=NONE";</p>
+<p>if(cid == 522 || relatedcid == "Y" || cid == 1503158 ) { //Rugby World Cup</p>
+<p>var classification 				= "RWC";</p>
+<p>}				</p>
+<p>hbArray.length 						= 5;				</p>
+<p>if(hb == null)</p>
+<p>{					</p>
+<p>hb 								= "HEALTH" + "._._._._";</p>
+<p>$.cookie('HasBeen', hb, {path:'/', expires:30, domain:BaseDomain}); </p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>var hbmatch 					= hb.match("_"); </p>
+<p>if(hbmatch == "_")</p>
+<p>{</p>
+<p>//replace the '_' with the new value</p>
+<p>var hbvalue 				= "";</p>
+<p>hbvalue 					= "HEALTH";						</p>
+<p>hb 							= hb.replace("_",hbvalue); 		</p>
+<p>$.cookie('HasBeen', hb, {path:'/', expires:30, domain:BaseDomain}); 			</p>
+<p>}					</p>
+<p>else</p>
+<p>{</p>
+<p>var hbArray 				= hb.split(".");  /* No match - all values filled, split at period */</p>
+<p>if(hbArray.length == 5)</p>
+<p>{ </p>
+<p>hbArray.shift(); /* Move out the first array element */</p>
+<p>hbArray[4] 				= "HEALTH"; /* Set the last array element */</p>
+<p>var hbnew 				= "";</p>
+<p>for(i=0;i<hbArray.length; i++)</p>
+<p>{</p>
+<p>if(hbnew == "")		</p>
+<p>{	</p>
+<p>hbnew 			= hbArray[i];</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>hbnew 			= hbnew + "." + hbArray[i];</p>
+<p>}</p>
+<p>}</p>
+<p>hb 						= hbnew;</p>
+<p>hbnew 					= "";</p>
+<p>//var hb = hbArray[0]+ "." + hbArray[1] + "."+ hbArray[2] + "." + hbArray[3] + "." + hbArray[4];</p>
+<p>$.cookie('HasBeen', hb, {path:'/', expires:30, domain:BaseDomain}); 	</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>if (nzhdata.json.weather != undefined)</p>
+<p>{</p>
+<p>var data 						= nzhdata.json.weather["_" + locationid];</p>
+<p>if (data != undefined) { // Generally because we have a cooke but its value is dud.</p>
+<p>if($.cookie('nzh_weatherlocation') != null) wloc = data.name.toLowerCase().replace(' ','');	// Only set wloc if cookie is set</p>
+<p>// Weather class, high and low to be passed to the ad call through siteTarget variable</p>
+<p>var whigh, wlow, wicon;</p>
+<p>if (data.forecasts[0] != undefined) { // Make sure we have forecast data.</p>
+<p>whigh 					= data.forecasts[0].high;</p>
+<p>wlow 					= data.forecasts[0].low;</p>
+<p>wicon 					= data.forecasts[0].cssclass;</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>var siteTarget 						= "/SITE=NZH/AREA=SEC.HEALTH.STY/CHA=NATIONAL/SS=HEALTH" + subarea + "/HB=" + hb + "/SCW=" + scw + "/SCH=" + sch + "/WLOC=" + wloc +  "/WH=" + whigh + "/WL=" + wlow + "/WC=" + wicon + "/AS=" + segQS + "/ST=" + syndicator + "/GB=" + geoblock + "/VT=" + time + "/VV=" + value + "/VP=" + play;</p>
+<p>// Audience Science Tag</p>
+<p>function DM_prepClient(csid,client){</p>
+<p>client.DM_cat("NZH > NATIONAL");</p>
+<p>client.DM_event("NZH - NATIONAL - HEALTH");</p>
+<p>client.DM_addEncToLoc("S1","WORLD");</p>
+<p>client.DM_addEncToLoc("S2","NONE");</p>
+<p>client.DM_addEncToLoc("S3","NONE");</p>
+<p>client.DM_addEncToLoc("S4","NONE");</p>
+<p>client.DM_addEncToLoc("S5","NONE");</p>
+<p>client.DM_addEncToLoc("Region",region);</p>
+<p>}</p>
+<p>/* <![CDATA[ */</p>
+<p>var google_conversion_id = 1020744975;</p>
+<p>var google_conversion_language = "en";</p>
+<p>var google_conversion_format = "3";</p>
+<p>var google_conversion_color = "666666";</p>
+<p>var google_conversion_label = "tlKpCM-ErQIQj6rd5gM";</p>
+<p>var google_conversion_value = 0;</p>
+<p>/* ]]> */</p>
+<p>aimRenderAd(760, 120, 'BIGBANNER','BigBanner','');;</p>
+<p>if(!$.browser.msie){</p>
+<p>BigBanner_frame = $("#BigBanner")[0];</p>
+<p>BigBanner_frame.src = BigBanner_frame.src;</p>
+<p>}</p>
+<p>$(document).ready(function(){</p>
+<p>var d = nzhdata.server.datetime.date();</p>
+<p>var dateString = nzhdata.server.datetime.getDayName() + ' ' + nzhdata.server.datetime.getMonthName() + ' ' + d.getDate() + ', ' + d.getFullYear();</p>
+<p>var timeString = nzhdata.server.datetime.get12HourTimeString() + ' NZT';</p>
+<p>$("#nzhheader_datestamp").append('<span>' + dateString + ' ' + timeString + '</span>'); // Thursday March 17, 2011 1:34PM NZT</p>
+<p>})</p>
+<p>,</p>
+<p>Change</p>
+<p>Please Select</p>
+<p>$(function(){</p>
+<p>if (nzhdata.json.weather != undefined) {</p>
+<p>// Reference our main container.</p>
+<p>var weatherItem = $("#nzh-header-weather").find(".locationitem");</p>
+<p>var weatherForm = $("#nzh-header-weather").find(".locationsform");</p>
+<p>// Populate our change form.</p>
+<p>var optGroup1 = $('<optgroup label="North Island"></optgroup>');</p>
+<p>var optGroup2 = $('<optgroup label="South Island"></optgroup>');</p>
+<p>$.each(nzhdata.json.weather, function(){</p>
+<p>if (this.id > -1) {</p>
+<p>var option = $('<option value="' + this.id + '">' + this.name + '</option>');</p>
+<p>(this.region == "north") ? optGroup1.append(option) : optGroup2.append(option);</p>
+<p>}</p>
+<p>});</p>
+<p>$("#nzh-header-weatherselect").append(optGroup1).append(optGroup2);</p>
+<p>// Event to manage our swapping of items.</p>
+<p>$("#nzh-header-weatherselect").change(function(){</p>
+<p>$.cookie('nzh_weatherlocation', $(this).val(), {path:'/', expires:365, domain:BaseDomain}); // Set the cookie.</p>
+<p>changeWeather($(this).val()); weatherForm.hide(); weatherItem.show(); return false;</p>
+<p>})</p>
+<p>// Modify the weather item on request.</p>
+<p>var changeWeather = function(id) {</p>
+<p>var data = nzhdata.json.weather["_" + id];</p>
+<p>if (data == undefined || data.forecasts[0] == undefined) { // Generally because we have a cooke but its value is dud.</p>
+<p>data = nzhdata.json.weather["_error"];</p>
+<p>}</p>
+<p>weatherItem.find("a.icon").addClass("icon_" + data.forecasts[0].cssclass);</p>
+<p>weatherItem.find("a.icon").attr("href", data.link);</p>
+<p>weatherItem.find("a.location").attr("href", data.link);</p>
+<p>weatherItem.find("span.loc").html(data.name);</p>
+<p>weatherItem.find("span.high").html(data.forecasts[0].high + "&deg;");</p>
+<p>weatherItem.find("span.low").html(data.forecasts[0].low + "&deg;");</p>
+<p>weatherItem.find("a.change")</p>
+<p>.click(function(){</p>
+<p>weatherItem.hide(); weatherForm.show();</p>
+<p>weatherForm.find("option:first").attr("selected", true);</p>
+<p>return false;</p>
+<p>});</p>
+<p>}</p>
+<p>// Load the initial weather item.</p>
+<p>if ($.cookie('nzh_weatherlocation') != null) { changeWeather($.cookie('nzh_weatherlocation')); } else { changeWeather(12); }</p>
+<p>weatherItem.show();	// Show the weather.</p>
+<p>}</p>
+<p>});</p>
+<p>//clears default value of text fields</p>
+<p>$("#searchField").inputDefault({</p>
+<p>defaultText		: "Keywords...",</p>
+<p>activeClass		: "searchFieldActive"</p>
+<p>});</p>
+<p>$("#searchForm").submit(function(){</p>
+<p>if ($("#searchField").val() == "Keywords...") {</p>
+<p>return false;	</p>
+<p>}</p>
+<p>})</p>
+<p>Home</p>
+<p>National</p>
+<p>World</p>
+<p>Business</p>
+<p>Sport</p>
+<p>Technology</p>
+<p>Entertainment</p>
+<p>Life & Style</p>
+<p>Travel</p>
+<p>Opinion</p>
+<p>Motoring</p>
+<p>Video</p>
+<p>In National</p>
+<p>National</p>
+<p>Politics</p>
+<p>Crime</p>
+<p>Your Views</p>
+<p>Employment</p>
+<p>Education</p>
+<p>Environment</p>
+<p>Weather</p>
+<p>Weather News</p>
+<p>Changing World</p>
+<p>Video</p>
+<p>Maori</p>
+<p>Quizzes</p>
+<p>Classifieds</p>
+<p>In Motoring</p>
+<p>Motoring</p>
+<p>Cars</p>
+<p> Hybrid Cars</p>
+<p>Auto Industry</p>
+<p>Motorsport</p>
+<p>V8 Supercars</p>
+<p>Formula One</p>
+<p>Rallying</p>
+<p>Photos and Video</p>
+<p>In Travel</p>
+<p>Travel</p>
+<p>New Zealand</p>
+<p>Australia</p>
+<p>Pacific Islands</p>
+<p>International</p>
+<p>Ask Lonely Planet</p>
+<p>Adventure</p>
+<p>City Breaks</p>
+<p>Attractions Guide</p>
+<p>Travellers' Tips</p>
+<p>Cruises</p>
+<p>In World</p>
+<p>World</p>
+<p>Australia</p>
+<p>Pacific</p>
+<p>Asia</p>
+<p>United States</p>
+<p>South America</p>
+<p>Europe</p>
+<p>Middle East</p>
+<p>Africa</p>
+<p>Natural Disasters</p>
+<p>Changing World</p>
+<p>Strange but True</p>
+<p>Photos</p>
+<p>In Sport</p>
+<p>Sport</p>
+<p>Cricket</p>
+<p>Rugby</p>
+<p>League</p>
+<p>Soccer</p>
+<p>Motor Sports</p>
+<p>Basketball</p>
+<p>Racing</p>
+<p>Golf</p>
+<p>Yachting</p>
+<p>Tennis</p>
+<p>Netball</p>
+<p>Analysis</p>
+<p>Live Scores</p>
+<p>In Opinion</p>
+<p>Opinion</p>
+<p>Your Views</p>
+<p>Cartoons</p>
+<p>Chris Rattue</p>
+<p>John Armstrong</p>
+<p>Bernard Hickey</p>
+<p>Dita de Boni</p>
+<p>Wynne Gray</p>
+<p>Audrey Young</p>
+<p>Brian Fallow</p>
+<p>Paul Holmes</p>
+<p>Kerre Woodham</p>
+<p>Fran O'Sullivan</p>
+<p>Brian Rudman</p>
+<p>In Technology</p>
+<p>Technology</p>
+<p>Internet</p>
+<p>Computers</p>
+<p>Mobile</p>
+<p>Gadgets</p>
+<p>Games</p>
+<p>ICT News</p>
+<p>Science</p>
+<p>Wired</p>
+<p>Space</p>
+<p>Mac Planet</p>
+<p>In Video</p>
+<p>Video</p>
+<p>National</p>
+<p>World</p>
+<p>Weather Watch</p>
+<p>Business</p>
+<p>Entertainment</p>
+<p>Motoring</p>
+<p>Sundae Sessions</p>
+<p>Sport</p>
+<p>Changing World</p>
+<p>Photos</p>
+<p>In Entertainment</p>
+<p>Entertainment</p>
+<p>Reviews</p>
+<p>Blogs</p>
+<p>TV</p>
+<p>Music</p>
+<p>Movies</p>
+<p>Events Guide</p>
+<p>Make My Movie</p>
+<p>Sundae Sessions</p>
+<p>Gossip</p>
+<p>Sideswipe</p>
+<p>Arts</p>
+<p>Puzzles</p>
+<p>Horoscopes</p>
+<p>In Business</p>
+<p>Business</p>
+<p>Economy</p>
+<p>KiwiSaver</p>
+<p>Markets</p>
+<p>Personal Finance</p>
+<p>Property</p>
+<p>Agriculture</p>
+<p>Small Business</p>
+<p>Analysis</p>
+<p>Comm Property</p>
+<p>In Life & Style</p>
+<p>Life & Style</p>
+<p>Fashion & Beauty</p>
+<p>Wellbeing</p>
+<p>Relationships</p>
+<p>Comment</p>
+<p>Food & Wine</p>
+<p>Recipes</p>
+<p>Viva Magazine</p>
+<p>Design & Garden</p>
+<p>Cars</p>
+<p>Restaurant Guide</p>
+<p>Herald Homes</p>
+<p><div class="title"><%= TITLE %></div></p>
+<p><div class="bucket01"></p>
+<p><% var article = ARTICLES[0]; %></p>
+<p><div class="article a300i300"></p>
+<p><a href="<%= article.URL %>" onClick="<%= article.CLICKTAG %>" class="thumb"></p>
+<p><img src="<%= article.IMAGES['300x100'].URL %>" alt="<%= article.IMAGES['300x100'].CAPTIONALT %>" title="<%= article.IMAGES['300x100'].CAPTION %>" style="width: 300px; height: 100px;" /></p>
+<p><% if (article.TYPE.toLowerCase() == "video") { %></p>
+<p><span class="videoOverlay"><!-- --></span></p>
+<p><% } %></p>
+<p></a></p>
+<p><div class="body"></p>
+<p><% if (article.TYPE.toLowerCase() == "image") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "photo") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "video") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">video</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "audio") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">audio</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "quiz") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">quiz</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "doc") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">doc</a></p>
+<p><% } %></p>
+<p><a href="<%= article.URL %>" class="headline" onClick="<%= article.CLICKTAG %>"><%= article.TITLE %></a></p>
+<p><% if (article.META.COMMENTCOUNT > 0) { %></p>
+<p><span class="metadata commentMeta"><span class="icon"><!-- --></span>(<%= article.META.COMMENTCOUNT %> comments)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "quiz")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> questions)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "photo")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "image")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if (article.META.DURATION != "0") { %></p>
+<p><span class="metadata">(<%= article.META.DURATION %>)</span></p>
+<p><% } %></p>
+<p><div class="clearBoth"><!-- --></div></p>
+<p><% if (article.SYNOPSIS.length > 0) { %></p>
+<p><p></p>
+<p><%= article.SYNOPSIS %></p>
+<p><a href="<%= article.URL %>" onClick="<%= article.CLICKTAG %>" class="more"><%= article.MORELINKNAME %></a></p>
+<p></p></p>
+<p><% } %></p>
+<p></div></p>
+<p></div></p>
+<p></div></p>
+<p><div class="title"><%= TITLE %></div></p>
+<p><div class="bucket01"></p>
+<p><% for (var i=0; i < ARTICLES.length; i++)</p>
+<p>{</p>
+<p>var article = ARTICLES[i];</p>
+<p>%></p>
+<p><div class="article a300i300"></p>
+<p><% if (article.TYPE.toLowerCase() == "image") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "photo") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "video") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">video</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "audio") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">audio</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "quiz") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">quiz</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "doc") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">doc</a></p>
+<p><% } %></p>
+<p><a href="<%= article.URL %>" class="headline" onClick="<%= article.CLICKTAG %>"><%= article.TITLE %></a></p>
+<p><% if (article.META.COMMENTCOUNT > 0) { %></p>
+<p><span class="metadata commentMeta"><span class="icon"><!-- --></span>(<%= article.META.COMMENTCOUNT %> comments)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "quiz")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> questions)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "photo")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "image")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if (article.META.DURATION != "0") { %></p>
+<p><span class="metadata">(<%= article.META.DURATION %>)</span></p>
+<p><% } %></p>
+<p><% if (i == 0 && article.SYNOPSIS.length > 0) { %></p>
+<p><p></p>
+<p><%= article.SYNOPSIS %></p>
+<p><a href="<%= article.URL %>" onClick="<%= article.CLICKTAG %>" class="more"><%= article.MORELINKNAME %></a></p>
+<p></p></p>
+<p><% } %></p>
+<p></div></p>
+<p><% } %></p>
+<p><div class="clearBoth"><!-- --></div></p>
+<p><a href="<%= URL %>" class="bucketFooter" onclick="<%= CLICKTAG %>"><%= MORETEXT %></a></p>
+<p></div></p>
+<p><div class="title"><%= TITLE %></div></p>
+<p><div class="bucket01"></p>
+<p><% for (var i=0; i < ARTICLES.length; i++)</p>
+<p>{</p>
+<p>var article = ARTICLES[i];</p>
+<p>if (i >= 2) break;</p>
+<p>%></p>
+<p><% if (i % 2) { %></p>
+<p><div class="article a140i140 right"></p>
+<p><% } else { %></p>
+<p><div class="article a140i140"></p>
+<p><% } %></p>
+<p><a href="<%= article.URL %>" onClick="<%= article.CLICKTAG %>" class="thumb"></p>
+<p><img src="<%= article.IMAGES['140x70'].URL %>" alt="<%= article.IMAGES['140x70'].CAPTIONALT %>" title="<%= article.IMAGES['140x70'].CAPTION %>" style="width: 140px; height: 70px;" /></p>
+<p><% if (article.TYPE.toLowerCase() == "video") { %></p>
+<p><span class="videoOverlay"><!-- --></span></p>
+<p><% } %></p>
+<p></a></p>
+<p><div class="body"></p>
+<p><% if (article.TYPE.toLowerCase() == "image") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "photo") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "video") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">video</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "audio") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">audio</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "quiz") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">quiz</a></p>
+<p><% } %></p>
+<p><% if (article.TYPE.toLowerCase() == "doc") { %></p>
+<p><a href="<%= article.URL %>" class="typelabel" onClick="<%= article.CLICKTAG %>" alt="<%= article.CAPTIONALT %>" title="<%= article.CAPTION %>">doc</a></p>
+<p><% } %></p>
+<p><a href="<%= article.URL %>" class="headline" onClick="<%= article.CLICKTAG %>"><%= article.TITLE %></a></p>
+<p><% if (article.META.COMMENTCOUNT > 0) { %></p>
+<p><span class="metadata commentMeta"><span class="icon"><!-- --></span>(<%= article.META.COMMENTCOUNT %> comments)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "quiz")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> questions)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "photo")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if ((article.META.ITEMCOUNT > 0) && (article.TYPE.toLowerCase() == "image")) { %></p>
+<p><span class="metadata">(<%= article.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if (article.META.DURATION != "0") { %></p>
+<p><span class="metadata">(<%= article.META.DURATION %>)</span></p>
+<p><% } %></p>
+<p><% if (article.RELATED.length > 0) { %></p>
+<p><div class="clearBoth"><!-- --></div></p>
+<p><ol class="listStyle1 relatedArticles"> </p>
+<p><% for (var j=0; j < article.RELATED.length; j++) {</p>
+<p>var related = article.RELATED[j];</p>
+<p>%></p>
+<p><li></p>
+<p><% if (related.TYPE.toLowerCase() == "image") { %></p>
+<p><a href="<%= related.URL %>" class="typelabel" onClick="<%= related.CLICKTAG %>" alt="<%= related.CAPTIONALT %>" title="<%= related.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (related.TYPE.toLowerCase() == "photo") { %></p>
+<p><a href="<%= related.URL %>" class="typelabel" onClick="<%= related.CLICKTAG %>" alt="<%= related.CAPTIONALT %>" title="<%= related.CAPTION %>">photos</a></p>
+<p><% } %></p>
+<p><% if (related.TYPE.toLowerCase() == "video") { %></p>
+<p><a href="<%= related.URL %>" class="typelabel" onClick="<%= related.CLICKTAG %>" alt="<%= related.CAPTIONALT %>" title="<%= related.CAPTION %>">video</a></p>
+<p><% } %></p>
+<p><% if (related.TYPE.toLowerCase() == "audio") { %></p>
+<p><a href="<%= related.URL %>" class="typelabel" onClick="<%= related.CLICKTAG %>" alt="<%= related.CAPTIONALT %>" title="<%= related.CAPTION %>">audio</a></p>
+<p><% } %></p>
+<p><% if (related.TYPE.toLowerCase() == "quiz") { %></p>
+<p><a href="<%= related.URL %>" class="typelabel" onClick="<%= related.CLICKTAG %>" alt="<%= related.CAPTIONALT %>" title="<%= related.CAPTION %>">quiz</a></p>
+<p><% } %></p>
+<p><% if (related.TYPE.toLowerCase() == "doc") { %></p>
+<p><a href="<%= related.URL %>" class="typelabel" onClick="<%= related.CLICKTAG %>" alt="<%= related.CAPTIONALT %>" title="<%= related.CAPTION %>">doc</a></p>
+<p><% } %></p>
+<p><a href="<%= related.URL %>" onClick="<%= related.CLICKTAG %>"><%= related.TITLE %></a></p>
+<p><% if (related.META.COMMENTCOUNT > 0) { %></p>
+<p><span class="metadata commentMeta"><span class="icon"><!-- --></span>(<%= related.META.COMMENTCOUNT %> comments)</span></p>
+<p><% } %></p>
+<p><% if ((related.META.ITEMCOUNT > 0) && (related.TYPE.toLowerCase() == "quiz")) { %></p>
+<p><span class="metadata">(<%= related.META.ITEMCOUNT %> questions)</span></p>
+<p><% } %></p>
+<p><% if ((related.META.ITEMCOUNT > 0) && (related.TYPE.toLowerCase() == "photo")) { %></p>
+<p><span class="metadata">(<%= related.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if ((related.META.ITEMCOUNT > 0) && (related.TYPE.toLowerCase() == "image")) { %></p>
+<p><span class="metadata">(<%= related.META.ITEMCOUNT %> photos)</span></p>
+<p><% } %></p>
+<p><% if (related.META.DURATION != "0") { %></p>
+<p><span class="metadata">(<%= related.META.DURATION %>)</span></p>
+<p><% } %></p>
+<p></li>					</p>
+<p><% } %></p>
+<p></ol></p>
+<p><% } %></p>
+<p></div></p>
+<p></div></p>
+<p><% } %></p>
+<p><div class="clearBoth"><!-- --></div></p>
+<p><a href="<%= URL %>" class="bucketFooter" onclick="<%= CLICKTAG %>"><%= MORETEXT %></a></p>
+<p></div></p>
+<p><div id="<%= ID %>" class="<%= CLASS %>"><div class="message"><%= MESSAGE %></div></div></p>
+<p>// Initiate our Nav.</p>
+<p>$("#primaryNavContainer").nzhNav();</p>
+<p>$(document).ready(function(){</p>
+<p>$("#nzh-header").newsFlash({</p>
+<p>assetPath	: "http://media.nzherald.co.nz/nzhgfx/themes/0/",</p>
+<p>jsonurl		: "/shareddata/newsbar/newsbar.js"</p>
+<p>});</p>
+<p>});</p>
+<p><!-- </p>
+<p>/* completely clears out omniture variables */</p>
+<p>function clearOmnitureVariables() {</p>
+<p>s.pageName="";</p>
+<p>s.server="";</p>
+<p>s.channel="";</p>
+<p>s.pageType="";</p>
+<p>s.prop1="";</p>
+<p>s.prop2="";</p>
+<p>s.prop3="";</p>
+<p>s.prop4="";</p>
+<p>s.prop5="";</p>
+<p>s.prop6="";</p>
+<p>s.prop7="";</p>
+<p>s.prop8="";</p>
+<p>s.prop9="";</p>
+<p>s.prop10="";</p>
+<p>s.prop11="";</p>
+<p>s.prop12="";</p>
+<p>s.prop13="";</p>
+<p>s.prop14="";</p>
+<p>s.prop15="";</p>
+<p>s.prop16="";</p>
+<p>s.prop19="";</p>
+<p>s.prop20="";</p>
+<p>s.prop21="";</p>
+<p>s.prop22="";</p>
+<p>s.prop23="";</p>
+<p>s.prop24="";</p>
+<p>s.prop27="";</p>
+<p>s.prop28="";</p>
+<p>s.prop29="";</p>
+<p>s.prop30="";</p>
+<p>s.prop31="";</p>
+<p>s.prop32="";</p>
+<p>s.prop33="";</p>
+<p>s.prop36="";</p>
+<p>s.prop37="";</p>
+<p>s.prop38="";</p>
+<p>s.prop39="";			</p>
+<p>s.prop40="";			</p>
+<p>}</p>
+<p>var urlVars = getUrlVars();</p>
+<p>/* Sets omniture variables on page load. </p>
+<p>I put it in a function so I can reset the variables to those on page load anytime */</p>
+<p>function setOmnitureVariables() {</p>
+<p>if (typeof(wloc) == 'undefined') {wloc='none';}</p>
+<p>s.pageName="NZH:article:australianpoisonreportsparkscallfortighterenergydrinkrules:10779122";</p>
+<p>s.server="";</p>
+<p>s.channel="NZH:C-204";</p>
+<p>s.pageType="";</p>
+<p>s.prop1=nzhdata.omniture.dates.getDayType();</p>
+<p>s.prop2="NZH:article";</p>
+<p>s.prop3="";</p>
+<p>s.prop4="NZH:32";</p>
+<p>s.prop5=nzhdata.omniture.dates.getCurrentHour();</p>
+<p>s.prop6="NZH:10779122";</p>
+<p>s.prop7="NZH:australianpoisonreportsparkscallfortighterenergydrinkrules";</p>
+<p>s.prop8="NZH:1";</p>
+<p>s.prop9="";</p>
+<p>s.prop19="NZH:no";</p>
+<p>s.prop20="";</p>
+<p>s.prop21="NZH:article1";</p>
+<p>s.prop22=headlinesData.configName;</p>
+<p>s.prop23="";</p>
+<p>s.prop24="";</p>
+<p>s.prop27="";</p>
+<p>s.prop28="NZH:greg ansley";</p>
+<p>s.prop29="";</p>
+<p>s.prop30=classGroup;</p>
+<p>s.prop16 = "1";</p>
+<p>s.prop31=s.getPreviousValue(s.pageName,'gpv_pn');</p>
+<p>if (s.prop31) {</p>
+<p>s.prop29 = s.getPercentPageViewed();</p>
+<p>}</p>
+<p>s.prop32="NZH:C-2";</p>
+<p>s.prop33="";</p>
+<p>s.prop36 ="";</p>
+<p>s.prop37 ="trainingservices:university";</p>
+<p>s.prop39 ="NZH:" + wloc;</p>
+<p>s.prop40 ="NZH:144";</p>
+<p>if (urlVars['ref'] != undefined) {</p>
+<p>omni_temp = urlVars['ref'];</p>
+<p>omni_temp = omni_temp.replace(/%3Cscript(.*)/ig, "");    </p>
+<p>omni_temp = omni_temp.replace(/[\"\'][\s]*javascript:(.*)[\"\']/ig, "\"\"");</p>
+<p>omni_temp = omni_temp.replace(/eval\((.*)\)/ig, "");</p>
+<p>if (omni_temp !='') {</p>
+<p>s.prop9="NZH:" + omni_temp;</p>
+<p>}</p>
+<p>}</p>
+<p>if($.cookie('cui') && $.cookie('cui') != ''){</p>
+<p>s.prop38 = "NZH:" + $.cookie('cui');</p>
+<p>} else {</p>
+<p>s.prop38 = "";</p>
+<p>} </p>
+<p>if (document.referrer != ''){</p>
+<p>if (document.referrer.search(/dynamic.nzherald.co.nz\/email\/index.cfm/i) != -1){</p>
+<p>s.prop9="NZH:emailfriend";</p>
+<p>} else if (document.referrer.search(/www.nzherald.co.nz\/google\/gadget\/topstories.xml/i) != -1){</p>
+<p>s.prop9="NZH:tsgadget";</p>
+<p>}</p>
+<p>}</p>
+<p>s.prop10="";</p>
+<p>s.prop11="NZH:false";</p>
+<p>s.prop12=nzhdata.omniture.dates.getDayName();</p>
+<p>s.prop13=nzhdata.omniture.dates.getDayQuarter();</p>
+<p>s.prop14="";</p>
+<p>var this_url = document.URL;</p>
+<p>if((this_url == "http://www.nzherald.co.nz/") || (this_url == "http://www.nzherald.co.nz/national/news/headlines.cfm?c_id=1") || (this_url == "http://www.nzherald.co.nz/sport/news/headlines.cfm?c_id=4")){</p>
+<p>s.prop15=document.URL;</p>
+<p>} else {</p>
+<p>s.prop15="";</p>
+<p>}</p>
+<p>/* E-commerce Variables */</p>
+<p>s.campaign="";</p>
+<p>s.state="";</p>
+<p>s.zip="";</p>
+<p>s.events="event17";</p>
+<p>s.products=";;;;event17=2";</p>
+<p>s.purchaseID="";</p>
+<p>s.eVar1="";</p>
+<p>s.eVar2="";</p>
+<p>s.eVar3="";</p>
+<p>s.eVar4="";</p>
+<p>s.eVar5="";</p>
+<p>s.eVar9="+2";</p>
+<p>s.eVar10="+2";</p>
+<p>}</p>
+<p>setOmnitureVariables();</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code)</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)</p>
+<p>document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>function omniture_share(obj,tag,fire) {</p>
+<p>// Get ominiture variables</p>
+<p>var s				= s_gi(s_account);</p>
+<p>var type 			= "Share";</p>
+<p>var value 			= 3;</p>
+<p>// Catch Add Comment</p>
+<p>if (tag == "Add Comment"){</p>
+<p>type 			= "Comment";</p>
+<p>tag 			= "Add";</p>
+<p>value 			= 4;</p>
+<p>}</p>
+<p>// Catch Like Comment</p>
+<p>if (tag == "Like Comment"){</p>
+<p>type 			= "Comment";</p>
+<p>tag 			= "Like";</p>
+<p>value 			= 2;</p>
+<p>}</p>
+<p>// Catch Share buttons</p>
+<p>if ((tag == "Twitter")||(tag == "Facebook")||(tag == "Google")){</p>
+<p>s.prop23		= "NZH:" + tag.toLowerCase();</p>
+<p>}</p>
+<p>//setOmnitureVariables();</p>
+<p>// Variables to pass on click</p>
+<p>s.linkTrackVars		= 'eVar9,eVar10,events,products,prop23';</p>
+<p>s.linkTrackEvents	= 'event17';</p>
+<p>// User Scoring</p>
+<p>s.eVar9 	 		= "+" + value;</p>
+<p>s.eVar10  			= "+" + value;</p>
+<p>s.events			= "event17";</p>
+<p>s.products			= ";;;;event17=" + value;</p>
+<p>// Submit this call</p>
+<p>if (fire == true) {</p>
+<p>s.tl(this, 'o', type + ' - ' + tag);</p>
+<p>}</p>
+<p>}</p>
+<p>// This value indicates where our email panel is. True at the top, false at the bottom.</p>
+<p>var emailPanelTop = true;</p>
+<p>var emailJSLoaded = false;</p>
+<p>var thisPageEmailURL 	= thisDynamicDomain + '/email/email-ajax.cfm?objectID=10779122&c_id=204&callback=?';</p>
+<p>function initEmail() {</p>
+<p>initEmailForm();						</p>
+<p>}</p>
+<p>function toggleEmailContainer(atTop) {</p>
+<p>// check if we need to load the email html...</p>
+<p>if (!emailJSLoaded) {</p>
+<p>emailPanelTop = atTop;						    </p>
+<p>$.jsonp({url:thisPageEmailURL, cache:true, success: function(data) {</p>
+<p>if (emailPanelTop == false) {</p>
+<p>var clonedDom = $("#emailContainer").clone(false); // Clone the email container</p>
+<p>$("#emailContainer").remove(); // Now remove it from the DOM.			</p>
+<p>$("#emailWrapper2").after(clonedDom); // Place it.</p>
+<p>}</p>
+<p>$("#emailContainer").html(data.HTML);</p>
+<p>$.getScript(thisDynamicDomain + '/email/email-ajax.js',initEmail,true);	        </p>
+<p>}});				    	    </p>
+<p>} else toggleEmailContainer_full(atTop);</p>
+<p>}</p>
+<p> Health</p>
+<p>Next Article: Long wait for seniors' premium review</p>
+<p>Australian poison report sparks call for tighter energy drink rules</p>
+<p>By Greg Ansley</p>
+<p>5:30 AM Tuesday Jan 17, 2012</p>
+<p>Tweet</p>
+<p>window.___gcfg = {lang: 'en-GB'};</p>
+<p>(function() {</p>
+<p>var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>})();</p>
+<p>Email</p>
+<p>Print</p>
+<p>Expand</p>
+<p>Nearly 300 calls relating to energy drinks were made to the NSW Poisons Information Centre. Photo / Thinkstock</p>
+<p>$("#articleImage").nzhStoryImage({</p>
+<p>smlImageSrc			: "http://media.nzherald.co.nz/webcontent/image/jpg/20123/123066675_220x147.jpg",</p>
+<p>smlImageCaption		: "Nearly 300 calls relating to energy drinks were made to the NSW Poisons Information Centre. Photo / Thinkstock",</p>
+<p>bigImageSrc			: "http://media.nzherald.co.nz/webcontent/image/jpg/20123/123066675_460x230.jpg",</p>
+<p>bigImageCaption		: "Nearly 300 calls relating to energy drinks were made to the NSW Poisons Information Centre. Photo / Thinkstock"</p>
+<p>});</p>
+<p>A sharp rise in emergency calls related to energy drinks with a high caffeine content has prompted a call for tighter regulation and compulsory health warnings.</p>
+<p>The call, rejected by the energy drink industry, came after research by the University of Sydney and the New South Wales Poisons Information Centre found an increase in symptoms including cardiac arrhythmias, tremors, dizziness, hallucinations and stomach problems.</p>
+<p>Published in the Medical Journal of Australia, the research also warned of even greater problems emerging with the "dangerous phenomenon" of mixing energy drinks with alcohol.</p>
+<p>The Legislative and Governance Forum on Food Regulation, which includes Australian and New Zealand health ministers, has already agreed to a review of caffeinated energy drinks.</p>
+<p>If the review reflects researchers' concerns the transtasman regulatory body Food Standards Australia New Zealand could be told to consider new regulations.</p>
+<p>aimRenderAd(300, 250, 'RECTANGLE','ContentRect','/SR=1/POS=2');;</p>
+<p>if(!$.browser.msie){</p>
+<p>ContentRect_frame = $("#ContentRect")[0];</p>
+<p>ContentRect_frame.src = ContentRect_frame.src;</p>
+<p>}</p>
+<p>The Forum is also waiting for a report from the federal intergovernmental committee on drugs on proposals to counter the mix of energy drinks and alcohol.</p>
+<p>The new research said that in the seven years to the end of 2010 almost 300 calls relating to energy drinks were made to the NSW Poisons Information Centre, which handles half the nation's poison calls.</p>
+<p>Emergency services were sent to almost 130 callers, 20 of whom showed signs of serious cardiac or neurological toxicity.</p>
+<p>Last year 65 people called the centre after consuming energy drinks, compared with 12 in 2004, the first year of the study.</p>
+<p>About one quarter of energy drink-related calls over the seven years involved alcohol mixtures, and 30 per cent included the use of added stimulants such as amphetamines or caffeine tablets.</p>
+<p>The median age of callers was 17.</p>
+<p>The study also said 62 children under the age of 10 had accidentally consumed energy drinks - and nine were admitted to hospital.</p>
+<p>The report's authors, Poisons Centre medical director Naren Gunja and poisons specialist Jared Brown, said that health authorities needed to improve public education on the risks of energy drinks.</p>
+<p>They said that with clear evidence of toxicity and increasing hospitalisations warning labels should be introduced.</p>
+<p>But the Australian Beverages Council said Australian energy drinks were already the world's most heavily regulated and that consumers had adequate information through existing labels informing of caffeine content.</p>
+<p>The council said energy drinks contained about the same amount of caffeine as a normal cup of coffee.</p>
+<p>By Greg Ansley 	</p>
+<p>| Email Greg</p>
+<p>Related Tags</p>
+<p>World</p>
+<p>Be part of the news. Send pics, video and tips to nzherald.</p>
+<p>Send</p>
+<p>Find Training Services in your area</p>
+<p> </p>
+<p> </p>
+<p>function YellowSearchPage()</p>
+<p>{</p>
+<p>var what = jQuery.trim(document.getElementById('keywordwhat').value).replace(/ /gi,"+");</p>
+<p>var what = escape(what);</p>
+<p>var where = escape(jQuery.trim(document.getElementById('keywordwhere').value));</p>
+<p>if (where == "Where")</p>
+<p>{</p>
+<p>where="";</p>
+<p>}</p>
+<p>if (what == "" && where == "") {	</p>
+<p>window.open('http://yellow.co.nz/index.jsp?utm_source=nzherald.co.nz&utm_medium=searchwidget','open_window','menubar, toolbar, location, directories, status, scrollbars, resizable, dependent, width=960, height=800, left=0, top=0, _newtab');		</p>
+<p>} </p>
+<p>else {</p>
+<p>window.open('http://yellow.co.nz/search.ds?what='+what +'&where='+where+'&newSearch=true&utm_source=nzherald.co.nz&utm_medium=searchwidget','open_window','menubar, toolbar, location, directories, status, scrollbars, resizable, dependent, width=960, height=800, left=0, top=0, _newtab');</p>
+<p>}</p>
+<p>}</p>
+<p>//clears default value of 'Where' field</p>
+<p>$("#keywordwhere").inputDefault({</p>
+<p>defaultText		: " Where "</p>
+<p>});</p>
+<p>aimRenderJServerAd('relevantoffer',keyword,'','RelevantOffer');							</p>
+<p>Tweet</p>
+<p>window.___gcfg = {lang: 'en-GB'};</p>
+<p>(function() {</p>
+<p>var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>})();</p>
+<p>IM This</p>
+<p>Share</p>
+<p>Email</p>
+<p>Print</p>
+<p>Post this story to:</p>
+<p>What are these?</p>
+<p>|</p>
+<p>Close</p>
+<p>Myspace</p>
+<p>Bebo</p>
+<p>Digg</p>
+<p>Delicious</p>
+<p>Reddit</p>
+<p>StumbleUpon</p>
+<p>function toggleShareContainer() {</p>
+<p>if(($("#emailContainer").is(":visible")) && (!emailPanelTop)) { $("#emailContainer").slideToggle("fast"); }</p>
+<p>$("#shareContainer").slideToggle("slow");</p>
+<p>}</p>
+<p>/*</p>
+<p>function fbs_click() {	// facebook</p>
+<p>var url 	='http://www.nzherald.co.nz/health/news/article.cfm?c_id=204&objectid=10779122&ref=facebook';</p>
+<p>var title 	='Australian%20poison%20report%20sparks%20call%20for%20tighter%20energy%20drink%20rules';</p>
+<p>window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(url)+'&t='+encodeURIComponent(title),'sharer','toolbar=0,status=0,width=626,height=436');</p>
+<p>return false;</p>
+<p>}</p>
+<p>*/</p>
+<p>function bebo_click() {	// bebo</p>
+<p>var url		= 'http://www.nzherald.co.nz/health/news/article.cfm?c_id=204&objectid=10779122&ref=bebo';</p>
+<p>var title	= 'Australian%20poison%20report%20sparks%20call%20for%20tighter%20energy%20drink%20rules';</p>
+<p>window.open('http://www.bebo.com/c/share?Url='+encodeURIComponent(url)+'&Title='+title,'sharer','toolbar=0,status=0,width=626,height=436');</p>
+<p>return false; </p>
+<p>}</p>
+<p>function ImThis(ImThisUrl) {</p>
+<p>try {</p>
+<p>//SaveCookie('imthis_page', ImThisUrl, 1);//cookie will expire in 1 day</p>
+<p>var obj = new ActiveXObject("MSNMessenger.P4QuickLaunch");</p>
+<p>} catch(e) {</p>
+<p>obj=null;</p>
+<p>}</p>
+<p>if (obj!=null) {</p>
+<p>SaveCookie('imthis_page', ImThisUrl, 1);//cookie will expire in 1 day</p>
+<p>obj.LaunchApp('99995952', '');//nzh appid</p>
+<p>//obj.LaunchApp('99995227', '');</p>
+<p>} else {</p>
+<p>alert('Your browser and/or Messenger version does not support messenger activities.\r\nYou need to have IE 5 or later and MSN messenger 6.2 or later version to proceed.');</p>
+<p>}</p>
+<p>}	</p>
+<p>//$(".facebookLink").click(function(){ fbs_click(); });	</p>
+<p>Health</p>
+<p>Next Article: Long wait for seniors' premium review</p>
+<p>Special Offers</p>
+<p>National, international and travel. Get the latest from Air NZ. More deals every day</p>
+<p>5n SAMOA fm $999pp + Breakfast</p>
+<p>5n RARO fm $999pp + Car Hire</p>
+<p>7n FIJI fm $1199pp + Credit</p>
+<p>Make a new year’s resolution to help you protect you and your family with Public Trust, now</p>
+<p>1st Day FREE on 5+ day car rentals</p>
+<p>2 FREE days on 10+ day car rental</p>
+<p>Virgin Australia. Taking you to more destinations than ever before.</p>
+<p>Healthy mind, healthy body. Stay up to date with tips & tricks, and the latest healthy living news.</p>
+<p>More on nzherald.co.nz</p>
+<p>World</p>
+<p>Experts worried by volcanic tremors</p>
+<p>World</p>
+<p>Lawsuit to free US orca</p>
+<p>World</p>
+<p>Lawyers get tablet computers</p>
+<p>World</p>
+<p>Ousted Iranian diplomats welcomed as heroes</p>
+<p>var numRendered = 4;</p>
+<p>if(numRendered == 0 ){$('.moreNzh').remove();}</p>
+<p>function showReferredPanel(){</p>
+<p>$.get("/modules/interestedin-2.cfm?c_id=204&objectid=10779122&referred=yes" + sSearchStr, function(data)</p>
+<p>{</p>
+<p>$('#headlines-set1').hide();</p>
+<p>$('#ajax-module-interestedin-referred').html(data).show();</p>
+<p>});</p>
+<p>}</p>
+<p>Health headlines</p>
+<p>More Health headlines</p>
+<p>if(sSearchStr.length){</p>
+<p>showReferredPanel();</p>
+<p>}else{</p>
+<p>var checkset1 = setInterval(function(){checkTimer(checkset1,1,'articlehl1');}, defaultInterval);</p>
+<p>}</p>
+<p>aimRenderAd(300, 250, 'RECTANGLE','HeadlineRect','/SR=0/POS=1');;</p>
+<p>if(!$.browser.msie){</p>
+<p>HeadlineRect_frame = $("#HeadlineRect")[0];</p>
+<p>HeadlineRect_frame.src = HeadlineRect_frame.src;</p>
+<p>}</p>
+<p>Top Stories</p>
+<p>More Top Stories</p>
+<p>var checkset2 = setInterval(function(){checkTimer(checkset2,2,'articlehl2');}, defaultInterval);</p>
+<p>aimRenderAd(300, 250, 'RECTANGLE','DirectRect','/SR=0/POS=3');;</p>
+<p>if(!$.browser.msie){</p>
+<p>DirectRect_frame = $("#DirectRect")[0];</p>
+<p>DirectRect_frame.src = DirectRect_frame.src;</p>
+<p>}</p>
+<p>World headlines</p>
+<p>More World headlines</p>
+<p>var checkset3 = setInterval(function(){checkTimer(checkset3,3,'articlehl3');}, defaultInterval);</p>
+<p>Weather</p>
+<p>Detailed forecast</p>
+<p>Weather news</p>
+<p>$(function(){</p>
+<p>$("#weatherboxContainer-articlepage").weatherBox();</p>
+<p>});</p>
+<p> </p>
+<p>Most Popular</p>
+<p>Community</p>
+<p>Top Stories »</p>
+<p>1High rise brothel comes step closer</p>
+<p>2Philanthropist to pay for 'Blanket Man' funeral</p>
+<p>3Tragedy ends the dreams for Gremz</p>
+<p>Top Photos »</p>
+<p>1Golden Globes' best and worst dressed</p>
+<p>2Red carpet at the Golden Globes</p>
+<p>32012 Golden Globe Awards</p>
+<p>Top Videos »</p>
+<p>1Shocking discovery, tunnel under prison</p>
+<p>2'Crew acted too late' - cruise ship survivors</p>
+<p>3More dead aboard cruise ship</p>
+<p>Most Commented »</p>
+<p>1Matt McCarten: It's time to step up, Mr Mayor</p>
+<p>2Damien Grant: Slums to replace decent housing</p>
+<p>3Editorial: Don't blame burger sponsors for fat kids</p>
+<p>Ways to get the latest news</p>
+<p>The New Zealand Herald</p>
+<p>Email Updates Sign up now »</p>
+<p>Mobile Learn more »</p>
+<p>YouTube Watch Now »</p>
+<p>Paper Delivery Subscribe today »</p>
+<p>RSS Feeds View the list »</p>
+<p>Twitter Read our tweets »</p>
+<p>Widgets Learn more »</p>
+<p>e-EDITION View online »</p>
+<p>$(document).ready(function()</p>
+<p>{</p>
+<p>// Add an onclick function to the links in the footer to manage the tabs</p>
+<p>// In some cases these are just regular links and not tabs...</p>
+<p>$('ul#footerTabs li a').click(function() {</p>
+<p>if($(this).parent().hasClass('ui-tabs-selected')){//close the current tab if it is clicked again</p>
+<p>$('div.footerTabsExpanded').hide();</p>
+<p>$('ul#footerTabs li.ui-tabs-selected').removeClass('ui-tabs-selected');</p>
+<p>}else{</p>
+<p>var url = $(this).attr('href');					</p>
+<p>if(url.substr(0,4)=='http') { location.href = url; return false; }										</p>
+<p>$('div.footerTabsExpanded').hide();					</p>
+<p>$('div' + url).show();					</p>
+<p>$('ul#footerTabs li.ui-tabs-selected').removeClass('ui-tabs-selected');</p>
+<p>$(this).parent().addClass('ui-tabs-selected');</p>
+<p>$(this).blur();					</p>
+<p>return false;</p>
+<p>}</p>
+<p>});				</p>
+<p>});</p>
+<p>Contact the site</p>
+<p>Contact the paper</p>
+<p>Advertising</p>
+<p>Photo sales</p>
+<p>Subscriptions</p>
+<p>Promotions</p>
+<p>Sponsorships</p>
+<p>About Us</p>
+<p>Our Publications</p>
+<p>Help and Tech support</p>
+<p>Your questions answered & how to report a technical issue More</p>
+<p>Feedback</p>
+<p>How to contact someone at nzherald.co.nz More</p>
+<p>Send us stuff</p>
+<p>Send us your news tips, photo, video. More</p>
+<p>Contact online newsroom</p>
+<p>News & feedback for the online editorial team More</p>
+<p>Help</p>
+<p>For information about the newspaper More</p>
+<p>Subscription and Delivery</p>
+<p>How to subscribe to the newspaper or raise a delivery matter More</p>
+<p>Contact news staff</p>
+<p>How to contact the editorial department More</p>
+<p>Reader Panel</p>
+<p>Join our reader panel More</p>
+<p>Advertise with APN</p>
+<p>Find your best advertising solution More</p>
+<p>Print advertising</p>
+<p>Go here for Print advertising More</p>
+<p>Online</p>
+<p>Go here for online advertising More</p>
+<p>Classified advertising</p>
+<p>Go here for classified advertising More</p>
+<p>Jobs</p>
+<p>Cars</p>
+<p>Classifieds</p>
+<p>sella</p>
+<p>Radio</p>
+<p>Eventfinder</p>
+<p>Other</p>
+<p>Privacy Policy</p>
+<p>Terms of Use</p>
+<p>Group Sites</p>
+<p>View on our smartphone site or lite site</p>
+<p>© Copyright 2012, APN Holdings NZ Limited</p>
+<p>/* <![CDATA[ */</p>
+<p>var _rsCI="nz-apn";</p>
+<p>var _rsCG="nzherald";</p>
+<p>var _rsDN="//secure-nz.imrworldwide.com/";</p>
+<p>var _rsCC=0;</p>
+<p>var _rsSE=1;</p>
+<p>var _rsSM=0.2;</p>
+<p>/* ]]> */</p>
+<p>				Assembled by: (static) on akl_n4 at 18 Jan 2012 01:31:03 </p>
+<p>				Processing Time: 67ms </p>

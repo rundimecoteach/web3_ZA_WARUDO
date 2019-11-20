@@ -1,0 +1,1462 @@
+<p>	JANRAIN.SSO.CAPTURE.check_login({</p>
+<p>		sso_server: 'https://sso.canada.com',</p>
+<p>		client_id: '33st4j3kp8ttb9ve2nhxtkbe8zjj2bwd',</p>
+<p>		redirect_uri: 'http://'+window.location.hostname+'/scripts/sso/postlogin.ashx',</p>
+<p>		logout_uri: 'http://'+window.location.hostname+'/scripts/sso/logout.ashx?type=providers',</p>
+<p>		xd_receiver: 'http://'+window.location.hostname+'/xdcomm.html'</p>
+<p>	});</p>
+<p>	CDMScriptManager.load('/js/jquery-1.2.6.min.js');</p>
+<p>	CDMScriptManager.load('/js/slider.js');</p>
+<p>     CDMScriptManager.load('/js/pluck/pluckLocal.js');</p>
+<p>     CDMScriptManager.load(pluckScriptUrl);</p>
+<p>     CDMScriptManager.load('/js/pluck/pluck.js');</p>
+<p>		.pluck-comm .pluck-user-persona {</p>
+<p>			display: block !important;</p>
+<p>		}</p>
+<p>	</p>
+<p>Norovirus outbreak detains students in Victoria</p>
+<p>{</p>
+<p>	'zone':"3Pbwspv49EHK28sRubzbsX",</p>
+<p>	'mode':"meter",</p>
+<p>	'customPreCheck': "preCheckVictoriatimes100640",</p>
+<p>        'border': "2g02SYzmoeulkGRICvr2JR",</p>
+<p>	'debug':0</p>
+<p>}</p>
+<p>function preCheckVictoriatimes100640($)</p>
+<p>{</p>
+<p>    if (navigator.userAgent && ( navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("PlayBook") != -1 ))</p>
+<p>    {</p>
+<p>        return 0;</p>
+<p>    }</p>
+<p>    var metamatch = document.getElementsByTagName("meta");</p>
+<p>    for (var i=0; i < metamatch.length; i++) {</p>
+<p>    if (metamatch[i].name == "keywords") {</p>
+<p>    if (metamatch[i].content.match(/breaking/)) </p>
+<p>      {</p>
+<p>       return 0;</p>
+<p>      }</p>
+<p>    }</p>
+<p>    }</p>
+<p>    loc = window.location + '';</p>
+<p>    if (loc.match(/\/(cars|jobs|homes)\/.+/i))</p>
+<p>    {</p>
+<p>        return 0;</p>
+<p>    }</p>
+<p>    else if (loc.match(/(story.html).*/i))</p>
+<p>    {</p>
+<p>         return 1;</p>
+<p>    }</p>
+<p>    </p>
+<p>    return 0;</p>
+<p>}</p>
+<p>#leaderboard { text-align:right }</p>
+<p>#leaderboard .ad { text-align:right }</p>
+<p>                        function getCookies() { return ""; }</p>
+<p>                        </p>
+<p>                        Array.prototype.uniqueAry = function ()</p>
+<p>                        {</p>
+<p>                            var r = new Array();</p>
+<p>                            o:for(var i = 0, n = this.length; i < n; i++)</p>
+<p>                            {</p>
+<p>                                for(var x = 0, y = r.length; x < y; x++)</p>
+<p>                                {</p>
+<p>                                    if(r[x]==this[i])</p>
+<p>                                    {</p>
+<p>                                        continue o;</p>
+<p>                                    }</p>
+<p>                                }</p>
+<p>                                r[r.length] = this[i];</p>
+<p>                            }</p>
+<p>                            return r;</p>
+<p>                        }</p>
+<p>                        function getCookie(cookieName)</p>
+<p>                        {</p>
+<p>                            var dc = document.cookie;</p>
+<p>                            //load external cookies from .canada.com if not currently on .canada.com</p>
+<p>                            if (location.hostname.match(/\.canada\.com$/gi) == null)</p>
+<p>                                dc += ";" + getCookies(); //append to existing document cookie</p>
+<p>                            var cookie_str = ""; //this string will contain the value of the cookie name</p>
+<p>                            var needle = "[A-Za-z0-9_-]*" + cookieName + "[A-Za-z0-9_-]*=[^;]+";</p>
+<p>                            var regex = new RegExp(needle, "gi");</p>
+<p>                            var matches = dc.match(regex);</p>
+<p>                            if (matches != null)</p>
+<p>                            {</p>
+<p>                                for (var x = 0; x < matches.length; x++)</p>
+<p>                                    matches[x] = matches[x].substring(matches[x].indexOf("=")+1).replace(new RegExp("[\\s]+$", "g"), ""); //remove keyname prefix and trim</p>
+<p>                                cookie_str = matches.join(",");</p>
+<p>                                matches = cookie_str.split(",");</p>
+<p>                                matches = matches.uniqueAry(); //remove duplicates</p>
+<p>                                cookie_str = matches.join(";") + ";";</p>
+<p>                            }</p>
+<p>                            return unescape(cookie_str);</p>
+<p>                        }</p>
+<p>                        function getAdCookie()</p>
+<p>                        {</p>
+<p>                            return getCookie("adcookie");</p>
+<p>                        }</p>
+<p>                        function setSurroundCookie(value)</p>
+<p>                        {</p>
+<p>                            document.cookie = "surroundId=" + escape(value) + "; path=/";</p>
+<p>                        }</p>
+<p>                        function getSurroundCookie()</p>
+<p>                        {</p>
+<p>                            var dc = document.cookie;</p>
+<p>                            var prefix = "surroundId=";</p>
+<p>                            var begin = dc.indexOf("; " + prefix);</p>
+<p>                            if (begin == -1)</p>
+<p>                            {</p>
+<p>                                begin = dc.indexOf(prefix);</p>
+<p>                                if (begin != 0) return null;</p>
+<p>                            }</p>
+<p>                            else</p>
+<p>                            {</p>
+<p>                                begin += 2;</p>
+<p>                            }</p>
+<p>                            var end = document.cookie.indexOf(";", begin);</p>
+<p>                            if (end == -1) end = dc.length;</p>
+<p>                            return unescape(dc.substring(begin + prefix.length, end));</p>
+<p>                        }</p>
+<p>                        // Setup for surround session.</p>
+<p>                        var adid = ""; // used in the ad to start a surround session</p>
+<p>                        var surroundTag = getSurroundCookie(); // Get surround session id from the cookie</p>
+<p>                        if(surroundTag == null) // check if there was a surround session id in the cookie</p>
+<p>                        {</p>
+<p>                            surroundTag = "";</p>
+<p>                        }</p>
+<p>                        else</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+surroundTag+";"; // finish setting up the key-value for the ad tags</p>
+<p>                        }</p>
+<p>                        //Setup for adcookie.</p>
+<p>                        var adcookieTag = getAdCookie(); // Get the ad cookie string</p>
+<p>                        </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/vtc_bh.com/health/story;loc=theTop;loc=top;sz=468x60,728x90;dcopt=ist;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=46377615?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/vtc_bh.com/health/story;loc=theTop;loc=top;sz=468x60,728x90;dcopt=ist;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=46377615?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p>Â Â Weather CentreÂ Â Â -1°CÂ Partly cloudyVictoriaDetailed ForecastÂ </p>
+<p>Start Home Delivery</p>
+<p>Subscriber Services</p>
+<p>Digital Edition</p>
+<p>Email Alerts</p>
+<p>Mobile Products</p>
+<p>canada.com network</p>
+<p>Newspapers</p>
+<p> </p>
+<p> </p>
+<p>National Post</p>
+<p>Victoria Times Colonist</p>
+<p>The Province (Vancouver)</p>
+<p>Vancouver Sun</p>
+<p>Edmonton Journal</p>
+<p>Calgary Herald</p>
+<p>Regina Leader-Post</p>
+<p>Saskatoon StarPhoenix</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Windsor Star</p>
+<p>Ottawa Citizen</p>
+<p>The Gazette (Montreal)</p>
+<p>DOSE</p>
+<p>Postmedia Community Publishing</p>
+<p>Nanaimo Daily News</p>
+<p> </p>
+<p>	function handlePostLogin() {</p>
+<p>		// change the login status bar to reflect a logged in state</p>
+<p>		jQuery.getScript("http://"+window.location.hostname+"/scripts/sso/user.ashx?format=json&callback=renderLoginStatusBar");</p>
+<p>		if((window.location+"").indexOf("/members/account-verified.html") > -1 || (window.location+"").indexOf("/members/cancel-deletion.html") > -1 || (window.location+"").indexOf("/members/reset-password-complete.html") > -1) window.location="/index.html";</p>
+<p>		else window.location.reload();</p>
+<p>	}</p>
+<p>	function handlePostLogout() {</p>
+<p>		// change the login status bar to reflect a logged out state</p>
+<p>		jQuery.getScript("http://"+window.location.hostname+"/scripts/sso/user.ashx?format=json&callback=renderLoginStatusBar");</p>
+<p>		</p>
+<p>		if((window.location+"").indexOf("edit-profile.html") > -1) window.location="/index.html";</p>
+<p>		else window.location.reload();</p>
+<p>	}</p>
+<p>	function dologout() {</p>
+<p>		// create the hidden logout iframe</p>
+<p>		var src = 'http://'+window.location.hostname+'/scripts/sso/logout.ashx?iframe=true';</p>
+<p>		jQuery('<iframe id="iframe_logout" style="visibility:hidden;display:none" frameborder="0" hspace="0" scrolling="no" src="' + src + '"></iframe>').appendTo('body');</p>
+<p>	}</p>
+<p>	function renderLoginStatusBar(user) {</p>
+<p>		var user = user.User;</p>
+<p>		var statusBarHtml = "";</p>
+<p>		if (user.IsLoggedIn) {</p>
+<p>			statusBarHtml += "<ul>";</p>
+<p>			statusBarHtml += "	<li>Hi " + user.DisplayName + "</li>";</p>
+<p>			statusBarHtml += " " + profileLink;</p>
+<p>			statusBarHtml += "	<li><a href=\"javascript:dologout();\">Sign Out</a></li>";</p>
+<p>			statusBarHtml += "</ul>";</p>
+<p>		}</p>
+<p>		else {</p>
+<p>			statusBarHtml += "<ul>";</p>
+<p>			statusBarHtml += "	<li><a href=\"javascript:light.mask(jQuery('body'),light.getHtml('user_reg_internal_1t'));\">Log in</a></li>";</p>
+<p>			statusBarHtml += "	<li><a href=\"javascript:light.mask(jQuery('body'),light.getHtml('user_reg_internal_1t'));\">Register</a></li>";</p>
+<p>			statusBarHtml += "</ul>";</p>
+<p>		}</p>
+<p>		document.getElementById("loginstatusbarchild").innerHTML = statusBarHtml;</p>
+<p>	}</p>
+<p>jQuery.getScript("http://"+window.location.hostname+"/scripts/sso/user.ashx?format=json&callback=renderLoginStatusBar");</p>
+<p> </p>
+<p>Victoria Times Colonist</p>
+<p> </p>
+<p>Division of Canwest Publishing Inc. </p>
+<p> </p>
+<p>Â Â Weather CentreÂ Â Â -1°CÂ Partly cloudyVictoriaDetailed ForecastÂ </p>
+<p>Quick Links: Shopping, Obituaries, Horoscopes</p>
+<p> </p>
+<p>Search</p>
+<p> </p>
+<p>YellowPages</p>
+<p>Find a business or person on: </p>
+<p>			CDMScriptManager.load("http://www.timescolonist.com/js/autocomplete/jquery.autocomplete.min.js");</p>
+<p>		</p>
+<p>			function doSearch() {</p>
+<p>				var q = document.getElementById("q").value.replace(/[^0-9a-zA-Z\s*]/g,"");</p>
+<p>				q = q.replace(/ /g,"+");</p>
+<p>				if (q.length == 0) {</p>
+<p>					alert("Please enter your search criteria");</p>
+<p>					return;</p>
+<p>				}</p>
+<p>				var dname = document.domain; </p>
+<p>				if ( dname=="driving.ca") {</p>
+<p>					document.location.href="http://www.driving.ca/victoria/search/search.html?q=" + escape(q);</p>
+<p>					}</p>
+<p>				else {</p>
+<p>					document.location.href="http://www.timescolonist.com/search/search.html?q=" + escape(q);</p>
+<p>				}</p>
+<p>			}</p>
+<p>			//FAST WAVE 1</p>
+<p>			//add javascript to hook up search text box in header</p>
+<p>			//set up autocomplete on search box in header			</p>
+<p>			jQuery(document).ready(function() {</p>
+<p>				jQuery("#q").autocomplete("http://app.canada.com/search/search.svc/autocomplete", {</p>
+<p>					dataType: 'jsonp',</p>
+<p>					parse: function(data) {</p>
+<p>						var rows = new Array();</p>
+<p>						data = data.Terms;</p>
+<p>						for(var i=0; i<data.length; i++){</p>
+<p>							rows[i] = { data:{Term:data[i]}, value:data[i], result:data[i] };</p>
+<p>						}</p>
+<p>						return rows;</p>
+<p>					},</p>
+<p>					resultsClass: "fast_wave_results",</p>
+<p>					formatItem: function(row, i, n) {</p>
+<p>						return  row.Term;</p>
+<p>					},</p>
+<p>					cacheLength: 0,</p>
+<p>					extraParams: {</p>
+<p>						format: "json"</p>
+<p>					},</p>
+<p>					minChars: 1,</p>
+<p>					max: 10,</p>
+<p>					highlight: function(value, term) {</p>
+<p>						var pos = value.toLowerCase().indexOf(term.toLowerCase());</p>
+<p>						return (pos > 0)?"<b>" + value.substring(0,pos) + "</b>" + value.substring(pos, term.length) + "<b>" + value.substring(pos + term.length) + "</b>":value.substring(0, term.length) + "<b>" + value.substring(pos + term.length) + "</b>";</p>
+<p>					},</p>
+<p>					scroll: false,</p>
+<p>					selectFirst: false</p>
+<p>				}); </p>
+<p>			});</p>
+<p>		</p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>In News</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Local</p>
+<p>National</p>
+<p>World</p>
+<p>B.C. Politics</p>
+<p>Weather</p>
+<p>Today's Paper</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Health-care funding plan must change, premiers say</p>
+<p>Â </p>
+<p>Â </p>
+<p>Canada's premiers united in Victoria Monday to demand that the federal government reopen its "unprecedented and unacceptable" decisions over health-care funding, even as the prime minister tried to shut...</p>
+<p>Â </p>
+<p>Les Leyne: Premiers want a say in health money</p>
+<p>Drug prescription costs hit B.C. hardest: study</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>News</p>
+<p>Â </p>
+<p>Greater Victoria wakes to overnight snowfall</p>
+<p>WestJet short-haul proposal could benefit Victoria: Airport CEO</p>
+<p>The Latest</p>
+<p> </p>
+<p>Weather</p>
+<p>Digital Edition</p>
+<p> </p>
+<p>More in News</p>
+<p> </p>
+<p> </p>
+<p>Opinion</p>
+<p>In Opinion</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Blogs</p>
+<p>Reader Comments</p>
+<p>Letters</p>
+<p>Columnists</p>
+<p>Editorials</p>
+<p>Op–Ed</p>
+<p>Editorial Cartoon</p>
+<p>Editorials</p>
+<p> </p>
+<p>Â </p>
+<p>Waist challenge for all Canada</p>
+<p>Â </p>
+<p>As the premiers met in Victoria Monday to discuss the future of health care in Canada, a political heavyweight in Ontario took the national limelight by getting right to the point: Better health starts...</p>
+<p>Â </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Comment</p>
+<p>Â </p>
+<p>Health meeting needs Harper</p>
+<p>Thumbs up/ Thumbs down</p>
+<p>The worst Republican field ever? Think again</p>
+<p>A good deal for both sides</p>
+<p>Comment</p>
+<p> </p>
+<p>Comment</p>
+<p>Â </p>
+<p>Frank discussion is needed</p>
+<p>What premiers could do for health care</p>
+<p>Working trumps retirement any old day</p>
+<p>Getting the salt out</p>
+<p> </p>
+<p>More in Opinion</p>
+<p> </p>
+<p> </p>
+<p>Business</p>
+<p>In Business</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Energy</p>
+<p>Money</p>
+<p>Markets on FP</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>A fresh start for just about anything at do-it-yourself sandblasting...</p>
+<p>Â </p>
+<p>Â </p>
+<p>Furniture, toys, car parts blasted back to basics</p>
+<p>Â </p>
+<p>Gallery: Do-it-yourself sandblasting in Victoria</p>
+<p>Video: Do-it-yourself sandblasting</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Business</p>
+<p>Â </p>
+<p>Viking union delivers strike notice</p>
+<p>Victoria baker feels pinch as Starbucks drops snack</p>
+<p>Business Wire</p>
+<p> </p>
+<p>Â </p>
+<p>Allied Nevada Gold Selects Mincomâs Next-Generation...</p>
+<p>Intransa Strengthens Executive Team with Bill Roeschlein...</p>
+<p> </p>
+<p>More in Business</p>
+<p> </p>
+<p> </p>
+<p>Sports</p>
+<p>In Sports</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Hockey</p>
+<p>Football</p>
+<p>Baseball</p>
+<p>Basketball</p>
+<p>Golf</p>
+<p>Auto Racing</p>
+<p>Winter Sports</p>
+<p>Tennis</p>
+<p>Mixed Martial Arts</p>
+<p>Soccer</p>
+<p>Rugby</p>
+<p>Cricket</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Grizzlies' free fall continues with shellacking by Kings</p>
+<p>Â </p>
+<p>Â </p>
+<p>Just 18 hours after a 12-3 drubbing at the hands of the Surrey Eagles, the Victoria Grizzlies endured a 10-2 beatdown from Coastal Conference foes the Powell River Kings at Bear Mountain Arena on Sunday...</p>
+<p>Â </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Sports</p>
+<p>Â </p>
+<p>Royals aim to round up two points</p>
+<p>Nanaimo to host first Western Canadian junior A championship</p>
+<p>Victoria's Tuson rink advances to men's B.C. curling championship</p>
+<p>Royals snap winless streak</p>
+<p>Cascades offence pounds women Vikes</p>
+<p>Eagles shell hapless Grizz</p>
+<p>Dangerfield gets another shot at the provincial curling title</p>
+<p>All-star game a chance for VIJHL to show off its stars, prospects, skills</p>
+<p>Features</p>
+<p> </p>
+<p>Australian Open</p>
+<p>Â </p>
+<p>Raonic rolls into second round</p>
+<p>Bourque impressive in debut</p>
+<p>About Olympics for women's soccer</p>
+<p>Kesler displeased with critique</p>
+<p>Wings set club record</p>
+<p>Rangers to sign Fielder, Darvish or both?</p>
+<p>Bozak has spark for top line</p>
+<p>Melnyk willing to add to Senators</p>
+<p> </p>
+<p>More in Sports</p>
+<p> </p>
+<p> </p>
+<p>Entertainment</p>
+<p>In Entertainment</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Music</p>
+<p>Books</p>
+<p>Movies</p>
+<p>Television</p>
+<p>TV Listings</p>
+<p>Stage</p>
+<p>Visual Arts</p>
+<p>Celebrity</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Victoria-made design show goes online</p>
+<p>Â </p>
+<p>Â </p>
+<p>New series is a slick showcase of made-in-Victoria home makeovers</p>
+<p>Â </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>10 things</p>
+<p>Â </p>
+<p>10 things: These political dramas pair well with primaries</p>
+<p>Singer raises opera bar</p>
+<p>Clean-cut Kutcher a little coy about his plans for the future</p>
+<p>Looking for a life in the hereafter</p>
+<p>Celebrity</p>
+<p> </p>
+<p>Kelsey Grammer</p>
+<p>Â </p>
+<p>Kelsey Grammer, wife expecting twins</p>
+<p>Russell Brand cites Kurt Vonnegut to address Katy ...</p>
+<p>Stephen Colbert for president?</p>
+<p>Photos: Celebrities arriving at the Golden Globes</p>
+<p> </p>
+<p>More in Entertainment</p>
+<p> </p>
+<p> </p>
+<p>Life</p>
+<p>In Life</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Pets </p>
+<p>Fashion & Beauty</p>
+<p>Island Food & Drink</p>
+<p>Food</p>
+<p>Relationships</p>
+<p>Diversions - Comics & Games</p>
+<p>Family 4-1-1</p>
+<p>Mike Holmes</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Kids dive into ocean sciences</p>
+<p>Â </p>
+<p>Â </p>
+<p>It's no wonder some visitors to What Lies Beneath could be heard humming Under the Sea and recalling underwater movies from The Little Mermaid to The Abyss when the new undersea exploration exhibit surfaced...</p>
+<p>Â </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Life</p>
+<p>Â </p>
+<p>Siblings stress over aging parents</p>
+<p>How to use a hot spice in a cold dish</p>
+<p>When kids go to hospital</p>
+<p>Send us your parenting questions and solutions</p>
+<p>Blogs</p>
+<p> </p>
+<p>Â </p>
+<p>Buddhist âmindfulnessâ helps Christians rediscover...</p>
+<p>Respect Vital in Discussions of Religion.</p>
+<p>How much are you spending?</p>
+<p>Buick GS punches above its weight in class</p>
+<p>Tasty recipes for ground beef</p>
+<p>Thank you Victoria!</p>
+<p> </p>
+<p>More in Life</p>
+<p> </p>
+<p> </p>
+<p>Health</p>
+<p>In Health</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Women</p>
+<p>Men</p>
+<p>Family & Child</p>
+<p>Seniors</p>
+<p>Sexual Health</p>
+<p>Diet & Fitness</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Postponing parenthood could have serious consequences, warns...</p>
+<p>Â </p>
+<p>Â </p>
+<p>Men, and not just women, need to be aware of the "reproductive consequences" of postponing parenthood, new national guidelines on the risks of delayed child-bearing warn.</p>
+<p>Â </p>
+<p>Do twin embryos help each other survive?</p>
+<p>Lots of pregnancies linked to a healthier heart</p>
+<p>Healthy male diet may boost IVF success: Study</p>
+<p>Men, are you killing your sperm? Quantity, quality matter in male fertility</p>
+<p>Using one embryo in IVF doesn't cut birth rate: Study</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Abortion</p>
+<p>Â </p>
+<p>Concealing fetus sex could curb abortion trend: CMAJ editional</p>
+<p>Toronto mayor, brother kick off their weight-loss campaign</p>
+<p>German researchers pave way to cheaper malaria drug</p>
+<p>Health Club</p>
+<p> </p>
+<p>Fitness</p>
+<p>Â </p>
+<p>To optimize exercise, heed your heart rate training...</p>
+<p>Begin 2012 on a healthy note</p>
+<p>Calorie counters fooled by 'side-salad illusion'</p>
+<p> </p>
+<p>More in Health</p>
+<p> </p>
+<p> </p>
+<p>Technology</p>
+<p>In Technology</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Personal Tech</p>
+<p>Gaming</p>
+<p>Tech–Biz</p>
+<p>Internet</p>
+<p>Environment</p>
+<p>Space</p>
+<p>Science</p>
+<p>Best of YouTube</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Gallery: The cancelled Steve Jobs action figure</p>
+<p>Â </p>
+<p>Â </p>
+<p>In Icons has cancelled the production of this 12" Steve Jobs action figure due to pressures from Apple lawyers. Take a look at the doll that might have been, which looks bizarrely similar to the late ...</p>
+<p>Â </p>
+<p>Follow canada.com Tech on Twitter</p>
+<p>And the Grammy goes to - Steve Jobs</p>
+<p>Photos: Steve Jobs statue unveiled</p>
+<p>Photos: Apple stores shut during Steve Jobs memorial</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Cyber Crime</p>
+<p>Â </p>
+<p>The rise of Canadian cyber crime</p>
+<p>How Canada is winning Youtube</p>
+<p>Rhino romance may save species</p>
+<p>Mitch Joel on the rise of Google+</p>
+<p>Science</p>
+<p> </p>
+<p>Animals</p>
+<p>Â </p>
+<p>Rhino romance may save species</p>
+<p>Extinct Galapagos turtle may be alive</p>
+<p>Possible lost world found in Lake Huron</p>
+<p>New Super Soldier ants created by McGill</p>
+<p> </p>
+<p>More in Technology</p>
+<p> </p>
+<p> </p>
+<p>Travel</p>
+<p>In Travel</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Trip Ideas</p>
+<p>Tools & Tips</p>
+<p>Community</p>
+<p>Destination Guides</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Gallery: 32 places to visit when you retire</p>
+<p>Â </p>
+<p>Â </p>
+<p>Here are the top 32 places that everyone should have on their to-see bucket list.</p>
+<p>Â </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Travel: 2012</p>
+<p>Â </p>
+<p>30 reasons to get up & go in 2012</p>
+<p>St. Barths can be outrageously expensive, but it doesn't have to be</p>
+<p>Just 1,000 visitors a year venture to the North Pole</p>
+<p>Top 5 most interesting cities to visit this year</p>
+<p>Local Stories</p>
+<p> </p>
+<p>Travel: Spas</p>
+<p>Â </p>
+<p>Beauty and body treatments at spas close to Montreal...</p>
+<p>Snowshoeing: A foray into the white pale of winter</p>
+<p>War of 1812 bicentennial offers a wealth of historic...</p>
+<p>The Thompson hotel is well placed for exploring Toronto...</p>
+<p> </p>
+<p>More in Travel</p>
+<p> </p>
+<p> </p>
+<p>Jobs</p>
+<p>In Jobs</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Search Jobs</p>
+<p>Resources</p>
+<p>Post Jobs</p>
+<p>Jobseekers</p>
+<p>Employer Login</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Incentives can boost bottom line, curb turnover</p>
+<p>Â </p>
+<p>Â </p>
+<p>At NCM Associates in Overland Park, Kan., employees are getting a gift that will keep on giving: an infusion into their nest eggs.</p>
+<p>Â </p>
+<p>Find a job!</p>
+<p>Successful, but unmotivated</p>
+<p>Help Wanted: Pensions and jobless benefits</p>
+<p>Home-work nets benefits</p>
+<p>Local employers focusing on worker retention</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Career Coach</p>
+<p>Â </p>
+<p>Career Coach: Hints to help bump up 2012</p>
+<p>Never too late to alter bad habits</p>
+<p>More Stories</p>
+<p> </p>
+<p>Labour Unrest</p>
+<p>Â </p>
+<p>Microsoft probes labour unrest at Shanghai plant</p>
+<p>Human rights boss must clear 'toxic' air: Ottawa</p>
+<p>Tolerance tied to exposure: study</p>
+<p>Woodworking shop lets Grade 8 students try skilled...</p>
+<p> </p>
+<p>More in Jobs</p>
+<p> </p>
+<p> </p>
+<p>Cars</p>
+<p>In Cars</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>New</p>
+<p>Used</p>
+<p>Weekly Specials</p>
+<p>Sell</p>
+<p>Research & Compare</p>
+<p>News & Events</p>
+<p>Videos</p>
+<p>Features</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Alberta year-over-year auto sales best in Canada</p>
+<p>Â </p>
+<p>Â </p>
+<p>Although new motor vehicle sales in November dipped in Alberta from the previous month, the province still had the best year-over-year rate of growth in the country. Statistics Canada said Monday that...</p>
+<p>Â </p>
+<p>Fuel economy is what sells</p>
+<p>Honda, Toyota predict big gains</p>
+<p>Civic still tops, but Ford claims 2011 sales crown</p>
+<p>Audi CEO: Auto industry faces tougher year in 2012</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Corvett</p>
+<p>Â </p>
+<p>Photos: Chevrolet sends C6 Corvette off with collector edition</p>
+<p>BMW to invest about $900 million in U.S. plant by 2014</p>
+<p>Class-action vs American Honda thrown out</p>
+<p>GM, German union in talks to restructure Opel</p>
+<p>China 2011 car sales rise at slowest annual pace</p>
+<p>Features</p>
+<p> </p>
+<p>Toyota Tacoma</p>
+<p>Â </p>
+<p>Winter Diary, 2012 Toyota Tacoma V6</p>
+<p>Auto Shows</p>
+<p>2012 New Model Preview</p>
+<p>Special: Driver Education</p>
+<p>Winter driving guide</p>
+<p> </p>
+<p>More in Cars</p>
+<p> </p>
+<p> </p>
+<p>Homes</p>
+<p>In Homes</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>For Sale/Rent</p>
+<p>Real Estate Advice</p>
+<p>Renovating</p>
+<p>Decorating</p>
+<p>Gardening</p>
+<p>Vacation Homes</p>
+<p>Mike Holmes</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Chef's playground is the kitchen out back</p>
+<p>Â </p>
+<p>Â </p>
+<p>Walk in the front door of chef Celestino Drago's Sherman Oaks, California, home, through the soaring foyer and the wide-open designer kitchen and out the back door, and you might think you've been transported...</p>
+<p>Â </p>
+<p>Big vegetable taste in small containers</p>
+<p>Exciting new seeds worth trying out</p>
+<p>Gardening trends for 2012</p>
+<p>Urban farmers take over 'war zone'</p>
+<p>Edible and ornamental</p>
+<p>Plants return yearly like welcome guests</p>
+<p>Farming vertical veggies indoors</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Home Style</p>
+<p>Â </p>
+<p>New Year, new home ideas that are yours</p>
+<p>Back in Canada: In need of home</p>
+<p>To slipcover or not?</p>
+<p>The blanc canvas</p>
+<p>Features</p>
+<p> </p>
+<p>Clutter</p>
+<p>Â </p>
+<p>Relieve stress this year by banishing the clutter</p>
+<p>Swarovski pitches in to create sparkling toilet</p>
+<p>Latin America rated tops for retirement</p>
+<p>Contractor turns old wood into 'rustic chic'</p>
+<p>Exciting new seeds worth trying out</p>
+<p> </p>
+<p>More in Homes</p>
+<p> </p>
+<p> </p>
+<p>Classifieds</p>
+<p>In Classifieds</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>Announcements</p>
+<p>Dating</p>
+<p>Obituaries</p>
+<p>Job Listings</p>
+<p>Car Listings</p>
+<p>Real Estate For Sale/Rent</p>
+<p>Shopping</p>
+<p>Place an Ad</p>
+<p>Top Stories</p>
+<p> </p>
+<p>Â </p>
+<p>Alberta year-over-year auto sales best in Canada</p>
+<p>Â </p>
+<p>Â </p>
+<p>Although new motor vehicle sales in November dipped in Alberta from the previous month, the province still had the best year-over-year rate of growth in the country. Statistics Canada said Monday that...</p>
+<p>Â </p>
+<p>Fuel economy is what sells</p>
+<p>Honda, Toyota predict big gains</p>
+<p>Civic still tops, but Ford claims 2011 sales crown</p>
+<p>Audi CEO: Auto industry faces tougher year in 2012</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Corvett</p>
+<p>Â </p>
+<p>Photos: Chevrolet sends C6 Corvette off with collector edition</p>
+<p>BMW to invest about $900 million in U.S. plant by 2014</p>
+<p>Class-action vs American Honda thrown out</p>
+<p>GM, German union in talks to restructure Opel</p>
+<p>China 2011 car sales rise at slowest annual pace</p>
+<p>European car makers must consolidate: Fiat CEO</p>
+<p>Features</p>
+<p> </p>
+<p>Â </p>
+<p>Own Ladysmiths Only Motel (Dan Morris) $1,199,900</p>
+<p> </p>
+<p>More in Classifieds</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Don't miss: </p>
+<p>Online subscriptions</p>
+<p>Island Food/Drinks</p>
+<p>Photo galleries</p>
+<p>Obituaries</p>
+<p>TC print ads</p>
+<p>Music Downloads</p>
+<p>Today's Paper/Archive</p>
+<p>Â </p>
+<p> Â»</p>
+<p>			RSS</p>
+<p> </p>
+<p> </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/victoriatimescolonist.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=46377615?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/victoriatimescolonist.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=46377615?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/victoriatimescolonist.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=46377615?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/victoriatimescolonist.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=46377615?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p> </p>
+<p>				CDMScriptManager.load('/js/SpiderRedirect.js');</p>
+<p>			</p>
+<p>				CDMScriptManager.load('/js/pluck/pluckLocal.js');</p>
+<p>				CDMScriptManager.load('http://pluck.timescolonist.com/ver1.0/Direct/DirectProxy');</p>
+<p>				CDMScriptManager.load('/js/pluck/pluck.js');				</p>
+<p>				CDMScriptManager.load('/js/adsync/adSyncLibrary.js');</p>
+<p>			</p>
+<p>				if (typeof dartad_url != 'undefined') {</p>
+<p>					var dd = adSync.ParseDartAdUrl(dartad_url);</p>
+<p>					cwZoneAd=dd["zone"];</p>
+<p>					cwSiteAd =dd["site"];</p>
+<p>					cwKeyAd=dd["keyValues"];</p>
+<p>				}else {</p>
+<p>					cwSiteAd = "vtc_bh.com"; // plug in the Ad site variable</p>
+<p>					cwZoneAd= "health/story"; // plug in the ad zone.</p>
+<p>					cwKeyAd="kw=ron;kw=health"; // plug in the Ad key words.</p>
+<p>				}	</p>
+<p>			</p>
+<p>	</p>
+<p>				var addthis_pub = 'canada.com';</p>
+<p>				function tabClick(eventText, hasVideo, id, classname, pause,syncAds)</p>
+<p>				{	</p>
+<p>					//the statsEvent and Ad Refresh have been disabled on the story tab clicks</p>
+<p>					//I've left the code in the xsl (just commented out), in case the decision gets reversed.</p>
+<p>									</p>
+<p>					//omniture event</p>
+<p>					//statsEvent(eventText);	</p>
+<p>					</p>
+<p>					//set tab</p>
+<p>					if(hasVideo)</p>
+<p>						switchTab(id,classname, pause);</p>
+<p>					else</p>
+<p>						setClass(id, classname);</p>
+<p>					//refresh ads</p>
+<p>					//if(syncAds)</p>
+<p>						//adSync.TriggerAdSynch();</p>
+<p>				}</p>
+<p>				function statsEvent(eventText)</p>
+<p>				{</p>
+<p>					//omniture event</p>
+<p>					s.prop38=s.pageName + eventText;</p>
+<p>					s.events='';</p>
+<p>					void(s.t());				</p>
+<p>				}</p>
+<p>				function showTab(firstentrytype)</p>
+<p>				{</p>
+<p>					var tab = getQueryVar('tab');</p>
+<p>					var tabclass = '';</p>
+<p>					if (tab == 'PHOT' || (firstentrytype.indexOf('image/') != -1 && tab == ''))</p>
+<p>						tabclass = 'story_photo_content';</p>
+<p>					else if (tab == 'VID' || ((firstentrytype == 'application/vnd.ooyala') && tab == ''))</p>
+<p>						tabclass = 'story_video_content';</p>
+<p>					else if (tab == 'FLSH' || (firstentrytype == 'application/x-shockwave-flash' && tab == ''))</p>
+<p>						tabclass = 'story_interactive_content';</p>
+<p>					if (tabclass != '')</p>
+<p>						setClass('storypage', tabclass);</p>
+<p>				}</p>
+<p>				function EmailThis(qs, emailViewer) </p>
+<p>				{</p>
+<p>					var url = "http://" + window.location.hostname + window.location.pathname;</p>
+<p>					var id = "";</p>
+<p>					id = getQueryVar("id");</p>
+<p>					if (id != "")</p>
+<p>					{</p>
+<p>						url = addQS(url, "id=" + id);</p>
+<p>					}</p>
+<p>					if (qs != "")</p>
+<p>					{</p>
+<p>						url = addQS(url, qs);</p>
+<p>					}</p>
+<p>					if (typeof(emailViewer) == "undefined" || emailViewer == null || emailViewer == "") emailViewer = "/story_emailthis.html";</p>
+<p>					openWindow(emailViewer + '?referrer=' + encodeURIComponent(url), 'StoryEmailThis', 'scrollbars=yes,resizable=yes,width=550,height=380')</p>
+<p>				}</p>
+<p>				function getQueryVar(key) </p>
+<p>				{</p>
+<p>					var qs = window.location.search.substring(1);</p>
+<p>					var arrQS = qs.split("&");</p>
+<p>					var value = "";</p>
+<p>					for (i=0; i<arrQS.length; i++) {</p>
+<p>						var ft = arrQS[i].split("=");</p>
+<p>						if (ft[0] == key) {</p>
+<p>							value =  ft[1];</p>
+<p>						}</p>
+<p>					}</p>
+<p>					return value;</p>
+<p>				}</p>
+<p>				function addQS(theURL, QS)</p>
+<p>				{</p>
+<p>					var url = theURL;</p>
+<p>					if (QS != '')</p>
+<p>					{</p>
+<p>						if (url.indexOf("?") == -1)	{</p>
+<p>							url += "?" + QS;</p>
+<p>						} </p>
+<p>						else {</p>
+<p>							url += "%26amp;" + QS;</p>
+<p>						}</p>
+<p>					}</p>
+<p>					return url;</p>
+<p>				}</p>
+<p>				function openWindow(theURL, WinName, WinFeatures) {</p>
+<p>					window.open(theURL, WinName, WinFeatures);</p>
+<p>				}</p>
+<p>				function jumpToAnchor(anchor) </p>
+<p>				{</p>
+<p>					window.location = String(window.location).replace(/\#.*$/, "") + anchor;</p>
+<p>				}</p>
+<p>				function showAd(story_elem, ad_elem, ad_wrapper, offset) {</p>
+<p>					var eosPos = Y(story_elem);</p>
+<p>					var adPos = Y(ad_wrapper);</p>
+<p>					var showAd = false;</p>
+<p>					var offsetPos = 0;</p>
+<p>					</p>
+<p>					if (eosPos >= adPos)</p>
+<p>					{</p>
+<p>						showAd = true;</p>
+<p>					}</p>
+<p>					else</p>
+<p>					{</p>
+<p>						offsetPos = eosPos + offset;</p>
+<p>						if (offsetPos >= adPos)</p>
+<p>						{</p>
+<p>							showAd = true;</p>
+<p>						}</p>
+<p>					}</p>
+<p>					// write out ad include</p>
+<p>					if (showAd == true)</p>
+<p>					{</p>
+<p>					   document.getElementById(ad_elem).style.display = "block"; </p>
+<p>					}</p>
+<p>				}				</p>
+<p>				function X(id) {</p>
+<p>					var obj = document.getElementById(id);</p>
+<p>					var x = obj.offsetLeft</p>
+<p>					while (obj = obj.offsetParent) x += obj.offsetLeft</p>
+<p>					return x</p>
+<p>				}</p>
+<p>				function Y(id) {</p>
+<p>					var obj = document.getElementById(id);</p>
+<p>					var y = obj.offsetTop</p>
+<p>					while (obj = obj.offsetParent) y += obj.offsetTop</p>
+<p>					return y</p>
+<p>				}</p>
+<p>			</p>
+<p>CDMScriptManager.load("http://s9.addthis.com/js/widget.php?v=10");</p>
+<p>Norovirus outbreak detains students in VictoriaÂ About 75 students at conference infected in major outbreak at hotelÂ </p>
+<p>By Derek Spalding, Times Colonist</p>
+<p>January 17, 2012</p>
+<p>Â </p>
+<p>Tweet</p>
+<p>		stLight.options({</p>
+<p>				publisher:'8f205be9-8545-4fa3-a030-c83238b6a3e5',</p>
+<p>				offsetLeft:'-265',</p>
+<p>				onhover: false,</p>
+<p>				embeds:'true',</p>
+<p>		});</p>
+<p>						showTab("text/html");</p>
+<p>					Â </p>
+<p>				function resizeImage() {</p>
+<p>					var imgBox = document.getElementById('imageBox');</p>
+<p>					var photo = document.getElementById('storyphoto');</p>
+<p>					if (imgBox != null && photo != null)</p>
+<p>					{</p>
+<p>						if(photo.width >= 460) </p>
+<p>						{</p>
+<p>							imgBox.className = 'imagesize460';</p>
+<p>						}</p>
+<p>						else </p>
+<p>						{</p>
+<p>							if(photo.width >= 300) </p>
+<p>							{</p>
+<p>								imgBox.className = 'imagesize310';</p>
+<p>							}</p>
+<p>							else </p>
+<p>							{</p>
+<p>								imgBox.className = 'imageboxpadding';</p>
+<p>							}</p>
+<p>							imgBox.style.width = photo.width + 'px';</p>
+<p>						}</p>
+<p>					}</p>
+<p>				}</p>
+<p>				function getStoryFontSize() {</p>
+<p>					var storyfontsize = getCookie('storyfontsize');</p>
+<p>					var storyfontimage = getCookie('storyfontimage');</p>
+<p>					// use cookied value, if present</p>
+<p>					if (storyfontsize != null)</p>
+<p>					{</p>
+<p>						setClass('story_content',storyfontsize); </p>
+<p>						if (storyfontimage != null)</p>
+<p>						{</p>
+<p>							setClass('fontsizecontainer',storyfontimage); </p>
+<p>						}</p>
+<p>					}</p>
+<p>					else	// default it to para14 if no cookie</p>
+<p>					{</p>
+<p>						setClass('story_content','para14'); </p>
+<p>						setClass('fontsizecontainer','size02');</p>
+<p>					}</p>
+<p>				}</p>
+<p>				function setStoryFontSize(storyfontsize,storyfontimage) {</p>
+<p>					setClass('story_content',storyfontsize); </p>
+<p>					setClass('fontsizecontainer',storyfontimage);</p>
+<p>					setCookie('storyfontsize', storyfontsize, '365', '/', '', '');</p>
+<p>					setCookie('storyfontimage', storyfontimage, '365', '/', '', '');</p>
+<p>				}</p>
+<p>				function setCookie( name, value, expires, path, domain, secure ) {</p>
+<p>					// set time</p>
+<p>					var today = new Date();</p>
+<p>					today.setTime( today.getTime() );</p>
+<p>					if ( expires )</p>
+<p>					{</p>
+<p>						expires = expires * 1000 * 60 * 60 * 24; //days</p>
+<p>					}</p>
+<p>					var expires_date = new Date( today.getTime() + (expires) );</p>
+<p>					document.cookie = name + "=" + escape( value ) +</p>
+<p>					( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) + </p>
+<p>					( ( path ) ? ";path=" + path : "" ) + </p>
+<p>					( ( domain ) ? ";domain=" + domain : "" ) +</p>
+<p>					( ( secure ) ? ";secure" : "" );</p>
+<p>				}</p>
+<p>				function getCookie( check_name ) {</p>
+<p>					// split this cookie up into name/value pairs</p>
+<p>					var a_all_cookies = document.cookie.split( ';' );</p>
+<p>					var a_temp_cookie = '';</p>
+<p>					var cookie_name = '';</p>
+<p>					var cookie_value = '';</p>
+<p>					var b_cookie_found = false; // set boolean t/f default f</p>
+<p>					</p>
+<p>					for ( i = 0; i < a_all_cookies.length; i++ )</p>
+<p>					{</p>
+<p>						// split apart each name=value pair</p>
+<p>						a_temp_cookie = a_all_cookies[i].split( '=' );</p>
+<p>						</p>
+<p>						// and trim left/right whitespace while we're at it</p>
+<p>						cookie_name = a_temp_cookie[0].replace(/^\s+|\s+$/g, '');</p>
+<p>					</p>
+<p>						// if the extracted name matches passed check_name</p>
+<p>						if ( cookie_name == check_name )</p>
+<p>						{</p>
+<p>							b_cookie_found = true;</p>
+<p>							// we need to handle case where cookie has no value but exists (no = sign, that is):</p>
+<p>							if ( a_temp_cookie.length > 1 )</p>
+<p>							{</p>
+<p>								cookie_value = unescape( a_temp_cookie[1].replace(/^\s+|\s+$/g, '') );</p>
+<p>							}</p>
+<p>							// note that in cases where cookie is initialized but no value, null is returned</p>
+<p>							return cookie_value;</p>
+<p>							break;</p>
+<p>						}</p>
+<p>						a_temp_cookie = null;</p>
+<p>						cookie_name = '';</p>
+<p>					}</p>
+<p>					if ( !b_cookie_found )</p>
+<p>					{</p>
+<p>						return null;</p>
+<p>					}</p>
+<p>				}				</p>
+<p>			</p>
+<p>Some of the delegates from a journalism conference in Victoria this weekend were not allowed to fly home Sunday or Monday because of a painful outbreak of norovirus that kept dozens isolated in their hotel rooms.About 75 of the 370 university students from across the country were infected as the virus quickly spread throughout the Canadian University Press national conference at the Harbour Towers Hotel and Suites late Saturday.WestJet Airlines turned at least one passenger away at Victoria International Airport because he or she was still presenting symptoms.Other delegates called ahead to change their flight times based on advice from health officials.Both WestJet and Air Canada waved cancellation fees for the affected students, and the hotel allowed the sick a free night's stay as they waited for the virus to pass through their system.The first few cases began just before a banquet dinner about 5 p.m. Saturday. Within hours, some students were vomiting on buses and on the dance floor at a weekend gala at Vertigo nightclub.Health officials sent paramedics to the hotel overnight Saturday as students isolated themselves in their rooms.People typically contract norovirus by transfers of fecal or oral matter. The virus can live on surfaces for hours and is easily transferred via people's hands, according to the Vancouver Island Health Authority.Students kept their spirits up during the ordeal, but many of them suffered painful symptoms, including severe stomach cramps, uncontrollable vomiting and diarrhea.Delegate Shane Fowler said he avoided the virus until he got back from a night of drinking.He had heard that about 25 people had vomited on the bus and in the bar, but said he had no idea of the severity of the problem when he arrived back at the hotel.Eventually, the journalist for The Aquinian newspaper at St. Thomas University in Fredericton, N.B., started to show symptoms."None of us heard about norovirus before this and now we are intimately familiar with it, including its exploding consequences," he said. "You don't do much more than sleep, puke and wreck toilets, and it's just rinse and repeat until it passes."A head count of infected students stopped at about 50 after 4 a.m. Sunday.Since then, Canadian University Press staff have received reports of more people getting sick on their way home."It seems that people who were feeling great got sick later on," said Emma Godmere, national bureau chief for the organization."A lot of CUP staff, who were patrolling through the night, have fell sick as recently as [late Sunday]. So even among our ranks, people have gotten sick."B.C. Ambulance Service had several paramedics at the hotel overnight Saturday at the peak of the outbreak, treating the infected. Eleven people were taken to hospital, but most were treated at the hotel to avoid spreading the virus to patients with compromised immune systems.About 15 hotel staff called in sick during a 24-hour period from Sunday to Monday, according to management, who said most banquet servers were the hardest hit.WestJet reported that it flew out 30 of the delegates on Sunday and another 19 Monday. Just a dozen or so students remained in rooms overnight Monday, hotel manager Ian Jones said.dspalding@timescolonist.comÂ© Copyright (c) The Victoria Times ColonistÂ Â Â E-mail this ArticlePrint this ArticleShare this ArticleÂ Â Â Â </p>
+<p>Location refreshed</p>
+<p>	var geoloc_service_domain = "app.canada.com";</p>
+<p>	var geoloc_postproxy_domain = window.location.hostname+"";</p>
+<p>	CDMScriptManager.load('/js/geo_location.js');</p>
+<p>Â Story ToolsÂ E-mail this ArticlePrint this ArticlejQuery('#liComment').hide();Â Font:*****</p>
+<p>								// load up cookied story font size</p>
+<p>								getStoryFontSize();</p>
+<p>							Â Image:****Â Â Â </p>
+<p>Related Stories from Around the Web</p>
+<p>WestJetâs Dunleavy leaving for Malaysia Airlines</p>
+<p>Â </p>
+<p>Calgary Herald</p>
+<p>Â </p>
+<p>Monday, January 16, 2012</p>
+<p>Airline traffic ends year on a high</p>
+<p>Â </p>
+<p>Calgary Herald</p>
+<p>Â </p>
+<p>Monday, January 16, 2012</p>
+<p>WestJet eyes starting new regional airline</p>
+<p>Â </p>
+<p>Edmonton Journal, Canada</p>
+<p>Â </p>
+<p>Monday, January 16, 2012</p>
+<p>Â Â </p>
+<p>								jQuery('#soundoff').addClass('hideCommentForm');</p>
+<p>							Â </p>
+<p>		var playingAd;</p>
+<p>		document.write("<img id='vid1' height='1' width='1'>");</p>
+<p>		function videoScore(evt){</p>
+<p>			playingAd=evt.data.isAd;</p>
+<p>			document.getElementById("vid1").src="http://beacon.securestudies.com/scripts/beacon.dll?C1=1&C2=10276888&C3=3005660&C4=" + window.location.pathname.toLowerCase() + "&C5=&C6=&C7=" + escape(window.location.href) + "&C8=" + escape(document.title) + "&C9=" + escape(document.referrer) + "&rn=" + Math.floor(Math.random()*99999999);</p>
+<p>		}</p>
+<p>		if (typeof tpController != 'undefined') {</p>
+<p> 		   tpController.addEventListener("OnMediaStart", "videoScore");</p>
+<p>		}</p>
+<p>	</p>
+<p>Related Topics</p>
+<p> </p>
+<p>WestJet Airlines Ltd.Canadian University PressVictoria (British Columbia)</p>
+<p> </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/vtc_bh.com/health/story;loc=top_box;loc=top;sz=250x250,300x250,300x600;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=46377615?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/vtc_bh.com/health/story;loc=top_box;loc=top;sz=250x250,300x250,300x600;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=46377615?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p> </p>
+<p>Most Popular News</p>
+<p>Most Read</p>
+<p>E-mailed</p>
+<p>Commented </p>
+<p> </p>
+<p>Be prepared â cold snap, snow forecast</p>
+<p>B.C. has highest national rate of those who can't afford to take drug prescriptions as directed</p>
+<p>Norovirus outbreak detains students in Victoria</p>
+<p>MonkeyJunk tops blues awards</p>
+<p>Norovirus outbreak detains students in Victoria</p>
+<p>Court urged to snuff out medical pot access rules</p>
+<p>Â </p>
+<p>more</p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>Norovirus outbreak detains students in Victoria</p>
+<p>Jack Knox: Marijuana resin conviction in 1967 grounds Tofino man at U.S. border</p>
+<p>WestJet short-haul proposal could benefit Victoria: Airport CEO</p>
+<p>Victoria school board trustees reject 10 per cent pay increase</p>
+<p>Be prepared â cold snap, snow forecast</p>
+<p>Â </p>
+<p>more</p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>setMostCommented("mostCommented", 6, 15);</p>
+<p> </p>
+<p>Sponsored By</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>The Victoria Times Colonist Headline News</p>
+<p> </p>
+<p> Sign up to receive daily headline news from The Times Colonist. </p>
+<p> </p>
+<p> Submit </p>
+<p> </p>
+<p> Our Privacy Statement </p>
+<p> </p>
+<p>Diet and Fitness</p>
+<p>Child and Teen</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://player.ooyala.com/player.js?wmode=transparent&playerContainerId=player2Div&callback=pmplayer2.PlayerCallbackEvent&playerId=player2&width=300&height=226&embedCode=R0ODdkMjqWI788TuOg7TAHvHmu_nHD92&'+pmAd.get()+'" ><\/script>');</p>
+<p>                    </p>
+<p>        	var pmplayer2;</p>
+<p>        	pmplayer2 = new ooYala.PMPlayer('player2', 'player2Div', 'pmplayer2', 'R0ODdkMjqWI788TuOg7TAHvHmu_nHD92', '300','226', "90x60", 4, true, true);</p>
+<p>                           pmplayer2.Init();</p>
+<p>                            </p>
+<p>                          	pmplayer2.SetUpTabs();</p>
+<p>                            </p>
+<p> </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/vtc_bh.com/health/story;loc=bot_box;loc=bot;sz=250x250,300x250;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=46377615?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/vtc_bh.com/health/story;loc=bot_box;loc=bot;sz=250x250,300x250;kw=ron;kw=health;nk=print;pr=vtc;ck=health;page=story;kw=vtc;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=46377615?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>				<!--</p>
+<p>				 google_ad_client   = 'ca-pub-1718995873402338';</p>
+<p>				 google_ad_output   = 'js';</p>
+<p>				 google_max_num_ads = '3';</p>
+<p>				 google_hints       = 'health';</p>
+<p>				 google_safe        = 'high';</p>
+<p>				 google_kw_color    = '#E2A9A9';</p>
+<p>				 google_ad_channel  = 'victoria-timescolonist-health-story';</p>
+<p>				 google_adtest = 'off';</p>
+<p>				 google_feedback = 'on';</p>
+<p>				// --></p>
+<p>			</p>
+<p>			<!--</p>
+<p>				function google_ad_request_done(google_ads) {</p>
+<p>					document.write('<div class="googleadwrapper">');</p>
+<p>					document.write('<div class="box_e5e5e5">');</p>
+<p>					document.write('<div class="box_content">');</p>
+<p>					document.write('<div class="section_title_no_line">');</p>
+<p>					document.write('<h3>');</p>
+<p>					document.write('<a href="' + google_info.feedback_url + '" target="_blank"><span>Ads by Google</span></a>');</p>
+<p>					document.write('</h3>');</p>
+<p>					document.write('</div>');</p>
+<p>					document.write('<div class="clear">&nbsp;</div>');</p>
+<p>  					var i;</p>
+<p> 					// Display each ad in turn</p>
+<p>					for(i = 0; i < google_ads.length; ++i) {</p>
+<p>						document.write('<div class="col_300">');</p>
+<p>						document.write('<div class="wrapper_10_10_10_10">');</p>
+<p>						document.write('<a target="_blank" class="toplink" href="' + google_ads[i].url +'"' + 'onmouseout="window.status=\'\'"' + 'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true;">');</p>
+<p>						document.write('<b>' + google_ads[i].line1 + '</b></a>');</p>
+<p>						document.write('<div class="clear">&nbsp;</div>');</p>
+<p>						document.write(google_ads[i].line2);</p>
+<p>						document.write('<div class="clear">&nbsp;</div>');</p>
+<p>						document.write(google_ads[i].line3);</p>
+<p>						document.write('<div class="clear">&nbsp;</div>');</p>
+<p>						document.write('<a target="_blank" href="' + google_ads[i].url + '"' + 'onmouseout="window.status=\'\'"' + 'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true;">' + google_ads[i].visible_url + '</a>');</p>
+<p>						document.write('</div>');</p>
+<p>						document.write('</div>');</p>
+<p>					}</p>
+<p>					document.write('</div>');</p>
+<p>					document.write('</div>');</p>
+<p>					document.write('</div>');</p>
+<p>				}</p>
+<p>			// --></p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p>Inside Times Colonist</p>
+<p> </p>
+<p> </p>
+<p>			   CDMScriptManager.load("/js/slider.js");</p>
+<p>			</p>
+<p>Â </p>
+<p>What you can get at Calgary's most popular home price $350,000-$399,999</p>
+<p>Â </p>
+<p>Photos: Celebs party hearty after the Golden Globes</p>
+<p>Â </p>
+<p>Gallery: 32 places to visit when you retire</p>
+<p>Â </p>
+<p>Photos: Top images from around the globe</p>
+<p>Â </p>
+<p>'Get back on board,' captain ordered</p>
+<p>Â </p>
+<p>Gallery: Canadian stamps honour Queen</p>
+<p>Â </p>
+<p>Stephen Colbert for president?</p>
+<p>Â </p>
+<p>Golden age at the Globes</p>
+<p>Â </p>
+<p>Man's massive mustard museum</p>
+<p>Â </p>
+<p>Hello, Lindsay Lohan ... itâs the tax man</p>
+<p>		var FooterFeature_2_Object = null;</p>
+<p>                jQuery(function() {</p>
+<p>			FooterFeature_2_Object = new MultiSlider2('FooterFeature_2_Window', 'FooterFeature_2_Content', 'FooterFeature_2_Entry', 10, 5, 1500, 5);</p>
+<p>			jQuery('#FooterFeature_2_LeftNavButton').click(function() { FooterFeature_2_Object.slideLeft('FooterFeature_2_Object');}) ;</p>
+<p>			jQuery('#FooterFeature_2_RightNavButton').click(function() { FooterFeature_2_Object.slideRight('FooterFeature_2_Object');}) ;</p>
+<p>		});</p>
+<p>	    </p>
+<p> </p>
+<p> </p>
+<p>  tynt={'ap': "Read more: "};</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Opinion</p>
+<p>Business</p>
+<p>Sports</p>
+<p>Entertainment</p>
+<p>Life</p>
+<p>Health</p>
+<p>Technology</p>
+<p>Travel</p>
+<p>Jobs</p>
+<p>Cars</p>
+<p>Homes</p>
+<p>Classifieds</p>
+<p> </p>
+<p>Don't Miss</p>
+<p>Online subscriptions</p>
+<p>Island Food/Drinks</p>
+<p>Photo galleries</p>
+<p>Obituaries</p>
+<p>TC print ads</p>
+<p>Music Downloads</p>
+<p>Today's Paper/Archive</p>
+<p>Â </p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>Most Popular</p>
+<p>Be prepared â cold snap, snow forecast</p>
+<p>B.C. has highest national rate of those who can't afford to take drug prescriptions as directed</p>
+<p>Norovirus outbreak detains students in Victoria</p>
+<p>Â </p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>Formats</p>
+<p>Sitemap / RSS</p>
+<p>Contests</p>
+<p>Blogs</p>
+<p>Columnists</p>
+<p>Photo Galleries</p>
+<p>Videos</p>
+<p>Mobile</p>
+<p>iPad App</p>
+<p>Times Colonist</p>
+<p>About Us</p>
+<p>Contact Us</p>
+<p>Work for Us</p>
+<p>Advertise with Us</p>
+<p>Subscribe to the Print Edition</p>
+<p>Tools</p>
+<p>Search</p>
+<p> </p>
+<p>Search for a Job</p>
+<p>Buy/Sell a Car</p>
+<p>Real Estate Listings</p>
+<p>SwarmJam Sweet Deals</p>
+<p>Place a Classified Ad</p>
+<p>E-mail Alerts</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>canada.com Logo</p>
+<p>About canada.com</p>
+<p>Privacy Statement</p>
+<p>Terms</p>
+<p>Copyright & Permissions</p>
+<p>					© 2008 - 2011 Postmedia Network Inc. All rights reserved.</p>
+<p>					 </p>
+<p>					Unauthorized distribution, transmission or republication strictly prohibited.</p>
+<p>				</p>
+<p> </p>
+<p>		function footerSearch() {</p>
+<p>			var q = document.getElementById("f").value.replace(/ /g,"+");</p>
+<p>			if (q.length == 0) {</p>
+<p>				alert("Please enter your search criteria");</p>
+<p>				return;</p>
+<p>			}</p>
+<p>			var dname = document.domain; </p>
+<p>			if ( dname=="driving.ca") {</p>
+<p>				document.location.href="http://www.driving.ca/victoria/search/search.html?q=" + escape(q);</p>
+<p>				}</p>
+<p>			else {</p>
+<p>				document.location.href="/search/search.html?q=" + escape(q);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	</p>
+<p>		document.getElementById("f").value = document.getElementById("q").value;</p>
+<p>	</p>
+<p>                        <!--</p>
+<p>                        /* You may give each page an identifying name, server, and channel on</p>
+<p>                        the next lines. */</p>
+<p>                        s.pageName='/health/story.html';</p>
+<p>                        s.server=window.location.hostname.toLowerCase();</p>
+<p>                        s.channel='health';</p>
+<p>                        s.pageType='';</p>
+<p>                        s.prop1='health';</p>
+<p>                        s.prop2='health';</p>
+<p>                        s.prop3='canwest';</p>
+<p>                        s.prop4='Non-Registered';</p>
+<p>                        s.prop5=s.prop4 + ': ' + s.pageName;</p>
+<p>                        s.prop6='Times Colonist/FREE';</p>
+<p>                        s.prop7='Times Colonist';</p>
+<p>                        s.prop8='6007020';</p>
+<p>                        s.prop9='';</p>
+<p>                        s.prop10='';</p>
+<p>                        s.prop11='';</p>
+<p>                        s.prop13='';</p>
+<p>                        s.prop23=document.title;</p>
+<p>                        s.prop24=s.prop8;</p>
+<p>                        s.prop25='story';</p>
+<p>                        s.prop26='health';            </p>
+<p>                        s.prop27='';  </p>
+<p>                        s.prop28=''; </p>
+<p>                        s.prop29='';</p>
+<p>                        s.prop36='Capital & Van. Isl.'; </p>
+<p>                        s.prop37='vtc_bh.com'; </p>
+<p>                        s.prop43='';</p>
+<p>                        s.prop44='';</p>
+<p>                        /* E-commerce Variables */</p>
+<p>                        </p>
+<p>                        s.events='';</p>
+<p>                        s.products='';</p>
+<p>                        s.purchaseID='';</p>
+<p>                        s.transactionID = s.purchaseID;</p>
+<p>                        </p>
+<p>                        /* s.prop48 for story only */</p>
+<p>                        s.prop48='Derek Spalding, Times Colonist';</p>
+<p>                                      </p>
+<p>                        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>                        var s_code=s.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>                        if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>                        //--></p>

@@ -1,0 +1,251 @@
+<p>        function pm_fixIEImg(img) {</p>
+<p>            if (navigator.userAgent.indexOf('MSIE 8') == -1 && navigator.userAgent.indexOf('MSIE 7') == -1 && navigator.userAgent.indexOf('MSIE 6') == -1) return img;</p>
+<p>            var parent = img.parentNode;</p>
+<p>            img.onerror = function() { this.parentNode.removeChild(this); }</p>
+<p>            img.src = 'broken';</p>
+<p>            return parent;</p>
+<p>        }</p>
+<p>        function pm_imageFailed(div) {</p>
+<p>            pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('mod-articleimage') == -1) div = div.parentNode;</p>
+<p>            if (div != null) { div.parentNode.removeChild(div); pm_removeTextMargin(); }</p>
+<p>        }</p>
+<p>        function pm_imageFailedGallery(div) {</p>
+<p>            pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.nodeName != 'LI') div = div.parentNode;</p>
+<p>            if (div != null) { div.parentNode.removeChild(div); pm_updateGallery(); }</p>
+<p>        }</p>
+<p>        function pm_updateGallery() {</p>
+<p>            if (typeof updateGallery == 'function') updateGallery();</p>
+<p>            else setTimeout('pm_updateGallery();', 100);</p>
+<p>        }</p>
+<p>        function pm_imageFailedFeatured(div) {</p>
+<p>            var logo = 'http://economictimes.indiatimes.com/photo/6151078.cms'</p>
+<p>            if (logo != '') {</p>
+<p>                div.parentNode.parentNode.className = 'photowrapper photowrapper-logo';</p>
+<p>                div.className = 'featured-logo';</p>
+<p>                div.src = logo;</p>
+<p>                return;</p>
+<p>            }</p>
+<p>            div = pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('mod-homepageimage') == -1) div = div.parentNode;</p>
+<p>            if (div != null) div.parentNode.removeChild(div);</p>
+<p>        }</p>
+<p>        function pm_imageFailedRelatedLink(div) {</p>
+<p>            div = pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('image') == -1) div = div.parentNode;</p>
+<p>            if (div != null) {</p>
+<p>                var pN = div.parentNode;</p>
+<p>                pN.removeChild(div);</p>
+<p>                while (pN.parentNode != null && pN.className.indexOf('image-body') == -1) pN = pN.parentNode;</p>
+<p>                if (pN != null) pN.className = 'text-body';</p>
+<p>            }</p>
+<p>        }</p>
+<p>        function pm_imageFailedRelatedPhoto(div) {</p>
+<p>            div = pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('photos') == -1) div = div.parentNode;</p>
+<p>            if (div != null) div.parentNode.removeChild(div);</p>
+<p>        }</p>
+<p>        function pm_removeTextMargin() {</p>
+<p>            var by = document.getElementById('mod-article-byline');</p>
+<p>            var tx = document.getElementById('mod-a-body-first-para');</p>
+<p>            if (by != null) by.style.marginRight = '0px';</p>
+<p>            if (tx != null) tx.style.marginRight = '0px';</p>
+<p>        }</p>
+<p>        </p>
+<p>Poultry exports hit after flu outbreak in Odhisa, Meghalaya - Economic Times</p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p>            function blockError(){return true;}</p>
+<p>            window.onerror = blockError;</p>
+<p>            var dtTT_startofpage = new Date();</p>
+<p>            var rndtno = Math.random();</p>
+<p>            var timeslog_channel_url = 'articles.economictimes.indiatimes.com';</p>
+<p>            document.write('<img border="0" width="0" height="0" style="display:none;visibility:hidden;" src="http://timeslog.indiatimes.com/timeslog.dll/topcnt?CHUR=articles.economictimes.indiatimes.com&randomno='+ rndtno +'" align="left"/>');</p>
+<p>        </p>
+<p>                    setCookie("pmk_tn", "ap-ET_Blended_Ads", 3600);</p>
+<p>                    var sessId = getCookie("sessid");</p>
+<p>                    if (!sessId) {</p>
+<p>                        sessId = guid();</p>
+<p>                        setCookie("sessid", sessId, (30*60));</p>
+<p>                    }</p>
+<p>                    var uuId = getCookie("uuid");</p>
+<p>                    if (!uuId) {</p>
+<p>                        uuId = sessId;</p>
+<p>                        setCookie("uuid", uuId, (60*60*24*30*12*24));</p>
+<p>                    }</p>
+<p>                    var traffic_provider = getParamFromPMCookie("s");</p>
+<p>                    if(!traffic_provider) {</p>
+<p>                        traffic_provider = derive_traffic_provider();</p>
+<p>                        putParamIntoPMCookie("s", traffic_provider);</p>
+<p>                    }</p>
+<p>                    var traffic_type = getParamFromPMCookie("n");</p>
+<p>                    if(!traffic_type) {</p>
+<p>                        traffic_type = derive_traffic_type();</p>
+<p>                        putParamIntoPMCookie("n", traffic_type);</p>
+<p>                    }</p>
+<p>                    referring_domain = get_referring_domain();</p>
+<p>                    var tracSessParams = "sessid="+sessId+"&uuid="+uuId+"&s="+traffic_provider+"&n="+traffic_type+"&rd="+referring_domain;</p>
+<p>                    var query = get_query();</p>
+<p>                    if(query) {</p>
+<p>                        tracSessParams = tracSessParams + "&q=" + query;</p>
+<p>                    }</p>
+<p>                    var referring_url = get_referring_url();</p>
+<p>                    if(referring_url) {</p>
+<p>                        tracSessParams = tracSessParams + "&ru=" + encode(referring_url);</p>
+<p>                    }</p>
+<p>                    var user_agent = navigator.userAgent;</p>
+<p>                    if(user_agent) {</p>
+<p>                        tracSessParams = tracSessParams + "&ua=" + encode(user_agent);</p>
+<p>                    }</p>
+<p>                </p>
+<p>function downloadJSAtOnload(){var element, js;element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/sn.php?out=js&t=Poultry+exports+hit+after+flu+outbreak+in+Odhisa%2C+Meghalaya&u=http%3A%2F%2Feconomictimes.indiatimes.com%2Fmarkets%2Fcommodities%2Fpoultry-exports-hit-after-flu-outbreak-in-odhisa-meghalaya%2Farticleshow%2F11505383.cms%3Fintenttarget%3Dno&l=AddThis%3B&i=mod-sm-badge-top-defer&p=EconomicTimes");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/sn.php?out=js&t=Poultry+exports+hit+after+flu+outbreak+in+Odhisa%2C+Meghalaya&u=http%3A%2F%2Feconomictimes.indiatimes.com%2Fmarkets%2Fcommodities%2Fpoultry-exports-hit-after-flu-outbreak-in-odhisa-meghalaya%2Farticleshow%2F11505383.cms%3Fintenttarget%3Dno&l=Twitter_Large-Facebook_RecommendLarge-StumbleUpon_Large-&i=mod-sm-badge-defer&p=EconomicTimes");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/modal/modal.js.php?i=mod-article-image&g=false&c=30631752&j=10&p=EconomicTimes&b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/featured-image-offset.js.php?id=mod-article-image-lt&z=b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/featured-image-offset.js.php?id=mod-article-image-ct&z=b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/featured-image-offset.js.php?id=mod-article-image-rt&z=b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);}if (window.addEventListener){window.addEventListener("load", downloadJSAtOnload, false);}else if (window.attachEvent){window.attachEvent("onload", downloadJSAtOnload);}else window.onload = downloadJSAtOnload;window.google_analytics_uacct = "UA-21462242-2";</p>
+<p>            function resizeNav(iframe) {</p>
+<p>                // set the domain to same as nav to fix cross site scripting           </p>
+<p>                document.domain = 'indiatimes.com'; </p>
+<p>            </p>
+<p>                // get height of their header (drawn different heights if sub sections)</p>
+<p>                var iframes = document.getElementById('mod-nav').getElementsByTagName('iframe');</p>
+<p>                if (iframes == null || iframes.length == 0) return;</p>
+<p>                var header = iframes[0].contentWindow.document.getElementById('header');</p>
+<p>                if (header == null) return;</p>
+<p>                var navHeight = header.offsetHeight;</p>
+<p>                // update the iframe height</p>
+<p>                if (iframe.style.setAttribute) iframe.style.setAttribute('height', navHeight);</p>
+<p>                else iframe.style.height = navHeight + 'px';</p>
+<p>            }</p>
+<p>            You are here: Home>Collections/* Javascript deferred */var addthis_options = "digg, twitter, facebook, stumbleupon, delicious, friendfeed, buzz, slashdot, reddit, mixx, fark, linkedin, aim, google, myspace, newsvine, technorati, tumblr, typepad, wordpress, more";var addthis_exclude = "print";var addthis_pub     = "archivedigger";/* Javascript deferred */var addthis_options = "digg, twitter, facebook, stumbleupon, delicious, friendfeed, buzz, slashdot, reddit, mixx, fark, linkedin, aim, google, myspace, newsvine, technorati, tumblr, typepad, wordpress, more";var addthis_exclude = "print";var addthis_pub     = "archivedigger";Poultry exports hit after flu outbreak in Odhisa, MeghalayaPK Krishnakumar & Madhvi Sally, ET Bureau Jan 16, 2012, 03.47AM ISTTags:Suguna Poultry Farms|Poultry Federation of IndiaKOCHI/CHANDIGARH: Poultry companies are exercising caution with the outbreak of bird flu in parts of Odisha and Meghalaya, though they think it could be temporary and may not spread to other regions. But egg exporters aren't lucky thanks to an export ban in place for the next six months. Bird cull which began in the two states is expected to carry on for a few days. The two states have put a quarantine procedure in place. var adSkipCounter = 0; </p>
+<p> //<![CDATA[</p>
+<p>  var loc = window.location.href + "";</p>
+<p>  var float = "";</p>
+<p>  google_hints = "bird flu";google_ad_client="pub-3198794349084862";</p>
+<p>google_ad_output="js";</p>
+<p>google_ad_channel="9368733403,1452943742,7028594945,3387383912";</p>
+<p>google_ad_type="text";</p>
+<p>google_image_size="300x250";</p>
+<p>google_safe="high";</p>
+<p>google_feedback="on";</p>
+<p>google_max_num_ads="4";</p>
+<p>google_skip="" + adSkipCounter + "";</p>
+<p>google_adtest="off";</p>
+<p>google_page_url=document.URL;</p>
+<p>function google_ad_request_done(ads) {</p>
+<p>  if (ads.length == 0) { return; } // If no ads are returned then dont build the ad block</p>
+<p>  if (ads[0].bidtype == "CPC") { adSkipCounter += ads.length; } // Increment ad skip counter when cpc</p>
+<p>  google_ad_request_done_internal(ads, "", "", "true", "custom_medium_rectangle", "", "", "pgtp=article&kwInURL=true&pi=73&ci=30631752&cat=animals&pe_id=30631752&tv=ap-ET_Blended_Ads&et_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9368733403&rnrcn=g7-ET-Property&rncci=1452943742&rnccn=g7-animals&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=3387383912&rnlcn=3387383912&rnp=c&rt=cpc&paidClick=1&placement_id=ctr-lt-in-top", "", "", "", "", "", "ap-ET_Blended_Ads", "The Economic Times");</p>
+<p>}</p>
+<p>//]]></p>
+<p> Coimbatore-based Suguna Poultry, which has a market share of 15% in the Rs 600-crore poultry industry of Odisha, is watching the situation. Sales have not been impacted yet. "Our business is concentrated in Cuttack and Bhubaneswar, where the flu has not spread so far," said B Soundararajan, managing director of Suguna Poultry Farms. Its supply to Meghalaya from its unit in Assam too hasn't been affected. Suguna is India's largest broiler chicken producer with about 70 lakh birds and claims to be the world's 10th biggest. Andhra Pradesh, a major supplier of poultry products to Odisha, has seen a slowdown in sales. "We sell about 3 lakh hatching eggs and chicks to Odisha. This has been hit," said Ram Reddy, president of Andhra Pradesh Poultry Breeders Association. Venkateshwara Hatcheries, which has a good presence in the Northeastern states, has stopped supplies as a precautionary measure. "We sell around 40,000 eggs a day to parts of the Northeast, of which Meghalaya accounts for around 15%. At the outbreak of the bird flu, we have stopped our supplies for the time being," said T Venkateshwara Rao, a director with the company. The regions bordering Bangladesh have been susceptible to avian flu. "In the past seven months, poultry exports from India have been banned due to the outbreak of bird flu in West Bengal and the Northeast. We were just receiving export orders from Middle East countries when the Indian government confirmed bird flu. Exports will not be allowed now," said Poultry Federation of India president Satish Pal. India export poultry products to the Middle East and Saarc countries from Andhra Pradesh, Karnataka and Maharashtra.</p>
+<p> //<![CDATA[</p>
+<p>  var loc = window.location.href + "";</p>
+<p>  var float = "";</p>
+<p>  google_hints = "bird flu";google_ad_client="pub-3198794349084862";</p>
+<p>google_ad_output="js";</p>
+<p>google_ad_channel="9368733403,1452943742,3753008717,3387383912";</p>
+<p>google_ad_type="text";</p>
+<p>google_image_size="600x125";</p>
+<p>google_safe="high";</p>
+<p>google_feedback="on";</p>
+<p>google_max_num_ads="2";</p>
+<p>google_skip="" + adSkipCounter + "";</p>
+<p>google_adtest="off";</p>
+<p>google_page_url=document.URL;</p>
+<p>function google_ad_request_done(ads) {</p>
+<p>  if (ads.length == 0) { return; } // If no ads are returned then dont build the ad block</p>
+<p>  if (ads[0].bidtype == "CPC") { adSkipCounter += ads.length; } // Increment ad skip counter when cpc</p>
+<p>  google_ad_request_done_internal(ads, "", "", "true", "wide_rectangle", "", "", "pgtp=article&kwInURL=true&pi=73&ci=30631752&cat=animals&pe_id=30631752&tv=ap-ET_Blended_Ads&et_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9368733403&rnrcn=g7-ET-Property&rncci=1452943742&rnccn=g7-animals&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=3387383912&rnlcn=3387383912&rnp=c&rt=cpc&paidClick=1&placement_id=a-body-after-first-para-ad-cpc", "", "", "", "", "", "ap-ET_Blended_Ads", "The Economic Times");</p>
+<p>}</p>
+<p>//]]></p>
+<p>FEATURED ARTICLESNew iPhone 4S? No thanks, say cash-conscious Europeans14 lakh Aakash Tablets booked in 14 daysAuto Expo 2012: SUVs from M&M, Renault, Ford, Maruti & PremierMore:Mahindra XUV 500 launched at a starting price of Rs 10.8 lakhHow to choose the best infrastructure bonds this tax-saving seasonTata Indica eV2 launched at a starting price of Rs 2.95 lakhAakash: World's cheapest tablet launched; to be sold for $60 in retailAuto Expo 2012: SUVs from Renault, Ford and Maruti Suzuki emerge as new hot categoryWant to invest in infrastructure bonds? Do it now, don't wait for better yields</p>
+<p>            function resizeComment(iframe) {</p>
+<p>                // set the domain to same as nav to fix cross site scripting</p>
+<p>                document.domain = 'indiatimes.com';</p>
+<p>                // get height of their header (drawn different heights if sub sections)</p>
+<p>                var iframes = document.getElementById('mod-readers-comment').getElementsByTagName('iframe');</p>
+<p>                if (iframes == null || iframes.length == 0) return;</p>
+<p>                var header = iframes[0].contentWindow.document.getElementById('cmtMainBox');</p>
+<p>                if (header == null) return;</p>
+<p>                var navHeight = header.offsetHeight;</p>
+<p>                // update the iframe height</p>
+<p>                if (iframe.style.setAttribute) iframe.style.setAttribute('height', navHeight);</p>
+<p>                else iframe.style.height = navHeight + 'px';</p>
+<p>            }</p>
+<p>            </p>
+<p> //<![CDATA[</p>
+<p>  var loc = window.location.href + "";</p>
+<p>  var float = "";</p>
+<p>  google_hints = "bird flu";google_ad_client="pub-3198794349084862";</p>
+<p>google_ad_output="js";</p>
+<p>google_ad_channel="9368733403,1452943742,7752900078,3387383912";</p>
+<p>google_ad_type="text,image";</p>
+<p>google_image_size="300x250";</p>
+<p>google_safe="high";</p>
+<p>google_feedback="on";</p>
+<p>google_max_num_ads="4";</p>
+<p>google_skip="" + adSkipCounter + "";</p>
+<p>google_adtest="off";</p>
+<p>google_page_url=document.URL;</p>
+<p>function google_ad_request_done(ads) {</p>
+<p>  if (ads.length == 0) { return; } // If no ads are returned then dont build the ad block</p>
+<p>  if (ads[0].bidtype == "CPC") { adSkipCounter += ads.length; } // Increment ad skip counter when cpc</p>
+<p>  google_ad_request_done_internal(ads, "", "", "true", "medium_rectangle", "", "", "pgtp=article&kwInURL=true&pi=73&ci=30631752&cat=animals&pe_id=30631752&tv=ap-ET_Blended_Ads&et_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9368733403&rnrcn=g7-ET-Property&rncci=1452943742&rnccn=g7-animals&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=3387383912&rnlcn=3387383912&rnp=c&rt=cpc&paidClick=1&placement_id=left-sky", "", "", "", "", "", "ap-ET_Blended_Ads", "The Economic Times");</p>
+<p>}</p>
+<p>//]]></p>
+<p> </p>
+<p>var RN = new String (Math.random());</p>
+<p>var RNS = RN.substring (2,11);</p>
+<p>document.write('<iframe src=\"http://adstil.indiatimes.com/RealMedia/ads/adstream_sx.ads/www.economictimes.com/ET2010_PerfectMarket/index.html/1'+RNS+'@Right1?\" WIDTH=300 HEIGHT=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=\"#000000\"> </iframe>')RELATED ARTICLESCentre to put poultry exports back on trackJuly 7, 2006Avian flu threat fails to quell appetite for chickenOctober 20, 2005Avian flu-free status to boost poultry exportsAugust 14, 2006© 2012 Bennett, Coleman & Co. Ltd. All rights reservedIndex by Keyword|Index by Datewww.economictimes.comFeedback|Privacy Policy|Terms of Use|Advertise with us</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-21462242-2']);</p>
+<p>  _gaq.push(['_setVar', 'Template-ap-ET_Blended_Ads']);</p>
+<p>  _gaq.push(['_setCustomVar', 1, 'Template', 'Template-ap-ET_Blended_Ads', 3]);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-198011-5']);</p>
+<p>  _gaq.push(['_setDomainName', '.indiatimes.com']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p> </p>
+<p>		    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>		</p>
+<p>			 </p>
+<p>		  COMSCORE.beacon({</p>
+<p>		    c1:2,</p>
+<p>		    c2:6036484,</p>
+<p>		    c3:"",</p>
+<p>		    c4:"",</p>
+<p>		    c5:"",</p>
+<p>		    c6:"",</p>
+<p>		    c15:"" });</p>
+<p>		</p>
+<p>var _sf_async_config={uid:10538,domain:"articles.economictimes.indiatimes.com"};</p>
+<p>		(function(){</p>
+<p>		  function loadChartbeat() {	</p>
+<p>	          window._sf_endpt=(new Date()).getTime();</p>
+<p>		    var e = document.createElement('script');</p>
+<p>		    e.setAttribute('language', 'javascript');	</p>
+<p>		    e.setAttribute('type', 'text/javascript');</p>
+<p>		    e.setAttribute('src', (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") + "static.chartbeat.com/js/chartbeat.js");				    document.body.appendChild(e);	</p>
+<p>				  }			</p>
+<p>	  var oldonload = window.onload;		</p>
+<p>	  window.onload = (typeof window.onload != 'function') ?    loadChartbeat : function() {</p>
+<p>		 oldonload(); </p>
+<p>		loadChartbeat(); };			</p>
+<p>		})();				</p>
+<p> </p>
+<p> </p>
+<p> var pvar = { cid: "in-timesinternet", content: "0", server: "secure-uk" };</p>
+<p> var trac = nol_t(pvar);</p>
+<p> trac.record().post();</p>
+<p>                      //<![CDATA[</p>
+<p>                      document.write("<iframe onload=\"params='"+window.tracSessParams+"&pgtp=article&kwInURL=true&pi=73&ci=30631752&cat=animals&pe_id=30631752&tv=ap-ET_Blended_Ads&et_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9368733403&rnrcn=g7-ET-Property&rncci=1452943742&rnccn=g7-animals&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=3387383912&rnlcn=3387383912&rnp=c&rt=cpc&pageLoad=1';tracker();params='';\" frameborder=\"0\" width=\"0\" height=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"position:absolute;display:none;overflow-x:hidden;overflow-y:scroll;\"></iframe>");</p>
+<p>                      //]]></p>
+<p>                    </p>

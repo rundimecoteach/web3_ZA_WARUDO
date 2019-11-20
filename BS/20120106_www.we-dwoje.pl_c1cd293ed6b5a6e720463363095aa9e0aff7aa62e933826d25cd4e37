@@ -1,0 +1,223 @@
+<p> </p>
+<p>Pneumokoki - szczepić czy nie? > Profilaktyka</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('..fqHzQXN5W.gB4LxbAhIpSsLW_6247wLmK22DbKBeL.k7');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'zdrowie', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_big_board_board1_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 367;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_zdrowie");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Zdrowie</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_zdrowie");</p>
+<p>	</p>
+<p>Zdrowie</p>
+<p>Uroda Moda Seks Lifestyle</p>
+<p>Ślub Dziecko Kulinaria Dom więcej</p>
+<p>Warto wiedziećChorobyDietaMedycyna naturalnaProfilaktykaLeki i preparatyABC PacjentaBaza aptekBaza ZOZ Zdrowie Forum </p>
+<p>ZdrowieProfilaktykaPneumokoki - szczepić czy nie? </p>
+<p>	</p>
+<p>	var WinWidth = $(window).width();</p>
+<p>	</p>
+<p>	if(document.screening == 0 && WinWidth >= 1356){</p>
+<p>	GA_googleFillSlot("we2_sky1_sky1_zdrowie");	</p>
+<p>	}</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_zdrowie");</p>
+<p>Profilaktyka13 Sty 2012kom. (2)167Sylwia MikołajczakPneumokoki - szczepić czy nie?</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_zdrowie");</p>
+<p>Wiele osób staje przed tym dylematem. Ta ostatnio bardzo popularna bakteria powodująca wiele poważnych chorób spędza sen z powiek wielu rodzicom. Co to są właściwie pneumokoki i jakie zagrożenia niosą ze sobą?</p>
+<p>Co to są pneumokoki?</p>
+<p>	Dwoinka zapalenia płuc, popularnie pneumokok, jest bakterią należąca do rodziny paciorkowców. U dzieci powoduje zapalenie opon mózgowych, a u osób z obniżoną odpornością zapalenie płuc. Została odkryta już w 1881 roku, ale to od XXI wieku obserwuje się znaczny wzrost zakażeń dwoinką, stąd też w ostatnich latach tak intensywna kampania edukacyjna na temat szczepień przeciwko pneumokokom. Według danych Światowej Organizacji Zdrowia (WHO) infekcje wywołane przez pneumokoki prowadzą co roku do śmierci miliona dzieci poniżej piątego roku życia. W Polsce z powodu sepsy, zapalenia płuc i zapalenia opon mózgowych wywołanych przez pneumokoki umiera około 28-71 dzieci.</p>
+<p>	Najwięcej zachorowań przypada na okres jesienno-zimowy. Do zakażenia dochodzi drogą kropelkową. Do najczęstszych chorób wywołanych przez pneumokoki należą:</p>
+<p>		zapalenie opon mózgowo-rdzeniowych</p>
+<p>		zapalenie mózgu</p>
+<p>		zapalenie płuc</p>
+<p>		sepsa</p>
+<p>		zapalenie zatok przynosowych</p>
+<p>		zapalenie ucha środkowego</p>
+<p>		zapalenie wsierdzia</p>
+<p>		bakteriemia</p>
+<p>Lepiej zapobiegać niż leczyć</p>
+<p>	Leczenie niestety jest dość trudne, gdyż szacuje się, że 30% szczepów pneumokokowych jest odpornych na penicyliny i erytromycynę. Na szczęście naukowcom udało się stworzyć szczepionkę o wysokiej skuteczności w zapobieganiu występowania zakażeń pneumokokowych. W 2006 roku szczepionka została wprowadzona na listę szczepień zalecanych, niestety nierefundowanych.</p>
+<p>Ważne! Szczepionki przeciw pneumokokom dostępne na naszym ryku sa całkiem bezpieczne i nie zawierają niebezpiecznego dla zdrowia tiomersalu (związek rtęci o właściwościach stabilizujących preparaty szczepionkowe, który w dużych dawkach wywiera działanie toksyczne na układ nerwowy).</p>
+<p>	13-walentną szczepionkę skoniugowaną, dostępną na rynku od 2010 roku, można stosować u dzieci już od szóstego tygodnia życia. Szczepionkę podaję się głęboko domięśniowo. Do organizmu dziecka wprowadza się niewywołujący zakażenia fragment bakterii, co stymuluje układ odpornościowy do wytworzenia reakcji immunologicznej. Po szczepieniu mogą wystąpić reakcje poszczepienne, takie jak zaczerwienienie i ból w okolicach iniekcji, gorączka, senność, brak apetytu.</p>
+<p>	Szczepienie powinno być kilkudawkowe, by zwiększyć jego skuteczność. Poniżej znajduje się schemat szczepienia dzieci szczepionką 13-walentną.</p>
+<p>Wiek dziecka</p>
+<p>Ilość dawek</p>
+<p>Odstępy pomiędzy dawkami</p>
+<p>				6. tydzień - 6. miesiąc życia</p>
+<p>				4</p>
+<p>				1 miesiąc</p>
+<p>				7. - 11. miesiąc życia</p>
+<p>				3</p>
+<p>				co najmniej 1 miesiąc, 3. dawka w 2. roku życia</p>
+<p>				12. - 23. miesiąc życia</p>
+<p>				2</p>
+<p>				co najmniej 2 miesiące</p>
+<p>				2. - 5. rok życia</p>
+<p>				1</p>
+<p>				 -</p>
+<p>	Choć wszystko przemawia za tym, by zaszczepić dziecko przeciwko pneumokokom, to jednak bardzo często rodzice nie decydują się na to, ze względu na bardzo wysoki koszt szczepionki (cena jednej dawki to około 280 zł). W niektórych województwach realizowany był program bezpłatnych szczepień finansowany z puli samorządowej. Niestety program ten obejmował tylko noworodków przedwcześnie urodzonych. Od 2012 roku nastąpiły zmiany w kalendarzu szczepień i bezpłatne obowiązkowe szczepienia przeciw pneumokokom obejmą również wszystkie wcześniaki do ukończenia 1. roku życia (urodzone po 30 września 2011 r.) oraz dzieci do 5. roku życia, które są przewlekle chore na serce, płuca, nerki, śledzionę, mają cukrzycę oraz inne schorzenia metaboliczne. Miejmy jednak nadzieję, że z czasem szczepienie to będzie bezpłatne dla wszystkich dzieci. </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_zdrowie");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_zdrowie");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123455.00/1  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Profilaktyka</p>
+<p>		Jak zaczyna się przeziębienie?	</p>
+<p>	Dla wielu osób zmarznięcie stóp kończy się przeziębieniem....</p>
+<p>	</p>
+<p>		Zadbaj o wzrok!	</p>
+<p>		Czy wyroby plastikowe są szkodliwe...	</p>
+<p>		Choroby psychiczne - co trzeba o nich...	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Tagi</p>
+<p>profilaktyka</p>
+<p>zapalenie płuc</p>
+<p>pneumokoki</p>
+<p>bakteria</p>
+<p>zapalenie mózgu</p>
+<p>sepsa</p>
+<p>posocznica</p>
+<p>zapalenie opon mózgowych</p>
+<p>zapalenie wsierdzia</p>
+<p>stop pneumokokom</p>
+<p>kalendarz szczepień</p>
+<p>szczepienia przeciwko pneumokokom</p>
+<p>zapalenie zatok przynosowych</p>
+<p>dwoinka zapalenia płuc</p>
+<p>szczepienia zalecane</p>
+<p>bakteriemia</p>
+<p>Skomentuj Pneumokoki - szczepić czy nie?function valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (2) - Pneumokoki - szczepić czy nie?Piątek | 13 Sty 12, 09:230    nie oceniono 0Gość We-Dwoje.plRe: Pneumokoki - szczepić czy nie?ja zaszczepiłam :) ale rotawirusy odpuściłamSkomentuj wypowiedźPiątek | 13 Sty 12, 08:270    nie oceniono 0Gość We-Dwoje.plRe: Pneumokoki - szczepić czy nie?moje dziecko do tej pory jest na oiomie po tej cudownej szczepionce na pneumokoki! o powikłaniach szczepień tez trzeba pisać!Skomentuj wypowiedź</p>
+<p>Podobne do Pneumokoki - szczepić czy nie?Szczepienia przeciw pneumokokom i rota...Mam 2-miesięcznego synka i zastanawiam się nad płatnymi szczepieniami przeciwko pneumokokom i rota wirusom. Pomijając ich wysoką cenę zastanawiam się czy powinnam szczepić dziecko na te dwie choroby.więcej0.00/ 03032Skomentuj  (2)Pokonaj pneumokokiNajczęstszą przyczyną wszystkich bakteryjnych powikłań pogrypowych są pneumokoki, bakterie powszechnie występujące u dzieci. Lekarze alarmują: grupą szczególnie narażoną na te groźne powikłania (wtórne zakażenia...więcej0.00/ 021Skomentuj  (0)PneumokokiW najnowszym “Weekly Epidemiological Record” WHO alarmuje, że choroby pneumokokowe są główną przyczyną zachorowalności i umieralności dzieci we wszystkich krajach na świecie.więcej0.00/ 0488Skomentuj  (0)Cięcie cesarskie po grypie AH1N1W 5 miesiącu ciąży leżałam w szpitalu ze stwierdzoną i następnie wyleczoną grypą AH1N1, niestety po grypie wystąpiły powikłania.więcej0.00/ 0125Skomentuj  (0)Europa szczepi dzieci przeciwko...Choroby pneumokokowe zostały uznane przez Światową Organizację Zdrowia za jeden z najpoważniejszych problemów epidemiologicznych naszych czasów. Eksperci WHO rekomendują włączenie szczepień przeciwko pneumokokom...więcej5.00/ 1475Skomentuj  (1)Zobacz podobne do Pneumokoki - szczepić czy nie?</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column1_art1_zdrowie");</p>
+<p>	</p>
+<p>Fryzury na karnawał oraz studniówkęCo to jest odczulanie?Toczeń rumieniowaty układowy u ludzi starszychNajważniejsze triki makijażowe!Modna grzywka - hit 2012!</p>
+<p>Wydania We2.plwięcej »14StyJak zwalczyć nieśmiałość oraz Trendy w manicure na wiosnę</p>
+<p>Prosta i tania reklama w Internecie sprzedawana za pomocą AdTaily(PLALLADTAILY0002)</p>
+<p>Gorące tematyPopularneKomentowaneNoweJakie witaminy wybrać dla dziecka?Ile powinnam ważyć?Dna moczanowa - czym się objawia i jak się ją leczy?Na pomoc bolącym mięśniom i stawomToczeń rumieniowaty układowy u ludzi starszychZespół Smitha-Lemliego-Opitza</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_zdrowie");</p>
+<p>Galerie Kopertówki gwiazdNajmodniejsze spodnie na jesień-zimę...Szpieg (reż. Tomas Alfredson)Sukienki wieczorowe Adrianny Papell i... Popularne zdjęciaKolekcje, pokazyNajnowsza kolekcja Anny KrzyżanowskiejGalerie filmowe80 milionów (reż. Waldemar Krzystek)więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródBiżuteria ślubnaApart Sp. z o.o.Klub malucha - prywatny żłobek...BOHEMA HOTEL & SPA</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_zdrowie");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.4.1.1','');</p>
+<p>bmone2n.addPosition('177.4.2.2','');</p>
+<p>bmone2n.addPosition('177.4.7.3','');</p>
+<p>bmone2n.addPosition('177.4.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

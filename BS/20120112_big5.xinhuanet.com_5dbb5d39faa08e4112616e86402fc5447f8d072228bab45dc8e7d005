@@ -1,0 +1,123 @@
+<p>啥招？“看病送火車票”不僅揭了醫院的短_新華網山東頻道</p>
+<p><!--</p>
+<p>.1t12 {  font-size: 12px; color: #FFFFFF; text-decoration: none; line-height: 20px; font-family: "宋體"}</p>
+<p>.txt18 { font-family: "宋體"; font-size: 25px; text-decoration: none ; font-weight: bold}</p>
+<p>.p1 {  line-height: 180%; font-size: 16px; color: #000000; text-decoration: none; font-family: "宋體"}</p>
+<p>a:hover {  text-decoration: underline}</p>
+<p>.b4f {border: 1px #B9B9B9 solid;; padding-right: 5px; padding-left: 5px}/*方塊灰線*/</p>
+<p>.l12 {  font-size: 12px; color: #000066; text-decoration: none line-height: 20px; font-family: "宋體"}</p>
+<p>.box {  border: 1px #BCBCBC solid}</p>
+<p>.dh01 {  color: #8a0000; text-decoration: none; font-size: 13px}</p>
+<p>.dh02 {  color: #003183; text-decoration: none; font-size: 13px; font-weight: bolder; line-height: 120%}</p>
+<p>.dh03 {  color: #8a0000; text-decoration: none; font-size: 13px; font-weight: bolder; line-height: 120%}</p>
+<p>.lm01 {  font-size: 14px; font-weight: bold; color: 8A0000; text-decoration: none}</p>
+<p>.bt01 {  font-size: 13px; color: #0042AF; text-decoration: none}</p>
+<p>.biaoti02 {  font-size: 13px; color: #0042AF; text-decoration: none}</p>
+<p>--></p>
+<p><!--</p>
+<p>(function(ul, delay, speed, lineHeight) { </p>
+<p>var slideBox = (typeof ul == 'string')?document.getElementById(ul):ul; </p>
+<p>var delay = delay||1000; </p>
+<p>var speed=speed||20; </p>
+<p>var lineHeight = lineHeight||22; </p>
+<p>    var tid = null, pause = false; </p>
+<p>    var start = function() { </p>
+<p>     tid=setInterval(slide, speed); </p>
+<p>    } </p>
+<p>    var slide = function() { </p>
+<p>     if (pause) return; </p>
+<p>     slideBox.scrollTop += 2; </p>
+<p>     if (slideBox.scrollTop % lineHeight == 0) { </p>
+<p>         clearInterval(tid); </p>
+<p>         slideBox.appendChild(slideBox.getElementsByTagName('table')[0]); </p>
+<p>         slideBox.scrollTop = 0; </p>
+<p>         setTimeout(start, delay); </p>
+<p>        } </p>
+<p>    } </p>
+<p>    slideBox.onmouseover=function(){pause=true;} </p>
+<p>    slideBox.onmouseout=function(){pause=false;} </p>
+<p>    setTimeout(start, 2000); </p>
+<p>})('xhdx', 3000, 32, 22);//停留時間，相對速度（越小越快）,每次滾動多少，最好和Li的Line-height一致。 </p>
+<p>--></p>
+<p>    </p>
+<p>山東網群－</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>　您的位置： </p>
+<p>            首頁  >  博客  >  博客</p>
+<p>【字號</p>
+<p>大</p>
+<p>中</p>
+<p>小】</p>
+<p> 新華社傾力推出權威手機媒體服務,天下大事讓您盡在"掌"握!歡迎訂閱《新華手機報》《新華快訊》!</p>
+<p>訂閱《新華手機報》:移動發"XHSJB"到10658000,聯通發"KX"到106558000800,電信發"NEWS"到106597003。</p>
+<p>訂閱《新華快訊》:移動發送"KX"到10621200,聯通發送"01"到10621200,電信發送"KX"到106597003。</p>
+<p><!--</p>
+<p>(function(ul, delay, speed, lineHeight) { </p>
+<p>var slideBox = (typeof ul == 'string')?document.getElementById(ul):ul; </p>
+<p>var delay = delay||1000; </p>
+<p>var speed=speed||20; </p>
+<p>var lineHeight = lineHeight||22; </p>
+<p>    var tid = null, pause = false; </p>
+<p>    var start = function() { </p>
+<p>     tid=setInterval(slide, speed); </p>
+<p>    } </p>
+<p>    var slide = function() { </p>
+<p>     if (pause) return; </p>
+<p>     slideBox.scrollTop += 2; </p>
+<p>     if (slideBox.scrollTop % lineHeight == 0) { </p>
+<p>         clearInterval(tid); </p>
+<p>         slideBox.appendChild(slideBox.getElementsByTagName('table')[0]); </p>
+<p>         slideBox.scrollTop = 0; </p>
+<p>         setTimeout(start, delay); </p>
+<p>        } </p>
+<p>    } </p>
+<p>    slideBox.onmouseover=function(){pause=true;} </p>
+<p>    slideBox.onmouseout=function(){pause=false;} </p>
+<p>    setTimeout(start, 2000); </p>
+<p>})('xhdx', 3000, 32, 22);//停留時間，相對速度（越小越快）,每次滾動多少，最好和Li的Line-height一致。 </p>
+<p>--></p>
+<p>    </p>
+<p> </p>
+<p>              啥招？“看病送火車票”不僅揭了醫院的短</p>
+<p>            </p>
+<p> </p>
+<p>             2012-01-10 18:14:48　　　　　 來源：新華博客</p>
+<p>          </p>
+<p>  </p>
+<p>點擊進入>></p>
+<p>    8日10時許，網友“Boy阿繼”在微博上爆料：“看病送火車票，沒病都要去裝病啊！”該網友在這條微博下配了一幅圖，圖上一家“現代門診”字樣下的LED屏幕上清楚地顯示著：“共助春運，看病就送火車票”。這一口號立即引發網友關注。（1月9日福州晚報） </p>
+<p>    看病送火車票？誘惑力委實不小。春運“一票難求”讓很多人倍感糾結，瞅住這一機會招攬生意，這家醫院精明的商業頭腦讓人不能不嘆服，真是既替患者著想，又急旅客之所急，這樣的“菩薩心腸”簡直叫人感激涕零。 </p>
+<p>    然而，醫院的這一“妙招”，卻不經意間揭了自己的短：都說醫院最根本的職守是救死扶傷、治病救人，雖然為了自身生存和發展，可以追求一定的利益，但不能丟掉公益性這個根本屬性，否則，就成了純粹的商人。“看病送火車票”的促銷策略看似高明，既泄漏了醫院收費高、利潤大的秘密，又暴露出不擇手段、唯利是圖的姦商本性，這跟趁人之危、趁火打劫還有什麼區別？ </p>
+<p>    不只如此，所謂“共助春運”，不但表現出偽善，誰都清楚其醉翁之意不在春運，而是盯著患者的腰包；而且揭了春運部門的短，年年春運難，年年一票難求，春運部門都會說加強監管、服務，規范售票機制，請問，醫院哪來這麼多火車票用來招徠生意？是監管漏洞所致還是彼此之間的“合謀”？ </p>
+<p>    醫院看病送火車票，旅客不至于沒病裝病，不過，有關部門對這一促銷怪招背後隱藏啥貓膩，諸如醫院收費是否規范合理，用于促銷的火車票來路是否光明正大，等等，都有必要做出調查處理，決不能容忍任何破壞春運秩序或者借春運難宰客、發不義之財的行為。 （完）    </p>
+<p> </p>
+<p>              責任編輯  呂放</p>
+<p>            </p>
+<p> 　　【打印】　【關閉】  </p>
+<p>          </p>
+<p> </p>
+<p>相關新聞</p>
+<p>  </p>
+<p> </p>
+<p> </p>
+<p><!-----------</p>
+<p>   var enabled = 0;   today = new Date();</p>
+<p>   var day;   var date;</p>
+<p>      var centry ;   if(today.getDay()==0)     day = "星期日"</p>
+<p>   if(today.getDay()==1)     day = "星期一"</p>
+<p>   if(today.getDay()==2)     day = "星期二"</p>
+<p>   if(today.getDay()==3)     day = "星期三"</p>
+<p>   if(today.getDay()==4)     day = "星期四"</p>
+<p>   if(today.getDay()==5)     day = "星期五"</p>
+<p>   if(today.getDay()==6)     day = "星期六"</p>
+<p>      centry="";</p>
+<p>      if  (today.getFullYear()<2000 )  centry = "19" ;</p>
+<p>      date1 = centry + (today.getFullYear())  + "年" + (today.getMonth() + 1 ) + "月" + today.getDate() + "日  " ;</p>
+<p>   date2 = "" +  day ;</p>
+<p>   document.write( date1+date2);</p>
+<p>//-----></p>
+<p>  </p>
+<p>新聞熱線:(0531)-82024777</p>
+<p> </p>

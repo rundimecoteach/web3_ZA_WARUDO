@@ -1,0 +1,555 @@
+<p>Мировое лидерство в сфере туризма стало принадлежать Японии. Новости Азии, стран АТР на PrimaMedia</p>
+<p>// SeViR Simple Horizontal Accordion @2007</p>
+<p>// http://letmehaveblog.blogspot.com</p>
+<p>$(document).ready(function(){</p>
+<p>		$(window).resize(function(){</p>
+<p>		if (document.body.clientWidth <= 1250)</p>
+<p>		{</p>
+<p>		  $("#right-baner").hide();</p>
+<p>		  $("#left-baner").hide();</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>			$("#right-baner").show();</p>
+<p>			$("#left-baner").show();</p>
+<p>		}</p>
+<p>	});</p>
+<p>	$('input.but').live('mouseover', function(){ $(this).addClass('but_hover'); })</p>
+<p>	$('input.but').live('mouseout', function(){ $(this).removeClass('but_hover'); })</p>
+<p>	</p>
+<p>	// показ скртых банеров при загрузке стр</p>
+<p>	$('.banner-hidden').show();  </p>
+<p>});</p>
+<p>		<!--//<![CDATA[</p>
+<p>		if (document.body.clientWidth >= '1250')</p>
+<p>		{</p>
+<p>		     var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=216");</p>
+<p>   document.write ('&cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));</p>
+<p>   document.write ("&loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&mmm_fo=1");</p>
+<p>   document.write ("'></scr"+"ipt>");</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>			$("#left-baner").hide();</p>
+<p>		}</p>
+<p>		//]]>--></p>
+<p>	</p>
+<p>		<!--//<![CDATA[</p>
+<p>		if (document.body.clientWidth >= '1250')</p>
+<p>		{</p>
+<p>		     var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=217");</p>
+<p>   document.write ('&cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));</p>
+<p>   document.write ("&loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&mmm_fo=1");</p>
+<p>   document.write ("'></scr"+"ipt>");</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>			$("#right-baner").hide();</p>
+<p>		}</p>
+<p>		//]]>--></p>
+<p>	</p>
+<p>Новости													</p>
+<p>  </p>
+<p>Туризм															</p>
+<p>  </p>
+<p>ТВ													</p>
+<p>  </p>
+<p>Деньги													</p>
+<p>  </p>
+<p>Погода													</p>
+<p>  </p>
+<p>Объявления													</p>
+<p>  </p>
+<p>Сайты													</p>
+<p>  </p>
+<p>Афиша													</p>
+<p>  </p>
+<p>Справочник													</p>
+<p>  </p>
+<p>Знакомства													</p>
+<p>  </p>
+<p>Видео													</p>
+<p>    $(document).ready(function() {</p>
+<p>        $('.show-popup').click(function(){</p>
+<p>        $('.popup').hide();</p>
+<p>        var cont = $(this).attr('rel');</p>
+<p>        var pos = $(this).offset();</p>
+<p>        $(cont).css({</p>
+<p>            'left': 535,</p>
+<p>            'top': pos.top - 45</p>
+<p>        })</p>
+<p>        .fadeIn('normal');</p>
+<p>        return false;</p>
+<p>    });</p>
+<p>    $(document).click(function(e) {</p>
+<p>        var $clicked = $(e.target);</p>
+<p>        if (!$clicked.parents().hasClass('popup') ) {</p>
+<p>        $('.popup').hide();</p>
+<p>    }</p>
+<p>});</p>
+<p>$('.hide-popup').click(function(){</p>
+<p>  $('.popup').hide();</p>
+<p>  return false;</p>
+<p>});</p>
+<p>});</p>
+<p>Приморский край </p>
+<p>Приморский край</p>
+<p>Хабаровский край</p>
+<p>Сахалинская область</p>
+<p>Еврейская автономная область</p>
+<p>Иркутская область</p>
+<p>ВладивостокПриморьеДальний ВостокАТЭСАвтоСпортЭкономикаПолитикаHi-TechАзияЗдоровье</p>
+<p> Справочник</p>
+<p> Конференции</p>
+<p> Форум</p>
+<p>Перевозная.НЕТ</p>
+<p>Битва титанов</p>
+<p>Пешеход: остаться в живых</p>
+<p>Молоко убежало</p>
+<p>Архитектурное варварство</p>
+<p>Шоколадная война Сюжеты →</p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=125");</p>
+<p>   document.write ('&cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));</p>
+<p>   document.write ("&loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&mmm_fo=1");</p>
+<p>   document.write ("'></scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>4 апреля, 11:00</p>
+<p>Отправиться из Владивостока в круиз по Азии со скидкой до $2,2 тысяч могут приморцы  </p>
+<p>4 апреля, 10:50</p>
+<p>Лето без проблем организуют для юных приморцев в языковых школах в разных странах мира </p>
+<p>3 апреля, 15:00</p>
+<p>Китайские туристы полюбили Приморье за объекты саммита АТЭС-2012  </p>
+<p> 1</p>
+<p>1 апреля, 14:50</p>
+<p>Карта-буклет о российско-японских отношениях изменила представление о Владивостоке </p>
+<p>30 марта, 17:05</p>
+<p>Заявление КНДР о войне оказалось следствием неточности перевода </p>
+<p> </p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=221");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>Главная / Азия5 января 201215:25письмо в редакцию</p>
+<p>5 января 2012 15:25</p>
+<p>Мировое лидерство в сфере туризма стало принадлежать ЯпонииЭксперты COUNTRY BRAND INDEX 2011-2012 также высоко оценили уровень жизни и возможности для ведения бизнеса в Стране Восходящего СолнцаВладивосток, 5 января, PrimaMedia. Япония стала лидером в сфере туризма. К такому выводу пришла компания FutureBrand в рамках своего ежегодного индекса мировых туристических брендов COUNTRY BRAND INDEX. Япония также попала в десятку лучших стран по уровню жизни, а также в категориях "Благоприятно для бизнеса" и "Историческое и культурное наследие", сообщили РИА PrimaMedia в Японской национальной туристической организации.</p>
+<p>Составители индекса подчеркнули: "Возможно, это удивительно, но Япония вырвалась на первое место в сфере туризма и отвоевала 5 позиций в категории "Уровень жизни". Япония всегда была сильным туристическим брендом и пользуется невероятной популярностью среди деловых путешественников и отдыхающих. В период с марта по август 2011 года показатели въездного турпотока резко снизились, но по мере приближения к концу года этот спад становится не таким резким (по сравнению с показателями 2010 года)".</p>
+<p>Экономика туризма представляет способность страны к обеспечению доступных вариантов как для отдыхающих туристов, так и представителей бизнес-туризма. Национальная валюта, обменный курс, развитость инфраструктуры являются важными точками влияния на развитие сферы туриндустрии. Кроме того, освещение средствами массовой информации всех экономических и политических событий, имеющих место в страннее, также играет важную роль в сфере туризма. Кроме того, при составлении рейтинга в сфере туризма фиксируется уровень интереса к посещению страны и привлекательность природных и культурных туристических достопримечательностей, соотношение цены и качества услуг, востребованность курортных мест отдыха, наличие и качество пляжных мест, возможность совершать покупки.</p>
+<p>Лидерство Японии в туризме показало, что посещение достопримечательностей, курортов, отелей, соотношение цены и качества предлагаемых услуг - все это становится более доступным и положительно влияющим на развитие страны в трудные времена. В этом году в топ-10 вошли Италия, Испания, США, Франция, Швейцария, Таиланд, Австралия, Новая Зеландия и Мальдивы.var enc_slug = "%d0%9c%d0%b8%d1%80%d0%be%d0%b2%d0%be%d0%b5%20%d0%bb%d0%b8%d0%b4%d0%b5%d1%80%d1%81%d1%82%d0%b2%d0%be%20%d0%b2%20%d1%81%d1%84%d0%b5%d1%80%d0%b5%20%d1%82%d1%83%d1%80%d0%b8%d0%b7%d0%bc%d0%b0%20%d1%81%d1%82%d0%b0%d0%bb%d0%be%20%d0%bf%d1%80%d0%b8%d0%bd%d0%b0%d0%b4%d0%bb%d0%b5%d0%b6%d0%b0%d1%82%d1%8c%20%d0%af%d0%bf%d0%be%d0%bd%d0%b8%d0%b8"; var enc_short = "%d0%9c%d0%b8%d1%80%d0%be%d0%b2%d0%be%d0%b5%20%d0%bb%d0%b8%d0%b4%d0%b5%d1%80%d1%81%d1%82%d0%b2%d0%be%20%d0%b2%20%d1%81%d1%84%d0%b5%d1%80%d0%b5%20%d1%82%d1%83%d1%80%d0%b8%d0%b7%d0%bc%d0%b0%20%d1%81%d1%82%d0%b0%d0%bb%d0%be%20%d0%bf%d1%80%d0%b8%d0%bd%d0%b0%d0%b4%d0%bb%d0%b5%d0%b6%d0%b0%d1%82%d1%8c%20%d0%af%d0%bf%d0%be%d0%bd%d0%b8%d0%b8"; var descr = "%d0%ad%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d1%82%d1%8b%20%43%4f%55%4e%54%52%59%20%42%52%41%4e%44%20%49%4e%44%45%58%20%32%30%31%31%2d%32%30%31%32%20%d1%82%d0%b0%d0%ba%d0%b6%d0%b5%20%d0%b2%d1%8b%d1%81%d0%be%d0%ba%d0%be%20%d0%be%d1%86%d0%b5%d0%bd%d0%b8%d0%bb%d0%b8%20%d1%83%d1%80%d0%be%d0%b2%d0%b5%d0%bd%d1%8c%20%d0%b6%d0%b8%d0%b7%d0%bd%d0%b8%20%d0%b8%20%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d0%b8%20%d0%b4%d0%bb%d1%8f%20%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81%d0%b0%20%d0%b2%20%d0%a1%d1%82%d1%80%d0%b0%d0%bd%d0%b5%20%d0%92%d0%be%d1%81%d1%85%d0%be%d0%b4%d1%8f%d1%89%d0%b5%d0%b3%d0%be%20%d0%a1%d0%be%d0%bb%d0%bd%d1%86%d0%b0";Опечатка? Ctrl+EnterПечатьПереслатьВ блог</p>
+<p>Ваше имя: </p>
+<p>Ваш E-mail: *</p>
+<p>E-mail получателя: *</p>
+<p>Комментарий: (не более 200 символов, заполнять необязательно)</p>
+<p><!--</p>
+<p>function checkForm(theForm) {</p>
+<p>     if (theForm.f_name.value == "") {</p>
+<p>       alert("Нужно ввести свое им\я!");</p>
+<p>       theForm.f_name.focus();</p>
+<p>       return (false);</p>
+<p>     }</p>
+<p>     if (theForm.f_from.value == "") {</p>
+<p>       alert("Нужно ввести свой e-mail (адрес отправителя)!");</p>
+<p>       theForm.f_from.focus();</p>
+<p>       return (false);</p>
+<p>     }</p>
+<p>     if (theForm.f_email.value == "") {</p>
+<p>       alert("Нужно ввести адрес e-mail получател\я!");</p>
+<p>       theForm.f_email.focus();</p>
+<p>       return (false);</p>
+<p>     }</p>
+<p> 	return true;</p>
+<p>}</p>
+<p>//--></p>
+<p>var begun_auto_pad = 55141569;</p>
+<p>var begun_block_id = 205328874;</p>
+<p>$(document).ready(function() {</p>
+<p>		$(".gallery a").fancybox({</p>
+<p>			overlayShow: true,</p>
+<p>			overlayOpacity: 0.7</p>
+<p>		});</p>
+<p>		$(".news_img a.photo").fancybox({</p>
+<p>			overlayShow: true,</p>
+<p>			overlayOpacity: 0.7</p>
+<p>		});</p>
+<p>});</p>
+<p> </p>
+<p>Добавить комментарий</p>
+<p>Информация о комментариях к новостям. </p>
+<p>Тви</p>
+<p>  {lang: 'ru'}</p>
+<p>  VK.init({apiId: 2688696, onlyWidgets: true});</p>
+<p>VK.Widgets.Like("vk_like", {type: "mini", height: 20});</p>
+<p> ЖЖ</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=221325664560700";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>Нравится</p>
+<p>Читать @primamediaru</p>
+<p>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=126");</p>
+<p>   document.write ('&cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));</p>
+<p>   document.write ("&loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&mmm_fo=1");</p>
+<p>   document.write ("'></scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>$(document).ready(function(){</p>
+<p>	$('div.zoom').each(function(){</p>
+<p>		img_id = $(this).attr('rel');</p>
+<p>		top_zoom = $('img#img'+img_id).offset().top-30;</p>
+<p>		left_zoom = $('img#img'+img_id).width() + 91;</p>
+<p>		$(this).css({top:top_zoom, left:left_zoom});</p>
+<p>	});</p>
+<p>	$('div.zoom').css({opacity:0.7});</p>
+<p>	$(function(){</p>
+<p>    	if (!get_cookie('sid')) {</p>
+<p>    		$(".newscont").addtocopy({htmlcopytxt: '<br>Подробнее: <a href="'+window.location.href+'">'+window.location.href+'</a>', minlen:35, addcopyfirst: false});</p>
+<p>    	}</p>
+<p>  	});</p>
+<p>});</p>
+<p>Новости по теме: Япония туризм</p>
+<p>Сегодня, 17:25Олимпийская чемпионка Юлия Чепалова испытыва на себе прелести климата Хабаровского края</p>
+<p>Сегодня, 16:00За участие в выставке регионов на сочинской Олимпиаде ЕАО выложит более 4 млн рублей</p>
+<p> 09.04.2013, 18:40Центр детско-юношеского туризма Южно-Сахалинска будет реорганизован </p>
+<p> 08.04.2013, 15:30Лучшие туры мая предлагает сервис PrimaMedia.Travel жителям Приморья</p>
+<p> 08.04.2013, 08:00Молодежь ЕАО может поступить в летнюю Международную российско-польскую школу</p>
+<p>12345вперед в конец <!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=159");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>var begun_auto_pad = 54988624;</p>
+<p>var begun_block_id = 134700632;</p>
+<p>Последние новости в рубрике:Сегодня, 16:30</p>
+<p>Врачи ведущего госпиталя Азии проведут бесплатные консультации во ВладивостокеСегодня, 15:20</p>
+<p>Южная Корея обвиняет КНДР в кибератаках08.04.2013, 15:30</p>
+<p>Лучшие туры мая предлагает сервис PrimaMedia.Travel жителям Приморья07.04.2013, 11:30</p>
+<p>"Повлиять на КНДР" попросил Китай генеральный секретарь ООН Пан Ги Мун06.04.2013, 16:40</p>
+<p>Нельзя искать причины нарастания напряженности только в действиях КНДР – эксперт05.04.2013, 22:40</p>
+<p>Отряды кораблей Тихоокеанского флота встретились в Южно-Китайском море05.04.2013, 17:10</p>
+<p>Тело приморской туристки, погибшей в Суйфэньхэ, доставят во Владивосток05.04.2013, 09:25</p>
+<p>Армия Китая направляет военную технику к приграничным с КНДР территориям04.04.2013, 16:45</p>
+<p>Новогодние праздники в Таиланде предстанут в 12-ти ипостасях04.04.2013, 14:10</p>
+<p>Лихорадку Денге подхватили 29 россиян, отдыхавших в Таиланде в январе 04.04.2013, 11:00</p>
+<p>Отправиться из Владивостока в круиз по Азии со скидкой до $2,2 тысяч могут приморцы 04.04.2013, 10:50</p>
+<p>Лето без проблем организуют для юных приморцев в языковых школах в разных странах мира04.04.2013, 08:50</p>
+<p>Северная Корея запретила въезд южнокорейских рабочих в индустриальную зону Кэсон03.04.2013, 15:00</p>
+<p>Китайские туристы полюбили Приморье за объекты саммита АТЭС-2012 03.04.2013, 08:45</p>
+<p>Северная Корея планирует вновь запустить свой ядерный реактор01.04.2013, 14:50</p>
+<p>Карта-буклет о российско-японских отношениях изменила представление о Владивостоке01.04.2013, 12:30</p>
+<p>Образование в Японии не теряет популярности среди приморской молодежи31.03.2013, 13:00</p>
+<p>Япония призывает Северную Корею к проявлению сдержанности31.03.2013, 11:00</p>
+<p>Приморской питьевой водой интересуются китайцы - эксперт31.03.2013, 10:00</p>
+<p>Лечиться за рубежом приморцам лучше под "крышей" туристической фирмы - эксперт30.03.2013, 17:05</p>
+<p>Заявление КНДР о войне оказалось следствием неточности перевода30.03.2013, 11:35</p>
+<p>Власти КНДР заявили, что вступили в "состояние войны" с Южной Кореей29.03.2013, 17:30</p>
+<p>Приморцы могут выбрать недорогие туры в Санья 29.03.2013, 16:30</p>
+<p>На защиту туристов стали власти Таиланда и России 29.03.2013, 12:30</p>
+<p>Защиту прав российских потребителей обсудили в приграничном Китае29.03.2013, 12:25</p>
+<p>Мобильный интернет в КНДР перестал был доступным для иностранных туристов 29.03.2013, 10:30</p>
+<p>Глава КНДР подписал план подготовки войск к нанесению удара по военным базам США 29.03.2013, 09:50</p>
+<p>Фестиваль лотосовых фонарей в Сеуле приближает буддийскую культуру к туристам28.03.2013, 14:35</p>
+<p>Власти Суйфэньхэ рассказали всю правду о гибели жительницы Приморья 28.03.2013, 10:15</p>
+<p>МИД КНДР: Корейский полуостров находится на грани ядерной войны</p>
+<p>			$(document).ready(function() {</p>
+<p>				$("#best-news .item").hover(function() {</p>
+<p>					$(".item").addClass("close");</p>
+<p>					$(this).removeClass("close");</p>
+<p>				});</p>
+<p>			});</p>
+<p>		</p>
+<p>Отличные условия отдыха созданы для россиян на Гуаме  </p>
+<p> 2</p>
+<p>Около тысячи домов разрушены градом в Центральном и Южном Китае </p>
+<p>Туриста из России обокрали в отеле Таиланда на 100 тысяч рублей </p>
+<p> 1</p>
+<p><!--</p>
+<p>	var selectedVariants = 0;</p>
+<p>	function updateVote(el) {</p>
+<p>	  f = document.form_vote;</p>
+<p>	  if (f.elements[el].checked==true) selectedVariants++;</p>
+<p>	  else selectedVariants--;</p>
+<p>	  if (selectedVariants>2) {</p>
+<p>		f.elements[el].checked=false;</p>
+<p>		alert("Превышено допустимое количество одновременно выбранных вариантов!");</p>
+<p>		selectedVariants--;</p>
+<p>	  }</p>
+<p>	}</p>
+<p>	function updateVoteSingle(el) {</p>
+<p>	  f = document.form_vote;</p>
+<p>	  if (f.f_answer[el].checked==true) selectedVariants=1;</p>
+<p>	}</p>
+<p>	function checkVote(theForm) {</p>
+<p>	  f = document.form_vote;</p>
+<p>	  if (selectedVariants<1 && f.f_answer_own.value == "") {</p>
+<p>		alert("Необходимо выбрать вариант ответа!");</p>
+<p>		return (false);</p>
+<p>	  }</p>
+<p>	  return (true);</p>
+<p>	}</p>
+<p>	//--></p>
+<p>Опрос</p>
+<p>На какую сферу в Приморье губернатору следует обратить особое внимание?</p>
+<p> Здравоохранение </p>
+<p> Образование </p>
+<p> Малый и средний бизнес </p>
+<p> Промышленные производства </p>
+<p> ЖКХ </p>
+<p> Жилищное строительство </p>
+<p> Туризм </p>
+<p> Рыбная отрасль </p>
+<p> Сельское хозяйство </p>
+<p> Культура </p>
+<p> Зачем? У нас и так все хорошо </p>
+<p>Количество вариантов, которое допускается выбрать одновременно: 2<!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=124");</p>
+<p>   document.write ('&cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));</p>
+<p>   document.write ("&loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&mmm_fo=1");</p>
+<p>   document.write ("'></scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>Конференции</p>
+<p>с 9 апреля</p>
+<p>Недоступная "доступность" массового спорта в ПриморьеПопытки возродить в России массовый и доступный спорт пока не приносят нужного результата. Вместо бесплатных спортивных секций и современных спортивных площадок во дворах – почти насильный «загон» населения в «здоровый образ жизни», вместо привития физической культуры – введение обязательной сдачи нормативов ГТО. Свое видение развития в Приморье массового и профессионального спорта обозначит директор департамента физкультуры и спорта Приморского края Жан Кузнецов.</p>
+<p>Задать вопрос</p>
+<p>с 21 ноября</p>
+<p>Интернет-право: шаг влево, шаг вправо – судДля СМИ и информационных сайтов в сети Интернет правовая база только формируется, но уже и сейчас есть свои нюансы и особенности. </p>
+<p>Если у вас есть вопросы по обозначенной тематике, вы можете задать их специалисту – медиа-юристу, эксперту по авторскому и смежному праву Галине Антонец.</p>
+<p>Задать вопрос</p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=161");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://x.primamedia.ru/www/delivery/ajs.php':'http://x.primamedia.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=215");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>Актуальные комментарии</p>
+<p>5 марта, 14:10</p>
+<p>От деятельности компании "Красный дракон" обезопасят приморских туристов</p>
+<p>За нарушения законодательства приморскими турфирмами их исключат из списка туроператоров, работающих в рамках соглашения на российско-китайском направлении </p>
+<p>От первого лица</p>
+<p>27 марта, 10:00</p>
+<p>Марина Немирова: Уникальные туры всегда будут востребованы среди любителей путешествий</p>
+<p>"Клуб 7 вершин" позволяет туристам взглянуть на мир с высот известных вершин разных стран и континентов </p>
+<p>Публикации</p>
+<p>10.04.2013</p>
+<p>22.01.2013</p>
+<p>Выбираем наряды и аксессуары на свадьбу</p>
+<p>19.09.2012</p>
+<p>Тайланд добро пожаловать на Самуи!</p>
+<p>27.03.2011</p>
+<p>Бронзовые статуэтки - хороший подарок</p>
+<p>28.05.2010</p>
+<p>Радиоуправляемые игрушки-роботы в нашей жизни</p>
+<p>Новости finance.comon.ru</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.finance.comon.ru/data/js/71254.js'; sc.charset = 'utf-8';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>ГлавноеВладивостокПриморьеАТЭСАвтоСпортЭкономикаПолитикаHi-TechАзияЗдоровье</p>
+<p>Актуальный комментарий</p>
+<p>От первого лица</p>
+<p>Размещение рекламы</p>
+<p>О нас / Контакты</p>
+<p>Вакансии</p>
+<p>Сервисы / Рассылка</p>
+<p>Ваши идеи и предложения</p>
+<p>Правила сайта</p>
+<p>Партнеры</p>
+<p>Публикации</p>
+<p>Извещения о конкурсах</p>
+<p>Прислать новость</p>
+<p>Архив</p>
+<p>Рейтинг</p>
+<p> Новости на карте</p>
+<p> Инфографика</p>
+<p> Сюжеты</p>
+<p> Видео</p>
+<p>Фоторепортажи</p>
+<p>Организации</p>
+<p>Персоны</p>
+<p>Каталог сайтов</p>
+<p>Словарь</p>
+<p>Объявления</p>
+<p>Афиша</p>
+<p>Погода</p>
+<p> Курсы валют</p>
+<p>Знакомства</p>
+<p>Личный кабинет</p>
+<p>Форум</p>
+<p>Опросы </p>
+<p>Конференции</p>
+<p>Онлайн-трансляции</p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click;primamedia' "+</p>
+<p>"target=_blank><img src='//counter.yadro.ru/hit;primamedia?t25.1;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet: показано число посетителей за"+</p>
+<p>" сегодня' "+</p>
+<p>"border='0' width='88' height='15'><\/a>")</p>
+<p>//--></p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter489719 = new Ya.Metrika({id:489719,</p>
+<p>                    clickmap:true});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, "yandex_metrika_callbacks");</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-1262624-1']);</p>
+<p>  _gaq.push(['_setDomainName', 'none']);</p>
+<p>  _gaq.push(['_setAllowLinker', true]);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>© 2005—2013 Медиахолдинг PrimaMedia ООО "Прима Медиа"</p>
+<p> Карта сайта Новости</p>
+<p>Разработка сайта — ЦРТ</p>
+<p>	a#move_up {</p>
+<p>		bottom: 14px;</p>
+<p>		display: none;</p>
+<p>		opacity: 0.9;</p>
+<p>		padding-top: 5px;</p>
+<p>		position: fixed;</p>
+<p>		text-align: center;</p>
+<p>		text-decoration: none;</p>
+<p>		width: 90px;</p>
+<p>		background: url("http://primamedia.biz/media/img/nav-bg.png") repeat scroll 0 0 transparent;</p>
+<p>		border: 1px solid #777;</p>
+<p>		border-radius: 4px 4px 4px 4px;</p>
+<p>		height: 17px;</p>
+<p>		max-width: 100px;</p>
+<p>		padding-bottom: 6px;</p>
+<p>		padding-top: 3px;</p>
+<p>		margin-left: 8px;</p>
+<p>		font-weight: bold;</p>
+<p>		color: #777;</p>
+<p>	} </p>
+<p>	a#move_up:hover{</p>
+<p>		border: 1px solid #c21318;</p>
+<p>		border-radius: 4px;</p>
+<p>		color: #c21318;</p>
+<p>	}</p>
+<p>	$(function () {</p>
+<p>			$(window).scroll(function () {</p>
+<p>				if ($(this).scrollTop() > 100)</p>
+<p>					$('a#move_up').fadeIn();</p>
+<p>				else</p>
+<p>					$('a#move_up').fadeOut(400);</p>
+<p>			});</p>
+<p>			$('a#move_up').click(function () {</p>
+<p>				$('body,html').animate({</p>
+<p>					scrollTop: 0</p>
+<p>				}, 800);</p>
+<p>				return false;</p>
+<p>			});</p>
+<p>		});</p>
+<p> Наверх </p>
+<p>данный E-mail в базе не обнаружен!</p>
+<p>логин занят!</p>
+<p>E-mail занят!</p>
+<p>не верное подтверждение пароля!</p>
+<p>Регистрация  Восстановление пароля</p>
+<p>var MarketGidDate = new Date();</p>
+<p>//document.write("<scr"+"ipt type='text/javascript' "+'src="http://jsn.dt00.net/p/r/primamedia.ru.4808.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+ "" charset='utf-8' ></scr"+"ipt>");</p>
+<p>document.write("<scr" + "ipt type='text/javascript' " + "src='http://jsn.dt00.net/p/r/primamedia.ru.4808.js?t="+MarketGidDate.getYear()+MarketGidDate.getMonth()+ "' charset='utf-8' ></scr" + "ipt>"); </p>

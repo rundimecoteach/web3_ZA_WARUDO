@@ -1,0 +1,856 @@
+<p>格兰仕连曝3起"质量门" 专家:多元化战略需脚踏实地_网易新闻中心</p>
+<p>.daren-item, .msg-item { zoom: 1; margin: 8px 0; background: #FFF; overflow: hidden; font-size: 12px; padding: 10px 10px 10px 110px; border: 1px solid #d8d9d9; }</p>
+<p>.daren_w .daren-item, .daren_w .msg-item { margin: 0; }</p>
+<p>.avatar { width: 90px; display: inline; margin-left: -100px; float: left; }</p>
+<p>.avatar img { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC; height: 84px; padding: 2px; width: 84px; display: block; }</p>
+<p>.wb-article-folow, .wb-article-minFolow { margin: 6px auto 0; }</p>
+<p>.author-info, .status-info { color: #1e50a2; }</p>
+<p>.info-top { min-height: 72px; _height: 72px; }</p>
+<p>#endText a.author-name, a.author-name { vertical-align: bottom; text-decoration: none; font-size: 14px; font-weight: bold; color: #1e50a2; }</p>
+<p>.daren-icon { vertical-align: top; margin-left: 5px; display: inline-block; width: 19px; height: 19px; background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -8px; }</p>
+<p>.daren-icon {  *vertical-align: baseline; }</p>
+<p>.weibo-up-arr { background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -27px; font-size: 0; height: 8px; left: 16px; position: absolute; top: 18px; width: 11px; }</p>
+<p>#endText a.talk-to, .talk-to { margin-left: 5px; white-space: nowrap; color: #1e50a2; text-decoration: none; vertical-align: bottom; }</p>
+<p>#endText a.talk-to:visited, .talk-to:visited { color: #1e50a2; }</p>
+<p>#endText a.talk-to:hover, .talk-to:hover { text-decoration: underline; color: #1e50a2; }</p>
+<p>.followers { line-height: 24px; color: #636363; }</p>
+<p>.status, .reason { color: #000; line-height: 1.5em; }</p>
+<p>.status-link, #endText .status-link a { text-decoration: none; color: #ba2636; }</p>
+<p>.option-item { text-align: right; color: #999999; }</p>
+<p>#endText .option-item a, .option-item a { color: #8ba4cd; text-decoration: none; }</p>
+<p>#endText .option-item a:hover, .option-item a:hover { text-decoration: underline; }</p>
+<p>.daren-keyword { position: relative; }</p>
+<p>.daren_w { display: none; background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -40px; padding-top: 24px; position: absolute; z-index: 9999; width: 264px; text-align: left; }</p>
+<p>.daren_w .daren-close { width: 9px; height: 8px; background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 0; cursor: pointer; position: absolute; right: 8px; top: 32px; font-size: 0; }</p>
+<p>#btn-retweet { background: url(http://img1.cache.netease.com/t/2011/03/weibo_fe.gif) no-repeat 0 -100px; width: 90px; height: 25px; display: none; position: absolute; }</p>
+<p>#btn-retweet:hover { background-position: 0 -125px; }</p>
+<p>#btn-retweet:active { background-position: 0 -150px; }</p>
+<p>function getWeiboDaren() {</p>
+<p>	var html = [], user = userData,</p>
+<p>		userUrl = 'http://t.163.com/' + user.screenName + '?method=click&keyfrom=wenzhang_dr&sitechannel=news';</p>
+<p>	html.push('<div class="daren-item">');</p>
+<p>	html.push('<div class="avatar">');</p>
+<p>	html.push('<a target="_blank" href="' + userUrl + '"><img src="' + user.headPic + '"></img></a>');</p>
+<p>	html.push('<a href="javascript:;" target="_self" hideFocus="true" class="wb-article-btn wb-article-folow" onclick="WbApp.WbFollow(\'' + user.screenName + '\',this,{followfrom:\'wenzhang_DR\',keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">已关注</a>');</p>
+<p>	html.push('</div><div class="author-info">');</p>
+<p>	html.push('<a target="_blank" class="author-name" href="' +userUrl + '">' + user.name + '</a>');</p>
+<p>	if(user.daren == true) {</p>
+<p>		html.push('<a class="daren-icon" href="http://t.163.com/rank/daren" title="网易微博 i 认证"></a>');</p>
+<p>	}</p>
+<p>	html.push('<a class="talk-to" href="javascript:;" target="_self" onclick="WbApp.WbSay(\'' + user.name + '\',{keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">对Ta说</a><br />');</p>
+<p>	html.push('<span class="followers">' + user.follower + '人关注他</span></div>');</p>
+<p>	html.push('<div class="reason">' + user.reason + '</div></div>');</p>
+<p>	return html.join('');</p>
+<p>}</p>
+<p>// 微博消息</p>
+<p>function getWeiboMsg(data) {</p>
+<p>	var html = [], user = data.user, </p>
+<p>		userUrl = 'http://t.163.com/' + user.screenName + '?method=click&keyfrom=wenzhang_mr&sitechannel=news',</p>
+<p>		tweetUrl = 'http://t.163.com/' + user.screenName + '/status/' + data.tweetId + '?method=click&keyfrom=wenzhang_mr&sitechannel=news';</p>
+<p>	html.push('<div class="msg-item"><div class="avatar">');</p>
+<p>	html.push('<a target="_blank" href="' + userUrl + '"><img src="' + user.headPic + '"></img></a>');</p>
+<p>	html.push('<a href="javascript:;" target="_self" hideFocus="true" class="wb-article-btn wb-article-folow" onclick="WbApp.WbFollow(\'' + user.screenName + '\',this,{followfrom:\'wenzhang_DR\',keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">已关注</a></div>');</p>
+<p>	html.push('<div class="status-info"><div class="info-top">');</p>
+<p>	html.push('<a target="_blank" class="author-name" href="' + userUrl + '">' + user.name + '</a>');</p>
+<p>	if(user.daren == true) {</p>
+<p>		html.push('<a class="daren-icon" href="http://t.163.com/rank/daren" title="网易微博 i 认证"></a>');</p>
+<p>	}</p>
+<p>	html.push('：<span class="status">' + data.tweet + '</span>');</p>
+<p>	html.push('<span class="status-link">[<a target="_blank" href="' + tweetUrl + '">查看微博</a>]</span></div>');</p>
+<p>	html.push('<div class="option-item"><a href="javascript:;" target="_self" onclick="WbApp.WbRetweet(\'' + data.tweetId + '\',{keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">转发</a> | ');</p>
+<p>	html.push('<a href="javascript:;" target="_self" onclick="WbApp.WbComment(\'' + data.tweetId + '\',{keyfrom:\'wenzhang_DR\',sitechannel:\'news\'}); return false;">评论</a></div>');</p>
+<p>	html.push('</div></div>');</p>
+<p>	return html.join('');			</p>
+<p>}</p>
+<p>function renderDaren(data) {</p>
+<p>	document.write(getWeiboDaren());</p>
+<p>}</p>
+<p>function renderMsg(data) {</p>
+<p>	document.write(getWeiboMsg(data));</p>
+<p>}</p>
+<p>function getCoords(el) {</p>
+<p>	var box = el.getBoundingClientRect(),</p>
+<p>		doc = el.ownerDocument,</p>
+<p>		body = doc.body,</p>
+<p>		html = doc.documentElement,</p>
+<p>		clientTop = html.clientTop || body.clientTop || 0,</p>
+<p>		clientLeft = html.clientLeft || body.clientLeft || 0,</p>
+<p>		top = box.top + (self.pageYOffset || html.scrollTop || body.scrollTop) - clientTop,</p>
+<p>		left = box.left + (self.pageXOffset || html.scrollLeft || body.scrollLeft) - clientLeft;</p>
+<p>	return { 'top': top, 'left': left };</p>
+<p>};</p>
+<p>网易首页-新闻-体育-NBA-娱乐-财经-股票-汽车-科技-手机-女人-论坛-视频-博客-房产-家居-教育-读书-游戏|</p>
+<p>免费邮箱 - 通行证登录 | 微博</p>
+<p>rss</p>
+<p>//<![CDATA[</p>
+<p>NTES.ready( function($){</p>
+<p>	var P_INFO = NTES.cookie.get("P_INFO");</p>
+<p>	var S_INFO = NTES.cookie.get("S_INFO");</p>
+<p>	if(P_INFO){</p>
+<p>		var mailconfig = {</p>
+<p>			"163.com":"http://entry.mail.163.com/coremail/fcg/ntesdoor2?verifycookie=1&lightweight=1",</p>
+<p>			"126.com" : "http://entry.mail.126.com/cgi/ntesdoor?verifycookie=1&lightweight=1&style=-1",</p>
+<p>			"vip.126.com" : "http://reg.vip.126.com/enterMail.m",</p>
+<p>			"yeah.net" : "http://entry.yeah.net/cgi/ntesdoor?verifycookie=1&lightweight=1&style=-1",</p>
+<p>			"188" : "http://reg.mail.188.com/servlet/enter",</p>
+<p>			"vip.163.com" : "http://reg.vip.163.com/enterMail.m?enterVip=true-----------"</p>
+<p>		};</p>
+<p>		var passport =  P_INFO.substr(0, P_INFO.indexOf("|"));</p>
+<p>		var username =  passport.substr(0, P_INFO.indexOf("@"));</p>
+<p>		var logstate = P_INFO.split("|")[2];</p>
+<p>		var loginframe = "";</p>
+<p>		var url = "http://t.163.com/service/newMessage/" + passport + "/1/0/0/0/1";</p>
+<p>		var pspt = passport.length >= 6 ? passport.substr(0,6)+"…" : passport;</p>
+<p>		/@([^*]+)/.test(passport);</p>
+<p>		var logdomain = RegExp.$1;</p>
+<p>		if(P_INFO && S_INFO ) {</p>
+<p>			var entrylink_html = '<a href=\"http://reg.163.com/Main.jsp?username='+passport+'\">进入通行证</a>';</p>
+<p>			if(mailconfig[logdomain] != undefined) {</p>
+<p>				entrylink_html += '<a href=\"'+mailconfig[logdomain]+'\">进入邮箱</a>';</p>
+<p>			}</p>
+<p>			if(logdomain == "popo.163.com" || mailconfig[logdomain] != undefined) {</p>
+<p>				entrylink_html += '<a href="http://blog.163.com/passportIn.do?entry=163">进入博客</a><a href="http://photo.163.com/?username='+passport+'\">进入相册</a>';</p>
+<p>			}</p>
+<p>			entrylink_html += '<a href="http://yuehui.163.com/">进入约会</a><a href="http://t.163.com">进入微博</a>';</p>
+<p>			if(logdomain == "163.com" || logdomain == "126.com" || logdomain == "yeah.net") {</p>
+<p>				loginframe = '<iframe allowTransparency=\"true\" style=\"width:45px; height:20px; float:left; *margin-top:2px; vertical-align: middle;\" id=\"ifrmNtesMailInfo\" border=\"0\" src=\"http://p.mail.163.com/mailinfo/shownewmsg_www_0608.htm\" frameBorder=\"0\" scrolling=\"no\"></iframe>';</p>
+<p>			}</p>
+<p>			var login_html = '<div class=\"ntes-usercenter\"><div class=\"ntes-usercenter-logined\"><strong id=\"ntes_usercenter_name\" class=\"ntes-usercenter-name\" title=\"欢迎你，'+passport+'\">'+pspt+'</strong></div><div id=\"ntes_usercenter_entry\" class=\"ntes-usercenter-entry\"><span class=\"user-entry\">'+entrylink_html+'</span></div></div><span class="left c-b3">(</span>'+loginframe+'<span class="left c-b3"> | </span><span id="wbLoginAfter"><a href="http://t.163.com/?f=catopmicoblogmsg" class="NTES-nav-wbLogin" style="color:#f6f6f6;" title="进入网易微博">微博</a></span><span class="left c-b3">) | </span><a class=\"ntes-usercenter-loginout left\" href=\"http://reg.163.com/Logout.jsp?username='+passport+'\" target=\"_self\">退出</a></div>';</p>
+<p>			$(".NTES-link")[0].innerHTML = login_html;</p>
+<p>			$("#ntes_usercenter_name").addEvent("click", function(e){</p>
+<p>				$("#ntes_usercenter_entry").style.display = $("#ntes_usercenter_entry").style.display == "block" ? "none" : "block";</p>
+<p>				e.preventDefault();</p>
+<p>				e.cancelBubble = true;</p>
+<p>				document.onclick = function(){</p>
+<p>					$("#ntes_usercenter_entry").style.display = "none";</p>
+<p>				}</p>
+<p>			})</p>
+<p>			NTES.ajax.importJs(url, function() {</p>
+<p>				if (typeof window.resultStatus != "undefined") {</p>
+<p>					if (NTES("#wbLoginAfter")) {</p>
+<p>						var userId = resultStatus.userId;</p>
+<p>						var wbName = resultStatus.name;</p>
+<p>						var wbNameMod = wbName.replace(/[^\x00-\xff]/g,"*?");</p>
+<p>						var xxlen = wbNameMod.substr(0,10).indexOf("*") < 0 ? 0 : wbNameMod.substr(0,10).match(/\*/ig).length;</p>
+<p>						var wbNameEnd = (wbNameMod.length <= 10) ? "" : "…";</p>
+<p>						var totalCount = (parseInt(resultStatus.htlCount) < 100) ? parseInt(resultStatus.htlCount) : "99";</p>
+<p>						var totalCountEnd = (parseInt(resultStatus.htlCount) < 100) ? totalCount : totalCount+"+";</p>
+<p>						if(xxlen > 0){</p>
+<p>							if(wbNameMod.substr(9,1) == "?"){</p>
+<p>								wbName = wbName.substr(0,10-xxlen) + wbNameEnd;</p>
+<p>							}else{</p>
+<p>								wbName = wbName.substr(0,9-xxlen) + wbNameEnd;</p>
+<p>							}</p>
+<p>						}else{</p>
+<p>							wbName = wbName.substr(0,10) + wbNameEnd;</p>
+<p>						}</p>
+<p>						if (totalCount > 0) {</p>
+<p>							NTES("#wbLoginAfter").innerHTML = "<a href='http://t.163.com/?f=catopmicoblogmsg.News' class='NTES-nav-wbMsg fB' style='color:#ba2636;' title='" + wbName + "新消息："+ totalCountEnd +"'>"+ totalCountEnd +"</a>";</p>
+<p>						}else{</p>
+<p>							NTES("#wbLoginAfter").innerHTML = "<a href='http://t.163.com/?f=catopmicoblogmsg.enter' class='NTES-nav-wbLogin' style='color:#f6f6f6;' title='进入网易微博'>微博</a>";</p>
+<p>						}</p>
+<p>						if(userId == 0){</p>
+<p>							NTES("#wbLoginAfter").innerHTML = "<a href='http://t.163.com/service/autoOpenAccount?autoFollow=1&needRedirect=1&f=catopmicoblogmsg.open' class='NTES-nav-wbLogin' style='color:#f6f6f6;' title='开通网易微博'>微博</a>";</p>
+<p>						}</p>
+<p>					};</p>
+<p>				};</p>
+<p>			}, "UTF-8");</p>
+<p>		};</p>
+<p>	}</p>
+<p>})</p>
+<p>//]]></p>
+<p> </p>
+<p> 网易 > 新闻中心 > 热点新闻 >  正文</p>
+<p>.path .crumb { float:left;}</p>
+<p>.zwr_search {float:right; margin:9px 0 0; display:inline;}</p>
+<p>.zwr_search .select_box {background:url(http://img1.cache.netease.com/cnews/img10/zwrss_bg.gif) left -82px no-repeat; width:45px; height:18px; ove rflow:hidden; border:none; position:relative; text-align:left; cursor:pointer; float:left; margin-right:4px;}</p>
+<p>.zwr_search .select_box .select_list {display:block; position:absolute; width:3em; line-height:19px; left:0; top:0; background:#fff; display:none;}</p>
+<p>.zwr_search .select_box .search_site {height:18px; line-height:20px; padding-left:6px; float:left; overflow:hidden;}</p>
+<p>.zwr_search .select_box .select_list {width:43px; border:1px solid #B4B4B4;}</p>
+<p>.zwr_search .select_box {width:45px;}</p>
+<p>.zwr_search .select_box a {display:block; height:18px; text-indent:5px;}</p>
+<p>.zwr_search .select_box a:hover {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}</p>
+<p>.zwr_search .select_box a.active {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}</p>
+<p>.zwr_search .textBox {width:88px; height:18px; color:#7B7C7D; background:url(http://img1.cache.netease.com/cnews/img10/zwrss_bg.gif) left top no-repeat; border:none; float:left; line-height:18px; text-indent:3px;}</p>
+<p>.zwr_search .btn {overflow:hidden; width:41px; height:18px; background:url(http://img1.cache.netease.com/cnews/img10/zwrss_bg.gif) left -41px no-repeat; border:none; float:left; line-height:19px; font-size:12px; cursor:pointer;}</p>
+<p>.zwr_search form {float:left;}</p>
+<p>新闻</p>
+<p>网页</p>
+<p>//<![CDATA[</p>
+<p>        (function NTES_Guide(){</p>
+<p>            function Y_T(id){</p>
+<p>                return document.getElementById(id);</p>
+<p>            }</p>
+<p>            function clicktselect(e){</p>
+<p>                e = e || window.event;</p>
+<p>                e.cancelBubble = true;</p>
+<p>                var name = this.innerHTML;</p>
+<p>                var txt = document.createTextNode(name);</p>
+<p>                selected.removeChild(selected.firstChild);</p>
+<p>                selected.appendChild(txt);</p>
+<p>                select_main.style.display = "none";</p>
+<p>                var title = this.getAttribute("title");</p>
+<p>                if (title == "新闻") {</p>
+<p>                  Y_T("ttimesort").value="10";</p>
+<p>                  Y_T("tsearchsite").value="163.com";</p>
+<p>                } else {</p>
+<p>                  Y_T("ttimesort").value="0";</p>
+<p>                  Y_T("tsearchsite").value="";</p>
+<p>                }</p>
+<p>            }</p>
+<p>            function at_mouseover () {</p>
+<p>                this.className = "active";</p>
+<p>            }</p>
+<p>            function at_mouseout () {</p>
+<p>                this.className = "";</p>
+<p>            }</p>
+<p>            Y_T("tSelectKey").innerHTML = '<div id="select_area_yt" class="select_box"><span id="selected_yt" class="search_site">新闻</span><div id="select_main_yt" class="select_list"><a title="新闻">新闻</a><a title="网页">网页</a></div></div>';</p>
+<p>            var select_area = Y_T("select_area_yt"), </p>
+<p>            selected = Y_T("selected_yt"), </p>
+<p>            select_main = Y_T("select_main_yt"), </p>
+<p>            select_list = select_main.getElementsByTagName("a"), </p>
+<p>            len = select_list.length;</p>
+<p>            select_area.onclick = select_main.onmouseover = function(){</p>
+<p>                select_main.style.display = "block";</p>
+<p>            }</p>
+<p>            select_main.onmouseout = function(){</p>
+<p>                select_main.style.display = "none";</p>
+<p>            }</p>
+<p>            </p>
+<p>            for (var i = 0; i < len; i++) {</p>
+<p>                select_list[i].onclick = clicktselect;</p>
+<p>                select_list[i].onmouseover = at_mouseover;</p>
+<p>                select_list[i].onmouseout = at_mouseout;</p>
+<p>            }</p>
+<p>        })();</p>
+<p>//]]></p>
+<p>格兰仕连曝3起"质量门" 专家:多元化战略需脚踏实地</p>
+<p>2012-01-17 20:27:00　来源: 中国广播网(北京)　有0人参与 手机看新闻</p>
+<p>    (function() {</p>
+<p>        var options = {</p>
+<p>            sourceUrl: "http://news.163.com/",</p>
+<p>            source: encodeURIComponent("网易新闻"),</p>
+<p>            title: encodeURIComponent("格兰仕连曝3起＂质量门＂ 专家:多元化战略需脚踏实地"),</p>
+<p>            link: encodeURIComponent(document.location.href)</p>
+<p>        };</p>
+<p>        NTES.ready(</p>
+<p>        function() {</p>
+<p>            WbApp.initShareTipsSm(options,"wb-article-sharewraper-sm");</p>
+<p>        });</p>
+<p>    })();</p>
+<p>中广网北京1月17日消息 据经济之声《天下公司》报道，说起格兰仕，相信大家都不陌生。这家以生产微波炉而著名的企业，也算是家电行业内一名要员。但是最近，这个国内家电行业的巨头，却遇到了麻烦事儿。</p>
+<p>格兰仕连续曝出三起“质量门”</p>
+<p>继微波炉、洗衣机和冰箱深陷“质量门”之后，格兰仕电磁炉再一次被曝出“标志和说明不合格”。近日，由山东省消协联合山东省家用电器行业协会最新发布的《电磁炉比较试验报告》显示，由中山市格兰仕生活家电制造有限公司生产的一款型号为CH2082的电磁炉，被检测为“标志和说明不合格”。对于质量问题不断的原因，《天下公司》记者尝试联系格兰仕集团。但是，格兰仕方面给出的回应是：因为公司新闻发言人休假，无法回复采访内容。</p>
+<p>让格兰仕集团最近十分闹心的连续的“质量门”事件，是从去年11月开始的。2011年11月25日，中消协在其官网上公布：格兰仕旗下两个型号的微波炉产品，不符合“加热均匀”标准。2011年12月29日，上海市质量技术监督局在其官网上公布2011年上海市家用电冰箱产品质量监督抽查结果，格兰仕某型号的冰箱，因为耗电量、能源效率等级不合格的问题，被列为质量问题严重产品。在“冰箱质量门”之后，格兰仕的全自动波轮式洗衣机，也因为洗净性能不合格，被定为“质量问题严重”。</p>
+<p>三起连续的“质量门”事件，对格兰仕销量产生的重击，已经是不争的事实。这也不免让业内人士，对格兰仕在2010年提出的“千亿跃进计划”，产生了担忧。2010年3月，格兰仕总裁梁昭贤在一次公开场合向媒体宣称：在巩固微波炉、电烤箱的第一地位后，格兰仕未来3年白电销售收入将超1000亿元。对于突然提出的这一口号，格兰仕总裁梁昭贤当时给出的解释是：这是符合格兰仕整体发展状况和经营情况的，是基于现实提出的合理目标。</p>
+<p> </p>
+<p>(本文来源：中国广播网  )</p>
+<p> </p>
+<p>上一页</p>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>下一页</p>
+<p>在本页阅读全文</p>
+<p>【有0人参与】</p>
+<p>.endMore {overflow:visible;}</p>
+<p>    (function() {</p>
+<p>        var options = {</p>
+<p>            sourceUrl: "http://news.163.com/",</p>
+<p>            source: encodeURIComponent("网易新闻"),</p>
+<p>            title: encodeURIComponent("格兰仕连曝3起＂质量门＂ 专家:多元化战略需脚踏实地"),</p>
+<p>            link: encodeURIComponent(document.location.href)</p>
+<p>        };</p>
+<p>        NTES.ready(</p>
+<p>         function() {</p>
+<p>            WbApp.initShareTips(options,"wb-article-sharewraper");</p>
+<p>        });</p>
+<p>    })();</p>
+<p>关于  格兰仕 质量 微波炉  的</p>
+<p>新闻</p>
+<p>报告称微波炉整体质量良好 消费者可放心选用 2011/12/02</p>
+<p>NTES.ready(function(){</p>
+<p>	WbApp.createFollowSelectedHtml("wb-wraper","0001");</p>
+<p>});</p>
+<p> </p>
+<p>.endYoDao{ clear:both; margin:0 auto; width:542px; text-align:left; height:50px;}</p>
+<p>.endYoDao input{height:16px; border:1px solid #dcdddd; font-size:12px; background:#fff; width:185px; margin:0 0 0 5px;}</p>
+<p>.endYoDao input:hover{ border:1px solid #9CC9E4; background:#F7FCFF;}</p>
+<p>.endYoDao button{ margin:0 0 0 6px; font-size:12px; cursor:pointer; clear:both;}</p>
+<p>.endYoDao img{margin:3px 0 0;}</p>
+<p>.endYoDao  h3{ padding: 0 0 0 6px; line-height:25px; clear:both; text-align:left;}</p>
+<p>.endYoDao .search .select_box {background:url(http://img1.cache.netease.com/cnews/img09/ntes_yd_img.gif) left -80px no-repeat; width:45px; height:20px; border:none; position:relative; text-align:left; cursor:pointer; float:left; margin-right:4px; z-index:1000;}</p>
+<p>.endYoDao .search .select_box .select_list {display:block; position:absolute; width:3em; line-height:19px; left:0; top:0; background:#fff; display:none;}</p>
+<p>.endYoDao .search .select_box .search_site {height:18px; line-height:20px; padding-left:6px; float:left; overflow:hidden;}</p>
+<p>.endYoDao .search .select_box .select_list {width:43px; border:1px solid #B4B4B4;}</p>
+<p>.endYoDao .search .select_box {width:45px;}</p>
+<p>.endYoDao .search .select_box a {display:block; height:18px; text-indent:5px;}</p>
+<p>.endYoDao .search .select_box a:hover {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}</p>
+<p>.endYoDao .search .select_box a.active {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}</p>
+<p>.endYoDao .search .textBox {width:160px; height:20px; color:#7B7C7D; background:url(http://img1.cache.netease.com/cnews/img09/ntes_yd_img.gif) left top no-repeat; border:none; float:left; line-height:18px; text-indent:3px; padding-top:2px;}</p>
+<p>.endYoDao .search .btn {overflow:hidden; width:60px; height:20px; background:url(http://img1.cache.netease.com/cnews/img09/ntes_yd_img.gif) left -40px no-repeat; border:none; float:left; line-height:19px; font-size:12px; cursor:pointer;}</p>
+<p>.endYoDao .search form {float:left;}</p>
+<p>.endYoDao .key{float:left; padding:0 0 0 15px; line-height:25px;}</p>
+<p>.endYoDao .key a{ color:#1E50A2; text-decoration:underline;}</p>
+<p>.endYoDao .key a:hover{ color:#BA2636;}</p>
+<p>更多相关搜索：</p>
+<p>新闻</p>
+<p>网页</p>
+<p>//<![CDATA[</p>
+<p>        (function NTES_Nav(){</p>
+<p>            function Y_G(id){</p>
+<p>                return document.getElementById(id);</p>
+<p>            }</p>
+<p>            function clickselect(e){</p>
+<p>                e = e || window.event;</p>
+<p>                e.cancelBubble = true;</p>
+<p>                var name = this.innerHTML;</p>
+<p>                var txt = document.createTextNode(name);</p>
+<p>                selected.removeChild(selected.firstChild);</p>
+<p>                selected.appendChild(txt);</p>
+<p>                select_main.style.display = "none";</p>
+<p>                var title = this.getAttribute("title");</p>
+<p>                if (title == "新闻") {</p>
+<p>                  Y_G("timesort").value="10";</p>
+<p>                  Y_G("searchsite").value="163.com";</p>
+<p>                } else {</p>
+<p>                  Y_G("timesort").value="0";</p>
+<p>                  Y_G("searchsite").value="";</p>
+<p>                }</p>
+<p>            }</p>
+<p>            function a_mouseover () {</p>
+<p>                this.className = "active";</p>
+<p>            }</p>
+<p>            function a_mouseout () {</p>
+<p>                this.className = "";</p>
+<p>            }</p>
+<p>            Y_G("divSelectKey").innerHTML = '<div id="select_area_yd" class="select_box"><span id="selected_yd" class="search_site">新闻</span><div id="select_main_yd" class="select_list"><a title="新闻">新闻</a><a title="网页">网页</a></div></div>';</p>
+<p>            var select_area = Y_G("select_area_yd"), </p>
+<p>            selected = Y_G("selected_yd"), </p>
+<p>            select_main = Y_G("select_main_yd"), </p>
+<p>            select_list = select_main.getElementsByTagName("a"), </p>
+<p>            len = select_list.length;</p>
+<p>            select_area.onclick = select_main.onmouseover = function(){</p>
+<p>                select_main.style.display = "block";</p>
+<p>            }</p>
+<p>            select_main.onmouseout = function(){</p>
+<p>                select_main.style.display = "none";</p>
+<p>            }</p>
+<p>            </p>
+<p>            for (var i = 0; i < len; i++) {</p>
+<p>                select_list[i].onclick = clickselect;</p>
+<p>                select_list[i].onmouseover = a_mouseover;</p>
+<p>                select_list[i].onmouseout = a_mouseout;</p>
+<p>            }</p>
+<p>        })();</p>
+<p>//]]></p>
+<p>var ydwords = new Array(</p>
+<p>"韩寒悬赏2000万"</p>
+<p>, "农民工卖别墅"</p>
+<p>, "房企裁员"</p>
+<p>, "苍井空遭熊抱"</p>
+<p>, "公款禁喝茅台"</p>
+<p>, "蔡英文留任"</p>
+<p>, "铁路勾结黄牛"</p>
+<p>, "养老金入市"</p>
+<p>, "联想药企污染"</p>
+<p>, "可口百事杀菌剂"</p>
+<p>);</p>
+<p>var ydwi=0;</p>
+<p>var ydwlengthLimit = 13;</p>
+<p>function ydwShow() {</p>
+<p>  var html = "";</p>
+<p>  var len = 0;</p>
+<p>  var i = ydwi;</p>
+<p>  while (true) {</p>
+<p>    if (i >= ydwords.length) {</p>
+<p>      i=0;</p>
+<p>    }</p>
+<p>    var kw = ydwords[i];</p>
+<p>    if (kw.length > ydwlengthLimit) {</p>
+<p>      i++;</p>
+<p>      if (i == ydwi) {</p>
+<p>        break;</p>
+<p>      }</p>
+<p>      continue;</p>
+<p>    }</p>
+<p>    len += kw.length;</p>
+<p>    if (len > ydwlengthLimit) {</p>
+<p>      ydwi = i;</p>
+<p>      break;</p>
+<p>    }</p>
+<p>    if (window.encodeURIComponent) {</p>
+<p>      var eq = encodeURIComponent(kw);</p>
+<p>    } else {</p>
+<p>      var eq = kw;</p>
+<p>    }</p>
+<p>    html += "<a target='_blank' href='http://www.youdao.com/search?q=" + eq + "&keyfrom=163.page.hotword'>" + kw + "</a>&nbsp;";</p>
+<p>    len++;</p>
+<p>    i++;</p>
+<p>    if (i == ydwi) {</p>
+<p>      break;</p>
+<p>    }</p>
+<p>  }</p>
+<p>  document.getElementById("key").innerHTML = html;</p>
+<p>  var t = setTimeout("ydwShow()", 5000);</p>
+<p>}</p>
+<p>//var t = setTimeout("ydwShow()", 1);</p>
+<p>.select_box {zoom:1;}</p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>var isShowComments = false,tieChannel = "news",isStrict = true;</p>
+<p>//]]></p>
+<p>跟贴区</p>
+<p>有人参与(点击查看)</p>
+<p>跟贴读取中...</p>
+<p>发贴区</p>
+<p>有人参与(点击查看)</p>
+<p>点击登录 | 昵称：</p>
+<p>[如何使用跟贴]</p>
+<p>昵称 |</p>
+<p>用户名：</p>
+<p>密码：</p>
+<p>自动登录</p>
+<p>登 录</p>
+<p>注册</p>
+<p>如何使用跟贴</p>
+<p>点击设置头像</p>
+<p> 发言 | 个人设置 | 我的跟贴 | 我的微博 | 退出</p>
+<p>文明上网，登录发贴</p>
+<p>网友评论仅供其表达个人看法，并不表明网易同意其观点或证实其描述。</p>
+<p>同步到微博</p>
+<p>发表跟贴可同步到微博啦，登录立即体验！</p>
+<p>勾选后，如果您还没有开通微博，系统将自动为您激活。</p>
+<p>关闭</p>
+<p>马上发表</p>
+<p>修改昵称</p>
+<p>跟贴昵称修改后，论坛昵称也会变哦</p>
+<p>关闭</p>
+<p>点击登录 | 昵称：</p>
+<p>昵称 |</p>
+<p>用户名：</p>
+<p>密码：</p>
+<p>自动登录</p>
+<p>登 录</p>
+<p>注册</p>
+<p>  | 个人设置 | 我的跟贴 | 我的微博 | 退出</p>
+<p>文明上网，登录发贴</p>
+<p>同步到微博</p>
+<p>发表跟贴可同步到微博啦，登录立即体验！</p>
+<p>勾选后，如果您还没有开通微博，系统将自动为您激活。</p>
+<p>关闭</p>
+<p>马上发表</p>
+<p>复制收藏</p>
+<p>复制成功，按CTRL+V发送给好友、论坛或博客。</p>
+<p>浏览器限制，请复制链接和标题给好友、论坛或博客。</p>
+<p>确 定</p>
+<p>//<![CDATA[</p>
+<p>(function($) {</p>
+<p>    var tieArea = new tieAnywhere.HotTieArea($("#tieArea"), "7O0FBRGN00014JB5", "news3_bbs", tieChannel, isStrict);</p>
+<p>    tieArea[isShowComments ? "showPage" : "initView"]();</p>
+<p>    var replyCount = 0,</p>
+<p>        totalCount = 0,</p>
+<p>        totalElem = $("span.tieTotalCount, strong.tieTotalCount");</p>
+<p>    (totalElem.length < 3) && (replyCount = totalCount);</p>
+<p>    totalElem.attr("innerHTML", totalCount);</p>
+<p>    $("span.tieCount, strong.tieCount").attr("innerHTML", replyCount);</p>
+<p>    $("#replycounttop, #replycount001, #replycountbottom").attr("innerHTML", replyCount);</p>
+<p>})(NTES);</p>
+<p>//]]></p>
+<p>网易新闻48小时评论排行手机也能看评论</p>
+<p>南京政法委书记：彭宇案不应被误读 评论5478条</p>
+<p>带客黄牛：实名制后生意更好 评论3344条</p>
+<p>天津卫视回应“海归女与主持人对掐” 评论2960条</p>
+<p>精神病患者追砍母亲被击毙 评论2847条</p>
+<p>湖北公安厅：南京劫案嫌犯很可能窜入湖北 评论1949条</p>
+<p> </p>
+<p>返回网易新闻首页</p>
+<p>document.domain = '163.com';</p>
+<p>(function() {</p>
+<p>	var retweet = document.getElementById('btn-retweet'), timer, img;</p>
+<p>	$('#endText img').each(function() {</p>
+<p>		if(this.width > 300 || this.height > 300) {</p>
+<p>			$(this).addEvent('mouseover', function(e) {</p>
+<p>				if(timer) {</p>
+<p>					clearTimeout(timer);</p>
+<p>				}</p>
+<p>				if(retweet) {</p>
+<p>					var coords;</p>
+<p>					img = this,</p>
+<p>					coords = getCoords(img);</p>
+<p>					retweet.style.left = coords.left + 4 + 'px';</p>
+<p>					retweet.style.top = coords.top + img.clientHeight - 28 + 'px';</p>
+<p>					retweet.style.display = 'block';</p>
+<p>				}</p>
+<p>			}).addEvent('mouseout', function(e) {</p>
+<p>				timer = setTimeout(function() {</p>
+<p>					retweet.style.display = 'none';</p>
+<p>				}, 13);</p>
+<p>			});</p>
+<p>		}</p>
+<p>	});</p>
+<p>	$(retweet).addEvent('mouseover', function(e) {</p>
+<p>		if(timer) {</p>
+<p>			clearTimeout(timer);</p>
+<p>		}</p>
+<p>	}).addEvent('mouseout', function(e) {</p>
+<p>		retweet.style.display = 'none';</p>
+<p>	}).addEvent('click', function() {</p>
+<p>		var options = {</p>
+<p>			sourceUrl: "http://news.163.com/",</p>
+<p>			source: encodeURIComponent("网易新闻"),</p>
+<p>			title: encodeURIComponent("格兰仕连曝3起＂质量门＂ 专家:多元化战略需脚踏实地"),</p>
+<p>			link: encodeURIComponent(document.location.href),</p>
+<p>			images: function() { return img.src; },</p>
+<p>			togImg:true,</p>
+<p>			method: 'click',</p>
+<p>			keyfrom: 'share163tu.click'</p>
+<p>		};</p>
+<p>		WbApp.showPopWindow(options);</p>
+<p>		return false;</p>
+<p>	});</p>
+<p>})();</p>
+<p>NTES.ready(function(NTES) {</p>
+<p>	function ShowDaren(ref, wrapper) {</p>
+<p>		var coords = getCoords(ref);</p>
+<p>		wrapper.style.display = 'none';</p>
+<p>		wrapper.style.top = coords.top + 'px';</p>
+<p>		wrapper.style.left = coords.left - 12 + 'px';</p>
+<p>		wrapper.style.display = 'block';</p>
+<p>	}</p>
+<p>	NTES.event.addEvent(NTES(".daren-keyword"), "mouseover", function() {</p>
+<p>		var self = this,</p>
+<p>			userid = this.getAttribute('userid'),</p>
+<p>			wrapperId = 'daren_w' + userid,</p>
+<p>			darenWrapper = document.getElementById(wrapperId);</p>
+<p>		if(darenWrapper) {</p>
+<p>			ShowDaren(self, darenWrapper);</p>
+<p>		} else {		</p>
+<p>			NTES.ajax.importJs('http://static.t.126.net/share/user/daren/' + userid + '.js', function() {				</p>
+<p>				darenWrapper = document.createElement('div');</p>
+<p>				darenWrapper.id = wrapperId;</p>
+<p>				darenWrapper.className = 'daren_w';</p>
+<p>				darenWrapper.innerHTML = '<div class="weibo-up-arr"></div><div class="daren-close" onclick="this.parentNode.style.display=\'none\'"></div>'</p>
+<p>					+ getWeiboDaren()</p>
+<p>					.replace('wb-article-folow', 'wb-article-minFolow') // 替换按钮样式</p>
+<p>					.replace(/wenzhang_dr/g, 'wenzhang_hc'); // 替换参数</p>
+<p>				darenWrapper.onmouseout = function(e) {</p>
+<p>					var evt = e? e: window.event,</p>
+<p>						target = evt.target? evt.target: evt.srcElement;</p>
+<p>				</p>
+<p>					if ( !evt.relatedTarget && evt.fromElement ) {</p>
+<p>						evt.relatedTarget = evt.fromElement == target ? evt.toElement : evt.fromElement;</p>
+<p>					}</p>
+<p>					var parent = evt.relatedTarget;</p>
+<p>					while ( parent && parent != this ) {</p>
+<p>						try { parent = parent.parentNode; }</p>
+<p>						catch(e) { parent = this; }</p>
+<p>					}</p>
+<p>					if( parent != this ){</p>
+<p>						this.style.display = 'none';</p>
+<p>					}</p>
+<p>				}</p>
+<p>				darenWrapper.onclick = function(e) {</p>
+<p>					var target;</p>
+<p>					e = e? e: window.event;</p>
+<p>					target = e.target? e.target: e.srcElement;</p>
+<p>					if(target.className.indexOf('talk-to') != -1) {</p>
+<p>						this.style.display = 'none';</p>
+<p>					}</p>
+<p>				}</p>
+<p>				document.body.appendChild(darenWrapper);</p>
+<p>				ShowDaren(self, darenWrapper);</p>
+<p>			}, 'utf-8');</p>
+<p>		}</p>
+<p>	});</p>
+<p>});</p>
+<p> </p>
+<p>头条推荐 </p>
+<p> </p>
+<p>【新闻】2011年GDP增速放缓至9.2%</p>
+<p>【娱乐】图集:齐秦展示伤疤 郭羡妮自曝想剖腹产</p>
+<p>【体育】费舍尔3.1秒准绝杀  湖人复仇小牛</p>
+<p>【财经】2011年中国GDP增速回落至9.2% 专题</p>
+<p>【女人】我坦白：今年有很多事没告诉爸妈</p>
+<p>【汽车】最低3万 买车过年 10万内带定速巡航车型</p>
+<p>【科技】五道口沙龙第12期：从UGC到UCC</p>
+<p>热点推荐</p>
+<p> </p>
+<p>【论坛】快崩溃了，遇上一哭二闹三上吊的极品婆婆</p>
+<p>【手机】产品及管理层守旧 黑莓前景一片迷惘</p>
+<p>【数码】谁会威胁MBA？看CES大展Ultrabook新品 专题</p>
+<p>【房产】许家印:今年调控不松绑 一线城市房价或大跌</p>
+<p>【游戏】传iPad3将于今年3月上市 搭载全新无线网络标准</p>
+<p>【读书】赌神王妃 一夜定情 魅妾</p>
+<p>新闻24小时点击排行榜</p>
+<p>点击数</p>
+<p>1意大利游轮触礁 乘客为逃生大打出手1693007</p>
+<p>2南京劫杀案已发生12天 嫌犯仍在逃973079</p>
+<p>3带客黄牛：实名制后生意更好803518</p>
+<p>4广东汕头市长谈海门事件：部分人非抓不可497479</p>
+<p>5传山东德州现保时捷“廉政调研车”(图)442018</p>
+<p>6一家八口返乡过年遇车祸7人死427808</p>
+<p>7湖北公安厅：南京劫案嫌犯很可能窜入湖北364120</p>
+<p>8赵本山春晚小品曝光：“黄昏激吻”惹误会356621</p>
+<p>9精神病患者追砍母亲被击毙356326</p>
+<p>10南京政法委书记：彭宇案不应被误读352126</p>
+<p>军事 | 探索 </p>
+<p>中韩海监船东海对峙</p>
+<p>炮制出的天价虫草</p>
+<p>博客 | 论坛</p>
+<p> 小三小四联手摧毁偷情男</p>
+<p> 东北土匪究竟有多残忍？</p>
+<p> 古代皇帝性教育靠春宫图</p>
+<p> 柳岩：我不是"胸大无脑"</p>
+<p> 人人都要看的视频：纳税人的钱哪儿去了</p>
+<p> 鼠标作画，微博展现你的才艺</p>
+<p> 163字微同人小说，经典故事由你颠覆</p>
+<p> 李子�：发达国家援助非洲的最好方式</p>
+<p>新闻专题</p>
+<p>马英九连任成功</p>
+<p>2012年全国春运</p>
+<p>朝鲜领导人金正日逝世</p>
+<p>南京持枪抢劫案</p>
+<p>韩国海警扣中国渔船被刺死</p>
+<p>江苏丰县校车事故</p>
+<p>var banner_rdm=Math.random();</p>
+<p>banner5_rdm=Math.ceil(banner_rdm*2);</p>
+<p>if(banner5_rdm==1){</p>
+<p>document.write('<embed src="http://img1.126.net/channel7/008979/8979_360150_05b1_111202.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="360" height="150" wmode=opaque></embed>'); </p>
+<p>}</p>
+<p>if(banner5_rdm==2){</p>
+<p>document.write('<embed src="http://img1.126.net/channel7/008979/8979_360150_05b2_111202.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="360" height="150" wmode=opaque></embed>'); </p>
+<p>}</p>
+<p>深度 | 评论</p>
+<p>春节的礼品变奏</p>
+<p>日本凭啥关押中国犯人</p>
+<p> </p>
+<p> </p>
+<p>	var GDS2_240120_Src1 = "http://img1.126.net/channel4/011144/vovol100300_0112.swf";//url of AD</p>
+<p>	var GDS2_240120_Src2 = "";//url of AD</p>
+<p>	var fc_rdm=Math.random();</p>
+<p>	var GDS2_240120_Src="";</p>
+<p>	var GDS2_240120_Width = 100;//width of AD</p>
+<p>	var GDS2_240120_Height = 300;//height of AD</p>
+<p>	var GDS2_urls = " ";</p>
+<p>if (fc_rdm>0.5){GDS2_240120_Src = GDS2_240120_Src1;}else{GDS2_240120_Src = GDS2_240120_Src2;}</p>
+<p>if(!GDS2_240120_Src==""){document.write('<scr'+'ipt language="JavaScript" src="http://img1.126.net/channel1/js/style2.js"></scr'+'ipt>');}</p>
+<p>new InsertAd("qianwu","iframe","http://img1.126.net/channel7/008990/8990_560120_110829.html");</p>
+<p><!--</p>
+<p>var cpm_rdm=Math.random();</p>
+<p>//document.write(cpm_rdm);</p>
+<p>if(cpm_rdm<0.3){</p>
+<p>	document.write('<div id="ipinyouAdSite"><scr'+'ipt type="text/javascript" src="http://zjs.ipinyou.com/ecommerce/163_3.js" charset="utf-8"></scr'+'ipt></div>');</p>
+<p>}</p>
+<p>if((cpm_rdm>0.3)&&(cpm_rdm<0.6)){</p>
+<p>ac_as_id = 64305;</p>
+<p>ac_format = 0;</p>
+<p>ac_mode = 1;</p>
+<p>ac_group_id = 1;</p>
+<p>ac_server_base_url = "tga.acs86.com/";</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://static.acs86.com/g.js"></scr'+'ipt>');</p>
+<p>}</p>
+<p>  //--></p>
+<p>//<![CDATA[</p>
+<p>ac_as_id = 72769;</p>
+<p>ac_click_track_url = "";ac_format = 0;ac_mode = 1;</p>
+<p>ac_width = 280;ac_height = 210;</p>
+<p>//]]></p>
+<p>视频推荐</p>
+<p>高管排队熊抱苍井空</p>
+<p>疑黑社会女温泉照曝光</p>
+<p>(function () {</p>
+<p>	var demo = {</p>
+<p>		id : "crossiframe",</p>
+<p>		width : 360,</p>
+<p>		height : 195,</p>
+<p>		obj : [{</p>
+<p>			name :"news",</p>
+<p>			url:"http://news.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"ent",</p>
+<p>			url:"http://ent.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"sports",</p>
+<p>			url:"http://sports.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"v",</p>
+<p>			url:"http://v.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"lady",</p>
+<p>			url:"http://lady.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"money",</p>
+<p>			url:"http://money.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"mobile",</p>
+<p>			url:"http://mobile.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"tech",</p>
+<p>			url:"http://tech.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"digi",</p>
+<p>			url:"http://digi.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"edu",</p>
+<p>			url:"http://edu.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"travel",</p>
+<p>			url:"http://travel.163.com/special/acrossthechannel/"</p>
+<p>		},{</p>
+<p>			name:"book",</p>
+<p>			url:"http://book.163.com/special/acrossthechannel/"</p>
+<p>		}</p>
+<p>	]};</p>
+<p>	var domain = window.location.host;</p>
+<p>		domain = domain.split(".")[0];</p>
+<p>		var len = demo.obj.length;</p>
+<p>		var arr = [];</p>
+<p>		var j = 0;</p>
+<p>		for(var i=j=0;i<len;i++){</p>
+<p>			if(domain != demo.obj[i].name){</p>
+<p>				arr[j] = demo.obj[i].url;</p>
+<p>				j++;</p>
+<p>			}</p>
+<p>		};</p>
+<p>		if(document.getElementById(demo.id) && arr.length != 0){</p>
+<p>			var src = arr[Math.floor(Math.random()*arr.length)];</p>
+<p>			var html = "<iframe src='" + src +"' width='" + demo.width +"' height='" + demo.height +"' frameborder='0' border='0' marginwidth='0' marginheight='0' scrolling='no'></iframe>";</p>
+<p>			document.getElementById(demo.id).innerHTML = html;</p>
+<p>		}</p>
+<p>})();</p>
+<p><!--</p>
+<p>	</p>
+<p>if(cpm_rdm>0.8){</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://img2.126.net/ntesrich/f.js"></scr'+'ipt>');</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://g.163.com/jr?site=netease&affiliate=news&cat=article&type=rich&location=1"></scr'+'ipt>');</p>
+<p>}</p>
+<p>//--></p>
+<p>网易首页-新闻-体育-娱乐-财经-汽车-科技-数码-手机-女人-游戏-论坛-视频-博客-房产-家居-应用-微博</p>
+<p>搜索</p>
+<p>新闻</p>
+<p>网页</p>
+<p> </p>
+<p>北京互联网违法不良信息举报　意见反馈　新闻地图　历史回顾</p>
+<p>About NetEase - 公司简介 - 联系方法 - 招聘信息 - 客户服务 - 隐私政策 - 网络营销 - 网站地图</p>
+<p>网易公司版权所有</p>
+<p>©1997-2012</p>
+<p> //<![CDATA[	</p>
+<p>        (function END_Nav(){</p>
+<p>            function clickselect2(e){</p>
+<p>                e = e || window.event;</p>
+<p>                e.cancelBubble = true;</p>
+<p>                var name = this.innerHTML;</p>
+<p>                var txt = document.createTextNode(name);</p>
+<p>                selected2.removeChild(selected2.firstChild);</p>
+<p>                selected2.appendChild(txt);</p>
+<p>                select_main2.style.display = "none";</p>
+<p>                var title = this.getAttribute("title");</p>
+<p>                NTES("#siteName2").value = title;</p>
+<p>                if (title == "网易") {</p>
+<p>				document.nisearch_top.action = "http://news.yodao.com/search";</p>
+<p>				}</p>
+<p>				else {document.nisearch_top.action = "http://www.yodao.com/search";</p>
+<p>				}</p>
+<p>            }</p>
+<p>            function a_mouseover2 () {</p>
+<p>                this.className = "active";</p>
+<p>            }</p>
+<p>            function a_mouseout2 () {</p>
+<p>                this.className = "";</p>
+<p>            }</p>
+<p>            </p>
+<p>            if (NTES("#divSelect2")){            </p>
+<p>	            NTES("#divSelect2").innerHTML = '<input id="siteName2" type="hidden" value="网易" name="site" /><div id="select_area2" class="select_box"><span id="selected2" class="search_site">新闻</span><div id="select_main2" class="select_list"><a title="网易">新闻</a><a title="">网页</a></div></div>';	            </p>
+<p>	            var select_area2 = NTES("#select_area2"), selected2 = NTES("#selected2"), select_main2 = NTES("#select_main2"), select_list2 = select_main2.getElementsByTagName("a"), len2 = select_list2.length;	            </p>
+<p>	            select_area2.onclick = select_main2.onmouseover = function(){</p>
+<p>	                select_main2.style.display = "block";</p>
+<p>	            }           </p>
+<p>	            select_main2.onmouseout = function(){</p>
+<p>	                select_main2.style.display = "none";</p>
+<p>	            }</p>
+<p>	            for (var i = 0; i < len2; i++) {</p>
+<p>	                select_list2[i].onclick = clickselect2;</p>
+<p>	                select_list2[i].onmouseover = a_mouseover2;</p>
+<p>	                select_list2[i].onmouseout = a_mouseout2;</p>
+<p>	            }</p>
+<p>            }</p>
+<p>        })();</p>
+<p>			//var endpage_tab = new NTES.ui.Slide(NTES("#menuBar_endpage > li"), NTES("#endpage_tab > ul"), "on", "mouseover"); // 推荐文章切换</p>
+<p>			function changeProduct(type){</p>
+<p>	if(NTES("#query").value=="" || NTES("#query").value.length==0)</p>
+<p>	{</p>
+<p>		alert("请输入关键字!");</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	var SoForm = NTES("#yodaoForm");</p>
+<p>	var vsite = NTES("#ydsite");</p>
+<p>    if(type==2){</p>
+<p>		vsite.value="";</p>
+<p>		SoForm.action="http://www.youdao.com/search";</p>
+<p>	}else if(type==1){</p>
+<p>		vsite.value="网易";</p>
+<p>		SoForm.action="http://news.youdao.com/search";</p>
+<p>	}</p>
+<p>	SoForm.submit();</p>
+<p>	return true;</p>
+<p>}</p>
+<p>            //点击复制</p>
+<p>            var EndPage = function(){</p>
+<p>            }</p>
+<p>            if (NTES("#h1title")) {</p>
+<p>				var getTitle = NTES("#h1title").innerHTML.replace(/["']+/g,'');</p>
+<p>			}</p>
+<p>				else {</p>
+<p>				// alert ("获取标题失败");</p>
+<p>			}</p>
+<p>                EndPage.clearField = function(){</p>
+<p>                if (NTES("#inputWord").value == EndPage.tip) {</p>
+<p>                NTES("#inputWord").value = "";</p>
+<p>                }</p>
+<p>            }</p>
+<p>            EndPage.mail = function(){</p>
+<p>                try {</p>
+<p>                    var RightMailAgent = new ActiveXObject("FlashMailShell.FlashMailIEExt");</p>
+<p>                } </p>
+<p>                catch (e) {</p>
+<p>                    window.open("http://fm.163.com/commend.html?tab=5?yjzf100201", "")</p>
+<p>                }</p>
+<p>                var str = NTES("#endText").innerHTML;</p>
+<p>                str = str.replace(/<\/?(?:embed|object|param)[^>]*>/ig, "");</p>
+<p>				str += "<br /><br />";</p>
+<p>				str += '“你也想和好友分享精彩新闻吗?请\<a href=\"http:\/\/dl.163.com\/NxMail\/Update\/installer\/flashmail-2.0beta.exe\"\>下载闪电邮\<\/a\>,并阅读\<a href=\"http:\/\/fm.163.com\/introduce.html?yjzf100201\"\>闪电邮介绍\<\/a\>”';</p>
+<p>				</p>
+<p>				if (RightMailAgent != null) {</p>
+<p>                    RightMailAgent.addSubject("您的好友推荐文章《"+getTitle+"》");</p>
+<p>                    RightMailAgent.addContent(str);</p>
+<p>                }</p>
+<p>            }</p>
+<p>            EndPage.copyUrl = function(){</p>
+<p>                var cbc = "";</p>
+<p>                cbc += getTitle +'\r\n' + document.URL;</p>
+<p>                window.clipboardData.setData("Text", cbc);</p>
+<p>                NTES("#IECopyUrl").innerHTML = "<span class=\"cDRed\">已复制</span>";</p>
+<p>            }</p>
+<p>           </p>
+<p>		   //初始化 </p>
+<p>            if (NTES.browser.msie) {</p>
+<p>                NTES("#IEHtml").innerHTML = "\<span class=\"right cDGray\"\>\<span class=\"copyLink\" id=\"IECopyUrl\" title=\"点击复制标题和链接\" style=\"background: url(http:\/\/img1.cache.netease.com\/cnews\/css09\/bg_n1.gif\) no-repeat scroll left -362px transparent; padding: 2px 0pt 2px 23px;\"\>\<a style=\"cursor:pointer; text-decoration:none;\"\>复制网址\<\/a\>\<\/span\> \<a href=\"mailto:\" class=\"mail\" id=\"IEMailSend\" title=\"你也想和好友分享精彩新闻吗?请下载闪电邮(点击直接可下载)\" style=\"background: url(http:\/\/img1.cache.netease.com\/cnews\/css09\/bg_n1.gif) no-repeat scroll -154px -363px transparent; padding: 2px 0pt 2px 23px;\"\>闪电邮转发\<\/a\>\<\/span\>";</p>
+<p>                NTES("#IEMailSend").addEvent("click", function(e){</p>
+<p>                    EndPage.mail();</p>
+<p>                    e.preventDefault();</p>
+<p>                });</p>
+<p>                NTES("#IECopyUrl").addEvent("click", function(e){</p>
+<p>                    EndPage.copyUrl();</p>
+<p>                    e.preventDefault();</p>
+<p>                });</p>
+<p>            }</p>
+<p>            //]]></p>
+<p>        </p>
+<p>var vjAcc="860010-0502010100";</p>
+<p>var wrUrl="http://163.wrating.com/";</p>
+<p>vjTrack();</p>
+<p>    _ntes_nacc = "news"; //站点ID。</p>
+<p>    neteaseTracker();</p>
+<p>    </p>

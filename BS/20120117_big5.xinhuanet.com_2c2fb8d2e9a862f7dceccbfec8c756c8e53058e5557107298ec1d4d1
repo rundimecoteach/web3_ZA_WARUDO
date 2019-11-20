@@ -1,0 +1,358 @@
+<p>7種牙齒問題預警疾病 口腔健康5步養成(圖) - 新華食品 - 新華網</p>
+<p>新華網首頁</p>
+<p> </p>
+<p>新華論壇 博客 微博</p>
+<p>注冊 遊客進入</p>
+<p>新聞 | 時政 | 法治 | 地方 | 社會 | 評論 | 國際 | 港澳 | 臺灣 | 華人 | 軍事 | 財經 | 汽車 | 房產 | 視頻 | 圖片 | 直播 | 訪談 | 文娛 | 家居 | 網際網路 | 體育 | 時尚</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Ipad首頁</p>
+<p> </p>
+<p>新華新聞</p>
+<p>新華食品 > 正文</p>
+<p> 7種牙齒問題預警疾病 口腔健康5步養成(圖)</p>
+<p> 2012年01月16日 15:07:59</p>
+<p>來源：  愛美網</p>
+<p>新華微博   </p>
+<p>document.write('<iframe scrolling="no" height="16" frameborder="0" width="16" src="http://big5.xinhuanet.com/gate/big5/hits.sinajs.cn/A1/weiboshare.html?url='+encodeURIComponent(document.location)+'&type=3&count=&appkey=&title='+encodeURIComponent(document.title)+'&pic=&ralateUid=&rnd='+new Date().valueOf()+'" allowtransparency="true"></iframe>');</p>
+<p>【字號：大 中 小】【打印】</p>
+<p>【糾錯】</p>
+<p>　　牙好，胃口好，笑容也更加迷人。從中醫學來講，牙齒是我們身體健康直觀身份證。為了保護好牙齒，我們採取了很多措施，但是否這些措施都是正確無誤的呢？</p>
+<p>在我們的日常飲食及生活習慣上，如何保護好健康的牙齒呢？</p>
+<p>　　①、早晚刷牙，幫牙齒卸掉負擔</p>
+<p>　　為了擁有一口整齊潔白的牙齒展露完美笑容，越來越多的白領OL們已經開始注重自身的口腔保健，平日的佐餐零嘴與經常喝到的汽水是否會對牙齒健康造成影響，更是她們關心的話題。</p>
+<p>　　事實上，蛀牙的形成過程要受到幾個不同因素的影響，其中時間是一個至關重要的因素。如果經常食用咀嚼性食物或粘性食物則極易導致蛀牙；飲料，包括含糖飲料，在進入口中後會馬上離開口腔。</p>
+<p>　　為了保持牙齒健康，應該遵循醫生建議早晚刷牙、使用漱口水，養成良好的口腔保健習慣，幫牙齒卸掉負擔。</p>
+<p>   1 2 3 4 5 6 7 8 9 下一頁  </p>
+<p>   1 2 3 4 5 6 7 8 9 下一頁  </p>
+<p>function turnpage(page){  document.all("div_currpage").innerHTML = document.all("div_page_roll"+page).innerHTML;}</p>
+<p>分享到：</p>
+<p>新華微博 </p>
+<p>document.write('<iframe scrolling="no" height="16" frameborder="0" width="16" src="http://big5.xinhuanet.com/gate/big5/hits.sinajs.cn/A1/weiboshare.html?url='+encodeURIComponent(document.location)+'&type=3&count=&appkey=&title='+encodeURIComponent(document.title)+'&pic=&ralateUid=&rnd='+new Date().valueOf()+'" allowtransparency="true"></iframe>');</p>
+<p> </p>
+<p>延展閱讀</p>
+<p>【圖片故事】90後美女乘務員的第一次春運 </p>
+<p>珍貴老照片：關于春節的記憶 </p>
+<p> </p>
+<p>var arid = [];</p>
+<p>var linkurl = [];</p>
+<p>var atitles = [];</p>
+<p>$.ajax({</p>
+<p>       type: "GET",</p>
+<p>       url: "http://big5.xinhuanet.com/gate/big5/news.xinhuanet.com/food/c_20111206.xml",</p>
+<p>	   async: false,</p>
+<p>       dataType: "xml",</p>
+<p>       success: function (xml) {</p>
+<p>           $(xml).find("item").each(function (i) {</p>
+<p>               arid[i] = $(this).find("arid").text();</p>
+<p>			   linkurl[i] = $(this).find("htmlurl").text();</p>
+<p>			   atitles[i] = $(this).find("atitle").text();</p>
+<p>           });</p>
+<p>       }</p>
+<p> })</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> if(parseInt(arid.length,10)>0){ </p>
+<p> 	var scrollItems = [];</p>
+<p> 	var items = [];	</p>
+<p> 	var thisurl = window.location.href</p>
+<p> 	var thisarticleid = thisurl.substring(thisurl.lastIndexOf("."),thisurl.lastIndexOf("c_")+2);</p>
+<p> 	var thisindex = -1;</p>
+<p> 	var preurl;</p>
+<p> 	var nexturl;</p>
+<p> 	var totalindex = parseInt(arid.length,10);</p>
+<p> 	for(var i=0;i<arid.length;i++){</p>
+<p> 		if(parseInt(thisarticleid,10)==parseInt(arid[i],10)){</p>
+<p> 			thisindex = i;</p>
+<p> 			break;</p>
+<p> 		}</p>
+<p> 	}</p>
+<p>	//alert("thisindex:"+thisindex);</p>
+<p>	var item = $("<table width=\"98%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" class=\"lan12\"><tr><td width=\"16\">‧</td><td><a href=\"#\" target=\"_blank\"></a></td></tr></table>");</p>
+<p>	var scrollItem =$("<div class=\"pic\"><a href=\"#\"></a></div>");;</p>
+<p>	var tempItem;</p>
+<p>	var tempcrollItem;</p>
+<p>	for(var i=0;i<10;i++){</p>
+<p>		tempItem = item.clone();</p>
+<p>		tempcrollItem = scrollItem.clone();</p>
+<p>		if(thisindex-5<0){</p>
+<p>			$("a",tempcrollItem).attr("href",linkurl[i]);</p>
+<p>			$("a",tempcrollItem).text(atitles[i]);</p>
+<p>			tempItem.attr("articleid",arid[i]);</p>
+<p>			$("a",tempItem).text(atitles[i]);</p>
+<p>			$("a",tempItem).attr("href",linkurl[i]);</p>
+<p>		}else if(totalindex-thisindex<5){</p>
+<p>			$("a",tempcrollItem).attr("href",linkurl[totalindex-10+i]);</p>
+<p>			$("a",tempcrollItem).text(atitles[totalindex-10+i]);</p>
+<p>			tempItem.attr("articleid",arid[totalindex-10+i]);</p>
+<p>			$("a",tempItem).text(atitles[totalindex-10+i]);</p>
+<p>			$("a",tempItem).attr("href",linkurl[totalindex-10+i]);</p>
+<p>		}else{</p>
+<p>			$("a",tempcrollItem).attr("href",linkurl[thisindex-5+i]);</p>
+<p>			$("a",tempcrollItem).text(atitles[thisindex-5+i]);</p>
+<p>			tempItem.attr("articleid",arid[thisindex-5+i]);</p>
+<p>			$("a",tempItem).text(atitles[thisindex-5+i]);</p>
+<p>			$("a",tempItem).attr("href",linkurl[thisindex-5+i]);</p>
+<p>		}</p>
+<p>		scrollItems[i] = tempcrollItem;</p>
+<p>		items[i] = tempItem;</p>
+<p>	}</p>
+<p> </p>
+<p>	for(var i=0;i<items.length;i++){</p>
+<p>		$("#List1").append(scrollItems[i]);</p>
+<p>		if(i<5){</p>
+<p>			$("#leftitems").append(items[i]);</p>
+<p>		}else{</p>
+<p>			$("#rightitems").append(items[i]);</p>
+<p>		}</p>
+<p>	}	</p>
+<p> 	</p>
+<p> }</p>
+<p> </p>
+<p>      </p>
+<p> </p>
+<p>var Speed = 10; </p>
+<p>var Space = 10; </p>
+<p>var PageWidth = 480;</p>
+<p>var fill = 0;</p>
+<p>var MoveLock = false;</p>
+<p>var MoveTimeObj;</p>
+<p>var Comp = 0;</p>
+<p>var AutoPlayObj = null;</p>
+<p>GetObj("List2").innerHTML = GetObj("List1").innerHTML;</p>
+<p>GetObj('ISL_Cont').scrollLeft = fill;</p>
+<p>GetObj("ISL_Cont").onmouseover = function(){clearInterval(AutoPlayObj);}</p>
+<p>GetObj("ISL_Cont").onmouseout = function(){AutoPlay();}</p>
+<p>AutoPlay();</p>
+<p> </p>
+<p>function GetObj(objName){</p>
+<p>	if(document.getElementById){return eval('document.getElementById("'+objName+'")')}</p>
+<p>	else{</p>
+<p>		return eval('document.all.'+objName)</p>
+<p>	}</p>
+<p>   }</p>
+<p>function AutoPlay(){ </p>
+<p>	clearInterval(AutoPlayObj);</p>
+<p>	AutoPlayObj = setInterval('ISL_GoDown();ISL_StopDown();',5000); </p>
+<p>}</p>
+<p>function StopPlay(){</p>
+<p>	clearInterval(AutoPlayObj);</p>
+<p>	clearInterval(MoveTimeObj);</p>
+<p>}</p>
+<p>function ISL_GoUp(){ </p>
+<p>	if(MoveLock) return;</p>
+<p>	clearInterval(AutoPlayObj);</p>
+<p>	MoveLock = true;</p>
+<p>	ISL_ScrUp();</p>
+<p>	MoveTimeObj = setInterval('ISL_ScrUp()',Speed);</p>
+<p>}</p>
+<p> </p>
+<p>function ISL_StopUp(){ </p>
+<p>	clearInterval(MoveTimeObj);</p>
+<p>	if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0){</p>
+<p>		Comp = fill - (GetObj('ISL_Cont').scrollLeft % PageWidth);</p>
+<p>		CompScr();</p>
+<p>	}else{</p>
+<p>		MoveLock = false;</p>
+<p>	}</p>
+<p>	AutoPlay();</p>
+<p>}</p>
+<p> </p>
+<p>function ISL_ScrUp(){ </p>
+<p> </p>
+<p>	if(GetObj('ISL_Cont').scrollLeft <= 0){</p>
+<p>		var elements = getChildElements(GetObj('List1'),"div");</p>
+<p>		var len = parseInt(elements[0].offsetWidth,10)*parseInt(elements.length,10);</p>
+<p>		GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft + parseInt(len,10);</p>
+<p>	}</p>
+<p>	GetObj('ISL_Cont').scrollLeft -= Space ;</p>
+<p>}</p>
+<p> </p>
+<p>function ISL_GoDown(){ </p>
+<p>	clearInterval(MoveTimeObj);</p>
+<p>	if(MoveLock) return;</p>
+<p>	clearInterval(AutoPlayObj);</p>
+<p>	MoveLock = true;</p>
+<p>	ISL_ScrDown();</p>
+<p>	MoveTimeObj = setInterval('ISL_ScrDown()',Speed);</p>
+<p>}</p>
+<p> </p>
+<p>function ISL_StopDown(){ </p>
+<p>	clearInterval(MoveTimeObj);</p>
+<p>	if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0 ){</p>
+<p>		Comp = PageWidth - GetObj('ISL_Cont').scrollLeft % PageWidth + fill;</p>
+<p>		CompScr();</p>
+<p>	}else{</p>
+<p>		MoveLock = false;</p>
+<p>	}</p>
+<p>	AutoPlay();</p>
+<p>}</p>
+<p> </p>
+<p>function ISL_ScrDown(){ </p>
+<p>	if(GetObj('ISL_Cont').scrollLeft >= GetObj('List1').scrollWidth){GetObj('ISL_Cont').scrollLeft =</p>
+<p>	GetObj('ISL_Cont').scrollLeft - GetObj('List1').scrollWidth;}</p>
+<p>	GetObj('ISL_Cont').scrollLeft += Space ;</p>
+<p>}</p>
+<p> </p>
+<p>function CompScr(){</p>
+<p>	var num;</p>
+<p>	if(Comp == 0){MoveLock = false;return;}</p>
+<p>	if(Comp < 0){ </p>
+<p>		if(Comp < -Space){</p>
+<p>		   Comp += Space;</p>
+<p>		   num = Space;</p>
+<p>		}else{</p>
+<p>		   num = -Comp;</p>
+<p>		   Comp = 0;</p>
+<p>		}</p>
+<p>		GetObj('ISL_Cont').scrollLeft -= num;</p>
+<p>		setTimeout('CompScr()',Speed);</p>
+<p>	}else{ //下翻</p>
+<p>		if(Comp > Space){</p>
+<p>		   Comp -= Space;</p>
+<p>		   num = Space;</p>
+<p>		}else{</p>
+<p>		   num = Comp;</p>
+<p>		   Comp = 0;</p>
+<p>		}</p>
+<p>		GetObj('ISL_Cont').scrollLeft += num;</p>
+<p>		setTimeout('CompScr()',Speed);</p>
+<p>	}</p>
+<p>}</p>
+<p> </p>
+<p>function showItems(){</p>
+<p>	if($("#itemsList")[0].style.display=="none"){</p>
+<p>		$("#itemsList").show();</p>
+<p>	}else{</p>
+<p>		$("#itemsList").hide();</p>
+<p>	}</p>
+<p>	</p>
+<p>}</p>
+<p> </p>
+<p>function getChildElements(ele,tagName){</p>
+<p>if(!(ele&&ele.nodeType&&ele.nodeType===1))</p>
+<p>return false</p>
+<p>var child=ele.firstChild;</p>
+<p>var a=[]</p>
+<p>if(tagName){</p>
+<p>while(child){</p>
+<p>if(child.nodeType==1&&child.tagName.toLowerCase()==tagName.toLowerCase()){</p>
+<p>a.push(child);</p>
+<p>}</p>
+<p>child=child.nextSibling;</p>
+<p>}</p>
+<p>}else{</p>
+<p>while(child){</p>
+<p>if(child.nodeType==1){</p>
+<p>a.push(child);</p>
+<p>}</p>
+<p>child=child.nextSibling;</p>
+<p>}</p>
+<p>}</p>
+<p>return a</p>
+<p>}</p>
+<p> </p>
+<p>     </p>
+<p>( 編輯：</p>
+<p>劉晗 朱英</p>
+<p>) </p>
+<p>【字號：大 中 小】【打印】【關閉】</p>
+<p>【糾錯】</p>
+<p>食 品 »</p>
+<p>民 航 »</p>
+<p>養生警惕：餐桌上10大謊言莫聽信(組圖) </p>
+<p>嚇人！巨型魚到底能有多大？ </p>
+<p> 過年送禮莫貪奇 反季節水果致病隱患大(組圖)</p>
+<p>‧</p>
+<p>7種牙齒問題預警疾病 口腔健康5步養成(圖) </p>
+<p>‧</p>
+<p>日常7大習慣致短命 對症調養不生病(組圖) </p>
+<p>‧</p>
+<p>辦公室補水7絕招 創造水潤環境抗幹燥(組圖) </p>
+<p>‧</p>
+<p>“1號高地”金色北大荒 </p>
+<p>‧</p>
+<p>回家過年最適合送父母的禮物 </p>
+<p>‧</p>
+<p>改變世界14大發明：胸罩微波爐入圍(圖) </p>
+<p>‧</p>
+<p>實拍體育明星大聚餐 </p>
+<p>‧</p>
+<p>6款紅燒美食豐富你的年夜餐桌(組圖) </p>
+<p>揭秘中國的十大明星空姐 </p>
+<p>細數10年來未漲價的東西 </p>
+<p> 看看身著旗袍的空姐們(組圖)</p>
+<p>‧</p>
+<p>異域風情 來自印度的東航空姐(組圖) </p>
+<p>‧</p>
+<p>首個波音787商業航班抵京(圖) </p>
+<p>‧</p>
+<p>組圖：全球最豪華的黃金機艙　頭等艙售6萬元 </p>
+<p>‧</p>
+<p>臺灣超萌hello kitty航班 空姐穿粉嫩也扮萌(組圖) </p>
+<p>‧</p>
+<p>坐飛機的人看過來！全球豪華候機廳盤點 </p>
+<p>‧</p>
+<p>東航“雙飛”家庭相冊(組圖) </p>
+<p>‧</p>
+<p>高清：世界上最大的黑色客機波音777-300ER </p>
+<p>‧</p>
+<p>高清：八一飛行表演隊組織戰鬥特技飛行訓練 </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>gethotkeys();</p>
+<p> </p>
+<p>熱點新聞</p>
+<p>"廉內助"如何助出"清廉官"</p>
+<p>毛澤東三賦粟裕指揮決斷權 稱"不要請示"</p>
+<p>清網行動揭逃犯雙面人生戶籍漏洞致身份漂白</p>
+<p>北京三裏屯蘋果店停售iPhone4S被扔雞蛋(圖)</p>
+<p>南京市委書記：秦淮河畔特徵不是煙花和胭脂</p>
+<p>毛澤東和他的三位美國朋友</p>
+<p>網絡訂票為何這麼難？四問12306網站</p>
+<p>吉林市駐京辦報警追查“高美美”</p>
+<p>劉玉忱當選松原市人大主任 李相國當選市長</p>
+<p>"領導撐傘觀看學生冒雨表演"續:問責被指搪塞輿論</p>
+<p> </p>
+<p> </p>
+<p>圖片精選</p>
+<p>稀有跑車 你能認全嗎</p>
+<p>全球新聞速覽：“一眼盡知天下事”</p>
+<p>第69屆電影電視金球獎紅毯</p>
+<p>彈道留痕看實力世界彈道導彈盤點</p>
+<p>新華視頻</p>
+<p>春晚走過30年 回憶那些曇花一現的明星</p>
+<p>實拍：妻子捉姦 "淫婦"竟是自己好友</p>
+<p>高曉松出獄後首個作品曝光 揭顯赫家世</p>
+<p>細數導演娶美女 這才是“黃金搭檔”</p>
+<p>林志玲喉嚨發炎 "娃娃音"變撕心裂肺</p>
+<p>韋唯急病入院 與吳秀波春晚對唱或泡湯</p>
+<p>爆笑惡搞《春運來啦》神級原音重現啊</p>
+<p>實拍:警車開道為摩托車返鄉大軍領航</p>
+<p>路政人員暴力執法扇司機數十個耳光</p>
+<p>新華社區</p>
+<p>‧</p>
+<p>過年最適合送父母的禮物 歷年春晚小品笑星主心骨 </p>
+<p>‧</p>
+<p>2011華語電影臺詞的金句與雷語圖 日本億元公寓 </p>
+<p>‧</p>
+<p>網友獻計：如何盡快抓住“四娘”？| 熱帖 </p>
+<p>‧</p>
+<p>80後美女客運員夜班生活圖 史上最美花瓶圖 </p>
+<p>‧</p>
+<p>央視美女主播生活裝比拼圖 空姐真實收入圖 </p>
+<p>‧</p>
+<p>周恩來和女演員合影(圖） 江青嫉妒至死的女人 </p>
+<p>‧</p>
+<p>淘帖一周：網上買火車票比淘寶秒殺還難 </p>
+<p>‧</p>
+<p>春晚85後女主播驚艷照 爆笑!這些人太有才 </p>
+<p>‧</p>
+<p>各門戶美女挑戰度娘圖 嚇人!明星忘形笑圖 </p>
+<p> </p>
+<p>wd_paramtracker("_wdxid=010030101090000000000000011100321225928171")</p>

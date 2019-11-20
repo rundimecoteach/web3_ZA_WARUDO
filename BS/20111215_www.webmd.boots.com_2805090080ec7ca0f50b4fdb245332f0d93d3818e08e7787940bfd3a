@@ -1,0 +1,362 @@
+<p> </p>
+<p> var s_topic="2731"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_sponsor_brand=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_type=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal="Mental Health"</p>
+<p> ,s_channel_health=""</p>
+<p> ,s_channel_mini_topic_guide="Alcohol Abuse Mini"</p>
+<p> ,s_tug=""</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_mrt="";</p>
+<p> var s_furl="/mental-health/alcohol-abuse/news/20111215/warning-to-scots-over-poor-diet-and-excessive-drinking"; var s_sponsor_program=""; var s_sensitive="false"; var s_mrt=""; var image_server_url="http://img.webmd.boots.com/dtmcms/live";var s_uk_user="false";</p>
+<p>Warning to Scots over poor diet and excessive drinking</p>
+<p><!-- </p>
+<p> var center="super"; var center_name="Mental Health"; var center_id=5964; var center_prefix="www"; var center_url="/mental-health/default.htm";//--></p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>			if (typeof(transID) == 'undefined') { var transID = Math.round(99999999*Math.random());	}</p>
+<p>			if (typeof(tileID) == 'undefined') { var tileID = Math.round(99999999*Math.random()); }</p>
+<p>		</p>
+<p>					document.getElementById('bannerAd_fmt').innerHTML=('<iframe id="bannerAd_fmt_IFrame" title="Top Advertisement Frame" onload="setClass(\'bannerAd_fmt\',\'loaded\');" width="728" height="90" marginwidth="0" marginheight="0" style="margin:0;" frameborder="0" scrolling="no" src="http://as.webmd.com/html.ng/transactionID='+transID+'&tile='+tileID+'&site=10&affiliate=200&hcent=&scent=5964&pos=101&xpg=2731&sec=&au1=&au2=&uri=%2fmental-health%2falcohol-abuse%2fnews%2f20111215%2fwarning-to-scots-over-poor-diet-and-excessive-drinking&artid=091e9c5e80969b63&inst=0&amp;leaf=6367"></iframe>');</p>
+<p>				</p>
+<p>try {</p>
+<p>	document.execCommand('BackgroundImageCache', false, true);</p>
+<p>} catch(e) {}</p>
+<p>Home</p>
+<p>Home</p>
+<p>Free newsletters</p>
+<p> </p>
+<p>Health A-Z</p>
+<p>Acne</p>
+<p>ADHD</p>
+<p>Alcohol abuse</p>
+<p>Allergies</p>
+<p>Alzheimer's disease</p>
+<p>Anxiety & panic disorders</p>
+<p>Arthritis</p>
+<p>Asthma</p>
+<p>Back pain</p>
+<p>Bowel cancer</p>
+<p>Breast cancer</p>
+<p>Cancer</p>
+<p>Living well with cancer</p>
+<p>Caring</p>
+<p>Cervical cancer</p>
+<p>Cholesterol management</p>
+<p>Cold & flu</p>
+<p>Contraception</p>
+<p>Depression</p>
+<p>Diabetes</p>
+<p>Diet</p>
+<p>Digestive disorders</p>
+<p>Eczema</p>
+<p>Erectile dysfunction</p>
+<p>Eye health</p>
+<p>Fertility</p>
+<p>Fitness</p>
+<p>Foot care</p>
+<p>Hair loss</p>
+<p>Healthy ageing</p>
+<p>Healthy eating</p>
+<p>Healthy skin</p>
+<p>Heart disease</p>
+<p>Heartburn/GORD</p>
+<p>HIV</p>
+<p>Hypertension/high blood pressure</p>
+<p>IBS</p>
+<p>Lung cancer</p>
+<p>Melanoma/skin cancer</p>
+<p>Menopause</p>
+<p>Mental health</p>
+<p>Migraines & headaches</p>
+<p>Navigating the NHS</p>
+<p>Newborn & baby</p>
+<p>Oral health</p>
+<p>Osteoarthritis</p>
+<p>Osteoporosis</p>
+<p>Ovarian cancer</p>
+<p>Pain management</p>
+<p>Pregnancy</p>
+<p>Prostate cancer</p>
+<p>Sex & relationships</p>
+<p>Sexual conditions</p>
+<p>Shingles</p>
+<p>Skin problems</p>
+<p>Sleep disorders</p>
+<p>Smoking cessation</p>
+<p>Stress management</p>
+<p>Stroke</p>
+<p>Travel</p>
+<p>Urinary incontinence</p>
+<p>Vitamins & minerals</p>
+<p>Slideshows A-Z</p>
+<p>See all topics</p>
+<p> </p>
+<p>WebMD Symptom Checker</p>
+<p>WebMD Symptom Checker</p>
+<p> </p>
+<p>Medicines & treatments</p>
+<p>Medicines & treatments</p>
+<p>Vitamins & minerals</p>
+<p> </p>
+<p>Women</p>
+<p>Breast cancer</p>
+<p>Caring</p>
+<p>Diet</p>
+<p>Fitness</p>
+<p>Healthy skin</p>
+<p>Menopause</p>
+<p>Osteoporosis</p>
+<p>Ovarian cancer</p>
+<p>Pregnancy</p>
+<p>Sex & relationships</p>
+<p>Sexual conditions</p>
+<p> </p>
+<p>Men</p>
+<p>Diet</p>
+<p>Erectile dysfunction</p>
+<p>Fitness</p>
+<p>Healthy skin</p>
+<p>Prostate cancer</p>
+<p>Sex & relationships</p>
+<p> </p>
+<p>Children</p>
+<p>ADHD</p>
+<p>Allergies</p>
+<p>Asthma</p>
+<p>Cold & flu</p>
+<p>Newborn & baby</p>
+<p>Skin conditions</p>
+<p> </p>
+<p>News</p>
+<p>News</p>
+<p>Free newsletters</p>
+<p> </p>
+<p>document.write(wmd_today);</p>
+<p>Enter Search Keywords:</p>
+<p>								$('#searchQuery_fmt').focus(function(){if($(this).val() == 'Enter search term here') {$(this).attr('value','');} $(this).addClass("focused");});</p>
+<p>								$('#searchQuery_fmt').blur(function(){if($(this).val() == '') {$(this).removeClass("focused");}});</p>
+<p>								$(document).ready(function() {if ($('#searchQuery_fmt').val() != 'Enter search term here') {$('#searchQuery_fmt').addClass("focused");}});</p>
+<p>							</p>
+<p>Symptoms|Medicines|Conditions</p>
+<p>Feedback</p>
+<p>BootsWebMD Home</p>
+<p>Mental health centreAlcohol abuse health centreAlcohol abuse newsEmail a friendPrint article </p>
+<p>		if (pf_param == "true") {</p>
+<p>		printElements();</p>
+<p>		}  </p>
+<p>		</p>
+<p> Alcohol abuse health centre </p>
+<p>        function addTitleBarCSS() {</p>
+<p>		/* grabs height of third col area and negative margins nav to compensate. Drops in a stylesheet into the head */</p>
+<p>		var tbHeight = document.getElementById('mainContent_ThirdCol_ctr').offsetHeight;</p>
+<p>		var moveBar = '#navColumn_area {margin-top: -' + tbHeight + 'px;}';</p>
+<p>	</p>
+<p>			var styleElement = document.createElement("style");</p>
+<p>        	styleElement.type = "text/css";</p>
+<p>			styleElement.id = "titleBarCSS";</p>
+<p>    	    if (styleElement.styleSheet) {styleElement.styleSheet.cssText = moveBar;} </p>
+<p>	        else {styleElement.appendChild(document.createTextNode(moveBar));}</p>
+<p>        	document.getElementsByTagName("head")[0].appendChild(styleElement);</p>
+<p>  </p>
+<p>		}	</p>
+<p>									</p>
+<p>        function resizeTitleBar() {</p>
+<p>        	var tbHeight = document.getElementById('mainContent_ThirdCol_ctr').offsetHeight;</p>
+<p>	    	document.getElementById('navColumn_area').style.marginTop = '-' + tbHeight + 'px';</p>
+<p>        }</p>
+<p>		/* calls function here and then one more time in sponsored disclaimer just in case */</p>
+<p>        addTitleBarCSS();</p>
+<p>		</p>
+<p>		/* just in case the previous stuff doesnt work or youre in IE6, it adds that style to the div once page is loaded */</p>
+<p>		addLoadEvent(resizeTitleBar);</p>
+<p>        </p>
+<p>webmd.m.share.init();</p>
+<p>webmd.m.fontSizer.init();</p>
+<p>Warning to Scots over poor diet and excessive drinking</p>
+<p>As Scotland's chief medical officer warns of "unacceptable" levels of ill health, new NHS figures show adult obesity in England has reached its highest level for almost 20 years</p>
+<p>      By</p>
+<p>      Peter  RussellWebMD Health News</p>
+<p>      Reviewed by</p>
+<p>      Dr Farah  Ahmed</p>
+<p>15th December 2011 - More work needs to be done to improve the state of health of people in Scotland, its chief medical officer has said.</p>
+<p>Sir Harry Burns warned that obesity, poor diet and excessive alcohol consumption were causing "unacceptable levels of ill health".</p>
+<p>His comments came as figures for England showed that adult obesity had reached its highest level in almost two decades.</p>
+<p>In his sixth annual report, Sir Harry acknowledged that important strides had been made in Scotland's health, such as a decline in smoking-related illnesses. He also welcomed a fall in death rates from the nation's three biggest killers - cancer, heart disease and stroke.</p>
+<p>Drinking and diet</p>
+<p>However, he pointed to evidence that suggested Scotland had the eighth highest alcohol consumption rate in the world. He quoted figures showing that the proportion of men who reported drinking more than their recommended daily limit had risen from 43% to 45% over a seven year period.</p>
+<p>Sir Harry also said that figures from the Scottish Health Survey revealed that between 1995 and 2010, the proportion of adults aged 16-64 who were overweight or obese increased from 52.4% to 63.3%.</p>
+<p>On diet, the chief medical officer reported that only 22% of adults ate the recommended daily amount of fruit and vegetables - a figure that had not changed much in recent years. The figure was even worse for school age children, he said, with just 12% of five to 15 year olds eating their 5-a-day.</p>
+<p>Health inequalities</p>
+<p>Sir Harry said that health in Scotland could be improved by a combination of legislation and helping people to help themselves. "There is willingness in Scotland to embrace new thinking in our efforts to narrow health inequalities, and make Scotland a better place to grow and develop," he wrote in the report's introduction. "If we can capitalise on this positive mind set, we can make changes which may result in significant improvements to the health and wellbeing of all Scots."</p>
+<p>England health survey</p>
+<p>Obesity among adults in England is at its highest level since 1993, according to new figures. The NHS Information Centre said that 26% of men and women were overweight or obese in 2010, compared with 13% of men and 16% of women in 1993.</p>
+<p>In total, 68% of men and 58% of women were classified as overweight or obese, according to the latest Health Survey for England.</p>
+<p>Sexual behaviour</p>
+<p>For the first time, the 2010 survey also examined aspects of sexual behaviour. The findings suggest that sexual behaviour has changed over the generations, with an increase in the proportion of women who say they first had sex before the age of 16.</p>
+<p>Overall, 14% of women and 20% of men reported that they had first had sex with someone of the opposite sex before their sixteenth birthday. Among women aged between 16 and 24, this figure rose to 27%.</p>
+<p>This contrasts with young men in the same 16 to 24 year old age band of whom 22% reported having sex when they were younger than 16 - a similar proportion to those aged 25 to 69.</p>
+<p>View Article Sources</p>
+<p>SOURCES:</p>
+<p>'Health in Scotland 2010: Annual report of the chief medical officer', NHS Scotland.</p>
+<p>NHS Information Centre.</p>
+<p>Published on</p>
+<p>       December 15, 2011</p>
+<p>© 2011 WebMD, LLC. All rights reserved.</p>
+<p>				if (document.getElementById("headerLinks_print")) { </p>
+<p>				setClass('headerLinks_print','headerLinks_fmt_on');</p>
+<p>				};</p>
+<p>			</p>
+<p>				#url_reference {display: none};</p>
+<p>				</p>
+<p>				#url_reference { display: block; line-height: 150%; margin-bottom: 10px; }</p>
+<p>				#logo_rdr img { visibility: visible; }</p>
+<p>				.titleBar_rdr .titleBarMiddle_fmt { padding-top: 1.5em !important;}</p>
+<p>				</p>
+<p>					var insert1 = document.getElementById("ContentPane2");</p>
+<p>					var urlDiv = articleUrl();</p>
+<p>					if (insert1) {</p>
+<p>						insert1.appendChild(urlDiv);</p>
+<p>						}</p>
+<p>				</p>
+<p>Top Picks</p>
+<p>Try these foods to help manage stress</p>
+<p>Staying sober in social situations</p>
+<p>One teen girl's wake-up call</p>
+<p>Depressed? Common sense tips for recovery</p>
+<p>					$("#centerAd_Iframe_c1").load(function() { $("#centerAd_top_fmt").addClass("loaded"); $(".centerAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>Alcohol abuse</p>
+<p>Alcohol abuse basics</p>
+<p>Alcohol abuse symptoms</p>
+<p>Alcohol abuse effects</p>
+<p>Alcohol abuse treatment</p>
+<p>Teens and alcohol</p>
+<p>var chapters = [</p>
+<p>                                    'http://www.webmd.boots.com/mental-health/alcohol-abuse/default.htm', </p>
+<p>                        </p>
+<p>			'http://www.webmd.boots.com/mental-health/alcohol-abuse/understanding-alcohol-abuse-basics',</p>
+<p>			</p>
+<p>			'http://www.webmd.boots.com/mental-health/alcohol-abuse/understanding-alcohol-abuse-symptoms-signs',</p>
+<p>			</p>
+<p>			'http://www.webmd.boots.com/mental-health/alcohol-abuse/understanding-alcohol-abuse-prevention',</p>
+<p>			</p>
+<p>			'http://www.webmd.boots.com/mental-health/alcohol-abuse/understanding-alcohol-abuse-treatment',</p>
+<p>			</p>
+<p>			'http://www.webmd.boots.com/mental-health/alcohol-abuse/teens-and-alcohol',</p>
+<p>			'',''];</p>
+<p>	function definePage () {</p>
+<p>	var parentChapter, tabChapter, s_pagenameCheck;</p>
+<p>	var subChapter ="1";</p>
+<p>	var theUrl=location.href;</p>
+<p>	s_pagenameCheck = theUrl.toLowerCase();</p>
+<p>	</p>
+<p>	if (s_pagenameCheck.lastIndexOf("?") > 0) {</p>
+<p>		var s_pagenameCheck = s_pagenameCheck.substring(0,s_pagenameCheck.lastIndexOf("?"));</p>
+<p>	} </p>
+<p>					</p>
+<p>		if( s_pagenameCheck in oc(chapters) ) { </p>
+<p>		parentChapter = s_pagenameCheck;</p>
+<p>		highlighMiniCenterTab();</p>
+<p>		} </p>
+<p>	}</p>
+<p>	</p>
+<p>	definePage();</p>
+<p>Related to alcohol abuse</p>
+<p>Cirrhosis of the liver</p>
+<p>Depression</p>
+<p>Gout</p>
+<p>Mental health</p>
+<p>Pancreatitis</p>
+<p>Smoking</p>
+<p>Common treatments</p>
+<p>Acamprosate calcium</p>
+<p>Disulfiram</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>			if (typeof(transID) == 'undefined') { var transID = Math.round(99999999*Math.random());	}</p>
+<p>			if (typeof(tileID) == 'undefined') { var tileID = Math.round(99999999*Math.random()); }</p>
+<p>		</p>
+<p>					document.getElementById('leftAd2_fmt').innerHTML=('<iframe id="leftAd2_fmt_IFrame" title="Top Advertisement Frame" onload="setClass(\'leftAd_top_fmt\',\'loaded\');" width="145" height="199" marginwidth="0" marginheight="0" style="margin:0;" frameborder="0" scrolling="no" src="http://as.webmd.com/html.ng/transactionID='+transID+'&tile='+tileID+'&site=10&affiliate=200&hcent=&scent=5964&pos=701&xpg=2731&sec=&au1=&au2=&uri=%2fmental-health%2falcohol-abuse%2fnews%2f20111215%2fwarning-to-scots-over-poor-diet-and-excessive-drinking&artid=091e9c5e80969b63&inst=0&amp;leaf=6367"></iframe>');</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>			if (typeof(transID) == 'undefined') { var transID = Math.round(99999999*Math.random());	}</p>
+<p>			if (typeof(tileID) == 'undefined') { var tileID = Math.round(99999999*Math.random()); }</p>
+<p>		</p>
+<p>					document.getElementById('leftAd_fmt').innerHTML=('<iframe id="leftAd_fmt_IFrame" title="Top Advertisement Frame" onload="setClass(\'leftAd_top_fmt\',\'loaded\');" width="160" height="600" marginwidth="0" marginheight="0" style="margin:0;" frameborder="0" scrolling="no" src="http://as.webmd.com/html.ng/transactionID='+transID+'&tile='+tileID+'&site=10&affiliate=200&hcent=&scent=5964&pos=113&xpg=2731&sec=&au1=&au2=&uri=%2fmental-health%2falcohol-abuse%2fnews%2f20111215%2fwarning-to-scots-over-poor-diet-and-excessive-drinking&artid=091e9c5e80969b63&inst=0&amp;leaf=6367"></iframe>');</p>
+<p>				</p>
+<p>Hot topics in the UK</p>
+<p>12 health risks of heavy drinking</p>
+<p>Staying sober in social situations</p>
+<p>Beer and your belly: The link</p>
+<p>Hangover helpers</p>
+<p>Can drinking less lower your blood pressure?</p>
+<p>Is your drinking related to depression?</p>
+<p>Self-screening test for alcohol abuse </p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>			if (typeof(transID) == 'undefined') { var transID = Math.round(99999999*Math.random());	}</p>
+<p>			if (typeof(tileID) == 'undefined') { var tileID = Math.round(99999999*Math.random()); }</p>
+<p>		</p>
+<p>					document.getElementById('rightAd_fmt').innerHTML=('<iframe id="rightAd_fmt_IFrame" title="Top Advertisement Frame" onload="setClass(\'rightAd_top_fmt\',\'loaded\');" width="300" height="250" marginwidth="0" marginheight="0" style="margin:0;" frameborder="0" scrolling="no" src="http://as.webmd.com/html.ng/transactionID='+transID+'&tile='+tileID+'&site=10&affiliate=200&hcent=&scent=5964&pos=121&xpg=2731&sec=&au1=&au2=&uri=%2fmental-health%2falcohol-abuse%2fnews%2f20111215%2fwarning-to-scots-over-poor-diet-and-excessive-drinking&artid=091e9c5e80969b63&inst=0&amp;leaf=6367"></iframe>');</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>			if (typeof(transID) == 'undefined') { var transID = Math.round(99999999*Math.random());	}</p>
+<p>			if (typeof(tileID) == 'undefined') { var tileID = Math.round(99999999*Math.random()); }</p>
+<p>		</p>
+<p>					document.getElementById('rightAd2_fmt').innerHTML=('<iframe id="rightAd2_fmt_IFrame" title="Top Advertisement Frame" onload="setClass(\'rightAd_top_fmt\',\'loaded\');" width="300" height="198" marginwidth="0" marginheight="0" style="margin:0;" frameborder="0" scrolling="no" src="http://as.webmd.com/html.ng/transactionID='+transID+'&tile='+tileID+'&site=10&affiliate=200&hcent=&scent=5964&pos=700&xpg=2731&sec=&au1=&au2=&uri=%2fmental-health%2falcohol-abuse%2fnews%2f20111215%2fwarning-to-scots-over-poor-diet-and-excessive-drinking&artid=091e9c5e80969b63&inst=0&amp;leaf=6367"></iframe>');</p>
+<p>				</p>
+<p>WebMD Video: Now PlayingHangoverLearn the risks, causes and effects of alcohol abuse and how to resolve the problem. </p>
+<p>Popular Slideshows & Tools on Boots WebMD</p>
+<p>Previous</p>
+<p>Next</p>
+<p> First foodsBaby food dos and don'tsSecrets to white teethProtect your smile13 best tips to stop smokingStub it out!Weight gain shockers Why you’re getting fat</p>
+<p> Childhood skin problemsFrom baby acne to wartsImmune-boosting foodsThe role of dietAdult skin problemsRecognise these?7 most effective exercisesSmart moves</p>
+<p> What your nails say about your healthThe nail fileFlat absTop tips to tone your tummyToddler milestonesWhat to expect in year 2Cold or flu?How to tell and why it matters</p>
+<p>» Sign up for our newsletters</p>
+<p>Who we are: About us|Terms and conditions|Security and privacy|Sponsor policy|Help|Sitemap|Contact us|Advertise with us</p>
+<p>Services from Boots: Store Locator|NHS & Private Prescriptions|Free Repeat Prescription Service|Midnight Pharmacy|Medicines Check-Up|Weight Loss Programme|Hair Retention Programme|Flu Vaccination Service|Erectile Dysfunction Programme|Cervical Cancer Vaccination Service|Health Club|Parenting Club|Opticians|Hearing Care|Insurance Services</p>
+<p> </p>
+<p>©2009-2011 WebMD UK Limited and Boots UK Limited. All rights reserved.</p>
+<p>BootsWebMD does not provide medical advice, diagnosis or treatment. See additional information.</p>
+<p>			if (typeof(transID) == 'undefined') { var transID = Math.round(99999999*Math.random());	}</p>
+<p>			if (typeof(tileID) == 'undefined') { var tileID = Math.round(99999999*Math.random()); }</p>
+<p>		</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p> var s_account="webmdcom"</p>
+<p> ,s_server_type="1b"</p>
+<p> ,s_server="WFBWS03L-CON-08"</p>
+<p> ,s_object_type="wbmd_cons_article"</p>
+<p> ,s_page_number="1"</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_site_class="cb"</p>
+<p> ,s_site="coreuk"</p>
+<p> ,s_sponsored_uri="mental-health/alcohol-abuse/news/20111215/warning-to-scots-over-poor-diet-and-excessive-drinking"</p>
+<p> ,s_pagename="www.webmd.boots.com/mental-health/alcohol-abuse/news/20111215/warning-to-scots-over-poor-diet-and-excessive-drinking"</p>
+<p> ,s_channel=""</p>
+<p> ,s_topic="2731"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_intended_demographics="__"</p>
+<p> ,s_stage_condition=""</p>
+<p> ,s_asset_id="091e9c5e80969b63"</p>
+<p> ,s_unique_id="091e9c5e80969b63"</p>
+<p> ,s_company="webmd"</p>
+<p> ,s_mrt=""</p>
+<p> ,s_refpath=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal="Mental Health"</p>
+<p> ,s_channel_health=""</p>
+<p> ,s_channel_mini_topic_guide="Alcohol Abuse Mini";</p>

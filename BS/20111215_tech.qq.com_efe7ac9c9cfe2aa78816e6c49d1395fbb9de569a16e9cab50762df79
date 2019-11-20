@@ -1,0 +1,1689 @@
+<p>“以旧换新”结束后 废旧家电何处去_科技_腾讯网</p>
+<p>(function(){</p>
+<p>		/*</p>
+<p>		  腾讯网适配跳转</p>
+<p>		*/</p>
+<p>		var reWriteUrl = function(url){</p>
+<p>			if(url){</p>
+<p>				if(url.indexOf("/a/")>0){</p>
+<p>					var Splits = url.split("/"),siteName=Splits[2].split("qq.com")[0].split(".").length==3?siteName=Splits[2].split("qq.com")[0].split(".")[0]+"_"+Splits[2].split("qq.com")[0].split(".")[1]:siteName=Splits[2].split("qq.com")[0].split(".")[0],aids=url.split("/a/")[1].replace(/[^0-9]/g, ""),site="";</p>
+<p>					if(typeof siteName!=="undefined" && typeof aids!=="undefined"){</p>
+<p>						if(siteName.split(".").length>2){</p>
+<p>							var len = siteName.split(".").length;</p>
+<p>							for(var i=0;i<len;i++){</p>
+<p>									site+=siteName.split(".")[i];</p>
+<p>									if(i<len-2){</p>
+<p>										site+="_";</p>
+<p>									}</p>
+<p>							}</p>
+<p>						}else{</p>
+<p>							site=siteName.split(".")[0];</p>
+<p>						}</p>
+<p>						return "http://shipei.qq.com/c/"+siteName+"/"+aids+"#TencentContent";</p>
+<p>					}</p>
+<p>				}</p>
+<p>			}</p>
+<p>		};</p>
+<p>		var goToMobile = function(){</p>
+<p>				var Aarry = document.getElementsByTagName("a"),TmpArray=[];</p>
+<p>				for(var i=0;i<Aarry.length;i++){</p>
+<p>					TmpArray[i]=Aarry[i].href.toString();</p>
+<p>					if(TmpArray[i].split("/")[3]=="a"){</p>
+<p>						Aarry[i].href=reWriteUrl(TmpArray[i]);</p>
+<p>					}</p>
+<p>				}</p>
+<p>				</p>
+<p>		}</p>
+<p>		var mobileSietList={news:"news",photo:"photo",video:"video",view:"huati",finance:"finance",ent:"ent",sports:"sports",digi:"digi",mil:"mil",lady:"lady",auto:"auto",games:"games",house:"house"};</p>
+<p>		</p>
+<p>		if(/Android|webOS|iPhone|iPod|BlackBerry|SymbianOS/i.test(navigator.userAgent)){</p>
+<p>			/*底层页跳转*/</p>
+<p>			var url=window.location.href;</p>
+<p>			var pathname=window.location.pathname;</p>
+<p>			if(url.indexOf("/a/")>0){</p>
+<p>				try{</p>
+<p>					window.location.href=reWriteUrl(url);</p>
+<p>				}catch(e){}</p>
+<p>			}else{ // 频道首页跳转</p>
+<p>				if(window.location.href.indexOf("?mobile")<0){</p>
+<p>					var mobileUrl=window.location.hostname.split(".")[0];</p>
+<p>					if(/news|pp|video|view|finance|ent|sports|digi|mil|lady|auto|games|house/i.test(mobileUrl)){</p>
+<p>						try{</p>
+<p>							window.location.href='http://shipei.qq.com/iphone/m/'+mobileSietList[mobileUrl]+'/index.htm';</p>
+<p>						}catch(e){	</p>
+<p>						}</p>
+<p>					}</p>
+<p>				}</p>
+<p>			}</p>
+<p>			try{</p>
+<p>				document.addEventListener('DOMContentLoaded', goToMobile, false);</p>
+<p>			}catch(e){	</p>
+<p>			}</p>
+<p>		}</p>
+<p>})();</p>
+<p>.adpip_Aritcle_QQ,.PinP-Main-Article-QQ{position:relative;}</p>
+<p>/*app down*/</p>
+<p>.Tool-Article-QQ ul{margin-top:3px;}</p>
+<p>.Tool-Article-QQ .appIconB{float:left;width:380px;height:40px;margin-left:32px;_margin-left:16px;padding:0;background:url(http://mat1.gtimg.com/news/imgcss_article_qq/tool_bg.png) left repeat-y;}</p>
+<p>.Tool-Article-QQ .appIconB span{display:block;}</p>
+<p>.Tool-Article-QQ .appIconB b{display:none;}</p>
+<p>.Tool-Article-QQ .appIconB a{display:block;width:290px;height:40px;background:url(http://mat1.gtimg.com/news/imgcss_article_qq/appBt.png) no-repeat;}</p>
+<p>.Tool-Article-QQ .appIconB a:hover{background-position: 0 -40px;}</p>
+<p>.Tool-Article-QQ .appIconB a:hover{text-decoration:none;}</p>
+<p>.Tool-Article-QQ .appIconB .appIco{display:block;float:left;width:40px;height:40px;background:url(http://mat1.gtimg.com/news/imgcss_article_qq/appBt.png) no-repeat;}</p>
+<p>.Tool-Article-QQ .appIconB .downArrow{display:block;float:right;width:26px;height:40px;background:url(http://mat1.gtimg.com/news/imgcss_article_qq/appBt.png) -264px 0 no-repeat;}</p>
+<p>.Tool-Article-QQ .appIconBfin a{width:320px;background-position:0 -80px;}</p>
+<p>.Tool-Article-QQ .appIconBfin a:hover{background-position: 0 -120px;}</p>
+<p>.Tool-Article-QQ .appIconBfin .appIco{background-position:0 -80px;}</p>
+<p>.Comment-Article-QQ .commt-sub #cmt_post_btn {background: url(http://mat1.gtimg.com/news/imgcss_article_qq/split_v4.4.png) no-repeat -61px -34px;border: 0 none;color: #FFFFFF;cursor: pointer;font-size: 12px;height: 23px;width: 82px;}</p>
+<p>#Main-Article-QQ .cred { color:red }</p>
+<p>#Main-Article-QQ .cred a,#Main-Article-QQ .cred a:visited,#Main-Article-QQ .cred a:link,#Main-Article-QQ .cred a:hover { color:red; }</p>
+<p>textarea{resize:none;}</p>
+<p>#mb_topic{display:none;}</p>
+<p>/*qmail*/</p>
+<p>.Tool-Article-QQ a.tqmail{background: url(http://mat1.gtimg.com/news/imgcss_article_qq/qqmail.png) 0 0 no-repeat ;}</p>
+<p>#followall_mod .hover{z-index:110;}</p>
+<p>#followall_mod .infoMblog{z-index:auto;}</p>
+<p>.followall_mod .hd h2 {float: left;position:static;width: 76px;}</p>
+<p>.followall_mod .hd span{float:left;line-height:26px;color:#4FA6CB; cursor: pointer;}</p>
+<p>.followall_mod .hd span:hover{text-decoration:underline;}</p>
+<p>.followall_mod .userlist li{height: 168px;}</p>
+<p>.followall_mod .mbSourceCardInfo .userPic a img{width:50px;height:50px;padding:0;border:#d2d2d2 1px solid;}</p>
+<p>.aboutpics_mod{height:168px;}</p>
+<p>.mod-right ul.mbloglink,.mod-right ul.articlelink{margin-bottom:0;}</p>
+<p>.Day-Article-QQ .hd h2, .side2-Article-QQ .hd h2 {float: left;width: 94px;}</p>
+<p>.Day-Article-QQ .hd a {float: right;padding-right: 10px;color: #8896B1;}</p>
+<p>.userInfo .attentBoxWrap .addAttention span { float:left; }</p>
+<p>.userInfo .attentBoxWrap .delAttention { height:19px; background:url(http://mat1.gtimg.com/ent/dcimg/btn_delAttention.gif) no-repeat 0 2px; }</p>
+<p>.picTj li { width:132px;   white-space:nowrap; }</p>
+<p>	ARTICLE_INFO = window.ARTICLE_INFO || {</p>
+<p>		site:'tech',</p>
+<p>		site_cname:'科技',</p>
+<p>		temp_type:'default',</p>
+<p>		article_ver:'1.2.3',</p>
+<p>		title:'“以旧换新”结束后 废旧家电何处去',</p>
+<p>		id:'20111215000278',</p>
+<p>		pubtime:'2011年12月15日11:03',</p>
+<p>		type:'0',</p>
+<p>		article_url:'http://tech.qq.com/a/20111215/000278.htm',</p>
+<p>		sosokeys:{},</p>
+<p>		catalog:'househ',</p>
+<p>		sub_nav:'heanews',</p>
+<p>		topic:{name:'',cname:''}</p>
+<p>		}</p>
+<p>	</p>
+<p>function ResumeError() {return true;}window.onerror = ResumeError;</p>
+<p>/*全站迷你导航 v20120718 1.0.8 @austinjin*/</p>
+<p>body{font-family:"宋体","Arial Narrow",sans-serif;-webkit-text-size-adjust:100%;}</p>
+<p>#mini_nav_qq_wrap{width:100%;height:25px;background:url(http://mat1.gtimg.com/www/images/nav/mini_bg.png) top left repeat-x}</p>
+<p>#mini_nav_qq{width:960px;height:25px; margin:0 auto;padding:0;font-size:12px;font-family:"宋体","Arial Narrow",sans-serif;clear:both;}</p>
+<p>#mini_nav_qq div{color:#666;line-height:24px;}</p>
+<p>#mini_nav_qq .mini_nav_fl{float:left;}</p>
+<p>#mini_nav_qq ul,#mini_nav_qq li{margin:0;padding:0;list-style:none;}</p>
+<p>#mini_nav_qq .first{padding-left:4px;}</p>
+<p>#mini_nav_qq .first a{padding-right:13px;background:url(http://mat1.gtimg.com/www/images/nav/mini_arrow.png)  right -1px no-repeat;}</p>
+<p>#mini_nav_qq .end{border:none;}</p>
+<p>#mini_nav_qq ul{padding:7px 3px 0 0;}</p>
+<p>#mini_nav_qq li{float:left;padding:0 8px;*padding-top:1px;border-right:#ddd 1px solid;line-height:12px;color:#666;}</p>
+<p>#mini_nav_qq a{color:#666; text-decoration:none;}</p>
+<p>#mini_nav_qq a:visited{color:#666;}</p>
+<p>#mini_nav_qq a:hover{color:#666; text-decoration: underline;}</p>
+<p>腾讯网首页网站导航邮箱</p>
+<p>/*导航微博登录 v20120209 1.0.7 mblogin*/</p>
+<p>#site_nav_mblogin{float:right;height:25px;padding-right:8px;line-height:24px;color:#666;font-size:12px;font-family:"宋体","Arial Narrow",sans-serif;}</p>
+<p>#site_nav_mblogin div{float:left;}</p>
+<p>#site_nav_mblogin .mblog_logo{width:20px;height:24px;background:url(http://mat1.gtimg.com/www/images/nav/wblogin_bt_v3.png) -90px 5px no-repeat; }</p>
+<p>#site_nav_mblogin .mblog_logo span{display:none;}</p>
+<p>#site_nav_mblogin .mblog_login_info span{padding-right:12px;}</p>
+<p>#site_nav_mblogin .mblog_login_info em{font-family:Arial;font-style:normal;padding-right:12px;}</p>
+<p>#site_nav_mblogin .mblog_login_button span,#site_nav_mblogin .mblog_enter_button span{*padding-left:1px;_padding-left:1px;text-align:center;color:#fff;}</p>
+<p>#site_nav_mblogin .mblog_login_button,#site_nav_mblogin .mblog_enter_button{position:relative;z-index:10000;width:57px;height:17px;margin-top:2px;margin-right:12px;padding-top:2px;background:url(http://mat1.gtimg.com/www/images/nav/wblogin_bt_v3.png) 0 0 no-repeat;cursor:pointer;text-align:center;line-height:17px;overflow:visible;color:#fff;}</p>
+<p>#site_nav_mblogin .mblog_enter_button{display:none;}</p>
+<p>#site_nav_mblogin .mblog_login_text{*padding-top:1px;_padding-top:1px;}</p>
+<p>#site_nav_mblogin .mblog_loginout_text{display:none;*padding-top:1px;_padding-top:1px;}</p>
+<p>#site_nav_mblogin a{color:#666; text-decoration:none;}</p>
+<p>#site_nav_mblogin a:visited{color:#666;}</p>
+<p>#site_nav_mblogin a:hover{color:#666; text-decoration: underline;}</p>
+<p>#site_nav_mblogin .mblog_login_info em a,#site_nav_mblogin .mblog_login_info em a:visited,#site_nav_mblogin .mblog_login_info em a:hover{color:#0B3B8C}</p>
+<p>#site_nav_mblogin .mblog_login_info a.mbAtMe,#site_nav_mblogin .mblog_login_info a.mbAtMe:visited,#site_nav_mblogin .mblog_login_info a.mbAtMe:hover{color:#BD0A01;}</p>
+<p>#site_nav_mblogin .mblog_enter_button a,#site_nav_mblogin .mblog_enter_button a:visited,#site_nav_mblogin .mblog_enter_button a:hover{color:#fff;line-height:17px;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo {position: absolute;z-index:999999;left:-160px; top:0;width:236px;margin-top: 26px; text-align:left;text-indent:0;overflow:visible;}</p>
+<p>#site_nav_mblogin .mbCardUserDetail div{line-height:18px;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo{height:auto;padding:10px 24px 10px 10px;background:#ffffce;border:#f0e5ba 1px solid;color:#666;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo .arrowBox{position:absolute;width:15px;height:8px;left:0;top:0;margin:-8px 0 0 180px;font-size:1px;line-height:1px;background:url(http://mat1.gtimg.com/www/images/nav/wblogin_bt_v3.png) 0 -30px no-repeat;celar:both;zoom:1;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo .arrowBox div{font-size:1px;line-height:1px;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo .mbClose {position:absolute;top:0;right:0;width:15px;height:15px;margin:4px;background:url(http://mat1.gtimg.com/www/images/nav/wblogin_bt_v3.png) 0 -45px no-repeat;font-size:1px;line-height:1px;cursor:pointer;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo .mbClose span{display:none;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo .mbCardUserDetail .mbTxt1,#site_nav_mblogin .mbCardUserInfo .mbCardUserDetail .mbUserNick,#site_nav_mblogin .mbCardUserInfo .mbCardUserDetail .mbFriends{color:#666;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo .mbCardUserDetail .mbReg{padding-left:180px;text-align:left;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo .mbCardUserDetail .mbReg,#site_nav_mblogin .mbCardUserInfo .mbCardUserDetail .mbReg a,#site_nav_mblogin .mbCardUserInfo .mbCardUserDetail .mbReg a:visited{color:#2b4a78;text-decoration:underline;}</p>
+<p>#site_nav_mblogin .mbCardUserInfo {-moz-border-radius: 6px;-moz-box-shadow: 2px 2px 2px #f0e5ba;-webkit-border-radius: 6px;-webkit-box-shadow: 2px 2px 2px #f0e5ba;}</p>
+<p>/*=S 浮动层 */</p>
+<p>.share_layer { overflow:hidden; padding:7px; position:absolute; z-index:999999;zoom:1;font-size:12px; font-family:Arial, Sans-Serif; }</p>
+<p>.share_layer ul, .share_layer ul li { list-style-type:none; }</p>
+<p>.share_layer img { border:0 none; }</p>
+<p>.share_layer a { text-decoration:none; }</p>
+<p>.share_layer a:hover { text-decoration:underline; }</p>
+<p>.share_layer button,.share_layer label { cursor:pointer; border:0 none; }</p>
+<p>.share_layer input,.share_layer  button { font-size:12px; font-family:Arial, Sans-Serif; }</p>
+<p>.share_layer_main{ border:1px solid #b5c1ca; background-color:#FAFCFF; position:relative; z-index:5}</p>
+<p>.share_layer_title { height:24px; background:#EEF4F6 url(http://mat1.gtimg.com/www/images/nav/loginpop_tbg.png) repeat-x; cursor:move; border-bottom:1px solid #CED3E4; }</p>
+<p>.share_layer_title h3 { float:left; margin:0;padding:3px 0 0 12px; color:#666; font-size:13px;font-weight:normal; line-height:18px; overflow:hidden; font-family:Arial, Helvetica, sans-serif;}</p>
+<p>.share_layer_title .mblogo{ padding-left:24px;background:url(http://mat1.gtimg.com/www/images/nav/wblogin_bt1.png) -84px 6px no-repeat;}</p>
+<p>.share_layer .bt_close { background:url(http://imgcache.qq.com/qzonestyle/qzone_app/app_news_share_v1/pop_bg.png) no-repeat 0 -39px; width:9px; height:10px;cursor:pointer; position:absolute; right:10px; top:11px; z-index:5px;}</p>
+<p>.share_layer_cont a:link, .share_layer_cont a:visited { color:#5F5F5F; text-decoration:underline; }</p>
+<p>.share_layer_cont a:hover, .share_layer_cont a:active { color:#494949; }</p>
+<p>.share_layer_cont { color:#000000; background-color:#FAFCFF;}</p>
+<p>.share_layer_hint { color:#9E9E9E; font-style:normal; }</p>
+<p>.global_tip_button { text-align:center; clear:both; width:100%;}</p>
+<p>.bt_tip_sure, .bt_tip_cancel { background-image:url(http://imgcache.qq.com/qzonestyle/qzone_app/app_news_share_v1/pop_bg.png); background-repeat:no-repeat; background-position:0 -58px; font-size:12px; line-height:19px; width:48px; height:23px; margin-right:6px; *overflow:visible;</p>
+<p>_padding-top:3px; _line-height:12px; cursor:pointer; }</p>
+<p>*:lang(zh) .bt_tip_sure, .bt_tip_cancel {padding-top /*\**/:4px\9}</p>
+<p>.bt_tip_cancel { color:#4D637F; background-color:#F3F4F5; background-position:-54px -58px; }</p>
+<p>.icon_hint_warn, .icon_hint_succeed { background:transparent url(http://imgcache.qq.com/qzonestyle/qzone_app/app_news_share_v1/pop_bg.png) no-repeat; display:-moz-inline-stack; display:inline-block; height:15px; width:15px; vertical-align:middle; }</p>
+<p>.icon_hint_warn { background-position:-39px -37px; _vertical-align:-2px; }</p>
+<p>.icon_hint_succeed { background-position:-18px -37px; }</p>
+<p>.layer_popup { background-color:#FFFFFF; border:2px solid #6792bc; }</p>
+<p>.icon_hint_warn span, .icon_hint_succeed span { display:none; }</p>
+<p>.share_layer .bg {position:absolute;top:0;left:0;height:100%;padding:500px;zoom:1;}</p>
+<p>.share_layer .del_fri{font-weight:bold;display:-moz-inline-stack;display:inline-block;line-height:9px;width:11px;height:10px;position:absolute;top:6px;right:10px;cursor:pointer; font-family:"Comic Sans MS","Verdana", cursive; color:#99ADBA;}</p>
+<p>.share_layer .del_fri:hover{text-decoration:none; color:#666666;}</p>
+<p>.share_layer_title .none { display:none !important; }</p>
+<p>/*=E 浮动层 */</p>
+<p>腾讯微博蒲公英</p>
+<p>登录微博</p>
+<p>关闭</p>
+<p>加入微博，记录点滴，分享感动，握手明星</p>
+<p>开通微博</p>
+<p>进入微博</p>
+<p>注册</p>
+<p>退出</p>
+<p>var MI = {};(function(b){var a=document.createElement("script");a.setAttribute("charset","utf-8");a.setAttribute("type","text/javascript");a.setAttribute("src",b);document.getElementsByTagName("head")[0].appendChild(a)})("http://mat1.gtimg.com/www/mb/js/portal/mi.MiniNav_130403V1.js");</p>
+<p>/*全站主导航*/</p>
+<p>#main_nav_qq{width:952px;height:42px;margin:0 auto;padding:7px 4px 6px 4px;font-size:12px;font-family:"宋体","Arial Narrow";clear:both;}</p>
+<p>#main_nav_qq ul,#main_nav_qq li{margin:0;padding:0;list-style:none;}</p>
+<p>#main_nav_qq a{color:#000; text-decoration:none;}</p>
+<p>#main_nav_qq a:visited{color:#000;}</p>
+<p>#main_nav_qq a:hover{color:#db0010; text-decoration: underline;}</p>
+<p>#main_nav_qq a.lchot{color:#db0010;}</p>
+<p>#main_nav_qq a.lchot:visited{color:#db0010;}</p>
+<p>#main_nav_qq .main{float:left;width:136px;padding:0 8px 0 14px;background:url(http://mat1.gtimg.com/www/images/nav/nav_2.png) right center no-repeat; text-align:center;}</p>
+<p>#main_nav_qq .main strong{padding-right:4px;}</p>
+<p>#main_nav_qq .w_1{padding-left:0;}</p>
+<p>#main_nav_qq .w_2{width:146px;}</p>
+<p>#main_nav_qq .w_6{width:73px;}</p>
+<p>#main_nav_qq .w_7{width:62px;padding-right:0;background:none;}</p>
+<p>#main_nav_qq ul{display:block; clear:both;zoom:1;}</p>
+<p>#main_nav_qq li{float:left;padding-right:8px;line-height:21px; background:none;}</p>
+<p>#main_nav_qq li.end{padding-right:0;}</p>
+<p>#main_nav_qq .en{font-family:Arial,Tahoma,Verdana,sans-serif;}</p>
+<p>#main_nav_qq .mblog{padding-right:11px;background:url(http://mat1.gtimg.com/www/iskin960/mblog_blog_w.png) right top no-repeat;}</p>
+<p>新闻</p>
+<p>视频</p>
+<p>图片</p>
+<p>评论</p>
+<p>财经</p>
+<p>股票</p>
+<p>港股</p>
+<p>基金</p>
+<p>娱乐</p>
+<p>明星</p>
+<p>电影</p>
+<p>音乐</p>
+<p>体育</p>
+<p>NBA</p>
+<p>英超</p>
+<p>彩票</p>
+<p>汽车</p>
+<p>车型</p>
+<p>房产</p>
+<p>家居</p>
+<p>科技</p>
+<p>数码</p>
+<p>手机</p>
+<p>家电</p>
+<p>女性</p>
+<p>健康</p>
+<p>美容</p>
+<p>育儿</p>
+<p>时尚</p>
+<p>购物</p>
+<p>旅游</p>
+<p>杂志</p>
+<p>读书</p>
+<p>教育</p>
+<p>小说</p>
+<p>出国</p>
+<p>游戏</p>
+<p>动漫</p>
+<p>漫画</p>
+<p>星座</p>
+<p>博客</p>
+<p>微博</p>
+<p>军事</p>
+<p>论坛</p>
+<p>公益</p>
+<p>医疗</p>
+<p>儿童</p>
+<p>天气</p>
+<p>科技 > 家电报道 > 家电新闻 > 正文</p>
+<p>var sosoArticlKey = '';</p>
+<p>.Form-Crumbs-Article-QQ .submit {float:right;width:50px;height:26px;border:none;font-size:12px;background: url(http://mat1.gtimg.com/news/imgcss_article_qq/soso_new_ui.png) 0 -26px no-repeat;cursor:pointer;}</p>
+<p>.Form-Crumbs-Article-QQ .inputWarp{float:right;width:229px;height:24px;margin:0;padding:0;line-height:22px;background:none;border:#c9c9c9 1px solid;border-right:none;}</p>
+<p>.Form-Crumbs-Article-QQ .txtArea{width:170px;height: 20px;margin:2px auto 0 2px;font-size:14px;line-height:20px;border:none;color:#424242;outline:none;inline:none;}</p>
+<p>.Form-Crumbs-Article-QQ .SosonLogo{float:right;width:50px;height:24px;background:url(http://mat1.gtimg.com/news/imgcss_article_qq/soso_new_ui.png) 0 -2px no-repeat;}</p>
+<p>.Form-Crumbs-Article-QQ .SosonLogo span{display:none;}</p>
+<p>SOSO</p>
+<p>if(sosoArticlKey){document.getElementById("sosoArticlKey").value = sosoArticlKey.replace("&#183;","・");}</p>
+<p>“以旧换新”结束后 废旧家电何处去</p>
+<p>2011年12月15日11:03家电质量网张君我要评论(0)</p>
+<p>字号：T|T</p>
+<p>核心提示：对废旧家电的处理，就像是对地沟油的处理一样。由于处理方式不同，国内地沟油重新回到了消费者的餐桌上，而荷兰则用地沟油提炼出了燃料为飞机加油。按照国家发布的《家电以旧换新推广工作方案》，家电“以旧换新”政策到2011年12月31日到期。“以旧换新”结束废旧家电何去何从同家电下乡、家电节能惠民工程一样，家电“以旧换新“作为一项政府大力实施的政策，促进了家电产品的更新换代，使企业和消费者都得到了实惠，同时，由于对废旧家电的回收，其也在一定程度上保护了环境。然而，在家电“以旧换新”过程中也出现了一些弊端。由于持有“以旧换新”补贴证明，就可以得到国家财政补贴，一些不法商家反而趁此钻空子，办理假证，而消费者也乐得通过购买假证，在购买新家电时，获取“以旧换新”补贴。正是由于这个原因，一些专家认为，国家应该停止实施“以旧换新”政策，并指出，应当让企业自己来做好废旧家电的回收工作。但是，目前很多企业不愿意做回收废旧家电的工作，一是因为没有多大利润，二是会牵涉很多精力来对废旧家电进行处理。所以让企业自己来做废旧家电的回收工作，企业是不情愿的。那么这项工作应该由谁来做呢？笔者觉得应该还是由国家来建立完比较备的废旧家电回收机制更为合适。面临类似“地沟油”的两种选择应该说，国家实施“以旧换新”更多的是从经济层面考虑的，目的主要是为了促进企业产品销售，并最终为国家GDP做出贡献，而对环境的保护，则是附属为之的。目前，国家正在考虑从对企业的扶持中抽身，让市场规律这双看不见的手来发挥作用。家电下乡政策的退出，节能惠民工程的有序退出，都反映了这一趋势。在出现骗取“以旧换新”补贴的事情发生后，政府也没有必要再继续推行“以旧换新”。 但是，“以旧换新”可以停止，然而对废旧家电的回收和处理机制则有待进一步完善。什么样的处理机制，最终将导向废旧家电不同的命运。打一个不恰当的比例，在地沟油方面，国内的地沟油没有一个良好的处理机制，一些不良商贩在瞄准商机之后，反而将地沟油加工，重新回到了老百姓的餐桌。而荷兰因为对地沟油的处理有严格的处理机制和标准，在标准催生下，荷兰反而利用地沟油提炼出了燃料，给飞机加油。目前，国外一些发达国家，在废旧家电的处理上，日本实行的是消费者付费制，回收处理费的制定和管理由日本家电协会成立的家电回收利用中心负责，并最终用于协会、运输、回收环节的管理支出以及生产企业的再利用补贴。欧盟则规定，各成员国生产者在产品投放于市场时，应当承担产品回收、循环利用或最终处置的费用，具体执行则由非营利组织来操作。美国加利福尼亚州规定，消费者在购买新的电脑或电视机时，要缴纳每件6到10美元的电子垃圾回收处理费。而新泽西州和宾西法尼亚州则通过立法征收填埋和焚烧税。受观念意识影响，国外的回收处理机制不一定适合国内，但是，在当下国内如果不采取有效的方式，那么在家电“以旧换新”结束后，那些废旧家电可能又会像以前一样，经过简单改装，改头换面，贴上新标签重新流入市场中。如此，受伤的依然是消费者。或者，废旧家电在经过小商小贩的回收拆解之后，有用的重新利用，而没用的则被填满或焚烧，给空气和水源环境造成污染，孰轻孰重，值得深思。</p>
+<p>var g_official_account = 'qqtech';</p>
+<p>if(!window._MUI){document.write('<scr'+'ipt src="http://mat1.gtimg.com/www/mb/js/portal/mi.Portal_2012111404.js" type="text/javascript" charset="utf-8"></scr'+'ipt>')};</p>
+<p>_MUI.ready(function(){</p>
+<p>	_MI.WebSCard.build('mbSourceCard','qqcom.dp.titleinfo');</p>
+<p>	_MI.WebSCard.build('Cnt-Main-Article-QQ','qqcom.keyword','.a-tips-Article-QQ');</p>
+<p>})</p>
+<p>(function() {</p>
+<p>    document.domain = 'qq.com';</p>
+<p>    var t = function(a) {</p>
+<p>        var th = this;</p>
+<p>        th.body = document.body;</p>
+<p>        th.title = a.title;</p>
+<p>        th.width = a.width;</p>
+<p>        th.height = a.height;</p>
+<p>        th.src = a.src;</p>
+<p>        th.layerbg;</p>
+<p>        th.main;</p>
+<p>        th.layerTitle;</p>
+<p>        th.con;</p>
+<p>        th.close;</p>
+<p>        th.iframe;</p>
+<p>        th.isDrag = false;</p>
+<p>        th.isIE = document.all ? true: false;</p>
+<p>        th.getMX = function(e) {</p>
+<p>            return th.isIE ? e.clientX + Math.max(document.body.scrollLeft, document.documentElement.scrollLeft) : e.pageX</p>
+<p>        };</p>
+<p>        th.getMY = function(e) {</p>
+<p>            return th.isIE ? e.clientY + Math.max(document.body.scrollTop, document.documentElement.scrollTop) : e.pageY</p>
+<p>        };</p>
+<p>        th.setEvent = function(a) {</p>
+<p>            if (a.setCapture) a.setCapture();</p>
+<p>            if (window.captureEvents) window.captureEvents(Event.MOUSEMOVE | Event.MOUSEUP)</p>
+<p>        };</p>
+<p>        th.releaseEvent = function(a) {</p>
+<p>            if (a.releaseCapture) a.releaseCapture();</p>
+<p>            if (window.releaseEvents) window.releaseEvents(Event.MOUSEMOVE | Event.MOUSEUP)</p>
+<p>        };</p>
+<p>        th.creatDom = function(o, parentNode) {</p>
+<p>            function applyStyles(el, styles) {</p>
+<p>                function setStyle(el, prop, value) {</p>
+<p>                    if (!el || typeof value != "string") return;</p>
+<p>                    prop = prop ? prop: "";</p>
+<p>                    value = value ? value: "";</p>
+<p>                    el.style[prop] = value;</p>
+<p>                    return el</p>
+<p>                };</p>
+<p>                if (!styles) return;</p>
+<p>                if (typeof styles == "string") {</p>
+<p>                    var re = /\s?([a-z\-]*)\:\s?([^;]*);?/gi,</p>
+<p>                    matches;</p>
+<p>                    while ((matches = re.exec(styles)) != null) {</p>
+<p>                        setStyle(el, matches[1], matches[2])</p>
+<p>                    }</p>
+<p>                } else if (typeof styles == "object") {</p>
+<p>                    for (var style in styles) {</p>
+<p>                        setStyle(el, style, styles[style])</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            };</p>
+<p>            var el = document.createElement(o.tag || 'div'),</p>
+<p>            useSet = el.setAttribute ? true: false;</p>
+<p>            for (var attr in o) {</p>
+<p>                if (attr == "tag" || attr == "children" || attr == "cn" || attr == "html" || attr == "style" || typeof o[attr] == "function") continue;</p>
+<p>                if (attr == "cls") {</p>
+<p>                    el.className = o["cls"]</p>
+<p>                } else {</p>
+<p>                    if (useSet) el.setAttribute(attr, o[attr]);</p>
+<p>                    else el[attr] = o[attr]</p>
+<p>                }</p>
+<p>            }</p>
+<p>            if (o.html) {</p>
+<p>                el.innerHTML = o.html</p>
+<p>            }</p>
+<p>            applyStyles(el, o.style);</p>
+<p>            if (parentNode) {</p>
+<p>                parentNode.appendChild(el)</p>
+<p>            }</p>
+<p>            return el</p>
+<p>        };</p>
+<p>        th.getObjPosition = function(obj) {</p>
+<p>            var a = {};</p>
+<p>            a.x = obj.offsetLeft,</p>
+<p>            a.y = obj.offsetTop;</p>
+<p>            while (obj = obj.offsetParent) {</p>
+<p>                a.x += obj.offsetLeft;</p>
+<p>                a.y += obj.offsetTop</p>
+<p>            }</p>
+<p>            return a</p>
+<p>        };</p>
+<p>        th.getWindowSize = function() {</p>
+<p>            var a = {};</p>
+<p>            if (window.self && self.innerWidth) {</p>
+<p>                a.width = self.innerWidth;</p>
+<p>                a.height = self.innerHeight;</p>
+<p>                return a</p>
+<p>            }</p>
+<p>            if (document.documentElement && document.documentElement.clientHeight) {</p>
+<p>                a.width = document.documentElement.clientWidth;</p>
+<p>                a.height = document.documentElement.clientHeight;</p>
+<p>                return a</p>
+<p>            }</p>
+<p>            a.width = document.body.clientWidth;</p>
+<p>            a.height = document.body.clientHeight;</p>
+<p>            return a</p>
+<p>        };</p>
+<p>        th.keyDownListener = function(e) {</p>
+<p>            e = e ? e: window.event;</p>
+<p>            if (e.keyCode == 27) {</p>
+<p>                th.closePopup()</p>
+<p>            }</p>
+<p>        };</p>
+<p>        th.keyDownAddListener = function(a) {</p>
+<p>            if (th.isIE) {</p>
+<p>                document.attachEvent("onkeydown", th.keyDownListener)</p>
+<p>            } else {</p>
+<p>                document.addEventListener("keydown", th.keyDownListener, false)</p>
+<p>            }</p>
+<p>        };</p>
+<p>        th.keyDownRemoveListener = function() {</p>
+<p>            if (th.isIE) {</p>
+<p>                document.detachEvent("onkeydown", th.keyDownListener)</p>
+<p>            } else {</p>
+<p>                document.removeEventListener("keydown", th.keyDownListener, false)</p>
+<p>            }</p>
+<p>        };</p>
+<p>        th.createInfoWindow = function(a) {</p>
+<p>            th.layerbg = th.creatDom({</p>
+<p>                cls: 'share_layer'</p>
+<p>            });</p>
+<p>            th.main = th.creatDom({</p>
+<p>                cls: 'share_layer_main'</p>
+<p>            });</p>
+<p>            th.layerTitle = th.creatDom({</p>
+<p>                cls: 'share_layer_title'</p>
+<p>            });</p>
+<p>            var t3 = th.creatDom({</p>
+<p>                tag: 'h3',</p>
+<p>                html: th.title</p>
+<p>            });</p>
+<p>            th.close = th.creatDom({</p>
+<p>                tag: 'a',</p>
+<p>                title: '关闭',</p>
+<p>                cls: "del_fri",</p>
+<p>                href: "javascript:void(0)",</p>
+<p>                html: "X"</p>
+<p>            });</p>
+<p>            th.close.onmousedown = function(e) {</p>
+<p>                th.releaseEvent(th.layerTitle);</p>
+<p>                th.closePopup()</p>
+<p>            };</p>
+<p>            th.layerTitle.appendChild(t3);</p>
+<p>            th.layerTitle.appendChild(th.close);</p>
+<p>            th.main.appendChild(th.layerTitle);</p>
+<p>            th.con = th.creatDom({</p>
+<p>                cls: 'share_layer_cont'</p>
+<p>            });</p>
+<p>            th.iframe = th.creatDom({</p>
+<p>                tag: 'iframe'</p>
+<p>            });</p>
+<p>            th.iframe.setAttribute('frameBorder', '0', 0);</p>
+<p>            th.iframe.setAttribute('marginheight', '0');</p>
+<p>            th.iframe.setAttribute('marginwidth', '0');</p>
+<p>            th.iframe.setAttribute('scrolling', 'no');</p>
+<p>            th.iframe.style.width = th.width + 'px';</p>
+<p>            th.iframe.style.height = th.height + 'px';</p>
+<p>            th.iframe.style.display = 'block';</p>
+<p>            th.con.appendChild(th.iframe);</p>
+<p>            window.setTimeout(function() {</p>
+<p>                th.iframe.setAttribute('src', th.src, 0)</p>
+<p>            },</p>
+<p>            5);</p>
+<p>            th.main.appendChild(th.con);</p>
+<p>            var bg = th.creatDom({</p>
+<p>                cls: 'bg'</p>
+<p>            });</p>
+<p>            th.layerbg.appendChild(th.main);</p>
+<p>            th.layerbg.appendChild(bg);</p>
+<p>            th.body.appendChild(th.layerbg);</p>
+<p>            th.floatPopup(a);</p>
+<p>            th.dragPopup(th.layerTitle, th.layerbg)</p>
+<p>        };</p>
+<p>        th.floatPopup = function(a) {</p>
+<p>            var sLeft = document.body.scrollLeft || document.documentElement.scrollLeft;</p>
+<p>            var sTop = document.body.scrollTop || document.documentElement.scrollTop;</p>
+<p>            var wins = {</p>
+<p>                width: sLeft + th.getWindowSize().width,</p>
+<p>                height: sTop + th.getWindowSize().height</p>
+<p>            };</p>
+<p>            var pos = th.getObjPosition(a);</p>
+<p>            if ((pos.y + th.height) > wins.height) {</p>
+<p>                pos.y = pos.y - a.offsetHeight - th.height - th.layerTitle.offsetHeight - 30</p>
+<p>            } else {</p>
+<p>                pos.y = pos.y + a.offsetHeight + 5</p>
+<p>            }</p>
+<p>            pos.x = pos.x - a.offsetWidth / 2;</p>
+<p>            th.layerbg.style.width = th.width + 2 + 'px';</p>
+<p>            th.layerbg.style.left = (wins.width - th.width) / 2 + 'px';</p>
+<p>            //th.layerbg.style.top = pos.y + 'px'</p>
+<p>			th.layerbg.style.top = (sTop + (th.getWindowSize().height - th.height) / 2) + 'px';</p>
+<p>        };</p>
+<p>        th.dragPopup = function(obj, con) {</p>
+<p>            obj.onmousedown = function(a) {</p>
+<p>                con.style.position = "absolute";</p>
+<p>                th.isDrag = true;</p>
+<p>                var d = document;</p>
+<p>                if (!a) a = window.event;</p>
+<p>                x = a.layerX ? a.layerX: a.offsetX;</p>
+<p>                y = a.layerY ? a.layerY: a.offsetY;</p>
+<p>                th.setEvent(obj);</p>
+<p>                var zl;</p>
+<p>                d.onmousemove = function(a) {</p>
+<p>                    if (!th.isDrag) return;</p>
+<p>                    if (!a) a = window.event;</p>
+<p>                    var mx = th.getMX(a);</p>
+<p>                    var my = th.getMY(a);</p>
+<p>                    if (!a.pageX) a.pageX = mx;</p>
+<p>                    if (!a.pageY) a.pageY = my;</p>
+<p>                    var tx = a.pageX - x;</p>
+<p>                    var ty = a.pageY - y;</p>
+<p>                    con.style.left = tx - (th.isIE ? 10 : 7) + "px";</p>
+<p>                    con.style.top = ty - (th.isIE ? 10 : 7) + "px"</p>
+<p>                };</p>
+<p>                d.onmouseup = function(a) {</p>
+<p>                    th.isDrag = false;</p>
+<p>                    th.releaseEvent(obj);</p>
+<p>                    d.onmousemove = null;</p>
+<p>                    d.onmouseup = null;</p>
+<p>                    d.onselectstart = null</p>
+<p>                };</p>
+<p>                d.onselectstart = function() {</p>
+<p>                    return false</p>
+<p>                }</p>
+<p>            }</p>
+<p>        };</p>
+<p>        th.resizePopup = function(a) {</p>
+<p>            if (a.width) {</p>
+<p>                th.iframe.style.width = a.width + 'px';</p>
+<p>                th.layerbg.style.width = a.width + 2 + 'px'</p>
+<p>            }</p>
+<p>            if (a.height) th.iframe.style.height = a.height + 'px'</p>
+<p>        };</p>
+<p>        th.showPopup = function(a) {</p>
+<p>            if (a) {</p>
+<p>                var class_type = a.className;</p>
+<p>                if (class_type == 'tpeng') {</p>
+<p>                    th.title = '分享到朋友网';</p>
+<p>                    th.src = 'http://imgcache.qq.com/qzone/app/qzshare/news_share.html#to=pengyou&url=' + ARTICLE_INFO.article_url</p>
+<p>                }</p>
+<p>                if (class_type == 'tqzone') {</p>
+<p>                    th.title = '分享到QQ空间';</p>
+<p>                    th.src = 'http://imgcache.qq.com/qzone/app/qzshare/news_share.html#url=' + ARTICLE_INFO.article_url</p>
+<p>                }</p>
+<p>            }</p>
+<p>            if (th.layerbg) th.closePopup();</p>
+<p>            th.createInfoWindow(a);</p>
+<p>            th.keyDownAddListener()</p>
+<p>        };</p>
+<p>        th.closePopup = function() {</p>
+<p>            th.layerbg.style.display = 'none';</p>
+<p>            th.layerbg.parentNode.removeChild(th.layerbg);</p>
+<p>            th.iframe.src = '';</p>
+<p>            th.iframe.parentNode.removeChild(th.iframe);</p>
+<p>            th.layerbg = null;</p>
+<p>            th.keyDownRemoveListener()</p>
+<p>        };</p>
+<p>        th.dataCenter = {}</p>
+<p>    };</p>
+<p>    var a = {</p>
+<p>        title: '分享到QQ空间',</p>
+<p>        width: 600,</p>
+<p>        height: 185,</p>
+<p>        src: 'http://imgcache.qq.com/qzone/app/qzshare/news_share.html#url=' + ARTICLE_INFO.article_url</p>
+<p>    };</p>
+<p>    window["share2qzone"] = new t(a);</p>
+<p>    window.share2qzone_ptlogin2resize = function(width, height) {</p>
+<p>        share2qzone.resizePopup({</p>
+<p>            height: height</p>
+<p>        })</p>
+<p>    };</p>
+<p>    window._addPtlogin2_onResizeFunc = function(func) {</p>
+<p>        var t = window.ptlogin2_onResize;</p>
+<p>        if (typeof t != "function") {</p>
+<p>            window.ptlogin2_onResize = func</p>
+<p>        } else {</p>
+<p>            window.ptlogin2_onResize = function(width, height) {</p>
+<p>                try {</p>
+<p>                    t(width, height)</p>
+<p>                } catch(e) {};</p>
+<p>                try {</p>
+<p>                    func(width, height)</p>
+<p>                } catch(e) {}</p>
+<p>            }</p>
+<p>        }</p>
+<p>    }</p>
+<p>})();</p>
+<p>(function(){document.domain="qq.com";window.share2qmail=new function(g){var a=this;a.body=document.body;a.title=g.title;a.width=g.width;a.height=g.height;a.src=g.src;a.isDrag=false;a.isIE=document.all?true:false;a.getMX=function(b){return a.isIE?b.clientX+Math.max(document.body.scrollLeft,document.documentElement.scrollLeft):b.pageX};a.getMY=function(b){return a.isIE?b.clientY+Math.max(document.body.scrollTop,document.documentElement.scrollTop):b.pageY};a.setEvent=function(b){b.setCapture&&b.setCapture();</p>
+<p>window.captureEvents&&window.captureEvents(Event.MOUSEMOVE|Event.MOUSEUP)};a.releaseEvent=function(b){b.releaseCapture&&b.releaseCapture();window.releaseEvents&&window.releaseEvents(Event.MOUSEMOVE|Event.MOUSEUP)};a.creatDom=function(b,d){var c=document.createElement(b.tag||"div"),f=c.setAttribute?true:false,e;for(e in b)if(!(e=="tag"||e=="children"||e=="cn"||e=="html"||e=="style"||typeof b[e]=="function"))if(e=="cls")c.className=b.cls;else if(f)c.setAttribute(e,b[e]);else c[e]=b[e];if(b.html)c.innerHTML=</p>
+<p>b.html;(function(i,h){function n(k,o,l){if(!(!k||typeof l!="string")){k.style[o?o:""]=l?l:"";return k}}if(h)if(typeof h=="string")for(var j=/\s?([a-z\-]*)\:\s?([^;]*);?/gi,m;(m=j.exec(h))!=null;)n(i,m[1],m[2]);else if(typeof h=="object")for(j in h)n(i,j,h[j])})(c,b.style);d&&d.appendChild(c);return c};a.getObjPosition=function(b){var d={};d.x=b.offsetLeft;for(d.y=b.offsetTop;b=b.offsetParent;){d.x+=b.offsetLeft;d.y+=b.offsetTop}return d};a.getWindowSize=function(){var b={};if(window.self&&self.innerWidth){b.width=</p>
+<p>self.innerWidth;b.height=self.innerHeight;return b}if(document.documentElement&&document.documentElement.clientHeight){b.width=document.documentElement.clientWidth;b.height=document.documentElement.clientHeight;return b}b.width=document.body.clientWidth;b.height=document.body.clientHeight;return b};a.keyDownListener=function(b){b=b?b:window.event;b.keyCode==27&&a.closePopup()};a.keyDownAddListener=function(){a.isIE?document.attachEvent("onkeydown",a.keyDownListener):document.addEventListener("keydown",</p>
+<p>a.keyDownListener,false)};a.keyDownRemoveListener=function(){a.isIE?document.detachEvent("onkeydown",a.keyDownListener):document.removeEventListener("keydown",a.keyDownListener,false)};a.createInfoWindow=function(b){a.layerbg=a.creatDom({cls:"share_layer"});a.main=a.creatDom({cls:"share_layer_main"});a.layerTitle=a.creatDom({cls:"share_layer_title"});var d=a.creatDom({tag:"h3",html:a.title});a.close=a.creatDom({tag:"a",title:"关闭",cls:"del_fri",href:"javascript:void(0)",html:"X"});a.close.onmousedown=</p>
+<p>function(){a.releaseEvent(a.layerTitle);a.closePopup()};a.layerTitle.appendChild(d);a.layerTitle.appendChild(a.close);a.main.appendChild(a.layerTitle);a.con=a.creatDom({cls:"share_layer_cont"});a.iframe=a.creatDom({tag:"iframe"});a.iframe.setAttribute("frameBorder","0",0);a.iframe.setAttribute("marginheight","0");a.iframe.setAttribute("marginwidth","0");a.iframe.setAttribute("scrolling","no");a.iframe.style.width=a.width+"px";a.iframe.style.height=a.height+"px";a.iframe.style.display="block";a.con.appendChild(a.iframe);</p>
+<p>window.setTimeout(function(){a.iframe.setAttribute("src",a.src,0)},5);a.main.appendChild(a.con);d=a.creatDom({cls:"bg"});a.layerbg.appendChild(a.main);a.layerbg.appendChild(d);a.body.appendChild(a.layerbg);a.floatPopup(b);a.dragPopup(a.layerTitle,a.layerbg)};a.floatPopup=function(b){var d=document.body.scrollTop||document.documentElement.scrollTop;d={width:(document.body.scrollLeft||document.documentElement.scrollLeft)+a.getWindowSize().width,height:d+a.getWindowSize().height};var c=a.getObjPosition(b);</p>
+<p>c.y=c.y+a.height>d.height?c.y-b.offsetHeight-a.height-a.layerTitle.offsetHeight-30:c.y+b.offsetHeight+5;c.x-=b.offsetWidth/2;a.layerbg.style.width=a.width+2+"px";a.layerbg.style.left=(d.width-a.width)/2+"px";a.layerbg.style.top=c.y+"px"};a.dragPopup=function(b,d){b.onmousedown=function(c){d.style.position="absolute";a.isDrag=true;var f=document;if(!c)c=window.event;x=c.layerX?c.layerX:c.offsetX;y=c.layerY?c.layerY:c.offsetY;a.setEvent(b);f.onmousemove=function(e){if(a.isDrag){if(!e)e=window.event;</p>
+<p>var i=a.getMX(e),h=a.getMY(e);if(!e.pageX)e.pageX=i;if(!e.pageY)e.pageY=h;i=e.pageY-y;d.style.left=e.pageX-x-(a.isIE?10:7)+"px";d.style.top=i-(a.isIE?10:7)+"px"}};f.onmouseup=function(){a.isDrag=false;a.releaseEvent(b);f.onmousemove=null;f.onmouseup=null;f.onselectstart=null};f.onselectstart=function(){return false}}};a.resizePopup=function(b){if(b.width){a.iframe.style.width=b.width+"px";a.layerbg.style.width=b.width+2+"px"}if(b.height)a.iframe.style.height=b.height+"px"};a.showPopup=function(b){a.layerbg&&</p>
+<p>a.closePopup();a.createInfoWindow(b);a.keyDownAddListener()};a.closePopup=function(){a.layerbg.style.display="none";a.layerbg.parentNode.removeChild(a.layerbg);a.iframe.src="";a.iframe.parentNode.removeChild(a.iframe);a.layerbg=null;a.keyDownRemoveListener()};a.dataCenter={}}({title:"分享到QQ邮箱",width:600,height:430,src:"http://mail.qq.com/cgi-bin/qm_share_qz?url="+ARTICLE_INFO.article_url});window.share2qmail_ptlogin2resize=function(g,a){share2qmail.resizePopup({height:a})};window._addPtlogin2_onResizeFunc=</p>
+<p>function(g){var a=window.ptlogin2_onResize;window.ptlogin2_onResize=typeof a!="function"?g:function(b,d){try{a(b,d)}catch(c){}try{g(b,d)}catch(f){}}}})();</p>
+<p>/*分享组件 S*/</p>
+<p>.Tool-Article-QQ { width:600px; height:30px;padding:15px 0 43px 30px; }</p>
+<p>.shareBtn { z-index:9;  }</p>
+<p>.Tool-Article-QQ .shareBtn {  float:left; width:305px; margin-top:10px; font-size:12px; }</p>
+<p>.shareBtn-hd { color:#666; line-height:21px; height:23px; width:64px; font-size:12px; color:#676767; border:1px solid fff; border-bottom:none; display:inline-block; padding-left:8px; z-index:3; position:relative; border-left: 1px solid #FFFFFF; }</p>
+<p>.Tool-Article-QQ ul{float:left;}</p>
+<p>.Tool-Article-QQ a.shareBtn-hd{padding-top:8px;line-height:16px;background:none;text-decoration:none;}</p>
+<p>.h-shareBtn .shareBtn-hd { width: 55px; padding-left:0 } </p>
+<p>.shareBtn-hd i { position:absolute; right:6px; top:8px; width:0; height:0; font-size:0; line-height:0; border-width:4px; border-style:solid; border-color:#8b8c8e #fff #fff; -moz-transition:-moz-transform .2s ease-in; -webkit-transition:-webkit-transform .2s ease-in; -o-transition:-o-transform .2s ease-in; transition:transform .2s ease-in; -moz-transform:rotate(0); -webkit-transform:rotate(0); -o-transform:rotate(0); transform:rotate(0) }</p>
+<p>.hover .shareBtn-hd i { -moz-transform:rotate(180deg); -moz-transform-origin:50% 30%; -webkit-transform:rotate(180deg); -webkit-transform-origin:50% 30%;-o-transform:rotate(180deg); -o-transform-origin:50% 30%; transform:rotate(180deg); transform-origin:50% 30%; filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2); top:3px\9; }</p>
+<p>.hover .shareBtn-hd { margin-top:-1px; border:1px solid #d1d1d1; border-bottom:none; background:#fff }</p>
+<p>.v-shareBtn { width:64px; height:23px; float:left }</p>
+<p>.shareBtn-bd a, .scrollBtn a, .hot-voting-con, .hot-voting, #cmt_post_btn, #topPic_close {background: url("http://mat1.gtimg.com/news/dc/images/s_gallery_2012110201.png") no-repeat scroll 0 0 transparent; display: inline-block;}</p>
+<p>.scrollBtn a, .scrollBtn a:link, .scrollBtn a:visited, .scrollBtn a:hover {color: #FFFFFF;}</p>
+<p>.v-shareBtn .shareBtn-bd { border:1px solid #d1d1d1; position:absolute; z-index:2; left:0; top:22px; width:92px; background:#fff; padding:8px 0; display:none  }</p>
+<p>.hover .shareBtn-bd { display:block }</p>
+<p>.shareBtn-bd li { padding:0 0 0 11px; height:24px; line-height:24px }</p>
+<p>.shareBtn-bd li.hover { background:#f3f3f3 }</p>
+<p>.shareBtn-bd a { display:block; padding-left:22px; color:#5c5c5c }</p>
+<p>.shareBtn-bd li.hover a { color:#cc0000 }</p>
+<p>.h-shareBtn .shareBtn-hd { float:left; color:#666; font-size:14px; } </p>
+<p>.h-shareBtn .shareBtn-bd li { float:left; margin-right:5px; width:24px; height:24px; padding:0; overflow:hidden }</p>
+<p>.h-shareBtn .shareBtn-bd a { display:block; padding-left:24px; height:24px; width:0; filter:Alpha(Opacity=80); opacity:0.8 ;-moz-transition: opacity 0.5s ease; -webkit-transition: opacity 0.5s ease; -o-transition: opacity 0.5s ease; transition: opacity 0.5s ease; }</p>
+<p>.h-shareBtn .shareBtn-bd a:hover { filter:Alpha(Opacity=100);opacity:1 }</p>
+<p>.shareBtn16 .s_weibo { background-position:-66px -2px; }</p>
+<p>.shareBtn16 .s_qzone { background-position:-66px -25px; }</p>
+<p>.shareBtn16 .s_weixin { background-position:-66px -49px; }</p>
+<p>.shareBtn16 .s_pengyou { background-position:-66px -74px; }</p>
+<p>.shareBtn16 .s_sina { background-position:-66px -98px; }</p>
+<p>.shareBtn16 .s_renren { background-position:-66px -122px; }</p>
+<p>.shareBtn16 .s_qmail { background-position:-66px -146px; }</p>
+<p>.shareBtn16 .s_kaixin { background-position:-66px -170px; }</p>
+<p>.shareBtn24 .s_weibo { background-position:-62px -200px }</p>
+<p>.shareBtn24 .s_qzone { background-position:-62px -229px; }</p>
+<p>.shareBtn24 .s_weixin { background-position:-62px -258px; }</p>
+<p>.shareBtn24 .s_pengyou { background-position:-62px -287px; }</p>
+<p>.shareBtn24 .s_sina { background-position:-62px -316px; }</p>
+<p>.shareBtn24 .s_renren { background-position:-62px -345px; }</p>
+<p>.shareBtn24 .s_qmail { background-position:-62px -374px; }</p>
+<p>.shareBtn24 .s_kaixin { background-position:-62px -403px; }</p>
+<p>/*app down*/</p>
+<p>.Tool-Article-QQ ul{margin-top:3px;}</p>
+<p>.Tool-Article-QQ .appIconB{float:right;width:262px;height:30px;margin-top:10px;padding:0;background:url(http://mat1.gtimg.com/www/retina/dp/appBt.png) no-repeat;}</p>
+<p>.Tool-Article-QQ .appIconB span{display:block;}</p>
+<p>.Tool-Article-QQ .appIconB b{display:none;}</p>
+<p>.Tool-Article-QQ .appIconB a{display:block;width:262px;height:30px;background:none;}</p>
+<p>.Tool-Article-QQ .appIconB a:hover{background:url(http://mat1.gtimg.com/www/retina/dp/appBt.png) 0 -40px no-repeat;text-decoration:none;}</p>
+<p>.Tool-Article-QQ .appIconBfin{width:292px;height:30px;background-position:0 -80px;}</p>
+<p>.Tool-Article-QQ .appIconBfin a{width:320px;height:30px;background:none;}</p>
+<p>.Tool-Article-QQ .appIconBfin a:hover{background:url(http://mat1.gtimg.com/www/retina/dp/appBt.png) 0 -120px no-repeat;}</p>
+<p>分享到:</p>
+<p>腾讯微博</p>
+<p>QQ空间</p>
+<p>朋友</p>
+<p>新浪微博</p>
+<p>人人</p>
+<p>QQ邮箱</p>
+<p>开心网</p>
+<p>新闻手机客户端 随时掌握天下事</p>
+<p> </p>
+<p>	/*</p>
+<p>		微博划词转发</p>
+<p>		@by tomiezhang shqzheng austinjin</p>
+<p>		@2012-01-17 腊月廿四</p>
+<p>	*/</p>
+<p>	(function(W){</p>
+<p>		var WBwd = W.WBwd = function(id){</p>
+<p>			return new WBwd.fn.init(id);</p>
+<p>		}</p>
+<p>		WBwd.fn = WBwd.prototype = {</p>
+<p>			$:function(o){return document.getElementById(o)},</p>
+<p>			_x:0,</p>
+<p>			_y:0,</p>
+<p>			_getSele:function(){//获得选取内容</p>
+<p>				if(W.getSelection){</p>
+<p>					return W.getSelection().toString();</p>
+<p>				}else if(document.getSelection){</p>
+<p>					return D.getSelection(); </p>
+<p>				}else if(document.selection) { </p>
+<p>					return document.selection.createRange().text;</p>
+<p>				}</p>
+<p>			},</p>
+<p>			_stopBubble:function(e){</p>
+<p>				if(!document.all){</p>
+<p>					e.stopPropagation();</p>
+<p>				}else{</p>
+<p>					window.event.cancelBubble=true;</p>
+<p>				}</p>
+<p>			},</p>
+<p>			_stopDefault:function(e){</p>
+<p>				if(!document.all){</p>
+<p>					e.preventDefault();</p>
+<p>				}else{</p>
+<p>					window.event.returnValue=false;</p>
+<p>					return false;</p>
+<p>				}</p>
+<p>			},</p>
+<p>		   _getX:function(obj){</p>
+<p>				var left=obj.offsetLeft;</p>
+<p>				while(obj=obj.offsetParent){</p>
+<p>					left+=obj.offsetLeft;</p>
+<p>				}</p>
+<p>				return left;</p>
+<p>		   },</p>
+<p>		   _getY:function(obj){</p>
+<p>				var top=obj.offsetTop;</p>
+<p>				while(obj=obj.offsetParent){</p>
+<p>					top+=obj.offsetTop;</p>
+<p>				}</p>
+<p>				return top;</p>
+<p>		   },</p>
+<p>		   _getPicUrl:function(id){</p>
+<p>					var imgs = _$$(document.getElementById(id), 'img'), i, result='';</p>
+<p>					for(i in imgs)</p>
+<p>					{</p>
+<p>						var o = imgs[i], w = _MUI.width(o), h = _MUI.height(o);</p>
+<p>						if(w>100 || h>100)</p>
+<p>						{</p>
+<p>							result = o.src;</p>
+<p>							break;</p>
+<p>						}</p>
+<p>					}</p>
+<p>					return result;</p>
+<p>		   },</p>
+<p>		   _getTipsPos:function(e,id,isIe){//获得TIPS位置</p>
+<p>				var ev = W.event||e,_self = this;</p>
+<p>				this._x=ev.clientX-this._getX(this.$(id))+document.body.scrollLeft+document.documentElement.scrollLeft;</p>
+<p>				this._y=ev.clientY-this._getY(this.$(id))+document.body.scrollTop+document.documentElement.scrollTop;</p>
+<p>				if(!isIe){</p>
+<p>					this.$("tipsWBzf").style.left = this._x+"px";</p>
+<p>					this.$("tipsWBzf").style.top = this._y-32+"px";</p>
+<p>				}else{</p>
+<p>					this.$("tipsWBzf").style.left = this._x+"px";</p>
+<p>					this.$("tipsWBzf").style.top = this._y-32+"px";</p>
+<p>				}</p>
+<p>		   },</p>
+<p>		   _setTips:function(id){</p>
+<p>				this.$(id).style.position = "relative";</p>
+<p>				var _self = this;</p>
+<p>				var oFrag=document.createDocumentFragment(); </p>
+<p>				var tp = document.createElement("DIV");</p>
+<p>				tp.id="tipsWBzf";</p>
+<p>				tp.style.cssText = "width:59px;height:22px;position:absolute;visibility: hidden;text-decoration:none;z-index:899;cursor:pointer";</p>
+<p>				tp.innerHTML = '<span style="position:relative;"><a href="javascript:void(0)" style="position:absolute;left:0;top:0;z-index:900;display:block;width:59px;height:22px;background:url(http://mat1.gtimg.com/news/2011/logo.png) no-repeat;" title="转播至微博"></a></span>';</p>
+<p>				oFrag.appendChild(tp);</p>
+<p>				this.$(id).appendChild(oFrag);</p>
+<p>		   },</p>
+<p>		   init:function(id){</p>
+<p>				if(id){</p>
+<p>						var _self = this,isClick=false, lastSelect='';</p>
+<p>						this._setTips(id);//设置浮层</p>
+<p>						this.$(id).onmouseup = function(e){</p>
+<p>							if(_self._getSele().length>10 && !isClick){</p>
+<p>								if(!document.all){</p>
+<p>									_self.$("tipsWBzf").style.visibility = "visible";</p>
+<p>									_self._getTipsPos(e,id,false);</p>
+<p>								}else{</p>
+<p>									_self.$("tipsWBzf").style.visibility = "visible";</p>
+<p>									_self._getTipsPos(e,id,true);</p>
+<p>								}</p>
+<p>								//_self._stopBubble(e);</p>
+<p>								//_self._stopDefault(e);</p>
+<p>								if(lastSelect == _self._getSele() && _self.$("tipsWBzf").style.visibility == "visible"){</p>
+<p>									lastSelect = '';</p>
+<p>									_self.$("tipsWBzf").style.visibility = "hidden";</p>
+<p>									isClick = false;</p>
+<p>								}else{</p>
+<p>									lastSelect = _self._getSele();</p>
+<p>								}</p>
+<p>							}else{</p>
+<p>								_self.$("tipsWBzf").style.visibility = "hidden";</p>
+<p>								isClick = false;</p>
+<p>							}</p>
+<p>						}</p>
+<p>						this.$("tipsWBzf").onmousedown = function(){</p>
+<p>								_self.$("tipsWBzf").style.visibility = "hidden";</p>
+<p>								var t = _self._getSele(),u=window.location.href;</p>
+<p>								</p>
+<p>								</p>
+<p>								if(u.indexOf('#') >0 ){</p>
+<p>									u = encodeURI(u.substr(0,u.indexOf('#')));</p>
+<p>								}else{</p>
+<p>									u = encodeURI(u);</p>
+<p>								}</p>
+<p>								</p>
+<p>								var url = u;</p>
+<p>								var site = (url.split("http://")[1]).split(".qq.com/")[0];</p>
+<p>								var articleId = ((url.split("/a/")[1]).split("/")[0] + (url.split("/a/")[1]).split("/")[1]).split(".htm")[0];</p>
+<p>								if(articleId.toString().indexOf("_")>0){articleId = articleId.split("_")[0]};</p>
+<p>								var proxyUrl = encodeURIComponent("http://"+ site  + ".qq.com/public/shareProxy.htm?site=") + site + encodeURIComponent("&id=" + articleId);</p>
+<p>								if(site.indexOf(".house")>0){</p>
+<p>									var subSite = site.split(".")[0];</p>
+<p>									site = site.split(".")[1];</p>
+<p>									proxyUrl = encodeURIComponent("http://"+ site  + ".qq.com/public/shareProxy.htm?site=") + subSite +"_"+site + encodeURIComponent("&id=" + articleId);</p>
+<p>								}</p>
+<p>								//modified: shqzheng 2011.12.12 增加文章标题</p>
+<p>								if(_MI.Article.title != '')</p>
+<p>									t = '【' + ARTICLE_INFO.title + '】' + t;</p>
+<p>								//微博字符串长度</p>
+<p>								//modified: shqzheng 2011.11.03 增加@频道减少可以划的字数</p>
+<p>								if(_MI.string.length(t)>119)</p>
+<p>									t = _MI.string.cut(t, 119*2-4);</p>
+<p>								_MI.Bos('qqcom.dp.huaci',null,'qqcom.dp.wradio');</p>
+<p>								_MI.Share.pop({txt:t,surl:proxyUrl,pic:_self._getPicUrl(id),pref:'qqcom.dp.wradio'});</p>
+<p>								isClick = true;</p>
+<p>								window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();</p>
+<p>								return false;</p>
+<p>						};</p>
+<p>						this.$("tipsWBzf").onmouseup=function(){</p>
+<p>							return false;</p>
+<p>						}</p>
+<p>						document.onmousedown = function(e){</p>
+<p>							if(_self.$("tipsWBzf").style.visibility == "visible"){</p>
+<p>								_self.$("tipsWBzf").style.visibility = "hidden";</p>
+<p>								isClick = false;</p>
+<p>							}</p>
+<p>						}</p>
+<p>					}</p>
+<p>		   }</p>
+<p>		}</p>
+<p>	 WBwd.fn.init.prototype = WBwd.prototype;</p>
+<p>	})(window);</p>
+<p>	_MUI.ready(function(){</p>
+<p>		WBwd("Cnt-Main-Article-QQ");</p>
+<p>	});</p>
+<p>function crossAsynJson(url,func,call,charset){</p>
+<p>	var script = document.createElement("script"),head=document.getElementsByTagName("head")[0];</p>
+<p>	window[func] = function(data){</p>
+<p>		window[func] = undefined;</p>
+<p>		try{delete window[func];} catch(e){}</p>
+<p>		call(data);</p>
+<p>		if (head){</p>
+<p>			setTimeout(function(){head.removeChild(script);},5);</p>
+<p>		}</p>
+<p>	}</p>
+<p>	if(charset){</p>
+<p>		script.setAttribute("charset", charset);</p>
+<p>	}</p>
+<p>	script.setAttribute("type", "text/javascript");</p>
+<p>	script.src = url;</p>
+<p>	head.appendChild(script);</p>
+<p>}</p>
+<p>function getUrlReaplece(){</p>
+<p>	var nowUrl = window.location.href;</p>
+<p>	if(nowUrl.toString().indexOf("_")>0){nowUrl = nowUrl.toString().split("_")[0]+".htm";if(nowUrl.toString().indexOf("?")>0){nowUrl = nowUrl.toString().split("?")[0];if(nowUrl.toString().indexOf("#")>0){nowUrl = nowUrl.toString().split("#")[0];}}}</p>
+<p>	else{if(nowUrl.toString().indexOf("?")>0){nowUrl = nowUrl.toString().split("?")[0];}else{if(nowUrl.toString().indexOf("#")>0){nowUrl = nowUrl.toString().split("#")[0];}}}</p>
+<p>	return nowUrl.toString();}</p>
+<p>crossAsynJson('http://mb.data.rms.qq.com/output.php?url='+ getUrlReaplece()+'&callback=fmbInfoJsonCallback','callback',function(json){</p>
+<p>	if (json.Fname !== ''){</p>
+<p>	document.getElementById("fmbloginfo").className = "lastfmblog";</p>
+<p>	document.getElementById("fmbloginfo").innerHTML = "<a target='_blank' href='" + json.Furl + "?pref=qqcom.zjzb'>" + json.Fname + "</a><span>已转播</span>";</p>
+<p>	</p>
+<p>	document.getElementById("tmblogbt").className = "tmblog_act";</p>
+<p>	}</p>
+<p>},5000,'utf-8');</p>
+<p>_MUI.ready(function(){</p>
+<p>	_MI.ShareArticle.build('tmblogbt','qqcom.dp.tmblog');</p>
+<p>	_MI.ShareArticle.build('tmblogbt1','qqcom.dp.tmblog1');</p>
+<p>	_MI.ShareArticle.build('MIcblog','qqcom.dp.tmbloghdend');</p>
+<p>	window.onload = setTimeout(function(){</p>
+<p>		_MI.ShareArticlePic.build('Cnt-Main-Article-QQ','qqcom.dp.sharepic');</p>
+<p>	},1000)</p>
+<p>})</p>
+<p>//share_button_add</p>
+<p>		function share2sina(){</p>
+<p>			var url = "http://v.t.sina.com.cn/share/share.php",</p>
+<p>			_url = ARTICLE_INFO.article_url,</p>
+<p>			_title = ARTICLE_INFO.title ,</p>
+<p>			_appkey = '',</p>
+<p>			_ralateUid = '',</p>
+<p>			c = '', pic = [];</p>
+<p>			</p>
+<p>			c = url + "?url=" + encodeURIComponent(_url) + "&appkey=" + _appkey + "&title=" + _title + "&pic" + pic + "&ralateUid=" + _ralateUid + "&language=";</p>
+<p>			window.open(c, "shareQQ", "height=480,width=608,top=100,left=200,toolbar=no,menubar=no,resizable=yes,location=yes,status=no");</p>
+<p>		}</p>
+<p>		function share2kaixin(){</p>
+<p>			var url = "http://www.kaixin001.com/rest/records.php",</p>
+<p>			_url = ARTICLE_INFO.article_url,</p>
+<p>			_title = ARTICLE_INFO.title,</p>
+<p>			c = '', pic = [],</p>
+<p>			w = window.screen.width, h = window.screen.height;</p>
+<p>			c = url + "?content=" + encodeURIComponent(_title) + "&url=" + _url + "&&starid=&aid=&style=11&t=10";</p>
+<p>			var win = window.open(c, "shareQQ", "height=480,width=608,top=" + (h-480)/2 + ",left=" + (w-608)/2 + ",toolbar=no,menubar=no,resizable=yes,location=yes,status=no");</p>
+<p>		}</p>
+<p>		function share2renren(){</p>
+<p>			var url = "http://widget.renren.com/dialog/share",</p>
+<p>			_url = ARTICLE_INFO.article_url,</p>
+<p>			_title = ARTICLE_INFO.title,</p>
+<p>			c = '', pic = [],</p>
+<p>			w = window.screen.width, h = window.screen.height;</p>
+<p>			</p>
+<p>			c = url + "?resourceUrl=" + _url + "&title=" + _title + "&charset=GB2312";</p>
+<p>			window.open(c, "shareQQ", "height=480,width=608,top=" + (h-480)/2 + ",left=" + (w-608)/2 + ",toolbar=no,menubar=no,resizable=yes,location=yes,status=no");</p>
+<p>		}</p>
+<p>		_MUI.EA(_MUI.G('menu-item'), 'mouseover', function(){</p>
+<p>			_MUI.addClass(_MUI.G('menu-item'), 'hover');</p>
+<p>		});</p>
+<p>		_MUI.EA(_MUI.G('menu-item'), 'mouseout', function(){</p>
+<p>			_MUI.removeClass(_MUI.G('menu-item'), 'hover');</p>
+<p>		});</p>
+<p>		_MUI.EA(_MUI.G('tsina'), 'click', function(){</p>
+<p>			share2sina();</p>
+<p>		});</p>
+<p>		</p>
+<p>		_MUI.EA(_MUI.G('tkaixin'), 'click', function(){</p>
+<p>			share2kaixin()</p>
+<p>		});</p>
+<p>		_MUI.EA(_MUI.G('trenren'), 'click', function(){</p>
+<p>			share2renren();</p>
+<p>		});</p>
+<p>		</p>
+<p>	</p>
+<p> </p>
+<p>我要评论(0)</p>
+<p>相关阅读:</p>
+<p>          ·家电以旧换新补贴31日到期 2011.12.15</p>
+<p>·家电以旧换新本月31日截止 2011.12.14</p>
+<p>·家电卖场搭“以旧换新”末班车 2011.12.14</p>
+<p>·家电“以旧换新”末班车效应明显 2011.12.14</p>
+<p>·以旧换新大限将至 二手电子产品重觅回收之路 2011.12.14</p>
+<p>·苏宁“大促”欲登以旧换新末班车 2011.12.14</p>
+<p>·国美推家电“以旧换新”夜市 2011.12.14</p>
+<p>·“以旧换新”倒计时 家电市场抢搭“末班车” 2011.12.13</p>
+<p>·国家以旧换新政策终结 家电厂商掏钱补贴？ 2011.12.09</p>
+<p>·27日家电以旧换新大限到 2011.12.09</p>
+<p>推荐微博：换一换</p>
+<p>许良杰</p>
+<p>思科全球副总裁</p>
+<p>余承东</p>
+<p>华为终端董事长</p>
+<p>叶朋</p>
+<p>淘宝网副总裁</p>
+<p>当当网李国庆</p>
+<p>当当网CEO</p>
+<p>蔡虎</p>
+<p>百度电子商务经理</p>
+<p>天翼空间赵锦鹏</p>
+<p>天翼空间总经理</p>
+<p>keso</p>
+<p>互联网人士</p>
+<p>宋炜</p>
+<p>腾讯科技</p>
+<p>腾讯科技</p>
+<p>腾讯数码</p>
+<p>腾讯数码</p>
+<p>一呼百应戴森</p>
+<p>一呼百应网络技术</p>
+<p>龚文祥</p>
+<p>三十五十公司GM</p>
+<p>蒋涛CSDN</p>
+<p>《程序员》创始人</p>
+<p>何小鹏</p>
+<p>UC产品总裁</p>
+<p>徐磊</p>
+<p>布丁创始人及CEO</p>
+<p>史炜的财经分析</p>
+<p>国家发改委研究员</p>
+<p>司文敏</p>
+<p>多玩游戏网</p>
+<p>杨景</p>
+<p>移动研究院科学家</p>
+<p>科技会客厅</p>
+<p>科技会客厅</p>
+<p>华为终端</p>
+<p>企业官方微博</p>
+<p>全部收听全部收听注册微博</p>
+<p>function chgFollowallList(){</p>
+<p>	var list10 = document.getElementById("dp_followall_list_10");</p>
+<p>	var list20 = document.getElementById("dp_followall_list_20");</p>
+<p>	var followAll10 = document.getElementById("dp_followall_button_10");</p>
+<p>	var followAll20 = document.getElementById("dp_followall_button_20");</p>
+<p>	if(list10.style.display == "block"){</p>
+<p>	 list10.style.display = "none";</p>
+<p>	 list20.style.display = "block";</p>
+<p>	 followAll10.style.display = "none";</p>
+<p>	 followAll20.style.display = "inline";</p>
+<p>	 }</p>
+<p>	 else{</p>
+<p>		list10.style.display = "block";</p>
+<p>	 	list20.style.display = "none";</p>
+<p>	 	followAll10.style.display = "inline";</p>
+<p>		followAll20.style.display = "none";</p>
+<p>	}</p>
+<p>}</p>
+<p>function chgFollowallListBoss1(){registerZone2({bossZone:'followallbt1',url:''},1);chgFollowallList();}</p>
+<p>function chgFollowallListBoss2(){registerZone2({bossZone:'followallbt2',url:''},1);}</p>
+<p>_MUI.ready(function(){</p>
+<p>new _MI.FollowAll('dp_followall_list_10','dp_followall_button_10','','qqcom.dp.followall',chgFollowallListBoss1);</p>
+<p>new _MI.FollowAll('dp_followall_list_20','dp_followall_button_20','','qqcom.dp.followall',chgFollowallListBoss2);</p>
+<p>_MI.WebSCard.build('dp_followall_list_10','qqcom.dp.followall','.a-followall-tips');</p>
+<p>_MI.WebSCard.build('dp_followall_list_20','qqcom.dp.followall','.a-followall-tips');</p>
+<p>})</p>
+<p>[责任编辑：ritafan]</p>
+<p>								document.domain = 'qq.com';</p>
+<p>								cmt_site = 'tech';</p>
+<p>								cmt_id = 30535399;</p>
+<p>								cmt_is_group = 0;</p>
+<p>								cmt_count_id = 'comment_count|comment_count2';</p>
+<p>							</p>
+<p>#MiniCmt textarea{resize: none;}</p>
+<p>.Comment-Article-QQ .sync_mb input,.Comment-Article-QQ .sync_mb a{float:none;}</p>
+<p>.Comment-Article-QQ .commt-sub .sync_mb{display:inline-block;float:right;width:128px;padding-left:20px;padding-top:1px;_padding-top:3px;*padding-top:3px;color:#666;}</p>
+<p>.commt-sub .sync_mb_link{overflow:hidden;vertical-align:middle; }</p>
+<p>#sync_mb_check { vertical-align:middle; margin:-3px 0 1px 0 }</p>
+<p>网友评论:</p>
+<p>已有0条评论，共0人参与，点击查看</p>
+<p>			var css_href = 'http://mat1.gtimg.com/news/2009/tomies/commt2.css';</p>
+<p>			if(typeof cmt_style != 'undefined' && cmt_style != 'http://news.qq.com/css/cmt_final_newcmt.css'){</p>
+<p>							css_href = cmt_style;</p>
+<p>						}</p>
+<p>						document.write('<link href="' + css_href + '" rel="stylesheet" type="text/css">');</p>
+<p>           </p>
+<p>登录 (请登录发言，并遵守相关规定)</p>
+<p>分享至： 腾讯微博</p>
+<p> </p>
+<p>/*追加分享到空间的登录窗自适应*/</p>
+<p>if(typeof _addPtlogin2_onResizeFunc == "function" && typeof share2qzone_ptlogin2resize == "function")	_addPtlogin2_onResizeFunc(share2qzone_ptlogin2resize);</p>
+<p>.Comment-Article-QQ {</p>
+<p>	border-bottom:none;</p>
+<p>	margin-bottom:0;</p>
+<p>	padding-bottom:12px;</p>
+<p>}</p>
+<p>.Comment-Article-QQ .innerBox {</p>
+<p>	margin-bottom:0;</p>
+<p>}</p>
+<p>.Tzbjb-Article-QQ {</p>
+<p>	border-top:none;</p>
+<p>	display:none;</p>
+<p>}</p>
+<p>.Tzbjb-Article-QQ .innerBox {</p>
+<p>	width:600px;</p>
+<p>	margin:0 auto;</p>
+<p>	padding:12px 0 12px 9px;</p>
+<p>	border-top:#DADBD6 1px dashed;</p>
+<p>	color:#8A8A8A;</p>
+<p>}</p>
+<p>.Tzbjb-Article-QQ .innerBox span {</p>
+<p>	color:#0B3B8C;</p>
+<p>}</p>
+<p>如果你对科技频道有任何意见或建议，请到交流平台反馈。【到微博反馈】 </p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text1" class="w-l-qq-com"></span>');</p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text2" class="w-l-qq-com"></span>');</p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text3" class="w-l-qq-com"></span>');</p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text4" class="w-l-qq-com"></span>');</p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text5" class="w-l-qq-com"></span>');</p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text6" class="w-l-qq-com"></span>');</p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text7" class="w-l-qq-com"></span>');</p>
+<p>・</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Width2_text8" class="w-l-qq-com"></span>');</p>
+<p>企业服务</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<td height="20" align="center"><span id="News_F_TSTX_1" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_2" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_3" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_4" class="w-l-qq-com"></span></td>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<td height="20" align="center"><span id="News_F_TSTX_5" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_6" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_7" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_8" class="w-l-qq-com"></span></td>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<td height="20" align="center"><span id="News_F_TSTX_9" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_10" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_11" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_12" class="w-l-qq-com"></span></td>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<td height="20" align="center"><span id="News_F_TSTX_13" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_14" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_15" class="w-l-qq-com"></span></td>');document.write('<td height="20" align="center"><span id="News_F_TSTX_16" class="w-l-qq-com"></span></td>');</p>
+<p>热点推荐</p>
+<p> 国家地理摄影大赛作品 七种太空旅行方式 探访帝企鹅栖息地 璀璨绚丽的星空图像 </p>
+<p>推广信息</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text1" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text2" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text3" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text4" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text5" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text6" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text7" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text8" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text9" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text10" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text11" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text12" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text13" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text14" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text15" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_TD_text16" class="w-l-qq-com"></span>');</p>
+<p>var whatCatalog = "househ"</p>
+<p>try{QosS.topSpan("tech_bottom",10);}catch(e){}</p>
+<p>if(typeof(pgvMain) == 'function'){if(typeof(whatCatalog) != 'undefined'){pvCSTM = whatCatalog;}pgvMain();}</p>
+<p>.absolute{position:absolute;}</p>
+<p>/*global v1.5.0 power by Tomie&Austinjin @20110728*/</p>
+<p>body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {</p>
+<p>	margin: 0;</p>
+<p>	padding: 0;</p>
+<p>}</p>
+<p>table {</p>
+<p>	border-collapse: collapse;</p>
+<p>	border-spacing: 0;</p>
+<p>}</p>
+<p>fieldset, img {</p>
+<p>	border: 0;</p>
+<p>}</p>
+<p>address, caption, cite, code, dfn, em, strong, th, var {</p>
+<p>	font-style: normal;</p>
+<p>	font-weight: normal;</p>
+<p>}</p>
+<p>ol, ul {</p>
+<p>	list-style: none;</p>
+<p>}</p>
+<p>caption, th {</p>
+<p>	text-align: left;</p>
+<p>}</p>
+<p>h1, h2, h3, h4, h5, h6 {</p>
+<p>	font-size: 100%;</p>
+<p>	font-weight: normal;</p>
+<p>}</p>
+<p>q:before, q:after {</p>
+<p>	content: '';</p>
+<p>}</p>
+<p>abbr, acronym {</p>
+<p>	border: 0;</p>
+<p>}</p>
+<p>fieldset {</p>
+<p>	display: inline;</p>
+<p>}</p>
+<p>button {</p>
+<p>	line-height: 1.2;</p>
+<p>	vertical-align: middle;</p>
+<p>	cursor: pointer;</p>
+<p>}</p>
+<p>strong {</p>
+<p>	font-weight: 800;</p>
+<p>}</p>
+<p>/*全局*/</p>
+<p>body {</p>
+<p>	font: 12px/1.75 "宋体", arial, sans-serif;</p>
+<p>	background: #fff;</p>
+<p>	color: #000;</p>
+<p>}</p>
+<p>a:link {</p>
+<p>	color: #0B3B8C;</p>
+<p>	text-decoration: none</p>
+<p>}</p>
+<p>a:visited {</p>
+<p>	color: #0B3B8C;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>a:hover, a:active {</p>
+<p>	color: #0B3B8C;</p>
+<p>	text-decoration: underline;</p>
+<p>}</p>
+<p>.wrapper {</p>
+<p>	width: 960px;</p>
+<p>	overflow: hidden;</p>
+<p>	zoom: 1;</p>
+<p>	margin: 0 auto;</p>
+<p>}</p>
+<p>.hd, .bd, .ft {</p>
+<p>	width: 100%;</p>
+<p>	overflow: hidden;</p>
+<p>	zoom: 1;</p>
+<p>}</p>
+<p>.hd, .bd, .ft {</p>
+<p>	overflow: hidden;</p>
+<p>	width: 100%;</p>
+<p>}</p>
+<p>.cf:after {</p>
+<p>	content: "";</p>
+<p>	display: block;</p>
+<p>	clear: both;</p>
+<p>	height: 0px;</p>
+<p>	visibility: hidden;</p>
+<p>}</p>
+<p>.cf {</p>
+<p>*display:inline-block;</p>
+<p>	zoom: 1;</p>
+<p>}</p>
+<p>#Main-Article-QQ .side {</p>
+<p>	background: none repeat scroll 0 0 #FFFFFF;</p>
+<p>	float: right;</p>
+<p>	width: 300px;</p>
+<p>}</p>
+<p>.mod-right {</p>
+<p>	margin-bottom: 8px;</p>
+<p>	width: 300px;</p>
+<p>}</p>
+<p>#AdRight-Article-QQ {</p>
+<p>	margin-bottom: 8px;</p>
+<p>	width: 300px;</p>
+<p>}</p>
+<p>.mod-right .hd {</p>
+<p>	background: url(http://mat1.gtimg.com/news/imgcss_article_qq/split_v4.4.png) no-repeat 0 -571px;</p>
+<p>	height: 29px;</p>
+<p>	line-height: 29px;</p>
+<p>	width: 300px;</p>
+<p>}</p>
+<p>.mod-right h2 {</p>
+<p>	color: #1C2C58;</p>
+<p>	font-size: 14px;</p>
+<p>	padding-left: 12px;</p>
+<p>}</p>
+<p>.Day-Article-QQ .hd {</p>
+<p>	background: url(http://mat1.gtimg.com/news/imgcss_article_qq/split_v4.4.png) no-repeat 0 -537px;</p>
+<p>}</p>
+<p>.Day-Article-QQ .hd h2, .side2-Article-QQ .hd h2 {</p>
+<p>	float: left;</p>
+<p>	width: 94px;</p>
+<p>}</p>
+<p>.Day-Article-QQ .hd a {</p>
+<p>	color: #8896B1;</p>
+<p>	float: right;</p>
+<p>	padding-right: 10px;</p>
+<p>}</p>
+<p>.mod-right .bd {</p>
+<p>	background: none repeat 0 0 #FFFFFF;</p>
+<p>	border-color: #DADADA #DADADA;</p>
+<p>	border-right: 1px solid #DADADA;</p>
+<p>	border-style: none solid solid;</p>
+<p>	border-width: 0 1px 1px;</p>
+<p>	padding: 10px 0;</p>
+<p>	width: 298px;</p>
+<p>}</p>
+<p>.Day-Article-QQ .bd {</p>
+<p>	background: none repeat 0 0 #F3F8FF;</p>
+<p>	border-color: #D9E4F3 #D9E4F3;</p>
+<p>	border-right: 1px solid #D9E4F3;</p>
+<p>	border-style: none solid solid;</p>
+<p>	border-width: 0 1px 1px;</p>
+<p>	padding: 12px 0 10px;</p>
+<p>}</p>
+<p>.Day-Article-QQ .innerBox, .adBlock-Article-QQ .innerBox {</p>
+<p>	width: 284px;</p>
+<p>}</p>
+<p>.side3-Article-QQ .innerBox {</p>
+<p>	width: 284px;</p>
+<p>}</p>
+<p>.mod-right .innerBox {</p>
+<p>	margin: 0 auto;</p>
+<p>	width: 280px;</p>
+<p>}</p>
+<p>.picTj {</p>
+<p>	padding-bottom: 8px;</p>
+<p>}</p>
+<p>.picTj li {</p>
+<p>	display: inline;</p>
+<p>	float: left;</p>
+<p>	margin: 0 4px;</p>
+<p>	text-align: center;</p>
+<p>}</p>
+<p>.picTj li img {</p>
+<p>	margin-bottom: 3px;</p>
+<p>	border: 1px solid #c3c4c8;</p>
+<p>}</p>
+<p>.textListTj li, .blojListTj li {</p>
+<p>	padding: 0 10px 0 22px;</p>
+<p>	height: 24px;</p>
+<p>	line-height: 24px;</p>
+<p>	font-size: 12px;</p>
+<p>	background: url(http://mat1.gtimg.com/ent/article_img/icon_point.gif) no-repeat 10px 9px;</p>
+<p>}</p>
+<p>.textListTj li img, .blojListTj li img {</p>
+<p>	vertical-align: text-bottom;</p>
+<p>	padding-right: 3px;</p>
+<p>}</p>
+<p>.textListTj .wbTj {</p>
+<p>	background: url(http://mat1.gtimg.com/ent/article_img/icon_wb.gif) no-repeat 7px center;</p>
+<p>}</p>
+<p>.blojListTj .blogTj {</p>
+<p>	padding: 0 10px 0 22px;</p>
+<p>	background: url(http://mat1.gtimg.com/ent/article_img/icon_blog.gif) no-repeat 4px 2px;</p>
+<p>}</p>
+<p>.textListTj li span {</p>
+<p>	float: right;</p>
+<p>	font-size: 12px;</p>
+<p>	height: 24px;</p>
+<p>	line-height: 28px;</p>
+<p>}</p>
+<p>.textListTj li span a, .textListTj li span a:visited, .textListTj li span a:link, .textListTj li span a:hover {</p>
+<p>	color: #87a6d5;</p>
+<p>}</p>
+<p>每日推荐</p>
+<p>更多精彩内容 </p>
+<p>谷歌归来？百度年会：李彦宏扮佐罗</p>
+<p>工信部下属机构遭质疑：出售信息名址骗钱2012年手机安全报告：安卓成手机病毒主战场李彦宏：百度聚焦4方向 移动云与LBS是重点张颖：开会时必须注意且做好的几个细节 李开复：女创业者其实有很多优势 </p>
+<p>许一力：中国印钞为何超世界一半</p>
+<p>中国存在通胀风险 中国如何应对贸易战争</p>
+<p>爱丽时尚</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_ZS_text1" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text2" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text3" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text4" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text5" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text6" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_ZS_text7" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text8" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text9" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text10" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text11" class="w-l-qq-com"></span>');document.write('<br /><span id="News_ZS_text12" class="w-l-qq-com"></span>');</p>
+<p>趣科技</p>
+<p>可编程动感LED装饰画框 世界首款玻璃键盘现身 10大CEO的办公室3D打印机制作实用小物  </p>
+<p>.videoRe-Article-QQ .hd,</p>
+<p>.videoRe-Article-QQ .tabTit2 span,</p>
+<p>.videoRe-Article-QQ .tabTit2 span.select,</p>
+<p>.videoRe-Article-QQ .piclist li{background:url(http://mat1.gtimg.com/news/imgcss_article_qq/split_v4.5.png) 0 0 no-repeat; position: relative;}</p>
+<p>.videoRe-Article-QQ .hd{background-position: 0 -537px;}</p>
+<p>.videoRe-Article-QQ h2{width:89px;float:left;}</p>
+<p>.videoRe-Article-QQ .tabTit2 {float:left;width:150px;border-right:#d8dfe9 1px solid;overflow:hidden:zoom:1;margin-right:1px;_display:inline}</p>
+<p>.videoRe-Article-QQ .tabTit2 span {float:left;width:75px;height:29px;font-size:14px;text-align:center;background-position:-176px -5px;cursor:pointer}</p>
+<p>.videoRe-Article-QQ .tabTit2 span.select {background-position: -176px -60px;}</p>
+<p>.videoRe-Article-QQ .bd {height:222px;background:#F3F8FF;border:1px solid #D9E4F3;border-top:0px;padding:6px 0px 3px 0px;}</p>
+<p>.videoRe-Article-QQ .block {display:block}</p>
+<p>.videoRe-Article-QQ .none {display:none} </p>
+<p>.videoRe-Article-QQ .picBox{margin:0 auto;width:292px;height:112px;overflow: hidden;}</p>
+<p>.videoRe-Article-QQ .piclist li{float:left;width:134px;height:104px;margin:6px;_margin:3px;text-align:center;background:none;}</p>
+<p>.videoRe-Article-QQ .piclist img{display:block;width:130px;height:70px;margin:2px 2px 7px 2px;}</p>
+<p>.videoRe-Article-QQ .innerBox{width:284px;}</p>
+<p>.videoRe-Article-QQ .videolist li{padding-left:23px;background:url(http://mat1.gtimg.com/mini2012/images/img_v1/ico.png) 0 -116px no-repeat;}</p>
+<p> </p>
+<p>.bicon { background: url("http://mat1.gtimg.com/news/base2011/img/trs.png") repeat scroll 0 0; cursor: pointer; display: block; height: 21px; left: 5px; position: absolute; top:46px; width: 21px; }</p>
+<p>高清大片</p>
+<p><!--</p>
+<p>	function ifborder(){</p>
+<p>	 var borName = document.getElementById('tabTit2');</p>
+<p>   var tagSpan = borName.getElementsByTagName('span');</p>
+<p>	 var tagNumber = tagSpan.length;</p>
+<p>	 </p>
+<p>	  if (tagNumber == 1)</p>
+<p>	  {</p>
+<p>		 borName.style.border = 'none'; </p>
+<p>	   tagSpan[0].style.background = 'none';</p>
+<p>	  }</p>
+<p>	}</p>
+<p>	ifborder()</p>
+<p>//--></p>
+<p>王宝强搞怪-村晚</p>
+<p>圆满大结局-恋了爱了</p>
+<p>电影 | 霍思燕-午夜火车</p>
+<p>撒切尔-铁娘子</p>
+<p>爱谁谁</p>
+<p>剧集 | </p>
+<p>黄渤-春天里</p>
+<p>李�基-九家之书</p>
+<p>娘要嫁人</p>
+<p>综艺 |</p>
+<p> 林俊杰曝择偶怪癖</p>
+<p>天天向上</p>
+<p>妈妈咪呀</p>
+<p>动漫 | </p>
+<p>熊出没之环球大冒险</p>
+<p>鳄鱼小顽皮历险记</p>
+<p>纪录 | 在中国为什么读书会致穷 茶缘天下</p>
+<p>新闻排行财经科普数码科技</p>
+<p>1首揭西班牙大船之谜</p>
+<p>2一汽集团百亿资金不知去向 百名高管被带走协查</p>
+<p>3总统最常光顾13家酒店</p>
+<p>4首揭泰坦尼克号上珠宝珍品</p>
+<p>5乔丹体育起诉乔丹</p>
+<p>6巴菲特“较劲”比亚迪</p>
+<p>7广药“毒药门”风波：药效全无但有巨毒</p>
+<p>8海外资金短线看空A股 集体出逃“打时间差”</p>
+<p>9惠誉调降中国评级 分析称利空人民币和股市</p>
+<p>10超鸡蛋100倍的象鸟蛋</p>
+<p>1“卡西尼”终极之旅  拍摄迄今最清晰土卫五</p>
+<p>2组图：科学家在沙漠中模拟火星载人飞行任务</p>
+<p>3组图：苏格兰自然摄影大奖赛获奖作品展示</p>
+<p>4火星生命或隐藏地下800多米 利用放射能生存</p>
+<p>5NASA发现火星大气失踪之谜：是被“吹”没的</p>
+<p>6地球生命大灭绝或由近距离伽马射线爆所致</p>
+<p>7科学家设计核聚变火箭：火星之旅只需数个月</p>
+<p>8潜藏地下的五种神秘微粒：非粒子和暗物质</p>
+<p>9人体心脏和肺具有第二功能 能嗅察到食物气味</p>
+<p>10研究发现澳洲受损珊瑚12年内便“再生恢复”</p>
+<p>1HTC One电信版真机曝光 双卡双待或售4799元</p>
+<p>2小米2S上手评测：性能提升明显弱光拍照需加强</p>
+<p>3裸机价550美元 白色版诺基亚Lumia 928官方图泄露</p>
+<p>4暂缺移动版 三星GALAXY S4行货获入网许可</p>
+<p>5测试报告：旗舰手机GPU相当于06年中高端电脑显卡</p>
+<p>6小米2S/2A手机携手MIUI V5正式版发布</p>
+<p>7索尼55/65英寸4K电视月底开卖 售价3万起</p>
+<p>8未来iPhone有多酷？十五个苹果专利告诉你</p>
+<p>9港台更便宜 小米2S联通版开始预约</p>
+<p>10三星低端新机Galaxy Win将全球范围出售</p>
+<p>1互联网雾霾期：VC急于退出 大抛售蔓延全行业</p>
+<p>2Shodan：互联网上最可怕的搜索引擎</p>
+<p>3酷6新总裁刘文博：不会走花钱买视频的老路</p>
+<p>4微软正式关闭除中国大陆以外地区MSN服务</p>
+<p>5被雅虎3000万美金收购的Summly没有核心技术！</p>
+<p>6软件定义网络：高科技巨头联手改变互联网</p>
+<p>7谷歌光纤扩建至全美需投入110亿美元</p>
+<p>8昨夜今晨必读：Facebook试点收费发私信服务</p>
+<p>9昨夜今晨必读：阿里战略投资《商业评论》杂志</p>
+<p>10阿里巴巴集团战略投资《商业评论》杂志</p>
+<p>时尚资讯</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Right_text1" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text2" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text3" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text4" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text5" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text6" class="w-l-qq-com"></span>');</p>
+<p>	if(typeof wenzilian_need_block=='undefined'){var wenzilian_need_block=(function(){var ad_block_list=["1,021,","1,015,","1,030,017","1,030,012"];var getCookie=function(name){var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));if(arr!=null)return unescape(arr[2]);return null};var arr_indexOf=function(arr,o){if(arr.indexOf){return arr.indexOf(o)}for(var i=0;i<arr.length;i++){if(arr[i]===o){return i}}return-1};var fn_need_block=function(){var ac=getCookie('ac');if(ac&&arr_indexOf(ad_block_list,ac)==-1){return false}return true};return fn_need_block()})();var str_format=function(s,config,reserve){return s.replace(/\{([^}]*)\}/g,(typeof config=='object')?function(m,i){var ret=config[i];return ret==null&&reserve?m:ret}:config)}}</p>
+<p>document.write('<span id="News_F_Right_text7" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text8" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text9" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text10" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text11" class="w-l-qq-com"></span>');document.write('<br /><span id="News_F_Right_text12" class="w-l-qq-com"></span>');</p>
+<p>.tcopyright {width:960px;margin:0 auto;padding:8px 0;font-size:12px;line-height:28px;color:#333; text-align:center; overflow:hidden;clear:both;}</p>
+<p>.tcopyright .en{font-family:Arial;}</p>
+<p>.tcopyright a{color:#333;text-decoration: none;}</p>
+<p>.tcopyright a:hover{color:#bd0a01;text-decoration: underline;}</p>
+<p>关于腾讯 | About Tencent | 服务协议 | 隐私权保护 | 开放平台 | 广告服务 | 腾讯招聘 | 腾讯公益 | 客服中心 | 网站导航</p>
+<p>Copyright © 1998 - 2013 Tencent. All Rights Reserved</p>
+<p>腾讯公司 版权所有</p>
+<p>/*</p>
+<p>文章末尾加icon</p>
+<p>*/</p>
+<p>(function(){</p>
+<p>	var TrimLeft = function(str)</p>
+<p>	{</p>
+<p>		var whitespace = '\t\r\n 　';</p>
+<p>		while(str.length > 0 && whitespace.indexOf(str.substr(0, 1)) != -1)</p>
+<p>		{</p>
+<p>			str = str.substr(1);</p>
+<p>		}</p>
+<p>		return str;</p>
+<p>	};</p>
+<p>	var TrimRight = function(str)</p>
+<p>	{</p>
+<p>		var whitespace = '\t\r\n 　';</p>
+<p>		while(str.length > 0 && whitespace.lastIndexOf(str.substr(str.length - 1, 1)) != -1)</p>
+<p>		{</p>
+<p>			str = str.substr(0, str.length - 1);</p>
+<p>		}</p>
+<p>		return str;</p>
+<p>	};</p>
+<p>	var Trim = function(str)</p>
+<p>	{</p>
+<p>		return TrimLeft(TrimRight(str));</p>
+<p>	};</p>
+<p>	var GetLastAvaNode = function(nodes)</p>
+<p>	{</p>
+<p>		for(var i=nodes.length-1; i>=0; --i)</p>
+<p>		{</p>
+<p>			var itemNode = nodes[i];</p>
+<p>			if(itemNode.nodeName != "#text")</p>
+<p>				return itemNode;</p>
+<p>			else</p>
+<p>			{</p>
+<p>				if(Trim(itemNode.nodeValue) != "")</p>
+<p>					return itemNode;</p>
+<p>				else</p>
+<p>				{</p>
+<p>					continue;</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>		return null;</p>
+<p>	};</p>
+<p>	var contentEleObj = document.getElementById('Cnt-Main-Article-QQ');</p>
+<p>	if(contentEleObj.childNodes.length>0)</p>
+<p>	{</p>
+<p>		var lastEleObj = contentEleObj.children[contentEleObj.children.length-1];</p>
+<p>		if(lastEleObj.tagName.toLowerCase() == "p")</p>
+<p>		{</p>
+<p>			var avaNode = GetLastAvaNode(lastEleObj.childNodes);</p>
+<p>			if(avaNode && </p>
+<p>				avaNode.nodeName == "#text" && Trim(avaNode.nodeValue).length > 15)</p>
+<p>			{</p>
+<p>				var iconEleObj = document.createElement("img");</p>
+<p>				iconEleObj.src = "http://www.qq.com/favicon.ico";</p>
+<p>				iconEleObj.width = "16";</p>
+<p>				iconEleObj.height = "16";</p>
+<p>				var linkEleObj = document.createElement("a");</p>
+<p>				linkEleObj.href = "http://www.qq.com/?pref=article";</p>
+<p>				linkEleObj.target = "_blank";</p>
+<p>				linkEleObj.alt = "点击进入腾讯首页";</p>
+<p>				linkEleObj.title = "点击进入腾讯首页";</p>
+<p>				linkEleObj.id = "backqqcom";</p>
+<p>				linkEleObj.bossZone = "backqqcom";</p>
+<p>				linkEleObj.appendChild(iconEleObj);</p>
+<p>				lastEleObj.appendChild(linkEleObj);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>})();</p>
+<p>/*评论存在显示按钮区和挑战编辑部*/</p>
+<p>  try{if(document.getElementById("Comment-Article-QQ")){</p>
+<p>	if(document.getElementById("Tool-Article-QQ")){document.getElementById("Tool-Article-QQ").style.display = "block";}</p>
+<p>	if(document.getElementById("Tzbjb-Article-QQ")){document.getElementById("Tzbjb-Article-QQ").style.display = "block";}</p>
+<p>	}}catch(e){};</p>
+<p>/*评论列帖*/</p>
+<p>	function _cbSum(data){</p>
+<p>		if(typeof data !== "undefined"){</p>
+<p>					TencentArticl.$("comNum").innerHTML = TencentArticl.$("comNum2").innerHTML = TencentArticl.$("comNum3").innerHTML=arguments[0];//总贴数</p>
+<p>					TencentArticl.$("comNum4").innerHTML =arguments[1];//参与</p>
+<p>					TencentArticl.$("cmt_1").href = TencentArticl.$("cmt_2").href = TencentArticl.$("cmt_3").href="http://"+TencentArticl.cmtBase+"."+TencentArticl.site+".qq.com/comm/comment?site="+TencentArticl.site+"&id="+TencentArticl.cmtId+"";</p>
+<p>					TencentArticl.$("cmt_1").target = TencentArticl.$("cmt_2").target = TencentArticl.$("cmt_3").target = "_blank";</p>
+<p>				if(arguments[2]>0&&arguments[3]!==0){//如果精华帖不为空</p>
+<p>		TencntART.JsLoader.load("http://"+'comment5'+"."+TencentArticl.site+".qq.com/php_qqcom/greplyBycid.php?site="+TencentArticl.site+"&c_id="+TencentArticl.cmtId+"&t_c=5&o_c=0&t="+Math.round(Math.random()*10000), function(){</p>
+<p>					setTimeout("_replyBycid",0);</p>
+<p>				});</p>
+<p>				}else{</p>
+<p>   /*getSibling(TencentArticl.$("cmt_3")).style.display = "none";*/</p>
+<p>					TencentArticl.$(TencentArticl.comtList).style.display = "none";</p>
+<p>				}</p>
+<p>		}</p>
+<p>	}</p>
+<p>            function getSibling(el){//FF</p>
+<p>		var prev =  el.previousSibling;</p>
+<p>		while(prev.nodeType != 1){</p>
+<p>			prev = prev.previousSibling;</p>
+<p>		}</p>
+<p>		return prev;</p>
+<p>	};</p>
+<p>	function _replyBycid(data){</p>
+<p>		var tempHTML = "";</p>
+<p>		if(typeof data !== "undefined"){</p>
+<p>			</p>
+<p>			var l = data.hot_list.length;</p>
+<p>			l = l > 5 ? 5 : l;</p>
+<p>			for(var i=0; i < l; i++){</p>
+<p>				if(i==l-1){</p>
+<p>				tempHTML+="<li style='border-bottom:0px;'><span class='member'>腾讯"+data.hot_list[i].province_city+"网友 <a href='http://"+TencentArticl.cmtBase+"."+TencentArticl.site+".qq.com/comment_user2.htm?uin="+data.hot_list[i].uin+"' target='_blank'>"+data.hot_list[i].nick+"</a></span>";</p>
+<p>				if(data.hot_list[i].subflag==1){</p>
+<p>						tempHTML+="<p>"+data.hot_list[i].reply_content+"<a href=http://"+TencentArticl.cmtBase+"."+TencentArticl.site+".qq.com/comm/comment?site="+TencentArticl.site+"&id="+TencentArticl.cmtId+" target='_blank'>[详细]</a></p>";</p>
+<p>					}else{</p>
+<p>						tempHTML+="<p>"+data.hot_list[i].reply_content+"</p>";</p>
+<p>					}</p>
+<p>				}else{</p>
+<p>								tempHTML+="<li><span class='member'>腾讯"+data.hot_list[i].province_city+"网友 <a href='http://"+TencentArticl.cmtBase+"."+TencentArticl.site+".qq.com/comment_user2.htm?uin="+data.hot_list[i].uin+"' target='_blank'>"+data.hot_list[i].nick+"</a></span>";</p>
+<p>				if(data.hot_list[i].subflag==1){</p>
+<p>						tempHTML+="<p>"+data.hot_list[i].reply_content+"<a href=http://"+TencentArticl.cmtBase+"."+TencentArticl.site+".qq.com/comm/comment?site="+TencentArticl.site+"&id="+TencentArticl.cmtId+" target='_blank'>[详细]</a></p>";</p>
+<p>					}else{</p>
+<p>						tempHTML+="<p>"+data.hot_list[i].reply_content+"</p>";</p>
+<p>					}</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>	TencentArticl.$(TencentArticl.comtList).innerHTML = tempHTML;</p>
+<p>	}</p>
+<p>/*列贴结束*/</p>
+<p>/*是否有滚动图*/</p>
+<p>TencentArticl.isSild = false;</p>
+<p>/*侧栏页卡配置*/</p>
+<p>var obj2 = Object.beget(TencentArticl);</p>
+<p>obj2.sideTab.heads = 'tabTit';</p>
+<p>obj2.sideTab.heads_ele = 'span';</p>
+<p>obj2.sideTab.bodys = 'tabBody';</p>
+<p>obj2.sideTab.bodys_ele = 'ol';</p>
+<p>obj2.TabChang();</p>
+<p>var obj3 = Object.beget(TencentArticl);</p>
+<p>obj3.sideTab.heads = 'tabTit2';</p>
+<p>obj3.sideTab.heads_ele = 'span';</p>
+<p>obj3.sideTab.bodys = 'tabBody2';</p>
+<p>obj3.sideTab.bodys_ele = 'h6';</p>
+<p>obj3.TabChang();</p>
+<p>crystal.request();</p>
+<p>var SCRIPT_TIMEOUT = 20000;</p>
+<p>var QVPL_PATH = "http://mat1.gtimg.com/www/html5js/QVPL1.0.4.js";</p>
+<p>function loadHelper (jsurl) {</p>
+<p>	var oScriptEl, oTimeoutHDL, oHead;</p>
+<p>	oScriptEl = document.createElement("script");</p>
+<p>	oScriptEl.type = "text/javascript";</p>
+<p>	oScriptEl.language = "javascript";</p>
+<p>	oScriptEl.src = jsurl;</p>
+<p>	oScriptEl.onreadystatechange = doCallback;</p>
+<p>	oScriptEl.onload = function()</p>
+<p>	{</p>
+<p>		this.readyState = "complete";</p>
+<p>		doCallback(); </p>
+<p>		if(typeof(lianbo) == "object"){</p>
+<p>			lianbo.init(window.QVPL);</p>
+<p>		}</p>
+<p>	};</p>
+<p>	oTimeoutHDL = window.setTimeout(doError,SCRIPT_TIMEOUT);</p>
+<p>	document.getElementsByTagName("head")[0].appendChild(oScriptEl);</p>
+<p>	function doCallback()</p>
+<p>	{</p>
+<p>		if (oScriptEl.readyState == "complete" || oScriptEl.readyState == "loaded")</p>
+<p>		{</p>
+<p>			oScriptEl.onload = oScriptEl.onreadystatechange = new Function();</p>
+<p>			window.clearTimeout(oTimeoutHDL);</p>
+<p>		}</p>
+<p>	};</p>
+<p>	function doError()</p>
+<p>	{</p>
+<p>		oScriptEl.parentNode.removeChild(oScriptEl);</p>
+<p>	};</p>
+<p>}</p>
+<p>loadHelper(QVPL_PATH);</p>
+<p>//20120423</p>
+<p>if(document.addEventListener)</p>
+<p>        document.addEventListener("click", registerZone2, false);</p>
+<p>else if(document.attachEvent)</p>
+<p>        document.attachEvent("onclick", registerZone2);</p>
+<p>var gImage;</p>
+<p>//取自定义属性</p>
+<p>function registerZone2(ev,clickType)</p>
+<p>{</p>
+<p>    var loopTryNum = 10;</p>
+<p>    var bossID = 1408; //451;</p>
+<p>	  </p>
+<p>    try</p>
+<p>	{</p>
+<p>	    //qq</p>
+<p>		var a=document.cookie.match(new RegExp('(^|)o_cookie=([^;]*)(;|$)'));</p>
+<p>		var iQQ=(a==null?"":unescape(a[2]));</p>
+<p>		var purl='';</p>
+<p>		var zoneId='';</p>
+<p>		</p>
+<p>		if(typeof clickType == 'undefined')</p>
+<p>		{</p>
+<p>	        var ev = window.event || ev;</p>
+<p>	        var et = ev.srcElement || ev.target;</p>
+<p>		    var type=et.tagName;</p>
+<p>	        if (type != "A" && type != "IMG" ) </p>
+<p>		    {</p>
+<p>		        return true;</p>
+<p>		    } </p>
+<p>		</p>
+<p>		    if (type == "A")</p>
+<p>		    {</p>
+<p>		        purl = et.href;</p>
+<p>		    }</p>
+<p>		    else if (type == "IMG")</p>
+<p>		    {</p>
+<p>		        purl = et.parentNode.href;</p>
+<p>		    }</p>
+<p>		</p>
+<p>		    //pseudo attr</p>
+<p>		    for (var i=loopTryNum-1,tagNode=et;i>=0;i--,tagNode=tagNode.parentNode)</p>
+<p>		    {</p>
+<p>		        if(tagNode.attributes['bossZone'])</p>
+<p>			    {</p>
+<p>		            zoneId = tagNode.attributes['bossZone'].nodeValue;</p>
+<p>			    } else if(tagNode.attributes['bosszone'])</p>
+<p>			    {</p>
+<p>			        zoneId = tagNode.attributes['bosszone'].nodeValue;</p>
+<p>			    }</p>
+<p>			    else if(tagNode.attributes['BossZone'])</p>
+<p>			    {</p>
+<p>			        zoneId = tagNode.attributes['BossZone'].nodeValue;</p>
+<p>			    }</p>
+<p>			    else if(tagNode.attributes['Bosszone'])</p>
+<p>			    {</p>
+<p>			        zoneId = tagNode.attributes['Bosszone'].nodeValue;</p>
+<p>			    }</p>
+<p>		        if(zoneId) break; </p>
+<p>		    }		</p>
+<p>		    if(!zoneId) return;</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>		    zoneId = ev.bossZone;</p>
+<p>			purl = ev.url;</p>
+<p>		}</p>
+<p>		</p>
+<p>		//site</p>
+<p>		var localUrl = location.href;</p>
+<p>		var site = localUrl.substring(7,localUrl.indexOf('.qq.com'));</p>
+<p>		site = site.substr(site.lastIndexOf('.')+1);</p>
+<p>		</p>
+<p>		var iurl = 'http://btrace.qq.com/collect?sIp=&iQQ='+iQQ+'&sBiz=qq.com&sOp='+zoneId+'&iSta=&iTy='+bossID+'&iFlow=&site='+site</p>
+<p>		      +'&sUrl='+escape(purl)+'&sLocalUrl='+escape(location.href)+'&articleType='+'&tmplType='+ARTICLE_INFO.type+'&'+Math.random();</p>
+<p>		gImage = new Image(1,1);</p>
+<p>		gImage.src = iurl;</p>
+<p>	} catch (e) {}</p>
+<p>}</p>
+<p><!--</p>
+<p>setTimeout(function(){crystal.importScript('http://hk.questionmarket.com/adsc/d963688/3/969327/randm.js')},3000);</p>
+<p>//--></p>
+<p> </p>
+<p>if(GroupLoadJs && photoJson){</p>
+<p>	var maskEntrance = document.getElementById('entranceSlide');</p>
+<p>	var cssHref = 'http://mat1.gtimg.com/www/hd/mask/mask2.0.3.css', jsHref = 'http://mat1.gtimg.com/www/hd/mask/mask2.1.8.js';</p>
+<p>	var MyMask = {};</p>
+<p>	GroupLoadJs(jsHref, function(){</p>
+<p>		MyMask = new Mask();</p>
+<p>		qq.G("highBtn").onclick = function() {</p>
+<p>			</p>
+<p>			MyMask.display();</p>
+<p>			registerZone2({</p>
+<p>				bossZone: "MaskShowBt",</p>
+<p>				url: ""</p>
+<p>			},</p>
+<p>			1);</p>
+<p>			return false</p>
+<p>		};</p>
+<p>		maskEntrance.style.visibility = 'visible';</p>
+<p>	});</p>
+<p>}</p>
+<p>try{QosS.endCheck();}catch(e){}</p>
+<p>TencentArticl.site = 'tech';</p>
+<p>TencentArticl.cmtId = '30535399';</p>
+<p>/*是否显示评论*/</p>
+<p>TencentArticl.onload();</p>

@@ -1,0 +1,404 @@
+<p>"Фобос-Грунт": прогноз падения - В России - Интерфакс</p>
+<p> </p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>var scrheight = '', scrwidth = '';</p>
+<p>if (self.screen) {</p>
+<p>scrwidth = screen.width;</p>
+<p>scrheight = screen.height;</p>
+<p>} else if (self.java) {</p>
+<p>var jkit = java.awt.Toolkit.getDefaultToolkit();</p>
+<p>var scrsize = jkit.getScreenSize();</p>
+<p>scrwidth = scrsize.width;</p>
+<p>scrheight = scrsize.height;</p>
+<p>}</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=epdp&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;puid1=&amp;pdw=' + scrwidth + '&amp;pdh=' + scrheight + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=y&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Мобильная версия</p>
+<p>Пиратство подешевело</p>
+<p> </p>
+<p>Маргарет Тэтчер. ФОТО</p>
+<p>  </p>
+<p>Первоклассник "от кутюр" за 3 тысячи рублей</p>
+<p> </p>
+<p>Путин: о политических и личных планах</p>
+<p>Вход для подписчиков</p>
+<p>В РОССИИ    |    В МИРЕ    |    ЭКОНОМИКА    |    ФИНАНСЫ    |    СПОРТ    |    КУЛЬТУРА    |    МОСКВА    |    СЮЖЕТЫ</p>
+<p>РЕЛИГИЯ</p>
+<p>  |  </p>
+<p>НЕДВИЖИМОСТЬ</p>
+<p>  |  </p>
+<p>ТУРИЗМ</p>
+<p>Об "Интерфаксе"    |    </p>
+<p>	Interfax.com    |    </p>
+<p>	Интерфакс-Россия    |    </p>
+<p>	Финмаркет    |    </p>
+<p>	СКАН    |    </p>
+<p>	СПАРК</p>
+<p>function FavAdd() { t = "Interfax.Ru"; u = "http://www.interfax.ru"; if (window.sidebar) { window.sidebar.addPanel(t, u, ""); } else if (window.external) { window.external.AddFavorite(u, t); } return false; }</p>
+<p>   </p>
+<p>Главная      Сюжеты      Космос ждет      "Фобос-Грунт": прогноз падения</p>
+<p>СЮЖЕТ :   Космос ждет</p>
+<p>весь сюжет</p>
+<p>"Фобос-Грунт": прогноз падения</p>
+<p>..Фото: Reuters.</p>
+<p>04 января 2012 года    14:05</p>
+<p>           </p>
+<p>Центр разведки космической обстановки прогнозирует падение космического аппарата "Фобос-Грунт" через одиннадцать дней. Специалисты осуществляют непрерывный мониторинг изменений параметров его орбиты</p>
+<p>Москва. 4 января. INTERFAX.RU - По оценке специалистов Главного центра разведки космической обстановки, падение фрагментов космического аппарата "Фобос-Грунт" может произойти 15 января, сообщил "Интерфаксу-АВН" официальный представитель управления пресс-службы и информации Минобороны РФ по Войскам воздушно-космической обороны полковник Алексей Золотухин. "По состоянию на утро среды, падение фрагментов аппарата "Фобос-Грунт" ожидается 15 января 2012 года. Окончательная дата их падения может измениться под воздействием внешних факторов", - отметил он.</p>
+<p>Золотухин сказал, что Войска воздушно-космической обороны контролируют параметры орбиты космического аппарата "Фобос-Грунт". Специалисты Главного центра разведки космической обстановки Войск ВКО осуществляют непрерывный мониторинг изменений параметров орбиты российского космического аппарата.</p>
+<p>Сегодня объект находится на околоземной орбите с параметрами: период - 88,57 мин, наклонение - 51 град. 41 мин., апогей - 224 км, перигей - 184 км, сообщил Золотухин.</p>
+<p>По его словам, в Центр разведки космической обстановки регулярно поступает полная и достоверная информация от специализированных радиотехнических, оптико-электронных, лазерно-оптических средств российской системы контроля космического пространства, анализ которой, в случае схождения космического аппарата с орбиты, позволит сделать предварительный прогноз предполагаемой даты и района падения фрагментов космического аппарата "Фобос-Грунт", не сгоревших в плотных слоях атмосферы.</p>
+<p>Специалисты центра осуществляют повитковый контроль и анализ состояния аппарата "Фобос-Грунт". Информация об изменениях параметров орбиты объекта предоставляется установленным порядком всем заинтересованным потребителям.</p>
+<p>Ранее с высокой степенью точности подтвердился прогноз специалистов Главного центра относительно времени и места падения второй ступени ракеты-носителя "Зенит-3SLБ", прекратившей свое существование на орбите 22 ноября 2011 года. В 22:47 МСК фрагменты ступени достигли земной поверхности в районе с координатами 22 град. южной широты и 140 град. вост. долготы в 120 км юго-восточнее Доджера (Австралия). В сентябре-октябре 2011-го Главный центр выполнял контроль схода с орбиты американского космического аппарата UARS и германского спутника ROSAT и выдал точный прогноз времени и места падения на земную поверхность фрагментов этих спутников, не сгоревших в плотных слоях атмосферы.</p>
+<p>Главный центр разведки космической обстановки выполняет информационное обеспечение решения задач парирования угроз, исходящих из космоса и в космосе, беспрепятственного развертывания и функционирования отечественных группировок космических аппаратов, а также оценки других опасностей, связанных с техногенным засорением космического пространства. Одной из основных задач центра является ведение Главного каталога космических объектов, предназначенного для долговременного хранения орбитальной измерительной радиолокационной, оптической, радиотехнической и специальной информации о космических объектах искусственного происхождения на высотах от 120 до 40 тыс. км.</p>
+<p>Напомним, что "Фобос-Грунт" был запущен с Байконура в ночь на 9 ноября 2011 года. После отделения от ракеты-носителя "Зенит" на аппарате не включились двигатели, которые должны были вывести его на высокую опорную орбиту, чтобы оттуда он мог стартовать к Марсу, аппарат должен был долететь до спутника Марса Фобоса, сесть на это небесное тело, взять пробы грунта и доставить их на Землю для лабораторного исследования. Миссия должна была продлиться примерно 2,5 года. Стоимость проекта, по неофициальной информации, составляет около 5 млрд рублей. Однако вывести аппарат на орбиту не удалось. Источники указывали, что причиной неудачи стал сбой в системе управления.  </p>
+<p>Посмотреть все материалы сюжета «Космос ждет»Теги:Фобос-Грунт, космический аппарат, падение, прогноз</p>
+<p>сообщить нам новость</p>
+<p>		function ShowBlogCode() {</p>
+<p>			var o = document.getElementById("btn_blog_code");</p>
+<p>			var o2 = document.getElementById("blog_code");</p>
+<p>			var o3 = document.getElementById("blog_code_bgr");</p>
+<p>			if (o) o.style.display = "none";</p>
+<p>			if (o2) o2.style.display = "block";</p>
+<p>			if (o3) o3.style.backgroundColor = "#DCDDDF";</p>
+<p>			if (o3) o3.style.padding = "12px"; </p>
+<p>			return false;</p>
+<p>		}</p>
+<p>		</p>
+<p>код для блога</p>
+<p>Код для блога:</p>
+<p>			var o = window.clipboardData;</p>
+<p>			if (o) {</p>
+<p>				document.write("<a href=\"#\" class=\"lnkblue nounder\" onclick=\"return CopyToClipboard();\">скопировать</a>");</p>
+<p>			}</p>
+<p>			function CopyToClipboard() {</p>
+<p>				if (o) {</p>
+<p>					var oTxt = document.getElementById("blog_text");</p>
+<p>					if (oTxt) {</p>
+<p>						o.setData("Text", oTxt.innerText);</p>
+<p>					}</p>
+<p>				}</p>
+<p>				alert("Код для блога скопирован в буфер обмена.");</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>			</p>
+<p> "Фобос-Грунт": прогноз падения</p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=enct&amp;pct=b&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=757942382"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=enct&amp;pct=b&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=757941111"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=enct&amp;pct=b&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=757942222"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=enct&amp;pct=b&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=757943333"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Другие материалы:</p>
+<p>архив материалов</p>
+<p> </p>
+<p> Верующих защитили в первом чтении.Госдума одобрила в первом чтении законопроект, позволяющий сажать на пять лет за "публичное оскорбление и унижение религиозных убеждений и чувств граждан". Дела для НКО.Во вторник сразу две московские некоммерческие организации попали под административные дела. Дело в отношении "Голоса" возбуждено за отказ регистрироваться в качестве иностранного агента, в отношении "Клуба имени Джерри Рубина" – за нарушение санитарных норм. Закутайло не отпустили к жене.Один из главных фигурантов дела "Оборонсервиса" дал показания после полугода молчания. Несмотря на это, ему добавили обвинений и оставили под арестом до начала июня. Наводнение в Крымске: отвод всех судей.В Крымске начался суд по делу о халатности чиновников во время прошлогоднего наводнения, приведшего к многочисленным жертвам. Прокуратура заявила отвод всех судей по причине их личной заинтересованности. Места на кладбище не нашли.Власти Химок отказали близким скончавшегося накануне журналиста Михаила Бекетова в месте на одном из кладбищ вблизи черты города. Бекетов будет похоронен 11 апреля на Новосходненском кладбище. Питерский банк в деле Минобороны.Один из банков северной столицы, совладельцем которого является зять Анатолия Сердюкова,  предоставил гарантию на 1 млрд рублей предприятию, связанному с делом мошенничестве с автотранспортом Минобороны</p>
+<p>. Молчанов может покинуть Совфед.Сенатор Андрей Молчанов в ближайшее время покинет Совет Федерации, чтобы сосредоточиться на предпринимательской деятельности, сообщают источники. Его место может занять депутат Думы Ленобласти Евгений Петелин. "Википедия" снова в белом списке.Роскомнадзор снял претензии к "Википедии" после изменения статьи о каннабисе и выразил надежду на дельнейшее сотрудничество с интернет-энциклопедией, вопросы к которой не сняты. Умер Михаил Бекетов.В Москве скончался редактор газеты "Химкинская правда" Михаил Бекетов, ставший инвалидом после избиения неизвестными в ноябре 2008 года. Вице-губернатора обвинили в мошенничестве.Первому замглавы Новгородской области Арнольду Шалмуеву предъявили обвинение в хищении 35 млн рублей, выделенных на ремонт дорог</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=eqth&amp;pct=d&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=1298156422"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=emxu&amp;pct=d&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=615307141"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=emxu&amp;pct=d&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=589991268"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=emxu&amp;pct=d&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;random=589991260"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=emwl&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=h&amp;ps=wfq&amp;p2=emxu&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p>	new TWTR.Widget({</p>
+<p>	version: 2,</p>
+<p>	type: 'search',</p>
+<p>	search: 'interfax.ru',</p>
+<p>	interval: 6000,</p>
+<p>	title: 'Наши новости в Twitter',</p>
+<p>	subject: 'interfax_news',</p>
+<p>	width: 'auto',</p>
+<p>	height: 310,</p>
+<p>	theme: {</p>
+<p>	shell: {</p>
+<p>	background: '#679cc5',</p>
+<p>	color: '#ffffff'</p>
+<p>	},</p>
+<p>	tweets: {</p>
+<p>	background: '#ffffff',</p>
+<p>	color: '#444444',</p>
+<p>	links: '#009b9e'</p>
+<p>	}</p>
+<p>	},</p>
+<p>	features: {</p>
+<p>	scrollbar: false,</p>
+<p>	loop: true,</p>
+<p>	live: true,</p>
+<p>	hashtags: false,</p>
+<p>	timestamp: true,</p>
+<p>	avatars: true,</p>
+<p>	toptweets: true,</p>
+<p>	behavior: 'default'</p>
+<p>	}</p>
+<p>	}).render().start();</p>
+<p>function vk_ifx() { VK.Widgets.Group("vk_groups", {mode: 0, width: "240", height: "400"}, 24228287); }</p>
+<p>var vk_init_ok = false;function ShowSNBlock(iBlockId) {</p>
+<p>	var o;</p>
+<p>	var o2;</p>
+<p>	for (var i = 0; i < 3; i++) {</p>
+<p>		o = document.getElementById("sn_" + i);</p>
+<p>		o2 = document.getElementById("btn_sn_" + i);</p>
+<p>		if (o) {</p>
+<p>			if (i == iBlockId) {</p>
+<p>				if (o2) o2.className = "socnet_act";</p>
+<p>				o.style.display = "block";</p>
+<p>				if (i == 2 && (!vk_init_ok)) { vk_ifx(); vk_init_ok = true; }</p>
+<p>				} else { </p>
+<p>				if (o2) o2.className = "socnet_nonact";</p>
+<p>				o.style.display = "none";</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>	return false;</p>
+<p>}</p>
+<p>ShowSNBlock(1);</p>
+<p>АКТУАЛЬНЫЕ СЮЖЕТЫ</p>
+<p>Сочи-2014XXII зимние Олимпийские игры пройдут в Сочи с 7 по 23 февраля 2014 года. Россия принимает Олимпиаду во второй раз за свою историю  Катастрофы самолетовКрушение Ту-204 во "Внуково" могло произойти из-за отказа систем реверса    Итоги годаГлавные события уходящего года во внутренней и внешней политике РФ, экономические явления, события общественной жизни, катастрофы, освоение космоса и многое другое - вспоминаем 2012 год  Космос ждетРакетно-космическая отрасль разделится на пять холдингов для повышения качества деятельности и преодоления технологической отсталости  Акции в Москве и регионахВ центре Москвы в воскресенье прошла акция протеста против "закона Димы Яковлева", который запрещает американцам усыновлять российских сирот  </p>
+<p>// <!--</p>
+<p>var ifax_t90x90_login = "ifax";</p>
+<p>var ifax_t90x90_options = "options=NV";</p>
+<p>var ifax_t90x90_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://t90x90.mb.interfax.ru/cgi-bin/iframe/'+ifax_t90x90_login+'?'+ifax_t90x90_random+'&'+ifax_t90x90_options+'&n=3&style=http://www.interfax.ru/css/tiz1.css" width="240" height="350" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://t90x90.mb.interfax.ru/cgi-bin/href/'+ifax_t90x90_login+'?'+ifax_t90x90_random +'" target="_blank"><img src="http://t90x90.mb.interfax.ru/cgi-bin/banner/'+ifax_t90x90_login+'?'+ifax_t90x90_random +'&'+ifax_t90x90_options+'" alt="ifax_t90x90_tizer" width="240" height="350" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p>В МИРЕ Пиратство подешевелоУсилия мирового сообщества по борьбе с пиратами у берегов Сомали приносят плоды — ущерб от нападений в прошлом году снизился, как и количество успешных захватоввсе материалы разделаЭКОНОМИКА Пенсионную формулу уточнилиС 2015 года правительство планирует выплачивать страховую пенсию по фиксированным коэффициентам и предлагает стимулировать граждан отказываться от работы попозжевсе материалы раздела</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=erqb&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p>ФИНАНСЫ Кипр открыл ящик ПандорыЕще вчера все экономисты считали, что контроль над движением капитала - запрещенный прием, который позволяют себе только авторитарные режимы с серьезными проблемами. Но после того, как эти ограничения ввели на Кипре, табу на обсуждение допустимости таких ограничений исчезловсе материалы разделаСПОРТ "Реал" и "Боруссия" в полуфиналеМадридский "Реал" и дортмундская "Боруссия" стали первыми полуфиналистами Лиги чемпионов сезона 2012/13. Испанцы проиграли в Стамбуле "Галатасараю", но прошли дальше по сумме двух матчей. Немцы дома вырвали победу у "Малаги"все материалы разделаКУЛЬТУРА Моя кроличья лапкаВ кинотеатрах показывают неуклюжую историю возникновения сильного чувства на фоне жажды мести, в вымученных кадрах мелькают хорошие актеры, а в одном из эпизодов Изабель Юппер кормит Колина Фаррелла котлеткамивсе материалы разделаМОСКВА Эвакуация автомобилей станет платнойЭвакуация неправильно припаркованных автомобилей с московских улиц станет платной 15 сентября, размер штрафов пока не утвержденвсе материалы раздела</p>
+<p>.</p>
+<p>НОВОСТИ В СЕТИ</p>
+<p>.</p>
+<p>.</p>
+<p>// <!--</p>
+<p>var ifxTizer_login = "interfax";</p>
+<p>var ifxTizer_options = "options=NV";</p>
+<p>var ifxTizer_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://t50x50.mb.interfax.ru/cgi-bin/iframe/'+ifxTizer_login+'?'+ifxTizer_random+'&'+ifxTizer_options+'&n=6&style=http://www.interfax.ru/ftproot/files/tizdefault_2.css" width="230" height="420" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://t50x50.mb.interfax.ru/cgi-bin/href/'+ifxTizer_login+'?'+ifxTizer_random +'" target="_blank"><img src="http://t50x50.mb.interfax.ru/cgi-bin/banner/'+ifxTizer_login+'?'+ifxTizer_random +'&'+ifxTizer_options+'" alt="Баннерная сеть mb.interfax.ru" width="230" height="420" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p>.</p>
+<p> </p>
+<p>КОНТАКТЫ   |   ОБ "ИНТЕРФАКСЕ"   |   ВАКАНСИИ   |   РЕКЛАМА НА САЙТЕ</p>
+<p> </p>
+<p>   </p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' "+</p>
+<p>"target=_blank><img src='http://counter.yadro.ru/hit?t57.2;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet' "+</p>
+<p>"border=0 width=88 height=31><\/a>")//--></p>
+<p>	var img = new Image();</p>
+<p>	img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*finmarket_ru/ru/CP1251/tmsec=interfax_total/';</p>
+<p>разработка : web.finmarket</p>
+<p> </p>
+<p>Обнаружили ошибку на сайте? Выделите фрагмент текста с ошибкой и нажмите Ctrl + Enter.</p>
+<p>Сетевое издание «Интерфакс». Свидетельство о регистрации СМИ Эл № ФС77-49298 выдано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор) 06 апреля 2012 года.</p>
+<p>Copyright © 1991-2013 Interfax. Все права защищены.    |    Условия использования информации    |    Запрещено для детей</p>
+<p>Вся информация, размещенная на данном веб-сайте, предназначена только для персонального пользования и не подлежит дальнейшему воспроизведению и/или распространению в какой-либо форме, иначе как с письменного разрешения Интерфакса.    Информация об ограничениях Reuters </p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-30525590-1']);</p>
+<p>  _gaq.push(['_setDomainName', 'interfax.ru']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p><!--</p>
+<p>var _ga3_channel='2344';</p>
+<p>var _ga3_unique_timeout = 86400000;</p>
+<p>(function() {</p>
+<p>    var s = document.createElement('script'); s.type = 'text/javascript'; s.charset = 'utf-8'; s.async = true; s.src = 'http://files.goodadvert.ru/ga_3.js';</p>
+<p>    var o = document.getElementsByTagName('script')[0]; o.parentNode.insertBefore(s, o);</p>
+<p>})();</p>
+<p>// --></p>
+<p><!--</p>
+<p>var _ga1_channel='2347';</p>
+<p>var _ga1_inline_max=3;</p>
+<p>(function() {</p>
+<p>    var s = document.createElement('script'); s.type = 'text/javascript'; s.charset = 'utf-8'; s.async = true; s.src = 'http://files.goodadvert.ru/ga_1.js';</p>
+<p>    var o = document.getElementsByTagName('script')[0]; o.parentNode.insertBefore(s, o);</p>
+<p>})();</p>
+<p>// --></p>
+<p><!--</p>
+<p>var _vi_position="down";</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://drive.videoclick.ru/code?pid=2375&rid=' + (Math.floor(Math.random() * 1000000000)) +'" charset="utf-8" type="text/JavaScript"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var _rbn={};</p>
+<p>_rbn.v={};</p>
+<p>_rbn.v.place_id = 2374;</p>
+<p>_rbn.v.inline_color = "#009900";</p>
+<p>_rbn.v.is_use_ajax = 0;</p>
+<p>_rbn.v.autostart_video = 1;</p>
+<p>_rbn.v.inline_count_max=3;</p>
+<p>_rbn.v.use_ids = {};</p>
+<p>_rbn.v.use_tags = {'BODY':0};</p>
+<p>_rbn.v.use_classes = {};</p>
+<p>_rbn.v.ad = [];</p>
+<p>function _MT_VC_CodeLoaded(){_rbn.v.is_use_ajax||_MT_VC_Start()}</p>
+<p>function _MT_jsLoadDelayed(b,c,d){var a=document.createElement("script");</p>
+<p>d&&(a.id=d);a.language="javascript";a.type="text/javascript";a.charset="utf-8";a.async=1;</p>
+<p>a.src=b;if(window.ActiveXObject){var e=!1;a.onload=a.onreadystatechange=function(){</p>
+<p>if(!e&&(!this.readyState||this.readyState==="complete"||this.readyState==="loaded"&&</p>
+<p>this.nextSibling!=null)){e=true;c&&c();a.onload=a.onreadystatechange=null}}}else</p>
+<p>a.onload=c;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)};</p>
+<p>_MT_jsLoadDelayed('http://content.videoclick.ru/videoclick/core-async.js', _MT_VC_CodeLoaded);</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173858/prepareCode?pp=g&amp;ps=wfq&amp;p2=enli&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>

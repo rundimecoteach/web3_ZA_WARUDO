@@ -1,0 +1,59 @@
+<p>乾癬患者  動脈較易堵塞 - 自由電子報 即時新聞</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-2887146-9']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>function setCookie(adjstr) </p>
+<p>{　</p>
+<p>   nameValue=escape(adjstr + "$A#");</p>
+<p>　 document.cookie="ID=" + nameValue + ";";</p>
+<p>}</p>
+<p>function adjustFont(str)</p>
+<p>{</p>
+<p>	if (str == "big")</p>
+<p>	{</p>
+<p>		$('#newsti').attr('className',"news_title_big");</p>
+<p>		$('#newsc').attr('className',"news_content_big");</p>
+<p>		setCookie(str);</p>
+<p>	}</p>
+<p>	else if (str == "small")</p>
+<p>	{</p>
+<p>		$('#newsti').attr('className',"news_title");</p>
+<p>		$('#newsc').attr('className',"news_content");</p>
+<p>		setCookie(str);</p>
+<p>	}</p>
+<p>}</p>
+<p>window.onload = function ()</p>
+<p>{</p>
+<p>	cookieStr=unescape(document.cookie);</p>
+<p>	beginPos=cookieStr.indexOf("ID");</p>
+<p>	endPos=cookieStr.indexOf("$A#");</p>
+<p>	if (beginPos != -1)</p>
+<p>	{</p>
+<p>		IDname=cookieStr.substring( (beginPos +3) , endPos);</p>
+<p>		adjustFont(IDname);</p>
+<p>	}</p>
+<p>}</p>
+<p>建議我們│ 廣告刊登│ 訂報服務│ 自由徵才│ Blog</p>
+<p> </p>
+<p>自由電子報 > 即時新聞總覽 > 國際</p>
+<p>2012年1月12日‧星期四</p>
+<p> 即時新聞│政治│社會│科技│國際│財經│生活│體育│影劇│地方</p>
+<p>無障礙閱讀</p>
+<p>國際</p>
+<p>字型：</p>
+<p>            </p>
+<p> </p>
+<p>乾癬患者  動脈較易堵塞 【08:05】</p>
+<p>              〔中央社〕最新一期「美國心臟病學期刊」（American Journal of Cardiology）報導，乾癬患者動脈較容易堵塞，因此要特別注意心臟健康。</p>
+<p>  「美國心臟病學期刊」刊登加州大學戴維斯分校（University of California, Davis）發表的研究報告指出，與沒有皮膚疾病的人比較起來，乾癬（Psoriasis，又稱牛皮癬）患者的動脈較容易堵塞，必須特別注意心臟健康。</p>
+<p>  研究人員在分析約9500名病患的冠狀動脈血管攝影結果後發現，患者出現乾癬問題的時間越長久，面臨心臟問題的風險就變得更高。在9500名患者當中，有200多人患有乾癬。</p>
+<p>  根據統計，患有乾癬的病患中，約有84%出現輸血進入心臟的動脈有變窄的情形。相較下，沒有乾癬的患者當中，動脈變窄的比例約75%。</p>
+<p>  主持這項研究的醫師阿姆斯壯（April Armstrong）指出，研究人員體認到「乾癬並不只是僅限於皮膚的疾病而已。」              </p>
+<p> </p>
+<p>連絡我們 | 爆料傳真 0809-006-667 | 自由電子報 版權所有 © 2012 The Liberty Times. All Rights Reserved.</p>
+<p>  </p>

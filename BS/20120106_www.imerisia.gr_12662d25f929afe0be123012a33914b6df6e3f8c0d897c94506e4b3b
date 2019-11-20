@@ -1,0 +1,631 @@
+<p>Ο Κολόμβος έφερε τη... σύφιλη στην Ευρώπη | ειδησεις , επιστημη  | Ημερησία</p>
+<p>setAsyncElementLoading();</p>
+<p>function init() {</p>
+<p>      for (var b=0; b<1; b++){</p>
+<p>      MAINNEWS.Media.Dtk.CarouselMgr.init("dtk-car-"+b,{pageClassName:'dtk-list',pageTagName:'ul'});</p>
+<p>      }</p>
+<p>} </p>
+<p>window.onload = init;</p>
+<p><!--</p>
+<p>  var myY;</p>
+<p>  var quoteInt;</p>
+<p>  var nDelta;</p>
+<p>  var oScroll;</p>
+<p>  var nGlobaldocΥPos=0;</p>
+<p>  function quoteScroll() {</p>
+<p>  </p>
+<p>    oScroll.scrollTop=myY;</p>
+<p>    myY=myY+nDelta;</p>
+<p>    </p>
+<p>    if (myY<0 && nDelta<0) {</p>
+<p>          myY=oScroll.scrollHeight-270;</p>
+<p>    }</p>
+<p>    if ( myY>(oScroll.scrollHeight-270) && nDelta==1) {</p>
+<p>          refreshElementRT();</p>
+<p>    } else if ( myY>(oScroll.scrollHeight-270) && nDelta>0) {</p>
+<p>          myY=0;</p>
+<p>    }  </p>
+<p>  }</p>
+<p>  </p>
+<p>  function stopScroll() {</p>
+<p>    clearInterval(quoteInt);</p>
+<p>  }</p>
+<p>    function startScroll(nYPos,nDeltaIni) {</p>
+<p>    oScroll=document.getElementById("boxaki");</p>
+<p>    if (nYPos==null) {</p>
+<p>      myY=oScroll.scrollTop;</p>
+<p>    } else {</p>
+<p>      myY=nYPos;</p>
+<p>    }</p>
+<p>    </p>
+<p>    if (nDeltaIni!=null) {</p>
+<p>      setSpeed(nDeltaIni);</p>
+<p>    }</p>
+<p> </p>
+<p>    if (quoteInt!=null) {</p>
+<p>      stopScroll();</p>
+<p>    }  </p>
+<p>    quoteInt=setInterval("quoteScroll();" , 17) ;</p>
+<p>  }</p>
+<p>  function setSpeed(nSpeedIni) {</p>
+<p>    </p>
+<p>    nDelta=nSpeedIni;</p>
+<p>  }</p>
+<p>  function resetSpeed() {</p>
+<p>    nDelta=1;</p>
+<p>  }</p>
+<p>  function jumpQuote(cLetter) {</p>
+<p>    stopScroll();</p>
+<p>    var ndocΥPos=document.documentElement.scrollTop;</p>
+<p>    document.location.hash='STOCKSRT_' + cLetter;</p>
+<p>    document.documentElement.scrollTop=ndocΥPos;</p>
+<p>    oScroll.scrollTop=oScroll.scrollTop-100;</p>
+<p>    startScroll();</p>
+<p>  }</p>
+<p>  function refreshElementRT(bStorePos) {</p>
+<p>   if (bStorePos==null) {</p>
+<p>     bStorePos=false;</p>
+<p>   }</p>
+<p>   if (bStorePos) {</p>
+<p>      nGlobaldocΥPos=oScroll.scrollTop;</p>
+<p>   } else {</p>
+<p>      nGlobaldocΥPos=0;</p>
+<p>   }</p>
+<p>    nDelta=0;</p>
+<p>    reloadPrototypeElementGroups('ASERT','catid=26514');</p>
+<p>  }</p>
+<p>--></p>
+<p>var counterplus = 0;</p>
+<p>var countermin = 0; </p>
+<p>function increaseFont()</p>
+<p>{</p>
+<p>if(counterplus<3){</p>
+<p>$('#arttext').each(function(){</p>
+<p>var oldf = parseInt( jQuery(this).css('font-size') );</p>
+<p>var oldl = parseInt( jQuery(this).css('line-height') );</p>
+<p>$(this).css({</p>
+<p>'font-size' : oldf + 2 + 'px',</p>
+<p>'line-height' : oldl + 2 + 'px'</p>
+<p>});</p>
+<p>});</p>
+<p> counterplus++;</p>
+<p> countermin++;</p>
+<p>}</p>
+<p>}</p>
+<p> </p>
+<p>function decreaseFont()</p>
+<p>{</p>
+<p>if(countermin>-2){</p>
+<p>$('#arttext').each(function(){</p>
+<p>var oldf = parseFloat( jQuery(this).css('font-size') );</p>
+<p>var oldl = parseFloat( jQuery(this).css('line-height') );</p>
+<p>$(this).css({</p>
+<p>'font-size' : oldf - 2 + 'px',</p>
+<p>'line-height' : oldl - 2 + 'px'</p>
+<p>});</p>
+<p>});</p>
+<p> counterplus--;</p>
+<p> countermin--;</p>
+<p>}</p>
+<p>}</p>
+<p>            window.fbAsyncInit = function () {</p>
+<p>                FB.init({</p>
+<p>                    appId: '463912240302912',</p>
+<p>                    status: true,</p>
+<p>                    // check login status </p>
+<p>                    cookie: true,</p>
+<p>                    // enable cookies to allow the server to access the session </p>
+<p>                    xfbml: true // parse XFBML </p>
+<p>                });</p>
+<p>            };</p>
+<p>            (function () {</p>
+<p>                var e = document.createElement('script');</p>
+<p>                e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';</p>
+<p>                e.async = true;</p>
+<p>                document.getElementById('fb-root').appendChild(e);</p>
+<p>           }());</p>
+<p>        </p>
+<p> </p>
+<p>ΕΘΝΟΣ | </p>
+<p>ΗΜΕΡΗΣΙΑ | </p>
+<p>SENTRAGOAL | </p>
+<p>E-GO |</p>
+<p>ΣΙΝΕΜΑ | </p>
+<p>ΙΔΑΝΙΚΟ ΣΠΙΤΙ |</p>
+<p>SPORTY |</p>
+<p>ΑΣΤΡΑ & ΟΡΑΜΑ |</p>
+<p>WHEELS & MOTORS | </p>
+<p>WOMENONLY.GR | </p>
+<p>COOK BOOK |</p>
+<p>ELLE</p>
+<p>ΕΘΝΟΣΠΟΡ | </p>
+<p>TV ΕΘΝΟΣ | </p>
+<p>ΚΥΝΗΓΙ | </p>
+<p>ΨΑΡΕΜΑ & ΦΟΥΣΚΩΤΟ |</p>
+<p>DEAL MY DAY | </p>
+<p>ΥΓΕΙΑ  |</p>
+<p>ΤΑΞΙΔΙ |  </p>
+<p>ΣΥΝΤΑΞΕΙΣ |</p>
+<p>ΕΠΑΓΓΕΛΜΑΤΙΚΕΣ ΕΥΚΑΙΡΙΕΣ | </p>
+<p>ΕΡΓΑΣΙΑ  | </p>
+<p>ΠΑΙΔΕΙΑ</p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|20/728x90"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>Πέμπτη11 Απριλίου 2013 </p>
+<p>ΑΓΑΠΩΤΗΝ ΕΛΛΑΔΑΑΓΟΡΑΖΩ ΕΛΛΗΝΙΚΑ</p>
+<p>  </p>
+<p>ΝΕΑ ΣΕ 10''ΕΙΔΗΣΕΙΣΠΟΛΙΤΙΚΗΚΟΙΝΩΝΙΑΚΟΣΜΟΣΑΘΛΗΤΙΣΜΟΣΠΟΛΙΤΙΣΜΟΣSHOW BUSINESSΕΠΙΣΤΗΜΗΠΕΡΙΒΑΛΛΟΝMEDIAΔΕΛΤΙΑ ΤΥΠΟΥPHOTO NEWSΟΙΚΟΝΟΜΙΑΕΛΛΑΔΑΕΥΡΩΠΗΚΟΣΜΟΣΕΠΙΧΕΙΡΗΣΕΙΣΕΛΛΗΝΙΚΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣΞΕΝΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣΤΡΑΠΕΖΕΣΤΗΛΕΠΙΚΟΙΝΩΝΙΕΣΕΝΕΡΓΕΙΑΒΙΟΜΗΧΑΝΙΑΕΜΠΟΡΙΟΝΑΥΤΙΛΙΑΤΟΥΡΙΣΜΟΣΑΠΟΨΕΙΣΧΡΗΜΑΤΙΣΤΗΡΙΟΤΕΧΝΙΚΕΣ ΑΝΑΛΥΣΕΙΣΚΑΓΚΕΛΑΡΙΟΣΚΑΓΚΕΛΑΡΙΟΣ ONLINE5 ΧΡΗΜΑΤΙΣΤΕΣSTOCK STORIESΕΙΚΟΝΑ  ΑΓΟΡΑΣΜΕΤΟΧΕΣ ΟΝΟΜΑΣΤΙΚΑΜΕΤΟΧΕΣ ΑΝΑ ΚΛΑΔΟΜΕΤΟΧΕΣ ΑΝΑ ΔΕΙΚΤΗΑΝΑΚΟΙΝΩΣΕΙΣ Χ.Α.ΞΕΝΑ ΧΡΗΜΑΤΙΣΤΗΡΙΑΦΟΡΟΛΟΓΙΚΑΡΕΠΟΡΤΑΖΕΡΕΥΝΕΣΣΤΗΛΕΣSTART UP MADE IN GREECESUCCESS STORIESΑΥΤΟΚΙΝΗΤΑΑΚΙΝΗΤΑΠΕΡΙΣΚΟΠΙΟΥΓΕΙΑΤΕΧΝΟΛΟΓΙΑLIFE STYLEGOODLIFEFOOD & DRINKTRAVELΑΥΤΟΚΙΝΗΤΟYACHTINGCHRONOSTYLE & SHOPPINGSTYLEΜΟΔΑΑΓΟΡΑCULTUREΒΙΒΛΙΟΘΕΜΑΤΑSTAR SYSTEMLUXURYΥΠΗΡΕΣΙΕΣΕΦΗΜΕΡΙΔΕΣΗΜΕΡΗΣΙΑNEWSLETTERΣΥΝΔΡΟΜΗΤΙΚΗ ΗΛΕΚΤΡΟΝΙΚΗ ΕΚΔΟΣΗΔΙΑΚΟΠΕΣ</p>
+<p>function updateFormActionMain(){</p>
+<p> document.getElementById("googlesearch").action = "summary.asp";</p>
+<p> document.getElementById("catid").value  = "27746";</p>
+<p>}</p>
+<p>function updateFormActionOption(){</p>
+<p> document.getElementById("googlesearch").action = "quotes.asp";</p>
+<p> document.getElementById("catid").value = "27132";</p>
+<p>}</p>
+<p>function updateFormActionFile() {</p>
+<p> document.getElementById("googlesearch").action = "summary.asp";</p>
+<p> document.getElementById("catid").value = "27747";</p>
+<p>}</p>
+<p>no Value for ARTICLE_NOT_FOUND</p>
+<p>Αρχείο</p>
+<p>Μετοχές</p>
+<p>ΑΝΑΖΗΤΗΣΗ</p>
+<p> </p>
+<p>Enter your search terms</p>
+<p>Submit search form</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> if (document.getElementById('ss1')!= null ) {</p>
+<p>     document.getElementById('ss1').checked =true;</p>
+<p>     if ('ss1'=='ss2') {</p>
+<p>          updateFormActionMetoxes();</p>
+<p>     }</p>
+<p>     if ('ss1'=='ss0') {</p>
+<p>          updateFormActionFile();</p>
+<p>     }</p>
+<p> }</p>
+<p>$(document).ready(function() {</p>
+<p>$(".search_btn").click(function () {</p>
+<p>      var status = $(".searchbar").css("display");</p>
+<p>      if(status == "block"){</p>
+<p>           $(".searchbar").css("display","none");</p>
+<p>           $("div.menu").css("marginBottom","0px");</p>
+<p>      }else{</p>
+<p>           $(".searchbar").css("display","block");      </p>
+<p>           $("div.menu").css("marginBottom","0px");</p>
+<p>      }</p>
+<p>});</p>
+<p>});</p>
+<p>ΒΡΙΣΚΕΣΤΕ ΕΔΩ: ΕΙΔΗΣΕΙΣ > ΕΠΙΣΤΗΜΗ</p>
+<p>ΗΜΕΡΗΣΙΑ On Line"Η" Online 30/12/2011 10:42</p>
+<p> Μέγεθος γραμμάτων</p>
+<p>Email</p>
+<p>Εκτύπωση</p>
+<p>Tweet</p>
+<p>ΠΡΩΤΗ ΕΙΔΗΣΗ ΤΩΡΑ</p>
+<p>ΤΙΜΩΡΙΑ ΣΤΙΣ «ΠΡΟΒΛΗΜΑΤΙΚΕΣ» ΤΡΑΠΕΖΕΣΠρόταση - σοκ για «κούρεμα» καταθέσεων άνω των 100.000 ευρώ 10/4</p>
+<p>ΣΧΕΤΙΚΕΣ ΔΗΜΟΣΙΕΥΣΕΙΣ</p>
+<p>Οι ανακαλύψεις της Αστρονομίας το 2011 29/12/2011 7:29Στέφεν Χόκινγκ: Ζητά να προσλάβει τεχνικό βοηθό για τη συνθετική φωνή του  30/12/2011 11:14Τα κορυφαία επιστημονικά γεγονότα του 2011</p>
+<p> 28/12/2011 7:33</p>
+<p>ΔΙΑΒΑΣΤΕ ΑΚΟΜΑΠέθανε ο «πατέρας» των «παιδιών του σωλήνα» 10/4Higgs: Σταματήστε να το αποκαλείτε «Σωματίδιο του Θεού» 10/4Η κρίση έδιωξε 120.000 νέους επιστήμονες από την Ελλάδα! 9/4Οι καλύτερες εικόνες της Γης σε 2,5 λεπτά</p>
+<p> 8/4Νέα αποστολή της NASA για αναζήτηση άγνωστων πλανητών  8/4Κρυμμένη προσευχή στο αρχαιοελληνικό αλφάβητο 6/4«Διαβάζουν» τα ανθρώπινα όνειρα με χρήση υπολογιστή 6/4Σχέδιο από το Διάστημα για την Καλαμάτα 3/4Ιστορική ανακάλυψη: Νεάντερταλ ζούσαν στην Μάνη!! 3/4Πλησιάζουν το μυστήριο της σκοτεινής ύλης στο Σύμπαν 5/4</p>
+<p> 123 </p>
+<p>addPrototypeElement('26077','AJAXREST','incl/vRestArticlesAjax_26077.asp','pageid=728&catid=26514&subid=2&pubid=112794359&catidlocal=26514&subidlocal=2',false,'');</p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|23/120x600"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>Ο Κολόμβος έφερε τη... σύφιλη στην Ευρώπη</p>
+<p>  Εδώ και χρόνια συνεχίζεται η διαμάχη αν πράγματι ο Χριστόφορος Κολόμβος είναι υπεύθυνος για την άφιξη της σύφιλης, μιας από τις πρώτες παγκόσμιες ασθένειες, στην ευρωπαϊκή ήπειρο. 	Μετά την ανακάλυψη της Αμερικής τον 15ο αιώνα, η φήμη του διάσημου ερευνητή κηλιδώθηκε, επειδή κατηγορήθηκε ότι μετέφερε με τα πλοία του και τους ναυτικούς του την τρομερή αφροδίσια νόσο στην Ευρώπη. Νεότεροι όμως ερευνητές παρουσίασαν στοιχεία ότι η σύφιλη υπήρχε ήδη στη "γηραιά" ήπειρο, προτού ο Κολόμβος επιστρέψει στην Ισπανία το 1493. Αλλά μια νέα αμερικανική έρευνα έρχεται να... αποκαταστήσει την τάξη, επαναφέροντας, με νέα στοιχεία, την ορθότητα των παλαιότερων κατηγοριών. 	Οι ερευνητές, με επικεφαλής τον βιολόγο-αρχαιολόγο Τζορτζ Αρμελάγκος του πανεπιστημίου Έμορι και την Κριστίν Χάρπερ του πανεπιστημίου Κολούμπια, που δημοσίευσαν τη σχετική μελέτη στο αμερικανικό περιοδικό ανθρωπολογίας "American Journal of Physical Anthropology", σύμφωνα με τη βρετανική "Ντέιλι Μέιλ" και το "Scientific American", θεωρούν ότι οι συνολικά 54 μελέτες που αθωώνουν τον Κολόμβο, είναι λανθασμένες. «Δεν υπάρχουν πραγματικά καλές ενδείξεις ούτε για ένα περιστατικό σύφιλης στην Ευρώπη πριν το 1492», δήλωσε ο Τζ. Αρμελάγκος. 	Η σύφιλη, που σήμερα πια θεραπεύεται με αντιβιοτικά, προκαλείται από το βακτήριο της ωχράς σπειροχαίτης και στα παλιά χρόνια ήταν συχνά θανατηφόρα, πλήττοντας διάφορα μέρη και όργανα του σώματος (κεφάλι, καρδιά, εγκέφαλο, οστά, μάτια κ.α.), σπέρνοντας τον τρόμο στους κατοίκους των ευρωπαϊκών πόλεων. Τα πρώτα καταγεγραμμένα περιστατικά της σεξουαλικά μεταδιδόμενης νόσου, που πήραν μορφή επιδημίας, συνέβησαν το 1495, δηλαδή τρία χρόνια μετά το πρώτο ταξίδι του Κολόμβου στην Αμερική, κι έκτοτε οι ειδικοί ερίζουν για την προέλευσή της.	Αρκετοί ερευνητές υποστήριξαν ότι, λόγω της έλλειψης επαρκών γνώσεων, οι γιατροί του Μεσαίωνα και της Αναγέννησης αδυνατούσαν να ξεχωρίσουν τα συμπτώματα της σύφιλης από άλλες σοβαρές μολυσματικές παθήσεις (π.χ. τη λέπρα) και πιστεύουν ότι η νόσος πρέπει να υπήρχε στην Ευρώπη αρκετά χρόνια πριν την φέρει ο Κολόμβος. Ως επιχείρημα προβάλλουν 50 περίπου σκελετούς από την προ Κολόμβου Ευρώπη, οι οποίοι φαίνονται να φέρουν σημάδια χρόνιων συφιλιδικών αλλοιώσεων.	Όμως η νέα μελέτη δεν θεωρεί κανένα από αυτά τα στοιχεία ως πλήρως αξιόπιστο. Όπως αναφέρουν οι ερευνητές, μελέτησαν εξονυχιστικά κάθε μία από τις 54 δημοσιευμένες μελέτες που δεν θεωρεί υπεύθυνο τον Κολόμβο και κατέληξαν στο συμπέρασμα ότι σε αυτές δεν υπάρχει ούτε μια αποδεδειγμένη, πέρα από κάθε αμφιβολία, περίπτωση σύφιλης που να χρονολογείται πριν το επικό ταξίδι του μεγάλου εξερευνητή. Οι αμερικανοί ανθρωπολόγοι και βιολόγοι διαπιστώνουν διάφορες ελλείψεις στις προηγούμενες "αθωωτικές" έρευνες, όπως ανεπαρκείς διαγνώσεις της νόσου, αναξιόπιστες τεχνικές χρονολόγησης και ανύπαρκτές ή κακής ποιότητας αποδεικτικές φωτογραφήσεις των επίμαχων σκελετών. 	Μεταξύ άλλων, αναφέρουν ότι ακόμα και στις περιπτώσεις που κάποιος σκελετός φέρει σίγουρα σημάδια σύφιλης, η χρονολόγησή του με την μέθοδο του ραδιο-άνθρακα πάσχει, επειδή οι σκελετοί βρέθηκαν σε παραθαλάσσιες τοποθεσίες. Αυτό σημαίνει ότι, όσο ζούσαν, τα πιθανά θύματα της νόσου θα είχαν φάει πολλά θαλασσινά, τα οποία όμως περιέχουν ίχνη άνθρακα ηλικίας πολλών χιλιάδων ετών, με συνέπεια να είναι πολύ πιθανή η παραπλάνηση της χρονολόγησης. 	Για την πρωτότυπη επιστημονική εργασία (με συνδρομή) στη διεύθυνση: http://onlinelibrary.wiley.com/doi/10.1002/ajpa.21613/abstract	Πηγή: ΑΠΕ-ΜΠΕ</p>
+<p>Εκτύπωση </p>
+<p>Email</p>
+<p>Tweet</p>
+<p>ΕΠΙΚΟΙΝΩΝΙΑ</p>
+<p>Απόκτηση παλαιότερων τευχών, φύλλων & προσφορών chrisoulam@pegasus.gr</p>
+<p>Πληροφορίες για διαφήμιση στην έντυπη έκδοση pzante@pegasus.gr</p>
+<p>Αποστολή βιογραφικών emavroudi@pegasus.gr</p>
+<p>Πληροφορίες για διαφήμιση στην ηλεκτρονική έκδοση advertising@pegasusinteractive.gr</p>
+<p>var google_adnum = 0;</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>var s = '';</p>
+<p>var i;</p>
+<p>if (google_ads.length == 0) {</p>
+<p>return;</p>
+<p>}</p>
+<p>if (google_ads[0].type == "image") {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Ads by Google</a><br> <a href="' + </p>
+<p>google_ads[0].url + '" target="_top" title="go to ' + </p>
+<p>google_ads[0].visible_url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' + </p>
+<p>google_ads[0].visible_url + '\';return true"><img border="0" src="' + </p>
+<p>google_ads[0].image_url + '"width="' + </p>
+<p>google_ads[0].image_width + '"height="' + </p>
+<p>google_ads[0].image_height + '"></a>';</p>
+<p>} else if (google_ads[0].type == "html") {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Ads by Google</a><br>' + </p>
+<p>google_ads[0].snippet;</p>
+<p>} else {</p>
+<p>if (google_ads.length == 1) {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Διαφημίσεις Google</a> <a style="text-decoration:none" href="' + </p>
+<p>google_ads[0].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[0].visible_url + '\';return true"> <span style="text-decoration:underline;font-size:20pt"> <b>' + </p>
+<p>google_ads[0].line1 + '</b><br></span></a> <span style="color:#000000; font-size:16pt">' +</p>
+<p>google_ads[0].line2 + ' ' +</p>
+<p>google_ads[0].line3 + '<br></span> <a style="color:#008000;font-size:44pt;text-decoration:none" href="' + </p>
+<p>google_ads[0].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[0].visible_url + '\';return true"><span>' + </p>
+<p>google_ads[0].visible_url + '</span></a><br>';</p>
+<p>} else if (google_ads.length > 1) {</p>
+<p>s += "<table id=\"imerisiagads\" cellspacing=\"0\" cellpadding=\"0\">"; </p>
+<p>s += "  <tr>";</p>
+<p>s += "    <td id=\"head\">";</p>
+<p>s += '<a href=\"' + google_info.feedback_url + '\">Διαφημίσεις Google</a>'  </p>
+<p>s += " <\/td>";</p>
+<p>s += "  <\/tr>";</p>
+<p>s += "  <tr>";</p>
+<p>s += "    <td>";</p>
+<p>for(i = 0; i < google_ads.length; ++i) {</p>
+<p>s += '<br><a id=\"title\" target="_blank" href="' + </p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true"> <span>' + </p>
+<p>google_ads[i].line1 + '</span></a> <br/><span>' +</p>
+<p>google_ads[i].line2 + '</span><br/> <a id=\"adlink\" target="_blank" href="' + </p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true"><span>' + </p>
+<p>google_ads[i].visible_url + '</span></a><br>';</p>
+<p>}</p>
+<p>s += "    <\/td>";</p>
+<p>s += "  <\/tr>";</p>
+<p>s += "<\/table>";</p>
+<p>}}</p>
+<p>if (google_ads[0].bidtype == "CPC") {</p>
+<p>google_adnum = google_adnum + google_ads.length;</p>
+<p>}</p>
+<p>document.write(s);</p>
+<p>return;</p>
+<p>}</p>
+<p>google_ad_client = 'pub-9628004899418467';</p>
+<p>google_ad_channel = '7565718000';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '4';</p>
+<p>google_ad_type = 'text';</p>
+<p>google_feedback = 'on';</p>
+<p>google_encoding = 'UTF-8';</p>
+<p>google_adtest = 'off';</p>
+<p>google_language = 'el';</p>
+<p>NEA ΣΕ 10''</p>
+<p>NEWSROOMΟΙΚΟΝΟΜΙΑΕΠΙΧΕΙΡΗΣΕΙΣ</p>
+<p>9:12 100 κουκουλοφόροι κυνήγησαν τον Μπέο9:06 Πάτρα: Επίθεση στο δήμαρχο με μπουκάλια και καφέδες. Διεκόπη η συνεδρίαση του ΔΣ9:01 Μαζική και ανελέητη επίθεση στους φοροφυγάδες. Αυτοί έχουν λεφτά8:56 Ξεκινά με απουσίες το 19ο συνέδριο του ΚΚΕ</p>
+<p>8:53 Κλειστό το Λούβρο λόγω... πορτοφολάδων8:00 «Κίτρινη κάρτα» για τη Γαλλία</p>
+<p>8:00 Υφεση 8,7% στην Κύπρο «βλέπει» φέτος η τρόικα</p>
+<p>8:00 «Κούρεμα» σε διατραπεζικά δάνεια;</p>
+<p>8:00 Προς νέο ρεκόρ οδεύει το δημόσιο χρέος της Ιταλίας</p>
+<p>8:00 Τέλος στο τραπεζικό απόρρητο του Λουξεμβούργου</p>
+<p>8:00 «Τρύπα» 8 δισ. στις τράπεζες της Πορτογαλίας</p>
+<p>8:00 Με διαδικασίες-εξπρές η αποχώρηση των επίορκων</p>
+<p>8:00 «Οι καταθέσεις στην Ελλάδα είναι απολύτως προστατευμένες»</p>
+<p>8:00 Πρωτογενές πλεόνασμα 508 εκατ.</p>
+<p>8:00 Μείωση έως 250 εκατ. σε δαπάνες για κρατικές προμήθειες</p>
+<p>8:00 Στο 6% του ΑΕΠ το έλλειμμα το 2012</p>
+<p>8:00 Oι όροι αύξησης κεφαλαίου της ΕΤΕ8:00 Ανταλλαγή ναυτικών μεταξύ Ελλάδας - Κίνας</p>
+<p>8:00 Θετικές προσδοκίες στο ξηρό φορτίο</p>
+<p>8:00 Συνέδριο για τη ναυτιλία8:00 Λαθρεμπόριο καυσίμων8:00 Κρουαζιέρα από την BSF8:00 Τσουχτερά πρόστιμα για οδηγούς χωρίς δίπλωμα</p>
+<p>8:00 Μετά το Eurogroup η εκταμίευση της δόσης των 8,8 δισ.</p>
+<p>8:00 Αιφνιδιασμοί8:00 11/04/20138:00 Μετοχές: Υπέρ & κατά 8:00 Ακροβατούν σε τεντωμένο σχοινί για την πώληση του ΟΠΑΠ</p>
+<p>8:00 Ισχυρό επενδυτικό ενδιαφέρον για τα πετρέλαια στην Ελλάδα8:00 Ανακωχή των αντιμαχόμενων πλευρών</p>
+<p>8:00 Εκδοση ομολογιακού 3 εκατ. ευρώ</p>
+<p>8:00 Σχέδια για νέα καταστήματα Brooks Brothers</p>
+<p>8:00 Υστατη προσπάθεια σωτηρίας για τις Κυπριακές Αερογραμμές</p>
+<p>8:00 Η Siemens «βλέπει» Κυκλάδες</p>
+<p>8:00 Νέα υπηρεσία για την επίλυση της γραφειοκρατίας</p>
+<p>8:00 Χρονιά ανάκαμψης το 2013</p>
+<p>8:00 Ξεκινά η κατασκευή μονάδας της Vivartia στο Αμπού Ντάμπι</p>
+<p>8:00 Σε Aκτωρ - Alstom Transport το Θριάσιο</p>
+<p>8:00 Μειώνεται η εγγυητική για ΔΕΠΑ</p>
+<p>8:00 Θετικές εξελίξεις για τις τράπεζες προεξοφλεί το Χ.Α.</p>
+<p>8:00 Σε νέα ιστορικά υψηλά Dow Jones και S&P 500</p>
+<p>8:00 ΟΟΣΑ: Η Ινδία χάνει το τρένο της ανάπτυξης</p>
+<p>8:00 Μειωμένη η ζήτηση για πετρέλαιο λόγω Κύπρου8:00 Απαισιόδοξη για τον χρυσό η Goldman Sachs</p>
+<p>8:00 Νέα εκτίναξη του τραπεζικού κλάδου</p>
+<p>8:00 Φόροι στους πλούσιους και μείωση δαπανών</p>
+<p>1:43 ΙΧ και Μοτό: Πρόστιμο 200 ευρώ σε όσους δεν έχουν δίπλωμα οδήγησης0:47 Βόμβα: Μετέφεραν στο εξωτερικό χρήματα η κόρη του Αναστασιάδη και ο Μ. Σαρρής;23:45 Νέο ιστορικό ρεκόρ για Dow Jones και S&P 50023:42 Στη φυλακή γιατί εισέπρατταν τις συντάξεις πεθαμένων23:32 Στυγερό έγκλημα: 25χρονος κτηνοτρόφος έσφαξε φοιτήτρια23:26 Ευρ. Στυλιανίδης: Ιδιωτικά ΑΕΙ και εκλογές κάθε πέντε χρόνια23:19 Πρόταση - σοκ για «κούρεμα» καταθέσεων άνω των 100.000 ευρώ22:43 Γ. Καρούζος: Δεν ξέρω τίποτε για τις off shore22:32 Απολύσεις 40-50 χιλιάδων υπαλλήλων στο Πεντάγωνο22:24 Ενα εκατομμύριο στο Λαχείο στην Ξάνθη22:21 Επτά συλλήψεις για τα επεισόδια στο Πανεπιστήμιο Πειραιά22:00 Ενδιαφέρον για έργα της ΔΕΗ, εκφράζει η Siemens21:34 Στο 6% αντί 6,6% το έλλειμμα του 201221:34 Προϋπολογισμός «συμβιβασμού» στις ΗΠΑ21:26 Αναβάθμιση της Κύπρου από την S&P λόγω Μνημονίου21:22 Αναβάλλουν τις θεραπείες τους επειδή είναι πανάκριβα τα φάρμακα!21:12 Την επόμενη εβδομάδα στην Μπούντεσταγκ το κυπριακό πακέτο21:06 Με παραστατικά όλες οι δαπάνες των κοινοχρήστων20:50 Λαγκάρντ: Ανακεφαλαιοποίηση - αναδιάρθρωση ή κλείσιμο για τις προβληματικές τράπεζες20:37 Ράλι made in USA στα ευρωπαϊκά χρηματιστήρια20:30 ΗΠΑ: Πολιτικός συμβιβασμός για την οπλοκατοχή20:27 Επίσημη κλήτευση Παπανδρέου αποφάσισε η Προανακριτική20:23 «Πράσινο» από ΣτΕ στο νέο γήπεδο του ΠΑΟ20:20 Κύπρος: Παραμένει στη θέση του ο παυθείς υποδιοικητής της Κεντρικής Τράπεζας20:08 ΟΠΑΠ: «Πράσινο» από το ΔΣ για την υπογραφή της σύμβασης με Intralot20:03 Ολλανδία: Ψάχνουν ίχνη αλόγου σε 50.000 τόνους μοσχαρίσιου κρέατος19:57 Ηλεκτρονικοί και on line οι διαγωνισμοί στο Δημόσιο19:55 "Κούρεμα"  καταθέσεων στις προβληματικές τράπεζες μετά το 201519:53 Σημάδια βελτίωσης της παγκόσμιας οικονομίας διακρίνει η Κρ. Λαγκάρντ19:46 Άσμουσεν: Η ΕΚΤ δεν μπορεί να λύσει όλα τα προβλήματα19:44 ΟΠΕΚ: Κατεβάζει τον πήχη της ζήτησης πετρελαίου19:41 Αναβάθμιση προοπτικών Κύπρου από S&P19:18 Eκβίαζαν επιχειρηματία με... «γνωριμίες» στο ΣΔΟΕ19:14 Κατεβαίνει στις δημοτικές εκλογές στη Ρώμη η Τσιτσιολίνα19:09 Πρώην γκαλερίστας συνέλαβε ληστή και... του πρόσφερε εργασία19:06 Η Κύπρος πουλάει αποθέματα χρυσού19:03 Τουρκία: Ξεκίνησε η δίκη 72 συνδικαλιστών που κατηγορούνται για δεσμούς με το ΡΚΚ18:58 Εθνική Τράπεζα: «Πράσινο φως» από ΤΧΣ για την ΑΜΚ18:47 Χρηματιστήριο: Τραπεζικά κέρδη 200% μέσα σε τρεις ημέρες!18:30 Qrator: Ελληνική εφαρμογή για το iPhone18:28 Ολοταχώς προς νέα ρεκόρ η Wall Street18:18 Μετά το Eurogroup η κατάληξη των διαπραγματεύσεων με την τρόικα17:58 Ο πλούτος στη Γερμανία είναι άνισα κατανεμημένος, λέει η Societe Generale17:56 Καναδάς: Πρόγραμμα για ευρωπαίους φοιτητές διάρκειας 4 εβδομάδων17:53 Ψηφίστηκε η ρύθμιση για τα δάνεια σε ΝΔ - ΠΑΣΟΚ17:37 ΣΔΟΕ: Ηταν ανεπάγγελτος αλλά είχε 12 πλάκες χρυσού!17:37 Cyta Ελλάδος: Δωρεάν κλήσεις μεταξύ Ελλάδας - Κύπρου17:30 Αφήνει το τιμόνι του ΚΚΕ η Αλέκα Παπαρήγα;17:29 ΔΕΗ: Μείωση τιμής-στόχου από την Goldman Sachs17:25 'Όχι' στο άνοιγμα των καταστημάτων τις Κυριακές λέει η ΕΣΕΕ17:23 ΟΤΟΕ: Μην τολμήσετε να υπονομεύσετε τις ΑΜΚ ΕΘνικής - Eurobank17:14 ΓΣΕΕ: 24ωρη απεργία την Πρωτομαγιά17:13 ΣΥΡΙΖΑ: «Καταστροφικές οι συνέπειες από τις παλινωδίες και την υποταγή στην τρόικα» 17:06 Λαγκάρντ: "Τελειώστε τη δουλειά σας για να θωρακιστεί η οικονομία!"</p>
+<p>addPrototypeElement('27356_17','NEWS','incl/100news_27356.asp','pageid=728&catid=26516&subid=2&catidlocal=30256&subidlocal=2',false,'');OIKONOMIA</p>
+<p>ΜΑΡΑΘΩΝΙΕΣ ΣΥΣΚΕΨΕΙΣ ΕΩΣ ΑΡΓΑ ΤΟ ΒΡΑΔΥ Μετά το Eurogroup η εκταμίευση της δόσης των 8,8 δισ.</p>
+<p> "Η" 11/4ΡΥΘΜΙΣΗ ΓΙΑ ΤΑ ΠΕΙΘΑΡΧΙΚΑ Με διαδικασίες-εξπρές η αποχώρηση των επίορκων</p>
+<p> "Η" 11/4ΚΑΤΗΓΟΡΗΜΑΤΙΚΗ ΔΗΛΩΣΗ ΠΡΟΒΟΠΟΥΛΟΥ «Οι καταθέσεις στην Ελλάδα είναι απολύτως προστατευμένες»</p>
+<p> "Η" 11/4ΣΤΟ ΠΡΩΤΟ ΤΡΙΜΗΝΟ Πρωτογενές πλεόνασμα 508 εκατ.</p>
+<p> "Η" 11/4ΠΡΟΥΠΟΛΟΓΙΣΜΟΣ 2014 Στο στόχαστρο του Μπ. Ομπάμα το ... πορτοφόλι των Αμερικανών Κροίσων "Η" Online 10/4 16:22Γ. ΜΑΥΡΑΓΑΝΗΣ Αυξημένα τα έσοδα από το πετρέλαιο θέρμανσης "Η" Online 10/4 16:53Οριστικοποιήθηκε το Μνημόνιο - Αρχές Μαΐου η πρώτη δόση του δανείου Υφεση 8,7% στην Κύπρο «βλέπει» φέτος η τρόικα</p>
+<p> "Η" 11/4ΜΕΛΕΤΗ EKT: Οι Κύπριοι τρεις φορές πλουσιότεροι των Γερμανών "Η" Online 10/4 07:16Η ΘΕΣΗ ΤΟΥ ΔΝΤ Λαγκάρντ: Ανακεφαλαιοποίηση - αναδιάρθρωση ή κλείσιμο για τις προβληματικές τράπεζες "Η" Online 10/4 20:50ΣΥΜΒΟΥΛΙΟ ΤΗΣ ΕΠΙΚΡΑΤΕΙΑΣ Αποζημίωση-μαμούθ, 12 εκατ. ευρώ, από το Δημόσιο σε κοινοπραξία "Η" Online 10/4 07:54</p>
+<p>διαβάστε όλα τα άρθρα</p>
+<p>ΔΙΑΦΗΜΙΣΕΙΣ</p>
+<p> 21 Χρηματιστήρια Μετοχών και Παραγώγων, 145 Ισοτιμίες, CFDs Ελληνικών Μετοχών Δωρεάν Δοκιμαστική Πλατφόρμα! </p>
+<p>TOP STORIES</p>
+<p>Πρόταση - σοκ για «κούρεμα» καταθέσεων άνω των 100.000 ευρώ Νέες αντικειμενικές ακινήτων: Πού αυξάνονται και πού μειώνονται</p>
+<p> Τόκοι καταθέσεων και μερίσματα δηλώνονται υποχρεωτικά στην εφορία </p>
+<p> Μετά το Eurogroup η εκταμίευση της δόσης των 8,8 δισ.</p>
+<p> Qrator: Ελληνική εφαρμογή για το iPhone ΣΔΟΕ: Ηταν ανεπάγγελτος αλλά είχε 12 πλάκες χρυσού! Μετά το Eurogroup η εκταμίευση της δόσης των 8,8 δισ.</p>
+<p> Με διαδικασίες-εξπρές η αποχώρηση των επίορκων</p>
+<p> Νέα εκτίναξη του τραπεζικού κλάδου</p>
+<p> Δ. Ψωμιάδης: «Που είναι τα λεφτά που κλέψαμε, ρε κερατάδες;» </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|25/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>addPrototypeElement('110','ASERT','incl/realtimestocks_25530.asp','pageid=727&catid=26496&catidlocal=26496&ajaxid=25530&ajaxgroup=ASERT');</p>
+<p>ΧΡΗΜΑΤΙΣΤΗΡΙΟ ΤΕΛΕΥΤΑΙΑ ΝΕΑΝέα εκτίναξη του τραπεζικού κλάδου</p>
+<p>Θετικές εξελίξεις για τις τράπεζες προεξοφλεί το Χ.Α.</p>
+<p>Σε νέα ιστορικά υψηλά Dow Jones και S&P 500</p>
+<p>ethnos.gr | ΕΠΙΛΟΓΗ</p>
+<p>«E» 11/4 Aπολύσεις αλλιώς δεν παίρνετε τη δόση«E» 11/4 Πέφτει στο 10% η έκπτωση για το χαράτσι«E» 11/4 Ασπίδα τα 50 δισ. για τις καταθέσεις«E» 11/4 Η Αλέκα ανοίγει τα χαρτιά της για τη διαδοχήΣυντάξεις 11/4 Αμεση πρόσβαση στην έξοδο για 400.000 ασφαλισμένους</p>
+<p>ΥΓΕΙΑ 11/4 Tα πρώτα σημάδια της νόσου Πάρκινσον</p>
+<p>19:55 14/11/2012 ΚΕΡΔΙΣΤΕ 10€ με το ΕΘΝΟΣ ΤΗΣ ΚΥΡΙΑΚΗΣ και τον ΒΕΡΟΠΟΥΛΟ</p>
+<p>  Deal my Day: Κάντε τις αγορές σας και μπείτε δωρεάν στην κλήρωση για να κερδίσετε πλούσια δώρα!  	21 Χρηματιστήρια Μετοχών και Παραγώγων, 145 Ισοτιμίες, CFDs Ελληνικών Μετοχών Δωρεάν Δοκιμαστική Πλατφόρμα!</p>
+<p>rnd = Math.floor(Math.random()*900000)+100;</p>
+<p>now = parseInt((new Date()).getTime());</p>
+<p>burst="?"+rnd+":?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|77/300x250"+burst+"/\">");</p>
+<p>document.write("</sc"+"ript>");</p>
+<p>var google_adnum = 0;</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>var s = '';</p>
+<p>var i;</p>
+<p>if (google_ads.length == 0) {</p>
+<p>return;</p>
+<p>}</p>
+<p>if (google_ads[0].type == "image") {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Ads by Google</a><br> <a href="' + </p>
+<p>google_ads[0].url + '" target="_top" title="go to ' + </p>
+<p>google_ads[0].visible_url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' + </p>
+<p>google_ads[0].visible_url + '\';return true"><img border="0" src="' + </p>
+<p>google_ads[0].image_url + '"width="' + </p>
+<p>google_ads[0].image_width + '"height="' + </p>
+<p>google_ads[0].image_height + '"></a>';</p>
+<p>} else if (google_ads[0].type == "html") {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Διαφημίσεις Google</a><br>' + </p>
+<p>google_ads[0].snippet;</p>
+<p>} else {</p>
+<p>if (google_ads.length == 1) {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Ads by Google</a> <a style="text-decoration:none" href="' + </p>
+<p>google_ads[0].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[0].visible_url + '\';return true"> <span style="text-decoration:underline;font-size:20pt"> <b>' + </p>
+<p>google_ads[0].line1 + '</b><br></span></a> <span style="color:#000000; font-size:16pt">' +</p>
+<p>google_ads[0].line2 + ' ' +</p>
+<p>google_ads[0].line3 + '<br></span> <a style="color:#008000;font-size:44pt;text-decoration:none" href="' + </p>
+<p>google_ads[0].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[0].visible_url + '\';return true"><span>' + </p>
+<p>google_ads[0].visible_url + '</span></a><br>';</p>
+<p>} else if (google_ads.length > 1) {</p>
+<p>s += "<table id=\"ga_imerisiagads\" cellspacing=\"0\" cellpadding=\"0\">"; </p>
+<p>s += "  <tr>";</p>
+<p>s += "    <td id=\"ga_head\">";</p>
+<p>s += '<a href=\"' + google_info.feedback_url + '\">Διαφημίσεις Google</a>'  </p>
+<p>s += " <\/td>";</p>
+<p>s += "  <\/tr>";</p>
+<p>s += "  <tr>";</p>
+<p>s += "    <td>";</p>
+<p>for(i = 0; i < google_ads.length; ++i) {</p>
+<p>s += '<br><a id=\"ga_title\" target="_blank" href="' + </p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true"> <span>' + </p>
+<p>google_ads[i].line1 + '</span></a> <br/><span>' +</p>
+<p>google_ads[i].line2 + '</span><br/> <a id=\"ga_adlink\" target="_blank" href="' + </p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true"><span>' + </p>
+<p>google_ads[i].visible_url + '</span></a><br>';</p>
+<p>}</p>
+<p>s += "    <\/td>";</p>
+<p>s += "  <\/tr>";</p>
+<p>s += "<\/table>";</p>
+<p>}}</p>
+<p>if (google_ads[0].bidtype == "CPC") {</p>
+<p>google_adnum = google_adnum + google_ads.length;</p>
+<p>}</p>
+<p>document.write(s);</p>
+<p>return;</p>
+<p>}</p>
+<p>google_ad_client = 'pub-9628004899418467';</p>
+<p>google_ad_channel = '4612251601';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '4';</p>
+<p>google_ad_type = 'text';</p>
+<p>google_feedback = 'on';</p>
+<p>google_encoding = 'UTF-8';</p>
+<p>google_adtest = 'off';</p>
+<p>google_language = 'el';</p>
+<p>ΠΕΡΙΣΚΟΠΙΟΟταν το ψηφιακό χρήμα καταργεί τις τράπεζες... 	Στη φυσική του μορφή, ως κέρματα και χαρτονομίσματα, το χρήμα «πεθαίνει», καθώς είναι απλώς ζήτημα χρόνου η πλήρης και ολοκληρωτική αντικατάστασή του από αποκλειστικά και μόνο ηλεκτρονικές πληρωμές....Θα μας σώσει το ψηφιακό νόμισμα;</p>
+<p>Μετ' εμποδίων το «ζεστό χρήμα» στην αγορά</p>
+<p>«ΒitCoin», το πιο ακριβό νόμισμα στον κόσμοΗ σωτήρια λύση (;) του «ψηφιακού ευρώ» </p>
+<p>Πολιτισμική νάρκη στη σταθερότητα του ευρώ</p>
+<p>ΓΕΛΟΙΟΓΡΑΦΙΑ</p>
+<p>ΧΡΗΣΙΜΑ ΤΗΛΕΦΩΝΑ</p>
+<p>	Αμεσης βοήθειας</p>
+<p>	Αμεση Δράση Αστυνομίας: 100</p>
+<p>	Αμεση Δράση Λιμενικού: 108</p>
+<p>	Πυροσβεστική: 199</p>
+<p>	Τροχαία Αττικής: 2105230101 & 110-155</p>
+<p>	Τροχαία Aθηνών: 2105230111</p>
+<p>	Τροχαία Πειραιώς: 2104113832</p>
+<p>	Δασική Υπηρεία: 191</p>
+<p>	Τουριστική Αστυνομία: 171</p>
+<p>	Κέντρο Αμεσης Βοήθειας: 166</p>
+<p>	Εφημερεύοντες Γιατροί: 1434</p>
+<p>	Εφημ/ντα Νοσοκομεία: 1434</p>
+<p>	Φαρμακεία: 1434</p>
+<p>	Δηλητηριάσεως: 2107793777</p>
+<p>	Σταθ. Α' Βοηθ. ΙΚΑ: 184, 2106467811</p>
+<p>	Υπ. Υγείας: 2105223246</p>
+<p>	Υπ. Πρόνοιας: 2105225079</p>
+<p>	Αγορανομία: 2103217056</p>
+<p>	Yπ. Δίωξης Ναρκωτικών: 109</p>
+<p>	Bλάβες</p>
+<p>	ΕΥΔΑΠ: 1022</p>
+<p>	ΔΕΗ (Αθήνα): 1253</p>
+<p>	ΔΕΗ (Πειραιά): 1254</p>
+<p>	Βλάβες ΟΤΕ: 121</p>
+<p>	Δημόσιες υπηρεσίες</p>
+<p>	ΙΝΚΑ: 1721-2103633976</p>
+<p>	ΤΕΒΕ: 2105285500</p>
+<p>	ΟΑΕΔ: 2109989000</p>
+<p>	ΟΓΑ: 2103322100</p>
+<p>	ΚΕΠ: 1564</p>
+<p>	Υπηρεσία «ΚΛΕΙΣΘΕΝΗΣ» 1502</p>
+<p>	Υπ. Ανάπτυξης: 1520</p>
+<p>	Γενική Γραμματεία Καταναλωτή: 1520</p>
+<p>	Προεδρία Δημοκρατίας: 2107283111</p>
+<p>	Boυλή των Ελλήνων: 2103707000</p>
+<p>	Δήμος Αθηναίων: 2105277000</p>
+<p>	Δήμος Πειραιώς: 2104194000</p>
+<p>	Συγκοινωνίες</p>
+<p>	Λιμεναρχείο Πειραιά: 2104147800/4172675</p>
+<p>	Λιμεναρχείο Ραφήνας: 22940/28888</p>
+<p>	Λιμεναρχείο Λαυρίου: 22920/25249</p>
+<p>	Λιμεναρχείο Αγ. Κων/νου: 22350/31759</p>
+<p>	Πλοία Αργοσαρωνικού: 2104593162</p>
+<p>	Πλοία εσωτερικού: 2104593000</p>
+<p>	Πλοία εξωτερικού: 2104530974</p>
+<p>	Ολυμπιακή κρατήσεις: 2109666666</p>
+<p>	Αegean Αirlines: 8011120000 (από κινητό 210-6261000)</p>
+<p>	Αεροδρόμιο «Ελ. Βενιζέλος»: 3530000</p>
+<p>	Τρένα ΟΣΕ: 2105297777</p>
+<p>	Δρομολόγια τρένων εξωτερικού: 147</p>
+<p>	Λεωφορεία στ. Κηφισού: 2105124910</p>
+<p>	Λεωφορεία. στ. Λιοσίων: 2108317179-8317153</p>
+<p>	Μέσα Μαζικής Μεταφοράς: 185</p>
+<p>	Κοινωνικές υπηρεσίες</p>
+<p>	Τηλεφωνικό κέντρο για ραντεβού ΙΚΑ: 184</p>
+<p>	Τηλεφωνική Γραμμή ΑΙDS: 2107222222</p>
+<p>	Συμβουλευτικοί σταθμοί ΑΙDS: 2107239945</p>
+<p>	SOS Γιατροί: 1016</p>
+<p>	ΟΚΑΝΑ: 2108898200</p>
+<p>	Γραμμή Απεξάρτησης: 2103617089</p>
+<p>	Κέντρο Αιμοδοσίας: 2108257425</p>
+<p>	Γιατροί χωρίς σύνορα: 2105200500, 8213704</p>
+<p>	Γιατροί του Κόσμου: 2106440400, 8233653</p>
+<p>	Κέντρο κακοποιημένων γυναικών: 2105244657</p>
+<p>	Γραμματεία ισότητας: 2103315291</p>
+<p>	Γραμμή ζωής SΟS: 175</p>
+<p>	Χαμόγελο του Παιδιού: 1056</p>
+<p>	Ελληνικός Ερυθρός Σταυρός: 2103613848</p>
+<p>	Κέντρο εξυπηρέτησης κωφών: 2108815555</p>
+<p>	Κτηνιατρική κλινική: 2109813604, 3625644</p>
+<p>	Τηλεφωνικό κέντρο για λακκούβες: 1521</p>
+<p>	Η γραμμή του δημότη: 195</p>
+<p>	Διάφορα</p>
+<p>	Δελτίο καιρού: 1448</p>
+<p>	ΟΠΑΠ: 2105798000</p>
+<p>	Ο.Δ.Ι.Ε.: 2299081000</p>
+<p>	ΘΕΣΣΑΛΟΝΙΚΗ</p>
+<p>	Αμεση Δράση: 100</p>
+<p>	Στρατονομία: 2310270845</p>
+<p>	Πυροσβεστική: 199</p>
+<p>	Λιμενικό: 2310531505</p>
+<p>	Κέντρο Αμ. Βοήθειας: 166</p>
+<p>	Διανυκτερεύοντα Φαρμακεία: 1434</p>
+<p>	Οδική βοήθεια: 104</p>
+<p>	Βλάβες ΔΕΗ: 2310729752</p>
+<p>	Βλάβες Υδρευσης: 2310207345</p>
+<p>	ΟΣΕ Τρένα: 2310517517, 517518</p>
+<p>	Υπεραστικά Λεωφορεία: 142</p>
+<p>	Δελτίο Καιρού: 149</p>
+<p>	Υπουργείο Μακεδονίας - Θράκης: 2310379000</p>
+<p>	Νομαρχία: 2310428536</p>
+<p>	Δημαρχείο: 238321</p>
+<p>	Πανεπιστήμιο: 2310996000</p>
+<p>	Εισαγγελία: 2310520235</p>
+<p>	</p>
+<p>jQuery('#accordion_use').accordion({ header: 'h1',autoHeight:false,selectedClass:'active',collapsible: true,</p>
+<p>      active: false});</p>
+<p>LIFESTYLE</p>
+<p>GOODLIFEΔίνοντας ζωή στη γεύση</p>
+<p> 	Εμπνευστής, δημιουργός και ιδιοκτήτης ενός ομίλου με τα καλύτερα εστιατόριαΑποκλειστικότητα  	Αν σκεφτεί κανείς πως το λιοντάρι είναι το σύμβολο του οίκου Chivas, η</p>
+<p>STYLEThe Talk  	Οταν βάζεις στο ίδιο τραπέζι τους εκπροσώπους δύο κορυφαίων οίκων μόδας τηςDeja vu 	Για τις τάσεις της κομμωτικής και ό,τι νέο κυκλοφορεί ή θα κυκλοφορήσει,</p>
+<p>LUXURYΣπορτίφ... πολυτέλεια 	Με τις πωλήσεις να δείχνουν ότι οι καταναλωτές προτιμάνε όλο και περισσότεροΜε αγωνιστικό... DNA 	Η Νissan επιστρατεύει τον καταξιωμένο αγωνιστικό της οίκο, προκειμένου να</p>
+<p>ΒΙΒΛΙΟΠριν το τέλος  	Η πορεία του προκλητικού δημοσιογράφου και διανοούμενου προςΕγχειρίδιο κινηματογραφικής ανυπακοής του ΓΙΑΝΝΗ ΤΡΙΑΝΤΑΦΥΛΛΟΥ  	Ηθοποιός, σκηνοθέτης</p>
+<p>STAR SYSTEMΜαριόν Κοτιγιάρ: Μια Γαλλίδα θεά... 	Είναι η σύγχρονη, απόλυτη θεά του γαλλικού κινηματογράφου.  	ΑισθησιακήΤο σέξι μοντέλο που αποπλάνησε 15χρονο! 	Πρώην Μις Χιλή, πανελίστρια και μοντέλο στην Αργεντινή. Τι ανάγκη είχε και</p>
+<p>CULTUREΟταν δεν υποκρίνεται (κατ’ επάγγελμα)</p>
+<p> 	Νέα, ανερχόμενη, όμορφη ηθοποιός ψάχνει και βρίσκει λύσεις για τηνΗ δική τους περιουσία 	Γίνονται θαύματα σε αυτή τη χώρα; Οι Freaky Fortune απαντούν θετικά: πριν</p>
+<p>ΕΠΙΛΟΓΕΣ</p>
+<p>  ΚΟΙΝΩΝΙΑ    ΕΛ.ΑΣ.: Αναστέλλεται η λειτουργία του Α.Τ. Ιερισσού   ΠΟΛΙΤΙΚΗ    Συνάντηση Κουβέλη - Μανιτάκη με φόντο τις απολύσεις στο Δημόσιο   ΡΕΠΟΡΤΑΖ    Προσοχή! Δέκα παγίδες στη νέα φορολογική δήλωση</p>
+<p>   SUCCESS STORIES    Επένδυση 2 εκατ. ευρώ στο Πήλι της Εύβοιας για Superfoods   ΥΓΕΙΑ    Βρέθηκε το γονίδιο της πιο επιθετικής μορφής καρκίνου του προστάτη</p>
+<p> </p>
+<p>  ΠΕΡΙΒΑΛΛΟΝ    Στις τελευταίες θέσεις η Ελλάδα στην ανακύκλωση</p>
+<p>   ΑΥΤΟΚΙΝΗΤΑ    Υβριδική πολυτέλεια με μηδενικά Τέλη Κυκλοφορίας!   ΑΚΙΝΗΤΑ    Δραματική έκκληση κατασκευαστών κτιρίων για την οικοδομή   ΕΠΙΣΤΗΜΗ    Κρυμμένη προσευχή στο αρχαιοελληνικό αλφάβητο   ΕΛΛΗΝΙΚΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣ    Μειώνεται η εγγυητική για ΔΕΠΑ</p>
+<p> </p>
+<p>SITEMAPΝΕΑ ΣΕ 10''ΕΙΔΗΣΕΙΣΠΟΛΙΤΙΚΗΚΟΙΝΩΝΙΑΚΟΣΜΟΣΑΘΛΗΤΙΣΜΟΣΠΟΛΙΤΙΣΜΟΣSHOW BUSINESSΕΠΙΣΤΗΜΗΠΕΡΙΒΑΛΛΟΝMEDIAΔΕΛΤΙΑ ΤΥΠΟΥPHOTO NEWSΟΙΚΟΝΟΜΙΑΕΛΛΑΔΑΕΥΡΩΠΗΚΟΣΜΟΣΕΠΙΧΕΙΡΗΣΕΙΣΕΛΛΗΝΙΚΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣΞΕΝΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣΤΡΑΠΕΖΕΣΤΗΛΕΠΙΚΟΙΝΩΝΙΕΣΕΝΕΡΓΕΙΑΒΙΟΜΗΧΑΝΙΑΕΜΠΟΡΙΟΝΑΥΤΙΛΙΑΤΟΥΡΙΣΜΟΣΑΠΟΨΕΙΣΧΡΗΜΑΤΙΣΤΗΡΙΟΤΕΧΝΙΚΕΣ ΑΝΑΛΥΣΕΙΣΚΑΓΚΕΛΑΡΙΟΣΚΑΓΚΕΛΑΡΙΟΣ ONLINE5 ΧΡΗΜΑΤΙΣΤΕΣSTOCK STORIESΕΙΚΟΝΑ  ΑΓΟΡΑΣΜΕΤΟΧΕΣ ΟΝΟΜΑΣΤΙΚΑΜΕΤΟΧΕΣ ΑΝΑ ΚΛΑΔΟΜΕΤΟΧΕΣ ΑΝΑ ΔΕΙΚΤΗΑΝΑΚΟΙΝΩΣΕΙΣ Χ.Α.ΞΕΝΑ ΧΡΗΜΑΤΙΣΤΗΡΙΑΦΟΡΟΛΟΓΙΚΑΡΕΠΟΡΤΑΖΕΡΕΥΝΕΣΣΤΗΛΕΣSTART UP MADE IN GREECESUCCESS STORIESΑΥΤΟΚΙΝΗΤΑΑΚΙΝΗΤΑΠΕΡΙΣΚΟΠΙΟΥΓΕΙΑΤΕΧΝΟΛΟΓΙΑLIFE STYLEGOODLIFESTYLE & SHOPPINGCULTUREΒΙΒΛΙΟΘΕΜΑΤΑSTAR SYSTEMLUXURYΥΠΗΡΕΣΙΕΣΕΦΗΜΕΡΙΔΕΣNEWSLETTERΣΥΝΔΡΟΜΗΤΙΚΗ ΗΛΕΚΤΡΟΝΙΚΗ ΕΚΔΟΣΗΔΙΑΚΟΠΕΣ</p>
+<p>Επικαιρότητα: Πολιτική, </p>
+<p>Κοινωνία, </p>
+<p>Οικονομία, </p>
+<p>Διεθνή, </p>
+<p>Πολιτισμός.</p>
+<p>Αρθρογραφία.</p>
+<p>Ένθετα, </p>
+<p>TV Εθνος, </p>
+<p>Χρήσιμα.</p>
+<p>Περισσότερα στο www.ethnos.gr</p>
+<p>Μόδα, </p>
+<p>Ομορφιά, </p>
+<p>Υπέροχο Κορμί.</p>
+<p>Κουζίνα,</p>
+<p>Elle Deco.</p>
+<p>Διαγωνισμοί.</p>
+<p>Περισσότερα στο www.elle.gr</p>
+<p>Ποδόσφαιρο: Ελλάδα & </p>
+<p>Διεθνή.</p>
+<p>Μπάσκετ, </p>
+<p>Βόλεϊ και </p>
+<p>άλλα σπορ.</p>
+<p>DailyBet & Παρασκήνια.</p>
+<p>Περισσότερα στο www.sentragoal.gr</p>
+<p>Ειδήσεις για την </p>
+<p>Ελλάδα και τον </p>
+<p>κόσμο.</p>
+<p>Ενημέρωση & Ψυχαγωγία.</p>
+<p>Lifestyle, </p>
+<p>μόδα, ομορφιά, </p>
+<p>αστρολογία.</p>
+<p>Περισσότερα στο www.e-go.gr</p>
+<p> var pvar = { cid: "gr-pegasus", content: "0", server: "secure-uk" };</p>
+<p> var feat = { surveys_enabled: 1, sample_rate: 0.05 };</p>
+<p> var trac = nol_t(pvar, feat);</p>
+<p> var _rsND = trac.getSchemeHost(); // For compatibility with v53 surveys</p>
+<p> var _rsCI = "gr-pegasus"; // For compatibility with v53 surveys</p>
+<p> trac.record().post().do_sample();</p>
+<p>                cookie_rnd = Math.floor(Math.random() * 900000000000) + 100000000000;</p>
+<p>                cookie_url = 'http://stats.e-go.gr/?nWebSrvID=100271&nCatID=26514&nStampRightID=&nLevelid=2&nPubID=112794359&nServID=' + '&nocache=' + cookie_rnd;</p>
+<p>                document.write('<img src="' + cookie_url + '" border=0 width=1 height=1>');</p>
+<p>            </p>
+<p>_uacct="UA-1074537-4";</p>
+<p>urchinTracker();</p>
+<p>//debugging bottom scroller bug when article skin availiable on page</p>
+<p>$(".scrollpages").css( "width","980px" );</p>
+<p>.container, hometopmenu, .ban72890 {background-color:#fff;} .scrollpages {width:980px;}</p>
+<p>.sw{ position: fixed; top:0; left: 0pt; z-index: 999; width: 100%; overflow: hidden; visibility:hidden; height:1000px; }  .sls{ background: #eee9d6 url(http://media2.feed.gr/filesystem/images/20130402/low/pegasus_LARGE_t_1061_43514089.JPG) no-repeat top right; position: fixed;visibility: visible; left: 50%; margin-left: -1141px; margin-right: 0pt;  overflow:hidden; z-index:20000; width:640px }</p>
+<p>.sls a{ overflow:hidden;} .sls img {float:right;}</p>
+<p>.srs{ background: #eee9d6 url(http://media2.feed.gr/filesystem/images/20130402/low/pegasus_LARGE_t_1061_43514090.JPG) no-repeat top left;position: absolute; visibility: visible; left: 50%; margin-left: 500px; margin-right: 0pt;width:640px;}</p>
+<p>/* greater 1280px */</p>
+<p>@media only screen and (min-width: 1281px) {</p>
+<p>#track_image                 {background:url(http://ad-emea.doubleclick.net/imp;v1;f;269598087;0-0;0;95674923;1|1;53271318|53198157|1;;cs=p;%3fhttp://ad.gr.doubleclick.net/dot.gif?nocache=3305947);}}</p>

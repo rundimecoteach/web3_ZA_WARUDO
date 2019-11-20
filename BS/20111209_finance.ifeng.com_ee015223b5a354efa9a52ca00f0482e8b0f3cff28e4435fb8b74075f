@@ -1,0 +1,1005 @@
+<p>吉林境内车祸致36名香港游客受伤_财经_凤凰网</p>
+<p>var detail={</p>
+<p>	"channelTitle":"财经",</p>
+<p>	"docId":"5245943",</p>
+<p>	"docName":"吉林境内车祸致36名香港游客受伤",</p>
+<p>	"docUrl":"http://finance.ifeng.com/roll/20111209/5245943.shtml",</p>
+<p>	"summary":"新华网长春12月9日电（记者张建 周长庆）据吉林省有关部门最新提供的消息，9日下午在吉林省榆树市境内发生的车祸，除造成2名香港籍游客死亡外，还造成38人受伤，其中36人为香港籍游客。 。目前，有两位重伤员被送往哈尔滨市医院，其余伤员被送往榆树市中心医院和中医院救治。 。9日15时许，香港永安旅游团乘坐的哈尔滨市康辉旅游公司的一辆车号为黑ＡＦ6899的大客车，沿黑（河）大（连）公路行至榆树市境内时发生车祸，大客车侧翻，...",</p>
+<p>	"image":""};</p>
+<p>var docBody = null;</p>
+<p>function zoomDoc(size) {</p>
+<p>  if (!docBody) {</p>
+<p>    return;</p>
+<p>  }</p>
+<p>  if(size == 14) {</p>
+<p>	document.getElementById('small').className="smallsize";</p>
+<p>	document.getElementById('big').className="bigsize";</p>
+<p>  } else {</p>
+<p>	document.getElementById('small').className="bigsize";</p>
+<p>	document.getElementById('big').className="smallsize";</p>
+<p>  }</p>
+<p>  docBody.style.fontSize = size + 'px';</p>
+<p>  var __childs = docBody.childNodes;</p>
+<p>  for (var i = 0; i < __childs.length; i++) {</p>
+<p>    if (__childs[i].nodeType == 1) {</p>
+<p>      __childs[i].style.fontSize = size + 'px';</p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>
+<p>function init() {</p>
+<p>  docBody = document.getElementById('artical_real');</p>
+<p>}</p>
+<p>V.addListener(window, 'load', init);</p>
+<p>function ignoreError() {</p>
+<p>  return true;</p>
+<p>}</p>
+<p>window.onerror = ignoreError; </p>
+<p>.label_01{background:url(http://img.ifeng.com/page/label_2_bg.gif) repeat-y right top;width:321px;height:42px;}</p>
+<p>.label_01 li{background:url(http://img.ifeng.com/tres/finance/deco/2011/0823/bg_ul_li.jpg) no-repeat left bottom;width:160px;height:42px;float:left;text-align:center;line-height:42px;cursor:pointer;}</p>
+<p>.label_01 .current{background:url(http://img.ifeng.com/tres/finance/deco/2011/0823/bg_ul_li.jpg) no-repeat left top;}</p>
+<p>.box322{margin:10px auto 0;width:321px;background:#ffffff;}</p>
+<p>.box318{width:319px;border-top:0px;border:1px solid #dddddd; border-top:0px;}</p>
+<p>.tab_zw th{text-align:center;height:32px;color:#656565;}</p>
+<p>.tab_zw td{text-align:center;}</p>
+<p>.tab_zw td a{color:#004276;}</p>
+<p>.tab_zw .td26{height:26px;background:#f6f6f6;}</p>
+<p>.tab_zw .td22{height:22px;background:#ffffff;}</p>
+<p>.r_f{color:#fe0002;}</p>
+<p>.g_f{color:#008200;}</p>
+<p>.y_f{color:#666666;}</p>
+<p>.more2 {border-top: 1px solid #D9D9D9;height: 26px;overflow: hidden;padding: 10px 17px 0 0;text-align: right;}</p>
+<p>.more2 span {background: url("http://img.ifeng.com/tres/finance/deco/2011/0729/fin_sprite.gif") no-repeat scroll right -272px transparent;padding-right: 11px;}</p>
+<p>.cWhite,.cWhite a:link,.cWhite a:visited,.cWhite a:hover,.cWhite a:active{color:#fff;}</p>
+<p>.clear{clear:both;height:0;line-height:0;font-size:0;overflow:hidden;}</p>
+<p>.h_infoNav{width:100%;margin:0 auto;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_10.gif) repeat-x bottom;height:32px;position:relative;z-index:800;}</p>
+<p>.h_masthead{height:32px;width:990px;margin:0 auto;padding:0 0 0 10px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_10.gif) repeat-x bottom; position:relative;}</p>
+<p>.h_masthead p{float:left; padding-top:10px;}</p>
+<p>.h_infoNav .h_s01{background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_12.gif) no-repeat left center;padding:0 15px;_padding:2px 15px 0}</p>
+<p>.h_infoNav .h_s02{background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_13.gif) no-repeat left center;padding:0 15px 0 12px;_padding:2px 23px 0 12px}</p>
+<p>.h_infoNav .h_s03{background:url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0107/icon_c.gif) no-repeat left center;padding:0 15px 0 12px;_padding:2px 23px 0 12px;}/*130106a*/</p>
+<p>.h_infoNav .h_set{float:right; padding:10px 10px 0 0;}</p>
+<p>.h_set .cGray a{ padding-left:3px;}</p>
+<p>.h_set .cRed{color:#666; padding-left:10px;}</p>
+<p>.cGray2,.cGray2 a:link,.cGray2 a:visited,.cGray2 a:hover,.cGray2 a:active{color:#999;}</p>
+<p>.h_indexLogin{position:absolute; right:0; top:23px;background:url(http://res.img.ifeng.com/tres/images/channel_login.gif) no-repeat left top; width:341px; height:137px; z-index:100;}</p>
+<p>.h_indexLogin .h_close{float:left; width:332px; height:15px; padding:16px 9px 0 0;}</p>
+<p>.h_indexLogin .h_close a{float:right; background:url(http://res.img.ifeng.com/tres/images/icon_close.gif) no-repeat 0 2px; padding-left:9px;}</p>
+<p>.h_indexLogin ul{ float:left; width:161px; padding:7px 0 0 55px;}</p>
+<p>.h_indexLogin li{ height:30px;}</p>
+<p>.h_indexLogin label{ vertical-align:middle;}</p>
+<p>.h_indexLogin .text{width:124px;height:14px;font-size:12px;vertical-align:middle; padding:2px 0 0 2px;}</p>
+<p>.h_indexLogin .h_btn04{float:right;width:39px;height:19px;background:url(http://res.img.ifeng.com/tres/images/loginBtn.gif) repeat-x top;border:none;cursor:pointer;margin-right:1px; display:inline;}</p>
+<p>.h_indexReg{float:left; width:60px;padding:21px 0 0 30px; line-height:20px; color:#666;}</p>
+<p>.h_indexReg a{text-decoration:underline;}</p>
+<p>.h_indexReg a,.h_indexReg a:link,.h_indexReg a:visited,.h_indexReg a:hover,.h_indexReg a:active{color:#004276;}</p>
+<p>.h_mainNav{width:980px;height:29px;margin:0 auto;color:#ddd;padding:8px 10px 0; font-family:宋体;}</p>
+<p>.h_mainNav span{float:right; height:13px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_11.gif) no-repeat 0 0;padding:1px 0 0 19px;}</p>
+<p>.h_mainNav ul{float:left;width:910px; padding-top:2px;}</p>
+<p>.h_mainNav li{float:left; background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0427/line.gif) no-repeat left center; padding:0 6px 0 9px;}</p>
+<p>.h_mainNav .cRed, .cRed a:link, .cRed a:visited, .cRed a:hover, .cRed a:active {color: #BA2636;}</p>
+<p>  </p>
+<p>凤凰网首页</p>
+<p>手机凤凰网</p>
+<p>新闻客户端</p>
+<p>注册 登录</p>
+<p>关闭</p>
+<p>账号 </p>
+<p>密码 </p>
+<p>没有账号？</p>
+<p>立即注册</p>
+<p>$("h_getDay").innerHTML=getCnDateTimeStr();</p>
+<p>var h_bkurl=window.location.href;</p>
+<p>$("h_backurl").value=h_bkurl;</p>
+<p>function h_closeloginbox(){</p>
+<p>  $('h_loginbox').style.display='none';</p>
+<p>}</p>
+<p>function h_hideloginbox() {</p>
+<p>  ($("h_loginbox").style.display=="none")?($("h_loginbox").style.display=""):($("h_loginbox").style.display="none");</p>
+<p>}</p>
+<p>function h_CheckInfo(){</p>
+<p>  var cookieEnabled=(navigator.cookieEnabled)?true:false;</p>
+<p>  if(!cookieEnabled){	alert('请开启浏览器COOKIE功能！');	return false;	}</p>
+<p>  if($('h_uname').value==''||$('h_uname').value==null){alert('请输入用户名');	$('h_uname').focus();	return false;}</p>
+<p>  if($('h_pass').value==''||$('h_pass').value==null){	alert('请输入密码');$('h_pass').focus();return false;	}</p>
+<p>  $('h_form1').submit();</p>
+<p>  return false;</p>
+<p>}</p>
+<p>function h_cb_userdetail() {</p>
+<p>  var msg='<span class="cRed"><a href="http://my.ifeng.com/?_c=index&_a=my" target="_blank">'+sso_username+'</a> 欢迎你</span><span class="cGray"><a href="http://my.ifeng.com/?_c=index&_a=logout&backurl='+escape(h_bkurl)+'" id="h_btnlogout">退出</a></span>';</p>
+<p>  $("h_welcome").innerHTML=msg;</p>
+<p>  $("h_login").style.display="none";</p>
+<p>  $("h_welcome").style.display="inline";</p>
+<p>}</p>
+<p>function getCookie_comment(name){</p>
+<p>  var arr = document.cookie.match(new RegExp('(^| )'+name+'=([^;]*)(;|$)'));</p>
+<p>  if(arr!=null) return arr[2];</p>
+<p>  return null;</p>
+<p>}</p>
+<p>var sid = getCookie_comment("sid");</p>
+<p>if(sid&&sid.length>32) {</p>
+<p>  sso_username=decodeURIComponent(sid.substr(32));</p>
+<p>  h_cb_userdetail();</p>
+<p>}</p>
+<p>凤凰卫视</p>
+<p>资讯</p>
+<p>财经</p>
+<p>娱乐</p>
+<p>体育</p>
+<p>时尚</p>
+<p>健康</p>
+<p>亲子</p>
+<p>汽车</p>
+<p>房产</p>
+<p>家居</p>
+<p>科技</p>
+<p>旅游</p>
+<p>读书</p>
+<p>教育</p>
+<p>文化</p>
+<p>历史</p>
+<p>军事</p>
+<p>视频</p>
+<p>博客</p>
+<p>论坛</p>
+<p>公益</p>
+<p>佛教</p>
+<p>星座</p>
+<p>try{aptracker.add(468);}catch(e){}</p>
+<p>new AdRotator({maxTimes : 2, identifier : 'AP468'});</p>
+<p>金正恩“迷魂阵”如何收场？韩美摩拳擦掌，中方反复警示，朝鲜开战必遭致命打击，骑虎局面何解？</p>
+<p> 刘晓庆：不用潜规则也能成功富豪翻车绝非偶然；离开秦城差点领劳保；征服世界才能征服男人。</p>
+<p>市场越开放，粮食越安全去年中国进口大豆5800万吨只生产1200万吨，说明粮食变得更安全。</p>
+<p>凤凰网财经 >  财经滚动新闻 >    正文</p>
+<p>.navFind{float:right;width:323px;padding:6px 0 0}</p>
+<p>.navFind span{float:left}</p>
+<p>.navFind .text{width:182px;height:16px;padding:2px 0 0 5px;margin-top:1px !important;*margin-top:0px !important;margin-top:0;margin-right:7px;background:#fff;border:1px solid #819bb4;color:#646464;font-size:12px}</p>
+<p>.navFind .sel{width:55px;height:16px;margin:1px 9px 0 0;padding:2px 0 0 11px;border:1px solid #819bb4;border-right:none;background:#fff url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_04.gif) no-repeat right center;font-size:12px;color:#646464;cursor:pointer}</p>
+<p>.navFind .button{width:51px;height:20px;padding:1px 0 0 2px;margin:1px 0 0;border:none;background:url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/navFind.gif) no-repeat 0 0;color:#000;font-weight:bold;cursor:pointer}</p>
+<p>#searchFormOption{position:relative;float:left;z-index:80}</p>
+<p>#loginFldselectop{position:absolute;border:1px solid #DFDFDF;top:20px;left:0px;width:48px;background:#fff;z-index:99}</p>
+<p>#loginFldselectop li{line-height:20px;height:20px}</p>
+<p>#loginFldselectop li a{line-height:20px;height:20px;text-decoration:none;color:#000000;padding-left:11px}</p>
+<p>	.stockList{position:absolute;top:28px;left:0;width:300px; border:1px solid #195184; background:#fff; z-index:999;}</p>
+<p>	.stockList a,.stockList a:visited{color:#0A5EA6;}</p>
+<p>	.stockList .tab td{border-bottom:1px solid #ECECEC; height:21px!important;*height:20px!important;height:20px; padding-left:12px; text-align:left; color:#333;}</p>
+<p>	.stockList .tab tr.current{background:#194E80;}</p>
+<p>	.stockList .tab tr.current td{color:#fff;background:#194E80;}</p>
+<p>	.stockList .tab tr.current td a{color:#fff;}</p>
+<p>	.stockList .red{color:#f00;}</p>
+<p>站内</p>
+<p>站内</p>
+<p>站外</p>
+<p>证券</p>
+<p>汽车</p>
+<p>视频</p>
+<p>	function Tourl(){</p>
+<p>		var key_v= document.getElementById("loginUl").innerHTML;</p>
+<p>		if(key_v=="视频"){</p>
+<p>			document.forms["search_form"].action = "http://so.v.ifeng.com/video"; </p>
+<p>		}</p>
+<p>		return true;</p>
+<p>	}</p>
+<p>	</p>
+<p>吉林境内车祸致36名香港游客受伤</p>
+<p>2011年12月09日 20:38来源：中广网 </p>
+<p>字号:T|T</p>
+<p>0人参与0条评论打印转发</p>
+<p>新华网长春12月9日电（记者张建 周长庆）据吉林省有关部门最新提供的消息，9日下午在吉林省榆树市境内发生的车祸，除造成2名香港籍游客死亡外，还造成38人受伤，其中36人为香港籍游客。 </p>
+<p>目前，有两位重伤员被送往哈尔滨市医院，其余伤员被送往榆树市中心医院和中医院救治。 </p>
+<p>9日15时许，香港永安旅游团乘坐的哈尔滨市康辉旅游公司的一辆车号为黑ＡＦ6899的大客车，沿黑（河）大（连）公路行至榆树市境内时发生车祸，大客车侧翻，造成人员伤亡。</p>
+<p>.an{background:#fff; background-repeat:no-repeat; background-position:center bottom; height:95px; clear:both;}</p>
+<p>.next{ background:none; padding-bottom:49px;}</p>
+<p>#artical_line{ font-size:1px; line-height:1px; height:1px; padding-top:0px; padding-bottom:0px;}</p>
+<p>try{aptracker.add(1953);}catch(e){}</p>
+<p>.an{height:auto;}</p>
+<p> </p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>免责声明：本文仅代表作者个人观点，与凤凰网无关。其原创性以及文中陈述文字和内容未经本站证实，对本文以及其中全部或者部分内容、文字的真实性、完整性、及时性本站不作任何保证或承诺，请读者仅作参考，并请自行核实相关内容。</p>
+<p> [责任编辑：robot] </p>
+<p>				标签：榆树市 香港籍 哈尔滨市 吉林省 </p>
+<p>			</p>
+<p>3g.ifeng.com 用手机随时随地看新闻</p>
+<p> 分享到：</p>
+<p> </p>
+<p>更多</p>
+<p>0人</p>
+<p>/**</p>
+<p> * 在这里定义bds_config</p>
+<p> */</p>
+<p>var bds_config = {</p>
+<p>	//'bdDes' : '您的自定义分享摘要', //'请参考自定义分享摘要'</p>
+<p>	//'bdText' : '您的自定义分享内容', //'请参考自定义分享内容'</p>
+<p>	//'bdPopTitle' : '您的自定义pop窗口标题', //'请参考自定义pop窗口标题'</p>
+<p>	//'bdTop' : '您的自定义侧栏高度', //'请参考自定义侧栏高度'</p>
+<p>	//'bdPic' : '您的自定义分享出去的图片', //'请参考自定义分享出去的图片'</p>
+<p>	'wbUid' : '2615417307', //'请参考自定义微博 id'</p>
+<p>	'snsKey' : {</p>
+<p>		'tsina' : '11599477',</p>
+<p>		'tqq' : '015d9c0b71ce4e42bbc75ec2ca209490'</p>
+<p>	},</p>
+<p>	'searchPic':'1'  //'请参考自定义分享到平台的appkey'</p>
+<p>};</p>
+<p>(function () {</p>
+<p>	var id_arr_sina_v1 = { //对应频道的微博id</p>
+<p>		"v.ifeng.com" : "1806128454",</p>
+<p>		"culture.ifeng.com" : "1894132677",</p>
+<p>		"edu.ifeng.com" : "1894424124",</p>
+<p>		"tech.ifeng.com" : "1856404484",</p>
+<p>		"2012.ifeng.com" : "2294251280",</p>
+<p>		"ent.ifeng.com" : "1900552512",</p>
+<p>		"astro.ifeng.com" : "1918730657",</p>
+<p>		"auto.ifeng.com" : "1894232810",</p>
+<p>		"house.ifeng.com" : "1890733600",</p>
+<p>		"finance.ifeng.com" : "1988800805",</p>
+<p>		"book.ifeng.com" : "1928118655",</p>
+<p>		"www.ifeng.com.tw" : "2033309640",</p>
+<p>		"yue.ifeng.com" : "2005152031",</p>
+<p>		"fo.ifeng.com" : "1893386841",</p>
+<p>		"blog.ifeng.com" : "1644307977",</p>
+<p>		"bbs.ifeng.com" : "1823238765"</p>
+<p>	},</p>
+<p>	id_arr_sina_v2 = {</p>
+<p>		"fashion.ifeng.com" : "2162418640",</p>
+<p>		"fashion.ifeng.com/travel" : "2015135187",</p>
+<p>		"fashion.ifeng.com/health" : "2130055591"</p>
+<p>	},</p>
+<p>	id_arr_sina_v3 = {</p>
+<p>		"news.ifeng.com" : "2615417307",</p>
+<p>		"news.ifeng.com/sports" : "2294251280",</p>
+<p>		"news.ifeng.com/opinion" : "1644213993",</p>
+<p>		"news.ifeng.com/history" : "1886218413",</p>
+<p>		"news.ifeng.com/photo" : "2496452052"</p>
+<p>		</p>
+<p>	};</p>
+<p>	var _summary = detail.summary,</p>
+<p>	_image = detail.image;</p>
+<p>	if ((!_image || _image.length < 5) && $('artical_real')) {</p>
+<p>		var _docNode = $('artical_real');</p>
+<p>		var _imgs = _docNode.getElementsByTagName('img');</p>
+<p>		for (var i = 0; i < _imgs.length; i++) {</p>
+<p>			var _img = _imgs[i];</p>
+<p>			if ((_img.offsetHeight > 100) && (_img.offsetWidth > 100)) {</p>
+<p>				_image = _img.src;</p>
+<p>				break;</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	if (_summary.length > 90) {</p>
+<p>		_summary = _summary.substring(0, 90) + "...";</p>
+<p>	}</p>
+<p>	var _titleSum = "【" + detail.docName + "】 " + _summary;</p>
+<p>	</p>
+<p>	bds_config['bdText'] = _titleSum;</p>
+<p>	if(!_image ||_image.length<5){</p>
+<p>                     var _logoUrl ="";</p>
+<p>                 if(document.getElementById('theChannelLogo')){</p>
+<p>               _logoUrl = document.getElementById('theChannelLogo').src;</p>
+<p>                 }</p>
+<p>                 if(_logoUrl){</p>
+<p>                 _image = _logoUrl ;</p>
+<p>          }else{</p>
+<p>		_image = "http://y2.ifengimg.com/2012/06/24/23063562.gif";</p>
+<p>}</p>
+<p>	}</p>
+<p>	bds_config['bdPic'] = _image;</p>
+<p>	if (id_arr_sina_v1[location.host]) {</p>
+<p>		bds_config['wbUid'] = id_arr_sina_v1[location.host];</p>
+<p>	} else if (id_arr_sina_v2[location.host]) {</p>
+<p>		if (location.pathname) {</p>
+<p>			var pathname = location.pathname.split('/');</p>
+<p>			if (pathname[1]) {</p>
+<p>				bds_config['wbUid'] = (id_arr_sina_v2[location.host + '/' + pathname[1]] != undefined ? id_arr_sina_v2[location.host + '/' + pathname[1]] : id_arr_sina_v2[location.host]);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	} else if (id_arr_sina_v3[location.host]) {</p>
+<p>		if (location.pathname) {</p>
+<p>			var pathname = location.pathname.split('/');</p>
+<p>			if (pathname[1]) {</p>
+<p>				bds_config['wbUid'] = (id_arr_sina_v3[location.host + '/' + pathname[1]]!=undefined ? id_arr_sina_v3[location.host + '/' + pathname[1]] : id_arr_sina_v3[location.host]);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>})();</p>
+<p>document.getElementById('bdshell_js').src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();</p>
+<p>	function viewAllComment(){</p>
+<p>		var commentURL = 'http://comment.ifeng.com/view.php?chId=4584&docId=5245943&docName=%E5%90%89%E6%9E%97%E5%A2%83%E5%86%85%E8%BD%A6%E7%A5%B8%E8%87%B436%E5%90%8D%E9%A6%99%E6%B8%AF%E6%B8%B8%E5%AE%A2%E5%8F%97%E4%BC%A4&docUrl=http%3A%2F%2Ffinance.ifeng.com%2Froll%2F20111209%2F5245943.shtml';</p>
+<p>		window.open(commentURL);</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	var username;</p>
+<p>	var docid='5245943'; // 文章ID</p>
+<p>	var docname='%E5%90%89%E6%9E%97%E5%A2%83%E5%86%85%E8%BD%A6%E7%A5%B8%E8%87%B436%E5%90%8D%E9%A6%99%E6%B8%AF%E6%B8%B8%E5%AE%A2%E5%8F%97%E4%BC%A4'; // 文章标题</p>
+<p>	var chnnid='4584'; // 频道ID</p>
+<p>	var docurl='http%3A%2F%2Ffinance.ifeng.com%2Froll%2F20111209%2F5245943.shtml'; // 文章URL地址</p>
+<p>	function CheckInfo(){</p>
+<p>		var cookieEnabled=(navigator.cookieEnabled)?true:false;</p>
+<p>		if(!cookieEnabled){	alert('请开启浏览器COOKIE功能！');return false;	}</p>
+<p>		if($('uname').value==''||$('uname').value==null){alert('请输入用户名');$('uname').focus();return false;	}</p>
+<p>		if($('pass').value==''||$('pass').value==null){	alert('请输入密码');$('pass').focus();return false;	}</p>
+<p>		$('form1').submit();</p>
+<p>		$('form1').reset();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	function getCookie_comment(name){</p>
+<p>		var arr = document.cookie.match(new RegExp('(^| )'+name+'=([^;]*)(;|$)'));</p>
+<p>		if(arr!=null) return arr[2];</p>
+<p>		return null;</p>
+<p>	}</p>
+<p>	function changeBox(){</p>
+<p>		if(sid&&sid.length>32){$('content').className='textLogin';</p>
+<p>			if($('content').innerHTML=='文明上网，登录评论！'){	$('content').innerHTML='';	}</p>
+<p>		}else{$('content').innerHTML='请您先登录，再发表评论。';$('uname').focus();	}</p>
+<p>	}</p>
+<p>	var commentNum=0;</p>
+<p>	function ifengcmtcallback(num,allnum){   </p>
+<p>		commentNum=num;</p>
+<p>		commentallNum=allnum;</p>
+<p>		$('comment_count').innerHTML=$('webUser').innerHTML=commentNum;</p>
+<p>		$('comment_countall').innerHTML=$('webUserall').innerHTML=commentallNum;</p>
+<p>	}</p>
+<p>	function show_msg() {</p>
+<p>		var xm_sid=getCookie_comment("sid");</p>
+<p>		if(xm_sid&&xm_sid.length>32) {$('tbox2').style.display='';}</p>
+<p>		else {$('tbox').style.display='';}</p>
+<p>	}</p>
+<p>	function remove_msg() {	$('tbox').style.display='none';	$('tbox2').style.display='none';}</p>
+<p>	function chklogin() {</p>
+<p>		var nsid=getCookie_comment("sid");</p>
+<p>		if(nsid&&nsid.length>32) {return true;} </p>
+<p>		else {alert("请您先登录，再发表评论。");$("uname").focus();	return false;}</p>
+<p>	}</p>
+<p>	</p>
+<p> </p>
+<p>[查看跟帖]我要跟帖 0人参与  0条评论</p>
+<p> </p>
+<p>			  用户名</p>
+<p>			  密码</p>
+<p>自动登录</p>
+<p>			     注册</p>
+<p>文明上网，登录评论！</p>
+<p>所有评论仅代表网友意见，凤凰网保持中立。</p>
+<p>发布评论可同步到微博，登录试试吧</p>
+<p>如果您还没有开通微博，勾选后会自动开通</p>
+<p> 同步到微博</p>
+<p>				</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>	function cb_userdetail() {</p>
+<p>		var msg='<a class="ablue" target="_blank" href="http://comment.ifeng.com/viewpersonal.php?uname='+sso_username+'"><b>'+sso_username+'</b></a> | <a href="http://t.ifeng.com" target="_blank" class="ablue">我的微博</a> | <a href="http://my.ifeng.com" target="_blank" class="ablue">个人中心</a> | <a href="http://my.ifeng.com/?_c=index&_a=logout&backurl='+escape(window.location.href)+'" id="btnlogout" class="ablue">退出</a>';</p>
+<p>		$("Login").innerHTML = msg;</p>
+<p>	}</p>
+<p>	var sid = getCookie_comment("sid");</p>
+<p>	var sso_username = '';</p>
+<p>	if (sid && sid.length > 32) {</p>
+<p>	  sso_username = decodeURIComponent(sid.substr(32));</p>
+<p>	  cb_userdetail();</p>
+<p>	}</p>
+<p>	document.write('<script type="text/javascript" src="http://comment.ifeng.com/joincount.php?doc_url=' + 'http%3A%2F%2Ffinance.ifeng.com%2Froll%2F20111209%2F5245943.shtml' + '"><' + '/script>');</p>
+<p>	</p>
+<p>try{aptracker.add(1949);}catch(e){}</p>
+<p>var a = 'http://bc.ifeng.com/main/c?db=ifeng&bid=21005,20687,4574&cid=2735,64,1&sid=43408&advid=990&camid=4697&show=ignore&url=http://e.cn.miaozhen.com/r.gif?k=1005421&p=3yPG40&rt=2&ns=[M_ADIP]&ni=[M_IESID]&na=[M_MAC]&o=http://wopaike.renren.com';</p>
+<p>var ad = 'http://y1.ifengimg.com/mappa/2013/04/03/d5985f981674f9ee0a08a1194a1c2dec.jpg';</p>
+<p>var w = '600';var h = '90';var isActive = 0;</p>
+<p>try{aptracker.add(503);}catch(e){}</p>
+<p>var arrBaiduCproConfig=new Array();</p>
+<p>arrBaiduCproConfig['uid'] = 498570;</p>
+<p>arrBaiduCproConfig['n'] = 'ifeng_cpr';</p>
+<p>arrBaiduCproConfig['tm'] = 80; </p>
+<p>arrBaiduCproConfig['cm'] = 90; </p>
+<p>arrBaiduCproConfig['um'] = 34;</p>
+<p>arrBaiduCproConfig['rad'] = 1;</p>
+<p>arrBaiduCproConfig['w'] = 585; </p>
+<p>arrBaiduCproConfig['h'] =180; </p>
+<p>arrBaiduCproConfig['bd'] = '#ffffff'; </p>
+<p>arrBaiduCproConfig['bg'] = '#ffffff'; </p>
+<p>arrBaiduCproConfig['tt'] = '#5256A3'; </p>
+<p>arrBaiduCproConfig['ct'] = '#444444'; </p>
+<p>arrBaiduCproConfig['url'] = '#489948'; </p>
+<p>arrBaiduCproConfig['bdl'] = '#444444'; </p>
+<p>arrBaiduCproConfig['wn'] = 1; </p>
+<p>arrBaiduCproConfig['hn'] = 3; </p>
+<p>arrBaiduCproConfig['ta'] = 'right'; </p>
+<p>arrBaiduCproConfig['tl'] = 'bottom'; </p>
+<p>arrBaiduCproConfig['bu'] = 1; </p>
+<p>arrBaiduCproConfig['nfr'] = 1; </p>
+<p><!--</p>
+<p>document.write(baiduCproIFrame());</p>
+<p>--></p>
+<p>try{aptracker.add(471);}catch(e){}</p>
+<p>	new AdRotator({maxTimes : 3, identifier : 'ArpAdPro_21430'});</p>
+<p>try{aptracker.add(1026);}catch(e){}</p>
+<p>·哮喘--气管炎--新成果</p>
+<p>·男人强壮-女人幸福-图</p>
+<p>·让男人“强壮”的秘密</p>
+<p>·高血压--2013获新成果</p>
+<p>·让女人幸福-男人必看!</p>
+<p>·痛风--痛风--权威突破</p>
+<p>·男女-泌尿问题-新突破</p>
+<p>·男人强壮2013权威成果</p>
+<p>if(/auto\.ifeng\.com\/buycar\/leadbuy\/20120313\/755628\.shtml.*/.test(location.href)){</p>
+<p>document.write('<a id="s_all_content_v4_ad_qyfu_bottom_a" style="display:none;"></a>');</p>
+<p>document.getElementById('s_all_content_v4_ad_qyfu_bottom_a').parentNode.style.display= 'none';</p>
+<p>}</p>
+<p>社会娱乐生活探索</p>
+<p>温州官员</p>
+<p>90后男子为争女友纠集40余人持械斗殴</p>
+<p>网友绘“地铁十八怪”：或霸占吊环 或狂吃东西(图)04/11 02:31</p>
+<p>男子吸毒后从3楼跳下 双脚粉碎性骨折还狂奔数百米04/11 06:42</p>
+<p>分手起纠纷：七旬老汉不开门 四旬女友怒烧房04/11 08:08</p>
+<p>合肥一小吃店厕所起名“靖国神社”惹争议(图)04/11 09:04</p>
+<p>男子改车牌逃通行费 被拦停后怕扣12分欲跳桥04/11 03:21</p>
+<p>温州官员</p>
+<p>白百何与5岁儿子似姐弟</p>
+<p>抗日剧惊现裸女 央视：比谁更俗 谁更二04/11 10:52</p>
+<p>温碧霞哭诉91岁母亲患癌(图)04/11 10:51</p>
+<p>男主播自曝被关派出所：几近崩溃04/11 11:03</p>
+<p>刘烨晒混血儿子裸照庆贺粉丝过万(图)04/11 11:06</p>
+<p>揭林志颖神秘娇妻：原是粉丝 酷似林志玲04/11 11:09</p>
+<p>温州官员</p>
+<p>霍思燕公开承认怀孕 未婚先孕的利弊</p>
+<p>女人在床上不可做的5件事04/11 09:09</p>
+<p>5种癌症是吃出来的04/11 08:12</p>
+<p>5大类食物导致儿童性早熟 千万别吃04/11 08:20</p>
+<p>眼睛看体内疾病信号04/11 07:49</p>
+<p>日本性感女星爱川柚季湿身写真 秀傲人双峰04/11 09:10</p>
+<p>温州官员</p>
+<p>俄城市频现离奇天坑 场景似恐怖电影</p>
+<p>雄性长颈鹿争夺“交配权”激烈决斗(图)04/11 07:26</p>
+<p>国际空间站拍摄的震撼照片(组图)04/11 07:39</p>
+<p>大猩猩垂涎游客香蕉流口水(组图)04/11 07:21</p>
+<p>南极冰盖底部水体存奇特现象04/11 09:45</p>
+<p>英女子家中频现灵异事件(组图)04/11 07:19</p>
+<p>var tc_twtj=new TabControl();</p>
+<p>tc_twtj.addRange($('twtj').getElementsByTagName('li'),['zixun','yule','shishang','keji']);</p>
+<p>tc_twtj.triggerType="mouseover";</p>
+<p>tc_twtj.init();</p>
+<p>网罗天下</p>
+<p>原配带民警上门捉小三</p>
+<p>村官受贿10万上缴无门</p>
+<p>男子携妻子情妇杀人食尸</p>
+<p>绿帽男交欢后杀妻自尽</p>
+<p>原配带民警上门捉小三</p>
+<p>村官受贿10万上缴无门</p>
+<p>男子携妻子情妇杀人食尸</p>
+<p>绿帽男交欢后杀妻自尽</p>
+<p>原配带民警上门捉小三</p>
+<p>村官受贿10万上缴无门</p>
+<p>男子携妻子情妇杀人食尸</p>
+<p>绿帽男交欢后杀妻自尽</p>
+<p>var focusPic = new TabControl();</p>
+<p>focusPic.addRange(['bt01','bt02','bt03'],['tpic01','tpic02','tpic03']);</p>
+<p>focusPic.preButton = 'pre_pic';</p>
+<p>focusPic.nextButton = 'next_pic';</p>
+<p>focusPic.triggerType = "click";</p>
+<p>focusPic.autoLoop= true;</p>
+<p>focusPic.enableSlide = true;</p>
+<p>focusPic.slideInterval = 5000;</p>
+<p>focusPic.defaultPage =0;</p>
+<p>focusPic.init();</p>
+<p>try{aptracker.add(1730);}catch(e){}</p>
+<p>.adcontent{width:598px; height:228px; border:#ddd 1px solid; margin:0 auto;}</p>
+<p>.adcontent ul{ list-style:none;}</p>
+<p>.adcontent ul li{ float:left; width:185px; height:100px; position:relative; margin-left:11px; margin-top:9px; display:inline;}</p>
+<p>.adtextbg{ position:absolute; left:0; bottom:0; width:185px; height:19px;background:#000; filter:alpha(opacity='70');-moz-opacity:0.7;opacity:0.7;}</p>
+<p>.adtext{ position:absolute; left:0; bottom:0; width:185px; height:19px;line-height:20px!important; *line-height:19px;  font-size:12px; text-align:center; color:#fff;}</p>
+<p>.adtext a{color:#fff; text-decoration:none;}</p>
+<p>.adtext a:hover{ text-decoration:underline;}</p>
+<p>.adclear{ clear:both;}</p>
+<p>必看：男人身体虚弱——妙招！</p>
+<p>糖尿病远离胰岛素！巧化糖必看</p>
+<p>2013白发变黑,脱发生发-新突破</p>
+<p>打呼噜可诱发缺氧性脑萎缩</p>
+<p>耳鸣：提示长期耳鸣警惕耳聋</p>
+<p>大肚子喝茶巧减肥！喝瘪大肚腩</p>
+<p>try{aptracker.add(469);}catch(e){}</p>
+<p>var a = 'http://bc.ifeng.com/main/c?db=ifeng&bid=20971,20653,4571&cid=1458,64,1&sid=43340&advid=990&camid=4694&show=ignore&url=http://e.cn.miaozhen.com/r.gif?k=1005423&p=3yPHp0&vo=32840aad1&vr=2&rt=2&ns=[M_ADIP]&ni=[M_IESID]&na=[M_MAC]&o=http%3A%2F%2Fwww.telunsu.net';</p>
+<p>var ad = 'http://y3.ifengimg.com/mappa/2013/04/11/e5bdec0bfb7470d056e57ab9cb89deef.swf';</p>
+<p>var w = '336';var h = '280';var isActive = 0;</p>
+<p>频道推荐</p>
+<p>传国家铁路局实权被剥离 防“巨贪”</p>
+<p>原铁道部长刘志军涉贿6千万被公诉 曾让律师保其不死</p>
+<p>烟草业买断工龄乱象：涉3万多从业者 许多人晚景凄凉</p>
+<p>H7N9“毒杀”家禽业：养殖户养鸡喂板蓝根卖鸡送口罩</p>
+<p> 【港股】富二代创业艰辛：李泽楷不满十岁列席董事会 </p>
+<p>【新股】EMS快递IPO中止：存关联交易等三大问题 </p>
+<p> 【维权】彩虹精化2012年亏千万 股民索赔案将月内开庭</p>
+<p>.hotwords{ margin-bottom:-5px;}</p>
+<p>.hotwords .tit{ font-weight:bold; padding:5px 0;}</p>
+<p>.hotwords .tit span{float:right; font-weight:normal; color:#666;padding-right:14px;}</p>
+<p>.hotwords .tit a{color:#2b2b2b;}</p>
+<p>.hotwords .tit span a{color:#666;}</p>
+<p>.hotwords li{line-height:20px;}</p>
+<p>.hotwords li a{ padding-right:8px;}</p>
+<p>来源：360新闻新闻热搜词</p>
+<p>  曾志伟60大寿 副局长拥千万房产   六小龄童阻强拆古刹 七万亿基建投资   刘烨晒儿子裸照 80后民工跳鬼步舞   新房定价政府指导 男生练长跑身亡  </p>
+<p>try{aptracker.add(2086);}catch(e){}</p>
+<p>.adContent2{margin:0;padding:0;height:165px;margin-top:5px;}</p>
+<p>.adContent2 li{float:left;width:140px;height:80px;display:inline;position:relative;}</p>
+<p>.adContent2 .adtextbg2{position:absolute;bottom:0;left:0; width:140px; height:19px;background:#000; filter:alpha(opacity='70');-moz-opacity:0.7;opacity:0.7;}</p>
+<p>.adtext2{ position:absolute; left:0; bottom:0; width:140px; height:19px;line-height:20px!important; *line-height:19px;  font-size:12px; text-align:center;overflow:hidden;}</p>
+<p>.adContent2 li a{color:#fff;}</p>
+<p>.adContent2 li a:hover{color:#fff;}</p>
+<p>.adContent2 img{width:140px;height:80px;}</p>
+<p>商讯</p>
+<p>	document.getElementById('imgListId').parentNode.style.borderBottom = 'none';</p>
+<p>try{aptracker.add(1720);}catch(e){}</p>
+<p>·</p>
+<p>“心脑血管病”科学研究获得新发现！（必看）</p>
+<p>·</p>
+<p>"大肚子"喝茶—巧减肥降脂肪！大肚腩啤酒肚必看</p>
+<p>·</p>
+<p>男人“强壮”—让女人幸福的秘诀—（男人必备）</p>
+<p>·</p>
+<p>糖尿病—2013年获得国际新发现（必看）</p>
+<p>·</p>
+<p>高血压-警惕猝死- 海藻提取成果突破难题</p>
+<p>	document.getElementById('textListId').parentNode.style.borderTop = 'none';</p>
+<p>	document.getElementById('textListId').parentNode.style.marginTop = '0';</p>
+<p>try{aptracker.add(1373);}catch(e){}</p>
+<p>                            alimama_pid="mm_12229823_1573806_10374876";</p>
+<p>                            alimama_width="320";</p>
+<p>                            alimama_height="250";</p>
+<p>单日流入资金最多个股</p>
+<p>明星分析师荐股</p>
+<p>股票名称</p>
+<p>股吧</p>
+<p>研报</p>
+<p>涨跌幅</p>
+<p>净流入</p>
+<p>承德露露</p>
+<p>股吧</p>
+<p>研报</p>
+<p>4.80%</p>
+<p>12259.64万元</p>
+<p> </p>
+<p>江淮汽车</p>
+<p>股吧</p>
+<p>研报</p>
+<p>9.25%</p>
+<p>8769.59万元</p>
+<p> </p>
+<p>深天马Ａ</p>
+<p>股吧</p>
+<p>研报</p>
+<p>4.50%</p>
+<p>8759.56万元</p>
+<p> </p>
+<p>广汇能源</p>
+<p>股吧</p>
+<p>研报</p>
+<p>2.13%</p>
+<p>8318.21万元</p>
+<p> </p>
+<p>达安基因</p>
+<p>股吧</p>
+<p>研报</p>
+<p>8.39%</p>
+<p>8112.52万元</p>
+<p> </p>
+<p>首创股份</p>
+<p>股吧</p>
+<p>研报</p>
+<p>2.77%</p>
+<p>7860.04万元</p>
+<p> </p>
+<p>康美药业</p>
+<p>股吧</p>
+<p>研报</p>
+<p>2.51%</p>
+<p>7636.31万元</p>
+<p> </p>
+<p>中航重机</p>
+<p>股吧</p>
+<p>研报</p>
+<p>3.04%</p>
+<p>7621.51万元</p>
+<p>更多</p>
+<p>分析师</p>
+<p>推荐股票</p>
+<p>目标涨幅</p>
+<p>研报摘要</p>
+<p>股吧</p>
+<p>王挺</p>
+<p>围海股份</p>
+<p>--</p>
+<p>摘要</p>
+<p>股吧</p>
+<p> </p>
+<p>龙华</p>
+<p>杭氧股份</p>
+<p>-4.28%</p>
+<p>摘要</p>
+<p>股吧</p>
+<p> </p>
+<p>龚浩</p>
+<p>海隆软件</p>
+<p>49.21%</p>
+<p>摘要</p>
+<p>股吧</p>
+<p> </p>
+<p>龚浩</p>
+<p>博彦科技</p>
+<p>--</p>
+<p>摘要</p>
+<p>股吧</p>
+<p> </p>
+<p>郑恺</p>
+<p>东风股份</p>
+<p>59.95%</p>
+<p>摘要</p>
+<p>股吧</p>
+<p> </p>
+<p>王晶晶</p>
+<p>华新水泥</p>
+<p>-1.19%</p>
+<p>摘要</p>
+<p>股吧</p>
+<p> </p>
+<p>刘波</p>
+<p>辉丰股份</p>
+<p>6.61%</p>
+<p>摘要</p>
+<p>股吧</p>
+<p> </p>
+<p>蒋小东</p>
+<p>西王食品</p>
+<p>--</p>
+<p>摘要</p>
+<p>股吧</p>
+<p>更多</p>
+<p>	var hqdata=new TabControl();</p>
+<p>	hqdata.addRange($('hqdata01').getElementsByTagName('li'),['hqdata02-1','hqdata02-2']);</p>
+<p>	hqdata.triggerType="mouseover";</p>
+<p>	hqdata.init();</p>
+<p>	</p>
+<p>try{aptracker.add(1100);}catch(e){}</p>
+<p>.label_3{width:320px;background:#fff;margin:9px auto 0 auto;}</p>
+<p>.label_3 ul{float:left;width:320px;height:42px;background:url(http://img.ifeng.com/page/label_2_bg.gif) repeat-y right top;}</p>
+<p>.label_3 li{float:left;width:106px;background:url(http://img.ifeng.com/page/label_3.gif) no-repeat bottom left; height:42px; font:normal 16px/42px 黑体; text-align:center;color:#416571;cursor:pointer;}</p>
+<p>.label_3 li.current{float:left;width:107px;background:url(http://img.ifeng.com/page/label_3.gif) no-repeat top left;}</p>
+<p>.label_3 li a{color:#416571;}</p>
+<p>.con3{float:left;width:292px;border:1px solid #ddd;background:#fff; padding:10px 13px; border-top:none;}</p>
+<p>.con3 img{float:left;width:290px;border:1px solid #ccc;}</p>
+<p>调理咽炎</p>
+<p>去大肚子</p>
+<p>调理痛风</p>
+<p>var label_3_ae=new TabControl();</p>
+<p>label_3_ae.addRange($("label_3_ae_layor").getElementsByTagName("li"),["label_3_ae_1","label_3_ae_2","label_3_ae_3"]);</p>
+<p>label_3_ae.triggerType="mouseover";</p>
+<p>label_3_ae.enableSlide=true;</p>
+<p>label_3_ae.slideInterval=5000;</p>
+<p>label_3_ae.defaultPage=0;</p>
+<p>label_3_ae.init();</p>
+<p>try{aptracker.add(1727);}catch(e){}</p>
+<p>男人必看：让男人“强壮”的秘密武器</p>
+<p> </p>
+<p>·男人强壮--让女人幸福</p>
+<p>·男人强壮秘密男人必看</p>
+<p>·高血压-警惕猝死-必看</p>
+<p>·痛风-痛风病-权威突破</p>
+<p>·男人前列腺(炎)新突破</p>
+<p>·哮喘--气管炎--新成果</p>
+<p>·让男人强壮的秘密武器</p>
+<p>if(/auto\.ifeng\.com\/buycar\/leadbuy\/20120313\/755628\.shtml.*/.test(location.href)){</p>
+<p>document.write('<a id="s_all_content_ad_picandtext_3_a" style="display:none;"></a>');</p>
+<p>document.getElementById('s_all_content_ad_picandtext_3_a').parentNode.style.display= 'none';</p>
+<p>}</p>
+<p>视频</p>
+<p>金正恩学生时代摇滚装扮</p>
+<p>疑中国2架苏27飞掠南海</p>
+<p>少女“被开房”离奇死</p>
+<p>女星跳水节目走光出糗</p>
+<p>48小时点击排行</p>
+<p>8276831一汽案发酵：百名高管被调查 老干部举</p>
+<p>7252292习近平：中国市场环境是公平的 反对任</p>
+<p>5609683惠誉下调中国本币评级 周小川曾直斥其</p>
+<p>5238324湖北宜昌钉子户被开发商挖成孤楼(组图</p>
+<p>5205795揭秘美国记者手机捕捉朝鲜影像</p>
+<p>3140436习近平在海南小镇照片曝光</p>
+<p>3136087王健林谈创业传承：后悔就生一个儿子 </p>
+<p>2731418消息人士：国家铁路局定编130人 六</p>
+<p>try{aptracker.add(470);}catch(e){}</p>
+<p>new AdRotator({maxTimes : 2, identifier : 'AP470'});</p>
+<p>try{aptracker.add(1734);}catch(e){}</p>
+<p> 让男人“强壮”的秘密武器！男人必看</p>
+<p>·男人强壮—女人幸福—图</p>
+<p>·男人"前列腺炎"—有救了</p>
+<p>·男人重振雄风—女人幸福</p>
+<p>·男人前列腺（炎）新突破</p>
+<p>·让男人"强壮"的秘密武器</p>
+<p>·痛风—痛风—太空新突破</p>
+<p>if(/auto\.ifeng\.com\/buycar\/leadbuy\/20120313\/755628\.shtml.*/.test(location.href)){</p>
+<p>document.write('<a id="s_all_content_v4_ad_qyfu_right_a" style="display:none;"></a>');</p>
+<p>document.getElementById('s_all_content_v4_ad_qyfu_right_a').parentNode.style.display= 'none';</p>
+<p>}</p>
+<p>try{aptracker.add(1729);}catch(e){}</p>
+<p> </p>
+<p>alimama_pid="mm_12229823_1573806_11174236"; </p>
+<p>alimama_width=320; </p>
+<p>alimama_height=250; </p>
+<p>凤凰无线讲堂 音乐 彩铃 视频</p>
+<p>周秀娜性感尤物放玲珑味</p>
+<p>清纯样却拍惹火写真女星</p>
+<p>精彩MV|特色铃音|首发推荐|奇趣音效|音乐|凤凰图铃</p>
+<p>·TVB男同性卖淫</p>
+<p>·韩穿超短裙犯法</p>
+<p>·小三与夫妻同睡</p>
+<p>·52年前这样避孕</p>
+<p>·裸而不俗的诱惑</p>
+<p>·稍微一碰就高潮</p>
+<p>·世界的人体之最</p>
+<p>·众星失态瞬间囧</p>
+<p>·外国家庭暴实录</p>
+<p> </p>
+<p>资讯</p>
+<p>新闻：大陆|国际|台湾|社会</p>
+<p>港澳|专题|图片</p>
+<p>评论：自由谈|评中评</p>
+<p>最深度|时事开讲</p>
+<p>军事：</p>
+<p>防务观察|防务写真</p>
+<p>中国军情|环球军情</p>
+<p>体育：</p>
+<p>NBA|国内足球</p>
+<p>国际足球|体育图片</p>
+<p>历史：轶闻秘档|历史映像室</p>
+<p>历史专题|民间说史</p>
+<p>文化：文化时评|文坛往事</p>
+<p>人文轶闻|文化热点</p>
+<p>教育：高考|高校库|考研</p>
+<p>公务员|深度专题</p>
+<p>财经 · 房产</p>
+<p>新闻：大中华经济|环球财经</p>
+<p>政经观察|民生视点</p>
+<p>评论：商业评论|宏观分析</p>
+<p>金融观察|凤凰专栏</p>
+<p>凤凰独家评</p>
+<p>股票：投资观察|图解资金流向</p>
+<p>明星分析师|龙虎榜点评</p>
+<p>理财：基金|理财|银行|保险</p>
+<p>外汇|期指|期货|贵金属</p>
+<p>收藏|职场</p>
+<p>房产：资讯|政策|新房|楼市</p>
+<p>业界|评论|专题|滚动</p>
+<p>别墅豪宅|访谈|开盘</p>
+<p>打折|图库|论坛</p>
+<p>娱乐 · 时尚</p>
+<p>娱乐：明星|电影|电视|图片</p>
+<p>音乐|演出|星座</p>
+<p>趣味测试|影讯查询</p>
+<p>电影库|艺人资料库</p>
+<p>凤凰网·非常道</p>
+<p>时尚：</p>
+<p>服饰|美容|化妆品库</p>
+<p>美体|奢侈品|情感|图片</p>
+<p>视频|活动|论坛</p>
+<p>汽车 · 旅游</p>
+<p>汽车：</p>
+<p>业界|评论|访谈|报告</p>
+<p>新车|国内|海外|谍照</p>
+<p>购车|导购|试驾|图解</p>
+<p>文化|人文|酷车|游记</p>
+<p>降价|赛事|二手车</p>
+<p>城市：对话|专栏|城市之星</p>
+<p>陕西|河南|广州|重庆青岛|福州|厦门|宁波辽宁|山东|天津</p>
+<p>旅游：出境游|周边游|国内游</p>
+<p>主题游|业界|达人秀</p>
+<p>购物美食|趣图|视频</p>
+<p>景点大全|旅游图赏</p>
+<p>专栏|专题|户外|论坛</p>
+<p> </p>
+<p>科技 · 健康</p>
+<p>科技：通信|3G|互联网|传媒</p>
+<p>IT业界|数码|笔记本</p>
+<p>手机|选机中心</p>
+<p>每日点评|风谈天下</p>
+<p>中外名刊|人物</p>
+<p>科技论坛|视频</p>
+<p>科技专题|探索</p>
+<p>健康：养生|食疗|心理|疾病</p>
+<p>热点|自测|论坛|导医</p>
+<p>图库|健康大视界</p>
+<p>专题|卡路里计算器</p>
+<p>视频|百科|悬赏</p>
+<p> </p>
+<p>.clear{ clear:both;}</p>
+<p>.chaFotNav ul, .chaFotNav li{ margin:0px; padding:0px;}/*100318*/</p>
+<p>.chaFotNav li{ list-style:none;}/*100318*/</p>
+<p>.chaFotNav { width:998px; border:1px #d9d9d9 solid; margin:0 auto; font-family:simsun, Arial; font-size:12px; clear:both;background:#fff;}</p>
+<p>.chaFotNav .endNList { width:772px; float:left; padding:8px 0px;}/*100325*/</p>
+<p>.chaFotNav .endNList li { padding:0px 4px 0px 5px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/zxicon_26.gif) right center no-repeat; float:left;}</p>
+<p>.chaFotNav .endNList li a { color:#2b2b2b; text-decoration:none;}</p>
+<p>.chaFotNav .endNList li a:hover{ text-decoration:underline;}</p>
+<p>.chaFotNav .navFocus { width:200px; padding:5px 0 0 0px; margin:0 0px 0 0; color:#ba2636; line-height:18px; float:right;}/*100325*/</p>
+<p>.chaFotNav .navFocus a { line-height:18px; text-decoration:none;}</p>
+<p>.chaFotNav .navFocus a:hover { text-decoration:underline;}</p>
+<p>.chaFotNav .navV a, .chaFotNav .navVIP a, .chaFotNav .ifengPlay a, .chaFotNav .tvPlay a, .chaFotNav .navWap a, .chaFotNav .navTmp a { color:#ba2636; }</p>
+<p>.chaFotNav .navV { width:37px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_14.gif) no-repeat 1px 4px; padding:0 0 0 17px; float:left }</p>
+<p>.chaFotNav .navTmp { width:37px; float: left; }/*100325*/</p>
+<p>/*.chaFotNav .navVIP { width:42px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_09.gif) no-repeat 24px 3px; float:left }*/</p>
+<p>.chaFotNav .ifengPlay { width: 37px; float: left; }/*100325*/</p>
+<p>.chaFotNav .tvPlay { width:55px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_17.gif) no-repeat 0px 3px; padding:0 0 0 15px; float:left }</p>
+<p>.chaFotNav .navWap { width:30px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_06.gif) no-repeat 0px 2px; padding:0 0 0 11px; float:left }</p>
+<p>.chaFotNav .nextTop { width:40px; height:20px; padding:7px 0 0 3px; border-left:1px #d9d9d9 solid; float:left }</p>
+<p>.chaFotNav02 { width:1000px; height:21px; margin:0 auto; background:#fff url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/icon02_04.gif) repeat-x bottom;  font-size:0px; line-height:0px; clear:both }</p>
+<p>.chaFooter{ color:#000; width:1000px; height:72px; margin:0 auto; clear:both; text-align:center; line-height:24px; font-family:Arial, simsun; font-size:12px;background:#fff; padding-top:8px;}</p>
+<p>.chaFooter a{ color:#000; text-decoration:none;}</p>
+<p>.chaFooter a:hover{ color:#000; text-decoration:underline;}</p>
+<p>.chaFooter .footLink{ line-height:22px;}/*100318*/</p>
+<p>.chaFooter .footLink a{ padding:0px 8px;}</p>
+<p>.chaFooter .copyright{ color:#000; line-height:22px;}/*100318*/</p>
+<p>首页</p>
+<p>资讯</p>
+<p>台湾</p>
+<p>评论</p>
+<p>财经</p>
+<p>汽车</p>
+<p>科技</p>
+<p>房产</p>
+<p>家居</p>
+<p>旅游</p>
+<p>娱乐</p>
+<p>时尚</p>
+<p>体育</p>
+<p>军事</p>
+<p>历史</p>
+<p>读书</p>
+<p>教育</p>
+<p>健康</p>
+<p>亲子</p>
+<p>游戏</p>
+<p>城市</p>
+<p>论坛</p>
+<p>博报</p>
+<p>视频·</p>
+<p>纪实·</p>
+<p>直播</p>
+<p>凤凰卫视</p>
+<p> 凤凰新媒体介绍|投资者关系 Investor Relations|广告服务|诚征英才|保护隐私权|免责条款|法律顾问|意见反馈|凤凰卫视介绍 </p>
+<p> 凤凰新媒体 版权所有</p>
+<p>		Copyright © 2011 Phoenix New Media Limited All Rights Reserved. </p>
+<p>var sta_collection_time = new Date().getTime();</p>
+<p>  </p>
+<p><!--</p>
+<p>.Agreen {color:#257207;}</p>
+<p>.Ared {color:#FF0000;} </p>
+<p>--></p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>if( typeof AddSpanColor == 'undefined' ){</p>
+<p>	var AddSpanColor=function(a_str, a_tempnum){</p>
+<p>		var l_str = "";</p>
+<p>		if (a_tempnum>0){</p>
+<p>			l_str = '<span class="Ared">'+a_str+'</span>';</p>
+<p>		}else if (a_tempnum<0){</p>
+<p>			l_str = '<span class="Agreen">'+a_str+'</span>';</p>
+<p>		}</p>
+<p>		else l_str = a_str;</p>
+<p>		return l_str;</p>
+<p>	};</p>
+<p>};</p>
+<p>if( typeof Stockkeywordprice == 'undefined' ){</p>
+<p>	var Stockkeywordprice = function(a_codelist){</p>
+<p>			if(a_codelist){</p>
+<p>				eval("var l_json=json_q;");</p>
+<p>				var l_arr = a_codelist.split(",");</p>
+<p>				for(var l_i=0;l_i<l_arr.length;l_i++){</p>
+<p>					if(l_arr[l_i]){</p>
+<p>						var l_pre = "s_";</p>
+<p>						if("of"==l_arr[l_i].substring(0,2)){</p>
+<p>							l_pre = "snv_";</p>
+<p>						}</p>
+<p>						var l_guba = "";</p>
+<p>						if("sh60"==l_arr[l_i].substring(0,4) || "sz00"==l_arr[l_i].substring(0,4) || "sz30"==l_arr[l_i].substring(0,4)){</p>
+<p>							l_guba = " <a href='http://app.finance.ifeng.com/data/stock/tab_zjlx.php?code="+l_arr[l_i]+"' target='_blank' style='font-weight: normal'>资金</a> <a href='http://star.finance.ifeng.com/stock/"+l_arr[l_i]+"' target='_blank' style='font-weight: normal'>研报</a>";</p>
+<p>						}</p>
+<p>						if(l_json[l_pre+l_arr[l_i]].length>0){</p>
+<p>							//var l_price  = AddSpanColor(parseFloat(l_json[l_pre+l_arr[l_i]][0]).toFixed(2),l_json[l_pre+l_arr[l_i]][2]);</p>
+<p>							var l_chg_pct= AddSpanColor(parseFloat(l_json[l_pre+l_arr[l_i]][3]).toFixed(2)+"%",l_json[l_pre+l_arr[l_i]][2]);</p>
+<p>							try{</p>
+<p>								document.getElementById(l_arr[l_i]+"_hq").innerHTML = "["+l_chg_pct+l_guba+"]";</p>
+<p>							}catch(err){}</p>
+<p>						}</p>
+<p>					}</p>
+<p>				}</p>
+<p>			}else{</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>	};</p>
+<p>};</p>
+<p>if( typeof Load_data_script == 'undefined' ){</p>
+<p>	var Load_data_script=function(a_url,a_idname){</p>
+<p>			var l_obj=document.getElementById(a_idname);</p>
+<p>			if(l_obj){</p>
+<p>				l_obj.parentNode.removeChild(l_obj);</p>
+<p>			};</p>
+<p>			var l_newscript=document.createElement("script");</p>
+<p>			l_newscript.type="text/javascript";</p>
+<p>			l_newscript.src=a_url;</p>
+<p>			l_newscript.id=a_idname;</p>
+<p>			document.body.appendChild(l_newscript);</p>
+<p>	};</p>
+<p>};</p>
+<p>if(typeof code_list == 'undefined'){var code_list="";};</p>
+<p>var finance_hq_serv = "http://hq.finance.ifeng.com/q.cgi";</p>
+<p>if(""!=code_list.replace(/(^[|??]*)|([|??]*$)/g,"")){</p>
+<p>Load_data_script(finance_hq_serv+"?f=json&e=Stockkeywordprice(code_list);&l="+code_list.replace(/hk/g,"s_hk").replace(/sh/g,"s_sh").replace(/sz/g,"s_sz").replace(/of/g,"snv_of"),"stockkeyword001");};</p>
+<p>//--><!]]></p>
+<p>try{aptracker.add(504);}catch(e){}</p>
+<p>try{aptracker.add(505);}catch(e){}</p>
+<p>	var ifengWindow = function(obj){</p>
+<p>		var _ = this;</p>
+<p>		//轮播控制</p>
+<p>		var identifier = obj.identifier;</p>
+<p>		var wrapper = document.getElementById(identifier);</p>
+<p>		var maxTimes = obj.maxTimes;</p>
+<p>		var adContent = '';</p>
+<p>		var elements = wrapper.getElementsByTagName('code');</p>
+<p>		var fixtures = wrapper.getElementsByTagName('cite');</p>
+<p>		//轮播控制cookie</p>
+<p>		var cookieFlag = 'ifengRotator_'+ identifier;</p>
+<p>		var current = _.getcookie(cookieFlag);</p>
+<p>		var timeOut = 43200;//过期时间</p>
+<p>		var element,tempStr;</p>
+<p>		if(typeof current === 'undefined' || current == ''){</p>
+<p>			current =  parseInt(Math.random() * 100000) % maxTimes;</p>
+<p>		}</p>
+<p>		//频次控制cookie</p>
+<p>		var ifengWindowCookieName = 'ifengWindowCookieName' + _.getSecondDomain();</p>
+<p>		if(_.getcookie(ifengWindowCookieName)!=1){</p>
+<p>			_.setcookie(cookieFlag, ((parseInt(current) + 1) % maxTimes), timeOut);</p>
+<p>			if(typeof elements[current] != 'undefined'){</p>
+<p>			element = elements[current];</p>
+<p>			adContent = element.innerHTML;</p>
+<p>		}</p>
+<p>		if(adContent == ''){</p>
+<p>			if(typeof fixtures[0] != 'undefined'){</p>
+<p>				element = fixtures[0];</p>
+<p>				adContent = element.innerHTML;</p>
+<p>			}</p>
+<p>		}</p>
+<p>		adContent = adContent.replace('<!--BOF', '');</p>
+<p>		adContent = adContent.replace('EOF-->', '');</p>
+<p>		}</p>
+<p>		//频次控制</p>
+<p>		var date=new Date();</p>
+<p>		if(_.getcookie(ifengWindowCookieName)!=1){</p>
+<p>			showIfengWindow();</p>
+<p>		}</p>
+<p>		function showIfengWindow(){</p>
+<p>			document.write(adContent);</p>
+<p>			_.setcookie(ifengWindowCookieName, 1, obj.showIntervalTime);	</p>
+<p>		}</p>
+<p>	};</p>
+<p>	ifengWindow.prototype = {</p>
+<p>		//得到一个cookie的值</p>
+<p>		getcookie : function(name) {</p>
+<p>			var splitCookie = document.cookie.split("; ");</p>
+<p>			for(var i = 0; i < splitCookie.length; i++) {</p>
+<p>				var cookieNameValue = splitCookie[i].split("=");</p>
+<p>				if(cookieNameValue[0] == name) {</p>
+<p>					return unescape(cookieNameValue[1]);</p>
+<p>				}</p>
+<p>			}</p>
+<p>			return '';</p>
+<p>		},</p>
+<p>		//种一个cookie</p>
+<p>		setcookie : function(name, value, time) {</p>
+<p>			var date = new Date();</p>
+<p>			var expiresTime = new Date(date.getTime() + time * 1000);</p>
+<p>			document.cookie = name + "=" + escape(value) + ";path=/;expires=" + expiresTime.toGMTString() + ";";</p>
+<p>		},</p>
+<p>		//获得二级域名（频道域名）</p>
+<p>		getSecondDomain : function() {</p>
+<p>				var arr_domain=document.domain.split(".");</p>
+<p>				return arr_domain[0];</p>
+<p>		}</p>
+<p>	}</p>
+<p>	new ifengWindow({</p>
+<p>		showIntervalTime : 1,  //视窗showIntervalTime秒内展示一次</p>
+<p>		maxTimes : 1, //广告流量</p>
+<p>		identifier : 'Ap505'</p>
+<p>	});</p>
+<p>try{aptracker.add(502);}catch(e){}</p>

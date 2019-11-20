@@ -1,0 +1,1932 @@
+<p>                            Community pays tribute to "Angel Baby" Tripp Roth | </p>
+<p>                wwltv.com New Orleans    </p>
+<p>!window.jQuery && document.write('<script src="http://www.wwltv.com/includes/jquery-1.4.2.min.js"><\/script>')</p>
+<p>if(typeof beloadcode == "undefined"){</p>
+<p>		beloadcode = {</p>
+<p>		ordId: Math.floor(Math.random()*1000000),</p>
+<p>		zoneName:"/home",</p>
+<p>		dartSite:"belo.wwltv",</p>
+<p>		pageType:""</p>
+<p>		};</p>
+<p>	}</p>
+<p>if(typeof(OAS_sitepage) == "undefined"){</p>
+<p>	OAS_sitepage = "www.wwltv.com/";</p>
+<p>	}</p>
+<p>function videopopitup(url) {</p>
+<p>	videowindow=window.open(url,'name','height=376,width=778','toolbar = 0','location=1','status=0','scrollbars=0');</p>
+<p>	if (window.focus) {videowindow.focus()}</p>
+<p>	return false;</p>
+<p>}</p>
+<p>var belo_tracking_sitepage = "www.wwltv.com/home";</p>
+<p>var _sf_startpt=(new Date()).getTime();</p>
+<p>  window.fbAsyncInit = function() {</p>
+<p>    FB.init({appId: '291697604201429', status: true, cookie: true,oauth : true, channelUrl :"http://www.wwltv.com/home/facebook-channel",</p>
+<p>             xfbml: true});</p>
+<p>  };</p>
+<p>  (function() {</p>
+<p>    var e = document.createElement('script'); e.async = true;</p>
+<p>    e.src = document.location.protocol +</p>
+<p>      '//connect.facebook.net/en_US/all.js';</p>
+<p>    document.getElementById('fb-root').appendChild(e);</p>
+<p>  }());</p>
+<p>Skip Navigation.</p>
+<p>Jump to Side Bar.</p>
+<p> Return to the homepage</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.wwltv"+ beloadcode.zoneName + ";dcopt=ist;sz=728x90;tile=1;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.wwltv'+beloadcode.zoneName+';dcopt=ist;sz=728x90;tile=1;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.wwltv'+beloadcode.zoneName+';dcopt=ist;sz=728x90;tile=1;pagetype=story;ord='+beloadcode.ordId+'?" width="728" height="90"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p>Search</p>
+<p>New Orleans, LA</p>
+<p>Current Conditions</p>
+<p>Forecast</p>
+<p>Weatherlink 4 school stations</p>
+<p>73°</p>
+<p>Mostly Cloudy</p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Weather</p>
+<p>Sports</p>
+<p>Traffic</p>
+<p>Video</p>
+<p>Morning Show</p>
+<p>Events</p>
+<p>YouNews</p>
+<p>On WWL-TV</p>
+<p>Frank Davis</p>
+<p>Dining</p>
+<p>Login</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.wwltv"+ beloadcode.zoneName + ";sz=980x30;tile=3;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.wwltv'+beloadcode.zoneName+';sz=980x30;tile=3;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.wwltv'+beloadcode.zoneName+';sz=980x30;tile=3;pagetype=story;ord='+beloadcode.ordId+'?" width="980" height="30"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.wwltv"+ beloadcode.zoneName + ";sz=160x600;tile=4;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.wwltv'+beloadcode.zoneName+';sz=160x600;tile=4;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.wwltv'+beloadcode.zoneName+';sz=160x600;tile=4;pagetype=story;ord='+beloadcode.ordId+'?" width="160" height="600"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p>Home</p>
+<p>Print</p>
+<p>print</p>
+<p>Email</p>
+<p>var trkcid=137389683;var partnerID=554497; var _hb=1;</p>
+<p>Email this article</p>
+<p>Share</p>
+<p>var trkcid=137389683;var partnerID=554497; var _hb=1;</p>
+<p>Tweet</p>
+<p>Facebook</p>
+<p>Share</p>
+<p>Share!</p>
+<p>X</p>
+<p>Digg</p>
+<p>Delicious</p>
+<p>MySpace</p>
+<p>LinkedIn</p>
+<p>StumbleUpon</p>
+<p>Newsvine</p>
+<p>Reddit    </p>
+<p>			Community pays tribute to "Angel Baby" Tripp Roth</p>
+<p>	</p>
+<p>	if (!window.jQuery) document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"><\/script>');</p>
+<p>	if (!window.flashembed) document.write('<script src="http://www.wwltv.com/includes/flowplayer.min.js"><\/script>');</p>
+<p>	$(document).ready(function() {</p>
+<p>			$('.playOverlay').show();</p>
+<p>			var targetHeight = $('#bimvidplayer0').height();</p>
+<p>			var targetWidth = $('#bimvidplayer0').width();</p>
+<p>					$f("bimvidplayer0", {</p>
+<p>				"src" : "http://swfs.bimvid.com/bimvid_player-3_2_7.swf?x-bim-callletters=WWLTV",</p>
+<p>				"wmode" : "opaque" },</p>
+<p>							{</p>
+<p>													"onLoadingAsHTML5": function(event) {setUpGA();},</p>
+<p>							"key": "e19d000d885013ceeca",</p>
+<p>				"contextMenu": ["BIMvid Video player 5.0.0"],</p>
+<p>				"play":{"replayLabel": "Play Again"},</p>
+<p>							"clip": {</p>
+<p>									"url": "http://cdn.bimfs.com/WWLTV/10ebbaff78bd021ea37781d1461b790da4de3dc2.mp4",</p>
+<p>													"scaling":"fit",</p>
+<p>					"pageUrl":"http%3A%2F%2Fwww.wwltv.com%2Fhome%2FCommunity-pays-tribute-to-Angel-Baby-Trip-Roth-who-died-Saturday-137389683.html",</p>
+<p>														"onFinish": function() {</p>
+<p>												if (typeof resumeAfterVideo !== "undefined") resumeAfterVideo();</p>
+<p>						},</p>
+<p>										"onStart": function(){</p>
+<p>						if (typeof $f().getPlugin('bimga').trackEvent !== "undefined") $f().getPlugin('bimga').trackEvent("useragent", navigator.userAgent); </p>
+<p>					 						if (typeof $f().getPlugin('ga').trackEvent !== "undefined") $f().getPlugin('ga').trackEvent("useragent", navigator.userAgent);</p>
+<p>					 					},</p>
+<p>				</p>
+<p>					"id":"137389683",</p>
+<p>					"dockey":"10ebbaff78bd021ea37781d1461b790da4de3dc2",</p>
+<p>					"title":"Community+pays+tribute+to+%5C%22Angel+Baby%5C%22+Tripp+Roth",</p>
+<p>					"description":"As+red+balloons+reached+toward+the+sky%2C+those+driving+along+Highway+22+in+Ponchatoula+sent+prayers+to+a+special+little+boy.",</p>
+<p>					"duration":"141",</p>
+<p>					"keywords":"",</p>
+<p>					"categories":"home",</p>
+<p>									"useadaptv":true,</p>
+<p>					"zid":"bi_wwltv"</p>
+<p>								},</p>
+<p>				"plugins": {</p>
+<p>					"controls": {</p>
+<p>						"zIndex": 10,</p>
+<p>						"url": "http://swfs.bimvid.com/bimvid_controls-3_2_3.swf?x-bim-callletters=WWLTV",</p>
+<p>						"backgroundColor": "#c4c4c4",</p>
+<p>						"backgroundGradient": [0.1,0.2,0.5],</p>
+<p>						"borderRadius": "0",</p>
+<p>						"volumeColor": "#bd7c7a",</p>
+<p>						"progressColor": "#CCCCCC",</p>
+<p>						"progressGradient": "none",</p>
+<p>						"bufferColor": "#bd7c7a",</p>
+<p>						"bufferGradient": "none",</p>
+<p>						"sliderColor": "#383838",</p>
+<p>						"sliderBorder": "1px solid rgba(128, 128, 128, 0.7)",</p>
+<p>						"sliderGradient": "none",</p>
+<p>						"buttonColor": "#424242",</p>
+<p>						"buttonOverColor": "#ffffff",</p>
+<p>						"volumeSliderColor": "#ffffff",</p>
+<p>						"volumeSliderGradient": "none",</p>
+<p>						"volumeBorder": "1px solid rgba(128, 128, 128, 0.7)",</p>
+<p>						"timeColor": "#000000",</p>
+<p>						"tooltipColor": "#000000",</p>
+<p>						"tooltipTextColor": "#ffffff",</p>
+<p>											"autoHide": "always",</p>
+<p>											"durationColor": "#a3a3a3",</p>
+<p>						"height": 24,</p>
+<p>						"opacity": 1.0,</p>
+<p>											"fastBackward": false,</p>
+<p>						"fastForward": false,</p>
+<p>						"slowForward": false,</p>
+<p>						"slowBackward": false</p>
+<p>									},</p>
+<p>									"sharing":{</p>
+<p>						"zIndex": 15,</p>
+<p>						"url":"http://swfs.bimvid.com/bimvid_sharing-20111104a.swf?x-bim-callletters=WWLTV",</p>
+<p>						"email":{</p>
+<p>							"subject": "Community+pays+tribute+to+%5C%22Angel+Baby%5C%22+Tripp+Roth",</p>
+<p>							"template": "{0} \n\n Video Link: <a href=\"{1}\">{2}</a>",</p>
+<p>							"message": "A video that might interest you."</p>
+<p>						},</p>
+<p>						"embed": {</p>
+<p>							  "preScript": "http%3A%2F%2Fwww.wwltv.com%2Ftemplates%2Fbelo_embedWrapper.js%3Fstoryid%3D137389683%26pos%3Dtop%26swfw%3D470", "postScript": "http%3A%2F%2Fwww.wwltv.com%2Ftemplates%2Fbelo_embedWrapper.js%3Fstoryid%3D137389683%26pos%3Dbottom", 							"configUrl": "http%3A%2F%2Fwww.wwltv.com%2F%3Fj%3D137389683%26ref%3Dhttp%3A%2F%2Fwww.wwltv.com%2Fhome%2FCommunity-pays-tribute-to-Angel-Baby-Trip-Roth-who-died-Saturday-137389683.html",</p>
+<p>							"responseText":"Embed code copied to clipboard! You can now paste it to your site or blog.",</p>
+<p>							"label":"Embed"</p>
+<p>						},</p>
+<p>						"twitter": {</p>
+<p>							"description": "Community+pays+tribute+to+%5C%22Angel+Baby%5C%22+Tripp+Roth"</p>
+<p>						}</p>
+<p>					},</p>
+<p>					"dock": {</p>
+<p>						"zIndex": 14,</p>
+<p>						"right": 14,</p>
+<p>						"horizontal": false,</p>
+<p>						"width": "8%",</p>
+<p>						"autoHide": true</p>
+<p>																	},</p>
+<p>					"related": {</p>
+<p>						"zIndex": 20,</p>
+<p>						"url": "http://swfs.bimvid.com/bimvid_related-20111011a.swf?x-bim-callletters=WWLTV",</p>
+<p>						"replaytxt" : "Replay this Video",</p>
+<p>						"relatedxmlsrc": "%2Fhome%3Frvxml%3Dy"</p>
+<p>													},</p>
+<p>					"omniture": {</p>
+<p>						"url": "http://swfs.bimvid.com/bimvid_omniture_BELO-20110829a.swf?x-bim-callletters=WWLTV",</p>
+<p>						"id": "biwwltvcom,bikbnglobal",</p>
+<p>						"domain": "wwltv.com",</p>
+<p>						"pageUrl": "",</p>
+<p>						"pageTitle": "Community+pays+tribute+to+%5C%22Angel+Baby%5C%22+Tripp+Roth"</p>
+<p>									},</p>
+<p>					"bimga": {</p>
+<p>						"url": "http://swfs.bimvid.com/bimvid_googleAnalytics-20110912a.swf?x-bim-callletters=WWLTV",</p>
+<p>						"customer":"WWLTV", 																								"accountId":"UA-164600-17"</p>
+<p>									},</p>
+<p>					"adaptv": {</p>
+<p>						"zIndex":50,</p>
+<p>															"onBreakStarted":function(event) {$f().getPlugin('related').hide();},</p>
+<p>																"onBreakEnded":function (event) {</p>
+<p>							$('#bimvidplayer0_cb').addClass('hide').children().remove();</p>
+<p>													if(!$f().isPlaying()){$f().getPlugin('related').show();}</p>
+<p>												},</p>
+<p>											"onCompanion":function(event){ $('#bimvidplayer0_cb').removeClass('hide'); },</p>
+<p>										"url":"http://swfs.bimvid.com/bimvid_adaptv-20110831.swf?x-bim-callletters=WWLTV",</p>
+<p>						"key":"broadcastinteractivemedia",</p>
+<p>						"adaptag":"home",</p>
+<p>						"context":{ "DART_zone":"home","DART_site":"belo.wwltv" },</p>
+<p>						"companionId":"bimvidplayer0_cb",</p>
+<p>						"videoPlayerId":"bimvidplayer0_api"</p>
+<p>									}</p>
+<p>				}</p>
+<p>			}</p>
+<p>			).ipad({ "simulateiDevice": false, "controls": true });</p>
+<p>				});</p>
+<p>		 		</p>
+<p>	function setUpGA() {</p>
+<p>		var _gaq = _gaq || []; </p>
+<p>		var uagent = navigator.userAgent;</p>
+<p>		var bimvidTracker = _gat._createTracker('UA-164600-17', 'BIMVID');</p>
+<p>		bimvidTracker._trackEvent( 'WWLTV',  'video_start',  '10ebbaff78bd021ea37781d1461b790da4de3dc2' );</p>
+<p>		bimvidTracker._trackEvent(  'WWLTV',  'useragent', uagent)</p>
+<p>			$f().onFinish(function(){</p>
+<p>			_gaq.push(['BIMVID._trackEvent',  'WWLTV',  'video_complete',  '10ebbaff78bd021ea37781d1461b790da4de3dc2' ]);	</p>
+<p>		});</p>
+<p>	</p>
+<p>			}	</p>
+<p>(function() {</p>
+<p>	if (typeof _gat === "undefined") {</p>
+<p>		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>	}</p>
+<p>})();</p>
+<p>wwltv.com</p>
+<p>Posted on January 15, 2012 at 5:58 PM</p>
+<p>				Updated</p>
+<p>				Sunday, Jan 15 at 6:19 PM</p>
+<p>		</p>
+<p>Monica Hernandez / Eyewitness News</p>
+<p>PONCHATOULA, La. -- As red balloons reached toward the sky, those driving along Highway 22 in Ponchatoula sent prayers to a special little boy.  </p>
+<p>"Baby Tripp is an inspiration to all of us. He has touched everybody's lives in this small town," said Lerai Lucas, a family friend who helped organize Sunday's "Ride for Tripp."</p>
+<p>At age 2 years and eight months, Tripp Roth died Saturday. He battled a rare skin disease called Epidermolysis Bullosa, or EB. Any touch could cause him to blisters, inside and out. It was a life filled with searing pain, but Tripp's strength captured the hearts of an entire community.</p>
+<p>"I've been keeping up with the story and cried myself to sleep many a night seeing what she was going through," said Elizabeth Savoy, who has been following Tripp's story for months.</p>
+<p>Tripp's mother, Courtney, devoted every second to her young son. And with red balloons tied to their antenaes and stuffed elmos peppering their cars, the community continued to show their support.</p>
+<p>"We prayed for him, and we stood by Courtney and supported them every step of the way," said Lucas. "And now we're not going to stop."</p>
+<p>A few bikers and family friends began planning the tribute when they heard news of Tripp's death. Less than 24 hours later, the ride for Tripp grew to include dozens of people and a police escort.</p>
+<p>"That's what they need, they're going to see how well this family is loved," said Clifford McLin, with the Harley Owner's Group. "We've got a good community here too, they know that. They know that."</p>
+<p>"I came out today just to support the family, show them that we cared and they were in our prayers, and we'll be there for them," said Chad Nicolosi, who has been following Tripp's story since day one.</p>
+<p>For the day, the stuffed Elmos were much more than toys. They were a sign of support for a grieving family. Lucas said Elmo was Tripp's favorite toy.</p>
+<p>"In 90 percent of the pictures you see of Tripp," said Lucas, "He's holding onto that Elmo."</p>
+<p>Ultimately, participants said, the ride lets Tripp's family know they're thinking about him. And they believe the boy his mother called "Angel Baby" now has his wings.</p>
+<p>"Our prayers go out to the family, because they toughed it for a long time. It's hard to let someone go that you love that much," said T.J. Lytell, a member of the Harley Owner's Group.</p>
+<p> </p>
+<p>Family friends said the pain was too great for Tripp's mother to attend Sunday's event. On her blog, http://randycourtneytripproth.blogspot.com/, Courtney Roth wrote, "He took his last peaceful breaths in my arms, in his most favorite spot. My heart literally hurts more than i ever thought was possible... Thank you all from the bottom of my heart for the support through this unbearable time."</p>
+<p> </p>
+<p>The funeral will be held Wednesday at St. Joseph's Catholic Church in Ponchatoula.</p>
+<p> </p>
+<p>Donations can be made in Tripp's name to the non-profit groups http://debra.org/ or http://www.childrenscancer.org/puck/.</p>
+<p>Print</p>
+<p>print</p>
+<p>Email</p>
+<p>var trkcid=137389683;var partnerID=554497; var _hb=1;</p>
+<p>Email this article</p>
+<p>Share</p>
+<p>var trkcid=137389683;var partnerID=554497; var _hb=1;</p>
+<p>Tweet</p>
+<p>Facebook</p>
+<p>Share</p>
+<p>Share!</p>
+<p>X</p>
+<p>Digg</p>
+<p>Delicious</p>
+<p>MySpace</p>
+<p>LinkedIn</p>
+<p>StumbleUpon</p>
+<p>Newsvine</p>
+<p>Reddit    </p>
+<p>Previous article </p>
+<p>									Story of Saints 2012 Season: Plenty of offense, not enough defense</p>
+<p>								</p>
+<p>Next article </p>
+<p>									Good Fishing Anywhere, Frank?</p>
+<p>								</p>
+<p>var kP = 0;</p>
+<p>var aT = 0;</p>
+<p>var myInterval = window.setInterval(timedMousePos,250);</p>
+<p>var xPos = -1;</p>
+<p>var yPos = -1;</p>
+<p>var firstX = -1;</p>
+<p>var firstY = -1;</p>
+<p>var intervals = 0;</p>
+<p>var req = null;</p>
+<p>var cid =  137389683 ;</p>
+<p>var did =  554497 ;</p>
+<p>var cP =  30 ;</p>
+<p>var cD = "Sun Jan 15 15:49:55 PST 2012";</p>
+<p>var name = null;</p>
+<p>var website = null;</p>
+<p>var title = null;</p>
+<p>var comment = null;</p>
+<p>var email = null;</p>
+<p>var flagged = false;</p>
+<p>var isAuthor = false;</p>
+<p>var error = null;</p>
+<p>var status = null;</p>
+<p>var d = 0;</p>
+<p>var mT = 0;</p>
+<p>document.onkeypress = lK;</p>
+<p>window.onload = rAT;</p>
+<p>function checkField(field) {</p>
+<p>	</p>
+<p>	var button = document.getElementById("btSubmit");</p>
+<p>	</p>
+<p>	if(field.value.length > 0) {</p>
+<p>		CM_btnEnable(button);</p>
+<p>	}</p>
+<p>	else {</p>
+<p>		CM_btnDisable(button);</p>
+<p>	}</p>
+<p>}</p>
+<p>function lK() {</p>
+<p>	kP++;</p>
+<p>}</p>
+<p>function rAT() {</p>
+<p>	aT = new Date();</p>
+<p>}</p>
+<p>function CM_btnDisable (which) {</p>
+<p>	which.disabled = true;</p>
+<p>	if (document.all){</p>
+<p>		which.filters.alpha.opacity = 25;</p>
+<p>	}else {</p>
+<p>		which.style.MozOpacity = 0.25;</p>
+<p>	}	</p>
+<p>	which.style.cursor = "default";</p>
+<p>}</p>
+<p>function CM_btnEnable (which) {</p>
+<p>	which.disabled = false;</p>
+<p>	if (document.all){</p>
+<p>		which.filters.alpha.opacity = 100;</p>
+<p>		which.style.cursor = "hand";</p>
+<p>	}else {</p>
+<p>		which.style.MozOpacity = 1;</p>
+<p>		which.style.cursor = "pointer";</p>
+<p>	}</p>
+<p>}</p>
+<p>function submitForm(formObj) {</p>
+<p>    if(formObj.action == ""){</p>
+<p>    	formObj.action = "/c";</p>
+<p>    }</p>
+<p>	addFieldsToForm(formObj);</p>
+<p>    formObj.submit();</p>
+<p>}</p>
+<p>function addFieldsToForm(formObj, redirect) {</p>
+<p>	var mTField = document.createElement('input');</p>
+<p>	var dField = document.createElement('input');</p>
+<p>	var kPField = document.createElement('input');</p>
+<p>  	var cidField = document.createElement('input');</p>
+<p>  	var didField = document.createElement('input');</p>
+<p>  	</p>
+<p>  	</p>
+<p>	mTField.setAttribute('name','mT');</p>
+<p>	mTField.setAttribute('type', 'hidden');</p>
+<p>  	  </p>
+<p>	dField.setAttribute('name', 'd');</p>
+<p>	dField.setAttribute('type', 'hidden');</p>
+<p>  	  </p>
+<p>	kPField.setAttribute('name', 'kP');</p>
+<p>	kPField.setAttribute('type', 'hidden');</p>
+<p>  	</p>
+<p>	cidField.setAttribute('name', 'cid');</p>
+<p>	cidField.setAttribute('type', 'hidden');</p>
+<p>  	</p>
+<p>  	didField.setAttribute('name', 'did');</p>
+<p>  	didField.setAttribute('type', 'hidden');	</p>
+<p>  	</p>
+<p>  	if(redirect != null) {</p>
+<p>  		var pathField = document.createElement('input');</p>
+<p>  		pathField.setAttribute('name', 'path');</p>
+<p>  		pathField.setAttribute('type', 'hidden');</p>
+<p>  		pathField.value = redirect;</p>
+<p>  		formObj.appendChild(pathField);</p>
+<p>  	}</p>
+<p>  	</p>
+<p>  	</p>
+<p>  	  </p>
+<p>	mTField.value = mT;</p>
+<p>	dField.value = d;</p>
+<p>	kPField.value = kP;</p>
+<p>	cidField.value = cid;</p>
+<p>	didField.value = did;</p>
+<p>	</p>
+<p>  		</p>
+<p>	formObj.appendChild(dField);</p>
+<p>	formObj.appendChild(kPField);</p>
+<p>	formObj.appendChild(mTField);</p>
+<p>	formObj.appendChild(cidField);</p>
+<p>	formObj.appendChild(didField);</p>
+<p>	</p>
+<p>}</p>
+<p>function getMousePos(p) {</p>
+<p>	if (!p) var p = window.event;</p>
+<p>	if (p.pageX || p.pageY) {</p>
+<p>		xPos = p.pageX;</p>
+<p>		yPos = p.pageY;</p>
+<p>	} else if (p.clientX || p.clientY) {</p>
+<p>		xPos = p.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;</p>
+<p>		yPos = p.clientY + document.body.scrollTop + document.documentElement.scrollTop;</p>
+<p>	}</p>
+<p>}</p>
+<p>function timedMousePos() {</p>
+<p>	document.onmousemove = getMousePos;</p>
+<p>	if (xPos >= 0 && yPos >= 0) {</p>
+<p>	var newX = xPos;</p>
+<p>	var newY = yPos;</p>
+<p>	intervals++;</p>
+<p>	}</p>
+<p>	if (intervals == 1) {</p>
+<p>		firstX = xPos;</p>
+<p>		firstY = yPos;</p>
+<p>	} else if (intervals == 2) {</p>
+<p>		clearInterval(myInterval);</p>
+<p>		calcDistance(firstX,firstY,newX,newY);</p>
+<p>	}</p>
+<p>}</p>
+<p>function calcDistance(aX,aY,bX,bY) {</p>
+<p>	mT = Math.round(Math.sqrt(Math.pow(aX-bX,2)+Math.pow(aY-bY,2)));</p>
+<p>}</p>
+<p>function getXmlRequestObject() {</p>
+<p>	if(req == null){</p>
+<p>		if(window.XMLHttpRequest){</p>
+<p>			req = new XMLHttpRequest();</p>
+<p>		}else if(window.ActiveXObject){</p>
+<p>			try{</p>
+<p>				req = new ActiveXObject("Msxml2.XMLHTTP");</p>
+<p>			}catch(e){</p>
+<p>				try{</p>
+<p>					req = new ActiveXObject("Microsoft.XMLHTTP");</p>
+<p>				}catch(e){</p>
+<p>                	return null;</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>    }</p>
+<p>    return req;</p>
+<p>}</p>
+<p>function insertComment(formObj, isAjax, responseHandler){</p>
+<p>	var sT = new Date();</p>
+<p>	d = sT - aT;</p>
+<p>	if((isAjax == true) && (responseHandler != null)) {</p>
+<p>		req = getXmlRequestObject();</p>
+<p>		if(req != null) {</p>
+<p>			var formVars = getFormValues(formObj);</p>
+<p> 			var handlerFunction = getReadyStateHandler(req, responseHandler);</p>
+<p>			req.onreadystatechange = handlerFunction;</p>
+<p>			var url = "/c";</p>
+<p>            var params = "ajax=true&" + formVars;</p>
+<p> </p>
+<p>            req.open("POST", url, true);</p>
+<p>            req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=utf-8");</p>
+<p>            </p>
+<p>     </p>
+<p>            req.send(params);</p>
+<p>            return false;</p>
+<p>    	}</p>
+<p>    	else {</p>
+<p>    		return false;</p>
+<p>    	}</p>
+<p>	}</p>
+<p>	else {</p>
+<p>		addFieldsToForm(formObj);</p>
+<p> 		submitForm(formObj);</p>
+<p>	}</p>
+<p>}</p>
+<p>   </p>
+<p>function postForm(formObj, isAjax, responseHandler) {</p>
+<p>	return insertComment(formObj, isAjax, responseHandler);</p>
+<p>}</p>
+<p>function getFormValues(fobj) {</p>
+<p>       var str = "";</p>
+<p>       var valueArr = null;</p>
+<p>       var val = "";</p>
+<p>       var cmd = "";	</p>
+<p>	   var ampRegex = new RegExp("&", "g");</p>
+<p>	   var replaceAmpStr = escape("&#38;");</p>
+<p>	   var percentRegex = new RegExp("%", "g"); </p>
+<p>	   var replacePerStr = escape("&#37;");</p>
+<p>       for(var i = 0;i < fobj.elements.length;i++)</p>
+<p>       {</p>
+<p>       		if(fobj.elements[i].type != "submit"){ </p>
+<p>				var fieldStr = fobj.elements[i].value;</p>
+<p>				fieldStr = fieldStr.replace(percentRegex, replacePerStr);</p>
+<p>	            fieldStr = fieldStr.replace(ampRegex, replaceAmpStr);</p>
+<p>       			str += fobj.elements[i].name + "=" + fieldStr + "&";</p>
+<p>           		fobj.elements[i].value = "";</p>
+<p>           	}</p>
+<p>       }</p>
+<p>       str += "mT=" + mT;</p>
+<p>       str += "&d=" + d;</p>
+<p>       str += "&kP=" + kP;</p>
+<p>       str += "&cid=" + cid;</p>
+<p>       str += "&did=" + did;</p>
+<p>	 </p>
+<p>       return str;</p>
+<p> }</p>
+<p>function getReadyStateHandler(req, responseHandler) {</p>
+<p>  // Return an anonymous function that listens to the </p>
+<p>  // XMLHttpRequest instance</p>
+<p>  return function () {</p>
+<p>    // If the request's status is "complete"</p>
+<p>    if (req.readyState == 4) {</p>
+<p>      </p>
+<p>      // Check that a successful server response was received</p>
+<p>      if (req.status == 200) {</p>
+<p>        // Pass the XML payload of the response to the </p>
+<p>        // handler function</p>
+<p>        gatherResponse(req.responseText);</p>
+<p>        responseHandler();</p>
+<p>      } else {</p>
+<p>        // An HTTP problem has occurred</p>
+<p>        alert("HTTP error: "+req.status);</p>
+<p>      }</p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>
+<p>function gatherResponse(commentObject) {</p>
+<p> 	var jsonExpression = "(" + commentObject+ ")";</p>
+<p>    var commentData = eval(jsonExpression);</p>
+<p>    error = commentData.error;</p>
+<p>    name = commentData.name;</p>
+<p>    comment = commentData.comment;</p>
+<p>    email = commentData.email;</p>
+<p>    website = commentData.website;</p>
+<p>    title = commentData.title;</p>
+<p>    isAuthor = false;</p>
+<p>    flagged = false;</p>
+<p>    status = commentData.status;</p>
+<p>    if(status == "AUTHOR") {</p>
+<p>    	isAuthor = true;</p>
+<p>    }</p>
+<p>    else if(status != "APPROVED") {</p>
+<p>        flagged = true;</p>
+<p>    }</p>
+<p>}</p>
+<p>To add a comment, please register or login.</p>
+<p>function showCommentMessage(){</p>
+<p>	$("#comments-message").removeClass("hide");</p>
+<p>}</p>
+<p>bimreg.listener.addListener("regAuthNoUser",showCommentMessage) </p>
+<p>Add another comment</p>
+<p>1000 characters remaining</p>
+<p>Submit</p>
+<p>We welcome your comments on this story's topic. Off-topic comments, personal</p>
+<p>attacks, and inappropriate language may be flagged and removed, and comment</p>
+<p>privileges blocked, per our Terms of Service. Thanks for keeping the</p>
+<p>comments space respectful. Privacy Policy</p>
+<p>Showing:</p>
+<p>Newest first</p>
+<p>Oldest first</p>
+<p>None</p>
+<p>You have indicated this comment should be removed.</p>
+<p>Please select a reason why this comment should be removed:</p>
+<p>Select One</p>
+<p>Comment is offensive</p>
+<p>Comment contains profanity/racial slur</p>
+<p>Comment is off-topic/spam</p>
+<p>Personal Attack</p>
+<p>Copyright/Plagiarism</p>
+<p>Other</p>
+<p>Please explain why you are flagging this comment (10 characters or more required.)</p>
+<p>Close</p>
+<p>The comment has been submitted for review.  Thank you .</p>
+<p>Comments: Displaying 1 - 5 of 5</p>
+<p>macarpen said on January 16, 2012 at 1:25 PM</p>
+<p>My heartfelt condolences to the family who loved their child so much that they dedicated their lives to keeping a child alive knowing that almost every moment of his young life was spent suffering. It must have been horrible hearing him scream out in pain at every touch. We all can find solace in the fact that this child no longer has to endure 24 hours a day of horrible, agonizing pain.  May his memory never leave us.</p>
+<p>79957079</p>
+<p>Flag this comment</p>
+<p>Jeff_Eastwoo68a said on January 16, 2012 at 11:57 AM</p>
+<p>Those balloons people just seem to love to release in memoriam of a loved one just end up as trash that litters God's beautiful landscape. The money spent on the balloons (or in other cases, stuffed animals/flowers that people leave) could have been given to a charity that helps children. Think, people, THINK!</p>
+<p>79952563</p>
+<p>Flag this comment</p>
+<p>lalady said on January 16, 2012 at 11:42 AM</p>
+<p>I have never met or know Courtney, but I have to say all the stories that I have been reading and her dedication to her son is an inspiritation.  There are so may woman these days that takes the lives of their young kids because their kids is an innconvience, not one time that Courtney ever considered Tripp to be an innconvience, said deserves to be mother of the year, she put her child's needs in front of hers and that is what parenthood is about.  Courtney if you ever have any more kids those kids will be very lucky to have you as a mom.</p>
+<p>79951776</p>
+<p>Flag this comment</p>
+<p>Lisa_Thibeau2ad said on January 16, 2012 at 11:13 AM</p>
+<p>Fly High Baby Tripp Fly High! We are praying for your family!</p>
+<p>79950482</p>
+<p>Flag this comment</p>
+<p>marycatherine said on January 15, 2012 at 6:53 PM</p>
+<p>Prayers to Tripp and his family!!!! God Bless all of you, and thank you God for showing us how IMPORTANT EACH LIFE IS in this world. Tripp touched so so many lives and by the example of love shown by his family, we too can learn a little more how to have patience and endure hardships all for the sake of ...................  love. God Bless you Courtney and Thank you for letting us be such an important part of this little saint's life.   We LOVE YOU, WE LOVE TRIPP................</p>
+<p>79923213</p>
+<p>Flag this comment</p>
+<p>  </p>
+<p> </p>
+<p>Sign Out</p>
+<p>Profile</p>
+<p>Mobile</p>
+<p>RSS Feeds</p>
+<p>Special Offers</p>
+<p>Newsletters</p>
+<p>Twitter</p>
+<p>Facebook</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.wwltv"+ beloadcode.zoneName + ";sz=300x250;tile=7;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.wwltv'+beloadcode.zoneName+';sz=300x250;tile=7;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.wwltv'+beloadcode.zoneName+';sz=300x250;tile=7;pagetype=story;ord='+beloadcode.ordId+'?" width="300" height="250"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p> Video</p>
+<p>New UNO president: 'Classroom will be last spot we cut any budgets'add to reading list</p>
+<p>  </p>
+<p>Henderson: In N.O. we have too much to celebrate to stay down for longadd to reading list</p>
+<p>  </p>
+<p>Video shows Alabama fans abusing passed out LSU fanadd to reading list</p>
+<p>  </p>
+<p>Stray bullet hits woman inside home in New Orleansadd to reading list</p>
+<p>  </p>
+<p>MLK's call for non-violence, unity struggles to take hold in New Orleansadd to reading list</p>
+<p>  </p>
+<p>More Videos | More  Videos</p>
+<p>Most Popular</p>
+<p>Most Viewed</p>
+<p>Most Emailed</p>
+<p>Community pays tribute to "Angel Baby" Tripp Roth</p>
+<p>Metairie murder-suicide shocks neighborhood</p>
+<p>Curtains for Gregg Williams in New Orleans?</p>
+<p>List of MLK Day Events and Parade Route</p>
+<p>Story of Saints 2012 Season: Plenty of offense, not enough defense</p>
+<p>Community pays tribute to "Angel Baby" Tripp Roth</p>
+<p>Former senate president Sammy Nunez dies</p>
+<p>Story of Saints 2012 Season: Plenty of offense, not enough defense</p>
+<p>List of MLK Day Events and Parade Route</p>
+<p>Hebert rant to Miles gains national attention</p>
+<p>More>></p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Weather</p>
+<p>Sports</p>
+<p>Traffic</p>
+<p>Video</p>
+<p>Morning Show</p>
+<p>Events</p>
+<p>YouNews</p>
+<p>On WWL-TV</p>
+<p>Frank Davis</p>
+<p>Dining</p>
+<p>			wwltv.com</p>
+<p>		</p>
+<p>Closed Captioning Information(504) 529-6298 (phone) (504) 529-6472 (News) (fax) pressrelease@wwltv.com </p>
+<p>Search</p>
+<p>Contact Us</p>
+<p>Employment</p>
+<p>Advertising</p>
+<p>Terms Of Service</p>
+<p> Privacy Policy</p>
+<p>© 2009-2012 WWL-TV, Inc., a subsidiary of Belo Corp. All Rights Reserved.</p>
+<p>Powered by Broadcast Interactive Media.</p>
+<p>var js="0.0";js="1.0";js="1.1";js="1.2";js="1.3";js="1.4";js="1.5";js="1.6";js="1.7";js="1.8";js="1.9"; </p>
+<p><!-- </p>
+<p>var bb=new Image();var _ti=910;var _q="";var na=(navigator.appName=="Netscape");var ns=(navigator.appName.substring(0,9)=="Microsoft");var _qDate=new Date();var _r=(document.referrer.indexOf(getdomain(location))>-1?"":document.referrer);_q+="&5="+parseInt(_qDate.getTimezoneOffset());_q+="&35="+parseInt(_qDate.toString().indexOf("aylight")>-1?1:0);_q+="&6=137389683";_q+="&7=554497";_q+="&8="+encodeURIComponent(document.location);_q+="&9="+encodeURIComponent(_r);_q+="&10="+encodeURIComponent(document.title);_q+="&11="+encodeURIComponent(navigator.userAgent);_q+="&12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&13="+((navigator.javaEnabled()?'1':'0'));_q+="&14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&18="+encodeURIComponent(Math.random());_q+="&19="+_ti;bb.src="http://s.clickability.com/s?"+_q;</p>
+<p>function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}</p>
+<p>function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i<sze; i++){if(document.links[i].onclick){lnks.li[i]=document.links[i];lnks.li[i].oldonclick=document.links[i].onclick;}eval("document.links[i].onclick=function(){return setonclicks(this,lnks);}");}}function bye(a){if(a.href.toLowerCase().indexOf('http')!=0)return true;if(getdomain(location)==getdomain(a))return true;if(a.href.toLowerCase().indexOf('http')!=0)return true;var _qc="http://s.clickability.com/s?19=912";_qc+="&6=137389683";_qc+="&7=554497";_qc+="&18="+encodeURIComponent(Math.random());_qc+="&100="+a.href;_qc+="&101="+encodeURIComponent(a.text);var cc=new Image();if(na){cc.src=_qc;pc(100);}else cc.src=_qc;return true;}function pc(a){d = new Date(); while (1){m =new Date(); df = m-d;if( df > a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i>=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup && ((window.screen)||((new Array()).toSource)||((new Array()).shift&&ns))&&(navigator.userAgent.indexOf('Mac')<0)){if(window.onload){oldonld=window.onload;hasonload=true;}window.onload=newonld;var setupalready = true;}//--></p>
+<p>_qoptions={</p>
+<p>qacct:"p-9a3CzpxOy4iiQ"</p>
+<p>};</p>
+<p>Username or e-mail address</p>
+<p>Password</p>
+<p>Remember Me</p>
+<p>Forgot Password?</p>
+<p>Sign in with Facebook</p>
+<p>Sign in with Twitter</p>
+<p>Don't have an account?</p>
+<p>Register Now</p>
+<p>Member Benefits</p>
+<p>Link your account to your Twitter or Facebook account for easier login!</p>
+<p>Link your account to your Facebook profile</p>
+<p>Link your account to your Twitter profile</p>
+<p>Register on wwltv.com</p>
+<p>Connect with Facebook</p>
+<p>Connect with Twitter</p>
+<p>*Choose a username(5 character minimum):</p>
+<p>*E-mail address:</p>
+<p>*Confirm e-mail address:</p>
+<p>*Choose a password (6 character minimum):</p>
+<p>*Confirm password (6 character minimum):</p>
+<p>*Zip Code: </p>
+<p>Select your birthyear</p>
+<p>2011</p>
+<p>2010</p>
+<p>2009</p>
+<p>2008</p>
+<p>2007</p>
+<p>2006</p>
+<p>2005</p>
+<p>2004</p>
+<p>2003</p>
+<p>2002</p>
+<p>2001</p>
+<p>2000</p>
+<p>1999</p>
+<p>1998</p>
+<p>1997</p>
+<p>1996</p>
+<p>1995</p>
+<p>1994</p>
+<p>1993</p>
+<p>1992</p>
+<p>1991</p>
+<p>1990</p>
+<p>1989</p>
+<p>1988</p>
+<p>1987</p>
+<p>1986</p>
+<p>1985</p>
+<p>1984</p>
+<p>1983</p>
+<p>1982</p>
+<p>1981</p>
+<p>1980</p>
+<p>1979</p>
+<p>1978</p>
+<p>1977</p>
+<p>1976</p>
+<p>1975</p>
+<p>1974</p>
+<p>1973</p>
+<p>1972</p>
+<p>1971</p>
+<p>1970</p>
+<p>1969</p>
+<p>1968</p>
+<p>1967</p>
+<p>1966</p>
+<p>1965</p>
+<p>1964</p>
+<p>1963</p>
+<p>1962</p>
+<p>1961</p>
+<p>1960</p>
+<p>1959</p>
+<p>1958</p>
+<p>1957</p>
+<p>1956</p>
+<p>1955</p>
+<p>1954</p>
+<p>1953</p>
+<p>1952</p>
+<p>1951</p>
+<p>1950</p>
+<p>1949</p>
+<p>1948</p>
+<p>1947</p>
+<p>1946</p>
+<p>1945</p>
+<p>1944</p>
+<p>1943</p>
+<p>1942</p>
+<p>1941</p>
+<p>1940</p>
+<p>1939</p>
+<p>1938</p>
+<p>1937</p>
+<p>1936</p>
+<p>1935</p>
+<p>1934</p>
+<p>1933</p>
+<p>1932</p>
+<p>1931</p>
+<p>1930</p>
+<p>1929</p>
+<p>1928</p>
+<p>1927</p>
+<p>1926</p>
+<p>1925</p>
+<p>1924</p>
+<p>1923</p>
+<p>1922</p>
+<p>1921</p>
+<p>1920</p>
+<p>1919</p>
+<p>1918</p>
+<p>1917</p>
+<p>1916</p>
+<p>1915</p>
+<p>1914</p>
+<p>1913</p>
+<p>1912</p>
+<p>1911</p>
+<p>1910</p>
+<p>1909</p>
+<p>1908</p>
+<p>1907</p>
+<p>1906</p>
+<p>1905</p>
+<p>1904</p>
+<p>1903</p>
+<p>1902</p>
+<p>1901</p>
+<p>1900</p>
+<p>1899</p>
+<p>1898</p>
+<p>1897</p>
+<p>1896</p>
+<p>1895</p>
+<p>1894</p>
+<p>1893</p>
+<p>1892</p>
+<p>1891</p>
+<p>1890</p>
+<p>1889</p>
+<p>1888</p>
+<p>1887</p>
+<p>Check box to receive Free Special Offers</p>
+<p>Yes! Please send me exclusive discounts and special offers from retailers and businesses.</p>
+<p>* - Indicates required field</p>
+<p>*Choose a username (5 character minimum):</p>
+<p>*Choose a password(5 character minimum):</p>
+<p>*Confirm password (5 character minimum):</p>
+<p>*E-mail address:</p>
+<p>*Zipcode: </p>
+<p>Select your birthyear</p>
+<p>2011</p>
+<p>2010</p>
+<p>2009</p>
+<p>2008</p>
+<p>2007</p>
+<p>2006</p>
+<p>2005</p>
+<p>2004</p>
+<p>2003</p>
+<p>2002</p>
+<p>2001</p>
+<p>2000</p>
+<p>1999</p>
+<p>1998</p>
+<p>1997</p>
+<p>1996</p>
+<p>1995</p>
+<p>1994</p>
+<p>1993</p>
+<p>1992</p>
+<p>1991</p>
+<p>1990</p>
+<p>1989</p>
+<p>1988</p>
+<p>1987</p>
+<p>1986</p>
+<p>1985</p>
+<p>1984</p>
+<p>1983</p>
+<p>1982</p>
+<p>1981</p>
+<p>1980</p>
+<p>1979</p>
+<p>1978</p>
+<p>1977</p>
+<p>1976</p>
+<p>1975</p>
+<p>1974</p>
+<p>1973</p>
+<p>1972</p>
+<p>1971</p>
+<p>1970</p>
+<p>1969</p>
+<p>1968</p>
+<p>1967</p>
+<p>1966</p>
+<p>1965</p>
+<p>1964</p>
+<p>1963</p>
+<p>1962</p>
+<p>1961</p>
+<p>1960</p>
+<p>1959</p>
+<p>1958</p>
+<p>1957</p>
+<p>1956</p>
+<p>1955</p>
+<p>1954</p>
+<p>1953</p>
+<p>1952</p>
+<p>1951</p>
+<p>1950</p>
+<p>1949</p>
+<p>1948</p>
+<p>1947</p>
+<p>1946</p>
+<p>1945</p>
+<p>1944</p>
+<p>1943</p>
+<p>1942</p>
+<p>1941</p>
+<p>1940</p>
+<p>1939</p>
+<p>1938</p>
+<p>1937</p>
+<p>1936</p>
+<p>1935</p>
+<p>1934</p>
+<p>1933</p>
+<p>1932</p>
+<p>1931</p>
+<p>1930</p>
+<p>1929</p>
+<p>1928</p>
+<p>1927</p>
+<p>1926</p>
+<p>1925</p>
+<p>1924</p>
+<p>1923</p>
+<p>1922</p>
+<p>1921</p>
+<p>1920</p>
+<p>1919</p>
+<p>1918</p>
+<p>1917</p>
+<p>1916</p>
+<p>1915</p>
+<p>1914</p>
+<p>1913</p>
+<p>1912</p>
+<p>1911</p>
+<p>1910</p>
+<p>1909</p>
+<p>1908</p>
+<p>1907</p>
+<p>1906</p>
+<p>1905</p>
+<p>1904</p>
+<p>1903</p>
+<p>1902</p>
+<p>1901</p>
+<p>1900</p>
+<p>1899</p>
+<p>1898</p>
+<p>1897</p>
+<p>1896</p>
+<p>1895</p>
+<p>1894</p>
+<p>1893</p>
+<p>1892</p>
+<p>1891</p>
+<p>1890</p>
+<p>1889</p>
+<p>1888</p>
+<p>1887</p>
+<p>Check box to receive Free Special Offers</p>
+<p>Yes! Please send me exclusive discounts and special offers from retailers and businesses.</p>
+<p>Privacy Policy | </p>
+<p>Terms of Service</p>
+<p>Connecting to </p>
+<p>You may need to allow pop up window for this step of registration</p>
+<p>Just one more step:</p>
+<p>Please take a moment to review the available e-mail newsletters has to offer. Place a checkbox next to the newsletters you wish to subscribe to.</p>
+<p> WWL-TV Eye on the Saints</p>
+<p> WWLTV.com Breaking News</p>
+<p> WWLTV.com Weather</p>
+<p> 50% Off Deals </p>
+<p> New Orleans Events Newsletter</p>
+<p>Welcome.</p>
+<p>			Thank you for becoming a member of wwltv.com. You now have full access to the best local coverage and late breaking news from wwltv.com. Soon you will be redirected to the page you were seeking, and a confirmation email will be delivered to you. </p>
+<p>			</p>
+<p>You will need to respond to the confirmation e-mail for your account to be activated.</p>
+<p>wwltv.com is dedicated to bringing you exceptional news and outstanding information services, all while personalizing it to your liking. We're sure you'll enjoy being a wwltv.com member! If you need assistance, please contact us.</p>
+<p>(function(){</p>
+<p>		var regOptions = {</p>
+<p>		emailchangeurl: "/register?form=confirm"			</p>
+<p>	}</p>
+<p>	 	</p>
+<p>				</p>
+<p>	bimreg.init("7c7d26495070a9b1cf27db0308f34761530e8e48",regOptions);</p>
+<p>})();</p>
+<p>var	ajaxImgObj = 'http://media.wwltv.com/designimages/belo-ajax-loader.gif';</p>
+<p>$(document).ready(function() {</p>
+<p>	$("#regModal").dialog({ </p>
+<p>		position: 'top',</p>
+<p>    	autoOpen: false,</p>
+<p>    	modal: true,</p>
+<p>    	width:"640px"</p>
+<p>    });</p>
+<p>});</p>
+<p>function belologout() {</p>
+<p>	bimreg.logout();</p>
+<p>};  </p>
+<p>function regAuthEvents() {</p>
+<p>	beloregCount();</p>
+<p>	};</p>
+<p>bimreg.listener.addListener("regAuth",regAuthEvents);</p>
+<p>bimreg.listener.addListener("regAuthNoUser",belologoutFromNav);  </p>
+<p>function userloginEvents(event){</p>
+<p>	belologinFromNav();</p>
+<p>			userNameErrorCheck();</p>
+<p>		createIMGCookie();</p>
+<p>	initRedirect();</p>
+<p>		};</p>
+<p>bimreg.listener.addListener("userLogin",userloginEvents);</p>
+<p>function beloregCount() {</p>
+<p>		if(!BELOJS.reg.optout.get()) {</p>
+<p>		if(bimreg.loggedin) {</p>
+<p>			if(bimreg.getuserkey("BELO_additional_registration") == "") {</p>
+<p>				if(BELOJS.reg.pagecount.get() > 3) {</p>
+<p>					BELOJS.reg.pagecount.reset();</p>
+<p>					window.location = "/register/?form=int&docReferrer=http://www.wwltv.com/home/Community-pays-tribute-to-Angel-Baby-Trip-Roth-who-died-Saturday-137389683.html";</p>
+<p>				}</p>
+<p>			}</p>
+<p>		} else {</p>
+<p>			if(BELOJS.reg.pagecount.get() > 5) {</p>
+<p>				BELOJS.reg.pagecount.reset();</p>
+<p>				window.location = "/register/?form=signup&docReferrer=http://www.wwltv.com/home/Community-pays-tribute-to-Angel-Baby-Trip-Roth-who-died-Saturday-137389683.html";</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>};  </p>
+<p>function initRedirect() {</p>
+<p>			}</p>
+<p>	</p>
+<p>function createIMGCookie() {</p>
+<p>	var zipcode = bimreg.getuserkey("zip_code");</p>
+<p>	if(typeof(zipcode) == "undefined") zipcode = "";</p>
+<p>	var firstname = bimreg.getuserkey("first_name");</p>
+<p>	if(typeof(firstname) == "undefined") firstname = "";</p>
+<p>	genus.setcookie("IMG","|"+firstname+"|"+zipcode+"||");	</p>
+<p>}</p>
+<p>        </p>
+<p>function userNameErrorCheck() {</p>
+<p>	if ( bimreg.getuserkey("email").replace(/\W/g,"") === bimreg.getuserkey("username").replace(/\W/g,"") ) {</p>
+<p>		var failedName = bimreg.getuserkey("username");  </p>
+<p>		var forcedUpdateName = failedName.replace(/@.*/,"").replace(/\W/g,"");</p>
+<p>		var currentTime = new Date();</p>
+<p>		var seconds = currentTime.getTime();</p>
+<p>		var secString = seconds+'';</p>
+<p>		var digits = secString.length + forcedUpdateName.length - 16;</p>
+<p>		if (digits > 0) {</p>
+<p>			seconds = secString.substring(digits,secString.length);</p>
+<p>		}</p>
+<p>		username = forcedUpdateName + seconds;</p>
+<p>		//update user</p>
+<p>		bimreg.updateprofile({username:username});</p>
+<p>		</p>
+<p>		if ( document.URL.indexOf('form=login') > -1 ) {</p>
+<p>			window.location.replace("/register/?form=user");</p>
+<p>		} else {</p>
+<p>			window.location = "/register/?form=user";</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>        </p>
+<p>function checkLoginReferrer() {</p>
+<p>	if(referrer) {</p>
+<p>		genus.setcookie("BIMREG_signup_referrer","");</p>
+<p>		window.location = referrer;</p>
+<p>	} else {</p>
+<p>		try {</p>
+<p>			if (document.referrer) {</p>
+<p>				window.location = document.referrer+window.location.hash; </p>
+<p>							} else if (window.location.hash !== "") { </p>
+<p>								window.history.go(-1);</p>
+<p>			} else {</p>
+<p>				window.location = "/";</p>
+<p>			}</p>
+<p>		} catch(e) {</p>
+<p>			window.location = "/";</p>
+<p>		}  </p>
+<p>	} 	</p>
+<p>}</p>
+<p>    </p>
+<p>function beloYouNewsPostPage() {</p>
+<p>	var username = bimreg.getuserkey("username");</p>
+<p>	$("#submission").show();</p>
+<p>			if(bimreg.loggedin && document.URL.indexOf('form=post') > -1){</p>
+<p>			document.getElementById('username').appendChild(document.createTextNode(username));</p>
+<p>			document.forms['ynform']['element.author'].value = username;</p>
+<p>			$("p#author").text(username);</p>
+<p>			document.forms['ynform']['element.ae'].value = bimreg.getuserkey("private.email");</p>
+<p>			$("div#authorcopy div.text-note p a").attr("href", "/register/?profile="+username);</p>
+<p>		}</p>
+<p>	}</p>
+<p>function belologinFromNav() {</p>
+<p>	var username = bimreg.getuserkey("username");</p>
+<p>	var toolbarObject = $("#toolbar-status");</p>
+<p>	$(toolbarObject).removeClass("loggingiIn").removeClass("hide");</p>
+<p>	$(toolbarObject).find("ul").show();</p>
+<p>	$(toolbarObject).find("#status-loggingin").hide();</p>
+<p>	$(".status-out").hide();</p>
+<p>	$("li#login-item.top-level-item").addClass("hide");</p>
+<p>	$(toolbarObject).show();</p>
+<p>	$("li.status-loggedin").show();</p>
+<p>	$('span.username').text(bimreg.getuserkey("username"));</p>
+<p>	$(toolbarObject).find('li#status-welcome').html('Welcome, <a href=\"/register?profile='+username+'"\'>'+username+'<\/a>');</p>
+<p>	if(typeof bimreg.getuseravatar() != "undefined"){</p>
+<p>		$("div#avatar-image").html("<img src='"+bimreg.getuseravatar()+"' width='40' height='34'/>");</p>
+<p>	};</p>
+<p>	$(toolbarObject).find('li#status-profile').html('<a href=\"/register?profile='+username+'"\'>My Profile<\/a>');</p>
+<p>	var surveyObject = $('#content-two table .cmP_survey') </p>
+<p>	$(surveyObject).find('.cmP_question, .cmP_response, .cmP_responses, #survey-submit, .cmP_input, .cmP_label, #survey-signup-newsletters').removeClass("hide");</p>
+<p>	$("#survey-reg-prompt").addClass("hide");</p>
+<p>	$("form[name=loginformnav] input[name=login-nav-password]").val("");</p>
+<p>}</p>
+<p>    </p>
+<p>function belologoutFromNav() {</p>
+<p>	$(".status-out").show();</p>
+<p>	$("li#login-item.top-level-item, li#login-item.top-level-item #login-button").removeClass("hide");</p>
+<p>	$("#toolbar-status").hide();</p>
+<p>	$("li.status-loggedin").hide();</p>
+<p>	$("#status-loggingin").hide();</p>
+<p>	}</p>
+<p>$("#loginWFacebook, #modalFaceReg").click(function(){</p>
+<p>	bimreg.ssoPop("facebook_reg");</p>
+<p>	BELOJS.reg.resetModal();</p>
+<p>	$("#regOptions").hide();</p>
+<p>	BELOJS.reg.startSSO();</p>
+<p>	return false;	</p>
+<p>});</p>
+<p>$("#loginWTwitter, #modalTwitterReg").click(function(){</p>
+<p>	bimreg.ssoPop("twitter_reg");</p>
+<p>	BELOJS.reg.resetModal();</p>
+<p>	$("#regOptions").hide();</p>
+<p>	BELOJS.reg.startSSO();</p>
+<p>	return false;	</p>
+<p>});</p>
+<p>$("#regModal #showRegModal").click(BELOJS.reg.showRegModal);</p>
+<p>$("#newsletterSignup").submit(function(e) {</p>
+<p>	e.preventDefault();</p>
+<p>	$("#newsletterSignup .loadingHolder").append('<span id="loading-user-newsletter"><img src="'+ajaxImgObj+'" id="loadingGraphic" />Registering User...</span>');</p>
+<p>	$("#newsletterUpdate").hide();</p>
+<p>	BELOJS.reg.createmodaluser();</p>
+<p>	return false;</p>
+<p>});</p>
+<p>$("#overlayLogin").submit(function(e){</p>
+<p>	e.preventDefault();</p>
+<p>   	$("#overlayLogin .login-submit").hide();</p>
+<p>       $("#overlayLogin input").attr("readonly", true);</p>
+<p>       $(".loginError").after('<div id="loading-user"><img src="'+ajaxImgObj+'" id="loadingGraphic" /><p class="updating">Logging in...</p></div>');</p>
+<p>       $(".error-message").empty();</p>
+<p>       var username = $("#overlayUsername").val();</p>
+<p>       var password = $("#overlayPassword").val();</p>
+<p>       if($("#rememberMe:checked").val()) {</p>
+<p>           genus.setcookie("BELO_rememberme",username,30);</p>
+<p>       }</p>
+<p>       bimreg.login(username,password);</p>
+<p>});</p>
+<p>$("#normReg").validate({</p>
+<p>	rules:{</p>
+<p>		reg_birthdateobject:{oldenough : true},</p>
+<p>		reg_zip:{postalcode : true}</p>
+<p>		},</p>
+<p>	submitHandler: function(form) {</p>
+<p>		$("div.error").hide();</p>
+<p>		BELOJS.reg.showNewslettersReg();</p>
+<p>	},</p>
+<p>   invalidHandler: function(form, validator) {</p>
+<p>      var errors = validator.numberOfInvalids();</p>
+<p>      if (errors) {</p>
+<p>        var message = errors == 1</p>
+<p>          ? 'You missed 1 field. It has been highlighted'</p>
+<p>          : 'You missed ' + errors + ' fields. They have been highlighted';</p>
+<p>        $("#normReg div.error span").html(message);</p>
+<p>        $("#normReg div.error").show();</p>
+<p>      } else {</p>
+<p>        $("#normReg div.error").hide();</p>
+<p>      }</p>
+<p>    }</p>
+<p>});</p>
+<p>    	</p>
+<p>function onloadlogout(status) {</p>
+<p>	$("li#login-item.top-level-item").removeClass("hide");</p>
+<p>	$(".signin").removeClass("menu-open");</p>
+<p>	BELOJS.reg.pagecount.reset();</p>
+<p>	belologoutFromNav();</p>
+<p>}</p>
+<p>bimreg.listener.addListener("userLogout",onloadlogout);</p>
+<p>var carouselRan = false;</p>
+<p>function modalShow() {</p>
+<p>	$("#regModal").removeClass("hide").dialog();</p>
+<p>	BELOJS.reg.showLoginModal();</p>
+<p>	bimreg.listener.addListener("userLogin",BELOJS.reg.loginModalClose);</p>
+<p>	if(!carouselRan){</p>
+<p>		setTimeout("loadCarousel()",300);</p>
+<p>		carouselRan = true;</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>}</p>
+<p>    </p>
+<p>$(function() {</p>
+<p>    if(document.URL.indexOf('form=int') > -1 || document.URL.indexOf('form=signup') > -1) {</p>
+<p>        $(function() {</p>
+<p>            window.onunload = function() { genus.setcookie("BELO_OptOut","true",30); }</p>
+<p>        })</p>
+<p>    }</p>
+<p>    </p>
+<p>    $("#status-signout a").click(function(e) {</p>
+<p>        belologout(belologoutFromNav);</p>
+<p>        return false;</p>
+<p>    });</p>
+<p>    $("#login-button a.signin").click(function(e) {</p>
+<p>    	modalShow();</p>
+<p>    	return false;</p>
+<p>	});</p>
+<p>});</p>
+<p>        		$("#comments-message a").click(modalShow);		</p>
+<p>			bimreg.listener.addListener("userLogin",showcommentTools);</p>
+<p>			function commentLogOut(){  	</p>
+<p>			  	hidecommentTools()</p>
+<p>			}</p>
+<p>			bimreg.listener.addListener("userLogout",commentLogOut);</p>
+<p>            </p>
+<p>            if ($("span#charlimit").size() > 0) {</p>
+<p>                window.setInterval(function() {</p>
+<p>                    var charlimitEl = $("span#charlimit");</p>
+<p>                    var chartxtEl = $("span#charlimittxt");</p>
+<p>                    var maxLen = 1000;</p>
+<p>                    if (maxLen < 1) {</p>
+<p>                        maxLen = 1000;</p>
+<p>                    }</p>
+<p>                    var commentLen = $("form textarea").val().length;</p>
+<p>                    if (commentLen < maxLen) {</p>
+<p>                        $(charlimitEl).text(maxLen-commentLen).css("color", "#000");</p>
+<p>                        $(chartxtEl).css("color", "#000");</p>
+<p>                    } else if (commentLen === maxLen) {</p>
+<p>                        $(charlimitEl).text("0").css("color", "red");</p>
+<p>                        $(chartxtEl).css("color", "red");</p>
+<p>                    } else {</p>
+<p>                        $("form textarea").val($("form textarea").val().substring(0, maxLen));</p>
+<p>                        $(charlimitEl).val("0").css("color", "red");</p>
+<p>                        $(chartxtEl).css("color", "red");</p>
+<p>                    }</p>
+<p>                }, 1000);</p>
+<p>            }</p>
+<p>			    </p>
+<p>			var commentsDisplay = {</p>
+<p>				api: {</p>
+<p>					hideComments: function() {</p>
+<p>						jQuery("#comments-reorder .comment").addClass('hide');</p>
+<p>						jQuery("#comment-pagination").addClass("hide");</p>
+<p>						jQuery("#comment-view-label").addClass("hide");</p>
+<p>					},</p>
+<p>					showComments: function() {</p>
+<p>						jQuery("#comment-pagination").removeClass("hide");</p>
+<p>						jQuery("#comment-view-label").removeClass("hide");</p>
+<p>					},</p>
+<p>					showFifteen: function() {</p>
+<p>						jQuery("#comments-reorder .comment").slice(0, 5).removeClass('hide');</p>
+<p>					},</p>
+<p>					reverseOrder: function() {</p>
+<p>						jQuery("#comments-reorder .comment").addClass('hide');</p>
+<p>						jQuery("#comments-reorder .comment").each(function() {</p>
+<p>							$(this).prependTo( $(this).parent() );</p>
+<p>						});</p>
+<p>						jQuery("#comments-reorder .comment").slice(0, 5).removeClass('hide');</p>
+<p>					},</p>
+<p>					setCookie: function(commentOrder) {</p>
+<p>							setcookie("beloCommentOrder", commentOrder, 30);</p>
+<p>					},</p>
+<p>					readCookie: function() {</p>
+<p>							var queryResult = readcookie("beloCommentOrder");</p>
+<p>							return queryResult;</p>
+<p>					},</p>
+<p>					commentOrderCheck: function(previousOrder) {</p>
+<p>						var selectedOrder = jQuery('#commentOrder :selected').val();</p>
+<p>						this.setCookie(selectedOrder);</p>
+<p>						</p>
+<p>						if (selectedOrder != previousOrder && selectedOrder != "None") {</p>
+<p>							if(selectedOrder == "oldestToNewest" && previousOrder == "None" || selectedOrder == "oldestToNewest" && previousOrder == "newestToOldest" || selectedOrder == "newestToOldest" && previousOrder == "oldestToNewest"  ) {</p>
+<p>								jQuery("#comments-reorder").slideUp();</p>
+<p>								this.showComments();</p>
+<p>								this.reverseOrder();</p>
+<p>								jQuery("#comments-reorder").slideDown();</p>
+<p>							} else if (selectedOrder == "newestToOldest" && previousOrder == "None") {</p>
+<p>								this.showComments();</p>
+<p>								jQuery("#comments-reorder").slideUp();</p>
+<p>								this.showFifteen();</p>
+<p>								jQuery("#comments-reorder").slideDown();</p>
+<p>							}</p>
+<p>						}else if (selectedOrder == "None") {</p>
+<p>							if(previousOrder == "oldestToNewest") {</p>
+<p>									this.reverseOrder();</p>
+<p>								}</p>
+<p>							 jQuery("#comments-reorder").slideUp();</p>
+<p>							 	this.hideComments();</p>
+<p>						}; </p>
+<p>					}	</p>
+<p>				},</p>
+<p>				init: function() {</p>
+<p>						this.api.hideComments("#comments .comment");</p>
+<p>						commentCookieCheck = this.api.readCookie();	</p>
+<p>						jQuery("#comments-reorder").slideUp();		</p>
+<p>						if (!commentCookieCheck || commentCookieCheck == "" || commentCookieCheck == "undefined") {</p>
+<p>							$('#commentOrder').val("newestToOldest");</p>
+<p>							this.api.setCookie("newestToOldest");</p>
+<p>							this.api.showComments();</p>
+<p>							this.api.showFifteen();</p>
+<p>							jQuery("#comments-reorder").slideDown();</p>
+<p>							commentCookieCheck = this.api.readCookie();	</p>
+<p>						} else if (commentCookieCheck == "oldestToNewest") {</p>
+<p>							$('#commentOrder').val("oldestToNewest");</p>
+<p>							 this.api.showComments();</p>
+<p>							 this.api.reverseOrder();</p>
+<p>							 jQuery("#comments-reorder").slideDown();</p>
+<p>						}else if (commentCookieCheck == "newestToOldest") {</p>
+<p>							$('#commentOrder').val("newestToOldest");</p>
+<p>							 this.api.showFifteen();</p>
+<p>							 this.api.showComments();</p>
+<p>							 jQuery("#comments-reorder").slideDown();</p>
+<p>						}else if (commentCookieCheck == "None") {</p>
+<p>							$('#commentOrder').val("None");</p>
+<p>							 this.api.hideComments();	 </p>
+<p>						};</p>
+<p>						jQuery("#commentOrder option select").val(commentCookieCheck).attr('selected', 'selected');</p>
+<p>						return this.api;</p>
+<p>					}</p>
+<p>			}</p>
+<p>			</p>
+<p>			//initiate Comment reordering tools</p>
+<p>           	var commentRun = commentsDisplay.init();</p>
+<p>			$('#commentOrder').bind('change',function() { </p>
+<p>				previousOrder = commentRun.readCookie("beloCommentOrder");</p>
+<p>				commentRun.commentOrderCheck(previousOrder);	</p>
+<p>			}); </p>
+<p>			</p>
+<p>										//Function that configures the modal window options</p>
+<p>		$('.comment div.commentFlag').click(function(e) {</p>
+<p>			var abusiveComment = $(e.target).prev().text();</p>
+<p>			var commentorName = $(e.target).siblings('p.comment-details');</p>
+<p>			var commentorName = $(commentorName).children('.comment-author');</p>
+<p>			var commentorName = $(commentorName).text();</p>
+<p>			var abusiveCommenttext = $(e.target).siblings('p.comment-body').get(0);</p>
+<p>			var abusiveCommenttext = $(abusiveCommenttext).text();</p>
+<p>			var abusiveCommenttext = '\"' + abusiveCommenttext + '\"';</p>
+<p>			</p>
+<p>			$('#comment-flag-reason').focus();</p>
+<p>			$('#other-field-container').slideUp().addClass('hide');	</p>
+<p>			$('#flag-submit').attr("disabled","disabled");</p>
+<p>			$('#comment-flag-proc').removeClass('hide');</p>
+<p>			$('#comment-flag-succ').addClass('hide');</p>
+<p>			$('#comment-flag-reason').val("Select One");</p>
+<p>			$('#otherfield').val('');</p>
+<p>			$('.comment-lightbox #flaggedCommentId').val(abusiveComment);</p>
+<p>			$('.comment-lightbox #comment-text').html(abusiveCommenttext);</p>
+<p>			$('.comment-lightbox #commentorName').val(commentorName);</p>
+<p>		});</p>
+<p>		</p>
+<p>	//enable submission only when a reason is picked	</p>
+<p>		$('#comment-flag-reason').change( function() {</p>
+<p>			$('#other-field-container').slideUp();</p>
+<p>			var reason = $('#comment-flag-reason').val();</p>
+<p>			if (reason == 'default') {</p>
+<p>				$('#other-field-container').slideUp();</p>
+<p>				$('#flag-submit').attr("disabled","disabled");				</p>
+<p>			} else if (reason == 'Other') {</p>
+<p>				$('#other-field-container').removeClass('hide').slideDown();</p>
+<p>				$('#otherfield').focus();</p>
+<p>				$('#flag-submit').attr("disabled","disabled");</p>
+<p>			} else if (reason != 'default' || reason !='Other') {</p>
+<p>				$('#comment-flag-reason').focus();</p>
+<p>				$('#other-field-container').slideUp();</p>
+<p>				$('#flag-submit').removeAttr("disabled")</p>
+<p>				</p>
+<p>			}</p>
+<p>		});</p>
+<p>		</p>
+<p>	//Only let other submit if more than 10 characters</p>
+<p>		$('#otherfield').keyup(function() {</p>
+<p>			if($('#otherfield').val().length >= 10) {</p>
+<p>				$('#flag-submit').removeAttr("disabled")</p>
+<p>			} else {</p>
+<p>				$('#flag-submit').attr("disabled","disabled");</p>
+<p>			}</p>
+<p>		});</p>
+<p>		</p>
+<p>	//Show the light box content in modal window</p>
+<p>	var commentIDFill = function() {</p>
+<p>		$('.comment-lightbox').show();</p>
+<p>		}</p>
+<p>		</p>
+<p>	//Calls modal function triger set the element to be click to open</p>
+<p>	$().ready(function() {</p>
+<p>	  $('.comment-lightbox').jqm({</p>
+<p>	  	trigger: 'div.commentFlag',</p>
+<p>	  	onShow:commentIDFill</p>
+<p>	  	});</p>
+<p>	});</p>
+<p>	</p>
+<p>	//Ajax submit</p>
+<p>	$('#flag-submit').click(function() {</p>
+<p>		var commentIdNum = $('.comment-lightbox #flaggedCommentId').val();</p>
+<p>		</p>
+<p>		if ($('#comment-flag-reason').val() != 'Other') {</p>
+<p>			var reasonForFlag = $('#comment-flag-reason').val();</p>
+<p>		} else if ($('#comment-flag-reason').val() == 'Other') {</p>
+<p>			var reasonForFlag = $('#otherfield').val();</p>
+<p>		}</p>
+<p>		</p>
+<p>		var submitor = $('#comment-flag-proc .username').text();</p>
+<p>		jQuery.get(</p>
+<p>			'http://'+document.domain+'/internal', {</p>
+<p>				flag : 'belocomment',</p>
+<p>				commentID : commentIdNum,</p>
+<p>				contentID : '137389683',</p>
+<p>				flagSubmitor: submitor,</p>
+<p>				storyURL : 'http://www.wwltv.com/home/Community-pays-tribute-to-Angel-Baby-Trip-Roth-who-died-Saturday-137389683.html',</p>
+<p>				storyTitle : 'Hebert rant to Miles gains national attention',</p>
+<p>				reason : reasonForFlag</p>
+<p>			}</p>
+<p>		);		</p>
+<p>		$('#comment-flag-proc').addClass('hide');</p>
+<p>		$('#comment-flag-succ').removeClass('hide');</p>
+<p>		$('#other-field-container').addClass('hide').slideUp();	</p>
+<p>		$(".comment-"+commentIdNum+" .commentFlag").replaceWith('<p class="commentFlag commentflagged">This comment will be reviewed.</p>');</p>
+<p>		setTimeout(function() { $('.comment-lightbox').jqmHide(); }, 10000); </p>
+<p>		return false;</p>
+<p>	});</p>
+<p>		</p>
+<p>			</p>
+<p>    </p>
+<p>    	$("#additional-comments a").click(function () {  </p>
+<p>    		$("#comments-post").slideDown('slow'); </p>
+<p>    		$("#additional-comments").addClass("hide");</p>
+<p>    		return false; </p>
+<p>    	});</p>
+<p>    	</p>
+<p>    	</p>
+<p>    	        function recaptcha(e) {</p>
+<p>            var commenttxt = $("form textarea[name=field]").val();</p>
+<p>            $("form textarea[name=field]").val(commenttxt.replace(/<.*>/,""));             commenttxt = $("form textarea[name=field]").val();</p>
+<p>            </p>
+<p>                        if (commenttxt.replace(/\W*/, "") === "") {                 $("form div#recaptcha label").text("Please enter valid comment text before proceeding.").css({color: "red",visibility: "visible"}).show();</p>
+<p>            </p>
+<p>                        } else {                 $("#comments-post").slideUp('slow');</p>
+<p>                $("form div#recaptcha label").hide().text("");</p>
+<p>				$("#additional-comments").removeClass("hide");</p>
+<p>                var authorEl = $("input#post-author");</p>
+<p>                if(bimreg.getuseravatar() != "http://cdn.bimfs.com/BIM/94c79496c9f308c8957cbb810d4f196a.jpg" && typeof bimreg.getuseravatar() != "undefined"){</p>
+<p>					$("input#post-avatar").val(bimreg.getuseravatar().replace("http://",""));</p>
+<p>                }</p>
+<p>                $(authorEl).val(bimreg.getuserkey("username"));</p>
+<p>                postForm(document.forms['comment'],true,function() {</p>
+<p>                	var commentPreviewText = '<div class="comment ajax-preview"><div class="comment-details"><span class="comment-preview">Thank you for your comment.  Please allow up to 5 minutes for your comment to appear.  This is a preview of your comment.</span><span class="comment-author">'+bimreg.getuserkey("username")+'</span> said</div><div class="comment-body"><p>'+comment+'</p></div></div>';</p>
+<p>                	</p>
+<p>                    ($('#content #comments').size() > 0) ? $(commentPreviewText).insertBefore('#comments .comment:first') : $('<div id="comments">' + commentPreviewText+ '</div>').insertAfter('#article');</p>
+<p>                    ($('#content #comments .comment').size() % 2 == 1) ? $('#content #comments:last=child').addClass('odd') : $('#content #comments:last=child').addClass('even');</p>
+<p>                });</p>
+<p>         </p>
+<p>            }</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        </p>
+<p>    </p>
+<p> </p>
+<p>$(function() {</p>
+<p>        </p>
+<p>                </p>
+<p>        </p>
+<p>        if ($("#popular").size() > 0) {</p>
+<p>            $("#popular").tabs().tabs("option", "disabled", false);</p>
+<p>        }</p>
+<p>        </p>
+<p>        </p>
+<p>              </p>
+<p>        </p>
+<p>                    if ($("#recaptcha_widget").size() > 0) {</p>
+<p>                $('#recaptcha_widget .submit').click(recaptcha);</p>
+<p>            }</p>
+<p>        </p>
+<p>            });</p>
+<p>(function() {</p>
+<p>	autoPlayCookie = genus.readcookie("galleryAutoPlay")</p>
+<p>	if(autoPlayCookie > 0){</p>
+<p>		genus.setcookie("galleryAutoPlay", -1, -1);</p>
+<p>	}</p>
+<p>})(); </p>
+<p>//Comscore vars</p>
+<p>COMSCORE.beacon({c1:2,c2:"6036246",c3:"",c4:"",c5:"",c6:"",c15:""});</p>
+<p>.submission {</p>
+<p>	display: none;</p>
+<p>}</p>
+<p>var Clickability = Clickability || {};</p>
+<p>Clickability.Comment = {</p>
+<p>	Private : {</p>
+<p>		kP : 0,</p>
+<p>		aT : 0,</p>
+<p>		myInterval : null,</p>
+<p>		xPos : -1,</p>
+<p>		yPos : -1,</p>
+<p>		firstX : -1,</p>
+<p>		firstY : -1,</p>
+<p>		intervals : 0,</p>
+<p>		req : null,</p>
+<p>		cid :  137389683 ,</p>
+<p>		did :  554497 ,</p>
+<p>		cP :  30 ,</p>
+<p>		cD : "Sun Jan 15 15:49:55 PST 2012",</p>
+<p>		d : 0,</p>
+<p>		mT : 0</p>
+<p>	},</p>
+<p>	name : null,</p>
+<p>	website : null,</p>
+<p>	title : null,</p>
+<p>	comment : null,</p>
+<p>	email : null,</p>
+<p>	rating : null,</p>
+<p>	ratingType : null,</p>
+<p>	commentType : null,</p>
+<p>	flagged : false,</p>
+<p>	isAuthor : false,</p>
+<p>	error : null,</p>
+<p>	status : null,</p>
+<p>	level : 0,</p>
+<p>	parentID : 0,</p>
+<p>	threadID : 0,</p>
+<p>	id : 0,</p>
+<p>	extID : null</p>
+<p>};</p>
+<p>Clickability.Comment.Private.myInterval = window.setInterval(timedMousePos,250);</p>
+<p>var name = null;</p>
+<p>var website = null;</p>
+<p>var title = null;</p>
+<p>var comment = null;</p>
+<p>var email = null;</p>
+<p>var rating = null;</p>
+<p>var ratingType = null;</p>
+<p>var commentType = null;</p>
+<p>var flagged = false;</p>
+<p>var isAuthor = false;</p>
+<p>var error = null;</p>
+<p>var status = null;</p>
+<p>var kP = 0;</p>
+<p>var aT = 0;</p>
+<p>var myInterval = Clickability.Comment.Private.myInterval;</p>
+<p>var xPos = -1;</p>
+<p>var yPos = -1;</p>
+<p>var firstX = -1;</p>
+<p>var firstY = -1;</p>
+<p>var intervals = 0;</p>
+<p>var req = null;</p>
+<p>var cid =  137389683 ;</p>
+<p>var did =  554497 ;</p>
+<p>var cP =  30 ;</p>
+<p>var cD = "Sun Jan 15 15:49:55 PST 2012";</p>
+<p>var d = 0;</p>
+<p>var mT = 0;</p>
+<p>document.onkeypress = lK;</p>
+<p>window.onload = rAT;</p>
+<p>function checkField(field) {</p>
+<p>	</p>
+<p>	var button = document.getElementById("btSubmit");</p>
+<p>	</p>
+<p>	if(field.value.length > 0) {</p>
+<p>		CM_btnEnable(button);</p>
+<p>	}</p>
+<p>	else {</p>
+<p>		CM_btnDisable(button);</p>
+<p>	}</p>
+<p>}</p>
+<p>function lK() {</p>
+<p>	Clickability.Comment.Private.kP++;</p>
+<p>}</p>
+<p>function rAT() {</p>
+<p>	Clickability.Comment.Private.aT = new Date();</p>
+<p>}</p>
+<p>function CM_btnDisable (which) {</p>
+<p>	which.disabled = true;</p>
+<p>	if (document.all){</p>
+<p>		which.filters.alpha.opacity = 25;</p>
+<p>	}else {</p>
+<p>		which.style.MozOpacity = 0.25;</p>
+<p>	}	</p>
+<p>	which.style.cursor = "default";</p>
+<p>}</p>
+<p>function CM_btnEnable (which) {</p>
+<p>	which.disabled = false;</p>
+<p>	if (document.all){</p>
+<p>		which.filters.alpha.opacity = 100;</p>
+<p>		which.style.cursor = "hand";</p>
+<p>	}else {</p>
+<p>		which.style.MozOpacity = 1;</p>
+<p>		which.style.cursor = "pointer";</p>
+<p>	}</p>
+<p>}</p>
+<p>function submitForm(formObj) {</p>
+<p>    if(formObj.action == ""){</p>
+<p>    	formObj.action = "/c";</p>
+<p>    }</p>
+<p>	addFieldsToForm(formObj);</p>
+<p>    formObj.submit();</p>
+<p>}</p>
+<p>function addFieldsToForm(formObj, redirect) {</p>
+<p>	var mTField = document.createElement('input');</p>
+<p>	var dField = document.createElement('input');</p>
+<p>	var kPField = document.createElement('input');</p>
+<p>  	var cidField = document.createElement('input');</p>
+<p>  	var didField = document.createElement('input');</p>
+<p>  	</p>
+<p>  	</p>
+<p>	mTField.setAttribute('name','mT');</p>
+<p>	mTField.setAttribute('type', 'hidden');</p>
+<p>  	  </p>
+<p>	dField.setAttribute('name', 'd');</p>
+<p>	dField.setAttribute('type', 'hidden');</p>
+<p>  	  </p>
+<p>	kPField.setAttribute('name', 'kP');</p>
+<p>	kPField.setAttribute('type', 'hidden');</p>
+<p>  	</p>
+<p>	cidField.setAttribute('name', 'cid');</p>
+<p>	cidField.setAttribute('type', 'hidden');</p>
+<p>  	</p>
+<p>  	didField.setAttribute('name', 'did');</p>
+<p>  	didField.setAttribute('type', 'hidden');	</p>
+<p>  	</p>
+<p>  	if(redirect != null) {</p>
+<p>  		var pathField = document.createElement('input');</p>
+<p>  		pathField.setAttribute('name', 'path');</p>
+<p>  		pathField.setAttribute('type', 'hidden');</p>
+<p>  		pathField.value = redirect;</p>
+<p>  		formObj.appendChild(pathField);</p>
+<p>  	}</p>
+<p>  	  </p>
+<p>	mTField.value = Clickability.Comment.Private.mT;</p>
+<p>	dField.value = Clickability.Comment.Private.d;</p>
+<p>	kPField.value = Clickability.Comment.Private.kP;</p>
+<p>	cidField.value = Clickability.Comment.Private.cid;</p>
+<p>	didField.value = Clickability.Comment.Private.did;</p>
+<p>  		</p>
+<p>	formObj.appendChild(dField);</p>
+<p>	formObj.appendChild(kPField);</p>
+<p>	formObj.appendChild(mTField);</p>
+<p>	formObj.appendChild(cidField);</p>
+<p>	formObj.appendChild(didField);</p>
+<p>}</p>
+<p>function getMousePos(p) {</p>
+<p>	if (!p) var p = window.event;</p>
+<p>	if (p.pageX || p.pageY) {</p>
+<p>		Clickability.Comment.Private.xPos = p.pageX;</p>
+<p>		Clickability.Comment.Private.yPos = p.pageY;</p>
+<p>	} else if (p.clientX || p.clientY) {</p>
+<p>		Clickability.Comment.Private.xPos = p.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;</p>
+<p>		Clickability.Comment.Private.yPos = p.clientY + document.body.scrollTop + document.documentElement.scrollTop;</p>
+<p>	}</p>
+<p>}</p>
+<p>function timedMousePos() {</p>
+<p>	document.onmousemove = getMousePos;</p>
+<p>	if (Clickability.Comment.Private.xPos >= 0 && Clickability.Comment.Private.yPos >= 0) {</p>
+<p>	var newX = Clickability.Comment.Private.xPos;</p>
+<p>	var newY = Clickability.Comment.Private.yPos;</p>
+<p>	Clickability.Comment.Private.intervals++;</p>
+<p>	}</p>
+<p>	if (Clickability.Comment.Private.intervals == 1) {</p>
+<p>		Clickability.Comment.Private.firstX = Clickability.Comment.Private.xPos;</p>
+<p>		Clickability.Comment.Private.firstY = Clickability.Comment.Private.yPos;</p>
+<p>	} else if (Clickability.Comment.Private.intervals == 2) {</p>
+<p>		clearInterval(Clickability.Comment.Private.myInterval);</p>
+<p>		calcDistance(Clickability.Comment.Private.firstX,Clickability.Comment.Private.firstY,newX,newY);</p>
+<p>	}</p>
+<p>}</p>
+<p>function calcDistance(aX,aY,bX,bY) {</p>
+<p>	Clickability.Comment.Private.mT = Math.round(Math.sqrt(Math.pow(aX-bX,2)+Math.pow(aY-bY,2)));</p>
+<p>}</p>
+<p>function getXmlRequestObject() {</p>
+<p>	if(Clickability.Comment.Private.req == null){</p>
+<p>		if(window.XMLHttpRequest){</p>
+<p>			Clickability.Comment.Private.req = new XMLHttpRequest();</p>
+<p>		}else if(window.ActiveXObject){</p>
+<p>			try{</p>
+<p>				Clickability.Comment.Private.req = new ActiveXObject("Msxml2.XMLHTTP");</p>
+<p>			}catch(e){</p>
+<p>				try{</p>
+<p>					Clickability.Comment.Private.req = new ActiveXObject("Microsoft.XMLHTTP");</p>
+<p>				}catch(e){</p>
+<p>                	return null;</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>    }</p>
+<p>    return Clickability.Comment.Private.req;</p>
+<p>}</p>
+<p>function insertComment(formObj, isAjax, responseHandler){</p>
+<p>	var sT = new Date();</p>
+<p>	Clickability.Comment.Private.d = sT - Clickability.Comment.Private.aT;</p>
+<p>	if((isAjax == true) && (responseHandler != null)) {</p>
+<p>		Clickability.Comment.Private.req = getXmlRequestObject();</p>
+<p>		if(Clickability.Comment.Private.req != null) {</p>
+<p>			var formVars = getFormValues(formObj);</p>
+<p> 			var handlerFunction = getReadyStateHandler(Clickability.Comment.Private.req, responseHandler);</p>
+<p>			Clickability.Comment.Private.req.onreadystatechange = handlerFunction;</p>
+<p>			var url = "/c";</p>
+<p>            var params = "ajax=true&" + formVars;</p>
+<p> </p>
+<p>            Clickability.Comment.Private.req.open("POST", url, true);</p>
+<p>            Clickability.Comment.Private.req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=utf-8");</p>
+<p>            </p>
+<p>     </p>
+<p>            Clickability.Comment.Private.req.send(params);</p>
+<p>            return false;</p>
+<p>    	}</p>
+<p>    	else {</p>
+<p>    		return false;</p>
+<p>    	}</p>
+<p>	}</p>
+<p>	else {</p>
+<p>		addFieldsToForm(formObj);</p>
+<p> 		submitForm(formObj);</p>
+<p>	}</p>
+<p>}</p>
+<p>   </p>
+<p>function postForm(formObj, isAjax, responseHandler) {</p>
+<p>	return insertComment(formObj, isAjax, responseHandler);</p>
+<p>}</p>
+<p>function getFormValues(fobj) {</p>
+<p>   var str = "";</p>
+<p>   var valueArr = null;</p>
+<p>   var val = "";</p>
+<p>   var cmd = "";	</p>
+<p>   var ampRegex = new RegExp("&", "g");</p>
+<p>   var replaceAmpStr = escape("&#38;");</p>
+<p>   var percentRegex = new RegExp("%", "g"); </p>
+<p>   var replacePerStr = escape("&#37;");</p>
+<p>   for(var i = 0;i < fobj.elements.length;i++)</p>
+<p>   {</p>
+<p>   		var field = fobj.elements[i];</p>
+<p>   		if(field.tagName === "TEXTAREA" || (field.tagName === "INPUT" && field.type != "submit" && field.type != "button")){ </p>
+<p>			var fieldStr = field.value;</p>
+<p>			fieldStr = fieldStr.replace(percentRegex, replacePerStr);</p>
+<p>            fieldStr = fieldStr.replace(ampRegex, replaceAmpStr);</p>
+<p>   			str += field.name + "=" + fieldStr + "&";</p>
+<p>       		field.value = "";</p>
+<p>       	}</p>
+<p>   }</p>
+<p>   str += "mT=" + Clickability.Comment.Private.mT;</p>
+<p>   str += "&d=" + Clickability.Comment.Private.d;</p>
+<p>   str += "&kP=" + Clickability.Comment.Private.kP;</p>
+<p>   str += "&cid=" + Clickability.Comment.Private.cid;</p>
+<p>   str += "&did=" + Clickability.Comment.Private.did;</p>
+<p> </p>
+<p>   return str;</p>
+<p>}</p>
+<p>function getReadyStateHandler(ajaxreq, responseHandler) {</p>
+<p>  // Return an anonymous function that listens to the </p>
+<p>  // XMLHttpRequest instance</p>
+<p>  return function () {</p>
+<p>    // If the request's status is "complete"</p>
+<p>    if (ajaxreq.readyState == 4) {</p>
+<p>      </p>
+<p>      // Check that a successful server response was received</p>
+<p>      if (ajaxreq.status == 200) {</p>
+<p>        // Pass the XML payload of the response to the </p>
+<p>        // handler function</p>
+<p>        gatherResponse(ajaxreq.responseText);</p>
+<p>        responseHandler();</p>
+<p>      } else {</p>
+<p>        // An HTTP problem has occurred</p>
+<p>        alert("HTTP error: "+ajaxreq.status);</p>
+<p>      }</p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>
+<p>function gatherResponse(commentObject) {</p>
+<p>		name = null;</p>
+<p>	website = null;</p>
+<p>	title = null;</p>
+<p>	comment = null;</p>
+<p>	email = null;</p>
+<p>	rating = null;</p>
+<p>	ratingType = null;</p>
+<p>	commentType = null;</p>
+<p>	flagged = false;</p>
+<p>	isAuthor = false;</p>
+<p>	error = null;</p>
+<p>	status = null;</p>
+<p>	</p>
+<p>	Clickability.Comment.name = null;</p>
+<p>	Clickability.Comment.website = null;</p>
+<p>	Clickability.Comment.title = null;</p>
+<p>	Clickability.Comment.comment = null;</p>
+<p>	Clickability.Comment.email = null;</p>
+<p>	Clickability.Comment.rating = null;</p>
+<p>	Clickability.Comment.ratingType = null;</p>
+<p>	Clickability.Comment.commentType = null;</p>
+<p>	Clickability.Comment.flagged = false;</p>
+<p>	Clickability.Comment.isAuthor = false;</p>
+<p>	Clickability.Comment.error = null;</p>
+<p>	Clickability.Comment.status = null;</p>
+<p>	Clickability.Comment.level = 0;</p>
+<p>	Clickability.Comment.parentID = 0;</p>
+<p>	Clickability.Comment.threadID = 0;</p>
+<p>	Clickability.Comment.id = 0;</p>
+<p>	Clickability.Comment.extID = null;</p>
+<p> 	var jsonExpression = "(" + commentObject+ ")";</p>
+<p>    var commentData = eval(jsonExpression);</p>
+<p>    error = commentData.error;</p>
+<p>    name = commentData.name;</p>
+<p>    comment = commentData.comment;</p>
+<p>    commentType = commentData.commentType</p>
+<p>    rating = commentData.ratingScore;</p>
+<p>    ratingType = commentData.ratingType;</p>
+<p>    email = commentData.email;</p>
+<p>    website = commentData.website;</p>
+<p>    title = commentData.title;</p>
+<p>    isAuthor = false;</p>
+<p>    flagged = false;</p>
+<p>    status = commentData.status;</p>
+<p>    if(status == "AUTHOR") {</p>
+<p>    	isAuthor = true;</p>
+<p>    }</p>
+<p>    else if(status != "APPROVED") {</p>
+<p>        flagged = true;</p>
+<p>    }</p>
+<p>    </p>
+<p>    Clickability.Comment.error = commentData.error;</p>
+<p>    Clickability.Comment.name = commentData.name;</p>
+<p>    Clickability.Comment.comment = commentData.comment;</p>
+<p>    Clickability.Comment.commentType = commentData.commentType</p>
+<p>    Clickability.Comment.rating = commentData.ratingScore;</p>
+<p>    Clickability.Comment.ratingType = commentData.ratingType;</p>
+<p>    Clickability.Comment.email = commentData.email;</p>
+<p>    Clickability.Comment.website = commentData.website;</p>
+<p>    Clickability.Comment.title = commentData.title;</p>
+<p>    Clickability.Comment.isAuthor = false;</p>
+<p>    Clickability.Comment.flagged = false;</p>
+<p>    Clickability.Comment.status = commentData.status;</p>
+<p>    if(Clickability.Comment.status == "AUTHOR") {</p>
+<p>    	Clickability.Comment.isAuthor = true;</p>
+<p>    }</p>
+<p>    else if(Clickability.Comment.status != "APPROVED") {</p>
+<p>        Clickability.Comment.flagged = true;</p>
+<p>    }</p>
+<p>    Clickability.Comment.id = commentData.id;</p>
+<p>    Clickability.Comment.threadID = commentData.threadID;</p>
+<p>    Clickability.Comment.parentID = commentData.parentID;</p>
+<p>    Clickability.Comment.level = commentData.level;</p>
+<p>    Clickability.Comment.extID = commentData.extID;</p>
+<p>}</p>
+<p>	var _sf_async_config={};</p>
+<p>	/** CONFIGURATION START **/</p>
+<p>	_sf_async_config.uid = 31997;</p>
+<p>	_sf_async_config.domain = 'wwltv.com';</p>
+<p>			_sf_async_config.sections = 'WWL - Home';</p>
+<p>			_sf_async_config.authors = '';</p>
+<p>		_sf_async_config.title = "Community pays tribute to \"Angel Baby\" Tripp Roth";</p>
+<p>		/** CONFIGURATION END **/</p>
+<p>	(function(){</p>
+<p>		function loadChartbeat() {</p>
+<p>			window._sf_endpt=(new Date()).getTime();</p>
+<p>			var e = document.createElement('script');</p>
+<p>			e.setAttribute('language', 'javascript');</p>
+<p>			e.setAttribute('type', 'text/javascript');</p>
+<p>			e.setAttribute('src',</p>
+<p>			(('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +</p>
+<p>			'js/chartbeat.js');</p>
+<p>			document.body.appendChild(e);</p>
+<p>		}</p>
+<p>		var oldonload = window.onload;</p>
+<p>		window.onload = (typeof window.onload != 'function') ?</p>
+<p>		loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>	})(); </p>
+<p>  <!-- domname wwltvcom --></p>
+<p>             </p>
+<p>   		</p>
+<p>		</p>
+<p> </p>
+<p> </p>
+<p>if(typeof belo_tracking_sitepage == "undefined" || belo_tracking_sitepage == ""){</p>
+<p>	belo_tracking_sitepage = window.location.host + window.location.pathname+"/";</p>
+<p>	if(belo_tracking_sitepage.charAt(belo_tracking_sitepage.length-1) == "/") {</p>
+<p>	    belo_tracking_sitepage = belo_tracking_sitepage.substring(0,belo_tracking_sitepage.length-1);</p>
+<p>	}</p>
+<p>}</p>
+<p>s={};</p>
+<p>s_account="biwwltvcom,bikbnglobal";</p>
+<p>site_tag="wwltv.com";</p>
+<p>om_fpcdomain="wwltv.com";</p>
+<p>$("document").ready(function(){</p>
+<p>	$("a.modalOpen").unbind("click");</p>
+<p>	$("#storytools-bottom a.modalOpen").click( function() {</p>
+<p>		$("#shareModalWindowBottom").toggleClass("hide");   </p>
+<p>		return false;</p>
+<p>	});</p>
+<p>	$("#storytools-top a.modalOpen").click( function() {</p>
+<p>		$("#shareModalWindow").toggleClass("hide");   </p>
+<p>		return false;</p>
+<p>	});$("a.modalOpen").click(function(){</p>
+<p>		$(this).toggleClass("open");</p>
+<p>	})</p>
+<p>});</p>
+<p>						<!-- IM Track story --></p>
+<p>							$("#imwarelist li a, #shareModalWindow li a").not("#share-tool").click(function(e){</p>
+<p>		var shareTitle = $(this).attr("title");</p>
+<p>		var clicked = $(this)[0];</p>
+<p>		var s=s_gi('biwwltvcom,bikbnglobal');</p>
+<p>		s.tl(clicked,'o','Story: '+ shareTitle +': Community pays tribute to \"Angel Baby\" Tripp Roth: wwltv: /home: 137389683');</p>
+<p>	});</p>
+<p>function lastFolder() {</p>
+<p>	var folderPath = window.location.pathname;</p>
+<p>	var folderPathArray = folderPath.split("/");</p>
+<p>	var lastfolder = folderPathArray[folderPathArray.length - 1];</p>
+<p>	return lastfolder;</p>
+<p>};	</p>
+<p>function rollUpUrl() {</p>
+<p>	var om_location_path = belo_tracking_sitepage;</p>
+<p>	om_location_path = om_location_path.replace("http://","");</p>
+<p>	var om_location_path_array = om_location_path.split("/");</p>
+<p>	var om_location_end = om_location_path_array.length - 1;</p>
+<p>    var s_hier1Roll = om_location_path_array[0];</p>
+<p>    for(i=1;i<om_location_path_array.length; i++){</p>
+<p>        if(i==1){</p>
+<p>            s_hier1Roll += "/" + om_location_path_array[i];</p>
+<p>        }else{</p>
+<p>            s_hier1Roll += "," + om_location_path_array[i];</p>
+<p>        }</p>
+<p>    }	</p>
+<p>    return s_hier1Roll;</p>
+<p>};</p>

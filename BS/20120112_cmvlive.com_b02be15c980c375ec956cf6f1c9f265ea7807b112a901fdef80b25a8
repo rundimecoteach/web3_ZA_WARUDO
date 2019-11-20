@@ -1,0 +1,103 @@
+<p>  Breast Implant Risks  $(document).ready(function() { $(".tab_content").hide(); $("ul.tabs li:first").addClass("active").show(); $(".tab_content:first").show(); $("ul.tabs li").click(function() { $("ul.tabs li").removeClass("active"); $(this).addClass("active"); $(".tab_content").hide(); var activeTab = $(this).find("a").attr("href"); $(activeTab).fadeIn(); return false;	}); }); $(document).ready(function () {  createTicker();  }); function createTicker(){ var tickerLIs = $("#header3-1-left-ticker ul").children();  tickerItems = new Array(); tickerLIs.each(function(el) { tickerItems.push( jQuery(this).html() ); });</p>
+<p>	i = 0</p>
+<p>	rotateTicker(); }  function rotateTicker(){   if( i == tickerItems.length ){    	  i = 0;   	}</p>
+<p>      tickerText = tickerItems[i];  c = 0;  typetext();     setTimeout( "rotateTicker()", 5000 );</p>
+<p>	i++;    }   var isInTag = false;  function typetext() { var thisChar = tickerText.substr(c, 1);  if( thisChar == '<' ){ isInTag = true; } if( thisChar == '>' ){ isInTag = false; }  $('#header3-1-left-ticker').html("&nbsp;" + tickerText.substr(0, c++));</p>
+<p>	if(c < tickerText.length+1) if( isInTag ){ typetext(); }else{ setTimeout("typetext()", 28); }</p>
+<p>	else { 	c = 1;   	tickerText = "";  } } $(function(){ $('#slides').slides({ preload: true, play: 5000, pause: 2500, hoverPause: true, animationStart: function(current){ $('.caption').animate({ 	bottom:-35 },100); if (window.console && console.log) { console.log('animationStart on slide: ', current); }; }, animationComplete: function(current){</p>
+<p> $('.caption').animate({ bottom:0 },200); if (window.console && console.log) { console.log('animationComplete on slide: ', current); }; }, slidesLoaded: function() { $('.caption').animate({ bottom:0 },200); } }); }); #content .post {  border: none !important;}.custom1{border-top:3px solid #0091ff !important;} .custom1 a{color:#0091ff !important;} .custom2{border-top:3px solid #e00000 !important;}  .custom2 a{color:#e00000 !important}  .custom3{border-top:3px solid #0422e0 !important;}  .custom3 a{color:#0422e0 !important} .custom4{border-top:3px solid #fa6c00 !important;} .custom4 a{color:#fa6c00 !important} .custom5{border-top:3px solid #c74600 !important;} .custom5 a{color:#c74600 !important} .custom6{border-top:3px solid #cffc05 !important;} .custom6 a{color:#cffc05 !important} .custom7{border-top:3px solid #2ba103 !important;} .custom7 a{color:#2ba103 !important}</p>
+<p>.custom8{border-top:3px solid #c400b7 !important;} .custom8 a{color:#c400b7 !important} .custom9{border-top:3px solid #ad0000 !important;} .custom9 a{color:#ad0000 !important} .custom10{border-top:3px solid #00ff1e !important;} .custom10 a{color:#00ff1e !important} .custom11{border-top:3px solid #d6c400 !important;} .custom11 a{color:#d6c400 !important} .custom12{border-top:3px solid #000 !important;} .custom12 a{color:#000 !important} var _wdsb_data = {</p>
+<p>					"min_width": 0,</p>
+<p>					"horizontal_selector": "",</p>
+<p>					"top_selector": "",</p>
+<p>					"z_index": 10000000,</p>
+<p>					"allow_fixed": 0,</p>
+<p>					"offset": {"htype": "text", "hdir": "left", "hoffset": 0, "vtype": "text", "voffset": 0},</p>
+<p>					"limit": {"top_selector": "", "top_offset": 0, "bottom_selector": "", "bottom_offset": 0}</p>
+<p>				};  try{jQuery.noConflict();}catch(e){};  AudioPlayer.setup("http://cmvlive.com/wp-content/plugins/audio-player-oogiechetos/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});  GS_googleAddAdSenseService("ca-pub-6190917271245185");</p>
+<p>GS_googleEnableAllServices(); GA_googleAddSlot("ca-pub-6190917271245185", "Cmv-336x280-Or-468x60_Below-Every-Post"); GA_googleFetchAds(); // </p>
+<p>    var OA_source = 'Cmvlive.com Ads';</p>
+<p>//  (function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=APP_ID";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));Edition: International |Articles SitemapCaribbean Travel BlogThursday 12 January, 2012Booking Your St. Thomas VacationGoogle Makes Search More Personal Olympic Security Threat: Fake Bomb Gets Through Eco Friendly Companies - New Ideas for Green BusinessesSamsung Galaxy S2 - Featuring Ice Cream SandwichLocal NewsRegional NewsInternational NewsEntertainmentBusinessMoneyPersonal FinanceStocks & InvestingTechnologyGadgetsMarketingPoliticsHomeAdvertise With UsHealthPress ReleasePublished On: Sun, Jan 8th, 2012Health / Life Style / Life Style & Fashin | By Cmv  Breast Implant Risks// </p>
+<p>    OA_show(4);</p>
+<p>//   Tweet     Having a boob job is not all fun and games. There are some serious breast implant risks that you should be aware of. Much of the time women are satisfied with their procedures and don’t have any regrets, but there are quite a few instances of complications. Here’s to helping you make an informed decision.Capsular ContractureThis complication is caused by a scar that grows in your body, right is the tissue around the breast implant. This can lead to hardening, implants looking very fake, and they may even hurt.You see this condition more often than you may know. Women who have very unnatural, round, hard looking breasts that have obviously been worked on usually have bad cases of capsular contracture.Some say that saline implants lower the risks of this type of scar tissue and that it’s more common with silicone implants, but there is no conclusive evidence on this yet.This sounds pretty scary, but many women develop mild capsular contracture and don’t even know they have it. Moderate to severe scarring, however, is likely to cause you discomfort and requires additional surgery. What happens during the additional surgery is that all the scar tissue must be removed from the breasts and a new implant would have to be put in. Even when you do all that additional work, there’s a chance the scarring will come back again.Luckily, there is something you can do to lower this risk. Placing the implant under the muscle will help to reduce the breast implant risk of internal scar tissue forming.Mammogram “Blocking”When you have an implant, it becomes harder to view all your breast tissue during a mammography. As you know, mammograms are vitally important to your health.Just like with capusal contraction, having your implant placed under the muscle will help. With implants placed over the muscle, only about 3/4 of your breast tissue can be seen during a mammogram. With it under the muscle, as much as 90% of your tissue can be seen – not perfect, but definitely better than 75%Breast Implant DisplacementJust because your surgeon puts your implants in the right spot doesn’t necessarily mean they’ll stay there. There is a problem (albeit an uncommon one) where breast implants move after the surgery. This can happen in any direction, and at any time.Implants Breaking & LeakingAs you may know, there are 2 main types of implants – saline and silicone. Each of these present different risks if they were to leak or break.Let’s start with the safer of the two: saline implants. These sometimes develop a leak and start to deflate, leaving you with one breast that goes back to your original size.This happens most often with implants that have NOT been overfilled. Although it may sound wrong, overfilling implants actually helps them stay “strong”. when the implant hasn’t been overfilled and a small piece folds over, it causes rubbing which wears the shell down. The shell can eventually become so thin that it tears, just like a piece of paper. This happens most often during the first year following your procedure, and then the risk decreases in subsequent years.google_analytics_uacct = "UA-27143544-1";</p>
+<p>google_analytics_domain_name="cmvlive.com";</p>
+<p>google_ad_client = "ca-pub-6190917271245185";</p>
+<p>/* 2250x250 inside articles middle */</p>
+<p>google_ad_slot = "6178239082";</p>
+<p>google_ad_width = 250;</p>
+<p>google_ad_height = 250; Your body is made of salt-water, so the saline that filled your implant does no real harm when it’s absorbed by your body. The implant would just need to be replaced.When you have silicone implants, the gel that fills the implant can’t be safely absorbed by your body. The shell can do the same thing and start to leak or even rupture, but the complications here are a little worse.The silicone leaking out of the implant will probably cause your body to form scar tissue around it. If the leak is a small one, you might not even notice that anything has even happened to your implant until you realize you have capsular contracture – the internal scarring we talked about earlier.This obviously requires surgery, as you can’t just leave a leaking silicone implant in your body. The implant and scar tissue would both need to be removed, and the implant would have to be replaced.RipplingWhile some implants come out looking great and very natural, sometimes you get weird “ripples” or slight waves that appear on your skin where the implants are placed. some surgeons also call this wrinkling.This happens because the saline contained in your implant is shifting around, leaving areas of “loose” skin without anything to fill it.Overfilling the implants can help prevent rippling, as well as using smooth implants rather than textured ones. Placing the implants under the muscle can also help prevent rippling in the upper portion of the breasts.Rippling hardly ever happens to silicone implants, and is more evident among those who choose saline.Numb NipplesNumbness in the nipples following breast surgery is so common that you shouldn’t even consider having breast augmentation done if you really can’t stand the thought of potentially losing sensation in your nipples.InfectionInfections following implant surgeries stand at about 1%. Usually infections occur in the first 2-3 months following breast augmentation procedures.If you should develop an infection, you’ll need to take antibiotics and remove the implant. You can’t replace the implant until at least 6 months down the road (allowing your body to heal properly) so you could go for awhile with lopsided breasts.SymmastiaThis is actually a rare one, but quite a problem if it happens. It can occur when implants are placed under the muscle and move together, leading to a “uniboob” look. This may happen because of over-dissection of breast tissues during surgery (sometimes done to purposely place implants close together for increased cleavage). This is more of a problem with thin women, because they have less breast tissue and chest space in the first place.These are some of the main side effects and risks of breast implants. They can range from mild, cosmetic problems to full blown life-threatening infections, you it’s up to you to weigh the pros and cons now that you have been educated on breast implant risks. For more information & to sign up for our free newsletter with beauty tips from professional models, visit our beauty portal today. Signing up today will give you access to secrets that over 99% of women will never know! By Jayna Davisinput, textarea{}</p>
+<p>#authorarea{  padding-left: 8px; margin:10px 0;  width: 635px; } #authorarea h3{  border-bottom: 1px solid #B0B0B0; color: #333333; font-family: georgia; font-size: 19px; font-weight: normal;  line-height: 22px; margin:0 4px 5px; padding-left: 8px;}</p>
+<p>#authorarea h3 a{text-decoration:none; color:#333; font-weight:bold} #authorarea img{margin:0 5px;  float:left; border:1px solid #ddd; width:40px; height:40px;}</p>
+<p>#authorarea p{color:#333; margin:0} #authorarea p a{color:#333} .authorinfo{ }About the Author Cmv -Related News        Booking Your St. Thomas Vacation   Best Hemorrhoid Treatments The Best Ways to Get Rid of Hemorrhoids Get rid of Freckles – Freckle Removers   Top 10 Reasons to Legalize Gay Marriage Leave a comment  Click here to cancel reply. You must be Logged in to post comment.google_analytics_uacct = "UA-27143544-1";</p>
+<p>google_analytics_domain_name="cmvlive.com";</p>
+<p>google_ad_client = "ca-pub-6190917271245185";</p>
+<p>/* Cmvlive.com 300x250 beside artisle and pages */</p>
+<p>google_ad_slot = "5712296786";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;  //</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://cmvlive.com/adserver/www/delivery/ajs.php':'http://cmvlive.com/adserver/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//Top Up Your Mobile Phone Online The browser doesn't support IFrames.MetaRegisterLog inEntries RSSComments RSSWordPress.orgArticles AchiveJanuary 2012December 2011November 2011October 2011September 2011google_ad_client = "ca-pub-6190917271245185";</p>
+<p>/* Right Sidebar Skyscraper (120x600) */</p>
+<p>google_ad_slot = "2197222530";</p>
+<p>google_ad_width = 120;</p>
+<p>google_ad_height = 600;       All Rights Reserved Cmvlive.com Caribbean Media Vision</p>
+<p>var infolink_pid =260341; var infolink_wsid = 0;  jQuery(document).ready(function(){</p>
+<p>							jQuery('.description').before('<span><!--INFOLINKS_OFF--></span>');jQuery('.description').after('<span><!--INFOLINKS_ON--></span>');jQuery('#headerimg').before('<span><!--INFOLINKS_OFF--></span>');jQuery('#headerimg').after('<span><!--INFOLINKS_ON--></span>');jQuery('h1').before('<span><!--INFOLINKS_OFF--></span>');jQuery('h1').after('<span><!--INFOLINKS_ON--></span>');jQuery('h1').before('<span><!--INFOLINKS_OFF--></span>');jQuery('h1').after('<span><!--INFOLINKS_ON--></span>');</p>
+<p>								}); </p>
+<p>				var _wdsb_data = {</p>
+<p>					"min_width": 0,</p>
+<p>					"horizontal_selector": "",</p>
+<p>					"top_selector": "",</p>
+<p>					"z_index": 10000000,</p>
+<p>					"allow_fixed": 0,</p>
+<p>					"offset": {"htype": "text", "hdir": "left", "hoffset": 0, "vtype": "text", "voffset": 0},</p>
+<p>					"limit": {"top_selector": "", "top_offset": 0, "bottom_selector": "", "bottom_offset": 0}</p>
+<p>				};</p>
+<p>			</p>
+<p>/* <![CDATA[ */</p>
+<p>var WPGroHo = {"my_hash":""};</p>
+<p>/* ]]> */</p>
+<p>	st_go({v:'ext',j:'1:1.2.2',blog:'27349592',post:'9344'});</p>
+<p>	var load_cmc = function(){linktracker_init(27349592,9344,2);};</p>
+<p>	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);</p>
+<p>	else load_cmc();</p>
+<p>	</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-27143544-1']);</p>
+<p>  _gaq.push(['_setDomainName', '.cmvlive.com']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>var _qevents = _qevents || [];</p>
+<p>(function() {</p>
+<p>var elem = document.createElement('script');</p>
+<p>elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";</p>
+<p>elem.async = true;</p>
+<p>elem.type = "text/javascript";</p>
+<p>var scpt = document.getElementsByTagName('script')[0];</p>
+<p>scpt.parentNode.insertBefore(elem, scpt);</p>
+<p>})();</p>
+<p>_qevents.push({</p>
+<p>qacct:"p-34VR0WJlE6YKw"</p>
+<p>});</p>
+<p> </p>

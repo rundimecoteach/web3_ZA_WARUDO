@@ -1,0 +1,250 @@
+<p>Management in Practice - Getting to grips with CQC outcomes and compliance</p>
+<p>	jQuery(document).ready(function() {</p>
+<p>	</p>
+<p>		if (jQuery(".headlines #im0").length)</p>
+<p>		{</p>
+<p>			window.setInterval('rotateHeadlines()', 5000);</p>
+<p>		}</p>
+<p>		</p>
+<p>		lineUpByID('#gpbcontent','#topstoriescontent');	</p>
+<p>		lineUpByID('#panelNutrition','#panelProfessional');	</p>
+<p>		/***********************************************</p>
+<p>		* Easy Email Scrambler script- © Dynamic Drive (www.dynamicdrive.com)</p>
+<p>		* This notice MUST stay intact for legal use</p>
+<p>		* Visit http://www.dynamicdrive.com/ for full source code</p>
+<p>		***********************************************/</p>
+<p>		</p>
+<p>		var maildivider="{encrypt@thisemail}" //enter divider you use to divide your email address strings</p>
+<p>		</p>
+<p>		for (i=0; i<=(document.links.length-1); i++)</p>
+<p>		{</p>
+<p>			if (document.links[i].href.indexOf(maildivider)!=-1)</p>
+<p>			document.links[i].href=document.links[i].href.split(maildivider)[0]+"@"+document.links[i].href.split(maildivider)[1]</p>
+<p>		}</p>
+<p>	 	jQuery("#ATE_RevealOldQuestions").show();</p>
+<p>	 	jQuery("#ATE_OldQuestions").hide();</p>
+<p>	 </p>
+<p>	 	jQuery("#ATE_HREF_RevealOldQuestions").click(function () {</p>
+<p>	 		jQuery("#ATE_OldQuestions").show();</p>
+<p>	 		jQuery("#ATE_RevealOldQuestions").hide();</p>
+<p>	 		</p>
+<p>	 		jQuery('html, body').animate({</p>
+<p>				scrollTop: $("#ATE_OldQuestions").offset().top</p>
+<p>			}, 2000);</p>
+<p>	 	});</p>
+<p>	});</p>
+<p>	</p>
+<p>	</p>
+<p>	function mipPelotonVideo(sSource, sId, nWidth, nHeight)</p>
+<p>	{</p>
+<p>		insertPelotonVideo(sSource, sId, nWidth, nHeight, 'anonymous');</p>
+<p>	}</p>
+<p>	</p>
+<p>	function styTog(targ_id,sty_attrJ,sty_attrC,set_val)</p>
+<p>		{</p>
+<p>		var targ=document.getElementById(targ_id);</p>
+<p>		var targ_stat="";</p>
+<p>		var targ_sty="";</p>
+<p>		var attr_chk=sty_attrC.toLowerCase()</p>
+<p>		var excp_flag=0;</p>
+<p>		</p>
+<p>		if(attr_chk.indexOf("color")!=-1 || attr_chk.indexOf("font")!=-1)</p>
+<p>			{</p>
+<p>			excp_flag=1;</p>
+<p>			</p>
+<p>			if(!document.getElementById("zedSpan"))</p>
+<p>				{</p>
+<p>				var insSpan=document.createElement("span");</p>
+<p>				insSpan.setAttribute("id","zedSpan");</p>
+<p>				document.body.appendChild(insSpan);</p>
+<p>				}</p>
+<p>	</p>
+<p>			var zS=document.getElementById("zedSpan").style</p>
+<p>			zS[sty_attrJ]=set_val;</p>
+<p>			}</p>
+<p>		</p>
+<p>			if(targ.currentStyle)</p>
+<p>			{  //code for IE</p>
+<p>				if(excp_flag==1)set_val=zS[sty_attrJ];</p>
+<p>				targ_stat=targ.currentStyle[sty_attrJ];</p>
+<p>			}</p>
+<p>			else</p>
+<p>			{  //code for W3C-spec-compatible</p>
+<p>				if(excp_flag==1)</p>
+<p>					{</p>
+<p>					var tst_span=document.getElementById("zedSpan");</p>
+<p>					var tst_sty=document.defaultView.getComputedStyle(tst_span,"");</p>
+<p>						set_val=tst_sty.getPropertyValue(sty_attrC);</p>
+<p>						excp_flag=0;</p>
+<p>					}</p>
+<p>				targ_sty=document.defaultView.getComputedStyle(targ,"");</p>
+<p>				targ_stat=targ_sty.getPropertyValue(sty_attrC);</p>
+<p>			}</p>
+<p>			if (targ_stat!=set_val)</p>
+<p>			{</p>
+<p>				try { targ.style[sty_attrJ]=set_val; } catch(e) {}</p>
+<p>			}</p>
+<p>			else</p>
+<p>			{</p>
+<p>				targ.style[sty_attrJ]="";</p>
+<p>			}</p>
+<p>		}</p>
+<p>	/***********************************************</p>
+<p>	* Encrypt Email script- Please keep notice intact</p>
+<p>	* Tool URL: http://www.dynamicdrive.com/emailriddler/</p>
+<p>	* **********************************************/</p>
+<p>	var encryptedemail_id1=''; </p>
+<p>	</p>
+<p>	var emailriddlerarray=[109,105,112,64,99,97,109,112,100,101,110,46,99,111,109];</p>
+<p>	for (var i=0; i<emailriddlerarray.length; i++) encryptedemail_id1+=String.fromCharCode(emailriddlerarray[i])</p>
+<p>	</p>
+<p>	_uacct = "UA-1425819-3";</p>
+<p>	urchinTracker();</p>
+<p>	</p>
+<p>Thursday 15 December 2011</p>
+<p>Register  </p>
+<p>		Login</p>
+<p> </p>
+<p>CommissioningCQCHRIM&TLegislationPatient ServicesPremisesPrimary Care DevelopmentRisk ManagementTraining</p>
+<p>Search </p>
+<p>		</p>
+<p>All zones</p>
+<p>Commissioning</p>
+<p>CQC</p>
+<p>Finance</p>
+<p>HR</p>
+<p>IM&T</p>
+<p>Legislation</p>
+<p>Medical Equipment</p>
+<p>Partnership Issues</p>
+<p>Patient Access</p>
+<p>Patient Services</p>
+<p>Pharmacy and Drugs</p>
+<p>Premises</p>
+<p>Primary Care Development</p>
+<p>Risk Management</p>
+<p>Training</p>
+<p>		 for </p>
+<p>		</p>
+<p>You are here:</p>
+<p>		document.write('<a class="last" href="http://www.managementinpractice.com/article/27749/Getting_to_grips_with_CQC_outcomes_and_compliance" title="Getting to grips with CQC outcomes and compliance">Getting to...</a>');</p>
+<p>	</p>
+<p>Getting to...</p>
+<p> </p>
+<p> </p>
+<p>		var oContainerDiv   = document.getElementById("crumbcontainer");</p>
+<p>		var nContainerWidth = oContainerDiv.offsetWidth;</p>
+<p>		var oViewPortDiv    = document.getElementById("crumbviewport");</p>
+<p>		var nViewPortWidth  = oViewPortDiv.offsetWidth;</p>
+<p>		</p>
+<p>		while (nContainerWidth > nViewPortWidth)</p>
+<p>		{</p>
+<p>			var sHTML    = oContainerDiv.innerHTML;</p>
+<p>			var nIndex   = sHTML.indexOf("|");</p>
+<p>			</p>
+<p>			if (nIndex > -1)</p>
+<p>			{</p>
+<p>				oContainerDiv.innerHTML = sHTML.substring(nIndex+1);</p>
+<p>				nContainerWidth = oContainerDiv.offsetWidth;</p>
+<p>			}</p>
+<p>			else</p>
+<p>			{</p>
+<p>				break;</p>
+<p>			}</p>
+<p>		}</p>
+<p>	</p>
+<p> </p>
+<p>Home</p>
+<p>Latest Issue</p>
+<p>Events</p>
+<p>CPD Zone</p>
+<p>Awards</p>
+<p>Suppliers Guide</p>
+<p>Special Offers</p>
+<p>Advertise</p>
+<p>News Email</p>
+<p>Flu Season Video</p>
+<p>As practices prepare for the winter flu vaccination season, we've produced a 5 minute video to help practice managers get ready for a very important and hectic part of the year.</p>
+<p>Get the magazine</p>
+<p>Apply for a free copy here</p>
+<p>Management Zones</p>
+<p>Commissioning</p>
+<p>CQC</p>
+<p>Finance</p>
+<p>HR</p>
+<p>IM&T</p>
+<p>Legislation</p>
+<p>Medical Equipment</p>
+<p>Partnership Issues</p>
+<p>Patient Access</p>
+<p>Patient Services</p>
+<p>Pharmacy and Drugs</p>
+<p>Premises</p>
+<p>Primary Care Development</p>
+<p>Risk Management</p>
+<p>Training</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Advertisement Feature</p>
+<p>   Tweet         Getting to grips with CQC outcomes and compliance</p>
+<p>Thursday 15th December 2011</p>
+<p> </p>
+<p>By 1 April 2013 all GP practices must be registered with the Care Quality Commission (CQC) and declare that they are compliant with 16 'Core Quality and Safety Standards' for the regulated activities they provide. </p>
+<p>No doubt many practice managers are considering eLearning as a way of proving staff competence in each of the key areas, as it is a sure way of showing who was trained, when training took place and that the trainee achieved the required pass mark to be deemed competent.</p>
+<p>While it is a fact that eLearning will be an essential tool in the practice manager's toolbox with regard to proving compliance it is important that:</p>
+<p>It is easy to use.</p>
+<p>It is in line with CQC outcomes. </p>
+<p>It is cost-effective.</p>
+<p>It provides proof of competency.</p>
+<p>Blue Stream Learning Limited, an established provider of eLearning to the acute and primary care sectors of the NHS, has developed a suite of interactive training modules that ticks each of  these boxes.</p>
+<p>Training information is presented clearly and in an easy-to-navigate format, there are case studies and knowledge tests with randomly selected questions to give a true assessment of competency and a certificate is provided for printing or storing in  the database.</p>
+<p>In order to gauge the quality and accuracy of the content in terms of the needs of GP practices, Blue Stream Learning engaged the help of a number of pilot GP practice sites both locally and nationally.</p>
+<p>Whitemoor Medical Centre in Belper, Derbyshire have piloted Blue Stream's eLearning modules and have recently completed the Information Governance and Fire Safety modules during Quest sessions; feedback has been excellent, with trainees finding the training informative and very easy to navigate. It is also proving very cost-effective in comparison with other traditional methods, with the added benefit of providing auditable  training records.</p>
+<p>In addition, the ability to do the training 'at a time and in a place' that is convenient to the trainee enables them to provide training for staff members unable to attend pre-arranged training sessions. They are planning on incorporating further  modules into next year's training plan. </p>
+<p>Use of the Blue Stream Learning GP Practice eLearning suite could not be simpler, registration is free and there are no annual subscription fees. The cost is based on a completed training module (there is a bookmark facility to allow a trainee to leave and return to the training module if required). Purchased training courses do not expire and there is no minimum commitment.</p>
+<p>The suite resides on a secure server and can be accessed by a unique PIN code, which is practice specific. Each trainee registers on the system and is then presented with a menu of CQC outcomes. When each outcome is selected the trainee is able to choose from a drop-down list of compliance- related topics.</p>
+<p>The trainee can access the Management Information System (MIS) to view/print their training record and the practice manager/training manager can access all records for their practice for statistical/audit purposes.</p>
+<p>There has never been a greater need for a consistent comprehensive training tool within the GP practice environment and Blue Stream Learning Limited has: The right products at the right time and  at the right cost.Call us for more information on our freephone number 0800 1588661.Blue Stream Learning Limited</p>
+<p>67 King StreetBelperDerbyshire DE56 1QA</p>
+<p>www.bluestreamlearning.com</p>
+<p> </p>
+<p>Return to top</p>
+<p> </p>
+<p>USER TOOLS</p>
+<p>Have your say - comment on this item</p>
+<p> </p>
+<p>Email to friend</p>
+<p>Print-friendly version</p>
+<p> </p>
+<p> </p>
+<p>Flu Season Video</p>
+<p>					As practices prepare for the winter flu vaccination season, we've produced a 5 minute video to help practice managers get ready for a very important and hectic part of the year.</p>
+<p>					 </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>© Campden Publishing Limited 2011</p>
+<p>Site Map</p>
+<p>				|</p>
+<p>				Accessibility</p>
+<p>				|</p>
+<p>				Terms & Conditions</p>
+<p>				|</p>
+<p>				Privacy Policy</p>
+<p>				|</p>
+<p>				Contacts</p>
+<p>		Campden Publishing Ltd., 1 St John's Square London EC1M 4PN, is  a company registered in the United Kingdom with Reg. No. 2147432</p>
+<p>www.campden.com</p>
+<p> </p>
+<p> </p>
+<p>	</p>
+<p>	/****************************************************</p>
+<p>	* DOM Image rollover v3.0: By Chris Poole http://chrispoole.com</p>
+<p>	* Script featured on http://www.dynamicdrive.com</p>
+<p>	* Keep this notice intact to use it :-)</p>
+<p>	****************************************************/</p>
+<p>	</p>
+<p>	</p>
+<p>Web design, hosting and programming by ModeZero</p>

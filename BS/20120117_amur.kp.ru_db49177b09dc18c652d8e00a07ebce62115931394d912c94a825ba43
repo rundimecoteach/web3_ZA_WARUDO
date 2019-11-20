@@ -1,0 +1,626 @@
+<p>В Благовещенске открылось отделение паллиативной помощи больным раком // KP.RU - Благовещенск</p>
+<p>		VK.init({apiId: 2353840, onlyWidgets: true});</p>
+<p>	</p>
+<p>new adriver.Plugin.require("onScroll.adriver");</p>
+<p>    var search_divname='mossearch_searchdiv';</p>
+<p>    var search_page='/search/mos/';</p>
+<p>    var mossearch_cityname='Благовещенск';</p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>var pp_gemius_identifier = new String('zaAwsmbw5_FHpT0GOfbZhZPcDpGiptrOJBx9trjSoub.k7');</p>
+<p>//--><!]]></p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>var pp_gemius_identifier = new String('zUowEmb952DnYD2GqpVRdbR5DftyWdraWlR9aPv2_lb.I7');</p>
+<p>//--><!]]></p>
+<p><!--</p>
+<p>new Image().src = "//counter.yadro.ru/hit;kp/reg/amur?r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";h"+escape(document.title.substring(0,80))+</p>
+<p>";"+Math.random();//--></p>
+<p>var _gaq = _gaq || [];</p>
+<p>/* First Call */</p>
+<p>_gaq.push(['_setAccount', 'UA-23870775-1']);</p>
+<p>_gaq.push(['_setDomainName', '.kp.ru']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>/* Second Call */</p>
+<p>_gaq.push(['SecondTracker._setAccount', 'UA-5200037-27']);</p>
+<p>_gaq.push(['SecondTracker._setDomainName', '.kp.ru']);</p>
+<p>_gaq.push(['SecondTracker._trackPageview']);</p>
+<p>(function() {</p>
+<p>var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>
+<p>	var img = new Image();</p>
+<p>	img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*kp_ru/ru/CP1251/tmsec=kp_news/';</p>
+<p>//<![CDATA[</p>
+<p>var a='';js=10;d=document;</p>
+<p>try{a+=';r='+escape(d.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}</p>
+<p>try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}</p>
+<p>try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}</p>
+<p>try{d.write('<a href="http://top.mail.ru/jump?from=294001" rel="nofollow"><img src="http://dc.c7.b4.a0.top.mail.ru/counter?id=294001;js='+js+</p>
+<p>a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" style="border:0;" height="1" width="1" \/><\/a>');}catch(e){}//]]></p>
+<p>/* <![CDATA[ */</p>
+<p>var openstat = { counter: 2026010, next: openstat, vars: { region: "Благовещенск", theme: "Новости" } };</p>
+<p>document.write(unescape("%3Cscript%20src=%22http" +</p>
+<p>(("https:" == document.location.protocol) ? "s" : "") +</p>
+<p>"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </p>
+<p>/* ]]> */</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=171114&target=top&bt=43&pz=0&tail256=');</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=news&target=top&bt=43&pz=2&tail256=');</p>
+<p>Комсомольская Правда</p>
+<p>Архив</p>
+<p>Подписка</p>
+<p> Радио КП</p>
+<p> Телеканал КП</p>
+<p>Благовещенск</p>
+<p>не ваш регион?</p>
+<p>просим сообщить нам</p>
+<p>Выбрать другой регион</p>
+<p>Москва</p>
+<p>Архангельск</p>
+<p>Барнаул</p>
+<p>Беларусь</p>
+<p>Белгород</p>
+<p>Бишкек</p>
+<p>Благовещенск</p>
+<p>Болгария</p>
+<p>Брянск</p>
+<p>Владивосток</p>
+<p>Владимир</p>
+<p>Волгоград</p>
+<p>Вологда</p>
+<p>Воронеж-Черноземье</p>
+<p>Египет</p>
+<p>Екатеринбург</p>
+<p>Иваново</p>
+<p>Ижевск</p>
+<p>Иркутск</p>
+<p>Казань</p>
+<p>Калининград</p>
+<p>Канада</p>
+<p>Кемерово</p>
+<p>Киров</p>
+<p>Краснодар</p>
+<p>Красноярск</p>
+<p>Молдова</p>
+<p>Мурманск</p>
+<p>Нижний Новгород</p>
+<p>Новосибирск</p>
+<p>Омск</p>
+<p>Пенза</p>
+<p>Пермь</p>
+<p>Псков</p>
+<p>Ростов-на-Дону</p>
+<p>Рязань</p>
+<p>Самара</p>
+<p>Санкт-Петербург</p>
+<p>Саратов</p>
+<p>Северная Европа</p>
+<p>Смоленск</p>
+<p>Ставрополь</p>
+<p>США</p>
+<p>Сыктывкар</p>
+<p>Тверь</p>
+<p>Томск</p>
+<p>Тула</p>
+<p>Тюмень</p>
+<p>Украина</p>
+<p>Ульяновск</p>
+<p>Уфа</p>
+<p>Хабаровск</p>
+<p>Челябинск</p>
+<p>Черногория</p>
+<p>Чехия</p>
+<p>Чита</p>
+<p>Ярославль</p>
+<p>Следите за намив социальных сетях:</p>
+<p>Искать</p>
+<p>        что:  </p>
+<p>        где: </p>
+<p> По KP.RU</p>
+<p> По каталогу: Благовещенск</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>KP-AVTO</p>
+<p>Происшествия</p>
+<p>Культура</p>
+<p>Звезды</p>
+<p>Наука</p>
+<p>Телевизор</p>
+<p>Мужчина и женщина</p>
+<p>Спорт</p>
+<p>Здоровье</p>
+<p>Новости</p>
+<p>Видео</p>
+<p>Фото</p>
+<p>Спецпроекты</p>
+<p>Радио КП</p>
+<p>Ваш дом</p>
+<p>Ваши права</p>
+<p>Реклама</p>
+<p>Афиша</p>
+<p>Мама и малыш</p>
+<p>Не будь равнодушным</p>
+<p>18 января 2012среда</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&bn=1&target=top&bt=43&pz=3&tail256=');</p>
+<p>Гуглик недели: Новый проект KP.RU и Google</p>
+<p>Загружается, подождите...</p>
+<p>RF.init({ partner_code: 723 });</p>
+<p>h2.col_title{</p>
+<p>	font-family: Arial, Verdana, sans-serif;</p>
+<p>	background-color: #568FC1;</p>
+<p>	color: white;</p>
+<p>	line-height: 20px;</p>
+<p>	padding-left: 10px;</p>
+<p>	font-size: 14px;</p>
+<p>	width: 152px;</p>
+<p>	margin:0;</p>
+<p>}</p>
+<p>h2.col_title a {</p>
+<p>	text-decoration:none;</p>
+<p>	color:white;</p>
+<p>}</p>
+<p>h2.col_title a:hover {</p>
+<p>	text-decoration:underline;</p>
+<p>	color:white;</p>
+<p>}</p>
+<p>Предложения по недвижимости</p>
+<p>RF.Widget("Spec", {</p>
+<p>city: '7700000000000000000000000',</p>
+<p>showCityName: 1,</p>
+<p>columnCount: 1,</p>
+<p>rowCount: 1,</p>
+<p>adsCount: {rent: 4, flat: 4, cottage: 4, land: 4, new_building: 4},</p>
+<p>cellStyle: {paddingTop: '0px'},</p>
+<p>containerStyle: {background: '', width: '100%'},</p>
+<p>headingStyle: {color: '#1163A8', fontSize: '10px', fontFamily: 'Tahoma,sans-serif', marginTop: '0px'},</p>
+<p>locationStyle: {fontSize: '10px', fontFamily: 'Tahoma,sans-serif', fontStyle: 'none', color:'#343434'},</p>
+<p>detailsLinkStyle: {color:'#343434', fontSize: '10px', fontFamily: 'Tahoma,sans-serif'},</p>
+<p>imageContainerStyle: {padding: '2px', border: '1px solid #969696', marginRight: '4px', width: '90px', height:'90px' },</p>
+<p>imageStyle: {width: '90px', height:'90px'}</p>
+<p>});</p>
+<p><!--</p>
+<p>function adriverPoster(L){</p>
+<p>    if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>    var W=window,D=document,E=D.documentElement,T=0,N=ar_cn,P=0,C=D.compatMode=="CSS1Compat",</p>
+<p>        X='<scr'+'ipt type="text/javascript">var ar_bnum='+N+';setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e)}},3000);',</p>
+<p>        Y='<\/sc'+'ript><sc'+'ript type="text/javascript" src="'+L+'&tail256='+escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999)+'"><\/sc'+'ript>';</p>
+<p>    function G(){if(T++<100){var o=D.getElementById('ar_container_'+N);if(o){try{var d=o.contentDocument||(W.ActiveXObject&&W.frames['ar_container_'+N].document);if(d){d.write(X+Y)}else setTimeout(arguments.callee,100)}catch(e){try{o.src = "javascript:{document.write('"+X+'document.domain="'+D.domain+'";'+Y+"')}";return}catch(E){}}}else setTimeout(arguments.callee,100)}}</p>
+<p>    function A(e,t,f){if(e.addEventListener)e.addEventListener(t,f,false);else if(e.attachEvent)e.attachEvent('on'+t,f)}</p>
+<p>    function R(e,t,f){if(e.removeEventListener)e.removeEventListener(t,f,false);else if(e.detachEvent)e.detachEvent('on'+t,f)}</p>
+<p>    function S(){var ch=self.innerHeight||C&&E.clientHeight||D.body.clientHeight,st=self.pageYOffset||C&&E.scrollTop||D.body.scrollTop;if(P>=st&&st+ch>=P){R(W,'scroll',S);G()}}</p>
+<p>    A(W,'load',function(){var o=D.getElementById('ad_ph_'+N);if(o){while(o.offsetParent){P+=o.offsetTop;o=o.offsetParent}A(W,'scroll',S);S()}});</p>
+<p>    D.write('<div style="position:absolute;visibility:hidden;height:0px;"><iframe id="ar_container_'+N+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+N+'"><\/div>');</p>
+<p>    ar_cn++;</p>
+<p>}</p>
+<p>adriverPoster("http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=second&target=top&bt=49&pz=1");</p>
+<p>//--></p>
+<p><!--</p>
+<p>yottos_advertise = "3402b070-7881-11df-a153-0015175ecad8";</p>
+<p>//--></p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 26254;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1;</p>
+<p>yandex_direct_type = 'vertical';</p>
+<p>yandex_direct_border_type = 'block';</p>
+<p>yandex_direct_limit = 2;</p>
+<p>yandex_direct_header_bg_color = 'FEEAC7';</p>
+<p>yandex_direct_border_color = 'FBE5C0';</p>
+<p>yandex_direct_title_color = '1163A8';</p>
+<p>yandex_direct_url_color = '1163A8';</p>
+<p>yandex_direct_all_color = 'CC0000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '0066FF';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//]]></p>
+<p>Тарифы на теплоэнергию повысятся</p>
+<p> </p>
+<p>    var dateNM = new Date();</p>
+<p>    var t = Math.floor(dateNM.getTime()/(1000*600));</p>
+<p>    document.write('<scr'</p>
+<p>        +'ipt type="text/javascript" '</p>
+<p>        +'src="http://t.novostimira.com/t/c/47/0/template.js?v='</p>
+<p>        +t</p>
+<p>        +'" charset="UTF-8" ></scr'</p>
+<p>        +'ipt>');</p>
+<p>new TWTR.Widget({</p>
+<p>  version: 2,</p>
+<p>  type: 'profile',</p>
+<p>  rpp:14,</p>
+<p>  interval: 6000,</p>
+<p>  width: 160,</p>
+<p>  height: 650,</p>
+<p>  theme: {</p>
+<p>    shell: {</p>
+<p>      background: '#333333',</p>
+<p>      color: '#ffffff'</p>
+<p>    },</p>
+<p>    tweets: {</p>
+<p>      background: '#000000',</p>
+<p>      color: '#ffffff',</p>
+<p>      links: '#4aed05'</p>
+<p>    }</p>
+<p>  },</p>
+<p>  features: {</p>
+<p>    scrollbar: false,</p>
+<p>    loop: false,</p>
+<p>    live: true,</p>
+<p>    hashtags: false,</p>
+<p>    timestamp: true,</p>
+<p>    avatars: false,</p>
+<p>    behavior: 'all'</p>
+<p>  }</p>
+<p>}).render().setUser('2x2_su').start();</p>
+<p>Новости 24</p>
+<p>В Благовещенске открылось отделение паллиативной помощи больным раком</p>
+<p>Оно рассчитано на 10 мест</p>
+<p>		#like_buttons, #like_buttons div  {</p>
+<p>			margin: 0 0 5px 0;</p>
+<p>		}</p>
+<p>		#like_buttons div  {</p>
+<p>			float: left;</p>
+<p>		}</p>
+<p>	</p>
+<p>Читаю</p>
+<p>  VK.init({apiId: 2243006, onlyWidgets: true});</p>
+<p>	VK.Widgets.Like("vk_like", {type: "mini"});</p>
+<p>0</p>
+<p>Отделение паллиативной помощи рассчитано на десять мест.</p>
+<p>Фото: из архива "КП". </p>
+<p>Ирина ЗРАЖЕВСКАЯ — 17.01.2012 15:44 </p>
+<p>	Официальное открытие прошло сегодня днем. Напомним, отделение паллиативной помощи открыли на базе городской клинической больницы Благовещенска.</p>
+<p>	Как сообщает пресс-служба областного правительства, отделение рассчитано на десять мест. Где смогут разместиться люди, больные раком 4 стадии, которым осталось жить 3-6 месяцев.</p>
+<p>	Отделение оснащено всем необходимым оборудованием для ухода за тяжелобольными (4-х уровневые кровати, мониторы, кресла-туалеты, система подачи кислорода, спецоборудование душевого отделения). За больными будут наблюдать 2 врача (онколог и терапевт), 9 медсестер и 10 санитарок, а также члены областной общественной ветеранской организации «Милосердие».</p>
+<p>	Кстати, всего на ремонт и реконструкцию отделения ушло 2 месяца и 11,2 миллионов рублей, еще 7,2 миллиона потратили на оборудование и мебель.</p>
+<p>	 </p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=51864&sz=news&bn=9&w=517&h=70&target=blank&bt=1&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=517 height=70 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>        .my_clip_button { color:#1163A8; cursor:pointer; }</p>
+<p>        .my_clip_button.hover { background-color:#EEEEEE; }</p>
+<p>        .my_clip_button.active { background-color:#AAAAAA; }</p>
+<p>        .bold_red { color:#AA0000; weight:bold; }</p>
+<p>    // http://code.google.com/p/zeroclipboard/</p>
+<p>    ZeroClipboard.setMoviePath( 'http://amur.kp.ru/_swf/ZeroClipboard.swf' );</p>
+<p>    /*  */</p>
+<p>    var clip = null;</p>
+<p>    // function $(id) { return document.getElementById(id); } // это есть в Prototype</p>
+<p>    function initZeroClipboard() {</p>
+<p>            clip = new ZeroClipboard.Client();</p>
+<p>            clip.setHandCursor( true );</p>
+<p>            clip.addEventListener('load', my_load);</p>
+<p>            clip.addEventListener('mouseOver', my_mouse_over);</p>
+<p>            clip.addEventListener('complete', my_complete);</p>
+<p>            clip.glue( 'd_clip_button' );</p>
+<p>    }</p>
+<p>    function my_load(client) {</p>
+<p>            $('d_clip_button').innerHTML = "<u>Скопировать код</u>";</p>
+<p>    }</p>
+<p>    function my_mouse_over(client) {</p>
+<p>            clip.setText( $('fe_text').value );</p>
+<p>    }</p>
+<p>    function my_complete(client, text) {</p>
+<p>            $('d_clip_button').innerHTML = "<span class=\"bold_red\">Код скопирован</span>";</p>
+<p>    }</p>
+<p>    var popup_win;</p>
+<p>    function initPopupWindow() {</p>
+<p>        popup_win = new Window({className: "bluelighting", title: "Что это такое?", width:300, height:200, destroyOnClose: false, recenterAuto:false});</p>
+<p>        popup_win.getContent().update("<p>Вы можете опубликовать понравившийся материал нашего сайта у себя в блоге. Достаточно, раскрыть поле с кодом и нажать на кнопку «скопировать код». После этого достаточно вставить код из буфера обмена в свой блог. Для отдельных сервисов сделаны специальные кнопки, которые позволяют опубликовать материал сразу напрямую в Facebook, Twitter, Вконтакте и Мой Мир. Также существует возможность добавить RSS-поток по интересующей вас тематике в Яндекс-ленту.</p>");</p>
+<p>    }</p>
+<p>Нашли опечатку? Выделите ее и нажмите Ctrl+Enter</p>
+<p>Tweet</p>
+<p>Нравится</p>
+<p>Facebook</p>
+<p><!--</p>
+<p>                    document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));</p>
+<p>                    --></p>
+<p>0</p>
+<p>Код для блога:</p>
+<p>Livejournal</p>
+<p>Я.ру</p>
+<p>Liveinternet.ru</p>
+<p>Показать окно с кодом</p>
+<p>Скрыть окно с кодом</p>
+<p>В Благовещенске открылось отделение паллиативной помощи больным раком17.01.2012 Официальное открытие прошло сегодня днем. Напомним, отделение паллиативной помощи открыли на базе городской клинической больницы Благовещенска.  Как сообщает пресс-служба областного правительства, отделение рассчитано на десять мест. Где смогут разместиться люди, больные раком 4 стадии, которым осталось жить 3-6 месяцев.Подробнее »</p>
+<p>...</p>
+<p>Показать результат</p>
+<p>Скрыть результат</p>
+<p>Печать</p>
+<p>RSS</p>
+<p>В Благовещенске открылось отделение паллиативной помощи больным раком17.01.2012 Официальное открытие прошло сегодня днем. Напомним, отделение паллиативной помощи открыли на базе городской клинической больницы Благовещенска.  Как сообщает пресс-служба областного правительства, отделение рассчитано на десять мест. Где смогут разместиться люди, больные раком 4 стадии, которым осталось жить 3-6 месяцев.Подробнее »</p>
+<p>    Event.observe(window, 'load', function() {</p>
+<p>        initZeroClipboard();</p>
+<p>        initPopupWindow();</p>
+<p>    });</p>
+<p>Все новости online</p>
+<p>Вернуться на главную </p>
+<p>function ml_ph(p){document.write('<div id="magnaph'+p+'" style="display:none"></div>');}function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe></div>');}function ml_getCode(n,p,s){var d;if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}try{s+=(location.href!==undefined&&location.href!=''?'&l='+location.href:'')+(document.referrer!==undefined&&document.referrer!=''?'&r='+document.referrer:'');}catch(e){}if(d){d.write('<scr'+'ipt  charset="utf-8" src="'+s+'"></scr'+'ipt>');}else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}}}var place_id = '5110';ml_ph(place_id); ml_c(place_id);ml_getCode(1,place_id,'http://qip.magna.ru/xml_out/?id='+place_id+'&rid=' + Math.round(Math.random()*100000));</p>
+<p>Загружается, подождите...</p>
+<p>Загрузка...</p>
+<p>Оставить свой комментарий »</p>
+<p>Добавить комментарий</p>
+<p> </p>
+<p>            Имя*:</p>
+<p>            E-mail:</p>
+<p>            Текст комментария:</p>
+<p>* Звездочкой отмечены поля обязательные для заполнения</p>
+<p>Загружается, подождите...</p>
+<p>Загрузка...</p>
+<p>Загружается, подождите...</p>
+<p><!--</p>
+<p>yottos_advertise = "e48ca60f-a6d2-11df-8104-0015175ecad8";</p>
+<p>//--></p>
+<p>new Ajax.Updater('uslotitem3018', '/_ajax/social_tabs_iframe?w=280&h=400', { method: 'get' });</p>
+<p>Трассы в ряде российских областей не соответствуют стандартам</p>
+<p>Родителям будет проще потратить материнский капитал на свое жилье</p>
+<p>Путин предложил увеличить поддержку семей, усыновляющих детей</p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 26254;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1;</p>
+<p>yandex_direct_type = 'vertical';</p>
+<p>yandex_direct_border_type = 'block';</p>
+<p>yandex_direct_limit = 3;</p>
+<p>yandex_direct_header_bg_color = 'FEEAC7';</p>
+<p>yandex_direct_bg_color = 'FFFFFF';</p>
+<p>yandex_direct_border_color = 'FBE5C0';</p>
+<p>yandex_direct_title_color = '1163A8';</p>
+<p>yandex_direct_url_color = '1163A8';</p>
+<p>yandex_direct_all_color = 'CC0000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '0066FF';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//]]></p>
+<p>(function(){</p>
+<p>	var cb = Math.random();</p>
+<p>	document.write('<div id="targetix-container-'+cb+'"></div>');</p>
+<p>	document.MAX_used = document.MAX_used || ',';</p>
+<p>	var m3_u = (document.location.protocol=='https:'?'https://ads.targetix.net/ajs.php':'http://ads.targetix.net/ajs.php');</p>
+<p>	m3_u += '?zoneid=91';</p>
+<p>	m3_u += '&cb=' + cb;</p>
+<p>	if (document.MAX_used != ',') m3_u += '&exclude=' + document.MAX_used;</p>
+<p>	m3_u += document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : '');</p>
+<p>	m3_u += '&loc=' + encodeURIComponent(window.location);</p>
+<p>	if (document.referrer) m3_u += '&referer=' + encodeURIComponent(document.referrer);</p>
+<p>	if (document.context) m3_u += '&context=' + encodeURIComponent(document.context);</p>
+<p>	if (document.mmm_fo) m3_u += '&mmm_fo=1';</p>
+<p>	var m3_ajs = document.createElement('script');m3_ajs.type = 'text/javascript';m3_ajs.async = true;m3_ajs.src = m3_u;</p>
+<p>	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(m3_ajs);</p>
+<p>})();</p>
+<p>Читайте такжеЧитайте также</p>
+<p>В Новосибирске задержан экс-капитан полиции, разыскиваемый по делу о взятке следователя</p>
+<p>Массовых отставок губернаторов больше не предвидится</p>
+<p>С помощью iPhone можно отследить передвижение белых акул </p>
+<p>Трое пострадавших при взрыве в ресторане Il Pittore остаются в тяжелом состоянии</p>
+<p>Найдены тела еще пяти погибших с Costa Concordia</p>
+<p>«Ингосстрах» выплатил более семи миллиардов за гибель спутника «Экспресс-АМ4»</p>
+<p>В крупном ДТП в столице Гаити погибли более 20 человек</p>
+<p>Медведев отправил в отставку волгоградского губернатора Бровко</p>
+<p>В результате крушения Costa Concordia погиб один гражданин Германии, 13 разыскиваются</p>
+<p>Налоговики изъяли в частной киевской клинике медкарту Тимошенко</p>
+<p>ReadMe.Ru</p>
+<p><!--</p>
+<p>function adriverPoster(L){</p>
+<p>    if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>    var W=window,D=document,E=D.documentElement,T=0,N=ar_cn,P=0,C=D.compatMode=="CSS1Compat",</p>
+<p>        X='<scr'+'ipt type="text/javascript">var ar_bnum='+N+';setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e)}},3000);',</p>
+<p>        Y='<\/sc'+'ript><sc'+'ript type="text/javascript" src="'+L+'&tail256='+escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999)+'"><\/sc'+'ript>';</p>
+<p>    function G(){if(T++<100){var o=D.getElementById('ar_container_'+N);if(o){try{var d=o.contentDocument||(W.ActiveXObject&&W.frames['ar_container_'+N].document);if(d){d.write(X+Y)}else setTimeout(arguments.callee,100)}catch(e){try{o.src = "javascript:{document.write('"+X+'document.domain="'+D.domain+'";'+Y+"')}";return}catch(E){}}}else setTimeout(arguments.callee,100)}}</p>
+<p>    function A(e,t,f){if(e.addEventListener)e.addEventListener(t,f,false);else if(e.attachEvent)e.attachEvent('on'+t,f)}</p>
+<p>    function R(e,t,f){if(e.removeEventListener)e.removeEventListener(t,f,false);else if(e.detachEvent)e.detachEvent('on'+t,f)}</p>
+<p>    function S(){var ch=self.innerHeight||C&&E.clientHeight||D.body.clientHeight,st=self.pageYOffset||C&&E.scrollTop||D.body.scrollTop;if(P>=st&&st+ch>=P){R(W,'scroll',S);G()}}</p>
+<p>    A(W,'load',function(){var o=D.getElementById('ad_ph_'+N);if(o){while(o.offsetParent){P+=o.offsetTop;o=o.offsetParent}A(W,'scroll',S);S()}});</p>
+<p>    D.write('<div style="position:absolute;visibility:hidden;height:0px;"><iframe id="ar_container_'+N+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+N+'"><\/div>');</p>
+<p>    ar_cn++;</p>
+<p>}</p>
+<p>adriverPoster("http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&target=top&bt=49&pz=2");</p>
+<p>//--></p>
+<p>#rek_all_02{</p>
+<p>	width: 238px;</p>
+<p>	height: 90px;</p>
+<p>	background: url("http://ed.kp.ru/upimg/3dbcf1e95a9df2bc3cfa526f880f3a43063654af/317024.gif");</p>
+<p>	font-size: 9pt;</p>
+<p>	border: 1px solid #70A0B0;</p>
+<p>text-align: left;</p>
+<p>margin: 0px auto;</p>
+<p>}</p>
+<p>#rek_all_02 a{</p>
+<p>	text-decoration: none;</p>
+<p>	color: #104080;</p>
+<p>	font-weight: bold;</p>
+<p>}</p>
+<p>#rek_all_02 a:hover{</p>
+<p>	text-decoration: underline;</p>
+<p>}</p>
+<p>#rek_all_02 img{</p>
+<p>	border: 1px solid #5080B0;</p>
+<p>	margin-right: 10px;</p>
+<p>	float: left;</p>
+<p>}</p>
+<p>#rek_all_02 .block{</p>
+<p>	font-family: Arial, Verdana, sans-serif;</p>
+<p>	height: 70px;</p>
+<p>	width: 230px;</p>
+<p>	margin-left: 6px;</p>
+<p>	margin-bottom: 10px;</p>
+<p>	margin-top: 10px;</p>
+<p>}</p>
+<p>#rek_all_02 .block strong{</p>
+<p>	font-size: 11pt;</p>
+<p>}</p>
+<p>#rek_all_02 .block div{</p>
+<p>	padding-top: 10px;</p>
+<p>}</p>
+<p><!--</p>
+<p>var _wt_channel = {"id": 543};</p>
+<p>//--></p>
+<p>Лаверoн </p>
+<p>— безопасный стимулятор сексуальной активности.</p>
+<p>Загружается, подождите...</p>
+<p>Загружается, подождите...</p>
+<p>Лучшие квартальные календари к новому году в кратчайшие сроки.</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>KP-AVTO</p>
+<p>Происшествия</p>
+<p>Культура</p>
+<p>Звезды</p>
+<p>Наука</p>
+<p>Телевизор</p>
+<p>Мужчина и женщина</p>
+<p>Спорт</p>
+<p>Здоровье</p>
+<p>Новости</p>
+<p>Видео</p>
+<p>Фото</p>
+<p>Спецпроекты</p>
+<p>Радио КП</p>
+<p>Ваш дом</p>
+<p>Ваши права</p>
+<p>Реклама</p>
+<p>Афиша</p>
+<p>Мама и малыш</p>
+<p>Не будь равнодушным</p>
+<p>Авторы</p>
+<p>Пресс-центр "КП"</p>
+<p>КП: история</p>
+<p>"КП" за рубежом</p>
+<p>Стань издателем «КП»</p>
+<p>Рекламодателям</p>
+<p>Как с нами связаться:</p>
+<p>                    </p>
+<p>Схема проезда</p>
+<p>Читателям</p>
+<p>УЧРЕДИТЕЛЬ И РЕДАКЦИЯ: ЗАО «ИД «Комсомольская правда».Сайт зарегистрирован Государственным комитетом Российской Федерации по печати, свидетельство № 019051 от 02.07.1999.Главный редактор - Сунгоркин В.Н.Шеф-редактор сайта - Носова О.В.</p>
+<p>Сообщения и комментарии читателей сайта размещаются без предварительного редактирования. Редакция оставляет за собой право удалить их с сайта или отредактировать, если указанные сообщения и комментарии являются злоупотреблением свободой массовой информации или нарушением иных требований закона.</p>
+<p>© ЗАО ИД <Комсомольская правда>, 2011.</p>
+<p>	АДРЕС РЕДАКЦИИ: "КП" в Приамурье", ул. Богдана Хмельницкого, д. 20, Благовещенск, выпуск подготовлен при участии ООО "Редакция газеты "Дважды два".</p>
+<p>ПОЧТОВЫЙ ИНДЕКС 675000</p>
+<p>Контактный тел. +7 (4162) 201973</p>
+<p>	Исключительные права на материалы, размещённые на интернет-сайте www.kp.ru, в соответствии с законодательством Российской Федерации об охране результатов интеллектуальной деятельности принадлежат ЗАО "Издательский дом "Комсомольская правда", и не подлежат использованию другими лицами в какой бы то ни было форме без письменного разрешения правообладателя.</p>
+<p>Приобретение авторских прав: kp@kp.ru</p>
+<p>Для читателей. Нам важно ваше мнение: (495) 777-02-82</p>
+<p>новости |</p>
+<p>	    последние новости |</p>
+<p>	    новости шоу бизнеса |</p>
+<p>	    бизнес новости |</p>
+<p>	    новости дня |</p>
+<p>	    новости России |</p>
+<p>	    новости Украины |</p>
+<p>	    новости мира</p>
+<p>	Новости в регионах:</p>
+<p>	Москва | Барнаул | Владимир | Волгоград | Екатеринбург | Иркутск | Владивосток | Калининград | Казань | Кемерово | Красноярск | Краснодар | Мурманск | Нижний Новгород | Новосибирск | Омск | Пенза | Пермь | Псков | Ростов-на-Дону | Санкт-Петербург | Саратов | Самара | Ставрополь | Тула | Уфа | Челябинск | Воронеж-Черноземье | Ярославль | Тверь | Благовещенск | Киров | Хабаровск | Смоленск | Ульяновск | Северная Европа | Сыктывкар | Тюмень | Ижевск | Черногория | Чита | Канада | Вологда | Египет | Томск | Белгород | Иваново | Брянск | Рязань | США | Архангельск | Чехия</p>
+<p>Разработка сайта: FLYNET</p>
+<p><!--</p>
+<p>var _rbn={};</p>
+<p>_rbn.v={};</p>
+<p>_rbn.v.inline_color = "#009900";</p>
+<p>_rbn.v.inline_count_max=5;</p>
+<p>_rbn.v.is_use_marked=0;</p>
+<p>_rbn.v.autostart_video = 1;</p>
+<p>_rbn.v.ad=[];</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://drive.videoclik.ru/code?pid=250&rid=' + (Math.floor(Math.random() * 1000000000)) +'" charset="utf-8" type="text/JavaScript"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var _ga1_channel='356';</p>
+<p>var _ga1_inline_max=1;</p>
+<p>// --></p>
+<p>var begun_auto_pad = 102459057;</p>
+<p>var begun_block_id = 194583743;</p>
+<p>   var MarketGidDate = new Date();</p>
+<p>   document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>   +'src="http://jsn.dt00.net/k/p/kp.ru.4164.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+MarketGidDate.getDay()+MarketGidDate.getHours()</p>
+<p>   + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>   </p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '+'src="http://mg.dt00.net/js/k/p/kp.ru.4421.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+ '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>    </p>
+<p>new adriver("adriver_banner_1278186482", {sid:51864, bt:52, bn:1, pz:3});</p>
+<p><!--</p>
+<p>document._rbns={};</p>
+<p>document._rbns.v={};</p>
+<p>document._rbns.v.position = 'left';</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://drive.videoclick.ru/code?pid=1981&rid=' + (Math.floor(Math.random() * 1000000000)) +'" charset="utf-8" type="text/JavaScript"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://drive.videoclik.ru/code?pid=1074&rid=' + (Math.floor(Math.random() * 1000000000)) +'" charset="utf-8" type="text/JavaScript"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write('<sc' + 'ript language="JavaScript" type="text/javascript" src="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=second&target=top&bt=16&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '"><\/sc' + 'ript>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write('<sc' + 'ript language="JavaScript" src="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=37686&bt=16&target=blank&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '"></sc' + 'ript>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>document._rbns={};</p>
+<p>document._rbns.v={};</p>
+<p>document._rbns.v.position = 'left';</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://drive.videoclick.ru/code?pid=1981&rid=' + (Math.floor(Math.random() * 1000000000)) +'" charset="utf-8" type="text/JavaScript"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=second&bn=9&target=top&bt=43&pz=3&tail256=');</p>
+<p>  {lang: 'ru'}</p>

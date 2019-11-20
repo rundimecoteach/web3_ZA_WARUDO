@@ -1,0 +1,451 @@
+<p>Study reveals health potential of chocolate | Herald Scotland</p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>jQuery.extend(Drupal.settings, { "basePath": "/", "combineBlocks": [ [ "#block-views-most_viewed_by_taxonomy-block", "#block-views-most_commented_articles-block_1" ], [ "#block-views-most_viewed_by_node_type-block", "#block-views-most_commented_blogs-block_1" ], [ "#block-views-most_viewed_by_node_type-block", "#block-views-most_commented_articles-block_1" ] ], "op_workflow_bonus": null });</p>
+<p>//--><!]]></p>
+<p>About Us</p>
+<p>Advertise</p>
+<p>Subscribe</p>
+<p>RSS</p>
+<p> </p>
+<p>Tuesday 17 January 2012</p>
+<p>Complete archive of articles from 1989 to today</p>
+<p>News </p>
+<p>Home News</p>
+<p>Crime & Courts</p>
+<p>Health</p>
+<p>Education</p>
+<p>Transport</p>
+<p>Environment</p>
+<p>World News</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p> </p>
+<p>Politics </p>
+<p>Political News</p>
+<p>In Depth</p>
+<p>Opinion</p>
+<p>Holyrood TV</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p>Sport </p>
+<p>Football</p>
+<p>Opinion</p>
+<p>Rugby</p>
+<p>Golf</p>
+<p>Tennis</p>
+<p>Cricket</p>
+<p>Other Sports</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p>Business </p>
+<p>Company News</p>
+<p>Markets & Economy</p>
+<p>People</p>
+<p>Opinion</p>
+<p>Personal Finance</p>
+<p>Bulletin</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p>Comment </p>
+<p>Columnists</p>
+<p>The Diary</p>
+<p>Tom Shields</p>
+<p>Bloggers</p>
+<p>In Praise Of...</p>
+<p>Herald View</p>
+<p>Letters</p>
+<p>Obituaries</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p>Arts & Ents </p>
+<p>Film</p>
+<p>Stage</p>
+<p>Music</p>
+<p>Classical</p>
+<p>Visual</p>
+<p>Books & Poetry</p>
+<p>Opinion</p>
+<p>Listings</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p>Life & Style </p>
+<p>Fashion</p>
+<p>Homes & Interiors/Gardens</p>
+<p>Outdoors/Leisure</p>
+<p>Food & Drink</p>
+<p>Technology</p>
+<p>Jobs</p>
+<p>Property</p>
+<p>Cars</p>
+<p>Local Businesses</p>
+<p>Dating</p>
+<p>Family Notices</p>
+<p>Book an ad</p>
+<p>Going Out </p>
+<p>Puzzles </p>
+<p>Weather </p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>Monday 16 January 2012 </p>
+<p>Text size </p>
+<p>Study reveals health potential of chocolate</p>
+<p>Marisa DuffySenior Features Writer </p>
+<p>IT'S what chocoholics have claimed all along.</p>
+<p>Tweet</p>
+<p>Custom byline text: </p>
+<p>                        Marisa Duffy        </p>
+<p>Chocolate, according to new research published today, can be good for you. Chocolate and cocoa have been found to reduce the risk of heart disease in women with type 2 diabetes, claims a study by the University of East Anglia (UEA). </p>
+<p> </p>
+<p> </p>
+<p>            $(function () {</p>
+<p>                var paraCount = Math.round($('.body-content p').length/2);</p>
+<p>                if (paraCount > 2) {</p>
+<p>                    $('#article-mpu').appendTo($('.body-content p:nth-child(' + paraCount + ')'));</p>
+<p>                } else {</p>
+<p>                    $('#article-mpu').remove();</p>
+<p>                }</p>
+<p>            });</p>
+<p>        </p>
+<p>Tweet</p>
+<p>	      m__is_archived_content = false;</p>
+<p>				  </p>
+<p>	      $(document).ready(function () {</p>
+<p>				  var mmd = new Date ();</p>
+<p>				  var mm = "";</p>
+<p>				  if ($.cookie('sueid')) mm = mm + $.cookie('sueid');</p>
+<p>				  if (! mm.match(/^[a-zA-Z0-9]+$/))</p>
+<p>				    mm = "";</p>
+<p>				  var url_for_comments = "";</p>
+<p>				  /*</p>
+<p>				  if ($("div.field-field-d-identifier > div > div").length) {</p>
+<p>				    url_for_comments = $.trim($("div.field-field-d-identifier > div > div").html());</p>
+<p>				  } else {</p>
+<p>				    if (location.href.match(/\.[0-9]+$/)) {</p>
+<p>				      url_for_comments = location.href;</p>
+<p>				    }</p>
+<p>				  }</p>
+<p>				  */</p>
+<p>				  if (location.href.match(/\.[0-9]+$/)) {</p>
+<p>				    url_for_comments = location.href;</p>
+<p>				  }</p>
+<p>				  var m__tLogged = $.cookie('sueid');</p>
+<p>				  </p>
+<p>				  if (url_for_comments != "") {</p>
+<p>				    $.ajax({"type": "GET",</p>
+<p>					       "url":  "http://login.heraldscotland.com/gc.cgi",</p>
+<p>					       "processData": true,</p>
+<p>					       "data": {"url": "" + url_for_comments, "uum": "" + mm, "r": mmd.valueOf()},</p>
+<p>					       "dataType": "jsonp",</p>
+<p>					       "success": function (j) {</p>
+<p>					       articleTitle = $("h1.article-title").text() || "";</p>
+<p>					       </p>
+<p>					       if (m__tLogged && j.message) {</p>
+<p>						 disqus_config = function () {</p>
+<p>						   this.page.remote_auth_s3 = j.message + " " + j.hmac + " " + j.timestamp;</p>
+<p>						   // the fallback value here is heraldscotland's public api key</p>
+<p>						   this.page.api_key        = j.api_key || "PTKEOzJw8tjejd6UqDoSFuvyYHNLAHD52zOFp05OFMOnSGLlq87D0s3onFHBEJkv";</p>
+<p>						 };</p>
+<p>					       }</p>
+<p>					     </p>
+<p>					       var myd_shortname    = 'heraldscotland';     // we can re-use the myHost variable for this because they match the disqus shortnames</p>
+<p>					       var my_identifierurl = j.rawurl || location.href;   // disqus identifier and url</p>
+<p>					       var d_url            = my_identifierurl;</p>
+<p>					     </p>
+<p>					       var d_identifier = j.d_identifier || d_url;</p>
+<p>					     </p>
+<p>					       var myCommentHTML = '<div id="disqus_thread"></div>' +</p>
+<p>						 '<scr' + 'ipt type="text/javascript"> ' +</p>
+<p>						 "var disqus_shortname  = '" + myd_shortname + "'; " +</p>
+<p>						 "var disqus_identifier = '" + d_identifier  + "';" +</p>
+<p>						 "var disqus_url        = '" + d_url         + "';" +</p>
+<p>						 "var disqus_title      = unescape('" + escape(articleTitle) + "'); " +</p>
+<p>						 '(function() {  ' +</p>
+<p>						 " var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; " +</p>
+<p>						 " dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js'; " +</p>
+<p>						 " (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); " +</p>
+<p>						 " })(); " +</p>
+<p>						 '   </sc' + 'ript>  ';</p>
+<p>					       $("div#disqushold").html(myCommentHTML);</p>
+<p>					       return true;</p>
+<p>					     }});</p>
+<p>				  }</p>
+<p>				});</p>
+<p>            </p>
+<p> </p>
+<p> </p>
+<p>Most read Most commented</p>
+<p> </p>
+<p>Don't show me this again.</p>
+<p> </p>
+<p>© Copyright </p>
+<p>Herald & Times Group</p>
+<p>All rights reserved</p>
+<p>Our News Services</p>
+<p>Mobile</p>
+<p>Newspaper</p>
+<p>Digital Editions</p>
+<p>Back Issues</p>
+<p>Online Archive</p>
+<p>Email, Twitter, RSS</p>
+<p>Syndication</p>
+<p>Our Advertising Services</p>
+<p>Family Notices</p>
+<p>Book Your Newspaper Ad online</p>
+<p>Contact the Sales Team</p>
+<p>The Facts and Figures</p>
+<p>View Newspaper Ads</p>
+<p>Our Personal Services</p>
+<p>Help, Feedback & Contact</p>
+<p>Dating</p>
+<p>Travel Services</p>
+<p>Photo Sales</p>
+<p>Crosswords & Sudoku</p>
+<p>Our Colleagues</p>
+<p>Evening Times</p>
+<p>s1</p>
+<p>Scottish Farmer</p>
+<p>TGO</p>
+<p>Newsquest Media Group</p>
+<p>About Us</p>
+<p>Herald & Times Group</p>
+<p>Terms & Conditions</p>
+<p>Privacy Policy</p>
+<p>Employment</p>
+<p> </p>
+<p>  </p>
+<p>        var s_account="newsquestheraldscotlandprod,newsquestgroupprod";</p>
+<p>        href = document.location.href;</p>
+<p>        href = href.replace(/\/services\//,"/");</p>
+<p>        path = href.split("/");</p>
+<p>        pName = "";</p>
+<p>        articleId = new Array("","");</p>
+<p>        for (x=4; x<7; x++) {</p>
+<p>            if (typeof path[x] == 'undefined') path[x] = '';</p>
+<p>            if (path[x] == "") {</p>
+<p>                path[x] = path[x-1];</p>
+<p>            } else {</p>
+<p>                path[x] = path[x-1] + "/" + path[x];</p>
+<p>            }</p>
+<p>            path[x] = path[x].replace(/\/undefined/g,"");</p>
+<p>        }</p>
+<p>    </p>
+<p>        if (typeof mySearchQuery == 'undefined') {</p>
+<p>            mySearchQuery = "";</p>
+<p>            myTotalHitCount = "";</p>
+<p>        }</p>
+<p>        s.pageName="(www) /" + path[6] + pName;</p>
+<p>        s.server="";</p>
+<p>        s.channel="";</p>
+<p>        s.pageType="";</p>
+<p>        s.prop1=mySearchQuery;</p>
+<p>        s.prop2=myTotalHitCount;</p>
+<p>        s.prop3=document.title;</p>
+<p>    if (document.location.href.match(/\.[0-9]+$/)) {</p>
+<p>      var articleId = document.location.href;</p>
+<p>      articleId = articleId.replace(/^.+\.([0-9]+)$/, "$1");</p>
+<p>      //s.prop4= document.location.href;</p>
+<p>      s.prop4 = articleId;</p>
+<p>    }</p>
+<p>    s.prop5="";</p>
+<p>    if (location.href.match(/\.com\/$/)) {</p>
+<p>      s.prop6 = 'homepage';</p>
+<p>      s.prop7 = 'homepage';</p>
+<p>      s.prop8 = 'homepage';</p>
+<p>      s.prop9 = 'homepage';</p>
+<p>    } else {</p>
+<p>      if (typeof prop6 == 'undefined') {</p>
+<p>        s.prop6=path[3];</p>
+<p>      } else {</p>
+<p>        s.prop6=prop6;</p>
+<p>      }</p>
+<p>      if (typeof prop7 == 'undefined') {</p>
+<p>        s.prop7=path[4];</p>
+<p>      } else {</p>
+<p>        s.prop7=prop7;</p>
+<p>      }</p>
+<p>      if (typeof prop8 == 'undefined') {</p>
+<p>        s.prop8=path[5];</p>
+<p>      } else {</p>
+<p>        s.prop8=prop8;</p>
+<p>      }</p>
+<p>      if (typeof prop9 == 'undefined') {</p>
+<p>        s.prop9=path[6];</p>
+<p>      } else {</p>
+<p>        s.prop9=prop9;</p>
+<p>      }</p>
+<p>    }</p>
+<p>    s.prop10="";</p>
+<p>    s.prop16=path[2];</p>
+<p>    s.prop17="Scotland";</p>
+<p>    s.prop18="Martini";</p>
+<p>    s.linkInternalFilters="javascript:,heraldscotland.com,theherald.co.uk"; /* Conversion Variables */</p>
+<p>    s.campaign="";</p>
+<p>    s.state="";</p>
+<p>    s.zip="";</p>
+<p>    s.events="";</p>
+<p>    if (typeof(m__is_signed_in) != "undefined" && typeof(m__is_comment_detail) != "undefined") {</p>
+<p>        if (m__is_comment_detail) {</p>
+<p>            if (! m__is_signed_in) {</p>
+<p>                if (! $.cookie('ssiw')) {</p>
+<p>                    if (typeof(oo_myEvents) == "undefined") {</p>
+<p>                        oo_myEvents = new Array ();</p>
+<p>                    }</p>
+<p>                    oo_myEvents.push("event5");</p>
+<p>                    $.cookie("ssiw", 1, { path: '/', domain: 'heraldscotland.com' });</p>
+<p>                }</p>
+<p>            }</p>
+<p>         }</p>
+<p>    }</p>
+<p>    if (typeof(oo_myEvents) != "undefined" && oo_myEvents.length > 0) {</p>
+<p>        s.events = oo_myEvents.join(",");</p>
+<p>    }</p>
+<p>    s.products="";</p>
+<p>    s.purchaseID="";</p>
+<p>    s.eVar14="";</p>
+<p>    s.eVar15="";</p>
+<p>    if (typeof(m__tLogged) != "undefined" && m__tLogged.match(/^[a-zA-Z0-9]+$/)) {</p>
+<p>        s.eVar19 = m__tLogged;</p>
+<p>    }</p>
+<p>    /* Hierarchy Variables */</p>
+<p>    s.hier1="newsquest," + "Scotland" + "," + path[2] + "," + path[6].replace(/\//,",");</p>
+<p>    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>    </p>
+<p>    var s_code=s.t();</p>
+<p>    if (s_code) {</p>
+<p>        document.write(s_code);</p>
+<p>    }</p>
+<p>var _sf_async_config={uid:2823,domain:'heraldscotland.com'};(function(){function loadPublishflow() {window._sf_endpt=(new Date()).getTime();var e = document.createElement('script');e.setAttribute('language', 'javascript');e.setAttribute('type', 'text/javascript');e.setAttribute('src',(('https:' == document.location.protocol) ? 'https://s3.amazonaws.com/' : 'http://s3.amazonaws.com/') + 'publishflow/javascript/data.js');document.body.appendChild(e);}var oldonload = window.onload;window.onload = (typeof window.onload != 'function') ?loadPublishflow : function() { oldonload(); loadPublishflow();  };})();</p>
+<p>    function quantcastPropValidator(property) {</p>
+<p>        return (property !='undefined' && typeof(property)=='string' && property.length > 0);</p>
+<p>    }</p>
+<p>    function quantcastLabelBuilder(){</p>
+<p>        if (quantcastPropValidator(s.prop6) && quantcastPropValidator(s.prop17)) {</p>
+<p>            return 'Property.' + s.prop17 + '.Site Section.' + s.prop6;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    _qoptions={ qacct:"p-42Bk1WKC7O3WM", labels:quantcastLabelBuilder() };</p>
+<p>    quantSegs="";</p>
+<p>    function qc_results(result) {</p>
+<p>        for (var i = 0; i < result.segments.length; i++) {</p>
+<p>            quantSegs += result.segments[i].id + "|";</p>
+<p>        }</p>
+<p>    }</p>
+<p>    audienceScienceSegments='';</p>
+<p>    var rsi_segs = [],</p>
+<p>        segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>    if (segs_beg>=0){</p>
+<p>        segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>        if (segs_beg>0){</p>
+<p>            var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>            if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>            rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');</p>
+<p>            audienceScienceSegments= document.cookie.substring(segs_beg,segs_end)</p>
+<p>        }</p>
+<p>    }</p>
+<p>    // OAS Ad Serving code</p>
+<p>    var OAS_url = 'http://oas.newsquestdigital.co.uk/RealMedia/ads/',</p>
+<p>        OAS_sitepage = 'www.heraldscotland.com' + window.location.pathname;</p>
+<p>    if (OAS_sitepage.charAt(OAS_sitepage.length - 1) == '/') {</p>
+<p>        OAS_sitepage += 'index.php';</p>
+<p>    }</p>
+<p>    var OAS_listpos = 'Top,Right,Frame2,x01,x02,x03,Position1',</p>
+<p>        OAS_version = 10,</p>
+<p>        OAS_rn = new String (Math.random()),</p>
+<p>        OAS_rns = OAS_rn.substring (2, 11);</p>
+<p>    OAS_query = '';</p>
+<p>    if (quantSegs && quantSegs.length > 0) {</p>
+<p>        OAS_query += '&qcSegements=' + quantSegs;</p>
+<p>    }</p>
+<p>    if (audienceScienceSegments && audienceScienceSegments.length > 0) {</p>
+<p>        OAS_query += '&asSegements=' + audienceScienceSegments;</p>
+<p>    }</p>
+<p>    function OAS_NORMAL(pos) {</p>
+<p>        document.write('<a href="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' +</p>
+<p>                       OAS_listpos + '!' + pos +'?' + OAS_query + '">'); </p>
+<p>        document.write('<img src="' +</p>
+<p>                       OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos +</p>
+<p>                       '!' + pos +'?' + OAS_query + '" alt="" /><'+'/a>');</p>
+<p>    }</p>
+<p>    OAS_version = 11; </p>
+<p>    if (navigator.userAgent.indexOf('Mozilla/3') != -1 || navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1) {</p>
+<p>        OAS_version = 10;</p>
+<p>    }</p>
+<p>    if (OAS_version >= 11) {</p>
+<p>        document.write('<scr' + 'ipt type="text/javascript" src="' + OAS_url + 'adstream_mjx.ads/' +</p>
+<p>                        OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos +'?' + OAS_query + '"><\/scr' + 'ipt>');</p>
+<p>    }</p>
+<p>    function OAS_AD(pos) {</p>
+<p>        if (OAS_version >= 11) {</p>
+<p>            OAS_RICH(pos);</p>
+<p>        } else {</p>
+<p>            OAS_NORMAL(pos);</p>
+<p>        }</p>
+<p>    }</p>
+<p>    mmmm = new String ($.cookie('sueid'));</p>
+<p>    var sscook = new String("$cookie.get.sueid");</p>
+<p>    function OAS_moveAds() {</p>
+<p>        var mpu2parNum      = 9,</p>
+<p>            mpu2leftorright = 'left',</p>
+<p>            displayMPU2 = true;</p>
+<p>        if (typeof(m__tURL) != "undefined" && m__tURL.match(/\/comment\//)) displayMPU2 = false;</p>
+<p>        // An implementation of 'fast ads'</p>
+<p>        var ls = document.getElementById("leaderboard-source"),</p>
+<p>            lt = document.getElementById("leaderboard");</p>
+<p>        if (ls && lt) lt.appendChild(ls);</p>
+<p>        var ms = document.getElementById("mpu-source"),</p>
+<p>            mt = document.getElementById("mpu");</p>
+<p>        if (ms && mt) mt.appendChild(ms);</p>
+<p>        var ms2 = document.getElementById("mpu2-source"),</p>
+<p>            mt2 = document.getElementById("mpu2");</p>
+<p>        if (ms2 && mt2) mt2.appendChild(ms2);</p>
+<p>        var ss = document.getElementById("skyscraper-source");</p>
+<p>        var st = document.getElementById("skyscraper");</p>
+<p>        if (ss && st) st.appendChild(ss);</p>
+<p>    }</p>
+<p>            YAHOO.util.Event.onDOMReady(OAS_moveAds);</p>
+<p>        </p>
+<p>                    OAS_AD('Right');</p>
+<p>                </p>
+<p>                    OAS_AD('Top');</p>
+<p>                </p>
+<p>                    OAS_AD('Frame2');</p>
+<p>                </p>
+<p>                    OAS_AD('Position1');</p>
+<p>                </p>
+<p> </p>
+<p>Murdered by a monsterHorta-Osorio declines £2.4m bonus at LloydsNew poll builds pressure for devo-max questionMurder hunt as man beaten to death in city streetPicture extra: how Scotland has helped to rebuild Haiti</p>

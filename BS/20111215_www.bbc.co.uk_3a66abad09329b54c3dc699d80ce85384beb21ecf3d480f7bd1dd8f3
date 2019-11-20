@@ -1,0 +1,499 @@
+<p>BBC News - Chronic fatigue syndrome 'affects one in 100 pupils'</p>
+<p>         if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; }      bbcRequireMap = {"jquery-1":"http://static.bbc.co.uk/frameworks/jquery/0.1.8/sharedmodules/jquery-1.6.2", "jquery-1.4":"http://static.bbc.co.uk/frameworks/jquery/0.1.8/sharedmodules/jquery-1.4", "swfobject-2":"http://static.bbc.co.uk/frameworks/swfobject/0.1.3/sharedmodules/swfobject-2", "demi-1":"http://static.bbc.co.uk/frameworks/demi/0.9.0/sharedmodules/demi-1", "gelui-1":"http://static.bbc.co.uk/frameworks/gelui/0.9.3/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbc.co.uk/frameworks/gelui/0.9.3/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbc.co.uk/frameworks/istats/0.6.3/modules/istats-1", "relay-1":"http://static.bbc.co.uk/frameworks/relay/0.0.13/sharedmodules/relay-1", "clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbc.co.uk/frameworks/jssignals/0.3.2/modules/jssignals-1", "jcarousel-1":"http://static.bbc.co.uk/frameworks/jcarousel/0.1.6/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbc.co.uk/', paths: bbcRequireMap, waitSeconds: 30 });  </p>
+<p>     blq.setEnvironment('live');  if (blq.setLabel) blq.setLabel('searchSuggestion', "Search");    </p>
+<p>        if(typeof(bbcdotcom) == "undefined") bbcdotcom = {};</p>
+<p>    </p>
+<p>/*<![CDATA[*/</p>
+<p>gloader.load(["glow","1","glow.dom"],{onLoad:function(glow){glow.dom.get("html").addClass("blq-js")}});</p>
+<p>gloader.load(["glow","1","glow.dom"],{onLoad:function(glow){glow.ready(function(){if (glow.env.gecko){var gv = glow.env.version.split(".");for (var i=gv.length;i<4;i++){gv[i]=0;}if((gv[0]==1 && gv[1]==9 && gv[2]==0)||(gv[0]==1 && gv[1]<9)||(gv[0]<1)){glow.dom.get("body").addClass("firefox-older-than-3-5");}}});}});</p>
+<p>window.disableFacebookSDK=true;</p>
+<p>if (window.location.pathname.indexOf('+')>=0){window.disableFacebookSDK=true;}</p>
+<p>/*]]>*/</p>
+<p><!--</p>
+<p>	bbc.fmtj.page = {</p>
+<p>		serverTime: 1323974201000,</p>
+<p>		editionToServe: 'international',</p>
+<p>		queryString: null,</p>
+<p>		referrer: null,</p>
+<p>		section: 'health',</p>
+<p>		sectionPath: '/Health',</p>
+<p>		siteName: 'BBC News',</p>
+<p>		siteToServe: 'news',</p>
+<p>		siteVersion: 'cream',</p>
+<p>		storyId: '16138148',</p>
+<p>		assetType: 'story',</p>
+<p>		uri: '/news/health-16138148',</p>
+<p>		country: 'fr',</p>
+<p>		masthead: false,</p>
+<p>		adKeyword: null,</p>
+<p>		templateVersion: 'v1_0'</p>
+<p>	}</p>
+<p>--></p>
+<p>$useMap({map:"http://news.bbcimg.co.uk/js/map/map_0_0_29.js"});</p>
+<p>$loadView("0.0",["bbc.fmtj.view"]);</p>
+<p>$render("livestats-heatmap");</p>
+<p>    //<![CDATA[</p>
+<p>        require(['jquery-1'], function($){</p>
+<p>            </p>
+<p>            // set up EMP once it's loaded</p>
+<p>            var setUp = function(){</p>
+<p>                // use our own pop out page</p>
+<p>        	    embeddedMedia.setPopoutUrl('/player/emp/2_0_29/popout/pop.stm');</p>
+<p>        	    // store EMP's notifyParent function</p>
+<p>        	    var oldNotifyParent = embeddedMedia.console.notifyParent;</p>
+<p>        	    // use our own to add livestats to popout</p>
+<p>        	    embeddedMedia.console.notifyParent = function(childWin){</p>
+<p>        	        oldNotifyParent(childWin);</p>
+<p>        	        // create new live stats url</p>
+<p>                    var liveStatsUrl = bbc.fmtj.av.emp.liveStatsForPopout($('#livestats').attr('src'));</p>
+<p>                    var webBug = $('<img />', {</p>
+<p>                                     id:  'livestats',</p>
+<p>                                     src: liveStatsUrl</p>
+<p>                                 });</p>
+<p>                    // append it to popout</p>
+<p>                    $(childWin.document).find('body').append(webBug);</p>
+<p>                }</p>
+<p>            }</p>
+<p>                </p>
+<p>            // check if console is available to manipulate</p>
+<p>            if(window.embeddedMedia && window.embeddedMedia.console){</p>
+<p>                setUp();</p>
+<p>            }</p>
+<p>            // otherwise emp is still loading, so add event listener</p>
+<p>            else{</p>
+<p>                $(document).bind('empReady', function(){</p>
+<p>                    setUp();</p>
+<p>                });</p>
+<p>            }</p>
+<p>        });</p>
+<p>    //]]></p>
+<p>    //<![CDATA[</p>
+<p>        gloader.load(['glow', '1', 'glow.dom']);</p>
+<p>    //]]></p>
+<p>	//<![CDATA[</p>
+<p>	    </p>
+<p>	</p>
+<p>	    </p>
+<p>	        </p>
+<p>	    </p>
+<p>	</p>
+<p>	    </p>
+<p>	        </p>
+<p>	    </p>
+<p>	</p>
+<p>	    // set site specific config</p>
+<p>	    </p>
+<p>	        bbc.fmtj.av.emp.configs.push('news');</p>
+<p>	    </p>
+<p>	    </p>
+<p>	    // when page loaded, write all created emps</p>
+<p>	    glow.ready(function(){</p>
+<p>			if(typeof bbcdotcom !== 'undefined' && bbcdotcom.av && bbcdotcom.av.emp){</p>
+<p>				bbcdotcom.av.emp.configureAll();</p>
+<p>			}</p>
+<p>			embeddedMedia.each(function(emp){</p>
+<p>				emp.set('enable3G', true);</p>
+<p>			});</p>
+<p>			embeddedMedia.writeAll();</p>
+<p>	        // mark the emps as loaded</p>
+<p>	        bbc.fmtj.av.emp.loaded = true;</p>
+<p>	    });</p>
+<p>	//]]></p>
+<p>$loadView("0.0",["bbc.fmtj.view.news.story"]);</p>
+<p>/*<![CDATA[*/</p>
+<p>	if(typeof BBC === 'undefined') var BBC = {};</p>
+<p>	BBC.adverts = {setZone: function(){}, configure: function(){}, write: function(){}, show: function(){}};</p>
+<p>    window.bbcdotcom={};</p>
+<p>    bbcdotcom.createObject = function(namespace){</p>
+<p>        var names   = namespace.split('.'),</p>
+<p>            next    = '',</p>
+<p>            i       = 0,</p>
+<p>            len     = names.length;</p>
+<p>        for(i; i < len; i++){</p>
+<p>            if('' !== next) {</p>
+<p>            	next = ("object" === typeof next[names[i]]) ? next[names[i]] : next[names[i]] = {};</p>
+<p>            } else {</p>
+<p>            	next = ("object" === typeof window[names[i]]) ? window[names[i]] : window[names[i]] = {};</p>
+<p>        	}</p>
+<p>        }</p>
+<p>    }</p>
+<p>/*]]>*/</p>
+<p>/*<![CDATA[*/</p>
+<p>	(function(){</p>
+<p>		var fiddleredition = '(none)';</p>
+<p>		var url = '/news/health-16138148';</p>
+<p>		switch('/news/health-16138148') {</p>
+<p>			case "/":</p>
+<p>			case "/default.stm":</p>
+<p>				url = (fiddleredition === "domestic") ? "/1/hi/default.stm" : "/2/hi/default.stm";</p>
+<p>				break;</p>
+<p>			case "/sport":</p>
+<p>			case "/sport/":</p>
+<p>			case "/sport/default.stm":</p>
+<p>				url = (fiddleredition === "domestic") ? "/sport1/hi/default.stm" : "/sport2/hi/default.stm";</p>
+<p>				break;</p>
+<p>		};</p>
+<p>		var zone = "3pt_zone_file",</p>
+<p>			zoneOverride = false;</p>
+<p>		</p>
+<p>		if(/[?|&]zone=((?!preview)\w*\/*\w+)(&|$)/.test(window.location.search)) {</p>
+<p>			zone = RegExp.$1;</p>
+<p>		};</p>
+<p>		if(/[?|&]zone=(http:\/\/.+(\.bbc\.co\.uk\/){1}.*(bbccom){1}.*\.js)(&|$)/.test(window.location.search)) {</p>
+<p>			if (RegExp.$1.indexOf("/../") === -1) {</p>
+<p>				zone = RegExp.$1;</p>
+<p>				zoneOverride = true;</p>
+<p>			};</p>
+<p>		};</p>
+<p>	BBC.adverts.setScriptRoot("http://news.bbcimg.co.uk/js/app/bbccom/0.3.92/");</p>
+<p>		BBC.adverts.init({</p>
+<p>			domain: "www.bbc.co.uk",</p>
+<p>			location: url,</p>
+<p>			zoneVersion: zone,</p>
+<p>			zoneOverride: zoneOverride,</p>
+<p>			zoneReferrer: document.referrer</p>
+<p>		});</p>
+<p>	})();</p>
+<p>	if(BBC.adverts.getNewsGvl3()) {</p>
+<p>		</p>
+<p>			document.write('<script language="JavaScript" src="http://news.bbcimg.co.uk/js/app/bbccom/0.3.92/advert.js"><\/script>');</p>
+<p>		   </p>
+<p>	}</p>
+<p>/*]]>*/</p>
+<p>	if(BBC.adverts){</p>
+<p>		BBC.adverts.setPageVersion('(none)');</p>
+<p>	}</p>
+<p>			gloader.load(["glow","1","glow.dom"],{onLoad: function(glow){</p>
+<p>				glow.ready(function(){</p>
+<p>					var adImageUrl = BBC.adverts.getAdvertTag('printableversionsponsorship','','standardUri');</p>
+<p>					if (glow.env.ie ) {</p>
+<p>						window.onbeforeprint = function(){</p>
+<p>							var printAdvert = glow.dom.get("#print-advert");</p>
+<p>							if (printAdvert.get("img").length == 0)</p>
+<p>							{</p>
+<p>								printAdvert.append('<img src="'+adImageUrl+'" alt="" />');</p>
+<p>							}</p>
+<p>						};</p>
+<p>					}else{</p>
+<p>						glow.dom.get("head").append('<style type="text/css">#print-advert {display:none};</style><style type="text/css" media="print">#print-advert::after{content:url('+adImageUrl+');} #print-advert{display:block;overflow:hidden;}</style>');</p>
+<p>					}</p>
+<p>				});</p>
+<p>			}});</p>
+<p>		</p>
+<p>blq.setLabel('searchSuggestion', 'Search BBC News');</p>
+<p>blq.externalGoTrackingConfig = {</p>
+<p>	".story-body a":"{path}/ext/story-body/{dir}",</p>
+<p>	".story-related .related-links a":"{path}/ext/related-links/{dir}",</p>
+<p>	".story-related .newstracker-list a":"{path}/ext/newstracker/{dir}"</p>
+<p>}</p>
+<p>//<![CDATA[</p>
+<p>    window.bbcFlagpoles_istats = "ON";</p>
+<p>    window.istatsTrackingUrl   = '//sa.bbc.co.uk/bbc/bbc/s?name=news.health.story.16138148.page&cps_asset_id=16138148&page_type=story&section=health&app_version=6.2.66-RC5&first_pub=2011-12-13T00:48:24+00:00&last_editorial_update=2011-12-13T00:48:24+00:00&title=One+in+100+pupils+%27sick+with+ME%27&comments_box=false&cps_media_type=&cps_media_state=&app_type=web&ml_name=SSI&ml_version=0.6.3&language=en-GB';</p>
+<p> // ]]></p>
+<p>// <![CDATA[</p>
+<p>(function() {</p>
+<p>    var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1),</p>
+<p>        hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1),</p>
+<p>        hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash),</p>
+<p>        runSitestat;</p>
+<p>    runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough;</p>
+<p>    if (runSitestat && bbcFlagpoles_istats === 'ON') {</p>
+<p>        sitestat(istatsTrackingUrl);</p>
+<p>    }</p>
+<p>    function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')};</p>
+<p>})();</p>
+<p>// ]]></p>
+<p>          BBC Accessibility links  Skip to content Skip to local navigation Skip to bbc.co.uk navigation Skip to bbc.co.uk search Help Accessibility Help   </p>
+<p>Health</p>
+<p>$render("advert","advert-sponsor-section");</p>
+<p>$render("advert-post-script-load");</p>
+<p>Home</p>
+<p>UK</p>
+<p>Africa</p>
+<p>Asia</p>
+<p>Europe</p>
+<p>Latin America</p>
+<p>Mid-East</p>
+<p>US & Canada</p>
+<p>Business</p>
+<p>Health</p>
+<p>Sci/Environment</p>
+<p>Tech</p>
+<p>Entertainment</p>
+<p>Video</p>
+<p>$render("advert","advert-leaderboard");</p>
+<p>$render("advert-post-script-load");</p>
+<p>13 December 2011</p>
+<p>Last updated at 00:48 GMT</p>
+<p>Share this page</p>
+<p>Delicious</p>
+<p>Digg</p>
+<p>Facebook</p>
+<p>reddit</p>
+<p>StumbleUpon</p>
+<p>Twitter</p>
+<p>Email</p>
+<p>Print</p>
+<p> </p>
+<p><!--</p>
+<p>$render("page-bookmark-links","page-bookmark-links-head",{</p>
+<p>    useForgeShareTools:"true",</p>
+<p>    position:"top",</p>
+<p>    site:'News', </p>
+<p>    headline:'BBC News - Chronic fatigue syndrome \'affects one in 100 pupils\'', </p>
+<p>    storyId:'16138148', </p>
+<p>    sectionId:'99108', </p>
+<p>    url:'http://www.bbc.co.uk/news/health-16138148', </p>
+<p>    edition:'International'</p>
+<p>}); </p>
+<p>--></p>
+<p>Chronic fatigue syndrome 'affects one in 100 pupils'</p>
+<p>By James Gallagher</p>
+<p>Health reporter, BBC News</p>
+<p>Study suggests scale of chronic fatigue syndrome in schools</p>
+<p>Continue reading the main story Related Stories</p>
+<p>What causes Chronic Fatigue Syndrome?</p>
+<p>Brain, body training 'treats ME'</p>
+<p>Questions over virus link to ME</p>
+<p>One in 100 secondary school pupils could be missing classes because of chronic fatigue syndrome, also known as Myalgic Encephalomyelitis (ME), say researchers.</p>
+<p>A study following 2,855 pupils at three schools, published in the online journal BMJ Open, found 28 missed school with chronic fatigue syndrome.</p>
+<p>The researchers said the effect was "potentially devastating".</p>
+<p>A charity said the true figure was likely to be even higher.</p>
+<p>The cause of chronic fatigue syndrome is unknown and there is no known cure. It is a medical condition rather than just schoolchildren staying up too late. It results in extreme tiredness as well as problems with memory and concentration. </p>
+<p>The researchers looked at every pupil between the age of 11 and 16 at three secondary schools in Bath. The 461 pupils who were absent for at least a day a week in a six-week term were investigated further.</p>
+<p>Five had already been diagnosed with chronic fatigue and a further 23 cases were identified.</p>
+<p>'Phenomenal number'</p>
+<p>Overall 1% of pupils had chronic fatigue and the illness accounted for more than 6% of pupils who were missing large amounts of school.</p>
+<p>Continue reading the main story Chronic fatigue syndrome</p>
+<p> The disease is thought to affect some 250,000 people in the UK</p>
+<p> Symptoms include extreme tiredness, problems with memory and concentration, sleep disturbances and mood swings</p>
+<p> There is currently no accepted cure and no universally effective treatment</p>
+<p> The cause is not clear either, with many doctors thinking the term CFS/ME is being used for several different diseases.</p>
+<p> Children are thought to be more likely to recover than adults.</p>
+<p>What causes chronic fatigue syndrome?</p>
+<p> Dr Ester Crawley, researcher at the University of Bristol, told the BBC: "The impact of missing school is potentially devastating."</p>
+<p>Caution is needed when drawing conclusions about all schoolchildren from a study in three schools, but Dr Crawley believes the 1% figure could be too small.</p>
+<p>She says the study looked at the pupils who were missing the most school: "Missing one day a week is severe. The total level [of chronic fatigue syndrome] is going to be higher."</p>
+<p>The chief executive of the Association of Young People with ME, Mary-Jane Willows, said the impact of the illness was "horrendous" and that "1% is a phenomenal number. It proves the problem we're up against."</p>
+<p>But she added: "I would say that it is on the lean side, it is at least 1%, there is a hidden population out there."</p>
+<p>Of the newly diagnosed pupils, 19 chose to have treatment. They were given either cognitive behavioural therapy, which alters the way people think and cope with their symptoms, or graded exercise therapy, a gradual and supervised increase in activity levels.</p>
+<p>Please turn on JavaScript. Media requires JavaScript to play.</p>
+<p>    //<![CDATA[</p>
+<p>        (function(){</p>
+<p>            // create a new player, but don't write it yet</p>
+<p>            var emp = new bbc.fmtj.av.emp.Player('emp-16155122-31351');</p>
+<p>            // if the emps have already been loaded, we need to call the write method manually</p>
+<p>            if(bbc.fmtj.av.emp.loaded){</p>
+<p>                emp.write();</p>
+<p>            }</p>
+<p>        })();</p>
+<p>    //]]></p>
+<p>$render("advert","advert-companion","16155122");</p>
+<p>$render("advert-post-script-load");</p>
+<p>Rebecca: "I just slept all the time and I never felt any better"</p>
+<p> Twelve of them were back to school full time after six months, six of them had made a full recovery. Another pupil who had been housebound returned to school part-time.</p>
+<p>Prof Matthew Hotopf, from the Institute of Psychiatry at King's College London, said: "Chronic fatigue syndrome is not uncommon as a cause of recurrent school absence, and therefore something to actively look for."</p>
+<p>He added: "There is everything to play for in terms of outcome for chronic fatigue syndrome in kids. This study demonstrates that about two-thirds had recovered by six months, and that's a really important message for families and GPs."</p>
+<p>More on This Story</p>
+<p>Related Stories</p>
+<p>What causes Chronic Fatigue Syndrome?</p>
+<p>24 SEPTEMBER 2011, </p>
+<p>                        HEALTH</p>
+<p>Brain, body training 'treats ME'</p>
+<p>18 FEBRUARY 2011, </p>
+<p>                        HEALTH</p>
+<p>Questions over virus link to ME</p>
+<p>22 SEPTEMBER 2011, </p>
+<p>                        HEALTH</p>
+<p>Immune system defect may cause ME</p>
+<p>24 OCTOBER 2011, </p>
+<p>                        HEALTH</p>
+<p>$render("page-see-also","ID");</p>
+<p>$render("page-newstracker","ID");</p>
+<p>Related Internet links</p>
+<p>BMJ Open</p>
+<p>University of Bristol</p>
+<p>Association of Young People with ME</p>
+<p>King's College London</p>
+<p>Around the BBC</p>
+<p>BBC Health: Chronic fatigue syndrome</p>
+<p>The BBC is not responsible for the content of external Internet sites</p>
+<p>$render("page-related-items","ID");</p>
+<p>Share this page</p>
+<p>Delicious</p>
+<p>Digg</p>
+<p>Facebook</p>
+<p>reddit</p>
+<p>StumbleUpon</p>
+<p>Twitter</p>
+<p>Email</p>
+<p>Print</p>
+<p>$render("advert","advert-sponsor-module","page-bookmark-links");</p>
+<p>$render("advert-post-script-load");</p>
+<p> </p>
+<p><!--</p>
+<p>$render("page-bookmark-links","page-bookmark-links-foot",{</p>
+<p>    useForgeShareTools:"true",</p>
+<p>    position:"bottom",</p>
+<p>    site:'News', </p>
+<p>    headline:'BBC News - Chronic fatigue syndrome \'affects one in 100 pupils\'', </p>
+<p>    storyId:'16138148', </p>
+<p>    sectionId:'99108', </p>
+<p>    url:'http://www.bbc.co.uk/news/health-16138148', </p>
+<p>    edition:'International'</p>
+<p>}); </p>
+<p>--></p>
+<p>$render("advert","advert-google-adsense");</p>
+<p>$render("advert-post-script-load");</p>
+<p>More Health stories</p>
+<p>RSS</p>
+<p>Test 'improves cancer screening'</p>
+<p>Smear tests designed to cut deaths from cervical cancer could be improved by adding a further test looking for signs of a virus which causes it.</p>
+<p>Hairy limbs keep bed bugs at bay</p>
+<p>Many diabetes deaths 'avoidable'</p>
+<p>$render("advert","advert-mpu-high");</p>
+<p>$render("advert-post-script-load");</p>
+<p>Top Stories</p>
+<p>US flag ceremony ends war in Iraq</p>
+<p>French call to downgrade UK first</p>
+<p>Military to provide 2012 security</p>
+<p>SS hit man begins jail term at 90</p>
+<p>Chirac found guilty of corruption</p>
+<p>$render("range-top-stories","range-top-stories");</p>
+<p>$render("advert","advert-mpu-low");</p>
+<p>$render("advert-post-script-load");</p>
+<p>Features & Analysis</p>
+<p>Charles's gifts</p>
+<p>Six things Dickens gave the modern world 	</p>
+<p>				  </p>
+<p>In pictures</p>
+<p>The art of rolling the perfect Cuban cigar 	</p>
+<p>				  </p>
+<p>Euro fault-line</p>
+<p>Robert Peston on the big banks keeping regulators awake at night 	</p>
+<p>				  </p>
+<p>Land revolt</p>
+<p>Inside the Chinese village gripped by civil disobedience 	</p>
+<p>				  </p>
+<p>$render("feature-generic","features");</p>
+<p>Most Popular</p>
+<p>Shared</p>
+<p>1: Banksy unveils church abuse work</p>
+<p>2: US flag ceremony ends war in Iraq</p>
+<p>3: Six things Dickens gave the modern world</p>
+<p>4: Baby seal wanders into NZ home</p>
+<p>5: How overseas jobs hit family life</p>
+<p>Read</p>
+<p>1: French call to downgrade UK first</p>
+<p>2: SS hit man begins jail term at 90</p>
+<p>3: Six things Dickens gave the modern world</p>
+<p>4: US flag ceremony ends war in Iraq</p>
+<p>5: Buble fans walk out over language</p>
+<p>6: How overseas jobs hit family life</p>
+<p>7: Mandela spy cameras confiscated</p>
+<p>8: Banksy unveils church abuse work</p>
+<p>9: Chirac found guilty of corruption</p>
+<p>10: 2012 security troops announced</p>
+<p>Video/Audio</p>
+<p>1: One-minute World News Watch</p>
+<p>2: I was drinking '10 bottles of wine a day' Watch</p>
+<p>3: Jackson daughter on that 'stupid' mask Watch</p>
+<p>4: Worst NZ floods for ten years Watch</p>
+<p>5: Baby seal wanders into NZ home Watch</p>
+<p>6: How do you solve hotel insomnia? Watch</p>
+<p>7: Inside China's 'protest village' Watch</p>
+<p>8: Time unveils Person of the Year Watch</p>
+<p>9: Train spotter in narrow escape Watch</p>
+<p>10: Photojournalism pioneer Life's 75 years Watch</p>
+<p>$render("advert","advert-sponsor-module","range-most-popular","most-popular");</p>
+<p>$render("advert-post-script-load");</p>
+<p>$render("most-popular","most-popular");</p>
+<p>Elsewhere on BBC News</p>
+<p>The right move?</p>
+<p>Why relocating abroad for work can involve making tough decisions that can affect the whole family </p>
+<p>$render("advert","advert-sponsor-module","hyper-promotional-content","the-right-move");</p>
+<p>$render("advert-post-script-load");</p>
+<p>$render("hyper-promotional-content","promotional-content");</p>
+<p>$render("advert","advert-partner-button");</p>
+<p>$render("advert-post-script-load");</p>
+<p>Programmes</p>
+<p>Fast Track Watch</p>
+<p>Research suggests travelling causes sleep problems so how do you solve "hotel insomnia"?</p>
+<p>$render("advert","advert-sponsor-module","programme-breakout","fast-track");</p>
+<p>$render("advert-post-script-load");</p>
+<p>$render("container-programmes-promotion","container-programme-promotion");</p>
+<p>$render("advert","advert-mpu-bottom");</p>
+<p>$render("advert-post-script-load");</p>
+<p>Services</p>
+<p> News feeds</p>
+<p> Mobile</p>
+<p> Podcasts</p>
+<p> Alerts</p>
+<p> E-mail news</p>
+<p>About BBC News</p>
+<p>Editors' blog</p>
+<p>BBC College of Journalism</p>
+<p>News sources</p>
+<p>World Service Trust</p>
+<p>  Mobile      Search term:     bbc.co.uk navigation  News Sport Weather  Travel  TV Radio More       CBBC CBeebies Comedy Food Health   History Learning Music Science Nature   Local Northern Ireland Scotland Wales Full A-Z of BBC sites        BBC links   About the BBC   BBC Help   Contact Us   Accessibility Help   Terms of Use   Careers   Privacy & Cookies   Advertise With Us   Ad Choices     BBC © 2011 The BBC is not responsible for the content of external sites. Read more. This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.  </p>
+<p>bbcdotcom.stats = {</p>
+<p>    "adEnabled" : "yes",</p>
+<p>    "contentType" : "HTML",</p>
+<p>    "audience" : "fr"</p>
+<p>};</p>
+<p>/*<![CDATA[*/</p>
+<p>var adKeyword = document.getElementsByName('ad_keyword');</p>
+<p>if('/news/uk-11767495' == window.location.pathname) {</p>
+<p>    J08781.DM_addEncToLoc("Section","Royal Wedding");</p>
+<p>} else if (undefined != adKeyword[0]) {</p>
+<p>    J08781.DM_addEncToLoc("Section",adKeyword[0].content);</p>
+<p>} else if ("undefined" != typeof bbc &&</p>
+<p>    "undefined" != typeof bbc.fmtj &&</p>
+<p>    "undefined" != typeof bbc.fmtj.page &&</p>
+<p>    "undefined" != typeof bbc.fmtj.page.section) {</p>
+<p>        J08781.DM_addEncToLoc("Section", bbc.fmtj.page.section);</p>
+<p>}</p>
+<p>J08781.DM_tag();</p>
+<p>/*]]>*/</p>
+<p>    var s_account = "bbcwglobalprod";</p>
+<p><!--</p>
+<p>/* You may give each page an identifying name, server, and channel on</p>
+<p>the next lines. */</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=scw.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>    COMSCORE.beacon({</p>
+<p>        c1:2,</p>
+<p>        c2:"6035051",</p>
+<p>        c3:"",</p>
+<p>        c4:"www.bbc.co.uk/news/health-16138148",</p>
+<p>        c5:"",</p>
+<p>        c6:"",</p>
+<p>        c15:""</p>
+<p>    });</p>
+<p> </p>
+<p>    (function(w, d) { </p>
+<p>        var a = function() { </p>
+<p>            var a = d.createElement('script'); </p>
+<p>            a.type = 'text/javascript'; </p>
+<p>            a.async = 'async'; </p>
+<p>            a.src = '//' + ((w.location.protocol === 'https:') ? 's3.amazonaws.com/cdx-radar/' : 'radar.cedexis.com/') + '01-10271-radar10.min.js'; </p>
+<p>            d.body.appendChild(a); </p>
+<p>        }; </p>
+<p>        if (w.addEventListener) { </p>
+<p>            w.addEventListener('load', a, false); </p>
+<p>        } else if (w.attachEvent) { </p>
+<p>            w.attachEvent('onload', a); </p>
+<p>        } </p>
+<p>    }(window, document)); </p>
+<p>  (function() {</p>
+<p>    var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;</p>
+<p>    em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);</p>
+<p>  })();</p>
+<p>   if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </p>
+<p>	bbc.fmtj.common.removeNoScript({});</p>
+<p>	bbc.fmtj.common.tabs.createTabs({});</p>

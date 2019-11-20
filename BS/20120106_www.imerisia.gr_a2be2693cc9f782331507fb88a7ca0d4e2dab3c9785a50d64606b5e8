@@ -1,0 +1,466 @@
+<p>ΚΕΕΛΠΝΟ: Κανένας θάνατος από ελονοσία  | ειδησεις , ελλαδα  | v2.imerisia.gr</p>
+<p><!--</p>
+<p>function MM_preloadImages() { //v3.0</p>
+<p>  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();</p>
+<p>    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)</p>
+<p>    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}</p>
+<p>}</p>
+<p>function MM_swapImgRestore() { //v3.0</p>
+<p>  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;</p>
+<p>}</p>
+<p>function MM_findObj(n, d) { //v4.01</p>
+<p>  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {</p>
+<p>    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}</p>
+<p>  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];</p>
+<p>  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);</p>
+<p>  if(!x && d.getElementById) x=d.getElementById(n); return x;</p>
+<p>}</p>
+<p>function MM_swapImage() { //v3.0</p>
+<p>  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)</p>
+<p>   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}</p>
+<p>}</p>
+<p>//--></p>
+<p>/* </p>
+<p>  ------------------------------------------------</p>
+<p>  PVII Equal CSS Columns scripts -Version 2</p>
+<p>  Copyright (c) 2005 Project Seven Development</p>
+<p>  www.projectseven.com</p>
+<p>  Version: 2.1.0</p>
+<p>  ------------------------------------------------</p>
+<p>*/</p>
+<p>function P7_colH2(){ //v2.1.0 by PVII-www.projectseven.com</p>
+<p> var i,oh,h=0,tg,el,np,dA=document.p7eqc,an=document.p7eqa;if(dA&&dA.length){</p>
+<p> for(i=1;i<dA.length;i+=2){dA[i+1].style.paddingBottom='';}for(i=1;i<dA.length;i+=2){</p>
+<p> oh=dA[i].offsetHeight;h=(oh>h)?oh:h;}for(i=1;i<dA.length;i+=2){oh=dA[i].offsetHeight;</p>
+<p> if(oh<h){np=h-oh;if(!an&&dA[0]==1){P7_eqA2(dA[i+1].id,0,np);}else{</p>
+<p> dA[i+1].style.paddingBottom=np+"px";}}}document.p7eqa=1;</p>
+<p> document.p7eqth=document.body.offsetHeight;</p>
+<p> document.p7eqtw=document.body.offsetWidth;}</p>
+<p>}</p>
+<p>function P7_eqT2(){ //v2.1.0 by PVII-www.projectseven.com</p>
+<p> if(document.p7eqth!=document.body.offsetHeight||document.p7eqtw!=document.body.offsetWidth){P7_colH2();}</p>
+<p>}</p>
+<p>function P7_equalCols2(){ //v2.1.0 by PVII-www.projectseven.com</p>
+<p> var c,e,el;if(document.getElementById){document.p7eqc=new Array();</p>
+<p> document.p7eqc[0]=arguments[0];for(i=1;i<arguments.length;i+=2){el=null;</p>
+<p> c=document.getElementById(arguments[i]);if(c){e=c.getElementsByTagName(arguments[i+1]);</p>
+<p> if(e){el=e[e.length-1];if(!el.id){el.id="p7eq"+i;}}}if(c&&el){</p>
+<p> document.p7eqc[document.p7eqc.length]=c;document.p7eqc[document.p7eqc.length]=el}}</p>
+<p> setInterval("P7_eqT2()",10);}</p>
+<p>}</p>
+<p>function P7_eqA2(el,p,pt){ //v2.1.0 by PVII-www.projectseven.com</p>
+<p> var sp=10,inc=20,g=document.getElementById(el);np=(p>=pt)?pt:p;</p>
+<p> g.style.paddingBottom=np+"px";if(np<pt){np+=inc;</p>
+<p> setTimeout("P7_eqA2('"+el+"',"+np+","+pt+")",sp);}</p>
+<p>}</p>
+<p>function init() {</p>
+<p>    P7_equalCols2(0,'rightcol','P','content','P');</p>
+<p>    startList();</p>
+<p>    for (var b=0; b<1; b++){</p>
+<p>      MAINNEWS.Media.Dtk.CarouselMgr.init("dtk-car-"+b,{pageClassName:'dtk-list',pageTagName:'ul'});</p>
+<p>    }</p>
+<p>} </p>
+<p>window.onload = init;</p>
+<p>	cookie_rnd = Math.floor(Math.random()*900000000000)+100000000000;</p>
+<p>	cookie_url = 'http://stats.e-go.gr/?nWebSrvID=100118&nCatID=12333&nStampRightID=&nLevelid=2&nPubID=112796449&nServID=' + '&nocache=' + cookie_rnd;</p>
+<p>	document.write('<img src="' + cookie_url + '" border=0 width=1 height=1>');</p>
+<p> </p>
+<p>ΕΘΝΟΣ  | </p>
+<p> ΗΜΕΡΗΣΙΑ  | </p>
+<p> SENTRAGOAL  | </p>
+<p> E-GO  |</p>
+<p> ΣΙΝΕΜΑ  | </p>
+<p> ΙΔΑΝΙΚΟ ΣΠΙΤΙ   |</p>
+<p> SPORTY  |</p>
+<p> ΑΣΤΡΑ & ΟΡΑΜΑ  |</p>
+<p> WHEELS & MOTORS  | </p>
+<p> WOMENONLY.GR  | </p>
+<p> COOK BOOK</p>
+<p>ΕΘΝΟΣΠΟΡ | </p>
+<p>TV ΕΘΝΟΣ | </p>
+<p>ΚΥΝΗΓΙ | </p>
+<p>ΨΑΡΕΜΑ & ΦΟΥΣΚΩΤΟ |</p>
+<p>REPORTAGE | </p>
+<p>ΥΓΕΙΑ |</p>
+<p>ΤΑΞΙΔΙ |</p>
+<p>ΣΥΝΤΑΞΕΙΣ |</p>
+<p>ΕΠΑΓΓΕΛΜΑΤΙΚΕΣ ΕΥΚΑΙΡΙΕΣ | </p>
+<p>ΕΡΓΑΣΙΑ | </p>
+<p>ΠΑΙΔΕΙΑ</p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|1242/980x280"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|20/728x90"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|1058/217x86"+burst+"/\">");</p>
+<p>document.write("</sc"+"ript>");</p>
+<p>// ]]></p>
+<p> </p>
+<p>E-GO HOMEPAGE</p>
+<p>ΕΙΔΗΣΕΙΣ</p>
+<p>ΕΞΟΔΟΣ</p>
+<p>ΣΙΝΕΜΑ</p>
+<p>ΜΟΥΣΙΚΗ</p>
+<p>WMOTORS</p>
+<p>TECH n' FUN</p>
+<p>ΣΠΙΤΙ</p>
+<p>VIDEO</p>
+<p>function updateFormActionOther(){</p>
+<p> document.getElementById("googlesearch").action = "summary.asp";</p>
+<p> document.getElementById("catid").value  = "12351";</p>
+<p>}</p>
+<p>function updateFormActionMetoxes(){</p>
+<p> document.getElementById("googlesearch").action = "quotes.asp";</p>
+<p> document.getElementById("catid").value = "14046";</p>
+<p>}</p>
+<p>function updateFormActionFile() {</p>
+<p> document.getElementById("googlesearch").action = "summary.asp";</p>
+<p> document.getElementById("catid").value = "14127";</p>
+<p>}</p>
+<p>imerisia.gr</p>
+<p>Αρχείο</p>
+<p>Μετοχές</p>
+<p>Enter your search terms</p>
+<p>Submit search form</p>
+<p> if (document.getElementById('ss1')!= null ) {</p>
+<p>     document.getElementById('ss1').checked =true;</p>
+<p>     if ('ss1'=='ss2') {</p>
+<p>          updateFormActionMetoxes();</p>
+<p>     }</p>
+<p>     if ('ss1'=='ss0') {</p>
+<p>          updateFormActionFile();</p>
+<p>     }</p>
+<p> }</p>
+<p>ΕΙΔΗΣΕΙΣ100 ΕιδήσειςΠΟΛΙΤΙΚΗΘΕΜΑΤΑΕΛΛΑΔΑΜΜΕΑΘΛΗΤΙΣΜΟΣΚΟΣΜΟΣΔΕΛΤΙΑ ΤΥΠΟΥPHOTO NEWSΟΙΚΟΝΟΜΙΑΕΠΙΧΕΙΡΗΣΕΙΣTOP BUSINESS NEWS ΞΕΝΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣΟι μεγαλύτερες ελληνικές επιχειρήσειςΟΙ ΗΓΕΤΕΣ ΤΗΣ ΟΙΚΟΝΟΜΙΑΣΟΙ ΗΓΕΤΕΣ ΤΗΣ ΟΙΚΟΝΟΜΙΑΣ 2011ΧΡΗΜΑΤΙΣΤΗΡΙΟΚΑΓΚΕΛΑΡΙΟΣΚΑΓΚΕΛΑΡΙΟΣ ONLINE5 ΧΡΗΜΑΤΙΣΤΕΣ »ΟΙ ΠΕΝΤΕ ΧΡΗΜΑΤΙΣΤΕΣ ΠΡΟΤΙΜΟΥΝΕΙΚΟΝΑ ΑΓΟΡΑΣMARKETSΟΛΕΣ ΟΙ ΜΕΤΟΧΕΣMARKET ALERTSSTOCK STORIESΙΑΝΟΣMY PORTFOLIO »ΟΙ ΜΕΤΟΧΕΣ ΜΟΥΧΑΡΤΟΦΥΛΑΚΙΑΔΕΙΚΤΕΣΚΛΑΔΟΙΠΑΚΕΤΑΑΝΑΚΟΙΝΩΣΕΙΣ Χ.Α.ΞΕΝΑ ΧΡΗΜΑΤΙΣΤΗΡΙΑ »Β. ΑΜΕΡΙΚΗΕΥΡΩΠΗΑΣΙΑΛ. ΑΜΕΡΙΚΗΑΓΟΡΕΣΕΠΙΤΟΚΙΑΣΥΝΑΛΛΑΓΜΑ »Διμερείς ΙσοτιμίεςFixing ΣυναλλάγματοςΤιμές συναλλάγματοςΙσοτιμίες ΦΠΑΙσοτιμίες ΕυρώΕιδικό ΔελτίοΕΜΠΟΡΕΥΜΑΤΑ »ΠετρέλαιοΜέταλλαΣιτηρά, Ελαιούχοι Σπόροι, Λοιπά ΕμπορεύματαΧρυσή ΛίραΔΙΕΘΝΕΙΣ ΑΓΟΡΕΣΑΠΟΨΕΙΣΚΕΝΤΡΙΚΕΣΠΡΟΕΚΤΑΣΕΙΣΣΤΗΛΕΣΑΚΙΝΗΤΑΑΥΤΟΚΙΝΗΤΑΠΕΡΙΣΚΟΠΙΟΥΓΕΙΑ & ΕΥΕΞΙΑΦΑΚΕΛΟΙΣΥΝΕΝΤΕΥΞΕΙΣΤΕΧΝΟΛΟΓΙΑTELECOMSDIGITAL LIFEGADGETSΕΠΙΣΤΗΜΗΠΕΡΙΒΑΛΛΟΝLIFESTYLEGOODLIFE »FOOD & DRINKTRAVELΑΥΤΟΚΙΝΗΤΟYACHTINGCHRONOSTYLE & SHOPPING »ΜΟΔΑSTYLEΑΓΟΡΑCULTUREPAPERΘΕΜΑΤΑSTAR SYSTEMLUXURY</p>
+<p>ΥΠΗΡΕΣΙΕΣFORUMΕΦΗΜΕΡΙΔΕΣAGENDACLUB IMERISIAΣΥΝΔΡΟΜΗΤΙΚΗ ONLINE ΕΚΔΟΣΗΣΥΝΔΡΟΜΕΣ</p>
+<p>Χαράτσι: Εντολή για διακοπή ηλεκτροδότησης σε 30.000 νοικοκυριά Στην «ατζέντα» 7 μέτρα: Μείωση επικουρικών συντάξεων, απολύσεις και «λουκέτα» φορέωνΝομιμοποιούνται καταπατημένα του Δημοσίου Εξαγωγέας μεταχειρισμένων Ι.Χ αυτοκινήτων η... Ελλάδα</p>
+<p>Standard & Poor's: Υποβάθμισε εννέα κράτη. Για "παραλογισμό" μιλούν οι Βρυξέλλες O στυγνός εκβιασμός των hedge funds</p>
+<p>Στον αστερισμό του PSI οι τραπεζικές μετοχές </p>
+<p>Σκιά S&P στις ευρω-αγορέςΗ κρίση «εξαφανίζει» προϊόντα από τα ράφια των σούπερ μάρκετ</p>
+<p>Ιδρύονται εταιρείες με κεφάλαιο 1 ευρώ!</p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|25/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>/*** </p>
+<p>    Simple jQuery Slideshow Script</p>
+<p>    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)</p>
+<p>***/</p>
+<p>function slideSwitch() {</p>
+<p>    var $active = $('#promoshow li.active');</p>
+<p>    if ( $active.length == 0 ) $active = $('#promoshow li:last');</p>
+<p>    // use this to pull the images in the order they appear in the markup</p>
+<p>    var $next =  $active.next().length ? $active.next()</p>
+<p>        : $('#promoshow li:first');</p>
+<p>    // uncomment the 3 lines below to pull the images in random order</p>
+<p>    </p>
+<p>    // var $sibs  = $active.siblings();</p>
+<p>    // var rndNum = Math.floor(Math.random() * $sibs.length );</p>
+<p>    // var $next  = $( $sibs[ rndNum ] );</p>
+<p>    $active.addClass('last-active');</p>
+<p>    $next.css({opacity: 0.0})</p>
+<p>        .addClass('active')</p>
+<p>        .animate({opacity: 1.0}, 1000, function() {</p>
+<p>            $active.removeClass('active last-active');</p>
+<p>        });</p>
+<p>}</p>
+<p>$(function() {</p>
+<p>    setInterval( "slideSwitch()", 22000 );</p>
+<p>});</p>
+<p>#promoshow {</p>
+<p>  background: url("images/divider_lines.gif") repeat-x scroll center bottom transparent;</p>
+<p>  margin: 0 0 15px;</p>
+<p>  min-height: 180px;</p>
+<p>  padding: 0 0 25px;</p>
+<p>  position: relative;</p>
+<p>  width: 300px;</p>
+<p>}</p>
+<p>#promoshow li {</p>
+<p>    position:absolute;</p>
+<p>    top:0;</p>
+<p>    left:0;</p>
+<p>    z-index:8;</p>
+<p>    list-style: none;</p>
+<p>    opacity:0.0;</p>
+<p>}</p>
+<p>#promoshow li.active {</p>
+<p>    z-index:10;</p>
+<p>    opacity:1.0;</p>
+<p>}</p>
+<p>#promoshow li.last-active {</p>
+<p>    z-index:9;</p>
+<p>}</p>
+<p>if (typeof multimediawrite!="undefined") {multimediawrite('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" CODEBASE="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="banner" width="300" height="180"><param name="wmode" value="opaque" /><param name="movie" value="http://content-mcdn.feed.gr/pegasus/Multimedia/swf/PanagiotakisCreation_id28459158.swf"><param name="allowScriptAccess" value="always"><param name="Autostart" value="true"><embed src="http://content-mcdn.feed.gr/pegasus/Multimedia/swf/PanagiotakisCreation_id28459158.swf"   swliveconnect="true" wmode="opaque" width="300" height="180" allowScriptAccess="always" name="banner" type="application/x-shockwave-flash" pluginspace="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>'); } else { document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" CODEBASE="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="banner" width="300" height="180"><param name="wmode" value="opaque" /><param name="movie" value="http://content-mcdn.feed.gr/pegasus/Multimedia/swf/PanagiotakisCreation_id28459158.swf"><param name="allowScriptAccess" value="always"><param name="Autostart" value="true"><embed src="http://content-mcdn.feed.gr/pegasus/Multimedia/swf/PanagiotakisCreation_id28459158.swf"   swliveconnect="true" wmode="opaque" width="300" height="180" allowScriptAccess="always" name="banner" type="application/x-shockwave-flash" pluginspace="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>');};</p>
+<p>  	21 Χρηματιστήρια Μετοχών και Παραγώγων, 145 Ισοτιμίες, CFDs Ελληνικών Μετοχών Δωρεάν Δοκιμαστική Πλατφόρμα!</p>
+<p>.deal {</p>
+<p>	border: 1px solid #1971a3;</p>
+<p>	padding: 0;</p>
+<p>	margin: 10px 0 0 2px;</p>
+<p>	text-align: left;</p>
+<p>	width: 300px;</p>
+<p>        background: white;</p>
+<p>}</p>
+<p>.deal td.logo {</p>
+<p>	margin: 0;</p>
+<p>	padding: 0 14px 8px 8px;</p>
+<p>        background: none;</p>
+<p>        width: 119px;</p>
+<p>}</p>
+<p>td.offertxt {</p>
+<p>	margin: 0;</p>
+<p>	padding: 0 5px 8px 0;</p>
+<p>	line-height: 14px;</p>
+<p>}</p>
+<p>td.offertxt h1 {</p>
+<p>	margin: 7px 0 3px 0;</p>
+<p>	padding: 0;</p>
+<p>	font-size: 11px;</p>
+<p>	font-weight: bold;</p>
+<p>	color: #015581;</p>
+<p>}</p>
+<p>td.offertxt h1 a {</p>
+<p>	color: #015581;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>td.offertxt h2 {</p>
+<p>	margin: 0;</p>
+<p>	padding: 0;</p>
+<p>	font-size: 11px;</p>
+<p>	font-weight: normal;</p>
+<p>	color: #2295d6;</p>
+<p>}</p>
+<p>table.prices {</p>
+<p>	background: url(http://www.e-go.gr/images/dmd/bg_prices.gif) no-repeat;</p>
+<p>	width: 296px;</p>
+<p>	height: 33px;</p>
+<p>	margin: 0 0 2px 2px;</p>
+<p>}</p>
+<p>table.prices td.price1 {</p>
+<p>	padding: 0;</p>
+<p>	width: 131px;</p>
+<p>	color: #fff;</p>
+<p>line-height: 18px;</p>
+<p>}</p>
+<p>table.prices td.price1 h1 {</p>
+<p>	margin: 0;</p>
+<p>	padding: 3px 0 0 0;</p>
+<p>	color: #005782;</p>
+<p>	font-size: 14px;</p>
+<p>	text-align: center;</p>
+<p>}</p>
+<p>table.prices td.price2 {</p>
+<p>	padding: 0;</p>
+<p>	width: 165px;</p>
+<p>	height: 33px;</p>
+<p>	color: #fff;</p>
+<p>	font-size: 14px;</p>
+<p>	text-align: center;</p>
+<p>	font-weight: bold;</p>
+<p>line-height: 16px;</p>
+<p>}</p>
+<p>table.prices td.price2 a {</p>
+<p>	color: #fff;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>table.prices .newprice {</p>
+<p>	margin: 0;</p>
+<p>	padding: 0 3px;</p>
+<p>	color: #fff;</p>
+<p>	font-size: 18px;</p>
+<p>}</p>
+<p>   4 προγράμματα Διατροφής, Λιπομέτρηση, Μέτρηση Σπλαχνικού λίπους, Υγρού σώματος και μυικής μάζας, από το διαιτολογικό γραφείο Ισορροπία στην Αγ. Παρασκαπό το διαιτολογικό γραφείο Ισορροπία στην Αγ. Παρασκευή Από 170€Αγόρασέ το 39.90€ </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|14/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>ΒΡΙΣΚΕΣΤΕ ΕΔΩ: HΟME PAGE » ΕΙΔΗΣΕΙΣ » ΕΛΛΑΔΑ</p>
+<p>function setFontSize(nAmmount)</p>
+<p>{</p>
+<p>	if ((nFontSize>9 || nAmmount>0) && (nFontSize<15 || nAmmount<0)) {</p>
+<p>	nFontSize=nFontSize + nAmmount;</p>
+<p>	document.all.arttext.style.fontSize=nFontSize;</p>
+<p>	}</p>
+<p>}</p>
+<p>ΚΕΕΛΠΝΟ: Κανένας θάνατος από ελονοσία </p>
+<p>	Δεν έχουν καταγραφεί θάνατοι, που να οφείλονται στην ελονοσία σε καμία περιοχή της χώρας, αναφέρει ανακοίνωση του Κέντρου Ελέγχου και Πρόληψης Νοσημάτων (ΚΕEΛΠΝΟ), διαψεύδοντας δημοσίευμα εφημερίδας, που έκανε λόγο για θανάτους από τη νόσο.</p>
+<p>"Η" Online 4/1 18:51</p>
+<p>rnd = Math.floor(Math.random()*900000)+100;</p>
+<p>now = parseInt((new Date()).getTime());</p>
+<p>burst="?"+rnd+":?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|98/170x30"+burst+"/\">");</p>
+<p>document.write("</sc"+"ript>");</p>
+<p> </p>
+<p>Share</p>
+<p>ΠΕΡΙΣΣΟΤΕΡΑ ΑΠΟ ΤΗΝ ΚΑΤΗΓΟΡΙΑ ΕΛΛΑΔΑ</p>
+<p>«Φακελάκι» ζήτησε υπάλληλος της ΔΕΗ Βούλγαροι έκλεβαν μετασχηματιστές της ΔΕΗΟλοκληρώνεται ο κύκλος της εξέτασης στην υπόθεση Πεπόνη - ΜουζακίτηΝεκρός μετά από καταδίωξη ο ληστής με το καλάσνικοφΦωτιά σε σκάφη αναψυχής στη Νέα Πέραμο στα Μέγαρα Αναχώρησε το "Αγ.Γεώργιος" μετά την επίσχεση εργασίας«Διαγωνισμός» - σκάνδαλο στο ΕΣΥ</p>
+<p>Το... κρυφό φάρμακο που άνοιξε τα φαρμακείαΦθηνό ρεύμα 40 εκατ. στους εργαζόμενους της ΔΕΗπερισσότερα »</p>
+<p>rnd = Math.floor(Math.random()*900000)+100;</p>
+<p>now = parseInt((new Date()).getTime());</p>
+<p>burst="?"+rnd+":?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.e-go.gr/gbanner/?"+now+"|77/300x250"+burst+"/\">");</p>
+<p>document.write("</sc"+"ript>");</p>
+<p>Δεν έχουν καταγραφεί θάνατοι, που να οφείλονται στην ελονοσία σε καμία περιοχή της χώρας, αναφέρει ανακοίνωση του Κέντρου Ελέγχου και Πρόληψης Νοσημάτων (ΚΕEΛΠΝΟ), διαψεύδοντας δημοσίευμα εφημερίδας, που έκανε λόγο για θανάτους από τη νόσο. </p>
+<p>	Το ΚΕΕΛΠΝΟ σημειώνει ότι έχουν καταγραφεί κρούσματα ελονοσίας στην περιοχή του δήμου Ευρώτα. Κατά τη διάρκεια του 2011, έχουν δηλωθεί στο Τμήμα Επιδημιολογικής Επιτήρησης και Παρέμβασης του ΚΕΕΛΠΝΟ συνολικά 57 κρούσματα ελονοσίας εκ των οποίων 27 σε Έλληνες, χωρίς ιστορικό μετακίνησης σε χώρες ενδημικές για ελονοσία, 7 σε αλλοδαπούς από μη ενδημικές χώρες και 23 σε αλλοδαπούς από ενδημικές χώρες (κυρίως από το Πακιστάν).</p>
+<p>	Όλα τα κρούσματα ελονοσίας, που έχουν καταγραφεί στη Λακωνία, οφείλονται στο πλασμώδιο vivax (P.vivax), το οποίο εμφανίζει συνήθως ηπιότερη κλινική εικόνα. Ένας υπερήλικας ασθενής στη Λακωνία, ο οποίος έπασχε από ελονοσία, απεβίωσε λόγω σοβαρών υποκείμενων νοσημάτων.</p>
+<p>	Όπως αναφέρει η ανακοίνωση, το ΚΕΕΛΠΝΟ συνεχίζει την επαγρύπνηση και κατά τη διάρκεια των χειμερινών μηνών. Θεωρείται ότι η περίοδος μετάδοσης της ελονοσίας στην περιοχή έχει διακοπεί από τις 13 Νοεμβρίου 2011, ενώ το τελευταίο περιστατικό σε Έλληνα υπήκοο ανέφερε έναρξη συμπτωμάτων στις 18 Οκτωβρίου 2011.</p>
+<p>	Το ΚΕΕΛΠΝΟ και το υπουργειο Υγείας βρίσκονται σε συνεχή επικοινωνία με το Ευρωπαϊκό Κέντρο Πρόληψης και Ελέγχου Νοσημάτων (ECDC) και με τον Παγκόσμιο Οργανισμό Υγείας (ΠΟΥ) για το θέμα της ελονοσίας. Μάλιστα, με αφορμή τα αυξημένα κρούσματα ελονοσίας στην περιοχή, το αντίστοιχο Κέντρο Ελέγχου και Πρόληψης Νοσημάτων των ΗΠΑ (CDC-Atlanta) εξέδωσε στα τέλη Οκτωβρίου 2011 οδηγία για τους ταξιδιώτες προς Λακωνία με σύσταση χημειοπροφύλαξης για την ελονοσία, η οποία άρθηκε στις 16/12/2011, «γεγονός που επιβεβαιώνει ότι έχουν δρομολογηθεί οι κατάλληλες δράσεις και ληφθεί τα σωστά μέτρα ελέγχου της επιδημίας», αναφέρει η ανακοίνωση.</p>
+<p>	Το ΚΕΕΛΠΝΟ και το υπουργείο Υγείας σε συνεργασία με όλους τους εμπλεκόμενους φορείς, έχει ήδη αναπτύξει Στρατηγικό Σχέδιο Δράσης για τον Έλεγχο της Ελονοσίας στην Ελλάδα, το οποίο καθορίζει τις δράσεις για την επόμενη περίοδο αυξημένης κυκλοφορίας των ανωφελών κουνουπιών (άνοιξη-φθινόπωρο 2012).</p>
+<p>	Σε ό,τι αφορά στον ιό του Δυτικού Νείλου (ΔΝ), διευκρινίζεται ότι πρόκειται για διαφορετικό λοιμώδες νόσημα, το οποίο μεταδίδεται με το απλό κουνούπι (γένος Culex) και δε συσχετίζεται σε καμία περίπτωση με την είσοδο και παραμονή μεταναστών στην Ελλάδα, υπογραμμίζει το ΚΕΕΛΠΝΟ.</p>
+<p>	Κατά τη διάρκεια του 2011 διαγνώστηκαν συνολικά 101 κρούσματα λοίμωξης από τον ιό του ΔΝ, από τα οποία 76 εμφάνισαν εκδηλώσεις από το κεντρικό νευρικό σύστημα. Σημειώθηκαν επίσης 8 θάνατοι σε ασθενείς άνω των 65 ετών με υποκείμενα νοσήματα. Τα κρούσματα λοίμωξης από τον ιό του ΔΝ εμφανίστηκαν σε νοτιότερες περιοχές της χώρας, κυρίως δε στις περιοχές της Θεσσαλίας και της Αττικής. Το τελευταίο περιστατικό εμφάνισε συμπτώματα στις 18 Οκτωβρίου 2011.</p>
+<p>	Το ΚΕΕΛΠΝΟ συμμετέχει σε πρόγραμμα ΕΣΠΑ μαζί με το Πανεπιστήμιο Θεσσαλίας και άλλους ακαδημαϊκούς και δημόσιους φορείς με θέμα τα νοσήματα που μεταδίδονται με διαβιβαστές, όπως η ελονοσία και η λοίμωξη από τον ιό του Δυτικού Νείλου. </p>
+<p>Πηγή: ΑΠΕ</p>
+<p>var nColorScheme=1;</p>
+<p>var nFontSize=12;</p>
+<p>var initialBack=document.all.arttext.style.backgroundColor;</p>
+<p>var initialFor=document.all.arttext.style.color;</p>
+<p> </p>
+<p>LINK ΧΟΡΗΓΩΝSaxo Bank21 Χρηματιστήρια Μετοχών και Παραγώγων, 145 Ισοτιμίες, CFDs Ελληνικών Μετοχών Δωρεάν Δοκιμαστική Πλατφόρμα! </p>
+<p>var google_adnum = 0;</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>var s = '';</p>
+<p>var i;</p>
+<p>if (google_ads.length == 0) {</p>
+<p>return;</p>
+<p>}</p>
+<p>if (google_ads[0].type == "image") {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Ads by Google</a><br> <a href="' + </p>
+<p>google_ads[0].url + '" target="_top" title="go to ' + </p>
+<p>google_ads[0].visible_url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' + </p>
+<p>google_ads[0].visible_url + '\';return true"><img border="0" src="' + </p>
+<p>google_ads[0].image_url + '"width="' + </p>
+<p>google_ads[0].image_width + '"height="' + </p>
+<p>google_ads[0].image_height + '"></a>';</p>
+<p>} else if (google_ads[0].type == "html") {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Ads by Google</a><br>' + </p>
+<p>google_ads[0].snippet;</p>
+<p>} else {</p>
+<p>if (google_ads.length == 1) {</p>
+<p>s += '<a href=\"' +</p>
+<p>google_info.feedback_url + '\" style="color:000000">Ads by Google</a> <a style="text-decoration:none" href="' + </p>
+<p>google_ads[0].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[0].visible_url + '\';return true"> <span style="text-decoration:underline;font-size:20pt"> <b>' + </p>
+<p>google_ads[0].line1 + '</b><br></span></a> <span style="color:#000000; font-size:16pt">' +</p>
+<p>google_ads[0].line2 + '&nbsp;' +</p>
+<p>google_ads[0].line3 + '<br></span> <a style="color:#008000;font-size:44pt;text-decoration:none" href="' + </p>
+<p>google_ads[0].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[0].visible_url + '\';return true"><span>' + </p>
+<p>google_ads[0].visible_url + '</span></a><br>';</p>
+<p>} else if (google_ads.length > 1) {</p>
+<p>s += "<table id=\"imerisiagads\" cellspacing=\"0\" cellpadding=\"0\">"; </p>
+<p>s += "  <tr>";</p>
+<p>s += "    <td id=\"head\">";</p>
+<p>s += '<a href=\"' + google_info.feedback_url + '\">Ads by Google</a>'  </p>
+<p>s += " <\/td>";</p>
+<p>s += "  <\/tr>";</p>
+<p>s += "  <tr>";</p>
+<p>s += "    <td>";</p>
+<p>for(i = 0; i < google_ads.length; ++i) {</p>
+<p>s += '<br><a id=\"title\" href="' + </p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true"> <span>' + </p>
+<p>google_ads[i].line1 + '</span></a> <span>' +</p>
+<p>google_ads[i].line2 + '</span><br/> <a id=\"adlink\" href="' + </p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true"><span>' + </p>
+<p>google_ads[i].visible_url + '</span></a><br>';</p>
+<p>}</p>
+<p>s += "   &nbsp;<\/td>";</p>
+<p>s += "  <\/tr>";</p>
+<p>s += "<\/table>";</p>
+<p>}}</p>
+<p>if (google_ads[0].bidtype == "CPC") {</p>
+<p>google_adnum = google_adnum + google_ads.length;</p>
+<p>}</p>
+<p>document.write(s);</p>
+<p>return;</p>
+<p>}</p>
+<p>google_ad_client = 'pub-9628004899418467';</p>
+<p>google_ad_channel = '0622925414';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '4';</p>
+<p>google_ad_type = 'text';</p>
+<p>google_feedback = 'on';</p>
+<p>google_encoding = 'UTF-8';</p>
+<p>google_adtest = 'off';</p>
+<p>google_language = 'el';</p>
+<p>setInitialTipEnvironment('bubbleSpan','tipDiv',100,350,'<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top" class="tipContainer"><div class="advContent">','</div></td><td width="10" class="rightSide"> </td></tr><tr><td height="10" class="bottomSide" align="center"><img src="js/contextual/images/arrow.png" class="arrow"></td><td height="10" class="bottomRight"></td></tr></table>') </p>
+<p> </p>
+<p>ΕΠΙΛΟΓΕΣ</p>
+<p>ΟΙΚΟΝΟΜΙΑΔεν κατέβαλαν δώρο Χριστουγέννων 763 επιχειρήσειςΟΙΚΟΝΟΜΙΑΑνοδος-«ανάσα» στα έσοδα κατά 9,1% το ΔεκέμβριοΟΙΚΟΝΟΜΙΑΗ ύφεση ναρκοθετεί τα έσοδα των ταμείωνΟΙΚΟΝΟΜΙΑΑλλαγές στον Ειδικό Φόρο για το Φυσικό Αέριο</p>
+<p>ΕΛΛΑΔΑΤακτοποίηση ημιυπαίθριων: Παράταση για την πρώτη δόση του προστίμου</p>
+<p>ΕΛΛΑΔΑ«Εμφραγμα» στα νοσοκομεία λόγω έλλειψης προσωπικούΕΛΛΑΔΑΣε 5 δόσεις αναδρομικά από το ΙΚΑΕΛΛΑΔΑΑνέκδοτος Ελύτης από την Στοκχόλμη του 1979DIGITAL LIFEΗ Ευρωπαϊκή Ενωση «συστήνεται» σε μαθητές και εκπαιδευτικούς ΟΙΚΟΝΟΜΙΑΗ Ελλάδα θα βυθίσει την Ευρώπη σε χειρότερη κρίση</p>
+<p> </p>
+<p>ΕΙΔΗΣΕΙΣ | ΟΙΚΟΝΟΜΙΑ | ΕΠΙΧΕΙΡΗΣΕΙΣ | ΧΡΗΜΑΤΙΣΤΗΡΙΟ | ΑΓΟΡΕΣ | ΑΠΟΨΕΙΣ | ΣΤΗΛΕΣ | ΤΕΧΝΟΛΟΓΙΑ | ΠΕΡΙΒΑΛΛΟΝ | LIFESTYLE | ΥΠΗΡΕΣΙΕΣ | </p>
+<p>CLUB IMERISIA | ΒΟΗΘΕΙΑ | ΕΠΙΚΟΙΝΩΝΙΑ | ΌΡΟΙ & ΠΡΟΫΠΟΘΕΣΕΙΣ | </p>
+<p>_uacct="UA-1074537-4";</p>
+<p>urchinTracker();</p>
+<p>ΑΠΑΓΟΡΕΥΕΤΑΙ η αναδημοσίευση, η αναπαραγωγή, ολική, μερική ή περιληπτική ή κατά παράφραση ή διασκευή απόδοση του περιεχομένου του παρόντος web site με οποιονδήποτε τρόπο, ηλεκτρονικό, μηχανικό, φωτοτυπικό, ηχογράφησης ή άλλο, χωρίς προηγούμενη γραπτή άδεια του εκδότη. </p>
+<p>Νόμος 2121/1993 και κανόνες Διεθνούς Δικαίου που ισχύουν στην Ελλάδα.</p>
+<p> var pvar = { cid: "gr-pegasus", content: "0", server: "secure-uk" };</p>
+<p> var feat = { surveys_enabled: 1, sample_rate: 0.05 };</p>
+<p> var trac = nol_t(pvar, feat);</p>
+<p> var _rsND = trac.getSchemeHost(); // For compatibility with v53 surveys</p>
+<p> var _rsCI = "gr-pegasus"; // For compatibility with v53 surveys</p>
+<p> trac.record().post().do_sample();</p>
+<p>Επικαιρότητα: Πολιτική, </p>
+<p>Κοινωνία, </p>
+<p>Οικονομία, </p>
+<p>Διεθνή, </p>
+<p>Πολιτισμός.</p>
+<p>Αρθρογραφία.</p>
+<p>Ένθετα, </p>
+<p>TV Εθνος, </p>
+<p>Χρήσιμα.</p>
+<p>Περισσότερα στο www.ethnos.gr</p>
+<p>Ειδησεογραφία: Οικονομία & Αγορές.</p>
+<p>Ελληνικές & </p>
+<p>Ξένες επιχειρήσεις.</p>
+<p>Μετοχές, </p>
+<p>Χρηματιστήριο, Απόψεις.</p>
+<p>Περισσότερα στο www.imerisia.gr</p>
+<p>Ποδόσφαιρο: Ελλάδα & </p>
+<p>Διεθνή.</p>
+<p>Μπάσκετ, </p>
+<p>Βόλεϊ και </p>
+<p>άλλα σπορ.</p>
+<p>DailyBet & Παρασκήνια.</p>
+<p>Περισσότερα στο www.sentragoal.gr</p>
+<p>Ειδήσεις για την </p>
+<p>Ελλάδα και τον </p>
+<p>κόσμο.</p>
+<p>Ενημέρωση & Ψυχαγωγία.</p>
+<p>Lifestyle, </p>
+<p>μόδα, ομορφιά, </p>
+<p>αστρολογία.</p>
+<p>Περισσότερα στο www.e-go.gr</p>

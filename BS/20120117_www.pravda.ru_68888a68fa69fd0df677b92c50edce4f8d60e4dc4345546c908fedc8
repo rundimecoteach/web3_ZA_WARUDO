@@ -1,0 +1,381 @@
+<p>Сибирские ученые нашли 'бациллу бессмертия' - Правда.Ру</p>
+<p>	var _ed_name = 'pravda_admin_remember';</p>
+<p>	var _ed_url = 'http://www.pravda.ru/?area=ajaxAdminEditor';</p>
+<p>	</p>
+<p><!--</p>
+<p>	function cl(link)</p>
+<p>	{</p>
+<p>	 var img = new Image(1,1);</p>
+<p>	 img.src = 'http://www.liveinternet.ru/click?*' + link;</p>
+<p>	}</p>
+<p>	//--></p>
+<p>new adriver.Plugin.require("onScroll.adriver");</p>
+<p>			var WRInitTime=(new Date()).getTime();</p>
+<p>			</p>
+<p><!--</p>
+<p>			new Image().src = "//counter.yadro.ru/hit;pravdaru?r"+</p>
+<p>			escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>			";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>			screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>			";h"+escape(document.title.substring(0,80))+</p>
+<p>			";"+Math.random();//--></p>
+<p>					var img = new Image();</p>
+<p>					img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*pravda_ru/ru/CP1251/tmsec=pravda_news/';</p>
+<p>				</p>
+<p>ENG</p>
+<p>RUS</p>
+<p>PT</p>
+<p>ITA</p>
+<p>// <!--</p>
+<p>var prbnp_login = "pravda-main-728x90-header";</p>
+<p>var prbnp_options = "options=NT";</p>
+<p>var prbnp_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://pravda.prbn.ru/cgi-bin/iframe/'+prbnp_login+'?'+prbnp_random+'&'+prbnp_options+'" width="728" height="90" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://pravda.prbn.ru/cgi-bin/href/'+prbnp_login+'?'+prbnp_random +'" target="_blank"><img src="http://pravda.prbn.ru/cgi-bin/banner/'+prbnp_login+'?'+prbnp_random +'&'+prbnp_options+'" alt="Pravda" width="728" height="90" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p> </p>
+<p>в почту</p>
+<p>профиль</p>
+<p>выйти</p>
+<p>Почта@pravda.ru</p>
+<p>Регистрация</p>
+<p>Имя:</p>
+<p> @pravda.ru</p>
+<p>							Пароль:</p>
+<p>Войти</p>
+<p>запомнить</p>
+<p>забыли пароль?</p>
+<p>обычный вход</p>
+<p>                                    var _info_name = 'pravdauin';</p>
+<p>                                    var _info_domain = '.pravda.ru';</p>
+<p>                                    var _info_url = 'http://www.pravda.ru/?area=loginFormHelper'+'&t='+Math.round(Math.random() * 100000);</p>
+<p>                                    setUserInfo();</p>
+<p>				</p>
+<p>МирНаукаОбществоЗдоровьеРелигияКрасота Фото</p>
+<p>все разделы</p>
+<p>архив</p>
+<p><!--</p>
+<p>		window.fbAsyncInit = function() {</p>
+<p>			FB.init({appId: '218074068257314', status: true, cookie: true,</p>
+<p>			         xfbml: true});</p>
+<p>		};</p>
+<p>		if (/*@cc_on 1 | @*/ 0) {</p>
+<p>			addLoadEvent(function() {</p>
+<p>				var e = document.createElement('script'); e.async = true;</p>
+<p>				e.src = document.location.protocol +</p>
+<p>				  '//connect.facebook.net/ru_RU/all.js';</p>
+<p>				document.getElementById('fb-root').appendChild(e);</p>
+<p>			});</p>
+<p>		} else {</p>
+<p>			(function() {</p>
+<p>				var e = document.createElement('script'); e.async = true;</p>
+<p>				e.src = document.location.protocol +</p>
+<p>				  '//connect.facebook.net/ru_RU/all.js';</p>
+<p>				document.getElementById('fb-root').appendChild(e);</p>
+<p>			}());</p>
+<p>		}//--></p>
+<p>	</p>
+<p>Новости » Наука и техника</p>
+<p>В вечной мерзлоте нашли "бациллу бессмертия"</p>
+<p>17.01.2012 |</p>
+<p>        Источник: Правда.Ру </p>
+<p> </p>
+<p>Сибирские ученые нашли в вечной мерзлоте в недрах Мамонтовой горы (Якутия) бактерию, которая активируется и делится при температуре всего плюс пять градусов. Об этом заявили в центре общественных связей Сибирского отделения РАН. Сейчас специалисты ведут определение и сравнение генома Bacillius F, чтобы более точно датировать микроорганизм.</p>
+<p>Читайте: Якутия — мировая научная площадка</p>
+<p>Согласно характеристикам белков и некоторым другим факторам, найденная бактерия "отстала" от современных на три миллиона лет, сообщает "Фонтанка.Ру". Эксперты предполагают, что таким бактериям присущ особый механизм сохранения жизнеспособности.</p>
+<p>"Вдобавок их отличающиеся от современных типы бактериальной стенки и белков будут вызывать более сильный или более специфичный иммунный ответ, если ввести их в организм мыши. Все так и произошло", — заявила старший научный сотрудник Института химической биологии и фундаментальной медицины СО РАН Надежда Миронова.</p>
+<p>"Мы просто подумали: поскольку бактерии были найдены в вечной мерзлоте, где вполне успешно сохранились, возможно, у них есть механизмы сохранения жизнеспособности. Вдобавок, их отличающиеся от современных типы бактериальной стенки и белков будут вызывать более сильный или более специфичный иммунный ответ, если ввести их в организм мыши. Все так и произошло", — рассказала она, пишет "Сибкрай.ru".</p>
+<p>Читайте также: В Якутии нашли древнего бизона</p>
+<p>Получившие "прививку от старости" животные оказались во всех смыслах благополучные, чем контрольные грызуны. "Уже подтверждено, что инъекции Bacillius F благоприятно повлияли на некоторые показатели качества бытия у престарелых животных. В первую очередь это касается иммунитета и скорости его активации", — говорится в пресс-релизе центра общественных связей, передает ER.ru.Якутия - рай на вечной мерзлоте </p>
+<p> </p>
+<p>Все новости >>></p>
+<p>	$$('#article a').each(function(url){</p>
+<p>		if (url.href.indexOf('pravda.ru') == -1 &&</p>
+<p>			url.href.indexOf('bigness.ru') == -1 &&</p>
+<p>			url.href.indexOf('dailyshow.ru') == -1 &&</p>
+<p>			url.href.indexOf('ecosever.ru') == -1 &&</p>
+<p>			url.href.indexOf('entrynews.com') == -1 &&</p>
+<p>			url.href.indexOf('fark.ru') == -1 &&</p>
+<p>			url.href.indexOf('funreports.com') == -1 &&</p>
+<p>			url.href.indexOf('georgiatimes.info') == -1 &&</p>
+<p>			url.href.indexOf('glavtema.ru') == -1 &&</p>
+<p>			url.href.indexOf('medpulse.ru') == -1 &&</p>
+<p>			url.href.indexOf('missus.ru') == -1 &&</p>
+<p>			url.href.indexOf('moneytimes.ru') == -1 &&</p>
+<p>			url.href.indexOf('moscowtopnews.com') == -1 &&</p>
+<p>			url.href.indexOf('russiansentry.com') == -1 &&</p>
+<p>			url.href.indexOf('yoki.ru') == -1 &&</p>
+<p>			url.href.indexOf('politonline.ru') == -1</p>
+<p>		) {</p>
+<p>			url.href = 'http://www.pravda.ru/?area=show&url=' + url.href;</p>
+<p>			url.observe('click', function(){</p>
+<p>				var IE='\v'=='v';</p>
+<p>				if (!IE && navigator.userAgent.toLowerCase().indexOf('opera') == -1) {</p>
+<p>					window.open ("http://www.moneyday.ru/pub/1/", "moneyday");</p>
+<p>				}</p>
+<p>			})</p>
+<p>		}</p>
+<p>	});</p>
+<p><!--</p>
+<p>	function openPrint(url) {</p>
+<p>		var printWin = window.open(url,</p>
+<p>		   "print",</p>
+<p>		   "width=800,height=600,resizable=yes,scrollbars=yes,status=yes"</p>
+<p>		)</p>
+<p>		printWin.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	var _php_url_send = 'http://www.pravda.ru/?area=popupSendToFriend&t=a&id=1104965';</p>
+<p>	function switchCodeBlock(){</p>
+<p>		var codeBlock = document.getElementById('code-block');</p>
+<p>		var blogCode = document.getElementById('blogCode');</p>
+<p>		if (codeBlock.style.display == 'none') {</p>
+<p>			codeBlock.style.display = 'block';</p>
+<p>			blogCode.focus();</p>
+<p>			blogCode.select();</p>
+<p>		} else {</p>
+<p>			codeBlock.style.display = 'none';</p>
+<p>		}</p>
+<p>	}</p>
+<p>	//--></p>
+<p>	</p>
+<p>Версия для печати</p>
+<p>Послать другу</p>
+<p>Код для вставки в блог</p>
+<p><!--</p>
+<p>		if (!(/*@cc_on 1 | @*/ 0)) {</p>
+<p>			facebox = new Facebox();</p>
+<p>		}//--></p>
+<p>	</p>
+<p><!--</p>
+<p>	var text = '<table width="440" cellspacing="0" border="0" align="center" style="border: 1px solid rgb(223, 223, 223); font-family: Verdana,Helvetica,sans-serif; color: rgb(51, 51, 51);">  <tbody><tr>    <td style="padding: 10px 10px 0pt;" colspan="2"><a href="http://www.pravda.ru/"><img border="0" title="Pravda.ru / Новости" alt="Pravda.ru / Новости" src="http://www.pravda.ru/pix/logo.gif"/></a></td>  </tr>  <tr>    <td style="padding: 10px 10px 0pt; font-size: 18px; font-weight: bold;" colspan="2"><div style="border-bottom: 1px solid rgb(223, 223, 223); padding-bottom: 10px;"> <a style="text-decoration: none;color:#004694;font-family:Georgia;font-weight:normal;" href="http://www.pravda.ru/news/science/17-01-2012/1104965-science-0/">В вечной мерзлоте нашли "бациллу бессмертия"</a></div></td>  </tr>  <tr>    <td valign="top" align="left" style="padding: 10px;"><a style="text-decoration: none;color:#004694;font-family:Georgia;font-weight:normal;" href="http://www.pravda.ru/news/science/17-01-2012/1104965-science-0/"><img   alt="В вечной мерзлоте нашли  бациллу бессмертия " title="В вечной мерзлоте нашли  бациллу бессмертия " src="http://pravda-team.ru/pravda/image/preview/article/9/6/5/1104965.jpeg" /></a></td>    <td align="left" style="padding: 10px; font-size: 11px;"><a style="text-decoration: none !important; color: inherit !important;border:inherit !important;" href="http://www.pravda.ru/news/science/17-01-2012/1104965-science-0/">Сибирские ученые нашли в вечной мерзлоте в недрах Мамонтовой горы (Якутия) бактерию, которая активируется и делится при температуре всего плюс пять градусов. Об этом заявили в центре общественных связей Сибирского отделения РАН. Сейчас специалисты ведут определение и сравнение генома Bacillius F, чтобы более точно датировать микроорганизм.</a></td>  </tr>  <tr align="center" style="background-color: rgb(212, 212, 212); height: 20px; font-size: 12px;">    <td colspan="2"><a style="text-decoration: none; color: rgb(255, 255, 255);" href="http://www.pravda.ru/news/science/17-01-2012/1104965-science-0/">http://www.pravda.ru/news/science/17-01-2012/1104965-science-0/</a></td>  </tr></tbody></table>';</p>
+<p>	$('blogCode').value=text;</p>
+<p>	//--></p>
+<p>Поделись прочитанным:</p>
+<p>            <!--</p>
+<p>               VK.init({</p>
+<p>                    apiId: 1962042,</p>
+<p>                    onlyWidgets: true</p>
+<p>                });</p>
+<p>            //--></p>
+<p>            </p>
+<p>               VK.Widgets.Like('vk_like',  {width: 150, type: "mini", pageTitle: 'В вечной мерзлоте нашли &quot;бациллу бессмертия&quot;', pageDescription: 'Сибирские ученые нашли в вечной мерзлоте в недрах Мамонтовой горы (Якутия) бактерию, которая активируется и делится при температуре всего плюс пять градусов. Об этом заявили в центре общественных связей Сибирского отделения РАН. Сейчас специалисты...', pageUrl: 'http://www.pravda.ru/news/science/17-01-2012/1104965-science-0/'}, 1104965);</p>
+<p>            </p>
+<p>0</p>
+<p>Твитнуть</p>
+<p>Поделиться</p>
+<p> </p>
+<p>                    widgets.comments({</p>
+<p>                        container: 'comments',</p>
+<p>                        siteId: 1,</p>
+<p>                        id: 1104965,</p>
+<p>                        type: 1</p>
+<p>                    });</p>
+<p>                </p>
+<p>(function(w, d, n, s, t) {</p>
+<p>w[n] = w[n] || [];</p>
+<p>w[n].push(function() {</p>
+<p>Ya.Direct.insertInto(64956, "yandex_ad", {</p>
+<p>site_charset: "utf-8",</p>
+<p>ad_format: "direct",</p>
+<p>font_size: 1,</p>
+<p>type: "horizontal",</p>
+<p>limit: 3,</p>
+<p>title_font_size: 3,</p>
+<p>site_bg_color: "FFFFFF",</p>
+<p>header_bg_color: "FEEAC7",</p>
+<p>title_color: "0000CC",</p>
+<p>url_color: "006600",</p>
+<p>all_color: "0000CC",</p>
+<p>text_color: "000000",</p>
+<p>hover_color: "0066FF",</p>
+<p>favicon: true</p>
+<p>});</p>
+<p>});</p>
+<p>t = d.documentElement.firstChild;</p>
+<p>s = d.createElement("script");</p>
+<p>s.type = "text/javascript";</p>
+<p>s.src = "http://an.yandex.ru/system/context.js";</p>
+<p>s.setAttribute("async", "true");</p>
+<p>t.insertBefore(s, t.firstChild);</p>
+<p>})(window, document, "yandex_context_callbacks");</p>
+<p>	fark_partner_id = '83';</p>
+<p>	fark_num_links = 3;</p>
+<p>	fark_is_images = 1;</p>
+<p>	fark_code_format = '2';</p>
+<p>	fark_code_style_a = '';</p>
+<p>	fark_code_style_td = '';</p>
+<p>	fark_banner_draw();</p>
+<p>Добавить свое объявлениеЗагрузка...</p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>    +'src="http://jsn.dt00.net/p/r/pravda.ru.7778.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()</p>
+<p>    + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>     </p>
+<p>Популярные галереи</p>
+<p><!--</p>
+<p>	var popularPhotoLoader = new PopularPhotoLoader(2, true, 'gallery-id-2-t');//--></p>
+<p> </p>
+<p>Фотосессия</p>
+<p>Миссия на Марс</p>
+<p>История, наука (49 фото)</p>
+<p>Лауреаты премии People's Choice</p>
+<p>Фото знаменитостей (201 фото)</p>
+<p>Новости. Тор 24</p>
+<p>Эксперт: доказать причастность США к аварии "Фобос-Грунта" невозможно</p>
+<p>В вечной мерзлоте нашли "бациллу бессмертия"</p>
+<p>Москва ждет объяснений по задержанию летчика Попкова</p>
+<p>В Сети появился ролик с "очередью за наркотиками"</p>
+<p>Новый посол США провел смотр российской оппозиции</p>
+<p>Криминал: надомный работник 2 года насиловал свою дочь</p>
+<p>У сериала "Шерлок" будет продолжение</p>
+<p>Двухлетний ребенок проглотил батарейку и умер</p>
+<p>На НТВ объяснили причину ухода Лобкова</p>
+<p>Директор петербургского завода погиб в ДТП</p>
+<p>Экс-сокамерника Ходорковского обвиняют в преступлении</p>
+<p>Журналист Павел Лобков уволен с НТВ</p>
+<p>Гибель "Фобос-Грунт" мог вызвать американский радар</p>
+<p>Видеотека</p>
+<p>Игра без режиссера. А все подумали - битва идет</p>
+<p>Осторожный лемур</p>
+<p>Самое читаемое на сайте</p>
+<p>Занятия сексом смертельно опасны</p>
+<p>				Австралийский зоолог Даррелл Кемп провел любопытное исследование, которое подтвердило предположение о том, что публичные занятия сексом могут быть опасны для жизни любовников. Он, изучая процесс охоты…			</p>
+<p>Шведы никак не простят России Полтаву</p>
+<p>				В 2011 году напомнили о себе проблемы в отношениях России и Швеции. Скандинавы вмешиваются в наши внутренние дела и несколько лет вредят России на международной арене. Южная Осетия, "Северный поток"…			</p>
+<p>Косовары потрошили россиян на органы</p>
+<p>ПРО в Турции: угроза Ирану, России и СирииАхмадинежад на ALBA: США в истерикеНаркоторговцы идут на опережениеСтавка на голубое"Титаник-2" - символ тонущей ЕвропыСбросим Зюганова с корабля современности? </p>
+<p> </p>
+<p>var xmas = new Date();</p>
+<p>var blocks =  ['bigness3', 'lady3', 'missus3', 'yoki3'];</p>
+<p>var block = blocks[Math.floor(Math.random() * blocks.length)];</p>
+<p>document.write('<iframe scrolling="no" height="400" frameborder="0" width="240" src="http://www.medpulse.ru/cache/cqc/'+block+'.html?t='+xmas.getTime().toString().substr(0,7)+'"></iframe>');</p>
+<p> </p>
+<p>// <!--</p>
+<p>var prbnp_login = "pravda-news-240x400-sa";</p>
+<p>var prbnp_options = "options=T";</p>
+<p>var prbnp_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://pravda.prbn.ru/cgi-bin/iframe/'+prbnp_login+'?'+prbnp_random+'&'+prbnp_options+'" width="240" height="400" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://pravda.prbn.ru/cgi-bin/href/'+prbnp_login+'?'+prbnp_random +'" target="_top"><img src="http://pravda.prbn.ru/cgi-bin/banner/'+prbnp_login+'?'+prbnp_random +'&'+prbnp_options+'" alt="Pravda" width="240" height="400" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p> </p>
+<p>Самое комментируемое</p>
+<p>Сергей Пилотов</p>
+<p> </p>
+<p>				Блогеры разжигают антикавказские настроения (111)</p>
+<p>Владислав Толоконников</p>
+<p> </p>
+<p>				Россию окружили корабли ВМФ США (75)</p>
+<p>Галина Бланка</p>
+<p> </p>
+<p>				Пенсионер расстрелял врачей-непрофессионалов (62)</p>
+<p>George Ufimcev</p>
+<p> </p>
+<p>				Гавел: последний аккорд недруга России (57)</p>
+<p>Stanislav Loktionov</p>
+<p> </p>
+<p>				Митинг на проспекте Сахарова. Послесловие (45)</p>
+<p>vkontakte_29151676</p>
+<p> </p>
+<p>				Сирийская военная тайна США от России (34)</p>
+<p>Мир</p>
+<p>Готова ли ПВО Сирии отразить удар НАТО?</p>
+<p>Шведы никак не простят России Полтаву</p>
+<p>Косовары потрошили россиян на органы</p>
+<p>ПРО в Турции: угроза Ирану, России и Сирии</p>
+<p>Загрузка...</p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>    +'src="http://jsn.dt00.net/p/r/pravda.ru.9955.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()</p>
+<p>    + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>     </p>
+<p>var xmas = new Date();</p>
+<p>var blocks =  ['bigness3', 'lady3', 'missus3', 'yoki3'];</p>
+<p>var block = blocks[Math.floor(Math.random() * blocks.length)];</p>
+<p>document.write('<iframe scrolling="no" height="400" frameborder="0" width="240" src="http://www.medpulse.ru/cache/cqc/'+block+'.html?t='+xmas.getTime().toString().substr(0,7)+'"></iframe>');</p>
+<p> </p>
+<p>Bigness.ru</p>
+<p>Россиян опять "бьют", чтоб чужие боялись</p>
+<p>Россия открыта для исламского вторжения</p>
+<p>Россияне живут не по средствам</p>
+<p>Эстонская экономика побила российскую</p>
+<p>Ирану не страшно нефтяное эмбарго</p>
+<p>Прогноз: евро ждет коррекция</p>
+<p>Загрузка...</p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>    +'src="http://jsn.dt00.net/p/r/pravda.ru.9951.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()</p>
+<p>    + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>     </p>
+<p>Politonline.ru</p>
+<p>Что стало лучше при Путине?</p>
+<p>Самый опасный человек в России</p>
+<p>В кировской администрации нашли уголовника</p>
+<p>Чем грозит кандидат Непутин</p>
+<p>Либеральные СМИ промывают мозги</p>
+<p>Что происходит с россиянами</p>
+<p>var xmas = new Date();</p>
+<p>var blocks = ['society3', 'georgiatimes3'];</p>
+<p>var block = blocks[Math.floor(Math.random() * blocks.length)];</p>
+<p>document.write('<iframe scrolling="no" height="400" frameborder="0" width="240" src="http://www.pravda.ru/cache/cqc/'+block+'.html?t='+xmas.getTime().toString().substr(0,7)+'"></iframe>');</p>
+<p> </p>
+<p><!--</p>
+<p>			new Image().src = "http://www.cqc.ru/rn?h="+escape(document.title.substring(0,250))+";r="+Math.random();</p>
+<p>		//--></p>
+<p> </p>
+<p>О проекте</p>
+<p>Архив</p>
+<p>Карта сайта</p>
+<p>RSS</p>
+<p>Контакты</p>
+<p>Вакансии</p>
+<p>РЕКЛАМА</p>
+<p>Форум</p>
+<p>Правда.ру в соцсетях:</p>
+<p>                    Нашли опечатку? Выделите ее мышкой и нажмите Ctrl+Enter</p>
+<p>                </p>
+<p>Copyright © 1999-2012, технология и дизайн принадлежат ЗАО «Правда.Ру».</p>
+<p>			Использование материалов сайта (распространение, воспроизведение, передача, перевод, переработка и др.) допускается только с письменного разрешения редакции.</p>
+<p>			Мнения и взгляды авторов не всегда совпадают с точкой зрения редакции.</p>
+<p>            </p>
+<p> </p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter11268325 = new Ya.Metrika({id:11268325, enableAll: true});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, "yandex_metrika_callbacks");</p>
+<p> </p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=171112&target=top&bt=43&pz=0&tail256=');</p>
+<p> </p>
+<p>if(document.location.protocol!='https:')</p>
+<p>  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb6.js'%20type='text/javascript'%3E%3C/script%3E"));</p>
+<p>if(typeof ClickTale=='function') ClickTale(10284,0.1,"www03");</p>
+<p>    var _MAIL = '!ohemp@ardv.aur';</p>
+<p>    function getLikeForm() {</p>
+<p>        if (!Cookie.get('likeUs')) {</p>
+<p>            new Ajax.Request('http://www.pravda.ru/?area=popupLikeUs', {</p>
+<p>                method		: 'get',</p>
+<p>                onComplete	: function(transport) {</p>
+<p>                    facebox.reveal(transport.responseText);</p>
+<p>                    Cookie.set('likeUs', 1, 3, '/', '.www.pravda.ru');</p>
+<p>                }</p>
+<p>            });</p>
+<p>        }</p>
+<p>    }</p>
+<p>    addLoadEvent(</p>
+<p>        function() {</p>
+<p>            setTimeout('getLikeForm()', 10000);</p>
+<p>        }</p>
+<p>    );</p>

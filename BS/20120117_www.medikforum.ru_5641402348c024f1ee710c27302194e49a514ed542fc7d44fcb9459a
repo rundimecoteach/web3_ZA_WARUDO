@@ -1,0 +1,555 @@
+<p>Идеальный любовник: 3 метода определить » MEDIKFORUM.RU</p>
+<p>  VK.init({apiId: 2628764, onlyWidgets: true});</p>
+<p>@import url(/www/news/templates/Mediknews/css/ny.css);</p>
+<p>@import url(/www/news/templates/Mediknews/css/newstyle.css);</p>
+<p>@import url(/www/news/templates/Mediknews/css/engine.css);</p>
+<p>@import url(/www/news/templates/Mediknews/css/widjet.css);</p>
+<p>$(document).ready(function() {	</p>
+<p>	$('#mask').css({'height':$('#panel-1').height()});	</p>
+<p>	$('#panel').width(parseInt($('#mask').width() * $('#panel div').length));</p>
+<p>	$('#panel div').width($('#mask').width());</p>
+<p>	$('a[rel=panel]').click(function () {</p>
+<p>	var panelheight = $($(this).attr('href')).height();</p>
+<p>	$('a[rel=panel]').removeClass('selected');</p>
+<p>	$(this).addClass('selected');</p>
+<p>	$('#mask').animate({'height':panelheight},{queue:false, duration:500});			</p>
+<p>	$('#mask').scrollTo($(this).attr('href'), 800);		</p>
+<p>	return false;</p>
+<p>	});</p>
+<p>	</p>
+<p>});</p>
+<p>	.hidden { position:absolute; top:0; left:-9999px; width:1px; height:1px; overflow:hidden; }</p>
+<p>	</p>
+<p>	.fg-button { clear:left; margin:0 4px 40px 20px; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }</p>
+<p>	.fg-button .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }</p>
+<p>	a.fg-button { float:left;  }</p>
+<p>	button.fg-button { width:auto; overflow:visible; } /* removes extra button width in IE */</p>
+<p>	</p>
+<p>	.fg-button-icon-left { padding-left: 2.1em; }</p>
+<p>	.fg-button-icon-right { padding-right: 2.1em; }</p>
+<p>	.fg-button-icon-left .ui-icon { right: auto; left: .2em; margin-left: 0; }</p>
+<p>	.fg-button-icon-right .ui-icon { left: auto; right: .2em; margin-left: 0; }</p>
+<p>	.fg-button-icon-solo { display:block; width:8px; text-indent: -9999px; }	 /* solo icon buttons must have block properties for the text-indent to work */	</p>
+<p>	</p>
+<p>	.fg-button.ui-state-loading .ui-icon { background: url(spinner_bar.gif) no-repeat 0 0; }</p>
+<p>	</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-22731419-3']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>Загрузка. Пожалуйста, подождите...</p>
+<p><!--</p>
+<p>var dle_root       = '/www/news/';</p>
+<p>var dle_admin      = '';</p>
+<p>var dle_login_hash = '';</p>
+<p>var dle_group      = 5;</p>
+<p>var dle_skin       = 'Mediknews';</p>
+<p>var dle_wysiwyg    = 'yes';</p>
+<p>var quick_wysiwyg  = '1';</p>
+<p>var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена"];</p>
+<p>var menu_short     = 'Быстрое редактирование';</p>
+<p>var menu_full      = 'Полное редактирование';</p>
+<p>var menu_profile   = 'Просмотр профиля';</p>
+<p>var menu_send      = 'Отправить сообщение';</p>
+<p>var menu_uedit     = 'Админцентр';</p>
+<p>var dle_info       = 'Информация';</p>
+<p>var dle_confirm    = 'Подтверждение';</p>
+<p>var dle_prompt     = 'Ввод информации';</p>
+<p>var dle_req_field  = 'Заполните все необходимые поля';</p>
+<p>var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';</p>
+<p>var dle_del_news   = 'Удалить новость';</p>
+<p>var allow_dle_delete_news   = false;</p>
+<p>//--></p>
+<p>  </p>
+<p><!--  </p>
+<p>	hs.graphicsDir = '/www/news/engine/classes/highslide/graphics/';</p>
+<p>	hs.outlineType = 'rounded-white';</p>
+<p>	hs.numberOfImagesToPreload = 0;</p>
+<p>	hs.showCredits = false;</p>
+<p>	</p>
+<p>	hs.lang = {</p>
+<p>		loadingText :     'Загрузка...',</p>
+<p>		playTitle :       'Просмотр слайдшоу (пробел)',</p>
+<p>		pauseTitle:       'Пауза',</p>
+<p>		previousTitle :   'Предыдущее изображение',</p>
+<p>		nextTitle :       'Следующее изображение',</p>
+<p>		moveTitle :       'Переместить',</p>
+<p>		closeTitle :      'Закрыть (Esc)',</p>
+<p>		fullExpandTitle : 'Развернуть до полного размера',</p>
+<p>		restoreTitle :    'Кликните для закрытия картинки, нажмите и удерживайте для перемещения',</p>
+<p>		focusTitle :      'Сфокусировать',</p>
+<p>		loadingTitle :    'Нажмите для отмены'</p>
+<p>	};</p>
+<p>	</p>
+<p>	hs.align = 'center';</p>
+<p>	hs.transitions = ['expand', 'crossfade'];</p>
+<p>	hs.addSlideshow({</p>
+<p>		interval: 4000,</p>
+<p>		repeat: false,</p>
+<p>		useControls: true,</p>
+<p>		fixedControls: 'fit',</p>
+<p>		overlayOptions: {</p>
+<p>			opacity: .75,</p>
+<p>			position: 'bottom center',</p>
+<p>			hideOnMouseOut: true</p>
+<p>		}</p>
+<p>	});</p>
+<p>//--></p>
+<p><!--</p>
+<p>new Image().src = "//counter.yadro.ru/hit?r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random();//--></p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://ads.finomenov.ru/www/delivery/ajs.php':'http://ads.finomenov.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?bannerid=5&amp;target=_blank");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>RSS</p>
+<p> </p>
+<p>логин:</p>
+<p>Пароль:</p>
+<p>Напомнить пароль?</p>
+<p>Регистрация</p>
+<p>Войти</p>
+<p>НОВОСТИ МЕДИЦИНЫ</p>
+<p>ЗДОРОВЬЕ</p>
+<p>Лечение и Профилактика</p>
+<p>Беременность и Гинекология</p>
+<p>Здоровый ребенок</p>
+<p>Психология</p>
+<p>Секс</p>
+<p>Сервисы</p>
+<p>КРАСОТА</p>
+<p>Пластическая хирургия</p>
+<p>Косметология и уход</p>
+<p>Косметика</p>
+<p>Стоматология</p>
+<p>Стиль</p>
+<p>Сервисы</p>
+<p>ВЕЛНЕСС</p>
+<p>Здоровое питание</p>
+<p>Фитнес</p>
+<p>Отдых и Spa</p>
+<p>Чистый дом</p>
+<p>Сервисы</p>
+<p>ДИЕТЫ</p>
+<p>Сервисы</p>
+<p>ФОРУМ</p>
+<p>СЕРВИСЫ</p>
+<p>ПОПУЛЯРНОЕ</p>
+<p>ФОТО</p>
+<p>Справочник болезней</p>
+<p>Справочник лекарств</p>
+<p>Первая помощь</p>
+<p>Диагностика и анализы</p>
+<p>Расчет биоритмов</p>
+<p>Рецепты</p>
+<p>Калькуляторы online</p>
+<p>Сонник</p>
+<p>Гороскоп</p>
+<p>Игры</p>
+<p>Москва, 17 янв.вечер: -10 ... -12 °C</p>
+<p> var loc = ''; </p>
+<p>try{ var loc = escape(top.location.href); }catch(e){;}</p>
+<p>document.write("<sc"+"ript language='JavaScript' src='http://ad3.bannerbank.ru/bb.cgi?cmd=ad&hreftarget=_blank&pubid=172109859&pg=2&r=js&ssi=nofillers&vbn=1982&num=1&w=728&h=90&&ref="+escape(document.referrer)+"&loc="+loc+"&nocache="+Math.round(Math.random()*999111)+"'>\n</sc"+"ript>");</p>
+<p>Лечение</p>
+<p>Гинекология</p>
+<p>Здоровый ребенок</p>
+<p>Психология</p>
+<p>Секс</p>
+<p>$(function(){$.get('/news/menu/health.html', function(data){$('#flyout').menu({ content: data, flyOut: true });});});</p>
+<p>Сервисы</p>
+<p> </p>
+<p>Последние новости</p>
+<p> </p>
+<p>Зима влияет на потенцию и зачатие </p>
+<p>Китайские лекарства усугубляют болезнь </p>
+<p>В скандальной военной части солдат отравили пельменями </p>
+<p>Тату на пенисе вызвало вечную эрекцию </p>
+<p>Материнский инстинкт есть далеко не у каждой</p>
+<p>Новые статьи</p>
+<p>Страх и жестокость: слабости звезд3 метода найти идеального любовникаКому грозит ХОБЛ? Интервью с пульманологомЦвет посуды для похудения – красныйУход за кожей зимой: советы косметологов</p>
+<p>Блоги</p>
+<p>				ПИЩЕблог с Юлией Гончаровой</p>
+<p>Пирожное: сладкое утешение</p>
+<p>Рецепт дня</p>
+<p>Легкий ежевично-банановый муссвсе рецепты</p>
+<p>100 вопросов о...</p>
+<p> </p>
+<p>var so = new SWFObject("http://www.medikforum.ru/news/banners/quest2.swf", "banner_r1", "180", "300", "7", "#ffffff"); </p>
+<p>so.write("banner_r1"); </p>
+<p>Это интересно</p>
+<p>Календарь новостей</p>
+<p>«    Январь 2012    »ПнВтСрЧтПтСбВс 12345678910111213141516171819202122232425262728293031 </p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 32874;</p>
+<p>yandex_site_bg_color = 'FBF5F5';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1.1;</p>
+<p>yandex_font_family = 'courier new';</p>
+<p>yandex_direct_type = 'flat';</p>
+<p>yandex_direct_limit = 2;</p>
+<p>yandex_direct_title_color = '880000';</p>
+<p>yandex_direct_url_color = '880000';</p>
+<p>yandex_direct_all_color = '880000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '880000';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//]]></p>
+<p> </p>
+<p>MedikForum рекомендует:</p>
+<p>Добавить виджет medikforum.ru в яндекс</p>
+<p>Калькулятор беременности</p>
+<p>Справочник болезней</p>
+<p>Диагностика и анализы</p>
+<p> Комментариев: 0</p>
+<p>3 метода найти идеального любовника </p>
+<p>Сегодня, 15:50 </p>
+<p>Под словом «любовник» обычно понимают сексуального партнера. Но как, выбирая идеального любовника, не вытянуть «пустышку»?</p>
+<p>Метод № 1. Соотношение вашего роста и веса.</p>
+<p>Польский доктор Богуслав Половски утверждает, что все дело в наших генах. Люди автоматически ищут партнеров с такими параметрами, чтобы родившиеся в паре с ним дети имели "идеальный" по их представлению рост и вес. Это не зависит от реального стремления иметь детей - все происходит на инстинктивном уровне. Вычислить хорошего любовника помогает коэффициент 1,09 - для роста и 1,4 - для веса. Идеальный для женщины партнер должен быть в 1,09 раза выше нее и в 1,4 раза тяжелее. Например, если девушка ростом в 170 сантиметров весит 60 килограммов, то рост и вес идеального для нее мужчины должен составлять 183 сантиметра и 84 килограмма, соответственно.</p>
+<p>Метод № 2. Соотношение его роста и длины ноги</p>
+<p>Вас должно интересовать расстояние от стопы и до тазобедренного сустава партнера. Затем узнайте его рост и разделите эту цифру на длину ноги. Если получится от 1,99 до 2,00 – перед вами идеальный любовник! От 1,91 до 1,99 – средний вариант. До 1,91 и ниже – «облако в штанах». С такими мужчинами пейте чай, гуляйте под ручку, но не допускайте его в свою кровать, если не хотите разочароваться.</p>
+<p>Метод 3. Цвет и плотность волос.</p>
+<p>В поисках идеального любовника обращайе внимание на жгучих брюнетов (чем они волосатее, тем лучше). Растительность на теле говорит о высоком содержании в их крови тестостерона. Об этом же свидетельствует и лысеющая голова.Развенчиваем мифы</p>
+<p>- величина мужской потенции никак не связана с размером его носа;- размер обуви и размер мужского достоинства также не имеют друг с другом ничего общего;- если мужчина балагур и остряк, это еще не значит, что «там» у него все в порядке…</p>
+<p>Вы читаете раздел: Здоровье » СексРекомендуем посмотреть: Психология</p>
+<p>Читайте на Medikforum.ru:</p>
+<p>закрыть</p>
+<p>Секс у женщин после 40 лет: всё к лучшему ТОП-13 признаков скрытого сексуального интереса Из 5 типов мужчин дам тянет к одному Мужское достоинство: спорим о размерах! 7 знаков того, что в сексе вы скучны Карта эрогенных зон женщины 6 путей усилить потенцию по методу Дао Названы 6 доводов в пользу мастурбации 10 лучших продуктов для жаркого секса </p>
+<p>НазадДалее</p>
+<p>Еще по теме:</p>
+<p>Рост и вес для счастливой любв...</p>
+<p>Хорошего любовника видно по ап...</p>
+<p>Наши болезни зависят от роста ...</p>
+<p>Причина ожирения - «идеальный ...</p>
+<p>Формула идеальной фигуры...</p>
+<p>Нашли опечатку? Выделите ее и нажмите Ctrl+Enter</p>
+<p>Обсудить на форуме</p>
+<p>Добавить комментарий</p>
+<p>Код для блога</p>
+<p>Рейтинг статьи: </p>
+<p>0</p>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>5</p>
+<p> (голосов: 0) </p>
+<p>Нравится</p>
+<p>VK.Widgets.Like("vk_like", {type: "button", verb: 1});</p>
+<p>Читайте в других разделах:</p>
+<p> </p>
+<p>Очищение кишечника медом</p>
+<p>Хорошо, когда нам плохо</p>
+<p>Как правильно лечить детский кашель</p>
+<p>Рождественское чудо: вышел из комы!</p>
+<p>Комментарии</p>
+<p>			Посетители, находящиеся в группе Гости, не могут оставлять комментарии в данной новости.</p>
+<p>			</p>
+<p> VK.Widgets.Comments('vk_comments');</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>						$j(document).ready(function(){</p>
+<p>							// Tabs</p>
+<p>							$j('#comm-wrapper ul.comm-tabs li').mfTabs({innerElement:false});</p>
+<p>							// open random list</p>
+<p>							var wrapper = $j("#comm-wrapper");</p>
+<p>							var numberList = 0;//Math.floor( Math.random()* $j("ul.comm-tabs li", wrapper).length );</p>
+<p>							$j("ul.comm-tabs li:eq("+ numberList +")" , wrapper ).addClass("active");</p>
+<p>							$j("ul.tabs-pages li:eq("+ numberList +")" , wrapper ).addClass("active");</p>
+<p>						});</p>
+<p>					</p>
+<p><!--//<![CDATA[</p>
+<p>   document.MAX_ct0 ='%c';</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://advert.medikforum.ru/www/delivery/ajs.php':'http://advert.medikforum.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=1&amp;source=_blank&amp;target=_blank");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {</p>
+<p>       document.write ("&amp;ct0=" + escape(document.MAX_ct0));</p>
+<p>   }</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'></scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://advert.medikforum.ru/www/delivery/ajs.php':'http://advert.medikforum.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=7&amp;source=_blank&amp;target=_blank");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'></scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>Топ</p>
+<p>Истории</p>
+<p>Худеть</p>
+<p>Болезни</p>
+<p>Рейтинг новостей</p>
+<p> • БАДы: вся правда о пищевых добавках • Мужское достоинство: спорим о размерах! • ТОП-13 признаков скрытого сексуального интереса • Кормление грудью становится манией • Топ-5 самых опасных новогодних блюд • Игромания – новая болезнь • Анна Семенович не «дружит» с грудью</p>
+<p>Реальные истории болезней</p>
+<p> • 14-летняя алкоголичка поставила реко...  • Травма головы привела к... свадьбе  • Девушка-слон не сдается болезни  • 23-летняя девушка умерла от рака по ...  • Девушка лишилась девственности дважд...  • Цирроз в 26 лет: алкоголик просит о ...  • Редкая болезнь: женщина заперта в те... </p>
+<p>Боремся с лишним весом</p>
+<p> • Цвет посуды для похудения – красный  • Британская супердиета: можно всё!  • 6 супердиет для разной полноты: пров...  • Фигура после праздников: коньки, бег...  • 5 правил похудения для невысоких жен...  • Топ-10 простых способов избежать лиш...  • Женская дружба не выдерживает похуде... </p>
+<p>Энциклопедия болезней</p>
+<p> • Мигрень  • Корь  • Головная боль  • Гипотония  • Гепатит В  • Гиперметропия (дальнозоркость)  • Полиомиелит  • Флюороз  • Дальнозоркость  • Остеохондроз  • Псориаз  • Ящур  • Чесотка  • Конъюнктивит  • Отравление у детей больше</p>
+<p>Комментарии</p>
+<p>VK.Widgets.Group("vk_groups1", {mode: 0, width: "235", height: "390"}, 30245972);</p>
+<p>$j(document).ready(function(){</p>
+<p>					var vk_groups_iframe = $j("#vk_groups1").find("iframe");</p>
+<p>					// call resize becouse vk do resize 3 iteration</p>
+<p>					// ( first width settings height, and double resize with height value = offsetHeight )</p>
+<p>					$j("#vk_page_link").click(function(){</p>
+<p>						VK.Widgets.RPC[ widget_id ].methods.resize(400)</p>
+<p>					});</p>
+<p>					// fix src and content of iframe bug</p>
+<p>					vk_groups_iframe.attr("src", vk_groups_iframe.attr("src"));</p>
+<p>				});</p>
+<p>new TWTR.Widget({</p>
+<p>  version: 2,</p>
+<p>  type: 'profile',</p>
+<p>  rpp: 5,</p>
+<p>  interval: 30000,</p>
+<p>  width: 230,</p>
+<p>  height: 300,</p>
+<p>  theme: {</p>
+<p>    shell: {</p>
+<p>      background: '#ffbdbd',</p>
+<p>      color: '#000000'</p>
+<p>    },</p>
+<p>    tweets: {</p>
+<p>      background: '#ffe1e0',</p>
+<p>      color: '#000000',</p>
+<p>      links: '#880000'</p>
+<p>    }</p>
+<p>  },</p>
+<p>  features: {</p>
+<p>    scrollbar: false,</p>
+<p>    loop: false,</p>
+<p>    live: false,</p>
+<p>    hashtags: false,</p>
+<p>    timestamp: true,</p>
+<p>    avatars: false,</p>
+<p>    behavior: 'all'</p>
+<p>  }</p>
+<p>}).render().setUser('MedikForum').start();</p>
+<p>Топ-5 самых опасных новогодних блюд ой да ладно,</p>
+<p>опасные, просто меру</p>
+<p>надо знать, тогда и</p>
+<p>опасного ничего не</p>
+<p>будет. Даже водой</p>
+<p>можно отр ...Почему женщины не кормят грудью? а я вот кормила</p>
+<p>сама, а животиком</p>
+<p>все равно помаялись(</p>
+<p>не знаю даже почему,</p>
+<p>диету соблюдала,</p>
+<p>ничего  ...Как правильно лечить детский кашель Если за с горлом</p>
+<p>сразу не взяться</p>
+<p>потом и довести до</p>
+<p>крайностей можно. Я</p>
+<p>вот просто даю на</p>
+<p>время каш ...Почему женщины не кормят грудью? Вот-вот! у нас врач</p>
+<p>скразу сказал, что</p>
+<p>буквально с первых</p>
+<p>дней можно начать</p>
+<p>давать Хилак-форте и</p>
+<p>ник ...Любовная драма Марины Нееловой Когда же успокоятся</p>
+<p>эти нереализованные</p>
+<p>недолюбленные мамаши</p>
+<p>своих сынков,</p>
+<p>которые стремятся</p>
+<p>реализо ...Последние комментарии»</p>
+<p>						$j(document).ready(function(){</p>
+<p>							// Tabs</p>
+<p>							$j('#social-wrapper ul.social-tabs li').mfTabs({innerElement:false});</p>
+<p>							// open random list</p>
+<p>							var wrapper = $j("#social-wrapper");</p>
+<p>							var numberList = 0;//Math.floor( Math.random()* $j("ul.social-tabs li", wrapper).length );</p>
+<p>							$j("ul.social-tabs li:eq("+ numberList +")" , wrapper ).addClass("active");</p>
+<p>							$j("ul.tabs-pages li:eq("+ numberList +")" , wrapper ).addClass("active");</p>
+<p>						});</p>
+<p>					</p>
+<p><!--//<![CDATA[</p>
+<p>   document.MAX_ct0 ='%c';</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://advert.medikforum.ru/www/delivery/ajs.php':'http://advert.medikforum.ru/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=6&amp;source=_blank&amp;target=_blank");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {</p>
+<p>       document.write ("&amp;ct0=" + escape(document.MAX_ct0));</p>
+<p>   }</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>Консультации экспертов</p>
+<p>Таролог Моника Майер Карты Таро - способ изучить свое подсознание и изменить жизнь к лучшему. Здесь я отвечу каждому на один простой вопрос. Задавая его, укажите свое имя и дату рождения....  </p>
+<p>Задать вопрос</p>
+<p>Больше</p>
+<p>Новости партнеров</p>
+<p>Загрузка...</p>
+<p>Форум обсуждает</p>
+<p><!--</p>
+<p>function doVote( event ){</p>
+<p>    var frm = document.vote;</p>
+<p>	var vote_check = '';</p>
+<p>    for (var i=0; i < frm.elements.length; i++) {</p>
+<p>        var elmnt = frm.elements[i];</p>
+<p>        if (elmnt.type=='radio') {</p>
+<p>            if(elmnt.checked == true){ vote_check = elmnt.value; break;}</p>
+<p>        }</p>
+<p>    }</p>
+<p>	var ajax = new dle_ajax();</p>
+<p>	ajax.onShow ('');</p>
+<p>	var varsString = "";</p>
+<p>	ajax.setVar("vote_id", "26" );</p>
+<p>	ajax.setVar("vote_action", event);</p>
+<p>	ajax.setVar("vote_check", vote_check);</p>
+<p>	ajax.setVar("vote_skin", "Mediknews");</p>
+<p>	ajax.requestFile = dle_root + "engine/ajax/vote.php";</p>
+<p>	ajax.method = 'GET';</p>
+<p>	ajax.effect = 'fade';</p>
+<p>	ajax.element = 'vote-layer';</p>
+<p>	ajax.sendAJAX(varsString);</p>
+<p>}</p>
+<p>//--></p>
+<p>Опрос</p>
+<p>Все опросы</p>
+<p>Как вы готовитесь к зиме?</p>
+<p> Закаливаюсь, прививаюсь от  гриппа, пью витамины. Закаливаюсь. Делаю прививку от гриппа. Пью витамины. Ограничиваюсь покупкой теплой одежды. Никак не готовлюсь.</p>
+<p>Голосовать</p>
+<p>Пластическая хирургия</p>
+<p>Новости медицины</p>
+<p>Здоровье</p>
+<p>Красота</p>
+<p>Велнесс</p>
+<p>Диеты</p>
+<p>Форум</p>
+<p>Сервисы</p>
+<p>Реклама и контакты</p>
+<p>Информация на сайте носит рекомендательный характер. Пожалуйста, посоветуйтесь с лечащим врачом. При перепечатке материалов активная гиперссылка на MedikForum.ru обязательна.</p>
+<p>					//<![CDATA[</p>
+<p>					yandex_partner_id = 32874;</p>
+<p>					yandex_site_bg_color = 'FFFFFF';</p>
+<p>					yandex_site_charset = 'utf-8';</p>
+<p>					yandex_ad_format = 'direct';</p>
+<p>					yandex_font_size = 1;</p>
+<p>					yandex_direct_type = 'vertical';</p>
+<p>					yandex_direct_border_type = 'block';</p>
+<p>					yandex_direct_limit = 2;</p>
+<p>					yandex_direct_border_color = 'CCCCCC';</p>
+<p>					yandex_direct_title_color = '800000';</p>
+<p>					yandex_direct_url_color = '800000';</p>
+<p>					yandex_direct_all_color = '800000';</p>
+<p>					yandex_direct_text_color = '000000';</p>
+<p>					yandex_direct_hover_color = 'FF0000';</p>
+<p>					yandex_direct_favicon = true;</p>
+<p>					yandex_direct_place = 'ya_direct_left';</p>
+<p>					document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>					//]]></p>
+<p>					</p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 32874;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1;</p>
+<p>yandex_direct_type = 'vertical';</p>
+<p>yandex_direct_limit = 3;</p>
+<p>yandex_direct_border_color = 'CCCCCC';</p>
+<p>yandex_direct_title_color = '800000';</p>
+<p>yandex_direct_url_color = '800000';</p>
+<p>yandex_direct_all_color = '800000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = 'FF0000';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>yandex_direct_place = 'ya_direct_right';</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 32874;</p>
+<p>yandex_site_bg_color = 'FFFCFC';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1;</p>
+<p>yandex_direct_type = 'flat';</p>
+<p>yandex_direct_limit = 2;</p>
+<p>yandex_direct_title_color = '880000';</p>
+<p>yandex_direct_url_color = '880000';</p>
+<p>yandex_direct_all_color = '880000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = 'FF0000';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>yandex_direct_place = 'ya_direct_bottom';</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//]]></p>
+<p><!--</p>
+<p>if(typeof(ar_cn)=="undefined") var ar_cn=1;</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=156952&bt=43&target=blank&tail256=" + ar_Tail;function ar_getDoc(t,n,l){var doc;</p>
+<p>if(t<100){if(document.all && !window.opera){doc = window.frames['ar_container_'+n].document;}</p>
+<p>else if(document.getElementById){doc=document.getElementById('ar_container_'+n).contentDocument;}</p>
+<p>if(!doc){setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100);}</p>
+<p>else {var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>doc.write ('<sc'+'ript>var ar_bnum='+n+';</sc'+'ript>');</p>
+<p>doc.write ('<sc'+'ript src="'+l+'&rnd='+RndNum4NoCash+'"></sc'+'ript>');}}}</p>
+<p>function ar_putContainer(n){document.write('<div style="visibility:hidden; height:0px;"><iframe id="ar_container_'+n+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe></div>');}</p>
+<p>function ar_putDiv(n, f){document.write('<div id="ad_ph_'+n+'" style="'+(f?'position:absolute;':'')+'display:none"></div>');}</p>
+<p>ar_putContainer(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);</p>
+<p>//--></p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter5562691 = new Ya.Metrika(5562691);</p>
+<p>             yaCounter5562691.clickmap(true);</p>
+<p>             yaCounter5562691.trackLinks(true);</p>
+<p>        </p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>})(window, 'yandex_metrika_callbacks');</p>
+<p>{lang: 'ru'}</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write('<sc' + 'ript language="JavaScript" src="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=156952&bt=16&target=blank&tail256="' + ar_Tail + '"></sc' + 'ript>');</p>
+<p>//--></p>

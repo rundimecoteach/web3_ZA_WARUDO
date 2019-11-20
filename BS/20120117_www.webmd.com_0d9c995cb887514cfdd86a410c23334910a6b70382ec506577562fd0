@@ -1,0 +1,560 @@
+<p> </p>
+<p> var s_topic="4292"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_sponsor_brand=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_type=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal=""</p>
+<p> ,s_channel_health="Lung"</p>
+<p> ,s_channel_mini_topic_guide=""</p>
+<p> ,s_tug=""</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_mrt="9";</p>
+<p> var s_furl="/lung/news/20120113/study-vitamin-d-no-clear-benefit-copd-patients"; var s_sponsor_program=""; var s_sensitive="false"; var s_mrt="9"; var image_server_url="http://img.webmd.com/dtmcms/live";var s_uk_user="false";</p>
+<p>Study: Vitamin D Has No Clear Benefit for COPD Patients</p>
+<p><!-- </p>
+<p> var center="health"; var center_name="Lung"; var center_id=2892; var center_prefix="www"; var center_url="/lung/default.htm";//--></p>
+<p>// write mboxes for OTT</p>
+<p>if (window.$ && window.webmd && window.mboxCreate) {</p>
+<p>	if (window.webmd.mbox) {</p>
+<p>		webmd.mbox.init();</p>
+<p>	}</p>
+<p>}</p>
+<p>					$("#bannerAd_Iframe").load(function() { $("#bannerAd_fmt").addClass("loaded"); $(".bannerAd_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "4292";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>try {</p>
+<p>	document.execCommand('BackgroundImageCache', false, true);</p>
+<p>} catch(e) {}</p>
+<p>Skip to content</p>
+<p>Home & News</p>
+<p>WebMD Home</p>
+<p>WebMD News Home </p>
+<p>Free Health Newsletters</p>
+<p>WebMD Community & Experts</p>
+<p>See All Expert Blogs</p>
+<p> </p>
+<p>Health A-Z</p>
+<p>ADD/ADHD</p>
+<p>Allergies</p>
+<p>Allergy TV</p>
+<p>Alzheimer's</p>
+<p>Anxiety Disorders</p>
+<p>Arthritis</p>
+<p>Asthma</p>
+<p>Back Pain</p>
+<p>Bipolar Disorder</p>
+<p>Bipolar TV</p>
+<p>Breast Cancer</p>
+<p>Cancer</p>
+<p>Cancer Communities</p>
+<p>Cholesterol</p>
+<p>Cold & Flu</p>
+<p>Colorectal Cancer</p>
+<p>COPD </p>
+<p>Depression</p>
+<p>Depression TV</p>
+<p>Diabetes</p>
+<p>Erectile Dysfunction</p>
+<p>Eye Health</p>
+<p>Fibromyalgia</p>
+<p>Heart Disease</p>
+<p>Heartburn/GERD</p>
+<p>Herpes</p>
+<p>Hypertension</p>
+<p>IBS</p>
+<p>Incontinence/OAB</p>
+<p>Inflammatory Bowel</p>
+<p>Menopause</p>
+<p>Mental Health</p>
+<p>Migraines</p>
+<p>Multiple Sclerosis</p>
+<p>Osteoporosis</p>
+<p>Pain Management </p>
+<p>Parkinson's Disease </p>
+<p>Rheumatoid Arthritis</p>
+<p>Sexual Conditions</p>
+<p>Shingles</p>
+<p>Skin Problems</p>
+<p>Sleep Disorders</p>
+<p>Stroke</p>
+<p>See All Topics</p>
+<p>Videos A-Z</p>
+<p>Community & Experts</p>
+<p>Experts A-Z</p>
+<p>First Aid A-Z</p>
+<p>Games A-Z</p>
+<p>Tests & Tools A-Z</p>
+<p>Slideshows A-Z</p>
+<p> </p>
+<p>Drugs & Medications Center</p>
+<p>Find or Review a Drug</p>
+<p>Pill Identifier</p>
+<p>Drug News</p>
+<p>Mobile Drug Information</p>
+<p>Find a Vitamin or Supplement</p>
+<p>First Aid & Emergencies</p>
+<p>WebMD Community & Experts</p>
+<p>WebMD Ask the Pharmacist</p>
+<p> </p>
+<p>Healthy Living</p>
+<p>Women's Health</p>
+<p>Men's Health</p>
+<p>Pet Health</p>
+<p>Oral Health</p>
+<p>Emotional Health</p>
+<p>Mental Health Communities</p>
+<p>Find a Therapist</p>
+<p>Green Living</p>
+<p>50+: Live Better, Longer</p>
+<p>Sex & Relationships</p>
+<p>Healthy Beauty</p>
+<p>Healthy Skin TV</p>
+<p>Sexual Health Communities</p>
+<p>See All Topics</p>
+<p>Women's Health Communities</p>
+<p>Skin & Beauty Community</p>
+<p>Men's Health Communities</p>
+<p> </p>
+<p>Healthy Eating & Diet </p>
+<p>Healthy Eating & Diet </p>
+<p>Food & Cooking</p>
+<p>Food-o-Meter</p>
+<p>Fit-o-Meter</p>
+<p>Fitness & Exercise</p>
+<p>Food & Fitness Planner</p>
+<p>Portion Size Helper</p>
+<p>Personal Diet Evaluator</p>
+<p>BMI Plus Calculator</p>
+<p>Eating & Diet Communities</p>
+<p>Digestive Disorders Communities</p>
+<p> </p>
+<p>Parenting & Pregnancy</p>
+<p>Parenting</p>
+<p>Pregnancy</p>
+<p>Children's Health</p>
+<p>Children's Vaccines</p>
+<p>Newborn & Baby</p>
+<p>New! Raising Fit Kids</p>
+<p>New! WebMD for Kids</p>
+<p>Parenting Communities</p>
+<p>Pregnancy Communities</p>
+<p>Trying to Conceive Communities</p>
+<p> </p>
+<p>Teen Health</p>
+<p>Teen Girls</p>
+<p>New! Teen Boys</p>
+<p>WebMD FIT Teen </p>
+<p>Food</p>
+<p>Move</p>
+<p>Recharge</p>
+<p>Mood</p>
+<p> </p>
+<p>Pet Health</p>
+<p>Healthy Dogs</p>
+<p>Healthy Cats</p>
+<p>Healthy Pets Community</p>
+<p> </p>
+<p> </p>
+<p>Enter Search Keywords:</p>
+<p>Other search tools:Symptoms|Doctors|Medical Dictionary</p>
+<p>		/* Basic styles to avoid the jumping when things load. */</p>
+<p>		.bottom_header #reglinks { float:right; position:relative; margin:0px; padding:0px; height:22px; width: 330px; z-index:96; }</p>
+<p>		.bottom_header #reglinks .login_rdr { display:none; width: 330px; }</p>
+<p>		#reglinks .login_rdr ul#registration_hdr { float: right; list-style: none outside none; margin: 0; padding: 5px 0 3px 0; }</p>
+<p>		#reglinks .login_rdr ul#registration_hdr li { background:none; display: inline-block; float: left; padding: 0; }</p>
+<p>	</p>
+<p>Find us on:</p>
+<p>WebMD Home</p>
+<p>Lung Disease & Respiratory Health Center  </p>
+<p>Lung Disease & Respiratory News </p>
+<p>Email a FriendPrint Article </p>
+<p>		if (pf_param == "true") {</p>
+<p>		printElements();</p>
+<p>		}  </p>
+<p>		</p>
+<p> Lung Disease & Respiratory Health Center </p>
+<p>		(function() {</p>
+<p>			var that = function() {</p>
+<p>				var h = $("#mainContent_ThirdCol_ctr").outerHeight();</p>
+<p>				$("#navColumn_area").css('margin-top', '-'+h+'px');</p>
+<p>			};</p>
+<p>			try{ that(); } catch(e) {}</p>
+<p>			$(window).load( function() { try{ that(); } catch(e) {} } );</p>
+<p>		})();</p>
+<p>        </p>
+<p>		//Removes Popular Tools from TOC pages or where www.webmd.com is followed by "news-features"</p>
+<p>		var myTruncateds_topic = s_topic.substring(0,1);</p>
+<p>		if (myTruncateds_topic != "7" && s_publication_source != "WebMD Image Collection" && s_business_reference != "TOC" && s_business_reference != "TOC - Mini-Center Topic" && s_business_reference != "TOC - Guide" && s_business_reference != "TOC - Guide" && s_business_reference != "Nav - A-Z page" && s_business_reference != "Glossary"){</p>
+<p>				$('.pop_toolst_rdr').css('display','block');</p>
+<p>			}</p>
+<p>		</p>
+<p>Tools & ResourcesAssess Your COPD RiskBronchitis: A Visual Overview Energy-Boosting Foods for COPD Test Your COPD IQAssess the Health of Your Home10 Worst Cities for Asthma </p>
+<p>if (window.$) { </p>
+<p>	$(document).ready(function() {</p>
+<p>		// produce array from value(s) of 'secTopId'</p>
+<p>		var mySplitResultsecTopId = secTopId.split("|");</p>
+<p>		var wloop = mySplitResultsecTopId.length;</p>
+<p>		</p>
+<p>		//Hides the Pop Tools list on pages with a sensitive secondary topic id. </p>
+<p>		for (i = 0; i < wloop; i++) {</p>
+<p>			if (mySplitResultsecTopId[i].substring(0,1) == 7){</p>
+<p>				$('.pop_toolst_rdr').css('display','none');</p>
+<p>			}</p>
+<p>		}</p>
+<p>		//Hides the Pop Tools list on Actionset Pages</p>
+<p>		if ($('.actionset').length) {</p>
+<p>			$('.pop_toolst_rdr').css('display','none');</p>
+<p>		}</p>
+<p>	});</p>
+<p>}</p>
+<p>webmd.m.share.init();</p>
+<p>Font Size</p>
+<p>A</p>
+<p>A</p>
+<p>A</p>
+<p>webmd.m.fontSizer.init();</p>
+<p>Study: Vitamin D Has No Clear Benefit for COPD Patients</p>
+<p>But Vitamin D Supplementation May Reduce COPD Flare-ups in People With Severely Low Levels</p>
+<p>By</p>
+<p>Denise  MannWebMD Health News</p>
+<p>Reviewed by</p>
+<p>Louise  Chang, MD</p>
+<p>Jan 16, 2012 -- Much hope has been pinned on vitamin D to cure, prevent, or treat a host of diseases, including the lung disease chronic obstructive pulmonary disease (COPD).</p>
+<p>New research, however, may dash some of this enthusiasm for people with COPD, an umbrella name for chronic lung diseases, including chronic bronchitis and emphysema. People with COPD often experience a worsening of their breathlessness and other symptoms (exacerbations) throughout the course of their disease.</p>
+<p>But vitamin D doesn’t seem to reduce the number of these exacerbations. That said, vitamin D did benefit a small group of 30 people in the study who had severely low vitamin D levels when the study began.</p>
+<p>The new findings appear in the Annals of Internal Medicine.</p>
+<p>Low Vitamin D Levels and COPD</p>
+<p>Vitamin D is often referred to as the sunshine vitamin because our bodies produce it when exposed to sunlight. The Institute of Medicine recommends that people aged 1 to 70 take in 600 international units (IUs) of vitamin D per day, and people older than 70 should aim for 800 IUs. Some foods like fish and fortified dairy and juice products are rich in vitamin D, but supplements are also used to raise blood levels.</p>
+<p>The new study included 182 people with COPD. Participants orally received 100,000 IU of vitamin D or an inactive placebo monthly for a year. There were 468 exacerbations during the study period, and there was no difference in the numbers between the different groups. There were also no differences in time to the first exacerbation between those who received vitamin D and those who did not.</p>
+<p>People who took vitamin D did not report greater improvements in their quality of life or the number of times they were hospitalized for COPD, the study shows. Vitamin D also had no bearing on their lung function and risk of death.</p>
+<p>However, in looking at a small subset of people with severely low vitamin D, the rate of exacerbations decreased among people who received vitamin D, the study showed. But the researchers note that the number of people in their study with severely low vitamin D was very small, so future studies to look at a possible benefit from vitamin D in people with severely low vitamin D levels need to be done to support the findings.</p>
+<p>Screen for Low Vitamin D in COPD</p>
+<p>Screening people with COPD for low vitamin D makes sense, says researcher Wim Janssens, MD, PhD, of the University Hospitals Leuven in Leuven, Belgium. “Be aware that vitamin D deficiency is prevalent in COPD and that it needs supplementation for bone health reasons,” he says in an email. Vitamin D helps the body absorb calcium, which is important for bone health.</p>
+<p>“Severe deficiency of vitamin D levels ... may even increase the COPD exacerbation rate and needs therefore aggressive supplementation,” he says. But “don’t think that supplementation will cure your disease.”</p>
+<p>var pagination_title=new Array();</p>
+<p>var pagination_current=1;</p>
+<p>pagination_title[1]="";</p>
+<p>pagination_title[2]="Screen for Low Vitamin D in COPD continued...";</p>
+<p>1</p>
+<p>|</p>
+<p>2</p>
+<p>Next Page ></p>
+<p>/* using this to pop up interstitial instead of /click as going to the /click URL with all the other parameters becomes an encoding issue */</p>
+<p>function popInterstitial() {</p>
+<p>var interstitial = window.open("/privacy_window.html","privacy_window","width=325,height=175,resizable=no,toolbar=no,left=350,top=300");</p>
+<p>if (interstitial) {</p>
+<p>interstitial.focus();</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>function getPubType() {</p>
+<p>return "editorial";</p>
+<p>}</p>
+<p>function checkPartners(){</p>
+<p>/* Array of Partner Names */</p>
+<p>var partnerNames=[</p>
+<p>"Good Housekeeping",</p>
+<p>"Redbook",</p>
+<p>"Esquire",</p>
+<p>"Country Living",</p>
+<p>"Marie Claire",</p>
+<p>"Oxmoor House",</p>
+<p>"\"Health",</p>
+<p>"Southern Living",</p>
+<p>"Psychology Today",</p>
+<p>"EatingWell",</p>
+<p>"DrGreene.com",</p>
+<p>"Men's Health",</p>
+<p>"Women's Health",</p>
+<p>"Prevention",</p>
+<p>"eDiets",</p>
+<p>"soul\" Magazine",</p>
+<p>"Runner's World",</p>
+<p>"Men's Fitness\" Magazine",</p>
+<p>"Shape\" Magazine",</p>
+<p>"Fit Pregnancy\" Magazine",</p>
+<p>"Natural Health\" Magazine",</p>
+<p>"\"Best Life\" Magazine",</p>
+<p>"\"Cure\" Magazine",</p>
+<p>"WebMD Veterinary Reference from the ASPCA",</p>
+<p>"WebMD Veterinary Reference from ASPCA Virtual Pet Behaviorist",</p>
+<p>"COPD Foundation"</p>
+<p>]</p>
+<p>/* Array of names that go with files in partners node */</p>
+<p>var partnerScripts=[</p>
+<p>"goodHousekeeping",</p>
+<p>"redbook",</p>
+<p>"esquire",</p>
+<p>"countryLiving",</p>
+<p>"marieClaire",</p>
+<p>"cookingLight",</p>
+<p>"health",</p>
+<p>"southernLiving",</p>
+<p>"psychToday",</p>
+<p>"eatingWell",</p>
+<p>"drGreene",</p>
+<p>"mensHealth",</p>
+<p>"womensHealth",</p>
+<p>"prevention",</p>
+<p>"eDiets",</p>
+<p>"bodySoul",</p>
+<p>"runnersWorld",</p>
+<p>"mensFitness",</p>
+<p>"shapeMag",</p>
+<p>"fitPregnancy",</p>
+<p>"naturalHealth",</p>
+<p>"bestLife",</p>
+<p>"cure",</p>
+<p>"aspca",</p>
+<p>"aspca",</p>
+<p>"copdf"</p>
+<p>]</p>
+<p>/* Variables for whether a partner exists and which one in the array it is */</p>
+<p>var isThere;</p>
+<p>var whichOne = -1;</p>
+<p>/* Pulls the pub source out of the XML */</p>
+<p>var pubSource = 'WebMD Medical News';</p>
+<p>/* Runs through the different partners and sees if one of them exists in the pub source */</p>
+<p>for (var i=0; i <= partnerNames.length-1; i++) { isThere = pubSource.search(partnerNames[i]); if (isThere != -1) {whichOne = i} }</p>
+<p>/* If it found one, makes the JS calls and also populates the correct divs with the files out of partners node */</p>
+<p>if (whichOne != -1) {</p>
+<p>var JSCall = 'ht' + 'tp://img.web' + 'md.com/dtmcms/live/webmd/consumer_assets/site_images/javascript/partners/' + partnerScripts[whichOne] + '.js';</p>
+<p>var JSElement = document.createElement("script");</p>
+<p>JSElement.type = "text/javascript";</p>
+<p>JSElement.src = JSCall;</p>
+<p>document.getElementsByTagName("head")[0].appendChild(JSElement);</p>
+<p>var moduleCenter = "ContentPane8";</p>
+<p>var moduleRight = "ContentPane25";</p>
+<p>addLoadEvent(function() {</p>
+<p>$('#'+moduleCenter).append(writePartnerCenter());</p>
+<p>$('#'+moduleRight).prepend(writePartnerRight());</p>
+<p>})</p>
+<p>}</p>
+<p>}</p>
+<p>checkPartners();</p>
+<p>if (document.getElementById("headerLinks_print")) {</p>
+<p>setClass('headerLinks_print','headerLinks_fmt_on');</p>
+<p>};</p>
+<p>#url_reference {display: none};</p>
+<p>#url_reference { display: block; line-height: 150%; margin-bottom: 10px; }</p>
+<p>#logo_rdr img { visibility: visible; }</p>
+<p>.titleBar_rdr .titleBarMiddle_fmt { padding-top: 1.5em !important;}</p>
+<p>var insert1 = document.getElementById("ContentPane2");</p>
+<p>var urlDiv = articleUrl();</p>
+<p>if (insert1) {</p>
+<p>insert1.appendChild(urlDiv);</p>
+<p>}</p>
+<p>Top Picks</p>
+<p>Allergic Misery? Get Relief Tips  </p>
+<p>FDA Unveils Grim Cigarette Warning Labels</p>
+<p>10 FAQs About Living With COPD</p>
+<p>Quit-Smoking: 14 Tips for the First Hard Days</p>
+<p>Are You Using Your Inhaler Correctly?</p>
+<p>Asthma Concerns? Get Personalized Tips</p>
+<p> </p>
+<p>				function moveMustSeeArticles() {</p>
+<p>					/* make the swap function available internally */</p>
+<p>					function doSwap() {	</p>
+<p>						/* get must-see articles, remove from the DOM */</p>
+<p>						var msa = $('#mainContentContainer_area .related_reading_rdr').clone();</p>
+<p>						$('#mainContentContainer_area .related_reading_rdr').remove();</p>
+<p>						</p>
+<p>						/* get the pagination if it exists */</p>
+<p>						var pagination = $('.attribution_rdr .pagination_fmt');</p>
+<p>						var contextual = $('.other_context_links_rdr');</p>
+<p>						var article = $('.article_rdr');</p>
+<p>						</p>
+<p>						/* certain pages use another format:</p>
+<p>						// the top picks module is in .related_wrapper .dyn_related</p>
+<p>						// as the second div with this class.</p>
+<p>						// it has an id, unlike the other div */</p>
+<p>						var dyn_related = $('.related_wrapper .dyn_related[id]');</p>
+<p>						</p>
+<p>						/* if dyn_related, it is handled one way */</p>
+<p>						if(dyn_related.html()) {</p>
+<p>							/* on last page, .related_wrapper is displayed and "Top Picks" should stay</p>
+<p>							// on other pages, it should move down */</p>
+<p>							if(dyn_related.parent().css('display') === 'none') {</p>
+<p>								var dyn_related_clone = dyn_related.clone();</p>
+<p>								dyn_related.remove();</p>
+<p>								$(pagination).after('<div class="related_wrapper" style="display: block;" id="related_wrapper_2"></div>')</p>
+<p>								$('#related_wrapper_2').append(dyn_related_clone);</p>
+<p>							}</p>
+<p>						/* if not dyn_related, it is handled   this way */</p>
+<p>						} else {</p>
+<p>							/* if pagination exists, insert must-see articles before the pagination,</p>
+<p>							else insert before the next node after the contextual related links,</p>
+<p>							else insert before the next node after the article */</p>
+<p>							if (pagination.html()) {</p>
+<p>								$(pagination).after(msa);</p>
+<p>								msa.css('padding-top','30px');</p>
+<p>							} else if (contextual.html()) {</p>
+<p>								$(contextual).after(msa);</p>
+<p>							} else {</p>
+<p>								$(article).after(msa);</p>
+<p>							}</p>
+<p>						}</p>
+<p>						</p>
+<p>						/* show */</p>
+<p>						$('#mainContentContainer_area .related_reading_rdr').show();</p>
+<p>					}</p>
+<p>					</p>
+<p>					/* do the swap unless the function getPubType exists and returns the value 'third_party' */</p>
+<p>					if (typeof(getPubType) == 'function') {</p>
+<p>						(getPubType() == 'third_party') ? null : doSwap();</p>
+<p>					} else {</p>
+<p>						doSwap();</p>
+<p>					}</p>
+<p>				}</p>
+<p>                                if (window.$) { </p>
+<p>					moveMustSeeArticles();</p>
+<p>					$('.share_rdr').hide();</p>
+<p>					}</p>
+<p>			</p>
+<p>					$("#centerAd_Iframe_c1").load(function() { $("#centerAd_top_fmt").addClass("loaded"); $(".centerAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "4292";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>					$("#centerAd_Iframe_c1").load(function() { $("#centerAd_top_fmt").addClass("loaded"); $(".centerAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "4292";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>Lung Disease & Respiratory Health Center</p>
+<p>Asthma</p>
+<p>Bronchitis</p>
+<p>COPD</p>
+<p>Pneumonia</p>
+<p>Pulmonary Hypertension</p>
+<p>Tuberculosis</p>
+<p>Community & Experts </p>
+<p>News & Features</p>
+<p>Lung Disease & Respiratory Reference</p>
+<p>Related Videos </p>
+<p>Related to Lung Disease & Respiratory Health</p>
+<p>Allergies</p>
+<p>Asthma</p>
+<p>Breathlessness</p>
+<p>Cold & Flu</p>
+<p>COPD</p>
+<p>Cystic Fibrosis</p>
+<p>Depression Symptoms</p>
+<p>Emphysema</p>
+<p>Health eHome</p>
+<p>Inhalers</p>
+<p>Lung Cancer</p>
+<p>Lung Transplant</p>
+<p>Smoking Cessation</p>
+<p>Common Treatments for Lung Diseases</p>
+<p>Advair Diskus</p>
+<p>Albuterol</p>
+<p>Spiriva</p>
+<p>Combivent</p>
+<p>Pulmicort Flexhaler</p>
+<p>Prednisone</p>
+<p>Singulair</p>
+<p>Symbicort</p>
+<p>Xopenex</p>
+<p>More Drugs</p>
+<p>					$("#leftAd_Iframe").load(function() { $("#leftAd_top_fmt").addClass("loaded"); $(".leftAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "4292";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>Today in Lung Health</p>
+<p>Article</p>
+<p>Could Hot Tubs Hurt Your Lungs?</p>
+<p>HEALTH CHECK</p>
+<p>Feeling Breathless? Assess Your COPD Risk</p>
+<p> </p>
+<p>Article</p>
+<p>7 Tips to Quit Smoking For Good</p>
+<p>Article</p>
+<p>Hidden Home Hazards That Could Harm Your Lungs</p>
+<p> </p>
+<p>					$("#rightAd_Iframe").load(function() { $("#rightAd_top_fmt").addClass("loaded"); $(".rightAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "4292";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>SLIDESHOW</p>
+<p>A Visual Overview of Bronchitis</p>
+<p>QUIZ</p>
+<p>COPD Myths vs. Facts</p>
+<p> </p>
+<p>VIDEO</p>
+<p>Tips for Living With COPD</p>
+<p>SLIDESHOW</p>
+<p>Energy-Boosting Foods for COPD</p>
+<p> </p>
+<p>SLIDESHOW</p>
+<p>13 Best Quit-Smoking Tips Ever</p>
+<p>TOOL</p>
+<p>How Healthy Is Your Home?</p>
+<p> </p>
+<p>Article</p>
+<p>11 Breathing Tips for People With COPD</p>
+<p>VIDEO</p>
+<p>What Are the Early Signs of COPD?</p>
+<p> </p>
+<p>Women's Health Newsletter</p>
+<p>Find out what women really need.</p>
+<p>Submit</p>
+<p>  </p>
+<p>WebMD Special Sections</p>
+<p>Lung Disease Health Check</p>
+<p>Health Solutions From Our Sponsors</p>
+<p>Childhood Hearing Loss</p>
+<p>Relapsing MS</p>
+<p>Joint Pain Help Center</p>
+<p>Musculoskeletal Pain</p>
+<p>Plaque Psoriasis Treatment</p>
+<p> </p>
+<p>Find us on:</p>
+<p> URAC: Accredited Health Web SiteReviewed by Trust-E site privacy statementHonCode: Health on the Net Foundation </p>
+<p> About WebMD|Terms of Use|Privacy Policy|Sponsor Policy|Site Map|Careers| Contact Us </p>
+<p> Advertise With Us|WebMD Corporate|Medscape Reference|eMedicineHealth|RxList|Medscape|MedicineNet </p>
+<p> First Aid|WebMD the Magazine|WebMD Health Record|WebMD Mobile|Newsletters </p>
+<p>©2005-2012 WebMD, LLC. All rights reserved.</p>
+<p>WebMD does not provide medical advice, diagnosis or treatment. See additional information.</p>
+<p>// adding RR test back into preview to troubleshoot</p>
+<p>try {</p>
+<p>	webmd.usability.tests.ssRightRail.writeTest();</p>
+<p>} catch(e) {};</p>
+<p>	if (document.URL.substring(0,5).indexOf('http:')>=0) {</p>
+<p>		document.write('<img src=//bi.medscape.com/pi/global/webmd-1x1.gif?'+new Date().getTime()+'" alt="" height="1" width="1" border="0" />') </p>
+<p>	}</p>
+<p>			var priTopId = "4292";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p> var s_account="webmdcom"</p>
+<p> ,s_server_type="1b"</p>
+<p> ,s_server="WFAWS06L-CON-08"</p>
+<p> ,s_object_type="wbmd_cons_article"</p>
+<p> ,s_page_number="1"</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_site_class="ooc"</p>
+<p> ,s_site="core"</p>
+<p> ,s_sponsored_uri="lung/news/20120113/study-vitamin-d-no-clear-benefit-copd-patients"</p>
+<p> ,s_pagename="www.webmd.com/lung/news/20120113/study-vitamin-d-no-clear-benefit-copd-patients"</p>
+<p> ,s_channel=""</p>
+<p> ,s_topic="4292"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_intended_demographics="__"</p>
+<p> ,s_stage_condition=""</p>
+<p> ,s_asset_id="091e9c5e8099857b"</p>
+<p> ,s_unique_id="091e9c5e8099857b"</p>
+<p> ,s_company="webmd"</p>
+<p> ,s_mrt="9"</p>
+<p> ,s_refpath=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal=""</p>
+<p> ,s_channel_health="Lung";</p>

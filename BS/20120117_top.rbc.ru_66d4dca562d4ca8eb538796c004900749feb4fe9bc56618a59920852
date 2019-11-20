@@ -1,0 +1,695 @@
+<p>Разработана диета, предотвращающая инсульт  :: Здоровье :: Top.rbc.ru</p>
+<p>  function noError(){return true;}</p>
+<p>  window.onerror = noError;</p>
+<p>  </p>
+<p><!--</p>
+<p>document.write("<img src='http://counter.yadro.ru/hit;RBCRU?r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' width=1 height=1 alt=''>")//--></p>
+<p>	var img = new Image();</p>
+<p>	img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*rbc_ru/ru/CP1251/tmsec=rbc_total/';</p>
+<p>var pp_gemius_identifier = new String('d1zgvcehWvM1x6q6EyhZhOVzDtYRkVtzIV033Ln.BhP.e7');</p>
+<p>Bbody.next(".22506591000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>	var cookie_var = "";</p>
+<p>	if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>	Cookie.set("count_li_all.20080918160029.90381", cookie_var, 1);</p>
+<p>	}</p>
+<p>}</p>
+<p>Bbody.next(".4babd35f000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>	var cookie_var = "";</p>
+<p>	if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>	Cookie.set("count_nielsen_general.20081013133438.85304", cookie_var, 1);</p>
+<p>	}</p>
+<p>}</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_142326' in window)){_px_142326=new Image();_px_142326.src="http://pics.rbc.ru/eem/95/j9nyxhal/img.gif?_s=news_spec.20110902161622.142326&_l=news_spec&_b=Media2/news_spec&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".15d3e1b5000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("news_spec.20110902161622.142326", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1239&gid=6&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>		u="count.rbc.ru/p912.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";</p>
+<p>		n=(na.substring(0,2)=="Mi")?0:1;y="";</p>
+<p>		y+="<img src='http://"+u+"?r="+escape(d.referrer)+"&width="+screen.width+"&height="+screen.height+"&hash="+escape(d.location.hash.substr(1))+"&rn="+Math.random();</p>
+<p>		y+="' border=0 width=1 height=1 alt='count'>";</p>
+<p>		d.write(y);if(!n) { d.write("<"+"!--"); }//--></p>
+<p><!--</p>
+<p>		if(!n) { d.write("--"+">"); }//--></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139315' in window)){_px_139315=new Image();_px_139315.src="http://pics.rbc.ru/gel/9/ijeny/ahp/img.gif?_s=banner_news.20101230132035.139315&_l=banner_news&_b=Media2/news_shapka&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".156ac83a000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("banner_news.20101230132035.139315", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1137&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>РБК</p>
+<p>	</p>
+<p>	mRBC.weatherDefault.datetime 	= '2012-01-17 16:06:08';</p>
+<p>	mRBC.weatherDefault.zone		= 'r_msk';</p>
+<p>	mRBC.weatherDefault.region[0] = {</p>
+<p>		'r_msk': {</p>
+<p>			"timezone"	:"+4",</p>
+<p>			"link"		:"http:\/\/pogoda.rbc.ru\/weather\/moscow",</p>
+<p>			"name"		:"Москва",</p>
+<p>			"weather"	:{</p>
+<p>				"temp"				:"-8",</p>
+<p>				"phenomenon"		:"13",</p>
+<p>				"phenomenon_descr"	:"облачно, небольшой снег"</p>
+<p>			}</p>
+<p>		}</p>
+<p>	};</p>
+<p>	</p>
+<p>+ прогноз</p>
+<p>Москва Выбор города</p>
+<p>Москва</p>
+<p>С-Петербург</p>
+<p>Архангельск</p>
+<p>Астана</p>
+<p>Астрахань</p>
+<p>Ашхабад</p>
+<p>Баку</p>
+<p>Бишкек</p>
+<p>Вильнюс</p>
+<p>Владивосток</p>
+<p>Душанбе</p>
+<p>Екатеринбург</p>
+<p>Ереван</p>
+<p>Калининград</p>
+<p>Киев</p>
+<p>Кишинев</p>
+<p>Минск</p>
+<p>Мурманск</p>
+<p>Новосибирск</p>
+<p>Н.-Новгород</p>
+<p>Пермь</p>
+<p>Рига</p>
+<p>Ростов-на-Дону</p>
+<p>Таллин</p>
+<p>Ташкент</p>
+<p>Тбилиси</p>
+<p>Уфа</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_141477' in window)){_px_141477=new Image();_px_141477.src="http://pics.rbc.ru/ne/9i/jv/y8a23/img.gif?_s=top_internal.20110328143552.141477&_l=top_internal&_b=Media2/top_internal&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".aac6d74f000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_internal.20110328143552.141477", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1155&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>Доллар</p>
+<p>31.511</p>
+<p>-0.53%</p>
+<p>Евро</p>
+<p>40.280</p>
+<p>-0.10%</p>
+<p>РБК-ТВ</p>
+<p>Quote</p>
+<p>CNews</p>
+<p>Auto</p>
+<p>Недвижимость</p>
+<p>Рейтинги</p>
+<p>Исследования</p>
+<p>Работа</p>
+<p>Стиль</p>
+<p>Tata</p>
+<p>ТВ</p>
+<p>iGlobe</p>
+<p>Спорт</p>
+<p>RBK Money</p>
+<p>PDA</p>
+<p>									 | Рассылка новостей</p>
+<p>					Здоровье					</p>
+<p>Разработана диета, предотвращающая инсульт </p>
+<p> </p>
+<p>назад</p>
+<p>вперед</p>
+<p>thinkstock.com</p>
+<p>thinkstock.com</p>
+<p>Статьи по теме:</p>
+<p>Как питаться зимой, чтобы не заболеть</p>
+<p>Риск инсульта можно предсказать по группе крови </p>
+<p>Шоколад спасает от инсульта </p>
+<p>	Люди, ежедневно потребляющие продукты, богатые магнием (зеленые листовые овощи, орехи, бобы), менее подвержены инсультам. К такому выводу пришли ученые из Каролинского института в Стокгольме (Karolinska Institutet in Stockholm), проанализировав данные 250 тыс.человек из США, Европы и Азии, передает Reuters. Авторы исследования, опубликованного в  American Journal of Clinical Nutrition, воздержались от рекомендаций о ежедневном приеме пищевых добавок, так как в работе рассматривали только эффект от продуктов, содержащих магний.  "Потребление магния обратно пропорционально связано с риском инсульта, в частности ишемического", - пишет руководитель работы Сюзанна Ларсон. Изучив 7 предыдущих исследований, опубликованных за последние 14 лет, она выяснила, что из всех добровольцев, за которыми наблюдали в среднем одиннадцать с половиной лет, около 6500 человек (3%) перенесли инсульт за это время. По данным шведских ученых, каждые дополнительные 100 мг магния в день снижают риск ишемического инсульта (самое распространенное заболевание головного мозга, обусловленное закупоркой того или иного сосуда, питающего часть мозга) на 9%. Суточное потребление магния участниками из США составляло 242 мг в день, хотя рекомендуемая норма - 420 мг для мужчин и 320 мг для женщин старше 31 года в день. Большинство исследований позволили исключить из результатов другие факторы, например наследственность, однако пока остается неясным, можно ли объяснить сделанные выводы употреблением других продуктов. Ученые также пока не могут однозначно утверждать, что именно магний в рационе человека защищает его от инсульта. Для прояснения этого вопроса требуются дополнительные исследования. Отметим, что большое количество магния содержится в доступных и недорогих продуктах питания: в гречневой и пшенной крупах, фасоли, горохе, шпинате, арбузе, сухом молоке, халве, орехах (фундук). Вполне возможно обеспечить суточную потребность в магнии с помощью ржаного и пшеничного хлеба, черной смородины, кукурузы, сыра, моркови.	</p>
+<p>		Теги:</p>
+<p>		диета, магний, инсульт </p>
+<p>17 января 2012 г.</p>
+<p>        function ashare( el ) {</p>
+<p>            if ( el.tagName.toLowerCase() != 'a' ) {</p>
+<p>                return;</p>
+<p>            }</p>
+<p>            var p = {</p>
+<p>                    w : 600,</p>
+<p>                    h : 380,</p>
+<p>                    l : ( this.w - 600 ) / 2,</p>
+<p>                    t : ( this.h - 400 ) / 2</p>
+<p>            };</p>
+<p>            if ( p.l < 0 || p.t < 0 ) {</p>
+<p>                p.l = p.t = 0;</p>
+<p>            }</p>
+<p>            var w = window.open( '', 'Article share', 'top='+p.t+',left='+p.l+',width='+p.w+',height='+p.h );</p>
+<p>            w.document.write( 'Loading...' );</p>
+<p>            w.location.href = el.href;</p>
+<p>        }</p>
+<p>    </p>
+<p>try { VK.init({apiId: 2382849, onlyWidgets: true}) } catch(err) { }</p>
+<p>$(function() { ODKL.init() })</p>
+<p>try { var title = $('meta[property="og:title"]').attr('content').replace(/(\")|(\')|(&quot;)/gi, ''); VK.Widgets.Like("vk_like", {width: 130, pageTitle: title, type: "button"}) } catch(err) { }</p>
+<p>Tweet</p>
+<p>0</p>
+<p>обсудить на форуме</p>
+<p>		| печать</p>
+<p>		| вставить в блог</p>
+<p>				| отправить на e-mail</p>
+<p>		| </p>
+<p>            document.write('<img src="http://pics.top.rbc.ru/top_pics/s.gif?id=633607&pub=20120117">');</p>
+<p>        </p>
+<p>Статьи дня:</p>
+<p>Олигарх Б.Березовский призвал В.Путина "уйти на любых условиях"</p>
+<p>В крушении АМС "Фобос-Грунт" подозревают американский радар</p>
+<p>Дежурного по станции метро "Белорусская" ранили за сделанное замечание</p>
+<p>Журналиста Павла Лобкова уволили с НТВ</p>
+<p>С.Говорухин: Штаб В.Путина перевербует участников митингов</p>
+<p> </p>
+<p>				Капитан Costa Concordia стал самым ненавидимым человеком в Италии			</p>
+<p> </p>
+<p>				Китайские полицейские бегом догнали автоугонщика			</p>
+<p> </p>
+<p>				Прокурор по делу о катастрофе под Смоленском попытался застрелиться			</p>
+<p> </p>
+<p>				На Сицили пробудился вулкан Этна			</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_142818' in window)){_px_142818=new Image();_px_142818.src="http://pics.rbc.ru/meui9l/jxxyo/aj0/img.gif?_s=top_informers.20111102161023.142818&_l=top_informers&_b=Media2/top_informers_AUTO&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".6de0c3b1002");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_informers.20111102161023.142818", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1245&gid=15&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Материалы наших партнеров:</p>
+<p>function randomize_items() </p>
+<p>{</p>
+<p> var arr = new Array();</p>
+<p>			arr[0]='<li><a href="http://redir.rbc.ru/cgi-bin/redirect.cgi?top_partners~http://www.quote.ru/topnews/2012/01/17/33534754.html"><b>Quote.ru:</b> Китайская статистика вывела российских металлургов в лидеры</a></li>';arr[1]='<li><a href="http://redir.rbc.ru/cgi-bin/redirect.cgi?top_partners~http://lf.rbc.ru/"><b>РБК.Личные Финансы:</b> Сбербанк хочет удержать состоятельных клиентов</a></li>';var ind = Math.floor( Math.random() * (arr.length) );</p>
+<p> </p>
+<p>document.write(arr[ind]);</p>
+<p>}</p>
+<p>randomize_items();Карибская парусная неделя - отдых с пользой для бизнеса. Прими участие, опыт не требуется!</p>
+<p>Спорт: Вратарь "забил" себе самый нелепый гол. ВИДЕО</p>
+<p>Бизнес-Стиль: Названа новая девушка Джеймса Бонда. ФОТО</p>
+<p>DrinkTime: Российская водка пахнет сексом. ФОТО</p>
+<p>function randomize_items() </p>
+<p>{</p>
+<p> var arr = new Array();</p>
+<p>			arr[0]='<li><a href="http://www.iglobe.ru/deals/novisa"><b>iGlobe:</b> Где российские граждане могут отдохнуть без оформления визы</a></li>';var ind = Math.floor( Math.random() * (arr.length) );</p>
+<p> </p>
+<p>document.write(arr[ind]);</p>
+<p>}</p>
+<p>randomize_items(); </p>
+<p> </p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_142399' in window)){_px_142399=new Image();_px_142399.src="http://pics.rbc.ru/xe/g9bjqryxa2/img.gif?_s=top_health_bot.20110908144942.142399&_l=top_health_bot&_b=Media2/top_health_bot&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".14a55593000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_health_bot.20110908144942.142399", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1247&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>$(document).ready(function() {</p>
+<p>        $('.content-wrapper .box').addtocopy({</p>
+<p>                htmlcopytxt: '<br><br>Читать полностью: <a href="'+window.location.href+'">'+window.location.href+'</a>',</p>
+<p>                minlen:35,</p>
+<p>                addcopyfirst: false</p>
+<p>        });</p>
+<p>});</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Происшествия</p>
+<p>Общество</p>
+<p>Здоровье</p>
+<p>Потребрынок</p>
+<p>Календарь событий</p>
+<p>Безумный мир</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139308' in window)){_px_139308=new Image();_px_139308.src="http://pics.rbc.ru/de/9dj3yd/asy/img.gif?_s=banner_right.20110114143550.139308&_l=banner_right&_b=Media2/news_RIGHT&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".19a54403000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("banner_right.20110114143550.139308", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="mlph'+p+'" style="display:none"><\/div>');}</p>
+<p>function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function ml_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>var place_id = '1130';</p>
+<p>ml_ph(place_id); ml_c(place_id);</p>
+<p>ml_getCode(1,place_id,'http://engine.rbc.medialand.ru/code?pid='+place_id+'&gid=2&oin=0&rid=' + Math.round(Math.random()*100000));</p>
+<p>//--></p>
+<p> </p>
+<p>			var arrayWithItems = [</p>
+<p>				</p>
+<p>					[ </p>
+<p>		{ header:'Бензиновый Freelander 2 по цене дизельного!', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/17/1716907',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/17/110509.8886_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Щедрые условия Нового года на любой Polo седан!', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716596',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/13/134258.8571_150.jpg' },</p>
+<p>		{ header:'АВИЛОН. Торгуем в "минус"!', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/02/1715288',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2011/12/29/120548.29823_150.jpg' },</p>
+<p>		{ header:'Успеть до конца января. АВИЛОН BMW', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/11/1716344',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/17/173503.10394_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Время пришло ПОКУПАТЬ! Последнее предложение на INFINITI 2011 г.в.', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716661',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/13/173242.8145_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Chevrolet - 100 лет на рынке!', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716833',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/16/163802.8195_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Мерседес-Бенц Измайлово. В подарок опции до 1 000 000 руб.', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716619',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/13/141853.3028_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Спец.условия на Toyota 2011 г.в.', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/10/1716160',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/10/130220.11028_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Спец.условия на Lexus 2011 г.в.', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/10/1716167',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/10/133910.9574_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Новогодний ажиотаж в МБ-Беляево! Специальные условия на автомобили 2011 года', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1715285',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2011/12/29/115128.18854_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Специальные кредитные предложения в Порше Центр Москва до 31.01.2012', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716629',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/13/152805.17502_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Orlando: большое удовольствие', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716781',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/16/124327.29159_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Эксклюзивный пикап Mazda для России', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716655',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/13/172429.1668_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Третье поколение Mercedes-Benz Viano', url:'http://www.autonews.ru/auto_news/index.shtml?2012/01/16/1716643',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2012/01/13/161921.20659_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Новый Ford Ranger. Для тех, кто мечтал об американском пикапе', url:'http://www.autonews.ru/auto_news/index.shtml?2011/12/26/1713897',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2011/12/19/155047.13340_150.jpg' } ],</p>
+<p>					[ </p>
+<p>		{ header:'Итальянский туроператор "Тур Парад" дарит 2 билета в Венецию!', url:'http://www.autonews.ru/auto_news/index.shtml?2011/12/26/1714637',	imgSrc :'http://pics.rbc.ru/img/autonews/onews/2011/12/23/173119.24831_150.jpg' } ]</p>
+<p>			];</p>
+<p>			</p>
+<p>			</p>
+<p>				var REDIRECT_URI = 'http://redir.rbc.ru/cgi-bin/redirect.cgi?';</p>
+<p>				var ITEMS_TO_SHOW = 1;</p>
+<p>				var Cookie = {</p>
+<p>					/**</p>
+<p>					 * Установка значения куки</p>
+<p>					 * 1) если на задавать параметр expires, то кука установится на год</p>
+<p>					 * 2) чтобы удалить куку нужно задать отрицательное значение параметра expires</p>
+<p>					 * 3) если задать параметр expires как "session", то кука станет сессионной</p>
+<p>					 * @param {String} name</p>
+<p>					 * @param {String} value</p>
+<p>					 * @param {Number} expires</p>
+<p>					 */</p>
+<p>					set: function( name, value, expires, domain ){</p>
+<p>						// дата истечения срока действия куки</p>
+<p>						var expiresValue = '';</p>
+<p>						if( expires !== 'session' ){</p>
+<p>							expiresValue = 'expires=' +</p>
+<p>								( new Date( new Date().getTime() + ( expires || 365 ) * 86400000 ) ).toGMTString() + '; '</p>
+<p>						}</p>
+<p>						// запись куки</p>
+<p>						document.cookie = name + '=' + value + '; ' + expiresValue + 'path=/' + ((domain) ? '; domain=' + domain : '');</p>
+<p>					},</p>
+<p>					/**</p>
+<p>					 * Получение значения куки</p>
+<p>					 * @param {String} name</p>
+<p>					 * @return значение куки с именем name</p>
+<p>					 * @type String</p>
+<p>					 */</p>
+<p>					get: function( name ){</p>
+<p>						var re = new RegExp( '\\s*' + name + '=' );</p>
+<p>						var cookies = document.cookie.split(';');</p>
+<p>						// проверка всех кук страницы</p>
+<p>						for( var i = cookies.length; i--; ){</p>
+<p>							var c = cookies[i];</p>
+<p>							if ( re.test( c ) ){ return c.replace( re, '' ); }</p>
+<p>						}</p>
+<p>						return '';</p>
+<p>					}</p>
+<p>				};</p>
+<p>				</p>
+<p>				window.onload = show_informers();</p>
+<p>				</p>
+<p>				function show_informers() {</p>
+<p>					var countInf = 0;</p>
+<p>					return function() {</p>
+<p>						if ( countInf++ > 0 ) return;</p>
+<p>						//Cookie.set('someCounter','3');</p>
+<p>	</p>
+<p>						//загружаем массив из куки</p>
+<p>						var firstElementNumber = Cookie.get('firstElementNumber');</p>
+<p>						if (firstElementNumber) {</p>
+<p>							var newArray = [];</p>
+<p>							var y = firstElementNumber;</p>
+<p>							for (var i = 0; i < arrayWithItems.length; i++) {</p>
+<p>								newArray.push(arrayWithItems[y]);</p>
+<p>								y++;</p>
+<p>								if (y == arrayWithItems.length) {</p>
+<p>									y = 0;</p>
+<p>								}</p>
+<p>							}</p>
+<p>							arrayWithItems = newArray;</p>
+<p>						}</p>
+<p>						firstElementNumber++;</p>
+<p>						if (firstElementNumber >= arrayWithItems.length) {</p>
+<p>							firstElementNumber = 0;</p>
+<p>						}</p>
+<p>						//записываем новый порядок к куку</p>
+<p>						Cookie.set('firstElementNumber', firstElementNumber);</p>
+<p>	</p>
+<p>						var informerContainer = document.getElementById('informer');</p>
+<p>						var oldContent = informerContainer.innerHTML;</p>
+<p>	</p>
+<p>						informerContainer.innerHTML = '';</p>
+<p>						var htmlCache = printInformer( arrayWithItems, ITEMS_TO_SHOW );</p>
+<p>	</p>
+<p>						for ( var i = 0; i < htmlCache.length; i++ ) {</p>
+<p>							informerContainer.appendChild( htmlCache[i] );</p>
+<p>						}</p>
+<p>	</p>
+<p>						informerContainer.innerHTML += oldContent;</p>
+<p>					}</p>
+<p>				}</p>
+<p>				</p>
+<p>                function create_element_first( itemToShow ) {</p>
+<p>                    var div = document.createElement('div');</p>
+<p>                    div.align = 'center';</p>
+<p>                    var href = document.createElement('a');</p>
+<p>                    href.href = REDIRECT_URI + itemToShow.url;</p>
+<p>                    href.title = itemToShow.header;</p>
+<p>                    var img = document.createElement('img');</p>
+<p>                    img.src = itemToShow.imgSrc;</p>
+<p>                    img.alt = itemToShow.header;</p>
+<p>                    img.width = 145;</p>
+<p>                    img.height = 96;</p>
+<p>                    href.appendChild( img );</p>
+<p>                    div.appendChild( href );</p>
+<p>                    img = null; href = null;</p>
+<p>                    return div;</p>
+<p>                }</p>
+<p>                function create_element_seconds( itemToShow ) {</p>
+<p>                    var li = document.createElement('li');</p>
+<p>                    var href = document.createElement('a');</p>
+<p>                    href.href = REDIRECT_URI + itemToShow.url;</p>
+<p>                    href.title = itemToShow.header;</p>
+<p>                    var text = document.createTextNode( itemToShow.header );</p>
+<p>                    href.appendChild( text );</p>
+<p>                    li.appendChild( href );</p>
+<p>                    href = null; text = null;</p>
+<p>                    return li;</p>
+<p>                }</p>
+<p>				function printInformer(array, numberOfItemsToShow) {</p>
+<p>					htmlCache = [];</p>
+<p>					var itemToShow = get_informer( array[0] );</p>
+<p>					if ( itemToShow ) {</p>
+<p>						htmlCache.push( create_element_first( itemToShow ) );</p>
+<p>						htmlCache.push( create_element_seconds( itemToShow ) );</p>
+<p>					}</p>
+<p>					for ( var i = 1; i < numberOfItemsToShow; i++ ) {</p>
+<p>						itemToShow = get_informer( array[i] );</p>
+<p>						if ( itemToShow ) {</p>
+<p>							htmlCache.push( create_element_seconds( itemToShow ) );</p>
+<p>						}</p>
+<p>					}</p>
+<p>					return htmlCache;</p>
+<p>				}</p>
+<p>				function get_informer( infpl ) {</p>
+<p>					if ( ! infpl )			return false;</p>
+<p>					if ( ! infpl.length )	return false;</p>
+<p>					var num = Math.floor( Math.random() * infpl.length );</p>
+<p>					return infpl[ num ];</p>
+<p>				}</p>
+<p>			</p>
+<p>		</p>
+<p>Autonews.Ru</p>
+<p>Бизнес-Стиль</p>
+<p>Тюрьма, красотки и пивные ванны: Названы самые экстравагантные спа в мире. ФОТО </p>
+<p>Бриллиантовое приветствие: Богачи обзаводятся визитками по $1,5 тысячи за штуку </p>
+<p>Сафари класса люкс: На Maserati предлагают покорять бездорожье. ФОТО</p>
+<p>Yтро.ru</p>
+<p>"Капитан, вы покинули корабль?!"</p>
+<p>Волгоградский губернатор ушел по собственному желанию</p>
+<p>Канадский офицер шпионил в пользу России</p>
+<p>Исследования рынков</p>
+<p>Доля распределенной энергетики в России составляет 5% от установленных мощностей</p>
+<p>За 8 месяцев 2011 года было реализовано более 120 000 новых автомобилей</p>
+<p>Лесная промышленность не способна переработать весь объем спелой древесины</p>
+<p>Недвижимость</p>
+<p>Копить на квартиру жителям Сочи придется 22 года</p>
+<p>Эксперты зафиксировали ротацию покупателей офисов в Москве</p>
+<p>Малоэтажное строительство в Подмосковье: объем предложения вырос в 5 раз за год</p>
+<p>iGlobe - отели и билеты</p>
+<p>Где выгодно и интересно отдохнуть этой зимой</p>
+<p>Как отвлечься от повседневной рутины и будничной суеты</p>
+<p>Уникальный продукт на российском рынке – авиаперелет бесплатно!</p>
+<p>Где российские граждане могут отдохнуть без оформления визы</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_140877' in window)){_px_140877=new Image();_px_140877.src="http://pics.rbc.ru/8e/91ujryyau/img.gif?_s=magna_top_left.20110215125810.140877&_l=magna_top_left&_b=Magna_system/magna_top_left&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".4bf992f7000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("magna_top_left.20110215125810.140877", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p>function ml_ph(p){document.write('<div id="magnaph'+p+'" style="display:none"></div>');}function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe></div>');}function ml_getCode(n,p,s){var d;if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}try{s+=(location.href!==undefined&&location.href!=''?'&l='+location.href:'')+(document.referrer!==undefined&&document.referrer!=''?'&r='+document.referrer:'');}catch(e){}if(d){d.write('<scr'+'ipt  charset="utf-8" src="'+s+'"></scr'+'ipt>');}else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}}}var place_id = '5035';ml_ph(place_id); ml_c(place_id);ml_getCode(1,place_id,'http://rbc.magna.ru/xml_out/?id='+place_id+'&rid=' + Math.round(Math.random()*100000)); </p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139298' in window)){_px_139298=new Image();_px_139298.src="http://pics.rbc.ru/iet9/ja1yila6d/img.gif?_s=top_left.20101228180310.139298&_l=top_left&_b=Media2/top_LEFT&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".da8411a0000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_left.20101228180310.139298", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="mlph'+p+'" style="display:none"><\/div>');}</p>
+<p>function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function ml_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>var place_id = '1120';</p>
+<p>ml_ph(place_id); ml_c(place_id);</p>
+<p>ml_getCode(1,place_id,'http://engine.rbc.medialand.ru/code?pid='+place_id+'&gid=2&oin=0&rid=' + Math.round(Math.random()*100000));</p>
+<p>//--></p>
+<p> </p>
+<p>Главное</p>
+<p>					Губернатор Волгоградской области отправлен в отставку				</p>
+<p>Новости раздела</p>
+<p>Медики научились выращивать вены</p>
+<p>Энергетики вызывают галлюцинации и проблемы с сердцем</p>
+<p>Купание в бассейнах опасно для легких </p>
+<p>последние новости </p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139309' in window)){_px_139309=new Image();_px_139309.src="http://pics.rbc.ru/ae8m9xj/6y32a4/img.gif?_s=top_top.20110114144903.139309&_l=top_top&_b=Media2/TOP_TOP&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".f7cdaf2a000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_top.20110114144903.139309", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="mlph'+p+'" style="display:none"><\/div>');}</p>
+<p>function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function ml_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>var place_id = '1131';</p>
+<p>ml_ph(place_id); ml_c(place_id);</p>
+<p>ml_getCode(1,place_id,'http://engine.rbc.medialand.ru/code?pid='+place_id+'&gid=2&oin=0&rid=' + Math.round(Math.random()*100000));</p>
+<p>//--></p>
+<p> </p>
+<p>Политика</p>
+<p>КПРФ согласовала субботний митинг на Манежной</p>
+<p>Врио губернатора Волгоградской области назначен С.Боженов</p>
+<p>Губернатор Волгоградской области отправлен в отставку</p>
+<p>последние новости </p>
+<p>Quote</p>
+<p>Citigroup: Сужение перспектив роста не лишает смысла покупку банков РФ</p>
+<p>Wells Fargo: Валюты развивающейся Азии на пике привлекательности</p>
+<p>Barclays Capital: Инфляции еврозоны грозит перекос вверх</p>
+<p> </p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_141937' in window)){_px_141937=new Image();_px_141937.src="http://pics.rbc.ru/5ej79k/j0yjiam/img.gif?_s=top_health.20110614174316.141937&_l=top_health&_b=Media2/top_health&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".9927899f000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_health.20110614174316.141937", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1226&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Экономика</p>
+<p>Арбитраж поставил точку в споре между Сбербанком и "Павловскгранитом"</p>
+<p>Fitch: Дефолт Греции неизбежен</p>
+<p>Фонд EFSF успешно разместил облигации, несмотря на S&P</p>
+<p>последние новости </p>
+<p>Происшествия</p>
+<p>Число жертв крушения Costa Concordia возросло до 11 человек</p>
+<p>МВД подозревает А.Бородина в махинациях с бумагами на $199 млн  </p>
+<p>Правозащитники: В Ленобласти произошло массовое отравление военных</p>
+<p>последние новости </p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_142398' in window)){_px_142398=new Image();_px_142398.src="http://pics.rbc.ru/fe/99xj/y5baje/img.gif?_s=top_health_2.20110908144910.142398&_l=top_health_2&_b=Media2/top_health_2&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".d6903692000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_health_2.20110908144910.142398", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1248&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Безумный мир</p>
+<p>Ученые разработали "алгоритм Чикатило"</p>
+<p>Звезда сериала "Воронины" снялась для мужского журнала</p>
+<p>Уборщицу мусора в Китае наградили за добрый поступок</p>
+<p>последние новости </p>
+<p>Bbody.next(".2bff0ab3000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>    var cookie_var = "";</p>
+<p>    if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>        Cookie.set("top_obmen.default.20111113222610.2135", cookie_var, 1);</p>
+<p>    }</p>
+<p>}</p>
+<p>Спорт</p>
+<p>Экс-напарник В.Петрова трудоустроился в  Williams</p>
+<p>"Спартак" продает полузащитника сборной России</p>
+<p>Лыжница принесла России второе золото юношеской Олимпиады</p>
+<p> </p>
+<p>CNews.ru</p>
+<p>Tieto в России возглавил известный специалист по SAP</p>
+<p>Самый известный троян для Facebook был создан в России. Раскрыты имена его владельцев</p>
+<p>Планшеты Microsoft будут стоить дороже iPad</p>
+<p> </p>
+<p>Новости туризма</p>
+<p>Туристы Costa Concordia не получат деньги за утонувшие вещи</p>
+<p>В мире почти миллиард туристов</p>
+<p>На Costa Concordia ищут запертых туристов</p>
+<p>РБК</p>
+<p>О компании</p>
+<p>Услуги</p>
+<p>Реклама</p>
+<p>Контакты</p>
+<p>Вакансии</p>
+<p>Инвесторам</p>
+<p>Наша история</p>
+<p>Карта сайта</p>
+<p> </p>
+<p>Другие продукты РБК</p>
+<p>Loveplanet.ru - знакомства</p>
+<p>Readme.ru - новостной агрегатор</p>
+<p>qip.ru - общение</p>
+<p>tvidi.ru - детская соцсеть</p>
+<p>pochta.ru - почта</p>
+<p>iGlobe.ru - билеты и отели</p>
+<p>anekdot.ru - юмор</p>
+<p>Аднет - рекламная сеть</p>
+<p>Магна - контекстная реклама</p>
+<p>Хостинговые услуги</p>
+<p>Информер - для вашего сайта</p>
+<p> </p>
+<p>Воспользуйтесь этим</p>
+<p>Новости</p>
+<p>Архив</p>
+<p>Семинары</p>
+<p>Кредит</p>
+<p>Бизнес Журнал</p>
+<p> </p>
+<p>Bbody.next(".7f106021001");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>    var cookie_var = "";</p>
+<p>    if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>        Cookie.set("news_rich.20040923124016.2135", cookie_var, 1);</p>
+<p>    }</p>
+<p>}</p>
+<p>			Все замечания и пожелания присылайте на webmaster@top.rbc.ru.</p>
+<p>			Все права защищены и охраняются законом. © 1995 - 2012 РосБизнесКонсалтинг.</p>
+<p>			Информация об ограничениях © Reuters, © AP.</p>
+<p>			Подробнее о соблюдении авторских прав и размещении рекламы.</p>
+<p>			</p>
+<p>					initClickHeat(</p>
+<p>					'top_rbc_ru_item', </p>
+<p>					'http://ch.rbc.ru/click', </p>
+<p>					[</p>
+<p>						'div.content-wrapper div.container div.box-wrapper div.photo-container',</p>
+<p>						'div.content-wrapper div.container div.box-wrapper div.video-container',</p>
+<p>						'div.content-wrapper div.container div.box-wrapper div.box div.article-side>div.notes', </p>
+<p>						'div.content-wrapper div.container div.box-wrapper>div.notes:eq(0)', </p>
+<p>						'div.main-wrapper div.announce div.container div.block', </p>
+<p>						'.navigation', </p>
+<p>						'.b-main-menu', </p>
+<p>						'.header-top',</p>
+<p>						'div.content-wrapper div.container div.box-wrapper div#informersdivcenter',</p>
+<p>						'div.content-wrapper div.container div.box-wrapper div.notes.gray'</p>
+<p>					]</p>
+<p>			);</p>
+<p>					</p>
+<p>Bbody.next(".e4305b1a000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>    var cookie_var = "";</p>
+<p>    if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>        Cookie.set("ga_TOP.default.20090908125048.2135", cookie_var, 1);</p>
+<p>    }</p>
+<p>}</p>

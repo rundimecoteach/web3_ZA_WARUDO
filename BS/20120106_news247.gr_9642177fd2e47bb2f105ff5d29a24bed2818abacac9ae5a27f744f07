@@ -1,0 +1,866 @@
+<p>#main_menu{</p>
+<p>border-color: #8fb705;</p>
+<p>}</p>
+<p>#main_menu li a.active{</p>
+<p>background-color: #8fb705 !important;</p>
+<p>color: #fff;</p>
+<p>border: 1px solid #8fb705 !important;</p>
+<p>}</p>
+<p>#main_menu li a.active:hover{</p>
+<p>background-color: #8fb705 !important;</p>
+<p>}</p>
+<p>.breadcrumb a.active{</p>
+<p>background: #8fb705 !important;</p>
+<p>color: #fff;</p>
+<p>border: 1px solid #8fb705 !important;</p>
+<p>}</p>
+<p>.breadcrumb a.active:hover{</p>
+<p>background-color: #8fb705 !important;</p>
+<p>}</p>
+<p>/*Setting Global Var for.. */ var publicationUrl = "http://news247.gr/" ;</p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p>{lang: 'el'}</p>
+<p> </p>
+<p>#main_menu ul li.menu_item_newspapers a</p>
+<p>{</p>
+<p>background-color:#c00;</p>
+<p>color:#fff;</p>
+<p>border-bottom:1px solid #c00;</p>
+<p>}#lower-toolbar div.grid_8 span a {padding-right: 1px !important;margin-left:0px !important;}</p>
+<p>#logo {</p>
+<p>padding-bottom: 5px !important;</p>
+<p>padding-top: 5px !important;</p>
+<p>}</p>
+<p>.articleList-widget .content-block ul li a{</p>
+<p>color: #3B5998 !important;</p>
+<p>}</p>
+<p>.eventsCntr{</p>
+<p>overflow:hidden;height:100%;</p>
+<p>}</p>
+<p>.eventIconWpr{</p>
+<p>width:40px;float:left;</p>
+<p>}</p>
+<p>.eventIconWpr a{</p>
+<p>display:block;</p>
+<p>}</p>
+<p>.descriptionCntr{</p>
+<p>float:left;width:245px;</p>
+<p>}</p>
+<p>.roadDesc a{</p>
+<p>font-family:Georgia;font-size:11px;font-weight:bold;color:#666;</p>
+<p>}</p>
+<p>.minuteDesc a, .estMinutes, .trafDesc{</p>
+<p>font-family:Georgia;font-size:11px;font-weight:bold</p>
+<p>}</p>
+<p>.newspaperWidget{</p>
+<p>background: url('http://news247.gr/incoming/article552704.ece/BINARY/ORIGINAL') no-repeat right;</p>
+<p>padding-right:17px;</p>
+<p>}</p>
+<p>.newspaperWidget a{color:#CC0000;}</p>
+<p>Ελλάδα: Ο μεγάλος ασθενής της Ευρώπης - NEWS247</p>
+<p>/*style for article's lists and links*/</p>
+<p>.storyContent .body a{</p>
+<p>color:#CC0000; text-decoration:underline; font-weight:bold;</p>
+<p>}</p>
+<p>.storyContent .body ul, ol {</p>
+<p>color:#555;</p>
+<p>margin:1em;</p>
+<p>}</p>
+<p>.storyContent .body li{	padding:5px;</p>
+<p>}</p>
+<p>.storyContent .body table{</p>
+<p>width: 460px !important;</p>
+<p>}</p>
+<p>div.article.default h2, div.article.left h2 {</p>
+<p>font-size: 16px !important;</p>
+<p>line-height: 18px !important;</p>
+<p>font-weight: bold !important; }</p>
+<p>h3.supertitle{</p>
+<p>font-size: 12px !important;</p>
+<p>line-height: 14px !important;</p>
+<p>}</p>
+<p>.articleList-widget .content-block ul li a{</p>
+<p>color: #3B5998 !important;</p>
+<p>}</p>
+<p>.column-1 div.article.bold h2 {</p>
+<p>font-size: 32px;</p>
+<p>line-height: 34px !important;</p>
+<p>}</p>
+<p>div.topstory .article h1 {</p>
+<p>line-height: 38px;</p>
+<p>padding-bottom: 10px;</p>
+<p>}</p>
+<p>body{</p>
+<p>line-height: 17px !important;</p>
+<p>}</p>
+<p>div.related a {</p>
+<p>color: #3B5998 !important;</p>
+<p>font-weight: bold;</p>
+<p>text-decoration: none !important;</p>
+<p>}</p>
+<p>div.related a:hover{</p>
+<p>text-decoration: underline !important;</p>
+<p>}</p>
+<p>#logo {</p>
+<p>padding-bottom: 5px !important;</p>
+<p>padding-top: 5px !important;</p>
+<p>}</p>
+<p>.byline .byline_date {</p>
+<p>color: #999999 !important;</p>
+<p>}</p>
+<p>#minxasete div.article h2{</p>
+<p>font-size:16px !important;</p>
+<p>}</p>
+<p>#main_content_wrap .poker{</p>
+<p>background:#f2f2f2;</p>
+<p>border-top:1px dotted #999;</p>
+<p>border-bottom:1px dotted #999;</p>
+<p>margin-top:-40px;</p>
+<p>}</p>
+<p>#main_content_wrap .poker h2{</p>
+<p>float:left;</p>
+<p>width:100px;</p>
+<p>font-size:13px;</p>
+<p>}</p>
+<p>#main_content_wrap .poker h2 a{</p>
+<p>color:#343434;</p>
+<p>font-size:13px;</p>
+<p>font-family:Arial;</p>
+<p>font-weight:bold;</p>
+<p>}</p>
+<p>#main_content_wrap .poker span{</p>
+<p>display:block;</p>
+<p>float:left;</p>
+<p>width:122px;</p>
+<p>}</p>
+<p>/*</p>
+<p>CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US</p>
+<p>@example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin</p>
+<p>*/</p>
+<p>(function(b){b.fn.lightBox=function(a){function m(){b("body").append('<div id="jquery-overlay"></div><div id="jquery-lightbox"><div id="lightbox-container-image-box"><div id="lightbox-container-image"><img id="lightbox-image"><div style="" id="lightbox-nav"><a href="#" id="lightbox-nav-btnPrev"></a><a href="#" id="lightbox-nav-btnNext"></a></div><div id="lightbox-loading"><a href="#" id="lightbox-loading-link"><img src="'+a.imageLoading+'"></a></div></div></div><div id="lightbox-container-image-data-box"><div id="lightbox-container-image-data"><div id="lightbox-image-details"><span id="lightbox-image-details-caption"></span><span id="lightbox-image-details-currentNumber"></span></div><div id="lightbox-secNav"><a href="#" id="lightbox-secNav-btnClose"><img src="'+</p>
+<p>a.imageBtnClose+'"></a></div></div></div></div>');var c=i();b("#jquery-overlay").css({backgroundColor:a.overlayBgColor,opacity:a.overlayOpacity,width:c[0],height:c[1]}).fadeIn();var g=j();b("#jquery-lightbox").css({top:g[1]+c[3]/10,left:g[0]}).show();b("#jquery-overlay,#jquery-lightbox").click(function(){h()});b("#lightbox-loading-link,#lightbox-secNav-btnClose").click(function(){h();return!1});b(window).resize(function(){var a=i();b("#jquery-overlay").css({width:a[0],height:a[1]});var c=j();b("#jquery-lightbox").css({top:c[1]+</p>
+<p>a[3]/10,left:c[0]})})}function d(){b("#lightbox-loading").show();a.fixedNavigation?b("#lightbox-image,#lightbox-container-image-data-box,#lightbox-image-details-currentNumber").hide():b("#lightbox-image,#lightbox-nav,#lightbox-nav-btnPrev,#lightbox-nav-btnNext,#lightbox-container-image-data-box,#lightbox-image-details-currentNumber").hide();var c=new Image;c.onload=function(){b("#lightbox-image").attr("src",a.imageArray[a.activeImage][0]);n(c.width,c.height);c.onload=function(){}};c.src=a.imageArray[a.activeImage][0]}</p>
+<p>function n(c,g){var e=b("#lightbox-container-image-box").width(),k=b("#lightbox-container-image-box").height(),d=c+a.containerBorderSize*2,f=g+a.containerBorderSize*2;e-=d;k-=f;b("#lightbox-container-image-box").animate({width:d,height:f},a.containerResizeSpeed,function(){o()});e==0&&k==0&&(b.browser.msie?l(250):l(100));b("#lightbox-container-image-data-box").css({width:c});b("#lightbox-nav-btnPrev,#lightbox-nav-btnNext").css({height:g+a.containerBorderSize*2})}function o(){b("#lightbox-loading").hide();</p>
+<p>b("#lightbox-image").fadeIn(function(){b("#lightbox-container-image-data-box").slideDown("fast");b("#lightbox-image-details-caption").hide();a.imageArray[a.activeImage][1]&&b("#lightbox-image-details-caption").html(a.imageArray[a.activeImage][1]).show();a.imageArray.length>1&&b("#lightbox-image-details-currentNumber").html(a.txtImage+" "+(a.activeImage+1)+" "+a.txtOf+" "+a.imageArray.length).show();p()});if(a.imageArray.length-1>a.activeImage)objNext=new Image,objNext.src=a.imageArray[a.activeImage+</p>
+<p>1][0];if(a.activeImage>0)objPrev=new Image,objPrev.src=a.imageArray[a.activeImage-1][0]}function p(){b("#lightbox-nav").show();b("#lightbox-nav-btnPrev,#lightbox-nav-btnNext").css({background:"transparent url("+a.imageBlank+") no-repeat"});a.activeImage!=0&&(a.fixedNavigation?b("#lightbox-nav-btnPrev").css({background:"url("+a.imageBtnPrev+") left 15% no-repeat"}).unbind().bind("click",function(){a.activeImage-=1;d();return!1}):b("#lightbox-nav-btnPrev").unbind().hover(function(){b(this).css({background:"url("+</p>
+<p>a.imageBtnPrev+") left 15% no-repeat"})},function(){b(this).css({background:"transparent url("+a.imageBlank+") no-repeat"})}).show().bind("click",function(){a.activeImage-=1;d();return!1}));a.activeImage!=a.imageArray.length-1&&(a.fixedNavigation?b("#lightbox-nav-btnNext").css({background:"url("+a.imageBtnNext+") right 15% no-repeat"}).unbind().bind("click",function(){a.activeImage+=1;d();return!1}):b("#lightbox-nav-btnNext").unbind().hover(function(){b(this).css({background:"url("+a.imageBtnNext+</p>
+<p>") right 15% no-repeat"})},function(){b(this).css({background:"transparent url("+a.imageBlank+") no-repeat"})}).show().bind("click",function(){a.activeImage+=1;d();return!1}));q()}function q(){b(document).keydown(function(c){c==null?(keycode=event.keyCode,escapeKey=27):(keycode=c.keyCode,escapeKey=c.DOM_VK_ESCAPE);key=String.fromCharCode(keycode).toLowerCase();(key==a.keyToClose||key=="x"||keycode==escapeKey)&&h();if((key==a.keyToPrev||keycode==37)&&a.activeImage!=0)a.activeImage-=1,d(),b(document).unbind();</p>
+<p>if((key==a.keyToNext||keycode==39)&&a.activeImage!=a.imageArray.length-1)a.activeImage+=1,d(),b(document).unbind()})}function h(){b("#jquery-lightbox").remove();b("#jquery-overlay").fadeOut(function(){b("#jquery-overlay").remove()});b("embed, object, select").css({visibility:"visible"})}function i(){var a,b;window.innerHeight&&window.scrollMaxY?(a=window.innerWidth+window.scrollMaxX,b=window.innerHeight+window.scrollMaxY):document.body.scrollHeight>document.body.offsetHeight?(a=document.body.scrollWidth,</p>
+<p>b=document.body.scrollHeight):(a=document.body.offsetWidth,b=document.body.offsetHeight);var e,d;if(self.innerHeight)e=document.documentElement.clientWidth?document.documentElement.clientWidth:self.innerWidth,d=self.innerHeight;else if(document.documentElement&&document.documentElement.clientHeight)e=document.documentElement.clientWidth,d=document.documentElement.clientHeight;else if(document.body)e=document.body.clientWidth,d=document.body.clientHeight;pageHeight=b<d?d:b;pageWidth=a<e?a:e;return arrayPageSize=</p>
+<p>[pageWidth,pageHeight,e,d]}function j(){var a,b;if(self.pageYOffset)b=self.pageYOffset,a=self.pageXOffset;else if(document.documentElement&&document.documentElement.scrollTop)b=document.documentElement.scrollTop,a=document.documentElement.scrollLeft;else if(document.body)b=document.body.scrollTop,a=document.body.scrollLeft;return arrayPageScroll=[a,b]}function l(a){var b=new Date;do var d=new Date;while(d-b<a)}var a=jQuery.extend({overlayBgColor:"#000",overlayOpacity:0.8,fixedNavigation:!1,imageLoading:"images/lightbox-ico-loading.gif",</p>
+<p>imageBtnPrev:"images/lightbox-btn-prev.gif",imageBtnNext:"images/lightbox-btn-next.gif",imageBtnClose:"http://news247.gr/incoming/article1381793.ece/BINARY/ORIGINAL",imageBlank:"images/lightbox-blank.gif",containerBorderSize:10,containerResizeSpeed:400,txtImage:"Image",txtOf:"of",keyToClose:"c",keyToPrev:"p",keyToNext:"n",imageArray:[],activeImage:0},a),f=this;return this.unbind("click").click(function(){b("embed, object, select").css({visibility:"hidden"});m();a.imageArray.length=0;a.activeImage=0;if(f.length==1)a.imageArray.push([this.getAttribute("href"),</p>
+<p>this.getAttribute("title")]);else for(var c=0;c<f.length;c++)a.imageArray.push([f[c].getAttribute("href"),f[c].getAttribute("title")]);for(;a.imageArray[a.activeImage][0]!=this.getAttribute("href");)a.activeImage++;d();return!1})}})(jQuery);</p>
+<p>/**</p>
+<p>* jQuery lightBox plugin</p>
+<p>* This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)</p>
+<p>* and adapted to me for use like a plugin from jQuery.</p>
+<p>* @name jquery-lightbox-0.5.css</p>
+<p>* @author Leandro Vieira Pinho - http://leandrovieira.com</p>
+<p>* @version 0.5</p>
+<p>* @date April 11, 2008</p>
+<p>* @category jQuery plugin</p>
+<p>* @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)</p>
+<p>* @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US</p>
+<p>* @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin</p>
+<p>*/</p>
+<p>#jquery-overlay {</p>
+<p>position: absolute;</p>
+<p>top: 0;</p>
+<p>left: 0;</p>
+<p>z-index: 90;</p>
+<p>width: 100%;</p>
+<p>height: 500px;</p>
+<p>}</p>
+<p>#jquery-lightbox {</p>
+<p>position: absolute;</p>
+<p>top: 0;</p>
+<p>left: 0;</p>
+<p>width: 100%;</p>
+<p>z-index: 100;</p>
+<p>text-align: center;</p>
+<p>line-height: 0;</p>
+<p>}</p>
+<p>#jquery-lightbox a img { border: none; }</p>
+<p>#lightbox-container-image-box {</p>
+<p>position: relative;</p>
+<p>background-color: #fff;</p>
+<p>width: 250px;</p>
+<p>height: 250px;</p>
+<p>margin: 0 auto;</p>
+<p>}</p>
+<p>#lightbox-container-image { padding: 10px; }</p>
+<p>#lightbox-loading {</p>
+<p>position: absolute;</p>
+<p>top: 40%;</p>
+<p>left: 0%;</p>
+<p>height: 25%;</p>
+<p>width: 100%;</p>
+<p>text-align: center;</p>
+<p>line-height: 0;</p>
+<p>}</p>
+<p>#lightbox-nav {</p>
+<p>position: absolute;</p>
+<p>top: 0;</p>
+<p>left: 0;</p>
+<p>height: 100%;</p>
+<p>width: 100%;</p>
+<p>z-index: 10;</p>
+<p>}</p>
+<p>#lightbox-container-image-box > #lightbox-nav { left: 0; }</p>
+<p>#lightbox-nav a { outline: none;}</p>
+<p>#lightbox-nav-btnPrev, #lightbox-nav-btnNext {</p>
+<p>width: 49%;</p>
+<p>height: 100%;</p>
+<p>zoom: 1;</p>
+<p>display: block;</p>
+<p>}</p>
+<p>#lightbox-nav-btnPrev { left: 0; float: left;</p>
+<p>}</p>
+<p>#lightbox-nav-btnNext { right: 0; float: right;</p>
+<p>}</p>
+<p>#lightbox-container-image-data-box {</p>
+<p>font: 10px Verdana, Helvetica, sans-serif;</p>
+<p>background-color: #fff;</p>
+<p>margin: 0 auto;</p>
+<p>line-height: 1.4em;</p>
+<p>overflow: auto;</p>
+<p>width: 100%;</p>
+<p>padding: 0 10px 0;</p>
+<p>}</p>
+<p>#lightbox-container-image-data {</p>
+<p>padding: 0 10px; color: #666; }</p>
+<p>#lightbox-container-image-data #lightbox-image-details { width: 70%; float: left; text-align: left; }	#lightbox-image-details-caption { font-weight: bold; }</p>
+<p>#lightbox-image-details-currentNumber {</p>
+<p>display: block; clear: left; padding-bottom: 1.0em;	}	#lightbox-secNav-btnClose {</p>
+<p>width: 66px; float: right;</p>
+<p>padding-bottom: 0.7em;	}</p>
+<p>.breakingnewswidget{</p>
+<p>width:940px;</p>
+<p>margin:auto;</p>
+<p>}</p>
+<p>.signal{</p>
+<p>float:left;</p>
+<p>padding-right:10px;</p>
+<p>padding-top:5px;</p>
+<p>}</p>
+<p>.live_center{</p>
+<p>display:block;</p>
+<p>padding:10px;</p>
+<p>float:left;</p>
+<p>background:#182f4c;</p>
+<p>font-weight:bold;</p>
+<p>color:#fff;</p>
+<p>width:130px;</p>
+<p>border-bottom-left-radius:5px;</p>
+<p>-moz-border-radius-bottomleft:5px;</p>
+<p>}</p>
+<p>.story a{</p>
+<p>color: #fff;</p>
+<p>text-decoration: none;</p>
+<p>font-weight: bold;</p>
+<p>font-family: Georgia;</p>
+<p>font-size: 14px;</p>
+<p>padding-left:10px</p>
+<p>}</p>
+<p>#breakingnews_container{</p>
+<p>/*padding-top:14px;*/</p>
+<p>}</p>
+<p>.story{</p>
+<p>}</p>
+<p>.live_goal_wrapper {</p>
+<p>width: 960px;</p>
+<p>overflow: hidden;</p>
+<p>position: relative;</p>
+<p>height: 37px;</p>
+<p>}</p>
+<p>.homeScorer .home, .guestScorer .away{</p>
+<p>color:#FFCC00;</p>
+<p>}</p>
+<p>div.scrollWrapper {</p>
+<p>float: left;</p>
+<p>overflow: hidden;</p>
+<p>width: 724px;</p>
+<p>height: 41px;</p>
+<p>position: relative;</p>
+<p>background:transparent url(http://news247.gr/incoming/article1437716.ece/BINARY/original/fullbar1.png) no-repeat scroll top left;</p>
+<p>}</p>
+<p>div.scrollableArea {</p>
+<p>height: 100%;</p>
+<p>width: 3000em;</p>
+<p>position: absolute;</p>
+<p>padding:3px 3px 3px 3px;</p>
+<p>}</p>
+<p>.scrollableArea .story {</p>
+<p>position: relative;</p>
+<p>display: block;</p>
+<p>float: left;</p>
+<p>width:724px;</p>
+<p>padding: 7px;</p>
+<p>margin: 0;</p>
+<p>color:#fff;</p>
+<p>}</p>
+<p>.loading{</p>
+<p>background: transparent url(http://static.24media.gr/temp/sport24/img/loading.gif) center center no-repeat;</p>
+<p>}</p>
+<p>.edge-right a, .edge-left a{</p>
+<p>width: 26px;</p>
+<p>height: 24px;</p>
+<p>display: block;</p>
+<p>padding: 9px;</p>
+<p>}</p>
+<p>.edge-left a{</p>
+<p>background:transparent url(http://news247.gr/incoming/article1437659.ece/BINARY/original/prev_btn.png) 0px 0px no-repeat;</p>
+<p>}</p>
+<p>.edge-left a:hover{</p>
+<p>text-decoration:none;</p>
+<p>background:transparent url(http://news247.gr/incoming/article1437660.ece/BINARY/original/prev_btn_hov.png) 0px 0px no-repeat;</p>
+<p>}</p>
+<p>.edge-left a.disabled{</p>
+<p>background:transparent url(http://news247.gr/incoming/article1437659.ece/BINARY/original/prev_btn.png) 0px 0px no-repeat;</p>
+<p>cursor: default;</p>
+<p>}</p>
+<p>.edge-right a{</p>
+<p>background:transparent url(http://news247.gr/incoming/article1437653.ece/BINARY/original/next_btn.png) 0px 0px no-repeat;</p>
+<p>}</p>
+<p>.edge-right a:hover{</p>
+<p>text-decoration:none;</p>
+<p>background:transparent url(http://news247.gr/incoming/article1437654.ece/BINARY/original/next_btn_hov.png) 0px 0px no-repeat;</p>
+<p>}</p>
+<p>.edge-right a.disabled{</p>
+<p>background:transparent url(http://news247.gr/incoming/article1437653.ece/BINARY/original/next_btn.png) 0px 0px no-repeat;</p>
+<p>cursor: default;</p>
+<p>}</p>
+<p>.edge-right{</p>
+<p>float: left;</p>
+<p>display: block;</p>
+<p>width: 65px;</p>
+<p>height: 37px;</p>
+<p>padding-left:10px;</p>
+<p>background: transparent;</p>
+<p>}</p>
+<p>.edge-left{</p>
+<p>float: left;</p>
+<p>display: block;</p>
+<p>width: 35px;</p>
+<p>height: 37px;</p>
+<p>padding-left: 7px;</p>
+<p>background: transparent;</p>
+<p>}</p>
+<p>/*</p>
+<p>Google ad</p>
+<p>*/</p>
+<p>#adsense{border-top:1px solid #e5e5e5;}</p>
+<p>.jsk-CommentFormSurface { clear:both; }</p>
+<p>.adsense-table { border:none !important; font:12px/1.25em Arial,sans-serif !important; width:100% !important; }</p>
+<p>.feedback-label { padding:0px 0px 5px 15px !important; background:none !important; }</p>
+<p>.feedback-label a { float:right !important; padding:0px 0px 10px 0px; color:#ccc !important; }</p>
+<p>.adsense-ad-row { border-bottom: 1px dotted; margin: 5px 0px; padding-bottom: 7px; border-bottom:1px solid #E5E5E5 !important; }</p>
+<p>.adsense-ad-row:last-child { border: medium none; padding-bottom: 0; }</p>
+<p>.adsense-ad-row .adsense-ad-title {font-size:12px;font-family:Georgia,Serif;color:#222222 !important; font-size:13px !important; line-height: 1.16em !important; text-decoration:none !important; }</p>
+<p>.adsense-ad-title:hover { color:#222222 !important; text-decoration:underline !important; }</p>
+<p>.adsense-ad-description { padding:5px 0px !important; color:#000 !important; }</p>
+<p>.adsense-ad-url { color:#CC0000 !important; font-size:12px !important; line-height: 1.50em !important; text-decoration:underline !important; font-weight:bold !important; }</p>
+<p>.adsense-ad-url:hover { color:#CC0000 !important; font-size:12px !important; line-height: 1.50em !important;}</p>
+<p>.liveblogging .body{</p>
+<p>padding-bottom:10px;</p>
+<p>}</p>
+<p>.liveblogging .prologue p{</p>
+<p>height:0px;</p>
+<p>}</p>
+<p>.liveblogging .body p{</p>
+<p>padding-bottom:10px;</p>
+<p>}</p>
+<p>.liveblogging .body h2 {</p>
+<p>padding-left: 65px;</p>
+<p>background: transparent url("http://static.24media.gr/news247-essentials/icons/mic.png?t1") left top no-repeat;</p>
+<p>font: normal 13px/18px Arial,sans-serif;</p>
+<p>color: #555;</p>
+<p>min-height:45px;</p>
+<p>padding-bottom: 10px;</p>
+<p>}</p>
+<p>.liveblogging .body h3 {</p>
+<p>padding-left: 65px;</p>
+<p>background: transparent url(http://static.24media.gr/news247-essentials/icons/twitter.png) left top no-repeat;</p>
+<p>font: normal 13px/18px Arial,sans-serif;</p>
+<p>color: #555;</p>
+<p>min-height:45px;</p>
+<p>padding-bottom: 10px;</p>
+<p>}</p>
+<p>.liveblogging .body h4 {</p>
+<p>padding-left: 65px;</p>
+<p>background: transparent url(http://static.24media.gr/news247-essentials/icons/europe.png) left top no-repeat;</p>
+<p>font: normal 13px/18px Arial,sans-serif;</p>
+<p>color: #555;</p>
+<p>min-height:45px;</p>
+<p>padding-bottom: 10px;</p>
+<p>}</p>
+<p>.liveblogging .body h5 {</p>
+<p>padding-left: 65px;</p>
+<p>background: transparent url(http://static.24media.gr/news247-essentials/icons/greece.png) left top no-repeat;</p>
+<p>font: normal 13px/18px Arial,sans-serif;</p>
+<p>color: #555;</p>
+<p>min-height:45px;</p>
+<p>padding-bottom: 10px;</p>
+<p>}</p>
+<p>.liveblogging .body h6 {</p>
+<p>padding-left: 65px;</p>
+<p>background: transparent url(http://static.24media.gr/news247-essentials/icons/quote.png) left top no-repeat;</p>
+<p>font: normal 13px/18px Arial,sans-serif;</p>
+<p>color: #555;</p>
+<p>min-height:45px;</p>
+<p>padding-bottom: 10px;</p>
+<p>}</p>
+<p>.liveblogging .body strong {</p>
+<p>font-size:14px;</p>
+<p>}</p>
+<p>#liveBloggingInfo {</p>
+<p>background-color: #eee;</p>
+<p>border: 1px solid #ccc;</p>
+<p>color: #404040;</p>
+<p>font-size: 12px;</p>
+<p>font-weight: bold;</p>
+<p>margin-bottom: 10px;</p>
+<p>padding: 3px;</p>
+<p>font-family: arial,helvetica,sans-serif;</p>
+<p>}</p>
+<p>#liveBloggingInfo .enabled{color:#c00;}</p>
+<p>#liveBloggingInfo .disabled{color:#ccc;}</p>
+<p>#liveBloggingOn {margin-right: 5px;}</p>
+<p>if (!(top === self)) { top.location = self.location.href;</p>
+<p>} </p>
+<p>.echo-button .ui-state-default {</p>
+<p>background: none repeat scroll 0 0 #FFFFFF;</p>
+<p>border: 1px solid #C00;</p>
+<p>color: #C00;</p>
+<p>} .echo-submit-border {</p>
+<p>border: 3px solid #D2D2D2;</p>
+<p>border-radius: 0.5em 0.5em 0.5em 0.5em;</p>
+<p>}</p>
+<p>.echo-submit-content {</p>
+<p>background-color: #F4F4F4;</p>
+<p>padding: 5px 5px 5px 6px;</p>
+<p>}</p>
+<p>.echo-linkColor, .echo-linkColor a {</p>
+<p>color: #C00;</p>
+<p>}</p>
+<p>.echo-secondaryColor {</p>
+<p>color: #999999;</p>
+<p>}</p>
+<p>.echo-item-content {</p>
+<p>border-bottom: 1px dotted #CCCCCC;</p>
+<p>word-wrap: break-word;</p>
+<p>}</p>
+<p>#counter_container{</p>
+<p>font-weight:bold;</p>
+<p>color:#999;</p>
+<p>}</p>
+<p>.echo-stream-state {</p>
+<p>float: left;</p>
+<p>margin-left:-20px;</p>
+<p>}</p>
+<p>  loading...</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.24media.gr/gbanner/?"+now+"|75/1x1"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>$(document).ready(function(){</p>
+<p>$()</p>
+<p>$('#showMoreLinks').mouseover(function(){</p>
+<p>//test</p>
+<p>var left;</p>
+<p>var top;</p>
+<p>top=$('#showMoreLinks').offset().top+20;</p>
+<p>left=$('#showMoreLinks').offset().left-120;</p>
+<p>$('.moreLinks').remove();</p>
+<p>$('body').append('<div class="moreLinks" style="z-index:1000;position:absolute;top:'+top+'px;left:'+left+'px;width:320px;height:125px;border:1px solid #333333;background-color:#FFFFFF;"><img style="z-index:1000;position:absolute;left:145px;bottom:125px;" src="http://news247.gr/skins/escenic-times/img/moreLinksArrow.png" alt="arrow"/><div style="padding:8px;"><h2 style="font-family:Trebuchet MS;color:#333333;font-weight:bold;padding-bottom:7px;font-size:13px;border-bottom:1px dotted #000000;">Προτεινόμενα sites για ανάγνωση</h2></div><ul style="float:left;padding-left:8px;padding-right:14px;font-size:11px;"><li><a target="blank" href="http://www.sport24.gr">SPORT 24</a></li><li><a target="blank" href="http://www.men24.gr/">MEN 24</a></li><li><a target="blank" href="http://auto24.gr">AUTO 24</a></li><li><a target="blank" href="http://game24.gr">GAME 24</a></li></ul><ul style="float:left;padding:0px 14px 14px 14px;font-size:11px;"><li><a target="blank" href="http://www.betscores.com/">SCORES 24</a></li><li><a target="blank" href="http://www.iphonehellas.gr/">iPhoneHellas</a></li><li><a target="blank" href="http://www.techgear.gr/">Techgear.gr</a></li></ul><ul style="float:left;padding:0px 14px 14px 14px;font-size:11px;"><li><a target="blank" href="http://www.myspace.com">MySpace</a></li><li><a target="blank" href="http://www.dailymotion.com">DailyMotion</a></li><li><a target="blank" href="http://dpgr.gr">DPGR</a></li></ul></div>');</p>
+<p>$('div.moreLinks ul li a').css('color', '#066dbc');</p>
+<p>// /test</p>
+<p>});</p>
+<p>$('#page').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('div.ad').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('#logo').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('#SimpleSearchForm').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('div.main_menu_wrap').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>});</p>
+<p>Διαβάστε επίσης:</p>
+<p>SPORT 24,</p>
+<p>MEN 24</p>
+<p>iPhoneHellas,</p>
+<p>και</p>
+<p>περισσότερα</p>
+<p> </p>
+<p>Σάββατο 14,Ιανουάριος 2012</p>
+<p> </p>
+<p>Μάρτης γδάρτης...</p>
+<p>News247.gr</p>
+<p>Ελλάδα</p>
+<p>Κόσμος</p>
+<p>Οικονομία</p>
+<p>Magazine</p>
+<p>Διασκέδαση</p>
+<p>Multimedia</p>
+<p>Πρωτοσέλιδα</p>
+<p>Παράξενα</p>
+<p> if(location.href=='http://news247.gr/kosmos/science/'){</p>
+<p>location.href='http://news247.gr/health/epistimi/';</p>
+<p>}</p>
+<p>Αφιερώματα</p>
+<p>Celebrities</p>
+<p>Τεχνολογία</p>
+<p>Media & Internet</p>
+<p>Επιστήμη</p>
+<p>Περιβάλλον</p>
+<p>Υγεία</p>
+<p>Σεξ και Σχέσεις</p>
+<p>Ροή Ειδήσεων</p>
+<p>Δημοφιλή</p>
+<p>RSS</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.24media.gr/gbanner/?"+now+"|71/728x90"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>News247.gr</p>
+<p> </p>
+<p>Magazine</p>
+<p> </p>
+<p>Υγεία</p>
+<p>Ελλάδα: "Ο μεγάλος ασθενής της Ευρώπης"</p>
+<p>Με τις ζωές ανθρώπων μπορεί να πληρώσει η Ελλάδα, την προσπάθεια διάσωσης της οικονομίας της, σύμφωνα με το BBC. Οι περικοπές στην υγεία, η επανεμφάνιση της ηπατίτιδας και η συγκλονιστική ιστορία μιας γυναίκας που είδε μέσα σε ένα χρόνο τη ζωή της να καταστρέφεται</p>
+<p>0 σχόλια</p>
+<p> | Σχολιάστε</p>
+<p>Tweet</p>
+<p>Δημοσιεύτηκε: Δεκέμβριος 20 2011 20:01</p>
+<p>Ενημερώθηκε: Δεκέμβριος 20 2011 21:08</p>
+<p>Τους κινδύνους που αντιμετωπίζουν χιλιάδες πολίτες στην Ελλάδα, λόγω της τραγικής οικονομικής κατάστασης της χώρας και των περικοπών στον τομέα της υγείας, επισημαίνει το BBC.</p>
+<p>Σε άρθρο με τίτλο "Ευρωπαϊκή κρίση: Γιατί η Ελλάδα είναι ο ασθενής της Ευρώπης", γίνεται αναφορά σε Έλληνες πολίτες, οι οποίοι βρέθηκαν από τη μια μέρα στην άλλη χρεωμένοι, χωρίς δουλειά και χωρίς τη δυνατότητα πρόσβασης σε γιατρούς και νοσοκομεία.Χαρακτηριστική περίπτωση η συγκλονιστική ιστορία της Μαρίνα Δ., από τη Σάμου, της οποίας η επιχείρηση έκλεισε το 2009, καθώς δεν μπορούσε να αντεπεξέλθει στα δάνεια που είχε πάρει από τις τράπεζες, ενώ όσα χρήματα είχε μαζέψει (30.000 ευρώ) τα ξόδεψε σε δικηγόρους.Όπως αναφέρει το BBC, η πίεση των παραπάνω της προκάλεσαν εγκεφαλικό, με αποτέλεσμα να καταλήξει σε αναπηρικό καροτσάκι, ενώ ένα χρόνο μετά διαγνώστηκε με καρκίνο, ενώ σήμερα η θεραπεία της διακόπηκε, καθώς δεν έχει καταφέρει να πληρώσει την ασφάλειά της.Για τους ίδιους λόγους, διακόπηκε και η θεραπεία αποκατάστασης, για το εγκεφαλικό, κάτι που προκάλεσε την παρέμβαση των κοινωνικών υπηρεσιών, που την έστειλαν σε κλινική στην Αθήνα."Ποτέ δεν φανταζόμουν ότι θα κατέληγα έτσι. Αξίζω να πεθάνω, λόγω της οικονομικής καταστροφής της χώρας μου και της αποτυχίας του Εθνικού Συστήματος Υγείας" αναρωτιέται με πικρία.Διαρκής επιδείνωσηΣύμφωνα με το άρθρο, αυτά τα ερωτήματα είναι πλέον καθημερινά στην Ελλάδα, λόγω των μεγάλων περικοπών στους μισθούς, τις συντάξεις, αλλά και τις κοινωνικές δαπάνες."Όταν τα οικονομικά μιας χώρας είναι καλά, η υγεία είναι η πρώτη προτεραιότητα. Σε περίοδο κρίσης όμως, οι άνθρωποι αποφεύγουν τους γιατρούς" αναφέρει ο παιδίατρος και πρόεδρος των Γιατρών του Κόσμου, Ν. Κανάκης.Τα στοιχεία που επικαλείται το BBC, ενισχύουν τον παραπάνω ισχυρισμό,καθώς το 15% των Ελλήνων είναι πιο απίθανο να αναζητήσουν ιατρικές υπηρεσίες, από το ξέσπασμα της κρίσης και μετά.Σύμφωνα με το άρθρο, πριν 10 χρόνια, ο Παγκόσμιος Οργανισμός Υγείας κατέτασσε την Ελλάδα στην 14η θέση σχετικά με τις υπηρεσίες υγείας, πιο ψηλά από τη Γερμανία και την Μεγάλη Βρετανία.Όπως αναφέρει το BBC, η οικονομική κρίση, αλλά και τα συμφέροντα ιδιωτικών κλινικών έχουν αντιστρέψει δραματικά την κατάσταση.Το ψυχολογικό πρόβλημα και οι λύσεις ανάγκηςΣύμφωνα με τον αξιωματούχο του υπουργείου Υγείας Ε. Καρδάρα, η κυβέρνηση έχει λάβει μέτρα για να μην μείνουν χωρίς ασφάλιση οι άνεργοι, ωστόσο πολλοί αποφεύγουν ακόμα και να συμπληρώσουν την αίτηση."Το πρόβλημα είναι ψυχολογικό. Οι Έλληνες είναι πολύ περήφανοι και αρκετοί από αυτούς δεν συμπλήρωσαν καν τις αιτήσεις, πολλοί από ντροπή και αρκετοί από άγνοια", προσθέτει ο κ. Καρδάρας.Στο άρθρο γίνεται ακόμα εκτενής αναφορά στην χαοτική κατάσταση των ελληνικών νοσοκομείων και τους μεγάλους χρόνους αναμονής, που έχουν οδηγήσει πολίτες να ψάχνουν λύση στις "κλινικές του δρόμου", που στήνουν οργανώσεις όπως οι Γιατροί του Κόσμου.</p>
+<p> Από το ξέσπασμα της κρίσης και μετά, ο αριθμός των Ελλήνων που απευθύνονται σε αυτές τις κλινικές έχει τετραπλασιαστεί στην Αθήνα και μάλιστα ξεπερνά αυτόν των φτωχών μεταναστών."Είναι θέμα χρόνου να ξεσπάσει κοινωνική κρίση, αν δεν έχει ξεσπάσει ήδη", εκτιμά ο κ. Κανάκης και προσθέτει ότι η προσοχή όλων είναι στην οικονομία, την ώρα που η Υγεία καταρρέει.Επανεμφάνιση μεταδοτικών ασθενειώνΤο BBC αντιμετωπίζει ως σύμπτωμα της κρίσης στην Ελλάδα την επανεμφάνιση ασθενειών, όπως η Μαλάρια και η ηπατίτιδα, αλλά και η ανησυχητική αύξηση των κρουσμάτων του HIV.Πολλοί σπεύδουν να αποδώσουν την αύξηση στους χρήστες ναρκωτικών, ωστόσο αυτό δεν ισχύει απόλυτα.Σύμφωνα με την πρόεδρο της ένωσης ιερόδουλων Ελλάδος, "πολλά αγόρια και κορίτσια στρέφονται στην πορνεία λόγω κρίσης, χωρίς εξετάσεις και χωρίς προφυλάξεις."Αυτό που ήταν απαραίτητο μέχρι σήμερα -η χρήση προφυλακτικού- σήμερα θεωρείται περιττό" δηλώνει χαρακτηριστικό.Το αφιέρωμα του BBC στον "μεγάλο ασθενή της Ευρώπης" κλείνει με μια αμφιβολία. Μπορεί άραγε η Ελλάδα να εφαρμόσει το πρόγραμμα περικοπών χωρίς να επιδεινωθεί ραγδαία η υγεία των Ελλήνων;"Κανείς δεν μπορεί να προβλέψει ποιες θα είναι οι συνέπειες. Το μόνο βέβαιο είναι ότι πάνω από το 20% του λαού θα ζήσει σε συνθήκες φτώχειας τα επόμενα χρόνια και το κακό που θεωρήσαμε ως παροδικό, θα έχει μεγάλη διάρκεια" δηλώνει ο Ν. Κανάκης εκφράζοντας την απαισιοδοξία του για το μέλλον.       </p>
+<p>//ADD VALUES HERE FOR AD CUSTOMIZATION</p>
+<p>var adsense_client = "ca-pub-1808872088436564";</p>
+<p>var adsense_channel = "1740357683";</p>
+<p>var adsense_max_num_ads = 2;</p>
+<p>var placement_width= "600";</p>
+<p>function google_ad_request_done(google_ads){</p>
+<p>var s = '';</p>
+<p>var i;</p>
+<p>s+='<table class="adsense-table" align="left" width="'+placement_width+'px" cellpadding="6px"><tr><td>';</p>
+<p>if (google_ads.length >= 1){ for(i = 0; i < google_ads.length; ++i){</p>
+<p>s+= "<div class='adsense-ad-row'>";</p>
+<p>s+='<a target="_blank" class="adsense-ad-title" href="' +</p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true"> <b>' +</p>
+<p>google_ads[i].line1 + '</b></a> <div class="adsense-ad-description">' +</p>
+<p>google_ads[i].line2 + '&nbsp;' +</p>
+<p>google_ads[i].line3 + '</div> <a class="adsense-ad-url" target="_blank" href="' +</p>
+<p>google_ads[i].url + '" onmouseout="window.status=\'\'" onmouseover="window.status=\'go to ' +</p>
+<p>google_ads[i].visible_url + '\';return true">' +</p>
+<p>google_ads[i].visible_url + '</a></div>'; }</p>
+<p>}</p>
+<p>s += '<div class="feedback-label"><a href=\"' + google_info.feedback_url + '\" > Προβεβλημένες καταχωρήσεις </a></div>';</p>
+<p>s+='</td></tr></table>';</p>
+<p>document.write(s);</p>
+<p>return; }</p>
+<p>google_ad_client = adsense_client;</p>
+<p>google_ad_channel = adsense_channel;</p>
+<p>google_ad_output = "js";</p>
+<p>google_max_num_ads = adsense_max_num_ads;</p>
+<p>google_ad_type = 'text';</p>
+<p>google_language ='el'</p>
+<p> </p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.24media.gr/gbanner/?"+now+"|212/135x200"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p> $(document).ready(function() {</p>
+<p>var lb='div.storyContent div.body p';</p>
+<p>$("img[id$=btnIncrease]").click(function() {</p>
+<p>var size = $(lb).css("font-size");</p>
+<p>var newSize = parseInt(size.replace(/px/, "")) + 2;</p>
+<p>$(lb).css("font-size", newSize + "px");</p>
+<p>});</p>
+<p>$("img[id$=btnDecrease]").click(function() {</p>
+<p>var size = $(lb).css("font-size");</p>
+<p>var newSize = parseInt(size.replace(/px/, "")) - 2;</p>
+<p>$(lb).css("font-size", newSize + "px");</p>
+<p>});</p>
+<p>});</p>
+<p>Text</p>
+<p>Email</p>
+<p>Print</p>
+<p>Ελλάδα: "Ο μεγάλος ασθενής της Ευρώπης"</p>
+<p>Προς (Συμπλήρωσε το e-mail του φίλου σου) </p>
+<p>Από (Συμπλήρωσε το δικό σου e-mail) </p>
+<p>Κείμενο</p>
+<p>"/></p>
+<p>loading...</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.24media.gr/gbanner/?"+now+"|159/336x280"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>ΣΧΟΛΙΑΣΤΕ:</p>
+<p> σχόλια</p>
+<p>function buildCommentID(){</p>
+<p>var cid = window.location.href.match(/(\d*).html/)[1];</p>
+<p>if(!cid){</p>
+<p>return window.location.href;</p>
+<p>}</p>
+<p>return cid;</p>
+<p>}</p>
+<p> </p>
+<p>Backplane.init({</p>
+<p>"serverBaseURL" : "http://api.js-kit.com/v1",</p>
+<p>"busName": "24media"</p>
+<p>});</p>
+<p>var identityManager = {</p>
+<p>"url": "https://24media.rpxnow.com/openid/embed?flags=stay_in_window,no_immediate&token_url=http%3A%2F%2Fjs-kit.com%2Fapps%2Fjanrain%2Fwaiting.html&bp_channel=",</p>
+<p>"width": 420,</p>
+<p>"height": 260</p>
+<p>};</p>
+<p>new Echo.Submit({</p>
+<p>"target": document.getElementById("submit-form"),</p>
+<p>"appkey": "prod.24media",</p>
+<p>"actionString": "Γράψτε το σχόλιο σας εδώ...",</p>
+<p>"targetURL": window.location.href.split('?')[0] ,</p>
+<p>"plugins": [{</p>
+<p>"name": "FormAuth",</p>
+<p>"identityManagerLogin": identityManager,</p>
+<p>"identityManagerSignup": identityManager,</p>
+<p>"identityManagerEdit": identityManager,</p>
+<p>"submitPermissions": "forceLogin"</p>
+<p>}]</p>
+<p>});</p>
+<p>new Echo.Counter({</p>
+<p>"target": document.getElementById("new_echo_counter"),</p>
+<p>"appkey": "prod.24media",</p>
+<p>"query": "childrenof:" + window.location.href.split('?')[0] +"((state:ModeratorApproved AND type:comment) OR (state:Untouched AND type:note))" });</p>
+<p>var target = document.getElementById("echo-stream");</p>
+<p>new Echo.Stream({</p>
+<p>"target": target,</p>
+<p>"appkey": "prod.24media",</p>
+<p>"query": "childrenof:" + window.location.href.split('?')[0] +" ((state:ModeratorApproved AND type:comment) OR (state:Untouched AND type:note))" ,</p>
+<p>"plugins": [{</p>
+<p>"name": "Reply",</p>
+<p>"actionString": "Απάντησε...",</p>
+<p>"nestedPlugins": [{</p>
+<p>"name": "FormAuth",</p>
+<p>"identityManagerLogin": identityManager,</p>
+<p>"identityManagerSignup": identityManager,</p>
+<p>"identityManagerEdit": identityManager,</p>
+<p>"submitPermissions": "forceLogin"</p>
+<p>}]}, {</p>
+<p>"name": "Like"</p>
+<p>}, {</p>
+<p>"name": "Curation"</p>
+<p>}, {</p>
+<p>"name": "Whirlpools",</p>
+<p>"after": 0</p>
+<p>}, {"name": "UserPrivileges"</p>
+<p>}],</p>
+<p>"viaLabel": {</p>
+<p>"icon": false,</p>
+<p>"text": false</p>
+<p>},</p>
+<p>"liveUpdatesTimeout": 3,</p>
+<p>"reTag": false,</p>
+<p>"optimizedContext": false,</p>
+<p>"openLinksInNewWindow": true</p>
+<p>});</p>
+<p>Ακολούθησε το NEWS 247 στο Facebook</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.24media.gr/gbanner/?"+now+"|73/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>Ακολούθησε το NEWS 247 στο Twitter</p>
+<p>Follow @news247gr</p>
+<p> </p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://ads.24media.gr/gbanner/?"+now+"|175/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>Τα πιο δημοφιλή άρθρα στο Facebook</p>
+<p>Τα "αφεντικά" που δεν θα ήθελες ποτέ να έχεις... </p>
+<p>0 σχόλια</p>
+<p>"Πρώτα θα σε βιάσω και μετά θα σε κλέψω"</p>
+<p>0 σχόλια</p>
+<p>Η μεγάλη της τέχνης... ψευδαίσθηση</p>
+<p>0 σχόλια</p>
+<p>Τρεις οι ύποπτοι για την κλοπή στην Εθνική Πινακοθήκη</p>
+<p>0 σχόλια</p>
+<p>Άστεγη διεκδικεί βραβείο της Intel με έπαθλο 100 χιλ. δολάρια</p>
+<p>0 σχόλια</p>
+<p>Πότε θα διαγράφονται οι αιώνιοι φοιτητές </p>
+<p>0 σχόλια</p>
+<p>Και οι Αλβανοί εγκαταλείπουν την Ελλάδα</p>
+<p>0 σχόλια</p>
+<p>Τώρα θα κλάψουν με μαύρο δάκρυ...</p>
+<p>0 σχόλια</p>
+<p>Η Ελλάδα θα γίνει Ζιμπάμπουε...</p>
+<p>0 σχόλια</p>
+<p>Εισβολή νεαρών σε μπαρ με βουλευτές </p>
+<p>0 σχόλια</p>
+<p>Μισθοί Ελλήνων vs Ευρωπαίων</p>
+<p>0 σχόλια</p>
+<p>Τι τρέχει με τους Έλληνες; </p>
+<p>0 σχόλια</p>
+<p>Βίντεο σοκ: Τους έβαλαν να χορέψουν για λίγο φαγητό</p>
+<p>0 σχόλια</p>
+<p>Το BBC έδειξε... πορνό σε παιδιά</p>
+<p>0 σχόλια</p>
+<p>Στρατιώτες ουρούσαν σε πτώματα </p>
+<p>0 σχόλια</p>
+<p>/*add seri sport24 link in header(more Links)*/</p>
+<p>$(document).ready(function(){</p>
+<p>$()</p>
+<p>$('#showMoreLinks').mouseover(function(){</p>
+<p>//test</p>
+<p>var left;</p>
+<p>var top;</p>
+<p>top=$('#showMoreLinks').offset().top+20;</p>
+<p>left=$('#showMoreLinks').offset().left-120;</p>
+<p>$('.moreLinks').remove();</p>
+<p>$('body').append('<div class="moreLinks" style="z-index:1000;position:absolute;top:'+top+'px;left:'+left+'px;width:320px;height:125px;border:1px solid #333333;background-color:#FFFFFF;"><img style="z-index:1000;position:absolute;left:145px;bottom:125px;" src="/skins/escenic-times/img/moreLinksArrow.png" alt="arrow"/><div style="padding:8px;"><h2 style="font-family:Trebuchet MS;color:#333333;font-weight:bold;padding-bottom:7px;font-size:13px;border-bottom:1px dotted #000000;">Προτεινόμενα sites για ανάγνωση</h2></div><ul style="float:left;padding-left:8px;padding-right:14px;font-size:11px;"><li><a target="blank" href="http://www.sport24.gr">SPORT 24</a></li><li><a target="blank" href="http://www.men24.gr/">MEN 24</a></li><li><a target="blank" href="http://auto24.gr">AUTO 24</a></li><li><a target="blank" href="http://game24.gr">GAME 24</a></li></ul><ul style="float:left;padding:0px 14px 14px 14px;font-size:11px;"><li><a target="blank" href="http://www.betscores.com/">SCORES 24</a></li><li><a target="blank" href="http://www.iphonehellas.gr/">iPhoneHellas</a></li><li><a target="blank" href="http://www.techgear.gr/">Techgear.gr</a></li><li><a target="blank" href="http://seri.sport24.gr/">seri Sport24</a></li></ul><ul style="float:left;padding:0px 14px 14px 14px;font-size:11px;"><li><a target="blank" href="http://www.myspace.com">MySpace</a></li><li><a target="blank" href="http://www.dailymotion.com">DailyMotion</a></li><li><a target="blank" href="http://dpgr.gr">DPGR</a></li></ul></div>');</p>
+<p>$('div.moreLinks ul li a').css('color', '#066dbc');</p>
+<p>// /test</p>
+<p>});</p>
+<p>$('#page').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('div.ad').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('#logo').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('#SimpleSearchForm').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>$('div.main_menu_wrap').mouseover(function(){$(".moreLinks").remove();});</p>
+<p>});</p>
+<p>function set_counter_echo_v2(){</p>
+<p>$('.comments').each(function(){</p>
+<p>new Echo.Counter({</p>
+<p>"target": $(this).children("span"),</p>
+<p>"appkey": "prod.24media",</p>
+<p>"liveUpdates": false,</p>
+<p>"query": "childrenof:" + $(this).attr('href')+" ((state:ModeratorApproved AND type:comment) OR (state:Untouched AND type:note))"</p>
+<p>});</p>
+<p>});</p>
+<p>}</p>
+<p>set_counter_echo_v2();</p>
+<p>$(document).ready(function() {</p>
+<p>$('div.twtr-hd').remove();</p>
+<p>$('.twtr-ft').remove();</p>
+<p>});</p>
+<p>function initEcho()</p>
+<p>{</p>
+<p>$('.articleSidebar a.comments span').each(function(){</p>
+<p>if($(this).html()==0){</p>
+<p>$(this).parent().attr('style','display:none;');</p>
+<p>}</p>
+<p>});</p>
+<p>$(".js-kit-comments-count").each(</p>
+<p>function(index,el)</p>
+<p>{</p>
+<p>if($(this).text()==0)</p>
+<p>{</p>
+<p>var art_id=$(this).attr("id");</p>
+<p>$(this).parent().hide();</p>
+<p>}</p>
+<p>});</p>
+<p>}</p>
+<p>window.onload=initEcho;</p>
+<p>Ελλάδα</p>
+<p>Πολιτική</p>
+<p>Τραγωδία στην Αθήνα</p>
+<p>Παιδεία</p>
+<p>Άμυνα</p>
+<p>Media</p>
+<p>Πρόσωπα</p>
+<p>Χρήσιμα</p>
+<p>Κόσμος</p>
+<p>Ειδήσεις</p>
+<p>Παράξενα</p>
+<p>Τεχνολογία</p>
+<p>Επιστήμη</p>
+<p>Ζωή</p>
+<p>Πρωτοσέλιδα</p>
+<p>Απογευματινές</p>
+<p>Πρωινές</p>
+<p>Οικονομικές</p>
+<p>Κυριακάτικες</p>
+<p>Εβδομαδιαίες</p>
+<p>Αθλητικές</p>
+<p>Στοιχηματικές</p>
+<p>Περιοδικά</p>
+<p>Περιφέρεια</p>
+<p>Free Press</p>
+<p>Εβδομαδιαία Περιοδικά</p>
+<p>Multimedia</p>
+<p>Videos</p>
+<p>Φωτορεπορτάζ</p>
+<p>Υγεία και ζωή</p>
+<p>Νέα</p>
+<p>Οι ειδικοί</p>
+<p>Διατροφή</p>
+<p>Σεξ και ζωή</p>
+<p>Έρευνα</p>
+<p>  </p>
+<p>Όροι Χρήσης</p>
+<p> |</p>
+<p>Επικοινωνία</p>
+<p> | </p>
+<p>Διαφήμιση</p>
+<p>Δίκτυο Συνεργατών:Poker</p>
+<p>var _vrq = _vrq || [];</p>
+<p>_vrq.push(['id', 56]);</p>
+<p>_vrq.push(['track', function(){}]);</p>
+<p>(function(d, a) {</p>
+<p>var s = d.createElement(a),</p>
+<p>x = d.getElementsByTagName(a)[0];</p>
+<p>s.async = true;</p>
+<p>s.src = 'http://a.visualrevenue.com/vrs.js';</p>
+<p>x.parentNode.insertBefore(s, x);</p>
+<p>})(document, 'script');</p>
+<p>var sppc_user = "36";</p>
+<p>var sppc_site = "83";</p>
+<p>var sppc_linkColor = "#CC0000";</p>
+<p>var sppc_stripColor = "";</p>
+<p>var sppc_adhereColor = "#000000";</p>
+<p>var first_url = escape("http://bubblebox.gr/app/intext.js?id_user="+sppc_user+"&id_site="+sppc_site+</p>
+<p>"&ident="+Math.round(Math.random() * 10000)+"&sr="+escape(document.referrer));</p>
+<p>document.write(unescape("%3Cscript src='" + first_url + "' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>//<![CDATA[</p>
+<p>var clientDT = new Date().getTime();</p>
+<p>document.write('<img style="display:none;" src="http://stats.24media.gr/eae-logger/Logger?rt=1&ctxId=2039&pubId=30&cat=&meta=read-news&objId=1545174&type=article&title=%ce%95%ce%bb%ce%bb%ce%ac%ce%b4%ce%b1%3a+%26%23034%3b%ce%9f+%ce%bc%ce%b5%ce%b3%ce%ac%ce%bb%ce%bf%cf%82+%ce%b1%cf%83%ce%b8%ce%b5%ce%bd%ce%ae%cf%82+%cf%84%ce%b7%cf%82+%ce%95%cf%85%cf%81%cf%8e%cf%80%ce%b7%cf%82%26%23034%3b&url=http%3a%2f%2fnews247.gr%2fhealth%2fygeia%2fellada_o_megalos_asthenhs_ths_eyrwphs.1545174.html&amp;clientDT=' + clientDT + '" alt="" width="1" height="1"/>');</p>
+<p>//]]></p>
+<p>var _rsCI = "gr-andstart";</p>
+<p>var _rsCG = "0";</p>
+<p>var _rsDN = "//secure-uk.imrworldwide.com/";</p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p>_uacct = "UA-482127-5";</p>
+<p>urchinTracker();</p>
+<p>var _sf_async_config={uid:3289,domain:"news247.gr"};</p>
+<p>(function(){</p>
+<p>function loadChartbeat() {</p>
+<p>window._sf_endpt=(new Date()).getTime();</p>
+<p>var e = document.createElement('script');</p>
+<p>e.setAttribute('language', 'javascript');</p>
+<p>e.setAttribute('type', 'text/javascript');</p>
+<p>e.setAttribute('src',</p>
+<p>(("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +</p>
+<p>"static.chartbeat.com/js/chartbeat.js");</p>
+<p>document.body.appendChild(e);</p>
+<p>}</p>
+<p>var oldonload = window.onload;</p>
+<p>window.onload = (typeof window.onload != 'function') ?</p>
+<p>loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>})();</p>

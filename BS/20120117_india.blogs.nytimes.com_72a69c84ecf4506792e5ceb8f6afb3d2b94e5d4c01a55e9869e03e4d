@@ -1,0 +1,86 @@
+<p> The Great Yoga Divide  - NYTimes.com// </p>
+<p>var nyt_google_hints = "India;The+New+York+Times;News;Culture;Economy;Life;Indian+Diaspora";</p>
+<p>var nyt_google_ad_channel = "bl_world";</p>
+<p>///*<![CDATA[*/// </p>
+<p>NYTShareAdScript = 'http://www.nytimes.com/adx/bin/adx_remote.html?' + 'type=fastscript&page=' + 'blog.nytimes.com' + '/' + 'india/post' + '&posall=Frame6A&query=qstring&keywords=?';</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>NYTD.Blogs.email_this=function(id,return_url){if(typeof NYTD.Blogs.user!="undefined"&&NYTD.Blogs.user.isLoggedIn()){s_code_linktrack("Article-Tool-Email");requestParams={fallBackUrl:window.location,hostName:"www.nytimes.com",baseUrl:return_url,formName:"emailThis_"+id};var validationObj=new NYTD.email.CookieValidation();validationObj.validate(requestParams)}else{document.location="http://www.nytimes.com/auth/login?URI="+return_url}};</p>
+<p>NYTD.Blogs.user = new NYTD.Blogs.User('','');</p>
+<p>///*]]>*/  </p>
+<p> /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Header1 != "undefined") && (typeof adxads[adxpos_Header1] != "undefined")){document.write(adxads[adxpos_Header1]);}</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Header2 != "undefined") && (typeof adxads[adxpos_Header2] != "undefined")){document.write(adxads[adxpos_Header2]);}</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Header3 != "undefined") && (typeof adxads[adxpos_Header3] != "undefined")){document.write(adxads[adxpos_Header3]);}</p>
+<p>///*]]>*/NYTD.Blogs.user.fillInMemberTools();Home PageToday's PaperVideoMost PopularTimes Topics/*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Middle1C != "undefined") && (typeof adxads[adxpos_Middle1C] != "undefined")){document.write(adxads[adxpos_Middle1C]);}</p>
+<p>///*]]>*/Search All NYTimes.comIndiaWorldAfricaAmericasAsia PacificEuropeMiddle EastU.S.N.Y. / RegionBusinessTechnologyScienceHealthSportsOpinionArtsStyleTravelJobsReal EstateAutosmodifyNavigationDisplay();/*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_TopAd != "undefined") && (typeof adxads[adxpos_TopAd] != "undefined")){document.write(adxads[adxpos_TopAd]);}</p>
+<p>///*]]>*/// </p>
+<p>if((adxads[adxpos_TopAd]).indexOf("blank.gif")!=-1){ $("TopAd").hide()};</p>
+<p>// January 17, 2012, 5:36 amThe Great Yoga Divide By HEATHER TIMMONSSondeep Shankar for The New York TimesParticipants perform laughing exercises during Baba Ramdev’s yoga training camp in New Delhi, in this October 09, 2004 file photograph. Over 10,000 people attended the camp.An article about the dangers of yoga that appeared in the Sunday magazine of The New York Times this month inspired an outpouring of criticism in the United States and Britain.In yoga’s birthplace of India, though, the article seemed to highlight the growing divisions between the ancient practice’s roots and the multi-billion dollar Western industry of classes, retreats and form-fitting clothes that has sprung up around yoga in recent years. In “How Yoga Can Wreck Your Body,” William J. Broad speaks with an upstate New York yoga teacher, Glenn Black, who advises that the “vast majority of people” should give up yoga because it could harm them. The story details serious injuries that have happened when yoga practitioners pushed themselves too far. “It’s controversial to say, but it really shouldn’t be used for a general class,” Mr. Black says.Rather than stirring controversy in India, the article was met with gentle mockery.In “Om My God, Who Wrecked Our Yoga,” Firstpost dubs the article a “bunch of anecdotes dressed up to sound like a contorted expose,” but says it does prove one thing: yoga may be India’s biggest export to the West, but as it is practiced in the United States now it is just a Western form of exercise.“There’s nothing very Indian about it,” Firstpost writes.People who practice yoga casually in India rarely view it as an endurance sport or a heart-rate accelerator. In most classes held in neighborhood parks or private gyms or by yoga gurus, the notion of competitive or aggressive yoga seems laughable. Sometimes laughing is actually part of the practice.Most casual yoga participants in India wear loose-fitting clothing that makes the West’s body-baring yoga gear seem slightly obscene, and they often practice a much gentler form of the classic yoga postures. In some places, participants think nothing about answering cell phones in the middle of postures, or taking a short break to chat with a friend.For more serious practitioners, India’s yoga ashrams, even those that welcome a growing crowd of foreign travelers, feature hours of meditation and service to others, vegetarianism and celibacy as much as they do exercise.“Yoga is not just about asanas, it is a union of the body, mind and soul,” Delhi yoga teacher Nivedita Joshi told Times Crest, a Times of India publication, in an article also refuting the idea yoga can be dangerous. “It’s not an exercise, it’s a way of life,” she said.            E-mailPrintRecommendShare CloseTumblrDiggLinkedinRedditPermalink Previous Post Hasina Kharbhih: Raising the Stakes Against Child Trafficking// </p>
+<p>jQuery(document).ready(function($) {</p>
+<p>       NYTD.commentsInstance = new EmbeddedComments($, 'NYTD.commentsInstance');</p>
+<p>       NYTD.commentsInstance.init({configName: 'default'});</p>
+<p>});</p>
+<p>// /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_SponLink2 != "undefined") && (typeof adxads[adxpos_SponLink2] != "undefined")){document.write(adxads[adxpos_SponLink2]);}</p>
+<p>///*]]>*/ /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Position1 != "undefined") && (typeof adxads[adxpos_Position1] != "undefined")){document.write(adxads[adxpos_Position1]);}</p>
+<p>///*]]>*/Search This Blog  Search Previous Post Hasina Kharbhih: Raising the Stakes Against Child TraffickingFollow This BlogTwitterRSSLatest News of IndiaFindings:</p>
+<p>Countering Climate Change Without Waiting for a PayoffGlobal Update:</p>
+<p>India: Full Year Without a Reported Case of PolioIndia's Education Dream Risks Remaining Just That /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_MiddleRight != "undefined") && (typeof adxads[adxpos_MiddleRight] != "undefined")){document.write(adxads[adxpos_MiddleRight]);}</p>
+<p>///*]]>*/India Ink on Twitter /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Spon3 != "undefined") && (typeof adxads[adxpos_Spon3] != "undefined")){document.write(adxads[adxpos_Spon3]);}</p>
+<p>///*]]>*/ Loading Twitter messages...// </p>
+<p>var twitterReaderVar={widget_id:"2",sidebar_id:"sidebar-2",widget_name:"nyt-twitter",avatar:"show"};if(typeof twitterReader=="undefined"){twitterReader=new Array()}twitterReader.push(twitterReaderVar);</p>
+<p>//Special Seriesvar _obj = new NYTMM.FadingSlideShow($("NYTMM_Embed852"),190,126,chameleonData); _obj.setPhotoData(chameleonData.photos);From the rise of a new private sector–and the billionaires that sustain and exploit it–to the beginning of a vast national identity database, articles in this series examine the messy and maddening road to progress in India.Previous Articles in the Series »About India InkThis report on India from the journalists of The New York Times and a pool of talented writers in India and beyond provides unbiased, authoritative reporting on the country and its place in the world. India Ink also strives to be a virtual meeting point for discussion of this complex, fast-changing democracy – its politics, economy, culture and everyday life.More about the blog »E-mail the editors »Our writers »Follow us on Twitter »Archive Select Month January 2012 December 2011 November 2011 October 2011 September 2011 Recent PostsJanuary 17 The Great Yoga Divide A recent controversy highlights how far Western yoga has moved from its traditional roots.January 17 Hasina Kharbhih: Raising the Stakes Against Child Trafficking The activist harnesses government agencies and organizations to combat child trafficking in northeast India.January 16 A Climate Change Idea That Might Work Focus on short-term, tangible solutions could help poorer nations.January 16 Image of the Day: January 16 Inflation in India may be slowing.January 16 A Conversation With: Shoma Chaudhury India's premier investigative magazine grows up.Global Business NewsEuro Woes Could Revive Bout of Market Volatility January 17, 2012, 11:28 amGlobal Stocks Rally on Positive Economic News January 17, 2012, 11:27 amHungary, Once a Star, Loses Its Shine January 17, 2012, 7:40 amChinese Economic Growth Slipped Again in 4th Quarter January 17, 2012, 11:29 amDealBook: Japanese Firms to Pay $7.3 Billion for R.B.S. Aircraft Leasing Unit January 17, 2012, 11:47 amRead all Global Business News »NYTimes OpinionFriedmanKrugmanKristofCohenGetting to Know You ... As a new government takes shape, Egyptians are finding their voices again and rediscovering their neighbors.Political Islam Without Oil Egyptian Islamists, the newly elected majority in government, have some big decisions to make. It’s going to be fascinating to watch this play out.Watching Elephants Fly When something extraordinary happens, like the uprising and subsequent truly free elections in Egypt, you just shut up and take notes.How Fares the Dream? Martin Luther King would see a nation that judges people by the size of their paychecks.America Isn’t a Corporation What’s with the notion that this country needs a successful businessman as president? Making good economic policy isn’t at all like maximizing corporate profits.America’s Unlevel Field So where is that evidence that Mitt Romney or his party cares at all about equality of opportunity?Why Is Europe a Dirty Word? Republican accusations that President Obama is a quasi-European reflect a caricature of Europe that is flat wrong. Oh, and pass a croissant.The Value of Teachers A new study suggests a great teacher is worth hundreds of thousands of dollars in increased earning power to students. It’s time to overhaul our education policy.A Poverty Solution That Starts With a Hug The American Academy of Pediatrics is warning that a harsh early environment can lay the groundwork for lifelong achievement gaps, health problems and poverty.Don’t Do It, Bibi Temptation rises for Israel to make a terrible mistake.America Abroad Smarter U.S. power could still confound the “declinists.”A Time to Tune Out Addiction to the hand-held device is a modern curse.NYTD.TabSet("tabWidget-3"); /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Box3 != "undefined") && (typeof adxads[adxpos_Box3] != "undefined")){document.write(adxads[adxpos_Box3]);}</p>
+<p>///*]]>*/ /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Box1 != "undefined") && (typeof adxads[adxpos_Box1] != "undefined")){document.write(adxads[adxpos_Box1]);}</p>
+<p>///*]]>*/ /*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_SponLink != "undefined") && (typeof adxads[adxpos_SponLink] != "undefined")){document.write(adxads[adxpos_SponLink]);}</p>
+<p>///*]]>*/HomeWorldU.S.N.Y. / RegionBusinessTechnologyScienceHealthSportsOpinionArtsStyleTravelJobsReal EstateAutosSite Map© 2012 The New York Times CompanyPrivacyYour Ad ChoicesTerms of ServiceTerms of SaleCorrectionsRSSHelpContact UsWork for UsAdvertise // </p>
+<p>var crnr_version = 'V3';</p>
+<p>var blogPostCommentCountObject = jQuery.parseJSON('{"http:\/\/india.blogs.nytimes.com\/2012\/01\/17\/the-great-yoga-divide\/":{"commentCount":"","addCssClass":"hidden"},"http:\/\/india.blogs.nytimes.com\/2012\/01\/17\/hasina-kharbhih-raising-the-stakes-against-child-trafficking\/":{"commentCount":"","addCssClass":"hidden"},"http:\/\/india.blogs.nytimes.com\/2012\/01\/16\/a-climate-change-idea-that-might-work\/":{"commentCount":1,"addCssClass":""},"http:\/\/india.blogs.nytimes.com\/2012\/01\/16\/image-of-the-day-january-16\/":{"commentCount":"","addCssClass":"hidden"},"http:\/\/india.blogs.nytimes.com\/2012\/01\/16\/a-conversation-with-shoma-chaudhury\/":{"commentCount":9,"addCssClass":""}}');</p>
+<p>jQuery.each(blogPostCommentCountObject, function(blogPostURL, commentCountText) {</p>
+<p>	var commentPageLink = blogPostURL;</p>
+<p>	var commentCount = parseInt(commentCountText.commentCount, 10) || 0;</p>
+<p>	if (commentCount === 0) { //no comments</p>
+<p>		commentCountText.commentCount = 'Add a comment';</p>
+<p>		jQuery("a.post-comment[href='" + commentPageLink + "']").not(".no-comment-prompt").html(commentCountText.commentCount).removeClass("hidden").attr("href", commentPageLink + "#postComment"); //prompt to post</p>
+<p>		jQuery("a.post-comment[href='" + commentPageLink + "'].no-comment-prompt").parent(".comment-link").remove(); //remove parent .comment-link if it exists</p>
+<p>	}</p>
+<p>	else { //some comments</p>
+<p>		if (commentCount === 1) { //one comment</p>
+<p>			commentCountText.commentCount = '1 Comment';</p>
+<p>		}</p>
+<p>		else { //more than one comment</p>
+<p>			commentCountText.commentCount = commentCountText.commentCount + ' Comments';</p>
+<p>		}</p>
+<p>		jQuery("a.post-comment.comment-number-only[href='" + commentPageLink + "']").html(commentCount).removeClass("hidden").attr("href", commentPageLink + "#postComment"); //number only</p>
+<p>		jQuery("a.post-comment[href='" + commentPageLink + "']").not(".comment-number-only").html(commentCountText.commentCount).removeClass("hidden").attr("href", commentPageLink + "#postComment"); //verbose</p>
+<p>	}</p>
+<p>});</p>
+<p>//// </p>
+<p>if(typeof NYTD.Blogs.user!="undefined"){if(NYTD.Blogs.user.isLoggedIn()){var dcsvid=NYTD.Blogs.user.getId();var regstatus="registered"}else{var dcsvid="";var regstatus="non-registered"}};</p>
+<p>//  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));var pageTracker = _gat._getTracker("UA-4406282-116");</p>
+<p>pageTracker._initData();</p>
+<p>pageTracker._trackPageview();</p>
+<p>/*<![CDATA[*/document.write('<img class="uptCall" height="1" width="3" border="0" src="http://up.nytimes.com/?d=0//&t=15&s=1&ui=&r=' + encodeURIComponent(document.referrer) + '&u=' + encodeURIComponent(document.location) + '">');/*]]>*/</p>
+<p>/*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Inv1 != "undefined") && (typeof adxads[adxpos_Inv1] != "undefined")){document.write(adxads[adxpos_Inv1]);}</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Inv2 != "undefined") && (typeof adxads[adxpos_Inv2] != "undefined")){document.write(adxads[adxpos_Inv2]);}</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Inv3 != "undefined") && (typeof adxads[adxpos_Inv3] != "undefined")){document.write(adxads[adxpos_Inv3]);}</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Bottom7 != "undefined") && (typeof adxads[adxpos_Bottom7] != "undefined")){document.write(adxads[adxpos_Bottom7]);}</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Bottom9 != "undefined") && (typeof adxads[adxpos_Bottom9] != "undefined")){document.write(adxads[adxpos_Bottom9]);}</p>
+<p>///*]]>*//*<![CDATA[*/// </p>
+<p>if ((typeof adxpos_Bottom8 != "undefined") && (typeof adxads[adxpos_Bottom8] != "undefined")){document.write(adxads[adxpos_Bottom8]);}</p>
+<p>///*]]>*/</p>

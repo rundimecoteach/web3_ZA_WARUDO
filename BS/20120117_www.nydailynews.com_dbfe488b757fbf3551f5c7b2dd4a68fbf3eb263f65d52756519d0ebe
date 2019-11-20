@@ -1,0 +1,771 @@
+<p>$44 million bill from Bronx-Lebanon Hospital - NY Daily News</p>
+<p>     </p>
+<p>                                //  jQuery.noConflict();</p>
+<p>                                jQuery(document).ready(function() {</p>
+<p>                                setSearchType("site"); </p>
+<p>                                //jQuery("img[src$=png], #search_area").pngFix();</p>
+<p>                                });</p>
+<p>                                // contentType: nydn.StandardArticle</p>
+<p>                                // currentLayout: nydn.HomePageLayout</p>
+<p>                            </p>
+<p>  var _vrq = _vrq || [];</p>
+<p>  _vrq.push(['id', 5]);</p>
+<p>  _vrq.push(['automate', true]);</p>
+<p>  _vrq.push(['track', function(){}]);</p>
+<p>  (function(d, a){</p>
+<p>    var s = d.createElement(a),</p>
+<p>    x = d.getElementsByTagName(a)[0];</p>
+<p>    s.async = true;</p>
+<p>    s.src = 'http://a.visualrevenue.com/vrs.js';</p>
+<p>    x.parentNode.insertBefore(s, x);</p>
+<p>  })(document, 'script');</p>
+<p>// CURRENT_LAYOUT  nydn.HomePageLayout</p>
+<p>// CURRENT_CONTENT_TYPE nydn.StandardArticle</p>
+<p>// modelType - nydn.InitYahooAdsElement</p>
+<p>//<![CDATA[</p>
+<p><!--</p>
+<p>yld_mgr = {};</p>
+<p>yld_mgr.slots = {};</p>
+<p>yld_mgr.container_type="js";</p>
+<p>yld_mgr.request_type="ac";</p>
+<p>yld_mgr.pub_id="21058125506";</p>
+<p>yld_mgr.site_name="NYDN";</p>
+<p>yld_mgr.clk_dest="_blank";</p>
+<p>yld_mgr.content_topic_id_list=["20430501"];</p>
+<p>yld_mgr.site_section_name_list=["Article"];</p>
+<p>yld_mgr.content_type_list=["fn_news"];</p>
+<p>yld_mgr.cstm_content_cat_list=[null];</p>
+<p>yld_mgr.slots.x46 = {};</p>
+<p>yld_mgr.slots.x46.ad_delivery_mode='ipatf';</p>
+<p>yld_mgr.slots.x46.ad_size_list=['728x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x46.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x46.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x42 = {};</p>
+<p>yld_mgr.slots.x42.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x42.ad_size_list=['190x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x42.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x42.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x47 = {};</p>
+<p>yld_mgr.slots.x47.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x47.ad_size_list=['728x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x47.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x47.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x55 = {};</p>
+<p>yld_mgr.slots.x55.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x55.ad_size_list=['300x250'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x55.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x55.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x44 = {};</p>
+<p>yld_mgr.slots.x44.ad_delivery_mode='ipatf';</p>
+<p>yld_mgr.slots.x44.ad_size_list=['950x35'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x44.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x44.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x50 = {};</p>
+<p>yld_mgr.slots.x50.ad_delivery_mode='ipatf';</p>
+<p>yld_mgr.slots.x50.ad_size_list=['300x250'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x50.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x50.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x42 = {};</p>
+<p>yld_mgr.slots.x42.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x42.ad_size_list=['190x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x42.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x42.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x47 = {};</p>
+<p>yld_mgr.slots.x47.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x47.ad_size_list=['728x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x47.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x47.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x86 = {};</p>
+<p>yld_mgr.slots.x86.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x86.ad_size_list=['300x250'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x86.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x86.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>//--></p>
+<p>//]]></p>
+<p>    var _gaq = _gaq || [];</p>
+<p>    _gaq.push(['_setAccount', 'UA-20856122-1']);</p>
+<p>    _gaq.push(['_setDomainName', '.nydailynews.com']);</p>
+<p>    _gaq.push(['_trackPageview']);</p>
+<p>    (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>    })();</p>
+<p>  </p>
+<p> <!--</p>
+<p>    var YWATracker = YWA.getTracker("1000563892833");</p>
+<p>    var nydn_dgrp = jQuery.trim(jQuery("#area_title").text());</p>
+<p>  if(nydn_dgrp != "") { YWATracker.setDocumentGroup(nydn_dgrp);  } else {     YWATracker.setDocumentGroup("Homepage") ; }  </p>
+<p>  YWATracker.submit();</p>
+<p>    function dcsMultiTrack() {}</p>
+<p>    //--></p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=366487756153";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>COMSCORE.beacon({</p>
+<p>    c1:2,</p>
+<p>    c2:7190388,</p>
+<p>    c3:"",</p>
+<p>    c4:"",</p>
+<p>    c5:"",</p>
+<p>    c6:"",</p>
+<p>    c15:""</p>
+<p>    });</p>
+<p>  </p>
+<p>                        //<![CDATA[</p>
+<p>                        <!--</p>
+<p>                        if(typeof yld_mgr != 'undefined') {</p>
+<p>                        yld_mgr.place_ad_here('x46');</p>
+<p>                        }</p>
+<p>                        //--></p>
+<p>                        //]]></p>
+<p>                    </p>
+<p>                        //<![CDATA[</p>
+<p>                        <!--</p>
+<p>                        if(typeof yld_mgr != 'undefined') {</p>
+<p>                        yld_mgr.place_ad_here('x42');</p>
+<p>                        }</p>
+<p>                        //--></p>
+<p>                        //]]></p>
+<p>                    </p>
+<p>Home</p>
+<p>Autos</p>
+<p>Real Estate</p>
+<p>Jobs</p>
+<p>Classifieds</p>
+<p>Apps</p>
+<p>Place an Ad</p>
+<p>Buy Pictures</p>
+<p>Contests</p>
+<p>Reader Offers</p>
+<p>                 nydn_userDetails();</p>
+<p>              </p>
+<p>Health</p>
+<p>SITE</p>
+<p>BLOGS</p>
+<p>WEB</p>
+<p>Search powered by</p>
+<p>Search Field</p>
+<p><!--</p>
+<p> function search_action(){</p>
+<p>        var url = document.getElementById("selecturl").value;</p>
+<p>        if(url == "blogs"){</p>
+<p>            document.searchForm.action = "http://www.nydailynews.com/blogs/nydn";</p>
+<p>            document.searchForm.q.name = "search";</p>
+<p>            document.searchForm.submit();</p>
+<p>        }</p>
+<p>        else {</p>
+<p>            document.searchForm.action ="/search-results/search-results-7.113";</p>
+<p>            document.searchForm.submit();</p>
+<p>        }</p>
+<p> }</p>
+<p>//-->  </p>
+<p>        jQuery(document).ready(function(){ </p>
+<p>        jQuery('ul.sf-menu').superfish({ </p>
+<p>        pathClass:  'current',</p>
+<p>        pathLevels: 2,</p>
+<p>        speed: 'fast',</p>
+<p>        autoArrows:  false,</p>
+<p>        dropShadows: false</p>
+<p>        }); </p>
+<p>        }); </p>
+<p>    </p>
+<p>News </p>
+<p>		</p>
+<p>                                                                                                        National</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        World</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Politics</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Crime</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Money</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        CES</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        The Week</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>News Blogs</p>
+<p>Sports </p>
+<p>		</p>
+<p>                                                                                                        Baseball</p>
+<p>                                            </p>
+<p>Yankees</p>
+<p>Mets</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        Football</p>
+<p>                                            </p>
+<p>Giants</p>
+<p>Jets</p>
+<p>Pick'Em</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        Basketball</p>
+<p>                                            </p>
+<p>Knicks</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        Hockey</p>
+<p>                                            </p>
+<p>Rangers</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        College</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        I-Team</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        High School</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        More Sports</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>Sports Blogs</p>
+<p>Gossip </p>
+<p>		</p>
+<p>                                                                                                        Celebrity Photos</p>
+<p>                                            </p>
+<p>Entertainment </p>
+<p>		</p>
+<p>                                                                                                        Movies</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Television</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Music & Arts</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Comics</p>
+<p>                                            </p>
+<p>Contests</p>
+<p>Horoscopes</p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        WATN Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>Entertainment Blogs</p>
+<p>Events </p>
+<p>New York </p>
+<p>		</p>
+<p>                                                                                                        Bronx</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Brooklyn</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Queens</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Uptown</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Education</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Weather</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Traffic</p>
+<p>                                            </p>
+<p>Latino</p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>Opinion </p>
+<p>Life & Style </p>
+<p>		</p>
+<p>                                                                                                        Eats</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Fashion</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Health</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Travel</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Horoscopes</p>
+<p>                                            </p>
+<p>Comics</p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>Photos</p>
+<p>Services </p>
+<p>		</p>
+<p>                                                                                                        NIE</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Feeds</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Social Media</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Mobile</p>
+<p>                                            </p>
+<p>Home Delivery</p>
+<p>Manage Home Delivery</p>
+<p>		</p>
+<p>                                                                                                        FAQs</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Sitemap</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Media Kit</p>
+<p>                                            </p>
+<p>Your Profile</p>
+<p>		</p>
+<p>                                                                                                        Death Notices</p>
+<p>                                            </p>
+<p>            //<![CDATA[</p>
+<p>            <!--</p>
+<p>            if(typeof yld_mgr != 'undefined' && typeof yld_mgr.slots.x44 != 'undefined') { </p>
+<p>            yld_mgr.place_ad_here('x44');</p>
+<p>            }</p>
+<p>            //--></p>
+<p>            //]]></p>
+<p>        </p>
+<p>Print</p>
+<p>$44 million bill from Bronx-Lebanon Hospital</p>
+<p>'System error' is blamed</p>
+<p>Comments</p>
+<p>                                                                                    By</p>
+<p>                                                                                            Kerry Wills AND                                                                                             Tracy Connor                                                                                                                                        / NEW YORK DAILY NEWS</p>
+<p>                                                                                        </p>
+<p>Sunday, January 15 2012, 11:35 PM</p>
+<p>Tweet</p>
+<p>            </p>
+<p>            jQuery(document).ready(function(){</p>
+<p>    detectScroll;</p>
+<p>    function detectScroll(){</p>
+<p>        if( ( jQuery(window).scrollTop() > ( jQuery(".story-share").position().top + jQuery(".story-share").height() ) ) && ( jQuery(window).width() > 1230 ) ){</p>
+<p>            jQuery(".vertical").show();</p>
+<p>        }else{</p>
+<p>            jQuery(".vertical").hide();</p>
+<p>        }</p>
+<p>    }</p>
+<p>    jQuery(window).bind('scroll', detectScroll);</p>
+<p>    jQuery(window).resize(function() {</p>
+<p>        if((jQuery(window).width() > 1230) && (jQuery(window).scrollTop() > (jQuery(".story-share").position().top + jQuery(".story-share").height()))){</p>
+<p>            jQuery(".vertical").show();</p>
+<p>        }else{</p>
+<p>            jQuery(".vertical").hide();</p>
+<p>        }</p>
+<p>    });</p>
+<p>        </p>
+<p>    jQuery("span.goto-comments").click(function(){ </p>
+<p>        commentTop = jQuery("#story-comments").position().top;</p>
+<p>        jQuery('html,body').animate({ scrollTop: commentTop }, 500);</p>
+<p>    });</p>
+<p>    jQuery("span#post-comment").click(function(){ </p>
+<p>        formTop = jQuery("#comment-form").position().top;</p>
+<p>        jQuery('html,body').animate({ scrollTop: formTop }, 500);</p>
+<p>    });</p>
+<p>});</p>
+<p>            </p>
+<p>            </p>
+<p>                var act = new gigya.services.socialize.UserAction();</p>
+<p>                //act.setUserMessage("This is the user message");</p>
+<p>                act.setTitle("Ill! Man receives $44 million hospital bill ");</p>
+<p>                act.setLinkBack("http://www.nydailynews.com/life-style/health/44-million-bill-bronx-lebanon-hospital-article-1.1006744");</p>
+<p>                act.setDescription("Unemployed doorman Alexis Rodriguez couldn\u2019t believe his eyes when he opened an envelope from Bronx-Lebanon Hospital last week and saw what he appeared to owe.");</p>
+<p>                //  act.addActionLink("Watch this movie", "http://vimeo.com/24496773");</p>
+<p>                act.addMediaItem({ type: 'image', src: 'http://assets.nydailynews.com/polopoly_fs/1.1006946!/img/httpImage/image.jpg_gen/derivatives/searchthumbnail_75/image.jpg', href: 'http://www.nydailynews.com/life-style/health/44-million-bill-bronx-lebanon-hospital-article-1.1006744' });</p>
+<p>                var showShareBarUI_params=</p>
+<p>                { </p>
+<p>                containerID: 'horizontal',</p>
+<p>                shareButtons: 'Google-plusone,Stumbleupon,Tumblr, Reddit, Email',</p>
+<p>                showCounts: 'none',</p>
+<p>                userAction: act,</p>
+<p>                onLoad: onLoadHandler,</p>
+<p>                onSendDone: onSendDoneHandler</p>
+<p>                }</p>
+<p>                </p>
+<p>                function onLoadHandler(event){</p>
+<p>                    if(loginId.length > 0){</p>
+<p>                        jQuery('input[id$="gigya.services.socialize.plugins.share.showShareUI_tbYourEmail"]').val(loginId);</p>
+<p>                    }</p>
+<p>                }</p>
+<p>                </p>
+<p>                // onSendDone event handler.</p>
+<p>                function onSendDoneHandler(event){</p>
+<p>                    if (event.providers == 'email') { </p>
+<p>                        // add this to email logger</p>
+<p>                        jQuery('.logger').empty();</p>
+<p>                        jQuery('.logger').append('<img src="/logger/p.gif?type=EMAILED&d=/2.169/2.1310/2.1314&a=1.1006744"/>');</p>
+<p>                    }</p>
+<p>                    else{</p>
+<p>                        // add this to share logger</p>
+<p>                        jQuery('.logger').empty();</p>
+<p>                        jQuery('.logger').append('<img src="/logger/p.gif?type=SOCIALNETWORK&d=/2.169/2.1310/2.1314&a=1.1006744"/>');</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            </p>
+<p>                gigya.services.socialize.showShareBarUI({},showShareBarUI_params);</p>
+<p>            </p>
+<p>                            var act = new gigya.services.socialize.UserAction();</p>
+<p>                            act.setTitle("Ill! Man receives $44 million hospital bill ");</p>
+<p>                            act.setLinkBack("http://www.nydailynews.com/life-style/health/44-million-bill-bronx-lebanon-hospital-article-1.1006744");</p>
+<p>                            act.setDescription("Unemployed doorman Alexis Rodriguez couldn\u2019t believe his eyes when he opened an envelope from Bronx-Lebanon Hospital last week and saw what he appeared to owe."); </p>
+<p>                            act.addMediaItem({ type: 'image', src: 'http://assets.nydailynews.com/polopoly_fs/1.1006946!/img/httpImage/image.jpg_gen/derivatives/searchthumbnail_75/image.jpg', href: 'http://www.nydailynews.com/life-style/health/44-million-bill-bronx-lebanon-hospital-article-1.1006744' });</p>
+<p>                            var showShareBarUI_params=</p>
+<p>                            {   </p>
+<p>                            layout:'vertical',</p>
+<p>                            containerID: 'vertical',</p>
+<p>                            shareButtons: [</p>
+<p>                            { provider: 'Facebook-Like',action: 'recommend',tooltip: 'Recommend'},</p>
+<p>                            { provider: 'Twitter-Tweet'},</p>
+<p>                            { provider: 'Google-plusone'},</p>
+<p>                            { provider: 'Stumbleupon'},</p>
+<p>                            { provider: 'Tumblr'},</p>
+<p>                            { provider: 'Digg'},</p>
+<p>                            { provider: 'Email'}</p>
+<p>                            ],</p>
+<p>                            showCounts: 'top',</p>
+<p>                            userAction: act,</p>
+<p>                            onLoad: onLoadHandler,</p>
+<p>                            onSendDone: onSendDoneHandler</p>
+<p>                            }</p>
+<p>                            </p>
+<p>                            function onLoadHandler(event){</p>
+<p>                                if(loginId.length > 0){</p>
+<p>                                    jQuery('input[id$="gigya.services.socialize.plugins.share.showShareUI_tbYourEmail"]').val(loginId);</p>
+<p>                                }</p>
+<p>                            }</p>
+<p>                            </p>
+<p>                            // onSendDone event handler.</p>
+<p>                            function onSendDoneHandler(event){</p>
+<p>                            if (event.providers == 'email') { </p>
+<p>                            // add this to email logger</p>
+<p>                            jQuery('.logger').empty();</p>
+<p>                            jQuery('.logger').append('<img src="/logger/p.gif?type=EMAILED&d=/2.169/2.1310/2.1314&a=1.1006744"/>');</p>
+<p>                            }</p>
+<p>                            else{</p>
+<p>                            // add this to log</p>
+<p>                            jQuery('.logger').empty();</p>
+<p>                            jQuery('.logger').append('<img src="/logger/p.gif?type=SOCIALNETWORK&d=/2.169/2.1310/2.1314&a=1.1006744"/>');</p>
+<p>                            }</p>
+<p>                            }</p>
+<p>                        </p>
+<p>                            gigya.services.socialize.showShareBarUI({},showShareBarUI_params);</p>
+<p>                        </p>
+<p> </p>
+<p> James Keivom/New York Daily News</p>
+<p> </p>
+<p>			Alexis Rodriguez got a bill exeeding $44 million for Bronx-Lebanon Hospital outpatient services.</p>
+<p>Related</p>
+<p>                    Stories</p>
+<p>How my friend Ralph loved John Kennedy and Robert F. Kennedy</p>
+<p>George Michael, released from Austrian hospital, says he almost died from pneumonia </p>
+<p>George Michael released from the hospital after being treated for pneumonia </p>
+<p>George Michael hospitalized in Vienna with pneumonia, forced to postpone concerts </p>
+<p>Zsa Zsa Gabor hospitalized, falls into a 'little coma'</p>
+<p>'Happy Gilmore' actress Frances Bay dies at 92</p>
+<p>	The hospital cured his pneumonia, but the bill — for an eye-popping $44 million — made him sick.</p>
+<p>	Unemployed doorman Alexis Rodriguez couldn’t believe his eyes when he opened an envelope from Bronx-Lebanon Hospital last week and saw what he appeared to owe.</p>
+<p>	“I almost had an asthma attack,” said Rodriguez, 28, just one of several hundred patients to receive absurdly inflated bills because of a “system error.”</p>
+<p>	His amount due was $44,776,587 for outpatient services that in reality amounted to no more than $300.</p>
+<p>	Initially, Rodriguez panicked because he had spent three weeks in the hospital with pneumonia in the spring and knew he had to pay part of the $40,000 cost.</p>
+<p>	But he quickly realized the terrifying invoice couldn’t be right. He called the billing company and found out he wasn’t the only one with sticker shock.</p>
+<p>	The billing firm, PHY Services, said it was a simple mistake: The subcontractor that prints the bills put the invoice number into the “amount due” field.</p>
+<p>	“We are sending an apology letter to everyone who received it,” said PHY Services rep Ricardo Paul.</p>
+<p>	The company has apparently been deluged with complaints. A recording for callers says:</p>
+<p>	“If you are calling with respect to a billing statement for services provided at Bronx-Lebanon Hospital, please disregard the statement</p>
+<p>	. You will be receiving a new statement shortly. “</p>
+<p>	Rodriguez said that even though no harm was done to his bottom line, the sloppiness surprised him.</p>
+<p>	“It was a big error,” he said.</p>
+<p>	“I think they should have somebody look over the bills before they send them out.</p>
+<p>	“I understand manpower may be down, but to send out a lot of bills with numbers that big — someone could have had a heart attack.”</p>
+<p>	Hospital spokesman Errol Schneer said he didn’t blame Rodriguez for being upset.</p>
+<p>	“We certainly share any concerns he would have,” he said.</p>
+<p>	 </p>
+<p>	tconnor@nydailynews.com</p>
+<p>Post a Comment »</p>
+<p>                      </p>
+<p>                                        jQuery.ajaxSetup({ cache: false });</p>
+<p>                                        //jQuery(document).ready(function(){</p>
+<p>                                        //alert("first");</p>
+<p>                                        //jQuery("#commentsTabLi-1426922").removeAttr('style');</p>
+<p>                                        jQuery("#commentView-1426922").empty();</p>
+<p>                                        jQuery("#commentView-1426922").load('/cmlink/comments-7.1426922?pathIds=2.169%2C2.1310%2C2.1314&action=&view=&comment=&rd=http%3A%2F%2Fwww.nydailynews.com%2Flife-style%2Fhealth%2F44-million-bill-bronx-lebanon-hospital-article-1.1006744&commentId=&abuseType=');</p>
+<p>                                        jQuery("#articleTab-1006744").live('click', function(){</p>
+<p>                                        //jQuery("#articleTabLi-1006744").removeClass().addClass('art_nav_link_on tabs');</p>
+<p>                                        //jQuery("#commentsTabLi-1426922").removeClass().addClass('art_nav_link tabs');</p>
+<p>                                        // jQuery("#articleView-1006744").show();</p>
+<p>                                        // jQuery("#commentView-1426922").load('/cmlink/comments-7.1426922?pathIds=2.169%2C2.1310%2C2.1314');</p>
+<p>                                        jQuery("#commentView-1426922").load('/cmlink/comments-7.1426922?pathIds=2.169%2C2.1310%2C2.1314&view=comments');</p>
+<p>                                        });</p>
+<p>                                        jQuery("#commentsTab-1426922, #seeAllComment-1426922, #seeAllCommentOrReport-1426922").live('click', function(){</p>
+<p>                                        // alert("seocnds");</p>
+<p>                                        jQuery("#commentsTabLi-1426922").removeClass().addClass('art_nav_link_on tabs');</p>
+<p>                                        jQuery("#articleTabLi-1006744").removeClass().addClass('art_nav_link tabs');</p>
+<p>                                        jQuery("#articleView-1006744").hide();</p>
+<p>                                        jQuery("#commentView-1426922").load('/cmlink/comments-7.1426922?pathIds=2.169%2C2.1310%2C2.1314&view=&rd=http%3A%2F%2Fwww.nydailynews.com%2Flife-style%2Fhealth%2F44-million-bill-bronx-lebanon-hospital-article-1.1006744');</p>
+<p>                                        });</p>
+<p>                                        // });</p>
+<p>                                    </p>
+<p> Ads by Yahoo!</p>
+<p>        <!--</p>
+<p>        var t = Math.floor(Math.random() * 100000);</p>
+<p>        var a = "http://cm.npc-nydn.overture.com/js_flat_1_0/?outputCharEnc=utf8&config=1468932575&ctxtUrl=http%3A%2F%2Fwww.nydailynews.com%2Flife-style%2Fhealth%2F44-million-bill-bronx-lebanon-hospital-article-1.1006744&ctxtId=health&type=health&source=npc_nydn_newyorkdailynews_t1_ctxt&maxCount=3";</p>
+<p>        var url = a;</p>
+<p>        document.write("<scr" + "ipt language=\"JavaScript1.1\" type=\"text/javascript\" src=\"" + url + "\"></scr" + "ipt>");</p>
+<p>        //--></p>
+<p>    </p>
+<p> </p>
+<p>        <!--</p>
+<p>        if( typeof(zSr) != 'undefined') {</p>
+<p>        var i=6;</p>
+<p>        while (i < zSr.length) {</p>
+<p>            var descr = zSr[i++]; // listing description</p>
+<p>            var unused1 = zSr[i++]; // (ignore)</p>
+<p>            var clickURL = zSr[i++]; // listing link</p>
+<p>            var title = zSr[i++]; // listing title</p>
+<p>            var sitehost = zSr[i++]; // advertiser's domain name</p>
+<p>            var unused2 = zSr[i++]; // (ignore)</p>
+<p>            document.write('<p><a class="title" target="_new" href="' + clickURL + '">' + title + '</a><br /><a class="description" target="_new" href="' + clickURL + '">' + descr + '</a><br />');</p>
+<p>            document.write('<a class="host" target="_new" href="' + clickURL + '">(' + sitehost + ')</a></p>');</p>
+<p>            }</p>
+<p>            }</p>
+<p>            //--></p>
+<p> </p>
+<p>        //<![CDATA[ </p>
+<p>        <!-- </p>
+<p>        if(typeof yld_mgr != 'undefined')</p>
+<p>        { yld_mgr.place_ad_here("x50"); }</p>
+<p>        //--> </p>
+<p>        //]]> </p>
+<p>Most Popular</p>
+<p>            </p>
+<p>Most Read</p>
+<p>Most Shared</p>
+<p>1</p>
+<p>                                                                                       Tot with skin disease dies in mom's arms                   </p>
+<p>                                                                                       </p>
+<p>2</p>
+<p>                                                                                       Ill! Man receives $44 million hospital bill                    </p>
+<p>                                                                                       </p>
+<p>3</p>
+<p>                                                                                       Paula Deen announces she has type 2 diabetes                   </p>
+<p>                                                                                       </p>
+<p>4</p>
+<p>                                                                                       Killer tunes: Walking with headphones can kill you                   </p>
+<p>                                                                                       </p>
+<p>5</p>
+<p>                                                                                       Manhattan lawyer sues spa for not feeding him                   </p>
+<p>                                                                                       </p>
+<p>6</p>
+<p>                                                                                       Cracker Barrel founder Dan Evins dead at 76                   </p>
+<p>                                                                                       </p>
+<p>7</p>
+<p>                                                                                       On the plus (model) size                   </p>
+<p>                                                                                       </p>
+<p>8</p>
+<p>                                                                                       Depressed? Blame it on Blue Monday                   </p>
+<p>                                                                                       </p>
+<p>9</p>
+<p>                                                                                       ‘Totally drug-resistant’ TB reported in India                   </p>
+<p>                                                                                       </p>
+<p>10</p>
+<p>                                                                                       Royal pain: Diddy sued over ‘Empress’ perfume                   </p>
+<p>                                                                                       </p>
+<p>1</p>
+<p>                                                                                       Ill! Man receives $44 million hospital bill                    </p>
+<p>                                                                                       </p>
+<p>2</p>
+<p>                                                                                       Paula Deen announces she has type 2 diabetes                   </p>
+<p>                                                                                       </p>
+<p>3</p>
+<p>                                                                                       Tot with skin disease dies in mom's arms                   </p>
+<p>                                                                                       </p>
+<p>4</p>
+<p>                                                                                       Killer tunes: Walking with headphones can kill you                   </p>
+<p>                                                                                       </p>
+<p>5</p>
+<p>                                                                                       Royal pain: Diddy sued over ‘Empress’ perfume                   </p>
+<p>                                                                                       </p>
+<p>6</p>
+<p>                                                                                       Cracker Barrel founder Dan Evins dead at 76                   </p>
+<p>                                                                                       </p>
+<p>7</p>
+<p>                                                                                       Henry Alford, the new Mr. Manners                   </p>
+<p>                                                                                       </p>
+<p>8</p>
+<p>                                                                                       ‘Totally drug-resistant’ TB reported in India                   </p>
+<p>                                                                                       </p>
+<p>9</p>
+<p>                                                                                       Depressed? Blame it on Blue Monday                   </p>
+<p>                                                                                       </p>
+<p>10</p>
+<p>                                                                                       Adults aged 65+ are the most frequent boozers                   </p>
+<p>                                                                                       </p>
+<p>    <!--</p>
+<p>    jQuery("ul#tabs-7-1353957").idTabs();</p>
+<p>    //--></p>
+<p> </p>
+<p>        //<![CDATA[ </p>
+<p>        <!-- </p>
+<p>        if(typeof yld_mgr != 'undefined')</p>
+<p>        { yld_mgr.place_ad_here("x55"); }</p>
+<p>        //--> </p>
+<p>        //]]> </p>
+<p>Editors' Picks</p>
+<p>Lupica: Like Parcells, Coughlin is a Giant winner</p>
+<p>Tom Coughlin, a Bill Parcells protege, is within spitting distance of his 2nd Super Bowl ring.</p>
+<p>PHOTOS: The Golden Globes' golden girl</p>
+<p>Maria Menounos quite literally glows on the red carpet. See it: BEST & WORST DRESSED...</p>
+<p>Hey y'all, I have diabetes: Paula Deen's painful confession </p>
+<p>With signature dishes like her bacon-doughnut-egg burger and oil-drenched fried chicken, she brings Southern cooking a new level of indulgence.</p>
+<p>Mitt, we KNOW you're rich! Romney refuses to release tax returns</p>
+<p>GOP frontrunner - and multimillionaire - continues to waver on releasing tax returns.</p>
+<p>PHOTOS: Before They Were Famous (and got stylists)</p>
+<p>Blast from the past! Can you name this bleached blonde star?</p>
+<p>Boy, 10, accused of killing friend, 12</p>
+<p>In shocking case, boy is accused of stabbing his pal in the chest with a kitchen knife.</p>
+<p>Toddler with rare disease loses fight, dies in mom's arms</p>
+<p>Brave boy's battle touched tens of thousands via his mother's blog.</p>
+<p>Pale Beyonce photo triggers white-hot controversy</p>
+<p>The new mom is barely recognizable in a new photo.</p>
+<p>Jay-Z vows to drop 'B-word' after daughter's birth</p>
+<p>Rapper and new dad vows to never again use the word “b---h.”</p>
+<p>Nicole Scherzinger horses around in a bikini</p>
+<p>Celebrity fit club: With paparazzi everywhere, stars have to be on top of their fitness game 24/7.</p>
+<p>PHOTOS: Happy 90th! Betty White’s reign as queen of Hollywood</p>
+<p>While most stars peak early on, White proves age is nothing but a number.</p>
+<p>Woman records herself doing meth, kills kids & herself</p>
+<p>Shoots her 2 children, their dad and a cousin before committing suicide: cops.</p>
+<p>Injured skier using breathing tube; doctors test brain function</p>
+<p>Sarah Burke still sedated one week after horrible crash.</p>
+<p>Mice infest bag of McDonald's burger buns</p>
+<p>SEE IT: A former fast food employee says mice ran rampant in the McDonald’s where he worked.</p>
+<p> </p>
+<p>        //<![CDATA[ </p>
+<p>        <!-- </p>
+<p>        if(typeof yld_mgr != 'undefined')</p>
+<p>        { yld_mgr.place_ad_here("x86"); }</p>
+<p>        //--> </p>
+<p>        //]]> </p>
+<p>  #story + .code_module{margin:0 0 25px;width:100%;text-align:center;float:none;}</p>
+<p>  .story-body .story-img{font:11px 'Arial';color:#999;margin-left:0;}</p>
+<p>  .story-body div img{width:635px;margin-left:-10px;}</p>
+<p>  .story-body div img + em, .story-body div img + br + em{display:block;font:11px 'Arial';color:#999;margin-bottom:25px;}</p>
+<p>  .static .facebook {width:450px;} </p>
+<p>  .vertical #vertical-reaction0 {overflow: visible !important;}</p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  (function () {</p>
+<p>    var d = new Image(1, 1);</p>
+<p>    d.onerror = d.onload = function () {</p>
+<p>      d.onerror = d.onload = null;</p>
+<p>    };</p>
+<p>    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-805104h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');</p>
+<p>  })();</p>
+<p>                //<![CDATA[</p>
+<p>                <!--</p>
+<p>                   if(typeof yld_mgr != 'undefined') {</p>
+<p>                       yld_mgr.place_ad_here('x47');</p>
+<p>                   } else {</p>
+<p>                    var cb = '&cb=' + Math.floor(Math.random() * 100000);</p>
+<p>                   var query = 'http://open.ad.yieldmanager.net/a1?v=2&amp;pubId=21058125506&amp;site=NYDN&amp;ctLng=en-US&amp;sz=728x90&amp;rTy=ac&amp;fmt=standard%20graphical&amp;cDst=_blank&amp;dlv=ipbtf&amp;cTopId=20268501%2C20422501&amp;cCat=Gossip+Individual+Galleries&amp;conTy=fn_news';</p>
+<p>                   var url = query + cb;</p>
+<p>                   document.write('<iframe scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" frameborder="0" id="nydn-adframe-x47" width="728" height="90" src="' + url + '"></iframe>');</p>
+<p>               }</p>
+<p>                //--></p>
+<p>               //]]></p>
+<p>           </p>
+<p>Back to Top</p>
+<p>Media Kit</p>
+<p>RSS</p>
+<p>Home Delivery</p>
+<p>Social Media</p>
+<p>Newsletters</p>
+<p>Place an Ad</p>
+<p>About our Ads</p>
+<p>Contact Us</p>
+<p>FAQ's</p>
+<p>Site Map</p>
+<p> Use of this website signifies your agreement to the Terms of Service and Privacy Policy. </p>
+<p>        © Copyright 2012 NYDailyNews.com. All rights reserved. </p>
+<p> if (document.location.protocol == 'http:') {  var Tynt = Tynt || [];Tynt.push('s!3'); Tynt.s = Tynt.s || {l:"http://asc.tynt.com/nydn_logo_140x32.png", lh:32, lw:140};  (function() {  var s = document.createElement('script'); s.async = "async"; s.type = "text/javascript"; s.src = 'http://asd.tynt.com/ts.js';  var h = document.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })();   }</p>
+<p>tyntVariables = {"ap":"Read more:"}; </p>
+<p>  var _qevents = _qevents || [];</p>
+<p>  (function() {</p>
+<p>  var elem = document.createElement('script');</p>
+<p>  elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";</p>
+<p>  elem.async = true;</p>
+<p>  elem.type = "text/javascript";</p>
+<p>  var scpt = document.getElementsByTagName('script')[0];</p>
+<p>  scpt.parentNode.insertBefore(elem, scpt);</p>
+<p>  })();</p>
+<p>  _qevents.push({</p>
+<p>  qacct:"p-af_gBGFZgopbs"</p>
+<p>  });</p>
+<p>  </p>

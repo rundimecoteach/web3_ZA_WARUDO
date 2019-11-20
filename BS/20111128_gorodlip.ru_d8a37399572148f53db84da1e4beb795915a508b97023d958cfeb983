@@ -1,0 +1,608 @@
+<p>В Липецке стартовал месячник по борьбе со СПИДом. Здоровье в Липецке. Новости Липецка</p>
+<p>  VK.init({apiId: 1982628, onlyWidgets: true});</p>
+<p>*{font-family:Tahoma;font-style:normal}</p>
+<p>*{margin:0px;}</p>
+<p>table.hx0</p>
+<p>, table.hx0 td</p>
+<p>, table.hx1</p>
+<p>, table.hx1 td</p>
+<p>, table.h00</p>
+<p>, table.h00 td</p>
+<p>, table.h01</p>
+<p>, table.h01 td</p>
+<p>, table.h02</p>
+<p>, table.h02 td</p>
+<p>, table.h03</p>
+<p>, table.h03 td</p>
+<p>, table.h04</p>
+<p>, table.h04 td</p>
+<p>, table.h05</p>
+<p>, table.h05 td</p>
+<p>, table.h06</p>
+<p>, table.h06 td</p>
+<p>, table.h07</p>
+<p>, table.h07 td</p>
+<p>, table.h08</p>
+<p>, table.h08 td</p>
+<p>, table.h09</p>
+<p>, table.h09 td</p>
+<p>, table.h10</p>
+<p>, table.h10 td</p>
+<p>{margin:0px;padding:0px;border-collapse:collapse}</p>
+<p>h1,h2,h3,h4{margin:0px}</p>
+<p>div{width:100%}</p>
+<p>table.hx0,table.hx1{width:100%}</p>
+<p>table.hd00{background:url('http://www.vorle.ru/head/d00.jpg') #59bcff}</p>
+<p>table.hd01{background:#e4fbff}</p>
+<p>table.hd02{background:url('http://www.vorle.ru/head/d02.jpg') top left no-repeat}</p>
+<p>table.hd03{background:url('http://www.vorle.ru/head/d03.jpg') #dde8eb}</p>
+<p>table.hd04{background:url('http://www.vorle.ru/head/d04.jpg') top left no-repeat}</p>
+<p>table.hn00{background:url('http://www.vorle.ru/head/n00.jpg') #0070b0}</p>
+<p>table.hn01{background:#0070b0}</p>
+<p>table.hn02{background:url('http://www.vorle.ru/head/n02.jpg') top left no-repeat}</p>
+<p>table.hn03{background:url('http://www.vorle.ru/head/n03.jpg') #dde8eb}</p>
+<p>table.hn04{background:url('http://www.vorle.ru/head/n04.jpg') top left no-repeat}</p>
+<p>table.hdw1 td{background:url('http://www.vorle.ru/head/dw1.jpg') top left no-repeat}</p>
+<p>table.hdw2 td{background:url('http://www.vorle.ru/head/dw2.jpg') top left no-repeat}</p>
+<p>table.hdw3 td{background:url('http://www.vorle.ru/head/dw3.jpg') top left no-repeat}</p>
+<p>table.hdw4 td{background:url('http://www.vorle.ru/head/dw4.jpg') top left no-repeat}</p>
+<p>table.hdw5 td{background:url('http://www.vorle.ru/head/dw5.jpg') top left no-repeat}</p>
+<p>table.hdw6 td{background:url('http://www.vorle.ru/head/dw6.jpg') top left no-repeat}</p>
+<p>table.hnw1 td{background:url('http://www.vorle.ru/head/nw1.jpg') top left no-repeat}</p>
+<p>table.hnw2 td{background:url('http://www.vorle.ru/head/nw2.jpg') top left no-repeat}</p>
+<p>table.hnw3 td{background:url('http://www.vorle.ru/head/nw3.jpg') top left no-repeat}</p>
+<p>table.hnw4 td{background:url('http://www.vorle.ru/head/nw4.jpg') top left no-repeat}</p>
+<p>table.hnw5 td{background:url('http://www.vorle.ru/head/nw5.jpg') top left no-repeat}</p>
+<p>table.hnw6 td{background:url('http://www.vorle.ru/head/nw6.jpg') top left no-repeat}</p>
+<p>div.hds1{background-image:url('http://www.vorle.ru/head/ds1.png')}</p>
+<p>div.hds2{background-image:url('http://www.vorle.ru/head/ds2.png')}</p>
+<p>div.hds3{background-image:url('http://www.vorle.ru/head/ds3.png')}</p>
+<p>div.hds4{background-image:url('http://www.vorle.ru/head/ds4.png')}</p>
+<p>div.hns1{background-image:url('http://www.vorle.ru/head/ns1.png')}</p>
+<p>div.hns2{background-image:url('http://www.vorle.ru/head/ns2.png')}</p>
+<p>div.hns3{background-image:url('http://www.vorle.ru/head/ns3.png')}</p>
+<p>div.hns4{background-image:url('http://www.vorle.ru/head/ns4.png')}</p>
+<p>div.iePNG h4,div.iePNG p,div.iePNG p a,div.iePNG p a b{color:#ffffff;font-family:Arial;}</p>
+<p>div.iePNG p,div.iePNG p a,div.iePNG p a b{font-size:11px;line-height:13px}</p>
+<p>div.iePNG h4{font-size:12px;line-height:24px;text-align:center}</p>
+<p>div.iePNG p{margin:0px;padding:3px 9px 0px 9px}</p>
+<p>div.iePNG p a{padding:0px 7px 0px 0px;white-space:nowrap;text-decoration:none}</p>
+<p>div.iePNG p a:hover{text-decoration:underline}</p>
+<p>table.h00 td{padding:22px 0px 0px 0px}</p>
+<p>table.h01{width:760px}</p>
+<p>table.h01 td{padding:0px 5px 0px 5px;width:180px}</p>
+<p>table.h02 td{padding:0px 0px 0px 23px}</p>
+<p>table.h03{background:url('http://www.vorle.ru/head/00.jpg') left repeat-y}</p>
+<p>table.h04 td{padding:0px 0px 0px 13px}</p>
+<p>table.h05{height:16px}</p>
+<p>table.h06 td{padding:0px 0px 0px 100px}</p>
+<p>table.h07 {width:278px;height:47px}</p>
+<p>table.h07 td{background:url('http://www.vorle.ru/head/01.gif');padding:0px 0px 0px 0px}</p>
+<p>table.h07 td img{border:none 0px}</p>
+<p>table.h08{height:47px;table-layout:fixed}</p>
+<p>table.h08 td.a{width:100%}</p>
+<p>table.h08 td.b{width:120px}</p>
+<p>table.h08 td.c{width:70px}</p>
+<p>table.h08 td.d{width:278px}</p>
+<p>table.h08 td.b,table.h08 td.c{padding:0px 0px 0px 10px}</p>
+<p>table.h08 td.b select{width:100%;border:0px none}</p>
+<p>table.h08 td.c input{color:#ffffff;font-family:Arial;font-size:20px;font-weight:bold;background:transparent;width:100%;border:0px none;}</p>
+<p>table.h09{background:#ffffff;height:21px;border:1px solid #757575}</p>
+<p>table.h09 td textarea,table.h09 td input,table.h09 td select{width:100%;border:0px none;font-size:12px}</p>
+<p>table.h10 td{padding:8px 0px 0px 125px}</p>
+<p>table.h10 td a{font-size:11px;color:#ffffff;text-decoration:underline}</p>
+<p>table.h10 td a:hover{font-size:11px;color:#ffffff;text-decoration:none}</p>
+<p>table.ht00{}</p>
+<p>table.ht00 td{vertical-align:top}</p>
+<p>table.ht00 td br{line-height:15px;}</p>
+<p>table.ht00 td.a{padding:0px 0px 0px 1px;width:270px}</p>
+<p>table.ht00 td.b{padding:0px 0px 0px 10px;width:51%;}</p>
+<p>table.ht00 td.c{padding:0px 1px 0px 10px;width:160px}</p>
+<p>table.ht00 td.d{padding:0px 0px 0px 1px;background:url('http://www.vorle.ru/block/c10.jpg') left repeat-y;}</p>
+<p>table.ht00 td.f{padding:0px 0px 0px 10px;width:70%;}</p>
+<p>table.ht01{background:#ffffff;border-left:1px solid #cecece;border-right:1px solid #cecece;border-top:1px solid #b9b9b9;}</p>
+<p>table.ht01 td{padding:0px 6px 0px 6px}</p>
+<p>table.ht02{background:#ffffff;height:8px;border-left:1px solid #cecece;border-right:1px solid #cecece;border-bottom:1px solid #cecece}</p>
+<p>div.hf00{position:absolute;top:0px;left:0px;background:url('http://www.vorle.ru/block/a00.jpg') top left no-repeat;width:10px;float:left;}</p>
+<p>div.hf01{position:absolute;top:0px;right:0px;background:url('http://www.vorle.ru/block/a02.jpg') top right no-repeat;width:10px;float:right;}</p>
+<p>div.hf02{position:absolute;top:0px;left:0px;background:url('http://www.vorle.ru/block/a20.jpg') top left no-repeat;width:100%;}</p>
+<p>div.hf03{position:absolute;top:0px;left:0px;background:url('http://www.vorle.ru/block/a22.jpg') top right no-repeat;width:100%;}</p>
+<p>table.ht00 div.hf00 br,table.ht00 div.hf01 br{line-height:24px}</p>
+<p>table.ht00 div.hf02 br,table.ht00 div.hf03 br{line-height:8px}</p>
+<p>table.ht03{height:27px;background:url('http://www.vorle.ru/block/c00.jpg') top left no-repeat}</p>
+<p>table.ht03 td{height:27px;background:url('http://www.vorle.ru/block/c02.jpg') top right no-repeat}</p>
+<p>div.hf04{background:url('http://www.vorle.ru/block/c01.jpg') top repeat-x}</p>
+<p>table.ht04{height:27px;background:url('http://www.vorle.ru/block/c20.jpg') bottom left no-repeat}</p>
+<p>table.ht04 td{height:27px;background:url('http://www.vorle.ru/block/c22.jpg') bottom right no-repeat}</p>
+<p>div.hf05{background:url('http://www.vorle.ru/block/c01.jpg') bottom repeat-x}</p>
+<p>table.hq01 td h2{color:#7c7c7c;white-space:nowrap;padding:0px 4px 0px 4px;font-size:12px;line-height:22px;background:url('http://www.vorle.ru/block/b01.jpg') top repeat-x;border-bottom:1px solid #b9b9b9;}</p>
+<p>table.hq01 td h2 a{color:#7c7c7c;white-space:nowrap;padding:0px 4px 0px 4px;font-size:12px;line-height:22px;background:transparent;}</p>
+<p>table.hq01 td h2 a:hover{color:#7c7c7c;text-decoration:underline;}</p>
+<p>table.hq01 td hr{line-height:1px;margin:0px;height:1px;background-color:white;border-top:1px black solid}</p>
+<p>table.hq01 td br{line-height:5px;}</p>
+<p>table.hq01 td div.air</p>
+<p>, table.hq01 td p</p>
+<p>, table.hq01 td h1</p>
+<p>, table.hq01 td h3</p>
+<p>, table.hq01 td h4</p>
+<p>, table.hq01 td ul</p>
+<p>, table.hq01 td ol</p>
+<p>{margin:0px;padding:5px 5px 5px 5px;}</p>
+<p>table.border {border-collapse:collapse}</p>
+<p>table.border td {border:1px solid gray}</p>
+<p>table.hq01 td</p>
+<p>, table.hq01 b</p>
+<p>, table.hq01 a</p>
+<p>, table.hq01 a b</p>
+<p>, table.hq01 p</p>
+<p>, table.hq01 p b</p>
+<p>, table.hq01 p a</p>
+<p>, table.hq01 p a b</p>
+<p>, table.hq01 h1</p>
+<p>, table.hq01 h3</p>
+<p>, table.hq01 h4</p>
+<p>, table.hq01 ul</p>
+<p>, table.hq01 ol</p>
+<p>, table.hq01 ul li</p>
+<p>, table.hq01 ol li</p>
+<p>, table.hq01 ul li b</p>
+<p>, table.hq01 ol li b</p>
+<p>, table.hq01 ul li a</p>
+<p>, table.hq01 ol li a</p>
+<p>, table.hq01 ul li a b</p>
+<p>, table.hq01 ol li a b</p>
+<p>{font-size:12px;line-height:15px;color:#7c7c7c;}</p>
+<p>table.hq01 p.small em {font-size:11px;line-height:13px;color:#1b1b1b;font-weight:normal;}</p>
+<p>table.hq01 a</p>
+<p>, table.hq01 a b</p>
+<p>, table.hq01 p a</p>
+<p>, table.hq01 p a b</p>
+<p>, table.hq01 ul li a</p>
+<p>, table.hq01 ol li a</p>
+<p>, table.hq01 ul li a b</p>
+<p>, table.hq01 ol li a b</p>
+<p>{color:#3aa6ed;text-decoration:none}</p>
+<p>table.hq01 a:hover</p>
+<p>, table.hq01 a:hover b</p>
+<p>, table.hq01 p a:hover</p>
+<p>, table.hq01 p a:hover b</p>
+<p>, table.hq01 ul li a:hover</p>
+<p>, table.hq01 ol li a:hover</p>
+<p>, table.hq01 ul li a:hover b</p>
+<p>, table.hq01 ol li a:hover b</p>
+<p>{color:#ff8400;text-decoration:underline;}</p>
+<p>table.hq01 p.light b</p>
+<p>, table.hq01 p.light strong</p>
+<p>, table.hq01 p.light a b</p>
+<p>, table.hq01 p.light a strong</p>
+<p>, table.hq01 p.light a.title b</p>
+<p>, table.hq01 p.light a.title strong</p>
+<p>, table.hq01 p.light a.small b</p>
+<p>, table.hq01 p.light a.small strong</p>
+<p>{background-color: #ffe08e}</p>
+<p>table.hq01 ul li{list-style:circle insideborder:1px solid black;}</p>
+<p>table.hq01 img{border:0px none}</p>
+<p>table.hq01 img.left{padding:7px 7px 7px 0px}</p>
+<p>table.hq01 h1 {font:normal 17px/21px Tahoma;color:#7c7c7c}</p>
+<p>table.hq01 a.title</p>
+<p>, table.hq01 p a.title{font-size:17px;line-height:21px;text-decoration:none;color:#3aa6ed}</p>
+<p>table.hq01 a.title:hover</p>
+<p>, table.hq01 p a.title:hover{text-decoration:underline;color:#ff8400}</p>
+<p>table.hq01 div a.small</p>
+<p>, table.hq01 p a.small{font-size:11px;text-decoration:none;color:#3aa6ed;line-height:13px}</p>
+<p>table.hq01 div a.small:hover</p>
+<p>, table.hq01 p a.small:hover{text-decoration:underline;color:#ff8400}</p>
+<p>table.hq01 div.menu{float:left;width:100px;height:14px; /*white-space:nowrap;*/ font-size:11px;color:#7c7c7c;line-height:13px; margin:11px 4px !important; padding:0px !important;}</p>
+<p>table.ht01 p.small, table.ht01 p.small b{font-size:11px;color:#7c7c7c;line-height:13px;}</p>
+<p>table.ht01 div.date{font-size:11px;color:#7c7c7c;float:right}</p>
+<p>table.ht01 div.left{font-size:11px;color:#7c7c7c;float:left}</p>
+<p>table.ht01 div.center{font-size:11px;color:#7c7c7c;float:center}</p>
+<p>table.ht01 div.right{font-size:11px;color:#7c7c7c;float:right}</p>
+<p>table.ht01 div.right a{font-size:11px;text-decoration:none;color:#3aa6ed}</p>
+<p>table.ht01 div.right a:hover{text-decoration:underline;color:#ff8400}</p>
+<p>div.hx5{height:150px;width:358px}</p>
+<p>div.hx4{position:relative}</p>
+<p>table.hx3 td{background:transparent}</p>
+<p>table.hx0 td,table.hx2 td{padding:0px}</p>
+<p>div.hb1,div.hb2,div.hb3,div.hb4{height:107px;width:182px}</p>
+<p>div.hb1{background-image:url(http://www.vorle.ru/head/b1.png)}</p>
+<p>div.hb2{background-image:url(http://www.vorle.ru/head/b2.png)}</p>
+<p>div.hb3{background-image:url(http://www.vorle.ru/head/b3.png)}</p>
+<p>div.hb4{background-image:url(http://www.vorle.ru/head/b4.png)}</p>
+<p>div.hp0{padding:0px;position:absolute;left:0px;top:50px}</p>
+<p>table.calendar {width:210px}</p>
+<p>table.calendar td {border:1px none}</p>
+<p>table.calendar td.today {border:1px solid #000000}</p>
+<p>table.calendar th, table.calendar td{padding:0px;font-size:12px;text-align:center;vertical-align:middle;width:30px;height:30px}</p>
+<p>table.calendar td.day {}</p>
+<p>table.calendar td.dayr, table.calendar td.dayr b{color: #d4b18e}</p>
+<p>table.calendar th.dayr {color: #ff0000}</p>
+<p>table.calendar td a {font-size: 12px; text-decoration: none; }</p>
+<p>table.calendar td a.day {}</p>
+<p>table.calendar td a.dayr, table.calendar td a.dayr b{color: #ff0000}</p>
+<p>table.calendar td a:hover {text-decoration: underline;}</p>
+<p>table.stats th, table.stats td{border:1px solid gray}</p>
+<p>li{margin:5px 20px;padding:0px}</p>
+<p>ul{list-style-type:square;line-height:6px}</p>
+<p>table.new_year {padding:0px;margin:0px; border-collapse:collapse;table-layout:fixed; width:124px}</p>
+<p>table.new_year td {padding:0px;margin:0px;}</p>
+<p>table.new_year td.b {background-image:url(http://www.vorle.ru/mainpage/neogod_05.jpg); background-repeat:repeat-y; width:124px}</p>
+<p>table.new_year td.a {background-image:url(http://www.vorle.ru/mainpage/neogod_03.jpg); background-position:top; background-repeat:no-repeat}</p>
+<p>i, em {font-style:italic}</p>
+<p>span.red {color: #FF3300}</p>
+<p>span.blue {color: #00CCFF}</p>
+<p>span.red2 {color: #FF3300; font-weight:bold; font-style:italic}</p>
+<p>span.blue2 {color: #00CCFF; font-weight:bold; font-style:italic}</p>
+<p> </p>
+<p>function ya_online()</p>
+<p>{</p>
+<p>  YAHOO.util.Connect.asyncRequest('GET', '/fbv/'+Math.random(), { success: function(o) {}, failure: function(o) {} }, null); </p>
+<p>  setTimeout("ya_online()",480000);</p>
+<p>}</p>
+<p>YAHOO.util.Event.onDOMReady(function(e) {</p>
+<p>  YAHOO.util.Connect.asyncRequest('GET', '/fbv/2500610-2502003-2502238/1322495916/'+escape(document.URL), { success: function(o) {}, failure: function(o) {} }, null); </p>
+<p>  ya_online();</p>
+<p>});</p>
+<p>YUI({charset:'windows-1251'}).use("event", "node", function(Y){</p>
+<p>Y.on("load", function() {</p>
+<p>var images = Y.all("a img");</p>
+<p>var ok = 0;</p>
+<p>for (i=0;i<images.size();i++)</p>
+<p>{</p>
+<p>  var node = images.item(i);</p>
+<p>  var parent = node.get('parentNode');</p>
+<p>  var r1 = new RegExp('(png|jpg|jpeg)$', 'i');</p>
+<p>  if (r1.test(parent.get('href')))</p>
+<p>  {</p>
+<p>    ok = 1;</p>
+<p>    parent.set('rel', 'lightbox');</p>
+<p>  }</p>
+<p>}</p>
+<p>if (ok > 0)</p>
+<p>{</p>
+<p>YUI({</p>
+<p>  modules: {</p>
+<p>    prototype: {</p>
+<p>      fullpath: 'http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js'</p>
+<p>    }</p>
+<p>    ,</p>
+<p>    lightbox: {</p>
+<p>      fullpath: '/js/001/lightbox_utf8.js'</p>
+<p>    }</p>
+<p>    ,</p>
+<p>    builder: {</p>
+<p>      fullpath: '/js/001/builder.js'</p>
+<p>    }</p>
+<p>    ,</p>
+<p>    effects: {</p>
+<p>      fullpath: '/js/001/effects.js'</p>
+<p>    }</p>
+<p>    ,</p>
+<p>    lightbox_css: {</p>
+<p>      type: "css",</p>
+<p>      fullpath: '/css/001/lightbox.css'</p>
+<p>    }</p>
+<p>  }</p>
+<p>}).use("lightbox_css", "prototype", "builder", "effects", "lightbox", function(Y){</p>
+<p>var lbox = new Lightbox();</p>
+<p>});</p>
+<p>}</p>
+<p>}, window);</p>
+<p>});</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>var pageTracker = _gat._getTracker("UA-6474502-3");</p>
+<p>pageTracker._trackPageview();</p>
+<p> var spylog = { counter: 2022092, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +</p>
+<p>(("https:" == document.location.protocol) ? "s" : "") +</p>
+<p>"://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </p>
+<p>(function(w, c) {</p>
+<p>(w[c] = w[c] || []).push(function() {</p>
+<p>try {</p>
+<p>    w.yaCounter79218 = new Ya.Metrika(79218);</p>
+<p>    yaCounter79218.clickmap(true);</p>
+<p>    yaCounter79218.trackLinks(true);</p>
+<p>} catch(e) { }</p>
+<p>    });</p>
+<p>})(window, 'yandex_metrika_callbacks');</p>
+<p><!--</p>
+<p>document.write("<img src='http://counter.yadro.ru/hit?r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' width=1 height=1 alt=''>")//--></p>
+<p>Лада Финанс. Кредитная программа на приобретение автомобилей LADA</p>
+<p> Приватные сообщения</p>
+<p>Сейчас на сайте 18 человек, в том числе:</p>
+<p>plplpl70</p>
+<p>tops-48</p>
+<p>Максимум возможностей — максимум качества Доступный офис Энфорта Интернет-Контроль. Адрес: г. Курск, ул. Ленина 12, тел. (4712) 740-690</p>
+<p>Новости в Липецке</p>
+<p>Рубрики</p>
+<p>Год молодежи 2009</p>
+<p>Официально</p>
+<p>Общество</p>
+<p>Происшествия</p>
+<p>Политика</p>
+<p>Недвижимость</p>
+<p>Образование</p>
+<p>Здоровье</p>
+<p>Авто</p>
+<p>Hi-Tech</p>
+<p>Стиль</p>
+<p>Культура</p>
+<p>Спорт</p>
+<p>Туризм и отдых</p>
+<p>Новости сайта</p>
+<p>ЖКХ</p>
+<p>Экономика</p>
+<p>Новости от КПРФ</p>
+<p>История нашего города</p>
+<p>Экология</p>
+<p>Вкус кино</p>
+<p>Новости компаний</p>
+<p>Фондовый рынок</p>
+<p>Анонсы СМИ</p>
+<p>Эхо Москвы</p>
+<p>Заводные выходные</p>
+<p>Театральный бинокль</p>
+<p>Скидки</p>
+<p>Новости от ТЕЛЕ 2</p>
+<p>К Новому Году</p>
+<p>Рок-фестиваль</p>
+<p>Архив новостей</p>
+<p>Рекомендуем</p>
+<p>Подписка на новости</p>
+<p>Последние новости в Липецке</p>
+<p>28 ноября в 16:39     </p>
+<p>Липчане получат бесплатный "Народный Интернет"</p>
+<p>28 ноября в 15:58     </p>
+<p>НЛМК скрывал опасность своих отходов</p>
+<p>28 ноября в 15:53     </p>
+<p>В Липецке более девяти тысяч педагогов получают досрочную пенсию</p>
+<p>28 ноября в 15:30     </p>
+<p>Фирменный салон "Мебель Черноземья"</p>
+<p>28 ноября в 13:04     </p>
+<p>в Липецке началось строительство дома для бюджетников</p>
+<p>Здоровье в Липецке</p>
+<p>25 ноября в 16:27     </p>
+<p>В Липецке стартовал месячник по борьбе со СПИДом</p>
+<p>25 ноября в 09:48     </p>
+<p>Мэр Липецка оценил "Сапфир"</p>
+<p>24 ноября в 13:55     </p>
+<p>В Липецкой области поликлиника на колесах объехала за год все районы</p>
+<p>17 ноября в 10:16     </p>
+<p>Мэру Липецка показали литотриптер</p>
+<p>27 октября в 11:02     </p>
+<p>В липецкие больницы завезли новое медицинское оборудование</p>
+<p>Здоровье в регионах</p>
+<p>28 ноября в 14:24     новости в Белгороде</p>
+<p>В Белгороде в память об умерших от СПИДа зажгут свечи и запустят в небо воздушные шары</p>
+<p>28 ноября в 13:13     новости в Смоленске</p>
+<p>Замгубернатора Смоленской области с рабочей поездкой посетил больницу "РЖД"</p>
+<p>28 ноября в 09:25     новости в Белгороде</p>
+<p>В Белгороде открылся Центр социальной реабилитации инвалидов</p>
+<p>25 ноября в 11:28     новости в Белгороде</p>
+<p>Белгородку оштрафовали за незаконное оказание медуслуг</p>
+<p>24 ноября в 11:49     новости в Иваново</p>
+<p>В Иванове откроется студенческая поликлиника</p>
+<p>Здоровье</p>
+<p>В Липецке стартовал месячник по борьбе со СПИДом (фото)</p>
+<p>25 ноября в 16:27     Здоровье</p>
+<p>Месячник, посвященный Всемирному дню борьбы со СПИДом, проходит с 15 ноября по 15 декабря.</p>
+<p>Цель мероприятий, проходящих в рамках месячника -  привлечь внимание горожан к вопросам профилактики и борьбы со СПИДом, а также проинформировать жителей областного центра об этой всемирной проблеме.</p>
+<p>Как сообщает пресс-служба мэрии, сейчас в Липецке проходят семинары со специалистами по медицинской профилактике. К примеру, в любом медицинском учреждении можно увидеть специальные стенды с информацией о проведении акции "Проверь себя! Пройди тест на ВИЧ!"</p>
+<p>На базе Липецкого областного Центра по профилактике и борьбе со СПИДом открыта горячая линия. Позвонив по телефону 35-54-64, липчане смогут получить исчерпывающие ответы на интересующие их вопросы.</p>
+<p>По статистике, в Липецком регионе распространенность ВИЧ - одна из самых низких самых низких в России. Но все равно внимание этой проблеме уделяется постоянно. Ведь больше 93% липчан, которые инфицированы, относятся к дееспособной части населения - им от 18 до 49 лет.</p>
+<p>Больше всего ВИЧ-инфицированных среди мужчин – 53,3%. Также основной способ передачи СПИДа - это половой путь (67,6%), а 26% инфицированных - наркоманы. </p>
+<p>Правила использования материалов</p>
+<p>версия для печати       обсуждение</p>
+<p>VK.init({apiId: 1989563, onlyWidgets: true});</p>
+<p>VK.Widgets.Like("vk_like", {width: "280px"});</p>
+<p>.FBConnectButton{</p>
+<p>  background: none;</p>
+<p>  margin: 0px;</p>
+<p>  padding: 0px;</p>
+<p>  margin-left: 0px;</p>
+<p>  background-position: 0px 0px;</p>
+<p>}</p>
+<p>.FBConnectButton .FBConnectButton_Text{</p>
+<p>  background: url('/img/019/facebook.gif') left top no-repeat;</p>
+<p>  margin: 0px;</p>
+<p>  padding: 0px;</p>
+<p>  width: 24px;</p>
+<p>  height: 24px;</p>
+<p>  border: 0px;</p>
+<p>}</p>
+<p>.FBConnectButton_Small, .FBConnectButton_RTL_Small{</p>
+<p>  background-repeat: no-repeat;</p>
+<p>}</p>
+<p>.FBConnectButton_Text{</p>
+<p>  margin: 0px;</p>
+<p>  background-position: no-repeat;</p>
+<p>}</p>
+<p>#tweetmeme_button .tweetmemebutton .retweet{</p>
+<p>  background: url('/img/019/facebook.gif') left top no-repeat;</p>
+<p>}</p>
+<p>.ya-share-large .share-icon .a{</p>
+<p>  background-position: 0px 0px;</p>
+<p>  width: 24px;</p>
+<p>  margin: 0px;</p>
+<p>}</p>
+<p>.ya-share span.bg{</p>
+<p>  background: url('/img/019/ya.gif') left top no-repeat;</p>
+<p>  width: 24px;</p>
+<p>  height: 24px;</p>
+<p>  float: right;</p>
+<p>}</p>
+<p>.twitter-share-button .tb{</p>
+<p>  background: url('/img/019/twitter.gif') left top no-repeat;</p>
+<p>  width: 24px;</p>
+<p>  height: 24px;</p>
+<p>  float: right;</p>
+<p>}</p>
+<p>Tweet</p>
+<p> </p>
+<p> if (window.Ya && window.Ya.Share) {Ya.Share.update();} else {(function(){if(!window.Ya) { window.Ya = {} };Ya.STATIC_BASE = 'http:\/\/img\-css.friends.yandex.net';Ya.START_BASE = 'http:\/\/wow.ya.ru\/';var shareScript = document.createElement("script");shareScript.type = "text/javascript";shareScript.async = "true";shareScript.charset = "utf-8";shareScript.src = Ya.STATIC_BASE + "/js/api/Share.js";(document.getElementsByTagName("head")[0] || document.body).appendChild(shareScript);})();}</p>
+<p><!--</p>
+<p>  document.write(VK.Share.button({title:'В Липецке стартовал месячник по борьбе со СПИДом', description: 'Месячник, посвященный Всемирному дню борьбы со СПИДом, проходит с 15 ноября по 15 декабря.', image: "http://www.vorle.ru/pic27500950x80.jpg", noparse: true}, {type: "custom", text: "<img src=\"/img/019/vkontakte.gif?1\" />"}));</p>
+<p>  --></p>
+<p>Обсуждение материала</p>
+<p>имя участника:</p>
+<p>пароль:</p>
+<p>текст сообщения:</p>
+<p>отправить</p>
+<p>Интересное</p>
+<p>(function(){var j=32842,f=false,b=document,c=b.documentElement,e=window;function g(){var a="";a+="rt="+(new Date).getTime()%1E7*100+Math.round(Math.random()*99);a+=b.referrer?"&r="+escape(b.referrer):"";return a}function h(){var a=b.getElementsByTagName("head")[0];if(a)return a;for(a=c.firstChild;a&&a.nodeName.toLowerCase()=="#text";)a=a.nextSibling;if(a&&a.nodeName.toLowerCase()!="#text")return a;a=b.createElement("head");c.appendChild(a);return a}function i(){var a=b.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("src","http://c.luxup.ru/t/lb"+j+".js?"+g());typeof a!="undefined"&&h().appendChild(a)}function d(){if(!f){f=true;i()}};if(b.addEventListener)b.addEventListener("DOMContentLoaded",d,false);else if(b.attachEvent){c.doScroll&&e==e.top&&function(){try{c.doScroll("left")}catch(a){setTimeout(arguments.callee,0);return}d()}();b.attachEvent("onreadystatechange",function(){b.readyState==="complete"&&d()})}else e.onload=d})();</p>
+<p>Директ</p>
+<p><!--</p>
+<p>yandex_partner_id = 44954;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1;</p>
+<p>yandex_direct_type = 'horizontal';</p>
+<p>yandex_direct_border_type = 'block';</p>
+<p>yandex_direct_limit = 2;</p>
+<p>yandex_direct_bg_color = 'FFFFFF';</p>
+<p>yandex_direct_title_color = '0365AF';</p>
+<p>yandex_direct_url_color = '0365AF';</p>
+<p>yandex_direct_all_color = '000000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '000000';</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/resource/context.js?rnd='</p>
+<p>+ Math.round(Math.random() * 100000) + '"></sc'+'ript>');</p>
+<p>//--></p>
+<p>Рекомендуем</p>
+<p>МТС, Бесплатные звонки на МТС всей России! Липецк </p>
+<p>Выбери свой товар</p>
+<p>.ffk .fd{</p>
+<p>	padding:0px !important;</p>
+<p>	margin:0px 0px 5px 0px !important;</p>
+<p>}</p>
+<p>.fon{</p>
+<p>	 background: #FFF !important;</p>
+<p>	 medium none !important</p>
+<p>}</p>
+<p>.ffk .jcarousel-skin-tango .jcarousel-container</p>
+<p>{</p>
+<p>	border: 0px;</p>
+<p>	margin: 0px;</p>
+<p>}</p>
+<p>.ffk table.block td.body_block img </p>
+<p>{</p>
+<p>	margin: 1px auto 0;</p>
+<p>}</p>
+<p>li {</p>
+<p>    margin: 0px;</p>
+<p>    padding: 0px;</p>
+<p>}</p>
+<p>var C = YUI({ </p>
+<p> //base: "",</p>
+<p> combine: true,</p>
+<p> modules: {</p>
+<p>		  "vl_katalog_js": {</p>
+<p>			type: "js",</p>
+<p>			fullpath: "/img/016/vl_katalog.js"</p>
+<p>		  },</p>
+<p>		  "jquery_my_karusel": {</p>
+<p>			type: "js",</p>
+<p>			fullpath: "/img/016/jcarousel/lib/jquery_my_karusel2.js"</p>
+<p>		  },</p>
+<p>		  "jcarousel": {</p>
+<p>			type: "js",</p>
+<p>			fullpath: "/img/016/jcarousel/lib/jquery.jcarousel.min.js"</p>
+<p>		  },</p>
+<p>		  "jquery_my_css": {</p>
+<p>			type: "css",</p>
+<p>			fullpath: "/img/016/jcarousel/skins/tango/skin.css"</p>
+<p>		  }</p>
+<p> },</p>
+<p> timeout: 10000</p>
+<p>}).use("vl_katalog_js", "jquery_my_css", "jcarousel", "jquery_my_karusel");</p>
+<p>Полезные ссылки</p>
+<p>г Липецк</p>
+<p>работа</p>
+<p>сайты липецка</p>
+<p>автобусы</p>
+<p>магазины</p>
+<p>металлург</p>
+<p>новости Липецка</p>
+<p>недвижимость Липецка</p>
+<p>гостиницы</p>
+<p>реклама</p>
+<p>банки Липецка</p>
+<p>телефоны</p>
+<p>фото</p>
+<p>авто</p>
+<p>© ООО "Регион центр" 2004-2011</p>
+<p>© ИА vRossii.ru</p>
+<p>Свидетельство о регистрации СМИ ИА № ФС 77-35502 от 04 марта 2009г.</p>
+<p>Информация об агентстве</p>
+<p>Максимум возможностей — максимум качества Доступный офис Энфорта Интернет-Контроль. Адрес: г. Курск, ул. Ленина 12, тел. (4712) 740-690</p>
+<p>.n00{</p>
+<p>  background: url('/skin/portal/header/img/n00.jpg') left top repeat-x;</p>
+<p>}</p>
+<p>.nw3{</p>
+<p>  background: url('/skin/portal/header/img/nw3.jpg') left top no-repeat;</p>
+<p>}</p>
+<p>.hn02{</p>
+<p>  background: url('/skin/portal/header/img/n02.jpg') 13px top no-repeat;</p>
+<p>}</p>
+<p>t воздуха 1 .. 3 ºC</p>
+<p>  Товары и услуги</p>
+<p>  Афиша</p>
+<p>  Интересное</p>
+<p>Авто в Липецке</p>
+<p>Финансы</p>
+<p>Горячие телефоны</p>
+<p>Гостиницы</p>
+<p>Досуг</p>
+<p>Доставка</p>
+<p>Товары и услуги</p>
+<p>Красота</p>
+<p>Мебель</p>
+<p>Медицина</p>
+<p>Недвижимость</p>
+<p>Образование</p>
+<p>Одежда</p>
+<p>Организации</p>
+<p>Работа</p>
+<p>Строительство</p>
+<p>Туризм</p>
+<p>Услуги сайта</p>
+<p>Экология</p>
+<p>Вся афиша</p>
+<p>Кино</p>
+<p>Спектакли</p>
+<p>Выставки</p>
+<p>Спорт</p>
+<p>Гастроли</p>
+<p>Культура</p>
+<p>Клубы</p>
+<p>Фестивали</p>
+<p>Парки отдыха</p>
+<p>Конкурсы</p>
+<p>Филармония</p>
+<p>Администрация области</p>
+<p>Анекдоты</p>
+<p>Гороскопы</p>
+<p>Карта</p>
+<p>Доска объявлений</p>
+<p>Конкурс</p>
+<p>Новости</p>
+<p>Новости компаний</p>
+<p>Обзор новинок</p>
+<p>Опросы</p>
+<p>Прямая линия</p>
+<p>Наши партнеры</p>
+<p>Сайты Липецка</p>
+<p>Транспорт</p>
+<p>Форум</p>
+<p>Орел              |                            Тула              |                            Липецк              |                            Воронеж              |                            Курск              |                            Белгород              |                            Брянск              |                            Калуга              |                            Рязань              |                            Смоленск              |                            Тверь              |                            Ярославль </p>
+<p>везде</p>
+<p>новости</p>
+<p>форум</p>
+<p>афиша</p>
+<p>организации</p>

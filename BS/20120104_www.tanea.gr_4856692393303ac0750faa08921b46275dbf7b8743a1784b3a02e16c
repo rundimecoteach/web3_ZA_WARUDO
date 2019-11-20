@@ -1,0 +1,558 @@
+<p>Η γνώμη των αναγνωστών - Ελλάδα - Επικαιρότητα - Τα Νέα Οnline</p>
+<p>var NvPage = {"PageId":14,"LanguageId":1,"PageHierarchy":".4.13.14.","IsPreview":false,"DesignMode":false};</p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|1955/1x1"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>            Πέμπτη 11 Απριλίου 2013</p>
+<p>        </p>
+<p>Αθήνα 12οC   Θεσσαλονίκη 7οC   </p>
+<p>            Καιρός από freemeteo.com</p>
+<p>        </p>
+<p>ΕΙΣΟΔΟΣ PREMIUM </p>
+<p>ΥΠΗΡΕΣΙΕΣ ΓΙΑ ΣΥΝΔΡΟΜΗΤΕΣ</p>
+<p>PDF όπως στο χαρτί</p>
+<p>Ανάγνωση E-BOOK</p>
+<p>Newsletters</p>
+<p>Τροποποίηση Στοιχείων Μέλους</p>
+<p>Υποστήριξη Συνδρομητών</p>
+<p>Γίνετε Συνδρομητής</p>
+<p>  </p>
+<p>                        Θάτσερ</p>
+<p>                        Φορολογικοί παράδεισοι</p>
+<p>                        Μανιτάκης</p>
+<p>                        λίστα Λαγκάρντ</p>
+<p>                        Εθνική-Eurobank</p>
+<p>                        Wikileaks</p>
+<p>Πρώτη σελίδα</p>
+<p>                        Επικαιρότητα</p>
+<p>                    </p>
+<p>                        Απόψεις</p>
+<p>                    </p>
+<p>                        Υγεία</p>
+<p>                    </p>
+<p>                        Life & Style</p>
+<p>                    </p>
+<p>                        tanea360°</p>
+<p>                    </p>
+<p>                        NEATV</p>
+<p>                    </p>
+<p>                        Εικόνες</p>
+<p>                    </p>
+<p>                        Infographics</p>
+<p>                    </p>
+<p>Τα Νεα</p>
+<p> Επικαιρότητα Ελλάδα</p>
+<p>                        Νόμος</p>
+<p>                    </p>
+<p>                        Εργασία</p>
+<p>                    </p>
+<p>                        Εκπαίδευση</p>
+<p>                    </p>
+<p>                        Μεταφορές</p>
+<p>                    </p>
+<p>                        Κοινότητες</p>
+<p>                    </p>
+<p>                        Θεσσαλονίκη</p>
+<p>                    </p>
+<p>Συμβαίνει τώρα:</p>
+<p>Αλλαγές και ταλαιπωρία στα δρομολόγια του Προαστιακού</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>    $(document).ready(function () {</p>
+<p>        var tick = new TickerWithFade("div.ticker");</p>
+<p>        tick.Initialize();</p>
+<p>    });</p>
+<p>    </p>
+<p>    var h = $("[id=header] div.row2").css({ height: "auto" }).height();</p>
+<p>    $("[id=header] div.row2").css({ height: "34px" });</p>
+<p>    if (h > 40) {</p>
+<p>        $("div.foldmenu").show();</p>
+<p>    }</p>
+<p>    $(document).ready(function () {</p>
+<p>        $("div.foldmenu").click(function () {</p>
+<p>            if ($(this).attr("closed") == "true") {</p>
+<p>                $("[id=header] div.row2").animate({ height: h });</p>
+<p>                $(this).attr("closed", "false")</p>
+<p>                $(this).find("img").attr("src", "/themes/1/default/media/images/header_menu_multiple_opened.png");</p>
+<p>            } else {</p>
+<p>                $("[id=header] div.row2").animate({ height: 34 });</p>
+<p>                $(this).attr("closed", "true");</p>
+<p>                $(this).find("img").attr("src", "/themes/1/default/media/images/header_menu_multiple_closed.png");</p>
+<p>            }</p>
+<p>        });</p>
+<p>    });</p>
+<p>    var ArticleID = 4684862,</p>
+<p>        IsOldNea = false,</p>
+<p>        Content, LastSizeCssClass = 'fontsmall';</p>
+<p>    $(document).ready(function () {</p>
+<p>        $('#print-me').click(function () {</p>
+<p>            window.open('/PrintArticle/?article=4684862&iid=2');</p>
+<p>            return false;</p>
+<p>        });</p>
+<p>        Content = $.merge($('#article-content'), $('#article-content div'));</p>
+<p>        </p>
+<p>        $('#font-small').click(function () { return ChangeFontSize('fontsmall'); });</p>
+<p>        $('#font-medium').click(function () { return ChangeFontSize('fontmedium'); });</p>
+<p>        $('#font-large').click(function () { return ChangeFontSize('fontlarge'); });</p>
+<p>        // $('.thumbsup').click(function (e) { return IncreaseCommentRating(e.target, true); });</p>
+<p>        // $('.thumbsdown').click(function (e) { return IncreaseCommentRating(e.target, false); });</p>
+<p>    });</p>
+<p>    function ChangeFontSize(cssClass) {</p>
+<p>        Content.removeClass(LastSizeCssClass);</p>
+<p>        LastSizeCssClass = cssClass;</p>
+<p>        Content.addClass(LastSizeCssClass);</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    //function IncreaseCommentRating(target, positive) {</p>
+<p>    //    var $target = $(target),</p>
+<p>    //        commentId = $target.parent().next().attr('id').slice(1);</p>
+<p>    //    $.ajax({</p>
+<p>    //        url: '/WebServices/CommentManager.asmx/IncreaseCommentRating?commentId=' + commentId + '&positive=' + positive,</p>
+<p>    //        type: 'GET',</p>
+<p>    //        cache: false,</p>
+<p>    //        success: function(response) { $target.text($(response).first().text()); }</p>
+<p>    //    });</p>
+<p>    //    return false;</p>
+<p>    //}</p>
+<p>    .fontsmall, .fontsmall div {</p>
+<p>        font-size: 14px;</p>
+<p>    }</p>
+<p>    .fontmedium, .fontmedium div {</p>
+<p>        font-size: 16px;</p>
+<p>    }</p>
+<p>    .fontlarge, .fontlarge div {</p>
+<p>        font-size: 18px;</p>
+<p>    }</p>
+<p>            Η γνώμη των αναγνωστών</p>
+<p>ΔΗΜΟΣΙΕΥΣΗ: 03/01/2012 07:15 | ΤΕΛΕΥΤΑΙΑ ΕΝΗΜΕΡΩΣΗ: 03/01/2012 20:00 | </p>
+<p>        </p>
+<p>    function SponsorLink() {</p>
+<p>        window.open('/googleAdsCode/sponsorLinks.htm', 'winSelectCategory', 'status=no,toolbars=no,scrollbars=no,location=no,menubar=no,resizable=no,width=400,height=440');</p>
+<p>    }</p>
+<p>    function google_ad_request_done(google_ads) {</p>
+<p>        var s;</p>
+<p>        var i;</p>
+<p>        if (google_ads.length == 0) {</p>
+<p>            return;</p>
+<p>        }</p>
+<p>        if (google_ads[0].type == "text") {</p>
+<p>            if (google_ads.length > 0) {</p>
+<p>                s = '<div class="promoTitle"><a href="#" onclick="SponsorLink();return false;" target="_blank">ΠΡΟΒΕΒΛΗΜΕΝΕΣ ΚΑΤΑΧΩΡΗΣΕΙΣ</a></div>'; for (i = 0; i < google_ads.length; ++i) {</p>
+<p>                    s += '<div class="manyAds">' +</p>
+<p>				    '<div class="addTitle">' +</p>
+<p>					    '<a target="_blank" href="' + google_ads[i].url + '"onmouseout="window.status=\'\';return true"' +</p>
+<p>					    'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true" style="text-decoration:none">' +</p>
+<p>					    google_ads[i].line1 +</p>
+<p>					    '</a>' +</p>
+<p>				    '</div>' +</p>
+<p>				    '<div class="addText">' +</p>
+<p>					    '<span>' + google_ads[i].line2 + '&nbsp;' + google_ads[i].line3 + '</span>' +</p>
+<p>				    '</div>' +</p>
+<p>				    '<div class="addUrl">' +</p>
+<p>					    '<a target="_blank" href="' + google_ads[i].url + '"onmouseout="window.status=\'\';return true"' +</p>
+<p>					    'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true" style="text-decoration:none">' +</p>
+<p>					    google_ads[i].visible_url +</p>
+<p>					    '</a>' +</p>
+<p>				    '</div>' +</p>
+<p>			    '</div>';</p>
+<p>                }</p>
+<p>                var gAdsDiv = document.getElementById('gAdsDiv');</p>
+<p>                if (gAdsDiv == null)</p>
+<p>                    return;</p>
+<p>                gAdsDiv.innerHTML = s;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        return;</p>
+<p>    }</p>
+<p>    google_ad_client = 'pub-4891712477108158';</p>
+<p>    google_ad_output = 'js';</p>
+<p>    google_language = 'gr';</p>
+<p>    google_encoding = 'utf8';</p>
+<p>    google_safe = 'high';</p>
+<p>    google_feedback = 'on';</p>
+<p>    google_ad_type = 'text';</p>
+<p>    google_ad_channel = '5543249489';</p>
+<p>    google_ad_width = 728;</p>
+<p>    google_ad_height = 90;</p>
+<p>    /*						</p>
+<p>    google_ad_type = 'text_html';</p>
+<p>    google_image_size = '728x90';</p>
+<p>			</p>
+<p>    */</p>
+<p>    google_max_num_ads = 1;</p>
+<p>    $(document).ready(function () {</p>
+<p>        try {</p>
+<p>            var e = document.getElementByID('like-button-addthis');</p>
+<p>            e.createAttribute('fb:like:layout', 'button_count');</p>
+<p>            e = document.getElementByID('plusone-addthis-button');</p>
+<p>            e.createAttribute('g:plusone:size', 'medium');</p>
+<p>            // gapi.plusone.render('9ecd5fefa60913f1ab0f45d68fed4489', { "size": "medium", "href": "http://www.tanea.gr/news/greece/article/4684862/" });</p>
+<p>            addthis.toolbox('#9ecd5fefa60913f1ab0f45d68fed4489toolbox', {}, { url: 'http://www.tanea.gr/news/greece/article/4684862/', title: 'Η γνώμη των αναγνωστών', description: 'Η γνώμη των αναγνωστών' });</p>
+<p>            //            var inter = setInterval(function () {</p>
+<p>            //                addthis.counter('#9ecd5fefa60913f1ab0f45d68fed4489Counter', {}, { url: 'http://www.tanea.gr/news/greece/article/4684862/', title: 'Η γνώμη των αναγνωστών', description: 'Η γνώμη των αναγνωστών' });</p>
+<p>            //                $('#9ecd5fefa60913f1ab0f45d68fed4489Counter').fadeIn();</p>
+<p>            //                clearInterval(inter);</p>
+<p>            //            }</p>
+<p>            //                                , 1000);</p>
+<p>        } catch (e) { }</p>
+<p>    });</p>
+<p>            Σύγχρονο σοσιαλδημοκρατικό κόμμα</p>
+<p>Το ΠΑΣΟΚ εάν θέλει να ανταποκριθεί στις απαιτήσεις της εποχής οφείλει να κάνει μια μεγάλη πολιτική υπέρβαση....</p>
+<p>            $("a.login-article-button").click(function(){</p>
+<p>                ShowPopupIfUserHasNotAccessToUrl("false");</p>
+<p>                return false;</p>
+<p>            });</p>
+<p>        </p>
+<p>                    0</p>
+<p>                    </p>
+<p>                    </p>
+<p>Σχόλια αναγνωστών</p>
+<p>            ΤΕΛΕΥΤΑΙΑ ΝΕΑ</p>
+<p>                            Η Κύπρος διαψεύδει ότι σκοπεύει να πουλήσει μέρος των αποθεμάτων χρυσού της</p>
+<p> Πριν 6'  •  </p>
+<p>                            Σε θέση εκτόξευσης βρίσκονται οι πύραυλοι της βόρειας Κορέας  </p>
+<p> Πριν 22'  •  </p>
+<p>                            Στον Εισαγγελέα οι επτά συλληφθέντες για τα επεισόδια στο Πανεπιστήμιο Πειραιά</p>
+<p> Πριν 48'  •  </p>
+<p>                            Οι αεροπορικές επιδρομές στη Συρία έχουν στόχο τους αμάχους καταγγέλλει το Παρατηρητήριο Ανθρωπίνων Δικαιωμάτων</p>
+<p> Πριν 49'  •  </p>
+<p>                            Δεκάδες χιλιάδες διαδήλωσαν στις ΗΠΑ για τη βελτίωση του μεταναστευτικού νόμου</p>
+<p> Πριν 51'  •  </p>
+<p>Όλες οι ενότητες</p>
+<p>                            Πολιτική</p>
+<p>                            Οικονομία</p>
+<p>                            Ελλάδα</p>
+<p>                            Κόσμος</p>
+<p>                            Επιστήμη & Τεχνολογία</p>
+<p>                            Πολιτισμός</p>
+<p>                            Σπορ</p>
+<p>                            Life & Style</p>
+<p>                            tanea360°</p>
+<p>                    Η Κύπρος διαψεύδει ότι σκοπεύει να πουλήσει μέρος των αποθεμάτων χρυσού της</p>
+<p>                </p>
+<p>                    Πριν 7'</p>
+<p>                </p>
+<p>                    Σε θέση εκτόξευσης βρίσκονται οι πύραυλοι της βόρειας Κορέας  </p>
+<p>                </p>
+<p>                    Πριν 23'</p>
+<p>                </p>
+<p>                    Στον Εισαγγελέα οι επτά συλληφθέντες για τα επεισόδια στο Πανεπιστήμιο Πειραιά</p>
+<p>                </p>
+<p>                    Πριν 49'</p>
+<p>                </p>
+<p>                    Οι αεροπορικές επιδρομές στη Συρία έχουν στόχο τους αμάχους καταγγέλλει το Παρατηρητήριο Ανθρωπίνων Δικαιωμάτων</p>
+<p>                </p>
+<p>                    Πριν 50'</p>
+<p>                </p>
+<p>                    Δεκάδες χιλιάδες διαδήλωσαν στις ΗΠΑ για τη βελτίωση του μεταναστευτικού νόμου</p>
+<p>                </p>
+<p>                    Πριν 52'</p>
+<p>                </p>
+<p>                    Αλλάζει το χρώμα του αίματος για χάρη των Κινέζων</p>
+<p>                </p>
+<p>                    08:00</p>
+<p>                </p>
+<p>                    Επηρεάζουν το 40% της βάσης</p>
+<p>                </p>
+<p>                    08:00</p>
+<p>                </p>
+<p>                    [Μικροπολιτικός] Τηλεφωνούσε ξημερώματα στον Σαμαρά</p>
+<p>                </p>
+<p>                    08:00</p>
+<p>                </p>
+<p>                    [Μικροπολιτικός] Βγήκαν μαχαίρια </p>
+<p>                </p>
+<p>                    08:00</p>
+<p>                </p>
+<p>                    Υπογραφή συμβάσεων έργων 1 δισ. ευρώ έως τον Ιούνιο</p>
+<p>                </p>
+<p>                    08:00</p>
+<p>                </p>
+<p>            όλες οι τελευταίες ειδήσεις</p>
+<p>        $(function () {</p>
+<p>            $('#newsroom').newsroom({</p>
+<p>                UrlPrefix: '/WebServices/ArticleManager.asmx/GetLastArticleBoxROI?catId=',</p>
+<p>                LinkPostText: ' τελευταίες <span class=\"section\" id=\"eidiseis\">ειδήσεις</span>',</p>
+<p>                CategoriesInfo: function () {</p>
+<p>                    var n = 'news/', a = '/articlelist/';</p>
+<p>                    return {</p>
+<p>                        '-1': { l: 'όλες οι', u: 'news' + a },</p>
+<p>                        '4': { l: 'Πολιτική', u: n + 'politics' + a },</p>
+<p>                        '10': { l: 'Ελλάδα', u: n + 'greece' + a },</p>
+<p>                        '16': { l: 'Κόσμος', u: n + 'world' + a },</p>
+<p>                        '18': { l: 'Life &amp; Style', u: 'life-style' + a },</p>
+<p>                        '28': { l: 'Επιστήμη &amp; Τεχνολογία', u: n + 'sience-technology' + a },</p>
+<p>                        '30': { l: 'Οικονομία', u: n + 'economy' + a },</p>
+<p>                        '43': { l: 'Πολιτισμός', u: n + 'culture' + a },</p>
+<p>                        '57': { l: 'Σπορ', u: n + 'sports' + a },</p>
+<p>                        '67': { l: 'tanea360°', u: 'tanea360' + a }</p>
+<p>                    };</p>
+<p>                } ()</p>
+<p>            });</p>
+<p>        });</p>
+<p>    </p>
+<p>    $(document).ready(function () {</p>
+<p>        var tabC = new TabController("div.box[id='userarticles']", "div.header", "div.items");</p>
+<p>        tabC.Init();</p>
+<p>    });</p>
+<p>ΔΙΑΒΑΣΜΕΝΑ</p>
+<p>ΣΧΟΛΙΑΣΜΕΝΑ</p>
+<p>ΜΟΙΡΑΣΜΕΝΑ</p>
+<p>                        1</p>
+<p>                    </p>
+<p>                            Θανατηφόρο τροχαίο με εγκατάλειψη στη Λ.Κηφισίας</p>
+<p>                        </p>
+<p> 07/04/2013 23:47  • 9 </p>
+<p>                        2</p>
+<p>                    </p>
+<p>                            Δύο ληστείες τα ξημερώματα σε ξενοδοχεία της λεωφ. Ποσειδώνος</p>
+<p>                        </p>
+<p> 07/04/2013 13:13  • 4 </p>
+<p>                        3</p>
+<p>                    </p>
+<p>                            «Δεν είδα τον φόβο του πολέμου στα πρόσωπα των ανθρώπων», λέει στα «ΝΕΑ» η μοναδική Ελληνίδα της Βόρειας Κορέας</p>
+<p>                        </p>
+<p> 06/04/2013 18:50  • 69 </p>
+<p>                        4</p>
+<p>                    </p>
+<p>                            Ενας αγνοούμενος στην Ιεράπετρα από ανατροπή φουσκωτού</p>
+<p>                        </p>
+<p> 07/04/2013 14:52  •  </p>
+<p>                        5</p>
+<p>                    </p>
+<p>                            Ακτινογραφία στα κοιτάσματα πετρελαίου σε Ιόνιο και Κρήτη</p>
+<p>                        </p>
+<p> 06/04/2013 08:00  • 8 </p>
+<p>                        1</p>
+<p>                    </p>
+<p>                            «Οχι» από τους πρυτάνεις στη διαγραφή των «αιώνιων» φοιτητών</p>
+<p>                        </p>
+<p> 07/04/2013 18:49  • 92 </p>
+<p>                        2</p>
+<p>                    </p>
+<p>                            «Δεν είδα τον φόβο του πολέμου στα πρόσωπα των ανθρώπων», λέει στα «ΝΕΑ» η μοναδική Ελληνίδα της Βόρειας Κορέας</p>
+<p>                        </p>
+<p> 06/04/2013 18:50  • 69 </p>
+<p>                        3</p>
+<p>                    </p>
+<p>                            Spiegel: «Η Γερμανία χρωστά 162 δισ. ευρώ για πολεμικές αποζημιώσεις στην Ελλάδα»</p>
+<p>                        </p>
+<p> 08/04/2013 09:23  • 25 </p>
+<p>                        4</p>
+<p>                    </p>
+<p>                            Φραστική επίθεση δέχτηκε ο Θεόδωρος Πάγκαλος στη λίμνη Βουλιαγμένης </p>
+<p>                        </p>
+<p> 07/04/2013 19:09  • 18 </p>
+<p>                        5</p>
+<p>                    </p>
+<p>                            Πόλεμος για τον γκέι νταλικέρη</p>
+<p>                        </p>
+<p> 06/04/2013 08:00  • 14 </p>
+<p>                        1</p>
+<p>                    </p>
+<p>                            Πένθος για την απώλεια του ναυάρχου Νίκου Παππά, κυβερνήτη του θρυλικού «Βέλους»</p>
+<p>                        </p>
+<p> 05/04/2013 14:02  • 39 </p>
+<p>                        2</p>
+<p>                    </p>
+<p>                            Spiegel: «Η Γερμανία χρωστά 162 δισ. ευρώ για πολεμικές αποζημιώσεις στην Ελλάδα»</p>
+<p>                        </p>
+<p> 08/04/2013 09:23  • 25 </p>
+<p>                        3</p>
+<p>                    </p>
+<p>                            Φοιτητής εισέπραξε γροθιές επειδή δεν πλήρωσε χωρίς απόδειξη</p>
+<p>                        </p>
+<p> 03/04/2013 08:00  • 43 </p>
+<p>                        4</p>
+<p>                    </p>
+<p>                            «Δεν είδα τον φόβο του πολέμου στα πρόσωπα των ανθρώπων», λέει στα «ΝΕΑ» η μοναδική Ελληνίδα της Βόρειας Κορέας</p>
+<p>                        </p>
+<p> 06/04/2013 18:50  • 69 </p>
+<p>                        5</p>
+<p>                    </p>
+<p>                            Ο Μίσα δεν ξύπνησε ποτέ</p>
+<p>                        </p>
+<p> 02/04/2013 17:30  •  </p>
+<p> </p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/el_GR/all.js#xfbml=1&appId=333792420065268";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>    $(document).ready(function () {</p>
+<p>        $("select[name='moreUrlNavigateSelect']").change(function () {</p>
+<p>            $("select option:selected").each(function () {</p>
+<p>                if ($(this).attr('value') != 'null') {</p>
+<p>                    window.open($(this).attr('value'), "newwindow");</p>
+<p>                }</p>
+<p>            });</p>
+<p>        });</p>
+<p>        ///Search/?area=0&author=&cid=-1&so=1&sa=0&pt=5&words=</p>
+<p>        $("input[id=searchInputFooter]").keypress(function (e) {</p>
+<p>            var code = (e.keyCode ? e.keyCode : e.which);</p>
+<p>            if (code == 13 || code == 10) {</p>
+<p>                searchFromFooter();</p>
+<p>                return false;</p>
+<p>            }</p>
+<p>            return true;</p>
+<p>        });</p>
+<p>        $("img[id=searchButtonImage]").click(function () {</p>
+<p>            searchFromFooter();</p>
+<p>        });</p>
+<p>    });</p>
+<p>    function searchFromFooter() {</p>
+<p>        var words = "";</p>
+<p>        $("input[id=searchInputFooter]").each(function () {</p>
+<p>            words += $(this).val();</p>
+<p>        });</p>
+<p>        window.location.href = "/Search/?area=0&author=&cid=-1&so=1&sa=0&pt=3&words=" + decodeURI(words);</p>
+<p>    }</p>
+<p>                                    Ελλάδα</p>
+<p>                                </p>
+<p> Νόμος   Εργασία   Εκπαίδευση   Μεταφορές   Κοινότητες   Θεσσαλονίκη </p>
+<p>                                    Πολιτική</p>
+<p>                                </p>
+<p> Ευρωπαϊκή Ένωση   Βουλή   Διπλωματία & 'Αμυνα   Αυτοδιοίκηση   Μικροπολιτικός </p>
+<p>                                    Οικονομία</p>
+<p>                                </p>
+<p> Ειδήσεις   Αγορές   Επιχειρήσεις   Καταναλωτής   Φορολογία   Εργασία   Τουρισμός   Ανακοινώσεις </p>
+<p>                                    Πολιτισμός</p>
+<p>                                </p>
+<p> Αρχιτεκτονική & Design   Αρχαιολογία   Σινεμά   Θέατρο & Χορός   Μουσική   Εικαστικά   Βιβλίο   Για το παιδί </p>
+<p>                                    Σπορ</p>
+<p>                                </p>
+<p> Ποδόσφαιρο   Μπάσκετ   Στίβος   Μηχανοκίνητα </p>
+<p>                                    Απόψεις</p>
+<p>                                </p>
+<p> Όλες οι Απόψεις   Αρθρογράφοι   Blogs   Απόψεις αναγνωστών   Συζητάμε   Γελοιογραφίες   Βίντεο   Φωτογραφίες </p>
+<p>                                    Life & Style</p>
+<p>                                </p>
+<p> Γεύση   Μόδα & Ομορφιά   Ταξίδια   Αυτοκίνητο   Σχέσεις   Κοσμικά </p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>Google+ RSS</p>
+<p>                        $("a.rssFooter").attr("href", "/rss.axd?pgid=" + NvPage.PageId);</p>
+<p>                    </p>
+<p>                            Κόσμος</p>
+<p>                        </p>
+<p>                            Επιστήμη & Τεχνολογία</p>
+<p>                        </p>
+<p>                            Υγεία</p>
+<p>                        </p>
+<p>                            tanea360°</p>
+<p>                        </p>
+<p>                            NEATV</p>
+<p>                        </p>
+<p>                            Εικόνες</p>
+<p>                        </p>
+<p>                            Infographics</p>
+<p>                        </p>
+<p>Ταυτότητα | Επικοινωνία | </p>
+<p>                    Διαφήμιση | Όροι χρήσης</p>
+<p>                © Δημοσιογραφικός Οργανισμός Λαμπράκη</p>
+<p>                </p>
+<p>Άλλοι δικτυακοί τόποι</p>
+<p>in.gr</p>
+<p>tovima.gr</p>
+<p>imommy.gr</p>
+<p>marie claire.gr</p>
+<p>gamos.gr</p>
+<p>Vita.gr</p>
+<p>cosmopolitan.gr</p>
+<p>diakopes.gr</p>
+<p>dol.gr</p>
+<p>powered by </p>
+<p>                        NETVOLUTION</p>
+<p>     </p>
+<p> $("html").attr("xmlns:fb","http://ogp.me/ns/fb#");</p>
+<p>      jQuery.ready();</p>
+<p>    </p>
+<p>            jQuery.ready();</p>
+<p>          </p>
+<p>              CustomAds.push(['BMIBanner485','#Banner728x90Header','TaNeaEllada728x90Header']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|1956/728x90"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner486','#Banner300xRight1','TaNeaEllada300x_Right1']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|1957/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner487','#Banner300xRight2','TaNeaEllada300x_Right2']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|1958/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner488','#Banner230x250Middle','TaNeaEllada230x250_Middle']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|1959/230x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner489','#Banner234x27VAI','TaNeaEllada234x27_VAI']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|1960/234x27"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>            jQuery.ready();</p>
+<p>        try{  </p>
+<p>		  MoveCustomAds(); </p>
+<p>	}catch(err) {}</p>
+<p>          </p>
+<p>          CleanUpAds();</p>
+<p>        </p>
+<p>    var _rsCI = "ingr";</p>
+<p>    var _rsCG = "0";</p>
+<p>    var _rsDN = "//secure-uk.imrworldwide.com/";</p>
+<p>    var _rsCC = 0;</p>
+<p>    var _rsSE = 1;</p>
+<p>    var _rsSM = 0.05;</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-28563335-4']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>

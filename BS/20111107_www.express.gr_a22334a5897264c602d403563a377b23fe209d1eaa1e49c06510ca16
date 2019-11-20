@@ -1,0 +1,3682 @@
+<p>GS_googleAddAdSenseService("ca-pub-7418193707830768");</p>
+<p>GS_googleEnableAllServices();</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Home_160x600");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Home_300x250");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Home_300x250_2nd");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Home_468x60");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Home_728x90");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "News_160x600");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "News_300x250");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "News_300x250_2nd");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "News_728x90");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Ros_160x600");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Ros_300x250");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Ros_300x250_2nd");</p>
+<p>GA_googleAddSlot("ca-pub-7418193707830768", "Ros_728x90");</p>
+<p>GA_googleFetchAds();</p>
+<p>Οι διακοπές δεν βοηθούν την κατάθλιψη - Express.gr</p>
+<p> </p>
+<p>function bookmark(){</p>
+<p>    var title="EXPRESS.gr"</p>
+<p>    var url="http://www.express.gr"</p>
+<p>    if (window.sidebar) window.sidebar.addPanel(title, url,"");</p>
+<p>    else if( window.opera && window.print )</p>
+<p>    {</p>
+<p>    var mbm = document.createElement('a');</p>
+<p>    mbm.setAttribute('rel','sidebar');</p>
+<p>    mbm.setAttribute('href',url);</p>
+<p>    mbm.setAttribute('title',title);</p>
+<p>    mbm.click();</p>
+<p>    }</p>
+<p>    else if( document.all ) window.external.AddFavorite( url, title);</p>
+<p>}</p>
+<p><!--</p>
+<p>function FP_changeProp() {//v1.0</p>
+<p> var args=arguments,d=document,i,j,id=args[0],o=FP_getObjectByID(id),s,ao,v,x;</p>
+<p> d.$cpe=new Array(); if(o) for(i=2; i<args.length; i+=2) { v=args[i+1]; s="o"; </p>
+<p> ao=args[i].split("."); for(j=0; j<ao.length; j++) { s+="."+ao[j]; if(null==eval(s)) { </p>
+<p>  s=null; break; } } x=new Object; x.o=o; x.n=new Array(); x.v=new Array();</p>
+<p> x.n[x.n.length]=s; eval("x.v[x.v.length]="+s); d.$cpe[d.$cpe.length]=x;</p>
+<p> if(s) eval(s+"=v"); }</p>
+<p>}</p>
+<p>function FP_getObjectByID(id,o) {//v1.0</p>
+<p> var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);</p>
+<p> else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;</p>
+<p> if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)</p>
+<p> for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }</p>
+<p> f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;</p>
+<p> for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }</p>
+<p> return null;</p>
+<p>}</p>
+<p>function FP_swapImg() {//v1.0</p>
+<p> var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;</p>
+<p> n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;</p>
+<p> elm.$src=elm.src; elm.src=args[n+1]; } }</p>
+<p>}</p>
+<p>function FP_preloadImgs() {//v1.0</p>
+<p> var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();</p>
+<p> for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }</p>
+<p>}</p>
+<p>function FP_getObjectByID(id,o) {//v1.0</p>
+<p> var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);</p>
+<p> else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;</p>
+<p> if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)</p>
+<p> for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }</p>
+<p> f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;</p>
+<p> for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }</p>
+<p> return null;</p>
+<p>}</p>
+<p>// --></p>
+<p>function FP_goToURL(url) {</p>
+<p> window.location=url;</p>
+<p>}</p>
+<p>	</p>
+<p>		function change(id){ </p>
+<p>     	ID = document.getElementById(id); </p>
+<p>     	</p>
+<p>     	if(ID.style.display == "") </p>
+<p>          ID.style.display = "none"; </p>
+<p>     	else </p>
+<p>          ID.style.display = ""; </p>
+<p>      	}</p>
+<p>	</p>
+<p>      var panels = new Array('panel1', 'panel2');</p>
+<p>      var selectedTab = null;</p>
+<p>      function showPanel(tab, name)</p>
+<p>      {</p>
+<p>        if (selectedTab) </p>
+<p>        {</p>
+<p>          selectedTab.style.backgroundColor = '';</p>
+<p>                  selectedTab.style.Color = '#1c6a05';</p>
+<p>          selectedTab.style.background = 'url(styles/tabs2.gif)';</p>
+<p>        }</p>
+<p>        selectedTab = tab;</p>
+<p>        selectedTab.style.Color = '#aa1415';</p>
+<p>          selectedTab.style.background = 'url(styles/tabs1.gif)';</p>
+<p>          </p>
+<p>        for(i = 0; i < panels.length; i++)</p>
+<p>        {</p>
+<p>          document.getElementById(panels[i]).style.display = (name == panels[i]) ? 'block':'none';</p>
+<p>        }</p>
+<p>        return false;</p>
+<p>      }</p>
+<p>      var panelz = new Array('panel3', 'panel4');</p>
+<p>      var selectedTap = null;</p>
+<p>      function showPanel2(Tap, name)</p>
+<p>      {</p>
+<p>        if (selectedTap) </p>
+<p>        {</p>
+<p>          selectedTap.style.backgroundColor = '#336699';</p>
+<p>                  selectedTap.style.Color = '#000000';</p>
+<p>          selectedTap.style.background = 'url(styles/tabs-off.gif)';</p>
+<p>        }</p>
+<p>        selectedTap = Tap;</p>
+<p>        selectedTap.style.Color = '#000000';</p>
+<p>          selectedTap.style.background = 'url(styles/times.gif)';</p>
+<p>          </p>
+<p>        for(i = 0; i < panelz.length; i++)</p>
+<p>        {</p>
+<p>          document.getElementById(panelz[i]).style.display = (name == panelz[i]) ? 'block':'none';</p>
+<p>        }</p>
+<p>        return false;</p>
+<p>      }</p>
+<p>      var pans = new Array('pan1', 'pan2', 'pan3', 'pan4');</p>
+<p>      var selectedBap = null;</p>
+<p>      function showPanel3(Bap, name)</p>
+<p>      {</p>
+<p>        if (selectedBap) </p>
+<p>        {</p>
+<p>                  selectedBap.style.color = '#000000';</p>
+<p>          selectedBap.style.background = '#ffffff';</p>
+<p>        selectedBap = Bap;</p>
+<p>        selectedBap.style.color = '#ffffff';</p>
+<p>          selectedBap.style.background = '#000000';</p>
+<p>          </p>
+<p>        for(i = 0; i < pans.length; i++)</p>
+<p>        {</p>
+<p>          document.getElementById(pans[i]).style.display = (name == pans[i]) ? 'block':'none';</p>
+<p>        }</p>
+<p>        }</p>
+<p>        return false;</p>
+<p>      }</p>
+<p><!--</p>
+<p>function get_element(element_id){</p>
+<p>  if (document.getElementById){</p>
+<p>    return document.getElementById(element_id);    </p>
+<p>  }</p>
+<p>  else if (document.all){</p>
+<p>    return document.all[element_id];</p>
+<p>  }</p>
+<p>  else if (document.layers){  </p>
+<p>    return document.layers[element_id];</p>
+<p>  }	</p>
+<p>  else {</p>
+<p>  	return false;</p>
+<p>  }</p>
+<p>}</p>
+<p>function innerHTML(element_id,content){</p>
+<p>  if(get_element(element_id)){</p>
+<p>    get_element(element_id).innerHTML = content</p>
+<p>    return true;</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    alert ("Can't find element id "+element_id+" to write content: "+content)</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>}</p>
+<p>function ADDinnerHTML(element_id,content){</p>
+<p>  if(get_element(element_id)){</p>
+<p>    get_element(element_id).innerHTML += content;</p>
+<p>    return true;</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    alert ("Can't find element id "+element_id+" to write content: "+content)</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>}</p>
+<p>function ADDRinnerHTML(element_id,content){</p>
+<p>  if(get_element(element_id)){</p>
+<p>    get_element(element_id).innerHTML = content + get_element(element_id).innerHTML;</p>
+<p>    return true;</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    alert ("Can't find element id "+element_id+" to write content: "+content)</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>}</p>
+<p>function hide_reveal(hide, reveal){</p>
+<p>  var targetElement;	</p>
+<p>  for(var i=0;i<hide.length;i++){</p>
+<p>    if(targetElement = get_element(hide[i])){ </p>
+<p>      targetElement.style.display = "none";  </p>
+<p>    }</p>
+<p>  }   </p>
+<p>  for(var i=0;i<reveal.length;i++){</p>
+<p>    if(targetElement = get_element(reveal[i])){ </p>
+<p>      targetElement.style.display = "";  </p>
+<p>    } </p>
+<p>  }</p>
+<p>}</p>
+<p>function textCounter(field, countfield, maxlimit) {</p>
+<p>  if (field.value.length > maxlimit){</p>
+<p>    field.value = field.value.substring(0, maxlimit);</p>
+<p>  }</p>
+<p>  countfield.value = /* maxlimit - */ field.value.length;</p>
+<p>}</p>
+<p>function trim(inputString) {</p>
+<p>  if (typeof inputString != "string") { return inputString; }</p>
+<p>  var retValue = inputString;</p>
+<p>  var ch = retValue.substring(0, 1);</p>
+<p>  while (ch == " ") { </p>
+<p>    retValue = retValue.substring(1, retValue.length);</p>
+<p>    ch = retValue.substring(0, 1);</p>
+<p>  }</p>
+<p>  ch = retValue.substring(retValue.length-1, retValue.length);</p>
+<p>  while (ch == " ") {</p>
+<p>    retValue = retValue.substring(0, retValue.length-1);</p>
+<p>    ch = retValue.substring(retValue.length-1, retValue.length);</p>
+<p>  }</p>
+<p>  while (retValue.indexOf("  ") != -1) { </p>
+<p>    retValue = retValue.substring(0, retValue.indexOf("  ")) + retValue.substring(retValue.indexOf("  ")+1, retValue.length); </p>
+<p>  }</p>
+<p>  return retValue;</p>
+<p>} </p>
+<p>function set_select_box_value(select_box, what){</p>
+<p>  for (var i = 0; i < select_box.options.length;i++){	</p>
+<p>  	select_box.options[i].selected = (select_box.options[i].value == what)?true:false;</p>
+<p>  }</p>
+<p>}</p>
+<p>function validateTime(field){</p>
+<p>  var keycode;</p>
+<p>  if (window.event) { </p>
+<p>    keycode = window.event.keyCode;</p>
+<p>  }</p>
+<p>/*  else if (e) </p>
+<p>    keycode = e.which;</p>
+<p>  else </p>
+<p>    alert("no event")</p>
+<p> */</p>
+<p>  </p>
+<p>  if (keycode == 8){                         </p>
+<p>    if (field.value.length == 2){</p>
+<p>      field.value = field.value.substring(0,1);</p>
+<p>    }</p>
+<p>  }</p>
+<p>               </p>
+<p>  var valid = "0123456789:"</p>
+<p>  var temp;</p>
+<p>  for (var i=0; i<field.value.length; i++){</p>
+<p>    temp = "" + field.value.substring(i, i+1);</p>
+<p>    if (valid.indexOf(temp) == "-1") {</p>
+<p>      field.value = field.value.substring(0, (field.value.length) -1); </p>
+<p>    }     </p>
+<p>  }</p>
+<p>  if (field.value.length == 1){</p>
+<p>    if(isNaN(field.value)){</p>
+<p>      field.value = "";</p>
+<p>    }</p>
+<p>  }</p>
+<p>  if (field.value.length == 2){</p>
+<p>  	if(isNaN(field.value)){</p>
+<p>      field.value = field.value.substring(0, (field.value.length) -1); </p>
+<p>  	}</p>
+<p>  }</p>
+<p>  if (field.value.length == 1){</p>
+<p>    if (field.value > 2){</p>
+<p>      field.value = "0" + field.value</p>
+<p>    }</p>
+<p>  }</p>
+<p>  if (field.value.length == 2){</p>
+<p>    field.value = field.value + ":"</p>
+<p>    if (field.value.substring(0,2) > 23){</p>
+<p>      field.value = "";</p>
+<p>    }</p>
+<p>  }</p>
+<p>  if (field.value.length == 5){</p>
+<p>  	if (field.value.substring(3,5) > 60){</p>
+<p>      field.value = field.value.substring(0,3);</p>
+<p>  	}</p>
+<p>  }</p>
+<p>  if (field.value.length > 5){</p>
+<p>    field.value = field.value.substring(0,5);         </p>
+<p>  }</p>
+<p>  if (field.value.substring((field.value.length) -1, (field.value.length)+1)== ":"){</p>
+<p>  	temp = "" + field.value.substring(0, (field.value.length)-1);                         </p>
+<p>    if (temp.indexOf(":") != "-1") {</p>
+<p>      field.value = field.value.substring(0, (field.value.length) -1); </p>
+<p>    }</p>
+<p>  }                    </p>
+<p>} </p>
+<p>function checkTime(that){</p>
+<p>  var time_to_check = that.value; </p>
+<p>  vlIsValid = /^([01]?[0-9]|[2][0-3])(:[0-5][0-9])?$/.test(time_to_check);</p>
+<p>  if (!vlIsValid){</p>
+<p>    alert("ERROR!\nTime MUST be between 00:00 and 23:59\n");</p>
+<p>    that.focus();</p>
+<p>    that.select();</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>  return true;</p>
+<p>}</p>
+<p>function getElementPosition(elemID) {</p>
+<p>  var offsetTrail = get_element(elemID);//document.all(elemID);</p>
+<p>  var tmp = getElementPosition_new(offsetTrail)</p>
+<p>  return {left:tmp.x, top:tmp.y, width:tmp.width,height:tmp.height};</p>
+<p>} </p>
+<p>function getElementPosition_new(element) {</p>
+<p>    var result = new Object();</p>
+<p>    result.x = 0;</p>
+<p>    result.y = 0;</p>
+<p>    result.width = 0;</p>
+<p>    result.height = 0;</p>
+<p>    if (element.offsetParent) {</p>
+<p>        result.x = element.offsetLeft;</p>
+<p>        result.y = element.offsetTop;</p>
+<p>        var parent = element.offsetParent;</p>
+<p>      //  alert("x:"+result.x+" y:"+result.y+" parent:"+parent.id);</p>
+<p>        while (parent) {</p>
+<p>            result.x += parent.offsetLeft;</p>
+<p>            result.y += parent.offsetTop;</p>
+<p>            var parentTagName = parent.tagName.toLowerCase();</p>
+<p>            if (parentTagName != "table" &&</p>
+<p>                parentTagName != "body" && </p>
+<p>                parentTagName != "html" && </p>
+<p>                parentTagName != "div" && </p>
+<p>                parent.clientTop && </p>
+<p>                parent.clientLeft) {</p>
+<p>                result.x += parent.clientLeft;</p>
+<p>                result.y += parent.clientTop;</p>
+<p>            }</p>
+<p>          //  alert("x:"+result.x+" y:"+result.y+" parent:"+parent.id);</p>
+<p>            parent = parent.offsetParent;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    else if (element.left && element.top) {</p>
+<p>        result.x = element.left;</p>
+<p>        result.y = element.top;</p>
+<p>    }</p>
+<p>    else {</p>
+<p>        if (element.x) {</p>
+<p>            result.x = element.x;</p>
+<p>        }</p>
+<p>        if (element.y) {</p>
+<p>            result.y = element.y;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    if (element.offsetWidth && element.offsetHeight) {</p>
+<p>        result.width = element.offsetWidth;</p>
+<p>        result.height = element.offsetHeight;</p>
+<p>    }</p>
+<p>    else if (element.style && element.style.pixelWidth && element.style.pixelHeight) {</p>
+<p>        result.width = element.style.pixelWidth;</p>
+<p>        result.height = element.style.pixelHeight;</p>
+<p>    }</p>
+<p>    return result;</p>
+<p>}</p>
+<p> </p>
+<p>function hide(srcElementId){</p>
+<p>  var srcElement;</p>
+<p>  if(srcElement = get_element(srcElementId)){ </p>
+<p>    srcElement.style.display = "none";  </p>
+<p>  }</p>
+<p>}</p>
+<p>function show(srcElementId,left,top){</p>
+<p>  var element_to_reveal;</p>
+<p>  if(element_to_reveal = get_element(srcElementId)){ </p>
+<p>  	if(left){</p>
+<p>  	  element_to_reveal.style.left = left +"px";</p>
+<p>  	}</p>
+<p>  	if(top){</p>
+<p>  	  element_to_reveal.style.top = top + "px";</p>
+<p>  	}</p>
+<p>    element_to_reveal.style.display = "";  </p>
+<p>  }</p>
+<p>}</p>
+<p>function check_radio_box(radio_box,what){</p>
+<p>  for (var i = 0; i < radio_box.length;i++){</p>
+<p>    if(radio_box[i].value == what){</p>
+<p>      radio_box[i].checked = true;</p>
+<p>      break;</p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>
+<p>// this function returns an element of content array for the fill_select_box function</p>
+<p>function new_content(id,text,color){</p>
+<p>  var toret = new Array();</p>
+<p>  toret["id"]=id;</p>
+<p>  toret["text"]=text;</p>
+<p>  toret["color"]=color;</p>
+<p>  return toret;</p>
+<p>} </p>
+<p>function fill_select_box(select_box, content, chosen, use_color, zero_length){</p>
+<p>  var selected = false;</p>
+<p>  if(typeof(select_box)=="undefined"){</p>
+<p>  	alert("Undefined select_box");</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>  if(zero_length==0){</p>
+<p>    select_box.options.length=0;</p>
+<p>//    for( var i in content ){</p>
+<p>    for( var i=0,j=content.length;i<j;i++ ){</p>
+<p>      selected = (content[i]['id']==chosen)?true:false;      </p>
+<p>      var option = document.createElement("OPTION");</p>
+<p>      option.value = content[i]['id'];</p>
+<p>      option.text = content[i]['text'];</p>
+<p>      option.selected = selected;</p>
+<p>      select_box.options[select_box.options.length]= option;    </p>
+<p>      if(use_color && content[i]['color']){      	</p>
+<p>        select_box.options[(select_box.options.length-1)].style.backgroundColor='#DE4A4C';</p>
+<p>      }	</p>
+<p>      else {</p>
+<p>        select_box.options[(select_box.options.length - 1)].style.backgroundColor='';     </p>
+<p>      }</p>
+<p>    }</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    for(var i=0;i<select_box.options.length; i++){</p>
+<p>      var n = parseInt(options[i].value);</p>
+<p>      select_box.options[i].text=content[n]['text'];</p>
+<p>      if(use_color && (content[n]['color']>0)){      	</p>
+<p>        select_box.options[i].style.backgroundColor='#DE4A4C';        </p>
+<p>      }	</p>
+<p>      else {</p>
+<p>        select_box.options[i].style.backgroundColor='';     </p>
+<p>      }      	       </p>
+<p>    }</p>
+<p>  }</p>
+<p>  </p>
+<p>  for(var i = 0; i <select_box.options.length;i++){</p>
+<p>    if(select_box.options[i].value ==chosen){</p>
+<p>      select_box.options[i].selected = true;</p>
+<p>      break;</p>
+<p>    } </p>
+<p>  }  </p>
+<p>}</p>
+<p>function handle_status(status, mesg){</p>
+<p>  if(trim(mesg)!="" && status!=0){</p>
+<p>    alert(status+": "+mesg);</p>
+<p>  }</p>
+<p>}</p>
+<p>function is_numeric(sText){</p>
+<p>  var ValidChars = "0123456789";</p>
+<p>  var Char;</p>
+<p>  IsNumber = true</p>
+<p>  for (i = 0; i < sText.length && IsNumber == true; i++){</p>
+<p>    Char = sText.charAt(i);</p>
+<p>    if (ValidChars.indexOf(Char) == -1){</p>
+<p>      IsNumber = false;</p>
+<p>    }</p>
+<p>  }</p>
+<p>  return IsNumber;</p>
+<p>}</p>
+<p>function is_in_num_range(x,min,max){</p>
+<p>  if(is_numeric(x)){</p>
+<p>  	x = parseInt(x); </p>
+<p>    if(x>=min && x<=max){</p>
+<p>      return true;</p>
+<p>    }</p>
+<p>  }</p>
+<p>  return false;</p>
+<p>}</p>
+<p>var alphabet=new Array();</p>
+<p>alphabet[0] = new RegExp("[αάa]","i");</p>
+<p>alphabet[1] = new RegExp("[βbv]","i");</p>
+<p>alphabet[2] = new RegExp("[γg]","i");</p>
+<p>alphabet[3] = new RegExp("[δd]","i");</p>
+<p>alphabet[4] = new RegExp("[εέe]","i");</p>
+<p>alphabet[5] = new RegExp("[ζz]","i");</p>
+<p>alphabet[6] = new RegExp("[ηήιυίΐυιΰiy]","i");</p>
+<p>alphabet[7] = new RegExp("[θ]","i");</p>
+<p>/*alphabet[] = new RegExp("[ι]","i");*/</p>
+<p>alphabet[8] = new RegExp("[κk]","i");</p>
+<p>alphabet[9] = new RegExp("[λl]","i");</p>
+<p>alphabet[10] = new RegExp("[μm]","i");</p>
+<p>alphabet[11] = new RegExp("[νn]","i");</p>
+<p>alphabet[12] = new RegExp("[ξ]","i");</p>
+<p>alphabet[13] = new RegExp("[οόωώo]","i");</p>
+<p>alphabet[14] = new RegExp("[πp]","i");</p>
+<p>alphabet[15] = new RegExp("[ρr]","i");</p>
+<p>alphabet[16] = new RegExp("[σςs]","i");</p>
+<p>alphabet[17] = new RegExp("[τt]","i");</p>
+<p>/*alphabet[] = new RegExp("[υ]","i");*/</p>
+<p>alphabet[18] = new RegExp("[φf]","i");</p>
+<p>alphabet[19] = new RegExp("[χxh]","i");</p>
+<p>alphabet[20] = new RegExp("[ψ]","i");</p>
+<p>/*alphabet[] = new RegExp("[ω]","i");*/</p>
+<p>function make_regexp(text){</p>
+<p>  var text1='';</p>
+<p>  for(var i=0; i<text.length;i++){</p>
+<p>  	var in_alphabet = false;</p>
+<p>    for(var j=0;j<alphabet.length;j++){</p>
+<p>      if(alphabet[j].exec(text.substring(i,i+1))){</p>
+<p>        text1 += alphabet[j].source;</p>
+<p>        in_alphabet = true;</p>
+<p>        break;</p>
+<p>      }</p>
+<p>    }</p>
+<p>    if(!in_alphabet){</p>
+<p>      text1 += text.substring(i,i+1);</p>
+<p>    }</p>
+<p>  }</p>
+<p>  if (text1.length>0){</p>
+<p>    return new RegExp('^'+text1,'i');</p>
+<p>  }</p>
+<p>  else {</p>
+<p>  	return new RegExp('');</p>
+<p>  }</p>
+<p>}</p>
+<p>function  search_in_select_box(text,select_box){</p>
+<p>  if (text.length>0){</p>
+<p>    re = make_regexp(text);</p>
+<p>    for(var i = 0; i <select_box.options.length;i++){</p>
+<p>      if(re.exec(select_box.options[i].text)){</p>
+<p>        select_box.options[i].selected = true;</p>
+<p>        break;      	</p>
+<p>      }</p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>
+<p>function PadDigits(n, totalDigits) { </p>
+<p>  n = n.toString(); </p>
+<p>  var pd = ''; </p>
+<p>  if (totalDigits > n.length) { </p>
+<p>    for (i=0; i < (totalDigits-n.length); i++) { </p>
+<p>      pd += '0'; </p>
+<p>    } </p>
+<p>  } </p>
+<p>  return pd + n.toString(); </p>
+<p>} </p>
+<p>    </p>
+<p>function esc(text){</p>
+<p>	var regex = /[^0-9a-zA-ZΑ-Ωα-ω?ΆΌΊΉΎΊΏΈάέόώήίύΐΰϊϋΪΫ@\[\]{-}'\" \-\/,.;:=\n!@#$^&*()_+|<>«»]/g;</p>
+<p>//	var regex = /[() -]+/g;</p>
+<p>    return text.replace(regex, "");</p>
+<p>}</p>
+<p>function make_name(name){</p>
+<p>  var regex = /[.\[\]\"\']+/g;</p>
+<p>  return name.replace(regex,"_");</p>
+<p>}</p>
+<p>var e = window.encodeURIComponent ? encodeURIComponent : escape;  </p>
+<p>var d = window.decodeURIComponent ? decodeURIComponent : unescape;  </p>
+<p>var my_objects = new Array();</p>
+<p>function mouseCoords(ev){</p>
+<p>  if(ev.pageX || ev.pageY){</p>
+<p>    return {x:ev.pageX, y:ev.pageY};</p>
+<p>  }</p>
+<p>  return {</p>
+<p>    x:ev.clientX + document.body.scrollLeft - document.body.clientLeft,</p>
+<p>	y:ev.clientY + document.body.scrollTop  - document.body.clientTop</p>
+<p>  };</p>
+<p>}</p>
+<p>document.onmousemove = mouseMove;</p>
+<p>//document.onmouseup   = mouseUp;</p>
+<p>window.popupWindowOldEventListener1 = document.onmouseup;</p>
+<p>if (window.popupWindowOldEventListener1 != null) {</p>
+<p>  document.onmouseup = function(e){</p>
+<p>    window.popupWindowOldEventListener1(e); </p>
+<p>    mouseUp(e);</p>
+<p>  }</p>
+<p>}</p>
+<p>else {</p>
+<p>  document.onmouseup = mouseUp;</p>
+<p>}</p>
+<p>var dragObject  = null;</p>
+<p>var mouseOffset = null;</p>
+<p>function getMouseOffset(target, ev){</p>
+<p>	ev = ev || window.event;</p>
+<p>	var docPos    = getPosition(target);</p>
+<p>	var mousePos  = mouseCoords(ev);</p>
+<p>	return {x:mousePos.x - docPos.x, y:mousePos.y - docPos.y};</p>
+<p>}</p>
+<p>function getPosition(e){</p>
+<p>	var left = 0;</p>
+<p>	var top  = 0;</p>
+<p>	while (e.offsetParent){</p>
+<p>		left += e.offsetLeft;</p>
+<p>		top  += e.offsetTop;</p>
+<p>		e     = e.offsetParent;</p>
+<p>	}</p>
+<p>	left += e.offsetLeft;</p>
+<p>	top  += e.offsetTop;</p>
+<p>	return {x:left, y:top};</p>
+<p>}</p>
+<p>function mouseMove(ev){</p>
+<p>  if(dragObject){</p>
+<p>    ev           = ev || window.event;</p>
+<p>	var mousePos = mouseCoords(ev);</p>
+<p>	</p>
+<p>	dragObject.style.position = 'absolute';</p>
+<p>	dragObject.style.top      = mousePos.y - mouseOffset.y;</p>
+<p>	dragObject.style.left     = mousePos.x - mouseOffset.x;</p>
+<p>	</p>
+<p>    if(dragObject && dragObject.otec){</p>
+<p>      dragObject.otec.mouse_move(mousePos,mouseOffset);	</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>  }</p>
+<p>}</p>
+<p>function mouseUp(ev){</p>
+<p>  if(dragObject && dragObject.otec){</p>
+<p>    ev           = ev || window.event;</p>
+<p>	var mousePos = mouseCoords(ev);  	</p>
+<p>	dragObject.otec.mouse_release(mousePos, mouseOffset);</p>
+<p>  }</p>
+<p>  dragObject = null;</p>
+<p>  mouseOffset = null;</p>
+<p>}</p>
+<p>function makeDraggable(item,parent){</p>
+<p>  if(!item) return;</p>
+<p>  if(typeof(parent)=="object"){</p>
+<p>    item.otec = parent;</p>
+<p>  }</p>
+<p>  item.onmousedown = function(ev){</p>
+<p>    dragObject  = this;</p>
+<p>    if(typeof(this.otec)=="object"){</p>
+<p>      dragObject.otec = this.otec;</p>
+<p>      dragObject.otec.original_position = getPosition(this);</p>
+<p>    }</p>
+<p>    mouseOffset = getMouseOffset(this, ev);</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>}</p>
+<p>function getWindowSize() {</p>
+<p>  var myWidth = 0, myHeight = 0;</p>
+<p>  if( typeof( window.innerWidth ) == 'number' ) {</p>
+<p>    //Non-IE</p>
+<p>    myWidth = window.innerWidth;</p>
+<p>    myHeight = window.innerHeight;</p>
+<p>  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {</p>
+<p>    //IE 6+ in 'standards compliant mode'</p>
+<p>    myWidth = document.documentElement.clientWidth;</p>
+<p>    myHeight = document.documentElement.clientHeight;</p>
+<p>  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {</p>
+<p>    //IE 4 compatible</p>
+<p>    myWidth = document.body.clientWidth;</p>
+<p>    myHeight = document.body.clientHeight;</p>
+<p>  }</p>
+<p>  return {x: myWidth, y: myHeight};</p>
+<p>}</p>
+<p>function getScrollXY() {</p>
+<p>  var scrOfX = 0, scrOfY = 0;</p>
+<p>  if( typeof( window.pageYOffset ) == 'number' ) {</p>
+<p>    //Netscape compliant</p>
+<p>    scrOfY = window.pageYOffset;</p>
+<p>    scrOfX = window.pageXOffset;</p>
+<p>  } else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {</p>
+<p>    //DOM compliant</p>
+<p>    scrOfY = document.body.scrollTop;</p>
+<p>    scrOfX = document.body.scrollLeft;</p>
+<p>  } else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {</p>
+<p>    //IE6 standards compliant mode</p>
+<p>    scrOfY = document.documentElement.scrollTop;</p>
+<p>    scrOfX = document.documentElement.scrollLeft;</p>
+<p>  }</p>
+<p>  return {x: scrOfX, y:  scrOfY};</p>
+<p>}</p>
+<p>function number_format( number, decimals, dec_point, thousands_sep, show_sign ) {</p>
+<p>    // +   original by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)</p>
+<p>    // *     example 1: number_format(1234.5678, 2, '.', '');</p>
+<p>    // *     returns 1: 1234.57</p>
+<p> </p>
+<p>    var i, j, sign;</p>
+<p> </p>
+<p>    // input sanitation & defaults</p>
+<p>    if( isNaN(decimals = Math.abs(decimals)) ){</p>
+<p>        decimals = 2;</p>
+<p>    }</p>
+<p>    if( dec_point == undefined ){</p>
+<p>        dec_point = ",";</p>
+<p>    }</p>
+<p>    if( thousands_sep == undefined ){</p>
+<p>        thousands_sep = ".";</p>
+<p>    }</p>
+<p>    if( show_sign == undefined ){</p>
+<p>        show_sign = false;</p>
+<p>    }</p>
+<p>    </p>
+<p>    i = parseInt(number = (+number || 0).toFixed(decimals)) + "";</p>
+<p>    sign = (show_sign)?((number>0)?"+":((number<0)?((number>-1)?"&#8209;":""):"")):((number<0)?((number>-1)?"&#8209;":""):""); // - = &#8209;</p>
+<p>    if( (j = i.length) > 3 ){</p>
+<p>        j = j % 3;</p>
+<p>    } else{</p>
+<p>        j = 0;</p>
+<p>    }</p>
+<p> </p>
+<p>    return sign + (j ? i.substr(0, j) + thousands_sep : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands_sep) + (decimals ? dec_point + Math.abs(number - i).toFixed(decimals).slice(2) : "");</p>
+<p>}</p>
+<p>function str_repeat(i, m) { for (var o = []; m > 0; o[--m] = i); return(o.join('')); }</p>
+<p>function sprintf () {</p>
+<p>  var i = 0, a, f = arguments[i++], o = [], m, p, c, x;</p>
+<p>  while (f) {</p>
+<p>    if (m = /^[^\x25]+/.exec(f)) o.push(m[0]);</p>
+<p>    else if (m = /^\x25{2}/.exec(f)) o.push('%');</p>
+<p>    else if (m = /^\x25(?:(\d+)\$)?(\+)?(0|'[^$])?(-)?(\d+)?(?:\.(\d+))?([b-fosuxX])/.exec(f)) {</p>
+<p>      if (((a = arguments[m[1] || i++]) == null) || (a == undefined)) throw("Too few arguments.");</p>
+<p>      if (/[^s]/.test(m[7]) && (typeof(a) != 'number'))</p>
+<p>        throw("Expecting number but found " + typeof(a));</p>
+<p>      switch (m[7]) {</p>
+<p>        case 'b': a = a.toString(2); break;</p>
+<p>        case 'c': a = String.fromCharCode(a); break;</p>
+<p>        case 'd': a = parseInt(a); break;</p>
+<p>        case 'e': a = m[6] ? a.toExponential(m[6]) : a.toExponential(); break;</p>
+<p>        case 'f': a = m[6] ? parseFloat(a).toFixed(m[6]) : parseFloat(a); break;</p>
+<p>        case 'o': a = a.toString(8); break;</p>
+<p>        case 's': a = ((a = String(a)) && m[6] ? a.substring(0, m[6]) : a); break;</p>
+<p>        case 'u': a = Math.abs(a); break;</p>
+<p>        case 'x': a = a.toString(16); break;</p>
+<p>        case 'X': a = a.toString(16).toUpperCase(); break;</p>
+<p>      }</p>
+<p>      a = (/[def]/.test(m[7]) && m[2] && a > 0 ? '+' + a : a);</p>
+<p>      c = m[3] ? m[3] == '0' ? '0' : m[3].charAt(1) : ' ';</p>
+<p>      x = m[5] - String(a).length;</p>
+<p>      p = m[5] ? str_repeat(c, x) : '';</p>
+<p>      o.push(m[4] ? a + p : p + a);</p>
+<p>    }</p>
+<p>    else throw ("Huh ?!");</p>
+<p>    f = f.substring(m[0].length);</p>
+<p>  }</p>
+<p>  return o.join('');</p>
+<p>}</p>
+<p>function draw_analized_object(obj){</p>
+<p>  var toret = "";</p>
+<p>  toret += "<table border='1'>"</p>
+<p>  if(typeof(obj)=="object"){</p>
+<p>    for(var property in obj){</p>
+<p>      toret += "<tr>";</p>
+<p>      toret += "<td class='bold'>"+property+"</td>";</p>
+<p>      toret += "<td class='italic'>"+typeof(obj[property])+"</td>";</p>
+<p>      if(typeof(obj[property])=="object"){</p>
+<p>        toret += "<td class=''>"+draw_analized_object(obj[property])+"</td>";</p>
+<p>      }</p>
+<p>      else if(typeof(obj[property])!="function"){</p>
+<p>        toret += "<td class='blue'>"+(obj[property])+"</td>";</p>
+<p>      }</p>
+<p>      else {</p>
+<p>        toret += "<td class=''>a&nbsp;</td>";</p>
+<p>      }</p>
+<p>      toret += "</tr>";</p>
+<p>    }</p>
+<p>  }</p>
+<p>  else {</p>
+<p>   toret += "<tr><td>Not object</td></tr>";</p>
+<p>  }</p>
+<p>  toret += "</table>";</p>
+<p>  return toret;</p>
+<p>}</p>
+<p>function readCookie(name) {</p>
+<p>	var nameEQ = name + "=";</p>
+<p>	var ca = document.cookie.split(';');</p>
+<p>	for(var i=0;i < ca.length;i++) {</p>
+<p>		var c = ca[i];</p>
+<p>		while (c.charAt(0)==' ') c = c.substring(1,c.length);</p>
+<p>		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);</p>
+<p>	}</p>
+<p>	return null;</p>
+<p>}</p>
+<p>/**</p>
+<p> * Object PHP_Serializer</p>
+<p> * 	JavaScript to PHP serialize / unserialize class.</p>
+<p> * This class is designed to convert php variables to javascript</p>
+<p> * and javascript variables to php with a php serialize unserialize</p>
+<p> * compatible way.</p>
+<p> *</p>
+<p> * PARSABLE PHP TO JAVASCRIPT VARIABLES:</p>
+<p> * 	[ PHP TYPE ]			[ JAVASCRIPT TYPE ]</p>
+<p> * 	array				Array</p>
+<p> * 	class				Object (*)</p>
+<p> * 	string				String</p>
+<p> * 	boolean				Boolean</p>
+<p> * 	undefined or null		null</p>
+<p> * 	integer / double 		Number</p>
+<p> *</p>
+<p> * PARSABLE JAVASCRIPT TO PHP VARIABLES:</p>
+<p> *	[ JAVASCRIPT TYPE ]		[ PHP TYPE ]</p>
+<p> *	Array				array</p>
+<p> *	Object				class (*)</p>
+<p> *	String				string</p>
+<p> *	Boolean				boolean</p>
+<p> *	null				null</p>
+<p> *	Number				int or double</p>
+<p> *	Date				class</p>
+<p> *	Error				class</p>
+<p> *	Function			anything (*)</p>
+<p> *	__class				anything (*)</p>
+<p> *</p>
+<p> * (*) NOTE:</p>
+<p> * Any PHP serialized class requires the native PHP class to be used, then it's not a</p>
+<p> * PHP => JavaScript converter, it's just a usefull serilizer class for each</p>
+<p> * compatible JS and PHP variable types.</p>
+<p> * However is possible to change public parameters.</p>
+<p> * Lambda, Resources or other dedicated PHP variables are not usefull for JavaScript.</p>
+<p> * (i.e.</p>
+<p> * 	$v = create_function('', 'return 1;'); serialize($v);</p>
+<p> *	$conn = mydb_connect(); serialize($conn);</p>
+<p> * )</p>
+<p> * There are same restrictions for javascript functions too then these will not be sent</p>
+<p> * (but will be filtered / ignored automatically).</p>
+<p> * _____________________________________________</p>
+<p> *</p>
+<p> * EXAMPLE:</p>
+<p> *	var php = new PHP_Serializer();</p>
+<p> *	alert(php.unserialize(php.serialize(somevar)));</p>
+<p> *	// should alert the original value of somevar</p>
+<p> * ---------------------------------------------</p>
+<p> * @author              Andrea Giammarchi</p>
+<p> * @site		www.devpro.it</p>
+<p> * @date                2005/11/26</p>
+<p> * @lastmod             2005/12/07 14:30 [fixed deer Park serialize problem]</p>
+<p> * @credits		Special thanks to Fabio Sutto for some ideas and some debug</p>
+<p> *			Special thanks to kentaromiura for a faster loop idea while unserialize</p>
+<p> * @version             1.5d, tested on FireFox 1.0.7, FireFox 1.5, IE 6 SP2 and Opera 8</p>
+<p> */</p>
+<p>function PHP_Serializer() {</p>
+<p>	if(String(Object).indexOf('(') != 16)</p>
+<p>		this.__cut = 9;</p>
+<p>	else</p>
+<p>		this.__cut = 10;</p>
+<p>}</p>
+<p>function PHP_Serializer__String(__s) {</p>
+<p>	return ('s:'+__s.length+':"'+__s+'";');</p>
+<p>}</p>
+<p>function PHP_UnSerializer__String() {</p>
+<p>	var sls = this.__s.substr(2,(this.__s.indexOf(':',2)-2));</p>
+<p>	var sli = parseInt(sls);</p>
+<p>	sls = sls.length + 4;</p>
+<p>	var tmp = this.__s.substr(sls,sli);</p>
+<p>	this.reduce((sli + sls + 2));</p>
+<p>	return tmp;</p>
+<p>}</p>
+<p>function PHP_Serializer__Boolean(__s) {</p>
+<p>	return ('b:'+(__s==false?'0':'1')+';');</p>
+<p>}</p>
+<p>function PHP_UnSerializer__Boolean() {</p>
+<p>	var tmp = (this.__s.substr(2,1)=='1'?true:false);</p>
+<p>	this.reduce(4);</p>
+<p>	return tmp;</p>
+<p>}</p>
+<p>function PHP_Serializer__Number(__s) {</p>
+<p>	__s = String(__s);</p>
+<p>	return ((__s.indexOf('.')==-1)?'i:'+__s+';':'d:'+__s+';');</p>
+<p>}</p>
+<p>function PHP_UnSerializer__Number() {</p>
+<p>	var sli = this.__s.indexOf(';',1) - 2;</p>
+<p>	var tmp = Number(this.__s.substr(2,sli));</p>
+<p>	this.reduce((sli + 3));</p>
+<p>	return tmp;</p>
+<p>}</p>
+<p>function PHP_Serializer__Function() {</p>
+<p>	return '';</p>
+<p>}</p>
+<p>function PHP_Serializer__Undefined() {</p>
+<p>	return 'N;';</p>
+<p>}</p>
+<p>function PHP_UnSerializer__Undefined() {</p>
+<p>	this.reduce(2);</p>
+<p>	return null;</p>
+<p>}</p>
+<p>function PHP_Serializer__Common_ArrayObject(__s) {</p>
+<p>	var n;</p>
+<p>	var a = 0;</p>
+<p>	var ser = '';</p>
+<p>	for(var b in __s) {</p>
+<p>		n = (__s[b] == null);</p>
+<p>		if(n || (__s[b].constructor != Function && b != '__class')) {</p>
+<p>			ser+=(!isNaN(b))?this.__number(b):this.__string(b);</p>
+<p>			ser+=n?this.__undefined():this[__s[b].constructor](__s[b]);</p>
+<p>			++a;</p>
+<p>		}</p>
+<p>	}</p>
+<p>	return [a,ser];</p>
+<p>}</p>
+<p>function PHP_UnSerializer__Common_ArrayObject(tmp) {</p>
+<p>	var l;</p>
+<p>	var key;</p>
+<p>	var a = this.__s.indexOf(':',2);</p>
+<p>	var k = parseInt(this.__s.substr(2,(a-2)));</p>
+<p>	this.reduce((a+2));</p>
+<p>	if(k!=0) {</p>
+<p>		do {</p>
+<p>			key = this[this.__s.substr(0,1)]();</p>
+<p>			l = this.__s.substr(0,1);</p>
+<p>			tmp[key] = this[l]();</p>
+<p>		}while(--k);</p>
+<p>	}</p>
+<p>	return tmp;</p>
+<p>}</p>
+<p>function PHP_Serializer__Object(__s) {</p>
+<p>	var o = String(__s.constructor);</p>
+<p>	var oname = o.substr(this.__cut,o.indexOf('(')-this.__cut);</p>
+<p>	var ser = this.__common_array_object(__s);</p>
+<p>	return ('O:'+oname.length+':"'+oname+'":'+ser[0]+':{'+ser[1]+'}');</p>
+<p>}</p>
+<p>function PHP_UnSerializer__Object() {</p>
+<p>	var tmp = 's'+this.__s.substr(1,(this.__s.indexOf(':',4)-1))+';';</p>
+<p>	var a = tmp.substr(2,(tmp.indexOf(':',2)-2));</p>
+<p>	this.reduce(tmp.length-2);</p>
+<p>	var o = tmp.substr((a.length+4),parseInt(a));</p>
+<p>	if(eval("typeof("+o+") == 'undefined'"))</p>
+<p>		eval('function '+o+'(){}');</p>
+<p>	tmp = 'tmp = this.__common(new '+o+'());';</p>
+<p>	eval(tmp);</p>
+<p>	this.reduce(1);</p>
+<p>	return tmp;</p>
+<p>}</p>
+<p>function PHP_Serializer__Array(__s) {</p>
+<p>	var ser = this.__common_array_object(__s);</p>
+<p>	return ('a:'+ser[0]+':{'+ser[1]+'}');</p>
+<p>}</p>
+<p>function PHP_UnSerializer__Array() {</p>
+<p>	var tmp = this.__common(new Array());</p>
+<p>	this.reduce(1);</p>
+<p>	return tmp;</p>
+<p>}</p>
+<p>function PHP_Serializer__serialize(what) {</p>
+<p>	if(what==null)</p>
+<p>		var ser = this.__undefined();</p>
+<p>	else if(!this[what.constructor])</p>
+<p>		var ser = this[Object](what);</p>
+<p>	else</p>
+<p>		var ser = this[what.constructor](what);</p>
+<p>	return ser;</p>
+<p>}</p>
+<p>function PHP_UnSerializer__Reducer(l) {</p>
+<p>	this.__s = this.__s.substr(l,(this.__s.length-l));</p>
+<p>}</p>
+<p>function PHP_UnSerializer__unserialize(what) {</p>
+<p>	this.__s = what;</p>
+<p>	delete what;</p>
+<p>	return this[this.__s.substr(0,1)]();</p>
+<p>}</p>
+<p>PHP_Serializer.prototype[Boolean] = PHP_Serializer__Boolean;</p>
+<p>PHP_Serializer.prototype[Number] =</p>
+<p>PHP_Serializer.prototype.__number = PHP_Serializer__Number;</p>
+<p>PHP_Serializer.prototype[String] =</p>
+<p>PHP_Serializer.prototype.__string = PHP_Serializer__String;</p>
+<p>PHP_Serializer.prototype[Function] = PHP_Serializer__Function;</p>
+<p>PHP_Serializer.prototype[Date] = </p>
+<p>PHP_Serializer.prototype[Error] = </p>
+<p>PHP_Serializer.prototype[Object] = PHP_Serializer__Object;</p>
+<p>PHP_Serializer.prototype[Array] = PHP_Serializer__Array;</p>
+<p>PHP_Serializer.prototype.__common_array_object = PHP_Serializer__Common_ArrayObject;</p>
+<p>PHP_Serializer.prototype.__undefined = PHP_Serializer__Undefined;</p>
+<p>PHP_Serializer.prototype.serialize = PHP_Serializer__serialize;</p>
+<p>PHP_Serializer.prototype.reduce = PHP_UnSerializer__Reducer;</p>
+<p>PHP_Serializer.prototype.s = PHP_UnSerializer__String;</p>
+<p>PHP_Serializer.prototype.b = PHP_UnSerializer__Boolean;</p>
+<p>PHP_Serializer.prototype.i =</p>
+<p>PHP_Serializer.prototype.d = PHP_UnSerializer__Number;</p>
+<p>PHP_Serializer.prototype.N = PHP_UnSerializer__Undefined;</p>
+<p>PHP_Serializer.prototype.__common = PHP_UnSerializer__Common_ArrayObject;</p>
+<p>PHP_Serializer.prototype.O = PHP_UnSerializer__Object;</p>
+<p>PHP_Serializer.prototype.a = PHP_UnSerializer__Array;</p>
+<p>PHP_Serializer.prototype.unserialize = PHP_UnSerializer__unserialize;// ===================================================================</p>
+<p>// Author: Matt Kruse <matt@mattkruse.com></p>
+<p>// WWW: http://www.mattkruse.com/</p>
+<p>//</p>
+<p>// NOTICE: You may use this code for any purpose, commercial or</p>
+<p>// private, without any further permission from the author. You may</p>
+<p>// remove this notice from your final code if you wish, however it is</p>
+<p>// appreciated by the author if at least my web site address is kept.</p>
+<p>//</p>
+<p>// You may *NOT* re-distribute this code in any way except through its</p>
+<p>// use. That means, you can include it in your product, or your web</p>
+<p>// site, or any other form where the code is actually being used. You</p>
+<p>// may not put the plain javascript up on your site for download or</p>
+<p>// include it in your javascript libraries for download. </p>
+<p>// If you wish to share this code with others, please just point them</p>
+<p>// to the URL instead.</p>
+<p>// Please DO NOT link directly to my .js files from your site. Copy</p>
+<p>// the files to your server and use them there. Thank you.</p>
+<p>// ===================================================================</p>
+<p>/* SOURCE FILE: AnchorPosition.js */</p>
+<p>/* </p>
+<p>AnchorPosition.js</p>
+<p>Author: Matt Kruse</p>
+<p>Last modified: 10/11/02</p>
+<p>DESCRIPTION: These functions find the position of an <A> tag in a document,</p>
+<p>so other elements can be positioned relative to it.</p>
+<p>COMPATABILITY: Netscape 4.x,6.x,Mozilla, IE 5.x,6.x on Windows. Some small</p>
+<p>positioning errors - usually with Window positioning - occur on the </p>
+<p>Macintosh platform.</p>
+<p>FUNCTIONS:</p>
+<p>getAnchorPosition(anchorname)</p>
+<p>  Returns an Object() having .x and .y properties of the pixel coordinates</p>
+<p>  of the upper-left corner of the anchor. Position is relative to the PAGE.</p>
+<p>getAnchorWindowPosition(anchorname)</p>
+<p>  Returns an Object() having .x and .y properties of the pixel coordinates</p>
+<p>  of the upper-left corner of the anchor, relative to the WHOLE SCREEN.</p>
+<p>NOTES:</p>
+<p>1) For popping up separate browser windows, use getAnchorWindowPosition. </p>
+<p>   Otherwise, use getAnchorPosition</p>
+<p>2) Your anchor tag MUST contain both NAME and ID attributes which are the </p>
+<p>   same. For example:</p>
+<p>   <A NAME="test" ID="test"> </A></p>
+<p>3) There must be at least a space between <A> </A> for IE5.5 to see the </p>
+<p>   anchor tag correctly. Do not do <A></A> with no space.</p>
+<p>*/ </p>
+<p>// getAnchorPosition(anchorname)</p>
+<p>//   This function returns an object having .x and .y properties which are the coordinates</p>
+<p>//   of the named anchor, relative to the page.</p>
+<p>function getAnchorPosition(anchorname) {</p>
+<p>// This function will return an Object with x and y properties</p>
+<p>var useWindow=false;</p>
+<p>var coordinates=new Object();</p>
+<p>var x=0,y=0;</p>
+<p>// Browser capability sniffing</p>
+<p>var use_gebi=false, use_css=false, use_layers=false;</p>
+<p>if (document.getElementById) { use_gebi=true; }</p>
+<p>else if (document.all) { use_css=true; }</p>
+<p>else if (document.layers) { use_layers=true; }</p>
+<p>// Logic to find position</p>
+<p> if (use_gebi && document.all) {</p>
+<p>x=AnchorPosition_getPageOffsetLeft(document.all[anchorname]);</p>
+<p>y=AnchorPosition_getPageOffsetTop(document.all[anchorname]);</p>
+<p>}</p>
+<p>else if (use_gebi) {</p>
+<p>var o=document.getElementById(anchorname);</p>
+<p>x=AnchorPosition_getPageOffsetLeft(o);</p>
+<p>y=AnchorPosition_getPageOffsetTop(o);</p>
+<p>}</p>
+<p> else if (use_css) {</p>
+<p>x=AnchorPosition_getPageOffsetLeft(document.all[anchorname]);</p>
+<p>y=AnchorPosition_getPageOffsetTop(document.all[anchorname]);</p>
+<p>}</p>
+<p>else if (use_layers) {</p>
+<p>var found=0;</p>
+<p>for (var i=0; i<document.anchors.length; i++) {</p>
+<p>if (document.anchors[i].name==anchorname) { found=1; break; }</p>
+<p>}</p>
+<p>if (found==0) {</p>
+<p>coordinates.x=0; coordinates.y=0; return coordinates;</p>
+<p>}</p>
+<p>x=document.anchors[i].x;</p>
+<p>y=document.anchors[i].y;</p>
+<p>}</p>
+<p>else {</p>
+<p>coordinates.x=0; coordinates.y=0; return coordinates;</p>
+<p>}</p>
+<p>coordinates.x=x;</p>
+<p>coordinates.y=y;</p>
+<p>return coordinates;</p>
+<p>}</p>
+<p>// getAnchorWindowPosition(anchorname)</p>
+<p>//   This function returns an object having .x and .y properties which are the coordinates</p>
+<p>//   of the named anchor, relative to the window</p>
+<p>function getAnchorWindowPosition(anchorname) {</p>
+<p>var coordinates=getAnchorPosition(anchorname);</p>
+<p>var x=0;</p>
+<p>var y=0;</p>
+<p>if (document.getElementById) {</p>
+<p>if (isNaN(window.screenX)) {</p>
+<p>x=coordinates.x-document.body.scrollLeft+window.screenLeft;</p>
+<p>y=coordinates.y-document.body.scrollTop+window.screenTop;</p>
+<p>}</p>
+<p>else {</p>
+<p>x=coordinates.x+window.screenX+(window.outerWidth-window.innerWidth)-window.pageXOffset;</p>
+<p>y=coordinates.y+window.screenY+(window.outerHeight-24-window.innerHeight)-window.pageYOffset;</p>
+<p>}</p>
+<p>}</p>
+<p>else if (document.all) {</p>
+<p>x=coordinates.x-document.body.scrollLeft+window.screenLeft;</p>
+<p>y=coordinates.y-document.body.scrollTop+window.screenTop;</p>
+<p>}</p>
+<p>else if (document.layers) {</p>
+<p>x=coordinates.x+window.screenX+(window.outerWidth-window.innerWidth)-window.pageXOffset;</p>
+<p>y=coordinates.y+window.screenY+(window.outerHeight-24-window.innerHeight)-window.pageYOffset;</p>
+<p>}</p>
+<p>coordinates.x=x;</p>
+<p>coordinates.y=y;</p>
+<p>return coordinates;</p>
+<p>}</p>
+<p>// Functions for IE to get position of an object</p>
+<p>function AnchorPosition_getPageOffsetLeft (el) {</p>
+<p>var ol=el.offsetLeft;</p>
+<p>while ((el=el.offsetParent) != null) { ol += el.offsetLeft; }</p>
+<p>return ol;</p>
+<p>}</p>
+<p>function AnchorPosition_getWindowOffsetLeft (el) {</p>
+<p>return AnchorPosition_getPageOffsetLeft(el)-document.body.scrollLeft;</p>
+<p>}</p>
+<p>function AnchorPosition_getPageOffsetTop (el) {</p>
+<p>var ot=el.offsetTop;</p>
+<p>while((el=el.offsetParent) != null) { ot += el.offsetTop; }</p>
+<p>return ot;</p>
+<p>}</p>
+<p>function AnchorPosition_getWindowOffsetTop (el) {</p>
+<p>return AnchorPosition_getPageOffsetTop(el)-document.body.scrollTop;</p>
+<p>}</p>
+<p>/* SOURCE FILE: date.js */</p>
+<p>// HISTORY</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// May 17, 2003: Fixed bug in parseDate() for dates <1970</p>
+<p>// March 11, 2003: Added parseDate() function</p>
+<p>// March 11, 2003: Added "NNN" formatting option. Doesn't match up</p>
+<p>//                 perfectly with SimpleDateFormat formats, but </p>
+<p>//                 backwards-compatability was required.</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// These functions use the same 'format' strings as the </p>
+<p>// java.text.SimpleDateFormat class, with minor exceptions.</p>
+<p>// The format string consists of the following abbreviations:</p>
+<p>// </p>
+<p>// Field        | Full Form          | Short Form</p>
+<p>// -------------+--------------------+-----------------------</p>
+<p>// Year         | yyyy (4 digits)    | yy (2 digits), y (2 or 4 digits)</p>
+<p>// Month        | MMM (name or abbr.)| MM (2 digits), M (1 or 2 digits)</p>
+<p>//              | NNN (abbr.)        |</p>
+<p>// Day of Month | dd (2 digits)      | d (1 or 2 digits)</p>
+<p>// Day of Week  | EE (name)          | E (abbr)</p>
+<p>// Hour (1-12)  | hh (2 digits)      | h (1 or 2 digits)</p>
+<p>// Hour (0-23)  | HH (2 digits)      | H (1 or 2 digits)</p>
+<p>// Hour (0-11)  | KK (2 digits)      | K (1 or 2 digits)</p>
+<p>// Hour (1-24)  | kk (2 digits)      | k (1 or 2 digits)</p>
+<p>// Minute       | mm (2 digits)      | m (1 or 2 digits)</p>
+<p>// Second       | ss (2 digits)      | s (1 or 2 digits)</p>
+<p>// AM/PM        | a                  |</p>
+<p>//</p>
+<p>// NOTE THE DIFFERENCE BETWEEN MM and mm! Month=MM, not mm!</p>
+<p>// Examples:</p>
+<p>//  "MMM d, y" matches: January 01, 2000</p>
+<p>//                      Dec 1, 1900</p>
+<p>//                      Nov 20, 00</p>
+<p>//  "M/d/yy"   matches: 01/20/00</p>
+<p>//                      9/2/00</p>
+<p>//  "MMM dd, yyyy hh:mm:ssa" matches: "January 01, 2000 12:30:45AM"</p>
+<p>// ------------------------------------------------------------------</p>
+<p>var MONTH_NAMES=new Array('January','February','March','April','May','June','July','August','September','October','November','December','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec');</p>
+<p>var DAY_NAMES=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sun','Mon','Tue','Wed','Thu','Fri','Sat');</p>
+<p>function LZ(x) {return(x<0||x>9?"":"0")+x}</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// isDate ( date_string, format_string )</p>
+<p>// Returns true if date string matches format of format string and</p>
+<p>// is a valid date. Else returns false.</p>
+<p>// It is recommended that you trim whitespace around the value before</p>
+<p>// passing it to this function, as whitespace is NOT ignored!</p>
+<p>// ------------------------------------------------------------------</p>
+<p>function isDate(val,format) {</p>
+<p>var date=getDateFromFormat(val,format);</p>
+<p>if (date==0) { return false; }</p>
+<p>return true;</p>
+<p>}</p>
+<p>// -------------------------------------------------------------------</p>
+<p>// compareDates(date1,date1format,date2,date2format)</p>
+<p>//   Compare two date strings to see which is greater.</p>
+<p>//   Returns:</p>
+<p>//   1 if date1 is greater than date2</p>
+<p>//   0 if date2 is greater than date1 of if they are the same</p>
+<p>//  -1 if either of the dates is in an invalid format</p>
+<p>// -------------------------------------------------------------------</p>
+<p>function compareDates(date1,dateformat1,date2,dateformat2) {</p>
+<p>var d1=getDateFromFormat(date1,dateformat1);</p>
+<p>var d2=getDateFromFormat(date2,dateformat2);</p>
+<p>if (d1==0 || d2==0) {</p>
+<p>return -1;</p>
+<p>}</p>
+<p>else if (d1 > d2) {</p>
+<p>return 1;</p>
+<p>}</p>
+<p>return 0;</p>
+<p>}</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// formatDate (date_object, format)</p>
+<p>// Returns a date in the output format specified.</p>
+<p>// The format string uses the same abbreviations as in getDateFromFormat()</p>
+<p>// ------------------------------------------------------------------</p>
+<p>function formatDate(date,format) {</p>
+<p>format=format+"";</p>
+<p>var result="";</p>
+<p>var i_format=0;</p>
+<p>var c="";</p>
+<p>var token="";</p>
+<p>var y=date.getYear()+"";</p>
+<p>var M=date.getMonth()+1;</p>
+<p>var d=date.getDate();</p>
+<p>var E=date.getDay();</p>
+<p>var H=date.getHours();</p>
+<p>var m=date.getMinutes();</p>
+<p>var s=date.getSeconds();</p>
+<p>var yyyy,yy,MMM,MM,dd,hh,h,mm,ss,ampm,HH,H,KK,K,kk,k;</p>
+<p>// Convert real date parts into formatted versions</p>
+<p>var value=new Object();</p>
+<p>if (y.length < 4) {y=""+(y-0+1900);}</p>
+<p>value["y"]=""+y;</p>
+<p>value["yyyy"]=y;</p>
+<p>value["yy"]=y.substring(2,4);</p>
+<p>value["M"]=M;</p>
+<p>value["MM"]=LZ(M);</p>
+<p>value["MMM"]=MONTH_NAMES[M-1];</p>
+<p>value["NNN"]=MONTH_NAMES[M+11];</p>
+<p>value["d"]=d;</p>
+<p>value["dd"]=LZ(d);</p>
+<p>value["E"]=DAY_NAMES[E+7];</p>
+<p>value["EE"]=DAY_NAMES[E];</p>
+<p>value["H"]=H;</p>
+<p>value["HH"]=LZ(H);</p>
+<p>if (H==0){value["h"]=12;}</p>
+<p>else if (H>12){value["h"]=H-12;}</p>
+<p>else {value["h"]=H;}</p>
+<p>value["hh"]=LZ(value["h"]);</p>
+<p>if (H>11){value["K"]=H-12;} else {value["K"]=H;}</p>
+<p>value["k"]=H+1;</p>
+<p>value["KK"]=LZ(value["K"]);</p>
+<p>value["kk"]=LZ(value["k"]);</p>
+<p>if (H > 11) { value["a"]="PM"; }</p>
+<p>else { value["a"]="AM"; }</p>
+<p>value["m"]=m;</p>
+<p>value["mm"]=LZ(m);</p>
+<p>value["s"]=s;</p>
+<p>value["ss"]=LZ(s);</p>
+<p>while (i_format < format.length) {</p>
+<p>c=format.charAt(i_format);</p>
+<p>token="";</p>
+<p>while ((format.charAt(i_format)==c) && (i_format < format.length)) {</p>
+<p>token += format.charAt(i_format++);</p>
+<p>}</p>
+<p>if (value[token] != null) { result=result + value[token]; }</p>
+<p>else { result=result + token; }</p>
+<p>}</p>
+<p>return result;</p>
+<p>}</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// Utility functions for parsing in getDateFromFormat()</p>
+<p>// ------------------------------------------------------------------</p>
+<p>function _isInteger(val) {</p>
+<p>var digits="1234567890";</p>
+<p>for (var i=0; i < val.length; i++) {</p>
+<p>if (digits.indexOf(val.charAt(i))==-1) { return false; }</p>
+<p>}</p>
+<p>return true;</p>
+<p>}</p>
+<p>function _getInt(str,i,minlength,maxlength) {</p>
+<p>for (var x=maxlength; x>=minlength; x--) {</p>
+<p>var token=str.substring(i,i+x);</p>
+<p>if (token.length < minlength) { return null; }</p>
+<p>if (_isInteger(token)) { return token; }</p>
+<p>}</p>
+<p>return null;</p>
+<p>}</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// getDateFromFormat( date_string , format_string )</p>
+<p>//</p>
+<p>// This function takes a date string and a format string. It matches</p>
+<p>// If the date string matches the format string, it returns the </p>
+<p>// getTime() of the date. If it does not match, it returns 0.</p>
+<p>// ------------------------------------------------------------------</p>
+<p>function getDateFromFormat(val,format) {</p>
+<p>val=val+"";</p>
+<p>format=format+"";</p>
+<p>var i_val=0;</p>
+<p>var i_format=0;</p>
+<p>var c="";</p>
+<p>var token="";</p>
+<p>var token2="";</p>
+<p>var x,y;</p>
+<p>var now=new Date();</p>
+<p>var year=now.getYear();</p>
+<p>var month=now.getMonth()+1;</p>
+<p>var date=1;</p>
+<p>var hh=now.getHours();</p>
+<p>var mm=now.getMinutes();</p>
+<p>var ss=now.getSeconds();</p>
+<p>var ampm="";</p>
+<p>while (i_format < format.length) {</p>
+<p>// Get next token from format string</p>
+<p>c=format.charAt(i_format);</p>
+<p>token="";</p>
+<p>while ((format.charAt(i_format)==c) && (i_format < format.length)) {</p>
+<p>token += format.charAt(i_format++);</p>
+<p>}</p>
+<p>// Extract contents of value based on format token</p>
+<p>if (token=="yyyy" || token=="yy" || token=="y") {</p>
+<p>if (token=="yyyy") { x=4;y=4; }</p>
+<p>if (token=="yy")   { x=2;y=2; }</p>
+<p>if (token=="y")    { x=2;y=4; }</p>
+<p>year=_getInt(val,i_val,x,y);</p>
+<p>if (year==null) { return 0; }</p>
+<p>i_val += year.length;</p>
+<p>if (year.length==2) {</p>
+<p>if (year > 70) { year=1900+(year-0); }</p>
+<p>else { year=2000+(year-0); }</p>
+<p>}</p>
+<p>}</p>
+<p>else if (token=="MMM"||token=="NNN"){</p>
+<p>month=0;</p>
+<p>for (var i=0; i<MONTH_NAMES.length; i++) {</p>
+<p>var month_name=MONTH_NAMES[i];</p>
+<p>if (val.substring(i_val,i_val+month_name.length).toLowerCase()==month_name.toLowerCase()) {</p>
+<p>if (token=="MMM"||(token=="NNN"&&i>11)) {</p>
+<p>month=i+1;</p>
+<p>if (month>12) { month -= 12; }</p>
+<p>i_val += month_name.length;</p>
+<p>break;</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>if ((month < 1)||(month>12)){return 0;}</p>
+<p>}</p>
+<p>else if (token=="EE"||token=="E"){</p>
+<p>for (var i=0; i<DAY_NAMES.length; i++) {</p>
+<p>var day_name=DAY_NAMES[i];</p>
+<p>if (val.substring(i_val,i_val+day_name.length).toLowerCase()==day_name.toLowerCase()) {</p>
+<p>i_val += day_name.length;</p>
+<p>break;</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>else if (token=="MM"||token=="M") {</p>
+<p>month=_getInt(val,i_val,token.length,2);</p>
+<p>if(month==null||(month<1)||(month>12)){return 0;}</p>
+<p>i_val+=month.length;}</p>
+<p>else if (token=="dd"||token=="d") {</p>
+<p>date=_getInt(val,i_val,token.length,2);</p>
+<p>if(date==null||(date<1)||(date>31)){return 0;}</p>
+<p>i_val+=date.length;}</p>
+<p>else if (token=="hh"||token=="h") {</p>
+<p>hh=_getInt(val,i_val,token.length,2);</p>
+<p>if(hh==null||(hh<1)||(hh>12)){return 0;}</p>
+<p>i_val+=hh.length;}</p>
+<p>else if (token=="HH"||token=="H") {</p>
+<p>hh=_getInt(val,i_val,token.length,2);</p>
+<p>if(hh==null||(hh<0)||(hh>23)){return 0;}</p>
+<p>i_val+=hh.length;}</p>
+<p>else if (token=="KK"||token=="K") {</p>
+<p>hh=_getInt(val,i_val,token.length,2);</p>
+<p>if(hh==null||(hh<0)||(hh>11)){return 0;}</p>
+<p>i_val+=hh.length;}</p>
+<p>else if (token=="kk"||token=="k") {</p>
+<p>hh=_getInt(val,i_val,token.length,2);</p>
+<p>if(hh==null||(hh<1)||(hh>24)){return 0;}</p>
+<p>i_val+=hh.length;hh--;}</p>
+<p>else if (token=="mm"||token=="m") {</p>
+<p>mm=_getInt(val,i_val,token.length,2);</p>
+<p>if(mm==null||(mm<0)||(mm>59)){return 0;}</p>
+<p>i_val+=mm.length;}</p>
+<p>else if (token=="ss"||token=="s") {</p>
+<p>ss=_getInt(val,i_val,token.length,2);</p>
+<p>if(ss==null||(ss<0)||(ss>59)){return 0;}</p>
+<p>i_val+=ss.length;}</p>
+<p>else if (token=="a") {</p>
+<p>if (val.substring(i_val,i_val+2).toLowerCase()=="am") {ampm="AM";}</p>
+<p>else if (val.substring(i_val,i_val+2).toLowerCase()=="pm") {ampm="PM";}</p>
+<p>else {return 0;}</p>
+<p>i_val+=2;}</p>
+<p>else {</p>
+<p>if (val.substring(i_val,i_val+token.length)!=token) {return 0;}</p>
+<p>else {i_val+=token.length;}</p>
+<p>}</p>
+<p>}</p>
+<p>// If there are any trailing characters left in the value, it doesn't match</p>
+<p>if (i_val != val.length) { return 0; }</p>
+<p>// Is date valid for month?</p>
+<p>if (month==2) {</p>
+<p>// Check for leap year</p>
+<p>if ( ( (year%4==0)&&(year%100 != 0) ) || (year%400==0) ) { // leap year</p>
+<p>if (date > 29){ return 0; }</p>
+<p>}</p>
+<p>else { if (date > 28) { return 0; } }</p>
+<p>}</p>
+<p>if ((month==4)||(month==6)||(month==9)||(month==11)) {</p>
+<p>if (date > 30) { return 0; }</p>
+<p>}</p>
+<p>// Correct hours value</p>
+<p>if (hh<12 && ampm=="PM") { hh=hh-0+12; }</p>
+<p>else if (hh>11 && ampm=="AM") { hh-=12; }</p>
+<p>var newdate=new Date(year,month-1,date,hh,mm,ss);</p>
+<p>return newdate.getTime();</p>
+<p>}</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// parseDate( date_string [, prefer_euro_format] )</p>
+<p>//</p>
+<p>// This function takes a date string and tries to match it to a</p>
+<p>// number of possible date formats to get the value. It will try to</p>
+<p>// match against the following international formats, in this order:</p>
+<p>// y-M-d   MMM d, y   MMM d,y   y-MMM-d   d-MMM-y  MMM d</p>
+<p>// M/d/y   M-d-y      M.d.y     MMM-d     M/d      M-d</p>
+<p>// d/M/y   d-M-y      d.M.y     d-MMM     d/M      d-M</p>
+<p>// A second argument may be passed to instruct the method to search</p>
+<p>// for formats like d/M/y (european format) before M/d/y (American).</p>
+<p>// Returns a Date object or null if no patterns match.</p>
+<p>// ------------------------------------------------------------------</p>
+<p>function parseDate(val) {</p>
+<p>var preferEuro=(arguments.length==2)?arguments[1]:false;</p>
+<p>generalFormats=new Array('y-M-d','MMM d, y','MMM d,y','y-MMM-d','d-MMM-y','MMM d');</p>
+<p>monthFirst=new Array('M/d/y','M-d-y','M.d.y','MMM-d','M/d','M-d');</p>
+<p>dateFirst =new Array('d/M/y','d-M-y','d.M.y','d-MMM','d/M','d-M');</p>
+<p>var checkList=new Array('generalFormats',preferEuro?'dateFirst':'monthFirst',preferEuro?'monthFirst':'dateFirst');</p>
+<p>var d=null;</p>
+<p>for (var i=0; i<checkList.length; i++) {</p>
+<p>var l=window[checkList[i]];</p>
+<p>for (var j=0; j<l.length; j++) {</p>
+<p>d=getDateFromFormat(val,l[j]);</p>
+<p>if (d!=0) { return new Date(d); }</p>
+<p>}</p>
+<p>}</p>
+<p>return null;</p>
+<p>}</p>
+<p>/* SOURCE FILE: PopupWindow.js */</p>
+<p>/* </p>
+<p>PopupWindow.js</p>
+<p>Author: Matt Kruse</p>
+<p>Last modified: 02/16/04</p>
+<p>DESCRIPTION: This object allows you to easily and quickly popup a window</p>
+<p>in a certain place. The window can either be a DIV or a separate browser</p>
+<p>window.</p>
+<p>COMPATABILITY: Works with Netscape 4.x, 6.x, IE 5.x on Windows. Some small</p>
+<p>positioning errors - usually with Window positioning - occur on the </p>
+<p>Macintosh platform. Due to bugs in Netscape 4.x, populating the popup </p>
+<p>window with <STYLE> tags may cause errors.</p>
+<p>USAGE:</p>
+<p>// Create an object for a WINDOW popup</p>
+<p>var win = new PopupWindow(); </p>
+<p>// Create an object for a DIV window using the DIV named 'mydiv'</p>
+<p>var win = new PopupWindow('mydiv'); </p>
+<p>// Set the window to automatically hide itself when the user clicks </p>
+<p>// anywhere else on the page except the popup</p>
+<p>win.autoHide(); </p>
+<p>// Show the window relative to the anchor name passed in</p>
+<p>win.showPopup(anchorname);</p>
+<p>// Hide the popup</p>
+<p>win.hidePopup();</p>
+<p>// Set the size of the popup window (only applies to WINDOW popups</p>
+<p>win.setSize(width,height);</p>
+<p>// Populate the contents of the popup window that will be shown. If you </p>
+<p>// change the contents while it is displayed, you will need to refresh()</p>
+<p>win.populate(string);</p>
+<p>// set the URL of the window, rather than populating its contents</p>
+<p>// manually</p>
+<p>win.setUrl("http://www.site.com/");</p>
+<p>// Refresh the contents of the popup</p>
+<p>win.refresh();</p>
+<p>// Specify how many pixels to the right of the anchor the popup will appear</p>
+<p>win.offsetX = 50;</p>
+<p>// Specify how many pixels below the anchor the popup will appear</p>
+<p>win.offsetY = 100;</p>
+<p>NOTES:</p>
+<p>1) Requires the functions in AnchorPosition.js</p>
+<p>2) Your anchor tag MUST contain both NAME and ID attributes which are the </p>
+<p>   same. For example:</p>
+<p>   <A NAME="test" ID="test"> </A></p>
+<p>3) There must be at least a space between <A> </A> for IE5.5 to see the </p>
+<p>   anchor tag correctly. Do not do <A></A> with no space.</p>
+<p>4) When a PopupWindow object is created, a handler for 'onmouseup' is</p>
+<p>   attached to any event handler you may have already defined. Do NOT define</p>
+<p>   an event handler for 'onmouseup' after you define a PopupWindow object or</p>
+<p>   the autoHide() will not work correctly.</p>
+<p>*/ </p>
+<p>// Set the position of the popup window based on the anchor</p>
+<p>function PopupWindow_getXYPosition(anchorname) {</p>
+<p>var coordinates;</p>
+<p>if (this.type == "WINDOW") {</p>
+<p>coordinates = getAnchorWindowPosition(anchorname);</p>
+<p>}</p>
+<p>else {</p>
+<p>coordinates = getAnchorPosition(anchorname);</p>
+<p>}</p>
+<p>this.x = coordinates.x;</p>
+<p>this.y = coordinates.y;</p>
+<p>}</p>
+<p>// Set width/height of DIV/popup window</p>
+<p>function PopupWindow_setSize(width,height) {</p>
+<p>this.width = width;</p>
+<p>this.height = height;</p>
+<p>}</p>
+<p>// Fill the window with contents</p>
+<p>function PopupWindow_populate(contents) {</p>
+<p>this.contents = contents;</p>
+<p>this.populated = false;</p>
+<p>}</p>
+<p>// Set the URL to go to</p>
+<p>function PopupWindow_setUrl(url) {</p>
+<p>this.url = url;</p>
+<p>}</p>
+<p>// Set the window popup properties</p>
+<p>function PopupWindow_setWindowProperties(props) {</p>
+<p>this.windowProperties = props;</p>
+<p>}</p>
+<p>// Refresh the displayed contents of the popup</p>
+<p>function PopupWindow_refresh() {</p>
+<p>if (this.divName != null) {</p>
+<p>// refresh the DIV object</p>
+<p>if (this.use_gebi) {</p>
+<p>document.getElementById(this.divName).innerHTML = this.contents;</p>
+<p>}</p>
+<p>else if (this.use_css) { </p>
+<p>document.all[this.divName].innerHTML = this.contents;</p>
+<p>}</p>
+<p>else if (this.use_layers) { </p>
+<p>var d = document.layers[this.divName]; </p>
+<p>d.document.open();</p>
+<p>d.document.writeln(this.contents);</p>
+<p>d.document.close();</p>
+<p>}</p>
+<p>}</p>
+<p>else {</p>
+<p>if (this.popupWindow != null && !this.popupWindow.closed) {</p>
+<p>if (this.url!="") {</p>
+<p>this.popupWindow.location.href=this.url;</p>
+<p>}</p>
+<p>else {</p>
+<p>this.popupWindow.document.open();</p>
+<p>this.popupWindow.document.writeln(this.contents);</p>
+<p>this.popupWindow.document.close();</p>
+<p>}</p>
+<p>this.popupWindow.focus();</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>// Position and show the popup, relative to an anchor object</p>
+<p>function PopupWindow_showPopup(anchorname) {</p>
+<p>this.getXYPosition(anchorname);</p>
+<p>this.x += this.offsetX;</p>
+<p>this.y += this.offsetY;</p>
+<p>if (!this.populated && (this.contents != "")) {</p>
+<p>this.populated = true;</p>
+<p>this.refresh();</p>
+<p>}</p>
+<p>if (this.divName != null) {</p>
+<p>// Show the DIV object</p>
+<p>if (this.use_gebi) {</p>
+<p>document.getElementById(this.divName).style.left = this.x + "px";</p>
+<p>document.getElementById(this.divName).style.top = this.y + "px";</p>
+<p>document.getElementById(this.divName).style.visibility = "visible";</p>
+<p>}</p>
+<p>else if (this.use_css) {</p>
+<p>document.all[this.divName].style.left = this.x;</p>
+<p>document.all[this.divName].style.top = this.y;</p>
+<p>document.all[this.divName].style.visibility = "visible";</p>
+<p>}</p>
+<p>else if (this.use_layers) {</p>
+<p>document.layers[this.divName].left = this.x;</p>
+<p>document.layers[this.divName].top = this.y;</p>
+<p>document.layers[this.divName].visibility = "visible";</p>
+<p>}</p>
+<p>}</p>
+<p>else {</p>
+<p>if (this.popupWindow == null || this.popupWindow.closed) {</p>
+<p>// If the popup window will go off-screen, move it so it doesn't</p>
+<p>if (this.x<0) { this.x=0; }</p>
+<p>if (this.y<0) { this.y=0; }</p>
+<p>if (screen && screen.availHeight) {</p>
+<p>if ((this.y + this.height) > screen.availHeight) {</p>
+<p>this.y = screen.availHeight - this.height;</p>
+<p>}</p>
+<p>}</p>
+<p>if (screen && screen.availWidth) {</p>
+<p>if ((this.x + this.width) > screen.availWidth) {</p>
+<p>this.x = screen.availWidth - this.width;</p>
+<p>}</p>
+<p>}</p>
+<p>var avoidAboutBlank = window.opera || ( document.layers && !navigator.mimeTypes['*'] ) || navigator.vendor == 'KDE' || ( document.childNodes && !document.all && !navigator.taintEnabled );</p>
+<p>this.popupWindow = window.open(avoidAboutBlank?"":"about:blank","window_"+anchorname,this.windowProperties+",width="+this.width+",height="+this.height+",screenX="+this.x+",left="+this.x+",screenY="+this.y+",top="+this.y+"");</p>
+<p>}</p>
+<p>this.refresh();</p>
+<p>}</p>
+<p>}</p>
+<p>// Hide the popup</p>
+<p>function PopupWindow_hidePopup() {</p>
+<p>if (this.divName != null) {</p>
+<p>if (this.use_gebi) {</p>
+<p>document.getElementById(this.divName).style.visibility = "hidden";</p>
+<p>}</p>
+<p>else if (this.use_css) {</p>
+<p>document.all[this.divName].style.visibility = "hidden";</p>
+<p>}</p>
+<p>else if (this.use_layers) {</p>
+<p>document.layers[this.divName].visibility = "hidden";</p>
+<p>}</p>
+<p>}</p>
+<p>else {</p>
+<p>if (this.popupWindow && !this.popupWindow.closed) {</p>
+<p>this.popupWindow.close();</p>
+<p>this.popupWindow = null;</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>// Pass an event and return whether or not it was the popup DIV that was clicked</p>
+<p>function PopupWindow_isClicked(e) {</p>
+<p>if (this.divName != null) {</p>
+<p>if (this.use_layers) {</p>
+<p>var clickX = e.pageX;</p>
+<p>var clickY = e.pageY;</p>
+<p>var t = document.layers[this.divName];</p>
+<p>if ((clickX > t.left) && (clickX < t.left+t.clip.width) && (clickY > t.top) && (clickY < t.top+t.clip.height)) {</p>
+<p>return true;</p>
+<p>}</p>
+<p>else { return false; }</p>
+<p>}</p>
+<p>else if (document.all) { // Need to hard-code this to trap IE for error-handling</p>
+<p>var t = window.event.srcElement;</p>
+<p>while (t.parentElement != null) {</p>
+<p>if (t.id==this.divName) {</p>
+<p>return true;</p>
+<p>}</p>
+<p>t = t.parentElement;</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>else if (this.use_gebi && e) {</p>
+<p>var t = e.originalTarget;</p>
+<p>while (t.parentNode != null) {</p>
+<p>if (t.id==this.divName) {</p>
+<p>return true;</p>
+<p>}</p>
+<p>t = t.parentNode;</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>// Check an onMouseDown event to see if we should hide</p>
+<p>function PopupWindow_hideIfNotClicked(e) {</p>
+<p>if (this.autoHideEnabled && !this.isClicked(e)) {</p>
+<p>this.hidePopup();</p>
+<p>}</p>
+<p>}</p>
+<p>// Call this to make the DIV disable automatically when mouse is clicked outside it</p>
+<p>function PopupWindow_autoHide() {</p>
+<p>this.autoHideEnabled = true;</p>
+<p>}</p>
+<p>// This global function checks all PopupWindow objects onmouseup to see if they should be hidden</p>
+<p>function PopupWindow_hidePopupWindows(e) {</p>
+<p>for (var i=0; i<popupWindowObjects.length; i++) {</p>
+<p>if (popupWindowObjects[i] != null) {</p>
+<p>var p = popupWindowObjects[i];</p>
+<p>p.hideIfNotClicked(e);</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>// Run this immediately to attach the event listener</p>
+<p>function PopupWindow_attachListener() {</p>
+<p>if (document.layers) {</p>
+<p>document.captureEvents(Event.MOUSEUP);</p>
+<p>}</p>
+<p>window.popupWindowOldEventListener = document.onmouseup;</p>
+<p>if (window.popupWindowOldEventListener != null) {</p>
+<p>//document.onmouseup = new Function("window.popupWindowOldEventListener(); PopupWindow_hidePopupWindows();");</p>
+<p>document.onmouseup = function(e){</p>
+<p>	window.popupWindowOldEventListener(e); PopupWindow_hidePopupWindows(e);</p>
+<p>  }</p>
+<p>}</p>
+<p>else {</p>
+<p>document.onmouseup = PopupWindow_hidePopupWindows;</p>
+<p>}</p>
+<p>}</p>
+<p>// CONSTRUCTOR for the PopupWindow object</p>
+<p>// Pass it a DIV name to use a DHTML popup, otherwise will default to window popup</p>
+<p>function PopupWindow() {</p>
+<p>if (!window.popupWindowIndex) { window.popupWindowIndex = 0; }</p>
+<p>if (!window.popupWindowObjects) { window.popupWindowObjects = new Array(); }</p>
+<p>if (!window.listenerAttached) {</p>
+<p>window.listenerAttached = true;</p>
+<p>PopupWindow_attachListener();</p>
+<p>}</p>
+<p>this.index = popupWindowIndex++;</p>
+<p>popupWindowObjects[this.index] = this;</p>
+<p>this.divName = null;</p>
+<p>this.popupWindow = null;</p>
+<p>this.width=0;</p>
+<p>this.height=0;</p>
+<p>this.populated = false;</p>
+<p>this.visible = false;</p>
+<p>this.autoHideEnabled = false;</p>
+<p>this.contents = "";</p>
+<p>this.url="";</p>
+<p>this.windowProperties="toolbar=no,location=no,status=no,menubar=no,scrollbars=auto,resizable,alwaysRaised,dependent,titlebar=no";</p>
+<p>if (arguments.length>0) {</p>
+<p>this.type="DIV";</p>
+<p>this.divName = arguments[0];</p>
+<p>}</p>
+<p>else {</p>
+<p>this.type="WINDOW";</p>
+<p>}</p>
+<p>this.use_gebi = false;</p>
+<p>this.use_css = false;</p>
+<p>this.use_layers = false;</p>
+<p>if (document.getElementById) { this.use_gebi = true; }</p>
+<p>else if (document.all) { this.use_css = true; }</p>
+<p>else if (document.layers) { this.use_layers = true; }</p>
+<p>else { this.type = "WINDOW"; }</p>
+<p>this.offsetX = 0;</p>
+<p>this.offsetY = 0;</p>
+<p>// Method mappings</p>
+<p>this.getXYPosition = PopupWindow_getXYPosition;</p>
+<p>this.populate = PopupWindow_populate;</p>
+<p>this.setUrl = PopupWindow_setUrl;</p>
+<p>this.setWindowProperties = PopupWindow_setWindowProperties;</p>
+<p>this.refresh = PopupWindow_refresh;</p>
+<p>this.showPopup = PopupWindow_showPopup;</p>
+<p>this.hidePopup = PopupWindow_hidePopup;</p>
+<p>this.setSize = PopupWindow_setSize;</p>
+<p>this.isClicked = PopupWindow_isClicked;</p>
+<p>this.autoHide = PopupWindow_autoHide;</p>
+<p>this.hideIfNotClicked = PopupWindow_hideIfNotClicked;</p>
+<p>}</p>
+<p>/* SOURCE FILE: CalendarPopup.js */</p>
+<p>// HISTORY</p>
+<p>// ------------------------------------------------------------------</p>
+<p>// Feb 7, 2005: Fixed a CSS styles to use px unit</p>
+<p>// March 29, 2004: Added check in select() method for the form field</p>
+<p>//      being disabled. If it is, just return and don't do anything.</p>
+<p>// March 24, 2004: Fixed bug - when month name and abbreviations were</p>
+<p>//      changed, date format still used original values.</p>
+<p>// January 26, 2004: Added support for drop-down month and year</p>
+<p>//      navigation (Thanks to Chris Reid for the idea)</p>
+<p>// September 22, 2003: Fixed a minor problem in YEAR calendar with</p>
+<p>//      CSS prefix.</p>
+<p>// August 19, 2003: Renamed the function to get styles, and made it</p>
+<p>//      work correctly without an object reference</p>
+<p>// August 18, 2003: Changed showYearNavigation and </p>
+<p>//      showYearNavigationInput to optionally take an argument of</p>
+<p>//      true or false</p>
+<p>// July 31, 2003: Added text input option for year navigation.</p>
+<p>//      Added a per-calendar CSS prefix option to optionally use </p>
+<p>//      different styles for different calendars.</p>
+<p>// July 29, 2003: Fixed bug causing the Today link to be clickable </p>
+<p>//      even though today falls in a disabled date range.</p>
+<p>//      Changed formatting to use pure CSS, allowing greater control</p>
+<p>//      over look-and-feel options.</p>
+<p>// June 11, 2003: Fixed bug causing the Today link to be unselectable</p>
+<p>//      under certain cases when some days of week are disabled</p>
+<p>// March 14, 2003: Added ability to disable individual dates or date</p>
+<p>//      ranges, display as light gray and strike-through</p>
+<p>// March 14, 2003: Removed dependency on graypixel.gif and instead </p>
+<p>///     use table border coloring</p>
+<p>// March 12, 2003: Modified showCalendar() function to allow optional</p>
+<p>//      start-date parameter</p>
+<p>// March 11, 2003: Modified select() function to allow optional</p>
+<p>//      start-date parameter</p>
+<p>/* </p>
+<p>DESCRIPTION: This object implements a popup calendar to allow the user to</p>
+<p>select a date, month, quarter, or year.</p>
+<p>COMPATABILITY: Works with Netscape 4.x, 6.x, IE 5.x on Windows. Some small</p>
+<p>positioning errors - usually with Window positioning - occur on the </p>
+<p>Macintosh platform.</p>
+<p>The calendar can be modified to work for any location in the world by </p>
+<p>changing which weekday is displayed as the first column, changing the month</p>
+<p>names, and changing the column headers for each day.</p>
+<p>USAGE:</p>
+<p>// Create a new CalendarPopup object of type WINDOW</p>
+<p>var cal = new CalendarPopup(); </p>
+<p>// Create a new CalendarPopup object of type DIV using the DIV named 'mydiv'</p>
+<p>var cal = new CalendarPopup('mydiv'); </p>
+<p>// Easy method to link the popup calendar with an input box. </p>
+<p>cal.select(inputObject, anchorname, dateFormat);</p>
+<p>// Same method, but passing a default date other than the field's current value</p>
+<p>cal.select(inputObject, anchorname, dateFormat, '01/02/2000');</p>
+<p>// This is an example call to the popup calendar from a link to populate an </p>
+<p>// input box. Note that to use this, date.js must also be included!!</p>
+<p><A HREF="#" onClick="cal.select(document.forms[0].date,'anchorname','MM/dd/yyyy'); return false;">Select</A></p>
+<p>// Set the type of date select to be used. By default it is 'date'.</p>
+<p>cal.setDisplayType(type);</p>
+<p>// When a date, month, quarter, or year is clicked, a function is called and</p>
+<p>// passed the details. You must write this function, and tell the calendar</p>
+<p>// popup what the function name is.</p>
+<p>// Function to be called for 'date' select receives y, m, d</p>
+<p>cal.setReturnFunction(functionname);</p>
+<p>// Function to be called for 'month' select receives y, m</p>
+<p>cal.setReturnMonthFunction(functionname);</p>
+<p>// Function to be called for 'quarter' select receives y, q</p>
+<p>cal.setReturnQuarterFunction(functionname);</p>
+<p>// Function to be called for 'year' select receives y</p>
+<p>cal.setReturnYearFunction(functionname);</p>
+<p>// Show the calendar relative to a given anchor</p>
+<p>cal.showCalendar(anchorname);</p>
+<p>// Hide the calendar. The calendar is set to autoHide automatically</p>
+<p>cal.hideCalendar();</p>
+<p>// Set the month names to be used. Default are English month names</p>
+<p>cal.setMonthNames("January","February","March",...);</p>
+<p>// Set the month abbreviations to be used. Default are English month abbreviations</p>
+<p>cal.setMonthAbbreviations("Jan","Feb","Mar",...);</p>
+<p>// Show navigation for changing by the year, not just one month at a time</p>
+<p>cal.showYearNavigation();</p>
+<p>// Show month and year dropdowns, for quicker selection of month of dates</p>
+<p>cal.showNavigationDropdowns();</p>
+<p>// Set the text to be used above each day column. The days start with </p>
+<p>// sunday regardless of the value of WeekStartDay</p>
+<p>cal.setDayHeaders("S","M","T",...);</p>
+<p>// Set the day for the first column in the calendar grid. By default this</p>
+<p>// is Sunday (0) but it may be changed to fit the conventions of other</p>
+<p>// countries.</p>
+<p>cal.setWeekStartDay(1); // week is Monday - Sunday</p>
+<p>// Set the weekdays which should be disabled in the 'date' select popup. You can</p>
+<p>// then allow someone to only select week end dates, or Tuedays, for example</p>
+<p>cal.setDisabledWeekDays(0,1); // To disable selecting the 1st or 2nd days of the week</p>
+<p>// Selectively disable individual days or date ranges. Disabled days will not</p>
+<p>// be clickable, and show as strike-through text on current browsers.</p>
+<p>// Date format is any format recognized by parseDate() in date.js</p>
+<p>// Pass a single date to disable:</p>
+<p>cal.addDisabledDates("2003-01-01");</p>
+<p>// Pass null as the first parameter to mean "anything up to and including" the</p>
+<p>// passed date:</p>
+<p>cal.addDisabledDates(null, "01/02/03");</p>
+<p>// Pass null as the second parameter to mean "including the passed date and</p>
+<p>// anything after it:</p>
+<p>cal.addDisabledDates("Jan 01, 2003", null);</p>
+<p>// Pass two dates to disable all dates inbetween and including the two</p>
+<p>cal.addDisabledDates("January 01, 2003", "Dec 31, 2003");</p>
+<p>// When the 'year' select is displayed, set the number of years back from the </p>
+<p>// current year to start listing years. Default is 2.</p>
+<p>// This is also used for year drop-down, to decide how many years +/- to display</p>
+<p>cal.setYearSelectStartOffset(2);</p>
+<p>// Text for the word "Today" appearing on the calendar</p>
+<p>cal.setTodayText("Today");</p>
+<p>// The calendar uses CSS classes for formatting. If you want your calendar to</p>
+<p>// have unique styles, you can set the prefix that will be added to all the</p>
+<p>// classes in the output.</p>
+<p>// For example, normal output may have this:</p>
+<p>//     <SPAN CLASS="cpTodayTextDisabled">Today<SPAN></p>
+<p>// But if you set the prefix like this:</p>
+<p>cal.setCssPrefix("Test");</p>
+<p>// The output will then look like:</p>
+<p>//     <SPAN CLASS="TestcpTodayTextDisabled">Today<SPAN></p>
+<p>// And you can define that style somewhere in your page.</p>
+<p>// When using Year navigation, you can make the year be an input box, so</p>
+<p>// the user can manually change it and jump to any year</p>
+<p>cal.showYearNavigationInput();</p>
+<p>// Set the calendar offset to be different than the default. By default it</p>
+<p>// will appear just below and to the right of the anchorname. So if you have</p>
+<p>// a text box where the date will go and and anchor immediately after the</p>
+<p>// text box, the calendar will display immediately under the text box.</p>
+<p>cal.offsetX = 20;</p>
+<p>cal.offsetY = 20;</p>
+<p>NOTES:</p>
+<p>1) Requires the functions in AnchorPosition.js and PopupWindow.js</p>
+<p>2) Your anchor tag MUST contain both NAME and ID attributes which are the </p>
+<p>   same. For example:</p>
+<p>   <A NAME="test" ID="test"> </A></p>
+<p>3) There must be at least a space between <A> </A> for IE5.5 to see the </p>
+<p>   anchor tag correctly. Do not do <A></A> with no space.</p>
+<p>4) When a CalendarPopup object is created, a handler for 'onmouseup' is</p>
+<p>   attached to any event handler you may have already defined. Do NOT define</p>
+<p>   an event handler for 'onmouseup' after you define a CalendarPopup object </p>
+<p>   or the autoHide() will not work correctly.</p>
+<p>   </p>
+<p>5) The calendar popup display uses style sheets to make it look nice.</p>
+<p>*/ </p>
+<p>// CONSTRUCTOR for the CalendarPopup Object</p>
+<p>function CalendarPopup() {</p>
+<p>var c;</p>
+<p>if (arguments.length>0) {</p>
+<p>c = new PopupWindow(arguments[0]);</p>
+<p>}</p>
+<p>else {</p>
+<p>c = new PopupWindow();</p>
+<p>c.setSize(150,175);</p>
+<p>}</p>
+<p>c.offsetX = -152;</p>
+<p>c.offsetY = 25;</p>
+<p>c.autoHide();</p>
+<p>// Calendar-specific properties</p>
+<p>c.monthNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");</p>
+<p>c.monthAbbreviations = new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");</p>
+<p>c.dayHeaders = new Array("S","M","T","W","T","F","S");</p>
+<p>c.returnFunction = CP_tmpReturnFunction;</p>
+<p>c.returnMonthFunction = "CP_tmpReturnMonthFunction";</p>
+<p>c.returnQuarterFunction = "CP_tmpReturnQuarterFunction";</p>
+<p>c.returnYearFunction = "CP_tmpReturnYearFunction";</p>
+<p>c.weekStartDay = 0;</p>
+<p>c.isShowYearNavigation = false;</p>
+<p>c.displayType = "date";</p>
+<p>c.disabledWeekDays = new Object();</p>
+<p>c.disabledDatesExpression = "";</p>
+<p>c.yearSelectStartOffset = 2;</p>
+<p>c.yearSelectStartOffsetPlus = c.setYearSelectStartOffset;</p>
+<p>c.yearSelectStartOffsetMinus = c.setYearSelectStartOffset;</p>
+<p>c.currentDate = null;</p>
+<p>c.dt = null;</p>
+<p>c.parent = null;</p>
+<p>c.todayText="Today";</p>
+<p>c.cssPrefix="";</p>
+<p>c.isShowNavigationDropdowns=false;</p>
+<p>c.isShowYearNavigationInput=false;</p>
+<p>window.CP_calendarObject = null;</p>
+<p>window.CP_targetInput = null;</p>
+<p>window.CP_dateFormat = "MM/dd/yyyy";</p>
+<p>// Method mappings</p>
+<p>c.copyMonthNamesToWindow = CP_copyMonthNamesToWindow;</p>
+<p>c.setReturnFunction = CP_setReturnFunction;</p>
+<p>c.setReturnMonthFunction = CP_setReturnMonthFunction;</p>
+<p>c.setReturnQuarterFunction = CP_setReturnQuarterFunction;</p>
+<p>c.setReturnYearFunction = CP_setReturnYearFunction;</p>
+<p>c.setMonthNames = CP_setMonthNames;</p>
+<p>c.setMonthAbbreviations = CP_setMonthAbbreviations;</p>
+<p>c.setDayHeaders = CP_setDayHeaders;</p>
+<p>c.setWeekStartDay = CP_setWeekStartDay;</p>
+<p>c.setDisplayType = CP_setDisplayType;</p>
+<p>c.setDisabledWeekDays = CP_setDisabledWeekDays;</p>
+<p>c.addDisabledDates = CP_addDisabledDates;</p>
+<p>c.setYearSelectStartOffset = CP_setYearSelectStartOffset;</p>
+<p>c.setTodayText = CP_setTodayText;</p>
+<p>c.showYearNavigation = CP_showYearNavigation;</p>
+<p>c.showCalendar = CP_showCalendar;</p>
+<p>c.hideCalendar = CP_hideCalendar;</p>
+<p>c.getStyles = getCalendarStyles;</p>
+<p>c.refreshCalendar = CP_refreshCalendar;</p>
+<p>c.getCalendar = CP_getCalendar;</p>
+<p>c.select = CP_select;</p>
+<p>c.setCssPrefix = CP_setCssPrefix;</p>
+<p>c.showNavigationDropdowns = CP_showNavigationDropdowns;</p>
+<p>c.showYearNavigationInput = CP_showYearNavigationInput;</p>
+<p>c.copyMonthNamesToWindow();</p>
+<p>c.selectFunction=CP_selectFunction;</p>
+<p>// Return the object</p>
+<p>return c;</p>
+<p>}</p>
+<p>function CP_copyMonthNamesToWindow() {</p>
+<p>// Copy these values over to the date.js </p>
+<p>if (typeof(window.MONTH_NAMES)!="undefined" && window.MONTH_NAMES!=null) {</p>
+<p>window.MONTH_NAMES = new Array();</p>
+<p>for (var i=0; i<this.monthNames.length; i++) {</p>
+<p>window.MONTH_NAMES[window.MONTH_NAMES.length] = this.monthNames[i];</p>
+<p>}</p>
+<p>for (var i=0; i<this.monthAbbreviations.length; i++) {</p>
+<p>window.MONTH_NAMES[window.MONTH_NAMES.length] = this.monthAbbreviations[i];</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>// Temporary default functions to be called when items clicked, so no error is thrown</p>
+<p>function CP_tmpReturnFunction(y,m,d) { </p>
+<p>if (window.CP_targetInput!=null) {</p>
+<p>var dt = new Date(y,m-1,d,0,0,0);</p>
+<p>if (window.CP_calendarObject!=null) { window.CP_calendarObject.copyMonthNamesToWindow(); }</p>
+<p>window.CP_targetInput.value = formatDate(dt,window.CP_dateFormat);</p>
+<p>}</p>
+<p>else {</p>
+<p>alert('Use setReturnFunction() to define which function will get the clicked results!'); </p>
+<p>}</p>
+<p>}</p>
+<p>function CP_tmpReturnMonthFunction(y,m) { </p>
+<p>alert('Use setReturnMonthFunction() to define which function will get the clicked results!\nYou clicked: year='+y+' , month='+m); </p>
+<p>}</p>
+<p>function CP_tmpReturnQuarterFunction(y,q) { </p>
+<p>alert('Use setReturnQuarterFunction() to define which function will get the clicked results!\nYou clicked: year='+y+' , quarter='+q); </p>
+<p>}</p>
+<p>function CP_tmpReturnYearFunction(y) { </p>
+<p>alert('Use setReturnYearFunction() to define which function will get the clicked results!\nYou clicked: year='+y); </p>
+<p>}</p>
+<p>function CP_selectFunction(y,m,d) { </p>
+<p>//  alert (y+' '+m+' '+d);</p>
+<p>  this.dt = new Date(y,m-1,d,0,0,0);</p>
+<p>  if (window.CP_targetInput!=null) {</p>
+<p>    if (window.CP_calendarObject!=null) { window.CP_calendarObject.copyMonthNamesToWindow(); }</p>
+<p>    window.CP_targetInput.value = formatDate(this.dt,window.CP_dateFormat);</p>
+<p>  }</p>
+<p>}</p>
+<p>// Set the name of the functions to call to get the clicked item</p>
+<p>function CP_setReturnFunction(name) { this.returnFunction = name; }</p>
+<p>function CP_setReturnMonthFunction(name) { this.returnMonthFunction = name; }</p>
+<p>function CP_setReturnQuarterFunction(name) { this.returnQuarterFunction = name; }</p>
+<p>function CP_setReturnYearFunction(name) { this.returnYearFunction = name; }</p>
+<p>// Over-ride the built-in month names</p>
+<p>function CP_setMonthNames() {</p>
+<p>for (var i=0; i<arguments.length; i++) { this.monthNames[i] = arguments[i]; }</p>
+<p>this.copyMonthNamesToWindow();</p>
+<p>}</p>
+<p>// Over-ride the built-in month abbreviations</p>
+<p>function CP_setMonthAbbreviations() {</p>
+<p>for (var i=0; i<arguments.length; i++) { this.monthAbbreviations[i] = arguments[i]; }</p>
+<p>this.copyMonthNamesToWindow();</p>
+<p>}</p>
+<p>// Over-ride the built-in column headers for each day</p>
+<p>function CP_setDayHeaders() {</p>
+<p>for (var i=0; i<arguments.length; i++) { this.dayHeaders[i] = arguments[i]; }</p>
+<p>}</p>
+<p>// Set the day of the week (0-7) that the calendar display starts on</p>
+<p>// This is for countries other than the US whose calendar displays start on Monday(1), for example</p>
+<p>function CP_setWeekStartDay(day) { this.weekStartDay = day; }</p>
+<p>// Show next/last year navigation links</p>
+<p>function CP_showYearNavigation() { this.isShowYearNavigation = (arguments.length>0)?arguments[0]:true; }</p>
+<p>// Which type of calendar to display</p>
+<p>function CP_setDisplayType(type) {</p>
+<p>if (type!="date"&&type!="week-end"&&type!="month"&&type!="quarter"&&type!="year") { alert("Invalid display type! Must be one of: date,week-end,month,quarter,year"); return false; }</p>
+<p>this.displayType=type;</p>
+<p>}</p>
+<p>// How many years back to start by default for year display</p>
+<p>function CP_setYearSelectStartOffset(num,numplus,numminus) { this.yearSelectStartOffset=num; this.yearSelectStartOffsetPlus=numplus; this.yearSelectStartOffsetMinus=numminus;  }</p>
+<p>// Set which weekdays should not be clickable</p>
+<p>function CP_setDisabledWeekDays() {</p>
+<p>this.disabledWeekDays = new Object();</p>
+<p>for (var i=0; i<arguments.length; i++) { this.disabledWeekDays[arguments[i]] = true; }</p>
+<p>}</p>
+<p>// Disable individual dates or ranges</p>
+<p>// Builds an internal logical test which is run via eval() for efficiency</p>
+<p>function CP_addDisabledDates(start, end) {</p>
+<p>if (arguments.length==1) { end=start; }</p>
+<p>if (start==null && end==null) { return; }</p>
+<p>if (this.disabledDatesExpression!="") { this.disabledDatesExpression+= "||"; }</p>
+<p>if (start!=null) { start = parseDate(start); start=""+start.getFullYear()+LZ(start.getMonth()+1)+LZ(start.getDate());}</p>
+<p>if (end!=null) { end=parseDate(end); end=""+end.getFullYear()+LZ(end.getMonth()+1)+LZ(end.getDate());}</p>
+<p>if (start==null) { this.disabledDatesExpression+="(ds<"+end+")"; }</p>
+<p>else if (end  ==null) { this.disabledDatesExpression+="(ds>"+start+")"; }</p>
+<p>else { this.disabledDatesExpression+="(ds>"+start+"&&ds<"+end+")"; }</p>
+<p>}</p>
+<p>// Set the text to use for the "Today" link</p>
+<p>function CP_setTodayText(text) {</p>
+<p>this.todayText = text;</p>
+<p>}</p>
+<p>// Set the prefix to be added to all CSS classes when writing output</p>
+<p>function CP_setCssPrefix(val) { </p>
+<p>this.cssPrefix = val; </p>
+<p>}</p>
+<p>// Show the navigation as an dropdowns that can be manually changed</p>
+<p>function CP_showNavigationDropdowns() { this.isShowNavigationDropdowns = (arguments.length>0)?arguments[0]:true; }</p>
+<p>// Show the year navigation as an input box that can be manually changed</p>
+<p>function CP_showYearNavigationInput() { this.isShowYearNavigationInput = (arguments.length>0)?arguments[0]:true; }</p>
+<p>// Hide a calendar object</p>
+<p>function CP_hideCalendar() {</p>
+<p>if (arguments.length > 0) { window.popupWindowObjects[arguments[0]].hidePopup(); }</p>
+<p>else { this.hidePopup(); }</p>
+<p>}</p>
+<p>// Refresh the contents of the calendar display</p>
+<p>function CP_refreshCalendar(index) {</p>
+<p>var calObject = window.popupWindowObjects[index];</p>
+<p>if (arguments.length>1) { </p>
+<p>calObject.populate(calObject.getCalendar(arguments[1],arguments[2],arguments[3],arguments[4],arguments[5]));</p>
+<p>}</p>
+<p>else {</p>
+<p>calObject.populate(calObject.getCalendar());</p>
+<p>}</p>
+<p>calObject.refresh();</p>
+<p>}</p>
+<p>// Populate the calendar and display it</p>
+<p>function CP_showCalendar(anchorname) {</p>
+<p>if (arguments.length>1) {</p>
+<p>if (arguments[1]==null||arguments[1]=="") {</p>
+<p>this.currentDate=new Date();</p>
+<p>}</p>
+<p>else {</p>
+<p>this.currentDate=new Date(parseDate(arguments[1]));</p>
+<p>}</p>
+<p>}</p>
+<p>this.populate(this.getCalendar());</p>
+<p>this.showPopup(anchorname);</p>
+<p>}</p>
+<p>// Simple method to interface popup calendar with a text-entry box</p>
+<p>function CP_select(inputobj, linkname, format) {</p>
+<p>var selectedDate=(arguments.length>3)?arguments[3]:null;</p>
+<p>if (!window.getDateFromFormat) {</p>
+<p>alert("calendar.select: To use this method you must also include 'date.js' for date formatting");</p>
+<p>return;</p>
+<p>}</p>
+<p>if (this.displayType!="date"&&this.displayType!="week-end") {</p>
+<p>alert("calendar.select: This function can only be used with displayType 'date' or 'week-end'");</p>
+<p>return;</p>
+<p>}</p>
+<p>if (inputobj.type!="text" && inputobj.type!="hidden" && inputobj.type!="textarea") { </p>
+<p>alert("calendar.select: Input object passed is not a valid form input object"); </p>
+<p>window.CP_targetInput=null;</p>
+<p>return;</p>
+<p>}</p>
+<p>if (inputobj.disabled) { return; } // Can't use calendar input on disabled form input!</p>
+<p>window.CP_targetInput = inputobj;</p>
+<p>window.CP_calendarObject = this;</p>
+<p>this.currentDate=null;</p>
+<p>var time=0;</p>
+<p>if (selectedDate!=null) {</p>
+<p>time = getDateFromFormat(selectedDate,format)</p>
+<p>}</p>
+<p>else if (inputobj.value!="") {</p>
+<p>time = getDateFromFormat(inputobj.value,format);</p>
+<p>}</p>
+<p>if (selectedDate!=null || inputobj.value!="") {</p>
+<p>if (time==0) { this.currentDate=null; }</p>
+<p>else { this.currentDate=new Date(time); }</p>
+<p>}</p>
+<p>window.CP_dateFormat = format;</p>
+<p>this.showCalendar(linkname);</p>
+<p>}</p>
+<p>// Get style block needed to display the calendar correctly</p>
+<p>function getCalendarStyles() {</p>
+<p>var result = "";</p>
+<p>var p = "";</p>
+<p>if (this!=null && typeof(this.cssPrefix)!="undefined" && this.cssPrefix!=null && this.cssPrefix!="") { p=this.cssPrefix; }</p>
+<p>result += "<STYLE>\n";</p>
+<p>result += "."+p+"cpYearNavigation,."+p+"cpMonthNavigation { background-color:#C0C0C0; text-align:center; vertical-align:center; text-decoration:none; color:#000000; font-weight:bold; }\n";</p>
+<p>result += "."+p+"cpDayColumnHeader, ."+p+"cpYearNavigation,."+p+"cpMonthNavigation,."+p+"cpCurrentMonthDate,."+p+"cpCurrentMonthDateDisabled,."+p+"cpOtherMonthDate,."+p+"cpOtherMonthDateDisabled,."+p+"cpCurrentDate,."+p+"cpCurrentDateDisabled,."+p+"cpTodayText,."+p+"cpTodayTextDisabled,."+p+"cpText { font-family:arial; font-size:8pt; }\n";</p>
+<p>result += "TD."+p+"cpDayColumnHeader { text-align:right; border:solid thin #C0C0C0;border-width:0px 0px 1px 0px; }\n";</p>
+<p>result += "."+p+"cpCurrentMonthDate, ."+p+"cpOtherMonthDate, ."+p+"cpCurrentDate  { text-align:right; text-decoration:none; }\n";</p>
+<p>result += "."+p+"cpCurrentMonthDateDisabled, ."+p+"cpOtherMonthDateDisabled, ."+p+"cpCurrentDateDisabled { color:#D0D0D0; text-align:right; text-decoration:line-through; }\n";</p>
+<p>result += "."+p+"cpCurrentMonthDate, .cpCurrentDate { color:#000000; }\n";</p>
+<p>result += "."+p+"cpOtherMonthDate { color:#808080; }\n";</p>
+<p>result += "TD."+p+"cpCurrentDate { color:white; background-color: #C0C0C0; border-width:1px; border:solid thin #800000; }\n";</p>
+<p>result += "TD."+p+"cpCurrentDateDisabled { border-width:1px; border:solid thin #FFAAAA; }\n";</p>
+<p>result += "TD."+p+"cpTodayText, TD."+p+"cpTodayTextDisabled { border:solid thin #C0C0C0; border-width:1px 0px 0px 0px;}\n";</p>
+<p>result += "A."+p+"cpTodayText, SPAN."+p+"cpTodayTextDisabled { height:20px; }\n";</p>
+<p>result += "A."+p+"cpTodayText { color:black; }\n";</p>
+<p>result += "."+p+"cpTodayTextDisabled { color:#D0D0D0; }\n";</p>
+<p>result += "."+p+"cpBorder { border:solid thin #808080; }\n";</p>
+<p>result += "</STYLE>\n";</p>
+<p>return result;</p>
+<p>}</p>
+<p>// Return a string containing all the calendar code to be displayed</p>
+<p>function CP_getCalendar() {</p>
+<p>var now = new Date();</p>
+<p>// Reference to window</p>
+<p>if (this.type == "WINDOW") { var windowref = "window.opener."; }</p>
+<p>else { var windowref = ""; }</p>
+<p>var result = "";</p>
+<p>// If POPUP, write entire HTML document</p>
+<p>if (this.type == "WINDOW") {</p>
+<p>result += "<HTML><HEAD><TITLE>Calendar</TITLE>"+this.getStyles()+"</HEAD><BODY MARGINWIDTH=0 MARGINHEIGHT=0 TOPMARGIN=0 RIGHTMARGIN=0 LEFTMARGIN=0>\n";</p>
+<p>result += '<CENTER><TABLE WIDTH=100% BORDER=0 BORDERWIDTH=0 CELLSPACING=0 CELLPADDING=0>\n';</p>
+<p>}</p>
+<p>else {</p>
+<p>result += '<TABLE CLASS="'+this.cssPrefix+'cpBorder" WIDTH=144 BORDER=1 BORDERWIDTH=1 CELLSPACING=0 CELLPADDING=1>\n';</p>
+<p>result += '<TR><TD ALIGN=CENTER>\n';</p>
+<p>result += '<CENTER>\n';</p>
+<p>}</p>
+<p>// Code for DATE display (default)</p>
+<p>// -------------------------------</p>
+<p>if (this.displayType=="date" || this.displayType=="week-end") {</p>
+<p>if (this.currentDate==null) { this.currentDate = now; }</p>
+<p>if (arguments.length > 0) { var month = arguments[0]; }</p>
+<p>else { var month = this.currentDate.getMonth()+1; }</p>
+<p>if (arguments.length > 1 && arguments[1]>0 && arguments[1]-0==arguments[1]) { var year = arguments[1]; }</p>
+<p>else { var year = this.currentDate.getFullYear(); }</p>
+<p>var daysinmonth= new Array(0,31,28,31,30,31,30,31,31,30,31,30,31);</p>
+<p>if ( ( (year%4 == 0)&&(year%100 != 0) ) || (year%400 == 0) ) {</p>
+<p>daysinmonth[2] = 29;</p>
+<p>}</p>
+<p>var current_month = new Date(year,month-1,1);</p>
+<p>var display_year = year;</p>
+<p>var display_month = month;</p>
+<p>var display_date = 1;</p>
+<p>var weekday= current_month.getDay();</p>
+<p>var offset = 0;</p>
+<p>offset = (weekday >= this.weekStartDay) ? weekday-this.weekStartDay : 7-this.weekStartDay+weekday ;</p>
+<p>if (offset > 0) {</p>
+<p>display_month--;</p>
+<p>if (display_month < 1) { display_month = 12; display_year--; }</p>
+<p>display_date = daysinmonth[display_month]-offset+1;</p>
+<p>}</p>
+<p>var next_month = month+1;</p>
+<p>var next_month_year = year;</p>
+<p>if (next_month > 12) { next_month=1; next_month_year++; }</p>
+<p>var last_month = month-1;</p>
+<p>var last_month_year = year;</p>
+<p>if (last_month < 1) { last_month=12; last_month_year--; }</p>
+<p>var date_class;</p>
+<p>if (this.type!="WINDOW") {</p>
+<p>result += "<TABLE WIDTH=144 BORDER=0 BORDERWIDTH=0 CELLSPACING=0 CELLPADDING=0>";</p>
+<p>}</p>
+<p>result += '<TR>\n';</p>
+<p>var refresh = windowref+'CP_refreshCalendar';</p>
+<p>var refreshLink = 'javascript:' + refresh;</p>
+<p>if (this.isShowNavigationDropdowns) {</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="78" COLSPAN="3"><select CLASS="'+this.cssPrefix+'cpMonthNavigation" name="cpMonth" onChange="'+refresh+'('+this.index+',this.options[this.selectedIndex].value-0,'+(year-0)+');">';</p>
+<p>for( var monthCounter=1; monthCounter<=12; monthCounter++ ) {</p>
+<p>var selected = (monthCounter==month) ? 'SELECTED' : '';</p>
+<p>result += '<option value="'+monthCounter+'" '+selected+'>'+this.monthNames[monthCounter-1]+'</option>';</p>
+<p>}</p>
+<p>result += '</select></TD>';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="10">&nbsp;</TD>';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="56" COLSPAN="3"><select CLASS="'+this.cssPrefix+'cpYearNavigation" name="cpYear" onChange="'+refresh+'('+this.index+','+month+',this.options[this.selectedIndex].value-0);">';</p>
+<p>for( var yearCounter=year-this.yearSelectStartOffsetMinus; yearCounter<=year+this.yearSelectStartOffsetPlus; yearCounter++ ) {</p>
+<p>var selected = (yearCounter==year) ? 'SELECTED' : '';</p>
+<p>result += '<option value="'+yearCounter+'" '+selected+'>'+yearCounter+'</option>';</p>
+<p>}</p>
+<p>result += '</select></TD>';</p>
+<p>}</p>
+<p>else {</p>
+<p>if (this.isShowYearNavigation) {</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="10"><A CLASS="'+this.cssPrefix+'cpMonthNavigation" HREF="'+refreshLink+'('+this.index+','+last_month+','+last_month_year+');">&lt;</A></TD>';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="58"><SPAN CLASS="'+this.cssPrefix+'cpMonthNavigation">'+this.monthNames[month-1]+'</SPAN></TD>';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="10"><A CLASS="'+this.cssPrefix+'cpMonthNavigation" HREF="'+refreshLink+'('+this.index+','+next_month+','+next_month_year+');">&gt;</A></TD>';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="10">&nbsp;</TD>';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="10"><A CLASS="'+this.cssPrefix+'cpYearNavigation" HREF="'+refreshLink+'('+this.index+','+month+','+(year-1)+');">&lt;</A></TD>';</p>
+<p>if (this.isShowYearNavigationInput) {</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="36"><INPUT NAME="cpYear" CLASS="'+this.cssPrefix+'cpYearNavigation" SIZE="4" MAXLENGTH="4" VALUE="'+year+'" onBlur="'+refresh+'('+this.index+','+month+',this.value-0);"></TD>';</p>
+<p>}</p>
+<p>else {</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="36"><SPAN CLASS="'+this.cssPrefix+'cpYearNavigation">'+year+'</SPAN></TD>';</p>
+<p>}</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="10"><A CLASS="'+this.cssPrefix+'cpYearNavigation" HREF="'+refreshLink+'('+this.index+','+month+','+(year+1)+');">&gt;</A></TD>';</p>
+<p>}</p>
+<p>else {</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="22"><A CLASS="'+this.cssPrefix+'cpMonthNavigation" HREF="'+refreshLink+'('+this.index+','+last_month+','+last_month_year+');">&lt;&lt;</A></TD>\n';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="100"><SPAN CLASS="'+this.cssPrefix+'cpMonthNavigation">'+this.monthNames[month-1]+' '+year+'</SPAN></TD>\n';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpMonthNavigation" WIDTH="22"><A CLASS="'+this.cssPrefix+'cpMonthNavigation" HREF="'+refreshLink+'('+this.index+','+next_month+','+next_month_year+');">&gt;&gt;</A></TD>\n';</p>
+<p>}</p>
+<p>}</p>
+<p>result += '</TR></TABLE>\n';</p>
+<p>result += '<TABLE WIDTH=120 BORDER=0 CELLSPACING=0 CELLPADDING=1 ALIGN=CENTER>\n';</p>
+<p>result += '<TR>\n';</p>
+<p>for (var j=0; j<7; j++) {</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpDayColumnHeader" WIDTH="14%"><SPAN CLASS="'+this.cssPrefix+'cpDayColumnHeader">'+this.dayHeaders[(this.weekStartDay+j)%7]+'</TD>\n';</p>
+<p>}</p>
+<p>result += '</TR>\n';</p>
+<p>for (var row=1; row<=6; row++) {</p>
+<p>result += '<TR>\n';</p>
+<p>for (var col=1; col<=7; col++) {</p>
+<p>var disabled=false;</p>
+<p>if (this.disabledDatesExpression!="") {</p>
+<p>var ds=""+display_year+LZ(display_month)+LZ(display_date);</p>
+<p>eval("disabled=("+this.disabledDatesExpression+")");</p>
+<p>}</p>
+<p>var dateClass = "";</p>
+<p>if ((display_month == this.currentDate.getMonth()+1) && (display_date==this.currentDate.getDate()) && (display_year==this.currentDate.getFullYear())) {</p>
+<p>dateClass = "cpCurrentDate";</p>
+<p>}</p>
+<p>else if (display_month == month) {</p>
+<p>dateClass = "cpCurrentMonthDate";</p>
+<p>}</p>
+<p>else {</p>
+<p>dateClass = "cpOtherMonthDate";</p>
+<p>}</p>
+<p>if (disabled || this.disabledWeekDays[col-1]) {</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+dateClass+'"><SPAN CLASS="'+this.cssPrefix+dateClass+'Disabled">'+display_date+'</SPAN></TD>\n';</p>
+<p>}</p>
+<p>else {</p>
+<p>var selected_date = display_date;</p>
+<p>var selected_month = display_month;</p>
+<p>var selected_year = display_year;</p>
+<p>var d = new Date(selected_year,selected_month-1,selected_date,0,0,0,0);</p>
+<p>if (this.displayType=="week-end") {</p>
+<p>d.setDate(d.getDate() + (7-col));</p>
+<p>selected_year = d.getYear();</p>
+<p>if (selected_year < 1000) { selected_year += 1900; }</p>
+<p>selected_month = d.getMonth()+1;</p>
+<p>selected_date = d.getDate();</p>
+<p>}</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+dateClass+'"><A HREF="javascript:'+windowref+'CP_calendarObject.selectFunction('+selected_year+','+selected_month+','+selected_date+');'+windowref+'CP_calendarObject.returnFunction('+selected_year+','+selected_month+','+selected_date+');'+windowref+'CP_hideCalendar(\''+this.index+'\');" CLASS="'+this.cssPrefix+dateClass+'">'+display_date+'</A></TD>\n';</p>
+<p>}</p>
+<p>display_date++;</p>
+<p>if (display_date > daysinmonth[display_month]) {</p>
+<p>display_date=1;</p>
+<p>display_month++;</p>
+<p>}</p>
+<p>if (display_month > 12) {</p>
+<p>display_month=1;</p>
+<p>display_year++;</p>
+<p>}</p>
+<p>}</p>
+<p>result += '</TR>';</p>
+<p>}</p>
+<p>var current_weekday = now.getDay() - this.weekStartDay;</p>
+<p>if (current_weekday < 0) {</p>
+<p>current_weekday += 7;</p>
+<p>}</p>
+<p>result += '<TR>\n';</p>
+<p>result += '<TD COLSPAN=7 ALIGN=CENTER CLASS="'+this.cssPrefix+'cpTodayText">\n';</p>
+<p>if (this.disabledDatesExpression!="") {</p>
+<p>var ds=""+now.getFullYear()+LZ(now.getMonth()+1)+LZ(now.getDate());</p>
+<p>eval("disabled=("+this.disabledDatesExpression+")");</p>
+<p>}</p>
+<p>if (disabled || this.disabledWeekDays[current_weekday+1]) {</p>
+<p>result += '<SPAN CLASS="'+this.cssPrefix+'cpTodayTextDisabled">'+this.todayText+'</SPAN>\n';</p>
+<p>}</p>
+<p>else {</p>
+<p>result += '<A CLASS="'+this.cssPrefix+'cpTodayText" HREF="javascript:'+windowref+'CP_calendarObject.selectFunction('+now.getFullYear()+','+(now.getMonth()+1)+','+now.getDate()+');'+windowref+'CP_calendarObject.returnFunction(\''+now.getFullYear()+'\',\''+(now.getMonth()+1)+'\',\''+now.getDate()+'\');'+windowref+'CP_hideCalendar(\''+this.index+'\');">'+this.todayText+'</A>\n';</p>
+<p>}</p>
+<p>result += '<BR>\n';</p>
+<p>result += '</TD></TR></TABLE></CENTER></TD></TR></TABLE>\n';</p>
+<p>}</p>
+<p>// Code common for MONTH, QUARTER, YEAR</p>
+<p>// ------------------------------------</p>
+<p>if (this.displayType=="month" || this.displayType=="quarter" || this.displayType=="year") {</p>
+<p>if (arguments.length > 0) { var year = arguments[0]; }</p>
+<p>else { </p>
+<p>if (this.displayType=="year") {var year = now.getFullYear()-this.yearSelectStartOffsetMinus; }</p>
+<p>else { var year = now.getFullYear(); }</p>
+<p>}</p>
+<p>if (this.displayType!="year" && this.isShowYearNavigation) {</p>
+<p>result += "<TABLE WIDTH=144 BORDER=0 BORDERWIDTH=0 CELLSPACING=0 CELLPADDING=0>";</p>
+<p>result += '<TR>\n';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="22"><A CLASS="'+this.cssPrefix+'cpYearNavigation" HREF="javascript:'+windowref+'CP_refreshCalendar('+this.index+','+(year-1)+');">&lt;&lt;</A></TD>\n';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="100">'+year+'</TD>\n';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="22"><A CLASS="'+this.cssPrefix+'cpYearNavigation" HREF="javascript:'+windowref+'CP_refreshCalendar('+this.index+','+(year+1)+');">&gt;&gt;</A></TD>\n';</p>
+<p>result += '</TR></TABLE>\n';</p>
+<p>}</p>
+<p>}</p>
+<p>// Code for MONTH display </p>
+<p>// ----------------------</p>
+<p>if (this.displayType=="month") {</p>
+<p>// If POPUP, write entire HTML document</p>
+<p>result += '<TABLE WIDTH=120 BORDER=0 CELLSPACING=1 CELLPADDING=0 ALIGN=CENTER>\n';</p>
+<p>for (var i=0; i<4; i++) {</p>
+<p>result += '<TR>';</p>
+<p>for (var j=0; j<3; j++) {</p>
+<p>var monthindex = ((i*3)+j);</p>
+<p>result += '<TD WIDTH=33% ALIGN=CENTER><A CLASS="'+this.cssPrefix+'cpText" HREF="javascript:'+windowref+this.returnMonthFunction+'('+year+','+(monthindex+1)+');'+windowref+'CP_hideCalendar(\''+this.index+'\');" CLASS="'+date_class+'">'+this.monthAbbreviations[monthindex]+'</A></TD>';</p>
+<p>}</p>
+<p>result += '</TR>';</p>
+<p>}</p>
+<p>result += '</TABLE></CENTER></TD></TR></TABLE>\n';</p>
+<p>}</p>
+<p>// Code for QUARTER display</p>
+<p>// ------------------------</p>
+<p>if (this.displayType=="quarter") {</p>
+<p>result += '<BR><TABLE WIDTH=120 BORDER=1 CELLSPACING=0 CELLPADDING=0 ALIGN=CENTER>\n';</p>
+<p>for (var i=0; i<2; i++) {</p>
+<p>result += '<TR>';</p>
+<p>for (var j=0; j<2; j++) {</p>
+<p>var quarter = ((i*2)+j+1);</p>
+<p>result += '<TD WIDTH=50% ALIGN=CENTER><BR><A CLASS="'+this.cssPrefix+'cpText" HREF="javascript:'+windowref+this.returnQuarterFunction+'('+year+','+quarter+');'+windowref+'CP_hideCalendar(\''+this.index+'\');" CLASS="'+date_class+'">Q'+quarter+'</A><BR><BR></TD>';</p>
+<p>}</p>
+<p>result += '</TR>';</p>
+<p>}</p>
+<p>result += '</TABLE></CENTER></TD></TR></TABLE>\n';</p>
+<p>}</p>
+<p>// Code for YEAR display</p>
+<p>// ---------------------</p>
+<p>if (this.displayType=="year") {</p>
+<p>var yearColumnSize = 4;</p>
+<p>result += "<TABLE WIDTH=144 BORDER=0 BORDERWIDTH=0 CELLSPACING=0 CELLPADDING=0>";</p>
+<p>result += '<TR>\n';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="50%"><A CLASS="'+this.cssPrefix+'cpYearNavigation" HREF="javascript:'+windowref+'CP_refreshCalendar('+this.index+','+(year-(yearColumnSize*2))+');">&lt;&lt;</A></TD>\n';</p>
+<p>result += '<TD CLASS="'+this.cssPrefix+'cpYearNavigation" WIDTH="50%"><A CLASS="'+this.cssPrefix+'cpYearNavigation" HREF="javascript:'+windowref+'CP_refreshCalendar('+this.index+','+(year+(yearColumnSize*2))+');">&gt;&gt;</A></TD>\n';</p>
+<p>result += '</TR></TABLE>\n';</p>
+<p>result += '<TABLE WIDTH=120 BORDER=0 CELLSPACING=1 CELLPADDING=0 ALIGN=CENTER>\n';</p>
+<p>for (var i=0; i<yearColumnSize; i++) {</p>
+<p>for (var j=0; j<2; j++) {</p>
+<p>var currentyear = year+(j*yearColumnSize)+i;</p>
+<p>result += '<TD WIDTH=50% ALIGN=CENTER><A CLASS="'+this.cssPrefix+'cpText" HREF="javascript:'+windowref+this.returnYearFunction+'('+currentyear+');'+windowref+'CP_hideCalendar(\''+this.index+'\');" CLASS="'+date_class+'">'+currentyear+'</A></TD>';</p>
+<p>}</p>
+<p>result += '</TR>';</p>
+<p>}</p>
+<p>result += '</TABLE></CENTER></TD></TR></TABLE>\n';</p>
+<p>}</p>
+<p>// Common</p>
+<p>if (this.type == "WINDOW") {</p>
+<p>result += "</BODY></HTML>\n";</p>
+<p>}</p>
+<p>return result;</p>
+<p>}//--></p>
+<p><!--</p>
+<p>function addslashes(str) {</p>
+<p>str=str.replace(/\'/g,'\\\'');</p>
+<p>str=str.replace(/\"/g,'\\"');</p>
+<p>str=str.replace(/\\/g,'\\\\');</p>
+<p>str=str.replace(/\0/g,'\\0');</p>
+<p>return str;</p>
+<p>}</p>
+<p>function stripslashes(str) {</p>
+<p>str=str.replace(/\\'/g,'\'');</p>
+<p>str=str.replace(/\\"/g,'"');</p>
+<p>str=str.replace(/\\\\/g,'\\');</p>
+<p>str=str.replace(/\\0/g,'\0');</p>
+<p>return str;</p>
+<p>}</p>
+<p>		</p>
+<p>		// remote scripting library</p>
+<p>		// (c) copyright 2005 modernmethod, inc</p>
+<p>		var sajax_debug_mode = false;</p>
+<p>		var sajax_request_type = "GET";</p>
+<p>		var sajax_target_id = "";</p>
+<p>		var sajax_failure_redirect = "";</p>
+<p>		</p>
+<p>		function sajax_debug(text) {</p>
+<p>			if (sajax_debug_mode){</p>
+<p>			  ADDRinnerHTML('debug_inner_main',text+'<br/>')</p>
+<p>			}	</p>
+<p>		}</p>
+<p>		</p>
+<p> 		function sajax_init_object() {</p>
+<p> 			sajax_debug("sajax_init_object() called..")</p>
+<p> 			</p>
+<p> 			var A;</p>
+<p> 			</p>
+<p> 			var msxmlhttp = new Array(</p>
+<p>				'Msxml2.XMLHTTP.5.0',</p>
+<p>				'Msxml2.XMLHTTP.4.0',</p>
+<p>				'Msxml2.XMLHTTP.3.0',</p>
+<p>				'Msxml2.XMLHTTP',</p>
+<p>				'Microsoft.XMLHTTP');</p>
+<p>			for (var i = 0; i < msxmlhttp.length; i++) {</p>
+<p>				try {</p>
+<p>					A = new ActiveXObject(msxmlhttp[i]);</p>
+<p>				} catch (e) {</p>
+<p>					A = null;</p>
+<p>				}</p>
+<p>			}</p>
+<p> 			</p>
+<p>			if(!A && typeof XMLHttpRequest != "undefined")</p>
+<p>				A = new XMLHttpRequest();</p>
+<p>			if (!A)</p>
+<p>				sajax_debug("Could not create connection object.");</p>
+<p>			return A;</p>
+<p>		}</p>
+<p>		</p>
+<p>		var sajax_requests = new Array();</p>
+<p>		</p>
+<p>		function sajax_cancel() {</p>
+<p>			for (var i = 0; i < sajax_requests.length; i++) </p>
+<p>				sajax_requests[i].abort();</p>
+<p>		}</p>
+<p>		</p>
+<p>		function sajax_do_call(func_name, args) {</p>
+<p>			var i, x, n;</p>
+<p>			var uri;</p>
+<p>			var post_data;</p>
+<p>			var target_id;</p>
+<p>			</p>
+<p>			sajax_debug("in sajax_do_call().." + sajax_request_type + "/" + sajax_target_id);</p>
+<p>			target_id = sajax_target_id;</p>
+<p>			if (typeof(sajax_request_type) == "undefined" || sajax_request_type == "") </p>
+<p>				sajax_request_type = "GET";</p>
+<p>			</p>
+<p>			uri = "http://www.express.gr/templates/Template-xrimatistirio/ajax.php";</p>
+<p>			if (sajax_request_type == "GET") {</p>
+<p>			</p>
+<p>				if (uri.indexOf("?") == -1) </p>
+<p>					uri += "?rs=" + escape(func_name);</p>
+<p>				else</p>
+<p>					uri += "&rs=" + escape(func_name);</p>
+<p>				uri += "&rst=" + escape(sajax_target_id);</p>
+<p>				uri += "&rsrnd=" + new Date().getTime();</p>
+<p>				</p>
+<p>				for (i = 0; i < args.length-1; i++) </p>
+<p>					uri += "&rsargs[]=" + escape(args[i]);</p>
+<p>				post_data = null;</p>
+<p>			} </p>
+<p>			else if (sajax_request_type == "POST") {</p>
+<p>				post_data = "rs=" + escape(func_name);</p>
+<p>				post_data += "&rst=" + escape(sajax_target_id);</p>
+<p>				post_data += "&rsrnd=" + new Date().getTime();</p>
+<p>				</p>
+<p>				for (i = 0; i < args.length-1; i++) </p>
+<p>					post_data = post_data + "&rsargs[]=" + escape(args[i]);</p>
+<p>			}</p>
+<p>			else {</p>
+<p>				alert("Illegal request type: " + sajax_request_type);</p>
+<p>			}</p>
+<p>			</p>
+<p>			x = sajax_init_object();</p>
+<p>			if (x == null) {</p>
+<p>				if (sajax_failure_redirect != "") {</p>
+<p>					location.href = sajax_failure_redirect;</p>
+<p>					return false;</p>
+<p>				} else {</p>
+<p>					sajax_debug("NULL sajax object for user agent:\n" + navigator.userAgent);</p>
+<p>					return false;</p>
+<p>				}</p>
+<p>			} else {			 </p>
+<p>			    try {</p>
+<p>				  x.open(sajax_request_type, uri, true);</p>
+<p>			    } catch (e) {</p>
+<p>				  sajax_debug("Caught error "+e+ ": Could not x.open("+ sajax_request_type+","+uri+", true");</p>
+<p>			    }</p>
+<p>			    </p>
+<p>				sajax_requests[sajax_requests.length] = x;</p>
+<p>				</p>
+<p>				if (sajax_request_type == "POST") {</p>
+<p>					x.setRequestHeader("Method", "POST " + uri + " HTTP/1.1");</p>
+<p>					x.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");</p>
+<p>				}</p>
+<p>			</p>
+<p>				x.onreadystatechange = function() {</p>
+<p>					if (x.readyState != 4) </p>
+<p>						return;</p>
+<p>					sajax_debug("received " + x.responseText);</p>
+<p>				</p>
+<p>					var status;</p>
+<p>					var data;</p>
+<p>					//var txt = x.responseText.replace(/^\s*|\s*$/g,"");</p>
+<p>					var txt = x.responseText.substring(19);</p>
+<p>					var tmp = txt.length;</p>
+<p>					txt = stripslashes(txt.substring(0,(tmp-7)));</p>
+<p>					txt = txt.replace(/^\s*|\s*$/g,"");</p>
+<p>					</p>
+<p>					//sajax_debug("received2 " + txt);</p>
+<p>					status = txt.charAt(0);</p>
+<p>					//data = txt.substring(2);</p>
+<p>					data = txt;</p>
+<p>					if (status == "") {</p>
+<p>						// let's just assume this is a pre-response bailout and let it slide for now</p>
+<p>					} else if (status == "-") </p>
+<p>						alert("Error: " + data);</p>
+<p>					else {</p>
+<p>						if (target_id != "") </p>
+<p>							document.getElementById(target_id).innerHTML = eval(data);</p>
+<p>						else {</p>
+<p>							try {</p>
+<p>								var callback;</p>
+<p>								var extra_data = false;</p>
+<p>								if (typeof args[args.length-1] == "object") {</p>
+<p>									callback = args[args.length-1].callback;</p>
+<p>									extra_data = args[args.length-1].extra_data;</p>
+<p>								} else {</p>
+<p>									callback = args[args.length-1];</p>
+<p>									if((args.length)>1){</p>
+<p>									  extra_data = args[args.length-2];</p>
+<p>									}</p>
+<p>								}</p>
+<p>								callback(eval(data), extra_data);</p>
+<p>							} catch (e) {</p>
+<p>								sajax_debug("Caught error " + e + ": Could not eval " + data );</p>
+<p>							}</p>
+<p>						}</p>
+<p>					}</p>
+<p>				}</p>
+<p>			}</p>
+<p>			</p>
+<p>			sajax_debug(func_name + " uri = " + uri + "/post = " + post_data);</p>
+<p>			x.send(post_data);</p>
+<p>			sajax_debug(func_name + " waiting..");</p>
+<p>			delete x;</p>
+<p>			return true;</p>
+<p>		}</p>
+<p>		</p>
+<p>				</p>
+<p>		// wrapper for get_metoxes		</p>
+<p>		function x_get_metoxes() {</p>
+<p>			sajax_do_call("get_metoxes",</p>
+<p>				x_get_metoxes.arguments);</p>
+<p>		}</p>
+<p>		</p>
+<p>				</p>
+<p>		// wrapper for make_graph		</p>
+<p>		function x_make_graph() {</p>
+<p>			sajax_do_call("make_graph",</p>
+<p>				x_make_graph.arguments);</p>
+<p>		}</p>
+<p>		</p>
+<p>				</p>
+<p>		// wrapper for get_metoxes_moy		</p>
+<p>		function x_get_metoxes_moy() {</p>
+<p>			sajax_do_call("get_metoxes_moy",</p>
+<p>				x_get_metoxes_moy.arguments);</p>
+<p>		}</p>
+<p>		</p>
+<p>				</p>
+<p>		// wrapper for deiktes_module_get		</p>
+<p>		function x_deiktes_module_get() {</p>
+<p>			sajax_do_call("deiktes_module_get",</p>
+<p>				x_deiktes_module_get.arguments);</p>
+<p>		}</p>
+<p>		</p>
+<p>		--></p>
+<p>GA_googleFillSlot("News_728x90");</p>
+<p>					 </p>
+<p>			 </p>
+<p>Πέμπτη, 24 Νοεμβρίου 2011, 12:57:21</p>
+<p>Εγγραφή</p>
+<p>   </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Αποθήκευση</p>
+<p> </p>
+<p> Αρχική </p>
+<p>							| Newsletter </p>
+<p>							| </p>
+<p>							Site Map</p>
+<p>							|  </p>
+<p>Επικοινωνία</p>
+<p>							 </p>
+<p>ΕΙΔΗΣΕΙΣ</p>
+<p>Οικονομία</p>
+<p>Τουρισμός</p>
+<p>Διεθνής Οικονομία</p>
+<p>Πολιτική</p>
+<p>Επιχειρήσεις</p>
+<p>Αγορές</p>
+<p>Ελλάδα</p>
+<p>Κόσμος</p>
+<p>Ναυτιλία</p>
+<p>Θέσεις</p>
+<p>Βαλκάνια</p>
+<p>Υγεία</p>
+<p>Νέα Γρίπη 2011</p>
+<p>Αθλητικά</p>
+<p>Πολιτισμός</p>
+<p>Greek News</p>
+<p>Barron's</p>
+<p>ΑΓΟΡΕΣ</p>
+<p>ΥΠΗΡΕΣΙΕΣ</p>
+<p>ΑΦΙΕΡΩΜΑΤΑ</p>
+<p>ΧΡΗΣΤΙΚΑ</p>
+<p>EXPRESS YOURSELF</p>
+<p>ΕΦΗΜΕΡΙΔΑ ΕΞΠΡΕΣ</p>
+<p>							 </p>
+<p>					GA_googleFillSlot("News_160x600");</p>
+<p>					</p>
+<p>					 </p>
+<p>Σήμερα γιορτάζει ο/η: Ερμογένης</p>
+<p>Αθήνα: </p>
+<p> 13°C </p>
+<p> </p>
+<p>Βρίσκεστε εδώ:</p>
+<p>Αρχική  ΕΙΔΗΣΕΙΣ  Υγεία    Οι διακοπές δεν βοηθούν την κατάθλιψη </p>
+<p> </p>
+<p>				Οι διακοπές δεν βοηθούν την κατάθλιψη								</p>
+<p> </p>
+<p> </p>
+<p>			 Πηγή: Express.gr  07/11/11-14:15</p>
+<p>Οι διακοπές μπορεί να επιτείνουν την κατάθλιψη και οι ειδικοί </p>
+<p>προειδοποιούν όσους έχουν συμπτώματα κατάθλιψης να μην λαμβάνουν άδεια.   </p>
+<p> Ο επικεφαλής ενός γερμανικού ιδρύματος που βοηθάει τους πάσχοντες από </p>
+<p>κατάθλιψη, καθηγητής Ούλριχ Χέγκερλ, εξηγεί ότι η κατάθλιψη έχει την </p>
+<p>τάση να "ταξιδεύει μαζί με τον πάσχοντα" και προσθέτει ότι "η εμπειρία </p>
+<p>γίνεται ακόμη πιο επώδυνη όταν κάποιος είναι μακριά από το σπίτι του."   </p>
+<p> Οπως λέει ο ίδιος, οι πάσχοντες από κατάθλιψη συχνά αισθάνονται </p>
+<p>κατάκοποι στη διάρκεια της ημέρας και θέλουν να κοιμούνται πολύ </p>
+<p>ελπίζοντας ότι θα ξυπνήσουν το άλλο πρωί με καλύτερη διάθεση.   </p>
+<p>  Η αλήθεια όμως είναι, σύμφωνα με τον Χέγκερλ, ότι ο ύπνος και οι </p>
+<p>διακοπές συχνά επιδεινώνουν την κατάσταση. Εκτός από την διάθεση για </p>
+<p>ύπνο, συχνά συμπτώματα κατάθλιψης είναι η απόγνωση και η αδυναμία να </p>
+<p>λειτουργήσει κάποιος στην καθημερινή του ζωή.   </p>
+<p> Επιπλέον υπάρχουν και σωματικά συμπτώματα, όπως για παράδειγμα έντονοι </p>
+<p>πονοκέφαλοι και πόνοι στην πλάτη. "Η κατάθλιψη τείνει να καθιστά </p>
+<p>ανυπόφορα όλα τα σωματικά προβλήματα, ακόμη κι αν κάποιος τα έχει </p>
+<p>αποδεχτεί ως μέρος της καθημερινής του ζωής," εξηγεί ο καθηγητής και </p>
+<p>τονίζει ότι μετά τη διάγνωση ο ασθενής δεν θα πρέπει με κανέναν τρόπο να</p>
+<p> εγκαταλείπει την δουλειά του όσο λαμβάνει θεραπεία.   </p>
+<p>  Οι υπερβολικές ώρες εργασίας σπανίως αποτελούν αιτία κατάθλιψης. </p>
+<p>Αντίθετα ως πιθανές αιτίες είναι οι σημαντικές αλλαγές στη ζωή ενός </p>
+<p>ανθρώπου, όπως μία απώλεια-- ακόμη και φαινομενικά θετικά γεγονότα όπως </p>
+<p>οι διακοπές ή η επιτυχία σε εξετάσεις. "Κάποιες φορές δεν υπάρχει σαφής </p>
+<p>αιτία," σχολιάζει ο Χέγκερλ.</p>
+<p><!--</p>
+<p>google_ad_client = "pub-7418193707830768";</p>
+<p>google_ad_slot = "0905801333";</p>
+<p>google_ad_width = 336;</p>
+<p>google_ad_height = 280;</p>
+<p>//--></p>
+<p> function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;} </p>
+<p>					 </p>
+<p> </p>
+<p>					 </p>
+<p>					 </p>
+<p>Συνεχίζεται ο "πόλεμος του αλατιού" </p>
+<p>(23/11 - 10:49)</p>
+<p>Τα φάρμακα κατά της χοληστερίνης είναι αποτελεσματικά και ασφαλή</p>
+<p>(23/11 - 10:48)</p>
+<p>Περισσότερη σωματική άσκηση τη μέρα, καλύτερος ύπνος το βράδυ </p>
+<p>(23/11 - 10:48)</p>
+<p>Οι λεπτοί άνθρωποι κινδυνεύουν περισσότερο να πεθάνουν μετά από μία χειρουργική επέμβαση </p>
+<p>(22/11 - 11:38)</p>
+<p>"Καμπανάκι" για τους αυξητικούς ρυθμούς μετάδοσης του HIV</p>
+<p>(21/11 - 17:42)</p>
+<p> </p>
+<p>Επτά βήματα για να ζήσετε 100 χρόνια! </p>
+<p>H βιταμίνης Ε συνδέονται με τον καρκίνο του προστάτη;</p>
+<p>Η σωματική άσκηση και η υγιεινή διατροφή φέρνει... εμμηνόπαυση</p>
+<p>Στην αναδιάρθρωση του Εθνικού Αρχείου Νεοπλασιών προχωρά το υπουργείο Υγείας </p>
+<p>Παριζάκι θαλασσινών - Ένα καινοτόμο διατροφικό προϊόν</p>
+<p> </p>
+<p>					 </p>
+<p>					 </p>
+<p> </p>
+<p>					 </p>
+<p>					 </p>
+<p> </p>
+<p>					 </p>
+<p> </p>
+<p>							Ειδήσεις</p>
+<p>							Τιμές Μετοχών</p>
+<p> </p>
+<p>Αναζήτηση</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Σύμβολο </p>
+<p>												μετοχής</p>
+<p>Αναζήτηση </p>
+<p>συμβόλου</p>
+<p> </p>
+<p> </p>
+<p>GA_googleFillSlot("News_300x250");</p>
+<p>Αποτελέσματα εκκαθάρισης φορολογικής δήλωσης έτους 2011, μέσω internet</p>
+<p>Οι νέοι μισθοί στο Δημόσιο (Αμοιβές, επιδόματα, υπερωρίες, εισφορές) κλπ</p>
+<p>Εγκύκλιος ΙΚΑ: Ποιοί εξαιρούνται από μείωση σύνταξης της 1-11-2011</p>
+<p>Με περικοπές</p>
+<p>οι καταβολές</p>
+<p>των συντάξεων</p>
+<p> </p>
+<p>Οδηγός για τακτοποίηση αυθαιρέτων και ημιυπαίθριων χώρων</p>
+<p>Τι θα γινόταν αν η Ελλάδα έφευγε από το ευρώ, σύμφωνα με την εφημερίδα Handelsblatt</p>
+<p>Μέσω internet η καρτέλα ενσήμων του ΙΚΑ </p>
+<p>Δημοσιεύθηκε στο ΦΕΚ ο Νόμος 4024 (Πολυνομοσχέδιο 2011)</p>
+<p>Αποτελέσματα εκκαθάρισης φορολογικής δήλωσης έτους 2011, μέσω internet</p>
+<p>«Μία πεντάρα για να σωθεί η Ελλάδα»</p>
+<p> </p>
+<p>GA_googleFillSlot("News_300x250_2nd");</p>
+<p><!--</p>
+<p>//--></p>
+<p><!--</p>
+<p>//--></p>
+<p><!--</p>
+<p>//</p>
+<p>// class metoxes_moy</p>
+<p>//</p>
+<p>function Metoxes_moy(name,parent){</p>
+<p>  this.name = name;</p>
+<p>  this.parent = parent;</p>
+<p>  this.inner = make_name(this.name)+"_inner";</p>
+<p>  this.inner2 = make_name(this.name)+"_inner2";</p>
+<p>  this.inner_popup4 = make_name(this.name)+"_inner_popup4";</p>
+<p>  this.inner_popup3 = make_name(this.name)+"_inner_popup3";</p>
+<p>  this.inner_popup2 = make_name(this.name)+"_inner_popup2";</p>
+<p>  this.inner_popup = make_name(this.name)+"_inner_popup";</p>
+<p>  this.inner_help2 = make_name(this.name)+"_inner_help2";</p>
+<p>  this.inner_help = make_name(this.name)+"_inner_help";</p>
+<p>  this.listenerAttached = false;</p>
+<p>  </p>
+<p>  this.getting = false;</p>
+<p>  this.is_shown = false;</p>
+<p>  this.is_opened = false;</p>
+<p>//methods</p>
+<p>  this.init = metoxes_moy_init;</p>
+<p>  this.load = metoxes_moy_load;</p>
+<p>  this.cretera_tosend = metoxes_moy_cretera_tosend;</p>
+<p>  this.after_get = metoxes_moy_after_get;</p>
+<p>  this.get = metoxes_moy_get;</p>
+<p>  </p>
+<p>  this.show = metoxes_moy_show;</p>
+<p>  this.draw = metoxes_moy_draw;</p>
+<p>  this.draw_inside = metoxes_moy_draw_inside;</p>
+<p>  this.draw_changes = metoxes_moy_draw_changes;</p>
+<p>  </p>
+<p>  this.show_prosthesi_metoxis = metoxes_moy_show_prosthesi_metoxis;</p>
+<p>  this.draw_prosthesi_metoxis = metoxes_moy_draw_prosthesi_metoxis;</p>
+<p>  this.hide_prosthesi_metoxis = metoxes_moy_hide_prosthesi_metoxis; </p>
+<p>  this.show_help_prosthesi_metoxis = metoxes_moy_show_help_prosthesi_metoxis;</p>
+<p>  this.draw_help_prosthesi_metoxis = metoxes_moy_draw_help_prosthesi_metoxis;</p>
+<p>  this.hide_help_prosthesi_metoxis = metoxes_moy_hide_help_prosthesi_metoxis;  </p>
+<p>  this.show_afairesi_metoxis = metoxes_moy_show_afairesi_metoxis;</p>
+<p>  this.draw_afairesi_metoxis = metoxes_moy_draw_afairesi_metoxis;</p>
+<p>  this.hide_afairesi_metoxis = metoxes_moy_hide_afairesi_metoxis;</p>
+<p>  this.show_help_afairesi_metoxis = metoxes_moy_show_help_afairesi_metoxis;</p>
+<p>  this.draw_help_afairesi_metoxis = metoxes_moy_draw_help_afairesi_metoxis;</p>
+<p>  this.hide_help_afairesi_metoxis = metoxes_moy_hide_help_afairesi_metoxis;</p>
+<p>  this.rem = metoxes_moy_rem;</p>
+<p>//</p>
+<p>  this.init();</p>
+<p>}</p>
+<p>function metoxes_moy_init(){</p>
+<p>  this.set = new Array();</p>
+<p>  this.count = 0;</p>
+<p>  this.set_just_changed = new Array();</p>
+<p>  this.last_modified = 0;</p>
+<p>  this.last_transaction_id = -1;</p>
+<p>  </p>
+<p>  if (!this.listenerAttached) {</p>
+<p>    this.listenerAttached = true;</p>
+<p>    my_objects[my_objects.length] = this;</p>
+<p>  }	</p>
+<p>  	</p>
+<p>}</p>
+<p>function metoxes_moy_load(what){</p>
+<p>  this.set_just_changed = new Array();</p>
+<p>  var length = "";var length2 = "";var metavoli=0.0;</p>
+<p>  for(var i in what){ </p>
+<p>    //var length = this.set.length;</p>
+<p>    length = what[i]["secsym"];</p>
+<p>    metavoli = (typeof(this.set[length])=="object" && this.set[length].price>0.0)?(parseFloat(what[i]["price"])-this.set[length].price):0.0; // se sxesi me proigoymeni timi     </p>
+<p>    if(typeof(this.set[length])!="object"){</p>
+<p>      this.set[length] = new Object();</p>
+<p>    }</p>
+<p>    this.set[length].secsym = what[i]["secsym"];</p>
+<p>    this.set[length].price = parseFloat(what[i]["price"]);</p>
+<p>    this.set[length].diff = parseFloat(what[i]["diff"]);</p>
+<p>    this.set[length].price_diff = parseFloat(what[i]["price_diff"]);</p>
+<p>    this.set[length].apodosi_etous = parseFloat(what[i]["apodosi_etous"]);</p>
+<p>    this.set[length].metavoli = metavoli;</p>
+<p>   </p>
+<p>    length2 = this.set_just_changed.length;</p>
+<p>    this.set_just_changed[length2] = length;</p>
+<p>  }  </p>
+<p>  delete length; delete length2;</p>
+<p>}</p>
+<p>function metoxes_moy_cretera_tosend(check_cookie){</p>
+<p>  var toret = new Array();</p>
+<p>  toret["last_modified"] = this.last_modified;</p>
+<p>  toret["last_transaction_id"] = this.last_transaction_id;</p>
+<p>  var secsyms_to_send = new Array();</p>
+<p>  this.count = 0;</p>
+<p>  for(var i in this.set){</p>
+<p>    secsyms_to_send[secsyms_to_send.length] = "'"+this.set[i].secsym+"'";</p>
+<p>    this.count++;	</p>
+<p>  }</p>
+<p> // alert(d(readCookie("my_secsyms")))</p>
+<p>  if(this.count>0){</p>
+<p>    toret["secsyms"] = e(secsyms_to_send.join(","));</p>
+<p>  }</p>
+<p>  else if(check_cookie) {</p>
+<p>  	this.count++;</p>
+<p>  	toret["secsyms"] = e(d(readCookie("my_secsyms")));</p>
+<p>  }</p>
+<p>  var date = new Date();</p>
+<p>  date.setTime(date.getTime()+(10*365*24*60*60*1000));</p>
+<p>//  document.cookie="my_secsyms="+e(secsyms_to_send.join(","))+"; expires="+date.toGMTString()+"; path=/";</p>
+<p>  document.cookie="my_secsyms="+toret["secsyms"]+"; expires="+date.toGMTString()+"; path=/";</p>
+<p>  delete secsyms_to_send;</p>
+<p>  delete date;</p>
+<p>  return toret;</p>
+<p>}</p>
+<p>function metoxes_moy_after_get() {//alert("Dummy metoxes_moy_after_get");</p>
+<p>}</p>
+<p>function metoxes_moy_get(check_cookie){   </p>
+<p>	</p>
+<p>  var a = new PHP_Serializer();</p>
+<p>  var b = a.serialize(this.cretera_tosend(check_cookie));	</p>
+<p>  if(!this.getting && this.count>0){</p>
+<p>    var what_to_do = new Object();</p>
+<p>    what_to_do.callback = do_metoxes_moy_get;</p>
+<p>    what_to_do.extra_data = this;</p>
+<p>    x_get_metoxes_moy(b,true,what_to_do);</p>
+<p>    this.getting = true;</p>
+<p>  }</p>
+<p>  else {</p>
+<p>  	this.is_shown = false;</p>
+<p>  	this.is_opened = false;</p>
+<p>  	this.show();</p>
+<p>  }</p>
+<p>  delete a; delete b;</p>
+<p>}</p>
+<p>function do_metoxes_moy_get(that,aaa){</p>
+<p>  aaa.getting = false;</p>
+<p>  var b = that;</p>
+<p>  if(b["status"]==1){</p>
+<p>    aaa.load(b["data"]["set"]);</p>
+<p>    aaa.last_modified = (aaa.last_modified<b["data"]["last_modified"])?b["data"]["last_modified"]:aaa.last_modified;</p>
+<p>    aaa.last_transaction_id = (aaa.last_transaction_id<b["data"]["last_transaction_id"])?b["data"]["last_transaction_id"]:aaa.last_transaction_id;</p>
+<p>    aaa.show();</p>
+<p>  }</p>
+<p>  else if(b["status"]==0){</p>
+<p>  	aaa.last_modified = (aaa.last_modified<b["data"]["last_modified"])?b["data"]["last_modified"]:aaa.last_modified;</p>
+<p>    aaa.show();</p>
+<p>  }</p>
+<p>  aaa.after_get();</p>
+<p>  handle_status(b["status"],b["mesg"]); </p>
+<p>  delete b; delete that;</p>
+<p>}</p>
+<p>function metoxes_moy_show(){</p>
+<p>  if(this.is_shown && this.count>0){</p>
+<p>  	this.draw_changes();</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    if(innerHTML(this.inner,this.draw())){</p>
+<p>      show(this.inner);</p>
+<p>    }</p>
+<p>    if(this.count>0){  </p>
+<p>      if(innerHTML(this.inner2,this.draw_inside())){</p>
+<p>        if(this.is_opened){</p>
+<p>          show(this.inner2);</p>
+<p>        }</p>
+<p>        else {</p>
+<p>          hide(this.inner2)		</p>
+<p>        }</p>
+<p>      }	</p>
+<p>    }</p>
+<p>    else {</p>
+<p>      hide(this.inner2)	</p>
+<p>    }</p>
+<p>  }</p>
+<p>} </p>
+<p>function metoxes_moy_draw(){</p>
+<p>  var t = "";</p>
+<p>  t += "<TABLE border='0' cellpadding='0' cellspacing='0' width='100%'>";</p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD>";</p>
+<p>  t += "  <TABLE border='0' cellpadding='0' cellspacing='0' width='100%' >";</p>
+<p>  t += "  <TR>";</p>
+<p>  t += "    <TD class='bold white bigger' style='padding: 2px'>Οι&nbsp;Μετοχές&nbsp;μου</TD>";</p>
+<p>  t += "    <TD><img src='http://cnt4.express.gr/xrimatistirio/images//plus.gif' alt='Πρόσθεση μετοχής' id='"+make_name(this.name)+"_add_metoxi_inner' class='link' onclick='"+this.name+".show_prosthesi_metoxis(this)' onmouseover='"+this.name+".show_help_prosthesi_metoxis(this)' onmouseout='"+this.name+".hide_help_prosthesi_metoxis(this)' /></TD>";</p>
+<p>  t += "    <TD><img src='http://cnt4.express.gr/xrimatistirio/images//minus.gif' alt='Αφαίρεση μετοχής' id='"+make_name(this.name)+"_rem_metoxi_inner' class='link' onclick='"+this.name+".show_afairesi_metoxis(this)' onmouseover='"+this.name+".show_help_afairesi_metoxis(this)' onmouseout='"+this.name+".hide_help_afairesi_metoxis(this)' /></TD>";</p>
+<p>  t += "    <TD width='50%'><img src='http://cnt4.express.gr/xrimatistirio/images//down_arrow.gif' class='link' border='0' align='right' "+((this.count>0)?"onclick=\""+this.name+".is_opened=!"+this.name+".is_opened;(("+this.name+".is_opened)?show("+this.name+".inner2):hide("+this.name+".inner2))\"":"")+" /></TD>";//"+((this.count>0)?((this.is_opened)?"-":"v"):"")+"</p>
+<p>  t += "  </TR>";</p>
+<p>  t += "  </TABLE>";  </p>
+<p>  t += "  </TD>";  </p>
+<p>  t += "</TR>"; </p>
+<p>  t += "</TABLE>";</p>
+<p>  return t;</p>
+<p>}</p>
+<p>function metoxes_moy_draw_inside(){</p>
+<p>  var table = "";</p>
+<p>  table += "<TABLE border='0' cellpadding='0' cellspacing='0' width='100%'>";</p>
+<p>  table += "<TR>";</p>
+<p>  table += "  <TD>";</p>
+<p>  table += "  <TABLE border='0' cellpadding='0' cellspacing='0' width='100%'>";</p>
+<p>  table += "  <TR>";</p>
+<p>  table += "    <TD class='small border_grey_right_left_bottom'>&nbsp;</TD>";</p>
+<p>  table += "    <TD class='small border_grey_right_bottom' style='padding-left: 4px;'>Κωδικός</TD>";</p>
+<p>  table += "    <TD class='small right border_grey_right_bottom'>Τιμή</TD>";</p>
+<p>  table += "    <TD class='small right border_grey_right_bottom'>Μετ.</TD>";</p>
+<p>  table += "    <TD class='small right border_grey_right_bottom'>Μετ.%</TD>";</p>
+<p>  //table += "    <TD class='small right border_grey_right_bottom' style='padding-right: 4px;'>Απόδ. έτους</TD>";</p>
+<p>  table += "    <TD class='small right border_grey_right_bottom' style='padding-right: 4px;'>Απόδ. 2011</TD>";</p>
+<p>  table += "  </TR>";  </p>
+<p>  var i=0;var cl = '';var cl1 = '';var cl2 = '';var cl3 = '';</p>
+<p>  for(var secsym in this.set){</p>
+<p>    cl1 = "border_grey_right_left_bottom";</p>
+<p>    cl2 = "border_grey_right_bottom";</p>
+<p>    cl3 = "border_grey_right_bottom";</p>
+<p>    cl = (this.set[secsym].price_diff>0.0)?"green":((this.set[secsym].price_diff<0.0)?"red":"blue");</p>
+<p>    table += "  <TR>";</p>
+<p>    //table += "    <TD class='small "+cl+" "+cl1+"' id='"+make_name(this.name)+"_"+make_name(secsym)+"_metavoli_inner' valign='middle' align='center'><img src='http://cnt4.express.gr/xrimatistirio/images//"+((this.set[secsym].metavoli==0.0)?"blue-square.gif":((this.set[secsym].metavoli>0.0)?"up.gif":"down.gif"))+"' alt='' width='10'></TD>";</p>
+<p>    table += "    <TD class='small "+cl+" "+cl1+"' id='"+make_name(this.name)+"_"+make_name(secsym)+"_metavoli_inner' valign='middle' align='center'><img src='http://cnt4.express.gr/xrimatistirio/images//"+((this.set[secsym].price_diff==0.0)?"blue-square.gif":((this.set[secsym].price_diff>0.0)?"up.gif":"down.gif"))+"' alt='' width='10'></TD>";</p>
+<p>    table += "    <TD class='small link bold "+cl+" "+cl2+"' id='"+make_name(this.name)+"_"+make_name(secsym)+"_name_inner' onclick=\"open('http://www2.express.gr/agores/agores/137oz_20071206137.php3?view=metoxi&secsym="+d(secsym)+"','_self','')\" style='padding-left: 4px;'>"+secsym+"</TD>";</p>
+<p>    table += "    <TD class='small right "+cl+" "+cl2+"' id='"+make_name(this.name)+"_"+make_name(secsym)+"_price_inner'>"+number_format(this.set[secsym].price,4,",",".")+"</TD>";</p>
+<p>    table += "    <TD class='small right "+cl+" "+cl2+"' id='"+make_name(this.name)+"_"+make_name(secsym)+"_diff_inner'>"+number_format(this.set[secsym].diff,4,",",".")+"</TD>";</p>
+<p>    table += "    <TD class='small right "+cl+" "+cl2+"' id='"+make_name(this.name)+"_"+make_name(secsym)+"_price_diff_inner'>"+number_format(this.set[secsym].price_diff,2,",",".",true)+"%</TD>";</p>
+<p>    table += "    <TD class='small right "+cl+" "+cl3+"' id='"+make_name(this.name)+"_"+make_name(secsym)+"_apodosi_etous_inner' style='padding-right: 4px;'>"+number_format(this.set[secsym].apodosi_etous,2,",",".",true)+"%</TD>";</p>
+<p>    table += "  </TR>";  </p>
+<p>    i++;</p>
+<p>  }</p>
+<p>  table += "  </TABLE>";  </p>
+<p>  table += "  </TD>";  </p>
+<p>  table += "</TR>";</p>
+<p>  table += "</TABLE>";</p>
+<p>  return table;	</p>
+<p>}</p>
+<p>function metoxes_moy_draw_changes(){  </p>
+<p>  var secsym = "";var tmp_prefix_id = "";</p>
+<p>  if(!this.is_ana_klado){</p>
+<p>    for(var i in this.set){</p>
+<p>  	  tmp_prefix_id = make_name(this.name)+"_"+make_name(i);</p>
+<p>      get_element(tmp_prefix_id+"_name_inner").style.background = "";	</p>
+<p>      get_element(tmp_prefix_id+"_price_inner").style.background = "";</p>
+<p>      get_element(tmp_prefix_id+"_diff_inner").style.background = "";	</p>
+<p>      get_element(tmp_prefix_id+"_price_diff_inner").style.background = "";	</p>
+<p>    }</p>
+<p>  }</p>
+<p>  for(var i in this.set_just_changed){</p>
+<p>  	secsym = this.set_just_changed[i];</p>
+<p>  	if(typeof(this.set[secsym])=="object"){</p>
+<p>  	  tmp_prefix_id = make_name(this.name)+"_"+make_name(secsym);</p>
+<p>  	  color = (this.set[secsym].price_diff>0.0)?"green":((this.set[secsym].price_diff<0.0)?"red":"blue");</p>
+<p>  //	  innerHTML(tmp_prefix_id+"_metavoli_inner","<img src='http://cnt4.express.gr/xrimatistirio/images//"+((this.set[secsym].metavoli==0.0)?"blue-square.gif":((this.set[secsym].metavoli>0.0)?"up.gif":"down.gif"))+"' alt='' width='10'>");</p>
+<p>  	  innerHTML(tmp_prefix_id+"_metavoli_inner","<img src='http://cnt4.express.gr/xrimatistirio/images//"+((this.set[secsym].price_diff==0.0)?"blue-square.gif":((this.set[secsym].price_diff>0.0)?"up.gif":"down.gif"))+"' alt='' width='10'>");</p>
+<p>      get_element(tmp_prefix_id+"_name_inner").style.color = color;</p>
+<p>      </p>
+<p>      get_element(tmp_prefix_id+"_price_inner").style.color = color;</p>
+<p>      innerHTML(tmp_prefix_id+"_price_inner",number_format(this.set[secsym].price,4,",","."));</p>
+<p>  </p>
+<p>      get_element(tmp_prefix_id+"_diff_inner").style.color = color;</p>
+<p>      innerHTML(tmp_prefix_id+"_diff_inner",number_format(this.set[secsym].diff,4,",",".",true));</p>
+<p>            </p>
+<p>      get_element(tmp_prefix_id+"_price_diff_inner").style.color = color;</p>
+<p>      innerHTML(tmp_prefix_id+"_price_diff_inner",number_format(this.set[secsym].price_diff,2,",",".",true)+"%");   </p>
+<p>       </p>
+<p>      get_element(tmp_prefix_id+"_apodosi_etous_inner").style.color = color;</p>
+<p>      innerHTML(tmp_prefix_id+"_apodosi_etous_inner",number_format(this.set[secsym].apodosi_etous,2,",",".",true)+"%");        </p>
+<p>      </p>
+<p>      get_element(tmp_prefix_id+"_name_inner").style.background = "yellow";</p>
+<p>      get_element(tmp_prefix_id+"_price_inner").style.background = "yellow";</p>
+<p>      get_element(tmp_prefix_id+"_diff_inner").style.background = "yellow";</p>
+<p>      get_element(tmp_prefix_id+"_price_diff_inner").style.background = "yellow";</p>
+<p>      get_element(tmp_prefix_id+"_apodosi_etous_inner").style.background = "yellow";</p>
+<p>  	}</p>
+<p>  }</p>
+<p>} </p>
+<p>function metoxes_moy_show_prosthesi_metoxis(that){</p>
+<p>  if(innerHTML(this.inner_popup2,this.draw_prosthesi_metoxis())){</p>
+<p>    var that_id = (that)?that.id:"";</p>
+<p>    var p = getElementPosition(that_id)</p>
+<p>    show(this.inner_popup,(p.left-500), (p.top-210));  	</p>
+<p>    //makeDraggable(get_element(this.inner_popup2));</p>
+<p>  }</p>
+<p>} </p>
+<p>function metoxes_moy_draw_prosthesi_metoxis(){</p>
+<p>  var t = "";</p>
+<p>  t += "<TABLE border='0' cellpadding='1' cellspacing='1' width='100%'>";</p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD class='big bold'>Πρόσθεση Μετοχής</TD>";</p>
+<p>  t += "</TR>"; </p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD>Εισάγετε μέχρι 15 σύμβολα</TD>";</p>
+<p>  t += "</TR>";   </p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD>";</p>
+<p>  t += "  <TABLE border='0' cellpadding='1' cellspacing='1' width='100%'>";</p>
+<p>  t += "  <TR>";</p>
+<p>  var j=0;</p>
+<p>  for(var i in this.set){</p>
+<p>  	if(j%5==0 && j>0){</p>
+<p>  	  t += "</tr><tr>";	</p>
+<p>  	}</p>
+<p>  	t += "<TD><INPUT type='text' name='"+make_name(this.name)+"_add_secsym_"+j+"_input' value='"+i+"' class='small border' size='9' maxlength='9' readonly></TD>"; </p>
+<p>  	j++;    </p>
+<p>  }</p>
+<p>  this.count = j;</p>
+<p>  while (j<15 && j>=0){</p>
+<p>  	if(j%5==0 && j>0){</p>
+<p>  	  t += "</tr><tr>";	</p>
+<p>  	}</p>
+<p>    t += "<TD><INPUT type='text' name='"+make_name(this.name)+"_add_secsym_"+j+"_input' value='' class='small border' size='9' maxlength='9' readonly></TD>";	</p>
+<p>    j++;</p>
+<p>  }</p>
+<p>  t += "  </TR>";</p>
+<p>  t += "  </TABLE>";</p>
+<p>  t += "  </TD>";</p>
+<p>  t += "</TR>";  </p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD class='right'><img src='http://cnt4.express.gr/xrimatistirio/images//go.gif' alt='go' id='"+make_name(this.name)+"_add_secsyms_go_ctl' onclick=\""+this.name+".is_opened=true;"+this.name+".is_shown=false;"+this.name+".get();hide("+this.name+".inner_popup);\" class='link'/></TD>";</p>
+<p>  t += "</TR>";     </p>
+<p>  t += "</TABLE>";</p>
+<p>  return t;	</p>
+<p>}</p>
+<p>function metoxes_moy_hide_prosthesi_metoxis(e){</p>
+<p>  var is_clicked_inside = false;</p>
+<p>  var p = getElementPosition(this.inner_popup);</p>
+<p>  var c = mouseCoords(e);</p>
+<p>  is_clicked_inside = ((c.x > p.left) && (c.x < p.left+p.width) && (c.y > p.top) && (c.y < p.top+p.height))?true:false; </p>
+<p>  if(!is_clicked_inside){</p>
+<p>    hide(this.inner_popup)	</p>
+<p>  }	</p>
+<p>}</p>
+<p>function metoxes_moy_show_help_prosthesi_metoxis(that){</p>
+<p>  if(innerHTML(this.inner_help2,this.draw_help_prosthesi_metoxis())){</p>
+<p>    var that_id = (that)?that.id:"";</p>
+<p>    var p = getElementPosition(that_id)</p>
+<p>    show(this.inner_help,(p.left+p.width-90), (p.top-53));</p>
+<p>    delete p;</p>
+<p>  }</p>
+<p>} </p>
+<p>function metoxes_moy_draw_help_prosthesi_metoxis(){</p>
+<p>  var t = "";</p>
+<p>  t += "<TABLE border='0' cellpadding='2' cellspacing='2' width='60'>";</p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD class='white center'>Πρόσθεση Μετοχής</TD>";</p>
+<p>  t += "</TR>";</p>
+<p>  t += "</TABLE>";</p>
+<p>  return t;	</p>
+<p>}</p>
+<p>function metoxes_moy_hide_help_prosthesi_metoxis(){</p>
+<p>  hide(this.inner_help);	</p>
+<p>}</p>
+<p>function metoxes_moy_show_afairesi_metoxis(that){</p>
+<p>  if(innerHTML(this.inner_popup4,this.draw_afairesi_metoxis())){</p>
+<p>    var that_id = (that)?that.id:"";</p>
+<p>    var p = getElementPosition(that_id)</p>
+<p>    show(this.inner_popup3,(p.left-300), (p.top-100));  	</p>
+<p>    makeDraggable(get_element(this.inner_popup3));</p>
+<p>    delete p;</p>
+<p>  }</p>
+<p>} </p>
+<p>function metoxes_moy_draw_afairesi_metoxis(){</p>
+<p>  var t = "";</p>
+<p>  t += "<TABLE border='0' cellpadding='2' cellspacing='2' width='300' class='' >";</p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD class='big bold'>Αφαίρεση Μετοχής</TD>";</p>
+<p>  t += "</TR>"; </p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD>Πατήστε πάνω στο «x» δίπλα στο σύμβολο για το αφαιρέσετε απο το χαρτοφυλακίο σας</TD>";</p>
+<p>  t += "</TR>";   </p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD>";</p>
+<p>  t += "  <TABLE border='0' cellpadding='2' cellspacing='2'>";</p>
+<p>  t += "  <TR>";</p>
+<p>  var j=0;</p>
+<p>  for(var i in this.set){</p>
+<p>  	if(j%5==0 && j>0){</p>
+<p>  	  t += "</tr><tr>";	</p>
+<p>  	}</p>
+<p>  	t += "<TD class='small'>"+i+"</td><td><div style='width: 12px; height: 12px;' class='border link bold center bg_white' onclick=\""+this.name+".rem('"+i+"',"+j+");\">X</div></TD>"; </p>
+<p>  	j++;    </p>
+<p>  }</p>
+<p>  this.count = j;</p>
+<p>  t += "  </TR>";</p>
+<p>  t += "  </TABLE>";</p>
+<p>  t += "  </TD>";</p>
+<p>  t += "</TR>";  </p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD class='right'><img src='http://cnt4.express.gr/xrimatistirio/images//go.gif' alt='close' id='"+make_name(this.name)+"_add_secsyms_go_ctl'  onclick=\""+this.name+".is_opened=true;"+this.name+".is_shown=false;"+this.name+".get();hide("+this.name+".inner_popup3);\" class='link' /></TD>";</p>
+<p>  t += "</TR>";     </p>
+<p>  t += "</TABLE>";</p>
+<p>  return t;		</p>
+<p>}</p>
+<p>function metoxes_moy_hide_afairesi_metoxis(e){</p>
+<p>  var is_clicked_inside = false;</p>
+<p>  var p = getElementPosition(this.inner_popup3);</p>
+<p>  var c = mouseCoords(e);</p>
+<p>  is_clicked_inside = ((c.x > p.left) && (c.x < p.left+p.width) && (c.y > p.top) && (c.y < p.top+p.height))?true:false; </p>
+<p>  if(!is_clicked_inside){</p>
+<p>    hide(this.inner_popup3)	</p>
+<p>    if(this.count>0 && p.width>0){</p>
+<p>      this.is_opened=true;</p>
+<p>      this.is_shown=false;</p>
+<p>      this.get();</p>
+<p>    }</p>
+<p>  }	</p>
+<p>  delete p;delete c;delete is_clicked_inside;</p>
+<p>}</p>
+<p>function metoxes_moy_show_help_afairesi_metoxis(that){</p>
+<p>  if(innerHTML(this.inner_help2,this.draw_help_afairesi_metoxis())){</p>
+<p>    var that_id = (that)?that.id:"";</p>
+<p>    var p = getElementPosition(that_id)</p>
+<p>    show(this.inner_help,(p.left),(p.top-53));</p>
+<p>    delete p;delete that_id;delete that;</p>
+<p>  }</p>
+<p>} </p>
+<p>function metoxes_moy_draw_help_afairesi_metoxis(){</p>
+<p>  var t = "";</p>
+<p>  t += "<TABLE border='0' cellpadding='2' cellspacing='2' width='60'>";</p>
+<p>  t += "<TR>";</p>
+<p>  t += "  <TD class='white center'>Αφαίρεση Μετοχής</TD>";</p>
+<p>  t += "</TR>";</p>
+<p>  t += "</TABLE>";</p>
+<p>  return t;</p>
+<p>}</p>
+<p>function metoxes_moy_hide_help_afairesi_metoxis(){</p>
+<p>  hide(this.inner_help);	</p>
+<p>}</p>
+<p>function metoxes_moy_rem(secsym, position){</p>
+<p>  if(typeof(this.set[secsym])=="object"){</p>
+<p>  	var tmp = new Array();</p>
+<p>  	for(var i in this.set){</p>
+<p>  	  if(i!=secsym){</p>
+<p>  	    tmp[i] = this.set[i];</p>
+<p>  	  }</p>
+<p>  	}</p>
+<p>  	this.set = tmp;</p>
+<p>  	innerHTML(this.inner_popup4,this.draw_afairesi_metoxis());</p>
+<p>  	delete tmp;</p>
+<p>  }</p>
+<p>}</p>
+<p>function static_metoxes_moy_hide(e) {</p>
+<p>  e = e || window.event;	</p>
+<p>  for (var i in my_objects){</p>
+<p>    if (typeof(my_objects[i])=="object"){</p>
+<p>      if(my_objects[i].hide_prosthesi_metoxis) {</p>
+<p>        my_objects[i].hide_prosthesi_metoxis(e);</p>
+<p>      }</p>
+<p>      if(my_objects[i].hide_afairesi_metoxis){</p>
+<p>      	my_objects[i].hide_afairesi_metoxis(e);</p>
+<p>      }            </p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>
+<p>window.popupWindowOldEventListener2 = document.onmouseup;</p>
+<p>if (window.popupWindowOldEventListener2 != null) {</p>
+<p>  document.onmouseup = function(e){</p>
+<p>    window.popupWindowOldEventListener2(e); </p>
+<p>    static_metoxes_moy_hide(e);</p>
+<p>  }</p>
+<p>}</p>
+<p>else {</p>
+<p>  document.onmouseup = static_metoxes_moy_hide;</p>
+<p>}</p>
+<p>//</p>
+<p>// end class metoxes_moy</p>
+<p>//</p>
+<p>//--></p>
+<p><!--</p>
+<p>var metoxes_moy = new Metoxes_moy("metoxes_moy");</p>
+<p>metoxes_moy.inner2 = "metoxes_moy_inner2";</p>
+<p>metoxes_moy.inner = "metoxes_moy_inner";</p>
+<p>metoxes_moy.inner_popup4 = "popup_metoxes_moy_inner4";</p>
+<p>metoxes_moy.inner_popup3 = "popup_metoxes_moy_inner3";</p>
+<p>metoxes_moy.inner_popup2 = "popup_metoxes_moy_inner2";</p>
+<p>metoxes_moy.inner_popup = "popup_metoxes_moy_inner";</p>
+<p>metoxes_moy.inner_help2 = "metoxes_moy_help2_inner";</p>
+<p>metoxes_moy.inner_help = "metoxes_moy_help_inner";</p>
+<p>var global_time2 = 0;</p>
+<p>metoxes_moy.after_get = function (){</p>
+<p>  clearTimeout (global_time2);	</p>
+<p>  global_time2 = setTimeout(this.name+'.get();','10000');	</p>
+<p>}</p>
+<p>--></p>
+<p><!--</p>
+<p>function Metoxi_my(secsym,compnam,comp_categ){</p>
+<p>  this.secsym = secsym;</p>
+<p>  this.compnam = compnam;</p>
+<p>  this.comp_categ = comp_categ;</p>
+<p>}</p>
+<p>function Metoxes_my(name){</p>
+<p>  this.name = name;</p>
+<p>  this.forma = null;</p>
+<p>  this.set_oles = new Array();</p>
+<p>this.set_oles['ΠΠΑΚ'] = new Metoxi_my('ΠΠΑΚ','                              ','11');</p>
+<p>this.set_oles['ΑΝΕΠΟ'] = new Metoxi_my('ΑΝΕΠΟ','                              ','43');</p>
+<p>this.set_oles['ΕΓΝΑΚ'] = new Metoxi_my('ΕΓΝΑΚ','                              ','73');</p>
+<p>this.set_oles['ΑΛΛΚ'] = new Metoxi_my('ΑΛΛΚ','                              ','73');</p>
+<p>this.set_oles['ΑΤΕΔ'] = new Metoxi_my('ΑΤΕΔ','                              ','27');</p>
+<p>this.set_oles['ΑΝΕΠ'] = new Metoxi_my('ΑΝΕΠ','                              ','43');</p>
+<p>this.set_oles['ΜΑΡΦΒΔ'] = new Metoxi_my('ΜΑΡΦΒΔ','                              ','73');</p>
+<p>this.set_oles['ΑΝΕΠΟΔ'] = new Metoxi_my('ΑΝΕΠΟΔ','                              ','27');</p>
+<p>this.set_oles['ΓΡΗΓΟ'] = new Metoxi_my('ΓΡΗΓΟ','                              ','73');</p>
+<p>this.set_oles['ΜΙΝΟΑΕ'] = new Metoxi_my('ΜΙΝΟΑΕ','                              ','31');</p>
+<p>this.set_oles['ΙΜΠΕΔ'] = new Metoxi_my('ΙΜΠΕΔ','                              ','27');</p>
+<p>this.set_oles['ΑΤΕΕ'] = new Metoxi_my('ΑΤΕΕ','                              ','31');</p>
+<p>this.set_oles['ΔΕΕ12'] = new Metoxi_my('ΔΕΕ12','                              ','73');</p>
+<p>this.set_oles['ΑΝΕΠΔ'] = new Metoxi_my('ΑΝΕΠΔ','                              ','27');</p>
+<p>this.set_oles['ΑΣΚΟ'] = new Metoxi_my('ΑΣΚΟ','A.S. COMPANY (ΚΟ)             ','35');</p>
+<p>this.set_oles['ΑΛΑΠΙΣ'] = new Metoxi_my('ΑΛΑΠΙΣ','ALAPIS (ΚΟ)                   ','65');</p>
+<p>this.set_oles['ΑΔΑΚ20'] = new Metoxi_my('ΑΔΑΚ20','ALPHA ETF FTSE ATHEX 20       ','71');</p>
+<p>this.set_oles['ΑΤΡΑΣΤ'] = new Metoxi_my('ΑΤΡΑΣΤ','ALPHA TRUST (ΚΟ)              ','74');</p>
+<p>this.set_oles['ΑΣΤΑΚ'] = new Metoxi_my('ΑΣΤΑΚ','ALPHA ΑΣΤΙΚΑ ΑΚΙΝΗΤΑ (ΚΟ)     ','52');</p>
+<p>this.set_oles['ΑΛΦΑ'] = new Metoxi_my('ΑΛΦΑ','ALPHA ΒΑΝΚ (ΚΟ)               ','48');</p>
+<p>this.set_oles['ΑΛΣΙΝ'] = new Metoxi_my('ΑΛΣΙΝ','ALSINCO (KO)                  ','25');</p>
+<p>this.set_oles['ΑΛΤΕΚ'] = new Metoxi_my('ΑΛΤΕΚ','ALTEC (ΚΟ)                    ','58');</p>
+<p>this.set_oles['ΑΛΤΙ'] = new Metoxi_my('ΑΛΤΙ','ALTIUS ΑΕΕΧ (ΚΟ)              ','57');</p>
+<p>this.set_oles['ΑΤΤΙΚΑ'] = new Metoxi_my('ΑΤΤΙΚΑ','ATTICA  ΣΥΜΜΕΤΟΧΩΝ (KΟ)       ','43');</p>
+<p>this.set_oles['ΑΤΤΙΚΑΔ'] = new Metoxi_my('ΑΤΤΙΚΑΔ','ATTICA  ΣΥΜΜΕΤΟΧΩΝ (KΟ)       ','27');</p>
+<p>this.set_oles['ΑΤΤ'] = new Metoxi_my('ΑΤΤ','ATTICA BANK Α.Τ.Ε. (ΚΟ)       ','48');</p>
+<p>this.set_oles['ΑΒΕ'] = new Metoxi_my('ΑΒΕ','AUDIOVISUAL (ΚΟ)              ','36');</p>
+<p>this.set_oles['ΟΤΟΕΛ'] = new Metoxi_my('ΟΤΟΕΛ','AUTOHELLAS (ΚΟ)               ','43');</p>
+<p>this.set_oles['ΑΒΕΝΙΡ'] = new Metoxi_my('ΑΒΕΝΙΡ','AVENIR Α.Ε. (ΚΟ)              ','14');</p>
+<p>this.set_oles['ΑΧΟΝ'] = new Metoxi_my('ΑΧΟΝ','AXON ΣΥΜΜΕΤΟΧΩΝ (ΚΟ)          ','29');</p>
+<p>this.set_oles['ΒΕΤΑΝ'] = new Metoxi_my('ΒΕΤΑΝ','BETANET (ΚΟ)                  ','09');</p>
+<p>this.set_oles['ΒΥΤΕ'] = new Metoxi_my('ΒΥΤΕ','BYTE COMPUTER (ΚΟ)            ','58');</p>
+<p>this.set_oles['ΣΕΝΤΡ'] = new Metoxi_my('ΣΕΝΤΡ','CENTRIC ΠΟΛΥΜΕΣΑ (ΚΟ)         ','24');</p>
+<p>this.set_oles['ΕΕΕΚ'] = new Metoxi_my('ΕΕΕΚ','COCA - COLA ΤΡΙΑ ΕΨΙΛΟΝ (ΚΟ)  ','19');</p>
+<p>this.set_oles['ΚΟΜΠ'] = new Metoxi_my('ΚΟΜΠ','COMPUCON (ΚO)                 ','60');</p>
+<p>this.set_oles['ΣΠΙ'] = new Metoxi_my('ΣΠΙ','CPI (ΚΟ)                      ','61');</p>
+<p>this.set_oles['ΕΛΑΣΚ'] = new Metoxi_my('ΕΛΑΣΚ','CROWN HELLAS CAN (ΚO)         ','11');</p>
+<p>this.set_oles['ΣΑΙΚΛ'] = new Metoxi_my('ΣΑΙΚΛ','CYCLON ΕΛΛΑΣ (ΚO)             ','04');</p>
+<p>this.set_oles['ΔΙΟΝ'] = new Metoxi_my('ΔΙΟΝ','DIONIC (ΚΟ)                   ','17');</p>
+<p>this.set_oles['ΟΡΑΟΡΑ'] = new Metoxi_my('ΟΡΑΟΡΑ','DIVERSA (ΚΟ)                  ','74');</p>
+<p>this.set_oles['ΕΛΜΠΙ'] = new Metoxi_my('ΕΛΜΠΙ','ELBISCO ΣΥΜΜΕΤΟΧΩΝ (ΚΑ)       ','21');</p>
+<p>this.set_oles['ΕΛΜΕΚ'] = new Metoxi_my('ΕΛΜΕΚ','ELMEC SPORT (ΚΟ)              ','25');</p>
+<p>this.set_oles['ΕΝΒΙ'] = new Metoxi_my('ΕΝΒΙ','ENVITEC (ΚΟ)                  ','72');</p>
+<p>this.set_oles['ΕΠΣΙΛ'] = new Metoxi_my('ΕΠΣΙΛ','EPSILON NET (ΚΟ)              ','72');</p>
+<p>this.set_oles['ΕΥΡΩΒ'] = new Metoxi_my('ΕΥΡΩΒ','EUROBANK EFG (ΚΟ)             ','48');</p>
+<p>this.set_oles['ΕΥΠΡΟ'] = new Metoxi_my('ΕΥΠΡΟ','EUROBANK PROPERTIES ΑΕΕΑΠ (ΚΟ)','53');</p>
+<p>this.set_oles['ΕΔΡΙΠ'] = new Metoxi_my('ΕΔΡΙΠ','EURODRIP (ΚO)                 ','04');</p>
+<p>this.set_oles['ΕΛΑΙΝ'] = new Metoxi_my('ΕΛΑΙΝ','EUROLINE AEEX (ΚΟ)            ','57');</p>
+<p>this.set_oles['ΕΥΡΟΜΕ'] = new Metoxi_my('ΕΥΡΟΜΕ','EUROMEDICA (KO)               ','31');</p>
+<p>this.set_oles['ΕΥΡΟΜ'] = new Metoxi_my('ΕΥΡΟΜ','EUROMEDICA (KO)               ','29');</p>
+<p>this.set_oles['ΕΧ'] = new Metoxi_my('ΕΧ','EUROXX (ΚΟ)                   ','74');</p>
+<p>this.set_oles['ΕΦΤΖΙ'] = new Metoxi_my('ΕΦΤΖΙ','F.G. EUROPE (ΚO)              ','22');</p>
+<p>this.set_oles['ΒΟΧ'] = new Metoxi_my('ΒΟΧ','FASHION BOX (ΚΟ)              ','25');</p>
+<p>this.set_oles['ΦΛΕΞΟ'] = new Metoxi_my('ΦΛΕΞΟ','FLEXOPACK (ΚΟ)                ','11');</p>
+<p>this.set_oles['ΦΟΛΙ'] = new Metoxi_my('ΦΟΛΙ','FOLLI - FOLLIE (KΟ)           ','25');</p>
+<p>this.set_oles['ΦΟΡΘ'] = new Metoxi_my('ΦΟΡΘ','FORTHNET (ΚΟ)                 ','59');</p>
+<p>this.set_oles['ΦΡΛΚ'] = new Metoxi_my('ΦΡΛΚ','FOURLIS ΣΥΜΜΕΤΟΧΩΝ (KΟ)       ','22');</p>
+<p>this.set_oles['ΦΡΙΓΟ'] = new Metoxi_my('ΦΡΙΓΟ','FRIGOGLASS (KO)               ','14');</p>
+<p>this.set_oles['ΗΟΛΔ'] = new Metoxi_my('ΗΟΛΔ','HELLAS ONLINE (ΚΟ)            ','27');</p>
+<p>this.set_oles['ΗΟΛ'] = new Metoxi_my('ΗΟΛ','HELLAS ONLINE (ΚΟ)            ','60');</p>
+<p>this.set_oles['ΗΙΤ'] = new Metoxi_my('ΗΙΤ','HITECH SNT (ΚΟ)               ','60');</p>
+<p>this.set_oles['ΛΥΚ'] = new Metoxi_my('ΛΥΚ','INFORM ΛΥΚΟΣ Π. (ΚΟ)          ','16');</p>
+<p>this.set_oles['ΙΝΦΙΣ'] = new Metoxi_my('ΙΝΦΙΣ','INTERFISH ΙΧΘ/ΓΕΙΕΣ (ΚΟ)      ','20');</p>
+<p>this.set_oles['ΙΝΤΕΡ'] = new Metoxi_my('ΙΝΤΕΡ','INTERINVEST AEEX (KΟ)         ','57');</p>
+<p>this.set_oles['ΙΝΤΚΑ'] = new Metoxi_my('ΙΝΤΚΑ','INTRACOM HOLDINGS (ΚΟ)        ','63');</p>
+<p>this.set_oles['ΙΝΚΑΤ'] = new Metoxi_my('ΙΝΚΑΤ','INTRAKAT (KO)                 ','10');</p>
+<p>this.set_oles['ΑΒΑΞ'] = new Metoxi_my('ΑΒΑΞ','J. & P. - ΑΒΑΞ (ΚΟ)           ','10');</p>
+<p>this.set_oles['ΜΠΕΛΑΑΜ'] = new Metoxi_my('ΜΠΕΛΑΑΜ','JUMBO (ΚΟ ανευ μερίσματος)    ','73');</p>
+<p>this.set_oles['ΜΠΕΛΑ'] = new Metoxi_my('ΜΠΕΛΑ','JUMBO (ΚΟ)                    ','24');</p>
+<p>this.set_oles['ΚΛΕΜ'] = new Metoxi_my('ΚΛΕΜ','KLEEMAN HELLAS (KO)           ','14');</p>
+<p>this.set_oles['ΛΑΜΔΑ'] = new Metoxi_my('ΛΑΜΔΑ','LAMDA DEVELOPMENT(ΚΟ)         ','52');</p>
+<p>this.set_oles['ΛΑΒΙ'] = new Metoxi_my('ΛΑΒΙ','LAVIPHARM (ΚΟ)                ','65');</p>
+<p>this.set_oles['ΛΟΓΟΣ'] = new Metoxi_my('ΛΟΓΟΣ','LOGISMOS (ΚΟ)                 ','58');</p>
+<p>this.set_oles['ΜΙΓ'] = new Metoxi_my('ΜΙΓ','MARFIN INVESTMENT GROUP  (ΚΟ) ','48');</p>
+<p>this.set_oles['ΜΑΡΦΒ'] = new Metoxi_my('ΜΑΡΦΒ','MARFIN POPULAR BANK (ΚΟ)      ','48');</p>
+<p>this.set_oles['ΜΕΝΤΙ'] = new Metoxi_my('ΜΕΝΤΙ','MEDICON ΕΛΛΑΣ (ΚΟ)            ','30');</p>
+<p>this.set_oles['ΜΑΣΟΠ'] = new Metoxi_my('ΜΑΣΟΠ','MEDITERRA (ΚΟ)                ','72');</p>
+<p>this.set_oles['ΜΕΡΚΟ'] = new Metoxi_my('ΜΕΡΚΟ','MERMEREN KOMB.  A.D. PR. (ΕΛΠ)','08');</p>
+<p>this.set_oles['ΜΕΒΑ'] = new Metoxi_my('ΜΕΒΑ','MEVACO (ΚΟ)                   ','14');</p>
+<p>this.set_oles['ΜΛΑΝΤ'] = new Metoxi_my('ΜΛΑΝΤ','MICROLAND COMPUTERS (ΚΟ)      ','35');</p>
+<p>this.set_oles['ΜΙΓΡΕ'] = new Metoxi_my('ΜΙΓΡΕ','MIG REAL ESTATE (ΚΟ)          ','73');</p>
+<p>this.set_oles['ΜΙΝ'] = new Metoxi_my('ΜΙΝ','MINERVA (ΚΑ)                  ','25');</p>
+<p>this.set_oles['ΜΛΣ'] = new Metoxi_my('ΜΛΣ','MLS ΠΛΗΡΟΦΟΡΙΚΗ (ΚΟ)          ','60');</p>
+<p>this.set_oles['ΜΟΥΛΤ'] = new Metoxi_my('ΜΟΥΛΤ','MULTIRAMA (ΚO)                ','35');</p>
+<p>this.set_oles['ΔΑΚΕΤ30'] = new Metoxi_my('ΔΑΚΕΤ30','NBGAM ETF GREECE & TURKEY 30  ','73');</p>
+<p>this.set_oles['ΔΑΚΓΔ'] = new Metoxi_my('ΔΑΚΓΔ','NBGAM ETF ΓΔ Χ.Α.             ','73');</p>
+<p>this.set_oles['ΑΛΚΑΤ'] = new Metoxi_my('ΑΛΚΑΤ','NEXANS ΕΛΛΑΣ (ΚΟ)             ','63');</p>
+<p>this.set_oles['ΝΤΡΙΑΡΤ'] = new Metoxi_my('ΝΤΡΙΑΡΤ','NUTRIART  (ΚΟ)                ','21');</p>
+<p>this.set_oles['ΟΛΚΑΤ'] = new Metoxi_my('ΟΛΚΑΤ','OLYMPIC CATERING (ΚΟ)         ','42');</p>
+<p>this.set_oles['ΠΑΣΑΛ'] = new Metoxi_my('ΠΑΣΑΛ','PASAL Α.Ε. (ΚΟ)               ','52');</p>
+<p>this.set_oles['ΠΣΥΣΤ'] = new Metoxi_my('ΠΣΥΣΤ','PC SYSTEMS (ΚΟ)               ','58');</p>
+<p>this.set_oles['ΠΕΡΦ'] = new Metoxi_my('ΠΕΡΦ','PERFORMANCE TECHNOLOGIES (ΚΟ) ','74');</p>
+<p>this.set_oles['ΠΛΑΣΔ'] = new Metoxi_my('ΠΛΑΣΔ','PLIAS (ΚΑ)                    ','27');</p>
+<p>this.set_oles['ΠΡΟΦ'] = new Metoxi_my('ΠΡΟΦ','PROFILE (ΚΟ)                  ','58');</p>
+<p>this.set_oles['ΠΡΟ'] = new Metoxi_my('ΠΡΟ','PROTON ΤΡΑΠΕΖΑ Α.Ε. (KO)      ','48');</p>
+<p>this.set_oles['ΚΟΥΑΛ'] = new Metoxi_my('ΚΟΥΑΛ','QUALITY & RELIABILITY (ΚΟ)    ','58');</p>
+<p>this.set_oles['ΚΟΥΕΣ'] = new Metoxi_my('ΚΟΥΕΣ','QUEST ΣΥΜΜΕΤΟΧΩΝ (ΚΟ)         ','58');</p>
+<p>this.set_oles['ΚΑΜΠ'] = new Metoxi_my('ΚΑΜΠ','REDS (ΚO)                     ','52');</p>
+<p>this.set_oles['ΡΙΝΤΕ'] = new Metoxi_my('ΡΙΝΤΕ','RIDENCO (ΚΟ)                  ','26');</p>
+<p>this.set_oles['ΡΙΛΚΕ'] = new Metoxi_my('ΡΙΛΚΕ','RILKEN (KΟ)                   ','64');</p>
+<p>this.set_oles['ΑΡΒΑ'] = new Metoxi_my('ΑΡΒΑ','S & B ΒΙΟΜΗΧ. ΟΡΥΚΤΑ  (ΚΟ)    ','08');</p>
+<p>this.set_oles['ΣΑΤΟΚ'] = new Metoxi_my('ΣΑΤΟΚ','SATO AE (ΚΟ)                  ','23');</p>
+<p>this.set_oles['ΣΙΕΝΣ'] = new Metoxi_my('ΣΙΕΝΣ','SCIENS ΣΥΜΜΕΤΟΧΩΝ (ΚO)        ','52');</p>
+<p>this.set_oles['ΣΠΕΙΣ'] = new Metoxi_my('ΣΠΕΙΣ','SPACE HELLAS (ΚΟ)             ','63');</p>
+<p>this.set_oles['ΣΠΙΝΤ'] = new Metoxi_my('ΣΠΙΝΤ','SPIDER - ΠΕΤΣΙΟΣ Ν.& ΥΙΟΙ (KΟ)','14');</p>
+<p>this.set_oles['ΣΠΡΙ'] = new Metoxi_my('ΣΠΡΙ','SPRIDER STORES (ΚΟ)           ','33');</p>
+<p>this.set_oles['ΠΕΑ'] = new Metoxi_my('ΠΕΑ','TRASTOR Α.Ε.Ε.Α.Π. (ΚΟ)       ','53');</p>
+<p>this.set_oles['ΒΙΟΣΚ'] = new Metoxi_my('ΒΙΟΣΚ','UNIBIOS (ΚΟ)                  ','09');</p>
+<p>this.set_oles['ΒΙΝΤΑ'] = new Metoxi_my('ΒΙΝΤΑ','VIDAVO (ΚΟ)                   ','74');</p>
+<p>this.set_oles['ΒΙΒΕΡ'] = new Metoxi_my('ΒΙΒΕΡ','VIVERE (ΚΟ)                   ','35');</p>
+<p>this.set_oles['ΥΑΛΚΟ'] = new Metoxi_my('ΥΑΛΚΟ','YALCO - ΚΩΝΣΤΑΝΤΙΝΟΥ (ΚΑ)     ','22');</p>
+<p>this.set_oles['ΑΤΕ'] = new Metoxi_my('ΑΤΕ','ΑΓΡΟΤΙΚΗ ΤΡΑΠΕΖΑ (ΚΟ)         ','48');</p>
+<p>this.set_oles['ΑΕΓΕΚ'] = new Metoxi_my('ΑΕΓΕΚ','ΑΕΓΕΚ (ΚΟ)                    ','10');</p>
+<p>this.set_oles['ΑΡΑΙΓ'] = new Metoxi_my('ΑΡΑΙΓ','ΑΕΡΟΠΟΡΙΑ ΑΙΓΑΙΟΥ (ΚΟ)        ','70');</p>
+<p>this.set_oles['ΑΘΗΝΑ'] = new Metoxi_my('ΑΘΗΝΑ','ΑΘΗΝΑ (ΚΟ)                    ','10');</p>
+<p>this.set_oles['ΑΙΟΛΚ'] = new Metoxi_my('ΑΙΟΛΚ','ΑΙΟΛΙΚΗ ΑΕΕΧ (ΚΟ)             ','57');</p>
+<p>this.set_oles['ΑΚΡΙΤ'] = new Metoxi_my('ΑΚΡΙΤ','ΑΚΡΙΤΑΣ (ΚΟ)                  ','09');</p>
+<p>this.set_oles['ΑΛΚΟ'] = new Metoxi_my('ΑΛΚΟ','ΑΛΚΟ ΕΛΛΑΣ (ΚΟ)               ','05');</p>
+<p>this.set_oles['ΑΛΜΥ'] = new Metoxi_my('ΑΛΜΥ','ΑΛΟΥΜΥΛ  (ΚΟ)                 ','05');</p>
+<p>this.set_oles['ΑΛΥΣΚ'] = new Metoxi_my('ΑΛΥΣΚ','ΑΛΥΣΙΔΑ (ΚΟ)                  ','26');</p>
+<p>this.set_oles['ΑΛΥΣΠ'] = new Metoxi_my('ΑΛΥΣΠ','ΑΛΥΣΙΔΑ (ΠΟ)                  ','26');</p>
+<p>this.set_oles['ΑΓΚΡΙΔ'] = new Metoxi_my('ΑΓΚΡΙΔ','ΑΛΦΑ ΓΚΡΙΣΙΝ  Α.Ε. (ΚΟ)       ','27');</p>
+<p>this.set_oles['ΑΓΚΡΙ'] = new Metoxi_my('ΑΓΚΡΙ','ΑΛΦΑ ΓΚΡΙΣΙΝ  Α.Ε. (ΚΟ)       ','58');</p>
+<p>this.set_oles['ΑΝΔΡΟ'] = new Metoxi_my('ΑΝΔΡΟ','ΑΝΔΡΟΜΕΔΑ ΑΕΕΧ (ΚΟ)           ','57');</p>
+<p>this.set_oles['ΑΝΕΚ'] = new Metoxi_my('ΑΝΕΚ','ΑΝΕΚ  (ΚΟ)                    ','43');</p>
+<p>this.set_oles['ΑΝΕΚΔ'] = new Metoxi_my('ΑΝΕΚΔ','ΑΝΕΚ  (ΚΟ)                    ','27');</p>
+<p>this.set_oles['ΑΣΑΣΚ'] = new Metoxi_my('ΑΣΑΣΚ','ΑΣΠΙΣ ΠΡΟΝΟΙΑ (ΚΟ)            ','51');</p>
+<p>this.set_oles['ΑΣΤΗΡ'] = new Metoxi_my('ΑΣΤΗΡ','ΑΣΤΗΡ ΠΑΛΑΣ (ΚΟ)              ','40');</p>
+<p>this.set_oles['ΑΤΕΡΜ'] = new Metoxi_my('ΑΤΕΡΜ','ΑΤΕΡΜΩΝ (ΚΟ)                  ','37');</p>
+<p>this.set_oles['ΑΤΛΑ'] = new Metoxi_my('ΑΤΛΑ','ΑΤΛΑΝΤΙΚ (ΚΟ)                 ','32');</p>
+<p>this.set_oles['ΑΤΤΙΚ'] = new Metoxi_my('ΑΤΤΙΚ','ΑΤΤΙ - ΚΑΤ (ΚΟ)               ','10');</p>
+<p>this.set_oles['ΑΤΕΚ'] = new Metoxi_my('ΑΤΕΚ','ΑΤΤΙΚΕΣ ΕΚΔΟΣΕΙΣ (ΚΟ)         ','38');</p>
+<p>this.set_oles['ΒΑΛΚ'] = new Metoxi_my('ΒΑΛΚ','ΒΑΛΚΑΝ ΑΚΙΝΗΤΑ (ΚΟ)           ','09');</p>
+<p>this.set_oles['ΒΑΡΓ'] = new Metoxi_my('ΒΑΡΓ','ΒΑΡΑΓΚΗΣ (ΚΟ)                 ','23');</p>
+<p>this.set_oles['ΒΑΡΝΗ'] = new Metoxi_my('ΒΑΡΝΗ','ΒΑΡΒΑΡΕΣΟΣ (ΚΑ)               ','25');</p>
+<p>this.set_oles['ΜΟΝΤΑ'] = new Metoxi_my('ΜΟΝΤΑ','ΒΑΡΒΕΡΗΣ Ν. - MODA BAGNO (ΚΟ) ','09');</p>
+<p>this.set_oles['ΝΤΟΚΧΟ'] = new Metoxi_my('ΝΤΟΚΧΟ','ΒΙΟΙΑΤΡ & ΡΟΜΠΟΤ. ΤΕΧΝΟΛ. (ΚΟ)','74');</p>
+<p>this.set_oles['ΒΙΟΚΑ'] = new Metoxi_my('ΒΙΟΚΑ','ΒΙΟΚΑΡΠΕΤ  (ΚΟ)               ','23');</p>
+<p>this.set_oles['ΒΙΟΤ'] = new Metoxi_my('ΒΙΟΤ','ΒΙΟΤΕΡ (ΚΟ)                   ','10');</p>
+<p>this.set_oles['ΒΙΟΧΚ'] = new Metoxi_my('ΒΙΟΧΚ','ΒΙΟΧΑΛΚΟ (ΚΑ)                 ','67');</p>
+<p>this.set_oles['ΒΙΣ'] = new Metoxi_my('ΒΙΣ','ΒΙΣ (ΚΟ)                      ','73');</p>
+<p>this.set_oles['ΒΟΣΥΣ'] = new Metoxi_my('ΒΟΣΥΣ','ΒΟΓΙΑΤΖΟΓΛΟΥ SYSTEMS (ΚΟ)     ','17');</p>
+<p>this.set_oles['ΒΩΒΟΣ'] = new Metoxi_my('ΒΩΒΟΣ','ΒΩΒΟΣ ΜΠΑΜΠΗΣ (ΚΟ)            ','52');</p>
+<p>this.set_oles['ΓΕΔΔ'] = new Metoxi_my('ΓΕΔΔ','Γ.Ε. ΔΗΜΗΤΡΙΟΥ (ΚΟ)           ','27');</p>
+<p>this.set_oles['ΓΕΔ'] = new Metoxi_my('ΓΕΔ','Γ.Ε. ΔΗΜΗΤΡΙΟΥ (ΚΟ)           ','22');</p>
+<p>this.set_oles['ΓΑΛΑΞ'] = new Metoxi_my('ΓΑΛΑΞ','ΓΑΛΑΞΙΔΙ (ΚΟ)                 ','20');</p>
+<p>this.set_oles['ΓΕΚΤΕΡΝΑ'] = new Metoxi_my('ΓΕΚΤΕΡΝΑ','ΓΕΚ ΤΕΡΝΑ (ΚΟ)                ','52');</p>
+<p>this.set_oles['ΠΡΕΖΤ'] = new Metoxi_my('ΠΡΕΖΤ','ΓΕΚΕ (ΚΑ)                     ','40');</p>
+<p>this.set_oles['ΓΕΒΚΑ'] = new Metoxi_my('ΓΕΒΚΑ','ΓΕΝΙΚΗ ΕΜΠΟΡΙΟΥ (ΚΟ)          ','17');</p>
+<p>this.set_oles['ΓΤΕ'] = new Metoxi_my('ΓΤΕ','ΓΕΝΙΚΗ ΤΡΑΠΕΖΑ (ΚΟ)           ','48');</p>
+<p>this.set_oles['ΕΥΒΡΚ'] = new Metoxi_my('ΕΥΒΡΚ','ΓΙΟΥΡΟΜΠΡΟΚΕΡΣ (ΚΟ)           ','50');</p>
+<p>this.set_oles['ΔΑΙΟΣ'] = new Metoxi_my('ΔΑΙΟΣ','ΔΑΙΟΣ ΠΛΑΣΤΙΚΑ (ΚΟ)           ','04');</p>
+<p>this.set_oles['ΔΕΗ'] = new Metoxi_my('ΔΕΗ','ΔΕΗ (ΚΟ)                      ','46');</p>
+<p>this.set_oles['ΔΙΑΣ'] = new Metoxi_my('ΔΙΑΣ','ΔΙΑΣ ΑΕΕΧ (ΚΟ)                ','57');</p>
+<p>this.set_oles['ΔΙΧΘ'] = new Metoxi_my('ΔΙΧΘ','ΔΙΑΣ ΙΧΘ/ΓΕΙΕΣ (ΚΟ)           ','20');</p>
+<p>this.set_oles['ΔΙΕΚΑ'] = new Metoxi_my('ΔΙΕΚΑ','ΔΙΕΚΑΤ (ΚΟ)                   ','10');</p>
+<p>this.set_oles['ΔΟΛ'] = new Metoxi_my('ΔΟΛ','ΔΟΛ (ΚΟ)                      ','38');</p>
+<p>this.set_oles['ΔΟΜΙΚ'] = new Metoxi_my('ΔΟΜΙΚ','ΔΟΜΙΚΗ ΚΡΗΤΗΣ (ΚΟ)            ','10');</p>
+<p>this.set_oles['ΔΟΥΡΟ'] = new Metoxi_my('ΔΟΥΡΟ','ΔΟΥΡΟΣ (ΚΟ)                   ','25');</p>
+<p>this.set_oles['ΔΡΟΜΕ'] = new Metoxi_my('ΔΡΟΜΕ','ΔΡΟΜΕΑΣ (ΚΟ)                  ','23');</p>
+<p>this.set_oles['ΕΒΡΟΦ'] = new Metoxi_my('ΕΒΡΟΦ','ΕΒΡΟΦΑΡΜΑ (ΚΟ)                ','21');</p>
+<p>this.set_oles['ΕΔΡΑ'] = new Metoxi_my('ΕΔΡΑ','ΕΔΡΑΣΗ - ΨΑΛΛΙΔΑΣ Χ. (ΚΟ)     ','10');</p>
+<p>this.set_oles['ΕΤΕ'] = new Metoxi_my('ΕΤΕ','ΕΘΝΙΚΗ ΤΡΑΠΕΖΑ (KO)           ','48');</p>
+<p>this.set_oles['ΝΙΟΥΣ'] = new Metoxi_my('ΝΙΟΥΣ','ΕΙΔΗΣΕΟΦΩΝΙΚΗ ΕΛΛΑΣ (ΚΟ)      ','16');</p>
+<p>this.set_oles['ΙΚΟΝΑ'] = new Metoxi_my('ΙΚΟΝΑ','ΕΙΚΟΝΑ - ΗΧΟΣ (ΚΟ)            ','35');</p>
+<p>this.set_oles['ΕΚΤΕΡ'] = new Metoxi_my('ΕΚΤΕΡ','ΕΚΤΕΡ (ΚΟ)                    ','10');</p>
+<p>this.set_oles['ΕΒΖ'] = new Metoxi_my('ΕΒΖ','ΕΛ. ΒΙΟΜ. ΖΑΧΑΡΗΣ (ΚΑ)        ','21');</p>
+<p>this.set_oles['ΕΛΣΤΡ'] = new Metoxi_my('ΕΛΣΤΡ','ΕΛΑΣΤΡΟΝ (ΚO)                 ','07');</p>
+<p>this.set_oles['ΕΛΒΑ'] = new Metoxi_my('ΕΛΒΑ','ΕΛΒΑΛ (ΚΑ)                    ','05');</p>
+<p>this.set_oles['ΕΛΒΕ'] = new Metoxi_my('ΕΛΒΕ','ΕΛΒΕ Α.Β.Ε.Ε. (ΚΟ)            ','25');</p>
+<p>this.set_oles['ΕΛΒΙΟ'] = new Metoxi_my('ΕΛΒΙΟ','ΕΛΒΙΕΜΕΚ (ΚΟ)                 ','52');</p>
+<p>this.set_oles['ΕΛΓΕΚ'] = new Metoxi_my('ΕΛΓΕΚ','ΕΛΓΕΚΑ (ΚΟ)                   ','21');</p>
+<p>this.set_oles['ΑΛΤΕΡ'] = new Metoxi_my('ΑΛΤΕΡ','ΕΛΕΥΘΕΡΗ ΤΗΛΕΟΡΑΣΗ (ΚΟ)       ','36');</p>
+<p>this.set_oles['ΕΛΙΝ'] = new Metoxi_my('ΕΛΙΝ','ΕΛΙΝΟΙΛ (ΚΟ)                  ','02');</p>
+<p>this.set_oles['ΕΛΛ'] = new Metoxi_my('ΕΛΛ','ΕΛΛΑΔΟΣ ΤΡΑΠΕΖΑ (ΚΟ)          ','48');</p>
+<p>this.set_oles['ΕΛΛΑΚΤΩΡ'] = new Metoxi_my('ΕΛΛΑΚΤΩΡ','ΕΛΛΑΚΤΩΡ (ΚΟ)                 ','10');</p>
+<p>this.set_oles['ΕΛΚΑ'] = new Metoxi_my('ΕΛΚΑ','ΕΛΛΗΝΙΚΑ ΚΑΛΩΔΙΑ (ΚΟ)         ','12');</p>
+<p>this.set_oles['ΕΛΠΕ'] = new Metoxi_my('ΕΛΠΕ','ΕΛΛΗΝΙΚΑ ΠΕΤΡΕΛΑΙΑ (ΚΟ)       ','02');</p>
+<p>this.set_oles['ΕΧΑΕ'] = new Metoxi_my('ΕΧΑΕ','ΕΛΛΗΝΙΚΑ ΧΡΗΜΑΤΙΣΤΗΡΙΑ (ΚΟ)   ','56');</p>
+<p>this.set_oles['ΕΛΙΧΘ'] = new Metoxi_my('ΕΛΙΧΘ','ΕΛΛΗΝΙΚΕΣ ΙΧΘΥΟΚΑΛ/ΡΓΕΙΕΣ (ΚΟ)','20');</p>
+<p>this.set_oles['ΕΛΥΦ'] = new Metoxi_my('ΕΛΥΦ','ΕΛΛΗΝΙΚΗ ΥΦΑΝΤΟΥΡΓΙΑ (ΚΟ)     ','25');</p>
+<p>this.set_oles['ΕΛΤΟΝ'] = new Metoxi_my('ΕΛΤΟΝ','ΕΛΤΟΝ (KΟ)                    ','03');</p>
+<p>this.set_oles['ΕΛΤΚ'] = new Metoxi_my('ΕΛΤΚ','ΕΛΤΡΑΚ (ΚΟ)                   ','13');</p>
+<p>this.set_oles['ΕΛΦΚ'] = new Metoxi_my('ΕΛΦΚ','ΕΛΦΙΚΟ (ΚΟ)                   ','25');</p>
+<p>this.set_oles['ΕΜΔΚΟ'] = new Metoxi_my('ΕΜΔΚΟ','ΕΜΠΟΡΙΚΟΣ ΔΕΣΜΟΣ (ΚΟ)         ','22');</p>
+<p>this.set_oles['ΕΜΔΠΟ'] = new Metoxi_my('ΕΜΔΠΟ','ΕΜΠΟΡΙΚΟΣ ΔΕΣΜΟΣ (ΠΟ)         ','22');</p>
+<p>this.set_oles['ΕΝΤΕΡ'] = new Metoxi_my('ΕΝΤΕΡ','ΕΝΤΕΡΣΟΦΤ (ΚΟ)                ','74');</p>
+<p>this.set_oles['ΕΝΚΛΩ'] = new Metoxi_my('ΕΝΚΛΩ','ΕΝΩΜΕΝΗ ΚΛΩΣΤΟΫΦΑΝΤΟΥΡΓΙΑ (ΚΟ)','25');</p>
+<p>this.set_oles['ΕΠΙΛΚ'] = new Metoxi_my('ΕΠΙΛΚ','ΕΠΙΛΕΚΤΟΣ (ΚΟ)                ','25');</p>
+<p>this.set_oles['ΕΡΓΑΣ'] = new Metoxi_my('ΕΡΓΑΣ','ΕΡΓΑΣ (ΚΟ)                    ','10');</p>
+<p>this.set_oles['ΕΤΕΜ'] = new Metoxi_my('ΕΤΕΜ','ΕΤΕΜ (ΚΑ)                     ','05');</p>
+<p>this.set_oles['ΕΤΜΑΠ'] = new Metoxi_my('ΕΤΜΑΠ','ΕΤΜΑ (ΠΟ)                     ','25');</p>
+<p>this.set_oles['ΕΥΑΠΣ'] = new Metoxi_my('ΕΥΑΠΣ','ΕΥΑΘ  (ΚΟ)                    ','47');</p>
+<p>this.set_oles['ΕΥΔΑΠ'] = new Metoxi_my('ΕΥΔΑΠ','ΕΥΔΑΠ  (ΚΟ)                   ','47');</p>
+<p>this.set_oles['ΕΥΠΙΚ'] = new Metoxi_my('ΕΥΠΙΚ','ΕΥΡΩΠΑΪΚΗ ΠΙΣΤΗ (ΚΟ)          ','51');</p>
+<p>this.set_oles['ΕΣΥΜΒ'] = new Metoxi_my('ΕΣΥΜΒ','ΕΥΡΩΣΥΜΒΟΥΛΟΙ (ΚΟ)            ','16');</p>
+<p>this.set_oles['ΕΥΡΩΣ'] = new Metoxi_my('ΕΥΡΩΣ','ΕΥΡΩΣΥΜΜΕΤΟΧΕΣ (ΚΟ)           ','20');</p>
+<p>this.set_oles['ΖΑΜΠΑ'] = new Metoxi_my('ΖΑΜΠΑ','ΖΑΜΠΑ (ΚΑ)                    ','22');</p>
+<p>this.set_oles['ΗΛΕΑΘ'] = new Metoxi_my('ΗΛΕΑΘ','ΗΛΕΚΤΡΟΝΙΚΗ ΑΘΗΝΩΝ (ΚΟ)       ','34');</p>
+<p>this.set_oles['ΗΡΑΚ'] = new Metoxi_my('ΗΡΑΚ','ΗΡΑΚΛΗΣ ΑΓΕΤ (ΚΟ)             ','09');</p>
+<p>this.set_oles['ΙΑΣΩ'] = new Metoxi_my('ΙΑΣΩ','ΙΑΣΩ (ΚΟ)                     ','29');</p>
+<p>this.set_oles['ΙΑΤΡ'] = new Metoxi_my('ΙΑΤΡ','ΙΑΤΡΙΚΟ ΑΘΗΝΩΝ (ΚΟ)           ','29');</p>
+<p>this.set_oles['ΙΚΤΙΝ'] = new Metoxi_my('ΙΚΤΙΝ','ΙΚΤΙΝΟΣ ΕΛΛΑΣ (ΚΟ)            ','09');</p>
+<p>this.set_oles['ΙΛΥΔΑ'] = new Metoxi_my('ΙΛΥΔΑ','ΙΛΥΔΑ (ΚΟ)                    ','60');</p>
+<p>this.set_oles['ΙΜΑΚΟ'] = new Metoxi_my('ΙΜΑΚΟ','ΙΜΑΚΟ ΜΗΝΤΙΑ (ΚΟ)             ','38');</p>
+<p>this.set_oles['ΙΜΠΕ'] = new Metoxi_my('ΙΜΠΕ','ΙΜΠΕΡΙΟ (ΚΟ)                  ','15');</p>
+<p>this.set_oles['ΙΝΤΕΚ'] = new Metoxi_my('ΙΝΤΕΚ','ΙΝΤΕΑΛ ΟΜΙΛΟΣ (ΚΟ)            ','62');</p>
+<p>this.set_oles['ΞΥΛΠ'] = new Metoxi_my('ΞΥΛΠ','ΙΝΤΕΡΓΟΥΝΤ-ΞΥΛΕΜΠΟΡΙΑ  (ΠΟ)   ','09');</p>
+<p>this.set_oles['ΞΥΛΚ'] = new Metoxi_my('ΞΥΛΚ','ΙΝΤΕΡΓΟΥΝΤ-ΞΥΛΕΜΠΟΡΙΑ (ΚΟ)    ','09');</p>
+<p>this.set_oles['ΙΝΤΕΤ'] = new Metoxi_my('ΙΝΤΕΤ','ΙΝΤΕΡΤΕΚ (ΚΟ)                 ','61');</p>
+<p>this.set_oles['ΙΝΛΟΤ'] = new Metoxi_my('ΙΝΛΟΤ','ΙΝΤΡΑΛΟΤ (ΚΟ)                 ','39');</p>
+<p>this.set_oles['ΙΟΝΑ'] = new Metoxi_my('ΙΟΝΑ','ΙΟΝΙΚΗ ΞΕΝΟΔΟΧΕΙΑΚΗ (ΚΟ)      ','40');</p>
+<p>this.set_oles['ΙΠΠΠΚΔ'] = new Metoxi_my('ΙΠΠΠΚΔ','ΙΠΠΟΤΟΥΡ (ΚΑ)                 ','27');</p>
+<p>this.set_oles['ΙΠΠΚ'] = new Metoxi_my('ΙΠΠΚ','ΙΠΠΟΤΟΥΡ (ΚΑ)                 ','20');</p>
+<p>this.set_oles['ΦΦΓΚΡΠ'] = new Metoxi_my('ΦΦΓΚΡΠ','ΚΑΕ (ΚΟ)                      ','35');</p>
+<p>this.set_oles['ΚΑΘΗ'] = new Metoxi_my('ΚΑΘΗ','ΚΑΘΗΜΕΡΙΝΗ (ΚΟ)               ','38');</p>
+<p>this.set_oles['ΚΑΝΑΚ'] = new Metoxi_my('ΚΑΝΑΚ','ΚΑΝΑΚΗΣ Σ. (ΚΟ)               ','21');</p>
+<p>this.set_oles['ΚΜΟΛ'] = new Metoxi_my('ΚΜΟΛ','ΚΑΡΑΜΟΛΕΓΚΟΣ (ΚΟ)             ','21');</p>
+<p>this.set_oles['ΚΑΡΤΖ'] = new Metoxi_my('ΚΑΡΤΖ','ΚΑΡΑΤΖΗ (ΚΟ)                  ','11');</p>
+<p>this.set_oles['ΚΑΡΔ'] = new Metoxi_my('ΚΑΡΔ','ΚΑΡΔΑΣΙΛΑΡΗΣ (ΚO)             ','21');</p>
+<p>this.set_oles['ΚΑΡΕΛ'] = new Metoxi_my('ΚΑΡΕΛ','ΚΑΡΕΛΙΑ (ΚΑ)                  ','28');</p>
+<p>this.set_oles['ΚΕΚΡ'] = new Metoxi_my('ΚΕΚΡ','ΚΕΚΡΟΨ (ΚΟ)                   ','52');</p>
+<p>this.set_oles['ΚΕΠΕΝ'] = new Metoxi_my('ΚΕΠΕΝ','ΚΕΠΕΝΟΥ ΜΥΛΟΙ (ΚΟ)            ','21');</p>
+<p>this.set_oles['ΚΕΡΑΛ'] = new Metoxi_my('ΚΕΡΑΛ','ΚΕΡΑΜΕΙΑ-ΑΛΛΑΤΙΝΗ  (ΚΟ)       ','09');</p>
+<p>this.set_oles['ΚΛΜ'] = new Metoxi_my('ΚΛΜ','ΚΛΟΥΚΙΝΑΣ - ΛΑΠΠΑΣ (ΚΟ)       ','10');</p>
+<p>this.set_oles['ΚΛΩΝΚ'] = new Metoxi_my('ΚΛΩΝΚ','ΚΛΩΝΑΤΕΞ  (ΚΟ)                ','25');</p>
+<p>this.set_oles['ΚΛΩΝΠ'] = new Metoxi_my('ΚΛΩΝΠ','ΚΛΩΝΑΤΕΞ  (ΠΟ)                ','25');</p>
+<p>this.set_oles['ΝΑΥΠ'] = new Metoxi_my('ΝΑΥΠ','ΚΛΩΣ/ΓΙΑ ΝΑΥΠΑΚΤΟΥ (ΚΑ)       ','25');</p>
+<p>this.set_oles['ΚΟΡΔΕ'] = new Metoxi_my('ΚΟΡΔΕ','ΚΟΡΔΕΛΛΟΥ Χ. ΑΦΟΙ (ΚΟ)        ','07');</p>
+<p>this.set_oles['ΚΟΡΡΕΣ'] = new Metoxi_my('ΚΟΡΡΕΣ','ΚΟΡΡΕΣ (ΚΟ)                   ','64');</p>
+<p>this.set_oles['ΚΟΥΜ'] = new Metoxi_my('ΚΟΥΜ','ΚΟΥΜΠΑΣ  ΣΥΜΜΕΤΟΧΩΝ (ΚΟ)      ','55');</p>
+<p>this.set_oles['ΚΡΕΚΑ'] = new Metoxi_my('ΚΡΕΚΑ','ΚΡΕΚΑ (ΚΟ)                    ','20');</p>
+<p>this.set_oles['ΚΡΕΤΑ'] = new Metoxi_my('ΚΡΕΤΑ','ΚΡΕΤΑ ΦΑΡΜ (ΚΟ)               ','21');</p>
+<p>this.set_oles['ΚΡΗΤΩΝ'] = new Metoxi_my('ΚΡΗΤΩΝ','ΚΡΗΤΩΝ ΑΡΤΟΣ (ΚΟ)             ','74');</p>
+<p>this.set_oles['ΚΡΗΤΩΝΔ'] = new Metoxi_my('ΚΡΗΤΩΝΔ','ΚΡΗΤΩΝ ΑΡΤΟΣ (ΚΟ)             ','27');</p>
+<p>this.set_oles['ΚΡΙ'] = new Metoxi_my('ΚΡΙ','ΚΡΙ - ΚΡΙ (ΚΟ)                ','21');</p>
+<p>this.set_oles['ΚΤΗΛΑ'] = new Metoxi_my('ΚΤΗΛΑ','ΚΤΗΜΑ Κ. ΛΑΖΑΡΙΔΗ (ΚΟ)        ','18');</p>
+<p>this.set_oles['ΚΥΠΡ'] = new Metoxi_my('ΚΥΠΡ','ΚΥΠΡΟΥ ΤΡΑΠΕΖΑ (ΚΟ)           ','48');</p>
+<p>this.set_oles['ΚΥΡΜ'] = new Metoxi_my('ΚΥΡΜ','ΚΥΡΙΑΚΙΔΗΣ Η.- F.H.L. (ΚΟ)    ','09');</p>
+<p>this.set_oles['ΚΥΡΙΟ'] = new Metoxi_my('ΚΥΡΙΟ','ΚΥΡΙΑΚΟΥΛΗΣ (ΚΟ)              ','43');</p>
+<p>this.set_oles['ΛΑΜΨΑ'] = new Metoxi_my('ΛΑΜΨΑ','ΛΑΜΨΑ (ΚΟ)                    ','40');</p>
+<p>this.set_oles['ΛΑΝΕΤ'] = new Metoxi_my('ΛΑΝΕΤ','ΛΑΝ-ΝΕΤ (KO)                  ','44');</p>
+<p>this.set_oles['ΛΑΝΑΚ'] = new Metoxi_my('ΛΑΝΑΚ','ΛΑΝΑΚΑΜ (ΚΟ)                  ','25');</p>
+<p>this.set_oles['ΛΕΒΚ'] = new Metoxi_my('ΛΕΒΚ','ΛΕΒΕΝΤΕΡΗΣ Ν. (ΚA)            ','07');</p>
+<p>this.set_oles['ΛΕΒΠ'] = new Metoxi_my('ΛΕΒΠ','ΛΕΒΕΝΤΕΡΗΣ Ν. (ΠΑ)            ','07');</p>
+<p>this.set_oles['ΛΙΒΑΝ'] = new Metoxi_my('ΛΙΒΑΝ','ΛΙΒΑΝΗ ΕΚΔΟΤ. ΟΡΓ. (ΚΟ)       ','38');</p>
+<p>this.set_oles['ΛΟΥΛΗ'] = new Metoxi_my('ΛΟΥΛΗ','ΛΟΥΛΗ ΜΥΛΟΙ (ΚΟ)              ','21');</p>
+<p>this.set_oles['ΜΑΘΙΟ'] = new Metoxi_my('ΜΑΘΙΟ','ΜΑΘΙΟΣ ΠΥΡΙΜΑΧΑ (ΚΟ)          ','09');</p>
+<p>this.set_oles['ΜΑΞΙΜ'] = new Metoxi_my('ΜΑΞΙΜ','ΜΑΞΙΜ ΠΕΡΤΣΙΝΙΔΗΣ (ΚΑ)        ','25');</p>
+<p>this.set_oles['ΜΑΡΑΚ'] = new Metoxi_my('ΜΑΡΑΚ','ΜΑΡΑΚ ΗΛΕΚΤΡΟΝΙΚΗ (ΚΟ)        ','63');</p>
+<p>this.set_oles['ΜΑΙΚ'] = new Metoxi_my('ΜΑΙΚ','ΜΑΪΛΛΗΣ Μ.Ι.(ΚΟ)              ','11');</p>
+<p>this.set_oles['ΜΕΣΟΧ'] = new Metoxi_my('ΜΕΣΟΧ','ΜΕΣΟΧΩΡΙΤΗ ΑΦΟΙ (ΚΟ)          ','10');</p>
+<p>this.set_oles['ΜΕΤΚ'] = new Metoxi_my('ΜΕΤΚ','ΜΕΤΚΑ (ΚΟ)                    ','14');</p>
+<p>this.set_oles['ΜΗΧΚ'] = new Metoxi_my('ΜΗΧΚ','ΜΗΧΑΝΙΚΗ (ΚΟ)                 ','10');</p>
+<p>this.set_oles['ΜΗΧΠ'] = new Metoxi_my('ΜΗΧΠ','ΜΗΧΑΝΙΚΗ (ΠΟ)                 ','10');</p>
+<p>this.set_oles['ΜΙΝΟΑ'] = new Metoxi_my('ΜΙΝΟΑ','ΜΙΝΩΙΚΕΣ ΓΡΑΜΜΕΣ ΑΝΕ (ΚΟ)     ','43');</p>
+<p>this.set_oles['ΜΟΤΟ'] = new Metoxi_my('ΜΟΤΟ','ΜΟΤΟΔΥΝΑΜΙΚΗ (ΚΟ)             ','35');</p>
+<p>this.set_oles['ΜΟΗ'] = new Metoxi_my('ΜΟΗ','ΜΟΤΟΡ ΟΪΛ (ΚΟ)                ','01');</p>
+<p>this.set_oles['ΜΟΥΖΚ'] = new Metoxi_my('ΜΟΥΖΚ','ΜΟΥΖΑΚΗΣ (ΚΑ)                 ','25');</p>
+<p>this.set_oles['ΜΟΧΛ'] = new Metoxi_my('ΜΟΧΛ','ΜΟΧΛΟΣ (ΚΟ)                   ','10');</p>
+<p>this.set_oles['ΜΠΤΚ'] = new Metoxi_my('ΜΠΤΚ','ΜΠΗΤΡΟΣ ΣΥΜΜΕΤΟΧΙΚΗ (KO)      ','07');</p>
+<p>this.set_oles['ΜΠΟΚΑ'] = new Metoxi_my('ΜΠΟΚΑ','ΜΠΟΥΤΑΡΗΣ Ι. & ΥΙΟΣ  (ΚΑ)     ','18');</p>
+<p>this.set_oles['ΜΠΟΠΑ'] = new Metoxi_my('ΜΠΟΠΑ','ΜΠΟΥΤΑΡΗΣ Ι. & ΥΙΟΣ  (ΠΑ)     ','18');</p>
+<p>this.set_oles['ΜΥΤΙΛ'] = new Metoxi_my('ΜΥΤΙΛ','ΜΥΤΙΛΗΝΑΙΟΣ (ΚΟ)              ','06');</p>
+<p>this.set_oles['ΝΑΚΑΣ'] = new Metoxi_my('ΝΑΚΑΣ','ΝΑΚΑΣ ΜΟΥΣΙΚΗ (ΚΟ)            ','35');</p>
+<p>this.set_oles['ΝΑΥΤ'] = new Metoxi_my('ΝΑΥΤ','ΝΑΥΤΕΜΠΟΡΙΚΗ (ΚΟ)             ','38');</p>
+<p>this.set_oles['ΝΕΛ'] = new Metoxi_my('ΝΕΛ','ΝΕΛ (ΚΟ)                      ','43');</p>
+<p>this.set_oles['ΝΕΩΡΣ'] = new Metoxi_my('ΝΕΩΡΣ','ΝΕΩΡΙΟΝ (ΚΟ)                  ','13');</p>
+<p>this.set_oles['ΝΗΡ'] = new Metoxi_my('ΝΗΡ','ΝΗΡΕΥΣ (ΚO)                   ','20');</p>
+<p>this.set_oles['ΝΙΚΑΣ'] = new Metoxi_my('ΝΙΚΑΣ','ΝΙΚΑΣ (ΚΟ)                    ','21');</p>
+<p>this.set_oles['ΝΤΟΠΛΕΡ'] = new Metoxi_my('ΝΤΟΠΛΕΡ','ΝΤΟΠΛΕΡ (ΚΟ)                  ','74');</p>
+<p>this.set_oles['ΔΡΟΥΚ'] = new Metoxi_my('ΔΡΟΥΚ','ΝΤΡΟΥΚΦΑΡΜΠΕΝ ΕΛΛΑΣ (ΚΟ)      ','04');</p>
+<p>this.set_oles['ΟΛΘ'] = new Metoxi_my('ΟΛΘ','ΟΛΘ (ΚΟ)                      ','15');</p>
+<p>this.set_oles['ΟΛΠ'] = new Metoxi_my('ΟΛΠ','ΟΛΠ (ΚΟ)                      ','15');</p>
+<p>this.set_oles['ΟΠΑΠ'] = new Metoxi_my('ΟΠΑΠ','ΟΠΑΠ (ΚΟ)                     ','39');</p>
+<p>this.set_oles['ΟΠΤΡΟΝ'] = new Metoxi_my('ΟΠΤΡΟΝ','ΟΠΤΟΗΛΕΚΤΡΟΝΙΚΕΣ ΤΕΧΝΟΛ. (ΚΟ) ','74');</p>
+<p>this.set_oles['ΟΤΕ'] = new Metoxi_my('ΟΤΕ','ΟΤΕ  (ΚΟ)                     ','44');</p>
+<p>this.set_oles['ΠΑΠ'] = new Metoxi_my('ΠΑΠ','ΠΑΠΟΥΤΣΑΝΗΣ (ΚΟ)              ','64');</p>
+<p>this.set_oles['ΠΑΡΝ'] = new Metoxi_my('ΠΑΡΝ','ΠΑΡΝΑΣΣΟΣ (ΚΟ)                ','55');</p>
+<p>this.set_oles['ΠΑΙΡ'] = new Metoxi_my('ΠΑΙΡ','ΠΑΪΡΗΣ ΠΛΑΣΤΙΚΩΝ (ΚΟ)         ','11');</p>
+<p>this.set_oles['ΠΕΙΡΔ'] = new Metoxi_my('ΠΕΙΡΔ','ΠΕΙΡΑΙΩΣ ΤΡΑΠΕΖΑ (ΚΟ)         ','27');</p>
+<p>this.set_oles['ΠΕΙΡ'] = new Metoxi_my('ΠΕΙΡ','ΠΕΙΡΑΙΩΣ ΤΡΑΠΕΖΑ (ΚΟ)         ','48');</p>
+<p>this.set_oles['ΠΕΡΣ'] = new Metoxi_my('ΠΕΡΣ','ΠΕΡΣΕΥΣ (ΚΟ)                  ','21');</p>
+<p>this.set_oles['ΠΕΤΖΚ'] = new Metoxi_my('ΠΕΤΖΚ','ΠΕΤΖΕΤΑΚΙΣ Α. (ΚΟ)            ','04');</p>
+<p>this.set_oles['ΠΕΤΡΟ'] = new Metoxi_my('ΠΕΤΡΟ','ΠΕΤΡΟΠΟΥΛΟΣ ΠΕΤΡΟΣ (ΚΟ)       ','13');</p>
+<p>this.set_oles['ΠΗΓΑΣ'] = new Metoxi_my('ΠΗΓΑΣ','ΠΗΓΑΣΟΣ ΕΚΔΟΤΙΚΗ Α.Ε. (KO)    ','38');</p>
+<p>this.set_oles['ΠΛΑΙΣ'] = new Metoxi_my('ΠΛΑΙΣ','ΠΛΑΙΣΙΟ COMPUTERS (ΚΟ)        ','61');</p>
+<p>this.set_oles['ΠΛΑΘ'] = new Metoxi_my('ΠΛΑΘ','ΠΛΑΣΤΙΚΑ ΘΡΑΚΗΣ (ΚΟ)          ','04');</p>
+<p>this.set_oles['ΠΛΑΚΡ'] = new Metoxi_my('ΠΛΑΚΡ','ΠΛΑΣΤΙΚΑ ΚΡΗΤΗΣ (ΚΟ)          ','04');</p>
+<p>this.set_oles['ΠΡΑΞΚ'] = new Metoxi_my('ΠΡΑΞΚ','ΠΡΑΞΙΤΕΛΕΙΟ (ΚΟ)              ','25');</p>
+<p>this.set_oles['ΠΡΑΞΠ'] = new Metoxi_my('ΠΡΑΞΠ','ΠΡΑΞΙΤΕΛΕΙΟ (ΠΟ)              ','25');</p>
+<p>this.set_oles['ΠΡΔ'] = new Metoxi_my('ΠΡΔ','ΠΡΟΟΔΕΥΤΙΚΗ (ΚΟ)              ','10');</p>
+<p>this.set_oles['ΡΕΒ'] = new Metoxi_my('ΡΕΒ','ΡΕΒΟΪΛ (ΚΟ)                   ','35');</p>
+<p>this.set_oles['ΣΑΝΥΟ'] = new Metoxi_my('ΣΑΝΥΟ','ΣΑΝΥΟ ΕΛΛΑΣ (ΚΟ)              ','22');</p>
+<p>this.set_oles['ΣΑΟΣ'] = new Metoxi_my('ΣΑΟΣ','ΣΑΟΣ (ΚΟ)                     ','41');</p>
+<p>this.set_oles['ΣΑΡ'] = new Metoxi_my('ΣΑΡ','ΣΑΡΑΝΤΗΣ ΓΡ. (ΚΟ)             ','64');</p>
+<p>this.set_oles['ΣΑΡΑΝ'] = new Metoxi_my('ΣΑΡΑΝ','ΣΑΡΑΝΤΟΠΟΥΛΟΣ ΚΥΛ/ΜΥΛΟΙ (ΚΟ)  ','21');</p>
+<p>this.set_oles['ΣΕΛΜΚ'] = new Metoxi_my('ΣΕΛΜΚ','ΣΕΛΜΑΝ (ΚO)                   ','09');</p>
+<p>this.set_oles['ΣΕΛΟ'] = new Metoxi_my('ΣΕΛΟ','ΣΕΛΟΝΤΑ (ΚΟ)                  ','20');</p>
+<p>this.set_oles['ΣΙΔΕ'] = new Metoxi_my('ΣΙΔΕ','ΣΙΔΕΝΟΡ (ΚΟ)                  ','07');</p>
+<p>this.set_oles['ΣΙΔΜΑ'] = new Metoxi_my('ΣΙΔΜΑ','ΣΙΔΜΑ (ΚΟ)                    ','07');</p>
+<p>this.set_oles['ΣΠΥΡ'] = new Metoxi_my('ΣΠΥΡ','ΣΠΥΡΟΥ ΑΓΡ. ΟΙΚ. (ΚΟ)         ','04');</p>
+<p>this.set_oles['ΣΦΑ'] = new Metoxi_my('ΣΦΑ','ΣΦΑΚΙΑΝΑΚΗΣ (ΚΟ)              ','35');</p>
+<p>this.set_oles['ΣΩΛΚ'] = new Metoxi_my('ΣΩΛΚ','ΣΩΛ/ΓΕΙΑ ΚΟΡΙΝΘΟY (ΚΟ)        ','07');</p>
+<p>this.set_oles['ΤΒΑΝΚ'] = new Metoxi_my('ΤΒΑΝΚ','Τ BANK (ΚΟ)                   ','48');</p>
+<p>this.set_oles['ΤΤ'] = new Metoxi_my('ΤΤ','ΤΑΧΥΔΡΟΜΙΚΟ ΤΑΜΙΕΥΤΗΡΙΟ (ΚΟ)  ','48');</p>
+<p>this.set_oles['ΤΕΓΟ'] = new Metoxi_my('ΤΕΓΟ','ΤΕΓΟΠΟΥΛΟΣ Χ.Κ. (ΚΟ)          ','38');</p>
+<p>this.set_oles['ΤΕΞΤ'] = new Metoxi_my('ΤΕΞΤ','ΤΕΞΑΠΡΕΤ (ΚΟ)                 ','25');</p>
+<p>this.set_oles['ΤΕΝΕΡΓ'] = new Metoxi_my('ΤΕΝΕΡΓ','ΤΕΡΝΑ ΕΝΕΡΓΕΙΑΚΗ (ΚΟ)         ','46');</p>
+<p>this.set_oles['ΤΕΚΔΟ'] = new Metoxi_my('ΤΕΚΔΟ','ΤΕΧΝΙΚΕΣ ΕΚΔΟΣΕΙΣ (ΚΟ)        ','38');</p>
+<p>this.set_oles['ΟΛΥΜΠ'] = new Metoxi_my('ΟΛΥΜΠ','ΤΕΧΝΙΚΗ ΟΛΥΜΠΙΑΚΗ (ΚΟ)        ','66');</p>
+<p>this.set_oles['ΤΖΚΑ'] = new Metoxi_my('ΤΖΚΑ','ΤΖΙΡΑΚΙΑΝ ΠΡOΦΙΛ (ΚΑ)         ','07');</p>
+<p>this.set_oles['ΤΗΛΕΤ'] = new Metoxi_my('ΤΗΛΕΤ','ΤΗΛΕΤΥΠΟΣ  (ΚΟ)               ','36');</p>
+<p>this.set_oles['ΤΙΤΚ'] = new Metoxi_my('ΤΙΤΚ','ΤΙΤΑΝ (ΚΟ)                    ','09');</p>
+<p>this.set_oles['ΤΙΤΠ'] = new Metoxi_my('ΤΙΤΠ','ΤΙΤΑΝ (ΠΟ)                    ','09');</p>
+<p>this.set_oles['ΑΑΑΚ'] = new Metoxi_my('ΑΑΑΚ','ΤΡΙΑ ΑΛΦΑ (ΚΟ)                ','25');</p>
+<p>this.set_oles['ΑΑΑΠ'] = new Metoxi_my('ΑΑΑΠ','ΤΡΙΑ ΑΛΦΑ (ΠΟ)                ','25');</p>
+<p>this.set_oles['ΥΓΕΙΑΔ'] = new Metoxi_my('ΥΓΕΙΑΔ','ΥΓΕΙΑ (ΚΟ)                    ','27');</p>
+<p>this.set_oles['ΥΓΕΙΑ'] = new Metoxi_my('ΥΓΕΙΑ','ΥΓΕΙΑ (ΚΟ)                    ','29');</p>
+<p>this.set_oles['ΦΙΕΡ'] = new Metoxi_my('ΦΙΕΡ','ΦΙΕΡΑΤΕΞ (ΚΟ)                 ','25');</p>
+<p>this.set_oles['ΦΙΝΤΟ'] = new Metoxi_my('ΦΙΝΤΟ','ΦΙΝΤΕΞΠΟΡΤ (ΚΟ)               ','25');</p>
+<p>this.set_oles['ΦΟΥΝΤΛ'] = new Metoxi_my('ΦΟΥΝΤΛ','ΦΟΥΝΤΛΙΝΚ Α.Ε. (ΚΟ)           ','74');</p>
+<p>this.set_oles['ΧΑΚΟΡ'] = new Metoxi_my('ΧΑΚΟΡ','ΧΑΛΚΟΡ (ΚΑ)                   ','06');</p>
+<p>this.set_oles['ΧΑΛΥΒ'] = new Metoxi_my('ΧΑΛΥΒ','ΧΑΛΥΒΔΟΦΥΛΛΩΝ (ΚΟ)            ','07');</p>
+<p>this.set_oles['ΧΚΡΑΝ'] = new Metoxi_my('ΧΚΡΑΝ','ΧΑΤΖΗΚΡΑΝΙΩΤΗ Ε. ΥΙΟΙ (ΚΟ)    ','21');</p>
+<p>this.set_oles['ΧΑΤΖΚ'] = new Metoxi_my('ΧΑΤΖΚ','ΧΑΤΖΗΪΩΑΝΝΟΥ (ΚΟ)             ','25');</p>
+<p>this.set_oles['ΧΑΤΖΠ'] = new Metoxi_my('ΧΑΤΖΠ','ΧΑΤΖΗΪΩΑΝΝΟΥ (ΠΟ)             ','25');</p>
+<p>this.set_oles['ΧΑΙΔΕ'] = new Metoxi_my('ΧΑΙΔΕ','ΧΑΪΔΕΜΕΝΟΣ (ΚΟ)               ','16');</p>
+<p>// methods</p>
+<p>  this.init = metoxes_my_init;</p>
+<p>  this.get_by_letter = metoxes_my_get_by_letter;</p>
+<p>  this.get_by_secsym = metoxes_my_get_by_secsym;</p>
+<p>  this.get_by_catego = metoxes_my_get_by_catego;</p>
+<p>  this.fill_found_metoxes = metoxes_my_fill_found_metoxes;</p>
+<p>  this.onselect = metoxes_my_onselect;</p>
+<p>//</p>
+<p>  this.init();</p>
+<p>}</p>
+<p>function metoxes_my_init(){</p>
+<p>  this.set = new Array();</p>
+<p>}</p>
+<p>function metoxes_my_get_by_letter(letter,do_regexp){</p>
+<p>  this.init();</p>
+<p>  if (letter.length>0){</p>
+<p>    var re = (do_regexp)?make_regexp(letter):new RegExp('^'+letter);</p>
+<p>    for(var i in this.set_oles){</p>
+<p>      if(re.exec(this.set_oles[i].compnam)){</p>
+<p>        this.set[i]=this.set_oles[i];</p>
+<p>      }</p>
+<p>    }</p>
+<p>  }</p>
+<p>  this.fill_found_metoxes();</p>
+<p>}</p>
+<p>function metoxes_my_get_by_secsym(secsym){</p>
+<p>  this.init();</p>
+<p>  if (secsym.length>0){</p>
+<p>    var re = make_regexp(secsym);</p>
+<p>    for(var i in this.set_oles){</p>
+<p>      if(re.exec(this.set_oles[i].secsym)){</p>
+<p>        this.set[i]=this.set_oles[i];</p>
+<p>      }</p>
+<p>    }</p>
+<p>  }</p>
+<p>  this.fill_found_metoxes();</p>
+<p>}</p>
+<p>function metoxes_my_get_by_catego(comp_categ){</p>
+<p>  this.init();</p>
+<p>  if (comp_categ.length>0){</p>
+<p>    for(var i in this.set_oles){</p>
+<p>      if(comp_categ==this.set_oles[i].comp_categ){</p>
+<p>        this.set[i]=this.set_oles[i];</p>
+<p>      }</p>
+<p>    }</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    this.set=this.set_oles;</p>
+<p>  }</p>
+<p>  this.fill_found_metoxes();</p>
+<p>}</p>
+<p>function metoxes_my_fill_found_metoxes(){</p>
+<p>  if(typeof(this.forma)=='undefined'){</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>  var t = '';</p>
+<p>  for( var i in this.set ){</p>
+<p>    t +=  '<div onclick="search_metoxes_my.onselect(\''+this.set[i].secsym+'\');" class="link">'+this.set[i].compnam+' ('+this.set[i].secsym+')'+'</div>\n';   </p>
+<p>  }</p>
+<p>  get_element('found_metoxes_set_inner_my').innerHTML = t;</p>
+<p>}</p>
+<p>function metoxes_my_onselect(value){</p>
+<p>  alert(value);</p>
+<p>}</p>
+<p>var search_metoxes_my = new Metoxes_my('search_metoxes_my');</p>
+<p>search_metoxes_my.forma = document.search_metoxi_my_forma;</p>
+<p>--></p>
+<p>Εύρεση συμβόλου μετοχής</p>
+<p>Επιλέξτε μετοχή</p>
+<p>Ελληνικά: Α   Β   Γ   Δ   Ε   Ζ   Η   Ι   Κ   Λ   Μ   Ν   Ο   Π   Ρ   Σ   Τ   Υ   Φ   Χ     </p>
+<p>Λατινικά:A-Z </p>
+<p>Πατήστε σύμβολο:  </p>
+<p>Κατηγορίες: Όλες οι κατηγορίες</p>
+<p>ΡΟΥΧΙΣΜΟΣ & ΑΞΕΣΟΥΑΡ</p>
+<p>ΚΑΤΑΣΚΕΥΕΣ</p>
+<p>ΤΡΟΦΙΜΑ</p>
+<p>ΟΙΚΟΔ. ΥΛ. & ΕΞΑΡΤ.</p>
+<p>ΔΙΚΑΙΩΜΑΤΑ</p>
+<p>ΤΡΑΠΕΖΕΣ</p>
+<p>ΕΝΑΧ</p>
+<p>ΕΞΕΙΔ/ΝΟ ΛΙΑΝ. ΕΜΠ.</p>
+<p>ΧΑΛΥΒΑΣ</p>
+<p>ΓΕΩΡΓΙΑ & ΑΛΙΕΙΑ</p>
+<p>ΔΙΑΧ. ΑΚΙΝ. ΠΕΡΙΟΥΣ.</p>
+<p>ΕΚΔΟΣΕΙΣ</p>
+<p>ΔΙΑΡΚΗ ΚΑΤΑΝ. ΑΓΑΘΑ</p>
+<p>ΕΞΕΙΔΙΚΕΥΜΕΝΑ ΧΗΜΙΚΑ</p>
+<p>ΤΑΞΙΔΙΑ & ΑΝΑΨΥΧΗ</p>
+<p>ΥΠΗΡΕΣΙΕΣ Η/Υ</p>
+<p>ΕΤΑΙΡΕΙΕΣ ΕΠΕΝΔΥΣΕΩΝ</p>
+<p>ΜΗΧΑΝ. ΒΙΟΜ. ΕΞΟΠΛ.</p>
+<p>ΥΛΙΚΑ ΣΥΣΚΕΥΑΣΙΑΣ</p>
+<p>ΙΑΤΡΙΚΕΣ ΥΠΗΡΕΣΙΕΣ</p>
+<p>ΛΟΓΙΣΜΙΚΟ</p>
+<p>ΑΛΟΥΜΙΝΙΟ</p>
+<p>ΕΙΔΗ ΠΡΟΣΩΠ. ΦΡΟΝΤ.</p>
+<p>ΕΞΟΠΛΙΣΜΟΣ ΤΗΛ/ΝΙΩΝ</p>
+<p>ΕΠΙΠΛΑ</p>
+<p>ΞΕΝΟΔΟΧΕΙΑ</p>
+<p>ΥΠΟΣΤ. ΥΠΗΡ. ΕΠΙΧ.</p>
+<p>ΑΠΟΣΤΑΞΗ & ΟΙΝΟΠΑΡ.</p>
+<p>ΕΚΠΟΙΗΣΕΙΣ</p>
+<p>ΕΜΠ. ΟΧΗΜ. & ΦΟΡΤΗΓΑ</p>
+<p>ΕΝΑΛ. ΑΓΟΡΑ</p>
+<p>ΠΡΟΜΗΘΕΥΤΕΣ ΒΙΟΜΗΧ.</p>
+<p>ΤΗΛΕΟΡΑΣΗ & ΨΥΧΑΓ.</p>
+<p>ΥΛΙΚΟ ΥΠΟΛΟΓΙΣΤΩΝ</p>
+<p>ΥΠΗΡΕΣΙΕΣ ΜΕΤΑΦΟΡΩΝ</p>
+<p>ΥΠΟΔΗΜΑΤΑ</p>
+<p>ΑΣΦ. ΙΔΙΟΚ. & ΖΗΜΙΩΝ</p>
+<p>ΕΠΕΝΔ. ΑΚΙΝ. ΠΕΡ.</p>
+<p>ΗΛΕΚΤΡΙΣΜΟΣ</p>
+<p>ΜΗ ΣΙΔΗΡΟΥΧΑ ΜΕΤΑΛΛΑ</p>
+<p>ΟΛΟΚΛ. ΛΥΣΕΙΣ ΠΕΤΡ.</p>
+<p>ΟΡΥΧΕΙΑ</p>
+<p>ΠΑΙΧΝΙΔΙΑ</p>
+<p>ΣΤΑΘΕΡΗ ΤΗΛΕΦΩΝΙΑ</p>
+<p>ΤΥΧΕΡΑ ΠΑΙΧΝΙΔΙΑ</p>
+<p>ΥΔΡΕΥΣΗ</p>
+<p>ΦΑΡΜΑΚ/ΚΑ ΠΡΟΪΟΝΤΑ</p>
+<p>ΧΡΗΜΑΤΟΔ. ΜΙΣΘΩΣΕΙΣ</p>
+<p>ΑΕΡΟΠΟΡΙΚΕΣ ΕΤΑΙΡΙΕΣ</p>
+<p>ΑΝΑΨΥΚΤΙΚΑ</p>
+<p>ΒΑΣΙΚΑ ΧΗΜΙΚΑ</p>
+<p>Δ.Α.Κ</p>
+<p>ΔΙΑΔΙΚΤΥΟ</p>
+<p>ΔΙΑΦΗΜΙΣΗ</p>
+<p>ΔΙΑΦΟΡΟΠ. ΒΙΟΜΗΧ.</p>
+<p>ΔΙΥΛΙΣΤΗΡΙΑ</p>
+<p>ΕΜΠΟΡΙΟ ΕΝΔΥΜΑΤΩΝ</p>
+<p>ΕΠΕΝΔΥΤΙΚ. ΥΠΗΡΕΣΙΕΣ</p>
+<p>ΕΣΤΙΑΣΗ</p>
+<p>ΗΛΕΚΤ. ΜΕΡΗ & ΕΞΟΠΛ.</p>
+<p>ΗΛΕΚΤΡ. ΕΞΟΠΛ. ΓΡΑΦ.</p>
+<p>ΙΑΤΡΙΚΟΣ ΕΞΟΠΛΙΣΜΟΣ</p>
+<p>ΚΑΠΝΟΣ</p>
+<p>ΚΑΤΑΣΚΕΥΗ ΚΑΤΟΙΚΙΩΝ</p>
+<p>ΛΙΑΝ. & ΧΟΝΔΡ. ΤΡΟΦ.</p>
+<p>ΜΕΣΙΤΕΣ ΑΣΦΑΛΙΣΕΩΝ</p>
+<p>ΟΙΚΙΑΚΟΣ ΕΞΟΠΛΙΣΜΟΣ</p>
+<p>ΥΠΗΡΕΣΙΕΣ ΑΝΑΨΥΧΗΣ</p>
+<p> </p>
+<p><!--</p>
+<p>search_metoxes_my.onselect = function(value){</p>
+<p>  if(typeof(metoxes_moy.set[value])=="undefined" && metoxes_moy.count<15){</p>
+<p>    metoxes_moy.set[value] = new Object();</p>
+<p>    metoxes_moy.set[value].secsym = value;</p>
+<p>    metoxes_moy.set[value].price = 0;</p>
+<p>    metoxes_moy.set[value].diff = 0;</p>
+<p>    metoxes_moy.set[value].price_diff = 0;</p>
+<p>    metoxes_moy.last_modified = 0;</p>
+<p>    metoxes_moy.last_transaction_id = -1;    </p>
+<p>    innerHTML(metoxes_moy.inner_popup2,metoxes_moy.draw_prosthesi_metoxis());</p>
+<p>    metoxes_moy.is_shown = false;</p>
+<p>  }  </p>
+<p>} </p>
+<p>/*</p>
+<p>var tmp_load = window.onload;</p>
+<p>if(tmp_load != null){</p>
+<p>  window.onload = function(){</p>
+<p>    tmp_load();</p>
+<p>    metoxes_moy.get();</p>
+<p>  }</p>
+<p>}</p>
+<p>else {</p>
+<p>  window.onload = function(){metoxes_moy.get();}</p>
+<p>}</p>
+<p>delete tmp_load;</p>
+<p>*/</p>
+<p>metoxes_moy.get(true);</p>
+<p>--></p>
+<p> </p>
+<p>Ειδήσεις     </p>
+<p>					Αγορές     </p>
+<p>					Υπηρεσίες     </p>
+<p>					Χρηστικά     </p>
+<p>					Express Yourself     </p>
+<p>					Επικοινωνία     </p>
+<p>Site Map</p>
+<p>Προσωπικά Δεδομένα      </p>
+<p>					Ταυτότητα Site    </p>
+<p>					 Όροι Χρήσης      </p>
+<p>					Διαφημιστείτε     </p>
+<p>Η άποψή σας</p>
+<p>Web Design & Web Development</p>
+<p>												</p>
+<p>													Ελληνική Εταιρεία Διαδικτύου</p>
+<p> </p>
+<p> </p>
+<p>ΕΞΠΡΕΣ - Δ. ΚΑΛΟΦΩΛΙΑΣ ΕΚΔΟΤΙΚΗ ΕΚΤΥΠΩΤΙΚΗ Α.Ε., Πηγάσου 14, Τ.Κ: 151 25, Μαρούσι, Αττική, Τηλ. κέντρο: 213 01 61700 24  Copyright ©2011</p>
+<p>_uacct = "UA-3169245-1";</p>
+<p>urchinTracker();</p>

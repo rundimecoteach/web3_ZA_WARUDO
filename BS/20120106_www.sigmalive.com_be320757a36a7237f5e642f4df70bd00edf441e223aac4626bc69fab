@@ -1,0 +1,316 @@
+<p>Φιλιππίνες: Θανατηφόρες επιδημίες μετά τις πλημμύρες | Sigma Live</p>
+<p>          $(document).ready(function() {</p>
+<p>            $("a[rel='lightbox']").lightBox({</p>
+<p>              imageLoading: '/sites/all/themes/main/assets/images/lightbox-ico-loading.gif',</p>
+<p>              imageBtnClose: '/sites/all/themes/main/assets/images/lightbox-btn-close.gif',</p>
+<p>              imageBtnPrev: '/sites/all/themes/main/assets/images/lightbox-btn-prev.gif',</p>
+<p>              imageBtnNext : '/sites/all/themes/main/assets/images/lightbox-btn-next.gif',</p>
+<p>              imageBlank:'/sites/all/themes/main/assets/images/lightbox-blank.gif',</p>
+<p>              txtImage: 'Εικόνα',</p>
+<p>              txtOf: 'από',</p>
+<p>              containerResizeSpeed: 200</p>
+<p>            });</p>
+<p>            $(window).scroll(function(){</p>
+<p>                               if( $(window).scrollTop() > 207 ){</p>
+<p>                                 var newtop = $(window).scrollTop();</p>
+<p>                                 $("#master_bottom_left").animate({"top": newtop}, "fast");</p>
+<p>                                 $("#master_bottom_right").animate({"top": newtop}, "fast");</p>
+<p>                               }</p>
+<p>                               else{</p>
+<p>                                 $("#master_bottom_left").css("top","207px");</p>
+<p>                                 $("#master_bottom_right").css("top","207px");</p>
+<p>                               }</p>
+<p>                             });</p>
+<p>	  });</p>
+<p>        </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=249");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p> </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=251");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p> </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=250");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p> </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=252");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p> </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=107");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p> </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=108");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p> </p>
+<p>Αρχική</p>
+<p>Ειδήσεις</p>
+<p>InBusinessNews</p>
+<p>Αθλητικά</p>
+<p>Lifestyle</p>
+<p>Sigma TV</p>
+<p>Videos</p>
+<p>Σημερινή</p>
+<p>Sigmalive Kids</p>
+<p>Τελευταίες Ειδήσεις:</p>
+<p>Πιττάτζιης: "Πόσο; Κουραστήκαμε"Ο Ντενκτάς είχε χριστιανικές ρίζεςΓ. Βασιλείου: Εχθρική κίνηση S&P εναντίον της Ευρωπαϊκής Ένωσης(vid)Απογοητευμένοι στο "Τάσος Μάρκου"Έκκληση Χριστόφια στον Δ.Κ.Τράπεζας να μειωθούν τα δανειστικά επιτόκια Κηδεύτηκαν άλλα δύο παλικάρια της Τουρκικής ΕισβολήςΕπέστρεψε με τέρμα ο ΣκόουλςΣκοτία: Δυσκολεύτηκαν οι πρωτοπόρες </p>
+<p>Φιλιππίνες: Θανατηφόρες επιδημίες μετά τις πλημμύρες</p>
+<p>03 Ιανουαρίου 2012, 19:51 EET</p>
+<p>SigmaLive/Zougla</p>
+<p>Λεπτοσπείρωση και άλλες θανατηφόρες επιδημίες ξέσπασαν στις περιοχές που επλήγησαν από τις καταστροφικές πλημμύρες στις Φιλιππίνες, όπως επιβεβαίωσε το υπουργείο Υγείας της χώρας.</p>
+<p>Τουλάχιστον 11 άνθρωποι έχασαν μέχρι στιγμής τη ζωή τους από λεπτοσπείρωση στο Καγκαγιάν ντε Όρο, ενώ τα επιβεβαιωμένα κρούσματα ανέρχονται σε 200.</p>
+<p>Στην πλειοψηφία τους οι ασθενείς είναι άνδρες, οι οποίοι κυκλοφορούσαν στους πλημμυρισμένους δρόμους και αρνούνταν να πάρουν φάρμακα.Από τον περασμένο μήνα που ξέσπασαν οι πλημμύρες, οι υγειονομικές Αρχές παρακολουθούν στενά το ξέσπασμα επιδημιών και χορηγούν φάρμακα, κυρίως στα καταφύγια που φιλοξενούνται οι πλημμυροπαθείς.</p>
+<p>Η λεπτοσπείρωση είναι μια σοβαρή βακτηριδιακή μόλυνση που προκαλείται από το νερό που έχει μολυνθεί με ούρα ζώων και ενδέχεται να οδηγήσει στον θάνατο.Πάνω από 1.000 άνθρωποι πέθαναν και εκατοντάδες χιλιάδες έμειναν άστεγοι από τις καταστροφικές πλημμύρες στις Φιλιππίνες.</p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=193");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=100");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p> </p>
+<p> </p>
+<p>SigmaLive Περισσότερα</p>
+<p>Συναγερμός στο κτίριο της Ευρωπαϊκής ΕπιτροπήςΟ Βέλγος Πέτερ Πρετ νέος επικεφαλής οικονομολόγος της ΕΚΤΚακοκαιρία πλήττει την Αγγλία, Σκωτία, Ουαλία και Β. ΙρλανδίαΙσχνή η ανάπτυξη στην ΕΕ το 2012 δηλώνει ο εκπρόσωπος της ΚομισιόνΞεπερνά τις 700.000 το προσωπικό του Γενικού Επιτελείου Τουρκίας </p>
+<p><!--</p>
+<p>      google_ad_client = "pub-3017500995492348";</p>
+<p>      /* 180x150, created 19/03/10, Article sidebar */</p>
+<p>      google_ad_slot = "5654164222";</p>
+<p>      google_ad_width = 180;</p>
+<p>      google_ad_height = 150;</p>
+<p>      //--></p>
+<p>    </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=112");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=109");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=110");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=232");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p>Τοπικά</p>
+<p>Πολιτική</p>
+<p>Διεθνή</p>
+<p>Ελλάδα</p>
+<p>Επιστήμη-Τεχνολογία</p>
+<p>Πολιτισμός</p>
+<p>Παράξενα</p>
+<p>                            <!--</p>
+<p>			    google_ad_client = "pub-3017500995492348";</p>
+<p>                            /* 120x600, created 18/03/10 */</p>
+<p>                            google_ad_slot = "4143152729";</p>
+<p>                            google_ad_width = 120;</p>
+<p>                            google_ad_height = 600;</p>
+<p>                          //--></p>
+<p>                        </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=111");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p>                <!--//<![CDATA[ </p>
+<p>                var m3_u = (location.protocol=='https:'?'https://www1.sigmalive.com/adserver/www/delivery/ajs.php':'http://www1.sigmalive.com/adserver/www/delivery/ajs.php');</p>
+<p>                var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>                if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>                document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>                document.write ("?zoneid=113");</p>
+<p>                document.write ('&amp;cb=' + m3_r);</p>
+<p>                if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>                document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>                document.write ("&amp;loc=" + escape(window.location));</p>
+<p>                if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>                if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>                if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>                document.write ("'><\/scr"+"ipt>");</p>
+<p>                //]]>--></p>
+<p>              </p>
+<p>© 2007-2008 Sigmalive Ltd</p>
+<p>Προσωπικά Δεδομένα | Όροι Χρήσης | Ταυτότητα  | Εκδοτικός Οίκος Δίας | Επικοινωνία | Site Credit | Θέσεις Εργασίας | Διαφημιστείτε</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>  try{</p>
+<p>  var pageTracker = _gat._getTracker("UA-2971319-1");</p>
+<p>  pageTracker._setSessionCookieTimeout(600000);</p>
+<p>  pageTracker._initData();</p>
+<p>  pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>			      var pvar = { cid: "cy-dias", content: "0", server: "secure-uk" };</p>
+<p>var feat = { surveys_enabled: 1, sample_rate: 0.05 };</p>
+<p>var trac = nol_t(pvar, feat);</p>
+<p>var _rsND = trac.getSchemeHost(); // For compatibility with v53 surveys</p>
+<p>var _rsCI = "cy-dias"; // For compatibility with v53 surveys</p>
+<p>trac.record().post().do_sample();</p>

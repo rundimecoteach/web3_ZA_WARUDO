@@ -1,0 +1,1094 @@
+<p>����������˾����� ����������Ѻ�/title></p>
+<p>#chLogo .left{width:660px}</p>
+<p>#chLogo .right{width:315px}</p>
+<p>#contentA,#contentC{background:url(http://news.sohu.com/upload/pagerevision20090916/bgy.gif) repeat-y}</p>
+<p>#contentA .argue .btn span,.function .commentLink,.function .copylink,.function .fontSize,.function .editor,.lbgA,.lbgB,.rbgA,.rbgB,.lnowA,.rnowA{background:url(http://news.sohu.com/upload/pagerevision20090916/icon.gif) no-repeat}</p>
+<p>#contentC{background-position:-980px 0}</p>
+<p>.line{background:url(http://news.sohu.com/upload/pagerevision20090916/xx1.gif);height:1px;width:92%;margin:0 auto;overflow:hidden;clear:both;font-size:1px}</p>
+<p>.lineA{background:#4273B3;height:3px;clear:both;font-size:1px;}</p>
+<p>.bordA{border-top:2px #AFC5DB solid}</p>
+<p>.bgA{background:#F4F4F4}</p>
+<p>.bgB{background:#ECF1F6}</p>
+<p>/* ������ */</p>
+<p>#contentA .boxA{height:257px;overflow:hidden}</p>
+<p>#contentA .boxA .f14b{font-size:14px;font-weight:bold}</p>
+<p>/* ������� */</p>
+<p>#contentA .boxB{height:301px;overflow:hidden}</p>
+<p>#contentA .boxB .snList li em{background:#8AA8C6;border:1px #8AA8C6 solid;color:#FFF}</p>
+<p>/* ����� */</p>
+<p>#contentA .boxC{height:392px;overflow:hidden}</p>
+<p>#contentA .boxC .list12 ul{clear:both;margin:12px auto 10px}</p>
+<p>#contentA .boxC .look{margin:10px auto 0}</p>
+<p>#contentA .boxC .look h3{height:21px;padding:0 12px;margin:0 auto 4px;}</p>
+<p>#contentA .boxC .look h3 span{float:left;width:60px;height:16px;padding-top:5px;background:#8AA8C6;font-weight: bold;color:#FFF;line-height:14px}</p>
+<p>#contentA .boxC .look p{padding-left:16px;text-align:left;line-height:24px}</p>
+<p>.title{height:28px;padding:0 16px;border-bottom:2px #AFC5DB solid;background:#FFF;color:#333;line-height:28px;text-align:right}</p>
+<p>.title span{float:left;font-weight: bold;font-size:14px}</p>
+<p>/* Ƶ����� */</p>
+<p>#contentA .blockA{width:675px;margin:18px 0 0 auto;border:1px #E8E8E8 solid;border-left:0;border-right:0}</p>
+<p>#contentA .blockA .l{width:284px;margin-left:30px}</p>
+<p>#contentA .blockA .r{width:284px;margin-right:28px;padding-left:26px;border-left:1px #E8E8E8 solid;}</p>
+<p>#contentA .blockA h2{height:24px;margin:14px auto 0;line-height:24px}</p>
+<p>#contentA .blockA h2 span{font-size:14px}</p>
+<p>#contentA .blockA .pt{margin:8px auto 0;color:#333;line-height:18px}</p>
+<p>#contentA .blockA .pt div{margin-right:12px}</p>
+<p>#contentA .blockA .pt h4{margin-bottom:6px;font-weight: bold;color:#004276;line-height:18px;font-size:14px}</p>
+<p>#contentA .blockA .list12 ul{margin:20px auto 0}</p>
+<p>#contentA .blockA .list12 .more{margin:0 auto 11px;padding-right:6px;line-height:24px}</p>
+<p>#contentA .blockA .list14 ul{margin:20px auto 0}</p>
+<p>#contentA .blockA .list14 li{background:url(http://images.sohu.com/uiue/dot.gif) no-repeat;background-position:0 0;padding:5px 0 5px 14px}</p>
+<p>#contentA .blockA .list14 .more{margin:0 auto 11px;padding-right:6px;line-height:24px}</p>
+<p>#contentA .blockAA{border-top:0;margin:0 0 0 auto;}</p>
+<p>.blogHot{height:290px}</p>
+<p>#contentA .left .blockA{display:none}</p>
+<p>#contentA .left .blockAA{display:block}</p>
+<p>/* ��� 2010-09-08 */</p>
+<p>#contentA .coverAge .pp{width:632px}</p>
+<p>#contentA .coverAge .pp li{width:146px;height:114px;padding-top:2px;margin:0 5px 10px;border:1px #E8E8E8 solid;}</p>
+<p>#contentA .coverAge .pp h5{height:20px;}</p>
+<p>//Ԫ���ƣ�m_n; tab_m_n</p>
+<p>//count:�����ĸ�</p>
+<p>function showDiv(m,n,count){</p>
+<p>	for(var i=1;i<=count;i++){</p>
+<p>	if (i==n){			</p>
+<p>		getObject("li_"+m+"_"+i).className="libg";</p>
+<p>		getObject("div_"+m+"_"+i).className="show";</p>
+<p>	}else {</p>
+<p>		getObject("li_"+m+"_"+i).className="";</p>
+<p>		getObject("div_"+m+"_"+i).className="hidden";</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>function getObject(objectId) {</p>
+<p>	if(document.getElementById && document.getElementById(objectId)) {</p>
+<p>	// W3C DOM</p>
+<p>	return document.getElementById(objectId);</p>
+<p>	} else if (document.all && document.all(objectId)) {</p>
+<p>	// MSIE 4 DOM</p>
+<p>	return document.all(objectId);</p>
+<p>	} else if (document.layers && document.layers[objectId]) {</p>
+<p>	// NN 4 DOM.. note: this won't find nested layers</p>
+<p>	return document.layers[objectId];</p>
+<p>	} else {</p>
+<p>	return false;</p>
+<p>	}	</p>
+<p>}</p>
+<p>function showFontSize(){</p>
+<p>	var fontSizeLayer = jQuery("#font_size_lay");</p>
+<p>	if(fontSizeLayer.display == "none"){</p>
+<p>		fontSizeLayer.addClass("hidden");</p>
+<p>	}else{</p>
+<p>		fontSizeLayer.removeClass("hidden");</p>
+<p>	}</p>
+<p>	</p>
+<p>	fontSizeLayer.hover(function(){			</p>
+<p>		fontSizeLayer.removeClass("hidden");</p>
+<p>	},function(){		</p>
+<p>		fontSizeLayer.addClass("hidden");</p>
+<p>	})	</p>
+<p>}</p>
+<p>function showtab(m,n,count){</p>
+<p>    for(var i=1;i<=count;i++){</p>
+<p>       if (i==n){        </p>
+<p>           jQuery("#td_"+m+"_"+i).addClass("libg");         </p>
+<p>           jQuery("#tab_"+m+"_"+i).removeClass("hidden").addClass("show");</p>
+<p>           }</p>
+<p>       else {</p>
+<p>           jQuery("#td_"+m+"_"+i).removeClass("libg");</p>
+<p>           jQuery("#tab_"+m+"_"+i).removeClass("show").addClass("hidden");</p>
+<p>           }</p>
+<p>    }</p>
+<p>}</p>
+<p>//ת�����</p>
+<p>function doZoom(size){	</p>
+<p>	jQuery("#contentText").css("fontSize",size);</p>
+<p>}</p>
+<p>function copyLink(){</p>
+<p>	try {</p>
+<p>		var cText =  document.location.toString();</p>
+<p>		if (window.clipboardData) {</p>
+<p>			window.clipboardData.setData("Text", cText);</p>
+<p>			alert("������");</p>
+<p>		} else if (window.netscape) {</p>
+<p>			try {</p>
+<p>				netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");</p>
+<p>			} catch (e) {</p>
+<p>				alert("��������Ϊ���������\n����˲����������'about:config'���س�\nȻ��signed.applets.codebase_principal_support'��Ϊ'true',���������;</p>
+<p>				return false;</p>
+<p>			}</p>
+<p>			var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);</p>
+<p>			if (!clip) </p>
+<p>				return;</p>
+<p>			var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);</p>
+<p>			if (!trans) {</p>
+<p>				return;</p>
+<p>			}</p>
+<p>			trans.addDataFlavor('text/unicode');</p>
+<p>			var str = new Object();</p>
+<p>			var len = new Object();</p>
+<p>			var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);</p>
+<p>			</p>
+<p>			str.data = cText;</p>
+<p>			trans.setTransferData("text/unicode", str, cText.length * 2);</p>
+<p>			var clipid = Components.interfaces.nsIClipboard;</p>
+<p>			if (!clip) </p>
+<p>				return false;</p>
+<p>			clip.setData(trans, null, clipid.kGlobalClipboard);</p>
+<p>			alert("������");</p>
+<p>		}</p>
+<p>	} catch (e) {</p>
+<p>	}</p>
+<p>};</p>
+<p>//ý��Դ</p>
+<p>function media_span_url(id_media_span_url) {</p>
+<p>    if(id_media_span_url) {</p>
+<p>        id_media_span = $('media_span');</p>
+<p>        if(!id_media_span.getElementsByTagName('a').length) {</p>
+<p>            id_media_span.innerHTML = '<a href=\'' + id_media_span_url + '\' target=\'_blank\'>' + id_media_span.firstChild.nodeValue + '</a>';</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
+<p>function switchAnonymous(){</p>
+<p>	var author = $("author")</p>
+<p>	var anonymous = $("anonymous")</p>
+<p>	if (anonymous.checked) {</p>
+<p>		author.value = "���;</p>
+<p>		anonymous.value = "true";</p>
+<p>	} else {</p>
+<p>		author.value = "";</p>
+<p>		anonymous.value = "false";</p>
+<p>		author.focus();</p>
+<p>	}</p>
+<p>}</p>
+<p>function changeAuthor(){</p>
+<p>	var author = $("author");</p>
+<p>	var anonymous = $("anonymous");</p>
+<p>	if (author.value != "���) {</p>
+<p>		anonymous.checked = false;</p>
+<p>		anonymous.value = "false";</p>
+<p>	} else {</p>
+<p>		anonymous.checked = true;</p>
+<p>		anonymous.value = "true";</p>
+<p>	}</p>
+<p>	</p>
+<p>}</p>
+<p>function switchDebate(){</p>
+<p>	var title = $("comment.title")</p>
+<p>	var debate = $("comment.debate")</p>
+<p>	</p>
+<p>	if (debate.checked) {</p>
+<p>		title.value = "";</p>
+<p>		debate.value = "true";</p>
+<p>		title.disabled = false;</p>
+<p>		</p>
+<p>	} else {</p>
+<p>		debate.value = "false";</p>
+<p>		title.value = "��������������������";</p>
+<p>		title.disabled = true;</p>
+<p>	}</p>
+<p>}</p>
+<p>function comment(){</p>
+<p>	if ($('argueForm').style.display == '') {</p>
+<p>		$('argueForm').style.display = 'none';</p>
+<p>		$('replyForm').style.display = '';</p>
+<p>	} else {</p>
+<p>		$('argueForm').style.display = '';</p>
+<p>		$('replyForm').style.display = 'none';</p>
+<p>	}</p>
+<p>	switchDebate();</p>
+<p>}</p>
+<p>var clickCount = 0;</p>
+<p>var contentText = "��Ҫע����ܲ�뻰���������������������ע���������Ѻ�0��;</p>
+<p>function clearCommentContent(oObject){</p>
+<p>	clickCount++;</p>
+<p>	if (clickCount == 1) {</p>
+<p>		oObject.value = "";</p>
+<p>	}</p>
+<p>}</p>
+<p>function checkCommentContent(oObject){</p>
+<p>	if (clickCount == 0) alert("���д��ĸ����");</p>
+<p>	else if (checkInput() != false) oObject.form.submit();</p>
+<p>}</p>
+<p>function creset(){</p>
+<p>	if($("argueForm").style.display == "none"){</p>
+<p>		$("ccontent").value = contentText;</p>
+<p>	}else{</p>
+<p>		$("comment.title").value = "";</p>
+<p>		$("spcontent").value = "";</p>
+<p>		$("opcontent").value = contentText;</p>
+<p>	}</p>
+<p>}</p>
+<p>function printArticle()</p>
+<p>{</p>
+<p>	jQuery.getScript("http://news.sohu.com/upload/20100413/print_roll.min.js",function(){printer.print()},true)</p>
+<p>}</p>
+<p>function showLayer(sele, lay){</p>
+<p>	var layer = jQuery("#"+lay);</p>
+<p>	var sele = jQuery("#"+sele);</p>
+<p>	var layerShow = false;</p>
+<p>	if(layer.display == "none"){</p>
+<p>		layer.addClass("hidden");</p>
+<p>		sele.removeClass("seleOvr");</p>
+<p>	}else{</p>
+<p>		layer.removeClass("hidden");</p>
+<p>		sele.addClass("seleOvr");</p>
+<p>	}</p>
+<p>	sele.mouseout(function(event){</p>
+<p>		window.setTimeout(function(){			</p>
+<p>			if(!layerShow){</p>
+<p>				layer.addClass("hidden");</p>
+<p>				sele.removeClass("seleOvr");</p>
+<p>			}	</p>
+<p>		},1000)		</p>
+<p>	})</p>
+<p>	layer.hover(function(){	</p>
+<p>		layerShow = true;		</p>
+<p>		layer.removeClass("hidden");</p>
+<p>	},function(){	</p>
+<p>		layerShow = false;	</p>
+<p>		layer.addClass("hidden");</p>
+<p>		sele.removeClass("seleOvr");</p>
+<p>	})	</p>
+<p>}</p>
+<p>function submitForm(){</p>
+<p>	var topicId="332467071";</p>
+<p>	var topicTitle = '����������˾����� ����������</p>
+<p>	var topicSummary = '���������������ͼGJ<br><br><br><br><br><br><br><br><br>��������֡����������Ƶ�ǡ��ţ��������Э�͡��ţ��Ӫ����������������˾�ϯִ��ٸ�˹��������������Ϊʧ�������';</p>
+<p>	var topicUrl = 'http://news.sohu.com/20120117/n332467071.shtml';</p>
+<p>	var pp = 'ixinminwang@sohu.com';//"passport";</p>
+<p>	var str = Base64 ? Base64.encode(/focus\.cn$/ig.test(pp) ? (pp + "@focus.cn") : pp) : pp;</p>
+<p>  win = window.open( '', 'qing_share', 'width=700,height=600,scrollbars=no');</p>
+<p>	$("#frm_title").val("topicTitle");</p>
+<p>	$("#frm_content").val(topicSummary);</p>
+<p>	$("#frm_url").val(topicUrl);</p>
+<p>	$("#frm_xpt").val(str);</p>
+<p>	$("#frm_newsId").val(topicId);</p>
+<p>	$("#frm").submit();</p>
+<p>}</p>
+<p>function jumpUrl(x){</p>
+<p>	var url = '', e = encodeURIComponent, s = screen, d = document, wd = 0, hg = 0, u = d.location;</p>
+<p>	if(x=='t'){</p>
+<p>		url ="http://t.sohu.com/third/post.jsp?link="+e(u.href)+"&title="+e(d.title);</p>
+<p>		wd = 660;hg = 470;</p>
+<p>	}else if(x=='bai'){</p>
+<p>		url ="http://bai.sohu.com/share/blank/addbutton.do?link="+e(u.href)+"&title="+e(d.title);</p>
+<p>		wd = 480;hg = 340;</p>
+<p>	}else if(x=='douban'){</p>
+<p>		url ="http://www.douban.com/recommend/?url="+e(u.href)+"&title="+e(d.title);</p>
+<p>		wd = 460;hg = 340;</p>
+<p>	}else if(x=='renren'){</p>
+<p>		url ="http://share.renren.com/share/buttonshare?link="+e(u.href)+"&title="+e(d.title);</p>
+<p>		wd = 590;hg = 430;</p>
+<p>	}else if(x=='kaixin'){</p>
+<p>		url ="http://www.kaixin001.com/repaste/share.php?rurl="+e(u.href)+"&rtitle="+e(d.title);</p>
+<p>		wd = 540;hg = 360;</p>
+<p>	}else if(x=='itb'){</p>
+<p>		var ctxt = $('contentText').getElementsByTagName('p').length>0?$('contentText').getElementsByTagName('p')[0].innerHTML.replace(/<[^>].*?>/g,'').substr(0,120):'';</p>
+<p>		url ="http://tieba.baidu.com/i/sys/share?link="+e(u.href)+"&type=text&title="+e(d.title)+"&content="+e(ctxt);</p>
+<p>		wd = 626;hg = 436;</p>
+<p>	}else if(x=='go139'){</p>
+<p>		url ="http://go.139.com/ishare.do?shareUrl="+e(u.href)+"&title="+e(d.title)+"&sid=20dd04a99380c2e8d56cf187f6658169";</p>
+<p>		wd = 630;hg = 500;</p>
+<p>	}else if(x=='qq'){</p>
+<p>		url ="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="+e(u.href);</p>
+<p>		wd = 900;hg = 500;</p>
+<p>	}</p>
+<p>	</p>
+<p>	function a(){</p>
+<p>		if (!window.open(url, 'sohushare', ['toolbar=0,status=0,resizable=1,width='+ wd +',height='+ hg +',left='+ (s.width - wd) / 2+ ',top='+ (s.height - hg) / 2]))</p>
+<p>			u.href = [url].join('');</p>
+<p>	}</p>
+<p>	if (/Firefox/.test(navigator.userAgent)){</p>
+<p>		setTimeout(a, 0);</p>
+<p>	}else{</p>
+<p>		a();</p>
+<p>	}</p>
+<p>	</p>
+<p>	var stat = (new Image);                                                     </p>
+<p>	stat.src = "http://219.234.82.222/zhuanfa/index.php?newsId=" + /http:\/\/(.*)(\.sohu.com\/.*\/n)(.{9})/g.exec(document.location)[3] + "&newsName=" + e(d.title) + "&newsUrl=" + d.location.href + "&postId=" + x;</p>
+<p>}</p>
+<p>       var sogou_is_brand = new Object();</p>
+<p>       sogou_is_brand["pid"]  = 'sohu__brand';</p>
+<p>       sogou_is_brand["charset"]   = 'gb2312';</p>
+<p>       sogou_is_brand["sohuurl"] = document.location.href;</p>
+<p>jQuery.noConflict();</p>
+<p>if(window.location.href.getQueryString("ip")==null)</p>
+<p>AdLoc=sohu_IP_Loc.substr(0,4);</p>
+<p>else</p>
+<p>AdLoc=window.location.href.getQueryString("ip");</p>
+<p>     switch (AdLoc) {</p>
+<p>         case "CN44"://�㶫</p>
+<p>             if(sohu_IP_Loc.substr(0,6)=='CN4403'||sohu_IP_Loc.substr(0,6)=='CN4419'||sohu_IP_Loc.substr(0,6)=='CN4413'){</p>
+<p>              //�� ���������ݸ�����</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             }else{</p>
+<p>             //�� ��������ݸ��������Ĺ㶫���cument.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>         }</p>
+<p>             break;</p>
+<p>         case "CN31"://���</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN12"://���ocument.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN32"://����������</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN33"://����������</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN37"://ɽ������ϣ�</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN50"://��</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN51"://������ɶ���</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN61"://���������</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         default://���������ȣ�</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7123777').innerHTML ='<a href="http://egou.focus.cn/" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/egf142_80.gif" border=0 width=142 height=80></img></a>';</p>
+<p>     }</p>
+<p> </p>
+<p>try{</p>
+<p>var TurnAD23=new Cookie(document,"TurnAD23",24);</p>
+<p>TurnAD23.load();</p>
+<p>TurnAD23.visit=(TurnAD23.visit==null)?parseInt(Math.random()*2+1):TurnAD23.visit;</p>
+<p>if(TurnAD23.visit!=0)var intTurnAD23=TurnAD23.visit;</p>
+<p>TurnAD23.visit++;</p>
+<p>TurnAD23.visit=(TurnAD23.visit>2)?1:TurnAD23.visit;</p>
+<p>TurnAD23.store();</p>
+<p>function showTurnAD23(basenum){</p>
+<p>if (basenum==1){</p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2012/tiantianqi/haier/jan/yundianshi/590950111.swf","_3871b907a739a49886a8f22792311d79","590","95","7");</p>
+<p>sohuFlash2.addParam("quality", "high");</p>
+<p>sohuFlash2.addParam("wmode", "opaque");</p>
+<p>sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201112&TargetID=sohu&Values=3871b907,a739a498,86a8f227,92311d79&AdID=3230040"));</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();</p>
+<p>_a.src='http://alpha.brand.sogou.com/brand_pv?md5=3871b907a739a49886a8f22792311d79';document.pv.push(_a);</p>
+<p>_b.src='http://imp.ad-plus.cn/201112/3871b907a739a49886a8f22792311d79.php?a=99';document.pv.push(_b);sohuFlash2.write("TurnAD23");}</p>
+<p>else{</p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2011/jiaren/guanfeng/590x95_20K.swf","_d3b91be17dd4ec1e127e3d3c5bab874f","590","95","7");</p>
+<p>sohuFlash2.addParam("quality", "high");</p>
+<p>sohuFlash2.addParam("wmode", "opaque");</p>
+<p>sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201201&TargetID=sohu&Values=d3b91be1,7dd4ec1e,127e3d3c,5bab874f&AdID=11261408"));</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();</p>
+<p>_a.src='http://alpha.brand.sogou.com/brand_pv?md5=d3b91be17dd4ec1e127e3d3c5bab874f';document.pv.push(_a);</p>
+<p>_b.src='http://imp.ad-plus.cn/201201/d3b91be17dd4ec1e127e3d3c5bab874f.php?a=99';document.pv.push(_b);</p>
+<p>sohuFlash2.write("TurnAD23");}</p>
+<p>}</p>
+<p>showTurnAD23(intTurnAD23);</p>
+<p>}catch(e){}</p>
+<p>if(window.location.href.getQueryString("ip")==null)</p>
+<p>AdLoc=sohu_IP_Loc.substr(0,4);</p>
+<p>else</p>
+<p>AdLoc=window.location.href.getQueryString("ip");</p>
+<p>     switch (AdLoc) {</p>
+<p>         case "CN44"://�㶫</p>
+<p>             if(sohu_IP_Loc.substr(0,6)=='CN4403'||sohu_IP_Loc.substr(0,6)=='CN4419'||sohu_IP_Loc.substr(0,6)=='CN4413'){</p>
+<p>              //�� ���������ݸ�����</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             }else{</p>
+<p>             //�� ��������ݸ��������Ĺ㶫���cument.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>         }</p>
+<p>             break;</p>
+<p>         case "CN31"://���</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN12"://���ocument.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN32"://����������</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN33"://����������</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN37"://ɽ������ϣ�</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN50"://��</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN51"://������ɶ���</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         case "CN61"://���������</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>             break;</p>
+<p>         default://���������ȣ�</p>
+<p>document.getElementById('69d3d0cd8a756eb3ace1e918e7b4168e').innerHTML ='<a href="http://house.focus.cn/ztdir/house_mgkft2/bj.php" target=_blank><img src="http://images.sohu.com/bill/s2009/focus/1meiguo.jpg" border=0 width=142 height=80></img></a>';</p>
+<p>     }</p>
+<p> </p>
+<p>��a>|��a>|���a>|��>|���|��|��|����/a></p>
+<p>		</p>
+<p>��㣺��������ֳ�/a>  ������  ũ����н�ݺ��></p>
+<p>	</p>
+<p>���� > ��� > ��� > ʱ��챨</p>
+<p>����������˾����� ����������h1></p>
+<p>		</p>
+<p>		</p>
+<p>��</p>
+<p>��˵���pan class="f12">(����/span></p>
+<p>2012�01�17�17:04</p>
+<p>�Դ������������</p>
+<p>������/a></p>
+<p>��/a></p>
+<p>��></p>
+<p>							�</p>
+<p>С</p>
+<p>���������������ͼGJ</p>
+<p>��������֡����������Ƶ�ǡ��ţ��������Э�͡��ţ��Ӫ����������������˾�ϯִ��ٸ�˹��������������Ϊʧ������������</p>
+<p>������������</p>
+<p>������˹���һ����������˵�������������Ƶ�ǡ��Ŵ�������˹�ơ�˹�����δ����ɣ���ʹ��ƫ��ȶ�����������������</p>
+<p>����������ȷ����ƫ��ȶ�·����һԭ���������˾��֪�������������</p>
+<p>����˹�����2002����ڿ�����˾�������ȫ��ܣ�2006����������14��������������ܵ��</p>
+<p>���������������Ƶ�ǡ���3�����������������ս�����б�����������ع����ͳ����6�����15�ʧ�����0�����</p>
+<p>����Ϊ�ͬ�����ˡ�</p>
+<p>��������������16���ϣ������������Ƶ�ǡ���뺣�������Ӵ�������Ϊ˹�������������µ�����������������������˸�ˡ���</p>
+<p>���������Ԯ�Ŀ��Ļ������˹������������ǰһ�Ȱѵ������ϼ��̨���������������⣺����������������������ļ���µ��ǳ���/p></p>
+<p>����Ŀ���������ִ���ǰ�����������˹���������������������̫���</p>
+<p>������ơ���ȫ����</p>
+<p>�����ݿˡ������16���վ����˹���������βɷ��ݡ�˹�����2010�12���ͬ���������������ߣ���������‘̩̹��˺�rsquo;�����Ľ�������ò�����������������˵������������������ģ�׼���������Ӧ��κ���Ϳ�ܳ���⡣�˿Ͱ�ȫ������</p>
+<p>�����ࡡ�������������壩// <![CDATA[</p>
+<p>media_span_url('http://xmwb.xinmin.cn/xmwb/html/2012-01/17/content_17_3.htm')</p>
+<p>//]]></p>
+<p>(���༭��UN608)</p>
+<p>����</p>
+<p>		var tcO = document.getElementById("shareIn").getElementsByTagName("a");</p>
+<p>		function shareIn(o){</p>
+<p>			for(var i=0; i<o.length; i++){</p>
+<p>				o[i].onmouseover = function (){</p>
+<p>					this.parentNode.getElementsByTagName("em")[0].style.display = "block";</p>
+<p>				}</p>
+<p>				o[i].onmouseout = function (){</p>
+<p>					this.parentNode.getElementsByTagName("em")[0].style.display = "none";</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>		shareIn(tcO);</p>
+<p>		</p>
+<p>/* ���ȵ�010-09-09 */</p>
+<p>#contentA .tagHotg{clear:both;margin:10px auto 0;text-align:left}</p>
+<p>#contentA .tagHotg h3{height:24px;font:600 14px/24px "��";color:#333}</p>
+<p>#contentA .tagHotg .tagIntg{display: block;overflow:hidden;zoom:1;clear:both;width:100%;margin:3px auto 0}</p>
+<p>#contentA .tagHotg .tagIntg li{float:left;width:205px;font:14px/24px "��"}</p>
+<p>#contentA .tagHotg .tagIntg li a{ text-decoration:none !important;}</p>
+<p>#contentA .tagHotg .tagIntg li a:hover{text-decoration:underline !important;}</p>
+<p>#contentA .text .line{width:100%}</p>
+<p>������Ƽ�3></p>
+<p>  </p>
+<p>�������</p>
+<p>����ִ����3�14�</p>
+<p>����ּ�/a></p>
+<p>��۰�������</p>
+<p>����ִ���</p>
+<p>�������Ƶ�Ǻ��ִ���</p>
+<p>������</p>
+<p>����ֳ��</p>
+<p>������</p>
+<p>		  	var conmmShowlist = {showList:false};</p>
+<p>		  </p>
+<p>          	var commConfig = typeof conmmShowlist == "undefined" ? {} : conmmShowlist;</p>
+<p>			SohuComment.Init(jQuery.extend({topicId: 332467071},commConfig));</p>
+<p>         </p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2011/liulin/benchi/9501001231zi.swf","_110dde36d61240bc18d736205f47bf3exy","0","0","7");</p>
+<p>sohuFlash2.write("ce642306abcf97252cac4c3caeab6c66xy");</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();</p>
+<p>_a.src='http://xls.go.sohu.com/201112/47c86f428248fb4ec1831c6a70a4b5e2.php?a=1';</p>
+<p>document.pv.push(_a);</p>
+<p>΢�����2></p>
+<p>tips = new Array(2);</p>
+<p>tips[0] = "http://3rd.t.sohu.com/news/zt_user.jsp?id=324";</p>
+<p>tips[1] = "http://3rd.t.sohu.com/news/zt_user.jsp?id=421";</p>
+<p>index = Math.floor(Math.random() * tips.length);</p>
+<p>document.write("<iframe height='240' width='610'  frameborder='0' allowtransparency='1' scrolling='no' src=" + tips[index] + "></iframe>");</p>
+<p> ̸̸��Ŀ��Ľ����������</p>
+<p>���ĳ����������</p>
+<p>����ѹ���ʼ</p>
+<p>�ҳ  ��</p>
+<p>function CheckKeyWord(){</p>
+<p>	var sf = document.searchform;</p>
+<p>	with(sf){</p>
+<p>  if (query.value == "����ؼ�{</p>
+<p>		query.value = "";</p>
+<p>		setTimeout("query.value='����ؼ� 1000);</p>
+<p>	}</p>
+<p> }</p>
+<p>	return true;</p>
+<p>}</p>
+<p>// �ı����Ĳ����</p>
+<p>function CheckFormAction(v){</p>
+<p>	var sf = document.searchform;</p>
+<p>	with(sf){</p>
+<p>  if (v=='web') {</p>
+<p>		action = "http://www.sogou.com/web";</p>
+<p>    p.value = "02240100";				</p>
+<p>	} else {</p>
+<p>		p.value = "02240101";</p>
+<p>		action = "http://news.sogou.com/news";</p>
+<p>	}</p>
+<p> }</p>
+<p>	return true;</p>
+<p>}</p>
+<p>//�ı�����</p>
+<p>function CheckColor(){</p>
+<p>	var query = document.searchform.query;</p>
+<p>	if (query.value == "����ؼ�| query.value == "�����������ؼ�{</p>
+<p>		query.style.color = "#ccc";</p>
+<p>	}</p>
+<p>}</p>
+<p>�����/span></p>
+<p> 12-01-17���������ٸ�� �������Ͳ���/a></p>
+<p>12-01-17���������ǧ�ŭ� �Ϊ�����ɺ޵��</p>
+<p>12-01-17����������ҵ�����ʵ�������a></p>
+<p>12-01-17������Ϊȡ��������ĺ�� ��������(ͼ)</p>
+<p>12-01-17�����������������Ⱦ�����5�</p>
+<p>12-01-16������ִ�����6��� ������ָ����></p>
+<p>12-01-16������ִ��������� ������ɱ�ָ��/a></p>
+<p>12-01-16���������������� �Ӫ����������(ͼ</p>
+<p>12-01-16�������������������� �����������ʼ(ͼ)</p>
+<p>12-01-16��������෭ ����������ıɱ����ָ��ͼ</p>
+<p>����� ���� ����gt;> </p>
+<p>���Ƽ�pan></p>
+<p>���Ƶ�ǺŶ��������></p>
+<p>����ƽ𺣰��Ϸ</p>
+<p>���Ƶ����/a></p>
+<p>���Ƶ�Ǻ�/a></p>
+<p>�����/a></p>
+<p>�ƽ𺣰���</p>
+<p>������</p>
+<p>���Ƶ�Ǵ�</p>
+<p>�����</p>
+<p>����</p>
+<p>try{    </p>
+<p>        var i=new Image();</p>
+<p>        i.src='http://pingback.sogou.com/rltpv.png?surl='+escape(window.location)+'&'+Math.random();</p>
+<p>}catch(err){</p>
+<p>}       </p>
+<p>�������</p>
+<p>var newsvideocount = 5;</p>
+<p>Ϥ���ֳ�������ƹ�</p>
+<p>ӡ��ϲ�һ��������13���</p>
+<p>���ͧ�ΪŮ����ˮȡ���</p>
+<p>����콭ˮλ��� ���ֺӵ�δ�ͣ��</p>
+<p>        var vnlist = function(r1, r2){</p>
+<p>			try {</p>
+<p>                                     if(newsvideocount ==undefined){</p>
+<p>		                       var newsvideocount=10;</p>
+<p>	                            }</p>
+<p>				var s = 0, jsonData, jsonLength = 0, jsonList = "";</p>
+<p>				jsonData = eval(r2);</p>
+<p>				jsonList = jsonData.newsVideoList</p>
+<p>				var buffer = new stringBuffer();</p>
+<p>				var vpage = (Math.ceil(newsvideocount / 4));</p>
+<p>				var lbg = r1 > 0 ? "lbgB" : "lbgA";</p>
+<p>				var rbg = vpage > (r1 + 1) ? "rbgB" : "rbgA";</p>
+<p>				</p>
+<p>				var vup = r1 > 0 ? 'onmouseover="this.className=\'lnowA\'" onmouseout="this.className=\'lbgB\'" onclick="vpg(' + (r1 - 1) + ')" style="cursor:pointer;"' : '';</p>
+<p>				var vdp = vpage > (r1 + 1) ? 'onmouseover="this.className=\'rnowA\'" onmouseout="this.className=\'rbgB\'" onclick="vpg(' + (r1 + 1) + ')" style="cursor:pointer;"' : '';</p>
+<p>				</p>
+<p>				jsonLength = jsonList.length;</p>
+<p>				jsonLength = jsonLength - (r1 * 4) > 4 ? 4 : jsonLength - (r1 * 4);</p>
+<p>				</p>
+<p>				buffer.append('<div class="tt"><div class="l">�������</div><div class="r"><span class="' + lbg + '"' + vup + '></span><em>' + (r1 + 1) + '/' + vpage + '</em><span class="' + rbg + '"' + vdp + '></span></div></div>');</p>
+<p>				buffer.append('<div class="pp"><ul>')</p>
+<p>				for (var i = 0; i < jsonLength; i++) {</p>
+<p>					var ti = i + (r1 * 4);</p>
+<p>					var cl = i == 3 ? ' class="end"' : "";</p>
+<p>					var ttitle = jsonList[ti].title.length > 20 ? jsonList[ti].title.substr(0, 18) + ".." : jsonList[ti].title;</p>
+<p>					var thref = '<a href="' + jsonList[ti].href + '" target="_blank" title="' + jsonList[ti].title + '" onclick="return sogouRelateVideoNews(this);" len="'+jsonLength+'" ind="'+ti+'">';</p>
+<p>					buffer.append('<li' + cl + '>' + thref + '<img src="' + jsonList[ti].picUrl + '" width="125" height="94" alt="" /></a><span>' + thref + ttitle + '</a></span><em class="floor">' + thref + '</a></em></li>');</p>
+<p>				}</p>
+<p>				buffer.append('</ul></div></div>');</p>
+<p>				$("videoNews").innerHTML = buffer.toString();</p>
+<p>				buffer = null;</p>
+<p>			}catch(e){}</p>
+<p>        }, vpg = function(v){</p>
+<p>			</p>
+<p>        	var nvjson = window.location.href;</p>
+<p>			if(nvjson.indexOf("_")>-1){</p>
+<p>				nvjson = nvjson.replace(nvjson.substr(nvjson.indexOf("_"),(nvjson.indexOf(".shtml")-nvjson.indexOf("_"))),"");</p>
+<p>			}</p>
+<p>			nvjson = nvjson.replace(".shtml", "_news_video_all.inc");</p>
+<p>			</p>
+<p>        	if (typeof cms4relativeVideo != "object") {</p>
+<p>        		var cs = new createScript("", nvjson, vnlist, [v, "cms4relativeVideo"],{cache:false});</p>
+<p>        	} else {</p>
+<p>        		vnlist(v,cms4relativeVideo);</p>
+<p>        	}</p>
+<p>        };</p>
+<p>		</p>
+<p>        if (newsvideocount && newsvideocount >= 4) {</p>
+<p>        	$("videoNews").style.display = "";</p>
+<p>        	var vpage = (Math.ceil(newsvideocount / 4));</p>
+<p>        	var vrbg = vpage > 1 ? "rbgB" : "rbgA";</p>
+<p>        	var vdp = vpage > 1 ? 'onmouseover="this.className=\'rnowA\'" onmouseout="this.className=\'rbgB\'" onclick="vpg(1)" style="cursor:pointer;"' : '';</p>
+<p>        	$("videoNewsP").innerHTML = '<span class="lbgA"></span><em>1/' + vpage + '</em><span class="' + vrbg + '"' + vdp + '></span>';</p>
+<p>        }</p>
+<p>		</p>
+<p>�����span></p>
+<p>������ĸ�ؼ�/a>  ��ؽ����������ְ���ؼҹ���ְ����������ؼҵ�������󣬽�ֻز�������</p>
+<p>���������ը ���Ϯ����Լ���/A></p>
+<p>��������˶����غ����A></p>
+<p>���������ս2012��ͳ��/A></p>
+<p>��ɽ��ʹ���������ҩ�����</p>
+<p>��t;></p>
+<p>ͼ˵���span></p>
+<p>���ʼ������</p>
+<p>����Ա�����ˡ���</p>
+<p>�ż�ˣ�ѧ���Ȼ�������ף(ͼ)</p>
+<p>�����ô����������Ȼ��</p>
+<p>���������޳ܡ���������></p>
+<p>�μ��������������ж�</p>
+<p>��t;></p>
+<p>�������</p>
+<p>һ�ͼƬ��ѡ01.06-01.12</p>
+<p>һ�ͼƬ��ѡ12.30-01.05</p>
+<p>һ�ͼƬ��ѡ12.23-12.29</p>
+<p>������011</p>
+<p>һ�ͼƬ��ѡ12.16-12.22</p>
+<p>����11����Ƭ--����</p>
+<p>����11����Ƭ--˲��д</p>
+<p>������쵼����7�ȥ�</p>
+<p>��/a> </p>
+<p>�Ҫ����</p>
+<p> </p>
+<p>			var sogou_param = new Array();</p>
+<p>			sogou_param["pid"]  = 'sohu__matrix';</p>
+<p>			sogou_param["ct"]   = 'matrix';</p>
+<p>			sogou_param["iw"]   = '560';</p>
+<p>			sogou_param["ih"]   = '180';</p>
+<p>			sogou_param["charset"]   = 'gb2312';</p>
+<p>			sogou_param["c_bo"] = 'trans';</p>
+<p>			sogou_param["c_bg"] = 'trans';</p>
+<p>			sogou_param["c_li"] = '000099';</p>
+<p>			sogou_param["c_te"] = '000000';</p>
+<p>			sogou_param["c_ur"] = '008000';</p>
+<p>			</p>
+<p>try{</p>
+<p>var TurnAD475=new Cookie(document,"TurnAD475",24);</p>
+<p>TurnAD475.load();</p>
+<p>TurnAD475.visit=(TurnAD475.visit==null)?parseInt(Math.random()*3+1):TurnAD475.visit;</p>
+<p>if(TurnAD475.visit!=0)var intTurnAD475=TurnAD475.visit;</p>
+<p>TurnAD475.visit++;</p>
+<p>TurnAD475.visit=(TurnAD475.visit>3)?1:TurnAD475.visit;</p>
+<p>TurnAD475.store();</p>
+<p>function showTurnAD475(basenum){</p>
+<p>if (basenum==1){</p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2011/ranzhang/aodi/bx/300250192.swf","_dfbd29ac34e0f02bdb357290a46b6d6a","300","250","7");</p>
+<p>sohuFlash2.addParam("quality", "high");</p>
+<p>sohuFlash2.addParam("wmode", "opaque");</p>
+<p>sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201201&TargetID=sohu&Values=dfbd29ac,34e0f02b,db357290,a46b6d6a&AdID=7060473"));</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();</p>
+<p>_a.src='http://alpha.brand.sogou.com/brand_pv?md5=dfbd29ac34e0f02bdb357290a46b6d6a';document.pv.push(_a);</p>
+<p>_b.src='http://imp.ad-plus.cn/201201/dfbd29ac34e0f02bdb357290a46b6d6a.php?a=99';document.pv.push(_b);</p>
+<p>sohuFlash2.write("TurnAD475");}</p>
+<p>else if(basenum==2){</p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2012/hanzhijuan/suning/3002500116.swf","_de45cc2a41df78ce5b4291eb91467929","300","250","7");</p>
+<p>sohuFlash2.addParam("quality", "high");</p>
+<p>sohuFlash2.addParam("wmode", "opaque");</p>
+<p>sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201201&TargetID=sohu&Values=de45cc2a,41df78ce,5b4291eb,91467929&AdID=4638650"));</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();</p>
+<p>_a.src='http://alpha.brand.sogou.com/brand_pv?md5=de45cc2a41df78ce5b4291eb91467929';document.pv.push(_a);</p>
+<p>_b.src='http://imp.ad-plus.cn/201201/de45cc2a41df78ce5b4291eb91467929.php?a=99';document.pv.push(_b);sohuFlash2.write("TurnAD475");}</p>
+<p>else{</p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2011/hanzhijuan/xinghefengshang/baoban/3002501231.swf","_cb5070e65ccc8350655d539241948d8f","300","250","7");</p>
+<p>sohuFlash2.addParam("quality", "high");</p>
+<p>sohuFlash2.addParam("wmode", "opaque");</p>
+<p>sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201112&TargetID=sohu&Values=cb5070e6,5ccc8350,655d5392,41948d8f&AdID=9746798"));</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();</p>
+<p>_a.src='http://alpha.brand.sogou.com/brand_pv?md5=cb5070e65ccc8350655d539241948d8f';document.pv.push(_a);</p>
+<p>_b.src='http://imp.ad-plus.cn/201112/cb5070e65ccc8350655d539241948d8f.php?a=99';document.pv.push(_b);</p>
+<p>sohuFlash2.write("TurnAD475");}</p>
+<p>}</p>
+<p>showTurnAD475(intTurnAD475);</p>
+<p>}catch(e){}</p>
+<p>��ȵ�span></p>
+<p>������ǧ�����С�¥���30��С�����������0�����޽�15��С�¥��[�ϸ]</p>
+<p> �Ӣ����������:��ͳ������</p>
+<p>��������� ר�ұ�ý���Ӧ�����</p>
+<p>������������������ǧ�Ѱ��</p>
+<p>���������������������ϳ�������</p>
+<p>try{</p>
+<p>var TurnAD476=new Cookie(document,"TurnAD476",24);</p>
+<p>TurnAD476.load();</p>
+<p>TurnAD476.visit=(TurnAD476.visit==null)?parseInt(Math.random()*2+1):TurnAD476.visit;</p>
+<p>if(TurnAD476.visit!=0)var intTurnAD476=TurnAD476.visit;</p>
+<p>TurnAD476.visit++;</p>
+<p>TurnAD476.visit=(TurnAD476.visit>2)?1:TurnAD476.visit;</p>
+<p>TurnAD476.store();</p>
+<p>function showTurnAD476(basenum){</p>
+<p>if (basenum==1){</p>
+<p>document.write('<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2011/fenfenchen/moso/300250tongfa.html></iframe>');}</p>
+<p>else{</p>
+<p>document.getElementById('TurnAD476').innerHTML ='<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2011/fenfenchen/moso/300250tongfa.html></iframe>';}</p>
+<p>}</p>
+<p>showTurnAD476(intTurnAD476);</p>
+<p>}catch(e){}</p>
+<p>if(window.location.href.getQueryString("ip")==null)</p>
+<p>Loc=sohu_IP_Loc.substr(0,4);</p>
+<p>else</p>
+<p>Loc=window.location.href.getQueryString("ip");</p>
+<p>�������</p>
+<p>��|</p>
+<p>��</p>
+<p>1��ȷ�������������...3580416</p>
+<p>3������ҹײ�����ɡ�����/a>3528733</p>
+<p>4��������ҩ�¹�����3403735</p>
+<p>5�ͷ���̸����������:����...3266873</p>
+<p>6�����ָ���Ӧ����˹...2682175</p>
+<p>7��غ���Ů�����Ҳ��...2557705</p>
+<p>8�������˹���𳵷��2382468</p>
+<p>9</p>
+<p> 1�������������Ȩ��� ...1911</p>
+<p>2��������������� ��� ...1871</p>
+<p>3����ٰ�������󳵻� ...1188</p>
+<p>5���ר���iPad�����999 ...811</p>
+<p>7������ͳ ������ ...776</p>
+<p>8ɽ�ʡͨ�����������״Ԫ��ˢ���� ...589</p>
+<p>10�������Ϊ39������ ��.551</p>
+<p>		#contentA .sohuVideo{height:312px;padding-top:10px}</p>
+<p>		#contentA .sohuVideo .vMenu{height:25px}</p>
+<p>		#contentA .sohuVideo .vMenu ul{height:18px;float:left;display:inline;margin:7px 0 0 16px}</p>
+<p>		#contentA .sohuVideo .vMenu li{display:inline;cursor:pointer;float:left;font:14px/16px "��";color:#333}</p>
+<p>		#contentA .sohuVideo .vMenu .libg{font-weight:bold}</p>
+<p>		#contentA .sohuVideo .vMenu .wd{padding:0 7px}</p>
+<p>		#contentA .sohuVideo .vMenu .vsea{float:right;height:25px;width:115px;background:url();display:inline;margin:0 2px 0 0}</p>
+<p>		#contentA .sohuVideo .vMenu .vtx{width:58px;height:17px;padding:6px 0 0 8px;background:none;border:0;}</p>
+<p>		#contentA .sohuVideo .vMenu .vbtn{width:37px;padding:6px 0 0;background:none;border:0;color:#FFF;line-height:14px}</p>
+<p>		#contentA .sohuVideo .pp{width:127px;margin:10px 0 0 15px}</p>
+<p>		#contentA .sohuVideo .pp li{position:relative;width:100%}</p>
+<p>		#contentA .sohuVideo .pp span{margin:8px auto 12px}</p>
+<p>		#contentA .sohuVideo .list12{width:142px;margin:0 8px 0 0}</p>
+<p>		#contentA .sohuVideo .list12 ul{width:100%;margin:8px auto}</p>
+<p>		#contentA .sohuVideo .list12 .line{width:134px}</p>
+<p>                #searchBtn1{float:left;width:38px;position:relative;top:-15px;left:13px;}</p>
+<p>				</p>
+<p>���/li>|</p>
+<p>������li></p>
+<p>				</p>
+<p>������Ů��></p>
+<p>�������Ƚ��</p>
+<p> </p>
+<p>ʵ�Ů��ʨͬ���˯</p>
+<p>�����Ը�������</p>
+<p>�Ƿ�Ұζ�������Ļ</p>
+<p>ֱ��ȱ뺷����</p>
+<p>ʷ��С��� 1����</p>
+<p>�������������a></p>
+<p>��������Ͳ</p>
+<p>������������</p>
+<p>���ã��ģ˽����</p>
+<p>���ĸ��������/a></p>
+<p>��������� </p>
+<p>���ר��/a></p>
+<p> </p>
+<p>�� С�Ů���ǰ��u></p>
+<p>����������/u> ����</p>
+<p>�����ɯ ԶԶ�İ�</p>
+<p>��ԭ�� ���֮�</p>
+<p>�һ�����u> ����</p>
+<p>������� ����</p>
+<p>Ҷ� ��ŷ� �ھŵ��/u></p>
+<p>¬��ﷹ��u> ����2</p>
+<p>����ֻ��  ��ջ�></p>
+<p>ɱ¾ս�� ԡ��ɱ��</p>
+<p>����Ƽ�></p>
+<p>�����������/a></p>
+<p>2012���������ؼҵ���</p>
+<p>��һ��ؼ�����������������[�ϸ]</p>
+<p>��֮������ɱ����ʲôӰ������</p>
+<p>�����������������Ī���</p>
+<p>�����Ѫ���������/A></p>
+<p>����ɹһ�������Ҽ�������ľ�</p>
+<p>������������ⷿ���/A></p>
+<p>����</p>
+<p>• 2012���� 2012�����/a></p>
+<p>• ̨���/A> ���������></p>
+<p>try{</p>
+<p>var TurnAD477=new Cookie(document,"TurnAD477",24);</p>
+<p>TurnAD477.load();</p>
+<p>TurnAD477.visit=(TurnAD477.visit==null)?parseInt(Math.random()*2+1):TurnAD477.visit;</p>
+<p>if(TurnAD477.visit!=0)var intTurnAD477=TurnAD477.visit;</p>
+<p>TurnAD477.visit++;</p>
+<p>TurnAD477.visit=(TurnAD477.visit>2)?1:TurnAD477.visit;</p>
+<p>TurnAD477.store();</p>
+<p>function showTurnAD477(basenum){</p>
+<p>if (basenum==1){</p>
+<p>var sogou_is_one = new Object();</p>
+<p>sogou_is_one["pid"]  = 'sohu__brand';</p>
+<p>sogou_is_one["charset"]   = 'gb2312';</p>
+<p>sogou_is_one["sohuurl"] = document.location.href;</p>
+<p>sogou_is_one["iw1"]   = '300';</p>
+<p>sogou_is_one["ih1"]   = '250';</p>
+<p>sogou_is_one["place1"] = '2022';</p>
+<p>sogou_is_one["div_id1"] = 'TurnAD477';</p>
+<p>function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}</p>
+<p>var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";</p>
+<p>var one_cnt = 0;</p>
+<p>for(var p in sogou_is_one)</p>
+<p>{</p>
+<p>              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);</p>
+<p>}</p>
+<p>var one_js = document.createElement('SCRIPT');</p>
+<p>one_js.src=sogou_is_one_url;</p>
+<p>document.getElementsByTagName('head')[0].appendChild(one_js);}</p>
+<p>else{</p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2012/yanrao/xuexi/20120113.swf","_9b29cafc8a9c5ccd2d8ba4ddb8d39ce8","300","250","7");</p>
+<p>sohuFlash2.addParam("quality", "high");</p>
+<p>sohuFlash2.addParam("wmode", "opaque");</p>
+<p>sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201201&TargetID=sohu&Values=9b29cafc,8a9c5ccd,2d8ba4dd,b8d39ce8&AdID=13888377"));</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();</p>
+<p>_a.src='http://alpha.brand.sogou.com/brand_pv?md5=9b29cafc8a9c5ccd2d8ba4ddb8d39ce8';document.pv.push(_a);</p>
+<p>_b.src='http://imp.ad-plus.cn/201201/9b29cafc8a9c5ccd2d8ba4ddb8d39ce8.php?a=99';document.pv.push(_b);</p>
+<p>sohuFlash2.write("TurnAD477");}</p>
+<p>}</p>
+<p>showTurnAD477(intTurnAD477);</p>
+<p>}catch(e){}</p>
+<p>���ȵ�a></p>
+<p>���֮�</p>
+<p>�����</p>
+<p>������������������</p>
+<p>����ִ���8��� �����̩̹���/A></p>
+<p>ǰ�ٶȸ߹ܳƺ����������ƴ��A></p>
+<p>΢����ְҵ������䡱 �ø�˻����</p>
+<p>.blogHot{height:290px}</p>
+<p>		.weiBlog{height:150px}</p>
+<p>		#contentA .weiBlog .pt{margin:15px auto 4px}</p>
+<p>		.weiBlog .pt li{line-height:24px;color:#333}</p>
+<p>		.weiBlog .pt div{margin-top:6px;_margin-right:7px}</p>
+<p>		.weiBlog .more{margin:0 auto;line-height:20px;padding-right:12px}</p>
+<p>		</p>
+<p>��������������������</p>
+<p>������ִ���8��� �����̩̹���/a></p>
+<p>����·����˾����֭��΢�ɱ���a></p>
+<p>��ǰ�ٶȸ߹ܳƺ����������ƴ��a></p>
+<p>��;></p>
+<p>���𱬻��</p>
+<p>����ĳ������ĺ���Ļ��</p>
+<p>����M���HI�����</p>
+<p>��ͷ�����a>| ��M����ͷ���Ӱʦ������</p>
+<p>��ͷ�����a>| �ؼ�������ʮ�������</p>
+<p>��ͷ�����a>| ��㶫���Ů������Ȫ�(ͼ)</p>
+<p>����| �����ʵ���������������></p>
+<p>���/a></p>
+<p>�㶫���������</p>
+<p>�־��֤�����������/a></p>
+<p>�У��ǿ������</p>
+<p>7000����˾��</p>
+<p>����������β��/a></p>
+<p>Ҧ�����־ӱ����Ϸ</p>
+<p>������ֲ�Ѫʳ�</p>
+<p>���Ů�ʧ������</p>
+<p>var sogou_param = new Array();</p>
+<p>sogou_param["pid"]  = 'sohuwomenwz';</p>
+<p>sogou_param["ct"]  = 'kwd';</p>
+<p>sogou_param["fmt"]  = 'h_kwd';</p>
+<p>sogou_param["dn"]  = '4';</p>
+<p>sogou_param["iw"]   = '275';</p>
+<p>sogou_param["ih"]   = '110';</p>
+<p>sogou_param["fs"] = '12';</p>
+<p>sogou_param["ul"] = '0';</p>
+<p>sogou_param["c_bo"] = 'ffffff';</p>
+<p>sogou_param["c_bg"] = 'trans';</p>
+<p>sogou_param["c_fg"] = '004276';</p>
+<p>sogou_param["tdw"] = '100';</p>
+<p>sogou_param["charset"] = 'gb2312';</p>
+<p>sogou_param["rn"] = '4';</p>
+<p>sogou_param["cn"] = '3';</p>
+<p>������></p>
+<p>��Ů�����/A></p>
+<p>�櫹�������Ů</p>
+<p>���P��һ�ҵ���</p>
+<p>�����ʳ�װ��</p>
+<p> </p>
+<p>���/a></p>
+<p>�������</p>
+<p>������ɫ�</p>
+<p>�������/a></p>
+<p>��| ��� Ů��ʦ</p>
+<p>�ڵ��20� ���/a></p>
+<p>��| �ڰ�� ���Ϸ</p>
+<p>���a> ĻǰĻ��> ��Ʒ��</p>
+<p>��| ������> ����/a></p>
+<p>�Ұ�� ��ʱ��</p>
+<p>���>| ����������></p>
+<p>������� �����a></p>
+<p>���ע</p>
+<p>����</p>
+<p>7��</p>
+<p>��Ů�</p>
+<p>���</p>
+<p>2011�߿���</p>
+<p>����</p>
+<p>Ҧ���</p>
+<p>2011�����չ</p>
+<p>����</p>
+<p>�ж����ĸ��ѡ</p>
+<p>���ը</p>
+<p>2011�߿���</p>
+<p>2011�߿�</p>
+<p>�վ���</p>
+<p>����</p>
+<p>���</p>
+<p>|ʱ���|���䶯|�۰��</p>
+<p>|��������a>|�����������a></p>
+<p>�����/a></p>
+<p>|���/a>|��|���</p>
+<p>���</p>
+<p>|����|������|���</p>
+<p>|��Ƶ|��Ƭ|��߲���/a></p>
+<p>��Ƶ��/a></p>
+<p>|����˵|���/a></p>
+<p>���/a></p>
+<p>|���/a>|̨�����|���/a></p>
+<p>|���/a>|���|���a> </p>
+<p>|���|����|���� </p>
+<p>ChinaRen | 17173 | ���</p>
+<p>��</p>
+<p>|���|��</p>
+<p>��</p>
+<p>|NBA|���|S</p>
+<p>�ƾ�</p>
+<p>|���|��</p>
+<p>|���|��|V</p>
+<p>���</p>
+<p>|����|�Ƶ</p>
+<p>|</p>
+<p>Ů�</p>
+<p>|ĸӤ|��|��</p>
+<p>�ѧ|Ӣ�</p>
+<p>��</p>
+<p>|��|����|���</p>
+<p>|ԭ��|�ɫ</p>
+<p>IT</p>
+<p>|��|��</p>
+<p>У�¼</p>
+<p>Ȧ�|��|���|�㶫</p>
+<p>��</p>
+<p>|���</p>
+<p>|����|���|</p>
+<p>ʵ�����/span></p>
+<p>�������</p>
+<p>���</p>
+<p>Ӱ���</p>
+<p>ҩƷ��</p>
+<p>���ѯ</p>
+<p>IP��</p>
+<p>������</p>
+<p>ͼƬ��</p>
+<p>���ʷ��</p>
+<p>�����</p>
+<p>TV�����</p>
+<p>����</p>
+<p>���ҳ</p>
+<p>- �������</p>
+<p>- ֧����</p>
+<p>- ���/a></p>
+<p>- �����</p>
+<p>- �ͷ���</p>
+<p>- �ϵ��ʽ</p>
+<p>- �����˽Ȩ</p>
+<p>- About SOHU</p>
+<p>- ��˾��</p>
+<p>Copyright © 2012 Sohu.com Inc. All Rights Reserved. �������</p>
+<p>������ٱ��绰��010��62728061 �ٱ�����jubao@contact.sohu.com</p>
+<p>var  _wratingId = null;</p>
+<p>try{</p>
+<p>_wratingId = _getAcc();</p>
+<p>}catch(e){}</p>
+<p>if(_wratingId !=null){</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://sohu.wrating.com/a1.js"></scr'+'ipt>');</p>
+<p>}</p>
+<p>if(_wratingId !=null){</p>
+<p>document.write('<scr'+'ipt type="text/javascript">');</p>
+<p>document.write('var vjAcc="'+_wratingId+'";');</p>
+<p>document.write('var wrUrl="http://sohu.wrating.com/";');</p>
+<p>document.write('try{vjTrack();}catch(e){}');</p>
+<p>document.write('</scr'+'ipt>');</p>
+<p>}</p>
+<p><!--</p>
+<p>	function sogouRelateNews(itm){</p>
+<p>		var i=new Image();</p>
+<p>        var len=itm.getAttribute("len");   var  ind= itm.getAttribute("ind");</p>
+<p>        len=(len==null)?"":len;   ind=(ind==null)?"":ind;</p>
+<p>        if(len == "" || ind == "" ) {</p>
+<p>           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();</p>
+<p>        } else {</p>
+<p>           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();</p>
+<p>        }</p>
+<p>	    return true;</p>
+<p>	}</p>
+<p>	function sogouRelateWeb(itm){</p>
+<p>		var i=new Image();</p>
+<p>        var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");</p>
+<p>        len=(len==null)?"":len; ind=(ind==null)?"":ind;</p>
+<p>        if(len == "" || ind == "" ) {</p>
+<p>	 	     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();</p>
+<p>        } else {</p>
+<p>		     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();</p>
+<p>        }</p>
+<p>		return true;</p>
+<p>	}</p>
+<p>	function sogouRelateSaybar(itm){</p>
+<p>		var i=new Image();</p>
+<p>		i.src='http://pingback.sogou.com/rltsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();</p>
+<p>		return true;</p>
+<p>	}</p>
+<p>	function sogouRelateBlog(itm){</p>
+<p>		var i=new Image();</p>
+<p>		i.src='http://pingback.sogou.com/rltblog.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();</p>
+<p>		return true;</p>
+<p>	}</p>
+<p>	</p>
+<p>	function sogouHotSaybar(itm){</p>
+<p>		var i=new Image();</p>
+<p>		i.src='http://pingback.sogou.com/rlthotsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();</p>
+<p>		return true;</p>
+<p>	}</p>
+<p>    function sogouRelateVideoNews(itm){</p>
+<p>      var i=new Image();</p>
+<p>      var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");</p>
+<p>      len=(len==null)?"":len;    ind=(ind==null)?"":ind;</p>
+<p>      if(len == "" || ind == "" ) {</p>
+<p>        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();</p>
+<p>      } else {</p>
+<p>        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();</p>
+<p>      }</p>
+<p>	  return true;</p>
+<p>    }</p>
+<p>//--></p>
+<p>var cWidth=980;</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();</p>
+<p>_a.src='http://xls.go.sohu.com/201012/ee970cf0f5c53c86014a16fd32d9629a.php?3';</p>
+<p>document.pv.push(_a);</p>
+<p>imp(urlpath,123);</p>
+<p>if(PVUV_CheckArticle("gj11",24,1)){imp(urlpath,124);}</p>
+<p>if(PVUV_CheckArticle("gj12",24*365,1)){imp(urlpath,125);}</p>
+<p>AD = new ADM("FLOAT", 2);</p>
+<p>    AD.src = "http://images.sohu.com/bill/s2009/shanbai/baojie/6yue/1001000602.swf";</p>
+<p>    AD.href="http://goto.sogou.com/200905/256711c20f526ea88028870e1a36e2cc.php";</p>
+<p>    AD.tag="";</p>
+<p>    AddSchedule(AD);</p>
+<p>--></p>
+<p>var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2012/xuezhou/yili/1/jindian/3002501231-nei.swf","_110dde36d61240bc18d736205f47bf3exy","0","0","7");</p>
+<p>sohuFlash2.write("ce642306abcf97252cac4c3caeab6c66xy");</p>
+<p>if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();</p>
+<p>_a.src='http://xls.go.sohu.com/201201/a750a2f0e3a883a518e4feb623e62769.php?a=1';</p>
+<p>document.pv.push(_a);</p>
+<p>function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}</p>
+<p>var sogou_is_brand_url = "http://cpc.brand.sogou.com/brand_ad_new";</p>
+<p>var brand_cnt = 0;</p>
+<p>for(var p in sogou_is_brand)</p>
+<p>{</p>
+<p>           if(typeof(sogou_is_brand[p]) == "string")</p>
+<p>                   sogou_is_brand_url += (brand_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_brand[p]);</p>
+<p>}</p>
+<p>if (brand_cnt>3)</p>
+<p>{</p>
+<p>         var test= document.createElement('SCRIPT');</p>
+<p>         test.src=sogou_is_brand_url;</p>
+<p>         document.getElementsByTagName('head')[0].appendChild(test);</p>
+<p>}</p>

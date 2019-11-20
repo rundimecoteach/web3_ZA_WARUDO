@@ -1,0 +1,666 @@
+<p>iafrica.com  | lifestyle | food | news and views | food news |  'Fresh, as in f**king fresh!'</p>
+<p>	function initPage()</p>
+<p>	{</p>
+<p>		//</p>
+<p>		//setTimeout("adLoader()",3000);</p>
+<p>	}</p>
+<p>var _aco_clientID = '4eabc26095f6023706060000';</p>
+<p>(function() {</p>
+<p>    var acTs = document.createElement('script'); acTs.type = 'text/javascript'; acTs.async = true;</p>
+<p>    acTs.src = ('https:' == document.location.protocol ? 'https://wws' : 'http://www') + '.passport.pfn.bz/acT.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(acTs, s);</p>
+<p>  })();</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-4940903-1']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>  (function() {</p>
+<p>    var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;</p>
+<p>    em.src = ('https:' == document.location.protocol ? 'https://za-ssl' : 'http://za-cdn') + '.effectivemeasure.net/em.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);</p>
+<p>  })();</p>
+<p><!--</p>
+<p>if (window.adgroupid == undefined) {</p>
+<p>	window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|567|3326223|0|225|ADTECH;loc=100;target=_blank;key=;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>')</p>
+<p>//--></p>
+<p>NewsBusinessSportMotoringEntertainmentLifestyleCooltechTravelToolsWeatherNewslettersSA NewsWorld NewsQuirky & BizarreWeatherBusiness NewsBusinessDayWorld NewsMarketsRandwatchPersonal FinancePropertyBudget 2011-2012TodayCricketRugbyFootballGolfFormula 1TennisFeaturesOther SportsCar SearchLatest NewsNew ModelsRoad TestsFeaturesGalleriesFormula 1Motorsport4X4 / OffroadBooksTelevisionCeleb NewsMoviesAwards SeasonMusicFeaturesEventsCompetitionsHis LifeHer LifeDecorFashionParentingWeddingsLove & SexFoodWellnessGalleriesCompetitionsEventsNewsGadgetsCool stuffGamesFeaturesSwiss Army KitBest ofVideosCompetitionsConvertersTravel NewsFlightsBook FlightsExplore SABeyond SAAccommodationCompetitionsDeparture LoungeCar SearchAccommodationLotteryChatDatingHoroscopesProperty Price IndexProperty SearchRSS FeedsWeather</p>
+<p>		(function() {</p>
+<p>    		tabMenu = new YAHOO.widget.TabView('divMenu');</p>
+<p>			})();</p>
+<p>var selectedMenuTabId=6;</p>
+<p><!--</p>
+<p>function CreateBookmarkLink() {</p>
+<p>	title = "iAfrica.com";</p>
+<p>	url = "http://www.iafrica.com/";</p>
+<p>	</p>
+<p>	if(window.sidebar) {</p>
+<p>		// Mozilla Firefox Bookmark</p>
+<p>		alert("adding a bookmark to FIREFOX!");</p>
+<p>		window.sidebar.addPanel(title, url,"");</p>
+<p>	}else if(window.external) {</p>
+<p>		// IE Favorite</p>
+<p>		alert("adding a bookmark to Internet Explorer");</p>
+<p>		window.external.AddFavorite(url,title);</p>
+<p>	} </p>
+<p>	else if(window.opera && window.print) {</p>
+<p>		// Opera Hotlist</p>
+<p>		return true; </p>
+<p>	}else { </p>
+<p>		// for Safari, Konq etc - browsers who do not support bookmarking scripts (that i could find anyway)  </p>
+<p>	  alert('Unfortunately, this browser does not support the requested action,'  </p>
+<p>	  + ' please bookmark this page manually.');  </p>
+<p>	}  </p>
+<p>}</p>
+<p>--></p>
+<p>Last Upd:  01:19pm 12 Jan 2012</p>
+<p>	function showsl(str)</p>
+<p>	{</p>
+<p>		</p>
+<p>		var url="";</p>
+<p>		var num=0;</p>
+<p>		</p>
+<p>		if(str == "WORLD")</p>
+<p>		{</p>
+<p>		url="/skins/13/webx.html";</p>
+<p>		num=1;</p>
+<p>		}</p>
+<p>		else if(str == "iAfrica")</p>
+<p>		{</p>
+<p>		url="/skins/13/allx.html";</p>
+<p>		num=1;</p>
+<p>		}</p>
+<p>		else if(str == "w")</p>
+<p>		{</p>
+<p>		document.main.search_for.selectedIndex = 0;</p>
+<p>		url="/skins/13/webx.html";</p>
+<p>		}</p>
+<p>		else if(str == "a")</p>
+<p>		{</p>
+<p>		url="/skins/13/allx.html";</p>
+<p>		}</p>
+<p>		else if(str == "1")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="news.html";</p>
+<p>		}</p>
+<p>		else if(str == "2")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="bus.html";</p>
+<p>		}</p>
+<p>		else if(str == "3")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="sport.html";</p>
+<p>		}</p>
+<p>		else if(str == "4")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="motor.html";</p>
+<p>		}</p>
+<p>		else if(str == "5")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="ent.html";</p>
+<p>		}</p>
+<p>		else if(str == "6")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="life.html";</p>
+<p>		}</p>
+<p>		else if(str == "7")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="tech.html";</p>
+<p>		}</p>
+<p>		else if(str == "8")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="travel.html";</p>
+<p>		}</p>
+<p>		else if(str == "9")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="food.html";</p>
+<p>		}</p>
+<p>		else if(str == "10")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="health.html";</p>
+<p>		}</p>
+<p>		else if(str == "11")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="finance.html";</p>
+<p>		}</p>
+<p>		else if(str == "12")</p>
+<p>		{</p>
+<p>		document.main1.search_for.selectedIndex = 0;</p>
+<p>		url="property.html";</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>		</p>
+<p>		url="/skins/13/full_allx.html";</p>
+<p>		</p>
+<p>		}</p>
+<p>		</p>
+<p>		xmlHttp1=GetXmlHttpObject();</p>
+<p>		</p>
+<p>		if (xmlHttp1==null)</p>
+<p>		{</p>
+<p>		alert ("Browser does not support HTTP Request");</p>
+<p>		return;</p>
+<p>		}</p>
+<p>		</p>
+<p>		if(num == 1)</p>
+<p>		{</p>
+<p>		xmlHttp1.onreadystatechange=stateChanged;</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>		xmlHttp1.onreadystatechange=stateChangedo;</p>
+<p>		}</p>
+<p>		</p>
+<p>		</p>
+<p>		</p>
+<p>		</p>
+<p>		xmlHttp1.open("GET",url,true);</p>
+<p>		    xmlHttp1.send(null);</p>
+<p>	</p>
+<p>	}    </p>
+<p>	</p>
+<p>	function GetXmlHttpObject()</p>
+<p>	</p>
+<p>	{</p>
+<p>		</p>
+<p>		var xmlHttp1=null;</p>
+<p>		</p>
+<p>		</p>
+<p>		try</p>
+<p>		{</p>
+<p>		// Firefox, Opera 8.0+, Safari</p>
+<p>		 xmlHttp1=new XMLHttpRequest();</p>
+<p>		 }</p>
+<p>		 catch (e)</p>
+<p>		 {</p>
+<p>		// // Internet Explorer</p>
+<p>		 try</p>
+<p>		 {</p>
+<p>		 xmlHttp1=new ActiveXObject("Msxml2.XMLHTTP");</p>
+<p>		 }</p>
+<p>		 catch (e)</p>
+<p>		 {</p>
+<p>		 xmlHttp1=new ActiveXObject("Microsoft.XMLHTTP");</p>
+<p>		 }</p>
+<p>		</p>
+<p>		 }</p>
+<p>		</p>
+<p>		 return xmlHttp1;</p>
+<p>	</p>
+<p>	 }</p>
+<p>		</p>
+<p>	 </p>
+<p>function stateChanged()</p>
+<p>{</p>
+<p>	if (xmlHttp1.readyState==4 || xmlHttp1.readyState=="complete")</p>
+<p>	{</p>
+<p>	</p>
+<p>	var script = document.createElement( 'script' );</p>
+<p>	script.type = 'text/javascript';</p>
+<p>	script.src = 'http://www.iafrica.com/search/wm.js';</p>
+<p>	</p>
+<p>	document.getElementById("tsearch").innerHTML=xmlHttp1.responseText;</p>
+<p>	document.getElementById("tsearch").appendChild(script);</p>
+<p>	</p>
+<p>	}</p>
+<p>}</p>
+<p>	 </p>
+<p>    </p>
+<p>SEARCH</p>
+<p>... the website</p>
+<p>World</p>
+<p> (function() { var f = document.getElementById('cse-search-box'); if (!f) { f = document.getElementById('searchbox_demo'); } if (f && f.q) { var q = f.q; var n = navigator; var l = location; if (n.platform == 'Win32') { q.style.cssText = ' none '; } var b = function() { if (q.value == '') { q.style.background = '#FFFFFF url(/i/pics/pics_rev/google_watermark.gif) right no-repeat'; } }; var f = function() { q.style.background = '#ffffff'; }; q.onfocus = f; q.onblur = b;  if (!/[&?]q=[^&]/.test(l.search)) { b(); } } })();</p>
+<p>            function showWeather(showLayer,showLink){ </p>
+<p>                document.getElementById("wcape").style.display = "none"; </p>
+<p>                document.getElementById("wdbn").style.display = "none"; </p>
+<p>                document.getElementById("wjhb").style.display = "none";</p>
+<p>                document.getElementById("wlcape").className = ''; document.getElementById("wldbn").className = ''; </p>
+<p>                document.getElementById("wljhb").className = '';</p>
+<p>                document.getElementById(showLink).className = "blueUnder"; document.getElementById(showLink).blur(); </p>
+<p>                document.getElementById(showLayer).style.display = "inline"; </p>
+<p>                setCookie('iWeather',showLayer,365);</p>
+<p>            }</p>
+<p>        function initiateWeather(){</p>
+<p>            iWeather=getCookie('iWeather');</p>
+<p>            if (iWeather!=null && iWeather!=""){</p>
+<p>            }else{</p>
+<p>                iWeather = "wcape";</p>
+<p>            }</p>
+<p>            if(iWeather=="wcape"){ </p>
+<p>                showWeather('wcape','wlcape'); </p>
+<p>            }else if(iWeather=="wdbn"){ </p>
+<p>                showWeather('wdbn','wldbn'); </p>
+<p>            }else if(iWeather=="wjhb"){ </p>
+<p>                showWeather('wjhb','wljhb');</p>
+<p>            }</p>
+<p>        }</p>
+<p>        function getCookie(c_name){</p>
+<p>            if(document.cookie.length>0){</p>
+<p>                c_start=document.cookie.indexOf(c_name + "=");</p>
+<p>                if (c_start!=-1){ </p>
+<p>                    c_start=c_start + c_name.length+1; </p>
+<p>                    c_end=document.cookie.indexOf(";",c_start);</p>
+<p>                    if (c_end==-1){</p>
+<p>                        c_end=document.cookie.length;</p>
+<p>                        return unescape(document.cookie.substring(c_start,c_end));</p>
+<p>                    }</p>
+<p>                } </p>
+<p>            }</p>
+<p>            return "";</p>
+<p>        }</p>
+<p>        function setCookie(c_name,value,expiredays){</p>
+<p>            var exdate=new Date();</p>
+<p>            exdate.setDate(exdate.getDate()+expiredays);</p>
+<p>            document.cookie = c_name + "=" + escape(value) + ((expiredays==null) ? "" : "; expires = "+exdate.toGMTString());</p>
+<p>        }</p>
+<p>        </p>
+<p>WEATHER</p>
+<p> </p>
+<p>Ctn | Dbn | Jhb | Other</p>
+<p>17Â° 23Â°</p>
+<p>âº More</p>
+<p>24Â° 33Â°</p>
+<p>âº More</p>
+<p>17Â° 31Â°</p>
+<p>âº More</p>
+<p>initiateWeather();</p>
+<p>INDICATORS</p>
+<p>$ = R 8.06</p>
+<p>							</p>
+<p>Â£ = R 12.33</p>
+<p>							</p>
+<p>â¬ = R 10.28</p>
+<p>							</p>
+<p>Oil = $ 112.94</p>
+<p>							</p>
+<p>Gold = $ 1651.98</p>
+<p>							</p>
+<p>Last Update:</p>
+<p>							12:28 12 Jan 12					</p>
+<p>					</p>
+<p>            function goSponsor(theURL){</p>
+<p>                mysponsor =  window.open(theURL,"thesponsor");</p>
+<p>                mysponsor.focus();</p>
+<p>            }</p>
+<p>        </p>
+<p>SPONSORED LINKS ›</p>
+<p> </p>
+<p>Wise Car Insurance</p>
+<p>Cars Online</p>
+<p>Online Dating</p>
+<p>Local sleepovers</p>
+<p>Book flights online!</p>
+<p>Work money smarter</p>
+<p>Wine of the Week</p>
+<p>Property Search</p>
+<p>Win the Lottery</p>
+<p>Go shopping!</p>
+<p> </p>
+<p> </p>
+<p>		<!--</p>
+<p>					var contentDisplayBlockIdx=0;</p>
+<p>					function contentDisplayBlock_switch(mode)</p>
+<p>					{</p>
+<p>						switch (mode)</p>
+<p>						{</p>
+<p>							case "next":</p>
+<p>								contentDisplayBlockIdx ++;</p>
+<p>								if (contentDisplayBlockIdx == $(".content_contentDisplayBlock .contentTile").length)</p>
+<p>								{</p>
+<p>									contentDisplayBlockIdx=0;</p>
+<p>								}</p>
+<p>								break;</p>
+<p>							case "previous":</p>
+<p>								contentDisplayBlockIdx --;</p>
+<p>								if (contentDisplayBlockIdx == -1)</p>
+<p>								{</p>
+<p>									contentDisplayBlockIdx=$(".content_contentDisplayBlock .contentTile").length-1;</p>
+<p>								}</p>
+<p>								break;								</p>
+<p>						}</p>
+<p>						$(".content_contentDisplayBlock .contentTile").hide();</p>
+<p>						$(".content_contentDisplayBlock .contentTile:eq("+contentDisplayBlockIdx+")").show();</p>
+<p>					}</p>
+<p>					</p>
+<p>					--></p>
+<p>					</p>
+<p>A sign at Bubby's in Osaka, Japan describes just how fresh the lemonade is.</p>
+<p>        </p>
+<p>	tag1="Most Read";</p>
+<p>	tag2="Talked About";</p>
+<p>	tag3="Editor's Choice";</p>
+<p>            </p>
+<p>	tag4="Tweets";</p>
+<p>	tag5="Newsletters";</p>
+<p>	tag6="WIN! WIN! WIN!";</p>
+<p>            </p>
+<p>	sponsored="";</p>
+<p>    var v_newscript = 1;</p>
+<p>    var v_arr = new Array(8);</p>
+<p>    var vc_arr = new Array(8);</p>
+<p>    var nxtblock = new Array(8);</p>
+<p>    var vnext_arr = new Array(8);</p>
+<p>    var vn_arr = new Array(8);</p>
+<p>    var cur_tab = "c_userBlock_tag1";</p>
+<p>    var tmout_tab = new Array(6);</p>
+<p>    var vimg_arr = new Array(8);</p>
+<p>    var v_timeout_tab = 13000;</p>
+<p>    vc_arr[1] = "MR";</p>
+<p>    vc_arr[2] = "ME";</p>
+<p>    vc_arr[3] = "MC";</p>
+<p>    vc_arr[4] = "F";</p>
+<p>    vc_arr[5] = "B";</p>
+<p>    vc_arr[6] = "C";</p>
+<p>    </p>
+<p>    vimg_arr[1] = "url(/i/pics/pics_rev/tab_item_sel_bg_tile.gif) repeat-x";</p>
+<p>	vimg_arr[2] = "url(/i/pics/pics_rev/tab_item_sel_bg_lft.gif) no-repeat";</p>
+<p>	vimg_arr[3] = "url(/i/pics/pics_rev/tab_item_sel_bg_rht.gif) right no-repeat";</p>
+<p>    </p>
+<p>    </p>
+<p>	nxtblock[1] = 1;</p>
+<p>	nxtblock[2] = 4;</p>
+<p>    function hide_content ( v_start, v_end ) </p>
+<p>    {</p>
+<p>        //alert(\'function: hide_content\');</p>
+<p>        for ( i = v_start; i < v_end; i ++ ) </p>
+<p>		{</p>
+<p>           	//alert("#c_userBlock_tag" + i);</p>
+<p>			$("#c_userBlock_tag" + i).hide();</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function fade_next( blk ) </p>
+<p>    {</p>
+<p>    	//alert(\'block: \' + blk);</p>
+<p>    </p>
+<p>        setuserBlock(vc_arr[nxtblock[blk]],'c_userBlock_tag' + nxtblock[blk], blk);</p>
+<p>        //setuserBlock(vc_arr[nxtblock[blk]],\'c_userBlock_tag\' + blk, blk)</p>
+<p>        //alert(\'function: fade_next\');</p>
+<p>    }</p>
+<p>    function setuserBlock (theTarget,theContent,theBlock)</p>
+<p>    {</p>
+<p>        v_start = (theBlock-1) * 3 + 1;</p>
+<p>        v_end = theBlock * 3 + 1;</p>
+<p>        clearTimeout(tmout_tab[theBlock]);</p>
+<p>        cur_tab = theContent;</p>
+<p>        </p>
+<p>        nxtblock[theBlock]++;</p>
+<p>        if ( nxtblock[theBlock] >= v_end )</p>
+<p>            nxtblock[theBlock] = v_start;</p>
+<p>        for ( i = v_start; i < v_end; i ++ ) </p>
+<p>		{</p>
+<p>            for ( b = 1; b < 4; b ++ ) </p>
+<p>             {</p>
+<p>                </p>
+<p>                v_str = "#" + vc_arr[i] + "_hd_" + b;</p>
+<p>		    //	alert(v_str);</p>
+<p>                $(v_str).css("background", "none").css("color", "#878787");</p>
+<p>                //document.getElementById(v_str).style.background =  "#878787";</p>
+<p>            }</p>
+<p>        }</p>
+<p>        for ( b = 1; b < 4; b ++ ) </p>
+<p>		{</p>
+<p>            v_str = "#" + theTarget + "_hd_" + b;</p>
+<p>            </p>
+<p>            $(v_str).css("background", vimg_arr[b]).css("color", "#00508e");</p>
+<p>            </p>
+<p>            //alert(v_str + vimg_arr[b]);</p>
+<p>            //document.getElementById(v_str).style.background =  "#00508e";</p>
+<p>        }</p>
+<p>        var item = $("#c_userBlock_display" + theBlock);</p>
+<p>        var v_flt = item.css("filter");</p>
+<p>        </p>
+<p>        item.fadeOut("slow", function() </p>
+<p>        {</p>
+<p>            item.html($("#"+theContent).html());</p>
+<p>            item.fadeIn("slow", function() </p>
+<p>            {</p>
+<p>                item.css("filter", v_flt);</p>
+<p>                </p>
+<p>                tmout_tab[theBlock] = setTimeout("fade_next(" + theBlock + ")", v_timeout_tab);</p>
+<p>            });</p>
+<p>        });</p>
+<p>    }</p>
+<p>    </p>
+<p>    $(document).ready(function()</p>
+<p>	{</p>
+<p>        hide_content(1, 4);</p>
+<p>        hide_content(4, 7);</p>
+<p>        </p>
+<p>        setuserBlock("MR", "c_userBlock_tag1", 1);</p>
+<p>        setuserBlock("F", "c_userBlock_tag4", 2);</p>
+<p>        </p>
+<p>        tmout_tab[1] = setTimeout("fade_next(1)", v_timeout_tab);</p>
+<p>        tmout_tab[2] = setTimeout("fade_next(2)", v_timeout_tab);</p>
+<p>        </p>
+<p>        $("#c_userBlock_holder").mouseover(function() { clearTimeout(tmout_tab[1]); });</p>
+<p>        //$("#c_userBlock_holder").mouseleave(function() { tmout_tab[1] = setTimeout("fade_next(1)", v_timeout_tab); });</p>
+<p>        </p>
+<p>        $("#c_userBlock_holder2").mouseover(function() { clearTimeout(tmout_tab[2]); });</p>
+<p>        //$("#c_userBlock_holder2").mouseleave(function() { tmout_tab[2] = setTimeout("fade_next(2)", v_timeout_tab); });</p>
+<p>        $("#B_hd_3").click(function() { clearTimeout(tmout_tab[2]); });</p>
+<p>        </p>
+<p>        ua = navigator.userAgent.toLowerCase();</p>
+<p>        ie6 = (ua.indexOf("msie") && document.all && ua.indexOf("netscape") == -1);</p>
+<p>        nnf = (ua.indexOf("netscape") != -1 && ua.indexOf("gecko") != -1);</p>
+<p>        nni = (ua.indexOf("netscape") != -1 && ua.indexOf("msie") != -1);</p>
+<p>        nn6 = (ua.indexOf("netscape") != -1);</p>
+<p>        gek = (ua.indexOf("gecko") != -1);</p>
+<p>        ff1 = (ua.indexOf("firefox") != -1);</p>
+<p>        opr = (ua.indexOf("opera") != -1);</p>
+<p>        mac = (ua.indexOf("mac") != -1);</p>
+<p>        web = (ua.indexOf("webtv") != -1);</p>
+<p>        saf = (ua.indexOf("safari") != -1);</p>
+<p>        kon = (ua.indexOf("konqueror") != -1);</p>
+<p>        chr = (ua.indexOf("chrome") != -1);</p>
+<p>        nn4 = (document.layers);</p>
+<p>        if (chr || saf) {</p>
+<p>            $("#interstitial").css("background", "red");</p>
+<p>        }</p>
+<p>        </p>
+<p>    });</p>
+<p>document.write(tag1);</p>
+<p>document.write(tag2);</p>
+<p>document.write(tag3);</p>
+<p>			load_url = '/apps/ajax-load-boxes/?name=most-read-generic&cat=/lifestyle/food-wine/news/news';</p>
+<p>			var item = $("#c_userBlock_tag1");</p>
+<p>			var lameDisqus  = '<div id="popularthreads" class="dsq-widget"><h2 class="dsq-widget-title">Popular Threads</h2><scr' + 'ipt  src="http://testiaf.disqus.com/popular_threads_widget.js?num_items=5"></scr' + 'ipt></div>'</p>
+<p>			</p>
+<p>			item.html('<img src="http://stat3.iaf.cdn.playfair.co.za/skins/13/images/ajax-loader.gif"> Loading');</p>
+<p>			</p>
+<p>			item.load(load_url);</p>
+<p>			</p>
+<p>			//item.html(lameDisqus);	</p>
+<p>			</p>
+<p>			</p>
+<p>	    	load_url = '/apps/ajax-load-boxes/?name=talked-about-today&cat=/lifestyle/food-wine/news/news';</p>
+<p>			var item = $("#c_userBlock_tag2");</p>
+<p>			item.html('<img src="http://stat3.iaf.cdn.playfair.co.za/skins/13/images/ajax-loader.gif"> Loading');</p>
+<p>			item.load(load_url);</p>
+<p>			</p>
+<p>	    	load_url = '/apps/ajax-load-boxes/?name=editors-choice-generic&cat=/lifestyle/food-wine/news/news';</p>
+<p>			var item = $("#c_userBlock_tag3");</p>
+<p>			item.html('<img src="http://stat3.iaf.cdn.playfair.co.za/skins/13/images/ajax-loader.gif"> Loading');</p>
+<p>			item.load(load_url);</p>
+<p>			</p>
+<p><!--</p>
+<p>if (window.adgroupid == undefined) {</p>
+<p>	window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|567|1586615|0|170|ADTECH;loc=100;target=_blank;key=key1+key2+key3+key4;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>')</p>
+<p>//--></p>
+<p>'Fresh, as in f**king fresh!'Article By: Phoenix MilesThu, 12 Jan 2012 10:20stLight.options({publisher:"b1025f32-e056-4699-9675-fd9b6e1a896f",doneScreen:"off",headerTitle:"Share this iafrica.com story!",headerfg:"#00508e",headerbg:"#ffffff"});</p>
+<p>  (function() {</p>
+<p>    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;</p>
+<p>    po.src = "https://apis.google.com/js/plusone.js";</p>
+<p>    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);</p>
+<p>  })();</p>
+<p><!--</p>
+<p>	</p>
+<p>.shareDiv{</p>
+<p>	overflow:hidden;</p>
+<p>	height:30px;</p>
+<p>	line-height:30px;</p>
+<p>	margin:10px 0px 5px 0px;</p>
+<p>}</p>
+<p>.gPlusDiv{</p>
+<p>	height: 20px; </p>
+<p>	width: 32px; </p>
+<p>	display: inline;</p>
+<p>	background: none transparent; </p>
+<p>	border-style: none; </p>
+<p>	padding:0px;</p>
+<p>    position: relative;</p>
+<p>    top: 5px;</p>
+<p>	}</p>
+<p>--></p>
+<p>One culture's swear word is another one's favourite adjective. It seems Japan has adopted one of the West's nasty four-lettered words with great gusto, using it to describe anything that's really fantastic.</p>
+<p>A New Yorker says he is to blame for this recent phenomenon. Owner and chef for a restaurant chain called Bubby's, Ron Silver was in Yokohama, Japan in 2009 setting up a branch of the restaurant there when he insisted on fresh produce. According to Silver, the Japanese use a lot of frozen goods and in his frustration to explain fresh to his staff, he ranted at them, "I mean f**king fresh, man."</p>
+<p>The following day, his staff asked him whether by fresh he meant canned, which started him ranting again, " What do you not understand about f**ing fresh?"</p>
+<p>According to the original report on Gawker.com, Silver's staff may have been teasing him the whole time as they soon decorated the Bubby's logo with the slogan, "f***kin fresh".</p>
+<p>So catchy is it, that it's become the unofficial slogan of the Osaka branch, written on the menus and adverts, like "F**kin Fresh & Delicious food" and "Bubby's F**kin Fresh lemonade" — dropping the "g" seems a popular spelling of the word.</p>
+<p>Now, it seems, the new-found adjective has been adopted elsewhere, with signs advertising a "f**kin sale" in Osaka, Japan, recently reported by Gawker.com.</p>
+<p>Whether or not the phrase originated at Bubby's, one thing is for certain, the Japanese have a certain way with the English language.  </p>
+<p>MORE FEATURESStick to your resolutionsIt's not always easy sticking to those New Year's resolutions, so here are a few tips that might help.Win a hamper with Windhoek!Windhoek Lager is giving away five fantastic hampers that include a mini braai, draught glasses and more!Cheers to a good sex lifeResearch shows that women who enjoy a drink or two daily also report satisfaction with their sex lives. </p>
+<p>			$(document).ready(function() {</p>
+<p>				var rightHeight = $('#articleListRight').attr('scrollHeight');</p>
+<p>				var articleHeight = $('.content_categoryArticle:first-child').attr('scrollHeight');</p>
+<p>				if (articleHeight < (rightHeight-150))</p>
+<p>				{</p>
+<p>				//First figure out if a competition is on the page - then target #postArticleContainer4</p>
+<p>				// else target #postArticleContainer1</p>
+<p>					if ($('#postArticleContainer4').length > 0)</p>
+<p>					{</p>
+<p>						var targetSelector = '#postArticleContainer4';</p>
+<p>					}</p>
+<p>					else</p>
+<p>					{</p>
+<p>						var targetSelector = '#postArticleContainer1';</p>
+<p>					}</p>
+<p>					$(targetSelector).empty();</p>
+<p>					$('.content_footerArticles .a_moreStories_theHead').addClass('b_moreStories_theHead');</p>
+<p>					$('.content_footerArticles .b_moreStories_theHead').removeClass('a_moreStories_theHead');</p>
+<p>					$('.content_footerArticles #more_art_stories').attr('id', 'more_art_stories_vert');</p>
+<p>					$('.content_footerArticles').remove().appendTo(targetSelector);</p>
+<p>					$('.content_footerArticles').css({'width':'280px'});</p>
+<p>					</p>
+<p>					</p>
+<p>					</p>
+<p>				}</p>
+<p>			});</p>
+<p>		</p>
+<p><!--</p>
+<p>if (window.adgroupid == undefined) {</p>
+<p>	window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|567|3326224|0|1|ADTECH;loc=100;target=_blank;key=;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>')</p>
+<p>//--></p>
+<p>		function sendFriend() {</p>
+<p>			sURL2="/apps/sendToAFriend/?content_id=772183&url=http://lifestyle.iafrica.com/food/news/news/772183.html";</p>
+<p>			spawn_window(sURL2,'win','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,width=450,height=350,resizable=yes');</p>
+<p>		}		</p>
+<p>		function spawn_window(content,spawn,sizing){</p>
+<p>			window.open(content,spawn,sizing);</p>
+<p>		}</p>
+<p>		</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>function print_go()</p>
+<p>    {</p>
+<p>        var a = window.open('','','width=720,height=820,scrollbars=yes');</p>
+<p>        a.document.open("text/html");		</p>
+<p>		a.document.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">');</p>
+<p>		a.document.write('<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">');</p>
+<p>		a.document.write('<head >');</p>
+<p>		a.document.write('<title>iafrica |</title>');</p>
+<p>		a.document.write('<meta http-equiv="content-type" content="text/html; charset=utf-8">');</p>
+<p>		a.document.write('<meta http-equiv="X-UA-Compatible" content="IE=7">');</p>
+<p>		a.document.write('<link rel="stylesheet" type="text/css" href="/skins/13/print.css" media="projection, screen" />');</p>
+<p>		</p>
+<p>		a.document.write('</he');</p>
+<p>		a.document.write('ad>');</p>
+<p>		a.document.write('<body>');			</p>
+<p>		a.document.write('<div style="margin:10px; padding:10px; background-color:#ffffff;">');</p>
+<p>		</p>
+<p>		a.document.write('<div id="divDot"></div>');</p>
+<p>		a.document.write('<img src="http://stat1.iaf.cdn.playfair.co.za/skins/13/bw_logo.jpg" width="170" height="46" />');		</p>
+<p>		a.document.write('<div style="clear:both"></div>');</p>
+<p>		</p>
+<p>		a.document.write(document.getElementById('printImage').innerHTML);</p>
+<p>        a.document.write(document.getElementById('headPrint').innerHTML);</p>
+<p>		a.document.write(document.getElementById('articleBodyPrint').innerHTML);</p>
+<p>		</p>
+<p>		a.document.write('<div align="left" style="padding: 10px;"><div id="divDot"></div>Copyright &copy; 2002-2010 iafrica.com, a division of Primedia Online* - <br>a Primedia company</div>');</p>
+<p>		</p>
+<p>		a.document.write('</div>');		</p>
+<p>		a.document.write('</body></html>');</p>
+<p>        a.document.close();</p>
+<p>		a.setTimeout("print()",5000);</p>
+<p>       </p>
+<p>    }	</p>
+<p>		</p>
+<p>USER COMMENTS:  ></p>
+<p>			</p>
+<p>			if(commentsLoaded != 772183){</p>
+<p>				var commentsLoaded = 772183;</p>
+<p>			</p>
+<p>				//alert('loading comments: ' + commentsLoaded);</p>
+<p>				</p>
+<p>				window.parent.reloadContentComments(5,772183);</p>
+<p>				window.parent.hideCommentForm();</p>
+<p>			}</p>
+<p>			</p>
+<p> </p>
+<p><!--</p>
+<p>if (window.adgroupid == undefined) {</p>
+<p>	window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|567|3326225|0|168|ADTECH;loc=100;target=_blank;key=;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>')</p>
+<p>//--></p>
+<p><!--</p>
+<p>if (window.adgroupid == undefined) {</p>
+<p>	window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|567|3326228|0|168|ADTECH;loc=100;target=_blank;key=;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>')</p>
+<p>//--></p>
+<p>Contact us</p>
+<p>Feedback</p>
+<p>Advertising</p>
+<p>Services</p>
+<p>About us</p>
+<p>Newsletters</p>
+<p>(function() { var f = document.getElementById("cse-search-box1"); if (!f) { f = document.getElementById("searchbox_demo"); } if (f && f.q) { var q = f.q; var n = navigator; var l = location; if (n.platform == "Win32") { q.style.cssText = " border: none;  width: 385px;"; } var b = function() { if (q.value == "") { q.style.background = "#FFFFFF url(/i/pics/google_watermark_footer.gif) left no-repeat"; } }; var f = function() { q.style.background = "#ffffff"; }; q.onfocus = f; q.onblur = b;  if (!/[&?]q=[^&]/.test(l.search)) { b(); } } })();</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Copyright Â© 2002-2012 iafrica.com, a division of Primedia Online* - a Primedia company</p>
+<p>Reproduction without permission is prohibited. All rights reserved.</p>
+<p>âº Privacy Policy</p>
+<p>âº Terms and Conditions</p>
+<p>Code Build 32</p>
+<p>QCV 003</p>
+<p>var d = new Date();</p>
+<p>document.write('<image src="http://iaf.stats.cdn.playfair.co.za/?1|526914|772183|5||'+d.getTime()+'" />')</p>
+<p><!--</p>
+<p>if (window.adgroupid == undefined) {</p>
+<p>	window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|567|3326226|0|16|ADTECH;loc=100;target=_blank;key=;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>')</p>
+<p>//--></p>

@@ -1,0 +1,1055 @@
+<p>                                                                                                                </p>
+<p>                                                                                Internet addictions, inhalers and a stern warning from top doctors - Pulse</p>
+<p>                                                                                                                </p>
+<p>                </p>
+<p>	// <![CDATA[</p>
+<p>		var Liferay = {</p>
+<p>			Browser: {</p>
+<p>				acceptsGzip: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				getMajorVersion: function() {</p>
+<p>					return 0.0;</p>
+<p>				},</p>
+<p>				getRevision: function() {</p>
+<p>					return "";</p>
+<p>				},</p>
+<p>				getVersion: function() {</p>
+<p>					return "";</p>
+<p>				},</p>
+<p>				isAir: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isChrome: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isFirefox: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isGecko: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isIe: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isIphone: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isLinux: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isMac: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isMobile: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isMozilla: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isOpera: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isRtf: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isSafari: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isSun: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isWap: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isWapXhtml: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isWebKit: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isWindows: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isWml: function() {</p>
+<p>					return false;</p>
+<p>				}</p>
+<p>			},</p>
+<p>			ThemeDisplay: {</p>
+<p>				getCompanyId: function() {</p>
+<p>					return "1";</p>
+<p>				},</p>
+<p>				getCompanyGroupId: function() {</p>
+<p>					return "4563456";</p>
+<p>				},</p>
+<p>				getUserId: function() {</p>
+<p>					return "10201";</p>
+<p>				},</p>
+<p>				</p>
+<p>				getDoAsUserIdEncoded: function() {</p>
+<p>					return "";</p>
+<p>				},</p>
+<p>				getPlid: function() {</p>
+<p>					return "5168194";</p>
+<p>				},</p>
+<p>				</p>
+<p>					getLayoutId: function() {</p>
+<p>						return "14";</p>
+<p>					},</p>
+<p>					getLayoutURL: function() {</p>
+<p>						return "http://www.pulsetoday.co.uk/article-content";</p>
+<p>					},</p>
+<p>					isPrivateLayout: function() {</p>
+<p>						return "false";</p>
+<p>					},</p>
+<p>					getParentLayoutId: function() {</p>
+<p>						return "0";</p>
+<p>					},</p>
+<p>				</p>
+<p>				getScopeGroupId: function() {</p>
+<p>					return "4585159";</p>
+<p>				},</p>
+<p>				getParentGroupId: function() {</p>
+<p>					return "4585159";</p>
+<p>				},</p>
+<p>				isImpersonated: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isSignedIn: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				getDefaultLanguageId: function() {</p>
+<p>					return "en_GB";</p>
+<p>				},</p>
+<p>				getLanguageId: function() {</p>
+<p>					return "en_GB";</p>
+<p>				},</p>
+<p>				isFreeformLayout: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isStateExclusive: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isStateMaximized: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				isStatePopUp: function() {</p>
+<p>					return false;</p>
+<p>				},</p>
+<p>				getPathContext: function() {</p>
+<p>					return "";</p>
+<p>				},</p>
+<p>				getPathImage: function() {</p>
+<p>					return "/image";</p>
+<p>				},</p>
+<p>				getPathJavaScript: function() {</p>
+<p>					return "/html/js";</p>
+<p>				},</p>
+<p>				getPathMain: function() {</p>
+<p>					return "/c";</p>
+<p>				},</p>
+<p>				getPathThemeImages: function() {</p>
+<p>					return "/conferences-theme/images";</p>
+<p>				},</p>
+<p>				getPathThemeRoot: function() {</p>
+<p>					return "/conferences-theme/";</p>
+<p>				},</p>
+<p>				getURLHome: function() {</p>
+<p>					return "http://www.pulsetoday.co.uk/web/guest";</p>
+<p>				},</p>
+<p>				getSessionId: function() {</p>
+<p>					return "D38D8E2627CE08C9D21C5A8E6881BA8D";</p>
+<p>				},</p>
+<p>				getPortletSetupShowBordersDefault: function() {</p>
+<p>					return false;</p>
+<p>				}</p>
+<p>			},</p>
+<p>			PropsValues: {</p>
+<p>				NTLM_AUTH_ENABLED: false</p>
+<p>			}</p>
+<p>		};</p>
+<p>		var themeDisplay = Liferay.ThemeDisplay;</p>
+<p>		</p>
+<p>		Liferay.AUI = {</p>
+<p>			getBasePath: function() {</p>
+<p>				return '/html/js/aui/';</p>
+<p>			},</p>
+<p>			getCombine: function() {</p>
+<p>				return true;</p>
+<p>			},</p>
+<p>			getComboPath: function() {</p>
+<p>				return '/combo/?browserId=other&minifierType=js&languageId=en_GB&t=1326207938000&p=/html/js&';</p>
+<p>			},</p>
+<p>			getFilter: function() {</p>
+<p>				</p>
+<p>						return {</p>
+<p>							replaceStr: function(match, fragment, string) {</p>
+<p>								return fragment + 'm=' + (match.split('/html/js')[1] || '');</p>
+<p>							},</p>
+<p>							searchExp: '(\\?|&)/([^&]+)'</p>
+<p>						};</p>
+<p>					</p>
+<p>			}</p>
+<p>		};</p>
+<p>		window.YUI_config = {</p>
+<p>			comboBase: Liferay.AUI.getComboPath(),</p>
+<p>			fetchCSS: false,</p>
+<p>			filter: Liferay.AUI.getFilter(),</p>
+<p>			root: Liferay.AUI.getBasePath()</p>
+<p>		};</p>
+<p>		</p>
+<p>		Liferay.currentURL = '\x2farticle-content\x2f-\x2farticle_display_list\x2f13284246\x2finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors';</p>
+<p>		Liferay.currentURLEncoded = '%2farticle-content%2f-%2farticle_display_list%2f13284246%2finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors';</p>
+<p>	// ]]></p>
+<p>	// <![CDATA[</p>
+<p>		</p>
+<p>				Liferay.Portlet.list = ['56_INSTANCE_DcT6','56_INSTANCE_Vq15','article_display_list_INSTANCE_0fO4','56_INSTANCE_yt2I','signupbox_WAR_signupboxportlet_INSTANCE_9Evv','48_INSTANCE_6xSY','56_INSTANCE_qC9G','59_INSTANCE_wGL1'];</p>
+<p>			</p>
+<p>	// ]]></p>
+<p>	/* <![CDATA[ */</p>
+<p>		</p>
+<p>			#heading .logo {</p>
+<p>				background: url(/image/company_logo?img_id=4584660&amp;t=1326207943992) no-repeat;</p>
+<p>				display: block;</p>
+<p>				font-size: 0;</p>
+<p>				height: 72px;</p>
+<p>				text-indent: -9999em;</p>
+<p>				width: 100px;</p>
+<p>			}</p>
+<p>		</p>
+<p>	/* ]]> */</p>
+<p>		#p_p_id_48_INSTANCE_6xSY_ {</p>
+<p>margin-top: 10px;</p>
+<p>margin-right: 0px;</p>
+<p>margin-bottom: 0px;</p>
+<p>margin-left: 0px</p>
+<p>}</p>
+<p> </p>
+<p>s.pageName='Internet addictions, inhalers and a stern warning from top doctors';                 </p>
+<p>s.pageURL='http://www.pulsetoday.co.uk/article-content/-/article_display_list/13284246/internet-addictions-inhalers-and-a-stern-warning-from-top-doctors';</p>
+<p>s.channel='article-content';</p>
+<p>s.eVar3='article-content';</p>
+<p>s.eVar4='';</p>
+<p>s.prop12='Anonymous User';</p>
+<p>s.referrer='null';</p>
+<p> /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>jQuery(document).ready(function(){</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code);</p>
+<p>});</p>
+<p>.bannerad{</p>
+<p>float:right;</p>
+<p>}</p>
+<p>.ie .bannerad{</p>
+<p>position:absolute;</p>
+<p>right:0px;</p>
+<p>float:right;</p>
+<p>}</p>
+<p>#header {</p>
+<p>	height: 260px;</p>
+<p>	width: 990px;</p>
+<p>	position: relative;</p>
+<p>	list-style: none;</p>
+<p>	margin-top: 0;</p>
+<p>	padding: 0;</p>
+<p>	text-align: left;</p>
+<p>}</p>
+<p>#leaderboard {</p>
+<p>	text-align: center;</p>
+<p>	margin-top: 10px;</p>
+<p>	position: 0;</p>
+<p>}</p>
+<p>#navlist {</p>
+<p>	width: 500px;</p>
+<p>	height: 10px;</p>
+<p>	padding-top: 5px;</p>
+<p>	padding-left: 0;</p>
+<p>	text-align: left;</p>
+<p>}</p>
+<p>#navlist li {</p>
+<p>	display: inline;</p>
+<p>	list-style-type: none;</p>
+<p>	margin: 0;</p>
+<p>	padding-right: 5px;</p>
+<p>	margin: 0;</p>
+<p>}</p>
+<p>#navlist li a {</p>
+<p>	text-decoration: none;</p>
+<p>	color: #999999;</p>
+<p>	list-style-position: inside;</p>
+<p>	text-align: left;</p>
+<p>}</p>
+<p>.line {</p>
+<p>	border-bottom: #EEEEEE 2px solid;</p>
+<p>	display: block;</p>
+<p>} </p>
+<p>img.i4fLogo {</p>
+<p>	position: absolute;</p>
+<p>	float:  left;</p>
+<p>	bottom: 0px;</p>
+<p>	left: 0px;</p>
+<p>}</p>
+<p>img.headerAd {</p>
+<p>	position: absolute;</p>
+<p>	float: right;</p>
+<p>	bottom: 0px;</p>
+<p>	right: 0px;</p>
+<p>	border: 0;</p>
+<p>}</p>
+<p>.headerAd {</p>
+<p>	position: absolute;</p>
+<p>	float: right;</p>
+<p>	bottom: 0px;</p>
+<p>	right: 0px;</p>
+<p>	border: 0;</p>
+<p>}</p>
+<p>//<![CDATA[</p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/Pulse.co.uk/;pagepos=top;sz=728x90;ord=' + ord + '?"><\/script>');</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/Pulse.co.uk/;pagepos=top;sz=192x90;ord=' + ord + '?"><\/script>');</p>
+<p>//]]></p>
+<p>PulseToday | Pulse Learning | Practical Commissioning | Pulse Seminars</p>
+<p>a.selected{ font-weight:bold; color:#939598; font-size:12px; text-decoration:none; padding:0px 5px;}</p>
+<p>a.alink{ font-weight:bold; color:#0079C1; font-size:12px; text-decoration:none; padding:0px 5px;}</p>
+<p>a.alink:hover{ font-weight:bold; color:#939598; font-size:12px; text-decoration:none;}</p>
+<p>h3.skyhead {margin: 0px 0px 3px 0px; font-size:20px; line-height:22px; color:#000000; text-align:right; font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal;}</p>
+<p>.skytext{font-size:12px; line-height:16px; font-family:Arial, Helvetica, sans-serif;  text-align:right;  color:#000000; margin:0px;}</p>
+<p>.sky a{text-decoration: none; border: none; color:#000000; }</p>
+<p> </p>
+<p>Some things never change</p>
+<p>  </p>
+<p>Despite the change of year, Copperfield's patients remain as odd as ever</p>
+<p> </p>
+<p> </p>
+<p>Login | Sign Up</p>
+<p> Pulse</p>
+<p> SearchMedica</p>
+<p>This Community</p>
+<p>	.bottom10px input.searchbox, .bottom10px input[type='text'].searchbox {</p>
+<p>	    background: none !important;</p>
+<p>		border: 2px solid #C6C7C8 !important;</p>
+<p>		padding: 2px !important;</p>
+<p>		width: 130px !important;}</p>
+<p>		</p>
+<p>	.firefox input.searchbox{</p>
+<p>		float:left;</p>
+<p>	}</p>
+<p>		</p>
+<p>	.searchbt{-moz-border-radius: 0 0 0 0 !important;</p>
+<p>		background: none repeat scroll 0 0 #C6C7C8 !important;</p>
+<p>		border: 0 none !important;</p>
+<p>		color: #000000 !important;</p>
+<p>		padding: 3px !important;</p>
+<p>		text-shadow: 0 0 #FFFFFF !important;}</p>
+<p>Thursday 12 January 2012</p>
+<p>Home</p>
+<p>News</p>
+<p>Comment</p>
+<p>Clinical</p>
+<p>Practice Business</p>
+<p>Commissioning</p>
+<p>CPD</p>
+<p>Forum</p>
+<p>Events</p>
+<p>Jobs & Careers</p>
+<p>Help & Support</p>
+<p>About Pulse</p>
+<p>#navigation #subnavigation {position:relative;z-index:100;}</p>
+<p>#navigation #subnavigation ul.child-menu{position:absolute;z-index:1000;}</p>
+<p>body{</p>
+<p>background:#FFFFFF none repeat scroll;</p>
+<p>}</p>
+<p>#wrapper{</p>
+<p>width:940px;</p>
+<p>}</p>
+<p>#bannercustom{</p>
+<p>border-top:20px solid#FFFFFF;</p>
+<p>}</p>
+<p>#strap{</p>
+<p>background:;</p>
+<p>color:;</p>
+<p>font-size:pt;</p>
+<p>font-style:normal;</p>
+<p>font-weight:bold;</p>
+<p>height:px;</p>
+<p>padding-top:px;</p>
+<p>}</p>
+<p>#strap a:link {</p>
+<p>color:;</p>
+<p>font-size:pt;</p>
+<p>font-style:normal;</p>
+<p>font-weight:bold;</p>
+<p>text-decoration:none;</p>
+<p>}</p>
+<p>#rootnavigation { </p>
+<p>background:#FFFFFF none repeat-x scroll center bottom;</p>
+<p>border-bottom:0px solid#000000;</p>
+<p>height:24px;</p>
+<p>margin-top:24px;</p>
+<p>font-style: normal;</p>
+<p>}</p>
+<p>#rootnavigation li {</p>
+<p>border-right:1px solid#00447c;</p>
+<p>}</p>
+<p>#rootnavigation li:hover {</p>
+<p>background:#FFFFFF;</p>
+<p>}</p>
+<p>#rootnavigation li:hover span{</p>
+<p>color:#85bad7;</p>
+<p>font-family:Arial,Verdana,Helvetica;</p>
+<p>font-size:9pt;</p>
+<p>font-weight:normal;</p>
+<p>text-decoration:none;</p>
+<p>font-style: normal;</p>
+<p>}</p>
+<p>#rootnavigation li #rid {</p>
+<p>	color:#00447c;</p>
+<p>	font-family:Arial,Verdana,Helvetica;</p>
+<p>	font-size:9pt;</p>
+<p>	font-weight:normal;</p>
+<p>	text-decoration:none;</p>
+<p>}</p>
+<p>#rootnavigation ul li.selected {</p>
+<p>background:#0079c1;</p>
+<p>}</p>
+<p>#rootnavigation li.selected #rid span{</p>
+<p>	color:#FFFFFF;</p>
+<p>	font-family:Arial,Verdana,Helvetica;</p>
+<p>	font-size:9pt;</p>
+<p>	font-weight:normal;</p>
+<p>	text-decoration:none;</p>
+<p>	font-style: normal;</p>
+<p>}</p>
+<p>#content-wrapper {</p>
+<p>background:#FFFFFF none repeat-x scroll;</p>
+<p>margin-bottom:20px;</p>
+<p>}</p>
+<p>#footer {</p>
+<p>background-color:#01437d;</p>
+<p>color:#FFFFFF;</p>
+<p>height:px;</p>
+<p>padding:7px 5px 7px 5px;</p>
+<p>}</p>
+<p>#footer a:link, #footer a:visited {</p>
+<p>color:#FFFFFF;</p>
+<p>font-size:11pt;</p>
+<p>font-weight:bold;</p>
+<p>text-decoration:none;</p>
+<p>}</p>
+<p>#footer a:hover {</p>
+<p>color:#ffffff;</p>
+<p>font-size:11pt;</p>
+<p>font-weight:bold;</p>
+<p>text-decoration:none;</p>
+<p>}</p>
+<p>#subnavigation {</p>
+<p>	background:#00447c none repeat-x scroll center bottom;</p>
+<p>	border-bottom:0px solid#000000;</p>
+<p>	height:24px;</p>
+<p>	font-style: normal;</p>
+<p>}</p>
+<p>#subnavigation #rli {</p>
+<p>border-right:1px solid#FFFFFF;</p>
+<p>}</p>
+<p>#subnavigation #rli:hover {</p>
+<p>background:#0079c1;</p>
+<p>}</p>
+<p>#subnavigation #rli a:hover span{</p>
+<p>color:#FFFFFF;</p>
+<p>font-family:Arial,Verdana,Helvetica;</p>
+<p>font-size:9pt;</p>
+<p>font-weight:normal;</p>
+<p>text-decoration:none;</p>
+<p>font-style: normal;</p>
+<p>}</p>
+<p>#subnavigation a:link span, #subnavigation a:visited span, #subnavigation a:active span {</p>
+<p>	color:#FFFFFFF;</p>
+<p>	font-family:Arial,Verdana,Helvetica;</p>
+<p>	font-size:9pt;</p>
+<p>	font-weight:normal;</p>
+<p>	text-decoration:none;</p>
+<p>}</p>
+<p>#subnavigation #rul #rli.selected {</p>
+<p>	background:#0079c1;</p>
+<p>}</p>
+<p>#subnavigation #rli.selected #aid span{</p>
+<p>	color:#FFFFFF;</p>
+<p>	font-family:Arial,Verdana,Helvetica;</p>
+<p>	font-size:9pt;</p>
+<p>	font-weight:normal;</p>
+<p>	text-decoration:none;</p>
+<p>	font-style: normal;</p>
+<p>}</p>
+<p> </p>
+<p>.child-menu {</p>
+<p>	background:#00447c none repeat-x scroll center bottom;</p>
+<p>	font-style: normal;</p>
+<p>}</p>
+<p>.child-menu #rli:hover {</p>
+<p>	background:#0079c1;</p>
+<p>}</p>
+<p>.child-menu #rli a span{</p>
+<p>	color:#FFFFFFF;</p>
+<p>	font-family:Arial,Verdana,Helvetica;</p>
+<p>	font-size:9pt;</p>
+<p>	font-weight:normal;</p>
+<p>	text-decoration:none;</p>
+<p>}</p>
+<p>.child-menu #rli:hover span{</p>
+<p>	color:#FFFFFF;</p>
+<p>	font-family:Arial,Verdana,Helvetica;</p>
+<p>	font-size:9pt;</p>
+<p>	font-weight:normal;</p>
+<p>	text-decoration:none;</p>
+<p>	font-style: normal;</p>
+<p>}</p>
+<p>.child-menu #rli.selected {</p>
+<p>	background:#0079c1;</p>
+<p>}</p>
+<p>.child-menu #rli.selected a span{</p>
+<p>	color:#FFFFFF;</p>
+<p>	font-family:Arial,Verdana,Helvetica;</p>
+<p>	font-size:9pt;</p>
+<p>	font-weight:normal;</p>
+<p>	text-decoration:none;</p>
+<p>	font-style: normal;</p>
+<p>}</p>
+<p> </p>
+<p> jQuery(document).ready(function(){</p>
+<p>	var bannerImage='none';</p>
+<p>	if(bannerImage!="none" && bannerImage.length >0){</p>
+<p>		</p>
+<p> 		jQuery("#bannercustom").html('<img src="none" />');</p>
+<p>		 </p>
+<p>	}</p>
+<p>	 </p>
+<p>	});</p>
+<p>if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}</p>
+<p>document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/Pulse.co.uk/;pagepos=sky;keyword=;affinity2=;sz=120x600;ord=' + ord + '?" type="text/javascript"><\/script>');</p>
+<p>if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}</p>
+<p>document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/Pulse.co.uk/;pagepos=sky2;keyword=;affinity2=;sz=120x600;ord=' + ord + '?" type="text/javascript"><\/script>');</p>
+<p>.taglib-header {</p>
+<p>border-bottom:0 none;</p>
+<p>}</p>
+<p>.print-action img{</p>
+<p>display:none;</p>
+<p>}</p>
+<p>.smallinks a,.smallinks a:hover{</p>
+<p>text-decoration:none;</p>
+<p>}</p>
+<p>.taglib-icon .taglib-text {</p>
+<p>    text-decoration: none;</p>
+<p>}</p>
+<p>			Internet addictions, inhalers and a stern warning from top doctors</p>
+<p>By Madlen Davies</p>
+<p>				</p>
+<p>			| 12 Jan 2012</p>
+<p>	 </p>
+<p>Our roundup of the health news headlines on Thursday 12 January.</p>
+<p>		 </p>
+<p>	Reading this online? Watch out- the brains of web addicts showed changes similar to those seen in alcohol or cocaine addicts, The Telegraph reports. </p>
+<p>	 </p>
+<p>	Up to one in ten internet users are thought to have "internet addiction disorder", a condition meaning they have become so dependent on the web they forgo their responsibilities in life. Henrietta Bowen Jones, a consultant psychiatrist at Imperial College who runs Britain's only NHS clinic for internet addicts, describes how those addicted to the web tend to be gamers who lose the ability to make emotional connections with anything outside the game. </p>
+<p>	 </p>
+<p>The Independent flagged up the cases of an Xbox addict who was killed by a blood clot after regularly spending up to 12 hours a time playing on his console as well as a mother who left her toddler to starve to death as she played the simulation game World of Warcraft.</p>
+<p>	 </p>
+<p>	Students with asthma are being put at risk as schools are banned from keeping spare inhalers as they are prescription-only medicines, the Daily Mail reports.  Charity Asthma UK surveyed over 200 youngsters and found that over two thirds of students have had an asthma attack at school, but 55% did not always know where to find their inhaler. </p>
+<p>	 </p>
+<p>The Guardian reveals warnings from senior doctors who say that ‘stifling' EU laws limit doctors working hours and mean they do not get enough time to train properly for the job. Norman Williams, president of the Royal College of Surgeons, and Sir Richard Thompson, president of the Royal College of Physicians, have called for change in the law.</p>
+<p>	 </p>
+<p>	 </p>
+<p>					</p>
+<p>							</p>
+<p>							 | </p>
+<p>							Email</p>
+<p> </p>
+<p>Share</p>
+<p>.bookmark-links a { color: #939598 !important; font-size: 10px; font-weight: normal;}</p>
+<p>	.red_title {</p>
+<p>		border-top:3px solid #86bad0;</p>
+<p>		padding-top: 5px;</p>
+<p>		font-weight:bold;</p>
+<p>		color:#BD301C !important;</p>
+<p>		font-family : Arial,Helvetica,sans-serif;</p>
+<p>		font-size: 13px;</p>
+<p>		margin-top: 10px;</p>
+<p>	}</p>
+<p>	.red_title a {</p>
+<p>		color:#BD301C !important;</p>
+<p>		text-decoration:none;</p>
+<p>	}</p>
+<p>	#blue_content .content {</p>
+<p>		color:#0078c1;</p>
+<p>		font-size: 12px;</p>
+<p>		}</p>
+<p>	#blue_content .graycolortext {</p>
+<p>		color:#949597;</p>
+<p>		}	</p>
+<p>	.graylinks a {</p>
+<p>		color:#949597;</p>
+<p>		text-decoration:none;</p>
+<p>		padding-right: 5px;</p>
+<p>		}</p>
+<p>	#blue_content input, #blue_content textarea {</p>
+<p>		border:1px solid #dddddd;</p>
+<p>		}</p>
+<p>	.pulse-comment-rating .aui-rating-label-element {</p>
+<p>		color: #939598 !important;</p>
+<p>		font-size: 10px !important;</p>
+<p>		font-weight: normal !important;</p>
+<p>	}</p>
+<p>	</p>
+<p>READERS' COMMENTS</p>
+<p>ADD YOUR COMMENTS</p>
+<p>Please note</p>
+<p>							You must be a registered user of PulseToday and logged in to add comments. Opinions expressed below are those of the writers and do not necessarily reflect those of PulseToday. Comments are considered in the public domain and may be used in future Pulse coverage. We accept no responsibility, legal or otherwise, for the accuracy or the content of member comments.</p>
+<p>Comment*</p>
+<p>					Post As Anonymous User</p>
+<p>				You must be logged in to add a comment.Clickhere</p>
+<p>				to login.</p>
+<p>		function  getpopuppage () {</p>
+<p>			window.open('http://www.pulsetoday.co.uk/article-content?p_p_id=article_display_list_INSTANCE_0fO4&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&p_p_col_id=column-3&p_p_col_count=1&_article_display_list_INSTANCE_0fO4_struts_action=%2farticle_display_list%2femail_article&_article_display_list_INSTANCE_0fO4_articleURL=http%3a%2f%2fwww.pulsetoday.co.uk%2farticle-content%2f-%2farticle_display_list%2f13284246%2finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors&_article_display_list_INSTANCE_0fO4_from=popup&_article_display_list_INSTANCE_0fO4_title=Internet+addictions%2c%20inhalers+and+a+stern+warning+from+top+doctors', '', "directories=0,height=400,left=80,location=1,menubar=1,resizable=1,scrollbars=no,status=0,toolbar=0,top=180,width=500");</p>
+<p>		}</p>
+<p>		SIGN UP FOR EMAIL NEWSLETTERS</p>
+<p>	Keep up-to-date with the latest changes to the NHS, CPD and clinical guidelines. Sign up below or find out more.</p>
+<p>No newsletter to be displayed.</p>
+<p>				Your browser does not support inline frames or is currently configured not to display inline frames. Content can be viewed at actual source page: http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FPulseToday.co.uk&width=300&colorscheme=light&show_faces=true&stream=false&header=true&height=285" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:300px;" allowTransparency="true"&.</p>
+<p>		POLLS</p>
+<p> Should GP practices be legally obliged to register known illegal immigrants? Read the full story here</p>
+<p> </p>
+<p>Yes </p>
+<p> </p>
+<p>No </p>
+<p>Contact us</p>
+<p>Pulse seminars </p>
+<p>Pulse Medical Store</p>
+<p>Terms and Conditions </p>
+<p>Privacy Policy</p>
+<p>Site map</p>
+<p>		// <![CDATA[</p>
+<p>			</p>
+<p>	Liferay.Util.addInputFocus();</p>
+<p>	</p>
+<p>		// ]]></p>
+<p>	</p>
+<p>		// <![CDATA[</p>
+<p>			</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_103_',</p>
+<p>					portletId: '103',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d103\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>	function _48_INSTANCE_6xSY_maximizeIframe(iframe) {</p>
+<p>		var winHeight = 0;</p>
+<p>		if (typeof(window.innerWidth) == 'number') {</p>
+<p>			// Non-IE</p>
+<p>			winHeight = window.innerHeight;</p>
+<p>		}</p>
+<p>		else if ((document.documentElement) &&</p>
+<p>				 (document.documentElement.clientWidth || document.documentElement.clientHeight)) {</p>
+<p>			// IE 6+</p>
+<p>			winHeight = document.documentElement.clientHeight;</p>
+<p>		}</p>
+<p>		else if ((document.body) &&</p>
+<p>				 (document.body.clientWidth || document.body.clientHeight)) {</p>
+<p>			// IE 4 compatible</p>
+<p>			winHeight = document.body.clientHeight;</p>
+<p>		}</p>
+<p>		// The value 139 here is derived (tab_height * num_tab_levels) +</p>
+<p>		// height_of_banner + bottom_spacer. 139 just happend to work in</p>
+<p>		// this instance in IE and Firefox at the time.</p>
+<p>		iframe.height = (winHeight - 139);</p>
+<p>	}</p>
+<p>	function _48_INSTANCE_6xSY_monitorIframe() {</p>
+<p>		var url = null;</p>
+<p>		try {</p>
+<p>			var iframe = document.getElementById('_48_INSTANCE_6xSY_iframe');</p>
+<p>			url = iframe.contentWindow.document.location.href;</p>
+<p>		}</p>
+<p>		catch (e) {</p>
+<p>			return true;</p>
+<p>		}</p>
+<p>		var baseSrc = 'http://www.facebook.com/plugins/';</p>
+<p>		var iframeSrc = 'http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FPulseToday.co.uk&amp;width=300&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=true&amp;height=285" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:300px;" allowTransparency="true"&';</p>
+<p>		if ((url == iframeSrc) || (url == iframeSrc + '/')) {</p>
+<p>		}</p>
+<p>		else if (Liferay.Util.startsWith(url, baseSrc)) {</p>
+<p>			url = url.substring(baseSrc.length);</p>
+<p>			_48_INSTANCE_6xSY_updateHash(url);</p>
+<p>		}</p>
+<p>		else {</p>
+<p>			_48_INSTANCE_6xSY_updateHash(url);</p>
+<p>		}</p>
+<p>		return true;</p>
+<p>	}</p>
+<p>	function _48_INSTANCE_6xSY_resizeIframe() {</p>
+<p>		var iframe = document.getElementById('_48_INSTANCE_6xSY_iframe');</p>
+<p>		var height = null;</p>
+<p>		try {</p>
+<p>			height = iframe.contentWindow.document.body.scrollHeight;</p>
+<p>		}</p>
+<p>		catch (e) {</p>
+<p>			if (themeDisplay.isStateMaximized()) {</p>
+<p>				_48_INSTANCE_6xSY_maximizeIframe(iframe);</p>
+<p>			}</p>
+<p>			else {</p>
+<p>				iframe.height = 300;</p>
+<p>			}</p>
+<p>			return true;</p>
+<p>		}</p>
+<p>		iframe.height = height + 50;</p>
+<p>		return true;</p>
+<p>	}</p>
+<p>	Liferay.provide(</p>
+<p>		window,</p>
+<p>		'_48_INSTANCE_6xSY_init',</p>
+<p>		function() {</p>
+<p>			var A = AUI();</p>
+<p>			var hash = document.location.hash;</p>
+<p>			if ((hash != '#') && (hash != '')) {</p>
+<p>				var src = '';</p>
+<p>				var path = hash.substring(1);</p>
+<p>				if (path.indexOf('http://') != 0) {</p>
+<p>					src = 'http://www.facebook.com/plugins/';</p>
+<p>				}</p>
+<p>				src += path;</p>
+<p>				var iframe = A.one('#_48_INSTANCE_6xSY_iframe');</p>
+<p>				if (iframe) {</p>
+<p>					iframe.attr('src', src);</p>
+<p>				}</p>
+<p>			}</p>
+<p>		},</p>
+<p>		['aui-base']</p>
+<p>	);</p>
+<p>	Liferay.provide(</p>
+<p>		window,</p>
+<p>		'_48_INSTANCE_6xSY_updateHash',</p>
+<p>		function(url) {</p>
+<p>			var A = AUI();</p>
+<p>			document.location.hash = url;</p>
+<p>			var maximize = A.one('#p_p_id_48_INSTANCE_6xSY_ .portlet-maximize-icon a');</p>
+<p>			if (maximize) {</p>
+<p>				var href = maximize.attr('href');</p>
+<p>				if (href.indexOf('#') != -1) {</p>
+<p>					href = href.substring(0, href.indexOf('#'));</p>
+<p>				}</p>
+<p>				maximize.attr('href', href + '#' + url);</p>
+<p>			}</p>
+<p>			var restore = A.one('#p_p_id_48_INSTANCE_6xSY_ a.portlet-icon-back');</p>
+<p>			if (restore) {</p>
+<p>				var href = restore.attr('href');</p>
+<p>				if (href.indexOf('#') != -1) {</p>
+<p>					href = href.substring(0, href.indexOf('#'));</p>
+<p>				}</p>
+<p>				restore.attr('href', href + '#' + url);</p>
+<p>			}</p>
+<p>		},</p>
+<p>		['aui-base']</p>
+<p>	);</p>
+<p>	_48_INSTANCE_6xSY_init();</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 2,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_48_INSTANCE_6xSY_',</p>
+<p>					portletId: '48_INSTANCE_6xSY',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d48_INSTANCE_6xSY\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_56_INSTANCE_DcT6_',</p>
+<p>					portletId: '56_INSTANCE_DcT6',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d56_INSTANCE_DcT6\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_56_INSTANCE_Vq15_',</p>
+<p>					portletId: '56_INSTANCE_Vq15',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d56_INSTANCE_Vq15\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_56_INSTANCE_qC9G_',</p>
+<p>					portletId: '56_INSTANCE_qC9G',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d56_INSTANCE_qC9G\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-9\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_56_INSTANCE_yt2I_',</p>
+<p>					portletId: '56_INSTANCE_yt2I',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d56_INSTANCE_yt2I\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 1,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_59_INSTANCE_wGL1_',</p>
+<p>					portletId: '59_INSTANCE_wGL1',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d59_INSTANCE_wGL1\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-9\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>		function hmhp_deleteMessage(i) {</p>
+<p>			eval("var messageId = document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_messageId" + i + ".value;");</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_cmd.value = "delete";</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_messageId.value = messageId;</p>
+<p>			submitForm(document._article_display_list_INSTANCE_0fO4_fm13284241);</p>
+<p>		}</p>
+<p>		function hmhp_postReply(i) {</p>
+<p>			eval("var parentMessageId = document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_parentMessageId" + i + ".value;");</p>
+<p>			eval("var body = document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_postReplyBody" + i + ".value;");			</p>
+<p>			eval("var postAsAnonymousUser = document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_postAsAnonymousUser.value;");</p>
+<p>			</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241.postAsAnonymousUser.value = postAsAnonymousUser;								</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_cmd.value = "add";</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_parentMessageId.value = parentMessageId;</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_body.value = body;			</p>
+<p>			</p>
+<p>			submitForm(document._article_display_list_INSTANCE_0fO4_fm13284241);</p>
+<p>		}</p>
+<p>		function hmhp_scrollIntoView(messageId) {</p>
+<p>			document.getElementById("_article_display_list_INSTANCE_0fO4_messageScroll" + messageId).scrollIntoView();</p>
+<p>		}</p>
+<p>		function hmhp_showForm(rowId, textAreaId) {</p>
+<p>			document.getElementById(rowId).style.display = "";</p>
+<p>			document.getElementById(textAreaId).focus();</p>
+<p>		}</p>
+<p>		function hmhp_updateMessage(i) {</p>
+<p>			eval("var messageId = document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_messageId" + i + ".value;");</p>
+<p>			eval("var body = document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_editReplyBody" + i + ".value;");</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_cmd.value = "update";</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_messageId.value = messageId;</p>
+<p>			document._article_display_list_INSTANCE_0fO4_fm13284241._article_display_list_INSTANCE_0fO4_body.value = body;</p>
+<p>			submitForm(document._article_display_list_INSTANCE_0fO4_fm13284241);</p>
+<p>		}</p>
+<p>	</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_article_display_list_INSTANCE_0fO4_',</p>
+<p>					portletId: 'article_display_list_INSTANCE_0fO4',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3darticle_display_list_INSTANCE_0fO4\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-3\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>function _signupbox_WAR_signupboxportlet_INSTANCE_9Evv_forGuestUserSubmit(){</p>
+<p>	var inputGuestValue = jQuery('#_signupbox_WAR_signupboxportlet_INSTANCE_9Evv_isGuestUser').val();</p>
+<p>	if(inputGuestValue=="true"){		</p>
+<p>			var referrer = document._signupbox_WAR_signupboxportlet_INSTANCE_9Evv_fm1.referrer.value;</p>
+<p>			var email = document._signupbox_WAR_signupboxportlet_INSTANCE_9Evv_fm1._signupbox_WAR_signupboxportlet_INSTANCE_9Evv_guestEmailAddress.value;</p>
+<p>			document._signupbox_WAR_signupboxportlet_INSTANCE_9Evv_fm1.action = "https://member.ubmmedica.co.uk/register.php";			</p>
+<p>			document._signupbox_WAR_signupboxportlet_INSTANCE_9Evv_fm1.elements["username"].value = email;</p>
+<p>			document._signupbox_WAR_signupboxportlet_INSTANCE_9Evv_fm1.elements["referrer"].value = referrer + '?groupId=' + "4585159";</p>
+<p>			var divUS = "";</p>
+<p>			jQuery("input:checkbox:checked").each(function() {</p>
+<p>				divUS  += "<input type='hidden' name='asset[]' value='"+this.name+"'> ";</p>
+<p>			});</p>
+<p>			var myDiv =	document.getElementById("userSelectionDiv");</p>
+<p>			myDiv.innerHTML = divUS;		</p>
+<p>	}</p>
+<p>}</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 1,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_signupbox_WAR_signupboxportlet_INSTANCE_9Evv_',</p>
+<p>					portletId: 'signupbox_WAR_signupboxportlet_INSTANCE_9Evv',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3dsignupbox_WAR_signupboxportlet_INSTANCE_9Evv\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_metadata_WAR_admintoolsportlet_',</p>
+<p>					portletId: 'metadata_WAR_admintoolsportlet',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3dmetadata_WAR_admintoolsportlet\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_omniture_WAR_admintoolsportlet_',</p>
+<p>					portletId: 'omniture_WAR_admintoolsportlet',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3domniture_WAR_admintoolsportlet\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_displaybanner_WAR_headerbannerportlet_',</p>
+<p>					portletId: 'displaybanner_WAR_headerbannerportlet',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3ddisplaybanner_WAR_headerbannerportlet\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_56_INSTANCE_mzhr_',</p>
+<p>					portletId: '56_INSTANCE_mzhr',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3d56_INSTANCE_mzhr\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>	 </p>
+<p>	function ctem_3_search() {</p>
+<p>		var keywords = document.ctem_3_fm._3_keywords.value;</p>
+<p>		var flag="true";</p>
+<p>		keywords = keywords.replace(/^\s+|\s+$/, '');</p>
+<p>		</p>
+<p>		if(jQuery('#community').val()=='pulse'){</p>
+<p>				flag=jQuery('#searchpulse').attr('checked');</p>
+<p>			}</p>
+<p>		</p>
+<p>		if(keywords != '' && flag) {</p>
+<p>			document.ctem_3_fm.submit();</p>
+<p>			}</p>
+<p>		else{</p>
+<p>			</p>
+<p>			document.forms["searchMedicaForm"].q.value=keywords;</p>
+<p>			document.forms["searchMedicaForm"].submit();</p>
+<p>			//search in medica//////////////////</p>
+<p>		}	</p>
+<p>	}</p>
+<p>	function changeradio()</p>
+<p>	{</p>
+<p>		jQuery('#searchpulse').attr('checked','checked');</p>
+<p>	}</p>
+<p>	function changeradio1()</p>
+<p>	{</p>
+<p>		jQuery('#searchpulse').removeAttr('checked');</p>
+<p>	}</p>
+<p>	</p>
+<p>	</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_navigationtype_WAR_admintoolsportlet_',</p>
+<p>					portletId: 'navigationtype_WAR_admintoolsportlet',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3dnavigationtype_WAR_admintoolsportlet\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>			Liferay.Portlet.onLoad(</p>
+<p>				{</p>
+<p>					canEditTitle: false,</p>
+<p>					columnPos: 0,</p>
+<p>					isStatic: 'end',</p>
+<p>					namespacedId: 'p_p_id_cssdisplay_WAR_admintoolsportlet_',</p>
+<p>					portletId: 'cssdisplay_WAR_admintoolsportlet',</p>
+<p>					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d5168194\x26p_p_id\x3dcssdisplay_WAR_admintoolsportlet\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252farticle-content\x252f-\x252farticle_display_list\x252f13284246\x252finternet-addictions-inhalers-and-a-stern-warning-from-top-doctors'</p>
+<p>				}</p>
+<p>			);</p>
+<p>		</p>
+<p>				AUI().use(</p>
+<p>					'aui-base', 'aui-event-input', 'liferay-form', 'liferay-menu', 'liferay-notice', 'liferay-poller', </p>
+<p>					function(A) {</p>
+<p>						(function() {</p>
+<p>	Liferay.Form.register(</p>
+<p>		{</p>
+<p>			id: '_59_INSTANCE_wGL1_fm'</p>
+<p>			</p>
+<p>		}</p>
+<p>	);</p>
+<p>})();(function() {</p>
+<p>	Liferay.Form.register(</p>
+<p>		{</p>
+<p>			id: '_article_display_list_INSTANCE_0fO4_fm'</p>
+<p>			</p>
+<p>		}</p>
+<p>	);</p>
+<p>})();(function() {</p>
+<p>		var form = A.one(document._article_display_list_INSTANCE_0fO4_fm13284241);</p>
+<p>		if (form) {</p>
+<p>			var textareas = form.all('textarea');</p>
+<p>			if (textareas) {</p>
+<p>				textareas.on(</p>
+<p>					'input',</p>
+<p>					function(event) {</p>
+<p>						var textarea = event.currentTarget;</p>
+<p>						var currentValue = A.Lang.trim(textarea.val());</p>
+<p>						var id = textarea.get('id');</p>
+<p>						var buttonId = id.replace(/Body/, 'Button');</p>
+<p>						var button = A.one('#' + buttonId);</p>
+<p>						if (button) {</p>
+<p>							button.set('disabled', !currentValue.length);</p>
+<p>						}</p>
+<p>					}</p>
+<p>				);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	})();(function() {</p>
+<p>	Liferay.Form.register(</p>
+<p>		{</p>
+<p>			id: '_signupbox_WAR_signupboxportlet_INSTANCE_9Evv_fm1'</p>
+<p>			</p>
+<p>		}</p>
+<p>	);</p>
+<p>})();(function() {</p>
+<p>	Liferay.Util.addInputType();</p>
+<p>	Liferay.Portlet.ready(</p>
+<p>		function(portletId, node) {</p>
+<p>			Liferay.Util.addInputType(node);</p>
+<p>		}</p>
+<p>	);</p>
+<p>})();(function() {</p>
+<p>	new Liferay.Menu();</p>
+<p>	Liferay.Notice.prototype.setClosing();</p>
+<p>	})();</p>
+<p>					}</p>
+<p>				);</p>
+<p>			</p>
+<p>		// ]]></p>
+<p>	</p>
+<p>		// <![CDATA[</p>
+<p>			</p>
+<p>		// ]]></p>
+<p>	</p>

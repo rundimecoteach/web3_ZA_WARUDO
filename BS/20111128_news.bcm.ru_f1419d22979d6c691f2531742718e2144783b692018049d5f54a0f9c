@@ -1,0 +1,294 @@
+<p>NEWS.BCM.RU :: Ученые придумали, как выжить даже после летальной дозы облучения</p>
+<p>   function get_addon() {$("#addon"+get_addon.arguments[1]).load("addon_tab/"+get_addon.arguments[0]+"/"+get_addon.arguments[1]);}</p>
+<p>   function set_cal() {$("#calendar").load("calendar/"+set_cal.arguments[0]);}</p>
+<p>   function setImg(i)</p>
+<p>     {</p>
+<p>      $('.img_on').removeClass('img_on').addClass('img_off');</p>
+<p>      $('.hdr_on').removeClass('hdr_on').addClass('hdr_off');</p>
+<p>      $('#i'+i).removeClass('img_off').addClass('img_on');</p>
+<p>      $('#t'+i).removeClass('hdr_off').addClass('hdr_on');</p>
+<p>     }</p>
+<p>  </p>
+<p>GS_googleAddAdSenseService("ca-pub-4801501315495404");</p>
+<p>GS_googleEnableAllServices();</p>
+<p>GA_googleAddSlot("ca-pub-4801501315495404", "flash240x400");</p>
+<p>GA_googleFetchAds();</p>
+<p><!--</p>
+<p>function k_ph(p){document.write('<div id="kph'+p+'" style="display:none"><\/div>');}</p>
+<p>function k_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="k_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function k_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['k_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('k_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt type="text/javascript">var kphid="kph'+p+'";<\/scr'+'ipt>');</p>
+<p>d.write('<scr'+'ipt type="text/javascript" src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('k_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>if (typeof(document.referrer) != 'undefined') {afReferrer = escape(document.referrer);}</p>
+<p>else {afReferrer = '';}</p>
+<p>var addate = new Date();</p>
+<p>if ('undefined' == typeof(kav_cn)){ var kav_cn = 0; } else {++kav_cn;}</p>
+<p>k_ph(kav_cn); k_c(kav_cn);</p>
+<p>k_getCode(1,kav_cn,'http://b.kavanga.ru/exp?sid=3514&bt=7&bn=1&bc=3&ct=2&pr=' + Math.round(Math.random()*100000) + '&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer);</p>
+<p>//--></p>
+<p>19:01 28.11.2011 г.</p>
+<p>Недвижимость</p>
+<p>Кроссворды</p>
+<p>Детский портал</p>
+<p>Каталог</p>
+<p>НОВОСТИ</p>
+<p>СТАТЬИ</p>
+<p>ВИДЕО</p>
+<p>СЮЖЕТЫ</p>
+<p>ФОТОГАЛЕРЕИ</p>
+<p>КОММЕНТЫ</p>
+<p>РЕГИОНЫ</p>
+<p>RSS</p>
+<p>АРХИВ</p>
+<p>АВТОРЫ</p>
+<p>English version</p>
+<p>Новости</p>
+<p>В России</p>
+<p>В мире</p>
+<p>Экономика и бизнес</p>
+<p>Культура и искусство</p>
+<p>Спорт</p>
+<p>Авто</p>
+<p>Наука и образование</p>
+<p>Непознанное, НЛО</p>
+<p>Интернет и Hi-Tech</p>
+<p>Игры</p>
+<p>Медицина и здоровье</p>
+<p>Недвижимость</p>
+<p>Экология</p>
+<p>Общество</p>
+<p>Выборы в России</p>
+<p>Религия</p>
+<p>Преступность</p>
+<p>Происшествия</p>
+<p>Юмор</p>
+<p>Народный репортаж</p>
+<p>GA_googleFillSlot("flash240x400");</p>
+<p><!--</p>
+<p>function k_ph(p){document.write('<div id="kph'+p+'" style="display:none"><\/div>');}</p>
+<p>function k_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="k_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function k_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['k_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('k_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt type="text/javascript">var kphid="kph'+p+'";<\/scr'+'ipt>');</p>
+<p>d.write('<scr'+'ipt type="text/javascript" src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('k_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>if (typeof(document.referrer) != 'undefined') {afReferrer = escape(document.referrer);}</p>
+<p>else {afReferrer = '';}</p>
+<p>var addate = new Date();</p>
+<p>if ('undefined' == typeof(kav_cn)){ var kav_cn = 0; } else {++kav_cn;}</p>
+<p>k_ph(kav_cn); k_c(kav_cn);</p>
+<p>k_getCode(1,kav_cn,'http://b.kavanga.ru/exp?sid=3514&bt=5&bn=1&bc=3&ct=2&pr=' + Math.round(Math.random()*100000) + '&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer);</p>
+<p>//--></p>
+<p>Последние комментарии</p>
+<p>27.11.2011 14:08</p>
+<p>Господа чиновники ЕдРосы проводят съезд партии "Единая Россия" на бюджетные, народные деньги</p>
+<p>24.10.2011 20:38</p>
+<p>Женщины могут забыть о пенсии в 55, а мужчины в 60 лет ЕдРосы и ОНФигисты придумали как поднять пенсионный возраст россиян в обход закона</p>
+<p>15.11.2011 13:27</p>
+<p>США собираются развернуть ракеты ПРО в морях вокруг России, Россия готовит ответ…</p>
+<p>24.09.2010 12:20</p>
+<p>1 января 2011 года вступит в силу новый закон "О полиции"</p>
+<p>27.11.2011 16:53</p>
+<p>Беременность подарила Кристине Орбакайте пухлые губки</p>
+<p>Все »</p>
+<p> </p>
+<p>Самое комментируемое</p>
+<p>09.06.2011 17:27</p>
+<p>"Власть Семей-2011. Правительство. Часть 1." Сердюков Анатолий Эдуардович (31)</p>
+<p>04.10.2011 14:24</p>
+<p>Любовь внесли в реестр психических заболеваний ВОЗ (29)</p>
+<p>08.09.2010 18:00</p>
+<p>Ирина Понаровская покинет Россию из-за нападения скинхедов на ее темнокожего сына (25)</p>
+<p>18.07.2011 14:41</p>
+<p>Полицайские зассанцы из культурной столицы России (23)</p>
+<p>09.04.2011 19:18</p>
+<p>Никита Михалков не намерен отдавать мигалку Ебардею Гордеевичу (22)</p>
+<p>Все »</p>
+<p>yandex_partner_id = 50293;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 0.9;</p>
+<p>yandex_direct_type = 'vertical';</p>
+<p>yandex_direct_limit = 9;</p>
+<p>yandex_direct_title_color = 'D40202';</p>
+<p>yandex_direct_url_color = '006600';</p>
+<p>yandex_direct_all_color = '0000CC';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = 'D40202';</p>
+<p>yandex_direct_favicon = false;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>Загрузка...</p>
+<p><!--</p>
+<p>function k_ph(p){document.write('<div id="kph'+p+'" style="display:none"><\/div>');}</p>
+<p>function k_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="k_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function k_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['k_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('k_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt type="text/javascript">var kphid="kph'+p+'";<\/scr'+'ipt>');</p>
+<p>d.write('<scr'+'ipt type="text/javascript" src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('k_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>if (typeof(document.referrer) != 'undefined') {afReferrer = escape(document.referrer);}</p>
+<p>else {afReferrer = '';}</p>
+<p>var addate = new Date();</p>
+<p>if ('undefined' == typeof(kav_cn)){ var kav_cn = 0; } else {++kav_cn;}</p>
+<p>k_ph(kav_cn); k_c(kav_cn);</p>
+<p>k_getCode(1,kav_cn,'http://b.kavanga.ru/exp?sid=3514&bt=15&bn=1&bc=1&ct=2&pr=' + Math.round(Math.random()*100000) + '&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer);</p>
+<p>//--></p>
+<p>function toggleItem(elid)</p>
+<p> {</p>
+<p>  var el = document.getElementById(elid);</p>
+<p>  if (el == null) return;</p>
+<p>  if (el.style.display == '') el.style.display = 'none';</p>
+<p>  else el.style.display = '';</p>
+<p> }</p>
+<p>function preview()</p>
+<p> {</p>
+<p>  var uname = document.getElementById("uname").value;</p>
+<p>  var ucomment = document.getElementById("ucomment").value;</p>
+<p>  $.post("post/preview", {un: uname, uc: ucomment}, function(data){$('#preview').html(data); });</p>
+<p>  document.getElementById('preview').style.display='block';</p>
+<p> }</p>
+<p>function send()</p>
+<p> {</p>
+<p>  var did = document.getElementById("docid").value;</p>
+<p>  var uname = document.getElementById("uname").value;</p>
+<p>  var uemail = document.getElementById("uemail").value;</p>
+<p>  var ucomment = document.getElementById("ucomment").value;</p>
+<p>  var ucaptcha = document.getElementById("captcha").value;</p>
+<p>  var uagree = (document.getElementById("agree").checked)?1:0;</p>
+<p>  $.post("post/save", {um: uemail, un: uname, uc: ucomment, captcha: ucaptcha, agree: uagree, docid: did}, function(data){$('#comment_form').html(data); });</p>
+<p> }</p>
+<p>function set_page()</p>
+<p> {</p>
+<p>  var page = parseInt(document.getElementById("page").value, 10);</p>
+<p>  var base;</p>
+<p>  if (document.baseURI === undefined)</p>
+<p>     {</p>
+<p>      var baseTags = document.getElementsByTagName ("base");</p>
+<p>      if (baseTags.length > 0) base = baseTags[0].href;</p>
+<p>      else base = window.location.href;</p>
+<p>     }</p>
+<p>  else base = document.baseURI;</p>
+<p>  if(isNaN(page) || page<1) return false;</p>
+<p>  else window.location=base+'medicine_and_health/2011/11/27/329688/'+page+'#comments';</p>
+<p> }</p>
+<p>Медицина и здоровье 27.11.2011 02:31</p>
+<p>Ученые придумали, как выжить даже после летальной дозы облучения</p>
+<p>        Ученые придумали, как выжить даже после летальной дозы облучения. Опыты показали, что введение в организм белка BPI в 80% случаев спасает организм от смерти.</p>
+<p> </p>
+<p>Ученые из Медицинской школы Гарварда в Бостоне разработали новый метод борьбы с последствиями высоких и даже смертельных уровней радиационного облучения. Они подключили к этой борьбе белок под названием BPI (bactericidal/permeability-increasing protein), участвующий в иммунном ответе на появление в кишечнике болезнетворных бактерий.</p>
+<p> </p>
+<p>Предположив наличие целительных свойств у этого белка, исследователи сначала решили проверить, что с ним происходит в организме после облучения. Они обследовали 48 пациентов, у которых высокая доза полученной радиации привела к повреждению костного мозга и необходимости в его трансплантации. Выяснилось, что уровень его содержания в крови упал у больных в среднем в 71 раз, причем у 37 из них этот белок вообще не удалось обнаружить.</p>
+<p> </p>
+<p>В принципе, подобные результаты были предсказуемы. Поврежденный костный мозг перестал производить белые кровяные тельца в нужном для организма количестве, а те в нормальной ситуации как раз способствуют производству белка BPI.</p>
+<p> </p>
+<p>Последующие эксперименты были проведены уже на мышах. Их облучили летальной дозой радиации и разделили на три группы: первым спустя сутки после облучения орально ввели антибиотик "флюорокинолон", вторым помимо антибиотика сделали инъекцию BPI, третьих оставили без лечения.</p>
+<p> </p>
+<p>Большинство мышей контрольной группы погибло в течение 30 дней. Антибиотик, как и ожидалось, повысил выживаемость – около 40% мышей первой группы спустя месяц оставались живы. Во второй же группе мышей, которых лечили белком BPI, выживаемость резко подскочила до 80%.</p>
+<p> </p>
+<p>Известно, что и антибиотик, использованный в эксперименте, и, разумеется, белок BPI, ни для больных, ни для здоровых людей не представляют опасности при лечении. По словам Офера Леви, одного из руководителей исследования, эти два медикамента, могут храниться долгое время, и, по его мнению, их следует запасать в большом количестве на случай крупных радиационных катастроф наподобие Фукусимы.</p>
+<p>          Источник:</p>
+<p>              ОКО ПЛАНЕТЫ</p>
+<p>Смотрите также</p>
+<p>29.10.2011 10:04 Недосыпание ведет к смерти!</p>
+<p>25.10.2011 15:18 Либо дети, либо фигура. Стройная фигура мешает женщинам забеременеть</p>
+<p>16.10.2011 11:03 Расшифрован геном "черной смерти" - чумы</p>
+<p>17.08.2011 18:30 Может ли у меня быть сердечный приступ? – Тесты могут дать точный ответ</p>
+<p>05.08.2011 22:22 Секреты усталости</p>
+<p>var addthis_config = {</p>
+<p>     ui_language: "ru"</p>
+<p>}</p>
+<p>Добавить в закладки и поделиться: </p>
+<p> </p>
+<p>Комментариев: 0</p>
+<p>Ваше сообщение</p>
+<p>Ваше имя:</p>
+<p>      Мы не требуем обязательного указания имени, Вы можете оставить это поле пустым, при этом Ваш комментарий будет</p>
+<p>      опубликован со стандартным именем «Гость».</p>
+<p>    </p>
+<p>Ваш e-mail адрес:</p>
+<p>      Если Ваш комментарий подразумевает какую-то реакцию на него или Вы считаете что он, возможно, может послужить</p>
+<p>      основой для самостоятельной публикации (см. Правила размещения комментариев), укажите</p>
+<p>      свой действующий e-mail адрес для того, чтобы мы могли связаться с Вами. В противном случае оставьте это поле пустым.</p>
+<p>    </p>
+<p>Комментарий:</p>
+<p>      Текст комментария должен быть указан. В нем не могут быть использованы html-коды и ссылки. Также действуют</p>
+<p>      некоторые другие ограничения. Подробно об этом Вы можете узнать из Правил размещения комментариев.</p>
+<p>    </p>
+<p> Подтверждаю что я прочитал Правила размещения комментариев и согласен соблюдать их.</p>
+<p>    </p>
+<p>Защитный код:</p>
+<p>      Введите код, изображенный на картинке выше. Если Вы не можете прочесть его,обновите изображение кликнув на него.</p>
+<p>    </p>
+<p>Медицина и здоровье</p>
+<p>28.11 01:17 В Великобритании заражённые ВИЧ медики смогут заниматься врачебной практикой</p>
+<p>28.11 00:03 Здоровый сон поможет преодолеть стресс</p>
+<p>27.11 23:17 Учёные выяснили, что по цвету продуктов можно определить их полезность</p>
+<p>Сюжеты</p>
+<p>Статьи Видео </p>
+<p>Борьба с пьянством и табакокурением в России</p>
+<p>Борьба с наркоманией в России</p>
+<p>Смертельные овощи: эпидемия кишечной палочки в Европе</p>
+<p>Он больше не свиной, а инфлюэнца A(H1N1). Грипп A/H1N1 в Мире</p>
+<p>Все »</p>
+<p> </p>
+<p>Новости России</p>
+<p>Поиск</p>
+<p>Найти!</p>
+<p>            var __bcm_rt= Math.round(Math.random()*1000000);</p>
+<p>            document.write('<sc'+'ript type="text/javascript" src="http://news.bcm.ru/bcmadnews_7.js?rt='+__bcm_rt+'"></sc'+'ript>');</p>
+<p>            </p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-4801501315495404";</p>
+<p>/* 160x600, news */</p>
+<p>google_ad_slot = "0228072487";</p>
+<p>google_ad_width = 160;</p>
+<p>google_ad_height = 600;</p>
+<p>//--></p>
+<p>Новости</p>
+<p>|</p>
+<p>Статьи</p>
+<p>|</p>
+<p>Видео</p>
+<p>|</p>
+<p>Сюжеты</p>
+<p>|</p>
+<p>Фотогалереи</p>
+<p>|</p>
+<p>RSS</p>
+<p>Архив</p>
+<p>|</p>
+<p>О проекте</p>
+<p>|</p>
+<p>Реклама</p>
+<p>|</p>
+<p>Специальный корреспондент</p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click;bcm_ru' "+</p>
+<p>"target=_blank><img src='http://counter.yadro.ru/hit;bcm_ru?t11.2;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";h"+escape(document.title.substring(0,80))+";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet: показано число просмотров за 24"+</p>
+<p>" часа, посетителей за 24 часа и за сегодня' "+</p>
+<p>"border='0' width='88' height='31'><\/a>")</p>
+<p>//--></p>
+<p>var s_sid = 886531;var st_dominio = 4;</p>
+<p>var cimg = 603;var cwi =110;var che =40;</p>
+<p>     © ОАО «БСМ». Свидетельство о регистрации СМИ</p>
+<p>     Эл No ФС77-37489. Разработка и дизайн «Интерлайн Про»</p>
+<p>    </p>
+<p> var MarketGidDate = new Date();</p>
+<p> document.write('<scr'+'ipt type="text/javascript" '+'src="http://jsn.dt00.net/b/c/bcm.ru.6023.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth() + '" charset="utf-8" ></scr'+'ipt>');</p>

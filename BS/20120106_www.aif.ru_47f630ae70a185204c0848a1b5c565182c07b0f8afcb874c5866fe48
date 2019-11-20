@@ -1,0 +1,1574 @@
+<p>7 самых важных для россиян событий в 2012 году - В РОССИИ И В МИРЕ - Деньги - Аргументы и Факты</p>
+<p><!--</p>
+<p>a:hover {text-decoration:underline;}</p>
+<p>div.article-text h2 {margin: 0px;}</p>
+<p>#ad_ph_1, #ad_ph_2, #ad_ph_3, #ad_ph_4, #ad_ph_5, #ad_ph_6, #ad_ph_7, #ad_ph_8, #ad_ph_9, #ad_ph_10 {margin-bottom: 5px;}</p>
+<p>--></p>
+<p> </p>
+<p>new adriver.Plugin.require("onScroll.adriver");</p>
+<p>                VK.init({apiId: 2881952, onlyWidgets: true});</p>
+<p>            </p>
+<p>		</p>
+<p>            (function(d, s, id) {</p>
+<p>                var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>                if (d.getElementById(id)) return;</p>
+<p>                js = d.createElement(s); js.id = id;</p>
+<p>                js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=274258079314604";</p>
+<p>                fjs.parentNode.insertBefore(js, fjs);</p>
+<p>            }(document, 'script', 'facebook-jssdk'));</p>
+<p>            /*(function(d){</p>
+<p>                var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {</p>
+<p>                        return;</p>
+<p>                }</p>
+<p>                js = d.createElement('script'); js.id = id; js.async = true;</p>
+<p>                js.src = "//connect.facebook.net/ru_RU/all.js";</p>
+<p>                d.getElementsByTagName('head')[0].appendChild(js);</p>
+<p>        }(document));</p>
+<p>             */</p>
+<p>            $(document).ready(function(){</p>
+<p>                window.fbAsyncInit = function() {</p>
+<p>                    //создаем приложение с именем aifappl, экшеном и объектом</p>
+<p>                    AifFB.App = new AifFB.App(274258079314604,'aifappl','reads','news','article');</p>
+<p>                    AifFB.App.init();</p>
+<p>                };</p>
+<p>            });</p>
+<p>        </p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=171127&target=top&bt=43&pz=0&tail256=');</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&sz=money&target=blank&bt=41&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=970 height=90 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>document.write("<img src='http://counter.yadro.ru/hit;AIF?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";h"+escape(document.title.substring(0,80))+";"+Math.random()+"' width=1 height=1 alt=''>");</p>
+<p>//--></p>
+<p>Весна – сезон кисломолочных продуктов!</p>
+<p>Источники белка и кальция</p>
+<p>Павел Астахов:</p>
+<p>«Упреки вселенского масштаба я принимать не готов»</p>
+<p>Сельский Кулибин</p>
+<p>Житель Красноярского края сам собирает вездеходы</p>
+<p>России сын и Украине друг</p>
+<p>Помощник Черномырдина о своем шефе и его жизни</p>
+<p>Россия-Германия: </p>
+<p>Cотрудничество в цифрах и фактах</p>
+<p>«Старый свет» и «новая жизнь»</p>
+<p>Реабилитация наркозависимых</p>
+<p>10/04/2013 10:26 МСК</p>
+<p>ГАЗЕТА</p>
+<p>Выбрать город: </p>
+<p>Федеральный АиФ</p>
+<p>Федеральный АиФ</p>
+<p>Санкт-Петербург</p>
+<p>Архангельск</p>
+<p>Барнаул</p>
+<p>Белгород</p>
+<p>Владивосток</p>
+<p>Владимир</p>
+<p>Волгоград</p>
+<p>Воронеж</p>
+<p>Екатеринбург</p>
+<p>Ижевск</p>
+<p>Иркутск</p>
+<p>Казань</p>
+<p>Камчатка</p>
+<p>Кемерово</p>
+<p>Краснодар</p>
+<p>Красноярск</p>
+<p>Курск</p>
+<p>Липецк</p>
+<p>Майкоп</p>
+<p>Минск</p>
+<p>Молдова</p>
+<p>Нижний Новгород</p>
+<p>Новосибирск</p>
+<p>Омск</p>
+<p>Оренбург</p>
+<p>Орел</p>
+<p>Пермь</p>
+<p>Петрозаводск</p>
+<p>Псков</p>
+<p>Ростов-на-Дону</p>
+<p>Рязань</p>
+<p>Самара</p>
+<p>Саратов</p>
+<p>Смоленск</p>
+<p>Ставрополь</p>
+<p>Тамбов</p>
+<p>Тула</p>
+<p>Украина</p>
+<p>Ульяновск</p>
+<p>Ханты-Мансийск</p>
+<p>Челябинск</p>
+<p>Ярославль</p>
+<p>$(document).ready(function(){</p>
+<p>	$("#select_region").click(function(event){</p>
+<p>		event.stopPropagation();</p>
+<p>		event.preventDefault();</p>
+<p>		var _region_popup = $('.select_region_popup');</p>
+<p>		var _fon = $('.fon');</p>
+<p>		$('body').append(_region_popup);</p>
+<p>		$('body').append(_fon);</p>
+<p>		$(_region_popup).show();</p>
+<p>		$(_fon).show();</p>
+<p>		$(_fon).height( $('body').height() );</p>
+<p>		$(_fon).width( $('body').width() );</p>
+<p>	});</p>
+<p>	</p>
+<p>	$('.popup_close', '.select_region_popup').click(function(){</p>
+<p>		$('.select_region_popup').hide();</p>
+<p>		$('.fon').hide();</p>
+<p>	});</p>
+<p>	</p>
+<p>	$('.fon').click(function(){</p>
+<p>		$('.select_region_popup').hide();</p>
+<p>		$('.fon').hide();</p>
+<p>	});</p>
+<p>        </p>
+<p>        	$('.select_region_column a').click(function(){</p>
+<p>		</p>
+<p>                </p>
+<p>                var value = $(this).attr('href');</p>
+<p>  </p>
+<p>      www2reg=new Array();</p>
+<p>      www2reg['http://www.aif.ru']='moscow';</p>
+<p>      www2reg['http://www.spb.aif.ru']='spb';</p>
+<p>      www2reg['http://www.kazan.aif.ru']='kazan';</p>
+<p>      www2reg['http://www.vlg.aif.ru']='vlg';</p>
+<p>      www2reg['http://www.sz.aif.ru']='sz';</p>
+<p>      www2reg['http://www.msk.aif.ru']='moscow';</p>
+<p>      www2reg['http://www.yar.aif.ru']='yar';</p>
+<p>      www2reg['http://www.samara.aif.ru']='samara';</p>
+<p>      www2reg['http://www.nsk.aif.ru']='nsk';</p>
+<p>      www2reg['http://www.perm.aif.ru']='perm';</p>
+<p>      www2reg['http://www.omsk.aif.ru']='omsk';</p>
+<p>      www2reg['http://www.chel.aif.ru']='chel';</p>
+<p>      www2reg['http://www.orenburg.aif.ru']='oren';</p>
+<p>      www2reg['http://www.kamchatka.aif.ru']='kamchatka';     </p>
+<p>      </p>
+<p>      www2reg['http://www.chr.aif.ru']='chr';</p>
+<p>      www2reg['http://www.altai.aif.ru']='altai';</p>
+<p>      www2reg['http://www.kuban.aif.ru']='kuban';</p>
+<p>      </p>
+<p>  </p>
+<p>  </p>
+<p>      if (www2reg[value])  {</p>
+<p>          $.cookie("region", www2reg[value],{</p>
+<p>                expires: 365,</p>
+<p>                path: "/",</p>
+<p>                domain: ".aif.ru"</p>
+<p>            });</p>
+<p>           </p>
+<p>           </p>
+<p>         </p>
+<p>           </p>
+<p>      }</p>
+<p>     });                </p>
+<p>                </p>
+<p>                </p>
+<p>        </p>
+<p>});</p>
+<p>#select_region {</p>
+<p>	font: 16px Arial,Helvetica,sans-serif;</p>
+<p>	border-bottom: 1px dashed #2659AC;</p>
+<p>	color: #2659AC;</p>
+<p>}</p>
+<p>#select_region:hover {</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>.clear {</p>
+<p>	clear:both;</p>
+<p>}</p>
+<p>.fon {</p>
+<p>	top: 0;</p>
+<p>	width:100%;</p>
+<p>	height:100%;</p>
+<p>	position:fixed;</p>
+<p>	background: #CCCCCC;</p>
+<p>	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70); /* IE 5.5+*/</p>
+<p>	-moz-opacity: 0.7; /* Mozilla 1.6 и ниже */</p>
+<p>	-khtml-opacity: 0.7; /* Konqueror 3.1, Safari 1.1 */</p>
+<p>	opacity: 0.7;</p>
+<p>	z-index: 997;</p>
+<p>}</p>
+<p>.select_region_popup {</p>
+<p>	background: url("/i/img/region_popup_bg.png");</p>
+<p>}</p>
+<p>.select_region_popup .block_right, .current_region_popup .block_right{</p>
+<p>	width:2px;</p>
+<p>	background: url('/i/img/regions_popup/border_right.png');</p>
+<p>	float:right;</p>
+<p>	height:100%;</p>
+<p>}</p>
+<p>.current_region_popup, .select_region_popup, .current_region_popup a, .select_region_popup a{</p>
+<p>	color: #2659AC;</p>
+<p>	font-family: Tahoma;</p>
+<p>	font-size: 14px;</p>
+<p>	font-weight: bold;</p>
+<p>	z-index:1000;</p>
+<p>}</p>
+<p>.current_region_popup .block_inner_content {</p>
+<p>	padding: 40px 25px 40px 25px;</p>
+<p>}</p>
+<p>.block_inner_text {</p>
+<p>	margin-bottom: 10px;</p>
+<p>}</p>
+<p>.block_inner_buttons a {</p>
+<p>	margin-right:20px;</p>
+<p>}</p>
+<p>.popup_close {</p>
+<p>	width: 20px;</p>
+<p>	height: 21px;</p>
+<p>	display: block;</p>
+<p>	position: absolute;</p>
+<p>	background: url('/i/img/regions_popup/close.png') no-repeat;</p>
+<p>	z-index:1001;</p>
+<p>}</p>
+<p>.current_region_popup .popup_close{</p>
+<p>	right: 12px;</p>
+<p>	top: 20px;</p>
+<p>}</p>
+<p>.current_region_popup {</p>
+<p>	width:410px;</p>
+<p>	height:160px;</p>
+<p>	position: absolute;</p>
+<p>	top: 50%;</p>
+<p>	left: 50%;</p>
+<p>	margin-top: -180px;</p>
+<p>	margin-left: -205px;</p>
+<p>}</p>
+<p> .block_top  {</p>
+<p>	height:7px;</p>
+<p>	width:410px;</p>
+<p>	#background: url('/i/img/regions_popup/small_block_top.png') no-repeat;</p>
+<p>	position: relative;</p>
+<p>	overflow: hidden;</p>
+<p>}</p>
+<p>.current_region_popup .block_bottom {</p>
+<p>	height:7px;</p>
+<p>	width:410px;</p>
+<p>	#background: url('/i/img/regions_popup/small_block_bottom.png') no-repeat;</p>
+<p>	position: relative;</p>
+<p>}</p>
+<p>.current_region_popup .block_inner {</p>
+<p>	width: 410px;</p>
+<p>	#background: url('/i/img/regions_popup/bg_small.png') repeat-y; </p>
+<p>}</p>
+<p>/*---------------REGION SELECT BLOCK---------------*/</p>
+<p>.select_region_popup .block_inner_content {</p>
+<p>	padding: 15px 25px 20px 25px;</p>
+<p>}</p>
+<p>.line {</p>
+<p>	background: url('/i/img/regions_popup/line.png') repeat-x;</p>
+<p>	height:1px;</p>
+<p>	overflow:hidden;</p>
+<p>}</p>
+<p>.select_region_block {</p>
+<p>	padding:30px 25px 25px 25px;</p>
+<p>}</p>
+<p>.select_region_block  span {</p>
+<p>	margin-right: 10px;</p>
+<p>}</p>
+<p>.select_region_column {</p>
+<p>	float:left;</p>
+<p>	width:30%;</p>
+<p>}</p>
+<p>.select_region_column a {</p>
+<p>	display:block;</p>
+<p>	margin-bottom:10px;</p>
+<p>}</p>
+<p>.select_region_column a.current, .select_region_column a:hover {</p>
+<p>	color: #999999;</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>.select_region_popup .popup_close{</p>
+<p>	right: 10px;</p>
+<p>	top: 10px;</p>
+<p>}</p>
+<p>.select_region_popup {</p>
+<p>	width:596px;</p>
+<p>	position: absolute;</p>
+<p>	top: 50%;</p>
+<p>	left: 50%;</p>
+<p>	margin-top: -265px;</p>
+<p>	margin-left: -298px;</p>
+<p>	border-radius: 20px;</p>
+<p>}</p>
+<p>.select_region_popup .block_top  {</p>
+<p>	height:13px;</p>
+<p>	width:596px;</p>
+<p>	#background: url('/i/img/regions_popup/big_block_top.png') no-repeat;</p>
+<p>	position: relative;</p>
+<p>	overflow: hidden;</p>
+<p>}</p>
+<p>.select_region_popup .block_bottom {</p>
+<p>	height:12px;</p>
+<p>	width:596px;</p>
+<p>	#background: url('/i/img/regions_popup/big_block_bottom.png') no-repeat;</p>
+<p>	position: relative;</p>
+<p>}</p>
+<p>.select_region_popup .block_inner {</p>
+<p>	width: 596px;</p>
+<p>	#background: url('/i/img/regions_popup/bg_big.png') repeat-y; </p>
+<p>}</p>
+<p>.main-menu .newspaper-link {</p>
+<p>	background: url('/i/img/newspaper.png') no-repeat 3px 50%;</p>
+<p>	display: block;</p>
+<p>	float: left;</p>
+<p>	padding: 4px 4px 4px 25px;</p>
+<p>	color: #000;</p>
+<p>	font-weight: bold;</p>
+<p>	font-family: Tahoma;</p>
+<p>	font-size: 10px;</p>
+<p>	height: 16px;</p>
+<p>  line-height: 17px;</p>
+<p>}</p>
+<p>.main-menu .newspaper-link-active, .main-menu .newspaper-link:hover {</p>
+<p>	background: url('/i/img/newspaper_active.png') no-repeat 3px 50%;</p>
+<p>	background-color: #A90729;</p>
+<p>	text-decoration: none;</p>
+<p>	color: #fff;</p>
+<p>	margin: 0;</p>
+<p>}</p>
+<p>.main-menu ul {</p>
+<p>	border-left: 1px solid #A90235;</p>
+<p>}</p>
+<p> </p>
+<p>Спецпроекты:</p>
+<p>«АиФ. Доброе сердце» «Острый угол»</p>
+<p>«100 главных вопросов России» </p>
+<p>ПолитикаОбществоДеньгиКультураСпортКухняДачаЗдоровьеАвтоНедвижимостьТехникаДосугВопрос-ответОнлайнМнения </p>
+<p>Деньги</p>
+<p>карьера и бизнес</p>
+<p>Личные деньги</p>
+<p>недвижимость</p>
+<p>архив</p>
+<p>Курс валют</p>
+<p>                    USD</p>
+<p>                </p>
+<p>    31.2086            </p>
+<p>                    EUR</p>
+<p>                </p>
+<p>    40.6523            </p>
+<p>                    CHF</p>
+<p>                </p>
+<p>    33.3390            </p>
+<p>    div.head div.main-menu {</p>
+<p>        border-top: 1px solid #CCC;</p>
+<p>    }</p>
+<p>                // <!--</p>
+<p>                var for_smi_multi_login = "Aif_free.banner_pod_navigatorom";</p>
+<p>                var for_smi_multi_options = "options=NT";</p>
+<p>                var for_smi_multi_random = Math.round(Math.random() * 100000);</p>
+<p>                document.write('<iframe src="http://multi.4smi.ru/cgi-bin/iframe/'+for_smi_multi_login+'?'+for_smi_multi_random+'&'+for_smi_multi_options+'" width="970" height="25" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://multi.4smi.ru/cgi-bin/href/'+for_smi_multi_login+'?'+for_smi_multi_random+'" target="_blank"><img src="http://multi.4smi.ru/cgi-bin/banner/'+for_smi_multi_login+'?'+for_smi_multi_random+'&'+for_smi_multi_options+'" alt="for_smi_multi_local" width="970" height="25" border="0" ismap="ismap"></a></iframe>');</p>
+<p>                // --></p>
+<p>            </p>
+<p>$(document).ready(function(){$(".submenu_rub").submenuSelectActive();});</p>
+<p>Мнение</p>
+<p>Галина Хованская: Почему все чаще звучит тема деприватизации жилья?</p>
+<p>Быть собственником квартиры по карману будет не каждому</p>
+<p>Кризис</p>
+<p>Мировой финансовый кризис возник не из-за коррупции, считают эксперты</p>
+<p>Страны G20 разрабатывают меры по борьбе с отмыванием денег, чтобы не допустить второй волны экономического кризиса</p>
+<p>Мнение</p>
+<p>Владислав Иноземцев: Свой офшор</p>
+<p>Стоит ли создавать такую зону в России?</p>
+<p>Мнение</p>
+<p>Василий Симчера: Кто обуздает цены?</p>
+<p>Инфляцию в 5-6% на этот год на днях обещало нам Минэкономразвития. В 2012 г. цены, по официальным данным, выросли на 6,6%</p>
+<p>Мнение</p>
+<p>Александр Бречалов: Бизнес толкают в тень</p>
+<p>Путин поручил правитель­ству пересмотреть решение о повышении страховых взносов для индивидуальных предпринимателей</p>
+<p>Кризис</p>
+<p>Кризис на Кипре: Европа спаслась, ударив по России?</p>
+<p>Российские власти, возможно, поддержат пострадавшие госкомпании на Кипре</p>
+<p>Банки</p>
+<p>Иностранцам вход воспрещен: в России оказалось слишком много банков</p>
+<p>Власти отказались пускать на наш рынок иностранные банки, даже несмотря на вступление в ВТО</p>
+<p>Реклама</p>
+<p>yandex_partner_id = 46571;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'windows-1251';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 1.1;</p>
+<p>yandex_font_family = 'arial';</p>
+<p>yandex_direct_type = 'vertical';</p>
+<p>yandex_direct_border_type = 'ad';</p>
+<p>yandex_direct_limit = 2;</p>
+<p>yandex_direct_title_font_size = 3;</p>
+<p>yandex_direct_header_bg_color = '0066FF';</p>
+<p>yandex_direct_bg_color = 'F2F2F2';</p>
+<p>yandex_direct_border_color = 'FFFFFF';</p>
+<p>yandex_direct_title_color = '000000';</p>
+<p>yandex_direct_url_color = '0066FF';</p>
+<p>yandex_direct_all_color = '0066FF';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '0066FF';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>Опрос</p>
+<p> </p>
+<p>Партнеры</p>
+<p> </p>
+<p>.rmbr-title-link-custom {color:black;}</p>
+<p>Загружается, подождите...</p>
+<p>  #smi2adblock_55113 table a {</p>
+<p>    color: #000;</p>
+<p>  }</p>
+<p>Новости СМИ2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/55113.js'; sc.charset = 'windows-1251';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>7 самых важных для россиян событий в 2012 году</p>
+<p>Фото:  visualrian.ru</p>
+<p>Автор: Светлана Морозова</p>
+<p>Опубликовано 04 января 12 (14:00)</p>
+<p>Увеличить шрифт</p>
+<p>Уменьшить шрифт</p>
+<p>Версия для печати </p>
+<p>Отправить по почте</p>
+<p>Добавить в избранное</p>
+<p> </p>
+<p>					</p>
+<p>  VK.init({apiId: 2012139, onlyWidgets: true});</p>
+<p>					</p>
+<p>   VK.Widgets.Like('vk_like_1', {type: 'button', width: 120,  verb: 0, pageUrl: 'http://www.aif.ru/money/article/48546'});</p>
+<p> </p>
+<p>Твитнуть </p>
+<p> </p>
+<p>Нравится</p>
+<p> </p>
+<p>div.article-text img.pic { /* refs #709 */</p>
+<p>	margin: 5px 10px 5px 5px;</p>
+<p>}</p>
+<p>div.article-text ul li {</p>
+<p>	margin-left: 20px;</p>
+<p>}</p>
+<p>        </p>
+<p>.article .reshbrand{</p>
+<p>    color:#fff;</p>
+<p>    font: 9px/14px Tahoma, Geneva, sans-serif;</p>
+<p>    background-color:#4c88be;</p>
+<p>    padding:2px;</p>
+<p>    text-align:center;</p>
+<p>    position:absolute;</p>
+<p>    bottom:0;</p>
+<p>    right:0;</p>
+<p>    width: 100%;</p>
+<p>}</p>
+<p>Чего ждут россияне от государства в наступившем году? Правительство планирует двойное повышение пенсии, введение «налога с богатых» и снижение страховых взносов до 30%</p>
+<p>События, затрагивающие всех</p>
+<p>По данным ВЦИОМ больше всего россиян (16%) настроены оптимистично и ожидают исключительно перемен к лучшему. Пессимистов, по данным опроса, почти вдвое меньше – 9%. Они не ждут от 2012 года ничего хорошего, а предвидят лишь общее ухудшение жизни и повышение цен на товары и услуги. Стабильности ждут от 2012 года 8% опрошенных.</p>
+<p>  Фото: visualrian.ru </p>
+<p>Индексация пенсий в 2012 году: произойдет дважды</p>
+<p>Первая индексация пройдет 1 февраля - трудовые пенсии, как запланировано бюджетом ПФР, вырастут на 7%. Второй раз - 1 апреля, может быть произведена корректировка с учетом доходов фонда за 2011 год - пенсии планируется пересчитать с плюсом еще на 2,4%.</p>
+<p>Кроме того, в августе произойдет традиционный перерасчет трудовых пенсий работающих пенсионеров. Это повышение индивидуальное, у каждого прибавка своя, поскольку ее размер зависит от величины заработка и перечисленных пенсионных взносов за предшествующий год. Уже несколько лет этот расчет производится автоматически, поэтому никаких заявлений на пересчет в ПФР, как это было раньше, работающим пенсионерам писать не надо.</p>
+<p>Пенсии по государственному обеспечению, в том числе социальные пенсии, с 1 апреля по планам увеличатся на 14,1%. Тогда же, 1 апреля, будут проиндексированы на 6% размеры ежемесячных денежных выплат (ЕДВ). В результате, как подсчитали в Пенсионном фонде, к концу 2012 года средний размер трудовой пенсии в России составит 9394 рубля, социальной пенсии - 5952 рубля.</p>
+<p>С июля 2012 года выплаты средств пенсионных накоплений смогут получать российские пенсионеры, имеющие по закону право на накопительную часть пенсии.  Изменения в следующем году коснутся не только будущих и нынешних пенсионеров, но и работодателей-страхователей.</p>
+<p>Начиная с 2012 года, ставка страховых взносов в ПФР уменьшится с 26% до 22%. При этом будет проиндексирована и облагаемая страховыми взносами база каждого работника, то есть предельный годовой заработок, с которого уплачиваются страховые взносы. Он вырастет с 463 до 512 тысяч рублей. До этого порога пенсионные взносы уплачиваются по полному тарифу.</p>
+<p>Для заработков свыше предельной величины базы для начисления страховых взносов (то есть более 512 тыс. рублей) впервые установлен тариф страхового взноса в размере 10%. При этом ставка страховых взносов в ФСС и ФОМС в 2012 году не изменится и останется на уровне 2011 года.</p>
+<p>Вопрос: когда нам ждать повышения пенсионного возраста?</p>
+<p>  Фото: visualrian.ru </p>
+<p>Повышение тарифов на коммунальные услуги в 2012 году: пройдет дважды</p>
+<p>Рост цен на коммунальные услуги в 2012 году ожидается с июля и пройдет он в два этапа (с 1 июля и 1 сентября). С 1 января по 30 июня 2012 года тарифы останутся на уровне 2011 года. Плата за газ вырастет в среднем на 10%, за электричество - на 3%, за тепло - на 4%, за водоснабжение - на 2,3%, за водоотведение - на 2,85. Тариф на вывоз мусора снизится на полпроцента.</p>
+<p>В 2012 году цена на газ для населения изменится один раз - с 1 июля и составит 4 рубля 1 копейку за кубический метр с учетом НДС, с ростом не более 15% к уровню 2011 года (3 рубля 49 копеек за кубический метр).</p>
+<p>Тариф на электричество для населения в 1-м полугодии 2012 года останется на уровне 2011 года (2 рубля 43 копейки за кВт/ч), а с 1 июля составит 2 рубля 57 копеек за кВт/ч (рост 5,7% к 2011 году).</p>
+<p>Стоит учесть, что с 1 мая 2011 года введен понижающий коэффициент (0,7) на тарифы для сельского населения. Во 2-м полугодии следующего года для сельчан тариф составит 1 рубль 80 копеек за кВт/ч.</p>
+<p>Вопрос: когда увеличение платы за коммунальные услуги будет увязан с качеством этих услуг?</p>
+<p>  Фото: visualrian.ru </p>
+<p>Богатые будут платить больше. Вводится «налог на богатых»</p>
+<p>С 2012 года страховые взносы для малого бизнеса и низкооплачиваемых работников уменьшатся за счет крупных компаний и представителей среднего класса. Общая ставка для зарплат, не превышающих пороговые значения (это 512 000 рублей в 2012 году и 567 000 рублей в 2013 году), уменьшается с 34 до 30%.  Для неторгового малого бизнеса базовая ставка сократится с 26 до 20%.</p>
+<p>Но для зарплат, превышающих пороговые значения, вводится дополнительная ставка, прозванная в правительстве «хвостом» - по ней облагается сумма превышения над порогом. Для крупного и среднего бизнеса «хвост» составит 10%, для малого предлагается - 7%, но президент предложил еще один день подумать.</p>
+<p>Выплаты с «хвоста» фактически являются налогом. Помощник президента Аркадий Дворкович добавил, что ставку в 7% предлагается установить не только для неторгового малого бизнеса, но и для высокотехнологичных компаний. Выгоду от снижения крупные и средние компании получат только для зарплат до 720 000 рублей в год (60 000 рублей в месяц). Если зарплата сотрудника превышает 1 млн. рублей, эффективная ставка будет больше нынешней на 3 процентных пункта, для зарплат в 1,2 млн. рублей - на 4 процентных пункта.</p>
+<p>То есть справиться со снижением нагрузки на малый бизнес бюджету помогут компании, выплачивающие высокую белую зарплату.</p>
+<p>По данным Минфина и Минздравсоцразвития, налог с «хвоста» даст 160 млрд. рублей из требуемых на реформу 460 млрд.</p>
+<p>Вопрос: не уменьшится ли в связи с введением новых налоговых ставок количество компаний, выплачивающих высокую  «белую» зарплату?</p>
+<p> Фото: visualrian.ru </p>
+<p>Страховые взносы будут снижены до 30%</p>
+<p>С 1 января 2012 года страховые взносы будут снижены до 30%, для малого бизнеса производственной и социальной сфер - до 20%. Об этом сообщил президент РФ на Петербургском международном экономическом форуме. Дмитрий Медведев считает, что это не радикальное снижение (сейчас общая ставка страховых взносов составляют 34% ), но знаковый и выгодный шаг для малых и средних предприятий.  Объявленные ставки будут действовать до 2014 года.</p>
+<p>Варианты компенсации выпадающих доходов бюджета от снижения страховых взносов пока не приняты. Напомним, с 2011 года ставка взносов для большинства предприятий была увеличена до 34% (с 26%). Позднее глава государства усомнился в том, что это решение не станет обременительным для отечественного бизнеса.</p>
+<p>Вопрос: не поздно ли помогать пошатнувшемуся малому бизнесу столь малыми и половинчатыми мерами?</p>
+<p> Фото: visualrian.ru </p>
+<p>Техосмотр по новой процедуре</p>
+<p>Не раньше 10 января следующего года российские автовладельцы смогут пройти техосмотр (ТО) в соответствии с новой процедурой. После 1 января 2012 года на официальном сайте Российского союза автостраховщиков (РСА) будет опубликован реестр аккредитованных операторов техосмотра, у которых можно будет пройти процедуру ТО.</p>
+<p>Эксперты советуют автолюбителям, у которых истекает срок действия полиса ОСАГО, обратиться в страховую компанию в течение оставшихся двух рабочих дней в текущем году, поскольку в этом случае страховщики не будут требовать талон техосмотра.</p>
+<p>С 1 января 2012 года автоинспекторы не будут требовать у водителей техталон - этот документ будет необходим только для получения полиса ОСАГО. Но даже если кто-то из сотрудников ГАИ потребует его предъявить, никаких последствий для автовладельца это иметь не будет.</p>
+<p>Не возникнет проблем и с выдачей талонов о техосмотре в наступающем году. На первом этапе операторам, аккредитованным для проведения техосмотра, выдается необходимый резерв техталонов старого образца, а Гознак уже начал печатать новые документы, которые будут передаваться операторам сразу после Нового года.</p>
+<p>В ГАИ отметили также, что все российские операторы по проведению техосмотра транспортных средств получат с 1 января будущего года доступ к специальной базе данных Госавтоинспекции. Единая автоматизированная информационная система технического осмотра будет использоваться для оперативного обмена сведениями между органами Госавтоинспекции и страховыми компаниями.</p>
+<p>Вопрос: чего ждать российским автовладельцам от тесного сотрудничества ГАИ и страховщиков?</p>
+<p>  Фото: visualrian.ru </p>
+<p>Новые штрафы и повышение уже существующих</p>
+<p>С 1 января 2012 года повысятся штрафы для нерадивых водителей. С нового года штраф за проезд на запрещающий сигнал светофора или жест регулировщика составит 1000 рублей. Водители, которые не остановились перед стоп-линией, должны будут заплатить штраф в 800 рублей, а те, кто выехал на перекресток несмотря на затор, и тем самым усугубил ситуацию, создав помехи для движения в поперечном направлении, будут оштрафованы на 1000 рублей. Практика показала, что когда стоп-линия работает, уменьшается количество ДТП на перекрестках.</p>
+<p>Кроме того, до 1000 рублей повысится штраф за невыполнение требования ПДД уступить дорогу транспортному средству, пользующемуся преимуществом при проезде перекрестка.</p>
+<p>Также вводится ответственность за нарушение правил перевозки пассажиров и багажа водителями легкового такси, например, за отсутствие цветографической схемы легкового такси или опознавательного фонаря, а также перевозка пассажиров и багажа по заказу без заключения письменного договора фрахтования транспортного средства. Штраф за них составит от 1 до 5 тыс. рублей для водителей, от 10 до 50 тыс. рублей для должностных лиц и от 30 до 200 тыс. рублей для юридических лиц.</p>
+<p>Вопрос: действительно ли новые штрафные санкции улучшат положение на российских дорогах?</p>
+<p>  Фото: visualrian.ru </p>
+<p>Москва официально вдвое увеличит свою территорию</p>
+<p>В новом году Москва официально обретет новые границы, вдвое увеличив свою территорию. Это произойдет 1 июля 2012 года. К столице перейдет 21 муниципальное образование, в том числе два городских округа - Троицк и Щербинка, а также 19 городских и сельских поселений, входивших в Подольский, Ленинский и Нарофоминский районы Подмосковья.</p>
+<p>Всего в границы Москвы войдет 148 тысяч гектаров новых территорий. По словам мэра Москвы Сергея Собянина, при присоединении новых земель может появиться новый административный округ столицы. Предполагается, что на новые территории переедет часть федеральных и столичных чиновников. Будет проведен конкурс на разработку концепции развития «новой Москвы» как единой агломерации.</p>
+<p>По словам мэра, на присоединяемых территориях планируется создание финансового, административного, правительственного и делового центра. Для города это станет необходимым источником развития экономики, соцсферы, инфраструктуры, зон отдыха, жилищного строительства на ближайшие десятилетия.</p>
+<p>Вопрос: как увеличение столицы государства отразится на жизни не москвичей?</p>
+<p> </p>
+<p>					</p>
+<p>  VK.init({apiId: 2012139, onlyWidgets: true});</p>
+<p>					</p>
+<p>   VK.Widgets.Like('vk_like_2', {type: 'button', width: 120,  verb: 0, pageUrl: 'http://www.aif.ru/money/article/48546'});</p>
+<p> </p>
+<p>Твитнуть </p>
+<p> </p>
+<p>Нравится</p>
+<p> </p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=1&target=blank&w=449&h=127&bt=51&pz=2&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=449 height=127 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Материалы по теме:</p>
+<p>Россиянам  выплатят пенсии до Нового года Пенсию перед Новым годом выплатят досрочно Путин направил поздравления с Новым годом главам государств и правительств ...Есть смысл дожидаться горящих путёвок на Новый год? ...Новый год - это грех?  </p>
+<p>// <!--</p>
+<p>var vzz_login = "aif2";</p>
+<p>var vzz_options = "options=N";</p>
+<p>var vzz_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://tizer.adv.vz.ru/cgi-bin/iframe/'+vzz_login+'?'+vzz_random+'&'+vzz_options+'&n=6&c=2" width="100%" height="255" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://tizer.adv.vz.ru/cgi-bin/href/'+vzz_login+'?'+vzz_random +'" target="_blank"><img src="http://tizer.adv.vz.ru/cgi-bin/banner/'+vzz_login+'?'+vzz_random +'&'+vzz_options+'" alt="" width="100%" height="255" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p>Новости СМИ2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/71089.js'; sc.charset = 'windows-1251';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>последние комментарии</p>
+<p>а вы что думаете?</p>
+<p>Цитировать</p>
+<p>Пожаловаться</p>
+<p>Лопатько Галина</p>
+<p>11.01.2012 в 02:10</p>
+<p>Ссылка</p>
+<p>								В публикации АИФ от 4.01.2012г. Путин В.В. в вопросе о повышении тарифов ЖКХ сказал,что тариф на вывоз мусора снизится на 0.5 процента. Для чиновников г. Сочи - это не указ. Вместо снижения тарифы повышаются с 1.01 2012г. в 4-е раза и будут брать не с человека, как раньше, а с квадратного метра жилой площади, как будто в квартирах в каждом углу" помойка" Удивительное рядом! Конечно ООО САХ - хотят увеличить прибыль за счет населения, а народ платить не будет. Хватит нас дурить.				</p>
+<p>			</p>
+<p>Цитировать</p>
+<p>Пожаловаться</p>
+<p>Ольга предприниматель</p>
+<p>07.01.2012 в 16:09</p>
+<p>Ссылка</p>
+<p>								Малый бизнес,особенно на ранних стадиях развития буквально сожрали налоги,это называется правительство нас поддерживает.До 2014 с нас будут драть только так.......				</p>
+<p>			</p>
+<p>Цитировать</p>
+<p>Пожаловаться</p>
+<p>v.rayko</p>
+<p>07.01.2012 в 10:25</p>
+<p>Ссылка</p>
+<p>								Положение на перекрестках улучшится, если на каждом перекрестке будет инспектор или видеокамера. А вообще, правила надо пересмотреть. Зеленый мигает-тормози,желтый-остановись и ни какого движения на красный. Почему едущий на зеленый должен крутить головой-не заканчивает ли кто-то движение на красный.				</p>
+<p>			</p>
+<p>Читать все комментарии (31)</p>
+<p>Оставьте свой комментарий</p>
+<p>а вы что думаете?</p>
+<p>Правила комментирования</p>
+<p>войти / регистрация</p>
+<p>Представьтесь, пожалуйста</p>
+<p>Ваш E-mail (для обратной связи)</p>
+<p>            Цитата:</p>
+<p>            </p>
+<p>            Ваш комментарий:</p>
+<p>            </p>
+<p>				Синхронный перевод с транслита</p>
+<p>			</p>
+<p>Эти несложные правила помогут Вам получать удовольствие от общения на нашем сайте!</p>
+<p>Мы рады, что Вы решили оставить свой комментарий на сайте www.aif.ru!</p>
+<p>Для того, чтобы посещение нашего сайта и впредь оставалось для Вас приятным, просим неукоснительно соблюдать правила для комментариев:</p>
+<p> - Сообщение не должно содержать более 2500 знаков (с пробелами)</p>
+<p> - Языком общения на сайте АиФ является русский язык.</p>
+<p> В обсуждении Вы можете использовать другие языки, только если уверены, что читатели смогут Вас правильно понять.</p>
+<p> - В комментариях запрещаются выражения, содержащие ненормативную лексику, унижающие человеческое достоинство, разжигающие межнациональную рознь.</p>
+<p> - Запрещаются спам, а также реклама любых товаров и услуг, иных ресурсов, СМИ или событий, не относящихся к контексту обсуждения статьи.</p>
+<p> - Не приветствуются сообщения, не относящиеся к содержанию статьи или к контексту обсуждения.</p>
+<p>Давайте будем уважать друг друга и сайт, на который Вы и другие читатели приходят пообщаться и высказать свои мысли. Администрация сайта оставляет за собой право удалять комментарии или часть комментариев, если они не соответствуют данным требованиям.</p>
+<p>Редакция оставляет за собой право публикации отдельных комментариев в бумажной версии издания или в виде отдельной статьи на сайте www.aif.ru. Вы также можете общаться друг с другом, заведя себе дневник на blog.aif.ru.</p>
+<p> Если у Вас есть вопрос или предложение, отправьте сообщение  для  администрации сайта</p>
+<p> var cookie_prefix = 'article_';</p>
+<p> var buffer = '';</p>
+<p> function selectedText(textArea) {</p>
+<p> }</p>
+<p>function selectedText(textArea) {</p>
+<p>//IE</p>
+<p>    if(document.selection)</p>
+<p>    {</p>
+<p>        var s = document.selection.createRange();</p>
+<p>        return s.text;</p>
+<p>    }</p>
+<p>    if (window.opera && document.getSelection()) { return document.getSelection();}</p>
+<p>    // FireFox</p>
+<p>    else if (typeof(textArea[0].selectionStart) == "number")</p>
+<p>    {</p>
+<p>        if (textArea[0].selectionStart != textArea[0].selectionEnd)</p>
+<p>        {</p>
+<p>            var len = textArea.val().length;</p>
+<p>            var start = textArea[0].selectionStart;</p>
+<p>            var end = textArea[0].selectionEnd;</p>
+<p>            return textArea.val().substring(start, end);</p>
+<p>        }</p>
+<p>        </p>
+<p>        return '';</p>
+<p>        </p>
+<p>    }</p>
+<p>}</p>
+<p> function init_comment_actions() {</p>
+<p>    function reply(comment,comment_id) {</p>
+<p>		if ($comments_inp) {</p>
+<p>			var cmt = $('#comments_inp').val() + "\n"; // wipe rules</p>
+<p>		} else {</p>
+<p>			var cmt = '';</p>
+<p>			$comments_inp = true;</p>
+<p>			$('#comments_inp').css('color', '#000000');</p>
+<p>		}</p>
+<p>		//var comment_id = $(this).attr('href').replace(/[^0-9]+/, '');</p>
+<p>		var author = $('div.username', '#meta'+ comment_id).text();</p>
+<p>		//$('#comments_inp').val(cmt + author + " писал(а):\n" + comment + "\n---\n");</p>
+<p>		//$('#comments_inp').val(cmt + author + " писал(а):\n<i>" + comment + "</i>\n---\n");</p>
+<p>        $('#reply_text textarea').val(cmt + author + " писал(а):\n<i>" + comment + "</i>\n---\n");</p>
+<p>        $('#reply_text').show();</p>
+<p>        document.location.href='#reply_text';</p>
+<p>		$('#comments_inp').focus();</p>
+<p>    }</p>
+<p>	$('#show_comment_button_a, .to-comment-form').click(function(){</p>
+<p>		$('#comment_form_block').show(); </p>
+<p>		$('#show_comment_button').hide();</p>
+<p>	});</p>
+<p>    </p>
+<p>    $("a.reply").click(function()</p>
+<p>	{</p>
+<p>		var comment_id = $(this).attr('rel').replace(/[^0-9]+/, '');</p>
+<p>		var comment = $('blockquote', '#comment'+ comment_id).text();</p>
+<p>        text_block = $('blockquote', '#comment'+ comment_id).hide();</p>
+<p>        if(!$('#comment'+ comment_id + ' textarea')[0]) {</p>
+<p>            ta = $('<textarea readonly="readonly" style="width: 457px; overflow:auto; border:1px solid #B4B4B4;background:transparent;">');</p>
+<p>            ta.height(text_block.height()+40);</p>
+<p>            buttons = $('<div class="reply_buttons"><a href="javascript:void(0);" rel="#comment'+comment_id+'" class="reply_full">Цитировать полностью</a>  <a href="javascript:void(0);" rel="#comment'+comment_id+'" class="reply_selected">Цитировать выделенное</a> <a href="javascript:void(0);" rel="#comment'+comment_id+'" class="reply_cancel">Отмена</a></div>');</p>
+<p>            ta.val($.trim(comment));</p>
+<p>            $('#comment'+ comment_id).append(buttons);</p>
+<p>            $('#comment'+ comment_id).append('<div id="reply_info_text">Для цитирования части комментария выделите нужную область текста и нажмите "Цитировать выделенное"</div>');</p>
+<p>            $('#comment'+ comment_id).append(ta);</p>
+<p>            $("a.reply_full").click(function()</p>
+<p>            {</p>
+<p>                var comment_id = $(this).attr('rel').replace(/[^0-9]+/, '');</p>
+<p>                var comment = $('blockquote', '#comment'+ comment_id).text();</p>
+<p>                $('#comment_form_block').show();</p>
+<p>                $('#show_comment_button').hide();</p>
+<p>                reply(comment,comment_id);</p>
+<p>            });</p>
+<p>            $("a.reply_selected").click(function() {</p>
+<p>                var comment_id = $(this).attr('rel').replace(/[^0-9]+/, '');</p>
+<p>                text = selectedText($('#comment'+ comment_id + ' textarea'));</p>
+<p>                if(text.length > 0) {</p>
+<p>                    $('#comment_form_block').show();</p>
+<p>                    $('#show_comment_button').hide();</p>
+<p>                    reply(text,comment_id);</p>
+<p>                } else {</p>
+<p>                    aif.showError($(this),'Выделите текст для цитирования');</p>
+<p>                }</p>
+<p>            });</p>
+<p>            $("a.reply_cancel").click(function()</p>
+<p>            {</p>
+<p>                var comment_id = $(this).attr('rel').replace(/[^0-9]+/, '');</p>
+<p>                $('div.reply_buttons', '#comment'+ comment_id).remove();</p>
+<p>                $('textarea', '#comment'+ comment_id).remove();</p>
+<p>                $('blockquote', '#comment'+ comment_id).show();</p>
+<p>                $('#reply_info_text').remove();</p>
+<p>                $('#reply_text').hide();</p>
+<p>            });</p>
+<p>        }</p>
+<p>    });</p>
+<p>    $("a.open").click(function() {</p>
+<p>        var li = $(this).parents("li.comment_closed");</p>
+<p>        li.attr("class","comment_opened");</p>
+<p>        cookie_id = cookie_prefix + li.find("div.comment-meta").attr("id");</p>
+<p>        $.cookie(cookie_id,'opened');</p>
+<p>    });</p>
+<p>    $("a.close").click(function() {</p>
+<p>        li = $(this).parents("li.comment_opened")</p>
+<p>        li.attr("class","comment_closed");</p>
+<p>        cookie_id = cookie_prefix + li.find("div.comment-meta").attr("id");</p>
+<p>        $.cookie(cookie_id,'closed');</p>
+<p>    });</p>
+<p>    $("a.complain").click(function() {</p>
+<p>        li = $(this).parents("li.comment_opened");</p>
+<p>        id = li.find("div.comment-meta").attr("id").replace('meta','');</p>
+<p>        var _self = this;</p>
+<p>        if($.cookie('comment'+id) != null) {</p>
+<p>            aif.showError($(_self),'Вы уже жаловались на данный комментарий!');</p>
+<p>            return;</p>
+<p>        }</p>
+<p>        $.ajax({</p>
+<p>            url: '/complaintadd/comment_id/' + id,</p>
+<p>            data: {},</p>
+<p>            type: 'POST',</p>
+<p>            cache: false,</p>
+<p>            success: function(response) {</p>
+<p>                if(typeof response == "string" && response.charAt(0) == "{") response = jQuery.parseJSON(response);</p>
+<p>                if(response.result) {</p>
+<p>                    /*if(response.content) {</p>
+<p>                        complaint_count = $(_self).parents("div.comment-meta").find("span.complaint_count");</p>
+<p>                        complaint_count.html(response.content);</p>
+<p>                    }*/</p>
+<p>                    aif.showError($(_self),response.result);</p>
+<p>                }</p>
+<p>            },</p>
+<p>            error: function() {</p>
+<p>                aif.showError($(_self),'Ошибка сервера');</p>
+<p>            }</p>
+<p>        });</p>
+<p>    });</p>
+<p>    $("a.full").click(function() {</p>
+<p>        //li = $(this).parents("li.comment_opened");</p>
+<p>        //li.find("span.comment-etc").hide();</p>
+<p>        //li.find("span.comment-part2").show();</p>
+<p>        $(this).prev().hide();</p>
+<p>        $(this).next().show();</p>
+<p>        $(this).hide();</p>
+<p>    });</p>
+<p>    //обход комментов</p>
+<p>/*    $('li.comment_opened, li.comment_closed').each(function(index) {</p>
+<p>        cookie_id = cookie_prefix + $(this).find("div.comment-meta").attr("id");</p>
+<p>        if($.cookie(cookie_id) == 'closed')</p>
+<p>        {</p>
+<p>            $(this).attr('class','comment_closed');</p>
+<p>        }</p>
+<p>        if($.cookie(cookie_id) == 'opened')</p>
+<p>        {</p>
+<p>            $(this).attr('class','comment_opened');</p>
+<p>        }</p>
+<p>    });*/</p>
+<p> }</p>
+<p> function setAifCookie(name, value, params)</p>
+<p>{</p>
+<p>// не переписываем имеющуюся куку!</p>
+<p>if (jQuery.cookie(name) != null) {</p>
+<p>//alert(jQuery.cookie(name));</p>
+<p>return false;</p>
+<p>}</p>
+<p>if (params == null){</p>
+<p>jQuery.cookie(name, value, {expires: 7, path: '/', secure: false});</p>
+<p>    } else {</p>
+<p>jQuery.cookie(name, value, params);</p>
+<p>}</p>
+<p>return true;</p>
+<p>}   </p>
+<p>    </p>
+<p>$comments_inp = false;</p>
+<p>$(document).ready(function()</p>
+<p>{</p>
+<p>    </p>
+<p>   </p>
+<p>	var login = $.cookie('login');</p>
+<p>	var hash = $.cookie('hash');</p>
+<p>	if (login == null)</p>
+<p>	{</p>
+<p>		// BC with old auth!</p>
+<p>                </p>
+<p>		if ( hash != null ) {</p>
+<p>			</p>
+<p>                        $.post('/ajax/setlogin', function(data) {$('#user_name').val(data.result); $('#user_name').attr('readonly', true); $('#login_msg').html('Зарегистрированный пользователь:');});</p>
+<p>			</p>
+<p>                        $('#user_email').hide();</p>
+<p>                   </p>
+<p>			$('#auth-register').hide();</p>
+<p>                        </p>
+<p>		} else { // u/a</p>
+<p>                   </p>
+<p>			setAifCookie('comments', 'fea7609e11ce5ee11d4c93b13672d9ee', {expires: 7, path: '/', domain: 'www.aif.ru', secure: false});</p>
+<p>			</p>
+<p>                        $('#user_name').val('');</p>
+<p>		}</p>
+<p>	} else {</p>
+<p>        $('#user_label').text('');</p>
+<p>		$('#user_email').hide();</p>
+<p>		$('.auth-register').html('<a href="/auth/logout">выйти</a>');</p>
+<p>		$('#user_name').val(login);</p>
+<p>		$('#user_name').attr('readonly', true);</p>
+<p>		//$('#login_msg').html('Зарегистрированный пользователь:');</p>
+<p>	}</p>
+<p>        </p>
+<p>          </p>
+<p>	$('#ajaxform').submit(function(e){</p>
+<p>		e.preventDefault();    </p>
+<p>        //comment = $('<div>').html($('#comments_inp').val()).text();</p>
+<p>        comment = $('#comments_inp').val();</p>
+<p>        $('#comments_inp').val($('#reply_text textarea').val() + comment);</p>
+<p>		var action = $(this).attr('action');</p>
+<p>		var data = $(this).serialize();</p>
+<p>        $('#comments_inp').val(comment);</p>
+<p>		$.post(action, data, function(r){</p>
+<p>			if('ok'==r.result) {</p>
+<p>                            </p>
+<p>                            				</p>
+<p>                                $('#article-comments').html(r.content);</p>
+<p>				$('#comments_form').load('http://www.aif.ru/aforism/?'+Math.random());</p>
+<p>                            init_comment_actions();</p>
+<p>                                                         </p>
+<p>			} else {</p>
+<p>				alert(r.result);</p>
+<p>			}</p>
+<p>		}, 'json');</p>
+<p>               </p>
+<p>	});</p>
+<p>    //инициализируем действия для кнопок комментариев</p>
+<p>    init_comment_actions();</p>
+<p>});</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&target=blank&bt=14&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=468 height=200 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Последние статьи раздела ЭКОНОМИКА</p>
+<p>        </p>
+<p>        Газ греет цены. Что с нами будет после Кипра?    </p>
+<p>Автор: Ольга КоробицынаОпубликовано 0:05 (сегодня)</p>
+<p>Почему деньги наших госкомпаний завязли на Кипре? Кто постоянно повышает цены в России? Почему не платят нормальные пенсии? </p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (199)</p>
+<p>		 Обсуждают (1) </p>
+<p>        </p>
+<p>        Кризис агропромышленности: в селе нет поддержки предпринимательства    </p>
+<p>Автор: Василий МельниченкоОпубликовано 0:05 (сегодня)</p>
+<p>Почему зарплата крестьянина 3000, а депутатам 160 000 мало?</p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (258)</p>
+<p>			</p>
+<p>        </p>
+<p>        Елена Панфилова: Траты и зарплаты    </p>
+<p>Автор: Елена ПанфиловаОпубликовано 0:05 (сегодня)</p>
+<p>Комментируя новые антикоррупционные указы Владимира Путина, его пресс-секретарь Дмитрий Песков обратил внимание: «Это не новый этап, а продолжение последовательной деятельности по борьбе с этим злом»</p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (318)</p>
+<p>		 Обсуждают (1) </p>
+<p>        </p>
+<p>        Очередь на распил. Кому нужна поспешная приватизация энергетических компаний?    </p>
+<p>Опубликовано 0:05 (сегодня)</p>
+<p>На нынешний год запланирована грандиозная, крупнейшая за последнее десятилетие приватизация, которая коснётся в том числе и такой стратегической отрасли, как топливно-энергетический комплекс (ТЭК). Чем это чревато для страны?</p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (369)</p>
+<p>		 Обсуждают (2) </p>
+<p>        </p>
+<p>        Урок профориентации. Работа в госструктурах учит решать масштабные задачи    </p>
+<p>Автор: Дмитрий РомановОпубликовано 0:05 (сегодня)</p>
+<p>Кто такой чиновник в общепринятом представлении?  Почтенного возраста бюрократ - пузатый и угрюмый? Ан нет, 45% столичных  чиновников младше 35 лет. Они динамичны и открыты к общению</p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (30)</p>
+<p>		 Обсуждают (1) </p>
+<p>        </p>
+<p>        Почему растут цены? Годовая инфляция может составить 10–20 % – эксперты    </p>
+<p>Автор: Елена ТрегубоваОпубликовано 17:35 (08 апреля)</p>
+<p>Экономисты прогнозируют рост потребительских цен на уровне 7–20 %</p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (611)</p>
+<p>		 Обсуждают (3) </p>
+<p>        </p>
+<p>        Мировой финансовый кризис возник не из-за коррупции, считают эксперты    </p>
+<p>Автор: Елена ТрегубоваОпубликовано 19:03 (05 апреля)</p>
+<p>Страны G20 разрабатывают меры по борьбе с отмыванием денег, чтобы не допустить второй волны экономического кризиса</p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (903)</p>
+<p>		 Обсуждают (5) </p>
+<p>        </p>
+<p>        Гастрономический скандал. Европейцев кормили «неправильной» рыбой    </p>
+<p>Автор: Елена ТрегубоваОпубликовано 18:27 (04 апреля)</p>
+<p>В России также были зафиксированы случаи с подменой дорогой рыбы на дешевую</p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (1013)</p>
+<p>		 Обсуждают (1) </p>
+<p>        </p>
+<p>        Деньги из пробки. На чём заработать, если нет нефти и газа?    </p>
+<p>Автор: Виктория ГудковаОпубликовано 0:05 (03 апреля)</p>
+<p>Встретившись на прошлой неделе с президентом Египта, Владимир Путин предложил этой стране российский газ. А что кроме сырья мы можем дать миру и на каких товарах зарабатывают другие государства? </p>
+<p>                     </p>
+<p>           </p>
+<p>			Читают (2200)</p>
+<p>		 Обсуждают (10) </p>
+<p> </p>
+<p>Предыдущая |</p>
+<p>1 </p>
+<p>        2     |</p>
+<p>    </p>
+<p>        3     |</p>
+<p>    </p>
+<p>        4     |</p>
+<p>    </p>
+<p>        5     |</p>
+<p>    </p>
+<p>        6     |</p>
+<p>    </p>
+<p>        7     |</p>
+<p>    </p>
+<p>        8     |</p>
+<p>    </p>
+<p>        9     |</p>
+<p>    </p>
+<p>        10     |</p>
+<p>    Следующая</p>
+<p>  </p>
+<p> </p>
+<p>$("#article-text a[href^='http://']").attr("target","_blank"); // Open External Links In New Window</p>
+<p>$('.favorites').jFav();</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&sz=money&target=blank&bt=40&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=250 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>					Вы вошли с помощью Facebook</p>
+<p>				</p>
+<p>Ваша активность</p>
+<p>							Настройки</p>
+<p>						</p>
+<p>Пригласить друзей</p>
+<p>Сообщить о проблеме</p>
+<p>Выйти из Facebook</p>
+<p>Удалить это приложение</p>
+<p>				Делитесь с друзьями в Facebook информацией о том, что вы читали и смотрели на AIF.RU</p>
+<p>			</p>
+<p>Авторизируйтесь, чтобы начать</p>
+<p>читают</p>
+<p>обсуждают</p>
+<p>В России набирает обороты рынок P2P-кредитования (1709)</p>
+<p>Гастрономический скандал. Европейцев кормили «неправильной» рыбой (1013)</p>
+<p>Мировой финансовый кризис возник не из-за коррупции, считают эксперты (902)</p>
+<p>Почему растут цены? Годовая инфляция может составить 10–20 % – эксперты (606)</p>
+<p>Как учить иностранный язык: в группе или индивидуально? (536)</p>
+<p>Очередь на распил. Кому нужна поспешная приватизация энергетических компаний? (335)</p>
+<p>Елена Панфилова: Траты и зарплаты (292)</p>
+<p>Кризис агропромышленности: в селе нет поддержки предпринимательства (237)</p>
+<p>Вопрос сверху: чиновники не понимают, что происходит на рынке труда (229)</p>
+<p>Газ греет цены. Что с нами будет после Кипра? (181)</p>
+<p>Мировой финансовый кризис возник не из-за коррупции, считают эксперты (5)</p>
+<p>Почему растут цены? Годовая инфляция может составить 10–20 % – эксперты (3)</p>
+<p>Очередь на распил. Кому нужна поспешная приватизация энергетических компаний? (2)</p>
+<p>В России набирает обороты рынок P2P-кредитования (2)</p>
+<p>Елена Панфилова: Траты и зарплаты (1)</p>
+<p>Гастрономический скандал. Европейцев кормили «неправильной» рыбой (1)</p>
+<p>Газ греет цены. Что с нами будет после Кипра? (1)</p>
+<p>Как учить иностранный язык: в группе или индивидуально? (1)</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=1&target=blank&bt=34&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=142 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Низкие цены на новостройки Москвы</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=2&target=blank&bt=34&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=142 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Выгодно купить квартиру в </p>
+<p>Москве</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="' + ('https:' == document.location.protocol ? 'https:' : 'http:') + '//ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=7&target=blank&bt=34&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=120 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="' + ('https:' == document.location.protocol ? 'https:' : 'http:') + </p>
+<p>'//ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=10&target=blank&bt=34&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>    // <!--</p>
+<p>    var for_smi_multi_login = "Aif_region_240x400.Aif_region_all";</p>
+<p>    var for_smi_multi_options = "options=NVA";</p>
+<p>    var for_smi_multi_random = Math.round(Math.random() * 100000);</p>
+<p>    document.write('<iframe src="http://multi.4smi.ru/cgi-bin/iframe/'+for_smi_multi_login+'?'+for_smi_multi_random+'&'+for_smi_multi_options+'&n=6&style=http://static1.aif.ru/i/img/advert/4smi/partner.css" width="300" height="400" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://multi.4smi.ru/cgi-bin/href/'+for_smi_multi_login+'?'+for_smi_multi_random +'" target="_blank"><img src="http://multi.4smi.ru/cgi-bin/banner/'+for_smi_multi_login+'?'+for_smi_multi_random +'&'+for_smi_multi_options+'" alt="for_smi_multi_local" width="300" height="400" border="0" ismap="ismap"></a></iframe>');</p>
+<p>    // --></p>
+<p>    </p>
+<p>Консультанты</p>
+<p>countonpage=3;</p>
+<p>consN=0;</p>
+<p>pages=1;</p>
+<p>$.cookie('conspage',($.cookie('conspage')*1+1) % pages,{</p>
+<p>expires: 7,</p>
+<p>path: "/"</p>
+<p>});</p>
+<p>var cconspage = $.cookie('conspage');//alert(cconspage);</p>
+<p>if (isNaN(cconspage)) {</p>
+<p>var conspage = '1';</p>
+<p>} else {</p>
+<p>var conspage = ''+$.cookie('conspage');</p>
+<p>}</p>
+<p>//alert(conspage);</p>
+<p>sdvig=0;</p>
+<p>if (conspage==pages-1) {</p>
+<p>sdvig=pages*countonpage-3; };</p>
+<p>consN++;</p>
+<p>if (consN+sdvig>conspage*countonpage&&consN+sdvig <= conspage*countonpage+countonpage) {document.write("<li style='padding: 6px 6px 6px 100px;height:90px;'><a class=\"test-pic\" href=\"http://www.aif.ru/onlineconf/5780\"><img width=80 height=80 style='padding:6px 9px' src=\"http://static2.aif.ru/public/hdengi/375/de8586fc156c6b521fa6bf56df9ed06d_1.jpg\" class=\"\" /></a>                                <a style='color:black;' href=\"http://www.aif.ru/onlineconf/5780\"><b>Эксперт по трудоустройству</b><br>Валерия Чернецова, главный аналитик Superjob.ru</a><br><a style='color:black;' href=\"http://www.aif.ru/onlineconf/5780\">Ответы на вопросы <span style='color:#929393;'>(0)</span></a><p style='padding-top:9px;'><a style='color:black;' href=\"http://www.aif.ru/onlineconf/5780\"><img src=/i/health/i/footheader-bg.gif border=0> Задать свой вопрос</a></p></li>");};</p>
+<p>consN++;</p>
+<p>if (consN+sdvig>conspage*countonpage&&consN+sdvig <= conspage*countonpage+countonpage) {document.write("<li style='padding: 6px 6px 6px 100px;height:90px;'><a class=\"test-pic\" href=\"/onlineconf/5264\"><img width=80 height=80 style='padding:6px 9px' src=\"http://static2.aif.ru/public/hdengi/391/86e17d7b334fe5e93e3c48f4ec281177_1.jpg\" class=\"\" /></a>                                <a style='color:black;' href=\"/onlineconf/5264\"><b>Эксперт по ипотеке</b><br>Дмитрий Овсянников, ипотечный брокер</a><br><a style='color:black;' href=\"/onlineconf/5264\">Ответы на вопросы <span style='color:#929393;'>(492)</span></a><p style='padding-top:9px;'><a style='color:black;' href=\"/onlineconf/5264\"><img src=/i/health/i/footheader-bg.gif border=0> Задать свой вопрос</a></p></li>");};</p>
+<p>consN++;</p>
+<p>if (consN+sdvig>conspage*countonpage&&consN+sdvig <= conspage*countonpage+countonpage) {document.write("<li style='padding: 6px 6px 6px 100px;height:90px;'><a class=\"test-pic\" href=\"/onlineconf/5257\"><img width=80 height=80 style='padding:6px 9px' src=\"http://static2.aif.ru/public/hdengi/471/e6eaad4dccd2e1074e52ab446dc85b45_1.jpg\" class=\"\" /></a>                                <a style='color:black;' href=\"/onlineconf/5257\"><b>Юрист</b><br>Дмитрий Шилов, юрист агентства «Инвесткафе»</a><br><a style='color:black;' href=\"/onlineconf/5257\">Ответы на вопросы <span style='color:#929393;'>(1290)</span></a><p style='padding-top:9px;'><a style='color:black;' href=\"/onlineconf/5257\"><img src=/i/health/i/footheader-bg.gif border=0> Задать свой вопрос</a></p></li>");};</p>
+<p>Все консультанты (3)</p>
+<p>Реклама</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=3&target=blank&bt=34&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=4&target=blank&bt=34&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=5&target=blank&bt=34&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=6&target=blank&bt=34&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=7&target=blank&bt=34&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=8&target=blank&bt=34&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=120 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="' + ('https:' == document.location.protocol ? 'https:' : 'http:') + </p>
+<p>'//ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=8&target=blank&bt=34&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="' + ('https:' == document.location.protocol ? 'https:' : 'http:') + </p>
+<p>'//ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=9&target=blank&bt=34&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=300 height=100 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date();</p>
+<p>var dl = escape(document.location);</p>
+<p>var pr1 = Math.floor(Math.random() * 1000000);//var pr1 = 1234;</p>
+<p> </p>
+<p>function AdWolf_SetLayerVis(spritename,state){document.getElementById(spritename).style.visibility=state;}</p>
+<p>function AdWolf_ShowOver(show){if(show){AdWolf_SetLayerVis('AdWolf_DivBaseFlash',"hidden"); AdWolf_SetLayerVis('AdWolf_DivOverFlash',"visible");}else{AdWolf_SetLayerVis('AdWolf_DivOverFlash',"hidden"); AdWolf_SetLayerVis('AdWolf_DivBaseFlash',"visible");}}</p>
+<p>function AdWolf_Open(){AdWolf_ShowOver(true);}</p>
+<p>function AdWolf_Close(){AdWolf_ShowOver(false);}</p>
+<p> </p>
+<p>document.write('<div id="AdWolf_banner_'+pr1+'"><\/div>');</p>
+<p>document.write('<div style="visibility:hidden; position:absolute;"><iframe id="AdWolf_iframe_'+pr1+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');</p>
+<p> </p>
+<p>function AdWolf_getCodeScript(AW_n,AW_src){</p>
+<p>   var AW_doc;</p>
+<p>   if(AW_n<10){</p>
+<p>      try{</p>
+<p>	     if(document.all && !window.opera){</p>
+<p>		    AW_doc = window.frames['AdWolf_iframe_'+pr1].document;</p>
+<p>			}else if(document.getElementById){</p>
+<p>			         AW_doc = document.getElementById('AdWolf_iframe_'+pr1).contentDocument;</p>
+<p>					 }</p>
+<p>		 }catch(e){}</p>
+<p>    if(AW_doc){</p>
+<p>	   AW_doc.write('<scr'+'ipt type="text/javascript" src="'+AW_src+'"><\/scr'+'ipt>');</p>
+<p>	   }else{</p>
+<p>	      setTimeout('AdWolf_getCodeScript('+(++AW_n)+','+AW_src+')', 100);</p>
+<p>		  }</p>
+<p>		  }</p>
+<p>}</p>
+<p>AdWolf_getCodeScript(1,'http://a.adwolf.ru/prepareCode?p1=bet&p2=l&pct=a&pfc=a&pfb=a&plp=a&pli=a&pop=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '&puid1=&puid2=&puid3=&dl='+dl+'&pr1='+pr1);</p>
+<p>// --></p>
+<p>Реклама</p>
+<p><!--</p>
+<p>if(typeof(ar_cn)=="undefined") var ar_cn=1;</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=80938&sz=money&bn=9&target=blank&bt=43&pz=0&tail256=" + ar_Tail;</p>
+<p>function ar_getDoc(t,n,l){</p>
+<p>var doc;</p>
+<p>if(t<100){if(document.all && !window.opera){doc = window.frames['ar_container_'+n].document;}</p>
+<p>else if(document.getElementById){doc=document.getElementById('ar_container_'+n).contentDocument;}</p>
+<p>if(!doc){setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100);}</p>
+<p>else {var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>doc.write ('<sc'+'ript language="JavaScript" type="text/javascript">var ar_bnum='+n+';<\/sc'+'ript>');</p>
+<p>doc.write ('<sc'+'ript language="JavaScript" type="text/javascript" src="'+l+'&rnd='+RndNum4NoCash+'"><\/sc'+'ript>');}}}</p>
+<p>function ar_putContainer(n){document.write('<div style="visibility:hidden;height:0px;position:absolute;"><iframe id="ar_container_'+n+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function ar_putDiv(n, f){document.write('<div id="ad_ph_'+n+'" style="'+(f?'position:absolute;':'')+'display:none"><\/div>');}</p>
+<p>ar_putContainer(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);</p>
+<p>//--></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/165873/prepareCode?p1=bdmdx&p2=ejvv&pct=a&pfc=a&pfb=a&plp=a&pli=a&pop=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>.rmbr-title-link-custom {color:black;}</p>
+<p>Загружается, подождите...</p>
+<p>div.wishes div.yours {</p>
+<p>overflow:hidden;</p>
+<p>width:300px;</p>
+<p>}</p>
+<p>div.wishes div.yours ul {</p>
+<p>background:none repeat scroll 0 0 #F3F4FA;</p>
+<p>color:#282828;</p>
+<p>font:1.2em Arial,Helvetica,sans-serif;</p>
+<p>list-style:none outside none;</p>
+<p>}</p>
+<p>div.wishes div.yours ul li {</p>
+<p>background:url(http://static5.aif.ru/glossy/i/horizontal-divider-bg.gif) repeat-x scroll 0 100% transparent;</p>
+<p>padding:5px 2px 4px 5px;</p>
+<p>}</p>
+<p>div.wishes div.yours ul span {</p>
+<p>background:url(http://static5.aif.ru/glossy/i/icon.warning.gif) no-repeat scroll 0 50% transparent;</p>
+<p>padding-left:20px;</p>
+<p>}</p>
+<p>div.wishes div.yours ul a {</p>
+<p>	color:#282828;</p>
+<p>}</p>
+<p>Вопрос  Ответ</p>
+<p>Обилие снега благоприятно для будущего урожая?...</p>
+<p>Что грозит тому, кто не подал налоговую декларацию?...</p>
+<p>Кому и в каких случаях нужно заполнять налоговую декларацию?...</p>
+<p>Как заполнить налоговую декларацию через Интернет? Практические советы...</p>
+<p>Где брать бланки для подачи налоговой декларации?...</p>
+<p>Всё о налоговой декларации: как заполнять и что иметь в виду...</p>
+<p>Изменилось ли что-то после входа в ВТО?...</p>
+<p>Что такое кредитный рейтинг и кто его присваивает?...</p>
+<p>архив рубрики</p>
+<p>Партнеры</p>
+<p>	zarplata.ru</p>
+<p>// <!--</p>
+<p>var for_smi_multi_login = "dmir.Dmir_na_Aif";</p>
+<p>var for_smi_multi_options = "options=NA";</p>
+<p>var for_smi_multi_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://multi.4smi.ru/cgi-bin/iframe/'+for_smi_multi_login+'?'+for_smi_multi_random+'&'+for_smi_multi_options+'&n=3&c=1" width="100%" height="230" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://multi.4smi.ru/cgi-bin/href/'+for_smi_multi_login+'?'+for_smi_multi_random +'" target="_blank"><img src="http://multi.4smi.ru/cgi-bin/banner/'+for_smi_multi_login+'?'+for_smi_multi_random +'&'+for_smi_multi_options+'" alt="for_smi_multi_local" width="100%" height="230" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p>Мужские новости</p>
+<p><!--</p>
+<p>(function(){</p>
+<p>    document.write('<'+'script type="text/javascript" src="http:\/\/media.mentalks.ru/main/39/05/270.js?r='+Math.random()+'"><'+'/script'+'>');</p>
+<p>})();</p>
+<p>//--></p>
+<p>  #smi2adblock_55113 table a {</p>
+<p>    color: #000;</p>
+<p>  }</p>
+<p>Новости СМИ2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/55113.js'; sc.charset = 'windows-1251';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>// <!--</p>
+<p>var for_smi_multi_login = "m24_aif.m24_aif_70x50";</p>
+<p>var for_smi_multi_options = "options=TA";</p>
+<p>var for_smi_multi_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://multi.4smi.ru/cgi-bin/iframe/'+for_smi_multi_login+'?'+for_smi_multi_random+'&'+for_smi_multi_options+'&n=5&c=1" width="100%" height="390" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://multi.4smi.ru/cgi-bin/href/'+for_smi_multi_login+'?'+for_smi_multi_random +'" target="_top"><img src="http://multi.4smi.ru/cgi-bin/banner/'+for_smi_multi_login+'?'+for_smi_multi_random +'&'+for_smi_multi_options+'" alt="for_smi_multi_local" width="100%" height="390" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p>                                    $(document).ready(function(){</p>
+<p>                		    </p>
+<p>                                        $('.socsetytabchek li').click(function(event) {</p>
+<p>                                            event.preventDefault();</p>
+<p>                                            $('.socbox').hide();</p>
+<p>                                            $('.socsetytabchek .activchekbox').removeClass("activchekbox");</p>
+<p>                                            $(this).addClass('activchekbox');</p>
+<p>                		   </p>
+<p>                                            var clicked = $(this).find('a:first').attr('href');</p>
+<p>                                            $('.soctad .' + clicked).show()</p>
+<p>                                            $('.soctad .' + clicked+' div').show();</p>
+<p>                                        }).eq(0).addClass('activchekbox');</p>
+<p>                                    });</p>
+<p>                		</p>
+<p>                                </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>  </p>
+<p>(function(d, s, id) {</p>
+<p>                                                      var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>                                                      if (d.getElementById(id)) return;</p>
+<p>                                                      js = d.createElement(s); js.id = id;</p>
+<p>                                                      js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";</p>
+<p>                                                      fjs.parentNode.insertBefore(js, fjs);</p>
+<p>                                                    }(document, 'script', 'facebook-jssdk'));</p>
+<p>                                                    VK.Widgets.Subscribe("vk_subscribe", {soft: 1}, -17862264);</p>
+<p>                                                    </p>
+<p>                                                VK.init({apiId: 2012139, onlyWidgets: true});</p>
+<p>                                                </p>
+<p>                                                VK.Widgets.Recommended("vk_recommended", {limit: 5, sort: 'likes', period:'month' });</p>
+<p>                                                </p>
+<p>Твиты пользователя @aifonline</p>
+<p>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</p>
+<p>                                                    !function(d,id,did,st){</p>
+<p>                                                    var js=d.createElement('script');</p>
+<p>                                                    js.src="http://connect.ok.ru/connect.js";</p>
+<p>                                                    js.onload = js.onreadystatechange = function (){</p>
+<p>                                                        if(!this.readyState || this.readyState=="loaded" || this.readyState=="complete"){</p>
+<p>                                                            if(!this.executed){</p>
+<p>                                                                this.executed = true;</p>
+<p>                                                                setTimeout(function(){OK.CONNECT.insertGroupWidget(id,did,st);},0);</p>
+<p>                                                            }</p>
+<p>                                                        }</p>
+<p>                                                    }</p>
+<p>                                                    d.documentElement.appendChild(js);</p>
+<p>                                                }</p>
+<p>                                                (document, "ok_aif_widget_50782901633187", 50782901633187, '{width: "298", height: "370"}');</p>
+<p>                                                </p>
+<p>Товары и услуги</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=1&target=blank&bt=31&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=160 height=220 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Ответьте на вопросыТест: Где встретить Конец света?от 0 руб.Досуг AIF.RU</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=2&target=blank&bt=31&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=150 height=220 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Сарафанный маркетинг.Как заставить о себе говорить?от 250 руб.Книги AIF.RU</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=4&target=blank&bt=31&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=150 height=220 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=3&target=blank&bt=31&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=150 height=220 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>ЛолитаОдно из самых великих и известных произведений 20 векаот 60 руб.Книги AIF.RU </p>
+<p><!--</p>
+<p>var _ga1_channel='22';</p>
+<p>var _ga1_volume = 0;</p>
+<p>var _ga1_volume_off = true;</p>
+<p>var _ga1_inline_max=3;</p>
+<p>(function() {</p>
+<p>    var s = document.createElement('script'); s.type = 'text/javascript'; s.charset = 'utf-8'; s.async = true; s.src = 'http://files.goodadvert.ru/ga_1.js';</p>
+<p>    var o = document.getElementsByTagName('script')[0]; o.parentNode.insertBefore(s, o);</p>
+<p>})();</p>
+<p>// --></p>
+<p><!--</p>
+<p>var _ga3_channel='56';</p>
+<p>var _ga3_volume_off = true;</p>
+<p>var _ga3_unique_timeout = 86400000;</p>
+<p>(function() {</p>
+<p>    var s = document.createElement('script'); s.type = 'text/javascript'; s.charset = 'utf-8'; s.async = true; s.src </p>
+<p>= 'http://files.goodadvert.ru/ga_3.js';</p>
+<p>    var o = document.getElementsByTagName('script')[0]; o.parentNode.insertBefore(s, o);</p>
+<p>})();</p>
+<p>// --></p>
+<p>/* <![CDATA[ */</p>
+<p>var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>document.write("<scr"+"ipt type='text/javascript' src='http://go.arboru.bbelements.com/please/showit/2353/3/1/50/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>/* ]]> */</p>
+<p>Главная страница</p>
+<p>Все материалы</p>
+<p>Страница онлайн-подписки</p>
+<p>Топ-50 самых обсуждаемых статей</p>
+<p>Топ-50 самых читаемых статей</p>
+<p>Бумажный номер</p>
+<p>Архив бумажных номеров</p>
+<p>Читайте «Аргументы и факты»</p>
+<p>в контакте</p>
+<p>facebook</p>
+<p>twitter</p>
+<p>iphone</p>
+<p>pda</p>
+<p>rss</p>
+<p> </p>
+<p>Политика</p>
+<p>Деньги</p>
+<p>Общество</p>
+<p>Культура</p>
+<p>Кухня</p>
+<p>Спорт</p>
+<p>Здоровье</p>
+<p>Дача</p>
+<p>Техника</p>
+<p>Досуг</p>
+<p> </p>
+<p>ТВ-гид</p>
+<p>Вопрос-ответ</p>
+<p>Конференции</p>
+<p>Авторы</p>
+<p>Персона</p>
+<p>Фото</p>
+<p>Видео</p>
+<p>Опросы</p>
+<p>Фотоголосвание</p>
+<p> </p>
+<p>Партнерские проекты</p>
+<p>Книги</p>
+<p>Игры</p>
+<p>АиФ-Блоги</p>
+<p>Объявления</p>
+<p>Погода</p>
+<p>Партнеры</p>
+<p>Наши регионы</p>
+<p> </p>
+<p>Спецпроекты</p>
+<p>Доброе сердце</p>
+<p>Острый угол</p>
+<p>Подписка на газету</p>
+<p>Подписка на сайт</p>
+<p>Реклама на сайте</p>
+<p>Реклама в газете</p>
+<p>Медиакит (PDF)</p>
+<p>Инвесторам</p>
+<p>Обратная связь</p>
+<p> </p>
+<p>СТАТИСТИКА</p>
+<p>Партнер Рамблера</p>
+<p>	var img = new Image();</p>
+<p>	img.src = 'http://www.aif.ru/lock/counter.php';</p>
+<p>var _top100q = _top100q || [];</p>
+<p>_top100q.push(["setAccount", "125100"]);</p>
+<p>_top100q.push(["trackPageviewByLogo", document.getElementById("top100counter_bottom")]);</p>
+<p>(function(){</p>
+<p> var top100 = document.createElement("script"); top100.type = "text/javascript";</p>
+<p> top100.async = true;</p>
+<p> top100.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//st.top100.ru/pack/pack.min.js";</p>
+<p> var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(top100, s);</p>
+<p>})();</p>
+<p>//<![CDATA[</p>
+<p>(function(w,n,d,r,s){d.write('<p><a href="http://top.mail.ru/jump?from=59428">'+</p>
+<p>'<img src="http://d8.ce.b0.a0.top.mail.ru/counter?id=59428;t=49;js=13'+</p>
+<p>((r=d.referrer)?';r='+escape(r):'')+((s=w.screen)?';s='+s.width+'*'+s.height:'')+';_='+Math.random()+</p>
+<p>'" style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /><\/a><\/p>');})(window,navigator,document);//]]></p>
+<p>	var openstat = { counter: 2260488, image: 5081, color: "c3c3c3", next: openstat };</p>
+<p>	(function(d, t, p) {</p>
+<p>	var j = d.createElement(t); j.async = true; j.type = "text/javascript";</p>
+<p>	j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";</p>
+<p>	var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);</p>
+<p>	})(document, "script", document.location.protocol);</p>
+<p>	</p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter46571 = new Ya.Metrika({id:46571, webvisor:true,type:1});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, "yandex_metrika_callbacks");</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-3672159-1']);</p>
+<p>_gaq.push(['_addOrganic', 'nova.rambler.ru', 'query']);</p>
+<p>_gaq.push(['_addOrganic', 'go.mail.ru', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'nigma.ru', 's']);</p>
+<p>_gaq.push(['_addOrganic', 'webalta.ru', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'aport.ru', 'r']);</p>
+<p>_gaq.push(['_addOrganic', 'poisk.ru', 'text']);</p>
+<p>_gaq.push(['_addOrganic', 'km.ru', 'sq']);</p>
+<p>_gaq.push(['_addOrganic', 'liveinternet.ru', 'ask']);</p>
+<p>_gaq.push(['_addOrganic', 'quintura.ru', 'request']);</p>
+<p>_gaq.push(['_addOrganic', 'search.qip.ru', 'query']);</p>
+<p>_gaq.push(['_addOrganic', 'gde.ru', 'keywords']);</p>
+<p>_gaq.push(['_addOrganic', 'gogo.ru', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'ru.yahoo.com', 'p']);</p>
+<p>_gaq.push(['_addOrganic', 'images.yandex.ru', 'q', true]);</p>
+<p>_gaq.push(['_addOrganic', 'blogsearch.google.ru', 'q', true]);</p>
+<p>_gaq.push(['_addOrganic', 'blogs.yandex.ru', 'text', true]);</p>
+<p>_gaq.push(['_setDomainName', 'aif.ru']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>_gaq.push(['_trackPageLoadTime']);</p>
+<p>(function() {</p>
+<p>	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>
+<p>(function(){</p>
+<p>	document.MAX_used = document.MAX_used || ',';</p>
+<p>	var m3_u = (document.location.protocol=='https:'?'https://ads.targetix.net/al.php':'http://ads.targetix.net/al.php');</p>
+<p>	m3_u += '?zoneid=1128&amp;layerstyle=fullscreen&amp;timeout=15&amp;cb='+Math.random();</p>
+<p>	if (document.MAX_used != ',') m3_u += '&amp;exclude=' + document.MAX_used;</p>
+<p>	m3_u += document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : '');</p>
+<p>	m3_u += '&amp;loc=' + encodeURIComponent(window.location);</p>
+<p>	if (document.referrer) m3_u += '&amp;referer=' + encodeURIComponent(document.referrer);</p>
+<p>	if (document.context) m3_u += '&amp;context=' + encodeURIComponent(document.context);</p>
+<p>	if (document.mmm_fo) m3_u += '&amp;mmm_fo=1';</p>
+<p>	document.write( unescape("%3Cscript%20type%3D%27text/javascript%27%20src%3D%27") + m3_u + unescape("%27%3E%3C/script%3E"));</p>
+<p>})();</p>
+<p>Редакция не несет ответственности за достоверность информации, содержащейся в рекламных объявлениях. Редакция не предоставляет справочной информации.Рубрики «Здоровье», «Техника», «Кухня», «Деньги», «Туризм» являются рекламно-информационными приложениями к «AIF.RU»</p>
+<p>Использование информации из материалов сайта возможно только с указанием источника и проставлением гиперссылки на </p>
+<p>сайт aif.ru. Копирование и использование полных материалов сайта без изменений возможно лишь с разрешения редакции.</p>
+<p>  </p>
+<p>© ЗАО «Аргументы и Факты». (1997-2013)</p>
+<p>Н. Зятьков - главный редактор, президент</p>
+<p>Д. Воронков - генеральный директор</p>
+<p>Весь коллектив</p>
+<p>Свидетельство о регистрации СМИ</p>
+<p>Эл № ФС77-31805 от 23.04.2008</p>
+<p>Адрес редакции: 107996, г. Москва,ул. Электрозаводская 27 к.4, БЦ «Ле-Форт»Телефон редакции: +7 (495) 646-57-57  </p>
+<p>	.footer {</p>
+<p>		font: 11px/18px Tahoma,Verdana,Arial,sans-serif;</p>
+<p>		color: #fff;</p>
+<p>		background: #8c8c8c;</p>
+<p>		border-top: 2px solid #464646;</p>
+<p>	}</p>
+<p>	</p>
+<p>	.footer a {</p>
+<p>		color: #fff;</p>
+<p>	}</p>
+<p>	</p>
+<p>	.footer a:hover {</p>
+<p>		color: #fff;</p>
+<p>	}</p>
+<p>	</p>
+<p>	.footer table {</p>
+<p>		width: 100%;</p>
+<p>	}</p>
+<p>	</p>
+<p>	.footer table td {</p>
+<p>		vertical-align: top;</p>
+<p>		padding-right: 20px;</p>
+<p>	}</p>
+<p>	</p>
+<p>	.footer hr {</p>
+<p>		border: 0;</p>
+<p>		border-top: 1px solid #fff;</p>
+<p>		margin: 15px 0;</p>
+<p>		padding: 0;</p>
+<p>	}</p>
+<p>	</p>
+<p>	.footer .style1 {</p>
+<p>		font-weight: bold !important;</p>
+<p>		font-size: 12px !important;</p>
+<p>	}</p>
+<p> </p>
+<p>    var img = new Image();</p>
+<p>    img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*aif_ru/ru/UTF-8/tmsec=aif_total/' + Math.round(Math.random() * 1000000000);</p>
+<p> #panel{}</p>
+<p> </p>
+<p>Вход</p>
+<p>Забыли пароль? Воспользуйтесь формой восстановления пароля</p>
+<p>Восстановить</p>
+<p>войти на сайт</p>
+<p>Войти, используя</p>
+<p>                Добро пожаловать, login.</p>
+<p>                Выход</p>
+<p>Зарегистрироваться</p>
+<p> </p>
+<p>×</p>
+<p>                    С уважением, администрация сайта AIF.ru</p>
+<p>                </p>
+<p>                    Подтверждение регистрации должно прийти через несколько минут.</p>
+<p>                    Если Вы не получите письмо в течение трех часов, просьба обращаться к администрации сайта.</p>
+<p>                </p>
+<p>                Уважаемый пользователь сайта AIF.ru! Теперь Вы можете изменить пароль на нашем сайте.</p>
+<p>                Инструкции по установке нового пароля отправлены на электронную почту email.</p>
+<p>        </p>
+<p>               Мы уже выслали приветственное письмо на указанную Вами почту.</p>
+<p>               Нажав на ссылку в этом письме, Вы подтверждаетесвое согласие стать членом нашей команды.</p>
+<p>               На нашем сайте не только журналисты и звезды, но и комментаторы тоже. Вливайтесь!        </p>
+<p>         </p>
+<p>        var s = new Statistic('article',48546,'7 самых важных для россиян событий в 2012 году');</p>
+<p>    </p>

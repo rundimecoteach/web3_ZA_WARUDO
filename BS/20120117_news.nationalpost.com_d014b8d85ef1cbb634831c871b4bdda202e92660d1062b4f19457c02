@@ -1,0 +1,373 @@
+<p>	document.domain = 'nationalpost.com';</p>
+<p>	var sXDComm = 'http://news.nationalpost.com/xdcomm/';</p>
+<p>	JANRAIN.SSO.CAPTURE.check_login({</p>
+<p>		sso_server: 'https://sso.canada.com',</p>
+<p>		client_id: 'nqag25dsn6hp6ct8r7dps5h9ukegdc3p',</p>
+<p>		redirect_uri: 'http://news.nationalpost.com/sso/',</p>
+<p>		logout_uri: 'http://news.nationalpost.com/sso/?signout',</p>
+<p>		xd_receiver: sXDComm</p>
+<p>	});</p>
+<p>Delaying parenthood has serious medical risks: Society of Obstetricians and Gynaecologists of Canada | News | National Post</p>
+<p>		/* <![CDATA[ */</p>
+<p>			if ( 'function' === typeof WPRemoteLogin ) {</p>
+<p>				document.cookie = "wordpress_test_cookie=test; path=/";</p>
+<p>				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {</p>
+<p>					WPRemoteLogin();</p>
+<p>				}</p>
+<p>			}</p>
+<p>		/* ]]> */</p>
+<p>		</p>
+<p>/* <![CDATA[ */</p>
+<p>function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}</p>
+<p>/* ]]> */</p>
+<p>	/* <![CDATA[ */</p>
+<p>			/* ]]> */</p>
+<p>	</p>
+<p>var sBlogSlug='news';var sck=';sck=news;sck=science-health;tag=childbearing;tag=parenthood;aid=130257;page=story;author=postmedianews';var npAReady=[],npReady=function(f){npAReady.push(f)}</p>
+<p>	var _sf_startpt = (new Date()).getTime();</p>
+<p>var disqus_category_id=869867;	try {</p>
+<p>		var _gaq = _gaq || [];</p>
+<p>		_gaq.push(['_setAccount', 'UA-17097415-1']);</p>
+<p>		_gaq.push(['_setDomainName', '.nationalpost.com']);</p>
+<p>		_gaq.push(['_trackPageview']);</p>
+<p>	} catch(err) {}</p>
+<p>Canada.com Networknationalpost.comfinancialpost.comToday's PaperDeliveryContactDigital Paper</p>
+<p>National Post</p>
+<p>HomemoreToday's Paper & ArchiveTwitter AccountsServicesNewslettersDigital PaperHome DeliveryAdvertise with usRaise A ReaderTop Stories FeedCosta Concordia captain ignored coastguard's pleas to return to ship, recording showsAccusations, kisses fly as Shafia mother wraps up testimonyChina has our forests, now we’re sending our oilfields tooLiberals choose once again to play follow the leaderForeign-backed groups trying to delay pipeline hearings: HarperMitt Romney beats back attacks in Republican debate, as Rick Perry adds Turkey to the terror listBusinessmoreNewsOpinionMarketsInvestingPersonal FinanceTech DeskLegal PostExecutiveEntrepreneurLatest Business Headlines FeedLooks like last quarter's bounce was a head-fakeHere's why Kinross is getting hammered todayTech in 2012: The end of unlimited Internet and the return of UBBNorthern Gateway endangers environment, energy security: geologistThe Left's revengeFracking may have caused blowout in southern AlbertaRBC and Shoppers Drug Mart to offer new debit and loyalty cardDundee REIT to buy WhiterockNewsmoreCanadaWorldPosted TorontoCanadian PoliticsEditors BlogToday's Paper & ArchiveBreaking News FeedCosta Concordia captain ignored coastguard's pleas to return to ship, recording showsAccusations, kisses fly as Shafia mother wraps up testimonyChina has our forests, now we’re sending our oilfields tooLiberals choose once again to play follow the leaderForeign-backed groups trying to delay pipeline hearings: HarperMitt Romney beats back attacks in Republican debate, as Rick Perry adds Turkey to the terror listOpinionmoreFull CommentLetters to the EditorGary ClementColumnistsChristie BlatchfordAndrew CoyneJohn IvisonKelly McParlandTerence CorcoranDiane FrancisLatest Opinion Headlines FeedKelly McParland: McGuinty demonstrates Ontario’s loser mentalityToday’s letters: Our Forces’ toy role models should be of both gendersLorne Gunter: Let Montreal build a ‘magnificent’ bridge … but on its own dimeTerry Glavin: China has our forests, now we’re sending our oilfields tooMatt Gurney: Some good, but mostly bad, news from OntarioChris Selley: It’s a perilous — and political —  road from evidence to policyArtsmoreMoviesBooksThe SceneShinan GovaniMusicTelevisionTV ListingsOn StageLatest Arts Headlines FeedDownton Abbey and 'the cult of the English country house'Red Means Run author Brad Smith: ‘I have an aversion to cops’Theatre Review: Buddies in Bad Times’ Penelopiad is explosively funnyShinan: Where was Ryan Gosling at the Golden Globes?The Big Pink fill in for the Great British Guitar BandKathleen Edwards bares it all on VoyageurLifemoreRunningHealthStyleThe AppetizerWineTravelHoly PostHoroscopesLatest Life Headlines FeedDiscerning germs: ‘Hygiene hypothesis’ favours exposure over manic cleanlinessSearching for salami of the gods in SeattleHotel harrumphing: On the indignity of asking to see the third room firstAloha, Mickey MouseHappy Hour: The smooth simplicity of a stingerHer life in a bag: Shelley Rozenwald of The BaySportsmoreNHLMLBNBANFLCFLGolfBruce ArthurLatest Sports Headlines FeedImagining a Leafs-Wings Winter ClassicMalkin leads the way for PenguinsPerkins gone but never forgotten in BostonDjokovic dominant, Raonic, Wozniak advanceUnplugged: Axford on shaving his Fu ManchuMental errors costly as Raptors fall againLeafs hope Bozak can ignite top lineHomesmorePost HomesCondosDécorCottage & CabinLatest Homes Headlines FeedFor Sale: Karma CondosThe Model: This condo makes you feel elated thanks to its upbeat decorSold: More than $50,000 in upgradesFor Sale: South-facing, upgraded suitePynn Pointers: To slipcover or not?A brush job that really needs to be done slowlyCarsmorePost DrivingDriving VideosUsed Cars - GTADriving.caLatest Cars Headlines FeedLoeb begins quest for ninth rally titleRally Dakar 2012 finish! Peterhansel races to 10th Dakar crownReincarnation: 1966 Dodge Power Wagon gets a mightier heartRoad Test: 2012 Volkswagen BeetleCARgo: JVC’s nice gesture and stay inReachRoad Trip: New Delhi, IndiaMultimediamorePhotosGraphicsPodcastsVideosLatest Podcasts FeedFP PodcastsPosted TorontoClassifiedsmoreFlyertownSelf-ServeBuy and SellDrivingWorkingShoppingHousehuntingObituariesCelebratingConnectingSite Map</p>
+<p>Costa Concordia | Christie Blatchford | Australian Open | Andrew Coyne | Tipping | GOP primaries | Tim Hortons</p>
+<p>National Post</p>
+<p> News</p>
+<p> Canada</p>
+<p>Graphics</p>
+<p>Internet</p>
+<p>Science & Health</p>
+<p>U.S.</p>
+<p>World</p>
+<p> </p>
+<p>					tile += 1;</p>
+<p>					document.write('<script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/' + adsite + zone + ';loc=top;sz=120x90;tile=' + tile + ';dcopt=ist;' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>				</p>
+<p>News</p>
+<p>Delaying parenthood has serious medical risks for both men and women, study warns</p>
+<p>Postmedia News </p>
+<p>Jan 17, 2012 – 9:48 AM ET</p>
+<p> </p>
+<p>Fotolia</p>
+<p>Babies born to fathers of “advanced paternal age” — defined as 40 and older at the time of conception — are at increased risk of genetic disorders, as well as schizophrenia, autism and some forms of cancer, according to the authors</p>
+<p>Comments</p>
+<p>Email</p>
+<p>Twitter </p>
+<p>By Sharon Kirkey</p>
+<p>Men, and not just women, need to be aware of the “reproductive consequences” of postponing parenthood, new national guidelines on the risks of delayed child-bearing warn.</p>
+<p>Though women especially should recognize that their “fecundity and fertility” starts to decline precipitously after 32, a man’s semen quality and fertility also worsens with age, according to guidelines endorsed by the Society of Obstetricians and Gynaecologists of Canada.</p>
+<p>In addition, babies born to fathers of “advanced paternal age” — defined as 40 and older at the time of conception — are at increased risk of genetic disorders, as well as schizophrenia, autism and some forms of cancer, according to the authors.</p>
+<p>The new guideline to doctors comes amid growing concerns about the number of women delaying childbearing. In Canada, 11 per cent of first births now occur in women aged 35 and older, up from five per cent in 1987.</p>
+<p>RelatedOnly planet: Why one child is often enoughNot too late to bring back early marriage</p>
+<p>If the trend holds, society can expect to spend more on intensive care, special care nurseries and community services for children born to older parents who may have developmental, hearing, speech or language problems, the authors say.</p>
+<p>It could also affect the future growth of the country; women who postpone their first births tend to have fewer babies, if they become pregnant at all.</p>
+<p>“Widespread pre-conception counselling and education are needed and must be implemented so that the 95 per cent of Canadians who anticipate parenting at some point can make informed decisions,” the authors write in this month’s issue of the Journal of Obstetrics and Gynaecology Canada.</p>
+<p>But while the popular belief is that women are deferring motherhood for their careers, a related survey of more than 1,000 women in Calgary and Edmonton who gave birth to their first child between 2002 and 2003 found that the top three factors influencing timing of pregnancy — regardless of a woman’s age — are relationship security, feeling in control of their life and feeling prepared to be a mother.</p>
+<p>Less than a third of women cited career goals, though women more than 35 were more likely than younger women to say they felt their biological clock was ticking.</p>
+<p>“We were really surprised, because that was the colloquial dogma — ‘Oh, I need to get my career underway,’ ” said Suzanne Tough, a professor in pediatrics and community health sciences at the University of Calgary and a co-author of the study, as well as the guideline on delayed child-bearing.</p>
+<p>“Once women hit 25 . . . it was really the relationship that was the key factor in influencing when they chose to become a parent.”</p>
+<p>The concern is that women may not realize what they’re risking while they’re waiting.</p>
+<p>For females, the biologically optimum period for having a baby is between 20 and 35. By age 32, a woman’s fecundity — the probability of getting pregnant in a menstrual cycle — starts an irreversible slide.</p>
+<p>And getting pregnant is only the beginning. Compared to younger women, women more than 35 are at increased risk of miscarriage, ectopic pregnancies (where the fertilized egg implants outside the womb), diabetes, high blood pressure, placental abnormalities, multiple births and C-section deliveries.</p>
+<p>Babies born to older mothers are at higher risk of low birth weight, premature birth, chromosomal abnormalities, stillbirth and fetal death. They’re more likely to need intensive care support and to have long-term health complications and challenges at school, Tough said.</p>
+<p>For men, age affects fertility a number of ways, she and her co-authors write. Older men tend to have “decreased coital frequency” and are more likely to experience sexual dysfunction. In addition, the volume, motility and percent of normal sperm decrease with age.</p>
+<p>Reproductive health isn’t just about women, said Tough, leader of a $5 million research team trying to reduce preterm births. “It’s about men and women and couples and families.”</p>
+<p>“The purpose of the guidelines is to enable couples to make informed decisions. There’s a couple in this — not just a woman or not just a man or not just a baby.”</p>
+<p>Women 35 years of age and older should be offered screening for chromosomal abnormalities and undergo a thorough second trimester ultrasound to look for “significant fetal defects”, especially heart defects, according to the guideline.</p>
+<p>It also warns that while assisted baby-making technologies may be pushing the boundaries of reproduction, they can’t guarantee a live birth; neither can they “compensate completely” for the natural fall off in fertility due to aging.</p>
+<p>For example, the live birth rate per cycle of in vitro fertilization falls from about 31 per cent at age 35, to less than five per cent by age 42.</p>
+<p>“Often what we hear is, ‘If I’d known this sooner, I would have made a different decision,’ ” Tough said.</p>
+<p>Postmedia News</p>
+<p> </p>
+<p>Posted in: News, Science & Health </p>
+<p>				Tags: Childbearing, Parenthood </p>
+<p>Postmedia News</p>
+<p> </p>
+<p>Tori Stafford family steels itself for emotional trial of man accused of murdering eight-year-oldForeign-backed groups trying to delay pipeline hearings: HarperMatthew Fisher: Canada loses one of its greatest friends in AfghanistanCosta Concordia disaster sounds alarm on cruise industry issues, expert saysSearch begins for thousands rescued from Nazis by ‘unsung hero’ of Second World War </p>
+<p>More from Postmedia News »</p>
+<p>	var npDsqSso = /^[\s\S]*\bdisqus-sso=([^;]+)[\s\S]*$/i.test(document.cookie),</p>
+<p>		npDsq_remote_auth_s3 = 'e30= efe7b5412e218f53f07c19eff3591bf99b01604a 1326817037',</p>
+<p>		npDsq_api_key = '4ArDk9sCU7Y27T6Ni9ixYD3n90ZSiXdMtCOI9mcHFCEf6gnVGHpnKgereuyCJ3Rn';</p>
+<p>blog comments powered by Disqus</p>
+<p>	var disqus_url = 'http://news.nationalpost.com/2012/01/17/delaying-parenthood-has-serious-medical-risks-for-both-men-and-women-study-warns/';</p>
+<p>	var disqus_identifier = '130257 http://news.nationalpost.com/?p=130257';</p>
+<p>	var disqus_container_id = 'disqus_thread';</p>
+<p>	var disqus_domain = 'disqus.com';</p>
+<p>	var disqus_shortname = 'npdigital';</p>
+<p>		var disqus_config = function () {</p>
+<p>	    var config = this; // Access to the config object</p>
+<p>	    /* </p>
+<p>	       All currently supported events:</p>
+<p>	        * preData — fires just before we request for initial data</p>
+<p>	        * preInit - fires after we get initial data but before we load any dependencies</p>
+<p>	        * onInit  - fires when all dependencies are resolved but before dtpl template is rendered</p>
+<p>	        * afterRender - fires when template is rendered but before we show it</p>
+<p>	        * onReady - everything is done</p>
+<p>	     */</p>
+<p>		config.callbacks.preData.push(function() {</p>
+<p>			// clear out the container (its filled for SEO/legacy purposes)</p>
+<p>			document.getElementById(disqus_container_id).innerHTML = '';</p>
+<p>		})</p>
+<p>		config.callbacks.onReady.push(function() {</p>
+<p>			// sync comments in the background so we don't block the page</p>
+<p>			var req = new XMLHttpRequest();</p>
+<p>			req.open('GET', '?cf_action=sync_comments&post_id=130257', true);</p>
+<p>			req.send(null);</p>
+<p>		});</p>
+<p>		</p>
+<p>		config.callbacks.afterRender.push(npDsq_afterRender);this.page.remote_auth_s3 = npDsq_remote_auth_s3;this.page.api_key = npDsq_api_key;	};</p>
+<p>	</p>
+<p>	var facebookXdReceiverPath = 'http://nationalpostnews.wordpress.com/wp-content/themes/vip/plugins/disqus/xd_receiver.htm';</p>
+<p>	var DsqLocal = {</p>
+<p>		'trackbacks': [</p>
+<p>		],</p>
+<p>		'trackback_url': 'http://news.nationalpost.com/2012/01/17/delaying-parenthood-has-serious-medical-risks-for-both-men-and-women-study-warns/trackback/'</p>
+<p>	};</p>
+<p>(function() {</p>
+<p>	var dsq = document.createElement('script'); dsq.type = 'text/javascript';</p>
+<p>	dsq.async = true;</p>
+<p>	dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.40';</p>
+<p>	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);</p>
+<p>})();</p>
+<p>Search</p>
+<p>News</p>
+<p>Stock Quote</p>
+<p>Powered by Interactive Data Managed Solutions</p>
+<p>				tile += 1;</p>
+<p>				document.write('<script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/npo.com' + zone + ';loc=top;sz=300x250,300x251,300x600;tile=' + tile + ';' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>			</p>
+<p> Recent Posts </p>
+<p>Toronto council approves 2.5% property tax hike</p>
+<p>New photos expose the frantic search for the Costa Concordia missing</p>
+<p>Five new bodies found in wreckage of the Costa Concordia</p>
+<p>Tori Stafford family steels itself for emotional trial of man accused of murdering eight-year-old</p>
+<p>Russia faces violent revolution if it doesn’t embrace democracy, billionaire Putin challenger declares</p>
+<p>Recent Tweets</p>
+<p>From @postedtoronto: Rob Ford argues against property tax hike, against using surplus to save services as... http://t.co/uTlPeb5O #toronto 16 minutes ago</p>
+<p>Five new bodies found in wreckage of the Costa Concordia http://t.co/LkrUHsMY 20 minutes ago</p>
+<p>From @fullcomment:  Kelly McParland: McGuinty demonstrates Ontario’s loser mentality http://t.co/w28WTSLi 34 minutes ago</p>
+<p>Follow @nationalpost </p>
+<p>				tile += 1;</p>
+<p>				document.write('<script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/npo.com' + zone + ';loc=bot;sz=300x250,300x252,300x600;tile=' + tile + ';' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>			</p>
+<p> Powered by WordPress.com VIP</p>
+<p>National Post</p>
+<p>Financial Post</p>
+<p>Full Comment</p>
+<p>News</p>
+<p>Posted Toronto</p>
+<p>Sports</p>
+<p>Arts</p>
+<p>The Afterword</p>
+<p>Syndication</p>
+<p>Podcasts</p>
+<p>All Feeds</p>
+<p>Our Partners</p>
+<p>The Province (Vancouver)</p>
+<p>Vancouver Sun</p>
+<p>Edmonton Journal</p>
+<p>Calgary Herald</p>
+<p>Regina Leader-Post</p>
+<p>Saskatoon StarPhoenix</p>
+<p>Windsor Star</p>
+<p>Ottawa Citizen</p>
+<p>The Gazette (Montreal)</p>
+<p>DOSE</p>
+<p>Swarmjam Sweet Deals</p>
+<p>Flyertown</p>
+<p>Privacy | Terms | Contact us | Advertise with us | Copyright and permissions | Today's paper | Digital paper | Newsletters | News Feeds | Subscription services | Site map</p>
+<p>© 2012 National Post, a division of Postmedia Network Inc.  All rights reserved. Unauthorized distribution, transmission or republication strictly prohibited.</p>
+<p>	</p>
+<p>	document.write('<' + 'script type="text/javascript" src="http://ad.ca.doubleclick.net/N3081/adj/' + adsite + zone + ';loc=top;sz=1x1;tile=' + tile + ';dcopt=ist;' + keywords + 'ord=' + randomad + '?"><\/script>');</p>
+<p>/* <![CDATA[ */</p>
+<p>var WPGroHo = {"my_hash":""};</p>
+<p>/* ]]> */</p>
+<p>var _qevents = _qevents || [], wpcomQuantcastData = {"qacct":"p-18-mFEk4J448M","labels":",language.en,type.wpcom,posttag.childbearing,posttag.parenthood,vip.nationalpostnews"};</p>
+<p>function wpcomQuantcastPixel( labels, options ) {</p>
+<p>	var i, defaults = wpcomQuantcastData, data = { event: 'ajax' };</p>
+<p>	labels  = labels  || '';</p>
+<p>	options = options || {};</p>
+<p>	if ( typeof labels != 'string' )</p>
+<p>		options = labels;</p>
+<p>	for ( i in defaults ) {</p>
+<p>		data[i] = defaults[i];</p>
+<p>	}</p>
+<p>	for ( i in options ) {</p>
+<p>		data[i] = options[i];</p>
+<p>	}</p>
+<p>	if ( data.labels ) {</p>
+<p>		data.labels += ',' + labels;</p>
+<p>	} else {</p>
+<p>		data.labels = labels;</p>
+<p>	}</p>
+<p>	_qevents.push( data );</p>
+<p>};</p>
+<p>(function() {var elem = document.createElement('script');elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem, scpt);  })();</p>
+<p>_qevents.push( wpcomQuantcastData );</p>
+<p>	/* <![CDATA[ */</p>
+<p>		jQuery(document).ready( function($) {</p>
+<p>			// Remove the login box when clicking the page</p>
+<p>			$( document ).mousedown( function( e ) {</p>
+<p>				if ( null == $( e.target ).closest( '#wpl-mustlogin' ).get( 0 ) ) {</p>
+<p>					$( '#wpl-mustlogin' ).remove();</p>
+<p>				}</p>
+<p>			});</p>
+<p>			// Handle clicking the like button itself</p>
+<p>			$('#wpl-button > a.like').click( function(e) {</p>
+<p>				e.preventDefault();</p>
+<p>				</p>
+<p>				$.post( 'http://news.nationalpost.com/wp-admin/admin-ajax.php', {</p>
+<p>					'action': 'wpl_record_stat',</p>
+<p>					'stat_name': 'loggedout_like_click'</p>
+<p>				} );</p>
+<p>				var tenMins = new Date();</p>
+<p>				tenMins.setTime( tenMins.getTime() + 600000 );</p>
+<p>				document.cookie = 'wpl_rand=b476939922; expires=' + tenMins.toGMTString() + '; domain=wordpress.com; path=/;';</p>
+<p>				$('#wpl-count').after( '\</p>
+<p>					<div id="wpl-mustlogin"> \</p>
+<p>						<form action="https://nationalpostnews.wordpress.com/wp-login.php" method="post"> \</p>
+<p>							<p>Just one more step to like this post:</p> \</p>
+<p>							<label><span>Username</span> <input type="text" name="log" id="user_login" class="input" value="" size="20" tabindex="80" /></label> \</p>
+<p>							<label><span>Password</span> <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" tabindex="81" /></label> \</p>
+<p>							<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In" tabindex="82" /> \</p>
+<p>							<input type="hidden" name="redirect_to" value="http://news.nationalpost.com/2012/01/17/delaying-parenthood-has-serious-medical-risks-for-both-men-and-women-study-warns/?like=1" /> \</p>
+<p>							<input type="hidden" name="wpl_rand" value="b476939922" /> \</p>
+<p>							<p>Not a member yet? <a href="http://wordpress.com/signup/?ref=likebox" id="wpl-signup-link">Sign up with WordPress.com</a></p> \</p>
+<p>						</form> \</p>
+<p>					</div> \</p>
+<p>				');</p>
+<p>				$('#wpl-mustlogin').hide().slideDown('fast');</p>
+<p>			} );</p>
+<p>			</p>
+<p>			$('#wpl-mustlogin input.input').live( 'focus', function() {</p>
+<p>				$(this).prev().hide();</p>
+<p>			}).live( 'blur', function() {</p>
+<p>				if ( $(this).val() == '' )</p>
+<p>					$(this).prev().show();</p>
+<p>			});</p>
+<p>			</p>
+<p>			$('#wpl-mustlogin input#wp-submit').live( 'click', function(e) {</p>
+<p>				e.preventDefault();</p>
+<p>				</p>
+<p>				$.post( 'http://news.nationalpost.com/wp-admin/admin-ajax.php', { </p>
+<p>					'action': 'wpl_record_stat',</p>
+<p>					'stat_name': 'loggedout_login_submit'</p>
+<p>				}, function() {</p>
+<p>					$('#wpl-mustlogin form').submit();</p>
+<p>				} );</p>
+<p>			});			</p>
+<p>			</p>
+<p>			$('#wpl-mustlogin a#wpl-signup-link').live( 'click', function(e) {</p>
+<p>				e.preventDefault();</p>
+<p>				</p>
+<p>				var link = $(this).attr('href');</p>
+<p>				</p>
+<p>				$.post( 'http://news.nationalpost.com/wp-admin/admin-ajax.php', { </p>
+<p>					'action': 'wpl_record_stat',</p>
+<p>					'stat_name': 'loggedout_signup_click'</p>
+<p>				}, function() {</p>
+<p>					location.href = link;</p>
+<p>				} );</p>
+<p>			});					</p>
+<p>			</p>
+<p>		});</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>try{COMSCORE.beacon({c1:2,c2:7518284});}catch(e){}</p>
+<p>// <![CDATA[</p>
+<p>(function() {</p>
+<p>try{</p>
+<p>  if ( window.external &&'msIsSiteMode' in window.external) {</p>
+<p>    if (window.external.msIsSiteMode()) {</p>
+<p>      var jl = document.createElement('script');</p>
+<p>      jl.type='text/javascript';</p>
+<p>      jl.async=true;</p>
+<p>      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';</p>
+<p>      var s = document.getElementsByTagName('script')[0];</p>
+<p>      s.parentNode.insertBefore(jl, s);</p>
+<p>    }</p>
+<p>  }</p>
+<p>}catch(e){}</p>
+<p>})();</p>
+<p>// ]]></p>
+<p>st_go({'blog':'11573641','v':'wpcom','user_id':'0','post':'130257','subd':'nationalpostnews'});</p>
+<p>function st_vt() {var x=document.createElement("img");x.src="http://stats.wordpress.com/g.gif?blog=11573641&v=wpcomvt&user_id=0&post=130257&subd=nationalpostnews&rand="+Math.random();}</p>
+<p>ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXUVYmb2hZL0lEQT9qcF9NWi1bMDJfLy90VXNvY2U3ZFZ1RWlDan5dUUVCUnh3VDl+eDBlVFNqTFk2VjBEPXRzaHRiSit8SVs0OENaZXVbY1p0R3dBYnFCRl16fC5Ra2dsWF1kSFB4MzU0RV9YZnM/ZXc0WTg3NHV6TSsxUnNpdVM9Y18uanZZPzIzdSZHVm15JmtOM0lmYi1JZ0JHN08uWTZUOC5LSGMsQVl4OT8rQTlHNkdJYmhHWTddT1BSZ355Sm9xZXMta3Y3LkNxdXkzcGR5eDVE'});</p>
+<p>addLoadEvent(function(){linktracker_init('11573641',130257);});</p>
+<p>	</p>
+<p>	window.fbAsyncInit = function() {</p>
+<p>		FB.init({appId: '114466555268868', status: true, cookie: true, xfbml: true});</p>
+<p>	};</p>
+<p>	(function() {</p>
+<p>		var e = document.createElement('script');</p>
+<p>		e.async = true;</p>
+<p>		e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';</p>
+<p>		document.getElementById('fb-root').appendChild(e);</p>
+<p>	}());</p>
+<p><!--</p>
+<p>	/* You may give each page an identifying name, server, and channel on the next lines. */</p>
+<p>	</p>
+<p>	aPath = window.location.pathname.toLowerCase().replace(/^\/(.+)(?:\/(?:[^\/.]+\.[\w\d]+)?)$/, '$1').split('/');</p>
+<p>	s.pageName=window.location.pathname.toLowerCase();</p>
+<p>	s.server=window.location.hostname.toLowerCase();</p>
+<p>	s.channel='';</p>
+<p>	s.pageType='';</p>
+<p>	s.prop1=aPath.slice(0, 2).join('/');</p>
+<p>	s.prop2=aPath.join('/');</p>
+<p>	s.prop3='canwest';</p>
+<p>	s.prop4=/\bAT=[^;]+/i.test(document.cookie)?'Registered':'Non-Registered';</p>
+<p>	s.prop5=s.prop4 + ': ' + s.pageName;</p>
+<p>	s.prop6='';</p>
+<p>	s.prop7='';</p>
+<p>	s.prop8='';</p>
+<p>	s.prop9='';</p>
+<p>	s.prop10='';</p>
+<p>	s.prop13='';</p>
+<p>	s.prop23=document.title;</p>
+<p>	s.prop24=s.prop8;</p>
+<p>	s.prop25=s.pageName.replace(/^.*?\/([^\/.]*)[^\/]*?$/, '$1');</p>
+<p>	s.prop26=aPath[0];</p>
+<p>	s.prop27=s.prop1;</p>
+<p>	s.prop28=s.prop2;</p>
+<p>	s.prop29='';</p>
+<p>	s.prop36='';</p>
+<p>	s.prop37='npo.com';</p>
+<p>	/* E-commerce Variables */</p>
+<p>	s.state='';</p>
+<p>	s.zip='';</p>
+<p>	s.events='';</p>
+<p>	s.products='';</p>
+<p>	s.purchaseID='';</p>
+<p>	s.transactionID = s.purchaseID;</p>
+<p>	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>	var s_code=s.t();if(s_code)document.write(s_code)</p>
+<p>//--></p>
+<p><!--</p>
+<p>	if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>var _sf_async_config = {uid: 5314, domain: 'nationalpost.com'};</p>
+<p>	_sf_async_config.authors = 'Postmedia News';(function(){</p>
+<p>	function loadChartbeat() {</p>
+<p>		window._sf_endpt = (new Date()).getTime();</p>
+<p>		var e = document.createElement('script');</p>
+<p>		e.setAttribute('type', 'text/javascript');</p>
+<p>		e.setAttribute('src',</p>
+<p>(('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://') +</p>
+<p>'static.chartbeat.com/js/chartbeat.js');</p>
+<p>		document.body.appendChild(e);</p>
+<p>	}</p>
+<p>	var oldonload = window.onload;</p>
+<p>	window.onload = typeof window.onload !== 'function' ? loadChartbeat : function () {</p>
+<p>		oldonload();</p>
+<p>		loadChartbeat();</p>
+<p>	};</p>
+<p>}());</p>
+<p>(function() {</p>
+<p>	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>

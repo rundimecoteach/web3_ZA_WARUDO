@@ -1,0 +1,194 @@
+<p>Rzadka choroba, wywiercili w głowie chorej otwór</p>
+<p>function loadJsScript(f,b,c){try{var d=!0,a=null,e=!1;b||(e=!0);var g=RegExp(b,"ig");if(e||!0!==g.test(navigator.userAgent))a=document.createElement("script"),a.setAttribute("type","text/javascript"),a.setAttribute("src",f),c&&(a.onreadystatechange=a.onload=function(){var b=a.readyState;if(!c.done&&(!b||/loaded|complete/.test(b)))c.done=!0,c()}),document.head.appendChild(a)}catch(h){d=!1}return d};</p>
+<p>        var tightScreen=false;</p>
+<p>        var smallScreen=false;</p>
+<p>        var a=0;if(self.innerWidth){a=self.innerWidth;}else if(document.documentElement&&document.documentElement.clientWidth){a=document.documentElement.clientWidth;}else if(document.body){a=document.body.clientWidth;}</p>
+<p>        if(screen && screen.width){if(screen.width<a) a = screen.width;}</p>
+<p>        if(a==0){a = screen.width;}if(a<252){tightScreen = true;}a==0&&/MSIE (\\d+\\.\\d+);/.test(navigator.userAgent)&&!/Windows Phone/.test(navigator.userAgent)&& (xxcsr_alt_url="",tightScreen=false);a>=712&&(xxcsr_alt_url="")</p>
+<p>        if(a<768) smallScreen=true;</p>
+<p>        var flashDetect=false;</p>
+<p>        function getFlashVersion(){return"0,0,0"}</p>
+<p>        var html5Detect=false;function supports_canvas(){return!!document.createElement("canvas").getContext}function supports_video(){return!!document.createElement("video").canPlayType}supports_canvas()&&supports_video()&&(html5Detect=true);var adKeyword="level0",adKeyword=a<288||!html5Detect?"level0":a<768?"level1":flashDetect?"level3":"level2";</p>
+<p>        var adKeyWords = new Array(adKeyword);</p>
+<p>    </p>
+<p>		if (!tightScreen) {</p>
+<p>			var hyphenatorCallback = function() {</p>
+<p>				if(window.Hyphenator){Hyphenator.run();}</p>
+<p>			}</p>
+<p>			loadJsScript('http://ocdn.eu/static/template-engine/YTA7MDA_/eae816004f16afa764b85a10fabe568a/hyphenator-pl-gcc.js', 'BlackBerry|Symbian|MSIE 6.0|MSIEMobile|Windows Phone 6', hyphenatorCallback);</p>
+<p>		}</p>
+<p>    </p>
+<p>/* <![CDATA[ */</p>
+<p>    </p>
+<p>    pp_gemius_identifier='B3A1LS7XlTvt72yOpeCRmcSrTDM_Fri8.QNH.9K78Un.D7';</p>
+<p>    onetAds={ </p>
+<p>                  'target':'MOBI/WIADOMOSCI/WIELKA_BRYTANIA_I_IRLANDIA',  </p>
+<p>                  'adSlots':[],</p>
+<p>                  'sgn_cookie': 0,</p>
+<p>                  'mobile': 1,</p>
+<p>                  'kropka': {</p>
+<p>                      'DV':'ART'</p>
+<p>                    }</p>
+<p>                    </p>
+<p>              };</p>
+<p>    googleBoxChannel = 5716326316;</p>
+<p>    adsNoBanner = false;</p>
+<p>    /* ]]> */</p>
+<p>Onet</p>
+<p>Wiadomości</p>
+<p>Sport</p>
+<p>Biznes</p>
+<p>Rozrywka</p>
+<p>Gadżety</p>
+<p>Styl życia</p>
+<p>Wiedza i świat</p>
+<p>Popularne</p>
+<p>Mapa serwisów</p>
+<p>Strona główna</p>
+<p>Więcej</p>
+<p>                </p>
+<p>                Wiadomości</p>
+<p>                </p>
+<p>                </p>
+<p>                </p>
+<p>Uwaga! Ta strona zawiera treści przeznaczone tylko dla dorosłych</p>
+<p>Jeśli nie masz ukończonych 18 lat, nie powinieneś jej oglądać.</p>
+<p>Anuluj</p>
+<p>Tak</p>
+<p>Wiadomości </p>
+<p>    </p>
+<p>        › Kraj </p>
+<p>    </p>
+<p>        › W. Brytania i Irlandia</p>
+<p>            </p>
+<p>                25 gru 11 13:07</p>
+<p>                ,</p>
+<p>                    </p>
+<p>                        PG</p>
+<p>                    </p>
+<p>                </p>
+<p>                 | </p>
+<p>                     </p>
+<p>                           mirror.co.uk</p>
+<p>                     </p>
+<p>                </p>
+<p>            </p>
+<p>        </p>
+<p>Rzadka choroba, wywiercili w głowie chorej otwór</p>
+<p>  Brytyjskim medykom, dzięki nowatorskiemu leczeniu, udało się wyleczyć 55-letnią pacjentkę z zespołem Tourette'a. Jayne Bargent bardzo często doznawała gwałtownych szarpnięć głowy, często w trudem łapała dech i jak sama mówi żyła jak odludek. Była tak zdesperowana, że chciała w Szwajcarii poddać się eutanazji - informuje serwis mirror.co.uk.   Bargent nie mogła gotować, prowadzić samochodu, czytać, a nawet samodzielnie chodzić. Trwało to do momentu, kiedy przeszła zabieg tak zwanej głębokiej stymulacji mózgu.   Chirurdzy z National Hospital for Neurology and Neurosurgery w Londynie wywiercili w głowie pacjentki mały otwór, przez który włożyli do środka dwie elektrody. Następnie do elektrod podłączono prąd. Po 40 minutach od zabiegu nieomal wszystkie objawy choroby zniknęły.   Jayne Bargent z Hampshire, jest jedną z 12 dorosłych osób z ciężkim zespołem Tourette'a wyposażonych w stymulator mózgu. Osoby te będą monitorowane przez sześć miesięcy.   - W odpowiedzi na ciągłe dostarczanie stymulacji w mózgu następują zmiany. Z każdym dniem i tygodniem będzie lepiej - powiedział neurolog dr Tom Foltynie.   - To niesamowite. Nie czuję już się tą samą osobą. Przez trzy ostatnie lata mój stan się ciągle pogarszał, a teraz żyje na nowo - wyznała szczęśliwa kobieta.   Zespół Tourette’a jest wrodzonym zaburzeniem neurologicznym, które charakteryzuje się występowaniem licznych tików motorycznych i głosowych. W cięższych przypadkach symptomem choroby może być mimowolne przeklinanie lub wykonywanie nieprzyzwoitych gestów. Z badań wynika, że na zespół Tourette’a cierpi 1-5 na każde 1000 - 10 000 osób (wg różnych statystyk).   Zobacz najciekawsze materiały wideo:    Sławni politycy i ludzie ze świata show-biznesu występują w "osobliwej", żeby nie powiedzieć dość "obscenicznej" roli. Na bożonarodzeniowych figurkach sprzedawanych w hiszpańskiej Katalonii występują oni z odsłoniętymi pośladkami, w dość dwuznacznej pozycji. Wśród sportretowanych w ten sposób osób znajdują się ludzie z pierwszych stron gazet: od gwiazd muzyki, przez prezydenta USA po papieża. Zobacz wideo       Więcej reportaży, komentarzy i ciekawostek - zobacz wideo!   (RC)   var liveScoresName, dateNow = Date.now(), dateStart = Date.parse("2011-12-25 13:07:00+0100"), dateStartMidnight = new Date(dateStart).setHours(0,0,0,0); if (dateNow < dateStart) { if (dateNow >= dateStartMidnight) { liveScoresName = "Zapraszamy na relację na żywo od godziny " + new Date(dateStart).getHours() + ':' + new Date(dateStart).getMinutes(); } else { liveScoresName = "Relacja na żywo: " + new Date(dateStart).toLocaleDateString() + ' ' + new Date(dateStart).getHours() + ':' + new Date(dateStart).getMinutes(); } } else if (dateNow > (dateStart + 7200000)) { liveScoresName = "Przeczytaj zapis relacji"; } else { liveScoresName = "Relacja trwa, dołącz teraz!"; }; if(document.getElementById("liveScoresName1")){ document.getElementById("liveScoresName1").innerHTML = liveScoresName; } if(document.getElementById("liveScoresName2")){ document.getElementById("liveScoresName2").innerHTML = liveScoresName; }  </p>
+<p> </p>
+<p>		Komentarze  (44)</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Wiadomości</p>
+<p>   "Dyplomatyczna wojna" Polski i Niemiec po kontrowersyjnej okładce Świat Kaczyński: oczekujemy premiera jutro na mszy Wiadomości Rosyjskie media: w Polsce dzieje się coś dziwnego Świat Ciała noworodków w zamrażarce, są zatrzymani Olsztyn Prokuratura umorzyła śledztwo ws. śmierci w lesie Kabackim Warszawa    poprzednie następne  </p>
+<p>Na skróty</p>
+<p>Pogoda</p>
+<p>Program TV</p>
+<p>Cynk</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>    </p>
+<p>    if (google_ads.length > 0 && typeof google_info !== "undefined" && typeof google_info.feedback_url !== "undefined") {</p>
+<p>        var header = document.createElement("div");</p>
+<p>        header.className = "bxad_title1";</p>
+<p>        var a1 = document.createElement('a');</p>
+<p>        a1.href = google_info.feedback_url;</p>
+<p>        a1.title = "Reklamy Google"</p>
+<p>        a1.innerHTML = a1.title;</p>
+<p>        header.appendChild(a1);</p>
+<p>        </p>
+<p>        var bxadBox = document.getElementById("googleBox");</p>
+<p>        bxadBox.appendChild(header);</p>
+<p>        </p>
+<p>        var adsList = document.createElement("ul");</p>
+<p>        adsList.id = "bxad_ads_script_bxad_slot_bxad_slot_0";</p>
+<p>        </p>
+<p>        var i;</p>
+<p>        for (i=0; i<google_ads.length; i++) {</p>
+<p>            var ad = google_ads[i];</p>
+<p>            var ad_line = document.createElement("li");</p>
+<p>            if (i==0) {ad_line.className="li_left";}</p>
+<p>            var ad_title = document.createElement("h6");</p>
+<p>            var title_link = document.createElement("a");</p>
+<p>            title_link.href = ad.url.replace(/amp;/g,"");</p>
+<p>            title_link.innerHTML = ad.line1;</p>
+<p>            title_link.target = "_blank";</p>
+<p>            ad_title.appendChild(title_link);</p>
+<p>            ad_line.appendChild(ad_title);</p>
+<p>            var ad_body = document.createElement("p");</p>
+<p>            ad_body.innerHTML = ad.line2 + " " + ad.line3 + " ";</p>
+<p>            var main_ad_link = document.createElement("a");</p>
+<p>            main_ad_link.href=ad.url.replace(/amp;/g,"");;</p>
+<p>            main_ad_link.target = "_blank";</p>
+<p>            main_ad_link.innerHTML = ad.visible_url;</p>
+<p>            ad_body.appendChild(main_ad_link);</p>
+<p>            ad_line.appendChild(ad_body);</p>
+<p>            </p>
+<p>            adsList.appendChild(ad_line);</p>
+<p>        }</p>
+<p>        bxadBox.appendChild(adsList);</p>
+<p>        </p>
+<p>        </p>
+<p>    }</p>
+<p>}</p>
+<p>function urlencode(str){var hexStr=function(dec){return'%'+dec.toString(16).toUpperCase()};var ret='',unreserved=/[\w.]/;str=(str+'').toString();for(var i=0,dl=str.length;i<dl;i++){var ch=str.charAt(i);if(unreserved.test(ch)){ret+=ch}else{var code=str.charCodeAt(i);if(code===32){ret+='+'}else if(code===45){ret+='%2D'}else if(code<128){ret+=hexStr(code)}else if(code>=128&&code<2048){ret+=hexStr((code>>6)|0xC0);ret+=hexStr((code&0x3F)|0x80)}else if(code>=2048&&code<65536){ret+=hexStr((code>>12)|0xE0);ret+=hexStr(((code>>6)&0x3F)|0x80);ret+=hexStr((code&0x3F)|0x80)}else if(code>=65536){ret+=hexStr((code>>18)|0xF0);ret+=hexStr(((code>>12)&0x3F)|0x80);ret+=hexStr(((code>>6)&0x3F)|0x80);ret+=hexStr((code&0x3F)|0x80)}}}return ret}</p>
+<p> </p>
+<p>if ( typeof adsNoBanner !== "undefined" && adsNoBanner != true && document.getElementById('pageHeader').offsetWidth>=712 ) {</p>
+<p>var numAds = 3;</p>
+<p>var a = Math.round((new Date).getTime() / 1000);</p>
+<p>var src="http://googleads.g.doubleclick.net/pagead/ads?" + </p>
+<p>"client=ca-pub-4069369533017132" +</p>
+<p>"&channel=" +  + </p>
+<p>"&dt=" + (new Date).valueOf() + </p>
+<p>"&lmt=" + (Date.parse(document.lastModified) / 1000) +</p>
+<p>"&skip=" + 0 + </p>
+<p>"&num_ads=" + numAds +</p>
+<p>"&output=js" +</p>
+<p>"&url=" + urlencode(location.href) +</p>
+<p>"&ref=" + urlencode(document.referrer) +</p>
+<p>"&ad_type=text" +</p>
+<p>"&feedback_link=on" +</p>
+<p>"&frm=0" +</p>
+<p>"&correlator=" + (new Date).getTime() +</p>
+<p>"&ga_fc=1" +</p>
+<p>"&ga_sid=" + (window && window.gaGlobal && window.gaGlobal.sid ? window.gaGlobal.sid : a + "") +</p>
+<p>"&ga_vid=" + (window && window.gaGlobal && window.gaGlobal.vid ? window.gaGlobal.vid : Math.round(Math.random()*2147483647) + "." + a) +</p>
+<p>"&ga_hid=" + (window && window.gaGlobal && window.gaGlobal.hid ? window.gaGlobal.hid : Math.round(Math.random()*2147483647));</p>
+<p>var script = document.createElement('script');</p>
+<p>script.type = "text/javascript";</p>
+<p>script.src = src;</p>
+<p>document.getElementsByTagName('head')[0].appendChild(script);</p>
+<p>}</p>
+<p>Więcej na temat</p>
+<p>            </p>
+<p>            </p>
+<p>                25 gru 11 13:07,</p>
+<p>                    </p>
+<p>                        PG</p>
+<p>                    </p>
+<p>                </p>
+<p>                 | </p>
+<p>                     </p>
+<p>                           mirror.co.uk</p>
+<p>                     </p>
+<p>                </p>
+<p>                 </p>
+<p>                </p>
+<p>                    </p>
+<p>                         | Zobacz pełną wersję artykułu</p>
+<p> </p>
+<p>Strona główna    Mapa serwisów    Archiwum    Klasyczny Onet    Reklama    Copyright © Grupa Onet.pl SA</p>
+<p>/* <![CDATA[ */</p>
+<p>if (typeof adsNoBanner !== "undefined" && adsNoBanner != true) {</p>
+<p>       if (onetAds) {</p>
+<p>                </p>
+<p>        if (typeof adsNoBanner !== "undefined" && adsNoBanner != true) {</p>
+<p>            onetAds.fetch();</p>
+<p>        }</p>
+<p>                </p>
+<p>                </p>
+<p>}</p>
+<p>}</p>
+<p>/* ]]> */</p>

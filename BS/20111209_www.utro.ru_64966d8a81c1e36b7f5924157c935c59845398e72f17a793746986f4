@@ -1,0 +1,948 @@
+<p>Зевота заражает друзей</p>
+<p><!-- .coll-tv{border-bottom: 1px solid #ffffff;border-right: 1px solid #ffffff;padding-bottom:2px;vertical-align: bottom;} --></p>
+<p><!--</p>
+<p>function calc(from,yyyy,mm,dd)</p>
+<p>{</p>
+<p>wc=window.open("http://www.utro.ru/cgi-bin/calendar.cgi?DD="+dd+"&month="+mm+"&year"+yyyy+"=&refferrer="+from,"wc","height=175,width=140,screenX=100,screenY=100,left=100,top=100,toolbar=0,scrollbars=0,menubar=0,status=no,resizable=no");</p>
+<p>}</p>
+<p>function calc_new(from,fulldate)</p>
+<p>{</p>
+<p>wc=window.open("http://www.utro.ru/cgi-bin/calendar.cgi?fulldate="+fulldate+"&refferrer="+from,"wc","height=175,width=140,screenX=100,screenY=100,left=100,top=100,toolbar=0,scrollbars=0,menubar=0,status=no,resizable=no");</p>
+<p>}</p>
+<p>//--></p>
+<p> </p>
+<p>	var img = new Image();</p>
+<p>	img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*rbc_ru/ru/UTF-8/tmsec=utro_total/' + Math.round(Math.random() * 1000000000);</p>
+<p>(function (d, w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter4116784 = new Ya.Metrika({id:4116784, enableAll: true, webvisor:true});</p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>    </p>
+<p>    var n = d.getElementsByTagName("script")[0],</p>
+<p>        s = d.createElement("script"),</p>
+<p>        f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>    if (w.opera == "[object Opera]") {</p>
+<p>        d.addEventListener("DOMContentLoaded", f);</p>
+<p>    } else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>
+<p>document.write('<img src="http://counter.yadro.ru/hit?r' + escape(document.referrer) + ((typeof(screen)=='undefined')?'':';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ';u' + escape(document.URL) +';i' + escape('Жж'+document.title.substring(0,80)) + ';' + Math.random() + '" width=1 height=1 alt="">')</p>
+<p><!--</p>
+<p>bmQ='<img src=http://c.bigmir.net/?s88905&t6'</p>
+<p>bmD=document</p>
+<p>bmD.cookie="b=b"</p>
+<p>if(bmD.cookie)bmQ+='&c1'</p>
+<p>//--><!-- </p>
+<p>bmS=screen;bmQ+='&d'+(bmS.colorDepth?bmS.colorDepth:bmS.pixelDepth)+"&r"+bmS.width;</p>
+<p>//--><!--</p>
+<p>bmF = bmD.referrer.slice(7);</p>
+<p>((bmI=bmF.indexOf('/'))!=-1)?(bmF=bmF.substring(0,bmI)):(bmI=bmF.length);</p>
+<p>if(bmF!=window.location.href.substring(7,7+bmI))bmQ+='&f'+escape(bmD.referrer);</p>
+<p>bmD.write(bmQ+" border=0 width=1 height=1>");</p>
+<p>//--></p>
+<p><!--</p>
+<p>u="count.rbc.ru/p18.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";</p>
+<p>n=(na.substring(0,2)=="Mi")?0:1;y="";</p>
+<p>y+="<img src='http://"+u+"?r="+d.referrer+"&rf="+parent.document.referrer+"&rn="+Math.random();</p>
+<p>y+="' border=0  width=1 height=1 alt='count'>";</p>
+<p>d.write(y);if(!n) { d.write("<"+"!--"); }//--></p>
+<p><!--</p>
+<p>if(!n) { d.write("--"+">"); }//--></p>
+<p><!--</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-22073661-1']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>//--></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139175' in window)){_px_139175=new Image();_px_139175.src="http://pics.rbc.ru/6e29o/j4y/qax/img.gif?_s=ytpo_shapka.20101228183511.139175&_l=ytpo_shapka&_b=Media2/ytpo_shapka&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".729c4893000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_shapka.20101228183511.139175", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p> var random = Math.floor(Math.random() * 1000000000); document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1074&gid=6&oin=1&rid=' + random +'"></scr' + 'ipt>'); </p>
+<p>Дамаск привыкает к жизни в аду. ФОТО </p>
+<p>На похоронах Тэтчер не будет официальных представителей России </p>
+<p>ВАК рассматривает вопрос о лишении Бурматова кандидатской степени </p>
+<p>Маргарет Тэтчер проводили нецензурными плакатами. ФОТО </p>
+<p>Патриарх Кирилл раскритиковал феминизм </p>
+<p>Папуасы казнили ведьм после трех дней пыток </p>
+<p>Изменение климата скажется на авиационных перевозках </p>
+<p>Путин посмеялся над голыми женщинами и предпочел колбасу. ФОТО</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1155&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>rss</p>
+<p>pda</p>
+<p>пресс-релизы</p>
+<p>aрхив</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1316&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139170' in window)){_px_139170=new Image();_px_139170.src="http://pics.rbc.ru/2er/9fnjn/ymfa98/img.gif?_s=ytpo_middle_big.20101228183006.139170&_l=ytpo_middle_big&_b=Media2/ytpo_middle_big&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".31fb395e000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_middle_big.20101228183006.139170", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p> var random = Math.floor(Math.random() * 1000000000); document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1067&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>'); </p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1075&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p><!-- </p>
+<p>.collwar a,.collwar a:hover,.collwar a:visited{color: #ffffff!important;text-decoration : none!important; }.collwar a:hover {text-decoration:underline!important;}.coll{font-size:12px;}.coll a,.coll a:hover,.coll a:visited { color: #ffffff!important;text-decoration : none!important;}.coll a:hover { color: #cccccc !important; text-decoration : underline!important;}.coll_noborder {font-size:12px;}.coll_noborder a,.coll_noborder a:hover,.coll_noborder a:visited { color: #ffffff!important;text-decoration : none!important;}.coll_noborder a:hover { color: #cccccc!important; text-decoration : underline!important;}.akt a{font-size:12px; color:#3399ff !important}.collwar{font-size:12px;padding-top:13px;border-bottom: 1px solid #ffffff;background: url('http://pics.utro.ru/utro_images/5/bg_tour_08.gif') repeat-x bottom;}.tv-z{font-size:12px; color:#ffffff !important}.bl{font-size:12px; color:#000000 !important}.news .repost-container{margin-top:1em} .coll_no_border a,.coll_no_border a:hover,.coll_no_border a:visited { color: #ffffff!important;text-decoration : none!important; } </p>
+<p> --></p>
+<p>НОВОСТИ</p>
+<p>НАУКА</p>
+<p>ОНЛАЙНЫ</p>
+<p><!--</p>
+<p>/* nikon */</p>
+<p>.collnikon{border-bottom: 1px solid #ffffff;border-right: 0px solid #ffffff; padding-bottom:0px; vertical-align: bottom; WIDTH: 131px;}</p>
+<p>/* nikon */</p>
+<p>--></p>
+<p>Новости</p>
+<p>11:31  "Сухой" переходит на компьютерное моделирование08:56  Ученые заново измерили глубину Марианской впадины03:24  Билл Гейтс создаст вместе с китайцами ядерный реактор нового поколения</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_140920' in window)){_px_140920=new Image();_px_140920.src="http://pics.rbc.ru/qe/59uj8/yzbahs/img.gif?_s=ytpo_all.20110217152658.140920&_l=ytpo_all&_b=Media2/ytpo_all&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".896dfb8c000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_all.20110217152658.140920", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1191&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>03:10  Запущенный 30 лет назад зонд Voyager-1 скоро покинет Солнечную систему20:45  IBM начинает сотрудничество со "Сколково"19:01  Во Франции взяты в заложники трое учителей и директор школы06:41  Вредные привычки вызывают рак</p>
+<p>Все новости дня</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=444298975631651";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139172' in window)){_px_139172=new Image();_px_139172.src="http://pics.rbc.ru/ve/9/bj/ayg/at/img.gif?_s=ytpo_left.20101228183051.139172&_l=ytpo_left&_b=Media2/ytpo_left&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".66b9f38005c");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_left.20101228183051.139172", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="mlph'+p+'" style="display:none"><\/div>');}</p>
+<p>function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function ml_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>var place_id = '1069';</p>
+<p>ml_ph(place_id); ml_c(place_id);</p>
+<p>ml_getCode(1,place_id,'http://engine.rbc.medialand.ru/code?pid='+place_id+'&gid=2&oin=0&rid=' + Math.round(Math.random()*100000));</p>
+<p>//--></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_140777' in window)){_px_140777=new Image();_px_140777.src="http://pics.rbc.ru/wek9sfjyyoav5/img.gif?_s=ytpo_teaser.20110210173231.140777&_l=ytpo_teaser&_b=Media2/ytpo_teaser_auto&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".8f726e93001");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_teaser.20110210173231.140777", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1184&gid=14&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1186&gid=13&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1219&gid=13&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_141917' in window)){_px_141917=new Image();_px_141917.src="http://pics.rbc.ru/re59/jjupyca8/img.gif?_s=ytpo_top.20110606183057.141917&_l=ytpo_top&_b=Media2/ytpo_top&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".acac959b000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_top.20110606183057.141917", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1225&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!-- </p>
+<p>.search_cont{background-color: #f0f0f0; margin-bottom:1px;}</p>
+<p>.search_cont td{padding-top:1em;padding-bottom:1em;}</p>
+<p>.who{padding-left:0.7em;}</p>
+<p>.goup{padding-right:0.7em;}</p>
+<p>.submit{border:none;background-color: #f0f0f0;padding:0; margin:0;width:4em;} </p>
+<p>--></p>
+<p> </p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="magnaph'+p+'" style="display:none"></div>');}function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe></div>');}function ml_getCode(n,p,s){var d;if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}try{s+=(location.href!==undefined&&location.href!=''?'&l='+location.href:'')+(document.referrer!==undefined&&document.referrer!=''?'&r='+document.referrer:'');}catch(e){}if(d){d.write('<scr'+'ipt  charset="utf-8" src="'+s+'"></scr'+'ipt>');}else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}}}var place_id = '5056';ml_ph(place_id); ml_c(place_id);ml_getCode(1,place_id,'http://rbc.magna.ru/xml_out/?id='+place_id+'&rid=' + Math.round(Math.random()*100000));</p>
+<p>//--></p>
+<p>Сегодня в разделе</p>
+<p>Мозг мужчины меняется в постели</p>
+<p>После ночи с женщиной особые отростки на клетках мозга мужчины сужаются или вовсе исчезают</p>
+<p>Зевота заражает друзей</p>
+<p>Широко разинув рот, собеседник показывает свою близость, поэтому не стоит обижаться на него</p>
+<p>Корабль пришельцев нашли возле Солнца</p>
+<p>Гигантский объект, похожий на инопланетный корабль, запечатлел на орбите Меркурия зонд NASA</p>
+<p>Главная / НАУКА И ТЕХНИКА</p>
+<p><!--</p>
+<p>if (parseInt(Math.random()*10000)<100) document.write('<img src="http://www-lota.utro.ru/utro_images/3/empty.gif?http://www.utro.ru/articles/2011/12/08/1015699.shtml&%C7%E5%E2%EE%F2%E0%20%E7%E0%F0%E0%E6%E0%E5%F2%20%E4%F0%F3%E7%E5%E9&internet&%CF%E5%F2%F0%20%D1%C8%CD%DF%C5%C2" width="1" height="1" border=0>');</p>
+<p>//--></p>
+<p>Зевота заражает друзей </p>
+<p>Широко разинув рот, собеседник показывает свою близость</p>
+<p>08 декабря, 10:32 | Петр СИНЯЕВ</p>
+<p>ФОТО: Aidan Jones/Flick</p>
+<p>Lenty.ru: Артему Лоскутову отказали в выдаче загранпаспорта...</p>
+<p>REGNUM: Березовский "прогнулся" под Путина - близкая подруга покойного</p>
+<p> Зевнуть при всех считается крайне неприличным, поэтому, согласно правилам хорошего тона, стоит прикрывать рот рукой, если удержаться невозможно. Да и собеседник может не на штуку обидеться, если его рассказ прервет ваш широкий зевок. Однако психологи утверждают, что стесняться тут нечего, равно как и нет поводов для обид. Оказывается, так люди показывают свою близость, а не усталость или скуку.</p>
+<p>Каждый в своей жизни мог заметить, что зевота весьма заразительна. Когда рядом с вами кто-то широко разинет рот, то удержаться и не сделать то же самое весьма сложно. Ученые давно пытались понять, почему же неудержимо хочется последовать примеру зевающего человека. Итальянские исследователи из Пизанского университета провели исследование и пришли к интересным выводам.</p>
+<p>В эксперименте приняли участие 109 человек разного пола и разной национальности. Все они занимались своими повседневными делами: ходили на работу, сидели в кафе, гуляли и так далее. Но за ними пристально наблюдали ученые, регистрируя случаи зевоты.</p>
+<p>В результате они пришли к выводу, что ни пол, ни этническая принадлежность не играют роли. Важно было только то, насколько хорошо люди знакомы друг с другом. Чаще всего на зевок испытуемого отвечали близкие родственники и члены семьи. Чуть реже реагировали друзья и меньше - знакомые или вообще случайные люди, оказавшиеся рядом. Своеобразная зона влияния составляла около 3 м - на таком расстоянии распространяется "зараза".</p>
+<p>Интересно, что время, через которое следовал "ответ", тоже различалось в зависимости от степени знакомства. Быстрее всего желание разинуть рот появлялось у родственников и близких друзей, а незнакомцы если и отвечали, то лишь по прошествии трех минут.</p>
+<p>Итальянские ученые предложили объяснение этому свойству человека. Быть может, это является способом поддерживать бдительность группы. Дело в том, что во время зевания к головному мозгу приливает кровь, улучшая его работу. Кроме того, как доказал Эндрю Гэллап из Принстонского университета, это еще и своеобразный способ кондиционирования, охлаждающий эффект которого бодрит мозг.</p>
+<p>Нашим предкам, когда они еще жили в пещерах, приходилось постоянно быть начеку, потому что опасности подстерегали их повсюду. Бодрящий зевок позволял часовому лучше переносить бессонную ночь. Его сородичи незамедлительно следовали его примеру, чтобы тоже сохранить внимание. Возможно, эта привычка засела у нас глубоко в подсознании, поэтому исследователи и заметили, что на зевоту мгновенно реагируют члены семьи. Таким образом проявляется древнее племенное сознание.</p>
+<p>Экспериментальный психолог Катрина Моррисон согласна с этими выводами. Она напомнила, что случаи "заразного" зевания наблюдаются только у человека и обезьян. Хотя некоторые исследователи сообщили, что и у собак можно наблюдать что-то похожее. В одном из экспериментов британские кинологи заметили, что 75% собак, находившихся в одном помещении с зевающим человеком, также начинали широко разевать пасть.</p>
+<p>.repost-container{</p>
+<p>	overflow:hidden;</p>
+<p>	*height:1%;</p>
+<p>	margin-bottom:1.5em;</p>
+<p>	clear: both;</p>
+<p>	}</p>
+<p>.b-repost{float:right;}</p>
+<p>.b-button-service{float:left;}</p>
+<p>.b-repost ul{margin:0;padding:0;}</p>
+<p>.b-repost li span{</p>
+<p>	line-height:30px;</p>
+<p>	color:#666;</p>
+<p>	}</p>
+<p>.b-repost li{</p>
+<p>	list-style:none;</p>
+<p>	float:left;</p>
+<p>	overflow:hidden;</p>
+<p>	position:relative;</p>
+<p>	margin-left:3px;</p>
+<p>	}</p>
+<p>.b-repost li a{</p>
+<p>	display:block;</p>
+<p>	width:21px;</p>
+<p>	height:21px;</p>
+<p>	float:left;</p>
+<p>	cursor:pointer;</p>
+<p>	}</p>
+<p>.b-icon{</p>
+<p>	background:url("http://pics.utro.ru/utro_images/5/icon-service.gif");</p>
+<p>	height:21px;</p>
+<p>	width:224px;</p>
+<p>	position:absolute;</p>
+<p>	}</p>
+<p>.li i{background-position:0 84px;}</p>
+<p>.vk i{background-position:0 63px;}</p>
+<p>.fb i{background-position:0 42px;}</p>
+<p>.tw i{background-position:0 21px;}</p>
+<p>.b-left{float:left;margin-right:10px;//display:inline;}</p>
+<p><!--</p>
+<p>document.write(VK.Share.button({url: "http://www.utro.ru/articles/2011/12/08/1015699.shtml"},{type: "round", text: "Поделиться"}));</p>
+<p>--></p>
+<p>Отправить в:</p>
+<p>Постоянный адрес статьи:</p>
+<p>http://www.utro.ru/articles/2011/12/08/1015699.shtml</p>
+<p>Досье Yтра</p>
+<p>Эгоистам зевота не страшна</p>
+<p>Yтро.ru, раздел  Жизнь, 30 июля 2003Зевота стимулирует работу мозга</p>
+<p>Yтро.ru, раздел  Жизнь, 29 июня 2007Зевота спасает мозг</p>
+<p>Yтро.ru, раздел  Наука и техника, 21 сентября 2011Зевай пошире - и люди к тебе потянутся</p>
+<p>Yтро.ru, раздел  Жизнь, 11 сентября 2007Зевайте чаще – здоровее будете!</p>
+<p>Yтро.ru, раздел  Жизнь, 13 октября 2003Недосып превращает людей в инвалидовYтро.ru, раздел  Жизнь, 09 сентября 2005</p>
+<p>Смотри также</p>
+<p>BBC</p>
+<p>Daily Mail</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139173' in window)){_px_139173=new Image();_px_139173.src="http://pics.rbc.ru/9e2m9mjqyj/ac8/img.gif?_s=ytpo_middle2.20101228183104.139173&_l=ytpo_middle2&_b=Media2/ytpo_middle2&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".f9a448b4000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_middle2.20101228183104.139173", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p> var random = Math.floor(Math.random() * 1000000000); document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1071&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>'); </p>
+<p>Загружается, подождите...</p>
+<p>Bbody.next(".978b766a01d");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>    var cookie_var = "";</p>
+<p>    if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>        Cookie.set("YtroV_noFP_middle1_468x60.20101125154554.103111", cookie_var, 1);</p>
+<p>    }</p>
+<p>}</p>
+<p>Новости СМИ2</p>
+<p>     (function() {</p>
+<p>        var sc = document.createElement('script');</p>
+<p>        sc.src = document.location.protocol + '//js.smi2.ru/data/js/34317.js';</p>
+<p>        sc.async = true;</p>
+<p>       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>      }());</p>
+<p>Новости партнеров</p>
+<p>Bbody.next(".291e269701d");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>    var cookie_var = "";</p>
+<p>    if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>        Cookie.set("YtroV_noFP_bottom_468x60.20091030131701.106094", cookie_var, 1);</p>
+<p>    }</p>
+<p>}</p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 45513; //45769;</p>
+<p>yandex_site_bg_color = '006699';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_direct_type = '468x60';</p>
+<p>yandex_direct_header_position = 'right';</p>
+<p>yandex_direct_header_bg_color = 'FEEAC7';</p>
+<p>yandex_direct_bg_color = 'FFF9F0';</p>
+<p>yandex_direct_border_color = 'FBE5C0';</p>
+<p>yandex_direct_title_color = '0000CC';</p>
+<p>yandex_direct_url_color = '006600';</p>
+<p>yandex_direct_all_color = '0000CC';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '0066FF';</p>
+<p>//document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/resource/context.js?rnd=' + Math.round(Math.random() * 100000) + '"></sc'+'ript>');</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 45513; //45769;</p>
+<p>yandex_site_bg_color = '006699';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_direct_type = '468x60';</p>
+<p>yandex_direct_header_position = 'right';</p>
+<p>yandex_direct_header_bg_color = 'FEEAC7';</p>
+<p>yandex_direct_bg_color = 'FFF9F0';</p>
+<p>yandex_direct_border_color = 'FBE5C0';</p>
+<p>yandex_direct_title_color = '0000CC';</p>
+<p>yandex_direct_url_color = '006600';</p>
+<p>yandex_direct_all_color = '0000CC';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '0066FF';</p>
+<p>//document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/resource/context.js?rnd=' + Math.round(Math.random() * 100000) + '"></sc'+'ript>');</p>
+<p>//]]></p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="magnaph'+p+'" style="display:none"></div>');}function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe></div>');}function ml_getCode(n,p,s){var d;if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}try{s+=(location.href!==undefined&&location.href!=''?'&l='+encodeURI(location.href):'')+(document.referrer!==undefined&&document.referrer!=''?'&r='+encodeURI(document.referrer):'');}catch(e){}if(d){d.write('<scr'+'ipt  charset="utf-8" src="'+s+'"></scr'+'ipt>');}else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}}}var place_id = '6105';ml_ph(place_id); ml_c(place_id);ml_getCode(1,place_id,'http://rbc.magna.ru/xml_out/?id='+place_id+'&rid=' + Math.round(Math.random()*100000));</p>
+<p>--></p>
+<p>В других разделах</p>
+<p>Тандем ответил на протесты</p>
+<p>Дмитрий ЧЕРНЫШОВ | 8 декабря 2011</p>
+<p>Президент и премьер выразили свое отношение к "уличной демократии" и объяснили, кто за ней стоит. Медведев оставил последнее слово за Центризбиркомом, а Путин указал на корыстных политиков, которым подала недвусмысленный сигнал Хиллари Клинтон</p>
+<p>С карты России исчезнут сотни городов</p>
+<p>Елена ТКАЧЕНКО | 8 декабря 2011</p>
+<p>В ближайшие 20 лет из малых и средних городов в мегаполисы переберутся десятки миллионов человек, и это неизбежно, считает глава МЭР Эльвира Набиуллина. Главный вопрос: справятся ли города-гиганты с таким потоком</p>
+<p>Убит главарь боевиков Гочияев</p>
+<p>Андрей МОРОЗОВ | 8 декабря 2011</p>
+<p>Бандиты из Карачаево-Черкесии планировали осуществить серию терактов, в том числе с участием смертницы. Но трое боевиков и их главарь подорвались на собственной бомбе в ходе перестрелки с силовиками</p>
+<p>Назван лучший европейский фильм года </p>
+<p>Роман КАРПИНСКИЙ | 4 декабря 2011</p>
+<p>Киноакадемики присудили альтернативный "Оскар" Ларсу фон Триеру за его фильм "Меланхолия". Сам режиссер на церемонию не приехал, так как он решил не появляться на публике после скандала в Каннах</p>
+<p>Российских миротворцев обвинили в изнасилованиях</p>
+<p>Елена ЩЕРБОВА | 8 декабря 2011</p>
+<p>Департамент операций по поддержанию мира ООН заморозил контракты с авиакомпаниями "ЮТэйр" и "Нефтеюганский объединенный авиаотряд". Их сотрудники, по данным организации, насиловали граждан Судана и Конго, куда летали с миротворческими миссиями</p>
+<p>ЦСКА и "Зенит" вошли в историю</p>
+<p>Леонид ФЕДОРОВ | 8 декабря 2011</p>
+<p>ЦСКА обыграл на выезде "Интер" и вслед за "Зенитом" вышел в 1/8 финала главного турнира Европы, открыв новую страницу в истории футбола. Никогда прежде в плей-офф Лиги чемпионов не играли два российских клуба</p>
+<p>РБК - Российское информационное агентство</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139169' in window)){_px_139169=new Image();_px_139169.src="http://pics.rbc.ru/9et9pj/syi3a/g/img.gif?_s=ytro_fp_right.20101228183129.139169&_l=ytro_fp_right&_b=Media2/ytpo_right&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".4bccf13101d");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytro_fp_right.20101228183129.139169", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="mlph'+p+'" style="display:none"><\/div>');}</p>
+<p>function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function ml_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>var place_id = '1066';</p>
+<p>ml_ph(place_id); ml_c(place_id);</p>
+<p>ml_getCode(1,place_id,'http://engine.rbc.medialand.ru/code?pid='+place_id+'&gid=2&oin=0&rid=' + Math.round(Math.random()*100000));</p>
+<p>//--></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_143378' in window)){_px_143378=new Image();_px_143378.src="http://pics.rbc.ru/7em/90/jx3yuac/img.gif?_s=ytpo_teaser_right.20120117190608.143378&_l=ytpo_teaser_right&_b=Media2/ytpo_teaser_right&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".a85d00e3000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_teaser_right.20120117190608.143378", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1271&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_143598' in window)){_px_143598=new Image();_px_143598.src="http://pics.rbc.ru/7e/9/7j/3y7ap/img.gif?_s=ytpo_teaser_right_2.20120207153131.143598&_l=ytpo_teaser_right_2&_b=Media2/ytpo_teaser_right_2&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".c17e0a96000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_teaser_right_2.20120207153131.143598", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1280&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Новости СМИ2</p>
+<p>     (function() {</p>
+<p>        var sc = document.createElement('script');</p>
+<p>        sc.src = document.location.protocol + '//js.smi2.ru/data/js/34234.js';</p>
+<p>        sc.async = true;</p>
+<p>       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>      }());</p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139177' in window)){_px_139177=new Image();_px_139177.src="http://pics.rbc.ru/lew/9ujg/y0abc/img.gif?_s=ytpo_right_hi.20101228183547.139177&_l=ytpo_right_hi&_b=Media2/ytpo_right_hi&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".3063f36c000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_right_hi.20101228183547.139177", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p> var random = Math.floor(Math.random() * 1000000000); document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1076&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>'); </p>
+<p><!--</p>
+<p>.rbcobmen {margin-bottom:5px; background-color:#f0f0f0; width:100%}</p>
+<p>.rbcobmen td{padding:5px}</p>
+<p>--></p>
+<p>Еще один биатлонист сбежал из сборной России в другую страну</p>
+<p>По репутации Абрамовича нанесен серьезный удар. Видео</p>
+<p>Собчак покусилась на чужую грудь</p>
+<p><!-- .err{border: 2px solid #eaeaea;background-color: #f0f0f0;margin-bottom:0.3em;} --></p>
+<p><!--.conteiner-partner{width:240px;}</p>
+<p>.conteiner-partner,.tizer{overflow:hidden;*zoom:1}</p>
+<p>.b-utro-tizer{margin-bottom:1em;}</p>
+<p>.but_row{clear:both;margin-top:7px;}</p>
+<p>.but_row a img{float:left;margin:2px 5px 0 0;}--></p>
+<p>Чего не стоит делать в Риме</p>
+<p>Лучший выбор пляжных отелей</p>
+<p> Идеальный способ увидеть весь мир</p>
+<p>Как пережить русскую зиму</p>
+<p>Как провести майские каникулы на пляже</p>
+<p> Правила выбора форекс-компании для начинающего спекулянта</p>
+<p> Пунктуальное здравоохранение: сколько стоит лечение в Германии </p>
+<p> Правительство признало, что ипотека не подешевеет </p>
+<p><!--</p>
+<p>    var el = document.getElementById('CNM112');</p>
+<p>    if (el && el.getAttribute('atr112', 3)) {</p>
+<p>        el.setAttribute('atr112', '');</p>
+<p>        var dateNM = new Date();</p>
+<p>        var t = Math.floor(dateNM.getTime()/(1000*600));</p>
+<p>        var NMces=document.createElement('script');</p>
+<p>        NMces.type = 'text/javascript';</p>
+<p>        NMces.charset = 'UTF-8';</p>
+<p>        NMces.src='http://c.novostimira.com.ua/l/112?v='+t;</p>
+<p>        el.parentNode.appendChild(NMces);</p>
+<p>    }</p>
+<p>//--></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>var dreferrer = document.referrer; try { dreferrer = window.parent.document.referrer } catch(e) {}</p>
+<p>try { dreferrer = dreferrer.substr(0, 256) } catch(e) { dreferrer = "" }</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1510&gid=2&oin=1&rid=' + random +'&dreferer='+escape(dreferrer)+'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139174' in window)){_px_139174=new Image();_px_139174.src="http://pics.rbc.ru/xe9d9pjq/ylta2/img.gif?_s=ytpo_middle.20101228183116.139174&_l=ytpo_middle&_b=Media2/ytpo_middle&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".12fdab88000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytpo_middle.20101228183116.139174", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p> var random = Math.floor(Math.random() * 1000000000); document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1072&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>'); </p>
+<p>об издании | реклама</p>
+<p>Все права защищены (c) 1999-2013</p>
+<p>"Утро", свидетельство о регистрации СМИ Эл №ФС 77-23513</p>
+<p>Для детей старше 16 лет</p>
+<p>Информация об ограничениях © AP.</p>
+<p>Информация об ограничениях © Reuters.</p>
+<p> </p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_139171' in window)){_px_139171=new Image();_px_139171.src="http://pics.rbc.ru/5e/r9f/jjny/ak/img.gif?_s=ytro_rich.20101228183016.139171&_l=ytro_rich&_b=Media2/ytro_rich&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".218c936b000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ytro_rich.20101228183016.139171", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p> var random = Math.floor(Math.random() * 1000000000); document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1068&gid=4&oin=1&rid=' + random +'"></scr' + 'ipt>'); </p>
+<p><!--</p>
+<p>if (document.getElementById('medialand_ru_context')) {</p>
+<p>var random = Math.floor(Math.random() * 1000000000), cdate = new Date();</p>
+<p>document.write('<iframe src="http://engine.context.medialand.ru/code?pid=108&gid=108&oin=0&rto=0&srb=&rid=' + random + '&dom=' + cdate.getDate() + '&dow=' + cdate.getDay() + '&hod=' + cdate.getHours() + '" frameborder="0" vspace="0" hspace="0" width="1" height="1" marginwidth="0" marginheight="0" scrolling="no">');</p>
+<p>document.write('<a href="http://engine.context.medialand.ru/default_reference?pid=108&gid=108" target="_top"><img src="http://engine.context.medialand.ru/default_image?pid=108&gid=108" border="0"></a>');</p>
+<p>document.write('</iframe>');</p>
+<p>}</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>/*document.write('<scr' + 'ipt language="JavaScript" src="http://engine.adland.ru/code?pid=122&gid=117&oin=0&rid=' + random +'"></scr' + 'ipt>');*/</p>
+<p>// --></p>
+<p>var pp_gemius_identifier = new String('0iVFNmtA9d6BcWg.0M0ysqdzrmEsD_euTFcCTIuqkvX.P7');</p>
+<p><!--</p>
+<p>#popup_box {</p>
+<p>    background: url("http://pics.utro.ru/utro_images/8/opacity.png") repeat;</p>
+<p>    display: none;</p>
+<p>    left: 0;</p>
+<p>    top: 0;</p>
+<p>    position: absolute;</p>
+<p>    text-align: left;    </p>
+<p>    width: 100%;</p>
+<p>    z-index: 10000;</p>
+<p>    font-family: Arial,в_<Helvetica,в_<Sans-serif;</p>
+<p>    font-size: 14px;</p>
+<p>}</p>
+<p>#popup_inner {</p>
+<p>    position: relative;</p>
+<p>}</p>
+<p>.win_subscribe {</p>
+<p>    background: #fff;</p>
+<p>    color: #333333;</p>
+<p>    border: solid 1px #d1e0c0;</p>
+<p>    position: absolute;</p>
+<p>    left: 50%;</p>
+<p>    top: 50%;</p>
+<p>    margin-left: -285px;</p>
+<p>    margin-top: -140px;    </p>
+<p>    width: 570px;</p>
+<p>    height: 350px;</p>
+<p>    z-index: 2000;</p>
+<p>    overflow: hidden;</p>
+<p>}</p>
+<p>.win_subscribe_inner{</p>
+<p>    overflow: hidden;</p>
+<p>    border: solid 1px #fff;</p>
+<p>}</p>
+<p>.win_subscribe_close{</p>
+<p>    background: url("http://pics.utro.ru/utro_images/8/pop-close.png") no-repeat;</p>
+<p>    width: 12px;</p>
+<p>    height: 12px;</p>
+<p>    position: absolute;</p>
+<p>    top: 20px;</p>
+<p>    right: 10px;  </p>
+<p>}</p>
+<p>.win_subscribe .win_subscribe_title {</p>
+<p>    font-size: 24px;</p>
+<p>    font-weight: normal;;</p>
+<p>    color: #fff;</p>
+<p>    background: #0099ff;</p>
+<p>    padding: 10px 25px;</p>
+<p>}</p>
+<p>.win_subscribe_text{</p>
+<p>    margin: 10px 0 10px 0;</p>
+<p>}</p>
+<p>.win_subscribe_soc-blocks{</p>
+<p>    margin: 5px 25px;</p>
+<p>}</p>
+<p>.fb-like-title{</p>
+<p>    background: #39579b;</p>
+<p>    color: #fff;</p>
+<p>    font-size: 12px;</p>
+<p>    padding: 0 10px;</p>
+<p>    font-weight: bold;</p>
+<p>    display: none;</p>
+<p>    height: 33px;</p>
+<p>    line-height: 33px;</p>
+<p>}</p>
+<p>.soc-block_hint{</p>
+<p>    color: #666666;</p>
+<p>    margin: 7px 0;</p>
+<p>    font-size: 12px;</p>
+<p>    display: none;</p>
+<p>}</p>
+<p>.win_subscribe_footer{</p>
+<p>    background: #a5c6dc;</p>
+<p>    position: absolute;</p>
+<p>    left: 0;</p>
+<p>    bottom: 0;</p>
+<p>    width: 100%;</p>
+<p>    text-align: center;</p>
+<p>    padding: 10px 0 15px;</p>
+<p>    cursor: pointer;</p>
+<p>}</p>
+<p>.win_subscribe_footer span{</p>
+<p>    color: #333;</p>
+<p>    border-bottom: dashed 1px #333;</p>
+<p>}</p>
+<p>.win_subscribe_footer span:hover{</p>
+<p>    border-bottom: none;</p>
+<p>}</p>
+<p>.main_page #cboxLoadedContent {</p>
+<p>	margin: 10px 25px;</p>
+<p>}</p>
+<p>#vk_like_mine{</p>
+<p>    display: none;</p>
+<p>}</p>
+<p>.win_subscribe_soc-block {</p>
+<p>	float: left;</p>
+<p>	width: 250px;</p>
+<p>}</p>
+<p>.win_subscribe_soc-block_fb {</p>
+<p>	margin-right: 15px;</p>
+<p>}</p>
+<p>.win_subscribe.win_one{</p>
+<p>    width: 450px;</p>
+<p>    margin-left: -225px;</p>
+<p>}</p>
+<p>.win_one .win_subscribe_soc-block_fb{</p>
+<p>    margin: 0;</p>
+<p>}</p>
+<p>.win_one .win_subscribe_soc-block{</p>
+<p>    float: none;</p>
+<p>    margin: 0 auto;</p>
+<p>}</p>
+<p>.win_subscribe .fb-like-box{</p>
+<p>    border: solid 1px #aaaaaa;</p>
+<p>    padding-top: 7px;</p>
+<p>    padding-left: 10px;</p>
+<p>    height: 73px;</p>
+<p>    display: none;</p>
+<p>}</p>
+<p>.win_subscribe_log_od{</p>
+<p>    width: 32px;</p>
+<p>    height: 32px;</p>
+<p>    display: block;</p>
+<p>    float: left;</p>
+<p>    background: url("http://pics.utro.ru/utro_images/8/twitter-od.png") no-repeat;</p>
+<p>    margin-right: 5px;</p>
+<p>}</p>
+<p>.win_subscribe_log_tw{</p>
+<p>    width: 32px;</p>
+<p>    height: 32px;</p>
+<p>    display: block;</p>
+<p>    float: left;</p>
+<p>    background: url("http://pics.utro.ru/utro_images/8/twitter-od.png") no-repeat top right;</p>
+<p>    margin-left: 15px;</p>
+<p>    margin-right: 5px;</p>
+<p>}</p>
+<p>.win_subscribe_text_od{</p>
+<p>    color: #666666;</p>
+<p>    font-size: 12px;</p>
+<p>    line-height: 14px;</p>
+<p>    display: block;</p>
+<p>    margin: 2px 0 0 37px;</p>
+<p>}</p>
+<p>.win_subscribe_text_tw{</p>
+<p>    color: #666666;</p>
+<p>    font-size: 12px;</p>
+<p>    line-height: 14px;</p>
+<p>    display: block;</p>
+<p>    margin: 2px 0 0 37px;</p>
+<p>}</p>
+<p>.win_subscribe_soc-block_od a:link{</p>
+<p>    color: #666666;    </p>
+<p>}</p>
+<p>.win_subscribe_soc-block_tw a:link{</p>
+<p>    color: #666666;    </p>
+<p>}</p>
+<p>.margin-top-30{</p>
+<p>    margin-top: 20px;</p>
+<p>}</p>
+<p>--></p>
+<p>До дружбы один лайк!</p>
+<p>Добавьте Yтро.ru в друзья.</p>
+<p>Ищите нас на Facebook</p>
+<p>Нажмите кнопку "Мне нравится" (Like)</p>
+<p>Нажмите "Подписаться на новости"</p>
+<p>Дружите с Yтро.ru в Одноклассниках </p>
+<p>Добавьте Yтро.ru в свой Твиттер </p>
+<p>Закрыть это окно</p>
+<p><!--</p>
+<p>/**</p>
+<p> * @description</p>
+<p> */</p>
+<p>SocialInvite = (function() {</p>
+<p>    var _beginPopupDate = '01 Mar 2013 00:00'   // С какого числа начинать отображение приглашения</p>
+<p>        , _countPopupDays = 1000                // сколько дней показывать приглашение</p>
+<p>        , _inviteFB = false</p>
+<p>        , _inviteVK = false</p>
+<p>        , _loadFBSDK = false</p>
+<p>        , options = {</p>
+<p>            DAYS_WHEN_SHOW   : [ 0, 1, 2, 3, 4, 5, 6 ]    // Saturdays, Sundays</p>
+<p>          , SHOW_FROM_HOUR   : 3           // including</p>
+<p>          , SHOW_TO_HOUR     : 2           // TOMORROW, not including this hour</p>
+<p>          , ARTICLES_TO_READ : 0</p>
+<p>          , todayDate        : new Date()  // updateToday() for testing purposes</p>
+<p>        };</p>
+<p>    function init( passedOptions ) {</p>
+<p>        loadOptions( passedOptions );</p>
+<p>        updateArticlesCounter();</p>
+<p>        tryFB();</p>
+<p>    };</p>
+<p>    function loadOptions( passedOptions ) {</p>
+<p>        if ( passedOptions ) {</p>
+<p>            options = $.extend( true, options, passedOptions );</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function tryFB(){</p>
+<p>        requirejs.config({</p>
+<p>            baseUrl: 'http://connect.facebook.net/ru_RU/',</p>
+<p>            waitSeconds: 15</p>
+<p>        });</p>
+<p>        require(['all'], function ($) {</p>
+<p>            tryVK( true );</p>
+<p>            loadFacebookSdk();</p>
+<p>            setTimeout( tryloadFBSDK, 1000 );</p>
+<p>        }, function (err) {</p>
+<p>            if ( err.requireType == 'nodefine'){</p>
+<p>                loadFacebookSdk();</p>
+<p>                setTimeout( tryloadFBSDK, 1000 );</p>
+<p>                tryVK( true );</p>
+<p>            } else{</p>
+<p>                tryVK( false );</p>
+<p>            }</p>
+<p>        });</p>
+<p>    }</p>
+<p>    function tryVK( loadFBflag ){</p>
+<p>        requirejs.config({</p>
+<p>            baseUrl: 'http://vk.com/js/api/',</p>
+<p>            waitSeconds: 15</p>
+<p>        });</p>
+<p>        require(['openapi'], function ($) {</p>
+<p>            loadVkontakteOpenApi();</p>
+<p>            loadPopupWindow( loadFBflag, true );</p>
+<p>        }, function ( err) {</p>
+<p>            if ( err.requireType == 'nodefine'){</p>
+<p>                loadVkontakteOpenApi();</p>
+<p>                loadPopupWindow( loadFBflag, true );</p>
+<p>            } else{</p>
+<p>                loadPopupWindow( loadFBflag, false );</p>
+<p>            }</p>
+<p>        });</p>
+<p>    }</p>
+<p>    function tryloadFBSDK(){</p>
+<p>        var counter = 0;        </p>
+<p>        if ( (_loadFBSDK == false) && ( counter < 3) ){</p>
+<p>            counter = counter + 1;</p>
+<p>           /* FB.init({</p>
+<p>              appId      : '157031727688210', // App ID</p>
+<p>              status     : true, // check login status</p>
+<p>              cookie     : true, // enable cookies to allow the server to access the session</p>
+<p>              xfbml      : true // parse XFBML</p>
+<p>            });*/</p>
+<p>            _loadFBSDK = true;</p>
+<p>            $('.fb-like-title').show();</p>
+<p>            $('.fb-like-box').show();</p>
+<p>            $('.win_subscribe_soc-block_fb .soc-block_hint').show();</p>
+<p>           </p>
+<p>            setTimeout( tryloadFBSDK, 1000 );</p>
+<p>        };        </p>
+<p>    }</p>
+<p>    function loadFacebookSdk() {</p>
+<p>        window.fbAsyncInit = function() {</p>
+<p>            FB.init({</p>
+<p>              appId      : '157031727688210', // App ID</p>
+<p>              status     : true, // check login status</p>
+<p>              cookie     : true, // enable cookies to allow the server to access the session</p>
+<p>              xfbml      : true // parse XFBML</p>
+<p>            });</p>
+<p>            _loadFBSDK = true;</p>
+<p>            $('.fb-like-title').show();</p>
+<p>            $('.fb-like-box').show();</p>
+<p>            $('.win_subscribe_soc-block_fb .soc-block_hint').show();</p>
+<p>        };</p>
+<p>    };</p>
+<p>    function loadVkontakteOpenApi( ) {</p>
+<p>    	var mode = 1;</p>
+<p>    	var $body = $('body');</p>
+<p>    	if($body.hasClass('main_page')||$body.hasClass('article_list_page')||$body.hasClass('article_item_page')){</p>
+<p>    		mode = 0;</p>
+<p>    	}</p>
+<p>    	window.vkAsyncInit = function() {</p>
+<p>    		VK.init({</p>
+<p>    			apiId: 27131839</p>
+<p>              , onlyWidgets: true</p>
+<p>    		});</p>
+<p>    		$('#vk_widget').show();</p>
+<p>            VK.Widgets.Group("vk_like_mine", {mode: 1, width: "245", height: "110"}, 27131839);</p>
+<p>            $('#vk_like_mine').show();</p>
+<p>            $('.win_subscribe_soc-block_vk .soc-block_hint').show();</p>
+<p>    	};</p>
+<p>		window.vkAsyncInit();</p>
+<p>    }</p>
+<p>    function loadPopupWindow( loadFBflag, loadVKflag ) {</p>
+<p>//            document.write('0');</p>
+<p>        if ( shouldShowWindow() ) {</p>
+<p>//            document.write('1');</p>
+<p>            $("#popup_box").css("height", $(document).height());</p>
+<p>            $("#popup_inner").css("height", $(window).height());</p>
+<p>            if (( loadFBflag === true ) && ( loadVKflag === true )) {</p>
+<p>                $("#popup_box").fadeIn();</p>
+<p>            } else if ( (( loadFBflag !== true ) && ( loadVKflag === true )) || (( loadFBflag === true ) && ( loadVKflag !== true )) ) {</p>
+<p>                $('.win_subscribe').addClass('win_one');</p>
+<p>                $("#popup_box").fadeIn();</p>
+<p>            }</p>
+<p>            $(".win_subscribe_close").click( function(){</p>
+<p>                $("#popup_box").fadeOut();</p>
+<p>                $.cookie("socialInvite", "true", { path: '/', expires: 31 });</p>
+<p>                return false;</p>
+<p>            });</p>
+<p>            $(".win_subscribe_footer").click( function(){</p>
+<p>                $("#popup_box").fadeOut();</p>
+<p>                 $.cookie("socialInvite", "true", { path: '/', expires: 31 });</p>
+<p>                return false;</p>
+<p>            });</p>
+<p>            $(window).bind("resize", function(){</p>
+<p>                $("#popup_box").css("height", $(document).height());</p>
+<p>                $("#popup_inner").css("height", $(window).height());</p>
+<p>            });</p>
+<p>//            document.write('2');</p>
+<p>        }</p>
+<p>    }</p>
+<p>    /**</p>
+<p>     * @return {Boolean}</p>
+<p>     */</p>
+<p>    function shouldShowWindow() {</p>
+<p>        var shouldShowWindow = false,</p>
+<p>            socialCookie = $.cookie( 'socialInvite' );</p>
+<p>        if (</p>
+<p>            socialCookie !== 'true' &&</p>
+<p>            (</p>
+<p>                isRightDay() || ( isRightTime() && didReadALot() )</p>
+<p>            )</p>
+<p>        ) {</p>
+<p>            shouldShowWindow = true;</p>
+<p>        }</p>
+<p>        </p>
+<p>//        shouldShowWindow = true; //показывать всегда</p>
+<p>        </p>
+<p>        return shouldShowWindow;</p>
+<p>    }</p>
+<p>    function updateArticlesCounter() {</p>
+<p>        // work with the counter only when the time is right</p>
+<p>        // reset the counter otherwise (rise up and shine, a new day has come!)</p>
+<p>        if ( isRightTime() ) {</p>
+<p>            var articlesRead = $.cookie( 'articlesRead' ) / 1;</p>
+<p>            // check for valid data</p>
+<p>            if ( typeof articlesRead !== 'number' || isNaN( articlesRead ) ) {</p>
+<p>                articlesRead = 0;</p>
+<p>            }</p>
+<p>            $.cookie( 'articlesRead', articlesRead+1, { path: '/', expires: 31 } );</p>
+<p>        } else {</p>
+<p>            $.cookie( 'articlesRead', 0, { path: '/', expires: 31 } );</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function isRightDay() {</p>
+<p>        var currentDay = options.todayDate.getDay()</p>
+<p>          , rightDay = false;</p>
+<p>        if ( $.inArray( currentDay, options.DAYS_WHEN_SHOW ) !== -1 ) {</p>
+<p>            rightDay = true;</p>
+<p>        }</p>
+<p>        return rightDay;</p>
+<p>    }</p>
+<p>    function isRightTime() {</p>
+<p>        var fromDate = getDate( 'fromDate' ),</p>
+<p>            toDate   = getDate( 'toDate' );   // TOMORROW</p>
+<p>	// is current time between 'from' and 'to'?</p>
+<p>        return ( fromDate <= options.todayDate && options.todayDate < toDate );</p>
+<p>    }</p>
+<p>    function getShift() {</p>
+<p>        var hour  = options.todayDate.getHours();</p>
+<p>        if ( hour >= 0 && hour < options.SHOW_TO_HOUR ) {</p>
+<p>           return 'yesterday';</p>
+<p>        } else {</p>
+<p>           return 'today;'</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function getDate( type ) {</p>
+<p>        var year  = options.todayDate.getFullYear(),</p>
+<p>            month = options.todayDate.getMonth(),</p>
+<p>            shift = getShift();</p>
+<p>        switch( type ) {</p>
+<p>            case 'fromDate':</p>
+<p>                var day = ( shift === 'yesterday' ? options.todayDate.getDate() - 1 : options.todayDate.getDate() );</p>
+<p>	        return new Date( year, month, day, options.SHOW_FROM_HOUR );</p>
+<p>                break;</p>
+<p>            case 'toDate':</p>
+<p>                var day = ( shift === 'yesterday' ? options.todayDate.getDate() : options.todayDate.getDate() + 1 );</p>
+<p>                return new Date( year, month, day, options.SHOW_TO_HOUR ); // TOMORROW</p>
+<p>                break;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function didReadALot() {</p>
+<p>        var articlesRead = $.cookie( 'articlesRead' ) / 1;</p>
+<p>        return articlesRead > options.ARTICLES_TO_READ;</p>
+<p>    }</p>
+<p>    return {</p>
+<p>        init: init</p>
+<p>    };</p>
+<p>})();</p>
+<p>$(document).ready(function() {</p>
+<p>  if (navigator.userAgent.match(/(Opera.Mini|android|iphone)/i)==null) SocialInvite.init();</p>
+<p>});</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(!('_px_107617' in window)){_px_107617=new Image();_px_107617.src="http://pics.rbc.ru/2elt962jfy5afq/img.gif?_s=ga_UTRO.20090916131024.107617&_l=ga_UTRO&_b=GoodAdvert/ytro&r="+(Math.random()*65535);}	//--></p>
+<p><!--</p>
+<p>//var ml_start_point = "id_of_block"; </p>
+<p>var ml_markers = {'allow': '_ga1_on_', 'deny':'_ga1_off_'};</p>
+<p>var ml_max_links = 5;</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.video-link.ru/code?pid=45753&gid=23&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Bbody.next(".531e33db000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>    var cookie_var = "";</p>
+<p>    if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>        Cookie.set("ga_UTRO.20090916131024.107617", cookie_var, 1);</p>
+<p>    }</p>
+<p>}</p>

@@ -1,0 +1,366 @@
+<p>McDonald's offers millions of books in Happy Meals promotion - Marketing news - Marketing magazine</p>
+<p>div#xcol { width: 300px;}</p>
+<p>div#subcol { width: 0px;}</p>
+<p>div#maincol { width: 630px;}</p>
+<p>div#content { width: 965px; }</p>
+<p>body.col-MSX div#wrap, body.col-SMX div#wrap { width: 792px; }</p>
+<p>var s_account="haymarketmarketingmagazine,haymarketGlobal";</p>
+<p>if (getCookie('SPROP5') != null && getCookie('SPROP5')!="")</p>
+<p>{</p>
+<p>s.prop5	= getCookie('SPROP5');</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>s.prop5 = "anon";</p>
+<p>}</p>
+<p>if (getCookie('SPROP7') != null && getCookie('SPROP7')!="")</p>
+<p>{</p>
+<p>s.prop7	= getCookie('SPROP7');</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>s.prop7	= "anon";</p>
+<p>}</p>
+<p>if (getCookie('SPROP11') != null && getCookie('SPROP11')!="")</p>
+<p>{</p>
+<p>s.prop11	= getCookie('SPROP11');</p>
+<p>}</p>
+<p>else{</p>
+<p>s.prop11	= "anon";</p>
+<p>}</p>
+<p>if (getCookie('SEVAR7') != null && getCookie('SEVAR7')!="")</p>
+<p>{</p>
+<p>s.eVar7	= getCookie('SEVAR7');</p>
+<p>}</p>
+<p>else{</p>
+<p>s.eVar7	= "anon";</p>
+<p>}</p>
+<p>s.linkInternalFilters="www.marketingmagazine.co.uk,javascript:";</p>
+<p>s.pageName="mkt:news:article:article:article-1111393";</p>
+<p>s.channel="news";</p>
+<p>s.hier1="mkt:news:article:1111393";</p>
+<p>s.events="event24";</p>
+<p>s.prop18="mko";</p>
+<p>s.prop31="brandnetwork";</p>
+<p>s.prop46="web (online only story, not from printed publication),marketing";</p>
+<p>s.prop22="";</p>
+<p>s.prop23="food & drink";</p>
+<p>s.prop24="";</p>
+<p>s.prop6="news";</p>
+<p>s.prop45="europe";</p>
+<p>s.prop19="1";</p>
+<p>s.prop49="1111393";</p>
+<p>s.prop50="mcdonald's offers millions of books in happy meals promotion";</p>
+<p>s.prop1="news";</p>
+<p>s.prop2="news:mcdonald's offers millions of books in happy meals promotion";</p>
+<p>s.prop32="content";</p>
+<p>s.prop34="false";</p>
+<p>s.eVar6="news";</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code)//</p>
+<p><!--</p>
+<p>document.write('<style type="text/css">.adHide{display:none;}</style>');</p>
+<p>var oHarvester = new Harvester();</p>
+<p>oHarvester.setAffiliateMetrics({code:''});</p>
+<p>oHarvester.setContentMetrics({sAuthor:'John Reynolds', nId:'1111393', sTitle:'McDonalds offers millions of books in Happy Meals promotion', sJournalCode:'MKO', sKeyword:[], sLanguage:'en-gb', sLocation:'', sType:'article', sArticleType:['1'], sArticleTypes:['News'], sAssets:[], nPage:'0', sRating:'', sDiscipline:['1002'], sSubDiscipline:[], sPrimaryDiscipline:'1002', sSector:['12294'], sSubSector:[], sSection:['2000'], sTaggedKeywords:['Europe','McDonalds','Food & Drink'], sKeywords:'McDonalds,offers,millions,books,Happy,Meals,promotion', nAge:'1', nDealerId:'', nCategoryId:'', nSubCategoryId:'', nManufacturerId:'', sModelNumber:'', sPremium:'', lstDisciplineText:[' Web (online only story',' NOT from printed publication)','Marketing'], lstSubDisciplineText:[], lstSectorText:['Food & Drink'], lstSubSectorText:[], lstMiscCats:['2488'], lstMiscCatText:['Europe']});</p>
+<p>oHarvester.setNavigationMetrics({sSite:'Marketing Magazine', sPageName:'', sMLC:'MKT/UK/NEWS/ARTICLE', OmniMLC:''});</p>
+<p>oHarvester.setSearchMetrics({sPhrase:'', sFilters:'', nNumberofResults:'', nCategoryID:'', nSubCategoryID:'', nManufacturerID:'', sModelNumber:'', nLocationID:'', nDealerID:'', nYear:''});</p>
+<p>oHarvester.setSystemMetrics({sFuseaction:'MKO.News.Article', sHostName:'www.marketingmagazine.co.uk', sID:'', sJrunInstance:'', sServerName:'242262-WEB6HBI', nExecutionTime:'1140', sHttpResponse:'', sErrorType:''});</p>
+<p>oHarvester.setCustomMetrics({});</p>
+<p>oHarvester.render();	// render advert</p>
+<p>//--> </p>
+<p><!--</p>
+<p>if (oHarvester.debug && window.console && window.console.firebug) {</p>
+<p>console.log('ULI dart zone = /NEWS/ARTICLE');</p>
+<p>console.log('fuseaction = MKO.News.Article');</p>
+<p>}</p>
+<p>//--> </p>
+<p>D09820.DM_tag();</p>
+<p>Skip to Content</p>
+<p>Skip to Main Navigation</p>
+<p>Skip to Channel Navigation</p>
+<p>Skip to Information Links</p>
+<p>Skip to Site Search</p>
+<p>Skip to Accessibility Information</p>
+<p>Global Network</p>
+<p>Our Websites</p>
+<p>Brand Republic</p>
+<p>Campaign</p>
+<p>Media Week</p>
+<p>PRWeek</p>
+<p> </p>
+<p>Marketing Magazine</p>
+<p>Search</p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Features</p>
+<p>Interviews</p>
+<p>Debate</p>
+<p>Blogs</p>
+<p>Adwatch</p>
+<p>Marketing Data</p>
+<p>Jobs</p>
+<p>Little Black Book</p>
+<p>Showcase</p>
+<p>Autos</p>
+<p>Consumer Goods</p>
+<p>Fashion/ Clothing</p>
+<p>Fast Food</p>
+<p>Financial Services</p>
+<p>FMCG</p>
+<p>Food/ Drink</p>
+<p>Government/Non Profit</p>
+<p>Media Entertainment</p>
+<p>Retail</p>
+<p>Technology Products</p>
+<p>Travel/Leisure</p>
+<p>Home:News:McDonald's offers millions of books in Happy Meals promotion</p>
+<p>McDonald's offers millions of books in Happy Meals promotion</p>
+<p> </p>
+<p>by John Reynolds,</p>
+<p>11 January 2012,</p>
+<p>9:01am</p>
+<p>Be the first to comment</p>
+<p>McDonald's is giving away millions of copies of children's books by popular 'War Horse' author Michael Morpurgo, as part of a major Happy Meal's campaign to improve children's literacy.</p>
+<p>McDonald's: 2011 'happybox' campaign</p>
+<p>The giveaway begins today (11 January) and comes ahead of a new expected TV campaign by Leo Burnett, which rolls out in February.</p>
+<p>McDonald's has secured a deal with book publisher HarperCollins, owned by Rupert Murdoch's News Corporation, to give away millions of copies of Morpurgo's 'Mudpuddle Farm' children’s books with Happy Meal purchases.</p>
+<p>Murpugo is the author of 'War Horse', which has been made into a film by Steven Spielberg and launches in cinemas this weekend.</p>
+<p>The McDonald's campaign is supported by the National Literary Trust, as well as Jade Goody's ex-boyfriend Jeff Brazier, who is acting as an ambassador for the campaign.</p>
+<p>In total, six titles from HarperCollin's 'Mudpuddle Farm' range will be made available during the promotion.</p>
+<p>The move could come in for criticism from some quarters, who will argue McDonald's is offering sweeteners for parents and children to buy Happy Meals.</p>
+<p>Jonathan Douglas, director of the National Literacy Trust, said: "We are very supportive of McDonald's decision to give families access to popular books, as its size and scale will be a huge leap towards encouraging more families to read together."</p>
+<p>Follow John Reynolds on Twitter @johnreynolds10</p>
+<p>You must log in to use Clip & Save</p>
+<p>Print</p>
+<p>Clip &Save</p>
+<p>News by email</p>
+<p> </p>
+<p>Share:</p>
+<p>Bookmark on...</p>
+<p>Delicious</p>
+<p>Stumble It!</p>
+<p>Facebook</p>
+<p>Reddit</p>
+<p>DIGG</p>
+<p>Google</p>
+<p>Yahoo</p>
+<p> </p>
+<p> </p>
+<p><!--</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>/*</p>
+<p>* This function is required and is used to display</p>
+<p>* the ads that are returned from the JavaScript</p>
+<p>* request. You should modify the document.write</p>
+<p>* commands so that the HTML they write out fits</p>
+<p>* with your desired ad layout.</p>
+<p>*/</p>
+<p>var s = '';</p>
+<p>var i;</p>
+<p>/*</p>
+<p>* Verify that there are actually ads to display.</p>
+<p>*/</p>
+<p>if (google_ads.length == 0) {</p>
+<p>return;</p>
+<p>}</p>
+<p>/*</p>
+<p>* If an image or Flash ad is returned, display that ad.</p>
+<p>* Otherwise, build a string containing all of the ads and</p>
+<p>* then use a document.write() command to print that string.</p>
+<p>*/</p>
+<p>if (google_ads[0].type == "image") {</p>
+<p>s += '<a href="' + google_ads[0].url +</p>
+<p>'" target="_top" title="go to ' + google_ads[0].visible_url +</p>
+<p>'"><img border="0" src="' + google_ads[0].image_url +</p>
+<p>'"width="' + google_ads[0].image_width +</p>
+<p>'"height="' + google_ads[0].image_height + '"></a>';</p>
+<p>} else if (google_ads[0].type == "flash") {</p>
+<p>s += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"' +</p>
+<p>' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"' +</p>
+<p>' WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height + '">' +</p>
+<p>'<PARAM NAME="movie" VALUE="' + google_ad.image_url + '">' +</p>
+<p>'<PARAM NAME="quality" VALUE="high">' +</p>
+<p>'<PARAM NAME="AllowScriptAccess" VALUE="never">' +</p>
+<p>'<EMBED src="' + google_ad.image_url +</p>
+<p>'" WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height +</p>
+<p>'" TYPE="application/x-shockwave-flash"' +</p>
+<p>' AllowScriptAccess="never" ' +</p>
+<p>' PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>';</p>
+<p>} else if (google_ads[0].type == "text") {</p>
+<p>s += '<a href="' + google_info.feedback_url + '"><h3>Ads by Google</h3></a>';</p>
+<p>if (google_ads.length == 1) {</p>
+<p>/*</p>
+<p>* Partners should adjust text sizes</p>
+<p>* so ads occupy the majority of ad space.</p>
+<p>*/</p>
+<p>s += '<div class="googleAd"><a href="' + google_ads[0].url + '" ' +</p>
+<p>'onmouseout="window.status=\'\'" ' +</p>
+<p>'onmouseover="window.status=\'go to ' + google_ads[0].visible_url + '\'; return true;" ' + 'class="googleAd">' +</p>
+<p>'<span class="googleAdTitle">' + google_ads[0].line1 + '</span></a><br />' +</p>
+<p>'<span class="googleAdContent">' + google_ads[0].line2 + '&nbsp;' +</p>
+<p>google_ads[0].line3 + '</span><br />' +</p>
+<p>'<a href="' + google_ads[0].url + '" ' +</p>
+<p>'onmouseout="window.status=\'\'" ' +</p>
+<p>'onmouseover="window.status=\'go to ' + google_ads[0].visible_url + '\'; return true;">' +</p>
+<p>'<span class="googleAdUrl">' + google_ads[0].visible_url + '</span></a></div>';</p>
+<p>} else if (google_ads.length > 1) {</p>
+<p>/*</p>
+<p>* For text ads, append each ad to the string.</p>
+<p>*/</p>
+<p>for(i=0; i < google_ads.length; ++i) {</p>
+<p>s += '<div class="googleAd"><a href="' + google_ads[i].url + '" ' +</p>
+<p>'onmouseout="window.status=\'\'" ' +</p>
+<p>'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\'; return true;" ' + 'class="googleAd">' +</p>
+<p>'<span class="googleAdTitle">' + google_ads[i].line1 + '</span></a><br />' +</p>
+<p>'<span class="googleAdContent">' + google_ads[i].line2 + '&nbsp;' +</p>
+<p>google_ads[i].line3 + '</span><br />' +</p>
+<p>'<a href="' + google_ads[i].url + '" ' +</p>
+<p>'onmouseout="window.status=\'\'" ' +</p>
+<p>'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\'; return true;">' +</p>
+<p>'<span class="googleAdUrl">' + google_ads[i].visible_url + '</span></a></div>';</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>document.getElementById("googleAd").innerHTML	+= s;</p>
+<p>return;</p>
+<p>}</p>
+<p>google_ad_client = 'ca-haymarketgroup'; // substitute your client_id</p>
+<p>google_ad_channel = 'brandrepublic';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '4';</p>
+<p>google_ad_type = 'text';</p>
+<p>google_language = 'en';</p>
+<p>google_encoding = 'utf8';</p>
+<p>google_safe = 'high';</p>
+<p>google_hints = '';</p>
+<p>//--></p>
+<p> </p>
+<p>All Comments</p>
+<p>There are currently no comments.</p>
+<p>Comments</p>
+<p> </p>
+<p> </p>
+<p>Have your sayOnly registered users may comment. Sign in now or register for free.</p>
+<p>Share</p>
+<p>tweetmeme_url = 'http://www.marketingmagazine.co.uk/news/1111393/McDonalds-offers-millions-books-Happy-Meals-promotion/';</p>
+<p>Share</p>
+<p>Related Articles</p>
+<p>McDonald's targets coffee drinkers</p>
+<p>McDonald's opts for a pedal-powered festive push</p>
+<p> </p>
+<p>Top Marketing Articles</p>
+<p>Reckitt-Benckiser launches Britain's Greatest cross-brand promotion </p>
+<p>British Gas to unleash price cut ads</p>
+<p>Britvic and PepsiCo brands unite to support community projects</p>
+<p>Tesco hit by Christmas sales dip despite Big Price Drop</p>
+<p>Ann Summers Valentine's push to star size-16 'real woman'</p>
+<p> </p>
+<p>Top Marketing Features</p>
+<p>Reckitt Benckiser's Alan Thompson on 'power brand' innovation and life after Becht</p>
+<p>We'll Call You - Virgin Media</p>
+<p>Brand Manager of the Week - Jasper Martens, Head of social and search marketing, Simply Business</p>
+<p>Review of the Year: Media Brands of the Year 2011</p>
+<p>Agency of the Year: Media Agency of the Year - Best of the rest</p>
+<p> </p>
+<p>Top Marketing Analysis</p>
+<p>The most irritating ads of 2011</p>
+<p>Technology creates a whole new ball game for sports marketing</p>
+<p> </p>
+<p>oHarvester.renderAdvert('/news/article', 'ta901', '1x1');</p>
+<p>try {if ($('#ta901Ad').size()){$(document).ready(function () {$('#ta901Ad').show();if($('#ta901Ad').parent().hasClass('adHide')){$('#ta901Ad').parent().show()}});}}catch (error) {}</p>
+<p>Tags</p>
+<p>Europe, </p>
+<p>McDonald's, </p>
+<p>Food & Drink</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Jobs</p>
+<p> </p>
+<p> </p>
+<p>Business Development / Pitch Manager - Award Winning Digital Marketing Agency,</p>
+<p>Ad Lib</p>
+<p>c.£40k - £45k + benefits,</p>
+<p>Dorset</p>
+<p>Senior Digital Project Manager,</p>
+<p>Major Players</p>
+<p>£45000 - £55000 per annum,</p>
+<p>London</p>
+<p>Senior Broadcast Buyer,</p>
+<p>Lipton Fleming</p>
+<p>£35000 - £40000 per annum + benefits,</p>
+<p>London</p>
+<p>PPC Executive - Client side,</p>
+<p>Propel</p>
+<p>£23000 - £24000 per annum,</p>
+<p>London</p>
+<p>Search more marketing jobs</p>
+<p> </p>
+<p>oHarvester.renderAdvert('/news/article', 'c501', '300x250,300x600');</p>
+<p>try {if ($('#c501Ad').size()){$(document).ready(function () {$('#c501Ad').show();if($('#c501Ad').parent().hasClass('adHide')){$('#c501Ad').parent().show()}});}}catch (error) {}</p>
+<p>News By Email</p>
+<p>Marketing Daily News : Preview</p>
+<p>You need to register to receive our bulletins. Registration is free and only takes a minute.  If you have already registered then sign in to your account now and selected 'My bulletins' within preferences.</p>
+<p>oHarvester.renderAdvert('/news/article', 'r301', '120x600');</p>
+<p>try {if ($('#r301Ad').size()){$(document).ready(function () {$('#r301Ad').show();if($('#r301Ad').parent().hasClass('adHide')){$('#r301Ad').parent().show()}});}}catch (error) {}</p>
+<p> </p>
+<p>Directory</p>
+<p>Product/Service</p>
+<p>Company</p>
+<p> </p>
+<p>oHarvester.renderAdvert('/news/article', 'x601', '1x1');</p>
+<p>try {if ($('#x601Ad').size()){$(document).ready(function () {$('#x601Ad').show();if($('#x601Ad').parent().hasClass('adHide')){$('#x601Ad').parent().show()}});}}catch (error) {}</p>
+<p>Skip to Main Navigation</p>
+<p>oHarvester.renderAdvert('/news/article', 'z601', '1x1');</p>
+<p>try {if ($('#z601Ad').size()){$(document).ready(function () {$('#z601Ad').show();if($('#z601Ad').parent().hasClass('adHide')){$('#z601Ad').parent().show()}});}}catch (error) {}</p>
+<p>Haymarket © 1957 – 2012</p>
+<p>About Us</p>
+<p>Careers at Haymarket</p>
+<p>Advertising</p>
+<p>Contact Us</p>
+<p>Terms & Conditions</p>
+<p>Accessibility</p>
+<p> </p>
+<p>WEBSITES FROM HAYMARKET BRAND MEDIA</p>
+<p>Marketing : </p>
+<p>Marketing news | AdWatch - best adverts by recall | Marketing Experiential Essays |  Subscribe to Marketing</p>
+<p>Marketing Jobs : </p>
+<p>Marketing Jobs | Marketing Manager Jobs | Direct Marketing Jobs | Integrated Marketing Jobs | Brand Manager Jobs | Product Manager Jobs</p>
+<p>Brand Republic : </p>
+<p>Latest news | Marketing blogs | Marketing & advertising intelligence | ThinkBR | Digital Bytes |  Marketing, media & advertising jobs</p>
+<p>Campaign : </p>
+<p>Advertising news | Jobs in advertising | Ad creative reviews | Campaign A-list | Agency Showcase</p>
+<p>Media Week : </p>
+<p>Media news and blogs | Media comment | Media Week TV | Media statistics | Photo galleries</p>
+<p> </p>
+<p>Contact Us</p>
+<p>News By Email</p>
+<p>Newsfeeds</p>
+<p>SubscribeSign in</p>
+<p>Disruptor</p>
+<p>oHarvester.renderAdvert('/news/article', 't101', '728x90,468x60');</p>
+<p>try {if ($('#t101Ad').size()){$(document).ready(function () {$('#t101Ad').show();if($('#t101Ad').parent().hasClass('adHide')){$('#t101Ad').parent().show()}});}}catch (error) {}</p>
+<p> </p>
+<p><!--</p>
+<p>var rsi_segs = [];</p>
+<p>var segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>if (segs_beg>=0){</p>
+<p>segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>if(segs_beg>0){</p>
+<p>var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>rsi_segs=document.cookie.substring(segs_beg,segs_end)</p>
+<p>.split('|');</p>
+<p>}</p>
+<p>}</p>
+<p>var segLen=20;</p>
+<p>var segQS="";</p>
+<p>if (rsi_segs.length<segLen){segLen=rsi_segs.length}</p>
+<p>for (var i=0;i<segLen;i++){</p>
+<p>segQS+=("rsi"+"="+rsi_segs[i]+";")</p>
+<p>}</p>
+<p>//--></p>

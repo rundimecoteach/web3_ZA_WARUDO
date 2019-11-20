@@ -1,0 +1,378 @@
+<p>Anti-smoker bans in workplaces are discriminatory - Opinion - The Lantern - Ohio State University </p>
+<p>var webserverpath = "web25.collegepublisher.com" + "/se/" + "The_Lantern";</p>
+<p>var omniSectionName = "opinion";</p>
+<p>var articleTitle="The Lantern - Anti-smoker bans in workplaces are discriminatory";</p>
+<p>var anCPCd = "5";</p>
+<p>var anCPPipe = "2";</p>
+<p>var paperID = "333";</p>
+<p>var omniSectionName = "Opinion";</p>
+<p>var omniPaperName = "The Lantern";</p>
+<p>var omniPaperUrl = "http://www.thelantern.com";</p>
+<p>var omniPaperID = "333";</p>
+<p>var omniURLPath = document.location.pathname.toString();</p>
+<p>var omniPIPE = "PIPE2";</p>
+<p>CPN_PARTNER = "false";</p>
+<p>(function() {</p>
+<p>var _r = Math.floor(Math.random()*1000000);</p>
+<p>if (_r < 300000) {</p>
+<p>CPN_PARTNER = "true";</p>
+<p>}</p>
+<p>})();</p>
+<p>/*</p>
+<p><![CDATA[</p>
+<p>*/</p>
+<p>(function() {</p>
+<p>var proto = "http:";</p>
+<p>var host = "cdn.adgear.com";</p>
+<p>var bucket = "a";</p>
+<p>if (window.location.protocol == "https:") {</p>
+<p>proto = "https:";</p>
+<p>host = "a.adgear.com";</p>
+<p>bucket = "";</p>
+<p>}</p>
+<p>document.writeln('<scr' + 'ipt type="text/ja' + 'vascr' + 'ipt" s' + 'rc="' +</p>
+<p>proto + '//' + host + '/' + bucket + '/adgear.js/current/adgear.js' +</p>
+<p>'"></scr' + 'ipt>');</p>
+<p>})();</p>
+<p>/*</p>
+<p>]]></p>
+<p>*/</p>
+<p>/*</p>
+<p><![CDATA[</p>
+<p>*/</p>
+<p>ADGEAR.tags.script.init();</p>
+<p>ADGEAR.lang.namespace("ADGEAR.site_callbacks");</p>
+<p>/*</p>
+<p>* Make this return a hash of key/value pairs you would like to have automatically</p>
+<p>* sent through to AdGear via the querystring in every impression:</p>
+<p>*/</p>
+<p>ADGEAR.site_callbacks.variables = function() {</p>
+<p>return { };</p>
+<p>}</p>
+<p>/*</p>
+<p>]]></p>
+<p>*/</p>
+<p>ADGEAR.site_callbacks.variables = function() {</p>
+<p>return { "CPN_PARTNER": CPN_PARTNER }; }</p>
+<p>var isChrome = navigator.userAgent.toLowerCase().indexOf("safari") > -1;</p>
+<p>var adGearSeg_adPaperID= "333";</p>
+<p>adGearSeg_adPaperID=adGearSeg_adPaperID.toString().trim();</p>
+<p>var url=document.location.toString();</p>
+<p>var adGearSeg_Section1="Opinion";</p>
+<p>var adGearSeg_Section=document.location.pathname;</p>
+<p>  if (url.indexOf("guide.")>0)</p>
+<p>    adGearSeg_Section="/fromguide"+adGearSeg_Section;</p>
+<p>var adGearSeg_Zone=adGearSeg_Section;</p>
+<p>var papername="The Lantern";</p>
+<p>getAdGearCMNSections(adGearSeg_adPaperID);</p>
+<p>var linkrss='http://www.thelantern.com/se/lantern-css-1.60050';</p>
+<p>linkrss=linkrss.replace('/se/','/se/localcss-');</p>
+<p>document.writeln('<link rel="stylesheet" type="text/css" href="' + linkrss + '"/>');</p>
+<p>var linkrss='http://www.thelantern.com/se/jquery-css-1.1643969';</p>
+<p>linkrss=linkrss.replace('/se/','/se/localcss-');</p>
+<p>document.writeln('<link rel="stylesheet" type="text/css" href="' + linkrss + '"/>');</p>
+<p>var linkrss='http://www.thelantern.com/se/opinion-css-7.150';</p>
+<p>linkrss=linkrss.replace('/se/','/se/localcss-');</p>
+<p>document.writeln('<link rel="stylesheet" type="text/css" href="' + linkrss + '"/>');</p>
+<p>jQuery(document).ready(function() {</p>
+<p>$(".spotlight ul").addClass("jcarousel-skin-tango");</p>
+<p>jQuery('.spotlight ul').jcarousel({</p>
+<p>scroll: 4</p>
+<p>});</p>
+<p>});</p>
+<p>jQuery(document).ready(function() {</p>
+<p>$("#tabComments ul").tabs({ selected: 1 });</p>
+<p>});</p>
+<p>startList = function() { navRoot = document.getElementById("primeNav");</p>
+<p>for (i=0; i<navRoot.childNodes.length; i++) { node =</p>
+<p>navRoot.childNodes[i];</p>
+<p>if (node.className == "drop") { node.onmouseover=function() {</p>
+<p>this.className+=" over"; };</p>
+<p>node.onmouseout=function() { this.className=this.className.replace("over", ""); }; }; }; };</p>
+<p>window.onload=startList;</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>var anCPPaperUrl=omniPaperUrl.substring(omniPaperUrl.indexOf("http://")+7, omniPaperUrl.length);</p>
+<p>var anCPPaperName=omniPaperName.replace(/_/gi, " ").replace(/%20/g," ");</p>
+<p>var anCPPaperId=omniPaperID;</p>
+<p>anCPPaperId.replace(/^\s*/,"");</p>
+<p>anCPPaperId.replace(/\s*/,"");</p>
+<p>anCPPaperId.replace(/%20/g,"");</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-1064236-19");</p>
+<p>pageTracker._setCustomVar(1, "pu", anCPPaperUrl, 3);</p>
+<p>pageTracker._setCustomVar(2, "pi", anCPPaperId, 3);</p>
+<p>pageTracker._setCustomVar(3, "pn", anCPPaperName, 3);</p>
+<p>pageTracker._setCustomVar(4, "ppp", anCPPipe, 3);</p>
+<p>pageTracker._setCustomVar(5, "pcp", anCPCd, 3);</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>var anCPPaperUrl=omniPaperUrl.substring(omniPaperUrl.indexOf("http://")+7, omniPaperUrl.length);</p>
+<p>var anCPPaperName=omniPaperName;</p>
+<p>var anCPPaperId=omniPaperID;</p>
+<p>anCPPaperId.replace(/^\s*/,"");</p>
+<p>anCPPaperId.replace(/\s*/,"");</p>
+<p>anCPPaperId.replace(/%20/g,"");</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-18994242-2");</p>
+<p>pageTracker._setCustomVar(1, "pu", anCPPaperUrl, 3);</p>
+<p>pageTracker._setCustomVar(2, "pi", anCPPaperId, 3);</p>
+<p>pageTracker._setCustomVar(3, "pn", anCPPaperName, 3);</p>
+<p>pageTracker._setCustomVar(4, "ppp", anCPPipe, 3);</p>
+<p>pageTracker._setCustomVar(5, "pcp", anCPCd, 3);</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-10751034-1']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>_gaq.push(['_trackPageLoadTime']);</p>
+<p>(function() {</p>
+<p>var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>
+<p>Top College News Subscribe to the Newsletter</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '11' + '&' + adGearSeg_Section + '&' + papername + '" width="728" height="' + (isChrome ? 98 : 90) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p> Home </p>
+<p> </p>
+<p> </p>
+<p> Login | Register</p>
+<p>Receive campus news in your inbox. Sign up for the email edition.</p>
+<p>Home</p>
+<p>Campus</p>
+<p>Weather</p>
+<p>Crime Briefs</p>
+<p>Sports</p>
+<p>Football</p>
+<p>Soccer</p>
+<p>Volleyball</p>
+<p>Basketball</p>
+<p>Golf</p>
+<p>Cross Country</p>
+<p>Others</p>
+<p>[a+e]</p>
+<p>Game Solutions</p>
+<p>Opinion</p>
+<p>Letters</p>
+<p>Multimedia</p>
+<p>Classifieds</p>
+<p>Print Edition</p>
+<p>The Lantern</p>
+<p>></p>
+<p>Opinion</p>
+<p>var secParents = "$content.securityparent.content.name";</p>
+<p>FB.init({</p>
+<p>appId:'165641466807545', cookie:true,</p>
+<p>status:true, xfbml:true</p>
+<p>});</p>
+<p>Anti-smoker bans in workplaces are discriminatory</p>
+<p>var author = "Tanija Smoot".replace("'","");</p>
+<p>author=author.replace('|'," frame ");</p>
+<p>//alert(author);</p>
+<p>//document.write("<p class='author'><span class='by'>By</span> <a href='/search?q=&quot;"+author+"&quot;'>Tanija Smoot</a></p>");</p>
+<p>document.write("<p class='author'><span class='by'>By</span> <a href='/search?q="+author.replace('+',' ')+"'>Tanija Smoot</a></p>");</p>
+<p>smoot.43@osu.edu</p>
+<p>Published: Sunday, January 8, 2012</p>
+<p>Updated: Sunday, January 8, 2012 22:01</p>
+<p>var fullArticle=(window.location).toString();</p>
+<p>if(fullArticle.indexOf("?") > -1)</p>
+<p>fullArticle= fullArticle.substring(0,fullArticle.indexOf("?"));</p>
+<p>function printwholeArticle(urllink){</p>
+<p>//var myPopup = window.createPopup();</p>
+<p>//myPopup.show(100,100,100,200,document.body);</p>
+<p>var printWindow = window.open(urllink, 'prnwindowName2', 'width=200, height=77, toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes,visible=false ');</p>
+<p>//printWindow.document.write(printContent.innerHTML);</p>
+<p>//printWindow.location=urllink;</p>
+<p>printWindow.focus();</p>
+<p>//printWindow.style.visibility="hidden";</p>
+<p>//printWindow.print();</p>
+<p>//printWindow.close();</p>
+<p>}</p>
+<p>var addthis_config = {"data_track_addressbar":true};</p>
+<p>	While reading USA Today, I stumbled upon an article about a new trend of prospective hospital employees who have tested positive for nicotine being rejected by potential employers. According to the article, these tobacco-hiring policies are reinforced to encourage a healthy lifestyle and reduce insurance premiums. The Centers for Disease Control and Prevention (CDC) estimates that smoking costs America $193 billion in health bills, all the while taking more than 400,000 lives annually.</p>
+<p>	As a nursing student and a non-smoker, I fully understand the deadly consequences of prolonged tobacco use and appreciate the logistics behind smoking bans. As a hospital employee, however, I find this anti-smokers' ban to be discriminatory. Although I support a smoking ban within hospital perimeters and public areas, I cannot support employers discriminating against hard-working Americans who choose to smoke outside of work. In my opinion, discriminating against smokers will open a gateway to other unconstitutional bans and create a slippery slope. If employers start banning smokers from the workplace, who will they discriminate against next?</p>
+<p>	One reason employers discriminate against smokers is to decrease insurance premiums. However, according to CDC, the No. 1 killer in America is heart disease. Increased rates of heart disease are closely related to the staggering obesity epidemic in America. Logically, it would make sense for employers to single out obese workers also. Like smoking, obesity can be controlled, yet if employers started to discriminate against obese workers, America would be outraged. How is this fair?</p>
+<p>	Fortunately for smokers, the tobacco industry lobbied for smokers' rights and 29 states now protect smokers' rights. The unfortunate news is that the federal government does not recognize smokers as a protected class and non-profit organizations and health care companies can still openly discriminate against those who choose to smoke in their own homes.</p>
+<p>	Instead of focusing on what a person chooses to do outside of the workplace, employers should be focusing on the person's work ethic while on the job. The last time I checked, smoking — unlike many other substances — is considered legal. It is not the employer's job to govern what a person chooses to do with his or her own free time unless those activities are affecting the person's work performance.</p>
+<p>Recommended: Articles that may interest you</p>
+<p>var OutbrainPermaLink=(window.location).toString();</p>
+<p>var OB_Template = "cmn";</p>
+<p>var OB_demoMode = false;</p>
+<p>var OBITm = "1249506835342";</p>
+<p>var OB_langJS ='http://widgets.outbrain.com/lang_en.js';</p>
+<p>if ( typeof(OB_Script)!='undefined' )</p>
+<p>OutbrainStart();</p>
+<p>else {</p>
+<p>var OB_Script = true;</p>
+<p>var str = '<script src="http://widgets.outbrain.com/OutbrainRater.js" type="text/javascript"><\/script>';</p>
+<p>document.write(str);</p>
+<p>}</p>
+<p>var articleId = '2738866';</p>
+<p>//alert(articleId);</p>
+<p>//articleId=articleId.substring(articleId.indexOf("1."), articleId.lastIndexOf("."));</p>
+<p>Facebook Comments</p>
+<p>Site Comments</p>
+<p>function clearField(el) {</p>
+<p>	if (el.value == el.defaultValue) el.value = '';</p>
+<p>}</p>
+<p>function resetField(el) { </p>
+<p>	if (el.value == '') el.value = el.defaultValue;</p>
+<p>}</p>
+<p>1 comments</p>
+<p>			    </p>
+<p>			    Forces International</p>
+<p>			    </p>
+<p>                            </p>
+<p>                        </p>
+<p>                           </p>
+<p>                            </p>
+<p>  		</p>
+<p>		</p>
+<p>			Tue Jan 10 2012 18:32</p>
+<p>	        	</p>
+<p>			</p>
+<p>                            </p>
+<p>                            Actually, it was the ACLU who is behind the legislation to protect smokers from discrimination, not the tobacco industry.</p>
+<p>                        </p>
+<p>Add comment</p>
+<p>I am not posting spam. I understand posting spam or other comments that are unrelated to this article will cause my comment to be flagged for deletion and possibly cause my IP address to be permanently banned from this server.</p>
+<p>							</p>
+<p>         var serverName='www.thelantern.com';</p>
+<p>         serverName=serverName.replace('www.','');</p>
+<p>        document.write('<img src="http://'+serverName+':80/kaptcha.jpg" />');</p>
+<p>        </p>
+<p>Enter the characters in the image above:</p>
+<p>				function enabledSubmit(){</p>
+<p>					document.getElementById('submitComment').disabled=false;</p>
+<p>				              if(document.getElementById('kaptcha_answer')){</p>
+<p>                                                var kaptcha_value=(document.getElementById('kaptcha_answer')).value;</p>
+<p>                                                if(kaptcha_value==""){</p>
+<p>                                                   alert("Enter the characters in the image above:");</p>
+<p>                                                   document.getElementById('submitComment').disabled=true;</p>
+<p>                                                   return false;</p>
+<p>                                                   }</p>
+<p>                                        }</p>
+<p>				}</p>
+<p>				function checkComment(){</p>
+<p>				        if(document.getElementById('body')){</p>
+<p>                                         var comment_value=(document.getElementById('body')).value;</p>
+<p>            if(!document.getElementById('accept').checked)</p>
+<p>		alert("Please check the \"I am not posting spam\" box");</p>
+<p>                                         if( comment_value == ""){</p>
+<p>                                                alert("Please enter a comment.");</p>
+<p>                                                document.getElementById('submitComment').disabled=true;</p>
+<p>                                                return false;</p>
+<p>                                          }</p>
+<p>                                        }</p>
+<p>				}</p>
+<p>				function checkCaptcha(){</p>
+<p>                                              if(document.getElementById('kaptcha_answer')){</p>
+<p>                                               var kaptchaEntry=(document.getElementById('kaptcha_answer')).value;</p>
+<p>                                                if(kaptchaEntry==""){</p>
+<p>                                                   alert("Enter the characters in the image above:");</p>
+<p>                                                   document.getElementById('submitComment').disabled=true;</p>
+<p>                                                   return false;</p>
+<p>                                                   }</p>
+<p>					}</p>
+<p>				}</p>
+<p>                                function enableButton(){</p>
+<p>                                        document.getElementById('submitComment').disabled=false;</p>
+<p>                                }</p>
+<p>				function getnewurl()</p>
+<p>				{</p>
+<p>					var formurl=(document.getElementsByName('formURL'))[0].value;</p>
+<p>					if(formurl.indexOf("?")!=-1){</p>
+<p>						formurl=formurl.substring(0,formurl.indexOf("?"));</p>
+<p>					}</p>
+<p>					(document.getElementsByName('formURL'))[0].value=formurl;</p>
+<p>					(document.getElementsByName('formID'))[0].value="comments";</p>
+<p>				}</p>
+<p>				function getlogout()</p>
+<p>				{</p>
+<p>					getnewurl();</p>
+<p>					window.location= "/jsp/logout.jsp?returnTo="+(document.getElementsByName('formURL'))[0].value;</p>
+<p>				}</p>
+<p>			</p>
+<p>log out</p>
+<p>		     var curUrl=document.URL;</p>
+<p>		function refresh(){</p>
+<p>		     if(curUrl.indexOf("&http")!=-1){</p>
+<p>			curUrl=curUrl.substring(curUrl.indexOf("&http"));</p>
+<p>			curUrl=curUrl.substring(curUrl.indexOf("&http")+1,curUrl.indexOf("="));</p>
+<p>			curUrl=curUrl+"?formURL=refresh";</p>
+<p>				setTimeout("window.location=curUrl",1000);</p>
+<p>		//	javascript:location.reload(true);</p>
+<p>		  }</p>
+<p>		}</p>
+<p>		</p>
+<p>		  javascript:refresh();</p>
+<p>$(document).ready(function(){</p>
+<p>$("#tabs_article_comments > ul").tabs();</p>
+<p>});</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '23' + '&' + adGearSeg_Section + '&' + papername + '" width="468" height="' + (isChrome ? 68 : 60) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '12' + '&' + adGearSeg_Section + '&' + papername + '" width="300" height="' + (isChrome ? 258 : 250) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '22' + '&' + adGearSeg_Section + '&' + papername + '" width="300" height="' + (isChrome ? 258 : 250) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>The Best Las Vegas Hotel Deals and Casino Rates</p>
+<p>Anywhere!</p>
+<p>US</p>
+<p>Immigration</p>
+<p>Columbus</p>
+<p>criminal defense lawyers</p>
+<p>have prosecuted all different types of legal</p>
+<p>cases with the goal of letting justice prevail for all.</p>
+<p> Thinking of travelling downunder you can get great travel insurance</p>
+<p>at cheap rates come visit Australia soon.</p>
+<p> If you have been injured in an accident in Philadelphia you should call a Philadelphia Injury Lawyer for a free consultation.</p>
+<p>var templateNo="/se/template1.custom.css";</p>
+<p>if(templateNo.indexOf("template9") == -1)</p>
+<p>{</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '21' + '&' + adGearSeg_Section + '&' + papername + '" width="160" height="' + (isChrome ? 608 : 600) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>}</p>
+<p>else if(templateNo.indexOf("template9") > -1 && 1 == 0)</p>
+<p>{</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '21' + '&' + adGearSeg_Section + '&' + papername + '" width="160" height="' + (isChrome ? 608 : 600) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>}</p>
+<p>document.writeln('<iframe id="adframe" src="http://admanager.collegepublisher.com/003F3B/adscript/ad_source_cmn.html?' + adGearSeg_adPaperID + '&' + '31' + '&' + adGearSeg_Section + '&' + papername + '" width="300" height="' + (isChrome ? 258 : 250) + '" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe>');</p>
+<p>Home</p>
+<p>Campus</p>
+<p>Sports</p>
+<p>[a+e]</p>
+<p>Opinion</p>
+<p>Entertainment</p>
+<p>Multimedia</p>
+<p>Classifieds</p>
+<p>Blog</p>
+<p>Contact Us</p>
+<p>Advertise with The Lantern</p>
+<p>Place a Classified Ad</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-3435891-1");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>The Lantern Logo</p>
+<p>© document.write(new Date().getFullYear()); The Lantern. All Rights Reserved.</p>
+<p>Follow us on Twitter</p>
+<p>Find us on Facebook</p>
+<p>Subscribe to RSS</p>
+<p>Sign up for Newsletter</p>
+<p>This site is powered by:</p>
+<p> is a member of the </p>
+<p>Official Music Sponsor: </p>
+<p>document.write(webserverpath);</p>
+<p>var short_domain="http://www.thelantern.com";</p>
+<p>var matchbin_domain = "http://directory." + short_domain.substring(short_domain.indexOf("www.")+4, short_domain.length);</p>
+<p>document.writeln('<a href=' + matchbin_domain + '><b>CMN Local Business Directory</b></a> powered by:');</p>
+<p> </p>
+<p>var paperNameFooter = "The_Lantern".toLowerCase();</p>
+<p>paperNameFooter =paperNameFooter.replace(/^\s+|\s+$/g,"");</p>
+<p>var articleId = "";</p>
+<p>articleId = "article 1.1746";articleId = articleId.substring(articleId.indexOf("article")+8, articleId.length);</p>
+<p> document.write("<a href=\"/" + "Privacy Policy".replace(/ /gi, "-").replace("(", "").replace(")", "").replace("/", "-").replace("/", "-") + "-" + articleId + "\" >" + "Privacy Policy" + "</a>");</p>
+<p>articleId = "article 1.1747";articleId = articleId.substring(articleId.indexOf("article")+8, articleId.length);</p>
+<p> document.write("|");</p>
+<p>document.write("<a href=\"/" + "Terms of Use".replace(/ /gi, "-").replace("(", "").replace(")", "").replace("/", "-").replace("/", "-") + "-" + articleId + "\" >" + "Terms of Use" + "</a>");</p>
+<p>showNetworkBanner(41);</p>

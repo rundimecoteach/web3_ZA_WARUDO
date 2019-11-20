@@ -1,0 +1,444 @@
+<p>Eksperci: Meningokoki zagrażają nie tylko dzieciom - Wiadomości - Polska Lokalna w Interia.pl - Wiadomości, informacje lokalne : Warszawa, Kraków, Poznań</p>
+<p>try { if (top != self) top.location.href = location.href; } catch (e) {};</p>
+<p>document.write(unescape("%3Cstyle%20type%3D%22text%2Fcss%22%3E.noJsShow{display:none}%3C%2Fstyle%3E"));</p>
+<p>(function () {</p>
+<p>        if ((/iphone|ipod|ipad|android/gi).test(navigator.userAgent)) {</p>
+<p>            window.Inpl = window.Inpl || {};</p>
+<p>            window.Inpl.hasSubdomains = false;</p>
+<p>            window.Inpl.cookieDomain =  window.Inpl.hasSubdomains ? location.host.replace(/^[a-z0-9]+/, '') : location.host;</p>
+<p>            document.write('<link rel="stylesheet" href="http://x.interia.pl/mobile/add2home.css" />');</p>
+<p>            document.write('<script type="application\/javascript" src="http://x.interia.pl/mobile/add2home.20120206.min.js" charset="utf-8"><\/script>');</p>
+<p>        }</p>
+<p>    })()</p>
+<p><!-- <![CDATA[</p>
+<p>if(!INTPL)var INTPL=function(){return "";};</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>        </p>
+<p>var pp_gemius_identifier = "11A7_yrMFEfR.pOqYPobjZRLLeWuqcMGOtFvuJx094z.h7"; </p>
+<p>// ]]> --></p>
+<p>    if("undefined"==typeof gemius_hit)gemius_hit = function(){};</p>
+<p><!-- <![CDATA[</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['b._setAccount', 'UA-2042239-40']);</p>
+<p>_gaq.push(['b._addOrganic', 'google.interia','q']);</p>
+<p>_gaq.push(['b._trackPageview']);</p>
+<p>(function() {</p>
+<p>var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>
+<p>// ]]> --> </p>
+<p><!-- <![CDATA[</p>
+<p>if(location.protocol.substr(0,4)=='http')document.write(unescape('%3C')+'script id="INTERIA.PL.FAKTY I STRONA GLOWNA.polskalokalna.mazowieckie" src="'+location.protocol+'//hub.com.pl/_'+(new Date()).getTime()+'/ad.js?id=J0hHsmtrh5cVfBuecud0dL9tsDVJQYMGcI1Tz1F.GEX.X7/x='+screen.width+'/y='+screen.height+Inpl.Ad.getKeywords("/key=")+'" type="text/javascript"'+unescape('%3E%3C')+'/script'+unescape('%3E'));</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.init({'news':'adoceanhubviohbnskhn','box300x50':'adoceanhubsjfoekmpci','gora_srodek':'adoceanhubpkmeixfumd','box300x250':'adoceanhubmldllupigc','artspons_link':'adoceanhubzlkrorjnfx','1x1':'adoceanhubwmrhcpdsls','box300x250_adsense':'adoceanhubqfnkdsdnwm','box300x60_ec':'adoceanhubvhkrotntjv','header1':'adoceanhubtokhbilozf','belka_760x30':'adoceanhubsejfnmelrg','belka_stopka':'adoceanhubpcrsgnljgt','box_300x250_google':'adoceanhubzffrqtikun','box_ec_prawa_dol':'adoceanhuboochqnnjds','commentslist':'adoceanhuboamjkigjjy'});</p>
+<p>if(location.hash.indexOf('#inpltesterad')>-1&&location.hash.replace(/[^0-9a-z=]/g,"").length==45){document.write(unescape('%3C')+'script id="kodmaster" src="http://reklama.interia.pl/testuj/inpltester?'+location.hash.replace(/[^0-9a-z=]/g,"")+'" type="text/javascript"'+unescape('%3E%3C')+'/script'+unescape('%3E'));}</p>
+<p>// ]]> --></p>
+<p>if(INTPL("isAd","header1"))document.write(unescape("%3Cstyle%20type%3D%22text%2Fcss%22%3E%20%23interiaHeader%20ul%2C%23interiaHeader%20form%7Bdisplay%3Anone%3B%7D%3C%2Fstyle%3E"));</p>
+<p>Przejdź do głównej części strony</p>
+<p>if(INTPL("isAd","header"))document.write(unescape('%3Cdiv%20class%3D%22advertHeader%22%3E'));INTPL("insertAd","header");if(INTPL("isAd","header"))document.write(unescape('%3C%2Fdiv%3E'));if(INTPL("isAd","header1"))document.write(unescape('%3Cdiv%20class%3D%22advertHeader%22%3E'));INTPL("insertAd","header1");if(INTPL("isAd","header1"))document.write(unescape('%3C%2Fdiv%3E'));</p>
+<p><!-- <![CDATA[</p>
+<p>INTPL("insertAd","gora_srodek");INTPL("insertAd","1x1");INTPL("insertAd","watermark");</p>
+<p>// ]]> --></p>
+<p>INTPL('insertAd1024','content',18);</p>
+<p>Nawigacja</p>
+<p> zmień </p>
+<p>region</p>
+<p>Dolnośląskie</p>
+<p>Kujawsko-Pomorskie</p>
+<p>Łódzkie</p>
+<p>Lubelskie</p>
+<p>Lubuskie</p>
+<p>Małopolskie</p>
+<p>Mazowieckie</p>
+<p>Opolskie</p>
+<p>Podkarpackie</p>
+<p>Podlaskie</p>
+<p>Pomorskie</p>
+<p>Śląskie</p>
+<p>Świętokrzyskie</p>
+<p>Warmińsko-Mazurskie</p>
+<p>Wielkopolskie</p>
+<p>Zachodniopomorskie</p>
+<p> lub: </p>
+<p>wszystkie</p>
+<p>Warszawa</p>
+<p>Serwisy skojarzone</p>
+<p>Noclegi</p>
+<p>Hotele</p>
+<p>Map24</p>
+<p>Górne menu</p>
+<p>Start</p>
+<p>Wiadomości</p>
+<p>Forum</p>
+<p>Panorama Firm</p>
+<p>Interia TV</p>
+<p>Galerie</p>
+<p>Partnerzy</p>
+<p>Raporty specjalne</p>
+<p>Start</p>
+<p>Mapa serwisu</p>
+<p>Czaty</p>
+<p>Najlepiej oceniane zdjęcia</p>
+<p>Najlepiej oceniane artykuły</p>
+<p>Newsroom</p>
+<p>Wiadomości</p>
+<p>Forum</p>
+<p>Panorama Firm</p>
+<p>Interia TV</p>
+<p>Galerie</p>
+<p>Fotoreportaże</p>
+<p>	Inpl.Navigation.Init('navigation');</p>
+<p>	</p>
+<p>	INTPL("insertAd","belka_760x30");</p>
+<p>	</p>
+<p>if(INTPL("isAd","belka445x30"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20belka445x30%22%3E"));</p>
+<p>INTPL("insertAd","belka445x30");</p>
+<p>if(INTPL("isAd","belka445x30"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p>if(INTPL("isAd","belka435x100"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20belka435x100%22%3E"));</p>
+<p>INTPL("insertAd","belka435x100");</p>
+<p>if(INTPL("isAd","belka435x100"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p><!-- <![CDATA[</p>
+<p>jQuery.noConflict();</p>
+<p>// ]]> --></p>
+<p>jQuery(document).ready(function () {</p>
+<p>    jQuery('#fontSizeSwitch').html('<span>Rozmiar tekstu:</span> <span class="standard i1"><a href="#" title="rozmiar standardowy">A</a></span> <span class="medium i2"><a href="#" title="rozmiar powiększony">A</a></span> <span class="big i3"><a href="#" title="rozmiar duży">A</a></span>');</p>
+<p>    jQuery('#fontSizeSwitch').fontSizeSwitch({</p>
+<p>        contentJQ: jQuery('.textContent'),</p>
+<p>        sizes: {</p>
+<p>            standard: {buttonJQ: jQuery('#fontSizeSwitch .standard')},</p>
+<p>            medium: {buttonJQ: jQuery('#fontSizeSwitch .medium')},</p>
+<p>            big: {buttonJQ: jQuery('#fontSizeSwitch .big')}</p>
+<p>        }</p>
+<p>    });</p>
+<p>});</p>
+<p>Eksperci: Meningokoki zagrażają nie tylko dzieciom</p>
+<p>Środa, 7 grudnia 2011 (15:07) </p>
+<p>Wywołujące zapalenie opon mózgowych i sepsę meningokoki mogą się przenosić poprzez pocałunek lub picie z jednej szklanki. Wbrew powszechnej opinii zagrażają nie tylko dzieciom, ale także dorosłym - przypominają specjaliści.</p>
+<p>Meningokoki zagrażają nie tylko dzieciom, ale także dorosłym /© Panthermedia</p>
+<p><!-- <![CDATA[</p>
+<p>if(INTPL("isAd","skyscraper")&&!INTPL("isAd","news"))document.write(unescape("%3Ctable%20class%3D%22advertisement%20skyscraper%22%3E%3Ctr%3E%3Ctd%20class%3D%22ads%22%3E%0A"));</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>if(!INTPL("isAd","news"))INTPL("insertAd","skyscraper");</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>if(INTPL("isAd","skyscraper")&&!INTPL("isAd","news"))document.write(unescape("%0A%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E"));</p>
+<p>// ]]> --></p>
+<p>Meningokoki - bakterie Neisseria meningitidis - należą do najczęstszych przyczyn zapalenia opon mózgowych. Mogą też wywołać sepsę - powiedziała prof. Waleria Hryniewicz, konsultant krajowy w dziedzinie mikrobiologii lekarskiej. Przebieg inwazyjnej choroby meningokowej (IChM) może być błyskawiczny - przy sepsie aż 50 proc. pacjentów umiera w ciągu 24 godzin od rozpoznania objawów. Najbardziej narażone są małe dzieci, w drugiej kolejności młodzież, ale zachorować może każdy.</p>
+<p>Te zakażenia mogą być śmiertelne</p>
+<p>IChM, a zwłaszcza sepsa, jest trudna do wykrycia we wczesnym stadium, bo daje objawy typowe dla grypy czy przeziębienia - bóle głowy i mięśni, nudności, wymioty, osłabienie. W ciągu krótkiego czasu choroba może osiągać zaawansowane stadium, prowadząc do śmierci chorego lub bardzo poważnych konsekwencji - głuchoty, uszkodzenia mózgu, amputacji kończyn.  </p>
+<p><!-- <![CDATA[</p>
+<p>if(INTPL("isAd","news"))document.write(unescape("%3Ctable%20id%3D%22%23ad_place_news%22class%3D%22advertisement%20news%22%3E%3Ctr%3E%3Ctd%20class%3D%22skip%22%3E%3Ca%20href%3D%22%23skipAdnews%22%3Eczytaj%20dalej%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%20class%3D%22ads%22%3E%0A"));</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>INTPL("insertAd","news");</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>if(INTPL("isAd","news"))document.write(unescape("%0A%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%20class%3D%22skipDest%22%3E%3Ca%20name%3D%22skipAdnews%22%20id%3D%22skipAdnews%22%3E%26nbsp%3B%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E"));</p>
+<p>// ]]> --></p>
+<p>Na świecie meningokoki wywołują zakażenia u około 500 tys. osób rocznie, z czego 5-10 proc. kończy się śmiercią chorego. To oznacza, że dziennie może umrzeć ponad 130 osób. </p>
+<p>Dorośli też są zagrożeni</p>
+<p>Meningokoki spokojnie żyją w nosie i gardle osób, które się na nie uodporniły. Gdy jednak nosiciele trafią do wojska, wyjadą na urlop czy na studia, może dojść do dramatycznych zakażeń. Wiele krajów szczepi przeciwko meningokokom rekrutów i wymaga szczepień od studentów czy uczestników obozów młodzieżowych - mówił doktor Paweł Grzesiowski, pediatra i immunolog.  </p>
+<p>W Polsce pokutuje przeświadczenie, że przeciwko meningokokom powinno się szczepić jedynie małe dzieci. Tymczasem, co czwarty młody człowiek (w wieku 11-23 lat) może być bezobjawowym nosicielem i zakażać osoby podatne. Sprzyja temu bujne życie towarzyskie, częsta zmiana środowisk, daleko posunięta tolerancja dla zasad higieny, przebywanie w dużych skupiskach ludzkich, podróże zagraniczne i mobilność tej grupy. </p>
+<p>To warto wiedzieć</p>
+<p>Prof. Teresa Jackowska z Kliniki Pediatrii Centrum Medycznego Kształcenia Podyplomowego przedstawiła wyniki badań, zgodnie z którymi 80 proc. badanych sepsę kojarzy tylko z bakteriami pneumokoka, a aż 84 proc. nie wie, że oprócz najmłodszych dzieci, również młodzież jest istotną grupą obarczoną ryzykiem infekcji Neisseria meningitidis.  </p>
+<p>Szczepieniom przeciwko meningokokom powinny być poddane niemowlęta, dzieci, młodzież i młodzi dorośli (do 25. roku życia), oraz osoby w każdym wieku z zaburzeniami odporności oraz narażone na zachorowanie w wyniku zawodowego bezpośredniego kontaktu z chorymi lub meningokokami (pracownicy laboratoriów mikrobiologicznych oraz lekarze i pielęgniarki).</p>
+<p><!-- <![CDATA[</p>
+<p>var InplCounter401=new Image();</p>
+<p>InplCounter401.src=('https:'==document.location.protocol?'https://':'http://')+ "wr.zl.interia.pl/a/view?objectType=OLD_NEWS&id=1731489&pId=4&sId=104&t="+(new Date()).getTime();</p>
+<p>// ]]> --></p>
+<p>źródło informacji: </p>
+<p>var nsix_params = new Object();</p>
+<p>nsix_params.fcolor = '#0000FF';</p>
+<p>nsix_params.max_ad_cnt = 4;</p>
+<p>nsix_params.adareas = ['article'];</p>
+<p>nsix_params.positive = ['.articleText'];</p>
+<p>nsix_params.cutoff = ['#newsAddContent', '.embed'];</p>
+<p>document.write('<scr'+'ipt type="text/javascript"'</p>
+<p>    +' src="http://emisja.adsearch.pl/quad/intext_spliter/?prid=106&caid=49&form=51:4:I&nc='</p>
+<p>    +(new Date()).getTime()+'"'+'></'+'scri'+'pt>');</p>
+<p>jQuery('document').ready(function(){	        			    </p>
+<p>	inpl.subscribe.manager.boxAttach(</p>
+<p>		jQuery('.dingSubscribeBox'),</p>
+<p>		'http://ding.interia.pl',</p>
+<p>		{</p>
+<p>			serviceUrl: '//polskalokalna.pl',</p>
+<p>			id: 'wgt_ding_subscribe',</p>
+<p>			content: {</p>
+<p>				src: '/widget/dingSubscribe'</p>
+<p>			},</p>
+<p>			width: 625,</p>
+<p>			height: 0,</p>
+<p>			eventsName: 'dingSubscribe',</p>
+<p>			elId:   1731489  ,</p>
+<p>			hasToolbar: 0,</p>
+<p>			dingReferer: '?referer=http%3A%2F%2Fpolskalokalna.pl%2Fwiadomosci%2Fmazowieckie%2Fwarszawa%2Fnews%2Feksperci-meningokoki-zagrazaja-nie-tylko-dzieciom%2C1731489%2C3319&crc=168784341',</p>
+<p>			elTypeId: 8,</p>
+<p>			originDomain : 'http://ding.interia.pl',</p>
+<p>			scheme : 'http'</p>
+<p>		}</p>
+<p>    );				</p>
+<p>});</p>
+<p>jQuery('document').ready(function(){    </p>
+<p>    var fD = 1;</p>
+<p>    if ( !fD && Inpl.Auid.dingSubscribeDisplayInfo()) {</p>
+<p>               </p>
+<p>        var sbbase = jQuery('.dingSubscribe:first').offset().top</p>
+<p>        var sbscroll = documentScrollTop()    </p>
+<p>        var sbscreenHeight = document.documentElement.clientHeight</p>
+<p>        var sbvisible = sbscroll + sbscreenHeight >  sbbase;    </p>
+<p>        if (sbvisible) {     			            	</p>
+<p>                setTimeout( "inpl.subscribe.manager.showHelp()", 2000 );				                    </p>
+<p>        } else {    </p>
+<p>            jQuery(window).scroll(function(){            </p>
+<p>                sbscroll = documentScrollTop()                        </p>
+<p>                sbvisible = sbscroll + sbscreenHeight >  sbbase;</p>
+<p>            	if (sbvisible) {	                    			</p>
+<p>                    setTimeout( "inpl.subscribe.manager.showHelp()", 1000 );	                    </p>
+<p>                }</p>
+<p>            });</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function documentScrollTop()</p>
+<p>    {</p>
+<p>        if( document.documentElement && document.documentElement.scrollTop )</p>
+<p>            return document.documentElement.scrollTop;</p>
+<p>        else if( document.body && document.body.scrollTop )</p>
+<p>            return document.body.scrollTop;</p>
+<p>    } </p>
+<p>});</p>
+<p>if(INTPL("isAd","news_dol_belka"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20news_dol_belka%22 style=%22float:left;padding-bottom:10px;%22%3E"));</p>
+<p>INTPL("insertAd","news_dol_belka");</p>
+<p>if(INTPL("isAd","news_dol_belka"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p> </p>
+<p>Więcej o:</p>
+<p>zapalenie opon mózgowych, </p>
+<p>ekspert, </p>
+<p>dziecko, </p>
+<p>sepsa, </p>
+<p>zakażenie, </p>
+<p>dorośli, </p>
+<p>szczepienie, </p>
+<p>Nie</p>
+<p>	var newsRelatedAndVotes='<div class="voteContainer"><div class="head"><h3 id="VoteHnews1731489">Oceń artykuł:</h3><a href="/tylko-u-nas/najlepiej-oceniane/newsy" id="newsRanking">zobacz ranking &raquo;</a></div><ul id="Votenews1731489"><li class="vote votePlus"><a href="/ocen,news,1731489,5,%252Fwiadomosci%252Fmazowieckie%252Fwarszawa%252Fnews%252Feksperci-meningokoki-zagrazaja-nie-tylko-dzieciom%252C1731489%252C3319"><img src="http://data.interia.pl/ssi/voteYes.gif" border="0" alt="tak" /></a><span id="votePlusPercent"> 63%</span></li><li class="vote voteMinus"><a href="/ocen,news,1731489,1,%252Fwiadomosci%252Fmazowieckie%252Fwarszawa%252Fnews%252Feksperci-meningokoki-zagrazaja-nie-tylko-dzieciom%252C1731489%252C3319"><img src="http://data.interia.pl/ssi/voteNo.gif" border="0" alt="nie" /></a><span id="voteMinusPercent"> 37%</span></li></ul><div class="voteCount">Ocen: <strong id="voteCnt">56</strong></div></div><div class="icons"><div id="shareButton"><iframe src="http://www.wykop.pl/dataprovider/diggerwidget/?bg=FFFFFF&type=compact&bold=true&url=http://polskalokalna.pl%2Fwiadomosci%2Fmazowieckie%2Fwarszawa%2Fnews%2Feksperci-meningokoki-zagrazaja-nie-tylko-dzieciom%2C1731489%2C3319&title=Eksperci: Meningokoki zagrażają nie tylko dzieciom&desc=Wywo%B3uj%B1ce+zapalenie+opon+m%F3zgowych+i%26nbsp%3Bseps%EA+meningokoki+mog%B1+si%EA+przenosi%E6+poprzez+poca%B3unek+lub+picie+z%26nbsp%3Bjednej+szklanki.+Wbrew+powszechnej+opinii+zagra%BFaj%B1+nie+tylko+dzieciom%2C+ale+tak%BFe+doros%B3ym+-+przypominaj%B1+specjali%B6ci." style="border:none;width:90px;height:20px;overflow:hidden;padding:0;" frameborder="0" border="0"></iframe><iframe src="http://platform.twitter.com/widgets/tweet_button.html" style="width: 100px; height: 20px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe><iframe src="//www.facebook.com/plugins/like.php?href=http://polskalokalna.pl%2Fwiadomosci%2Fmazowieckie%2Fwarszawa%2Fnews%2Feksperci-meningokoki-zagrazaja-nie-tylko-dzieciom%2C1731489%2C3319&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe><a class="share" id="shareLink2" href="/wiadomosci/mazowieckie/warszawa/news/eksperci-meningokoki-zagrazaja-nie-tylko-dzieciom/wyslij_link,1731489,%2Fwiadomosci%2Fmazowieckie%2Fwarszawa%2Fnews%2Feksperci-meningokoki-zagrazaja-nie-tylko-dzieciom,c14c01004ea2950282d418e70b8691be"><span>Prześlij</span> <img width="6" height="5" alt="" src="/s/see_also_arr_wide.gif" class="more"></a></div></div><div id="shareWindow" class="hide"><div id="shareWindowContainer"><div id="shareLinkContainer"><div id="shareClose"><span>Zamknij</span></div></div><div class="clear"> </div><div class="sendLinkContainer"><h3>Przesyłasz znajomemu link do artykułu: </h3><div class="articlePreview"><h3 class="articlePreviewTitle">Eksperci: Meningokoki zagrażają nie tylko dzieciom</h3><div class="articleLead"><div class="image"><img src="http://img.interia.pl/wiadomosci/nimg/m/b/Eksperci_Meningokoki_5557815.jpg" width="80" height="45" alt="Meningokoki zagrażają nie tylko dzieciom, ale także dorosłym" /></div>Wywołujące zapalenie opon mózgowych i&nbsp;sepsę meningokoki mogą się przenosić poprzez pocałunek lub picie z&nbsp;jednej szklanki. Wbrew powszechnej opinii zagrażają nie tylko dzieciom, ale także dorosłym - przypominają specjaliści.</div></div><form action="#shareWindow" class="sendLink" onsubmit="return checkSendLink()" method="post"><div class="email receipentEmail"><label for="sl_mail_to">E-mail odbiorcy: <span class="req">*</span></label><input type="text" name="sl_mail_to" id="sl_mail_to" class="text" value="" /></div><div class="email senderEmail"><label for="sl_mail_from">Twój e-mail: <span class="req">*</span></label><input type="text" name="sl_mail_from" id="sl_mail_from" class="text" value="" /></div><div class="comment"><label for="sl_body">Twój komentarz:</label><textarea id="sl_body" name="sl_body" rows="8" cols="50"></textarea></div><div class="code"><label for="sl_code">Przepisz kod z obrazka poniżej: <span class="req">*</span></label><img id="kod_z_obrazka" src="http://img.interia.pl/r/p.gif" width="80" height="25" alt="Kod z obrazka" align="middle" class="fl" /><img src="http://data.interia.pl/ssi/imageReload.gif" alt="Przeładuj kod z obrazka" title="Przeładuj kod z obrazka" align="top" class="f2" onclick="ImageCodeReoload.init();"/><input id="kod_z_obrazka_text" type="text" name="kod_z_obrazka"  class="code text"/><input type="hidden" name="c_ses_id" id="csesid" maxlength="4" value="" /></div><div class="buttons"><input type="submit" name="sl_send" value="Wyślij" class="submit" /><input type="button" name="anuluj" value="Anuluj" class="reset" id="cancelShareButton" /></div><div class="info"><p class="ico"><span class="req">*</span> pola wymagane.</p><p>INTERIA.PL gwarantuje, iż adresy nadawcy i odbiorcy nie są przez INTERIA.PL zbierane ani przetwarzane. Służą wyłącznie do jednorazowego wysłania wiadomości.</p></div></form></div></div></div>';</p>
+<p>	</p>
+<p><!-- <![CDATA[</p>
+<p>	function checkSendLink() {</p>
+<p>        try {</p>
+<p>            var o, t='';</p>
+<p>            o=jQuery('#sl_mail_to');</p>
+<p>            if( !Inpl.Tools.CheckMail('sl_mail_to',1) ) {</p>
+<p>                o.addClass('errorField');</p>
+<p>                t = ' ';</p>
+<p>            } else{</p>
+<p>                o.removeClass('errorField');</p>
+<p>            }</p>
+<p>    </p>
+<p>            o=jQuery('#sl_mail_from');</p>
+<p>            if( !Inpl.Tools.CheckMail('sl_mail_from',1) ) {</p>
+<p>                o.addClass('errorField');</p>
+<p>                t = ' ';</p>
+<p>            } else {</p>
+<p>                o.removeClass('errorField');</p>
+<p>            }</p>
+<p>    </p>
+<p>            o=jQuery('#kod_z_obrazka_text');</p>
+<p>            if( !o.val() ) {</p>
+<p>                o.addClass('errorField');</p>
+<p>                t = ' ';</p>
+<p>            } else o.removeClass('errorField');</p>
+<p>    </p>
+<p>         </p>
+<p>        } catch(e){}</p>
+<p>        return (t!=''?false:true);</p>
+<p>    }</p>
+<p>    jQuery(document).ready(</p>
+<p>        function () {</p>
+<p>        	jQuery('#newsRelatedAndVotes').html(newsRelatedAndVotes);</p>
+<p>        	</p>
+<p>						    if(!window.ImageCodeReoload) window.ImageCodeReoload = new Object();</p>
+<p>			    ImageCodeReoload = new function()</p>
+<p>			    {</p>
+<p>			        this.init = function(p)</p>
+<p>			        {</p>
+<p>			            var s,_c='';s=((Math.round(Math.random()*(new Date()).getTime())).toString()).split('');</p>
+<p>			            for(var i=1;i<s.length;i++){_c+=(String.fromCharCode((s[i]*1)+70)).toLowerCase()+s[i];}</p>
+<p>			            d=document;d.getElementById(p?p:'kod_z_obrazka').src='http://s.interia.pl/img.html?c='+_c;</p>
+<p>			            d.getElementById('csesid').value = _c;</p>
+<p>			        }</p>
+<p>			    };</p>
+<p>			    			 </p>
+<p>            </p>
+<p>			Inpl.PercentVote.Init(1731489,'news',62.5,56);</p>
+<p>            jQuery('#shareButton .share').click(function(){</p>
+<p>                jQuery('#shareWindow').show(500);</p>
+<p>                ImageCodeReoload.init();</p>
+<p>                return false;</p>
+<p>            }); </p>
+<p>            jQuery('#shareClose, #cancelShareButton').click(function(){</p>
+<p>                jQuery('#shareWindow').hide(500);</p>
+<p>            });</p>
+<p>        }</p>
+<p>    );          </p>
+<p>// ]]> --></p>
+<p>    jQuery(document).ready(</p>
+<p>        function () {</p>
+<p>            if(jQuery('.adSense').find('iframe').length !== 0) {</p>
+<p>                jQuery('.adSense').show();</p>
+<p>            }</p>
+<p>        });</p>
+<p>    </p>
+<p>Galerie zdjęćNiezwykła wyprawa liczba zdjęć: 9 Słoneczne popołudnie w Warszawie liczba zdjęć: 6 Głodówka kobiet w obronie szkoły liczba zdjęć: 10 </p>
+<p>    jQuery.noConflict();</p>
+<p>    INTPL('hitGemius', '');</p>
+<p>    try{ GetXhrGalleries.init([1,1163, 'galerie-zdjec', '/galerie', 'http://polskalokalna.pl', '', '', ''], [[1737609,'Niezwykła wyprawa','niezwykla-wyprawa','http://img.interia.pl/wiadomosci/nimg/g/6/Niezwykla_wyprawa_6108759.jpg',180,126,'true','9'],[1737503,'Słoneczne popołudnie w Warszawie','sloneczne-popoludnie-w-warszawie','http://img.interia.pl/wiadomosci/nimg/e/9/Sloneczne_popoludnie_6107922.jpg',180,120,'true','6'],[1737487,'Głodówka kobiet w obronie szkoły','glodowka-kobiet-w-obronie-szkoly','http://img.interia.pl/wiadomosci/nimg/3/y/Glodowka_kobiet_obronie_6107897.jpg',180,120,'true','10']]); } catch( e ){ }</p>
+<p>    </p>
+<p>    jQuery(document).ready(function() {</p>
+<p>        if (jQuery('#see_also_fixed').length > 0){</p>
+<p>                        addClickCntCode();</p>
+<p>        }</p>
+<p>    });</p>
+<p>    </p>
+<p>    function gemiusClickCnt(){</p>
+<p>        if (jQuery('#see_also_fixed').length > 0){</p>
+<p>            INTPL("hitGemius", "" );</p>
+<p>            addClickCntCode();</p>
+<p>        }</p>
+<p>    }</p>
+<p>    </p>
+<p>    function addClickCntCode(){</p>
+<p>                    }</p>
+<p>Dodatki</p>
+<p>Wyszukiwarka serwisowaSzukaj:</p>
+<p><!-- <![CDATA[</p>
+<p>INTPL("insertAd","box300x250");</p>
+<p>// ]]> --></p>
+<p>NAJCZĘŚCIEJ CZYTANE</p>
+<p>1 </p>
+<p>				Nowe informacje o śmierci młodego skoczka Antoniego Juroszka</p>
+<p>			</p>
+<p>2 </p>
+<p>				Borussia Dortmund - Malaga 3-2 w 1/4 finału Ligi Mistrzów</p>
+<p>			</p>
+<p>3 </p>
+<p>				Twoje prawo jazdy już nie jest bezterminowe. To legalne?</p>
+<p>			</p>
+<p>4 </p>
+<p>				Żona zostawiła Jagielskiego dla młodszego?!</p>
+<p>			</p>
+<p>5 </p>
+<p>				Dyrektor szkoły wstrząśnięty śmiercią Antoniego Juroszka</p>
+<p>			</p>
+<p>6 </p>
+<p>				Amerykanie czy UFO? Do kogo strzelali Rosjanie?</p>
+<p>			</p>
+<p>7 </p>
+<p>				Makabryczne odkrycie. W zamrażalniku były ciała noworodków</p>
+<p>			</p>
+<p>Więcej informacji08:12Senatorzy przeciw wymianie praw jazdy08:09Sprawdź, komu dajesz 1 proc. swojego podatku08:02Historia podmienionych dzieci w filmie "Oszukane"07:58Polscy jazzmani zagrają dla Jarosława Śmietany06:52Szykuje się znaczny wzrost temperatur. W weekend nawet do 16. st. C</p>
+<p>if(INTPL("isAd","box_ec_prawa_dol"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20box_ec_prawa_dol%22%3E"));</p>
+<p>INTPL("insertAd","box_ec_prawa_dol");</p>
+<p>if(INTPL("isAd","box_ec_prawa_dol"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p>if(INTPL("isAd","box300x60_ec"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20box300x60%22%3E"));</p>
+<p>INTPL("insertAd","box300x60_ec");</p>
+<p>if(INTPL("isAd","box300x60_ec"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p>if(INTPL("isAd","box300x60"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20box300x60%22%3E"));</p>
+<p>INTPL("insertAd","box300x60");</p>
+<p>if(INTPL("isAd","box300x60"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p>if(INTPL("isAd","box300x50"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20box300x50%22%3E"));</p>
+<p>INTPL("insertAd","box300x50");</p>
+<p>if(INTPL("isAd","box300x50"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p>if(INTPL("isAd","box_300x250_google"))document.write(unescape("%3Cdiv%20class%3D%22advertisement%20box_300x250_google%22%3E"));</p>
+<p>INTPL("insertAd","box_300x250_google");</p>
+<p>if(INTPL("isAd","box_300x250_google"))document.write(unescape("%3C%2Fdiv%3E"));</p>
+<p>Gazetki promocyjne »</p>
+<p>Kupony »</p>
+<p>Zakupy grupowe »</p>
+<p>    //<![CDATA[</p>
+<p>    Promocyjni.init({</p>
+<p>            limit : 3,</p>
+<p>            showSearch : true,</p>
+<p>            modeId : 'polskalokalna_prawa',</p>
+<p>            categoryIds : '',</p>
+<p>            gemiusShow          : '0iTqJi9Tv3.jRBKActMKsqQO7DqGP9B6dsNcfYfZ8iL.C7',</p>
+<p>            gemiusClickBrochure : 'B9OVfeMayWxUj39bfO1r38WoLT.Bw2bzYUJ1be2e713.h7',</p>
+<p>            gemiusClickForm     : 'p807_PLmFBjkQGieLD5vf5dSzSaUd6bCpnkl2iSC7v3.B7',</p>
+<p>            gemiusClickAllLinks : 'chrgwk8w49cTUjtLyp3dKZZVTIQpp5.Lm1GsEccZ_ub.G7',</p>
+<p>            searchCityDefault   : 'Wybierz miejscowość',</p>
+<p>            changeCityLabel     : 'zmień',</p>
+<p>            oneDayLabel         : 'dzień',</p>
+<p>            validToLabel        : 'Ważne jeszcze',</p>
+<p>            citiesColumns : 2</p>
+<p>        });</p>
+<p>    //]]></p>
+<p>    </p>
+<p>Skomentuj artykuł: Eksperci: Meningokoki zagrażają nie tylko dzieciom</p>
+<p>Przejdź do forum »</p>
+<p> </p>
+<p>Twój komentarz może być pierwszy</p>
+<p>Zapoznaj się z Regulaminem</p>
+<p>Treść:*</p>
+<p>Podpis:*</p>
+<p>Dodaj komentarz</p>
+<p>Wypełnienie pól oznaczonych * jest obowiązkowe.</p>
+<p>	Inpl.Box.Forum3.init({</p>
+<p>		env: {"attachmentServerAddr":"\/\/i.iplsc.com","attachmentUploaderFrame":"http:\/\/forum.api.interia.pl\/attachment\/uploader","remoteImageServerAddr":"http:\/\/forum.api.interia.pl\/attachment\/remote.json,step,0","attachmentPreviewServerAddr":"http:\/\/forum.api.interia.pl\/attachment\/preview.json","screenshotServerAddr":"http:\/\/prscn.interia.pl\/screenshot.json"},</p>
+<p>		sec : {"ts":1365575726,"key":"a6f049d09bcb7594867c3e16b24839e2","screenKey":"55c11fed7ecb29f34bbb68ba399cdb3e"},</p>
+<p>		feature : {"attachments":{"enable":true,"data":null},"profiles":{"enable":false,"data":{"notInInteriaPortal":false}}},</p>
+<p>		postUrl: 'polskalokalna.pl/pokaz_komentarz?pid=%POST%',</p>
+<p>		loginUrl: 'https://konto.interia.pl/forum/logowanie',</p>
+<p>		newAccountUrl: 'https://konto.interia.pl/forum/nowe-konto',</p>
+<p>		activateUrl: 'http://forum.interia.pl/aktywacja',</p>
+<p>		pr : 4,</p>
+<p>		sv : 104,		</p>
+<p>		commentsExists: false	}); </p>
+<p><!-- <![CDATA[</p>
+<p>//dodatkowy kod Gemius</p>
+<p>(_g668=new Image()).src=location.protocol+'//interia.hit.gemius.pl/_'+(new Date()).getTime()+'/redot.gif?l=8&id=.cCbGWtzJBokc_f3rarX6LR3rtJW4JtuuV_bo9iajyz.S7'+INTPL('g_parameters_g');</p>
+<p>// ]]> --></p>
+<p>Najciekawsze tematy na forumKolejna śmierć małego dziecka! Co się dzieje z matkami?!  Wzrośnie Vat na kawę z mlekiem!Nawet kawa w tym kraju musi być tak wysoko opodatkowana?Pasażerowie latami przepłacali za bilety PKP!Dlaczego nie obowiązywały ulgi ustawowe? Czy musiało dojść do tej tragedii? Nastolatkowie założyli się ze sobą o litr wódki, o to, kto pierwszy dojdzie do kamienia znajdującego się na środku zamarzniętego jeziora... </p>
+<p>INTPL("insertAd","belka_stopka");Informacje dodatkoweNapisz do serwisu Polska Lokalna w komórceBiuletynyKanały RSS</p>
+<p>Polecamy:</p>
+<p>    Wiadomości   </p>
+<p>    Motoryzacja   </p>
+<p>    Kraków   </p>
+<p>    Korea Północna   </p>
+<p>    Mapa Polski   </p>
+<p>    Filmy   </p>
+<p>    Księgarnia Internetowa   </p>
+<p>    Podręczniki   </p>
+<p>    Lotto   </p>
+<p>    Oferty pracy Warszawa   </p>
+<p>    Rolki   </p>
+<p>    Książki   </p>
+<p>    Pogoda   </p>
+<p>    Noclegi   </p>
+<p>    PITy 2012   </p>
+<p>    Matura 2013   </p>
+<p>    Program tv</p>
+<p><!-- <![CDATA[</p>
+<p>var InplCounter155=new Image();</p>
+<p>InplCounter155.src=('https:'==document.location.protocol?'https://':'http://')+ "zlm.interia.pl/a/miniads?sma_id=2513&t="+(new Date()).getTime();</p>
+<p>// ]]> --></p>
+<p>Korzystanie z serwisu oznacza akceptację Regulaminu.  Polityka Cookies. Copyright © 1999-2013 INTERIA.PL, wszystkie prawa zastrzeżone.</p>
+<p>/* <![CDATA[ */</p>
+<p>var google_conversion_id = 1066145596;</p>
+<p>var google_conversion_language = "en";</p>
+<p>var google_conversion_format = "3";</p>
+<p>var google_conversion_color = "666666";</p>
+<p>var google_conversion_label = "SwUWCOSw4AEQvK6w_AM";</p>
+<p>var google_conversion_value = 0;</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>var google_conversion_id = 1066145596;</p>
+<p>var google_conversion_language = "en";</p>
+<p>var google_conversion_format = "3";</p>
+<p>var google_conversion_color = "666666";</p>
+<p>var google_conversion_label = "FkMPCNTM6AEQvK6w_AM";</p>
+<p>var google_conversion_value = 0;</p>
+<p>/* ]]> */</p>
+<p>if(document.getElementById("ad_header1")){document.getElementById("ad_header1").style.width="600px";document.getElementById("ad_header1").style.cssFloat="right";}</p>
+<p>INTPL("insertAd","stat_1");</p>

@@ -1,0 +1,239 @@
+<p>СПИД в Забайкалье стал «старше» :: Забайкальское Информационное Агентство :: Новый взгляд на Забайкалье</p>
+<p>  VK.init({apiId: 2707742, onlyWidgets: true});</p>
+<p>сегодня: среда 18 января 2012 года</p>
+<p>#test1 {</p>
+<p>position: relative;</p>
+<p>}</p>
+<p>#test1 a {</p>
+<p>display: block;</p>
+<p>width: 700;</p>
+<p>height: 60;</p>
+<p>position: absolute;</p>
+<p>top: 0;</p>
+<p>left: 0;</p>
+<p>background: url(1x1.gif); </p>
+<p>text-indent: 0px; </p>
+<p>}</p>
+<p>var xmlhttp;</p>
+<p>function loadXMLDocPOST(url,data)</p>
+<p>{</p>
+<p>   xmlhttp = null;</p>
+<p>   if (window.XMLHttpRequest)</p>
+<p>     xmlhttp = new XMLHttpRequest();</p>
+<p>   else</p>
+<p>   if (window.ActiveXObject)</p>
+<p>     xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); </p>
+<p>   </p>
+<p>   if (xmlhttp)</p>
+<p>    {</p>
+<p>	  xmlhttp.onreadystatechange = processReqChangePOST;</p>
+<p>	  xmlhttp.open("POST",url,true);</p>
+<p>	  //xmlhttp.setCharactherEncoding("UTF-8");</p>
+<p>	  xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");</p>
+<p>	  xmlhttp.send(data);</p>
+<p>    }	</p>
+<p>}</p>
+<p>//**********************************************************</p>
+<p>function processReqChangePOST()</p>
+<p>{</p>
+<p>	if (xmlhttp.readyState == 4) {</p>
+<p>        // only if "OK"</p>
+<p>        if (xmlhttp.status == 200) {</p>
+<p>            // ...processing statements go here...</p>
+<p>      </p>
+<p>	   response  = xmlhttp.responseXML.documentElement;</p>
+<p>	   method = response.getElementsByTagName('method')[0].firstChild.data;</p>
+<p>	   eval(method+'(response)');</p>
+<p>        }</p>
+<p>    }</p>
+<p>}	</p>
+<p>//**********************************************************</p>
+<p>function getvalutinfo()</p>
+<p>{</p>
+<p>  loadXMLDocPOST('aval/valutajax.php','type=getinfo&hash='+Math.random());</p>
+<p>}</p>
+<p>//************************************</p>
+<p>function valutout(response)</p>
+<p>{</p>
+<p>  var kurs = new Array('USD','EUR','CNY','JPY'); </p>
+<p>  var rt = document.getElementById('hello5');</p>
+<p>  rt.innerHTML = "<table align='center' width=100 height=90 CELLSPACING=4 CELLPADDING=0 style='font-family:Tahoma, Verdana; font-size: 6pt;font-weight: bold;'><TBODY ID='bodyh1'></TBODY></table>";</p>
+<p>  var bodyh = document.getElementById("bodyh1");</p>
+<p>       </p>
+<p>       /*oRow = bodyh.insertRow(-1);</p>
+<p>       oCell = oRow.insertCell(-1);</p>
+<p>       oCell.align = "center";</p>
+<p>       oCell.colSpan = 3;       </p>
+<p>       oCell.vAlign = "top";</p>
+<p>       oCell.style.fontSize = "8pt";</p>
+<p>       oCell.innerHTML="КУРС ВАЛЮТ НА: "+response.getElementsByTagName('dateval')[0].firstChild.data;*/</p>
+<p>  </p>
+<p>  for (i=0;i<response.getElementsByTagName('Valute').length;i++)</p>
+<p>   {</p>
+<p>    for (j=0;j<kurs.length;j++)</p>
+<p>     if (response.getElementsByTagName('CharCode')[i].firstChild.data == kurs[j])</p>
+<p>      {     </p>
+<p>       oRow = bodyh.insertRow(-1);</p>
+<p>       oCell = oRow.insertCell(-1);</p>
+<p>       oCell.align = "left"; </p>
+<p>       oCell.vAlign = "top";</p>
+<p>       oCell.style.fontSize = "8pt";</p>
+<p>       oCell.innerHTML=response.getElementsByTagName('Nominal')[i].firstChild.data;</p>
+<p>     </p>
+<p>       oCell = oRow.insertCell(-1);</p>
+<p>       oCell.align = "left"; </p>
+<p>        oCell.vAlign = "top";</p>
+<p>	oCell.style.fontSize = "8pt";</p>
+<p>       oCell.innerHTML=response.getElementsByTagName('CharCode')[i].firstChild.data;</p>
+<p>     </p>
+<p>       oCell = oRow.insertCell(-1);</p>
+<p>       oCell.align = "left"; </p>
+<p>       oCell.vAlign = "top";</p>
+<p>       oCell.style.fontSize = "8pt";</p>
+<p>       oCell.innerHTML=(response.getElementsByTagName('Value')[i].firstChild.data*1).toFixed(2);</p>
+<p>     }</p>
+<p>   }</p>
+<p>  </p>
+<p>}</p>
+<p>getvalutinfo();</p>
+<p>   A.menuzab{ color:#f4ea02; text-decoration: none;font-family:Tahoma, Verdana; font-size: 8pt;font-weight: bold;}</p>
+<p>   A.menuzab:hover { color: #f4ea02;text-decoration: underline;font-size: 8pt;font-weight: bold;}</p>
+<p>   A.menuzab11{ color:#11994b; text-decoration: none;font-family:Tahoma, Verdana; font-size: 8pt;font-weight: bold;}</p>
+<p>   A.menuzab11:hover { color: #11994b;text-decoration: underline;font-size: 8pt;font-weight: bold;}</p>
+<p>   </p>
+<p>function showmenuelem(idelem)</p>
+<p>{</p>
+<p>    //document.getElementById('podmenunews').style.display = "none";</p>
+<p>	document.getElementById('podmenu7').style.display = "none";</p>
+<p>    </p>
+<p>	document.getElementById(idelem).style.display = "block";</p>
+<p>}</p>
+<p>//*****************************************</p>
+<p>function showmenuelem1(idelem)</p>
+<p>{</p>
+<p>    document.getElementById(idelem).style.display = "none";</p>
+<p>}</p>
+<p>//*****************************************</p>
+<p>function showmenuelem2()</p>
+<p>{</p>
+<p>    //document.getElementById('podmenunews').style.display = "none";</p>
+<p>	document.getElementById('podmenu7').style.display = "none";</p>
+<p>}</p>
+<p>function showleft12()</p>
+<p>{</p>
+<p>document.getElementById('alltopics22').style.display = "block";</p>
+<p>document.getElementById('idshowleftall44').innerHTML = "";</p>
+<p>}</p>
+<p>//*****************************************</p>
+<p>function show1left12()</p>
+<p>{</p>
+<p>    document.getElementById('alltopics22').style.display = "none";</p>
+<p>	document.getElementById('idshowleftall44').innerHTML = "<a href='javascript:showleft12()'>Показать все группы</a>";</p>
+<p>}</p>
+<p>//*****************************************</p>
+<p>СтатьиЧитаЗабайкальский край КрайАгинскийАкшинскийАлек-ЗаводскийБалейскийБорзинскийЗабайкальскийКарымскийКраснокаменскийКрасночикойскийКыринскийНерчинскийНерчинско-ЗаводскойОловяннинскийПетровск-ЗабайкальскийСретенскийТунгокоченскийУлетовскийХилокскийЧитинскийШилкинскийРоссияСибирьДальний ВостокЗарубежные соседиАфиша</p>
+<p>ПРОИСШЕСТВИЯОБЩЕСТВОПОЛИТИКА И ВЛАСТЬНАУКА И ОБРАЗОВАНИЕЭКОНОМИКА И БИЗНЕССПОРТКУЛЬТУРАТРАНСПОРТАРМИЯПРИРОДА И ЭКОЛОГИЯПоказать все группыЭНЕРГЕТИКАСЕЛЬСКОЕ ХОЗЯЙСТВОКОНКУРСЫ И ПРОЕКТЫРЕЛИГИЯЗДРАВООХРАНЕНИЕДАТАДТПСВЯЗЬДЕНЬ ПОБЕДЫСТАТЬИОЛИМПИАДАТЕХНОЛОГИИБАЙКАЛБЕЗОПАСНОСТЬЗакрытьПоиск по сайту</p>
+<p>Карта сайта· Лента новостей· Новости по группам· Наш TOP-лист· Статьи· Поиск· Рекомендуйте насАрхивы</p>
+<p> « Январь 2012 »       12345678910111213141516171819202122232425262728293031</p>
+<p>Новости RSS</p>
+<p>Любые аккумуляторы для фотоаппаратов на SotMarket.ru.| красота и здоровье| Разместите бесплатные объявления на доске объявлений Board.com.ua|</p>
+<p>Ах, фестиваль…Губернатор о митингующих, ГСМ и своей самооценкеЧто год минувший нам оставил?Конец света или год разочарований?88. Новогодняя love-storyНе забудьте успеть…Белые ленты начинают душить властьГенплан или «мало-вяло читаемый чертеж»?Старики и дети против застройщиков - борьба бесполезна?Дети и старики – против застройщиков«Перемен требуют наши глаза…»У Сохондинского заповедника день рождения  Дети и старики против застройщиковМы строили, строили и…«Волшебник Чуров», «карусели» и вертолеты на Лубянке</p>
+<p>  </p>
+<p>Чита: СПИД В ЗАБАЙКАЛЬЕ СТАЛ «СТАРШЕ»</p>
+<p>Отправлено: 17:06 - 17 Янв, 2012 г.</p>
+<p>ЗДРАВООХРАНЕНИЕ </p>
+<p>В последние годы эпидемия ВИЧ в Забайкалье затронула не только уязвимые группы, но и социально-адаптированные слои населения. Однако регулярная проводимая профилактическая работа снизила случаи выявления ВИЧ-инфекции среди молодежи в возрасте 18 до 29 летНо, вместе с тем, СПИД стал «старше», всё чаще им заболевают люди от 30 до 40 лет, что говорит о необходимости дальнейшей профилактической, разъяснительной работы среди взрослого населения Забайкальского края. </p>
+<p>Среди общего количества зарегистрированных в крае среди ВИЧ-инфицированных преобладают мужчины. Всего с начала регистрации, с 1996 года, в Забайкальском крае ВИЧ-инфекция выявлена у 2 263 мужчин и 1 631 женщин. </p>
+<p>На 1 января 2012 года в Забайкальском крае зарегистрировано вместе с прибывшими из других регионов 4 233 ВИЧ-инфицированных. Только в прошлом году было выявлено 424 заражённых забайкальцев, из них 225 мужчин и 199 женщин.   </p>
+<p>Из года в год растет число беременностей и родов у женщин, болеющих СПИДом. За все годы регистрации инфекции, в Забайкалье родилось 515 детей, в 2011 году - 83 ребенка.  26-ти рождённым малышам поставлен диагноз ВИЧ-инфекция, сообщили в отделе профилактики Центра СПИД.</p>
+<p>VK.Widgets.Like("vk_like", {type: "mini"});</p>
+<p>Самая читаемая статья из раздела ЗДРАВООХРАНЕНИЕ:</p>
+<p>Краевой перинатальный центр открыли без красной ленточки и без рожениц(ФОТО)</p>
+<p>  </p>
+<p>ПОЖЕЛАНИЯ ДЛЯ РЕДАКЦИИВаше мнениеВам…</p>
+<p> до 18 лет</p>
+<p> от 18 до 24</p>
+<p> от 25 до 34</p>
+<p> от 35 до 44</p>
+<p> от 45 и старше</p>
+<p>[ Результаты | </p>
+<p>Опросы ]</p>
+<p>Голосов: 337</p>
+<p> Новости ЧитыВ пятницу, 20 января, во дворце молодёжи «Мегаполис» пройдёт фестиваль короткометражного кино «Маленькое кино большого города». На мероприятии будут представлены работы молодых авторов из Читы, Краснокаменска, Иркутска и украинского Днепропетровска Новости Забайкальского краяМинсоцзащиты Забайкальского края приняло под охрану ряд объектов посёлка Ясная, которые ранее принадлежали военным. Планируется, что на территории военного городка будет создан дом-пансионат для престарелых людей и инвалидовПроисшествия16 января, примерно в 15:15, в Чите в районе микрорайона Каштак в результате столкновения двух автомобилей погиб водитель одной машины и еще три человека получили ранения различной степени тяжестиНовости РоссииДепартамент информации и общественных связей Минкомсвязи России опровергнул информацию о том, что в скором будущем сим-карты будут «привязаны» к конкретному телефону Новости СибириРегулярные авиарейсы из Иркутска  в города Сочи, Ростов-на-Дону, Анапа и Краснодар будут запущены со 2 июня 2012 года. Перелеты планируются с транзитной посадкой в ОмскеЗарубежные соседи23 января - начало Нового года по восточному календарю, который в Китае празднуется в течение двух недель. В эти дни Читинская таможня, а также МАПП Забайкальск, расположенный на границе с КНР  будут работать в обычном режиме</p>
+<p>  </p>
+<p>Статистика</p>
+<p>.nc_links { font-family: Verdana, Arial, Helvetica, </p>
+<p>sans-serif;font-size: 10px;margin: 10px 10px 10px 4px; }</p>
+<p>Все права на материалы, находящиеся на сайте, охраняются в соответствии с законодательством РФ, в том числе, об авторском праве и смежных правах. При любом использовании данных материалов в электронных СМИ, ссылка обязательна, гиперссылка приветствуется. При использовании в печатных СМИ, необходимо письменное разрешение редакции. </p>
+<p>Свидетельство о регистрации ИА № ФС77-19636 от 16 марта 2005 года. Выдано Федеральной службой по надзору за соблюдением законодательства в сфере массовых коммуникаций и охране культурного наследия.</p>
+<p>"Забайкальское информационное агентство"</p>
+<p>Юридический адрес редакции: 672010, г. Чита, ул. Амурская, д.36</p>
+<p>		Адрес электронной почты редакции: </p>
+<p>		По вопросам рекламы обращаться: </p>
+<p>Телефоны: (3022) 36-40-09, 36-42-14 (факс)</p>
+<p>© ZABINFO.RU, 2004</p>
+<p>hotlog_js="1.0";</p>
+<p>hotlog_r=""+Math.random()+"&s=268756&im=134&r="+escape(document.referrer)+"&pg="+</p>
+<p>escape(window.location.href);</p>
+<p>document.cookie="hotlog=1; path=/"; hotlog_r+="&c="+(document.cookie?"Y":"N");</p>
+<p>hotlog_js="1.1";hotlog_r+="&j="+(navigator.javaEnabled()?"Y":"N")</p>
+<p>hotlog_js="1.2";</p>
+<p>hotlog_r+="&wh="+screen.width+'x'+screen.height+"&px="+</p>
+<p>(((navigator.appName.substring(0,3)=="Mic"))?</p>
+<p>screen.colorDepth:screen.pixelDepth)</p>
+<p>hotlog_js="1.3"</p>
+<p>hotlog_r+="&js="+hotlog_js;</p>
+<p>document.write("<a class='' href='http://click.hotlog.ru/?268756' target='_top'><img "+</p>
+<p>" src='http://hit10.hotlog.ru/cgi-bin/hotlog/count?"+</p>
+<p>hotlog_r+"&' border=0 width=88 height=31 alt=HotLog></a>")</p>
+<p><!--</p>
+<p>Mu="u6844.95.spylog.com";Md=document;Mnv=navigator;Mp=0;</p>
+<p>Md.cookie="b=b";Mc=0;if(Md.cookie)Mc=1;Mrn=Math.random();</p>
+<p>Mn=(Mnv.appName.substring(0,2)=="Mi")?0:1;Mt=(new Date()).getTimezoneOffset();</p>
+<p>Mz="p="+Mp+"&rn="+Mrn+"&c="+Mc+"&t="+Mt;</p>
+<p>if(self!=top){Mfr=1;}else{Mfr=0;}Msl="1.0";</p>
+<p>//--><!--</p>
+<p>Mpl="";Msl="1.1";Mj = (Mnv.javaEnabled()?"Y":"N");Mz+='&j='+Mj;</p>
+<p>//--><!-- </p>
+<p>Msl="1.2";Ms=screen;Mpx=(Mn==0)?Ms.colorDepth:Ms.pixelDepth;</p>
+<p>Mz+="&wh="+Ms.width+'x'+Ms.height+"&px="+Mpx;</p>
+<p>//--><!--</p>
+<p>Msl="1.3";//--><!--</p>
+<p>My="";My+="<a href='http://"+Mu+"/cnt?cid=684495&f=3&p="+Mp+"&rn="+Mrn+"' target='_blank'>";</p>
+<p>My+="<img src='http://"+Mu+"/cnt?cid=684495&"+Mz+"&sl="+Msl+"&r="+escape(Md.referrer)+"&fr="+Mfr+"&pg="+escape(window.location.href);</p>
+<p>My+="' border=0 width=88 height=31 alt='SpyLOG'>";</p>
+<p>My+="</a>";Md.write(My);//--></p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' "+</p>
+<p>"target=_blank><img src='//counter.yadro.ru/hit?t11.4;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet: показано число просмотров за 24"+</p>
+<p>" часа, посетителей за 24 часа и за сегодня' "+</p>
+<p>"border='0' width='88' height='31'><\/a>")</p>
+<p>//--></p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height;</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></p>
+<p><!--</p>
+<p>js=13;//--><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=960500" target="_top">'+</p>
+<p>'<img src="http://d7.ca.be.a0.top.mail.ru/counter?id=960500;t=210;js='+js+</p>
+<p>a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+</p>
+<p>'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');//--></p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter7715695 = new Ya.Metrika({id:7715695, enableAll: true});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, 'yandex_metrika_callbacks');</p>

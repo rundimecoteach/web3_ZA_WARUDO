@@ -1,0 +1,653 @@
+<p>Mnisi pobili się miotłami w Grocie Narodzenia w Betlejem - Wiadomości - WP.PL</p>
+<p>			<!-- //<![CDATA[</p>
+<p>			  var pp_gemius_identifier = 'B2abwmMQpKPP05jYFSgwi5ZVzSUppwL6WSSVYep_Uwf.Y7';</p>
+<p>  var pp_gemius_hitcollector = 'wp.hit.gemius.pl';</p>
+<p>  var wp_dot_type = 'click';</p>
+<p>  var wp_sn = 'wiadomosci';</p>
+<p>  var wp_fba = '1365537319.848';</p>
+<p>  var wp_wyszukajwwp = 1;</p>
+<p>  var wp_vm = 113;</p>
+<p>			// ]]> --></p>
+<p>		</p>
+<p><!-- <![CDATA[</p>
+<p>          var rekid="753";</p>
+<p>          function NPB() {}</p>
+<p>          function NJB() {return false;}</p>
+<p>// ]]> --></p>
+<p>	WP.$(window).load(function () {</p>
+<p>		removeBoxesByPriority()</p>
+<p>	});</p>
+<p>wiadomości</p>
+<p>Poczta | </p>
+<p>TopNews | </p>
+<p>WP.PL na komórkę</p>
+<p>WP.homepagelink()</p>
+<p>NPB("002");</p>
+<p>NPB("003");</p>
+<p>NPB("009");</p>
+<p>Strona główna</p>
+<p>Polska</p>
+<p>Wiadomości lokalne</p>
+<p>Świat</p>
+<p>Tylko w WP.PL</p>
+<p>Reporter WP24</p>
+<p>Ciekawostki</p>
+<p>Nauka</p>
+<p>Przestępczość</p>
+<p>Media</p>
+<p>NPB("001");</p>
+<p>NPB("014");</p>
+<p>więcejRaporty specjalne:</p>
+<p>Katastrofa smoleńska </p>
+<p>Sprawa Madzi</p>
+<p>Papież</p>
+<p>Ustawa o związkach partnerskich</p>
+<p>Wielkanoc</p>
+<p>Ruch Palikota</p>
+<p>Więzienia CIA</p>
+<p>Najnowsze wiadomości:</p>
+<p>Zespół Laska zaczyna działać. Premier podpisał...</p>
+<p>Najnowsze wiadomości:</p>
+<p>Jarosław Kaczyński: polskie śledztwo ws. katastrofy smoleńskiej to fikcja</p>
+<p>Najnowsze wiadomości:</p>
+<p>Tancerz Połunin, który przed premierą przepadł w Londynie, jest w Moskwie</p>
+<p>Najnowsze wiadomości:</p>
+<p>Demonstracja przed ambasadą Rosji w Warszawie</p>
+<p>Najnowsze wiadomości:</p>
+<p>Prezydent Francji dostanie drugiego wielbłąda, bo pierwszego mu zjedli</p>
+<p>window._wpSocialQueue.p.push({</p>
+<p>			app: 'FB',  </p>
+<p>			pluginName: 'fbActivityBar',</p>
+<p>			data: {</p>
+<p>				recommendationsUrl: '/fbrecommendationsranking.json',</p>
+<p>				box : WP.$('#fbActivityBar'),</p>
+<p>				statisticsName : 'og_box1',</p>
+<p>				lang : {</p>
+<p>					aboutApp : 'Aplikacja <b>Informacje WP.PL</b> obejmuje aktywności z serwisów:  <ul>    <li>Wiadomości WP.PL</li>  <li>Kobieta WP.PL</li> <li>Sport WP.PL</li> </ul> Logując się do niej otrzymasz informacje o czytanych materiałach przez Twoich znajomych i Ciebie tylko z wyżej wymienionych serwisów.    ',</p>
+<p>					aboutAppURL : '/',</p>
+<p>					appName : 'wiadomości.wp.pl',</p>
+<p>					reportURL : 'http://pomoc.wp.pl/serwis,Wiadomosci,typ,Uwaga,formularz.html'			</p>
+<p>				}</p>
+<p>			}</p>
+<p>		});</p>
+<p>		</p>
+<p>			window._wpSocialQueue.p.push({        </p>
+<p>			app: "FB", </p>
+<p>			pluginName: "fbSendTimedAction", </p>
+<p>				data: {</p>
+<p>					acceptedDocumentTypes: "article",</p>
+<p>					sendTimeout: 11,</p>
+<p>					actionName: "news.reads",</p>
+<p>					namespace: null				}</p>
+<p>			});</p>
+<p>		</p>
+<p>Święta - czytaj raport specjalny!</p>
+<p>więcejtematy na czasie:</p>
+<p>		</p>
+<p>Katastrofa smoleńska </p>
+<p>Sprawa Madzi</p>
+<p>Papież</p>
+<p>Mnisi pobili się miotłami w Grocie Narodzenia w Betlejem. </p>
+<p>IAR | dodane 2011-12-28 (16:57)</p>
+<p>window._wpSocialQueue.p.push({app: "FB", pluginName: "fbShareButton"});</p>
+<p>window._wpSocialQueue.a.push('TWITTER');</p>
+<p>window._wpSocialQueue.p.push({ app: "GPLUS", pluginName: "commonPlugins",data: {}});</p>
+<p>fot. AFP / Musa Al Shaer Mnisi, sprzątający Grotę Narodzenia w Betlejem</p>
+<p>IDŹ DO OPINII</p>
+<p>IVONA Text To Speech</p>
+<p>			//<![CDATA[</p>
+<p>			window.WebreaderAutoCreate = 0;</p>
+<p>			window.WebreaderAsyncCommands = new Array();</p>
+<p>			window.WebreaderAsyncCommands.push(function(){</p>
+<p>			// Metoda ta musi zostac wywolana przed Webreader.create()</p>
+<p>			Webreader.config({</p>
+<p>			// HTML przycisku ktory uaktywnia otwarzacz iWebReader</p>
+<p>			// Mozna w to miejsce wstawic obrazek (IMG) lub pustego spana z odpowiednia klasa CSS</p>
+<p>			// Wazne aby nie dodawac do obrazka zawartosci atrybutu alt="" a pozostawic ja pusta,</p>
+<p>			// Powyzsze zalecenia sa rekomendowane dlatego ze skrypt automatycznie wstawia do linku</p>
+<p>			// ukryty element zawierajacy opis linku dla screenreaderow.</p>
+<p>			activationButton:'<span style="width:183px;float:left"><img src="http://i.wp.pl/a/i/wiadomosci/odsluchaj.png" alt="" style="float:right;" /></span>',</p>
+<p>			// Sciezka do katalogu zawierajacego pliki webreadera</p>
+<p>			wrHost:'http://i.wp.pl/a/i/wiadomosci/ivona/',</p>
+<p>			// Relatywna sciezka wzgledem wrHost do pliku swf odtwarzacza webreader</p>
+<p>			wrSwf:'wrswf.swf',</p>
+<p>			// Relatywna sciezka wzgledem wrHost do pliku z jasnym gradientem </p>
+<p>			lightBg:'wrlight.png',</p>
+<p>			// Relatywna sciezka wzgledem wrHost do pliku z ciemnym gradientem</p>
+<p>			darkBg:'wrdark.png',</p>
+<p>			// Nie puszcza reqestu walidujacego przy kazdej odslonie strony	i powoduje domyslna walidacje odtarzaczy</p>
+<p>			// W przypadku WP ten argument powinien byc zawsze ustawiony na false !!! </p>
+<p>			performValidation:false</p>
+<p>			});  </p>
+<p>			Webreader.create({</p>
+<p>			// Wyglad odtwarzacza flash (0,1,2)</p>
+<p>			playerMode:1,</p>
+<p>			// Id elementu do którego bedzie wstawiony odtwarzacz</p>
+<p>			parentId:"ivonawebreader_1",</p>
+<p>			// Kolor obramowania</p>
+<p>			borColor:0xCCCCCC,</p>
+<p>			// Kolor tla</p>
+<p>			bgColor:0xFFFFFF,</p>
+<p>			// Kolor przyciskow</p>
+<p>			btnColor:0xc6131a,</p>
+<p>			// Wyrownanie 0-do lewej 1-do prawej</p>
+<p>			scrollMode:1,</p>
+<p>			// Jezyk interfejsu</p>
+<p>			lang:'pl',</p>
+<p>			// Url do pliku audio   	</p>
+<p>			soundUrl:escape("http://www.ivona.com/online/fileWebRead.php"+</p>
+<p>			// ID glosu</p>
+<p>			"?v=2"+</p>
+<p>			// Klasa elementow ktore maja byc czytane</p>
+<p>			"&dc=czytajto"+</p>
+<p>			// Klasa elementow ktore maja zostac pominiete</p>
+<p>			"&sdc=nieczytaj"+</p>
+<p>			// Pomijaj elementy o tagu</p>
+<p>			"&sde=div,table"+</p>
+<p>			// Glosnosc</p>
+<p>			"&pv=100"+</p>
+<p>			// Predkosc</p>
+<p>			"&pr=125"+</p>
+<p>			// ID uslugi</p>
+<p>			"&i=fY46ytEacJ"+</p>
+<p>			// Url biezacej strony</p>
+<p>			"&u="+escape(document.location.href)) </p>
+<p>			},26); </p>
+<p>			});</p>
+<p>			//]]></p>
+<p>			</p>
+<p>Mnisi sprawujący pieczę nad Grotą Narodzenia w Betlejem pobili się podczas sprzątania świętego miejsca. W ruch poszły miotły i pięści. </p>
+<p>Poszczególnymi ołtarzami wewnątrz Bazyliki Narodzenia Pańskiego opiekuje się około stu mnichów różnych chrześcijańskich wyznań. Do starć doszło między mnichami Greckiego Kościoła Prawosławnego i Apostolskiego Kościoła Ormiańskiego. Palestyńska policja przez długi czas przywracała spokój, używając pałek.</p>
+<p>- To trywialny problem... zdarza się co roku. Wszystko jest w porządku, sprawy wróciły na swoje miejsce. Nikt nie został aresztowany, gdyż wszyscy uczestnicy to ludzie Boga - powiedział po wszystkim podpułkownik Khaled al- Tamimi. </p>
+<p>REKLAMA Czytaj dalejif(typeof isSrd05=='undefined'){NPB("005");}if (NJB('srodtekst') && typeof isSrd05=='undefined'){document.getElementById('rekSrd05').style.display='block';var isSrd05=true;}</p>
+<p>Wybudowana w VI wieku Bazylika Narodzenia Pańskiego jest najstarszym kościołem w Ziemi Świętej. Zarządzają nią wspólnie duchowni katoliccy oraz prawosławni kościoła greckiego i ormiańskiego. Podczas sprzątania Bazyliki regularnie dochodzi do przepychanek.			</p>
+<p>				</p>
+<p>			<!--</p>
+<p>			if (typeof(PWA_Itxt) == "undefined"){</p>
+<p>                        	PWA_Itxt = false;</p>
+<p>			}</p>
+<p>			if(PWA_Itxt!=true){</p>
+<p>                        	document.write('<scr' + 'ipt type="text/javascript"' + ' src="http://adsearch.adkontekst.pl/akon/intext_spliter?prid=3&caid=102430&form=9044:0:I&ns=' + (new Date()).getTime() + '"' + '></' + 'script>');</p>
+<p>			}</p>
+<p>			//--></p>
+<p>			</p>
+<p>Polub wiadomości.wp.pl na Facebooku</p>
+<p>window._wpSocialQueue.p.push({ app: "FB", pluginName: "fbFanpageLikeBox" });</p>
+<p>				</p>
+<p>TopNews - najpopularniejsze materiały WP.PL</p>
+<p>TAGI:</p>
+<p> księża, 								mnisi, 								grota narodzenia, 								betlejem, 								bójka, 								policja </p>
+<p>oceń</p>
+<p>tak</p>
+<p>12</p>
+<p>63.16%</p>
+<p>nie</p>
+<p>7</p>
+<p>36.84%</p>
+<p>			window._wpSocialQueue.p.push({</p>
+<p>				app: "FB",</p>
+<p>				pluginName: "wpVoteBox",</p>
+<p>				data: {</p>
+<p>					box: WP.$(".stampOcen")</p>
+<p>				}</p>
+<p>			});</p>
+<p>			</p>
+<p>window._wpSocialQueue.p.push({app: "FB", pluginName: "fbShareButton"});</p>
+<p>window._wpSocialQueue.a.push('TWITTER');</p>
+<p>window._wpSocialQueue.p.push({ app: "GPLUS", pluginName: "commonPlugins",data: {}});</p>
+<p><!-- <![CDATA[ </p>
+<p>	if (typeof ENTRY_HIT == "undefined") {</p>
+<p>		var ENTRY_HIT = '';</p>
+<p>	}</p>
+<p>	</p>
+<p>	ENTRY_HIT = '&serwishit=653&typehit=article&entryhit=14120356';</p>
+<p>// ]]> --></p>
+<p>Przeczytaj też</p>
+<p>Horror w gimnazjach i podstawówkach</p>
+<p>dodane 2012-01-23 (04:35)</p>
+<p>W innych serwisach</p>
+<p>Pytamy.pl: Czy księża powinni mieć rodziny?</p>
+<p>Bloog.pl: gdzie nasze Betlejem</p>
+<p>				try {</p>
+<p>					var params = "sn=" + wp_sn;</p>
+<p>					params += "&c=wiadomosci";</p>
+<p>					params += "&s=";</p>
+<p>					params += "&v=wiadomosc.html";</p>
+<p>					params += "&h1=pytamy.pl&r1=pytania";</p>
+<p>					params += "&h2=bloog.pl&r2=posty";</p>
+<p>					WP.stat.eventShow("srv=sowa&action=show&par=" + encodeURIComponent(params));</p>
+<p>				} catch (ex) {}</p>
+<p>			</p>
+<p><!--</p>
+<p>if (typeof(PWA_Itxt) == "undefined"){</p>
+<p>        PWA_Itxt = false;</p>
+<p>}</p>
+<p>if(PWA_Itxt!=true){</p>
+<p>        document.write('<scr' + 'ipt type="text/javascript"' + ' src="http://adsearch.adkontekst.pl/_/ads0/?QAPS_AKPL=--3-95314-#12077--&noChache=false' + '"' + '></' + 'script>');</p>
+<p>}</p>
+<p>//--></p>
+<p>//<![CDATA[</p>
+<p>	WP.dmodule('opinie v3');</p>
+<p>//]]></p>
+<p>Opinie (36)</p>
+<p>//<![CDATA[</p>
+<p>window._wpSocialQueue.p.push({</p>
+<p>	app : 'FB',</p>
+<p>	pluginName : 'fbComments',</p>
+<p>	data : {</p>
+<p>		acceptedDocumentTypes : 'article',</p>
+<p>		actionName : 'comment',</p>
+<p>		namespace : -1	}</p>
+<p>});</p>
+<p>//]]></p>
+<p>Nick</p>
+<p>Masz konto na WP.PL? Zaloguj się</p>
+<p>Nie masz konta? Załóż konto!</p>
+<p>						Twój podpis: </p>
+<p>zmień swój podpis | wyloguj się</p>
+<p>...lub dodaj opinię anonimowo</p>
+<p>					Twoja opinia					</p>
+<p>Opublikuj na Facebooku</p>
+<p>Pozostało znaków: </p>
+<p>4000</p>
+<p>REGULAMIN</p>
+<p>Akceptuję regulamin zamieszczania opinii w serwisie i wyrażam zgodę na przetwarzanie przez Wirtualną Polskę S.A. moich danych osobowych dla celów związanych z zamieszczeniem mojej opinii w serwisie.Wirtualna Polska S.A. w Gdańsku informuje, że zgodnie z art. 24 ust. 1 pkt 3 i 4 ustawy z dnia 29 sierpnia 1997 r. o ochronie danych osobowych, podanie danych jest dobrowolne, a ponadto Użytkownikowi przysługuje prawo dostępu do treści swoich danych oraz ich poprawiania.</p>
+<p>ostatnio aktywne | najnowsze</p>
+<p>				 | najstarsze</p>
+<p>				 | najczęściej oceniane</p>
+<p>				 | najczęściej odpowiadane</p>
+<p>2</p>
+<p>0</p>
+<p>	~drwallu</p>
+<p>[2012-01-07 00:03]</p>
+<p>Najważniejsza wiadomość?</p>
+<p>Śmiechu warte. Najważniejsza dla tych którzy łowią każde potknięcie ludzi wierzących.</p>
+<p>No i mamy kolejny DOWÓD!! </p>
+<p>Jad leje się strumieniami. tylko podrzucić wam byle ochłap. Światli niewierzący internauci. Szkoda że zadni katoliccy mnisi nie brali w tym udziału. No, ale może innym razem.</p>
+<p>A swoja drogą krew nie woda, a szczególnie wschodnia krew.</p>
+<p>odpowiedz</p>
+<p>8</p>
+<p>2</p>
+<p>grizz</p>
+<p>[2011-12-28 17:21]</p>
+<p>To dowód na to, że religia łączy wszystkich w miłości, przede wszystkim w miłości do bliźniego. Pod warunkiem, że bliźni jest tego samego wyznania. W przeciwnym razie jest innowiercą, poganinem, więc można go nienawidzić.</p>
+<p>odpowiedz</p>
+<p>pokaż 1 ukrytą odpowiedź</p>
+<p>0</p>
+<p>0</p>
+<p>	~amay</p>
+<p>[2012-01-02 12:01]</p>
+<p>@grizz ^ ale pobili się mnisi tego samego wyznania , a nie mnisi z muzułmanami. Poprostu jak zwykle zły namieszał. A oni ulegli. Muszą się chyba więcej modlić o pokorę.</p>
+<p>odpowiedz</p>
+<p>1</p>
+<p>0</p>
+<p>	~Panzer</p>
+<p>[2011-12-28 22:21]</p>
+<p>Mnisi podobno tak juz maja./patrz: Klasztor Shao-Lin/, a ze miotly zamiast Nun-cha-ko? No coz inne czasy, inne uwarunkowania geo-socjologiczne i prawdopodobnie zgodnie ze stara maksyma: ,,co kraj, to obyczaj,,. Najwazniejsze jerst to, ze tradycja nie ginie. Tak trzymac ,,swiatobliwi,, braciszkowie.</p>
+<p>odpowiedz</p>
+<p>1</p>
+<p>0</p>
+<p>Bober</p>
+<p>[2011-12-28 21:53]</p>
+<p>Agencje nie podają kto wgrał,ale pewne jest,że dla każdego Chrześcijanina do powód do wstydu jak cholera.Mnisi muszą na dywanik!</p>
+<p>odpowiedz</p>
+<p>2</p>
+<p>4</p>
+<p>	~hewun</p>
+<p>[2011-12-28 19:07]</p>
+<p>To teraz szubrawcy laiccy i sekciarze mają ubaw.</p>
+<p>odpowiedz</p>
+<p>pokaż 2 ukryte odpowiedzi</p>
+<p>2</p>
+<p>1</p>
+<p>andrzej2111skorpion</p>
+<p>[2011-12-28 21:45]</p>
+<p>@hewun ^ A tacy pobożni jak Ty pewnie płaczą?</p>
+<p>odpowiedz</p>
+<p>0</p>
+<p>0</p>
+<p>andrzej2111skorpion</p>
+<p>[2011-12-28 21:46]</p>
+<p>@hewun ^ A tacy pobożni jak Ty pewnie płaczą?</p>
+<p>odpowiedz</p>
+<p>0</p>
+<p>0</p>
+<p>	~Ls</p>
+<p>[2011-12-28 21:43]</p>
+<p>A sam Pan Jezus kiedys powiedzial, ze przyjdzie czas, kiedy Boga na tej ziemi ludzie nie znajda a w tym ani w tamtym miejscu, bo ludzie tak naprawde dalej opowiadaja sie za silami zla.</p>
+<p>odpowiedz</p>
+<p>1</p>
+<p>0</p>
+<p>andrzej2111skorpion</p>
+<p>[2011-12-28 21:42]</p>
+<p>Boże Narodzenie to radosne święto - widocznie ci ludzie boga w ten sposób dzielą się radością ze współbraćmi.</p>
+<p>odpowiedz</p>
+<p>1</p>
+<p>0</p>
+<p>	~mt</p>
+<p>[2011-12-28 21:36]</p>
+<p>Ludzie boga...buhahahaha!!!</p>
+<p>odpowiedz</p>
+<p>1</p>
+<p>0</p>
+<p>	~dusia</p>
+<p>[2011-12-28 21:35]</p>
+<p>Pobili się miotlami- sabat czarownic czy co?</p>
+<p>odpowiedz</p>
+<p>2</p>
+<p>0</p>
+<p>	~Nickto</p>
+<p>[2011-12-28 20:08]</p>
+<p>.....buahahaha......miłuj bliźniego swego.....jeden drugiemu chciał tylko grzywkę miotłą przyczesać.....swoją drogą, fama głosi, że oni tam młócą się bardzo często.....po owocach ich poznacie.....modli się pod figurą, a diabła ma za skórą.....profanacja świętego miejsca i tyle.....są ludzie i taborety...</p>
+<p>odpowiedz</p>
+<p>1</p>
+<p>0</p>
+<p>	~On</p>
+<p>[2011-12-28 19:16]</p>
+<p>Fajna ta policja.Fajna ta policja.</p>
+<p>odpowiedz</p>
+<p>2</p>
+<p>2</p>
+<p>	~asan</p>
+<p>[2011-12-28 18:53]</p>
+<p>Gdy nie wiadomo o co chodzi chodzi o pieniądze</p>
+<p>odpowiedz</p>
+<p>9</p>
+<p>2</p>
+<p>	~rolo</p>
+<p>[2011-12-28 17:16]</p>
+<p>bójka nad świętym miejscem, ciekawy sposób wielbienia Pana</p>
+<p>odpowiedz</p>
+<p>pokaż 1 ukrytą odpowiedź</p>
+<p>5</p>
+<p>2</p>
+<p>	~guru</p>
+<p>[2011-12-28 18:28]</p>
+<p>@rolo ^ Jak się w Waszych wypowiedziach wyczyta tę zaciekłą wściekłość na mnichów, ten wyolbrzymiony "wymóg" świętości u innych, tę "wizję dobrego świętego", to ci poczciwi mnisi, okładający się miotłami zdają się być właśnie poczciwi, sympatyczni, bo jednak ludzcy. Gdybyście to Wy tam byli, przepełniająca Was "miłość" i "pełnia wiedzy" o tym, czego uczył Jezus, wywołałaby chyba wojnę jądrową. Mnie się Ci mnisi bardzo spodobali. Deklarują prawdziwe przywiązanie do tego świętego miejsca tak jak potrafią. Jeszcze bardziej urzekli mnie ci policjanci, którzy popałkowali nieco między kijami od szczotek, nikogo jednak nie aresztując.</p>
+<p>odpowiedz</p>
+<p>2</p>
+<p>1</p>
+<p>	~a-z</p>
+<p>[2011-12-28 18:25]</p>
+<p>Nowy rodzaj wojny?!.Popieram w 100%!.Wdrozyc w Afganistanie i innych miejscach zapalnych tego swiata.Jestem do dyspozycji kazdej strony........!</p>
+<p>odpowiedz</p>
+<p>5</p>
+<p>2</p>
+<p>	~yusta</p>
+<p>[2011-12-28 18:21]</p>
+<p>Pewnie któryś za mocno się schylił....</p>
+<p>odpowiedz</p>
+<p>1</p>
+<p>1</p>
+<p>	~robawiony</p>
+<p>[2011-12-28 18:19]</p>
+<p>hehehe</p>
+<p>odpowiedz</p>
+<p>6</p>
+<p>3</p>
+<p>	~tylo</p>
+<p>[2011-12-28 17:34]</p>
+<p>religia ,jakakolwiek to jednak ciemnota wciskana za grubą kasę maluczkim.</p>
+<p>odpowiedz</p>
+<p>pokaż 1 ukrytą odpowiedź</p>
+<p>4</p>
+<p>3</p>
+<p>	~kg</p>
+<p>[2011-12-28 18:06]</p>
+<p>@tylo ^ Twoja wiara, że religia to "opium dla ludu", to też religia, to też ciemnota, którą ci komuchy wcisnęły. Zdajesz sobie z tego sprawę, że sam jesteś ofiarą manipulacji? Nie? To znaczy, </p>
+<p>że manipulanci fachowo wykonali swoja robotę.</p>
+<p>odpowiedz</p>
+<p>9</p>
+<p>4</p>
+<p>	~joe</p>
+<p>[2011-12-28 17:17]</p>
+<p>Mnisi zapewne mają pełne mordy miłości do bliźniego. To kolejny dowód na to,że religia to opium dla ludu.</p>
+<p>odpowiedz</p>
+<p>pokaż 2 ukryte odpowiedzi</p>
+<p>3</p>
+<p>0</p>
+<p>	~cytat</p>
+<p>[2011-12-28 17:43]</p>
+<p>@joe ^ Palikot chce z tym skończyć - domaga się zdelegalizowania religii i legalizacji narkotyków. Nareszcie lud będzie miał prawdziwe opium.</p>
+<p>odpowiedz</p>
+<p>0</p>
+<p>1</p>
+<p>	~s</p>
+<p>[2011-12-28 18:03]</p>
+<p>@joe ^ raczej mają to gdzie indziej</p>
+<p>odpowiedz</p>
+<p>3</p>
+<p>1</p>
+<p>	~Zen</p>
+<p>[2011-12-28 17:41]</p>
+<p>"Nikt nie został aresztowany, gdyż wszyscy uczestnicy to ludzie Boga". U nas w Polsce podobnie, księża macają, oszukują, wyłudzają i nie są aresztowani, gdyż to ludzie "boga".</p>
+<p>odpowiedz</p>
+<p>6</p>
+<p>0</p>
+<p>	~gon</p>
+<p>[2011-12-28 17:40]</p>
+<p>Nie mogą sprzątać w różnych godzinach? Mogliby sobie ustalić grafik, by nie dochodziło w przyszłości do takich żenujących incydentów. Ośmieszają siebie, i religię którą reprezentują.</p>
+<p>odpowiedz</p>
+<p> 1 2 następna »  </p>
+<p>Szukaj w serwisie</p>
+<p>			WP.$('#queryForm').submit(function () {</p>
+<p>				var input = WP.$(this).children('input[name=query]')[0];</p>
+<p>				if ('' == input.value)</p>
+<p>					return false;</p>
+<p>			});</p>
+<p>		</p>
+<p>Bądź z nami na bieżąco</p>
+<p>window._wpSocialQueue.a.push('FB');</p>
+<p>Facebook</p>
+<p>X</p>
+<p>window._wpSocialQueue.a.push('GPLUS');</p>
+<p>Google Plus</p>
+<p>X</p>
+<p>RSS</p>
+<p>mobile</p>
+<p>			window._wpSocialQueue.p.push({</p>
+<p>				app: "WP",</p>
+<p>				pluginName: "wpJoinUs",</p>
+<p>				data: {</p>
+<p>					headerText: null,</p>
+<p>					box : WP.$(".wpSocial-joinus"),</p>
+<p>					termsSelector : ".regulamin",</p>
+<p>					termsUrl : null				}}</p>
+<p>			);</p>
+<p>		</p>
+<p>NPB("034");</p>
+<p>NPB("037");</p>
+<p>Najważniejsze wiadomości</p>
+<p>Jarosław Kaczyński: polskie śledztwo ws. katastrofy smoleńskiej to fikcja</p>
+<p>dodane 56 minut temu</p>
+<p>Zespół Laska zaczyna działać. Premier podpisał...</p>
+<p>dodane 20 minut temu</p>
+<p>Adm. Samuel Locklear: USA będą w stanie przechwycić rakiety Korei Północnej</p>
+<p>dodane (19:35)</p>
+<p>Martwe noworodki znalezione w Lubawie</p>
+<p>dodane 1 godzinę i 6 minut temu</p>
+<p>Makabryczne znalezisko w domu małżeństwa z Lubawy</p>
+<p>dodane (17:14)</p>
+<p>Bartosz Kownacki: pedalska tęcza jest, a pomnika katastrofy smoleńskiej nie ma</p>
+<p>dodane (19:35)</p>
+<p>więcej wiadomości</p>
+<p>Raporty specjalne</p>
+<p>01. Katastrofa smoleńska </p>
+<p>02. Sprawa Madzi</p>
+<p>03. Papież</p>
+<p>04. Ustawa o związkach partnerskich</p>
+<p>05. Wielkanoc</p>
+<p>wszystkie raporty</p>
+<p>Galerie</p>
+<p>Martwe noworodki znalezione w Lubawie</p>
+<p>Film "Prezydent"</p>
+<p>Wiosenne roztopy</p>
+<p>Działaczki Femenu zaskoczyły Władimira...</p>
+<p>dodaj zdjęcie więcej galerii</p>
+<p>Wideo</p>
+<p>Z Wiejskiej: na lewicy króluje PiS</p>
+<p>Józef Oleksy: jestem wyższy od Lecha Wałęsy</p>
+<p>Lech Wałęsa o Józefie Oleksym: niski, stary komuch </p>
+<p> Ewa Błasik: słowa płk. Edmunda Klicha to kłamstwa i pomówienia</p>
+<p>dodaj film</p>
+<p>więcej filmów</p>
+<p>NPB("010");</p>
+<p>NPB("011");</p>
+<p>NPB("017");</p>
+<p>NPB("018");</p>
+<p>chcę wysłać</p>
+<p>Zrobiłeś unikalne zdjęcie,napisałeś ciekawąwiadomość? </p>
+<p>Wyślij je do nas lub załóżwłasne konto, na którymje opublikujesz.</p>
+<p>Najlepsze materiałypublikujemy na stronie głównej serwisu.</p>
+<p>Ostatnio dodane przez reporterów WP24</p>
+<p>Woda - wątpliwy sposób na rachunek za śmieci</p>
+<p>dodane przez: evak, mj</p>
+<p> </p>
+<p>Prognoza pogody</p>
+<p>dodane przez: Internauta WP24</p>
+<p>więcej</p>
+<p>Tylko w WP.PL</p>
+<p>Gra wokół katastrofy smoleńskiej, o co chodzi rosyjskim władzom?</p>
+<p>Prof. Wawrzyniec Konarski o Margaret Thatcher: oto dlaczego wzbudza kontrowersje</p>
+<p>Cezary Gmyz: zapis czarnych skrzynek mógł być zmanipulowany</p>
+<p>więcej</p>
+<p><!-- // <![CDATA[</p>
+<p>WiadLokalneMiasta = {1019391:"Białystok", 1019389:"Bydgoszcz, Toruń", 1019379:"Gdańsk", 1019381:"Gorzów Wlkp., Zielona Góra", 1019409:"Katowice", 1019405:"Kielce", 1019401:"Kraków", 1019383:"Lublin", 1019395:"Łódź", 1019385:"Olsztyn", 1019399:"Opole", 1019407:"Poznań", 1019403:"Rzeszów", 1019387:"Szczecin", 1019393:"Warszawa", 1019397:"Wrocław"};</p>
+<p>WiadLokalneMiastaGeo = 1019393;</p>
+<p>// ]]> --></p>
+<p>Wiadomości lokalne</p>
+<p>W środę utrudnienia w ruchu w Warszawie wz. z obchodami 3. rocznicy katastrofy smoleńskiej</p>
+<p>Karetka przyjechała za późno; chory zmarł </p>
+<p>Margaret Thatcher czy Edward Gierek? Radni wybiorą patrona ronda w Warszawie </p>
+<p>Prokuratura umorzyła śledztwo ws. śmierci Jolanty Brzeskiej </p>
+<p>We wtorek wznowienie poszukiwań zaginionego z zatopionej łodzi w Warszawie</p>
+<p>Na Wiśle zatonął kuter holowniczy</p>
+<p>Pikieta związkowców przed Ministerstwem Zdrowia</p>
+<p>Opóźnienia metra z powodu awarii</p>
+<p>Lotnisko Chopina: wiadomo już, co znaleźli robotnicy </p>
+<p>Policja zatrzymała podejrzanych o pomoc w napadzie na konwój w Wólce Kosowskiej </p>
+<p>więcej wiadomości</p>
+<p>Konflikty</p>
+<p>Adm. Samuel Locklear: USA będą w stanie przechwycić rakiety Korei Północnej</p>
+<p>Szef NATO Anders Fogh Rasmussen uda się wkrótce do Korei Południowej</p>
+<p>Akt oskarżenia ws. śmiertelnego pobicia żołnierza z Łaska</p>
+<p>Izrael: dożywocie dla żydowskiego radykała za mordowanie Palestyńczyków</p>
+<p>Afganistan: z pomocą Polaków przechwycono materiały do produkcji bomb</p>
+<p>więcej</p>
+<p>Na sygnale</p>
+<p>Ciała noworodków znalezione w zamrażalniku!</p>
+<p>Tragiczny finał imprezy. Piotrek konał dwa dni</p>
+<p>Policjanci mieli "gratisy" w agencji towarzyskiej?</p>
+<p>Cała rodzinka to robiła - wszyscy wpadli</p>
+<p>więcej</p>
+<p>// <![CDATA[</p>
+<p>var pollChecked = false;</p>
+<p>// ]]></p>
+<p>Sonda</p>
+<p>Czy weźmiesz udział w obchodach 3. rocznicy katastrofy smoleńskiej?</p>
+<p>Tak</p>
+<p>Nie</p>
+<p>Jeszcze nie wiem</p>
+<p>					liczba oddanych głosów: 2320				</p>
+<p>zobacz wyniki »</p>
+<p>najczęsciej czytacie</p>
+<p>najczęsciej polecacie</p>
+<p>najgorętsze dyskusje</p>
+<p>.01</p>
+<p>Papież Franciszek jest zagrożeniem dla tradycjonalistów w Watykanie</p>
+<p>.02</p>
+<p>Marcin Wolski: Zabawy z Tygrysem </p>
+<p>.03</p>
+<p>Tajemniczy pociąg przejechał przez Polskę. Przewoził uran</p>
+<p>.04</p>
+<p>Proces Katarzyny W. Świadek: "opowiadała, że jak się dziecko naciśnie, to nie będzie żadnych śladów"</p>
+<p>.05</p>
+<p>Antoni Macierewicz: o zamachu świadczą wszystkie znane nam fakty</p>
+<p>więcej popularnych wiadomości</p>
+<p>.01</p>
+<p>Polacy znużeni informacjami o tematyce homoseksualnej - ankieta WP.PL</p>
+<p>.02</p>
+<p>Dzieci to luksus - państwo nie pomaga rodzinom</p>
+<p>.03</p>
+<p>Marcin Wolski: gry planszowe premiera wszystkich trampkarzy</p>
+<p>.04</p>
+<p>Interwencja w sklepie spożywczym w Krakowie. Padły strzały</p>
+<p>.05</p>
+<p>Leonardo Boff: nowy papież dokona zaskakujących zmian w Kościele</p>
+<p>więcej popularnych wiadomości</p>
+<p>.01</p>
+<p>Zespół Macierewicza w rocznicę katastrofy zaprezentuje nowe ustalenia</p>
+<p>.02</p>
+<p>Katastrofa smoleńska nadal jest zagadką dla Polaków</p>
+<p>.03</p>
+<p>Edmund Klich: Rosjanie kłamali w śledztwie</p>
+<p>.04</p>
+<p>"Nie wykluczam prowokacji" podczas obchodów rocznicy katastrofy smoleńskiej</p>
+<p>.05</p>
+<p>Jarosław Kaczyński: oddanie śledztwa ws. Smoleńska to drwienie sobie z Polski, degraduje nas</p>
+<p>więcej popularnych wiadomości</p>
+<p><!-- // <![CDATA[</p>
+<p>		var tab = WP.tabs('Naj');</p>
+<p>	// ]]> --></p>
+<p>Tagi</p>
+<p>aktor antoni macierewicz donald tusk dziecko franciszek janusz palikot jorge mario bergoglio katastrofa smoleńska korea północna kościół katolicki kuria rzymska lech wałęsa leszek miller matka papież papież franciszek polacy policja proces reforma rosja sąd sejm smoleńsk sondaż śmierć usa watykan wojna wypadek </p>
+<p>NPB("006");</p>
+<p>Polecane:</p>
+<p>Pogoda</p>
+<p>				|				Wyznaczanie trasy</p>
+<p>				|				BMI</p>
+<p>				|				Tarot</p>
+<p>				|				Program tv</p>
+<p>				|				Plotki</p>
+<p>				|				Moje IP</p>
+<p>				|				Wiadomości</p>
+<p>				|				Sport</p>
+<p>				|				Top News</p>
+<p>O firmie|</p>
+<p>				Dla prasy|</p>
+<p>				Reklama|</p>
+<p>				Biznes z WP.PL|</p>
+<p>				Skontaktuj się z WP.PL|</p>
+<p>				Praca|</p>
+<p>				Prywatność|</p>
+<p>				Zasady korzystania|</p>
+<p>				Polityka antyspamowa</p>
+<p>Zobacz wszystkie serwisy|</p>
+<p>				RSS</p>
+<p>Copyright © 1995-2013 Wirtualna Polska</p>
+<p>			setTimeout(function () {</p>
+<p>				var a=document.createElement("script");</p>
+<p>				var b=document.getElementsByTagName('script')[0];</p>
+<p>				a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6469.js?"+Math.floor(new Date().getTime()/3600000);</p>
+<p>				a.async=true;</p>
+<p>				a.type="text/javascript";</p>
+<p>				b.parentNode.insertBefore(a,b);</p>
+<p>			}, 1);</p>
+<p>		</p>
+<p>			window.WPsocial.config('FB', {</p>
+<p>				fbAppId : '196956980412461',</p>
+<p>				fbNamespace : 'wiadomosciwppl',</p>
+<p>				fbXfbml : false,</p>
+<p>				fbStatus : true,</p>
+<p>				fbCookie : true,</p>
+<p>				fbLang : 'pl_PL'</p>
+<p>			});</p>
+<p>		</p>
+<p>			window.WPsocial.config('GPLUS', {</p>
+<p>				parseTags : 'onload',</p>
+<p>				gplusLang : 'pl'</p>
+<p>			});</p>
+<p>		</p>
+<p>			window.WPsocial.settings.set({version : '1.0.0',baseLink : '//a.wpimg.pl/a/i/wpsocialadmin/' });</p>
+<p>			var i, c;</p>
+<p>			c = _wpSocialQueue.p.length;for ( i =0; i < c; i++) { </p>
+<p>				if (window._wpSocialQueue.p[i].useBaseLink) {</p>
+<p>					window._wpSocialQueue.p[i].scriptUrl =  WPsocial.settings.getBaseLink(true) + window._wpSocialQueue.p[i].scriptUrl;    </p>
+<p>				}    </p>
+<p>				window.WPsocial.addPlugin(window._wpSocialQueue.p[i]);</p>
+<p>			}</p>
+<p>			c = _wpSocialQueue.a.length;</p>
+<p>			for (i = 0; i < c; i++) {</p>
+<p>				window.WPsocial.loadApplication(window._wpSocialQueue.a[i]);</p>
+<p>			}</p>
+<p>		</p>

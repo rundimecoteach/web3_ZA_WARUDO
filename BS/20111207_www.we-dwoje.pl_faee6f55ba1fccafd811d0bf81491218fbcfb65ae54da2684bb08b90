@@ -1,0 +1,176 @@
+<p> </p>
+<p>Zostań Mikołajem dla zwierząt! > Akcje i inicjatywy</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('..5AfTS5a_rlbhGNTln6mJPajzO6JOcuLhqzCo73Whj.k7');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'kultura', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_kultura");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_big_board_big_board_1_kultura");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 110;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_kultura");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_kultura");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Kultura</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_kultura");</p>
+<p>	</p>
+<p>Kultura</p>
+<p>Uroda Moda Zdrowie Seks Lifestyle</p>
+<p>Ślub Dziecko Kulinaria więcej</p>
+<p>FilmMuzykaTeatrLiteraturaFelietonyTradycje i obyczajeWydarzenia kulturalneAkcje i inicjatywyKulturka COOLturalne forum </p>
+<p>KulturaAkcje i inicjatywyZostań Mikołajem dla zwierząt! </p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_kultura");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_kultura");</p>
+<p>Akcje i inicjatywy06 Gru 2011kom. (0)126Materiały prasoweZostań Mikołajem dla zwierząt!</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_kultura");</p>
+<p>06 grudnia, Mikołajki, to radosny dzień. Uczyńmy ten okres szczęśliwym również dla zwierząt!</p>
+<p>	Zima to najcięższy okres dla zwierząt w schroniskach. Czasem wystarczy nawet mały gest dobroci, żeby ulżyć ich doli. Jak co roku, zapraszamy w okresie przedświątecznym do schronisk dla bezdomnych zwierząt. Każde stworzenie zasługuje na współczucie i dobro. W imieniu naszych podopiecznych prosimy o suchą karmę, puszki dla psów i kotów oraz koce i kołdry, które bardzo się przydadzą przed zbliżającą się zimą. Można je przynosić do naszych schronisk we wszystkie dni tygodnia w godzinach otwarcia.</p>
+<p>	Najpiękniejszym prezentem, jaki możemy podarować bezdomnemu zwierzęciu jest nowy dom! Pamiętajmy jednak, że adopcja powinna być przemyślana, przedyskutowana ze wszystkimi członkami rodziny. W żadnym wypadku nie kupujmy zwierzęcia na gwiazdkowy prezent – w ten sposób zamiast pomóc, możemy bardzo skrzywdzić żywą, czującą istotę.</p>
+<p>	OTOZ Animals prowadzi następujące schroniska: Schronisko dla Bezdomnych Zwierząt „Ciapkowo” w Gdyni, Schronisko dla Bezdomnych Zwierząt w Tczewie, Schronisko dla Bezdomnych Zwierząt w Starogardzie Gdańskim, Schronisko dla Bezdomnych Zwierząt w Elblągu, Schronisko dla Bezdomnych Zwierząt w Oświęcimiu oraz Przytulisko dla Bezdomnych Zwierząt w Dąbrówce koło Wejherowa.</p>
+<p>	Prosimy również o pomoc dla pozostałych schronisk w całej Polsce! Adresy schronisk można znaleźć na naszej stronie internetowej.</p>
+<p>Wszystkim darczyńcom w imieniu bezdomnych zwierząt serdecznie dziękujemy!!! </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_kultura");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_kultura");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123450.00/0  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Akcje i inicjatywy</p>
+<p>		Świąteczny stół Pajacyka 2011	</p>
+<p>	Świąteczny stół Pajacyka, już po raz dziesiąty, odbędzie się 2...</p>
+<p>	</p>
+<p>		Znamy laureatów pierwszego konkursu...	</p>
+<p>		Święto Drzewa	</p>
+<p>		Akcja Sprzątanie Świata - 16-18...	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Tagi</p>
+<p>mikołajki</p>
+<p>pomoc zwierzętom</p>
+<p>OTOZ Animals</p>
+<p>schroniska dla zwierząt</p>
+<p>Skomentuj Zostań Mikołajem dla zwierząt!function valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (0) - Zostań Mikołajem dla zwierząt!Brak komentarzy do Zostań Mikołajem dla zwierząt! - rozpocznij dyskusję i dodaj komentarz</p>
+<p>Podobne do Zostań Mikołajem dla zwierząt!Ekspert o prawach zwierząt: największym...Największym problemem, jeśli chodzi o przestrzeganie praw zwierząt w Polsce, jest brak egzekucji obowiązujących przepisów - uważa prof. Andrzej Elżanowski, zoolog z Uniwersytetu Wrocławskiego. W piątek obchodzić...więcej0.00/ 057Skomentuj  (1)Top Model. Zostań Modelką w WarszawieCasting na modelki trwa. Zobacz pierwsze zdjęcia z precastingu do programu "Top Model. Zostań Modelką" w Warszawie z udziałem Joanny Krupy, Magdy Mielcarz i Michała Pirógawięcej0.00/ 01397Skomentuj  (0)Agata Buzek: Mąż będzie do mnie...Aktorka Agata Buzek mocno angażuje się w akcje pomocy dla zwierząt, sama też ma dwa psy. PAP Life rozmawia z artystką o jej miłości do zwierząt, pracy i wyjazdach.więcej0.00/ 0296Skomentuj  (1)Pomóżmy zwierzętom przetrwać mrozyTrwające mrozy to bardzo trudny okres dla zwierząt. Okażmy się odpowiedzialni i pomóżmy naszym podopiecznym przetrwać zimę.więcej4.00/ 154Skomentuj  (1)Rozstrzygnięcie konkursu "Zostań...Znamy już zwycięzców konkursu „Zostań Videofryzjerem” organizowanym przez Klinikę Handsome Men i Ciasteczko25 z Youtube.com pod patronatem medialnym portalu www.we-dwoje.pl . Konkurs odbył się na kanale...więcej5.00/ 1387Skomentuj  (0)Zostań dawcą szpiku dla Nergala!Po ogłoszeniu smutnej informacji o chorobie lidera zespoły Behemoth w mediach zawrzało, również dzięki Dodzie, która prywatnie jest partnerką Nergala. 25 września rusza ogólnopolska akcja, podczas której można będzie...więcej0.00/ 0119Skomentuj  (8)Zobacz podobne do Zostań Mikołajem dla zwierząt!</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_kultura");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_kultura");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_kultura");</p>
+<p>GA_googleFillSlot("we2_column1_art1_kultura");</p>
+<p>	</p>
+<p>Czy to zespół Otella?Violetta Villas - "Ja już taka jestem"Gadżety listopadoweRozmowa z Rupertem GrintemMuzyczna odliczanka: 5 najzabawniejszych klipów</p>
+<p>Wydania We2.plwięcej »07GruGeometria w modzie oraz Wielki powrót Pauliny Papierskiej</p>
+<p>Gorące tematyPopularneKomentowaneNowePremiera nowego teledysku Dody - XXXKultowe filmy: Król LewŻycie singla to nie bajkaDziś Światowy Dzień ŻyczliwościIrma w Tańcu z Gwiazdami"Listy do M." - recenzja</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_kultura");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_kultura");</p>
+<p>Galerie Najmodniejsze swetry na jesień-zimę...Najmodniejsze  spódnice na jesień 2011!Torebki Pull&Bear na jesień i zimę...Kolekcja Caterina na sezon jesień-zima... Popularne zdjęciaKolekcje, pokazyCottonfield na jesień 2011 - lookbookKolekcje, pokazyDamski Big Star na jesień i zimę 2011/12więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródWieczór panieńskiday4you Wieczór Panieński WarszawaFx-filmSystem Przedłużania Penisa i...</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_kultura");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_kultura");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_kultura");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.14.1.1','');</p>
+<p>bmone2n.addPosition('177.14.2.2','');</p>
+<p>bmone2n.addPosition('177.14.7.3','');</p>
+<p>bmone2n.addPosition('177.14.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.14.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.14.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.14.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.14.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

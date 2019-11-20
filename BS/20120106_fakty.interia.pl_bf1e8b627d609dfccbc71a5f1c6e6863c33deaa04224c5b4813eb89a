@@ -1,0 +1,805 @@
+<p>  </p>
+<p>Chiny: Śmiertelny przypadek H5N1. Apel o spokój - fakty.interia.pl</p>
+<p>    //<!--</p>
+<p>try{if(top!=self)top.location.replace(location.href)}catch(e){}    //--></p>
+<p>    //<!--</p>
+<p>window.$j = jQuery.noConflict();    //--></p>
+<p>    //<!--</p>
+<p>jQuery(document).ready(function(){</p>
+<p>var dingWidgetUrl = "//widget-ding.interia.pl", dingUrl = "//ding.interia.pl", mailUrl = "https://poczta.interia.pl", serviceUrl = "fakty.interia.pl", urlManageAccount = "http://konto.interia.pl", urlLogout = "http://konto.interia.pl/wyloguj?referer=%2F%2Ffakty.interia.pl%2Fswiat%2Fnews-chiny-smiertelny-przypadek-h5n1-apel-o-spokoj%2CnId%2C910462", urlNewAccount = "http://interia.hit.gemius.pl/hitredir/id=zNuaBniLf8budNH3vp8_HfUHTBmRDpCpmxKssUK4uoH.67/url=http://konto.interia.pl/nowe-konto", urlLogin = "http://interia.hit.gemius.pl/hitredir/id=csuQAk7go66pjPsTG6MBlfU57A_RVdB4m5Vc3cHpsfX.D7/url=http://konto.interia.pl/logowanie?referer=%2F%2Ffakty.interia.pl%2Fswiat%2Fnews-chiny-smiertelny-przypadek-h5n1-apel-o-spokoj%2CnId%2C910462&crc=3660394934"; Inpl.interiaToolbar.createToolbar({ urlManageAccount: urlManageAccount, urlLogout: urlLogout, urlNewAccount : urlNewAccount, urlLogin: urlLogin, urlInteria : 'http://interia.hit.gemius.pl/hitredir/id=nFFLmwikd.soN_jUba4cvIXB.MgppXCE_07POZ9Orv3.57/url=http://interia.pl', urlStartPage : 'http://interia.hit.gemius.pl/hitredir/id=ciswQk9gky1J3muiC9wxmfUHTKORDp.Fm9wmFZpaun..a7/url=http://firma.interia.pl/startuj/', urlMobile : 'http://interia.hit.gemius.pl/hitredir/id=zNuQAniLo63osFugDdUhwvVn.j2Rzrs5MUhYleWTX0z.37/url=http://m.interia.pl/switch-to-mobile' }); /* webmail */ if (Inpl.InteriaAccount.isUserLogged()) { Inpl.widgets.manager.attach( jQuery('.mailWidget'), mailUrl, { serviceUrl: 'fakty.interia.pl', serviceUrl: serviceUrl, id: 'wgt_webmail', version: '1.0', name: 'Poczta', shortName: 'Poczta', description: 'poczta.interia.pl', headline: '<h1>Poczta.interia.pl</h1>', content: { src: '/widget/' }, count: { uri: '/widget/counter', jsonpCallback : 'counterCallback', hideOnWidgetShow: true, whetherCountRequestFn: function() { return Inpl.InteriaAccount.isMailActive(); } }, mock: { enabled: Inpl.InteriaAccount.isMailActive() ? false : true, template: '<div class="widgetMock"><h1>Sprawdzaj pocztę w Interia.pl!</h1><div class="learn-more"><a href="http://info.poczta.interia.pl/">Dowiedz się więcej</a></div><div class="activate-account"><a href="https://konto.interia.pl/poczta/aktywacja" title="Aktywuj konto">Aktywuj konto</a></div></div>' }, width: 578, height: 385, staticPosition: true, eventsName: 'mailWidget', author: 'Interia.pl', authorEmail: 'firma@interia.pl', authorHref: 'http://poczta.interia.pl' }, null ); }; jQuery('#toolbar .emailHref').click(function() { var isLogged = Inpl.InteriaAccount.isUserLogged(); if (isLogged) { if (typeof(gemius_hit) === 'function'){gemius_hit('zNsw5HiLk_PosIEXDVUFNfUH7O_RDtBo0Wp8Qzz08fn.n7')}; } else { if (typeof(gemius_hit) === 'function'){gemius_hit('css65k7gb8XjO6HDSgj2ufU5TBmRVZCpMVGsL2W0Yjz.m7')}; } return true; }); var cUrl = "//ding.interia.pl/ajax/cp"; Inpl.Auid.setAnonymousCookie( cUrl ); Inpl.widgets.manager.attach( jQuery('.dingWidget'), dingUrl, { serviceUrl: serviceUrl, id: 'wgt_ding', version: '1.0', name: 'Ding', shortName: 'Ding', description: 'ding.interia.pl', headline: '<h1>Powiadomienia</h1>', content: { src: '/widget/frame' }, count: { uri: '/ajax/notification-counter', absoluteUri: dingWidgetUrl + '/notification-counter.json', /* Check whether send the count request or not */ whetherCountRequestFn: function() { if (!jQuery.cookie) { return false; } return true; }, hideOnWidgetShow: true, /* should be Incentive counter displayed (ie 1 for non-users) */ showIncentive: true, updateTitle: true, autoRefresh: true }, width: 428, height: 420, staticPosition: true, eventsName: 'dingWidget', author: 'Interia.pl', authorEmail: 'firma@interia.pl', authorHref: 'http://ding.interia.pl', gemiusClickCloseWidget : 'ndpAVHut808pb_wG8QQu08bf..lkwX.aKbyWLXSBLgb.X7', originDomain : 'http://ding.interia.pl', scheme : 'http', windowHeight: parseInt(jQuery(window).height(),10) }, null ); jQuery('#toolbar .dingHref').click(function() { var isLogged = Inpl.InteriaAccount.isUserLogged(); Inpl.Auid.dingWidgetIncentiveDisplayed( cUrl, 'wgt_ding' ); Inpl.interiaToolbar.toolbarUserLogin(urlManageAccount,urlLogout,urlNewAccount,urlLogin,jQuery("#toolbar").find("ul.toolbarUl")); if (isLogged) { if (typeof(gemius_hit) === 'function'){gemius_hit('ciuaCE9gfv5D0Jh0kqGJBPUH.j2RDrs5m9x43UKpH9f.u7')}; } else { if (typeof(gemius_hit) === 'function'){gemius_hit('zDuQAngLo65OUvr1FogJBablXmaUl3t6nBWoydQbtz3.Y7')}; } return true; });</p>
+<p>});    //--></p>
+<p><!-- <![CDATA[</p>
+<p>var pp_gemius_identifier = "AfhK32dKz_j2rZNsay3peIXxDmxRT_c0VPmc9UYD92H.R7";</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-3530215-5']);_gaq.push(['_setDomainName', '.interia.pl']);_gaq.push(['_setAllowHash', false]);_gaq.push(['_addOrganic', 'google.interia','q']);_gaq.push(['_trackPageview']);_gaq.push(['b._setAccount', 'UA-2042239-3']);_gaq.push(['b._addOrganic', 'google.interia','q']);_gaq.push(['b._trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();// ]]> --></p>
+<p>if("undefined"==typeof gemius_hit)gemius_hit = function(){};</p>
+<p>    var _vrq = _vrq || [];</p>
+<p>    _vrq.push(['id', 296]);</p>
+<p>    _vrq.push(['automate', false]);</p>
+<p>    _vrq.push(['track', function(){}]);</p>
+<p>    (function(d, a){</p>
+<p>        var s = d.createElement(a),</p>
+<p>        x = d.getElementsByTagName(a)[0];</p>
+<p>        s.async = true;</p>
+<p>        s.src = 'http://a.visualrevenue.com/vrs.js';</p>
+<p>        x.parentNode.insertBefore(s, x);</p>
+<p>    })(document, 'script');</p>
+<p><!-- <![CDATA[</p>
+<p>if(location.protocol.substr(0,4)=='http')document.write(unescape('%3C')+'script id="INTERIA.PL.FAKTY I STRONA GLOWNA.wiadomosci.swiat.body" src="'+location.protocol+'//hub.com.pl/_'+(new Date()).getTime()+'/ad.js?id=43gxu1nMXKRBPNw7WA.aT8tFPLMDO3CEzdL5W099v7f.D7/x='+screen.width+'/y='+screen.height+((window.Inpl && Inpl.Ad) ? Inpl.Ad.getKeywords("/key="):"")+'" type="text/javascript"'+unescape('%3E%3C')+'/script'+unescape('%3E'));</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>window.Inpl && Inpl.Ad && Inpl.Ad.init({'belka_stopka':'adoceanhubrieggokrxh','box300x250':'adoceanhubojlmjlegrg','box300x50':'adoceanhublkctmiokbb','belka_760x30':'adoceanhubykjjqvhpaw','box300x60':'adoceanhubvlqpdtrtkr','1x1':'adoceanhubsmhghqliaq','gora_srodek':'adoceanhubpnomknfnkl','gora_srodek_popup':'adoceanhubmoftnkprug','skyscraper':'adoceanhubzomjbijgzf','box180x200':'adoceanhubwpdqevskya','button_sponsora':'adoceanhubtalgismpev','podmenu_1':'adoceanhubqbcnlpguzq','podmenu_2':'adoceanhubncjtomqiip','news':'adoceanhubkdqjckknok','1024  lewy':'adoceanhubxdhqfxdsnf','1024  prawy':'adoceanhubueogjunghe','pop-up_relacja':'adoceanhubrffnmrhlcz','teledyski_streaming':'adoceanhubogmtporpbu','news_dol_belka':'adoceanhublhdkdmlusp','box300x250_adsense':'adoceanhubyfhmlsmfjq','box300x60_ec':'adoceanhubukjgbmekno','header1':'adoceanhublodfprfpan','adexchange_300x250':'adoceanhubxkeeplffsp','box_ec_prawa_dol':'adoceanhubmdpikwdguc','commentslist':'adoceanhubtemkpslmqf','adsearch':'adoceanhubsgqphjqjlu','art_spons1':'adoceanhubokqrclrnpu','art_spons2':'adoceanhubllhigilsvp','box300x60_1':'adoceanhubyloojvehto','box300x60_2':'adoceanhubvmffnsoloj','box300x60_3':'adoceanhubsnmlqpiqye','box_300x250_google':'adoceanhubpodsdnsutz','watermark':'adoceanhubmpkihkmjyy'});</p>
+<p>if(location.hash.indexOf('#inpltesterad')>-1&&location.hash.replace(/[^0-9a-z=]/g,"").length==45){document.write(unescape('%3C')+'script id="kodmaster" src="http://reklama.interia.pl/testuj/inpltester?'+location.hash.replace(/[^0-9a-z=]/g,"")+'" type="text/javascript"'+unescape('%3E%3C')+'/script'+unescape('%3E'));}</p>
+<p>// ]]> --></p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("gora_srodek");Inpl.Ad.insertAd("1x1");Inpl.Ad.insertAd("watermark");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Ding</p>
+<p>Poczta</p>
+<p>window.fbAsyncInit = function() { try {if (FB && FB.Event && FB.Event.subscribe) {FB.Event.subscribe('edge.create',function(href, widget) {gemius_hit(widget.getAttribute('ref'))});}} catch(e) {}};</p>
+<p>    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</p>
+<p>Tweet</p>
+<p>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</p>
+<p> window.___gcfg = {lang: 'pl'}; (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })(); </p>
+<p>0</p>
+<p>Skomentuj</p>
+<p> </p>
+<p>Raporty specjalne </p>
+<p>Atomowa Korea Północna</p>
+<p>Matura 2013</p>
+<p>Zmarła Margaret Thatcher</p>
+<p>Papież Franciszek</p>
+<p>Hugo Chavez nie żyje</p>
+<p>Abdykacja Benedykta XVI</p>
+<p>Więcej</p>
+<p>Archiwum</p>
+<p>Najnowsze wiadomości</p>
+<p>Kuba wyda władzom USA małżeństwo oskarżone o uprowadzenie własnych dzieci </p>
+<p>Delegacja rządowa uczciła w Smoleńsku ofiary katastrofy Tu-154M</p>
+<p>Na wojskowych Powązkach uroczystości 3. rocznicy katastrofy smoleńskiej</p>
+<p>Loty VIP-ów po Smoleńsku</p>
+<p>Przedstawiciele władz parlamentu uczcili pamięć ofiar katastrofy smoleńskiej</p>
+<p>Członkowie komisji: Raport Millera wciąż aktualny</p>
+<p>Sasin: Za tego rządu nie będzie wyjaśnienia katastrofy</p>
+<p>USA: Student college'u poranił nożem 14 osób</p>
+<p>Drukuj</p>
+<p>×</p>
+<p>Treść dostępna również w wersji mobilnejna m.interia.pl oraz w aplikacjach na iOS i Android</p>
+<p>                        Poniedziałek, 2 stycznia 2012 (08:20)                                        </p>
+<p>Chiny: Śmiertelny przypadek H5N1. Apel o spokój</p>
+<p> </p>
+<p>Władze sanitarne chińskiego miasta Shenzhen zaapelowały w poniedziałek do mieszkańców o zachowanie spokoju, gdy jedna osoba zmarła na skutek ptasiej grypy. Był to pierwszy od 18 miesięcy przypadek tej choroby odnotowany u ludzi.</p>
+<p>Centrum kontroli chorób w Shenzhen na południu Chin potwierdziło, że 39-letni kierowca autobusu, który zmarł w sobotę, miał najpewniej bezpośredni kontakt z drobiem. "Wirus był w 90 proc. podobny do wirusów H5N1, które wcześniej wykrywano u kaczek w Chinach" - podało.</p>
+<p> - Wirus jeszcze nie może przenosić się między ludźmi - zapewniły władze sanitarne.</p>
+<p> Mężczyzna zachorował 21 grudnia. 39-latek miał kontakt ze 120 osobami, które nie wykazują symptomów choroby.</p>
+<p>Reklama</p>
+<p>	        // <!-- <![CDATA[</p>
+<p>	        Inpl.Ad.insertAd("news");</p>
+<p>	        // ]]> --></p>
+<p>		</p>
+<p> Sąsiedni Hongkong podniósł poziom zagrożenia ptasią grypą do trzeciego stopnia w pięciostopniowej skali. Ogłoszono też czasowy zakaz importu drobiu z trzech obszarów, na których może występować wirus.</p>
+<p> Dotychczas drogą zarażenia H5N1 był bezpośredni kontakt ludzi z drobiem. Naukowcy obawiają się wybuchu pandemii, jeśli dojdzie do mutacji, która sprawi, że wirus będzie się mógł przenosić z człowieka na człowieka.</p>
+<p> Ze względu na największą liczbę drobiu na świecie Chiny są uważane za kraj ryzyka. </p>
+<p>Artykuł pochodzi z kategorii:</p>
+<p>Świat</p>
+<p>Przejdź na początek artykułu</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box625_html");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>var nsix_params = new Object();</p>
+<p>nsix_params.fcolor = '#0000FF';</p>
+<p>nsix_params.max_ad_cnt = 4;</p>
+<p>nsix_params.adareas = ["articleSingle1"];</p>
+<p>nsix_params.positive = [".textContent"];</p>
+<p>nsix_params.cutoff = [".embed"];</p>
+<p>document.write('<scr'+'ipt type="text/javascript"'</p>
+<p>    +' src="http://emisja.adsearch.pl/quad/intext_spliter/?prid=106&caid=166&form=179:4:I&nc='</p>
+<p>    +(new Date()).getTime()+'"'+'></'+'scri'+'pt>');</p>
+<p>Więcej na temat:U </p>
+<p>Zobacz również</p>
+<p>Dowódca floty USA na...</p>
+<p>                                    Dowódca floty USA na Pacyfiku admirał Samuel Locklear powiedział we wtorek przed komisją Senatu ds. sił zbrojnych, że Korea Płn. stanowi oczywiste i bezpośrednie zagrożenie dla Stanów Zjednoczonych...                                                                            Czytaj więcej</p>
+<p>Pogoda</p>
+<p>Kraków</p>
+<p>8</p>
+<p>°C</p>
+<p>Jutro</p>
+<p>8/16°C</p>
+<p>Pojutrze</p>
+<p>5/11°C</p>
+<p>Więcej</p>
+<p>                        Białystok                    </p>
+<p>                        Bydgoszcz                    </p>
+<p>                        Bytom                    </p>
+<p>                        Częstochowa                    </p>
+<p>                        Dąbrowa Górnicza                    </p>
+<p>                        Elbląg                    </p>
+<p>                        Gdańsk                    </p>
+<p>                        Gdynia                    </p>
+<p>                        Gliwice                    </p>
+<p>                        Gorzów Wlk.                    </p>
+<p>                        Jelenia Góra                    </p>
+<p>                        Kalisz                    </p>
+<p>                        Katowice                    </p>
+<p>                        Kielce                    </p>
+<p>                        Kraków                    </p>
+<p>                        Lublin                    </p>
+<p>                        Łódź                    </p>
+<p>                        Nowy Sącz                    </p>
+<p>                        Nowy Targ                    </p>
+<p>                        Olsztyn                    </p>
+<p>                        Opole                    </p>
+<p>                        Poznań                    </p>
+<p>                        Przemyśl                    </p>
+<p>                        Radom                    </p>
+<p>                        Rzeszów                    </p>
+<p>                        Sanok                    </p>
+<p>                        Sopot                    </p>
+<p>                        Suwałki                    </p>
+<p>                        Szczecin                    </p>
+<p>                        Tarnów                    </p>
+<p>                        Warszawa                    </p>
+<p>                        Wrocław                    </p>
+<p>                        Zakopane                    </p>
+<p>                        Zielona Góra                    </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box300x250");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Najczęściej czytane</p>
+<p>1.</p>
+<p>                            Nowe informacje o śmierci młodego skoczka Antoniego Juroszka                    </p>
+<p>2.</p>
+<p>                            Borussia Dortmund - Malaga 3-2 w 1/4 finału Ligi Mistrzów                    </p>
+<p>3.</p>
+<p>                            Twoje prawo jazdy już nie jest bezterminowe. To legalne?                    </p>
+<p>4.</p>
+<p>                            Żona zostawiła Jagielskiego dla młodszego?!                    </p>
+<p>5.</p>
+<p>                            Dyrektor szkoły wstrząśnięty śmiercią Antoniego Juroszka                    </p>
+<p>6.</p>
+<p>                            Amerykanie czy UFO? Do kogo strzelali Rosjanie?                    </p>
+<p>7.</p>
+<p>                            Makabryczne odkrycie. W zamrażalniku były ciała noworodków                    </p>
+<p>Wiadomości lokalne</p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box300x60");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box300x60_1");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box300x60_2");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box300x60_3");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box300x60_ec");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p> </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box_300x250_google");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("box_ec_prawa_dol");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Gazetki promocyjne »</p>
+<p>Kupony »</p>
+<p>Zakupy grupowe »</p>
+<p>Wasze komentarze </p>
+<p>Dodaj komentarz</p>
+<p>Oceń tekst</p>
+<p>Ocen: 21</p>
+<p>57%</p>
+<p>Na plus</p>
+<p>                                                     43%</p>
+<p>                                      </p>
+<p>Na minus</p>
+<p>window.fbAsyncInit = function() { try {if (FB && FB.Event && FB.Event.subscribe) {FB.Event.subscribe('edge.create',function(href, widget) {gemius_hit(widget.getAttribute('ref'))});}} catch(e) {}};</p>
+<p>    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</p>
+<p>Poleć:</p>
+<p>Tweet</p>
+<p>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</p>
+<p> window.___gcfg = {lang: 'pl'}; (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })(); </p>
+<p>var index_of_hash = window.location.href.indexOf(window.location.hash) || window.location.href.length; var wykop_url=window.location.href.substr(0, index_of_hash); var wykop_title=encodeURIComponent(document.title);	 var wykop_desc=encodeURIComponent(jQuery('meta[name=Description]').attr('content')); var widget_bg='FFFFFF'; var widget_type='compact2'; var widget_bold=true;	 var widget_url='http://www.wykop.pl/dataprovider/diggerwidget/?url='+(wykop_url)+'&title='+(wykop_title)+'&desc='+(wykop_desc)+'&bg='+(widget_bg)+'&type='+(widget_type)+'&bold='+(widget_bold); document.write('<div><iframe src="'+widget_url+'" style="border:none;width:100px;height:20px;overflow:hidden;margin:0;padding:0;" frameborder="0" border="0"></iframe></div>');</p>
+<p> </p>
+<p>            Strona główna INTERIA.PL             </p>
+<p>Polecamy</p>
+<p>	                	                    Polecamy	                	            </p>
+<p>Katastrofa smoleńska</p>
+<p>Członkowie komisji: Raport...</p>
+<p>			                        	Podstawowe przyczyny katastrofy smoleńskiej zawarte w...			                            więcej</p>
+<p>Katastrofa smoleńska</p>
+<p>Sasin: Za tego rządu nie...</p>
+<p>			                        	Jacek Sasin z PiS nie widzi szans na wyjaśnienie...			                            więcej</p>
+<p>Korea Północna kontra Korea Południowa</p>
+<p>Pjongjang może wystrzelić...</p>
+<p>			                        	Korea Północna może jednocześnie wystrzelić kilka...			                            więcej</p>
+<p>Katastrofa smoleńska</p>
+<p>Macierewicz: Był wybuch,...</p>
+<p>			                        	Antoni Macierewicz nie chce mówić o zamachu smoleńskim....			                            więcej</p>
+<p>Polska</p>
+<p>"GPC": Gdańsk po...</p>
+<p>			                        	Prezydent Gdańska Paweł Adamowicz w wywiadzie dla...			                            więcej</p>
+<p>Katastrofa smoleńska</p>
+<p>Sondaż: Co trzeci Polak...</p>
+<p>			                        	W zamach na prezydencki samolot 10 kwietnia 2010 r....			                            więcej</p>
+<p>                                                        Zobacz więcej                                                        </p>
+<p>Zdjęć: 5</p>
+<p>Premier pod Pomnikiem Ofiar Katastrofy Smoleńskiej </p>
+<p>                                                        Zobacz więcej                                                        </p>
+<p>Zdjęć: 12</p>
+<p>Protest przed ambasadą rosyjską </p>
+<p>                                                        Zobacz więcej                                                        </p>
+<p>Zdjęć: 12</p>
+<p>"Impreza" po śmierci premier Margaret Thatcher</p>
+<p> </p>
+<p>Dziś w Interia.pl</p>
+<p>Kuba wyda władzom USA małżeństwo oskarżone o uprowadzenie własnych dzieci </p>
+<p>                                        Fakty                                    </p>
+<p>Polaków nie stać na samochody. Nawet używane</p>
+<p>                                        Motoryzacja                                    </p>
+<p>Delegacja rządowa uczciła w Smoleńsku ofiary katastrofy Tu-154M</p>
+<p>                                        Fakty                                    </p>
+<p>​Alex pogrąży się w depresji po śmierci Bromskiego...</p>
+<p>                                        Świat seriali                                    </p>
+<p>Na wojskowych Powązkach uroczystości 3. rocznicy katastrofy smoleńskiej</p>
+<p>                                        Fakty                                    </p>
+<p>40 ikon na wystawie w Muzeum Archidiecezjalnym w Katowicach</p>
+<p>                                        Polska Lokalna                                    </p>
+<p>W Gliwicach panie boksują bez taryfy ulgowej</p>
+<p>                                        Sport                                    </p>
+<p>MŚ w hokeju - przez Donieck na zaplecze Elity </p>
+<p>                                        Sport                                    </p>
+<p>Loty VIP-ów po Smoleńsku</p>
+<p>                                        Fakty                                    </p>
+<p>Seksowna Narine z "The Voice Of Poland". Posłuchaj!</p>
+<p>                                        Rozrywka                                    </p>
+<p>Oświadczenie Wisły Kraków w sprawie stadionu</p>
+<p>                                        Sport                                    </p>
+<p>De Niro nie mógł odmówić</p>
+<p>                                        Rozrywka                                    </p>
+<p>Przedstawiciele władz parlamentu uczcili pamięć ofiar katastrofy smoleńskiej</p>
+<p>                                        Fakty                                    </p>
+<p>Bursztynowicz zdradza receptę na udany związek</p>
+<p>                                        pomponik.pl                                    </p>
+<p>Latoszek przyłapany! </p>
+<p>                                        Świat seriali                                    </p>
+<p>O tych płynach kierowcy często zapominają. A ty?</p>
+<p>                                        Motoryzacja                                    </p>
+<p>                                                        Raporty specjalne        </p>
+<p>                                                    </p>
+<p>Korea Północna »</p>
+<p>Matura 2013 »</p>
+<p>Margaret Thatcher »</p>
+<p>Papież Franciszek »</p>
+<p>Proces Katarzyny W. »</p>
+<p>Smierć małej Madzi »</p>
+<p>Must Be The Music »</p>
+<p>X Factor »</p>
+<p> </p>
+<p>Rekomendacje</p>
+<p>Wyniki na żywo   |</p>
+<p>                    </p>
+<p>Hantle |</p>
+<p>                    </p>
+<p>Lotto    |</p>
+<p>                    </p>
+<p>Lidl gazetka</p>
+<p>                                                            Najlepsze okazje i promocje - sprawdź!                                                    </p>
+<p>Erotyka   </p>
+<p>                                                            Nudy w sypialni? Pragniesz nieco ożywić swoje życie? Nasza strona pokaże Ci, co naprawdę w Tobie...                                                    </p>
+<p>Filmy </p>
+<p>                                                            Kochasz oglądać filmy? Nasza strona to prawdziwa uczta dla każdego kinomaniaka!</p>
+<p>                                                    </p>
+<p>Radio    </p>
+<p>                                                            Co Ci w duszy gra, gra też w naszym radiu! Sprawdź, posłuchaj, zapomnij się z naszą muzyką.</p>
+<p>                                                    </p>
+<p>Słownik   </p>
+<p>                                                            Plącze Ci się język? Zaglądnij do naszego słownika, który z pewnościa rozjaśni Ci umysł.</p>
+<p>                                                    </p>
+<p>Muzea Kraków   </p>
+<p>                                                            Wybierasz się na spacer? A może do muzeum?  Zobacz dziedzictwo naszych przodków.</p>
+<p>                                                    </p>
+<p>Pozostałe tematy</p>
+<p>Łyżwy     - Mróz Ci nie straszny? Zabierz znajomych na łyżwy, ciesz...                </p>
+<p>Prognoza pogody    - Nie daj się zaskoczyć pogodzie! U nas sprawdzić kiedy...                </p>
+<p>Fryzury     - Na Twojej głowie panuje artystyczny nieład? Ujarzmij go...                </p>
+<p>Program - Zobacz co jest grane w telewizji, wybierz hit telewizyjny...                </p>
+<p>Gry     - Jeśli gry to Twoja pasja i od zawsze byłeś ich wielkim...                </p>
+<p>Kursy walut  - Tu sprawdzisz najszybciej i najdokładniej najnowsze kursy...                </p>
+<p>Polityka - Rozplątujemy zawiłości polityki, demaskujemy prawdę.                </p>
+<p>Przepisy kulinarne - Twoja kuchnia potrzebuje czegoś smakowitego?                </p>
+<p>Lech Poznań - Najświeższe informacje o klubie, relacje z meczów i o...                </p>
+<p> </p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("adsearch");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p>Skomentuj artykuł: Chiny: Śmiertelny przypadek H5N1. Apel o spokój</p>
+<p>Przejdź do forum »</p>
+<p>Wasze komentarze (1)</p>
+<p>Dodaj komentarz</p>
+<p>Pokaż:</p>
+<p>                    </p>
+<p>Wszyscy</p>
+<p>Zalogowani</p>
+<p>Najnowsze</p>
+<p>Najstarsze</p>
+<p>Najlepiej ocenione</p>
+<p>Wg ilości odp.</p>
+<p> </p>
+<p> </p>
+<p>~antyUE                                                         - 02.01.2012 (10:31)</p>
+<p>Zgłoś do usunięcia</p>
+<p>Link</p>
+<p>Podziel się</p>
+<p>To ten sztucznie wyhodowany w laboratorium, o którym pisał Scientific American? Znowu trzeba nabrać UE na zakup szczepionek na grypę za kilkanaście mld euro? :)</p>
+<p>Ciekawe?</p>
+<p>0</p>
+<p>Zaglosuj plus</p>
+<p>Zaglosuj minus</p>
+<p>0</p>
+<p>Odpowiedz </p>
+<p> </p>
+<p> </p>
+<p>Dodaj komentarz </p>
+<p><!-- <![CDATA[</p>
+<p>var gemius_identifier = ".cCbGWtzJBokc_f3rarX6LR3rtJW4JtuuV_bo9iajyz.S7"; </p>
+<p>// ]]> --></p>
+<p>Najciekawsze tematy na forum</p>
+<p>                    Trzecia rocznica katastrofy smoleńskiej                </p>
+<p>                   Co wiemy po trzech latach od katastrofy prezydenckiego tupolewa?            </p>
+<p>                    Jak przeżyć miesiąć za jaknajmniejsze pieniądze?                </p>
+<p>                   Czy to w ogóle możliwe? Udaje się Wam coś odłożyć ze swojej wypłaty?            </p>
+<p>                    Premier Tusk ma doskonały PR?                </p>
+<p>                   Ciągle zasłania się niewiedzą?             </p>
+<p>                    Nowak lata - my płacimy!                 </p>
+<p>                   Minister transportu wydał na przelot samolotami już 43 tysiące złotych. Co Ty na to?            </p>
+<p>Szukaj w serwisie</p>
+<p>window.fbAsyncInit = function() { try {if (FB && FB.Event && FB.Event.subscribe) {FB.Event.subscribe('edge.create',function(href, widget) {gemius_hit(widget.getAttribute('ref'))});}} catch(e) {}};</p>
+<p>    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</p>
+<p> </p>
+<p> </p>
+<p>Start</p>
+<p>Polska</p>
+<p>Polska Lokalna</p>
+<p>Przegląd Prasy</p>
+<p>Kontrwywiad RMF FM</p>
+<p>Raport Drogowy</p>
+<p>Dziki Kraj</p>
+<p>Świat</p>
+<p>Kultura</p>
+<p>Historia</p>
+<p>Nauka</p>
+<p>Religia</p>
+<p>Ciekawostki</p>
+<p>RMF24</p>
+<p>Forum</p>
+<p>Zdjęcia</p>
+<p>Najlepiej oceniane</p>
+<p>Kraj</p>
+<p>Świat</p>
+<p>Polska Lokalna</p>
+<p>Kultura</p>
+<p>Ciekawostki</p>
+<p>Styl życia</p>
+<p>Obyczaje</p>
+<p>Nauka</p>
+<p>Natura</p>
+<p>Religia</p>
+<p>Historia</p>
+<p>Wasze zdjęcia</p>
+<p>New York Times</p>
+<p>Tylko u nas</p>
+<p>Blogi</p>
+<p>Pojedynki</p>
+<p>Rankingi</p>
+<p>Ankiety</p>
+<p>Komiksy</p>
+<p>PITY 2012</p>
+<p>Felietony</p>
+<p>Rafał Ziemkiewicz</p>
+<p>Roman Graczyk</p>
+<p>Konrad Piasecki</p>
+<p>Robert Walenciak</p>
+<p>Grzegorz Jasiński</p>
+<p>INTERIA.PL</p>
+<p>›</p>
+<p>Fakty</p>
+<p>›</p>
+<p>Świat</p>
+<p>›</p>
+<p>Chiny: Śmiertelny przypadek H5N1. Apel o spokój</p>
+<p>Reklama</p>
+<p><!-- <![CDATA[</p>
+<p>Inpl.Ad.insertAd("belka_stopka");</p>
+<p>// ]]> --></p>
+<p> </p>
+<p> </p>
+<p>Napisz do nas</p>
+<p>Mapa Serwisu</p>
+<p>Newsroom</p>
+<p>RSS</p>
+<p>Portal w komórce</p>
+<p>Reklama</p>
+<p>Korzystanie z portalu oznacza akceptację Regulaminu. Polityka Cookies. Copyright by INTERIA.PL 1999-2013. Wszystkie prawa zastrzeżone.</p>
+<p>    //<!--</p>
+<p>LatestNews({'boxId':'common-article-object-list1'});</p>
+<p>if(Inpl.Ad.isAd('gora_srodek')) {</p>
+<p>jQuery('#adStandardTop1').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#adStandardTop1').hide();</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('watermark')) {</p>
+<p>jQuery('body').addClass('watermark');</p>
+<p>}    //--></p>
+<p>    //<!--</p>
+<p>Menu.Touchscreen.init(document.getElementById('navigation_1'));</p>
+<p>Menu.Touchscreen.init(document.getElementById('navigation_2'));    //--></p>
+<p>    //<!--</p>
+<p>jQuery("#common-search").searchForm({</p>
+<p>Form: 'form',</p>
+<p>Input: '.search-query',</p>
+<p>defaultText: 'Szukaj w serwisie...'</p>
+<p>});</p>
+<p>var weatherDay1JQ, weatherDay2JQ,cityId,cityName,cityItemJQ,</p>
+<p>objectWeatherJQ = jQuery('#weather-box'),</p>
+<p>defaultCityId = 11763,</p>
+<p>cookieCityId = jQuery.cookie("cityId"),</p>
+<p>changeCity = function (cityId,cityName){</p>
+<p>jQuery.ajax({</p>
+<p>type: 'GET',</p>
+<p>url: '/ajax/widget/weather',</p>
+<p>data: {</p>
+<p>cityId: cityId,</p>
+<p>for3days: 1</p>
+<p>},</p>
+<p>success: function (data) {</p>
+<p>if (data && data.cityId && data.list) {</p>
+<p>if (data.list.day0) {</p>
+<p>objectWeatherJQ.find(".weather-state").css("background-image", '/i/weather-icons/' + data.list.day0.iconId + '.png');</p>
+<p>objectWeatherJQ.find(".wheater-deg").text(data.list.day0.tempAvg);</p>
+<p>}</p>
+<p>if (data.list.day1) {</p>
+<p>weatherDay1JQ = objectWeatherJQ.find(".weather-day1");</p>
+<p>weatherDay1JQ.css("background-image", '/i/weather-icons/small' + data.list.day1.iconId + '.png');</p>
+<p>weatherDay1JQ.find("span").html(data.list.day1.tempMin + '/' + data.list.day1.tempMax + '&deg;C');</p>
+<p>}</p>
+<p>if (data.list.day2) {</p>
+<p>weatherDay1JQ = objectWeatherJQ.find(".weather-day2");</p>
+<p>weatherDay1JQ.css("background-image", '/i/weather-icons/small' + data.list.day2.iconId + '.png');</p>
+<p>weatherDay1JQ.find("span").html(data.list.day2.tempMin + '/' + data.list.day2.tempMax + '&deg;C');</p>
+<p>}</p>
+<p>objectWeatherJQ.find(".weather-city").text(cityName);</p>
+<p>objectWeatherJQ.find(".weather-next").find("a").attr("href", "http://pogoda.interia.pl/miasta?id=" + cityId);</p>
+<p>objectWeatherJQ.find(".weather-more").attr("href", "http://pogoda.interia.pl/miasta?id=" + cityId);</p>
+<p>jQuery(".weather-selected-city").removeClass("weather-selected-city");</p>
+<p>objectWeatherJQ.removeClass("weather-cities-active");</p>
+<p>}</p>
+<p>}</p>
+<p>});</p>
+<p>};</p>
+<p>if (cookieCityId && defaultCityId !== cookieCityId){</p>
+<p>cityName = objectWeatherJQ.find("#city-"+cookieCityId).text();</p>
+<p>changeCity(cookieCityId,cityName);</p>
+<p>}</p>
+<p>jQuery("body").click(function (e) {</p>
+<p>if (jQuery(e.target).hasClass("weather-city")) {</p>
+<p>if (objectWeatherJQ.hasClass("weather-cities-active")) {</p>
+<p>objectWeatherJQ.removeClass("weather-cities-active");</p>
+<p>} else {</p>
+<p>objectWeatherJQ.addClass("weather-cities-active");</p>
+<p>}</p>
+<p>} else {</p>
+<p>objectWeatherJQ.removeClass("weather-cities-active");</p>
+<p>}</p>
+<p>});</p>
+<p>objectWeatherJQ.find(".weather-cities").find("li").click(function () {</p>
+<p>cityItemJQ = jQuery(this);</p>
+<p>cityId = parseInt(cityItemJQ.attr('data-cityid'), 10);</p>
+<p>cityName = cityItemJQ.text();</p>
+<p>if (cityId > 0) {</p>
+<p>cityItemJQ.addClass("weather-selected-city");</p>
+<p>changeCity(cityId,cityName);</p>
+<p>}</p>
+<p>});</p>
+<p>if(Inpl.Ad.isAd('box300x250')) {</p>
+<p>jQuery('#box300x2501').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box300x2501').hide();</p>
+<p>}</p>
+<p>function mapHover(){</p>
+<p>var mapJQ = jQuery("#boxPolishMap1"),</p>
+<p>mapAreaJQ = mapJQ.find("area"),</p>
+<p>deafultClass =  'map-province',</p>
+<p>mapProvinceJQ = jQuery("<div/>").addClass(deafultClass).appendTo(mapJQ),</p>
+<p>mapTip = jQuery("<div/>").addClass("map-tip").html("<span class='map-text'></span>").appendTo(mapProvinceJQ),</p>
+<p>mapTipTxt = mapTip.find(".map-text"),</p>
+<p>mapClass;</p>
+<p>mapAreaJQ</p>
+<p>.mouseover( function()</p>
+<p>{</p>
+<p>mapClass = jQuery(this).attr('class');</p>
+<p>mapProvinceJQ.addClass(mapClass + ' map-active');</p>
+<p>mapTipTxt.html(jQuery(this).attr('alt'));</p>
+<p>mapTip.show();</p>
+<p>})</p>
+<p>.mouseout( function() {</p>
+<p>mapProvinceJQ.removeClass().addClass(deafultClass)</p>
+<p>mapTipTxt.html('');</p>
+<p>mapTip.hide();</p>
+<p>});</p>
+<p>}</p>
+<p>mapHover();</p>
+<p>if(Inpl.Ad.isAd('box300x60')) {</p>
+<p>jQuery('#box300x601').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box300x601').hide();</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('box300x60_1')) {</p>
+<p>jQuery('#box300x60_11').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box300x60_11').hide();</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('box300x60_2')) {</p>
+<p>jQuery('#box300x60_21').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box300x60_21').hide();</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('box300x60_3')) {</p>
+<p>jQuery('#box300x60_31').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box300x60_31').hide();</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('box300x60_ec')) {</p>
+<p>jQuery('#box300x60_ec1').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box300x60_ec1').hide();</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('box_300x250_google')) {</p>
+<p>jQuery('#box_300x250_google1').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box_300x250_google1').hide();</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('box_ec_prawa_dol')) {</p>
+<p>jQuery('#box_ec_prawa_dol1').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#box_ec_prawa_dol1').hide();</p>
+<p>}    //--></p>
+<p>    //<!--</p>
+<p>Promocyjni.init({</p>
+<p>limit : 3,</p>
+<p>showSearch : true,</p>
+<p>modeId : 'fakty_prawa',</p>
+<p>categoryIds : '',</p>
+<p>gemiusShow          : '0iTqJi9Tv3.jRBKActMKsqQO7DqGP9B6dsNcfYfZ8iL.C7',</p>
+<p>gemiusClickBrochure : 'B9OVfeMayWxUj39bfO1r38WoLT.Bw2bzYUJ1be2e713.h7',</p>
+<p>gemiusClickForm     : 'p807_PLmFBjkQGieLD5vf5dSzSaUd6bCpnkl2iSC7v3.B7',</p>
+<p>gemiusClickAllLinks : 'chrgwk8w49cTUjtLyp3dKZZVTIQpp5.Lm1GsEccZ_ub.G7',</p>
+<p>citiesColumns : 2</p>
+<p>});</p>
+<p>jQuery('#fontSizeSwitch1').find(".boxHeader").html('<h4>Rozmiar tekstu:</h4>');</p>
+<p>jQuery('#fontSizeSwitch1').find(".boxBody").html('<ul><li class="standard i1"><a href="" title="rozmiar standardowy">A</a></li><li class="medium i2"><a href="" title="rozmiar powiększony">A</a></li><li class="big i3"><a href="" title="rozmiar duży">A</a></li></ul>');    //--></p>
+<p>    //<!--</p>
+<p>jQuery('#fontSizeSwitch1').fontSizeSwitch({</p>
+<p>contentJQ: jQuery('.textContent'),</p>
+<p>sizes: {</p>
+<p>standard: {buttonJQ: jQuery('#fontSizeSwitch1 .standard')},</p>
+<p>medium: {buttonJQ: jQuery('#fontSizeSwitch1 .medium')},</p>
+<p>big: {buttonJQ: jQuery('#fontSizeSwitch1 .big')}},</p>
+<p>defaultSize: 'medium'</p>
+<p>});    //--></p>
+<p>    //<!--</p>
+<p>jQuery("#adReactangle_no1").boxAd({adSpace: "news"});    //--></p>
+<p>    //<!--</p>
+<p>inpl.subscribe.manager.boxAttach(</p>
+<p>jQuery('.dingSubscribeBox'),</p>
+<p>'//ding.interia.pl',</p>
+<p>{</p>
+<p>serviceUrl: '//fakty.interia.pl',</p>
+<p>id: 'wgt_ding_subscribe',</p>
+<p>content: {</p>
+<p>src: '/widget/dingSubscribe'</p>
+<p>},</p>
+<p>width: 625,</p>
+<p>height: 0,</p>
+<p>eventsName: 'dingSubscribe',</p>
+<p>hasToolbar: 1,</p>
+<p>elId: 910462,</p>
+<p>elTypeId: 1,</p>
+<p>dingReferer: '?referer=http%3A%2F%2Ffakty.interia.pl%2Fswiat%2Fnews-chiny-smiertelny-przypadek-h5n1-apel-o-spokoj%2CnId%2C910462&crc=567008275',</p>
+<p>isTypeAlbum : '0',</p>
+<p>originDomain : 'http://ding.interia.pl',</p>
+<p>scheme : 'http'</p>
+<p>}</p>
+<p>);</p>
+<p>var fD = 0;</p>
+<p>if ( !fD ) {</p>
+<p>if ( Inpl.Auid.dingSubscribeDisplayInfo() ) {</p>
+<p>var sbbase = jQuery('.dingSubscribe:first').offset().top</p>
+<p>var sbscroll = documentScrollTop()</p>
+<p>var sbscreenHeight = document.documentElement.clientHeight</p>
+<p>var sbvisible = sbscroll + sbscreenHeight >  sbbase;</p>
+<p>if (sbvisible) {</p>
+<p>setTimeout( "inpl.subscribe.manager.showHelp()", 2000 );</p>
+<p>} else {</p>
+<p>jQuery(window).scroll(function(){</p>
+<p>sbscroll = documentScrollTop()</p>
+<p>sbvisible = sbscroll + sbscreenHeight >  sbbase;</p>
+<p>if (sbvisible) {</p>
+<p>setTimeout( "inpl.subscribe.manager.showHelp()", 1000 );</p>
+<p>}</p>
+<p>});</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>function documentScrollTop()</p>
+<p>{</p>
+<p>if( document.documentElement && document.documentElement.scrollTop )</p>
+<p>return document.documentElement.scrollTop;</p>
+<p>else if( document.body && document.body.scrollTop )</p>
+<p>return document.body.scrollTop;</p>
+<p>}</p>
+<p>if(Inpl.Ad.isAd('box625_html')) {</p>
+<p>jQuery('#adBox625').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#adBox625').hide();</p>
+<p>}</p>
+<p>var InplCounter965=new Image();</p>
+<p>InplCounter965.src='http://wr.zl.interia.pl/a/Rankingpv?type=1&val=910462&t='+(new Date()).getTime();    //--></p>
+<p>    //<!--</p>
+<p>jQuery('#articleSingle1').find('.articleEmbedPhoto .image a[target!="_blank"]')</p>
+<p>.each(function (i) {</p>
+<p>var aJQ = jQuery(this);</p>
+<p>aJQ.setFloatbox({</p>
+<p>boxConfig: {width: '800px', marginLeft: '-400px'},</p>
+<p>contentHtml: '<div class="image"><img src="' + aJQ.attr('href') + '" alt="' + aJQ.find('img').attr('alt') + '" /></div>',</p>
+<p>closeButtonHtml: '<div class="close-floatbox-button close-floatbox"><span>zamknij</span></div>',</p>
+<p>wrapperClass: 'articleEmbedPhoto',</p>
+<p>before: function (htmlJQ) {</p>
+<p>htmlJQ.find('.articleEmbedPhoto .image img').addClass('close-floatbox');</p>
+<p>},</p>
+<p>after: function (htmlJQ) {</p>
+<p>}});</p>
+<p>});</p>
+<p>var InplCounter748=new Image();</p>
+<p>InplCounter748.src='http://wr.zl.interia.pl/a/View?objectType=ARTICLE&id=910462&pId=4&sId=1050&t='+(new Date()).getTime();</p>
+<p>inpl.subscribe.manager.boxAttach(</p>
+<p>jQuery('.dingFavoriteObject'),</p>
+<p>'//ding.interia.pl',</p>
+<p>{</p>
+<p>serviceUrl: '//fakty.interia.pl',</p>
+<p>id: 'wgt_ding_favoriteObject',</p>
+<p>content: { src: '/widget/dingFavoriteObject' },</p>
+<p>width: 210,</p>
+<p>height: 30,</p>
+<p>eventsName: 'dingFavoriteObject',</p>
+<p>hasToolbar: 1,</p>
+<p>elId: 910462,</p>
+<p>elTypeId: 1,</p>
+<p>originDomain : 'http://ding.interia.pl',</p>
+<p>scheme : 'http'</p>
+<p>}</p>
+<p>);    //--></p>
+<p>    //<!--</p>
+<p>jQuery('#mobileIcon1').mobileIcon({</p>
+<p>autoopen: ( typeof(MobileIconConfig)!='undefined' && MobileIconConfig.autoopen === true )? true : false,</p>
+<p>autoopenDelay : ( typeof(MobileIconConfig)!='undefined' && MobileIconConfig.autoopenDelay )? MobileIconConfig.autoopenDelay : 4000,</p>
+<p>autocloseAfter: ( typeof(MobileIconConfig)!='undefined' && MobileIconConfig.autocloseAfter)? MobileIconConfig.autocloseAfter: 6000    });    //--></p>
+<p>    //<!--</p>
+<p>Inpl.Box.AutoResizeTitle({</p>
+<p>jQTitle : jQuery('#titlePlaceholder1 .title h1'),</p>
+<p>minFontSize : 28,</p>
+<p>maxFontSize : 49,</p>
+<p>maxLines : 2});</p>
+<p>jQuery(window).scroll(function(){</p>
+<p>var base = jQuery('.articleSingle > .boxEnd').offset().top;</p>
+<p>var scroll = documentScrollTop()</p>
+<p>var screenHeight = document.documentElement.clientHeight</p>
+<p>var visible = scroll + screenHeight >  base</p>
+<p>var el = jQuery('.articleObjectSeeAlso').get(0)</p>
+<p>if (visible) {</p>
+<p>//jezeli nie jest widoczne</p>
+<p>if (el.style.right == "-370px") {</p>
+<p>el.style.right = '-369px' //IE workaround</p>
+<p>jQuery('.articleObjectSeeAlso').animate({right: 0}, 'slow')</p>
+<p>}</p>
+<p>}</p>
+<p>else {</p>
+<p>if (el.style.right == "0px" || el.style.right == 0  ) {</p>
+<p>el.style.right = '1px' //IE workaround</p>
+<p>jQuery('.articleObjectSeeAlso').animate({right: '-370'}, 1000)</p>
+<p>}</p>
+<p>}</p>
+<p>})</p>
+<p>jQuery('.articleObjectSeeAlso .close:first').click(function(){</p>
+<p>jQuery('.articleObjectSeeAlso').hide()</p>
+<p>})</p>
+<p>function documentScrollTop()</p>
+<p>{</p>
+<p>if( document.documentElement && document.documentElement.scrollTop )</p>
+<p>return document.documentElement.scrollTop;</p>
+<p>else if( document.body && document.body.scrollTop )</p>
+<p>return document.body.scrollTop;</p>
+<p>}    //--></p>
+<p>    //<!--</p>
+<p>Inpl.Box.Forum3.summaryLine('#forumObjectFeedback1');    //--></p>
+<p>    //<!--</p>
+<p>jQuery('#vote_1_910462 .gaugeBox a').attr('href', '/ajax/vote/');jQuery('#vote_1_910462').userVote({serviceId : 1050,url : "/ajax/vote",type : 4 ,objectType : 1,elementId : 910462,hideBoxHeader : 1,text : {novote : "Brak ocen",like : "Na plus",nolike : "Na minus",thankyou : "<strong>Dziękujemy</strong>",voteCountText : "Ocen: "},votePCallback : function (){jQuery.userVote.fakeVote(910462, 1, 1, 22,13, true)},voteMCallback : function (){jQuery.userVote.fakeVote(910462, 1,-1, 22,12, true)}});    //--></p>
+<p>    //<!--</p>
+<p>jQuery('#commonWrapperTabs1').boxWrapperTabs(</p>
+<p>{</p>
+<p>headerSelector: '.wrapperHeader'    }</p>
+<p>);</p>
+<p>jQuery('.addcommentButton #commentCount').text(Inpl.Box.Forum3.getCommentsCount());</p>
+<p>jQuery('.addcommentButton a').click(function() {</p>
+<p>Inpl.Box.Forum3.goToAddCommentForm();</p>
+<p>if(typeof gemius_hit === 'function'){</p>
+<p>gemius_hit('BxY7__L8FFApLB6i2LgaE2X2.INZeX.GuxcMqZbpYqv.P7');</p>
+<p>}</p>
+<p>return false;</p>
+<p>});</p>
+<p>jQuery('.addcommentButton .count').click(function() {</p>
+<p>Inpl.Box.Forum3.goToComments();</p>
+<p>});    //--></p>
+<p>    //<!--</p>
+<p>if(Inpl.Ad.isAd('adsearch')) {</p>
+<p>jQuery('#adsearch1').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#adsearch1').hide();</p>
+<p>}    //--></p>
+<p>    //<!--</p>
+<p>Inpl.Box.Forum3.init({</p>
+<p>env: {"attachmentServerAddr":"\/\/i.iplsc.com","attachmentUploaderFrame":"http:\/\/forum.api.interia.pl\/attachment\/uploader","remoteImageServerAddr":"http:\/\/forum.api.interia.pl\/attachment\/remote.json,step,0","attachmentPreviewServerAddr":"http:\/\/forum.api.interia.pl\/attachment\/preview.json","screenshotServerAddr":"http:\/\/prscn.interia.pl\/screenshot.json"},</p>
+<p>sec: {"ts":1365578276,"key":"1a613e76ec5743cb94377d721e73adf5","screenKey":"cb250c3f410db49581e19d052cf6780e"},</p>
+<p>feature: {"attachments":{"enable":true,"data":null},"profiles":{"enable":true,"data":{"notInInteriaPortal":false}}},</p>
+<p>postUrl: 'http://fakty.interia.pl/pokaz-komentarz,pId,%POST%,dId,2006750',</p>
+<p>loginUrl: 'http://konto.interia.pl/forum/logowanie?referer=http%3A%2F%2Ffakty.interia.pl%2Fswiat%2Fnews-chiny-smiertelny-przypadek-h5n1-apel-o-spokoj%2CnId%2C910462&crc=679317560',</p>
+<p>newAccountUrl: 'http://konto.interia.pl/forum/nowe-konto/',</p>
+<p>activateUrl: '',</p>
+<p>pr : '4',</p>
+<p>sv : '1050',</p>
+<p>commentsExists: true    });</p>
+<p>if(Inpl.Ad.isAd('belka_stopka')) {</p>
+<p>jQuery('#belka_stopka1').show();</p>
+<p>}</p>
+<p>else {</p>
+<p>jQuery('#belka_stopka1').hide();</p>
+<p>}    //--></p>
+<p>    //<!--</p>
+<p>try{ if( document.getElementById('content') ) {</p>
+<p>Inpl.Copy.init({content:document.getElementById('content')});</p>
+<p>} } catch(e){}    //--></p>

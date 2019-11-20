@@ -1,0 +1,148 @@
+<p>RVH Critical Care Facility 'Topped Out' - Northern Ireland News</p>
+<p> GS_googleAddAdSenseService("ca-pub-9423069465971080");</p>
+<p> GS_googleEnableAllServices();</p>
+<p>GA_googleAddSlot("ca-pub-9423069465971080", "4ni-wedd-1");</p>
+<p>GA_googleAddSlot("ca-pub-9423069465971080", "4ni-wedd-2");</p>
+<p> GA_googleFetchAds();</p>
+<p><!--</p>
+<p>function MM_reloadPage(init) {  //reloads the window if Nav4 resized</p>
+<p>  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {</p>
+<p>    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}</p>
+<p>  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();</p>
+<p>}</p>
+<p>MM_reloadPage(true);</p>
+<p>function MM_preloadImages() { //v3.0</p>
+<p>  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();</p>
+<p>    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)</p>
+<p>    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}</p>
+<p>}</p>
+<p>function MM_findObj(n, d) { //v4.01</p>
+<p>  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {</p>
+<p>    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}</p>
+<p>  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];</p>
+<p>  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);</p>
+<p>  if(!x && d.getElementById) x=d.getElementById(n); return x;</p>
+<p>}</p>
+<p>function MM_jumpMenu(targ,selObj,restore){ //v3.0</p>
+<p>  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");</p>
+<p>  if (restore) selObj.selectedIndex=0;</p>
+<p>}</p>
+<p>function MM_swapImgRestore() { //v3.0</p>
+<p>  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;</p>
+<p>}</p>
+<p>function MM_swapImage() { //v3.0</p>
+<p>  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)</p>
+<p>   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}</p>
+<p>}</p>
+<p>//--></p>
+<p><!-- Begin</p>
+<p>function clock() {</p>
+<p>var months=new Array(13);</p>
+<p>months[1]="January";</p>
+<p>months[2]="February";</p>
+<p>months[3]="March";</p>
+<p>months[4]="April";</p>
+<p>months[5]="May";</p>
+<p>months[6]="Jun";</p>
+<p>months[7]="Jul";</p>
+<p>months[8]="Aug";</p>
+<p>months[9]="Sep";</p>
+<p>months[10]="Oct";</p>
+<p>months[11]="Nov";</p>
+<p>months[12]="Dec";</p>
+<p>if (!document.layers && !document.all) return;</p>
+<p>var digital = new Date();</p>
+<p>var hours = digital.getHours();</p>
+<p>var minutes = digital.getMinutes();</p>
+<p>var seconds = digital.getSeconds();</p>
+<p>var da = digital.getDate();</p>
+<p>var mo = months[digital.getMonth()+1];</p>
+<p>var ye = digital.getYear();</p>
+<p>var amOrPm = "AM";</p>
+<p>if (hours > 11) amOrPm = "PM";</p>
+<p>if (hours > 12) hours = hours - 12;</p>
+<p>if (hours == 0) hours = 12;</p>
+<p>if (minutes <= 9) minutes = "0" + minutes;</p>
+<p>if (seconds <= 9) seconds = "0" + seconds;</p>
+<p>dispTime = da + " " + mo + " " + ye + " -  " + hours + ":" + minutes + ":" + seconds + " " + amOrPm;</p>
+<p>if (document.layers) {</p>
+<p>document.layers.pendule.document.write(dispTime);</p>
+<p>document.layers.pendule.document.close();</p>
+<p>}</p>
+<p>else</p>
+<p>if (document.all)</p>
+<p>pendule.innerHTML = dispTime;</p>
+<p>setTimeout("clock()", 1000);</p>
+<p>}</p>
+<p>//  End --></p>
+<p>function formthing() {</p>
+<p>vara="opticron";</p>
+<p>document.write("<tr><td></td><td><input type='hidden' name='left" + vara + "field' value='915' /></td></tr>");</p>
+<p>}</p>
+<p>function butCl(aid)</p>
+<p>{</p>
+<p>	var http = false;</p>
+<p>	if(navigator.appName == "Microsoft Internet Explorer") {</p>
+<p>	  http = new ActiveXObject("Microsoft.XMLHTTP");</p>
+<p>	} else {</p>
+<p>	  http = new XMLHttpRequest();</p>
+<p>	}</p>
+<p>	var randomnumber=Math.floor(Math.random()*1000000)</p>
+<p>	http.open("GET", "/button" + "count.asp?aid="+aid+"&r="+randomnumber);</p>
+<p>	http.onreadystatechange=function() {</p>
+<p>	  if(http.readyState == 4) {</p>
+<p>		var done=1;</p>
+<p>		// document.write(http.responseText);</p>
+<p>	  }</p>
+<p>	}</p>
+<p>	http.send(null);</p>
+<p>	return null;</p>
+<p>}</p>
+<p>27,598Property</p>
+<p>11,481Cars</p>
+<p>2,637Jobs</p>
+<p>Ad Rates</p>
+<p>Submit Site</p>
+<p>Contact us</p>
+<p>Temp: 5°C</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn/3.0/975/2194175/0/0/ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>');</p>
+<p>  Northern Ireland News</p>
+<p>15 December 2011RVH Critical Care Facility 'Topped Out'There may be ongoing change on the way health and social services are being delivered, but investment continues with a new Critical Care Building nearing completion at the Royal Hospitals site in west Belfast.</p>
+<p>Speaking today, the NI Health Minister Edwin Poots has said all patients will benefit from a new £152m state-of-the-art building, with modern fit for purpose facilities.The Minister was speaking as he took part in a 'topping out' ceremony at the new Critical Care Building at the Royal Victoria Hospital (RVH).He said: "This new building is a much needed project and these new facilities will benefit from the latest innovations in design and technology and provide regional emergency and trauma services to some of the most severely injured people in Northern Ireland."The first six floors of the building will include an emergency department, main theatres and an adult critical care unit. The top three floors will house postnatal beds and maternity outpatients.DUP MLA and Executive Minister Poots added: "Along with a new maternity building to include delivery theatres, antenatal beds, birthing rooms and a neonatal unit, linked to the Critical Care Building, the construction will also permit the delivery of first class regional maternity services in Northern Ireland."document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn/3.0/975/2221857/0/0/ADTECH;loc=100;target=_blank;grp=[group];misc='+new Date().getTime()+'"></scri'+'pt>'); He added that construction of the Critical Care Building is due to be completed in 2012, with the new linked Maternity building due for completion in 2014. The proposed Children's hospital will be delivered as a separate project.This is the third major project in the Royal Victoria Hospital redevelopment programme. Phase 1, the main hospital building was completed in 2006 and Phase 2a, the Imaging Centre was completed in 2007.The investment comes at a time of dramatic change as it emerged on Tuesday that a major review of the health service is at an advanced stage.Edwin Poots said the review, by John Compton, was expected to be the biggest in recent years and has been forecast to be controversial and radical.The report's view is that it is likely only to be possible to provide resilient, sustainable major acute services on five to seven sites.This is one of the 99 recommendations - and the one most likely to trigger debate - as it means a huge reduction in the number of hospitals.The review suggests the current number could be cut from 10 as early as 2016 leaving as few as five - at worst - by that time.DUP Minister Edwin Poots said in the Assembly that 'Transforming Your Care, A Review of Health and Social Care' contains a compelling set of proposals for the future of health and social care services in Northern Ireland.However, it is at cost, as elsewhere, the SDLP South Down MLA Karen McKevitt said any subsequent downgrading of the status of Daisy Hill in Newry as a full-service acute hospital would make delivery of a coherent and consistent health service impossible.Commenting on the Compton report which recommends cutting acute hospitals from ten to five, she said: "It is very important that acute services and particularly A&E are located on the basis of operational rather than administrative requirements. "The consequences for my own constituency would be terrible as a glance at the map will show. How on earth could A&E cover from Belfast or Craigavon stretch out to Kilkeel or Attical?"Daisy Hill is in fact ideally placed to become the focal point of cross-border co-operation on acute services and it is in that context that we need to debate the reconfiguration of the health service," she said, yesterday.See: Hospital Sites 'Facing 50% Cut'(BMcC)</p>
+<p>var addthis_config = {"data_track_clickback":true};</p>
+<p>Top 10 Northern Ireland News Stories15 December 2011'Worthwhile Discussions' On Corporation Tax15 December 2011UDR 'Courageous' Says Donaldson15 December 2011Women Left 'Shaken' After Shooting15 December 2011RVH Critical Care Facility 'Topped Out'15 December 2011'Collusive Behaviour' In Miami Massacre: HET15 December 2011Magherafelt Draft Plan Launched15 December 2011Flout Fire Safety Rules 'At Your Peril'15 December 2011Cancer Foundation 'Sets New Record'15 December 2011£2.9m Upgrade For Antrim Station 14 December 2011BMA Cautious On Planned ChangesSubmit a news itemNews Archive</p>
+<p>'Worthwhile Discussions' On Corporation TaxUDR 'Courageous' Says DonaldsonWomen Left 'Shaken' After ShootingRVH Critical Care Facility 'Topped Out''Collusive Behaviour' In Miami Massacre: HETMagherafelt Draft Plan LaunchedFlout Fire Safety Rules 'At Your Peril'Cancer Foundation 'Sets New Record'£2.9m Upgrade For Antrim Station BMA Cautious On Planned ChangesOther NI News In Brief</p>
+<p>Cameron To Target Troubled Families Wrong Drug Story 'Alarmist'Gov To Scrap Driver Licence PapersAmerican Flag Lowered In BaghdadOpposition Fails To Halt Huge Badger CullRailway Workers Campaign Against ClosuresNewcastle Appeal For 'Racist' Away FanMinister Visits Newcastle Ahead Of DevolutionFossil Fuel Costs Not Green Tech Causing HikesUK Unemployment Up By 128k Since OctoberOther News In Brief</p>
+<p>NEWS ARCHIVE</p>
+<p>CONTACT 4NI</p>
+<p>CUSTOMER LOGIN</p>
+<p>Car Insurance Northern Ireland</p>
+<p>WEBMASTER RESOURCES</p>
+<p>WHATS NEW</p>
+<p>ADVERTISING OPPORTUNITIES</p>
+<p>4ni - Northern Ireland on the Internet4ie - Ireland on the Internet</p>
+<p>Flagship Media Group Ltd, </p>
+<p>Unit C3, 6 Westbank Drive,</p>
+<p>Belfast,</p>
+<p>BT3 9LA, </p>
+<p>Northern Ireland </p>
+<p>Tel : (028) 90319008 </p>
+<p>Contact : Click Here</p>
+<p>        </p>
+<p>	        VER= yyz00000007 x yyz000000w51</p>
+<p>	         0</p>
+<p>	          Time=0.015625,</p>
+<p>	         DT=15/12/2011 18:36:37,</p>
+<p>	         4075, 47069, 51144, J4243, 193.55.130.208, </p>
+<p>	        ActAdSet=5,</p>
+<p>	         AdsetForTime=,</p>
+<p>	         Setforthisrotation=5,Banner=4, AT=1</p>
+<p>	         Staticset=,</p>
+<p>	         </p>
+<p>        </p>
+<p>There may be ongoing change on the way health and social services are being delivered, but investment continues with a new Critical Care Building nearing completion at the Royal Hospitals site in west..</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>var pageTracker = _gat._getTracker("UA-569416-3");</p>
+<p>pageTracker._initData();</p>
+<p>pageTracker._trackPageview();</p>

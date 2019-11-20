@@ -1,0 +1,194 @@
+<p> </p>
+<p>Urlop macierzyński i ojcowski w 2012 roku > Prawo pracy</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('.KtAgjSYa7SKssex4o3R5be_TF6YjLharQTdmeEsMH3.97');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'prawo', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_prawo");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_big_board_board1_prawo");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 226;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_prawo");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_prawo");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Prawo, finanse</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_prawo");</p>
+<p>	</p>
+<p>Prawo i finanse</p>
+<p>Uroda Moda Zdrowie Seks Lifestyle</p>
+<p>Ślub Dziecko Dom więcej</p>
+<p>Prawo rodzinnePrawo spadkowePrawo cywilnePrawo pracyPrawo karneUbezpieczeniaInwestycjePoradnik finansowy </p>
+<p>Prawo i finansePrawo pracyUrlop macierzyński i ojcowski w 2012 roku </p>
+<p>	</p>
+<p>	var WinWidth = $(window).width();</p>
+<p>	</p>
+<p>	if(document.screening == 0 && WinWidth >= 1356){</p>
+<p>	GA_googleFillSlot("we2_sky1_sky1_prawo");	</p>
+<p>	}</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_prawo");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_prawo");</p>
+<p>Prawo pracy04 Sty 2012kom. (0)138Sylwia MikołajczakUrlop macierzyński i ojcowski w 2012 roku</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_prawo");</p>
+<p>Początek 2012 roku przyniósł nowe przepisy w zakresie kodeksu pracy. Od 1 stycznia każda mama będzie mogła dłużej przebywać ze swoją pociechą, gdyż wydłużone zostanie prawo do dodatkowego urlopu macierzyńskiego.</p>
+<p>	Urlop macierzyński dzieli się na urlop podstawowy i urlop dodatkowy. Podstawowy urlop macierzyński wynosi 20 tygodni po urodzeniu jednego dziecka, 31 tygodni po urodzeniu bliźniąt. Po urodzeniu każdego kolejnego dziecka urlop ten przedłuża się o kolejne 2 tygodnie, do 37 tygodni po urodzeniu pięciorga lub więcej dzieci.</p>
+<p>	Przebywać na urlopie macierzyńskim, a raczej ojcowskim, może również tata dziecka, niemniej jednak muszą być spełnione określone warunki:</p>
+<p>		matka musi mieć prawo do urlopu macierzyńskiego, jeśli nie jest zatrudniona na podstawie umowy o pracę i nie przysługuje jej urlop macierzyński, to również ojciec dziecka nie będzie mógł skorzystać z urlopu macierzyńskiego po matce dziecka</p>
+<p>		matka musi przebywać na urlopie macierzyńskim minimum 14 tygodni, wówczas może zrezygnować z przysługującej jej dalszej części urlopu na rzecz ojca dziecka</p>
+<p>	Od 1 stycznia 2012 roku wydłużone zostały urlopy dodatkowe macierzyńskie i ojcowskie. Obecnie wymiar macierzyńskiego wynosi 4 tygodnie (do końca 2011 roku wynosił 2 tygodnie) przy urodzeniu jednego dziecka i 6 tygodni przy urodzeniu dwójki lub więcej (dotychczas przysługiwały 4 tygodnie). Dodatkowy urlop ojcowski natomiast przedłużony został o tydzień i wynosi teraz 2 tygodnie.</p>
+<p>	Dzień porodu automatycznie rozpoczyna urlop macierzyński podstawowy. W przypadku chęci wystąpienia o urlop dodatkowy, rodzic musi złożyć odpowiedni wniosek do pracodawcy, nie później niż na 7 dni przed zakończeniem urlopu podstawowego.</p>
+<p>	Przypomnijmy, że prawo do urlopu macierzyńskiego przysługuje każdej osobie, która w trakcie trwania stosunku pracy urodziła dziecko. Z prawa do urlopu macierzyńskiego nie mogą jednak korzystać osoby zatrudnione na podstawie umowy o dzieło czy umowy zlecenia. </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_prawo");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_prawo");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123455.00/1  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Prawo pracy</p>
+<p>		Kiedy po zasiłek przedemerytalny?	</p>
+<p>	W Polsce ciężko znaleźć zatrudnienie ludziom młodym, a co...</p>
+<p>	</p>
+<p>		Umowa na czas nieokreślony	</p>
+<p>		Odwołanie od wypowiedzenia umowy o pracę	</p>
+<p>		Wolontariat	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Tagi</p>
+<p>przepisy</p>
+<p>prawo pracy</p>
+<p>pracownik</p>
+<p>urlop macierzyński</p>
+<p>kodeks pracy</p>
+<p>urlop ojcowski</p>
+<p>ojcowskie</p>
+<p>wymiar urlopu macierzyńskiego</p>
+<p>podstawowy urlop</p>
+<p>macierzyńskie</p>
+<p>pracownica</p>
+<p>urlop dodatkowy</p>
+<p>tacierzyńskie</p>
+<p>Skomentuj Urlop macierzyński i ojcowski w 2012 rokufunction valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (0) - Urlop macierzyński i ojcowski w 2012 rokuBrak komentarzy do Urlop macierzyński i ojcowski w 2012... - rozpocznij dyskusję i dodaj komentarz</p>
+<p>Podobne do Urlop macierzyński i ojcowski w 2012 rokuUrlop macierzyńskiUrlop macierzyński ustanowiony został ze względu na zapewnienie ochrony zdrowia kobiet w ostatnim okresie ciąży, jak również tuż po porodzie. Ma on również zapewnić świeżo upieczonej mamie możliwość zapewnienia opieki...więcej3.29/ 713313Skomentuj  (28)Urlop wychowawczy, tak czy nie?Po tym, jak świeżo upieczona mamusia kończy urlop macierzyński pojawia się dylemat, iść na urlop wychowawczy, czy wrócić do pracy?więcej0.00/ 0347Skomentuj  (0)Dzień Ojca - ojcowskie przywileje w...W czwartek 23 czerwca w całej Polsce obchodzony będzie Dzień Ojca. Skąd wziął się ten dzień i jakie przywileje w Kodeksie Pracy przysługują obecnym tatusiom?więcej4.00/ 1399Skomentuj  (1)Macierzyństwo - zasiłki od A do ZKażda aktywna zawodowo mama, oprócz ogromnego przypływu szczęścia związanego z faktem narodzin dziecka, doświadcza także wielu innych przywilejów. Jednym z nich jest zasiłek macierzyński. Jednak aby go otrzymać,...więcej0.00/ 0761Skomentuj  (1)Zasiłek macierzyńskiZasiłek macierzyński przysługuje pracownicy, która w okresie ubezpieczenia chorobowego lub w okresie urlopu wychowawczego : urodziła dziecko,...więcej0.00/ 01573Skomentuj  (1)Udany urlopPo całym roku ciężkiej pracy nadeszło lato, a wraz z nim upragniony, długo wyczekiwany urlop. Urlop to dla wszystkich zapracowanych jedna z najpiękniejszych rzeczy na świecie. Pewnie już od dawna masz wszystko...więcej0.00/ 0188Skomentuj  (2)Gdzie po "becikowe"?Już 1 listopada 2009 wejdą w życie nowe zasady wypłacania "becikowego". Aby otrzymać jednorazową zapomogę, kobieta będzie zobowiązana przedstawić dokument potwierdzający korzystanie z opieki lekarskiej od 10 tygodnia...więcej2.33/ 3123Skomentuj  (1)Zobacz podobne do Urlop macierzyński i ojcowski w 2012...</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_prawo");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_prawo");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_prawo");</p>
+<p>GA_googleFillSlot("we2_column1_art1_prawo");</p>
+<p>	</p>
+<p>Kredyt konsolidacyjny na spłatę kredytu...Kredyt na zakup nieruchomości za granicąKredyt hipoteczny a SIII</p>
+<p>Wydania We2.plwięcej »05StyModna czerń i czerwień oraz Karnawałowe fryzury 2012</p>
+<p>Gorące tematyPopularneKomentowaneNoweWork-life balance - zadbaj o swój życiowy biznesplan!Kredyt hipoteczny a brak polskiego obywatelstwaKredyt konsolidacyjny na spłatę kredytu hipotecznegoKredyt hipoteczny - Rekomendacja S.Nieterminowa spłata kredytu hipotecznegoPrzeniesienie kredytu do innego banku</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_prawo");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_prawo");</p>
+<p>Galerie Makijaż wieczorowy oczu - karnawał 2011Motywy orientalne - jesienno-zimowa...Damskie żakiety Reserved - kolekcja...Tatuum - kolekcja wieczorowa 2011 Popularne zdjęciaModne fryzuryFryzury - krótkie włosyObuwie damskieSzpilki Stradivarius na jesień i zimę 2011/12więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródProjektanci, styliściSzkoła Stylu Moniki JaruzelskiejLivingart.pl - oryginalne prezenty,...STUDIO FOTO-POZYTYW Tomasz Biernat -...</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_prawo");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_prawo");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_prawo");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.16.1.1','');</p>
+<p>bmone2n.addPosition('177.16.2.2','');</p>
+<p>bmone2n.addPosition('177.16.7.3','');</p>
+<p>bmone2n.addPosition('177.16.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.16.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.16.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.16.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.16.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

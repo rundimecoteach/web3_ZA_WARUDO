@@ -1,0 +1,565 @@
+<p>Бельгийка хочет продать метеорит, упавший близ ее дома :  Голос России</p>
+<p>	window.apiHome = '//rus.ruvr.ru/';</p>
+<p>	window.LANG = "rus";</p>
+<p>  </p>
+<p>var img = new Image();</p>
+<p>img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*ruvr_ru/ru/CP1251/tmsec=ruvr_total/';</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-9512721-40']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>×</p>
+<p>Радио:</p>
+<p>				</p>
+<p>Прямой эфир</p>
+<p>Выпуск новостей</p>
+<p>10:00</p>
+<p>   $(function() {</p>
+<p>     $('#pleer-item-radio-last-news').on('click', function(event){</p>
+<p>	var el = $(this);</p>
+<p>	el.off('click');</p>
+<p>	window.player2 = vrplayer('pleer-item-radio-last-news-player').setup({</p>
+<p>		'file'		: el.data('mediafile'),</p>
+<p>		'width'		: '260',</p>
+<p>		'height'	: '25',</p>
+<p>		'simple'	: true,</p>
+<p>		'autostart'	: true,</p>
+<p>//		'timetext'	: $('#current_radio').html(),</p>
+<p>		'modes'		: [</p>
+<p>			{'type':'html5'},</p>
+<p>			{'type':'flash', src:'/img/player-1.0/js/vrplayer.flash.swf'}</p>
+<p>		]</p>
+<p>	});</p>
+<p>     });</p>
+<p>   });</p>
+<p>                  Выбор языка</p>
+<p>                </p>
+<p>Английский English</p>
+<p>Английский English (Ind)</p>
+<p>Арабский عربي</p>
+<p>Албанский Shqip</p>
+<p>Бенгальский বাংলা</p>
+<p>Болгарский Български</p>
+<p>Венгерский Magyar</p>
+<p>Вьетнамский Tiếng Việt</p>
+<p>Греческий Ελληνικά</p>
+<p>Дари دری</p>
+<p>Испанский Español</p>
+<p>Итальянский Italiano</p>
+<p>Китайский 中文</p>
+<p>Корейский 조선어</p>
+<p>Курдский Kurdî</p>
+<p>Монгольский Монгол</p>
+<p>Немецкий Deutsch</p>
+<p>Норвежский Norsk</p>
+<p>Персидский فارسی</p>
+<p>Польский Polska</p>
+<p>Португальский Português</p>
+<p>Пушту پښتو</p>
+<p>Румынский Română</p>
+<p>Русский Русский</p>
+<p>Сербский Српски</p>
+<p>Словацкий Slovenčina</p>
+<p>Турецкий Türkçe</p>
+<p>Урду اردو</p>
+<p>Финский Suomen</p>
+<p>Французский Français</p>
+<p>Хинди हिन्दी</p>
+<p>Чешский Čeština</p>
+<p>Шведский Svenska</p>
+<p>Японский 日本語</p>
+<p>Региональные версии</p>
+<p>American Edition of the "Voice of Russia"</p>
+<p>UK Edition of the “Voice of Russia”</p>
+<p>Rusya'nın Sesi'nin Türkçe versiyonu</p>
+<p>Наши проекты</p>
+<p>Голос Столицi</p>
+<p>Diario Da Russia</p>
+<p>ProRussia.tv</p>
+<p>Вход</p>
+<p>Выйти</p>
+<p>Вход</p>
+<p>Зарегистрироваться</p>
+<p>Через социальные сети</p>
+<p>Вход с паролем</p>
+<p>Почта</p>
+<p>Пароль</p>
+<p>Забыли?</p>
+<p>  var login_destination;</p>
+<p>  $(function() {</p>
+<p>    check_user();</p>
+<p>    var match = document.location.hash.match(/^#?login\?goto=(.*)$/ );</p>
+<p>    if(match) { </p>
+<p>        login_destination = "/" + match[1];</p>
+<p>	$('#nouserF').click(); </p>
+<p>    }</p>
+<p>  }); </p>
+<p>  function onlogin_handler(user) {</p>
+<p>    var callback = $("#popup-placeholder").data('onlogin');</p>
+<p>    if(callback) { </p>
+<p>	callback(user);</p>
+<p>	$("#popup-placeholder").data('onlogin', null);</p>
+<p>    }	</p>
+<p>  }</p>
+<p>  function _openForm(form) { </p>
+<p>	if(!window.loaded_forms) window.loaded_forms={};</p>
+<p>        var wform = window.loaded_forms[form];</p>
+<p>	var place = $("#popup-placeholder");</p>
+<p>	if( wform) {</p>
+<p>	    place.html(wform);</p>
+<p>	    if(window['initialize_' + form]) window['initialize_' + form](place);</p>
+<p>	} else { </p>
+<p>/*</p>
+<p>	    wajax('getHTML/' + form, {},'GET', {dataType:'html'}, function(r) { </p>
+<p>		window.loaded_forms[form] =  r;</p>
+<p>		place.html(r);</p>
+<p>		if(window['initialize_' + form]) window['initialize_' + form](place); </p>
+<p>	    });</p>
+<p>*/</p>
+<p>            wajax('getCTPP/' + form, {},'GET', {dataType:'html'}, function(r) {</p>
+<p>                window.loaded_forms[form] =  r;                                </p>
+<p>                place.html(r);                                                 </p>
+<p>                if(window['initialize_' + form]) window['initialize_' + form](place); </p>
+<p>            });</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>  }</p>
+<p>  function user_logout() {</p>
+<p>    wajax('logout',{},'POST',{}, function(r) {</p>
+<p>        </p>
+<p>                $('#nouserF').show();</p>
+<p>                $('#userF').hide();</p>
+<p>                $('#user').html('');</p>
+<p>        </p>
+<p>    });</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>Поезд сошел с рельсов на юге Индии: два человека погибли, более 50 ранены</p>
+<p>   $(function() {</p>
+<p>      setTimeout('update_comments_count()',200);</p>
+<p>      setTimeout(function() { update_radio_issue('Прямой эфир')},200);</p>
+<p>      $('#current_radio').click(function() {</p>
+<p>         window.player = vrplayer('current_radio').setup({</p>
+<p>            'file':'http://audio1.ipercast.net/condensa.ru/radio25/mp3',</p>
+<p>            'type':'sound',</p>
+<p>            'width':'300',</p>
+<p>            'height':'25',</p>
+<p>            'simple':true,</p>
+<p>            'timetext': $('#current_radio').html(),</p>
+<p>            'modes':[</p>
+<p>                {'type':'html5'},</p>
+<p>                {'type':'flash', src:'/img/player-1.0/js/vrplayer.flash.swf'}</p>
+<p>            ],</p>
+<p>            'autostart': true</p>
+<p>         });</p>
+<p>         $('#open-player').css('display', 'block');</p>
+<p>      });</p>
+<p>      $('#open-player').click(function() {</p>
+<p>         if(window.player && player.getState() == "PLAYING")</p>
+<p>            window.player.stop();</p>
+<p>         window.open("/play/", "vrplayer", "width=404,height=240,menubar=no,toolbar=no,location=no,directories=no,status=no,resizable=yes,scrollbars=no");</p>
+<p>         return false;</p>
+<p>      });</p>
+<p>   });</p>
+<p>Главное  </p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>Культура</p>
+<p>Спорт</p>
+<p>Экс-СССР </p>
+<p>Комментарии</p>
+<p>Видео</p>
+<p>Передачи</p>
+<p>Фото</p>
+<p>Сюжеты</p>
+<p>                Выборы в Венесуэле</p>
+<p>              </p>
+<p>‍</p>
+<p>В Венесуэле запретят продажу алкоголя на период проведения выборов</p>
+<p>                Банковский кризис на Кипре</p>
+<p>              </p>
+<p>‍</p>
+<p>Кипру не хватает 75 млн евро на государственные нужды</p>
+<p>                Умерла Маргарет Тэтчер</p>
+<p>              </p>
+<p>‍</p>
+<p>Кремль: РФ не будет официально представлена на похоронах Маргарет Тэтчер</p>
+<p>Новотека</p>
+<p>Загружается, подождите...</p>
+<p>Новости партнеров</p>
+<p>adnews.rambler.ru</p>
+<p>Загружается, подождите...</p>
+<p>Главное  </p>
+<p>КНДР в ближайшие часы может запустить сразу несколько ракет</p>
+<p>Пуск баллистической ракеты среднего радиуса действия с восточного побережья КНДР может произойти в любой момент, считает администрация США. Не исключено, что ракет может быть несколько. Заправка двух ракет топливом уже завершена (ВИДЕО)</p>
+<p>Сегодня, 7:37</p>
+<p>Польша вспоминает жертв авиакатастрофы под Смоленском</p>
+<p>Три года исполось со дня авиакатастрофы под Смоленском, в которой погибло высшее руководство Польши. Сторонники покойного президента Леха Качиньского соберутся у президентского дворца в центре Варшавы для молитвы и многотысячного траурного митинга</p>
+<p>Сегодня, 8:59</p>
+<p>Похороны Маргарет Тэтчер будут скромными</p>
+<p>Решен вопрос о том, какой статус будут иметь похороны Маргарет Тэтчер. Государственных похорон не будет. Елизавета II дала согласие на проведение "церемониальных похорон" Маргарет Тэтчер. Церемония будет скромной, хотя и пройдет с соблюдением таких же церемоний, как при погребении принцессы Дианы и других королевских особ</p>
+<p>Сегодня, 8:15</p>
+<p>Политика</p>
+<p>СМИ: Гватемала признала Палестину суверенным и независимым государством</p>
+<p>Гватемала признала независимость Палестины, выразив надежду, что этот шаг поможет установлению мира на Ближнем Востоке, передает в среду агентство Франс Пресс</p>
+<p>Сегодня, 10:20</p>
+<p>Лавров примет участие во встрече глав МИД "восьмерки" в Лондоне</p>
+<p>Глава МИД РФ Сергей Лавров отправляется в Лондон, где примет участие во встрече министров иностранных дел "восьмерки", ключевые темы предстоящих бесед - ситуация на Ближнем Востоке, вокруг Ирана и КНДР</p>
+<p>Сегодня, 9:49</p>
+<p>Шувалов: "Москва не против участия китайского капитала в добыче ресурсов в РФ"</p>
+<p>Россия намерена предложить инвесторам из КНР ряд совместных проектов, в том числе готова обсуждать участие китайского капитала в добыче минеральных ресурсов на территории РФ, заявил первый вице-премьер РФ Игорь Шувалов в интервью китайским СМИ накануне визита делегации представителей российских ведомств и бизнеса в КНР</p>
+<p>Сегодня, 9:43</p>
+<p>Экономика</p>
+<p>Чем грозит Азии изменение климата?</p>
+<p>Всемирный банк предупредил страны Центральной Азии о катастрофических последствиях резкого изменения климата для сельского хозяйства. В будущем климатические проблемы будут влиять на мировую экономику все сильнее, говорят российские эксперты (АУДИО)</p>
+<p>Сегодня, 10:20</p>
+<p>СМИ: Noble Energy передала Кипру список инвесторов, заинтересованных в добыче кипрского газа</p>
+<p>Американская компания Noble Energy передала правительству Кипра список инвесторов, заинтересованных в разработке газовых месторождений на 12-м блоке кипрского шельфа. Об этом сообщил сегодня кипрский телеканал "Сигма"</p>
+<p>Сегодня, 10:07</p>
+<p>Цены на нефть меняются разнонаправлено на фоне роста запасов топлива в США</p>
+<p>Цены на нефть на мировых сырьевых биржах в среду, 10 апреля, меняются разнонаправлено на фоне увеличения запасов топлива в США</p>
+<p>Сегодня, 9:24</p>
+<p>Общество</p>
+<p>Ватикан потворствует интернет-пиратству?</p>
+<p>Информационный блог TorrentFreak исследовал историю загрузок на сайтах обмена файлов Интернет-пользователей из Ватикана и обнаружил, что заповедь "не укради" к пиратству жители крохотного государства не относят, а также не гнушаются просмотром тематической порнографии</p>
+<p>Сегодня, 10:26</p>
+<p>Ложная тревога о запуске северокорейских ракет вызвала панику в Японии</p>
+<p>Власти японского города Иокогама по ошибке объявили в социальных сетях, что КНДР осуществила ракетный запуск, вызвав панику в мегаполисе с населением в 3,7 миллиона человек</p>
+<p>Сегодня, 10:25</p>
+<p>Дискуссия со скандалом: в ООН обсудят роль международного правосудия</p>
+<p>В центре дискуссии будет "Роль международного правосудия в процессах примирения". Причиной для созыва дебатов стало решение МТБЮ, который признал невиновными двух хорватских генералов, обвинявшихся в преступлениях против сербов </p>
+<p>Сегодня, 10:12</p>
+<p>Культура</p>
+<p>Наряды российских императриц представлены на выставке в Москве</p>
+<p>В 2013 году в России отмечается 400-летие императорского Дома Романовых. К этой дате организаторы выставки "Российские императрицы: Мода и Стиль. Конец XVIII – начало XX века" подготовили необычную экспозицию. В Выставочном зале федеральных архивов представлены наряды, которые некогда украшали августейших особ (ФОТО)</p>
+<p>Вчера, 12:41</p>
+<p>Магнат Лаудер подарил музею в Нью-Йорке коллекцию работ кубистов стоимостью $1 млрд</p>
+<p>Почетный председатель косметической империи Estee Lauder, американский миллиардер Леонард Лаудер передал нью-йоркскому музею Metropolitan коллекцию работ в стиле кубизма стоимостью около миллиарда долларов, передает в среду интернет-портал издания New York Times</p>
+<p>Сегодня, 9:49</p>
+<p>В Нью-Йорке прошла презентация книги о Сталинградской битве</p>
+<p>В Нью-Йорке прошла презентация книги "Сталинград: сити оф стил" /Stalingrad: The City of Steel/ под редакцией Натальи Нарочницкой. Знакомство с одним из ведущих российских политологов и автором предисловия издания, подготовленным Фондом исторической перспективы, состоялось в престижном манхэттенском "Хантер-колледже"</p>
+<p>Сегодня, 8:32</p>
+<p>Спорт</p>
+<p>Рапирист Бакиров завоевал бронзу на первенстве мира среди кадетов</p>
+<p>Российский рапирист Марат Бакиров занял третье место на чемпионате мира по фехтованию среди кадетов в хорватском Порече</p>
+<p>Сегодня, 2:35</p>
+<p>Хоккеистки сборной России стали бронзовыми призерами чемпионата мира</p>
+<p>Сегодня, 2:29</p>
+<p>Российские хоккеистки выиграли бронзу чемпионат мира</p>
+<p>Женская сборная России по хоккею во второй раз в своей истории завоевала бронзовую медаль чемпионата мира. В матче за третье место, состоявшемся в Оттаве, наша команда взяла верх над Финляндией со счетом 2:0 (0:0, 0:0, 2:0).</p>
+<p>Сегодня, 2:18</p>
+<p>Экс-СССР </p>
+<p>Михаил Саакашвили: упал, потерял сознание, очнулся - гипс ("Акценты")</p>
+<p>Президент Грузии после страны не справился еще и с управлением велосипедом</p>
+<p>Вчера, 20:46</p>
+<p>Серж Саргсян стал двукратным президентом Армении ("Акценты")</p>
+<p>9 апреля в Ереване глава государства повторно вступил в должность</p>
+<p>Вчера, 19:15</p>
+<p>Узбекских режиссеров и актеров накажут за кино про бедность</p>
+<p>Чиновник администрации президента Узбекистана обрушился с критикой на работников киноиндустрии, обвинив их в том, что они снимают нищие кишлаки</p>
+<p>Вчера, 19:13</p>
+<p>Комментарии</p>
+<p>Европарламент: кто водит рукой депутата?</p>
+<p>Как сообщили на днях немецкие СМИ, независимый депутат Европарламента от Австрии Ханс-Петер Мартин собрал и обнародовал все предложения, которые поступили к нему от разного рода лоббистов за последние 2 года</p>
+<p>Вчера, 15:19</p>
+<p>О пользе зеркала</p>
+<p>Для кого закон не писан? Русская пословица гласит, что для дураков. Однако жизнь заставляет внести в это правило поправки. В Госдепартаменте США люди опытные, и они хорошо знают об основополагающем принципе международного права, запрещающем вмешательство одного государства во внутренние дела другого суверенного государства</p>
+<p>Вчера, 11:58</p>
+<p>Переговоры между Ираном и "шестеркой" в Алма-Ате: провал или разминка?</p>
+<p>Глава дипломатии ЕС Кэтрин Эштон по итогам переговоров заявила: "встреча была конструктивна". Представитель МИД РФ Сергей Рябков: "переговоры были интенсивные и глубокие". Глава иранской делегации Саид Джалили: "переговоры были успешными". Однако реальных сдвигов в решении ядерной проблемы Ирана не произошло</p>
+<p>8 апреля, 16:05</p>
+<p>Видео</p>
+<p>Шоу японских барабанщиков в Москве</p>
+<p>Михаил Маркелов: «Религиозным чувствам граждан нужна защита» (ВИДЕО)</p>
+<p>Константин Сивков: «Каприлес очень привлекателен, но народ Венесуэлы неглуп»</p>
+<p>ЭКСПО-2020: Екатеринбург - город будущего </p>
+<p>"Последние века Россия придерживалась независимого курса"</p>
+<p>Кирилл Кабанов: «Наше общество само разрешило коррупцию»</p>
+<p>Передачи</p>
+<p>"Твердое пламя" ("Голос науки")</p>
+<p>Российские специалисты придумали использование технологии "твердого пламени"</p>
+<p>Вчера, 10:48</p>
+<p>Укротители скорости</p>
+<p>Кто в России быстро ездит? Какие перспективы у автоспорта, и есть ли они? А также специальный репортаж о том, как стать пилотом, не отходя от клавиатуры компьютера</p>
+<p>8 апреля, 10:48</p>
+<p>Русская философия для скандинава</p>
+<p>Он искал это по всей Европе, а нашел в России</p>
+<p>6 апреля, 13:25</p>
+<p>Фото</p>
+<p>			    Бейонсе - "кубинская сенсация" апреля</p>
+<p>                          </p>
+<p>Вчера, 17:44</p>
+<p>			    Смерть Маргарет Тэтчер расколола Великобританию</p>
+<p>                          </p>
+<p>Вчера, 16:20</p>
+<p>			    Федор Конюхов укрепляет авторитет России на Северном полюсе </p>
+<p>                          </p>
+<p>Вчера, 15:09</p>
+<p>5 января 2012, 14:31</p>
+<p>0</p>
+<p>Бельгийка хочет продать метеорит, упавший близ ее дома</p>
+<p>	</p>
+<p>	    </p>
+<p> Жительница бельгийской провинции Валлонский Брабант намерена продать метеорит, упавший близ ее дома, сообщила в четверг брюссельская радиостанция. По словам женщины, тело космического происхождения весом два килограмма упало в ночь на минувшую пятницу в одном метре от ее жилища.  Для проверки того, является ли камень метеоритом, бельгийка использовала магнит, который был сразу же притянут космическим телом.</p>
+<p>0Жительница бельгийской провинции Валлонский Брабант намерена продать метеорит, упавший близ ее дома, сообщила в четверг брюссельская радиостанция. По словам женщины, тело космического происхождения весом два килограмма упало в ночь на минувшую пятницу в одном метре от ее жилища.0Для проверки того, является ли камень метеоритом, бельгийка использовала магнит, который был сразу же притянут космическим телом.0В случае подтверждения по результатам официальной экспертизы, что камень действительно является метеоритом, женщина намерена продать его тому, кто предложит наибольшую цену, сообщает РИА Новости.</p>
+<p>аукцион, Бельгия, метеорит</p>
+<p>.article-share .social-link__twitter{width:100px;}</p>
+<p>.article-share .social-link__gp{width:60px;}</p>
+<p>Поделиться:</p>
+<p>Tweet</p>
+<p><!--             </p>
+<p>document.write   </p>
+<p>(VK.Share.button </p>
+<p>        ({       </p>
+<p>                url: 'http://rus.ruvr.ru/2012/01/05/63421951.html',</p>
+<p>                title: 'Бельгийка хочет продать метеорит, упавший близ ее дома',</p>
+<p>                description: ' Жительница бельгийской провинции Валлонский Брабант намерена продать метеорит, упавший близ ее дома, сообщила в четверг брюссельская радиостанция. По словам женщины, тело космического происхождения весом два килограмма упало в ночь на минувшую пятницу в одном метре от ее жилища.  Для проверки того, является ли камень метеоритом, бельгийка использовала магнит, который был сразу же притянут космическим телом.',</p>
+<p>                noparse: true</p>
+<p>        },       </p>
+<p>        {        </p>
+<p>                type: 'custom', text: "<img style=\"height: 20px !important\" src=\"http://vk.com/images/vk32.png?1\" />"</p>
+<p>        })       </p>
+<p>);               </p>
+<p>// -->           </p>
+<p>  window.___gcfg = {lang: 'RU'};</p>
+<p>                 </p>
+<p>  (function() {  </p>
+<p>    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>    po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>  })();          </p>
+<p>                        var addthis_config = {</p>
+<p>                                services_exclude: 'facebook, twitter, vk, google_plusone'</p>
+<p>                        }</p>
+<p>                </p>
+<p>Комментарии</p>
+<p>0</p>
+<p>                        По теме</p>
+<p>                        </p>
+<p>                      </p>
+<p>Еврокомиссия не утвердила проект бюджета Бельгии на 2012 год</p>
+<p>  </p>
+<p>Северное полушарие ожидает метеоритный ливень</p>
+<p>  </p>
+<p>Очевидцы сняли падение горящего метеорита в Перу (видео)</p>
+<p>  </p>
+<p>Над Тихим океаном взорвался метеорит</p>
+<p>  </p>
+<p>Ученые нашли новое подтверждение метеоритной теории гибели динозавров</p>
+<p>  </p>
+<p>Ученые развенчали миф о НЛО и метеоритах</p>
+<p>  </p>
+<p>НАСА обнаружила в метеорите следы внеземной жизни</p>
+<p>  </p>
+<p>МЧС ищет под Иркутском НЛО или метеорит</p>
+<p>  </p>
+<p>  var msgs = {comments_noperm: 'У вас нет права оставлять комментарии', send_msg: 'Отправить', invalid_id: 'Неправильный id документа', notext: 'Не введен текст', anerror: 'Произошла ошибка', confirm_email: 'Подтвердите email!', operation_fail: 'При выполнении данной операции произошел сбой', cancel: 'отменить', sharein: 'Поделиться в', sn_connection_lost: 'Потеряно соединение с социальной сетью', try_again: 'Попробовать еще раз', and_sharein: 'и поделиться в', operation_fail_retry: 'При выполнении операции произошел сбой, попробуйте еще раз через несколько минут' };</p>
+<p>  $(function() { </p>
+<p>	$('a.article-commented-link').click(function() { </p>
+<p>		//alert('комментарий к абзацу ' + this.parentNode.id + ' док. 63421951');</p>
+<p>                comment_form(this.parentNode, 63421951,  this.parentNode.id, msgs)</p>
+<p>		return false;</p>
+<p>	});</p>
+<p>        $('span.article-comments-toggler').click(function() {</p>
+<p>            comment_form(this, 63421951, '', msgs)</p>
+<p>            return false; </p>
+<p>        });</p>
+<p>        $('span.article-comments-toggler').each(function() {</p>
+<p>            comment_form(this, 63421951, '', msgs)</p>
+<p>        });       </p>
+<p>  });</p>
+<p>Новости</p>
+<p>Ложная тревога о запуске северокорейских ракет вызвала панику в Японии</p>
+<p>10:25</p>
+<p>СМИ: Гватемала признала Палестину суверенным и независимым государством</p>
+<p>10:20</p>
+<p>Пакистан успешно испытал баллистическую ракету средней дальности</p>
+<p>10:09</p>
+<p>СМИ: Noble Energy передала Кипру список инвесторов, заинтересованных в добыче кипрского газа</p>
+<p>10:07</p>
+<p>Лавров примет участие во встрече глав МИД "восьмерки" в Лондоне</p>
+<p>9:49</p>
+<p>Магнат Лаудер подарил музею в Нью-Йорке коллекцию работ кубистов стоимостью $1 млрд</p>
+<p>9:49</p>
+<p>Поезд сошел с рельсов на юге Индии: два человека погибли, более 50 ранены</p>
+<p>9:43</p>
+<p>Шувалов: "Москва не против участия китайского капитала в добыче ресурсов в РФ"</p>
+<p>9:43</p>
+<p>В Нигерии начнется суд на российскими моряками</p>
+<p>9:43</p>
+<p>TEPCO усилила мониторинг на АЭС «Фукусима-1» в связи с утечками радиоактивной воды</p>
+<p>9:38</p>
+<p>Ваше мнение</p>
+<p>Соблюдаете ли Вы пост?</p>
+<p>Да, по всей строгости</p>
+<p>Да, но с послаблениями</p>
+<p>Не вижу в этом смысла</p>
+<p>Нет, здоровье не позволяет</p>
+<p>Результаты</p>
+<p>  $(document).ready(function(){</p>
+<p>      load_poll_results();</p>
+<p>      own_ans_block_toggle();</p>
+<p>  });</p>
+<p>.ruvr-bn-wrapper{margin-top:10px}</p>
+<p>.ruvr-bn-wrapper .ruvr-bn-item{display:block;position:relative;overflow:hidden;margin-bottom: 10px;}</p>
+<p>.ruvr-bn-wrapper.ruvr-bn-horizontal .ruvr-bn-item{float:left}</p>
+<p>.ruvr-bn-wrapper.ruvr-bn-horizontal .ruvr-bn-item div{padding-right:10px}</p>
+<p>.ruvr-bn-wrapper.ruvr-bn-horizontal .ruvr-bn-item:last-child div{padding-right:0}</p>
+<p>.ruvr-bn-item img{float:left;margin-right:10px}</p>
+<p>.ruvr-bn-item a {color:#235A8C;font-family: Verdana;font-size:12px;font-weight:normal;text-decoration:underline}</p>
+<p>.ruvr-bn-item a:hover{color:#007bea}</p>
+<p>.ruvr-bn-item div{margin-top:2px; display: inline;}</p>
+<p>.ruvr-bn-block-title{color:#FF0000;font-family:Verdana;font-size:12px;font-weight:bold;}</p>
+<p>.ruvr-bn-items{margin-top:8px}</p>
+<p>jQuery(document).ready(function(){</p>
+<p>      var RBanners = RuvrBanners(</p>
+<p>      {</p>
+<p>	  "placeholders": {</p>
+<p>		  ".external_banners": {</p>
+<p>			bannerplace:"1",</p>
+<p>			width:"300px",</p>
+<p>			height:"auto",</p>
+<p>			count:"5"</p>
+<p>                  }				  </p>
+<p>          }</p>
+<p>     });</p>
+<p>});</p>
+<p>Новости партнеров</p>
+<p>СМИ2	</p>
+<p>Новости СМИ2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/72078.js'; sc.charset = 'utf-8';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>ВЗГЛЯД</p>
+<p>// <!--</p>
+<p>var zrt_login = "rus_ruvr";</p>
+<p>var zrt_options = "options=NV";</p>
+<p>var zrt_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://txt.zarabotki.ru/cgi-bin/iframe/'+zrt_login+'?'+zrt_random+'&'+zrt_options+'&n=6&style=http://rus.ruvr.ru/images/static/reklama.css" width="100%" height="300" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://txt.zarabotki.ru/cgi-bin/href/'+zrt_login+'?'+zrt_random +'" target="_blank"><img src="http://txt.zarabotki.ru/cgi-bin/banner/'+zrt_login+'?'+zrt_random +'&'+zrt_options+'" alt="Zarabotki" width="300" height="300" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>if (typeof(afReferrer) == 'undefined') {</p>
+<p>afReferrer = escape(document.referrer);</p>
+<p>}</p>
+<p>} else {</p>
+<p>afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/3844/prepareCode?p1=bigb&p2=ehco&pct=a&pfc=a&pfb=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>//<![CDATA[ </p>
+<p>yandex_partner_id = 56305; </p>
+<p>yandex_site_bg_color = 'FFFFFF'; </p>
+<p>yandex_site_charset = 'windows-1251'; </p>
+<p>yandex_ad_format = 'direct'; </p>
+<p>yandex_font_size = 0.8; </p>
+<p>yandex_direct_type = 'vertical'; </p>
+<p>yandex_direct_border_type = 'block'; </p>
+<p>yandex_direct_limit = 3; </p>
+<p>yandex_direct_header_bg_color = 'FFFFFF'; </p>
+<p>yandex_direct_border_color = 'CCCCCC'; </p>
+<p>yandex_direct_title_color = '006699'; </p>
+<p>yandex_direct_url_color = '000000'; </p>
+<p>yandex_direct_all_color = '006699'; </p>
+<p>yandex_direct_text_color = '000000'; </p>
+<p>yandex_direct_hover_color = '006699'; </p>
+<p>yandex_direct_favicon = true; </p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>'); </p>
+<p>//]]> </p>
+<p> </p>
+<p> </p>
+<p>Загрузка...</p>
+<p>var MarketGidDate = new Date();</p>
+<p>document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>+'src="http://jsn.dt00.net/r/u/rus.ruvr.ru.9489.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+MarketGidDate.getDay()+MarketGidDate.getHours() + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p> </p>
+<p>© 2005—2013 РГРК «Голос России»</p>
+<p>                  Все права защищены. При полном или частичном использовании материалов ссылка на "Голос России" обязательна (в интернете — гиперссылка). Адрес электронной почты: letters@ruvr.ru.  </p>
+<p>                  </p>
+<p>                    18 +</p>
+<p>О проекте</p>
+<p>Контактная информация</p>
+<p>Наши вакансии</p>
+<p>Наши партнёры</p>
+<p>Размещение рекламы</p>
+<p>Фото</p>
+<p>Архив</p>
+<p>Видео</p>
+<p>Радио</p>
+<p>Поиск</p>
+<p>Все языки</p>
+<p>Почта: </p>
+<p>                  </p>
+<p>                    letters@ruvr.ru</p>
+<p>соцсети: </p>
+<p>                  </p>
+<p>window.spylog_js=1;window.spylog_js=1.1;window.spylog_js=1.2;window.spylog_js=1.3;window.spylog_js=1.4;window.spylog_js=1.5;window.spylog_js=1.6;window.spylog_js=1.7;window.spylog_js=1.8;window.spylog_js=1.9;</p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height;</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></p>
+<p><!--</p>
+<p>js=13;//--><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=1188751" target="_top">'+</p>
+<p>'<img src="http://d3.c2.b2.a1.top.mail.ru/counter?id=1188751;t=230;js='+js+</p>
+<p>a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+</p>
+<p>'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');//--></p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' "+</p>
+<p>"target=_blank><img src='//counter.yadro.ru/hit;ruvr_ru?t44.6;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";h"+escape(document.title.substring(0,80))+";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet' "+</p>
+<p>"border='0' width='31' height='31'><\/a>")</p>
+<p>//--></p>
+<p>(function (d, w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter14541928 = new Ya.Metrika({id:14541928,</p>
+<p>                    webvisor:true,</p>
+<p>                    clickmap:true,</p>
+<p>                    trackLinks:true,</p>
+<p>                    accurateTrackBounce:true});</p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>    var n = d.getElementsByTagName("script")[0],</p>
+<p>        s = d.createElement("script"),</p>
+<p>        f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>    if (w.opera == "[object Opera]") {</p>
+<p>        d.addEventListener("DOMContentLoaded", f, false);</p>
+<p>    } else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>
+<p>Новости</p>
+<p>СМИ: Гватемала признала Палестину суверенным и независимым государством</p>
+<p>10:20</p>
+<p>Пакистан успешно испытал баллистическую ракету средней дальности</p>
+<p>10:09</p>
+<p>СМИ: Noble Energy передала Кипру список инвесторов, заинтересованных в добыче кипрского газа</p>
+<p>10:07</p>
+<p>Магнат Лаудер подарил музею в Нью-Йорке коллекцию работ кубистов стоимостью $1 млрд</p>
+<p>9:49</p>
+<p>Шувалов: "Москва не против участия китайского капитала в добыче ресурсов в РФ"</p>
+<p>9:43</p>
+<p>Медведев примет участие в международной конференции "Диалог о будущем"</p>
+<p>9:33</p>
+<p>if (document.getElementById('smi2adblock_13162')){document.write('<script charset="windows-1251" type="text/javascript" src="http://js.smi2.ru/data/js/13162.js"><\/script>');}if (document.getElementById('smi2adblock_36236')){document.write('<script type="text/javascript" src="http://js.smi2.ru/data/js/36236.js"><\/script>');}if (document.getElementById('smi2adblock_8672')){document.write('<script charset="windows-1251" type="text/javascript" src="http://js.smi2.ru/data/js/8672.js"><\/script>');}</p>

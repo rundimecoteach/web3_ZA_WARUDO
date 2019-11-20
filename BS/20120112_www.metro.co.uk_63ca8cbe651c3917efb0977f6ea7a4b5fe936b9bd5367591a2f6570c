@@ -1,0 +1,242 @@
+<p>			var Window; // This fixes a Mootools conflict</p>
+<p>			document.write('<style type="text/css">.esi { display: none; }</style>'); // Hides the ESI included comments</p>
+<p>		Boring office environments make workers hit the booze</p>
+<p> | Metro.co.uk</p>
+<p>						var s_account="andmetroprod";</p>
+<p>					</p>
+<p>			MetroMootools.articleId = '887114';</p>
+<p>			MetroMootools.categories = [</p>
+<p>			'news/uk'</p>
+<p>			];</p>
+<p>			MetroMootools.channel = 'news';</p>
+<p>			MetroMootools.articleUrl = '/news/887114-boring-office-environments-make-workers-hit-the-booze';</p>
+<p>			MetroMootools.articleUrlFullCategory = '/news/887114-boring-office-environments-make-workers-hit-the-booze';</p>
+<p>			MetroMootools.articleHeadline = 'Boring office environments make workers hit the booze';</p>
+<p>			MetroMootools.facebookAppId = '176908729004638';</p>
+<p>            </p>
+<p><!--[CDATA[</p>
+<p>		</p>
+<p>			var adVars={</p>
+<p>				dartSiteId:"metro.uk",</p>
+<p>				adAreaSiteId:"metro",</p>
+<p>				adAreaId:"news",</p>
+<p>				adSubareaId:</p>
+<p>				</p>
+<p>						"news"</p>
+<p>					</p>
+<p>				,</p>
+<p>				adSection:"",</p>
+<p>				adPageType:"ap",</p>
+<p>				adContent:"",</p>
+<p>				adArticleId:"887114",</p>
+<p>				enableAds:true,</p>
+<p>				env:"prod"}	</p>
+<p>		 //]]--></p>
+<p>Skip to main navigationSkip to main contentSkip to search/* You may give each page an identifying name, server, and channel on the next lines. */s.pageName='/news/887114-boring-office-environments-make-workers-hit-the-booze';s.prop4='article';s.prop5='Boring office environments make workers hit the booze';s.prop6='887114';s.prop23='11-01-2012';s.prop24='18.45.42';var __request_props = {scrape:'',</p>
+<p>        trackingChannel:'',</p>
+<p>        trackingSubChannel:'',</p>
+<p>        trackingPageName:''</p>
+<p>        };s.channel=document.location.hostname;</p>
+<p>        s.prop1='news';</p>
+<p>        						</p>
+<p>		s.prop2='news'; </p>
+<p>		s.prop11= AND.getCookie('authid') ? 'Logged In' : 'Logged Out';</p>
+<p>        s.prop21= AND.getCookie('userid') ? AND.getCookie('userid') : '';</p>
+<p>        s.prop22= '';</p>
+<p>        s.prop27='12/01/2012';</p>
+<p>        s.prop28='13:50:19';</p>
+<p>        </p>
+<p>        	var hasHadMyTopics=AND.getCookie('hasHadMyTopics');</p>
+<p>        	s.prop47 = (null != hasHadMyTopics) ? 'true' : 'false';</p>
+<p>        </p>
+<p>        	if (document.referrer) { </p>
+<p>        		var docReferrerHostMatches = new RegExp("://([^/]*)/.*").exec(document.referrer);</p>
+<p>        		/* Check just to be safe */</p>
+<p>        		if (docReferrerHostMatches) {</p>
+<p>        			var docReferrerHost = docReferrerHostMatches[1];</p>
+<p>        			s.prop29 = (docReferrerHost.indexOf(window.location.host) != -1) ? "" : docReferrerHost;</p>
+<p>        		}</p>
+<p>        	} else {</p>
+<p>        		s.prop29 = "direct";</p>
+<p>        	}</p>
+<p>        </p>
+<p>            if(__request_props.scrape == 'true') {</p>
+<p>                if(!__request_props.trackingChannel || __request_props.trackingChannel == ''){</p>
+<p>                    s.prop1=document.location.hostname;</p>
+<p>                }</p>
+<p>                if(!__request_props.trackingSubChannel || __request_props.trackingSubChannel == ''  ) {</p>
+<p>                    s.prop2 = s.prop1;</p>
+<p>                }</p>
+<p>                if(!__request_props.trackingPageName || __request_props.trackingPageName == ''  ) {</p>
+<p>                    s.pageName=window.location.pathname;</p>
+<p>                }else{</p>
+<p>                    s.pageName=__request_props.trackingPageName;</p>
+<p>                }</p>
+<p>            }</p>
+<p>        /* Hierarchy Variables */</p>
+<p>        s.hier1=s.prop2;</p>
+<p>		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>		var s_code=s.t();if(s_code)document.write(s_code)<!--</p>
+<p>		if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>		//--></p>
+<p>        var _gaq = _gaq || [];</p>
+<p>        _gaq.push(['_setAccount', 'UA-17125577-1']);</p>
+<p>        _gaq.push(['_setDomainName', 'none']);</p>
+<p>        _gaq.push(['_setAllowLinker', true]);</p>
+<p>        _gaq.push(['_setCampSourceKey', 'ito']);</p>
+<p>        _gaq.push(['_trackPageLoadTime']);</p>
+<p>        </p>
+<p>                      _gaq.push(['_setCustomVar', 1, 'author', 'METRO REPORTER', 3]);</p>
+<p>                    </p>
+<p>            _gaq.push(['_setCustomVar', 2, 'published_date', '2012-01-11', 3]);</p>
+<p>        </p>
+<p>                _gaq.push(['_trackPageview']);</p>
+<p>            </p>
+<p>        (function() {</p>
+<p>        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>        })();</p>
+<p>		</p>
+<p>                if(document.location.protocol=='http:'){</p>
+<p>                var Tynt=Tynt||[];Tynt.push('astDOQVZCr37p2adbi-bpO');</p>
+<p>                (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();</p>
+<p>                }</p>
+<p>                   MetroFacebookTwitterFoursquare</p>
+<p>HomeNewsSportShowbizTVMusicFilmGamingCompetitionsMore +WeirdTech & GadgetsLifestyleTravelPicturesVideoFootballLondon 2012 OlympicsOdd BallsFantasy FootballFooty StatsTV ReviewsFilm ReviewsMusic ReviewsRestaurant ReviewsFashion ShopHoliday OffersWeatherMoneyContact UsAbout UsExploreClose thisSearch</p>
+<p>Casino|</p>
+<p>		Bingo|</p>
+<p>		Arcade|</p>
+<p>		Fantasy Football |</p>
+<p>		Holiday Rentals|</p>
+<p>		Jobs|</p>
+<p>		Dating|</p>
+<p>		Tickets|</p>
+<p>		Courses|</p>
+<p>		Daily DealsMetro</p>
+<p>NewsUKLog outView your profileWelcome</p>
+<p>										Sign upLog inSearch fieldSearch<!--[CDATA[</p>
+<p>			    adverts.initialize();</p>
+<p>				adverts.addToArray('728x90,468x60','728x90,468x60');</p>
+<p>			//]]--></p>
+<p><!--[CDATA[</p>
+<p>				    	adverts.initialize();</p>
+<p>						adverts.addToArray('900x250','900x250');</p>
+<p>					//]]--></p>
+<p>By METRO REPORTER -  12th January 2012  </p>
+<p>      </p>
+<p>                    window.fbAsyncInit = function() {</p>
+<p>                        FB.init({appId: '176908729004638', status: true, cookie: true, xfbml: true});</p>
+<p>                    };</p>
+<p>                        (function() {</p>
+<p>                           var e = document.createElement('script'); e.async = true;</p>
+<p>                           e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';</p>
+<p>                           document.getElementById('fb-root').appendChild(e);</p>
+<p>                        }());</p>
+<p>                Tweet</p>
+<p>			    </p>
+<p>Boring office environments make workers hit the boozeA boring office environment is likely to see staff reaching for the booze, new research has found.</p>
+<p>Bored staff are heading for the booze (Picture: Stock)</p>
+<p>Work drudgery was well documented in The Office but chronic boredom could have you reaching for the chocolate bar – or even the bottle.</p>
+<p>Office tedium is a worry for a quarter of staff who comfort eat at work and booze afterwards.</p>
+<p>Half of the 102 workers in a study by the University of Central Lancashire made mistakes out of boredom.‘Managers might consider using boredom proneness as a tool when selecting staff,’ said researcher Dr Sandi Mann.</p>
+<p>'My analysis suggests that the most significant cause of office boredom is an undemanding workload, so managers should look at ways of reducing sources of workplace boredom and encourage better ways of coping.'This could involve enrichment programmes such as job rotation, multi-skilling and empowerment. Encouraging healthier ways of coping with boredom could include education or providing healthy snacks and drinks in canteens.'<!--[CDATA[</p>
+<p>				google_ad_client='ca-an-metro',google_ad_output='js',google_ad_type='text',google_language='en',google_encoding='utf8',google_safe='high',google_ad_section='s1 s2',google_ad_channel='sky',google_max_num_ads=5,google_skip=met.google_skip;</p>
+<p>				met.google_skip+=5;</p>
+<p>				 //]]--></p>
+<p>Tweet</p>
+<p>				</p>
+<p>What would you like to say?</p>
+<p>											To add a YouTube video, insert its web address here</p>
+<p>											Sendto Metro  and share on:</p>
+<p>NewestOldestMost PopularLeast Popular</p>
+<p>                                    /* Hiding comments container - we will fade it in later when repopulated */</p>
+<p>                                    var commentsEl = document.getElementById('commentsRetrieval');</p>
+<p>                                    if (commentsEl != undefined) {</p>
+<p>                                    commentsEl.style.opacity = 0;</p>
+<p>                                    commentsEl.style.filter = 'alpha(opacity=0)';</p>
+<p>                                    }</p>
+<p>                                </p>
+<p>                    MetroMootools.hasComments = true;</p>
+<p>                </p>
+<p>Related itemsAlcohol is more appealing when loud music is playing, claims new researchSex gets better with age, say US researchersFamilies' loan debts eat up half of income, says new research</p>
+<p><!--[CDATA[ met.has(null,'lightbox',{cc:'news'}); //]]--></p>
+<p>Rock the week filesModern Warfare 3: Rock the week More  Rugby World Cup: Rock the Week More  Celebrity Big Brother 2011: Rock The Week More  Clapham's broom army: Rock the Week More  Cesc Fabregas transfer saga: Rock the Week More  Reading and Leeds Festival 2011: Rock The Week More      <!--[CDATA[</p>
+<p>		    met.has('met-3','carousel',{itemSize:188,offset:197,autoPlay:false,autoPlayTime:5,duration:0.4,hiddenOffset:4});</p>
+<p>			//]]--></p>
+<p>							5 day forecast | Local Weather</p>
+<p>						    </p>
+<p>                                adverts.initialize();</p>
+<p>                                adverts.addToArray('300x250','300x250');</p>
+<p>							adverts.initialize();</p>
+<p>							adverts.addToArray('300x120_top','300x120');</p>
+<p>						</p>
+<p>For your iPad: Metro tablet edition launchedMetro has launched its first interactive version of the newspaper designed especially for the iPad - and it's free...     </p>
+<p>Our choiceMost readWayne Rooney outclassed on FIFA 12 by world champion </p>
+<p>					  This Morning's Holly Willoughby left red-faced after naughty cheese mix-up Emma Watson snuggles up to mystery man as he plants a kiss on her cheek Lee Steele sacked by Oxford City over Gareth Thomas homophobic tweet Graduate told to work for free or lose benefitsIn their words: Scottish debate </p>
+<p>					  Roald Dahl celebrated with stamps Randy the ram sires 33 lambs in 24hrs Nudist shock in kids' clothing advert Vinnie Jones on how to perform CPR  <!--[CDATA[</p>
+<p>		    met.has('met-8','faded-tabs',{linkCls:'l-cc lh-cc'});</p>
+<p>			//]]--></p>
+<p><!--[CDATA[</p>
+<p>							adverts.initialize();</p>
+<p>							adverts.addToArray('120x600','120x600');</p>
+<p>						//]]--></p>
+<p>							adverts.initialize();</p>
+<p>							adverts.addToArray('300x120_bottom','300x120');</p>
+<p>						</p>
+<p>                                adverts.initialize();</p>
+<p>                                adverts.addToArray('300x250','300x250');</p>
+<p>				</p>
+<p>				var janrainpath = '/janrain';</p>
+<p>				var janrainLoginIframeSrc = 'https://profile.metro.co.uk/oauth/signin?response_type=code&recover_password_callback=CAPTURE.recoverPasswordCallback&redirect_uri=http://www.metro.co.uk/janrain/oauth_redirect&client_id=d6sk2r2b8f6darv2exzwdx6cht7t2r84&xd_receiver=http://www.metro.co.uk/xdcomm.html&flags=stay_in_window';</p>
+<p>				var janrainRegIframeSrc = 'https://profile.metro.co.uk/oauth/legacy_register?response_type=code&redirect_uri=http://www.metro.co.uk/janrain/oauth_redirect&client_id=d6sk2r2b8f6darv2exzwdx6cht7t2r84&xd_receiver=http://www.metro.co.uk/xdcomm.html&flags=stay_in_window';</p>
+<p>				var janraincaptureurl = 'https://profile.metro.co.uk';</p>
+<p>				var janrainclientid = 'd6sk2r2b8f6darv2exzwdx6cht7t2r84';</p>
+<p>				var janrainXdReceiver =  'http://www.metro.co.uk/xdcomm.html';</p>
+<p>				CAPTURE = {</p>
+<p>					resize: function(jargs) {</p>
+<p>						MetroMootools.log('calling CAPTURE.resize()');</p>
+<p>					},</p>
+<p>					</p>
+<p>					recoverPasswordCallback: function (jargs) {</p>
+<p>						MetroMootools.log('calling CAPTURE.recoverPasswordCallback()');</p>
+<p>                        $('loginCaptureFrame').set('src', '/janrain/passwd_reset_confirm');</p>
+<p>					},</p>
+<p>					</p>
+<p>					finishRecoverPasswordCallback: function (jargs) {</p>
+<p>						//var locationToRedirect = '/janrain/recover_password_landing_page';</p>
+<p>						var locationToRedirect = '/janrain/validation_confirmation?message=' + encodeURI('Thanks, your password has been changed.');</p>
+<p>						MetroMootools.log('calling CAPTURE.finishRecoverPasswordCallback(). Redirecting to ' + locationToRedirect);</p>
+<p>						window.location = locationToRedirect;</p>
+<p>					},</p>
+<p>					</p>
+<p>					finishDisplayNameOnlyFormCallback: function (jargs) {</p>
+<p>						var locationToRedirect = janrainpath + '/do-http-post-get-logged-user-from-validation-confirmation'; </p>
+<p>						MetroMootools.log('calling CAPTURE.finishDisplayNameOnlyFormCallback(). Redirecting to ' + locationToRedirect);</p>
+<p>						window.location = locationToRedirect;</p>
+<p>					},</p>
+<p>					</p>
+<p>					finishProfileCallback: function (jargs) {</p>
+<p>						MetroMootools.log('calling CAPTURE.resize()');</p>
+<p>					}</p>
+<p>				};</p>
+<p>				</p>
+<p>			 Metro</p>
+<p>										Extras</p>
+<p>									</p>
+<p>Metro MoneybackUp to 45% cashback & vouchers. £5 free</p>
+<p>Holiday RentalsUK and abroad from £20 per night, book nowUp to 70% offDesigner Fashion, Homeware, Travel & Accessories at Secretsales.com Win a pair of Ugg BootsWin thanks to our friends at topfox.co.ukUrban DatingMeet thousands of single professionals online near youTicketsMusic, sport, theatre, comedy, cinema and moreMetro MoneyReceive your free Experian credit reportFashion ShopGreat deals powered by LynkU.com</p>
+<p>© 2011 Associated Newspapers LimitedAdvertising.metro.co.ukTerms and conditionsContactAbout MetroPrivacy</p>
+<p>					Top</p>
+<p>					    This is Money | Villa Renters | Daily Mail</p>
+<p>					(function() {</p>
+<p>						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>						po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>					})();</p>
+<p>				</p>
+<p><!--[CDATA[</p>
+<p>		met.init();</p>
+<p>		//]]--> <!--[CDATA[</p>
+<p>		DM_tag();</p>
+<p>		//]]-->met.inText();</p>

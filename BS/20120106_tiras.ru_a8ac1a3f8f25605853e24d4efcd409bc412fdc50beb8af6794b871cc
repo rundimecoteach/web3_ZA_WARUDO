@@ -1,0 +1,160 @@
+<p>Состоялось внеочередное заседание Епархиального совета » Приднестровье информационное агентство ИА "Тирас"</p>
+<p>Загрузка. Пожалуйста, подождите...</p>
+<p><!--</p>
+<p>var dle_root       = '/';</p>
+<p>var dle_admin      = '';</p>
+<p>var dle_login_hash = '';</p>
+<p>var dle_group      = 5;</p>
+<p>var dle_skin       = 'myshab';</p>
+<p>var dle_wysiwyg    = 'no';</p>
+<p>var quick_wysiwyg  = '0';</p>
+<p>var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена"];</p>
+<p>var menu_short     = 'Быстрое редактирование';</p>
+<p>var menu_full      = 'Полное редактирование';</p>
+<p>var menu_profile   = 'Просмотр профиля';</p>
+<p>var menu_send      = 'Отправить сообщение';</p>
+<p>var menu_uedit     = 'Админцентр';</p>
+<p>var dle_info       = 'Информация';</p>
+<p>var dle_confirm    = 'Подтверждение';</p>
+<p>var dle_prompt     = 'Ввод информации';</p>
+<p>var dle_req_field  = 'Заполните все необходимые поля';</p>
+<p>var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';</p>
+<p>var dle_del_news   = 'Удалить статью';</p>
+<p>var allow_dle_delete_news   = false;</p>
+<p>//--></p>
+<p>new Image().src = "//counter.yadro.ru/hit?r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"" : ";s"+screen.width+"*"+screen.height+"*" + (screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u"+escape(document.URL) + ";h"+escape(document.title.substring(0,80)) + ";" +Math.random();</p>
+<p>ТЕМА ДНЯ | </p>
+<p>          ЭКСПЕРТЫ | </p>
+<p>          В МИРЕ | </p>
+<p>          ЕВРАЗИЯ | </p>
+<p>          ОБЩЕСТВО | </p>
+<p>          БИЗНЕС | </p>
+<p>          ВОЕННОЕ | </p>
+<p>          ОБРАЗОВАНИЕ | </p>
+<p>          РЕЛИГИЯ | </p>
+<p>          ЗДОРОВЬЕ | </p>
+<p>          СПОРТ | </p>
+<p>          КРИМИНАЛ</p>
+<p> </p>
+<p>Состоялось внеочередное заседание Епархиального совета</p>
+<p>Как сообщает ИА "Лента ПМР" со ссылкой на пресс-службу Тираспольско-Дубоссарской Епархии, 3 января, в день памяти свт. Петра, митр. Московского и всея России чудотворца, Епископ Тираспольский и Дубоссарский Савва в сослужении духовенства Христо-Рождественского кафедрального собора г. Тирасполь совершил Божественную литургию.После окончания богослужения в епархиальном управлении под председательством Епископа Тираспольского и Дубоссарского Саввы состоялось внеочередное и первое в этом году заседание нового состава Епархиального совета.На повестке дня обсуждались вопросы по организации жизнедеятельности Тираспольско-Дубоссарской епархии в новом году, а также принятие мер прещения к священнослужителям, нарушающих церковную дисциплину, что подрывает авторитет Церкви.</p>
+<p>          Религия</p>
+<p>          05/01/2012 09:43</p>
+<p>Комментарии к статье:</p>
+<p> </p>
+<p>Добавление комментария</p>
+<p>          Имя:*</p>
+<p>          E-Mail:*</p>
+<p>          Комментарий:</p>
+<p>        </p>
+<p><!--</p>
+<p>var text_enter_url       = "Введите полный URL ссылки";</p>
+<p>var text_enter_size       = "Введите размеры флэш ролика (ширина, высота)";</p>
+<p>var text_enter_flash       = "Введите ссылку на флэш ролик";</p>
+<p>var text_enter_page      = "Введите номер страницы";</p>
+<p>var text_enter_url_name  = "Введите название сайта";</p>
+<p>var text_enter_page_name = "Введите описание ссылки";</p>
+<p>var text_enter_image    = "Введите полный URL изображения";</p>
+<p>var text_enter_email    = "Введите e-mail адрес";</p>
+<p>var text_code           = "Использование: [CODE] Здесь Ваш код.. [/CODE]";</p>
+<p>var text_quote          = "Использование: [QUOTE] Здесь Ваша Цитата.. [/QUOTE]";</p>
+<p>var error_no_url        = "Вы должны ввести URL";</p>
+<p>var error_no_title      = "Вы должны ввести название";</p>
+<p>var error_no_email      = "Вы должны ввести e-mail адрес";</p>
+<p>var prompt_start        = "Введите текст для форматирования";</p>
+<p>var img_title   		= "Введите по какому краю выравнивать картинку (left, center, right)";</p>
+<p>var email_title  	    = "Введите описание ссылки";</p>
+<p>var text_pages  	    = "Страница";</p>
+<p>var image_align  	    = "left";</p>
+<p>var bb_t_emo  	        = "Вставка смайликов";</p>
+<p>var bb_t_col  	        = "Цвет:";</p>
+<p>var text_enter_list     = "Введите пункт списка. Для завершения ввода оставьте поле пустым.";</p>
+<p>var selField  = "comments";</p>
+<p>var fombj    = document.getElementById( 'dle-comments-form' );</p>
+<p>function image_upload()</p>
+<p>{</p>
+<p>window.open('http://tiras.ru/engine/images.php?area=' + selField + '&add_id=', '_Addimage', 'toolbar=0,location=0,status=0, left=0, top=0, menubar=0,scrollbars=yes,resizable=0,width=640,height=550');    </p>
+<p>}</p>
+<p>--></p>
+<p>          Введите код: *</p>
+<p>обновить, если не виден код</p>
+<p>Добавить</p>
+<p><!--</p>
+<p>$(function(){</p>
+<p>	$('#dle-comments-form').submit(function() {</p>
+<p>	  doAddComments();</p>
+<p>	  return false;</p>
+<p>	});</p>
+<p>});</p>
+<p>function reload () {</p>
+<p>	var rndval = new Date().getTime(); </p>
+<p>	document.getElementById('dle-captcha').innerHTML = '<img src="/engine/modules/antibot.php?rndval=' + rndval + '" border="0" width="120" height="50" alt="" /><br /><a onclick="reload(); return false;" href="#">обновить, если не виден код</a>';</p>
+<p>};</p>
+<p>//--></p>
+<p>(function(w, d, n, s, t) {</p>
+<p>w[n] = w[n] || [];</p>
+<p>w[n].push(function() {</p>
+<p>Ya.Direct.insertInto(70056, "ya", {</p>
+<p>site_charset: "utf-8",</p>
+<p>ad_format: "direct",</p>
+<p>font_size: 1,</p>
+<p>type: "horizontal",</p>
+<p>limit: 4,</p>
+<p>title_font_size: 3,</p>
+<p>site_bg_color: "FFFFFF",</p>
+<p>title_color: "0000CC",</p>
+<p>url_color: "006600",</p>
+<p>all_color: "0000CC",</p>
+<p>text_color: "000000",</p>
+<p>hover_color: "0066FF"</p>
+<p>});</p>
+<p>});</p>
+<p>t = d.documentElement.firstChild;</p>
+<p>s = d.createElement("script");</p>
+<p>s.type = "text/javascript";</p>
+<p>s.src = "http://an.yandex.ru/system/context.js";</p>
+<p>s.setAttribute("async", "true");</p>
+<p>t.insertBefore(s, t.firstChild);</p>
+<p>})(window, document, "yandex_context_callbacks");</p>
+<p>English version</p>
+<p><!--</p>
+<p>function doVote( event ){</p>
+<p>	var vote_check = $('#dle-vote input:radio[name=vote_check]:checked').val();</p>
+<p>	ShowLoading('');</p>
+<p>	$.get(dle_root + "engine/ajax/vote.php", { vote_id: "9", vote_action: event, vote_check: vote_check, vote_skin: dle_skin }, function(data){</p>
+<p>		HideLoading('');</p>
+<p>		$("#vote-layer").fadeOut(500, function() {</p>
+<p>			$(this).html(data);</p>
+<p>			$(this).fadeIn(500);</p>
+<p>		});</p>
+<p>	});</p>
+<p>}</p>
+<p>//--></p>
+<p>Какая интеграция Вам видится более предпочтительной:</p>
+<p> Таможенный Союз и Евразийская интеграция во главе с Россией  Европейский Союз и военно-политический блок НАТО с лидерством США</p>
+<p>Голосовать Результаты</p>
+<p> </p>
+<p>Поиск:</p>
+<p>Календарь:</p>
+<p>«    Апрель 2013    »ПнВтСрЧтПтСбВс123456789101112131415161718192021222324252627282930 </p>
+<p>Популярное</p>
+<p>Призыв КНДР об эвакуации иностранцев никто не услышалЕС будет настаивать на освобождении ТимошенкоСегодня Жан-Поль Бельмондо празднует 80-летиеНаводнение возможно в 600 населенных пунктах МолдовыРоссийские герои недели в НХЛВыявлен ген, влияющий на фигуру и ростДвое тираспольчан подозреваются в кражеСоюз приднестровцев Украины: начало пути (ВИДЕО)Евро подешевел на мировом рынкеМинобороны Украины разработало концепцию реформирования ...В Бендерах задержан 19-летний молодой человек по подозр ...7 апреля Архиепископ Тираспольский и Дубоссарский Савва ...</p>
+<p>                                                                                                                                                                                                                                                                                                                                                                                                           </p>
+<p>© ИА "Тирас", 2005-2013Кишинев - Тирасполь - Киев - Москва - ТранзитПерепечатка материалов обязательна со ссылкой на tiras.ru</p>
+<p>Адрес редакции: Norway, Oslooslofree@gmail.com</p>
+<p>(function (d, w, c) {</p>
+<p>(w[c] = w[c] || []).push(function() {</p>
+<p>try {</p>
+<p>w.yaCounter20822761 = new Ya.Metrika({id:20822761});</p>
+<p>} catch(e) { }</p>
+<p>});</p>
+<p>var n = d.getElementsByTagName("script")[0],</p>
+<p>    s = d.createElement("script"),</p>
+<p>f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>if (w.opera == "[object Opera]") {</p>
+<p>d.addEventListener("DOMContentLoaded", f, false);</p>
+<p>} else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>

@@ -1,0 +1,32 @@
+<p>  Эпидемию гриппа в Омске ожидают в феврале  | эпидемия гриппа, Омская область | Город Омск-Times</p>
+<p> - Мобильная версия</p>
+<p> </p>
+<p>      Омск-Times</p>
+<p>    </p>
+<p> </p>
+<p>      мобильная версия</p>
+<p>    </p>
+<p> Новости</p>
+<p>Эпидемию гриппа в Омске ожидают в феврале </p>
+<p>В начале февраля, по прогнозам врачей, омичам стоит опасаться сезонной смешанной эпидемии гриппа. Как сообщает пресс-служба Роспотребнадзора по региону, за прошедшую неделю в Омской области заболеваемость гриппом и острыми респираторными вирусными инфекциями оставалась на неэпидемическом уровне. В Омске зафиксировано 5541 заболевших. В среднем заболеваемость ниже эпидемического порога на 46,2%.Врачи напоминают, что к группе повышенного риска заболевания гриппом и острыми респираторными инфекциями относятся больные с хронической патологией, дети и люди пожилого возраста.</p>
+<p>Полная версия сайта</p>
+<p>© Омск-Таймс, сайт Омска</p>
+<p><!-- </p>
+<p>        document.write("<a href='http://www.liveinternet.ru/click' "+ </p>
+<p>        "target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+ </p>
+<p>        escape(document.referrer)+((typeof(screen)=="undeﬁned")?"": </p>
+<p>        ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth? </p>
+<p>        screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+ </p>
+<p>        ";"+Math.random()+ </p>
+<p>        "' alt='' title='LiveInternet: показано число посетителей за"+ </p>
+<p>        " сегодня' "+ </p>
+<p>        "border='0' width='88' height='15'><\/a>") </p>
+<p>        //--></p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-18990622-9']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>

@@ -1,0 +1,1164 @@
+<p>No need for panic over bird flu, say experts</p>
+<p>var d_names = new Array("Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday");</p>
+<p>var m_names = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");</p>
+<p>function getURLParam(strParamName) {</p>
+<p>    var strReturn = "";</p>
+<p>    var strHref = window.location.href;   </p>
+<p>    if ( strHref.indexOf("?") > -1 ){</p>
+<p>            var strQueryString = strHref.substr(strHref.indexOf("?"));</p>
+<p>            var aQueryString = strQueryString.split("&");</p>
+<p>            for ( var iParam = 0; iParam < aQueryString.length; iParam++ ){</p>
+<p>                    if (aQueryString[iParam].indexOf(strParamName + "=") > -1 ){</p>
+<p>                            var aParam = aQueryString[iParam].split("=");</p>
+<p>                            strReturn = aParam[1];</p>
+<p>                            break;</p>
+<p>                    }</p>
+<p>            }</p>
+<p>    }</p>
+<p>    return strReturn;</p>
+<p>}</p>
+<p>function generateNavBar(type){</p>
+<p>	var nav_item_str="";</p>
+<p>	for(i=1;i<type.length;i++){</p>
+<p>	  if (type[i].Class == ""){</p>
+<p>			if(type[i].Name == "School Pocket Money Fund")</p>
+<p>			{</p>
+<p>				nav_item_str=nav_item_str+'<li> <a href="'+type[i].Link+'" style="height:28px; line-height:125%;">'+type[i].Name+'</a></li>';</p>
+<p>			}</p>
+<p>			else</p>
+<p>			{</p>
+<p>				nav_item_str=nav_item_str+'<li> <a href="'+type[i].Link+'">'+type[i].Name+'</a></li>';</p>
+<p>			}</p>
+<p>  		}else {</p>
+<p>	  		nav_item_str=nav_item_str+'<li class="'+type[i].Class+'"> <a href="'+type[i].Link+'">'+type[i].Name+'</a></li>';</p>
+<p>  		}</p>
+<p>	}</p>
+<p>	</p>
+<p>	var nav_item_header="";</p>
+<p>	</p>
+<p>	if (type[0].Link!=""){</p>
+<p>		nav_item_header='<a href="'+type[0].Link+'" class="drop">'+type[0].Name+'</a>';</p>
+<p>		</p>
+<p>	}else {</p>
+<p>		nav_item_header='<a class="drop">'+type[0].Name+'</a>';</p>
+<p>	}</p>
+<p>	</p>
+<p>var nav_str=nav_item_header+'<div class="dropdown_1column"><div class="col_1"><ul class="greybox">'+nav_item_str+'</ul></div></div>';</p>
+<p>      </p>
+<p>    return nav_str;</p>
+<p>}</p>
+<p>function generateFooterItem(type){</p>
+<p>	var nav_footer_item = "";</p>
+<p>	var last_item_count=type.length;</p>
+<p>	</p>
+<p>	for(i=0;i<last_item_count;i++){</p>
+<p>	</p>
+<p>	    if (!type[i].footer)</p>
+<p>	      continue;</p>
+<p>	    </p>
+<p>	      if (i > 0){</p>
+<p>			nav_footer_item=nav_footer_item+" &#8226; ";</p>
+<p>		}</p>
+<p>	        </p>
+<p>		if (type[i].Link!=""){</p>
+<p>			nav_footer_item=nav_footer_item+'<a href="'+type[i].Link+'">'+type[i].Name+'</a>';</p>
+<p>		}else {</p>
+<p>			</p>
+<p>			nav_footer_item=nav_footer_item+'<a >'+type[i].Name+'</a>';</p>
+<p>		}</p>
+<p>		</p>
+<p>		if (i==0){</p>
+<p>			nav_footer_item=nav_footer_item+": ";</p>
+<p>		}</p>
+<p>		</p>
+<p>	}</p>
+<p>	 nav_footer_item=nav_footer_item+"<br />";</p>
+<p>	 </p>
+<p>	 return nav_footer_item;</p>
+<p>}</p>
+<p>function chkSearch(searchfrm)</p>
+<p>{</p>
+<p>var inputString = searchfrm.q.value;</p>
+<p>if(inputString=="Search StraitsTimes.com"){</p>
+<p>alert("Please do not leave your first search field empty.");</p>
+<p>return false;</p>
+<p>} else {</p>
+<p>var messageIndex = "STI";</p>
+<p>var selectedValue = messageIndex;</p>
+<p>searchfrm.method ="POST";</p>
+<p>searchfrm.action ="/vgn-ext-templating/sti/SearchPage.jsp";</p>
+<p>searchfrm.submit();</p>
+<p>}</p>
+<p>}</p>
+<p>function getCommenDate(){</p>
+<p>	 var d = new Date();</p>
+<p>	 d.setDate(d.getDate()-1);</p>
+<p>	 var mth=d.getMonth()+1;</p>
+<p>	 if (mth < 10)</p>
+<p>		 mth="0"+mth;</p>
+<p>	 var date = d.getDate();</p>
+<p>	 if(date < 10)</p>
+<p>		date = "0" + date;</p>
+<p>	 return (d.getFullYear()+""+mth+""+date+"T00:00:00");</p>
+<p>}</p>
+<p>var vgnpdateparam=getURLParam('vgnpdate');</p>
+<p>var vgnpreviewparam=getURLParam('vgnpreview');</p>
+<p>var homeurl="http://www.straitstimes.com";</p>
+<p>		</p>
+<p>	var pageinfo = {};</p>
+<p>			pageinfo.hidden_displayMastDate="Tuesday, 17 January 2012 ";		</p>
+<p>				pageinfo.hidden_launchDate="20120117";</p>
+<p>				pageinfo.hidden_section_name='Breaking News';			</p>
+<p>				pageinfo.url='http://www.straitstimes.com/BreakingNews/Singapore/Story/STIStory_756537.html';			</p>
+<p>					pageinfo.p_COTag="STI-BREAK";</p>
+<p>	    	    pageinfo.articleid="756537";</p>
+<p>		    	    		pageinfo.GALaunchDate="January 17, 2012 Tuesday ";</p>
+<p>    	    	    		pageinfo.facebookAbstract="The H5N1 virus may have claimed two lives in China and Indonesia but there is no cause for undue alarm, say leading infectious disease specialists. Bird-to-human transmissions remain the predominant form, while the human-to-human type is not only rare but also causes infections that are very mild.";</p>
+<p>    		 	   		pageinfo.adtag="bn_sg_story";</p>
+<p>   	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	  _gaq.push(['_setAccount', 'UA-11908285-1']);</p>
+<p>	if (pageinfo.GALaunchDate){</p>
+<p>	  _gaq.push(['_setCustomVar', 1,'Launchdate',pageinfo.GALaunchDate,3]);</p>
+<p>	  _gaq.push(["_setCustomVar", 2,"Abstract", pageinfo.facebookAbstract,3]);</p>
+<p>           }</p>
+<p>	  _gaq.push(['_trackPageview']);</p>
+<p>	  (function() {</p>
+<p>		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>	  })();</p>
+<p>	</p>
+<p>document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>COMSCORE.beacon({c1:2,c2:6288331,c3:"",c4:"",c5:"",c6:"",c15:""});</p>
+<p>Last updated at 8.31 pm</p>
+<p>Reader</p>
+<p>E-paper</p>
+<p> </p>
+<p>	var user=jQuery.cookie("HTTP_user_id");</p>
+<p>	var luser="";</p>
+<p>	if (user!=null) {</p>
+<p>		luser=user.toLowerCase();</p>
+<p>		if (luser == "anonymous" || luser == "anonymous|anonymous") {</p>
+<p>			window.location= p_logoutLink;</p>
+<p>		}</p>
+<p>	}</p>
+<p>    if(user != null && user !=0 && luser!=null && luser != "anonymous" && luser != "anonymous|anonymous") {</p>
+<p>	    document.writeln('<div class="util_Login">');</p>
+<p>		document.writeln("Hello, ");		</p>
+<p>		if(user ==0) {</p>
+<p>			// do nothing</p>
+<p>		} else {</p>
+<p>			document.writeln(user);</p>
+<p>			document.writeln("</div>");</p>
+<p>		}</p>
+<p>		//http://soet.asia1.com.sg/sub/updateinformation.action?userId=' + user + '</p>
+<p>		//http://www.straitstimes.com/EditAccountPage.html</p>
+<p>		document.writeln('<div class="util_Subscribe"><a href="http://subst.asiaone.com/sub/updateinformation.action">My Account</a></div>');		</p>
+<p>		document.writeln('<div class="util_Subscribe"><a href="http://sphauth.asiaone.com/amserver/UI/Logout?logoutdest=http://www.straitstimes.com">Log Out</a></div> ');</p>
+<p>	} else {</p>
+<p>		document.writeln('<div class="util_Login"><a href="http://sphreg.asiaone.com/RegAuth2/stpLogin.html?goto=http://www.straitstimes.com/vgn-ext-templating/sti/common/STIRedirect.jsp?dlink='+location.href+'" onclick="jQuery.colorbox({width:\'522px\',height:\'330px\', href:\'/STI/STIFILES/ssi/2011/login/login-in-form.html\',scrolling:false});return false;">Log in</a></div>');</p>
+<p>		document.writeln('<div class="util_Subscribe"><a href="http://www.stsubscribe.com.sg/">Subscribe</a></div>');</p>
+<p>	}</p>
+<p>	//document.writeln("</table>")</p>
+<p>   </p>
+<p> </p>
+<p>Singapore weather25°C -</p>
+<p>   32°C</p>
+<p>Search</p>
+<p> </p>
+<p> </p>
+<p>Razor TV</p>
+<p> Top Stories </p>
+<p> News </p>
+<p> Current Affairs </p>
+<p> Entertainment </p>
+<p> Lifestyle </p>
+<p> Food </p>
+<p> Fashion </p>
+<p> Popular </p>
+<p>Stomp</p>
+<p> What's Hot </p>
+<p> Club Stomp </p>
+<p> Talkback </p>
+<p> I Say, You Say </p>
+<p> Youthphoria </p>
+<p> Court Room </p>
+<p> Ask Libby</p>
+<p> Getai A-go-go </p>
+<p> Love Stories </p>
+<p> DIY Video </p>
+<p> Reallife.sg </p>
+<p> Hey Goondus! </p>
+<p>Classifieds</p>
+<p> Jobs </p>
+<p> Cars </p>
+<p> Property </p>
+<p> Shops </p>
+<p>Microsites</p>
+<p>Parliament</p>
+<p>Motoring</p>
+<p> </p>
+<p>	var xmlHttp;</p>
+<p>	function srvTime(){</p>
+<p>		try {</p>
+<p>			//FF, Opera, Safari, Chrome</p>
+<p>			xmlHttp = new XMLHttpRequest();</p>
+<p>		}</p>
+<p>		catch (err1) {</p>
+<p>			//IE</p>
+<p>			try {</p>
+<p>				xmlHttp = new ActiveXObject('Msxml2.XMLHTTP');</p>
+<p>			}</p>
+<p>			catch (err2) {</p>
+<p>				try {</p>
+<p>					xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');</p>
+<p>				}</p>
+<p>				catch (eerr3) {</p>
+<p>					//AJAX not supported, use CPU time.</p>
+<p>					alert("AJAX not supported");</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>		xmlHttp.open('HEAD',window.location.href.toString(),false);</p>
+<p>		xmlHttp.setRequestHeader("Content-Type", "text/html");</p>
+<p>		xmlHttp.send('');</p>
+<p>		return xmlHttp.getResponseHeader("Date");</p>
+<p>	}</p>
+<p>	</p>
+<p>	//var date = new Date(st);</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>	if (pageinfo.hidden_launchDate) {</p>
+<p>		navdate = pageinfo.hidden_launchDate;</p>
+<p>		jQuery("#span_displayMastHead").text(pageinfo.hidden_displayMastDate);</p>
+<p>		epaper_date = navdate.substring(0, 4) + "-" + navdate.substring(4, 6) + "-" + navdate.substring(6, 8);</p>
+<p>	} else {</p>
+<p>		var st = srvTime();</p>
+<p>		var today = new Date(st);</p>
+<p>		var month = today.getMonth() + 1</p>
+<p>		var year = today.getFullYear()</p>
+<p>		var day = today.getDate()</p>
+<p>		var day_of_week = today.getDay();</p>
+<p>		if (day < 10)</p>
+<p>			day = "0" + day</p>
+<p>		if (month < 10)</p>
+<p>			month = "0" + month</p>
+<p>		navdate = year + "" + month + "" + day;</p>
+<p>		epaper_date = year + "-" + month + "-" + day;</p>
+<p>		// form the display mast date for services page</p>
+<p>		var curr_mastdate = d_names[day_of_week] + ", " + day + " " + m_names[month - 1] + " " + year;</p>
+<p>		jQuery("#span_displayMastHead").text(curr_mastdate);</p>
+<p>	}</p>
+<p>	//form link</p>
+<p>	//for epaper link</p>
+<p>	jQuery("a[class='EP']").attr("href", "http://epaper.straitstimes.com/fvx/fvx.php?param=" + epaper_date);</p>
+<p>	var display_day = jQuery("div.util_Date").text();</p>
+<p>	var display_day_array = display_day.split(",");</p>
+<p>	//set the masthead pic</p>
+<p>	if (display_day_array[0] == "Sunday"</p>
+<p>			&& pageinfo.hidden_section_name.indexOf('The<span class=\"big\">Big</span>Story') < 0) {</p>
+<p>		jQuery("#st").attr("id", "suntimes");</p>
+<p>		jQuery("#suntimes div.float-right")</p>
+<p>				.before(</p>
+<p>						'<div class="w370"><a href="http://www.straitstimes.com"><img src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/theSundayTimesL.gif"></a></div>');</p>
+<p>	} else {</p>
+<p>		if (pageinfo.hidden_section_name) {</p>
+<p>			if (pageinfo.hidden_section_name == "Home") {</p>
+<p>				jQuery("#st div.float-right")</p>
+<p>						.before(</p>
+<p>								'<div class="float-left"><a href="'+homeurl+'/Home.html"><img width="360" height="47" border="0" src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/theStraitsTimes.gif"></a></div>');</p>
+<p>			} else if (pageinfo.hidden_section_name == "razor") {</p>
+<p>				jQuery("#st div.float-right")</p>
+<p>						.before(</p>
+<p>								'<div class="float-left"><a href="http://www.straitstimes.com"><img src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/st.gif"></a><a href="http://www.razor.tv"><img border="0" src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/mastRazor.png"></a></div><div class="pageSection" id="pageSectiondiv">Videos</div>');</p>
+<p>			} else if (pageinfo.hidden_section_name == "stomp") {</p>
+<p>				jQuery("#st div.float-right")</p>
+<p>						.before(</p>
+<p>								'<div class="float-left"><a href="http://www.straitstimes.com"><img src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/st.gif"></a><a href="http://www.stomp.com.sg"><img border="0" src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/mastStomp.png"></a></div><div class="pageSection" id="pageSectiondiv">Citizen Journalism</div>');</p>
+<p>			} else {</p>
+<p>				jQuery("#st div.float-right")</p>
+<p>						.before(</p>
+<p>								'<div class="float-left"><a href="http://www.straitstimes.com"><img src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/st.gif"></a></div><div class="pageSection" id="pageSectiondiv"></div>');</p>
+<p>				jQuery("#pageSectiondiv").html(pageinfo.hidden_section_name);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	//for the rest</p>
+<p>	bnnavlink = homeurl + "/BreakingNews/to_be_rep" + "_" + navdate + ".html";</p>
+<p>	var navbar = {</p>
+<p>		"BN" : [ {</p>
+<p>			"Name" : "Breaking News",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Breaking+News"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Singapore",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Singapore/Singapore"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "SE Asia",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "SE%2BAsia/SE%2BAsia"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Asia",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Asia/Asia"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "World",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "World/World"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Money",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Money/Money"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Sports",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Sport/Sport"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Technology",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Tech%2Band%2BScience/Tech%2Band%2BScience"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Lifestyle",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Lifestyle/Lifestyle"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Asia News Network",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "ANN/ANN"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : false</p>
+<p>		}, {</p>
+<p>			"Name" : "All",</p>
+<p>			"Link" : bnnavlink.replace(/to_be_rep/g, "Breaking+News"),</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : false</p>
+<p>		}, {</p>
+<p>			"Name" : "Photo galleries",</p>
+<p>			"Link" : "http://photos.straitstimes.com",</p>
+<p>			"Class" : "pg",</p>
+<p>			"footer" : true</p>
+<p>		} ],</p>
+<p>		"PremWeekdays" : [ {</p>
+<p>			"Name" : "Premium",</p>
+<p>			"Link" : homeurl + "/Premium/Premium_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Prime",</p>
+<p>			"Link" : homeurl + "/Prime+News/Prime+News_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Singapore",</p>
+<p>			"Link" : homeurl + "/Singapore/Singapore_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Asia",</p>
+<p>			"Link" : homeurl + "/Asia/Asia_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "World",</p>
+<p>			"Link" : homeurl + "/World/World_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Money",</p>
+<p>			"Link" : homeurl + "/Money/Money_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Sports",</p>
+<p>			"Link" : homeurl + "/Sports/Sports_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Life!",</p>
+<p>			"Link" : homeurl + "/Life%2521/Life%2521_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Insight",</p>
+<p>			"Link" : homeurl + "/Insight/Insight.html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Review",</p>
+<p>			"Link" : homeurl + "/Review/Review_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Forum Letters",</p>
+<p>			"Link" : homeurl + "/ST+Forum/ST+Forum_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "All",</p>
+<p>			"Link" : homeurl + "/Premium/Premium_All_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : false</p>
+<p>		} ],</p>
+<p>		"PremSunday" : [ {</p>
+<p>			"Name" : "Premium",</p>
+<p>			"Link" : homeurl + "/Premium/Premium_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "News",</p>
+<p>			"Link" : homeurl + "/News/News_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Invest",</p>
+<p>			"Link" : homeurl + "/Invest/Invest_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Think",</p>
+<p>			"Link" : homeurl + "/Think/Think_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Sports",</p>
+<p>			"Link" : homeurl + "/Sports/Sports_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Lifestyle",</p>
+<p>			"Link" : homeurl + "/Lifestyle/Lifestyle_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "All",</p>
+<p>			"Link" : homeurl + "/Premium/Premium_All_" + navdate + ".html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : false</p>
+<p>		}</p>
+<p>		],</p>
+<p>		"Community" : [ {</p>
+<p>			"Name" : "Community",</p>
+<p>			"Link" : "#",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Blogs",</p>
+<p>			"Link" : "http://blogs.straitstimes.com",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Forum Letters",</p>
+<p>			"Link" : homeurl + "/ST+Forum/ST+Forum.html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}</p>
+<p>		],</p>
+<p>		"Multimedia" : [ {</p>
+<p>			"Name" : "Multimedia",</p>
+<p>			"Link" : "#",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Through the Lens",</p>
+<p>			"Link" : homeurl + "/ttl",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "News in Pictures",</p>
+<p>			"Link" : homeurl + "/News+In+Pictures/News+In+Pictures.html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Infographics",</p>
+<p>			"Link" : homeurl + "/Features/Infographics/Infographics.html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}</p>
+<p>		],</p>
+<p>		"Features" : [ {</p>
+<p>			"Name" : "Features",</p>
+<p>			"Link" : "#",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Global Perspectives",</p>
+<p>			"Link" : homeurl + "/Project_Syndicate/Project_Syndicate.html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}	</p>
+<p>		],	</p>
+<p>		"Projects" : [ {</p>
+<p>			"Name" : "Projects",</p>
+<p>			"Link" : "#",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "Childaid",</p>
+<p>			"Link" : homeurl + "/childaid",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		}, {</p>
+<p>			"Name" : "School Pocket Money Fund",</p>
+<p>			"Link" : homeurl + "/spmf/School+Pocket+Money+Fund.html",</p>
+<p>			"Class" : "",</p>
+<p>			"footer" : true</p>
+<p>		} ],</p>
+<p>		"Home" : [ {</p>
+<p>			"Name" : "Home",</p>
+<p>			"Link" : homeurl + "/Home_" + navdate + ".html",</p>
+<p>			"Class" : ""</p>
+<p>		} ]</p>
+<p>	}</p>
+<p>	var webspecialarray = {</p>
+<p>		"spmf" : [ {</p>
+<p>			"url" : homeurl + "/spmf/School+Pocket+Money+Fund.html",</p>
+<p>			"img_src" : "http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/webspecialIconForSPMF.gif",</p>
+<p>			"img_width" : "114",</p>
+<p>			"img_height" : "190",</p>
+<p>			"img_alt" : "School Pocket Money Fund image"</p>
+<p>		} ]</p>
+<p>	}</p>
+<p>	jQuery("#header_navbar_bn").html(generateNavBar(navbar.BN));</p>
+<p>	if (display_day_array[0] == "Sunday") {</p>
+<p>		jQuery("#header_navbar_prem").html(generateNavBar(navbar.PremSunday));</p>
+<p>	} else {</p>
+<p>		jQuery("#header_navbar_prem").html(generateNavBar(navbar.PremWeekdays));</p>
+<p>	}</p>
+<p>	jQuery("#header_navbar_community").html(generateNavBar(navbar.Community));</p>
+<p>	jQuery("#header_navbar_multimedia").html(generateNavBar(navbar.Multimedia));</p>
+<p>	jQuery("#header_navbar_features").html(generateNavBar(navbar.Features));</p>
+<p>	jQuery("#header_navbar_projects").html(generateNavBar(navbar.Projects));</p>
+<p>	jQuery("#home_link").attr("href", navbar.Home[0].Link);</p>
+<p> HomeBreaking NewsSingaporeStory</p>
+<p> </p>
+<p>					No need for panic over bird flu, say experts</p>
+<p>						</p>
+<p>Human-to-human infection rare and mild, but good hygiene still important</p>
+<p> </p>
+<p>Published on Jan 17, 2012</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Purchase this article for republication</p>
+<p> </p>
+<p>Buy SPH photos</p>
+<p> </p>
+<p> </p>
+<p>A man transports a cage containing live chickens on a street in Hanoi Dec 30, 2011. The H5N1 virus may have claimed two lives in China and Indonesia but there is no cause for undue alarm, say infectious disease specialists. -- PHOTO: REUTERS</p>
+<p>By </p>
+<p>														Melissa Pang</p>
+<p>								</p>
+<p>The H5N1 virus may have claimed two lives in China and Indonesia but there is no cause for undue alarm, say leading infectious disease specialists.</p>
+<p>Bird-to-human transmissions remain the predominant form, while the human-to-human type is not only rare but also causes infections that are very mild.</p>
+<p>Professor Seto Wing-Hong, director of the World Health Organisation's Collaborating Centre for Infection Control in Hong Kong, said that during the 1997 avian flu outbreak, health workers there were required to report any contact made with patients.</p>
+<p>Data showed that only five out of 965 medical staff who reported having such contact came down with the ailment.</p>
+<p> </p>
+<p>		var subrenderfile="/Subscription/Breaking+News/Singapore/Story/STIStory_756537.html";</p>
+<p>		</p>
+<p>if(document.domain=="sph.straitstimes.com" || ( user != null && user !=0 && luser!=null && luser != "anonymous" && luser != "anonymous|anonymous")) {	</p>
+<p>	jQuery("#subhtmldiv").html("Loading...Please wait....");</p>
+<p>	jQuery.ajax({</p>
+<p>		url: subrenderfile,</p>
+<p>		async: false,</p>
+<p>		success: function(msg){</p>
+<p>jQuery("#subhtmldiv").html( msg );</p>
+<p>		}</p>
+<p>		});	</p>
+<p>	} else {</p>
+<p>		document.writeln('<div class="clearall">&nbsp;</div><h5>TO READ THE FULL STORY...</h5><div style="width:177px; margin:12px auto; height:24px;"><a class="sbutton" style="width:54px; float:left; margin:0 10px 0 0;" href="http://sphreg.asiaone.com/RegAuth2/stpLogin.html?goto=http://www.straitstimes.com/vgn-ext-templating/sti/common/STIRedirect.jsp?dlink='+location.href+'" onclick="jQuery.colorbox({width:\'522px\',height:\'330px\', href:\'/STI/STIFILES/ssi/2011/login/login-in-form.html\',scrolling:false});return false;"><span>Log in</span></a> <a class="sbutton" style="width:76px; float:left; margin:0;" href="http://www.stsubscribe.com.sg/"><span>Subscribe</span></a></div>');</p>
+<p>	}</p>
+<p> </p>
+<p> </p>
+<p>   </p>
+<p>	var disqus_shortname = 'thestraitstimes';	</p>
+<p>	var disqus_identifier = disqus_shortname+'541627742';</p>
+<p>	var disqus_url = 'http://www.straitstimes.com/BreakingNews/Singapore/Story/STIStory_756537.html';	</p>
+<p>  </p>
+<p>  </p>
+<p>    var disqus_config = null;	</p>
+<p>	var ldapemail = jQuery.cookie("HTTP_mail");	</p>
+<p>	var usercookie_exist= false;</p>
+<p>	var isLoginToDisqus = jQuery.cookie("disqus_login");</p>
+<p>	var ssologout = "http://sphauth.asiaone.com/amserver/UI/Logout?logoutdest="+location.href;</p>
+<p>	</p>
+<p>	if (user != null && user !=0 && luser!=null && luser != "anonymous" && luser != "anonymous|anonymous"){</p>
+<p>		usercookie_exist=true;</p>
+<p>	}</p>
+<p>	</p>
+<p>	//alert(user);</p>
+<p>	//alert(isLoginToDisqus);</p>
+<p>	//case 1 : If user log into ST and he is not logged into ST yet, always do SSO</p>
+<p>	if (isLoginToDisqus != "true" && usercookie_exist) {</p>
+<p>		//alert("case 1");</p>
+<p>  //console.log("case 1:If user log into ST and he is not logged into ST yet, always do SSO");</p>
+<p>   			jQuery.ajax( {</p>
+<p>   				'type' : 'GET',</p>
+<p>   				'url' : '/vgn-ext-templating/createSSO',</p>
+<p>   				'cache' : false,</p>
+<p>   				'data' : 'id=' + user + '&username=' + user + '&email=' + ldapemail + '&logout=false',</p>
+<p>   				'success' : function(jsonData) {</p>
+<p>	   				//alert('id=' + user + '&username=' + user + '&email=' + ldapemail + '&logout=false');</p>
+<p>	   				//alert(jsonData);</p>
+<p>   					if(jsonData.response.error != 1){</p>
+<p>   						disqus_config = function () {</p>
+<p>   							this.page.remote_auth_s3 = jsonData.response.message + ' ' + jsonData.response.hmac + ' ' + jsonData.response.timestamp;</p>
+<p>   							this.page.api_key = jsonData.response.public_key;   							</p>
+<p>   							this.sso = {</p>
+<p>   						         logout:  ssologout  						       </p>
+<p>   								};</p>
+<p>   						}</p>
+<p>   						jQuery.cookie('disqus_login', 'true');</p>
+<p>   					}</p>
+<p>   			  					</p>
+<p>   					callDisqus();</p>
+<p>   				</p>
+<p>   				}</p>
+<p>   			});</p>
+<p>   			</p>
+<p>		}</p>
+<p>	//case 2:If user log into ST and disqus already, no need to do SSO</p>
+<p>	else if (isLoginToDisqus == "true" && usercookie_exist) </p>
+<p>		{</p>
+<p>			//alert("case 2");</p>
+<p>		//console.log("case 2:If user log into ST and disqus already, no need to do SSO");</p>
+<p>		</p>
+<p>		disqus_config = function () {</p>
+<p>			this.sso = {logout:  ssologout};};	</p>
+<p>			callDisqus();</p>
+<p>	</p>
+<p>	</p>
+<p>		}</p>
+<p>	//case 3: if user log out from ST but do not log out from disqus</p>
+<p>	else if (isLoginToDisqus != null && !usercookie_exist) {</p>
+<p>		//alert("case 3");</p>
+<p>		//console.log("case 3:if user log out from ST but do not log out from disqus");</p>
+<p>		jQuery.ajax( {</p>
+<p>			'type' : 'GET',</p>
+<p>			'url' : '/vgn-ext-templating/createSSO',</p>
+<p>			'cache' : false,</p>
+<p>			'data' : 'id=' + user + '&username=' + user + '&email=' + ldapemail + '&logout=true',</p>
+<p>			'success' : function(jsonData) {</p>
+<p>				</p>
+<p>				if(jsonData.response.error != 1){</p>
+<p>					disqus_config = function () {</p>
+<p>							this.page.remote_auth_s3 = jsonData.response.message + ' ' + jsonData.response.hmac + ' ' + jsonData.response.timestamp;</p>
+<p>							this.page.api_key = jsonData.response.public_key;</p>
+<p>							this.sso = {</p>
+<p>									name:   "straitstimes",</p>
+<p>						          button:  "http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/disqusST.png",</p>
+<p>						          icon:     "http://www.straitstimes.com/STI/STIMEDIA/common/favicon.ico",</p>
+<p>						          url:        "http://www.straitstimes.com/STI/STIFILES/ssi/2011/login/login-in-form-full.html",</p>
+<p>						         logout:  ssologout,</p>
+<p>						          width:   "480",</p>
+<p>						          height:  "250"</p>
+<p>								};</p>
+<p>						}</p>
+<p>					jQuery.cookie('disqus_login', null);</p>
+<p>					</p>
+<p>					callDisqus();</p>
+<p>				}</p>
+<p>			</p>
+<p>			}</p>
+<p>		});</p>
+<p>	}</p>
+<p>	//case 4: if user never log into both ST and disqus</p>
+<p>	else {</p>
+<p>		//alert("case4");</p>
+<p>		//console.log("case 4:if user never log into both ST and disqus");</p>
+<p>		disqus_config = function () {</p>
+<p>			this.sso = {</p>
+<p>				    	name:   "straitstimes",</p>
+<p>				          button:  "http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/disqusST.png",</p>
+<p>				          icon:     "http://www.straitstimes.com/STI/STIMEDIA/common/favicon.ico",</p>
+<p>				          url:        "http://www.straitstimes.com/STI/STIFILES/ssi/2011/login/login-in-form-full.html",</p>
+<p>				          logout:  ssologout,</p>
+<p>				          width:   "480",</p>
+<p>				          height:  "250"</p>
+<p>				};</p>
+<p>		};	</p>
+<p>		</p>
+<p>		callDisqus();</p>
+<p>	}</p>
+<p>	</p>
+<p>	</p>
+<p>function callDisqus(){</p>
+<p>		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;</p>
+<p>		dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';</p>
+<p>		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);</p>
+<p>}</p>
+<p>Please enable JavaScript to view the comments powered by Disqus.</p>
+<p>blog comments powered by Disqus</p>
+<p> </p>
+<p> </p>
+<p>var top_story_array = [    '756612'   ,    '756620'   ,    '756634'   ,    '756608'   ,    '756607'   ,    '756594'   ,    '756595'   ,    '756611'   ,    '756587'   ,    '756598'    ];</p>
+<p>More Top Stories</p>
+<p>'It is not so simple' - salaries do matter in political service</p>
+<p>OCBC Bank CEO David Conner to step down</p>
+<p>Changes coming up for HDB's BTO balloting rules</p>
+<p>Housing Board looking into committee for Rochor compensation</p>
+<p>Fewer companies expect to hire in 1st quarter this year: Hudson</p>
+<p>Average bus speeds fall due to daily rise in ridership</p>
+<p>Default rate of government-funded student loans under 1%</p>
+<p> </p>
+<p>Previous</p>
+<p>Next</p>
+<p> </p>
+<p>Singapore</p>
+<p>9:07 PM</p>
+<p>NUS honours founding chairman J.Y. Pillay</p>
+<p>8:31 PM</p>
+<p>Exports end 2011 on surprise strong note</p>
+<p>8:26 PM</p>
+<p>$1 million worth of counterfeit goods seized</p>
+<p>7:27 PM</p>
+<p>Tan Cheng Bock interested in running for next Presidential Election</p>
+<p>7:23 PM</p>
+<p>Changes coming up for HDB's BTO balloting rules</p>
+<p>7:05 PM</p>
+<p>What's on: Wednesday's listings from ST Life!</p>
+<p>6:32 PM</p>
+<p>SPH submits highest bid of $328 million for Sengkang commercial site</p>
+<p>6:25 PM</p>
+<p>OCBC Bank CEO David Conner to step down</p>
+<p>5:41 PM</p>
+<p>'It is not so simple' - salaries do matter in political service</p>
+<p>5:40 PM</p>
+<p>2 in 3 Singaporeans save no more than 20% of monthly salary</p>
+<p>5:30 PM</p>
+<p>Chauffeur jailed 5 weeks for taking traffic violation rap</p>
+<p>4:58 PM</p>
+<p>Housing Board looking into committee for Rochor compensation</p>
+<p>4:56 PM</p>
+<p>Fewer companies expect to hire in 1st quarter this year: Hudson</p>
+<p>4:44 PM</p>
+<p>More children in Singapore suffering from backache</p>
+<p>4:31 PM</p>
+<p>Computer technician jailed 29 months for online scam</p>
+<p>3:50 PM</p>
+<p>Default rate of government-funded student loans under 1%</p>
+<p>3:37 PM</p>
+<p>Average bus speeds fall due to daily rise in ridership</p>
+<p>4:46 PM</p>
+<p>EDB cautiously optimistic about outlook for 2012</p>
+<p>1:19 PM</p>
+<p>Skeletal remains in flat still unidentified after nearly 1 year</p>
+<p>12:16 PM</p>
+<p>SBS bus services to be affected by CNY countdown</p>
+<p>11:31 AM</p>
+<p>Ex-teacher jailed 8 years for sex with 14-year-old student</p>
+<p>6:00 AM</p>
+<p>4 ATMs of UOB found without 'jitter' security</p>
+<p>6:00 AM</p>
+<p>SGX drops move against China Sky</p>
+<p>6:00 AM</p>
+<p>Residents band together to fend off loan sharks</p>
+<p>6:00 AM</p>
+<p>Fined for threatening ex-girlfriend over topless photos</p>
+<p>6:00 AM</p>
+<p>No need for panic over bird flu, say experts</p>
+<p>8:30 AM</p>
+<p>Singapore's exports rise 9% in December</p>
+<p>6:00 AM</p>
+<p>'Foreign talent policy had effect on income gap'</p>
+<p>6:00 AM</p>
+<p>Private home sales slump in December with 632 units sold</p>
+<p>6:00 AM</p>
+<p>Woman slashes hubby, then falls to death</p>
+<p>6:00 AM</p>
+<p>'Raise wages in domestic service industries'</p>
+<p>6:00 AM</p>
+<p>SGX suffers 11.8% fall in 2nd quarter profits</p>
+<p>6:00 AM</p>
+<p>M1 net profit increases by 4.5% to $164.1 million</p>
+<p>6:00 AM</p>
+<p>Etoile FC withdraws from S-League, ahead of 2012 season</p>
+<p>6:00 AM</p>
+<p>Private home owners push up COVs, not PRs: Khaw</p>
+<p>6:00 AM</p>
+<p>'Cash-rich owners' pushing up HDB resale prices</p>
+<p>6:00 AM</p>
+<p>Finance jobs multiply for expats and locals</p>
+<p>6:00 AM</p>
+<p>Government still open to private sector tie-ups</p>
+<p>6:00 AM</p>
+<p>The key to boosting low-wage workers' pay</p>
+<p>6:00 AM</p>
+<p>Sharing of parent tax relief: Government to study call</p>
+<p>6:00 AM</p>
+<p>Changes proposed to legal profession, evidence Acts</p>
+<p>6:00 AM</p>
+<p>Subsidies for stay-at-home mums may be reviewed</p>
+<p>6:00 AM</p>
+<p>More parental maintenance complaints settled through mediation</p>
+<p>6:00 AM</p>
+<p>Family service centres to get more funds</p>
+<p>6:00 AM</p>
+<p>Pay review both half full and half empty, says Denise Phua</p>
+<p>6:00 AM</p>
+<p>Despite differences, both sides agree on pay fundamentals</p>
+<p>6:00 AM</p>
+<p>Corporate peg to pay draws lively debate in Parliament</p>
+<p>6:00 AM</p>
+<p>Passion alone not enough to run country well: DPM Teo</p>
+<p>6:00 AM</p>
+<p>Why pay was not benchmarked to that of foreign leaders</p>
+<p>6:00 AM</p>
+<p>It's the principles behind the numbers that matter: DPM Teo</p>
+<p>6:00 AM</p>
+<p>Minister's pay not automatically $1.1 million, says DPM Teo</p>
+<p>6:00 AM</p>
+<p>Serving is a privilege, not a sacrifice: MP Chen Show Mao</p>
+<p>6:00 AM</p>
+<p>Pay ministers five times an MP's allowance: WP</p>
+<p>6:00 AM</p>
+<p>WP plans differ little from recommendations: PAP MPs</p>
+<p>6:00 AM</p>
+<p>MPs favour clean wage system with no hidden perks or benefits </p>
+<p>6:00 AM</p>
+<p>Speaker of Parliament and deputies agree to accept pay cut</p>
+<p>6:00 AM</p>
+<p>Speech of the day: Temper idealism with realism</p>
+<p>6:00 AM</p>
+<p>Should civil servants be paid more than ministers?</p>
+<p>6:00 AM</p>
+<p>Stand-off in Parliament between Gerald Giam and Vikram Nair</p>
+<p>6:00 AM</p>
+<p>SMRT bus services to be diverted for Chinese New Year celebrations</p>
+<p>6:00 AM</p>
+<p>Fines for bus operators 'should be taken in context'</p>
+<p>6:00 AM</p>
+<p>Passengers can opt to decline premium, limo cabs at airport</p>
+<p> </p>
+<p>Most Popular</p>
+<p>'For one hour, I was fighting the waves': Bintan survivor</p>
+<p>'I thought I would never be able to get out of there'</p>
+<p>Property cooling measures making home buyers cautious</p>
+<p>Dubai to ensure Singaporeans in trouble get consular help</p>
+<p>Better schools, transport, housing on the way: PM</p>
+<p>Anwar under fire for suggesting review of gay laws</p>
+<p>Not a good Rabbit Year for abandoned bunnies</p>
+<p>Coca-Cola Company says its products in Singapore are safe</p>
+<p>Man fined for sending topless photos of ex-girlfriend to her family</p>
+<p>Droughts a bigger worry than flash floods: Vivian</p>
+<p>#storyNav   { border:1px solid #ddd; width:100%; border-left: none; border-right:none; float:left; font-weight:bold; font-size:11px; margin-bottom: 10px;}</p>
+<p>#storyNav .prev {width:48%; float:left; text-align:left; padding:12px 3px; }</p>
+<p>    #storyNav .prev a img   {margin: -5px 6px -5px 0; float:left;}</p>
+<p>#storyNav .next {width:100%;float:right; text-align:right;padding:12px 3px; color:#777; font-weight:normal; font-size:11px;}</p>
+<p>    #storyNav .next a {font-weight:bold;}</p>
+<p>    #storyNav .next a img   {margin: -5px 0 -5px 6px; float:right;}</p>
+<p>    #storyNav .next .sub    {font-weight:normal; color:#888;text-align:right; float:right;}</p>
+<p>    .pageSectionRed {color:#b83422; background-image:url(http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/slash.png); background-repeat:no-repeat; background-position:0 6px; padding:0 0 0 21px; margin:0 0 0 6px;}	</p>
+<p>	.pageSectionRed a:link, .pageSectionRed a:visited {color:#b83422;}</p>
+<p>	.pageSectionRed a:hover, .pageSectionRed a:active {color:#999;}</p>
+<p>	</p>
+<p>.imageOver{</p>
+<p>    background:url(http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/magnifyplusw.png) no-repeat;  </p>
+<p>    filter:alpha(opacity=50);</p>
+<p>    -moz-opacity:0.5;</p>
+<p>    -khtml-opacity: 0.5;</p>
+<p>    opacity: 0.5;   </p>
+<p>}	</p>
+<p>	// story changes</p>
+<p>	var title = jQuery.trim($('#main').find('h1').text());</p>
+<p>	$('div.headline, #storyindex li').each(function() { </p>
+<p>		var t = $.trim($(this).find('a').text());</p>
+<p>		if(t == title) {</p>
+<p>			var node = $(this).next().find('a');</p>
+<p>			if(node.text() && jQuery.trim(node.text()) != '') {</p>
+<p>				var html = '<div id="storyNav"><div class="next">NEXT STORY:  <a href="' + node.attr('href') + '">' + node.text() + '<img src="http://www.straitstimes.com/STI/STIMEDIA/sp/2010/images/nipRight.png"></a></div></div>';</p>
+<p>				$(html).insertBefore($('#facebook_like_container'));</p>
+<p>			}</p>
+<p>			return false;</p>
+<p>		}</p>
+<p>	});</p>
+<p>	</p>
+<p>	// section name process</p>
+<p>	$('#crumbs li').each(function() {</p>
+<p>		var txt = jQuery.trim($(this).text());</p>
+<p>		if(txt == 'Breaking News' || txt == 'Premium') {</p>
+<p>			var name = '<span class="pageSectionRed">' + $(this).next().html() + '</span>';</p>
+<p>			$('#pageSectiondiv').html($('#pageSectiondiv').text() + name);</p>
+<p>			return false;</p>
+<p>		}</p>
+<p>	});</p>
+<p>	</p>
+<p>	// colorbox for media	</p>
+<p>	if(!$('#pic-rotator-img').length) {</p>
+<p>		$('div.sizeL').find('img:first').attr('id', 'pic-rotator-img');</p>
+<p>	}</p>
+<p>	</p>
+<p>	if($('#pic-rotator-info').length) {</p>
+<p>		$('#pic-rotator-info img').each(function() { $(this).wrap($('<a></a>').attr('rel', 'cbxgrp').addClass('cbx')</p>
+<p>			.attr('href', $(this).attr('src').replace('.jpg', 'e.jpg')).attr('title', $(this).next().html()));});</p>
+<p>	} else {</p>
+<p>		if($('#pic-rotator-img').length) {</p>
+<p>			$('#pic-rotator-img').wrap($('<a></a>').addClass('cbx').attr('title', $('#pic-rotator-img').next().text()).attr('href', $('#pic-rotator-img').attr('src').replace('.jpg', 'e.jpg')));</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p>	if(!$('#pic-caption').length) {</p>
+<p>		$('div.sizeL').find('div.caption:first').attr('id', 'pic-caption');</p>
+<p>	}</p>
+<p>	</p>
+<p>	if($('#pic-rotator-img').length) { </p>
+<p>		$('#pic-rotator-img').css('cursor', 'pointer').hover(function() {</p>
+<p>			$('.storyRight div.sizeL').css('position', 'relative').prepend('<span style="position: absolute; top: 20px; left: 20px; width: 40px; height: 40px; cursor: pointer; " class="imageOver"></span>');</p>
+<p>		}).mouseout(function() {</p>
+<p>			$('.storyRight div.sizeL').find('span.imageOver').remove();</p>
+<p>		}).click(function() {</p>
+<p>			var src = $(this).attr('src');</p>
+<p>			$('#pic-rotator-info img').each(function() {</p>
+<p>				if($(this).attr('src').indexOf(src) >= 0) {</p>
+<p>					$(this).closest('a').trigger('click');</p>
+<p>					return false;</p>
+<p>				}</p>
+<p>			});</p>
+<p>		});</p>
+<p>	}</p>
+<p>	</p>
+<p>	$('a.cbx').colorbox({scrolling:false, onComplete: function() {</p>
+<p>		$("#cboxTitle").hide();</p>
+<p>		var element = $(this).colorbox.element(); </p>
+<p>		var title = $(element).attr("title"); </p>
+<p>		$("<div style='line-height: 16px; padding: 5px;'>"+title+"</div>").insertAfter("#cboxPhoto"); </p>
+<p>		$(this).colorbox.resize(); </p>
+<p>		$('#cboxCurrent').text($('#cboxCurrent').text().replace('image', 'Image'));</p>
+<p>		//_rsEvent(pageinfo.url,pageinfo.p_COTag);</p>
+<p>		if(pageinfo.p_COTag!="STI-SUNDAY" && pageinfo.p_COTag!="STI"){</p>
+<p>		_rsEvent("StoryImage","ST-NIP");</p>
+<p>		}else{</p>
+<p>			_rsEvent(pageinfo.url,pageinfo.p_COTag);</p>
+<p>		}</p>
+<p>	}});</p>
+<p>	</p>
+<p>	var kickers = $('div.kicker');</p>
+<p>	if(kickers.length) {</p>
+<p>		var k = $(kickers[0]);</p>
+<p>		if(k.parent()[0].tagName == 'A') {</p>
+<p>			k.parent().replaceWith(k);</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p>	var selected_div;</p>
+<p>	var prev_div;	</p>
+<p>	var next_div;</p>
+<p>	var loc;</p>
+<p>	</p>
+<p>  	if (pageinfo.hidden_section_name=='Breaking News' || pageinfo.hidden_section_name=='Parliament' || pageinfo.hidden_section_name=='Forum Letters'){</p>
+<p>		selected_div = jQuery("#storyindex div.headline p a[href*="+pageinfo.articleid+"]").parent().parent();  	</p>
+<p>		prev_div = selected_div.prevAll("div.headline:first");</p>
+<p>		next_div = selected_div.nextAll("div.headline");	</p>
+<p>		</p>
+<p>  	} else {</p>
+<p>	  	selected_div = jQuery("#storyindex li a[href*="+pageinfo.articleid+"]").parent();	</p>
+<p>		prev_div = selected_div.prevAll("li:first");</p>
+<p>		next_div = selected_div.nextAll("li");			</p>
+<p>  	}</p>
+<p>	</p>
+<p>	selected_div.css("font-weight", "bold");</p>
+<p>	</p>
+<p>	if (prev_div.text() == ''){</p>
+<p>		jQuery("#prevstory").hide();</p>
+<p>	}</p>
+<p>	if (next_div.text() == ''){</p>
+<p>		jQuery("#nextstory").hide();</p>
+<p>	}</p>
+<p>	</p>
+<p>		</p>
+<p>	</p>
+<p>  jQuery("#prevstory").click(function() {</p>
+<p>    if (pageinfo.hidden_section_name=='Breaking News' || pageinfo.hidden_section_name=='Parliament' || pageinfo.hidden_section_name=='Forum Letters'){</p>
+<p>	    loc=prev_div.children("p").children("a").attr("href");</p>
+<p>    }else{</p>
+<p>	    loc=prev_div.children("a").attr("href");	 </p>
+<p>    }		   </p>
+<p>	 location.href=loc;	  			  	  </p>
+<p>	  return false;</p>
+<p>   </p>
+<p>	});</p>
+<p>  </p>
+<p>   jQuery("#nextstory").click(function() {	</p>
+<p>    if (pageinfo.hidden_section_name=='Breaking News' || pageinfo.hidden_section_name=='Parliament' || pageinfo.hidden_section_name=='Forum Letters'){</p>
+<p>	    loc=next_div.children("p").children("a").attr("href");</p>
+<p>    }else{</p>
+<p>	    loc=next_div.children("a").attr("href");</p>
+<p>    }	</p>
+<p>		</p>
+<p>	</p>
+<p>	location.href=loc;</p>
+<p>	   </p>
+<p>	return false;</p>
+<p>	});	</p>
+<p>   if (jQuery("#photoGallery_storypage").length){</p>
+<p>	  jQuery("a[rel='photoGallery']").colorbox({onComplete: function() {jQuery("#cboxTitle").hide();jQuery("<div class='colorboxcaption'>"+jQuery(this).colorbox.element().attr("title")+"</div>").insertAfter("#cboxPhoto");jQuery(this).colorbox.resize();_rsEvent(pageinfo.url,pageinfo.p_COTag);}});	  </p>
+<p>   }</p>
+<p>   </p>
+<p>   function sendemail(sendlink) {</p>
+<p>    	if ( user != null && user !=0 && luser!=null && luser != "anonymous" && luser != "anonymous|anonymous"){</p>
+<p>   	    	jQuery.colorbox({innerWidth:"480px",innerHeight:"550px",href:sendlink,scrolling:false});jQuery("#cboxClose").hide();</p>
+<p>    	}else {</p>
+<p>    		jQuery.colorbox({width:'522px',height:'330px', href:'/STI/STIFILES/ssi/2011/login/login-in-form.html',scrolling:false});</p>
+<p>    	}</p>
+<p>    </p>
+<p>    return false;</p>
+<p>    </p>
+<p>	};</p>
+<p> </p>
+<p>//for top story listing</p>
+<p>    if (typeof(top_story_array) != "undefined" && jQuery.inArray(pageinfo.articleid,top_story_array) != -1){</p>
+<p>    	</p>
+<p>		jQuery("#story_top_banner").show();</p>
+<p>		if (jQuery("#story_top_content div a[href*="+pageinfo.articleid+"]").length)</p>
+<p>			{</p>
+<p>			</p>
+<p>			jQuery("#story_top_content div a[href*="+pageinfo.articleid+"]").parent().hide(); </p>
+<p>			</p>
+<p>			if (jQuery.inArray(pageinfo.articleid,top_story_array)==6){</p>
+<p>				jQuery("#story_top_content div.itemTopStory:nth-child(6)").removeClass("mr10");</p>
+<p>			}</p>
+<p>			jQuery("#story_top_content").show();}</p>
+<p>			else {</p>
+<p>				</p>
+<p>			jQuery("#story_top_content div.itemTopStory:last").hide();</p>
+<p>			jQuery("#story_top_content div.itemTopStory:nth-child(6)").removeClass("mr10");</p>
+<p>			jQuery("#story_top_content").show();</p>
+<p>			</p>
+<p>}</p>
+<p>		</p>
+<p>		</p>
+<p>    }</p>
+<p>   </p>
+<p>   if (jQuery("#facebook_like_container").length){</p>
+<p>	   jQuery("#facebook_like_container").html("<iframe src='http://www.facebook.com/plugins/like.php?href="+pageinfo.url+"&amp;layout=standard&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;height=80' scrolling='no' frameborder='0' style='border:none; overflow:hidden; ' allowTransparency='true'></iframe>").css('height', 80);</p>
+<p>   }</p>
+<p>  if (jQuery("#story_sharing_tool").length){</p>
+<p>  var story_tool_html='<a href="http://twitter.com/share" class="twitter-share-button" data-url="'+pageinfo.url+'" data-count="vertical">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"><\/script><div class="clearall">&nbsp;</div><div style="margin:0px 0px 0px 25px;"><a name="fb_share" type="box_count" share_url="'+pageinfo.url+'" href="http://www.facebook.com/sharer.php" >Share</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"><\/script></div><div class="clearall">&nbsp;</div><div class="google1"><g:plusone></g:plusone></div><div class="clearall">&nbsp;</div><div class="linkedIn"><script type="text/javascript" src="http://platform.linkedin.com/in.js"><\/script><script type="in/share" data-counter="top"><\/script></div>';</p>
+<p>      </p>
+<p>   jQuery("#story_sharing_tool").html(story_tool_html);</p>
+<p>   </p>
+<p>  	</p>
+<p>    if (pageinfo.spimgtype){	</p>
+<p>     //webspecial image handling</p>
+<p>    if (webspecialarray[pageinfo.spimgtype]){</p>
+<p>//    	alert(webspecialarray[pageinfo.spimgtype][0].url);</p>
+<p>    	var spimghtml = '<a href="'+webspecialarray[pageinfo.spimgtype][0].url+'"><img src="'+webspecialarray[pageinfo.spimgtype][0].img_src+'" width="'+webspecialarray[pageinfo.spimgtype][0].img_width+'"  height="'+webspecialarray[pageinfo.spimgtype][0].img_height+'" alt="'+webspecialarray[pageinfo.spimgtype][0].img_alt+'"\/><\/a>';</p>
+<p>jQuery("#webspecial-div").html(spimghtml);</p>
+<p>jQuery("#webspecial-div").show();</p>
+<p>    	</p>
+<p>    	</p>
+<p>    }</p>
+<p>    	</p>
+<p>    }	</p>
+<p>  }</p>
+<p>   </p>
+<p>		</p>
+<p>if (pageinfo.adtag){</p>
+<p>   if (pageinfo.adtag=="pe_asia_story" || pageinfo.adtag=="bn_asia_story"){</p>
+<p>     var theImages = new Array() // do not change this</p>
+<p>theImages[0] = '/STI/STIFILES/countryicons/cty_ayosdito.jpg'</p>
+<p>theImages[1] = '/STI/STIFILES/countryicons/cty_berniaga.gif'</p>
+<p>theImages[2] = '/STI/STIFILES/countryicons/cty_mudah.gif'</p>
+<p>theImages[3] = '/STI/STIFILES/countryicons/cty_panduan.gif'</p>
+<p>theImages[4] = '/STI/STIFILES/countryicons/cty_sou.gif'</p>
+<p>theImages[5] = '/STI/STIFILES/countryicons/cty_dinkos.gif'</p>
+<p>// Set the links to be used for the images</p>
+<p>var theLink = new Array()</p>
+<p>theLink[0] = 'http://www.ayosdito.ph'</p>
+<p>theLink[1] = 'http://www.berniaga.com'</p>
+<p>theLink[2] = 'http://www.mudah.my'</p>
+<p>theLink[3] = 'http://www.701panduan.com'</p>
+<p>theLink[4] = 'http://www.701sou.com'</p>
+<p>theLink[5] = 'http://www.dinkos.com.au'</p>
+<p>	</p>
+<p>// do not edit anything below this line</p>
+<p>var j = 0</p>
+<p>var p = theImages.length;</p>
+<p>var preBuffer = new Array()</p>
+<p>for (i = 0; i < p; i++){</p>
+<p> preBuffer[i] = new Image()</p>
+<p> preBuffer[i].src = theImages[i]</p>
+<p>}</p>
+<p>var whichImage = Math.round(Math.random()*(p-1));</p>
+<p>jQuery("#random_img_container").html('<a target="_blank" href="'+theLink[whichImage]+'"><img src="'+theImages[whichImage]+'" border="0"></a>'); </p>
+<p>   }</p>
+<p>}</p>
+<p> </p>
+<p>Search The Straits Times</p>
+<p>Search</p>
+<p>Archive</p>
+<p>S</p>
+<p>M</p>
+<p>T</p>
+<p>W</p>
+<p>T</p>
+<p>F</p>
+<p>S</p>
+<p>08</p>
+<p>09</p>
+<p>10</p>
+<p>11</p>
+<p>12</p>
+<p>13</p>
+<p>14</p>
+<p>15</p>
+<p>16</p>
+<p>17</p>
+<p>18</p>
+<p>19</p>
+<p>20</p>
+<p>21</p>
+<p>Follow ST</p>
+<p>ST Sections</p>
+<p> </p>
+<p>      	document.write(generateFooterItem(navbar.BN));</p>
+<p>      	if (display_day_array[0]=="Sunday"){</p>
+<p>			document.write(generateFooterItem(navbar.PremSunday));</p>
+<p>		}else {</p>
+<p>			document.write(generateFooterItem(navbar.PremWeekdays));</p>
+<p>	   }</p>
+<p>      </p>
+<p> </p>
+<p>        document.write(generateFooterItem(navbar.Community));</p>
+<p>		document.write(generateFooterItem(navbar.Multimedia));</p>
+<p>      	document.write(generateFooterItem(navbar.Features));</p>
+<p>        //document.write(generateFooterItem(navbar.Projects));</p>
+<p>      </p>
+<p>Projects • Childaid • School Pocket Money Fund • Parliament</p>
+<p>News Products</p>
+<p>      •	 document.write("<a class='EP' href='http://epaper.straitstimes.com/fvx/fvx.php?param="+epaper_date+"'>E-paper</a>");  •	 iPhone •	 News Alert</p>
+<p> </p>
+<p>Customer Care</p>
+<p>      •	 Subscribe  •	 About Us • Advertise •	 FAQ • Mobile app FAQ •Contact Us </p>
+<p>SPH Websites</p>
+<p> The Business Times | BT Stocks</p>
+<p>RazorTV</p>
+<p>STOMP</p>
+<p>Jobs | Property | Cars | Shops</p>
+<p>School Pocket Money Fund</p>
+<p>Asia News Network</p>
+<p>AsiaOne</p>
+<p>Zaobao</p>
+<p>Radio 91.3</p>
+<p> </p>
+<p>Copyright © 2012 Singapore Press Holdings Ltd. Co. Regn No. 198402868E. All rights reserved.</p>
+<p> Terms & Conditions</p>
+<p>var _rsCI="sg-sph"; /* client ID */</p>
+<p>var _rsCG=pageinfo.p_COTag; /* content group */</p>
+<p>var _rsDN="//secure-sg.imrworldwide.com/"; /* data node */</p>
+<p>var _rsDT=1; /* to turn on whether to get the document title, 0=off 1=on */</p>
+<p>var _rsSE=1; /* to turn on surveys, 0=off 1=on */</p>
+<p>var _rsSM=0.1; /* maxumum survey rate, 1.0=100% */</p>
+<p>var _rsSS=500; /* sample size */</p>
+<p>var _rsCL=0; /* link overlay, 0=off 1=on */</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="'+_rsDN+'v53.js"></scr'+'ipt>');</p>

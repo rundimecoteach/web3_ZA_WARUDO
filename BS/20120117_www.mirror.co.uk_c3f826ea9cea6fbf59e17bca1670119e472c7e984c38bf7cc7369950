@@ -1,0 +1,1241 @@
+<p>  </p>
+<p>var startLoadTime = (new Date()).getTime();</p>
+<p>EasyJet throws disabled businessman off flight as he cannot walk to emergency exit - mirror.co.uk</p>
+<p> var gs_channels = "default";</p>
+<p>			</p>
+<p>	//<![CDATA[</p>
+<p>		var statsPageProps = new Object;</p>
+<p>		statsPageProps.eventsList = '';</p>
+<p>	//]]></p>
+<p>	</p>
+<p>		//<![CDATA[</p>
+<p>			var useGoogleJSLogo = true; //displayhandler may override this value</p>
+<p>			function setGoogleLogoIfNeeded() {</p>
+<p>				if (useGoogleJSLogo) {</p>
+<p>					setGoogleLogo();</p>
+<p>				}</p>
+<p>			}</p>
+<p>			tm.imageServer = 'http://images.mirror.co.uk/';</p>
+<p>	</p>
+<p>		//]]></p>
+<p>		</p>
+<p>			//<![CDATA[</p>
+<p>				document.domain="mirror.co.uk";</p>
+<p>			//]]></p>
+<p>			</p>
+<p>			//<![CDATA[</p>
+<p>				tm.siteLife.daapi.setServerUrl('http://community.mirror.co.uk/ver1.0/Direct/Process');</p>
+<p>			//]]></p>
+<p>			</p>
+<p>			//<![CDATA[</p>
+<p>				tm.zones = '';</p>
+<p>			//]]></p>
+<p>			</p>
+<p>//<![CDATA[</p>
+<p>					(function(d, s, id) {</p>
+<p>					  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>					  if (d.getElementById(id)) {return;}</p>
+<p>					  js = d.createElement(s); js.id = id;</p>
+<p>					  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=123792601022133";</p>
+<p>					  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>					}(document, 'script', 'facebook-jssdk'));//]]></p>
+<p>					</p>
+<p>				//<![CDATA[</p>
+<p>				var rsi_segs = [];</p>
+<p>				var segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>				if (segs_beg>=0){</p>
+<p>					segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>					if(segs_beg>0){</p>
+<p>						var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>						if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>						rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');</p>
+<p>					}</p>
+<p>				}</p>
+<p>				var segLen=20;</p>
+<p>				var segQS="";</p>
+<p>				if (rsi_segs.length<segLen){</p>
+<p>					segLen=rsi_segs.length</p>
+<p>				}</p>
+<p>				for (var i=0;i<segLen;i++){</p>
+<p>					segQS+=("rsi"+"="+rsi_segs[i]+";")					</p>
+<p>				}</p>
+<p>			//]]>			</p>
+<p>			</p>
+<p>			  var _gaq = _gaq || [];</p>
+<p>			  _gaq.push(['_setAccount', 'UA-229407-1']);</p>
+<p>			  _gaq.push(['_trackPageview']);</p>
+<p>			  (function() {</p>
+<p>			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>			  })();</p>
+<p>			</p>
+<p><!--</p>
+<p>var OMNI_DEBUG_LEVEL = 33; </p>
+<p>function GetURLVars()</p>
+<p>{</p>
+<p>	</p>
+<p>	var args = new Object();</p>
+<p>	a_pairs = document.location.search.split(/[?&]/);</p>
+<p>	for (i = 0; i < a_pairs.length; i ++) {</p>
+<p>		</p>
+<p>		a_bits = a_pairs[i].split('=');</p>
+<p>		if ((a_bits.length == 2) && (a_bits[0].length)) {</p>
+<p>			if (args[a_bits[0]] == undefined) {</p>
+<p>				</p>
+<p>				args[a_bits[0]] = unescape(a_bits[1]);</p>
+<p>			} else {</p>
+<p>				</p>
+<p>				args[a_bits[0]] = args[a_bits[0]] + ',' + unescape(a_bits[1]);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	return args;</p>
+<p>}</p>
+<p>function GetCampaign()</p>
+<p>{</p>
+<p>	var urlvars = GetURLVars();</p>
+<p>	var campaignSrc;</p>
+<p>	if (typeof(urlvars.campaign) != 'undefined') {</p>
+<p>		campaignSrc = urlvars.campaign;</p>
+<p>	} else {</p>
+<p>		campaignSrc ="";</p>
+<p>	}</p>
+<p>	return campaignSrc;</p>
+<p>}</p>
+<p>var s_account;</p>
+<p>s_account = s_account || "tmrmgnthreeaggprod,tmrmirrorprod";</p>
+<p>//--></p>
+<p><!--</p>
+<p>var pageName = "m4/News/Top Stories"</p>
+<p>if (typeof startLoadTime != 'undefined') {</p>
+<p>	var endLoadTime = (new Date()).getTime();</p>
+<p>	var totalLoadTime = Math.round((endLoadTime - startLoadTime) / 100) /10;</p>
+<p>}</p>
+<p>else {</p>
+<p>	var totalLoadTime = 0;</p>
+<p>}</p>
+<p>s.channel="News";</p>
+<p>s.pageType="";</p>
+<p>s.prop1="News|Top Stories";</p>
+<p>s.prop2="";</p>
+<p>s.prop3="";</p>
+<p>s.prop4="";</p>
+<p>s.prop5 = "m4";</p>
+<p>try {</p>
+<p>	var omnitureSitename = (</p>
+<p>		(typeof getCookieVal == 'undefined')?getCookie:getCookieVal</p>
+<p>	)('brandingheader_site_name');</p>
+<p>	if (omnitureSitename) s.prop5 = omnitureSitename;</p>
+<p>} catch(e) {</p>
+<p>	</p>
+<p>}</p>
+<p>s.prop9="page.cfm"</p>
+<p>s.prop10="23703345"</p>
+<p>s.prop11=""</p>
+<p>s.prop12=""</p>
+<p>s.prop13=""</p>
+<p>s.prop14=GetCampaign();</p>
+<p>s.prop16="MGN5"</p>
+<p>s.prop18="homepage"</p>
+<p>s.prop19="23703345"</p>
+<p>s.prop21="MGN2"</p>
+<p>s.prop24=""</p>
+<p>s.prop27 = totalLoadTime</p>
+<p>s.prop30="article"</p>
+<p>s.hier1="m4|News|Top Stories"</p>
+<p>s.campaign=s.prop14</p>
+<p>s.state=""</p>
+<p>s.zip=""</p>
+<p>s.products=""</p>
+<p>s.purchaseID=""</p>
+<p>var eVar1Val=""</p>
+<p>var eVar2Val=""</p>
+<p>var eVar3Val=""</p>
+<p>var eVar4Val=""</p>
+<p>var eventsList=""</p>
+<p>s.prop15="m4_easyjet-throws-disabled-businessman-off-flight-as-he-cannot-walk-to-emergency-exit"</p>
+<p>s.prop22=s.prop23=""</p>
+<p>if (typeof(statsPageProps)!='undefined'){</p>
+<p>	if (typeof(statsPageProps.productCode)!='undefined')s.products=';'+statsPageProps.productCode</p>
+<p>	if (typeof(statsPageProps.jobSearchLocation)!='undefined')eVar3Val=statsPageProps.jobSearchLocation</p>
+<p>	if (typeof(statsPageProps.jobSearchIndustry)!='undefined')eVar4Val=statsPageProps.jobSearchIndustry</p>
+<p>	eventsList=statsPageProps.eventsList</p>
+<p>	if (typeof(statsPageProps.videoTitle)!='undefined'){</p>
+<p>		eVar2Val=s.prop23=statsPageProps.videoTitle;</p>
+<p>	</p>
+<p>	}</p>
+<p>	/* override props if defined from header var statsPageProps */</p>
+<p>	if (typeof(statsPageProps.path1) != 'undefined') {</p>
+<p>			s.prop1 = statsPageProps.path1;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.path2) != 'undefined') {</p>
+<p>			s.prop2 = statsPageProps.path2;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.path3) != 'undefined') {</p>
+<p>			s.prop3 = statsPageProps.path3;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.siteName) != 'undefined') {</p>
+<p>			s.prop5 = statsPageProps.siteName;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.region) != 'undefined') {</p>
+<p>		s.prop16 = statsPageProps.region;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.itemTitle) != 'undefined') {</p>
+<p>		s.prop19 = statsPageProps.itemTitle;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.publishingGroup) != 'undefined') {</p>
+<p>		s.prop21 = statsPageProps.publishingGroup;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.channel) != 'undefined') {</p>
+<p>		s.channel = statsPageProps.channel;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.classifiedCategory) != 'undefined') {</p>
+<p>		statsClassifiedCategory = statsPageProps.classifiedCategory;</p>
+<p>	}</p>
+<p>	if (typeof(statsPageProps.contentCategory) != 'undefined') {</p>
+<p>		statsContentCategory = statsPageProps.contentCategory;</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (typeof(statsPageProps.moleBusinessName) != 'undefined') {</p>
+<p>		s.prop26='Mole-Enquiry';</p>
+<p>		s.eVar7=statsPageProps.moleBusinessName;</p>
+<p>	}</p>
+<p>	// in case the kyte video starts playing before s is defined, then the event will be sent here</p>
+<p>	if (typeof(statsPageProps.kyteEvent) != 'undefined') {</p>
+<p>		eventsList += (eventsList ? ',' : '') + statsPageProps.kyteEvent;</p>
+<p>	}</p>
+<p>	// for image gallery kyte shows</p>
+<p>	if (typeof(statsPageProps.galleryName) != 'undefined') {</p>
+<p>		s.prop35=statsPageProps.galleryName;</p>
+<p>		s.eVar12=statsPageProps.galleryName;</p>
+<p>	}</p>
+<p>	</p>
+<p>	// for offers flyout</p>
+<p>	if (typeof(statsPageProps.flyout) != 'undefined') {</p>
+<p>		s.prop36 = statsPageProps.flyout;</p>
+<p>	}</p>
+<p>}</p>
+<p>s.events=eventsList</p>
+<p>s.eVar1=eVar1Val</p>
+<p>s.eVar2=eVar2Val</p>
+<p>s.eVar3=eVar3Val</p>
+<p>s.eVar4=eVar4Val</p>
+<p>s.eVar5=""</p>
+<p>s.pageName = setOmniturePageName(pageName);</p>
+<p>if (typeof(statsPageProps)!='undefined' && typeof(statsPageProps.pageNameSuffix)!='undefined') {</p>
+<p>	s.pageName += statsPageProps.pageNameSuffix; // adds a suffix if present on page.</p>
+<p>}</p>
+<p>if (typeof(statsClassifiedCategory) != "undefined") {</p>
+<p>	</p>
+<p>	s.prop4 = statsClassifiedCategory;</p>
+<p>	</p>
+<p>	s.prop18 = s.prop18 || statsClassifiedCategory;</p>
+<p>}</p>
+<p>if (typeof(statsContentCategory) != "undefined") {</p>
+<p>	s.prop18 = statsContentCategory;</p>
+<p>}</p>
+<p>if (s.prop4 != "" && s.prop5 != "") s.prop12 = s.prop5 + "_" + s.prop4;</p>
+<p>if (s.prop4 != "" && s.prop16 != "") s.prop17 = s.prop16 + "_" + s.prop4;</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code);</p>
+<p>var puffLinks = $('*[type=puff] a');</p>
+<p>//Add click event</p>
+<p>puffLinks.click(function(){</p>
+<p>	//get object id</p>
+<p>	var parentEl = $(this);</p>
+<p>	var objectId = "";</p>
+<p>	var containerName = "";</p>
+<p>	</p>
+<p>	//We want to find the content object on the page.</p>
+<p>	do {</p>
+<p>		parentEl = parentEl.parent();</p>
+<p>	} while (parentEl && </p>
+<p>			!parentEl.attr('tagName').toLowerCase().match(/(tm:)?contentobject/));</p>
+<p>	if (!parentEl) {</p>
+<p>		tm.logger.error(['Puff Tracking:', 'No parent tm:contentobject tag'], OMNI_DEBUG_LEVEL);</p>
+<p>		return !tm.logger.enabled; //if debug mode don't follow link</p>
+<p>	} else {</p>
+<p>		objectId = parentEl.attr('objectid');</p>
+<p>	}</p>
+<p>	</p>
+<p>	// So we now have the content object we are looking for - we continue on up the tree</p>
+<p>	// to get the name of the container holding it.</p>
+<p>	do {</p>
+<p>		parentEl = parentEl.parent();</p>
+<p>	} while (parentEl && </p>
+<p>			!parentEl.attr('tagName').toLowerCase().match(/(tm:)?container/) );</p>
+<p>	if (!parentEl) {</p>
+<p>		tm.logger.error(['Puff Tracking:', 'no parent tm:container tag'], OMNI_DEBUG_LEVEL);</p>
+<p>		return !tm.logger.enabled; //if debug mode don't follow link</p>
+<p>	} else {</p>
+<p>		containerName = parentEl.attr('name');</p>
+<p>	}</p>
+<p>	tm.logger.debug(['Puff Tracking:', 'objectId:', objectId, </p>
+<p>			'containerName:', containerName, parentEl ], OMNI_DEBUG_LEVEL);</p>
+<p>	s.eVar13 = s.pageName + '-' + containerName + '-' + objectId;</p>
+<p>	s.events = 'event17';</p>
+<p>	s.t();</p>
+<p>	</p>
+<p>	tm.logger.info(['Puff Tracking:', 'Omniture event sent' ], OMNI_DEBUG_LEVEL);</p>
+<p>	return tm.logger.debugLevel != OMNI_DEBUG_LEVEL; //if debug mode don't follow link</p>
+<p>});</p>
+<p>//Log to console if required.</p>
+<p>tm.logger.debug( [ 'Puff Tracking: Links', puffLinks ], OMNI_DEBUG_LEVEL );</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>Reader Offers</p>
+<p>Bingo</p>
+<p>Cashback</p>
+<p>Scratchcards</p>
+<p>Dating</p>
+<p>Tickets</p>
+<p>Comps</p>
+<p>Money</p>
+<p>AC_FL_RunContent = 0;</p>
+<p>		<!--//<![CDATA[</p>
+<p>		var d_names = new Array("Sun", "Mon", "Tue",</p>
+<p>				"Wed", "Thu", "Fri", "Sat");</p>
+<p>		var m_names = new Array("Jan", "Feb", "Mar",</p>
+<p>		"Apr", "May", "Jun", "Jul", "Aug", "Sep",</p>
+<p>		"Oct", "Nov", "Dec");</p>
+<p>		var d = new Date();</p>
+<p>		var curr_day = d.getDay();</p>
+<p>		var curr_date = d.getDate();</p>
+<p>		var sup = "";</p>
+<p>		if (curr_date == 1 || curr_date == 21 || curr_date ==31)</p>
+<p>		   {</p>
+<p>		   sup = "st";</p>
+<p>		   }</p>
+<p>		else if (curr_date == 2 || curr_date == 22)</p>
+<p>		   {</p>
+<p>		   sup = "nd";</p>
+<p>		   }</p>
+<p>		else if (curr_date == 3 || curr_date == 23)</p>
+<p>		   {</p>
+<p>		   sup = "rd";</p>
+<p>		   }</p>
+<p>		else</p>
+<p>		   {</p>
+<p>		   sup = "th";</p>
+<p>		   }</p>
+<p>		var curr_month = d.getMonth();</p>
+<p>		var curr_year = d.getFullYear();</p>
+<p>		var curr_hour = d.getHours();</p>
+<p>		if (curr_hour < 12)</p>
+<p>		   {</p>
+<p>		   a_p = "am";</p>
+<p>		   }</p>
+<p>		else</p>
+<p>		   {</p>
+<p>		   a_p = "pm";</p>
+<p>		   }</p>
+<p>		if (curr_hour == 0)</p>
+<p>		   {</p>
+<p>		   curr_hour = 12;</p>
+<p>		   }</p>
+<p>		if (curr_hour > 12)</p>
+<p>		   {</p>
+<p>		   curr_hour = curr_hour - 12;</p>
+<p>		   }</p>
+<p>		var curr_min = d.getMinutes();</p>
+<p>		curr_min = curr_min + "";</p>
+<p>		if (curr_min.length == 1)</p>
+<p>		   {</p>
+<p>		   curr_min = "0" + curr_min;</p>
+<p>		   }</p>
+<p>		   //]]--></p>
+<p>	</p>
+<p>			//<![CDATA[</p>
+<p>			//Set the variables required for jQuery to change the weather</p>
+<p>			// the file http://images.mirror.co.uk/js/m4/ajaxWeather.js updates the weather values using these variables</p>
+<p>			var sharedDatasource = 'shared';</p>
+<p>			var weatherSourceId = 3;</p>
+<p>			var weatherTownId = 2271;</p>
+<p>			var publicImageServer = 'http://images.mirror.co.uk';</p>
+<p>			var defaultTownID = '2271';</p>
+<p>			//]]></p>
+<p>		</p>
+<p>London</p>
+<p>Min:0°C</p>
+<p>Max:7°C</p>
+<p>			//<![CDATA[</p>
+<p>				/*</p>
+<p>	$Copyright Trinity Mirror $Date: 2009-08-11 16:28:00 +0100 (Tue, 11 Aug 2009) $</p>
+<p>	$Revision: 52471 $</p>
+<p>*/</p>
+<p>// parse document.cookie</p>
+<p>// returns a string or null.</p>
+<p>function getCookieVal(key) {</p>
+<p>	var pos = document.cookie.indexOf( key + "=" );</p>
+<p>	if( pos != -1 ) {</p>
+<p>		var start = pos + key.length + 1; </p>
+<p>		var end = document.cookie.indexOf(";", start);</p>
+<p>		if( end == -1 ) end = document.cookie.length;</p>
+<p>		var value = document.cookie.substring(start, end);</p>
+<p>		return unescape(value);</p>
+<p>	}</p>
+<p>	return null;</p>
+<p>}</p>
+<p>/*</p>
+<p>set a key in document.cookie with optional expiry and path.</p>
+<p>*/</p>
+<p>function setCookieVal(key,value,duration_sec,path) {</p>
+<p>	var theCookie = key + "=" + escape(value);</p>
+<p>	if (duration_sec && duration_sec > 0) {</p>
+<p>		var exp = new Date();</p>
+<p>		exp.setTime(exp.getTime() + (duration_sec * 1000));</p>
+<p>		theCookie += '; expires=' + exp.toGMTString();</p>
+<p>	}</p>
+<p>	if (path) {</p>
+<p>		theCookie += ';path=' + path;</p>
+<p>	}</p>
+<p>	document.cookie = theCookie;</p>
+<p>}</p>
+<p>/*</p>
+<p> * </p>
+<p> * Writes out headers for being logged in or not.</p>
+<p> * </p>
+<p> */</p>
+<p>function writeAuthHeader(regionId, needsCookies, regUrl, mailAddress, needsDiv, commProfileUrl, </p>
+<p>		type, profileUrl) {	</p>
+<p>	var siteLifeUId = "";</p>
+<p>	var siteLifeDisplayName = "";</p>
+<p>	if (!type) { // consumer type</p>
+<p>		type = 2;</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (needsCookies) {</p>
+<p>		mailAddress = getCookieVal("AUTH_SITE" + regionId + "_EMAIL");</p>
+<p>		if (commProfileUrl) {</p>
+<p>			var at = getCookieVal("AT");</p>
+<p>			if (at) {</p>
+<p>				var atVals = at.split("&");</p>
+<p>				for (var i = 0; i < atVals.length; i++) {</p>
+<p>					if (atVals[i].length > 2 && atVals[i].substring(0,2) == 'u=') {</p>
+<p>						siteLifeUId = atVals[i].substring(2);</p>
+<p>					}</p>
+<p>					if (atVals[i].length > 2 && atVals[i].substring(0,2) == 'a=') {</p>
+<p>						siteLifeDisplayName = atVals[i].substring(2);</p>
+<p>						if (type != 1) {</p>
+<p>							profileUrl = commProfileUrl + siteLifeDisplayName + '/';</p>
+<p>						} </p>
+<p>					}</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	if (type == 1) { // i.e. forums</p>
+<p>		if (!profileUrl) {</p>
+<p>			profileUrl = '/profile.php?mode=editprofile';</p>
+<p>		} else {</p>
+<p>			//try to append session id to the profile url</p>
+<p>			var sid = document.body.innerHTML.match(/sid=[0-9a-fA-F]+/);</p>
+<p>			if (sid && sid.length) {</p>
+<p>				profileUrl = profileUrl + '&' + sid;</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p> 	if (needsDiv) {</p>
+<p> 		document.write('<div class="RegistrationHeader">');</p>
+<p>	}</p>
+<p>	var a_redirect = location.href.match(/[&?]redirect=([^?&]*)/i);</p>
+<p>	if (a_redirect != null) {</p>
+<p>		var queryString = location.href.replace(/^[^?]*\?/, '');</p>
+<p>		redirectURL = a_redirect[1] + '&' + queryString.replace(/[&?](redirect|account|logout|register)=([^?&]*)/gi, '');</p>
+<p>	} else {</p>
+<p>		redirectURL = escape(location.href);</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (mailAddress) {</p>
+<p>		// User is logged in</p>
+<p>		writeAuthHeaderLoggedIn(mailAddress,</p>
+<p>								regUrl + '?account=1',</p>
+<p>								regUrl + '?logout=1&redirect=' + redirectURL,</p>
+<p>								profileUrl,</p>
+<p>								siteLifeUId,</p>
+<p>								siteLifeDisplayName); </p>
+<p>	} else {</p>
+<p>		// User is not logged in</p>
+<p>		</p>
+<p>		//removed register=1 to allow toggle between login and register pages</p>
+<p>		var loginURL = regUrl + '?' + (type != 2 ? 'type='+type+'&' : '') </p>
+<p>				+ 'redirect=' + redirectURL;</p>
+<p>		loginURL = loginURL.replace(/[&?](register)=([^?&]*)/gi, '');</p>
+<p>		writeAuthHeaderLoggedOut(loginURL, regUrl + '?register=1&type='+type+'&redirect=' + </p>
+<p>				redirectURL, profileUrl);</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (needsDiv) {</p>
+<p>		document.write('</div>');</p>
+<p>	}</p>
+<p>}</p>
+<p>			//]]></p>
+<p>			</p>
+<p>		//<![CDATA[</p>
+<p>function writeAuthHeaderLoggedOut(loginURL, registerURL)</p>
+<p>{</p>
+<p>	document.write('<li class="login"><a href="' + loginURL + '">login</a></li><li class="register"><a href="' + registerURL + '">register</a></li>');</p>
+<p>}</p>
+<p>function writeAuthHeaderLoggedIn(mailAddress, accountURL, logoutURL,</p>
+<p>								commProfileUrl, siteLifeUId, siteLifeDisplayName)</p>
+<p>{</p>
+<p>	if (commProfileUrl && siteLifeUId && siteLifeDisplayName) {</p>
+<p>		var welcome =	'<li class="login-user">Welcome <a href="' + commProfileUrl + '?UID=' +</p>
+<p>						siteLifeUId + '">' + siteLifeDisplayName + '</a></li>';</p>
+<p>	}</p>
+<p>	else {</p>
+<p>		var welcome = '<li class="login-user">' + mailAddress + '</li>';</p>
+<p>	}</p>
+<p>	document.write(	'<li class="logout"><a href="' + logoutURL +</p>
+<p>					'">Log out</a></li><li class="your-account"><a href="' + accountURL +</p>
+<p>					'">Your account</a></li>' + welcome);</p>
+<p>}</p>
+<p>writeAuthHeader(100,</p>
+<p>				true,</p>
+<p>				'/registration/index.cfm',</p>
+<p>				null,</p>
+<p>				false,</p>
+<p>				'http://www.mirror.co.uk/community/profile/',</p>
+<p>				2 </p>
+<p>				);</p>
+<p>	//]]></p>
+<p>	</p>
+<p>mirror.co.uk</p>
+<p>					document.write(d_names[curr_day] + " " + curr_date + sup +</p>
+<p>					" " + m_names[curr_month] + " " + curr_year + " " + curr_hour + ":" + curr_min + a_p);</p>
+<p>				</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>(function (x) { if (tm.defer) {tm.defer.defer(x); } else { document.write(x);}})('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/mirror.5293/' +</p>
+<p> 'news_leaderboard_top_728x90;sz=728x90,468x60;pos=top;sect=top-stories;psect=news;zone=news;templ=page;oid=23703345;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';dcopt=ist' +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>Search Mirror.co.uk</p>
+<p>Site Map</p>
+<p>Tags</p>
+<p>RSS </p>
+<p>                    </p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>							Top Stories</p>
+<p>						</p>
+<p>							Weird World</p>
+<p>						</p>
+<p>							Kerber and Black</p>
+<p>						</p>
+<p>							Video</p>
+<p>						</p>
+<p>							Royal Family</p>
+<p>						</p>
+<p>							Latest</p>
+<p>						</p>
+<p>							Pictures</p>
+<p>						</p>
+<p>							Politics</p>
+<p>						</p>
+<p>							Technology</p>
+<p>						</p>
+<p>							Health News</p>
+<p>						</p>
+<p>							City</p>
+<p>						</p>
+<p>							Scottish News</p>
+<p>						</p>
+<p>							London 2012</p>
+<p>						</p>
+<p>							P & S Investigate</p>
+<p>						</p>
+<p>							Topics</p>
+<p>						</p>
+<p>							Mobile</p>
+<p>						</p>
+<p>Sport</p>
+<p>							Football</p>
+<p>						</p>
+<p>							Columnists</p>
+<p>						</p>
+<p>							MirrorSport Blog</p>
+<p>						</p>
+<p>							Football Spy</p>
+<p>						</p>
+<p>							Racing</p>
+<p>						</p>
+<p>							Motorsport</p>
+<p>						</p>
+<p>							British Superbikes</p>
+<p>						</p>
+<p>							Cricket</p>
+<p>						</p>
+<p>							Tennis</p>
+<p>						</p>
+<p>							Rugby Union</p>
+<p>						</p>
+<p>							Golf</p>
+<p>						</p>
+<p>							Boxing</p>
+<p>						</p>
+<p>							Basketball</p>
+<p>						</p>
+<p>							MMA & Wrestling</p>
+<p>						</p>
+<p>							Rugby League</p>
+<p>						</p>
+<p>							Darts</p>
+<p>						</p>
+<p>							Fourth Down Blog</p>
+<p>						</p>
+<p>							Cycling Blog</p>
+<p>						</p>
+<p>							Topics</p>
+<p>						</p>
+<p>							Sports Tickets</p>
+<p>						</p>
+<p>							Mobile</p>
+<p>						</p>
+<p>							Video</p>
+<p>						</p>
+<p>Celebs & TV</p>
+<p>							3am</p>
+<p>						</p>
+<p>							Celebs News</p>
+<p>						</p>
+<p>							Fashion and Beauty</p>
+<p>						</p>
+<p>							TV</p>
+<p>						</p>
+<p>							Dancing On Ice</p>
+<p>						</p>
+<p>							X Factor</p>
+<p>						</p>
+<p>							Strictly Come Dancing</p>
+<p>						</p>
+<p>							I'm A Celebrity</p>
+<p>						</p>
+<p>							Celebrity Big Brother</p>
+<p>						</p>
+<p>							We Love Telly Podcast</p>
+<p>						</p>
+<p>							Dean Piper</p>
+<p>						</p>
+<p>							Film</p>
+<p>						</p>
+<p>							Music</p>
+<p>						</p>
+<p>							Celebrity Beauty</p>
+<p>						</p>
+<p>							Coleen Nolan</p>
+<p>						</p>
+<p>							Tess Daly</p>
+<p>						</p>
+<p>							Nadia Sawalha</p>
+<p>						</p>
+<p>							Video</p>
+<p>						</p>
+<p>							Mobile</p>
+<p>						</p>
+<p>							Music Tickets</p>
+<p>						</p>
+<p>Life & Style</p>
+<p>							Psychic Sally Morgan</p>
+<p>						</p>
+<p>							Dating</p>
+<p>						</p>
+<p>							Horoscopes</p>
+<p>						</p>
+<p>							Real Life</p>
+<p>						</p>
+<p>							Coleen Nolan</p>
+<p>						</p>
+<p>							Nadia Sawalha</p>
+<p>						</p>
+<p>							Tess Daly</p>
+<p>						</p>
+<p>							Jeff Brazier</p>
+<p>						</p>
+<p>							Karen Barber</p>
+<p>						</p>
+<p>							Beauty</p>
+<p>						</p>
+<p>							TalkTalk Digital Heroes</p>
+<p>						</p>
+<p>							Dieting</p>
+<p>						</p>
+<p>							Sex & Relationships</p>
+<p>						</p>
+<p>							Fashion</p>
+<p>						</p>
+<p>							Family</p>
+<p>						</p>
+<p>							Mirror Photos</p>
+<p>						</p>
+<p>							Cashback</p>
+<p>						</p>
+<p>							Reader Offers</p>
+<p>						</p>
+<p>Advice</p>
+<p>							Christmas</p>
+<p>						</p>
+<p>							Motoring</p>
+<p>						</p>
+<p>							Dr Miriam</p>
+<p>						</p>
+<p>							Agony Aunt</p>
+<p>						</p>
+<p>							Cash Queens</p>
+<p>						</p>
+<p>							Diarmuid Gavin</p>
+<p>						</p>
+<p>							Mirror Investigates</p>
+<p>						</p>
+<p>							Homes</p>
+<p>						</p>
+<p>							Gardening</p>
+<p>						</p>
+<p>							Money</p>
+<p>						</p>
+<p>							Get Britain Working</p>
+<p>						</p>
+<p>Money</p>
+<p>							Quids In</p>
+<p>						</p>
+<p>Travel</p>
+<p>Opinion</p>
+<p>							Kerber & Black cartoons</p>
+<p>						</p>
+<p>							Blogs</p>
+<p>						</p>
+<p>							Columnists</p>
+<p>						</p>
+<p>							Voice of the Mirror</p>
+<p>						</p>
+<p>Fun & Games</p>
+<p>							Andy Capp</p>
+<p>						</p>
+<p>							Simon's Cat</p>
+<p>						</p>
+<p>							Competitions</p>
+<p>						</p>
+<p>							Crosswords</p>
+<p>						</p>
+<p>							Bingo</p>
+<p>						</p>
+<p>							Sudoku</p>
+<p>						</p>
+<p>							Cartoons</p>
+<p>						</p>
+<p>							Casino</p>
+<p>						</p>
+<p>							Video Games</p>
+<p>						</p>
+<p>Video</p>
+<p>							News</p>
+<p>						</p>
+<p>							Sport</p>
+<p>						</p>
+<p>							Celebs</p>
+<p>						</p>
+<p>							Film Trailers</p>
+<p>						</p>
+<p>Home</p>
+<p>News</p>
+<p>Top Stories</p>
+<p> </p>
+<p> EasyJet throws disabled businessman off flight as he cannot walk to emergency exit </p>
+<p>	</p>
+<p>	By Louie Smith </p>
+<p>		</p>
+<p>	17/01/2012</p>
+<p>	</p>
+<p>Decrease font size</p>
+<p>Increase font size</p>
+<p>	<!-- AddThis Button Start -->	</p>
+<p>	var addthis_share = {</p>
+<p>	url_transforms : {</p>
+<p>	clean: true,</p>
+<p>	shorten: { </p>
+<p>	twitter: 'bitly',</p>
+<p>	facebook: 'bitly' </p>
+<p>	}</p>
+<p>	},</p>
+<p>	shorteners : {</p>
+<p>	 bitly : {</p>
+<p>	 login: 'dailymirror',</p>
+<p>	 apiKey: 'R_33891c131eea1632a0817c30b6d45823'</p>
+<p>	 }</p>
+<p>	}</p>
+<p>	};</p>
+<p>	var addthis_config = {</p>
+<p>	data_track_clickback : 'true'	</p>
+<p>	};	</p>
+<p>	</p>
+<p>	Dr. Martin Sabry </p>
+<p>	</p>
+<p>A disabled businessman has been thrown off a budget flight – because he could not walk to the emergency exit.</p>
+<p>EasyJet staff told Dr Martin Sabry, 39, who is paralysed from the chest down, that he could not travel on his own.</p>
+<p>He said ground control told him he could board the plane, but the captain over-ruled the decision and he was told all single passengers must be able to reach the exit.</p>
+<p>Advertisement >> </p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>(function (x) { if (tm.defer) {tm.defer.defer(x); } else { document.write(x);}})('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/mirror.5293/' +</p>
+<p> 'news_mputwo_centre_300x250;sz=300x250;pos=centre;sect=top-stories;psect=news;zone=news;templ=page;oid=23703345;gs_cat='+gs_channels+'' + tm.zones +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>	//]]></p>
+<p>Dr Sabry says he often flies for work and had never had this issue. He said yesterday: “It was so demeaning and unbelievable the way they treated me and the purser was obnoxiously rude.”</p>
+<p>Dr Sabry, from Cambridge, waited four hours to speak to bosses, who apologised, put him on the next flight from Gatwick to Toulouse and paid for his taxi transfer.</p>
+<p>A spokeswoman said: “All passengers travelling alone must be able to make their way to an exit unaided – it seems there was a misunderstanding regarding this.”</p>
+<p>	dr martin sabry</p>
+<p>	</p>
+<p>	, </p>
+<p>	</p>
+<p>	easyjet</p>
+<p>	</p>
+<p>//<![CDATA[</p>
+<p>var OB_permalink= 'http://www.mirror.co.uk/news/top-stories/2012/01/17/easyjet-throws-disabled-businessman-off-flight-as-he-cannot-walk-to-emergency-exit-115875-23703345/';</p>
+<p>var OB_Template="mirrorgroup";</p>
+<p>var OB_widgetId= 'AR_1';</p>
+<p>var OB_langJS ='http://widgets.outbrain.com/lang_en.js';</p>
+<p>if ( typeof(OB_Script)!='undefined' )</p>
+<p>	OutbrainStart();</p>
+<p>else</p>
+<p>{</p>
+<p>	var OB_Script = true;</p>
+<p>	var str = "<script src='http://widgets.outbrain.com/outbrainWidget.js'; type='text/javascript'></"+"script>";</p>
+<p>	document.write(str);</p>
+<p>}</p>
+<p>//]]></p>
+<p>Related articles</p>
+<p>	 Flight tax rise 'will cost jobs', airlines warn</p>
+<p>	</p>
+<p> </p>
+<p>	31/12/2011 00:00</p>
+<p>	<!-- AddThis Button Start -->	</p>
+<p>	var addthis_share = {</p>
+<p>	url_transforms : {</p>
+<p>	clean: true,</p>
+<p>	shorten: { </p>
+<p>	twitter: 'bitly',</p>
+<p>	facebook: 'bitly' </p>
+<p>	}</p>
+<p>	},</p>
+<p>	shorteners : {</p>
+<p>	 bitly : {</p>
+<p>	 login: 'dailymirror',</p>
+<p>	 apiKey: 'R_33891c131eea1632a0817c30b6d45823'</p>
+<p>	 }</p>
+<p>	}</p>
+<p>	};</p>
+<p>	var addthis_config = {</p>
+<p>	data_track_clickback : 'true'	</p>
+<p>	};	</p>
+<p>	</p>
+<p>Print</p>
+<p>Send</p>
+<p>Share</p>
+<p>Search Mirror.co.uk</p>
+<p>RSS | </p>
+<p>	Site Map | </p>
+<p>	Tags</p>
+<p>Quick Search</p>
+<p>	Search Local Mole for a comprehensive business directory list</p>
+<p>	</p>
+<p> </p>
+<p>		//<![CDATA[</p>
+<p>			</p>
+<p>			</p>
+<p>			var fcwLogger = function(){};</p>
+<p>			if( tm.siteLife.logger != null){</p>
+<p>				fcwLogger = function(level){</p>
+<p>					tm.siteLife.logger.log(level, 'fullCommentsWidget', arguments);</p>
+<p>				}</p>
+<p>				fcwLogger('info','log enabled');</p>
+<p>			}</p>
+<p>			(function(){</p>
+<p>				var sitelifeId = tm.siteLife.display.getUniqueId();</p>
+<p>				document.write('<span id="sitelife-comments-bottom"></span>');</p>
+<p>				document.write('<div id="sitelife-commentsWidget-bottom"></div>');</p>
+<p>				tm.siteLife.daapi.getArticle(</p>
+<p>					"100-115875-23703345",</p>
+<p>					function(article){</p>
+<p>						tm.siteLife.display.displayCommentCount(</p>
+<p>							article,</p>
+<p>							'sitelife-commentsWidget-bottom',</p>
+<p>							false,</p>
+<p>							'Users\' Comments',</p>
+<p>							false</p>
+<p>						);</p>
+<p>					}</p>
+<p>				);</p>
+<p>			})();</p>
+<p>			var pluckLoginURL =</p>
+<p>						"http://www.mirror.co.uk/registration/index.cfm?redirect=",</p>
+<p>					pluckRegisterURL =</p>
+<p>						"http://www.mirror.co.uk/registration/index.cfm?register=1&type=4&redirect=";</p>
+<p>		//]]></p>
+<p>		</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>(function (x) { if (tm.defer) {tm.defer.defer(x); } else { document.write(x);}})('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/mirror.5293/' +</p>
+<p> 'news_adstrap2_centre_438x50;sz=438x50;pos=centre;sect=top-stories;psect=news;zone=news;templ=page;oid=23703345;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>				//<![CDATA[</p>
+<p>				var google_adnum = 0;</p>
+<p>			</p>
+<p>				function google_ad_request_done(google_ads) {</p>
+<p>			</p>
+<p>					if (google_ads.length == 0) {</p>
+<p>						return;</p>
+<p>					}</p>
+<p>					function anchorLink(str,url,visible_url,cssclass) {</p>
+<p>						 return '<a href="'+ url + '" '</p>
+<p>							+ ((typeof(cssclass)=='undefined')?(' '):(' class="'+cssclass+'" '))</p>
+<p>							+ '\'" onmouseover="window.status=\''  + encodeURI(visible_url)</p>
+<p>							+ '\'" onmouseout="window.status=\'\'">' + str + '</a>';</p>
+<p>					}</p>
+<p>					google_adnum += google_ads.length;</p>
+<p>					if (typeof(google_info)=="undefined"){</p>
+<p>						var feedback_url = "http://services.google.com/feedback/online_hws_feedback";</p>
+<p>					} else {</p>
+<p>						var feedback_url = google_info.feedback_url;</p>
+<p>					}</p>
+<p>					if('pub-4010713000150964'=='pub-4010713000150964'){</p>
+<p>						var s =	'<div class="'+ wrapperClass +'"><h4 class="list-head-color1 m4-adsbygoogle-header replace"><a class="google-adlink" href="'+feedback_url+'">Ads by Google<span></span></a></h4>';</p>
+<p>					} else {</p>
+<p>						var s =	'<div class="'+ wrapperClass +'"><h4 class="list-head-color1 m4-adsbygoogle-header replace">Ads by Google<span></span></h4>' +</p>
+<p>								'<div class="sponsored-link"><p><a class="google-adlink" href="'</p>
+<p>								+feedback_url+'">Ads by Google</a></p></div>';</p>
+<p>					}</p>
+<p>					for (var i = 0; i < google_ads.length; ++i) {</p>
+<p>						if (google_ads[i].type == "image") {</p>
+<p>							s +='<a href="' + google_ads[i].url +</p>
+<p>								'" target="_top" title="go to ' + google_ads[i].visible_url +</p>
+<p>								'"><img style="border:0" src="' + google_ads[i].image_url +</p>
+<p>								'"width="' + google_ads[i].image_width +</p>
+<p>								'"height="' + google_ads[i].image_height + '"/></a>';</p>
+<p>						} else {</p>
+<p>							s += '<div class="sponsored-link">' +</p>
+<p>								'<h5>' + anchorLink(google_ads[i].line1,google_ads[i].url,</p>
+<p>										google_ads[i].visible_url) + '</h5>'</p>
+<p>								+ '<p>' + google_ads[i].line2 + '&nbsp;'</p>
+<p>								+ ((typeof(google_ads[i].line3)=='undefined')?(' '):( google_ads[i].line3 ))</p>
+<p>								+ '<br />'</p>
+<p>								+ '<span>' + anchorLink(google_ads[i].visible_url,google_ads[i].url,</p>
+<p>										google_ads[i].visible_url,"google-adlink") + '</span>'</p>
+<p>								+ '</p></div>';</p>
+<p>						}</p>
+<p>					}</p>
+<p>					s += '</div>' + "\r\n";</p>
+<p>					wrapperClass = null;</p>
+<p>					document.write(s);</p>
+<p>					return;</p>
+<p>				}</p>
+<p>				//]]></p>
+<p>		</p>
+<p>	</p>
+<p>	</p>
+<p>		google_max_num_ads = '3';</p>
+<p>		google_ad_channel = '5245193662';</p>
+<p>		google_ad_type = 'text';</p>
+<p>		google_ad_client = 'pub-4010713000150964';</p>
+<p>		google_feedback = 'on';</p>
+<p>		google_language = 'en';</p>
+<p>		google_encoding = 'utf8';</p>
+<p>		</p>
+<p>			google_skip = google_adnum;</p>
+<p>			google_ad_output = 'js';</p>
+<p>		</p>
+<p>		var wrapperClass = 'm4-adsbygoogle';</p>
+<p>	</p>
+<p>	var tm; // Namespacing</p>
+<p>	if (!tm) tm = {};</p>
+<p>	tm.rlItemId = '100-115875-23703345';</p>
+<p>	tm.rlAuthCookie = 'auth_site100_userid';</p>
+<p>	tm.rlAnonCookie = 'anonId';</p>
+<p>	tm.rlSiteName = 'm4';</p>
+<p>	var tm; // Namespacing</p>
+<p>	if (!tm) tm = {};</p>
+<p>	tm.rlItemId = '100-115875-23703345';</p>
+<p>	tm.rlAuthCookie = 'auth_site100_userid';</p>
+<p>	tm.rlAnonCookie = 'anonId';</p>
+<p>	tm.rlSiteName = 'm4';</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>(function (x) { if (tm.defer) {tm.defer.defer(x); } else { document.write(x);}})('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/mirror.5293/' +</p>
+<p> 'news_mpu_centre_300x250;sz=300x250,300x600;pos=centre;sect=top-stories;psect=news;zone=news;templ=page;oid=23703345;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>(function (x) { if (tm.defer) {tm.defer.defer(x); } else { document.write(x);}})('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/mirror.5293/' +</p>
+<p> 'news_promobox1_centre_300x60;sz=300x60;pos=centre;sect=top-stories;psect=news;zone=news;templ=page;oid=23703345;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>(function (x) { if (tm.defer) {tm.defer.defer(x); } else { document.write(x);}})('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/mirror.5293/' +</p>
+<p> 'news_promobox2_centre_300x48;sz=300x48;pos=centre;sect=top-stories;psect=news;zone=news;templ=page;oid=23703345;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p> More Top Stories</p>
+<p>Daily Mirror boss tells Leveson Inquiry no evidence of phone hacking at paper</p>
+<p>'Lost' photos taken by Captain Scott reveal South Pole expedition through his eyes, 100 years on</p>
+<p>Muhammad Ali at 70 video: Watch number one fan Tony Parsons explain why he matters so much</p>
+<p>Dream of making artificial body parts becoming a reality</p>
+<p>Captain Scott South Pole 100th anniversary: Contemporary photos and newspapers show how expedition was covered at the time</p>
+<p>Biggest ovarian cancer breakthrough in 15 years</p>
+<p>Detectives keep their jobs after giving cider to teenage suspect</p>
+<p>Teenage girl who vomits 50 times a day needs £22k bionic stomach operation</p>
+<p>Genuine Leather Shoes</p>
+<p>£39.95 - BOGOF</p>
+<p>//<![CDATA[</p>
+<p>if (typeof dartOrd == 'undefined') dartOrd=Math.random()*10000000000000000000;</p>
+<p>if (typeof tm.zones == 'undefined') {tm.zones = "";}</p>
+<p>(function (x) { if (tm.defer) {tm.defer.defer(x); } else { document.write(x);}})('<scr' +</p>
+<p>	'ipt type="text/javascript" ' +</p>
+<p> 'src="http://ad.uk.doubleclick.net/adj/mirror.5293/' +</p>
+<p> 'news_mputhree_centre_300x250;sz=300x250;pos=centre;sect=top-stories;psect=news;zone=news;templ=page;oid=23703345;gs_cat='+gs_channels+'' + tm.zones  +</p>
+<p> ';tile=' + tm.nextTileValue() +</p>
+<p> ';' + (typeof segQS != "undefined" ? segQS:"" ) +</p>
+<p> ';ord=' +</p>
+<p> dartOrd +</p>
+<p> </p>
+<p> '?"><\/scr' +</p>
+<p> 'ipt>');</p>
+<p>				//]]></p>
+<p> </p>
+<p>Cruise ship Britons safe</p>
+<p>The Foreigh Office has confirmed all British passengers and crew on board the stricken Costa Concordia, which keeled over off the Italian coast, are safe.</p>
+<p>Stars prepare for Gervais's jibes</p>
+<p>Stars prepare for Ricky Gervais to take aim, as the comic returns to host the Golden Globe awards.</p>
+<p>Second arrest in Birmingham double murder</p>
+<p>A second man has been arrested in connection with the murder of a couple who were found dead in their home.</p>
+<p>London turns cool for ice festival</p>
+<p>Canary Wharf turns cool with the annual London Ice Sculpting Festival.</p>
+<p>Man quizzed over bodies in house</p>
+<p>Police arrest a man on suspicion of murder after double killing in Leeds</p>
+<p>McCarthy hails Fletcher</p>
+<p>Mick McCarthy praises Steven Fletcher after the striker helped Wolves to a 1-1 draw with Tottenham</p>
+<p>See this months Kerber and Black cartoons</p>
+<p>Rihanna's raunchy Paris performance</p>
+<p>Australia beat Wales in the third place play-off</p>
+<p>Gaddafi Dead: Newspaper reaction from around the world</p>
+<p>Gaddafi Dead: Celebrations in London and Manchester</p>
+<p>Gaddafi Dead: The former leader with his female bodyguards</p>
+<p>The Queen arrives in Australia for her first visit since 2006</p>
+<p>Dale Farm eviction begins</p>
+<p>Beyonce proves she's one hot mum-to-be</p>
+<p>Miranda Kerr's new Victoria's Secret Lingerie Shoot</p>
+<p>Antelope crashes into mountain biker</p>
+<p> </p>
+<p>Site Map</p>
+<p>Advice</p>
+<p>Agony Aunt</p>
+<p>Cash Queens</p>
+<p>Christmas</p>
+<p>Diarmuid Gavin</p>
+<p>Dr Miriam</p>
+<p>Gardening</p>
+<p>Get Britain Working</p>
+<p>Homes</p>
+<p>Mirror Investigates</p>
+<p>Money</p>
+<p>Motoring</p>
+<p>Celebs & TV</p>
+<p>3am</p>
+<p>Celebrity Beauty</p>
+<p>Celebrity Big Brother</p>
+<p>Celebs News</p>
+<p>Coleen Nolan</p>
+<p>Dancing On Ice</p>
+<p>Dean Piper</p>
+<p>Fashion and Beauty</p>
+<p>Film</p>
+<p>I'm A Celebrity</p>
+<p>Mobile</p>
+<p>Music</p>
+<p>Music Tickets</p>
+<p>Nadia Sawalha</p>
+<p>Strictly Come Dancing</p>
+<p>Tess Daly</p>
+<p>TV</p>
+<p>Video</p>
+<p>We Love Telly Podcast</p>
+<p>X Factor</p>
+<p>Fun & Games</p>
+<p>Andy Capp</p>
+<p>Bingo</p>
+<p>Cartoons</p>
+<p>Casino</p>
+<p>Competitions</p>
+<p>Crosswords</p>
+<p>Simon's Cat</p>
+<p>Sudoku</p>
+<p>Video Games</p>
+<p>Life & Style</p>
+<p>Beauty</p>
+<p>Cashback</p>
+<p>Coleen Nolan</p>
+<p>Dating</p>
+<p>Dieting</p>
+<p>Family</p>
+<p>Fashion</p>
+<p>Horoscopes</p>
+<p>Jeff Brazier</p>
+<p>Karen Barber</p>
+<p>Mirror Photos</p>
+<p>Nadia Sawalha</p>
+<p>Psychic Sally Morgan</p>
+<p>Reader Offers</p>
+<p>Real Life</p>
+<p>Sex & Relationships</p>
+<p>TalkTalk Digital Heroes</p>
+<p>Tess Daly</p>
+<p>Money</p>
+<p>Quids In</p>
+<p>News</p>
+<p>City</p>
+<p>Health News</p>
+<p>Kerber and Black</p>
+<p>Latest</p>
+<p>London 2012</p>
+<p>Mobile</p>
+<p>P & S Investigate</p>
+<p>Pictures</p>
+<p>Politics</p>
+<p>Royal Family</p>
+<p>Scottish News</p>
+<p>Technology</p>
+<p>Top Stories</p>
+<p>Topics</p>
+<p>Video</p>
+<p>Weird World</p>
+<p>Opinion</p>
+<p>Blogs</p>
+<p>Columnists</p>
+<p>Kerber & Black cartoons</p>
+<p>Voice of the Mirror</p>
+<p>Sport</p>
+<p>Basketball</p>
+<p>Boxing</p>
+<p>British Superbikes</p>
+<p>Columnists</p>
+<p>Cricket</p>
+<p>Cycling Blog</p>
+<p>Darts</p>
+<p>Football</p>
+<p>Football Spy</p>
+<p>Fourth Down Blog</p>
+<p>Golf</p>
+<p>MirrorSport Blog</p>
+<p>MMA & Wrestling</p>
+<p>Mobile</p>
+<p>Motorsport</p>
+<p>Racing</p>
+<p>Rugby League</p>
+<p>Rugby Union</p>
+<p>Sports Tickets</p>
+<p>Tennis</p>
+<p>Topics</p>
+<p>Video</p>
+<p>Travel</p>
+<p>Video</p>
+<p>Celebs</p>
+<p>Film Trailers</p>
+<p>News</p>
+<p>Sport</p>
+<p> </p>
+<p>Find a job</p>
+<p>Find a home</p>
+<p>Find a new home</p>
+<p>Find a local business</p>
+<p>About Us</p>
+<p>Advertising</p>
+<p>Contact Us</p>
+<p>Sell Your Story</p>
+<p>Cookie Policy</p>
+<p>For the record</p>
+<p>Privacy Statement</p>
+<p>Terms and Conditions</p>
+<p>Paper Subscription to The Daily Mirror</p>
+<p>Paper Subscription to The Sunday Mirror</p>
+<p>//<![CDATA[</p>
+<p>tyntVariables = {"ap":"Read more: ","el":""};</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>(function(){var b,a;b=document.createElement("script");b.src="http://a1.vdna-assets.com/analytics.js";b.async=true;a=document.getElementsByTagName("head")[0];a.insertBefore(b,a.firstChild);this.VDNA=this.VDNA||{};this.VDNA.queue=this.VDNA.queue||[];}());</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>VDNA.queue.push({</p>
+<p>    apiKey : 'mirror',</p>
+<p>    method : "reportPageView"</p>
+<p>});</p>
+<p>//]]></p>
+<p>		//<![CDATA[</p>
+<p>	</p>
+<p>	if (typeof displayTopAds == 'function') {displayTopAds();} </p>
+<p>	</p>
+<p>	if (tm.defer) {tm.defer.renderDeferred();}</p>
+<p>		//]]></p>
+<p>		</p>
+<p>					//<![CDATA[</p>
+<p>						tm.siteLife.daapi.post();</p>
+<p>					//]]></p>
+<p>					</p>

@@ -1,0 +1,851 @@
+<p>        if (((document.domain.indexOf("smh.com.au") != -1) || (document.domain.indexOf("theage.com.au") != -1) ||</p>
+<p>                (document.domain.indexOf("watoday.com.au") != -1) ||</p>
+<p>                (document.domain.indexOf("brisbanetimes.com.au") != -1) ||</p>
+<p>                (document.domain.indexOf("businessday.com.au") != -1)) && (isSmartPhone()) &&</p>
+<p>                (document.cookie.indexOf("iphone_redirect=false") == -1)) {</p>
+<p>            var currentLocation = document.location.href;</p>
+<p>            if (currentLocation.indexOf("www.") != -1 && currentLocation.indexOf("/lifestyle/cuisine") == -1) {</p>
+<p>                currentLocation = currentLocation.replace("www.", "m.");</p>
+<p>                window.location = currentLocation;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        /**</p>
+<p>         * Returns a <code>Boolean</code> indicating whether or not the user agent represents a smart phone.</p>
+<p>         *</p>
+<p>         * @return True if the user agent represents a smart phone; otherwise false.</p>
+<p>         */</p>
+<p>        function isSmartPhone() {</p>
+<p>            var userAgent = navigator.userAgent</p>
+<p>            return ((matchesSmartPhoneUserAgentRegularExpressions(userAgent)) &&</p>
+<p>                    (!matchesTabletUserAgentRegularExpressions(userAgent)));</p>
+<p>        }</p>
+<p>        /**</p>
+<p>         * Returns a <code>Boolean</code> indicating whether or not the specified user agent represents a smart phone.</p>
+<p>         * If any of the regular expressions are updated then they should be updated in</p>
+<p>         * <code>SmartPhoneHelper.java</code>.</p>
+<p>         *</p>
+<p>         * @param userAgent User agent to test.</p>
+<p>         * @return True if the user agent represents a smart phone; otherwise false.</p>
+<p>         */</p>
+<p>        function matchesSmartPhoneUserAgentRegularExpressions(userAgent) {</p>
+<p>            var smartPhoneUserAgentRegularExpressions = ["^Mozilla/5.0.*iPhone.*", "^Mozilla/5.0.*iPod.*",</p>
+<p>                "^Mozilla/5.0.*Android [1-3].*", "^Mozilla/5.0.*SymbianOS/9.*", "^Mozilla/5.0.*Symbian/3.*",</p>
+<p>                "^Mozilla/5.0.*Mobile Safari/.*5[2-3][0-9].*", ".*Dolfin/[1-2].[0-9].*","^Opera/9.*Android; Opera Mini.*"];</p>
+<p>            if ((userAgent) && (userAgent.length > 0)) {</p>
+<p>                var index = 0;</p>
+<p>                for (; index < smartPhoneUserAgentRegularExpressions.length; index++) {</p>
+<p>                    if (userAgent.match(smartPhoneUserAgentRegularExpressions[index])) {</p>
+<p>                        return true;</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            }</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        /**</p>
+<p>         * Returns a <code>Boolean</code> indicating whether or not the specified user agent represents a tablet. If any</p>
+<p>         * of the regular expressions are updated then they should be updated in <code>SmartPhoneHelper.java</code>.</p>
+<p>         *</p>
+<p>         * @param userAgent User agent to test.</p>
+<p>         * @return True if the user agent represents a tablet; otherwise false.</p>
+<p>         */</p>
+<p>        function matchesTabletUserAgentRegularExpressions(userAgent) {</p>
+<p>            var tableUserAgentRegularExpressions = ["^Mozilla/5.0.*iPad.*", "^Mozilla/5.0.*GT-P1000.*", "^Mozilla/5.0.*MZ601.*"];</p>
+<p>            if ((userAgent) && (userAgent.length > 0)) {</p>
+<p>                var index = 0;</p>
+<p>                for (; index < tableUserAgentRegularExpressions.length; index++) {</p>
+<p>                    if (userAgent.match(tableUserAgentRegularExpressions[index])) {</p>
+<p>                        return true;</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            }</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>    </p>
+<p>Study finds increase in caffeine poisoning</p>
+<p>    var _gaq = _gaq || [];</p>
+<p>// <![CDATA[</p>
+<p>	document.body.className += " scriptable";</p>
+<p>// ]]></p>
+<p>Skip to navigation</p>
+<p>Skip to content</p>
+<p>Help using this website - Accessibility statement</p>
+<p>JavaScript disabled. Please enable JavaScript to use My News, My Clippings, My Comments and user settings.</p>
+<p>New feature Personalise your news, save articles to read later and customise settings View Demo</p>
+<p>Hi there!</p>
+<p>Sign-up</p>
+<p>Log in</p>
+<p>Beta version</p>
+<p>If you have trouble accessing our login form below, you can go to our login page.</p>
+<p> </p>
+<p>12:00AM Wednesday Jan 18, 2012</p>
+<p>    1,187</p>
+<p> online now</p>
+<p>See today's paper</p>
+<p>Fairfax Digital</p>
+<p>The Age</p>
+<p>Real Estate</p>
+<p>Cars</p>
+<p>Jobs</p>
+<p>Dating</p>
+<p>Newsletters</p>
+<p>More</p>
+<p>Essential Baby</p>
+<p>Stayz</p>
+<p>InvestSMART</p>
+<p>Trading Room</p>
+<p>Weatherzone</p>
+<p>More sites »</p>
+<p>    function getAdCookie(name) {</p>
+<p>        var regex = new RegExp(name + "=(.*?)(; |&|$)", "gi");</p>
+<p>        var value = regex.exec(document.cookie);</p>
+<p>        if (value && value.length == 3) {</p>
+<p>           value = value[1];</p>
+<p>        } else {</p>
+<p>            value = "";</p>
+<p>        }</p>
+<p>        return value;</p>
+<p>    }</p>
+<p>    function getFrameDocument(fr) {</p>
+<p>        var doc = fr.contentWindow || fr.contentDocument;</p>
+<p>        if (doc && doc.document) {</p>
+<p>            doc = doc.document;</p>
+<p>        }</p>
+<p>        return doc;</p>
+<p>    }</p>
+<p>    function closeDoc(doc) {</p>
+<p>        doc.close();</p>
+<p>    }</p>
+<p>    function closeOpenDocuments(openDocs) {</p>
+<p>        for (var i=0;i< openDocs.length; i++) {</p>
+<p>            closeDoc(getFrameDocument(document.getElementById(openDocs[i])))</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function isIE()</p>
+<p>    {</p>
+<p>      return /msie/i.test(navigator.userAgent) && !/opera/i.test(navigator.userAgent);</p>
+<p>    }</p>
+<p>    function setHash (element, hash) {</p>
+<p>        if(element.hash) {</p>
+<p>            element.hash = element.hash + "," + hash;</p>
+<p>        } else {</p>
+<p>            element.hash = hash;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    function renderIFAd(holderID, adID, srcUrl, width, height, hash) {</p>
+<p>        setHash(document.getElementById(holderID), hash);</p>
+<p>        document.dcdAdsR.push(adID);</p>
+<p>        if (ie) {</p>
+<p>            var sizePart = srcUrl.substring(srcUrl.indexOf("sz=")+3);</p>
+<p>            sizePart = sizePart.substring(0, sizePart.indexOf(";"));</p>
+<p>            var multiSizes = sizePart.split(",");</p>
+<p>            var minSize = multiSizes[0];</p>
+<p>            if (multiSizes.length > 1) {</p>
+<p>                for(var i=1; i< multiSizes.length; i++) {</p>
+<p>                    if (minSize > multiSizes[i]) {</p>
+<p>                        minSize = multiSizes[i];</p>
+<p>                    }</p>
+<p>                }</p>
+<p>                var sizeParts = minSize.toLowerCase().split("x");</p>
+<p>                width = sizeParts[0];</p>
+<p>                height = sizeParts[1];</p>
+<p>                srcUrl = srcUrl.replace(sizePart, minSize);</p>
+<p>            }</p>
+<p>        }</p>
+<p>        document.write('<iframe id="' + adID + '" src="' + srcUrl + '" width="' + width +</p>
+<p>                '" height="' + height + '" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"><\/iframe>');</p>
+<p>    }</p>
+<p>    function renderJIFAd(holderID, adID, srcUrl, width, height, hash) {</p>
+<p>        setHash(document.getElementById(holderID), hash);</p>
+<p>        document.dcdAdsR.push(adID);</p>
+<p>        document.write('<iframe id="' + adID +'" src="javascript: ;" width="' + width +</p>
+<p>                '" height="' + height + '" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" frameborder="0"><\/iframe>');</p>
+<p>        var body = '<html><head></head><body><scr' + 'ipt src="' + srcUrl + '"></sc' + 'ript></body></html>';</p>
+<p>        var fr = document.getElementById(adID);</p>
+<p>        setHash(fr, hash);</p>
+<p>        fr.body = body;</p>
+<p>        var doc = getFrameDocument(fr);</p>
+<p>        doc.open();</p>
+<p>        doc.write(body);</p>
+<p>        setTimeout(function() {closeDoc(getFrameDocument(document.getElementById(adID)))}, 2000);</p>
+<p>    }</p>
+<p>    function renderJAd(holderID, adID, srcUrl, hash) {</p>
+<p>        document.dcdAdsAA.push(holderID);</p>
+<p>        setHash(document.getElementById(holderID), hash);</p>
+<p>        document.dcdAdsH.push(holderID);</p>
+<p>        document.dcdAdsI.push(adID);</p>
+<p>        document.dcdAdsU.push(srcUrl);</p>
+<p>    }</p>
+<p>    function er_showAd() {</p>
+<p>        var regex = new RegExp("externalReferrer=(.*?)(; |&|$)", "gi");</p>
+<p>        var value = regex.exec(document.cookie);</p>
+<p>        if (value && value.length == 3) {</p>
+<p>           var externalReferrer = value[1];</p>
+<p>           return (!FD.isInternalReferrer() || ((externalReferrer) && (externalReferrer > 0)));</p>
+<p>        }</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    function isHome() {</p>
+<p>        var loc = "" + window.location;</p>
+<p>        loc = loc.replace("//", "");</p>
+<p>        var tokens = loc.split("/");</p>
+<p>        if (tokens.length == 1) {</p>
+<p>            return true;</p>
+<p>        } else if (tokens.length == 2) {</p>
+<p>            if (tokens[1].trim().length == 0) {</p>
+<p>                return true;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    function checkAds(checkStrings) {</p>
+<p>        var cs = checkStrings.split(",");</p>
+<p>        for (var i=0;i< document.dcdAdsAA.length; i++) {</p>
+<p>            var cAd = document.getElementById(document.dcdAdsAA[i]);</p>
+<p>            document.dcdAdsAG.push(cAd.hash);            </p>
+<p>            for (var j=0; j<cs.length; j++) {</p>
+<p>                var c = cs[j].trim();</p>
+<p>                if (c.length > 0 && cAd.innerHTML.indexOf(c)>0) {</p>
+<p>                    document.dcdAdsAI.push(cAd.hash);</p>
+<p>                }</p>
+<p>            }</p>
+<p>        }</p>
+<p>        //Check iframes</p>
+<p>        if (!ie) {</p>
+<p>            for (var i=0;i< document.dcdAdsR.length; i++) {</p>
+<p>                var fr = document.getElementById(document.dcdAdsR[i]);</p>
+<p>                if (fr) {</p>
+<p>                    document.dcdAdsAG.push(fr.hash);</p>
+<p>                    var doc = getFrameDocument(fr);</p>
+<p>                    for (var j=0; j<cs.length; j++) {</p>
+<p>                        var c = cs[j].trim();</p>
+<p>                        if (c.length > 0 && doc.body.innerHTML.indexOf(c)>0) {</p>
+<p>                            document.dcdAdsAI.push(fr.hash);</p>
+<p>                        }</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            }</p>
+<p>        }</p>
+<p>        if (document.dcdAdsAI.length > 0 || document.dcdAdsAG.length > 0) {</p>
+<p>            var pingServerParams = "i="</p>
+<p>            var sep = "";</p>
+<p>            for (var i=0;i< document.dcdAdsAI.length; i++) {</p>
+<p>                pingServerParams += sep + document.dcdAdsAI[i];</p>
+<p>                sep = ",";</p>
+<p>            }</p>
+<p>        }</p>
+<p>        document.pingServerAdParams = pingServerParams;</p>
+<p>    }</p>
+<p>    function pingAdStatus() {</p>
+<p>        if (isHome ()) {</p>
+<p>            return;</p>
+<p>        }</p>
+<p>        if (document.pingServerAdParams && document.pingServerAdParams.length > 0) {</p>
+<p>            var pingServerUrl = "/action/pingServerAction?" + document.pingServerAdParams;</p>
+<p>            var xmlHttp = null;</p>
+<p>            try</p>
+<p>            {</p>
+<p>                xmlHttp = new XMLHttpRequest();</p>
+<p>            }   catch(e)             {</p>
+<p>                try</p>
+<p>                {</p>
+<p>                    xmlHttp = new ActiveXObject("Microsoft.XMLHttp");</p>
+<p>                } catch(e) {</p>
+<p>                    xmlHttp = null;</p>
+<p>                }</p>
+<p>            }</p>
+<p>            if (xmlHttp != null) {</p>
+<p>                xmlHttp.open( "GET", pingServerUrl, true);</p>
+<p>                xmlHttp.send( null );</p>
+<p>            }</p>
+<p>        } </p>
+<p>    }</p>
+<p>    function initAds(log) {</p>
+<p>        for (var i=0;i< document.dcdAdsU.length; i++) {</p>
+<p>            var shadowHolder = document.getElementById("adShD" + i);</p>
+<p>            var targetHolder = document.getElementById(document.dcdAdsH[i]);</p>
+<p>            if (shadowHolder && targetHolder) {</p>
+<p>                var adNodes = new Array();</p>
+<p>                for (var j=0; j<shadowHolder.childNodes.length; j++) {</p>
+<p>                    var child = shadowHolder.childNodes[j];</p>
+<p>                    if (child.nodeName.toLowerCase() != "script") {</p>
+<p>                        adNodes.push(child);</p>
+<p>                    }</p>
+<p>                }</p>
+<p>                for (var j=0; j<adNodes.length; j++) {</p>
+<p>                    targetHolder.appendChild(shadowHolder.removeChild(adNodes[j]));</p>
+<p>                }</p>
+<p>            }</p>
+<p>        }</p>
+<p>        if (er_showAd()) {</p>
+<p>            for (var i=0;i< document.dcdAdsE.length; i++) {</p>
+<p>                var erAd = document.getElementById(document.dcdAdsEH[i]);</p>
+<p>                erAd.className = document.dcdAdsEC[i];</p>
+<p>                erAd.appendChild(document.dcdAdsE[i]);</p>
+<p>            }</p>
+<p>        }</p>
+<p>        if (log) {</p>
+<p>            console.log(document.igCount + "/" + document.tCount);</p>
+<p>        }</p>
+<p>    }</p>
+<p>    document.refreshAds = function rAds(adID) {</p>
+<p>        if (document.dcdAdsR) {</p>
+<p>            document.dcdsAdsToClose =  new Array();</p>
+<p>            for (var i=0;i< document.dcdAdsR.length; i++) {</p>
+<p>                var fr = document.getElementById(document.dcdAdsR[i]);</p>
+<p>                if (fr) {</p>
+<p>                    if (!ie) {</p>
+<p>                        if (!adID || adID =="*" || fr.parentNode.id==adID ) {</p>
+<p>                            var chNodes = new Array();</p>
+<p>                            for (var j=0; j<fr.parentNode.childNodes.length; j++) {</p>
+<p>                                var child = fr.parentNode.childNodes[j];</p>
+<p>                                if (!(child.nodeName.toLowerCase() == "script" ||</p>
+<p>                                        child.nodeName.toLowerCase() == "iframe")) {</p>
+<p>                                    chNodes.push(child);</p>
+<p>                                }</p>
+<p>                            }</p>
+<p>                            for (var j=0; j<chNodes.length; j++) {</p>
+<p>                                chNodes[j].parentNode.removeChild(chNodes[j]);</p>
+<p>                            }</p>
+<p>                            var doc = getFrameDocument(fr);</p>
+<p>                            while (doc.childNodes.length > 0) {</p>
+<p>                                doc.removeChild(doc.childNodes[0]);</p>
+<p>                            }</p>
+<p>                            doc.open();</p>
+<p>                            doc.write(fr.body);</p>
+<p>                            document.dcdsAdsToClose.push(fr.id);</p>
+<p>                        }</p>
+<p>                    } else {</p>
+<p>                        fr.src = fr.src;    </p>
+<p>                    }</p>
+<p>                }</p>
+<p>            }</p>
+<p>            if (document.dcdsAdsToClose.length > 0) {</p>
+<p>                setTimeout(function() {closeOpenDocuments(document.dcdsAdsToClose)}, 500);</p>
+<p>            }</p>
+<p>        }</p>
+<p>    }</p>
+<p>    var ie = isIE();</p>
+<p>    if(ie && typeof String.prototype.trim !== 'function') {</p>
+<p>      String.prototype.trim = function() {</p>
+<p>        return this.replace(/^\s+|\s+$/g, '');</p>
+<p>      }</p>
+<p>    }</p>
+<p>    document.dcdAdsH = new Array();</p>
+<p>    document.dcdAdsI = new Array();</p>
+<p>    document.dcdAdsU = new Array();</p>
+<p>    document.dcdAdsR = new Array();</p>
+<p>    document.dcdAdsEH = new Array();</p>
+<p>    document.dcdAdsE = new Array();</p>
+<p>    document.dcdAdsEC = new Array();</p>
+<p>    document.dcdAdsAA = new Array();</p>
+<p>    document.dcdAdsAI = new Array();</p>
+<p>    document.dcdAdsAG = new Array();</p>
+<p>    document.dcdAdsToClose = new Array();</p>
+<p>    document.igCount = 0;</p>
+<p>    document.tCount = 0;</p>
+<p>    var dcOrd = Math.floor(100000000*Math.random());</p>
+<p>    document.dcAdsCParams = "";</p>
+<p>    var savValue = getAdCookie("sav");</p>
+<p>    if (savValue != null && savValue.length > 2) {</p>
+<p>        document.dcAdsCParams = savValue + ";";</p>
+<p>    }</p>
+<p> </p>
+<p>            renderJAd("adspot-728x90,468x60-pos-1", "dcAd-1", 'http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;pos=1;dcopt=ist;' + document.dcAdsCParams +'sz=728x90,468x60;tile=1;ord=' + dcOrd + '?', 1932900424);</p>
+<p>        </p>
+<p>The Age</p>
+<p>Life & Style</p>
+<p>Beauty</p>
+<p>Diet & Fitness</p>
+<p>Fashion</p>
+<p>Celebrity</p>
+<p>Home & Style</p>
+<p>Life</p>
+<p>Weddings</p>
+<p>Horoscopes</p>
+<p>Parties</p>
+<p>Cuisine</p>
+<p>Essential Baby</p>
+<p>TheVine</p>
+<p>You are here:</p>
+<p>            Home</p>
+<p>                </p>
+<p>            Life & Style</p>
+<p>                </p>
+<p>            Diet & Fitness</p>
+<p>                </p>
+<p>            Article</p>
+<p>                </p>
+<p>Search age:</p>
+<p>Search in:</p>
+<p>Life & Style</p>
+<p>theage.com.au</p>
+<p>Web</p>
+<p>Life & Style</p>
+<p>            renderJAd("adspot-940x20-pos-1", "dcAd-2", 'http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;pos=1;' + document.dcAdsCParams +'sz=940x20;tile=2;ord=' + dcOrd + '?', -337746300);</p>
+<p>        </p>
+<p>                        Study finds increase in caffeine poisoning</p>
+<p>                    </p>
+<p>Nicky Phillips</p>
+<p>January 16, 2012</p>
+<p>Read later</p>
+<p>More than 300 calls have been made to the NSW poisons centre regarding adverse reactions to energy drinks. </p>
+<p>RESEARCHERS have found that a growing number of people are reporting caffeine toxicity from energy drinks in Australia, especially teenagers.</p>
+<p>According to a study published in The Medical Journal of Australia, nearly 300 calls were made to the  New South Wales poisons centre regarding adverse reactions to energy drinks between January 2004 and the end of 2010, with more than a third of people attending hospital.</p>
+<p>The authors say the report is a ''warning call'' for health authorities to better educate the public on the risks associated with high-energy drinks, and require beverages to display health warnings similar to those found on over-the-counter caffeine tablets.</p>
+<p>Advertisement: Story continues below</p>
+<p>                    var erA = document.createElement('iframe');</p>
+<p>                    erA.setAttribute("id", "dcAd-1-3");</p>
+<p>                    erA.setAttribute("src", "http://ad-apac.doubleclick.net/adi/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;pos=3;" + document.dcAdsCParams +"sz=300x250;tile=3;ord=" + dcOrd + "?");</p>
+<p>                    erA.setAttribute("width", "300");</p>
+<p>                    erA.setAttribute("height", "250");</p>
+<p>                    erA.setAttribute("scrolling", "no");</p>
+<p>                    erA.setAttribute("marginheight", "0");</p>
+<p>                    erA.setAttribute("marginwidth", "0");</p>
+<p>                    erA.setAttribute("allowtransparency", "true");</p>
+<p>                    erA.setAttribute("frameborder", "0");</p>
+<p>                    erA.frameBorder = 0;</p>
+<p>                    document.dcdAdsE.push(erA);</p>
+<p>                    document.dcdAdsEH.push("adspot-300x250-pos-3");</p>
+<p>                    document.dcdAdsEC.push("ad adCentred");</p>
+<p>                    document.dcdAdsR.push("dcAd-1-3");</p>
+<p>                </p>
+<p>For the study, Naren Gunja, a medical director and toxicologist at the NSW Poisons Information Centre, and Jared Brown, a  senior poisons specialist, reviewed all the centre's calls relating to toxicity of high-energy drinks  covering the seven-year period.</p>
+<p>Calls regarding caffeinated energy drinks increased from 12 in 2004 to 65 in 2010, with recreational use the most common type of exposure.</p>
+<p>Adverse reactions and toxicity from the beverages are primarily linked to caffeine.</p>
+<p>Caffeine toxicity can mimic amphetamine poisoning, cause seizures, psychosis, cardiac arrhythmias and rarely even death, but the most common symptoms reported include irregular heart rate, tremors, stomach upsets and dizziness.</p>
+<p>Teenagers were the most common age group affected, and energy drinks were often consumed with other stimulants, mainly alcohol.</p>
+<p>Red Bull and V accounted for almost two-thirds of the energy drink-related cases referred to the centre, followed by Mother and Pulse.</p>
+<p>Join the conversation</p>
+<p>You're the only person reading this now. Tell your friends</p>
+<p>Add to Facebook</p>
+<p>Email this story</p>
+<p>Tweet</p>
+<p>Top Life & Style articles</p>
+<p>Loving a man with ADHD</p>
+<p>Are we all fat-ist?</p>
+<p>10 things I learnt about men this summer</p>
+<p>Betraying our girlhood</p>
+<p>It's chic to be as cool as ice on the catwalk</p>
+<p>More Life & Style articles</p>
+<p>Story Tools</p>
+<p>Share on Facebook</p>
+<p>Email this story</p>
+<p>Print this story</p>
+<p>Reprints & permissions</p>
+<p>            renderJAd("adspot-180x44", "dcAd-4", 'http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;' + document.dcAdsCParams +'sz=180x44;tile=4;ord=' + dcOrd + '?', 64196675);</p>
+<p>        </p>
+<p>The Age Jobs</p>
+<p>Advertisement</p>
+<p>            renderJAd("adspot-300x600,300x250-pos-1", "dcAd-5", 'http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;pos=1;' + document.dcAdsCParams +'sz=300x600,300x250;tile=5;ord=' + dcOrd + '?', 1947717249);</p>
+<p>        </p>
+<p>Photo Galleries</p>
+<p>Golden Globes red carpet</p>
+<p>G'Day USA gala</p>
+<p>Celebrity red carpet watch</p>
+<p>Fashion, Rio style </p>
+<p>The list: beach towels</p>
+<p>Colour pops at People's Choice Awards</p>
+<p>Featured advertisers</p>
+<p>                    if (ie) {</p>
+<p>                        renderIFAd("adspot-149x170", "dcAd-1-6", "http://ad-apac.doubleclick.net/adi/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;" + document.dcAdsCParams + "pos=1;sz=149x170;tile=6;ord=" + dcOrd + "?", 149, 170, 606676442);</p>
+<p>                    } else {</p>
+<p>                        renderJIFAd("adspot-149x170","dcAd-1-6", "http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;" + document.dcAdsCParams + "pos=1;sz=149x170;tile=6;ord=" + dcOrd + "?", 149, 170, 606676442);</p>
+<p>                    }</p>
+<p>                </p>
+<p>                    if (ie) {</p>
+<p>                        renderIFAd("adspot-149x170", "dcAd-2-7", "http://ad-apac.doubleclick.net/adi/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;" + document.dcAdsCParams + "pos=2;sz=149x170;tile=7;ord=" + dcOrd + "?", 149, 170, 197852248);</p>
+<p>                    } else {</p>
+<p>                        renderJIFAd("adspot-149x170","dcAd-2-7", "http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;" + document.dcAdsCParams + "pos=2;sz=149x170;tile=7;ord=" + dcOrd + "?", 149, 170, 197852248);</p>
+<p>                    }</p>
+<p>                </p>
+<p>Living SocialMelbournePartner site20-Week Sunday Herald Sun SubscriptionSunday Herald SunGet this for only</p>
+<p>                    $14 - save 69%</p>
+<p>                        Read more now</p>
+<p>                    </p>
+<p>Advertisement</p>
+<p>                    if (ie) {</p>
+<p>                        renderIFAd("adspot-1x4", "dcAd-1-8", "http://ad-apac.doubleclick.net/adi/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;" + document.dcAdsCParams + "sz=1x4;tile=8;ord=" + dcOrd + "?", 300, 150, 626487146);</p>
+<p>                    } else {</p>
+<p>                        renderJIFAd("adspot-1x4","dcAd-1-8", "http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;" + document.dcAdsCParams + "sz=1x4;tile=8;ord=" + dcOrd + "?", 300, 150, 626487146);</p>
+<p>                    }</p>
+<p>                </p>
+<p>Advertisement</p>
+<p>                    if (ie) {</p>
+<p>                        renderIFAd("adspot-300x250-pos-2", "dcAd-1-9", "http://ad-apac.doubleclick.net/adi/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;pos=2;" + document.dcAdsCParams + "sz=300x250;tile=9;ord=" + dcOrd + "?", 300, 250, -2118041450);</p>
+<p>                    } else {</p>
+<p>                        renderJIFAd("adspot-300x250-pos-2","dcAd-1-9", "http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;pos=2;" + document.dcAdsCParams + "sz=300x250;tile=9;ord=" + dcOrd + "?", 300, 250, -2118041450);</p>
+<p>                    }</p>
+<p>                </p>
+<p>Horoscopes</p>
+<p>This is one of those 'human comedy' days, when personal struggles flare up to a grand scale. Good thing you have a strong sense of humor!</p>
+<p>...find out more here</p>
+<p>Aries</p>
+<p>Taurus</p>
+<p>Gemini</p>
+<p>Cancer</p>
+<p>Leo</p>
+<p>Virgo</p>
+<p>Libra</p>
+<p>Scorpio</p>
+<p>Sagittarius</p>
+<p>Capricorn</p>
+<p>Aquarius</p>
+<p>Pisces</p>
+<p>Video</p>
+<p>The fashion of Kylie's clips</p>
+<p>Theage.com.au</p>
+<p>Entertainment and Red Carpet</p>
+<p>Latest Sports videos</p>
+<p>Breaking news videos</p>
+<p>Jobs</p>
+<p>Happy New Year! Time to search for a new career?</p>
+<p>Mycareer.com.au</p>
+<p>Mining jobs in Australia</p>
+<p>Job search</p>
+<p>Jobs in Melbourne</p>
+<p>TheVine</p>
+<p>Top 10 most underrated Simpsons characters </p>
+<p>Thevine.com.au</p>
+<p>Entertainment & celebrity news</p>
+<p>Latest fashion coverage</p>
+<p>Music news and reviews</p>
+<p>Holiday Rentals</p>
+<p>Search thousands of family-friendly holidays</p>
+<p>Stayz.com.au</p>
+<p>Great Ocean Road holidays</p>
+<p>Gold Coast getaways</p>
+<p>Pet-friendly accommodation</p>
+<p>Essential Baby</p>
+<p>Beyonce's quirky baby name</p>
+<p>Essentialbaby.com.au</p>
+<p>Ovulation calculator</p>
+<p>Baby names</p>
+<p>Due Date Calculator</p>
+<p>Compare and Save</p>
+<p>Skip to:</p>
+<p>Best Deals</p>
+<p>Mobile</p>
+<p>Broadband</p>
+<p>Credit Cards</p>
+<p>Rewards Cards</p>
+<p>Low Rate Cards</p>
+<p>Home Loans</p>
+<p>Deposits</p>
+<p>Bank Accounts</p>
+<p>Loans</p>
+<p>Check out today's best deals</p>
+<p>Qantas Amex Ultimate</p>
+<p>Up to 30,00 bonus pts + free flight + $200 off annual fee</p>
+<p>Check it out >>></p>
+<p>$0 Fee Rewards Card</p>
+<p>1 Qantas point per $1 spent + up to 10,000 extra QFF points</p>
+<p>Check it out >>></p>
+<p>0.99% for 12 months</p>
+<p>Special balance transfer rate. Annual fee only $55 </p>
+<p>Check it out >>></p>
+<p>iPhone 4 2 Months Free</p>
+<p>iPhone 4 8GB on a 2 Months Free deal starting at $34</p>
+<p>2 Months Free</p>
+<p>Compare Android Deals</p>
+<p>Hundreds of deals to compare</p>
+<p>Compare Mobile Deals</p>
+<p>Readers' most viewed</p>
+<p>Most viewed articles on Brisbane Times</p>
+<p>Top 5 Life & Style articles</p>
+<p>Loving a man with ADHD</p>
+<p>Raising confident children</p>
+<p>Are we all fat-ist?</p>
+<p>Betraying our girlhood</p>
+<p>Pisces</p>
+<p>Most viewed articles on WA Today</p>
+<p>Top 5 Life & Style articles</p>
+<p>Are we all fat-ist?</p>
+<p>Betraying our girlhood</p>
+<p>Scorpio</p>
+<p>Loving a man with ADHD</p>
+<p>Libra</p>
+<p>Most viewed articles on The Sydney Morning Herald</p>
+<p>Top 5 Life & Style articles</p>
+<p>A simple source</p>
+<p>10 things I learnt about men this summer</p>
+<p>Are we all fat-ist?</p>
+<p>Loving a man with ADHD</p>
+<p>Betraying our girlhood</p>
+<p>Most viewed articles on The Age</p>
+<p>Top 5 Life & Style articles</p>
+<p>Loving a man with ADHD</p>
+<p>Are we all fat-ist?</p>
+<p>10 things I learnt about men this summer</p>
+<p>Betraying our girlhood</p>
+<p>It's chic to be as cool as ice on the catwalk</p>
+<p>Videos</p>
+<p>Italy cruise CEO blames disaster on 'human error'</p>
+<p>Australian Open Day 2: Aussies in action</p>
+<p>Rescuers aboard the stricken ship</p>
+<p>Globe winner sparks dwarf-toss Twitter frenzy</p>
+<p>Tomic's famous comeback</p>
+<p>            renderJAd("adspot-728x90,468x60-pos-2", "dcAd-10", 'http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;pos=2;' + document.dcAdsCParams +'sz=728x90,468x60;tile=10;ord=' + dcOrd + '?', -1894290311);</p>
+<p>        </p>
+<p>The Age Home</p>
+<p>Victoria</p>
+<p>National</p>
+<p>World</p>
+<p>Environment</p>
+<p>Opinion</p>
+<p>Business</p>
+<p>Technology</p>
+<p>Digital Life</p>
+<p>Entertainment</p>
+<p>Life & Style</p>
+<p>Travel</p>
+<p>Cars</p>
+<p>Exec Style</p>
+<p>Sport</p>
+<p>Weather</p>
+<p>The Age</p>
+<p>Sitemap</p>
+<p>About Us</p>
+<p>Contact Us</p>
+<p>Privacy</p>
+<p>Conditions</p>
+<p>Advertise with Us</p>
+<p>Photo Sales</p>
+<p>Good Food Guide</p>
+<p>Products & Services</p>
+<p>AM Today</p>
+<p>Last 8 days</p>
+<p>Text</p>
+<p>Newspaper subscription</p>
+<p>Shop</p>
+<p>Events</p>
+<p>Help using this website</p>
+<p>Connect</p>
+<p>Mobile</p>
+<p>Newsletters</p>
+<p>RSS</p>
+<p>Twitter</p>
+<p>Facebook</p>
+<p>Classifieds</p>
+<p>Accommodation</p>
+<p>Cars</p>
+<p>Dating</p>
+<p>Jobs</p>
+<p>Real Estate</p>
+<p>Trading Post</p>
+<p>Property Price Data</p>
+<p>Tributes & Celebrations</p>
+<p>Place an ad</p>
+<p>Fairfax Media</p>
+<p>Our Sites</p>
+<p>The Sydney Morning Herald</p>
+<p>The Age</p>
+<p>MyCareer</p>
+<p>Domain</p>
+<p>Drive</p>
+<p>RSVP</p>
+<p>Essential Baby</p>
+<p>InvestSMART</p>
+<p>APM</p>
+<p>Stayz</p>
+<p>Weatherzone</p>
+<p>The Vine</p>
+<p>Our Partners</p>
+<p>Business</p>
+<p>Dental Surgery</p>
+<p>Fitness</p>
+<p>Gardens</p>
+<p>Hair salon</p>
+<p>Jogging</p>
+<p>Physicians</p>
+<p>Wedding</p>
+<p>Wine</p>
+<p>Copyright © 2012 Fairfax Media</p>
+<p>            renderJAd("adspot-1x1", "dcAd-11", 'http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;' + document.dcAdsCParams +'sz=1x1;tile=11;ord=' + dcOrd + '?', -382393130);</p>
+<p>        </p>
+<p>            renderJAd("adspot-1x11", "dcAd-12", 'http://ad-apac.doubleclick.net/adj/onl.age.lands/lands/dietandfitness;cat2=national;ctype=article;cat=lands;cat1=dietandfitness;' + document.dcAdsCParams +'sz=1x11;tile=12;ord=' + dcOrd + '?', -1787192474);</p>
+<p>        </p>
+<p>    function getGoogleAdChannel(showAboveArticle) {</p>
+<p>        var googleAdChannel = "LifeStyle";</p>
+<p>        if (showAboveArticle) {</p>
+<p>            googleAdChannel += " abovearticle";</p>
+<p>        }</p>
+<p>        return googleAdChannel;</p>
+<p>    }</p>
+<p>    function google_ad_request_done(google_ads) {</p>
+<p>        var googleAd = new FD.GoogleAd({</p>
+<p>                adBlockTitle: "Ads by Google",</p>
+<p>                maximumAdsInBlock: 3,</p>
+<p>                checkExternalReferrer: true,</p>
+<p>                split: 1,</p>
+<p>            googleAds: google_ads,</p>
+<p>            googleAdsId: "googleAds",</p>
+<p>            moreGoogleAdsId: "moreGoogleAds"</p>
+<p>        });</p>
+<p>        googleAd.insertGoogleAds();</p>
+<p>    }</p>
+<p>    var google_ad_client = "ca-fairfax-age_js";</p>
+<p>    var google_ad_channel = "National";</p>
+<p>        if (!FD.isInternalReferrer()) {</p>
+<p>            google_ad_channel = getGoogleAdChannel(true);</p>
+<p>        }</p>
+<p>    var google_ad_output = "js";</p>
+<p>    var google_max_num_ads = "4";</p>
+<p>    var google_ad_type = "text";</p>
+<p>    var google_encoding = "utf8";</p>
+<p>    var google_safe = "high";</p>
+<p>    var google_ad_section = "default";</p>
+<p>    (function() {</p>
+<p>        </p>
+<p>    })();</p>
+<p>    (function() {</p>
+<p>                (function() {</p>
+<p>        FD.VideoPlayers.push(new FD.VideoPlayer({</p>
+<p>            adServerUrl: "http://ad-apac.doubleclick.net/pfadx/vid.age/system/ipad;channel=system;show=ipad;ctype=rhs;cat3=fdp;sz=4x1,4x2;dcmt=text/html;ord=407698",</p>
+<p>            clipId: "2895452",</p>
+<p>                clips: [</p>
+<p>                    "http://mediadownload2.f2.com.au/flash/media/2012/01/16/2895452/2895452_low.mp4",</p>
+<p>                    "http://mediadownload2.f2.com.au/flash/media/2012/01/16/2895452/2895452_mid.mp4",</p>
+<p>                    "http://mediadownload2.f2.com.au/flash/media/2012/01/16/2895452/2895452_high.mp4"</p>
+<p>                ],</p>
+<p>            divId: "video-player-latest",</p>
+<p>            playerId: "video-player-latest-player",</p>
+<p>                playerType: "article_rhs",</p>
+<p>            playerUrl: "http://resources.theage.com.au/common/media-common-1.0/swf/flowplayer/flowplayer.commercial-3.2.7.swf",</p>
+<p>            trackingDefinition: {</p>
+<p>                ga: {</p>
+<p>    headline: "Best of Big Day Out: Soundgarden 97"</p>
+<p>}</p>
+<p>,</p>
+<p>                nielsen: {</p>
+<p>    brand: "age",</p>
+<p>    ou: "video/system/ipad",</p>
+<p>    vc: "vc-age-Video_System-article_rhs-Video_iPad-The_Age_Selections-Tim_Young-2895452-Best_of_Big_Day_Out:_Soundgarden_97-00:03:26"</p>
+<p>}</p>
+<p>            }</p>
+<p>        }, {</p>
+<p>                width: 300,</p>
+<p>                height: 170,</p>
+<p>            clip: {</p>
+<p>        ads: [</p>
+<p>        {</p>
+<p>            request: {</p>
+<p>                adTagUrl: "http%3A%2F%2Fad-apac.doubleclick.net%2Fpfadx%2Fvid.age%2Fsystem%2Fipad%3Bchannel%3Dsystem%3Bshow%3Dipad%3Bctype%3Drhs%3Bcat3%3Dfdp%3Bsz%3D4x1%2C4x2%3Bdcmt%3Dtext%2Fhtml%3Bord%3D407698"</p>
+<p>            },</p>
+<p>            time: 0</p>
+<p>        }</p>
+<p>    ],</p>
+<p>        url: "http://mediadownload2.f2.com.au/flash/media/2012/01/16/2895452/2895452_high.mp4"</p>
+<p>},</p>
+<p>plugins: {</p>
+<p>    advertisementLabel: {</p>
+<p>        url: "http://resources.theage.com.au/common/media-common-1.0/swf/flowplayer/flowplayer.content-3.2.0.swf"</p>
+<p>    },</p>
+<p>    controls: {</p>
+<p>            fullscreen: false,</p>
+<p>        url: "http://resources.theage.com.au/common/media-common-1.0/swf/flowplayer/flowplayer.controls-3.2.5.swf"</p>
+<p>    },</p>
+<p>    dfp: {</p>
+<p>        url: "http://resources.theage.com.au/common/media-common-1.0/swf/flowplayer/dfp/flowplayer.dfp-theage.com.au-1.6.3.swf"</p>
+<p>    }</p>
+<p>}</p>
+<p>        }));</p>
+<p>     })();</p>
+<p>    })();</p>
+<p>if(document.location.protocol=='http:'){</p>
+<p> var Tynt=Tynt||[];Tynt.push('bRrpOkwwyr34jFadbiUt4I');</p>
+<p> (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();</p>
+<p>}</p>
+<p>    if (window["FD"]) {</p>
+<p>        (function() {</p>
+<p>            // Check that the user is at least logged in before attempting to say that they have read an article.</p>
+<p>            var myMastheadWeather = $("div.mySite div.ms-toolbar ul[data-weatherPostcode]");</p>
+<p>            if (myMastheadWeather.length) {</p>
+<p>                FD.trigger("FDArticleRead");</p>
+<p>            }</p>
+<p>        })();</p>
+<p>    }</p>
+<p>if (0 < document.dcdAdsU.length) {document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[0] + '" src="' + document.dcdAdsU[0] + '"><\/scr' + 'ipt>');}if (1 < document.dcdAdsU.length) {document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[1] + '" src="' + document.dcdAdsU[1] + '"><\/scr' + 'ipt>');}if (2 < document.dcdAdsU.length) {document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[2] + '" src="' + document.dcdAdsU[2] + '"><\/scr' + 'ipt>');}if (3 < document.dcdAdsU.length) {document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[3] + '" src="' + document.dcdAdsU[3] + '"><\/scr' + 'ipt>');}if (4 < document.dcdAdsU.length) {document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[4] + '" src="' + document.dcdAdsU[4] + '"><\/scr' + 'ipt>');}if (5 < document.dcdAdsU.length) {document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[5] + '" src="' + document.dcdAdsU[5] + '"><\/scr' + 'ipt>');}if (6 < document.dcdAdsU.length) {document.write('<scr' + 'ipt type="text\/javascript" id="' + document.dcdAdsI[6] + '" src="' + document.dcdAdsU[6] + '"><\/scr' + 'ipt>');}</p>
+<p>    initAds(false);</p>
+<p>    checkAds("817-grey.gif");</p>
+<p>    window.setTimeout('pingAdStatus()', 10000);</p>
+<p>    var _gaq = _gaq || [];</p>
+<p>    _gaq.push(['_setAccount', 'UA-22700242-2']);</p>
+<p>    _gaq.push(['_setDomainName', '.theage.com.au']);</p>
+<p>    _gaq.push(['_addIgnoredRef', 'theage.com.au']);</p>
+<p>    _gaq.push(['_setAllowAnchor', true]);</p>
+<p>    _gaq.push(['_setCustomVar', 1, 'Section', 'LifeStyle', 3]);</p>
+<p>    _gaq.push(['_setCustomVar', 2, 'Sub-Section', 'Diet & Fitness', 3]);</p>
+<p>    _gaq.push(['_setCustomVar', 3, 'Byline', 'Nicky Phillips', 3]);</p>
+<p>    _gaq.push(['_setCustomVar', 4, 'Page Type', 'Article', 3]);</p>
+<p>    // Check whether the user is logged in.</p>
+<p>    var loggedIn = false;</p>
+<p>    if (window["FD"]) {</p>
+<p>        loggedIn = FD.isLoggedIn();</p>
+<p>    }</p>
+<p>    if (loggedIn) {</p>
+<p>        _gaq.push(['_setCustomVar', 5, 'Login Status', 'Logged In', 1]);</p>
+<p>    } else {</p>
+<p>        _gaq.push(['_setCustomVar', 5, 'Login Status', ' ', 1]);</p>
+<p>    }</p>
+<p>    _gaq.push(['_trackPageview']);</p>
+<p>    (function() {</p>
+<p>        var ga = document.createElement('script');</p>
+<p>        ga.type = 'text/javascript';</p>
+<p>        ga.async = true;</p>
+<p>        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>        var s = document.getElementsByTagName('script')[0];</p>
+<p>        s.parentNode.insertBefore(ga, s);</p>
+<p>    })();</p>
+<p>    var pvar = {cid:"f2", content:"TheAge-lifestyle-diet-fitness-story-print", server:"secure-au"};</p>
+<p>    var trac = nol_t(pvar);</p>
+<p>    trac.record().post();</p>
+<p>    window.s_pageName = "age:article:lifestyle:diet & fitness:study finds increase in caffeine poisoning";</p>
+<p>	if (window["FD"]) {</p>
+<p>		/**</p>
+<p>		 * Updates the white strip with the new time and number of users.</p>
+<p>		 *</p>
+<p>		 * @param data Date to extract new time and number of users from.</p>
+<p>		 * @private</p>
+<p>		 */</p>
+<p>		function updateWhiteStrip(data) {</p>
+<p>			var response = $.parseJSON(data);</p>
+<p>			var whiteStripTimeElement = $("whiteStrip-time");</p>
+<p>			if ((whiteStripTimeElement) && (whiteStripTimeElement.length > 0)) {</p>
+<p>				whiteStripTimeElement.empty();</p>
+<p>				whiteStripTimeElement.html(response.time);</p>
+<p>			}</p>
+<p>			var whiteStripPeopleElement = $("whiteStrip-users");</p>
+<p>			if ((whiteStripPeopleElement) && (whiteStripPeopleElement.length > 0)) {</p>
+<p>				whiteStripPeopleElement.empty();</p>
+<p>				whiteStripPeopleElement.html(response.people + " online now");</p>
+<p>			}</p>
+<p>		}</p>
+<p>		/**</p>
+<p>		 * Initiates the client side asset view tracking component (self executing).</p>
+<p>		 */</p>
+<p>		(function() {</p>
+<p>			FD.pingServerWithSuccessCallback("2894484", "Article", "LifeStyle", updateWhiteStrip);</p>
+<p>		})();</p>
+<p>	}</p>
+<p>    if (typeof(FB) != "undefined") {</p>
+<p>        FB.Event.subscribe('edge.create', function(targetUrl) {</p>
+<p>             if(typeof(_gaq) != "undefined") {</p>
+<p>                _gaq.push(['_trackSocial', 'facebook', 'like', targetUrl]);</p>
+<p>             }</p>
+<p>        });</p>
+<p>    }</p>
+<p>    if (typeof(twttr) != "undefined") {</p>
+<p>        twttr.events.bind('tweet', function(event) {</p>
+<p>            if (event) {</p>
+<p>                var targetUrl;</p>
+<p>                if (event.target && event.target.nodeName == 'IFRAME') {</p>
+<p>                    targetUrl = FD.getUrlParam('url',event.target.src);</p>
+<p>                    if(typeof(_gaq) != "undefined") {</p>
+<p>                        _gaq.push(['_trackSocial', 'twitter', 'tweet', targetUrl]);</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            }</p>
+<p>        });</p>
+<p>    }</p>
+<p> </p>
+<p> </p>

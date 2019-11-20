@@ -1,0 +1,313 @@
+<p>Publisher Has Deal for Elton John Book - NYTimes.com</p>
+<p>function getMetaValue(name) {</p>
+<p>  var els = document.getElementsByName(name);</p>
+<p>  if (els && els[0]) { return els[0].content; }</p>
+<p>  return "";</p>
+<p>}</p>
+<p><!-- Begin KRUX Digital Control Tag for New York Times --></p>
+<p>KRUXSetup = {</p>
+<p>   pubid: "79816aa8-435a-471a-be83-4b3e0946daf2",</p>
+<p>   site: "NYTimes",</p>
+<p>   section: getMetaValue('CG'),</p>
+<p>   subSection: getMetaValue('SCG'),</p>
+<p>   pageAttributes: {</p>
+<p>      page_type: getMetaValue('PT')</p>
+<p>   }</p>
+<p>};</p>
+<p>Log In</p>
+<p>Register Now</p>
+<p>Help</p>
+<p>Home Page</p>
+<p>Today's Paper</p>
+<p>Video</p>
+<p>Most Popular</p>
+<p>Times Topics</p>
+<p>window.setTimeout(function() {</p>
+<p>  var login = document.getElementById('memberToolsLogin');</p>
+<p>  if (login) {</p>
+<p>    login.href += "?URI=" + window.location.href;</p>
+<p>  }</p>
+<p>}, 0)</p>
+<p> </p>
+<p>Search All NYTimes.com</p>
+<p>Books</p>
+<p>World</p>
+<p> </p>
+<p>U.S.</p>
+<p> </p>
+<p>N.Y. / Region</p>
+<p> </p>
+<p>Business</p>
+<p> </p>
+<p>Technology</p>
+<p> </p>
+<p>Science</p>
+<p> </p>
+<p>Health</p>
+<p> </p>
+<p>Sports</p>
+<p> </p>
+<p>Opinion</p>
+<p> </p>
+<p>Arts</p>
+<p>Art & DesignBooksSunday Book ReviewBest SellersDanceMoviesMusicTelevisionTheaterVideo GamesEvents </p>
+<p>Style</p>
+<p> </p>
+<p>Travel</p>
+<p> </p>
+<p>Jobs</p>
+<p> </p>
+<p>Real Estate</p>
+<p> </p>
+<p>Autos</p>
+<p><!--</p>
+<p>	google_ad_client = 'ca-nytimes_display_html';</p>
+<p>	google_alternate_ad_url = 'http://www.nytimes.com/ads/remnant/networkredirect-leaderboard.html';</p>
+<p>	google_ad_width = 728; </p>
+<p>	google_ad_height = 90;</p>
+<p>	google_ad_format = '728x90_pas_abgc';</p>
+<p>	google_ad_type = 'image,flash';</p>
+<p>	google_encoding = 'utf8'; </p>
+<p>	google_safe = 'high';</p>
+<p>	google_targeting = 'site_content';</p>
+<p>	google_ad_channel = 'books_leaderboard';</p>
+<p>// --></p>
+<p>Advertise on NYTimes.com</p>
+<p>Arts, Briefly</p>
+<p>Publisher Has Deal for Elton John Book</p>
+<p> By JULIE BOSMAN; Compiled by ADAM W. KEPLER</p>
+<p>Published: January 8, 2012    </p>
+<p>var articleToolsShareData = {"url":"http:\/\/www.nytimes.com\/2012\/01\/09\/books\/publisher-has-deal-for-elton-john-book.html","headline":"Publisher Has Deal for Elton John Book","description":"Little, Brown & Company is expected to announce Monday that Elton John has signed up to write his first book, about his experience in fighting AIDS.","keywords":"Books and Literature,Rock Music,Acquired Immune Deficiency Syndrome,John  Elton,Little Brown %26,Elton John Aids Foundation","section":"books","sub_section":null,"section_display":"Books","sub_section_display":null,"byline":"By <a rel=\"author\" href=\"http:\/\/topics.nytimes.com\/top\/reference\/timestopics\/people\/b\/julie_bosman\/index.html?inline=nyt-per\" title=\"More Articles by Julie Bosman\" class=\"meta-per\">JULIE BOSMAN<\/a>; Compiled by ADAM W. KEPLER","pubdate":"January 8, 2012","passkey":null};</p>
+<p>function getShareURL() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.url);</p>
+<p>}</p>
+<p>function getShareHeadline() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.headline);</p>
+<p>}</p>
+<p>function getShareDescription() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.description);</p>
+<p>}</p>
+<p>function getShareKeywords() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.keywords);</p>
+<p>}</p>
+<p>function getShareSection() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.section);</p>
+<p>}</p>
+<p>function getShareSubSection() {</p>
+<p>	return encodeURIComponent(articleToolsShareData.sub_section);</p>
+<p>}</p>
+<p>function getShareSectionDisplay() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.section_display);</p>
+<p>}</p>
+<p>function getShareSubSectionDisplay() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.sub_section_display);</p>
+<p>}</p>
+<p>function getShareByline() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.byline);</p>
+<p>}</p>
+<p>function getSharePubdate() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.pubdate);</p>
+<p>}</p>
+<p>function getSharePasskey() {</p>
+<p>    return encodeURIComponent(articleToolsShareData.passkey);</p>
+<p>}</p>
+<p>Sign In to E-Mail</p>
+<p>Print</p>
+<p>	function submitCCCForm(){</p>
+<p>		var PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');</p>
+<p>		var form = document.forms["cccform"];</p>
+<p>		// ensure that we are operating on the Form, not a NodeList</p>
+<p>		if (form.nodeName == "FORM") {</p>
+<p>			form.submit();</p>
+<p>		} else if (form[0] && form[0].nodeName == "FORM") {</p>
+<p>			form[0].submit();</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p> </p>
+<p>Reprints</p>
+<p> </p>
+<p>Fans of Elton John, below, will have to wait a little longer for his memoir of sex, drugs and rock ’n’ roll. But his publisher is expected to announce Monday that Mr. John, 64, has signed up to write his first book, about his experience in fighting AIDS. The book, titled “Love Is the Cure,” will be “the very personal stories of Sir Elton’s life during the AIDS epidemic, including his agony at seeing friend after friend perish needlessly,” said his publisher, Little, Brown & Company. Mr. John had long wondered why greater effort was not made to cure the disease. “Why are we not doing more?” he wrote in an e-mail from his publisher. “This is a question I have thought deeply about, and wish to answer — and to help change — by writing this book.” Mr. John, a longtime AIDS activist, founded the Elton John Aids Foundation in 1992. Michael Pietsch, the publisher of Little, Brown, will edit the book, to be released in July. A number of musicians, including Keith Richards, Patti Smith, Pete Townshend and Sammy Hagar, have lined up in recent years to write memoirs. Robert Barnett, the Washington lawyer who represented Mr. John in the deal, said that Mr. John had no such plans.          </p>
+<p> </p>
+<p>A version of this brief appeared in print on January 9, 2012, on page C3 of the New York edition with the headline: Publisher Has Deal For Elton John Book.</p>
+<p> </p>
+<p>Sign In to E-Mail</p>
+<p>Print</p>
+<p>	function submitCCCForm(){</p>
+<p>		var PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');</p>
+<p>		var form = document.forms["cccform"];</p>
+<p>		// ensure that we are operating on the Form, not a NodeList</p>
+<p>		if (form.nodeName == "FORM") {</p>
+<p>			form.submit();</p>
+<p>		} else if (form[0] && form[0].nodeName == "FORM") {</p>
+<p>			form[0].submit();</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p> </p>
+<p>Reprints</p>
+<p>writePost();</p>
+<p>Connect with The New York Times on Facebook.</p>
+<p> </p>
+<p>Get Free E-mail Alerts on These Topics</p>
+<p>Books and Literature</p>
+<p>Rock Music</p>
+<p>Acquired Immune Deficiency Syndrome</p>
+<p>John, Elton</p>
+<p> </p>
+<p>        google_hints="Publisher Has Deal for Elton John Book";google_ad_channel="archive, archive_books, archive_Books";</p>
+<p>    </p>
+<p>    // Sponlink_short</p>
+<p>    NYTD.GoogleAds.getGoogleAds("AFC", { </p>
+<p>        google_ad_client:'nytimes_article_var',</p>
+<p>	google_ad_channel:'left',</p>
+<p>        ad_target_list:'sponLink'</p>
+<p>    });</p>
+<p> </p>
+<p> </p>
+<p><!--</p>
+<p>if (!window.nyt_google_count) { var nyt_google_count = 0; }</p>
+<p>if ((!window.nyt_google_ad_channel) && (window.google_ad_channel)) { var nyt_google_ad_channel = google_ad_channel; }</p>
+<p>if ((!window.nyt_google_hints) && (window.google_hints)) { var nyt_google_hints = google_hints; }</p>
+<p>if ((!window.nyt_google_contents) && (window.google_contents)) { var nyt_google_contents = google_contents; }</p>
+<p>function ss(w,id) {window.status = w;return true;}function cs(){window.status='';}function ha(a){  pha=document.getElementById(a); nhi=pha.href.indexOf("&nh=");if(nhi < 1) {phb=pha.href+"&nh=1";} pha.href=phb;}function ca(a) {  pha=document.getElementById(a); nci=pha.href.indexOf("&nc=");if(nci < 1) {phb=pha.href+"&nc=1";} pha.href=phb;window.open(document.getElementById(a).href);}function ga(o,e) {if (document.getElementById) {a=o.id.substring(1);p = "";r = "";g = e.target;if (g) {t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h)r = h.id;}} else {h = e.srcElement;f = h.parentNode;if (f)p = f.id;t = h.id;}if (t==a || p==a || r==a)return true;pha=document.getElementById(a); nbi=pha.href.indexOf("&nb=");if(nbi < 1) {phb=pha.href+"&nb=1";} pha.href=phb;window.open(document.getElementById(a).href);}}</p>
+<p> </p>
+<p>function google_ad_request_done(ads) {</p>
+<p>    var s = '';</p>
+<p>    var i;</p>
+<p> </p>
+<p>    if (ads.length == 0) {</p>
+<p>        return;</p>
+<p>    }</p>
+<p> </p>
+<p>    if (ads[0].type == "image") {</p>
+<p>        s += '<a href="' + ads[0].url +</p>
+<p>        '" target="_blank" title="go to ' + ads[0].visible_url +</p>
+<p>        '"><img border="0" src="' + ads[0].image_url +</p>
+<p>        '"width="' + ads[0].image_width +</p>
+<p>        '"height="' + ads[0].image_height + '"></a>';</p>
+<p>    } else if (ads[0].type == "flash") {</p>
+<p>        s += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"' +</p>
+<p>        ' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"' +</p>
+<p>        ' WIDTH="' + google_ad.image_width +</p>
+<p>        '" HEIGHT="' + google_ad.image_height + '">' +</p>
+<p>        '<PARAM NAME="movie" VALUE="' + google_ad.image_url + '">' +</p>
+<p>        '<PARAM NAME="quality" VALUE="high">' +</p>
+<p>        '<PARAM NAME="AllowScriptAccess" VALUE="never">' +</p>
+<p>        '<EMBED src="' + google_ad.image_url +</p>
+<p>        '" WIDTH="' + google_ad.image_width +</p>
+<p>        '" HEIGHT="' + google_ad.image_height +</p>
+<p>        '" TYPE="application/x-shockwave-flash"' +</p>
+<p>        ' AllowScriptAccess="never" ' +</p>
+<p>        ' PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>';</p>
+<p>    } else if (ads[0].type == "text") {</p>
+<p>        nyt_google_count += ads.length;</p>
+<p>        google_ad_section_line_height = "14px";</p>
+<p>        google_ad_section_padding_left = "7px";</p>
+<p>        google_title_link_font_size = "12px";</p>
+<p>        google_ad_text_font_size = "11px";</p>
+<p>        google_visible_url_font_size = "10px";</p>
+<p> </p>
+<p>        s += '<table width="100%" height="" border="0" cellspacing="0" cellpadding="0" style="text-align:left; width:100%; border-style: solid; border-width: 1px; border-color: #9da3ad" >\n<tr>\n<td style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top"><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%; height:100%;">\n<tr>\n <td style="background-color:#9da3ad; width:70%; height:20px; padding-top:2px; padding-left:11px; padding-bottom:2px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="70%" height="20" bgcolor="#9da3ad" ><span style="font-size: 12px; font-weight: normal; color:#ffffff;" >Ads by Google</span></td>\n<td style="padding-top:2px; padding-bottom:2px; width:30%; height:20px; align:right; background-color:#9da3ad; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="30%" height="20" align="right" bgcolor="#9da3ad" ><span><a style="font-family:Arial,Helvetica,sans-serif; color: white; font-size:12px; padding-right:7px;" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open(\'\',\'popupad\',\'left=100,top=100,width=390,height=390,resizable,scrollbars=no\')" target="popupad">what\'s this?</a></span></td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td style="height:110px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top" height="110"><table height="100%" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#f8f8f9" style="height:100%; width:100%; padding:4px; background-color:#f8f8f9;">\n';</p>
+<p>        for (i = 0; i < ads.length; ++i) {</p>
+<p>            s += '<tr>\n<td style="cursor:pointer; cursor:hand; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333; background-color:#f8f8f9;" id="taw' + i + '" valign="middle" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onMouseOver="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()" onClick="ga(this,event)"><div style="line-height:' + google_ad_section_line_height + '; padding-left:' + google_ad_section_padding_left + '; padding-bottom:5px;" ><a id="aw' + i + '" href="' + ads[i].url + '" target="_blank" style="font-size:' + google_title_link_font_size + '; color:#000066; font-weight:bold; text-decoration:underline;" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onClick="ha(\'aw' + i + '\')" onMouseOver="return ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()">' + ads[i].line1 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-family:Arial,Helvetica,sans-serif; font-size:' + google_ad_text_font_size + ';color:#333333;text-decoration:none;">' + ads[i].line2 + ' ' + ads[i].line3 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-size:' + google_visible_url_font_size + '; color:#000066; font-weight:normal; text-decoration:none;">' + ads[i].visible_url + '</a></div>\n</td>\n</tr>\n';</p>
+<p>        }</p>
+<p>        s += '</table>\n</td>\n</tr>\n</table>';</p>
+<p>    }</p>
+<p>    document.write(s);</p>
+<p>    return;</p>
+<p>}</p>
+<p>google_ad_client = 'ca-nytimes_display_html';</p>
+<p>google_ad_format = '336x280_pas_abgc';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '6';</p>
+<p>google_ad_type = 'text,image,flash';</p>
+<p>google_image_size = '336x280';</p>
+<p>google_safe = 'high';</p>
+<p>google_targeting = 'site_content';</p>
+<p>if (window.nyt_google_contents) { google_contents = nyt_google_contents; }</p>
+<p>else if (window.nyt_google_hints) { google_hints = nyt_google_hints; }</p>
+<p>// --></p>
+<p>Advertise on NYTimes.com</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Showing star qualities </p>
+<p>ALSO IN THEATER »</p>
+<p>Anatomy of a murder, in raging rock </p>
+<p>Are you ready for your close-ups? </p>
+<p> </p>
+<p> </p>
+<p>Advertisements	    </p>
+<p> Help New Yorkers in need.Donate Today.</p>
+<p> </p>
+<p> </p>
+<p>    // Sponlink_A_Short</p>
+<p>     if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }</p>
+<p>     NYTD.GoogleAds.getGoogleAds("AFC", { </p>
+<p>        google_ad_client:'nytimes_article_var',</p>
+<p>        ad_target_list:'sponLinkA'</p>
+<p>     });</p>
+<p> </p>
+<p>            Inside NYTimes.com        </p>
+<p>Home & Garden »</p>
+<p>Bang for the Buck</p>
+<p>Music »</p>
+<p>Rap Cameos That Pack Some Electric Punches</p>
+<p>Fashion & Style »</p>
+<p>Zoom In, Zumba Away</p>
+<p>Opinion »</p>
+<p>Op-Ed: A Law Whose Time Has Passed</p>
+<p>A mining law from 1872 has outlived its purpose, and its environmental consequences have been severe.</p>
+<p>Great Homes »</p>
+<p>In Greenwich Village, a Place to Rest in Luxury</p>
+<p>Opinion »</p>
+<p>When the Fire Hydrant Was the End Zone</p>
+<p>Style »</p>
+<p>The Pre-Autumn Leaves Start Changing Color</p>
+<p>Home & Garden »</p>
+<p>Warm Hearts and Freeze-Dried Pets</p>
+<p>Opinion »</p>
+<p>Will Women Earn More Than Men?</p>
+<p>Women are pursuing degrees during this slump, while men settle for so-so jobs. Room for Debate asks: Which approach will pay off?</p>
+<p>Television »</p>
+<p>Comedy Gatekeeper Who Makes Letterman Laugh</p>
+<p>Opinion »</p>
+<p>Kristof Blog: Melinda Gates on Development</p>
+<p>Health » </p>
+<p>Exercise Hormone Keeps Us Healthy</p>
+<p>Home</p>
+<p>World</p>
+<p>U.S.</p>
+<p>N.Y. / Region</p>
+<p>Business</p>
+<p>Technology</p>
+<p>Science</p>
+<p>Health</p>
+<p>Sports</p>
+<p>Opinion</p>
+<p>Arts</p>
+<p>Style</p>
+<p>Travel</p>
+<p>Jobs</p>
+<p>Real Estate</p>
+<p>Autos</p>
+<p>Site Map</p>
+<p> </p>
+<p>© 2012 The New York Times Company</p>
+<p>Privacy</p>
+<p>Your Ad Choices</p>
+<p>Terms of Service</p>
+<p>Terms of Sale</p>
+<p>Corrections</p>
+<p>RSS</p>
+<p>Help</p>
+<p>Contact Us</p>
+<p>Work for Us</p>
+<p>Advertise</p>
+<p><!--</p>
+<p>          var dcsvid="0";</p>
+<p>          var regstatus="non-registered";</p>
+<p>        //--></p>

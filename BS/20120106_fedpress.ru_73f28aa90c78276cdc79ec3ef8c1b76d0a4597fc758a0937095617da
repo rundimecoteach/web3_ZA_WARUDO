@@ -1,0 +1,723 @@
+<p>Россияне определили элиту общества, 4 января 2012-17:33 — ФедералПресс</p>
+<p>  VK.init({apiId: 1974226, onlyWidgets: true});</p>
+<p>МоскваЦФО</p>
+<p>Центральный Федеральный Округ</p>
+<p>Московская область</p>
+<p>Белгородская область</p>
+<p>Брянская область</p>
+<p>Владимирская область</p>
+<p>Воронежская область</p>
+<p>Ивановская область</p>
+<p>Калужская область</p>
+<p>Костромская область</p>
+<p>Курская область</p>
+<p>Липецкая область</p>
+<p>Орловская область</p>
+<p>Рязанская область</p>
+<p>Смоленская область</p>
+<p>Тамбовская область</p>
+<p>Тверская область</p>
+<p>Тульская область</p>
+<p>Ярославская область</p>
+<p>ЮФО</p>
+<p>Южный Федеральный Округ</p>
+<p>Краснодарский край</p>
+<p>Республика Адыгея</p>
+<p>Республика Калмыкия</p>
+<p>Астраханская область</p>
+<p>Волгоградская область</p>
+<p>Ростовская область</p>
+<p>СКФО</p>
+<p>Северо-Кавказский Федеральный округ</p>
+<p>Республика Дагестан</p>
+<p>Республика Ингушетия</p>
+<p>Республика Кабардино-Балкарская</p>
+<p>Республика Карачаево-Черкесская</p>
+<p>Северная Осетия - Алания</p>
+<p>Республика Чечня</p>
+<p>Ставропольский край</p>
+<p>СЗФО</p>
+<p>Северо-Западный Федеральный Округ</p>
+<p>Архангельская область</p>
+<p>Вологодская область</p>
+<p>Ненецкий автономный округ</p>
+<p>Республика Карелия</p>
+<p>Республика Коми</p>
+<p>Калининградская область</p>
+<p>Ленинградская область</p>
+<p>Мурманская область</p>
+<p>Новгородская область</p>
+<p>Псковская область</p>
+<p>Санкт-Петербург</p>
+<p>Приволжский ФО</p>
+<p>Приволжский Федеральный Округ</p>
+<p>Республика Башкортостан</p>
+<p>Республика Марий Эл</p>
+<p>Республика Мордовия</p>
+<p>Республика Татарстан</p>
+<p>Республика Удмуртия</p>
+<p>Чувашская республика</p>
+<p>Кировская область</p>
+<p>Нижегородская область</p>
+<p>Оренбургская область</p>
+<p>Пензенская область</p>
+<p>Пермский край</p>
+<p>Самарская область</p>
+<p>Саратовская область</p>
+<p>Ульяновская область</p>
+<p>Уральский ФО</p>
+<p>Уральский Федеральный Округ</p>
+<p>Курганская область</p>
+<p>Свердловская область</p>
+<p>Тюменская область</p>
+<p>Челябинская область</p>
+<p>Ханты-Мансийский автономный округ</p>
+<p>Ямало-Ненецкий автономный округ</p>
+<p>Сибирский ФО</p>
+<p>Сибирский Федеральный Округ</p>
+<p>Республика Бурятия</p>
+<p>Республика Алтай</p>
+<p>Республика Тува</p>
+<p>Республика Хакасия</p>
+<p>Алтайский край</p>
+<p>Красноярский край</p>
+<p>Иркутская область</p>
+<p>Кемеровская область</p>
+<p>Новосибирская область</p>
+<p>Омская область</p>
+<p>Томская область</p>
+<p>Забайкальский край</p>
+<p>ДФО</p>
+<p>Дальневосточный Федеральный Округ</p>
+<p>Приморский край</p>
+<p>Хабаровский край</p>
+<p>Амурская область</p>
+<p>Камчатский край</p>
+<p>Сахалинская область</p>
+<p>Магаданская область</p>
+<p>Еврейская автономная область</p>
+<p>Чукотский автономный округ</p>
+<p>Республика Саха (Якутия)</p>
+<p>ТаиландWorld News</p>
+<p>function animated (el_id) {</p>
+<p>	var prev_im = null;</p>
+<p>	var im1 = null;</p>
+<p>	var im2 = null;</p>
+<p>	this._init_anim(el_id);</p>
+<p>	var last_anim = null;</p>
+<p>	var clr = 0;</p>
+<p>}</p>
+<p>animated.prototype._load_animation = function(im){</p>
+<p>	var time = 500;</p>
+<p>	var ul = im.up('ul').childElements();</p>
+<p>	if ($('expanding')) $('expanding').removeAttribute('id');</p>
+<p>	if (this.prev_im == im) {</p>
+<p>		if (im.up('li') == ul[0] && !im.hasClassName('active')) {</p>
+<p>			im.setAttribute('id','expanding');</p>
+<p>			this.im2 = new animatedcollapse('expanding',time,false,'contract');</p>
+<p>			this.im2.isExpanded = 'no';</p>
+<p>			this.im2.update(ul[ul.length-1].down('img').getHeight());</p>
+<p>			this.im2.slidedown();</p>
+<p>			im.up('li').addClassName('active');</p>
+<p>		}</p>
+<p>		return;</p>
+<p>	}</p>
+<p>	this.prev_im.setAttribute('id','collapsing');</p>
+<p>	im.setAttribute('id','expanding');</p>
+<p>	ul.each( function (s) {</p>
+<p>		s.removeClassName('active')}</p>
+<p>	);</p>
+<p>	$('expanding').up('li').addClassName('active');</p>
+<p>	this.im1 = new animatedcollapse('expanding', time, false, 'contract', 'collapsing');</p>
+<p>	this.im1.isExpanded = 'no';</p>
+<p>	this.im1.update(im.down('img').getHeight());</p>
+<p>	this.im1.slidedown();</p>
+<p>	this.prev_im.removeAttribute('id');</p>
+<p>}</p>
+<p>animated.prototype._init_anim = function(el){</p>
+<p>	var li_all = $(el).childElements();</p>
+<p>	this.prev_im = li_all[0].down('.img-cont');</p>
+<p>}</p>
+<p>animated.prototype.animate = function (el){</p>
+<p>	if (this.clr) clearTimeout(this.clr);</p>
+<p>	var thisobj = this;</p>
+<p>	this.last_anim = function () {</p>
+<p>		thisobj._load_animation(el);</p>
+<p>		thisobj.prev_im = el;</p>
+<p>	};</p>
+<p>	this.clr = setTimeout (this.last_anim,450);</p>
+<p>}</p>
+<p>animated.prototype.reset = function(){</p>
+<p>	if (this.clr) clearTimeout(this.clr);</p>
+<p>	this.last_anim = null;</p>
+<p>}</p>
+<p>var rollovers = new Hash();</p>
+<p>stopAnim = function(event,ul){</p>
+<p>	var n1 = event.relatedTarget || event.toElement;</p>
+<p>	if (!n1 || n1.tagName != 'IMG' && n1.tagName != 'DIV') return;</p>
+<p>	rollovers.get(ul.id).reset();</p>
+<p>}</p>
+<p>make_active = function (el){</p>
+<p>	var all_elms = el.up().childElements();</p>
+<p>	all_elms.each( function (s) {</p>
+<p>		s.removeClassName('active')}</p>
+<p>	);</p>
+<p>	el.addClassName('active');</p>
+<p>}</p>
+<p>highLht = function(el) {</p>
+<p>		var toggle = function(tag,attrs){</p>
+<p>			var gross = el.up('div').down(tag);</p>
+<p>			var kleine = el.down(tag);</p>
+<p>			if (!gross || !kleine) return;</p>
+<p>			while (attrs.length) {</p>
+<p>				var attr = attrs.shift();</p>
+<p>				gross.setAttribute(attr, kleine.readAttribute(attr));</p>
+<p>			}</p>
+<p>		}</p>
+<p>		if (!el || el.hasClassName('active')) return false;</p>
+<p>			make_active(el);</p>
+<p>			toggle('img',['src','alt']);</p>
+<p>			//toggle('a',['href']);</p>
+<p>}</p>
+<p>Event.observe(window, 'load', function() {</p>
+<p>	if ($('box1') && !$('description')) $('box1').observe('mouseover', function(event) {</p>
+<p>			highLht(Event.findElement(event,'H1'));</p>
+<p>		}</p>
+<p>	);</p>
+<p>            	$$('ul.anim').each( function (s) {</p>
+<p>			if (s.empty()) return;</p>
+<p>			var first = s.childElements()[0];</p>
+<p>			first.addClassName('active');</p>
+<p>			//first.down('.img-cont').setStyle({height:'auto'});</p>
+<p>                        s.setAttribute('id','a_' + s.up('.itema_content').id);</p>
+<p>			rollovers.set (s.id, new animated(s.id));</p>
+<p>			rollovers.set (s.id, new animated(s.id));</p>
+<p>			s.observe('mouseover', function(event) {</p>
+<p>				highLht(Event.findElement(event,'li'));</p>
+<p>			} )</p>
+<p>			s.up('.content').observe('mouseout', function(event) {</p>
+<p>				stopAnim(event,s);</p>
+<p>			} )</p>
+<p>		}</p>
+<p>	);</p>
+<p>} );</p>
+<p>Блоги: Царский отдых Светланы Медведевой и наказание для «бесовок»</p>
+<p>А также: Протестанты взывают к сердцу полицейского</p>
+<p>Аппетиты Роснефти растут в сторону моря</p>
+<p>Аналитики считают планы нефтяного гиганта по приобретению пакета акций Новороссийского порта опасными для России</p>
+<p>«Детский щит» кубанской оппозиции и пытки в УВД</p>
+<p>Гражданский активист рассказал о концлагерных условиях в краснодарской полиции</p>
+<p>Главные новости дня. Россия</p>
+<p>20:40Рейтинг публичной активности персон УрФО. Февраль-2012</p>
+<p>20:37Блоги: Царский отдых Светланы Медведевой и наказание для «бесовок»</p>
+<p>20:31Нижегородские коммунисты сдали позиции</p>
+<p>18:17Опыт Муслюмово распространят по Тече</p>
+<p>Все новости. Вся Россия.</p>
+<p>Вся Россия</p>
+<p>Москва. Московская область</p>
+<p>Центральный Федеральный Округ</p>
+<p>   Белгородская область</p>
+<p>   Брянская область</p>
+<p>   Владимирская область</p>
+<p>   Воронежская область</p>
+<p>   Ивановская область</p>
+<p>   Калужская область</p>
+<p>   Костромская область</p>
+<p>   Курская область</p>
+<p>   Липецкая область</p>
+<p>   Орловская область</p>
+<p>   Рязанская область</p>
+<p>   Смоленская область</p>
+<p>   Тамбовская область</p>
+<p>   Тверская область</p>
+<p>   Тульская область</p>
+<p>   Ярославская область</p>
+<p>Южный Федеральный Округ</p>
+<p>   Краснодарский край</p>
+<p>   Республика Адыгея</p>
+<p>   Республика Калмыкия</p>
+<p>   Астраханская область</p>
+<p>   Волгоградская область</p>
+<p>   Ростовская область</p>
+<p>Северо-Кавказский Федеральный округ</p>
+<p>   Республика Дагестан</p>
+<p>   Республика Ингушетия</p>
+<p>   Республика Кабардино-Балкарская</p>
+<p>   Республика Карачаево-Черкесская</p>
+<p>   Северная Осетия - Алания</p>
+<p>   Республика Чечня</p>
+<p>   Ставропольский край</p>
+<p>Северо-Западный Федеральный Округ</p>
+<p>   Калининградская область</p>
+<p>   Вологодская область</p>
+<p>   Ненецкий автономный округ</p>
+<p>   Республика Карелия</p>
+<p>   Республика Коми</p>
+<p>   Ленинградская область</p>
+<p>   Мурманская область</p>
+<p>   Новгородская область</p>
+<p>   Псковская область</p>
+<p>   Санкт-Петербург</p>
+<p>Приволжский Федеральный Округ</p>
+<p>   Республика Башкортостан</p>
+<p>   Республика Марий Эл</p>
+<p>   Республика Мордовия</p>
+<p>   Республика Татарстан</p>
+<p>   Республика Удмуртия</p>
+<p>   Чувашская республика</p>
+<p>   Кировская область</p>
+<p>   Нижегородская область</p>
+<p>   Оренбургская область</p>
+<p>   Пензенская область</p>
+<p>   Пермский край</p>
+<p>   Самарская область</p>
+<p>   Саратовская область</p>
+<p>   Ульяновская область</p>
+<p>Уральский Федеральный Округ</p>
+<p>   Курганская область</p>
+<p>   Свердловская область</p>
+<p>   Тюменская область</p>
+<p>   Челябинская область</p>
+<p>   Ханты-Мансийский автономный округ</p>
+<p>   Ямало-Ненецкий автономный округ</p>
+<p>Сибирский Федеральный Округ</p>
+<p>   Республика Бурятия</p>
+<p>   Республика Алтай</p>
+<p>   Республика Тува</p>
+<p>   Республика Хакасия</p>
+<p>   Алтайский край</p>
+<p>   Красноярский край</p>
+<p>   Иркутская область</p>
+<p>   Кемеровская область</p>
+<p>   Новосибирская область</p>
+<p>   Омская область</p>
+<p>   Томская область</p>
+<p>   Забайкальский край</p>
+<p>Дальневосточный Федеральный Округ</p>
+<p>   Приморский край</p>
+<p>   Хабаровский край</p>
+<p>   Амурская область</p>
+<p>   Камчатский край</p>
+<p>   Сахалинская область</p>
+<p>   Магаданская область</p>
+<p>   Еврейская автономная область</p>
+<p>   Чукотский автономный округ</p>
+<p>   Республика Саха (Якутия)</p>
+<p>Королевство Таиланд</p>
+<p>World News</p>
+<p>Реклама | </p>
+<p>			Регистрация | </p>
+<p>			Вход | </p>
+<p>			О проекте</p>
+<p>поиск на сайте</p>
+<p>поиск на yandex</p>
+<p> </p>
+<p>подписка |</p>
+<p>				редакция |</p>
+<p>				написать |</p>
+<p>				архив |</p>
+<p>				PDA</p>
+<p>ФедералПресс</p>
+<p>Итоги года</p>
+<p>Недвижимость</p>
+<p>TV</p>
+<p>Конфликты</p>
+<p>ЭкспертСовет</p>
+<p>Бизнес</p>
+<p>Банки</p>
+<p>Рейтинги</p>
+<p>Далее</p>
+<p>Совет Федерации</p>
+<p>Модное место</p>
+<p>Энциклопедия</p>
+<p>Регата 2011</p>
+<p>Журнал «Паспорт Региона»</p>
+<p>Рекламный отдел</p>
+<p>Клубная карта</p>
+<p>Щиты «Визитка»</p>
+<p>Выборы-2012</p>
+<p>Газета</p>
+<p>Россия и мир</p>
+<p>Светская хроника</p>
+<p>Домен .РФ</p>
+<p>Новости</p>
+<p>Политика и власть</p>
+<p>Экономика и бизнес</p>
+<p>Выборы и партии</p>
+<p>Кризис в регионах</p>
+<p>Общество, происшествия</p>
+<p>Новости компаний</p>
+<p>Пресс-центр</p>
+<p>Пресс-конференции</p>
+<p>Интервью</p>
+<p>Пресс-клуб</p>
+<p>Анонсы</p>
+<p>Спецпроекты</p>
+<p>Итоги недели. Эксперты</p>
+<p>АнтиСлухи</p>
+<p>Города</p>
+<p>Фоторепортаж</p>
+<p>Экологическая стратегия России</p>
+<p>Top regional news weekly</p>
+<p>ЭНЦИКЛОПЕДИЯ</p>
+<p>Персоны</p>
+<p>Компании</p>
+<p>СМИ</p>
+<p>Эксперты</p>
+<p>Внимание розыск</p>
+<p> </p>
+<p>Общество</p>
+<p>RSS: Московский выпуск: Федеральный выпуск</p>
+<p>Версия для печати</p>
+<p>4 Января 2012 (среда)</p>
+<p>Россияне определили элиту общества</p>
+<p>Россияне признали Путина элитой российского общества</p>
+<p>Всероссийский центр изучения общественного мнения (ВЦИОМ) опубликовал сегодня, 4 января, результаты опроса среди россиян о том, кого они считают элитой российского общества. По результатам ВЦИОМ самыми влиятельными персонами для жителей России стали президент РФ Дмитрий Медведев и премьер-министр РФ Владимир Путин.</p>
+<p>Результаты исследования показали, что нынешний премьер лидирует в списке элиты современного общества с результатом 58 % голосов опрошенных. Глава российского государства находится на второй позиции с 42-мя %. в пятерку лидеров общественного мнения вошли певица Алла Пугачева (19 %), лидер ЛДПР Владимир Жириновский, председатель партии КПРФ Геннадий Зюганов и миллиардер Михаил Прохоров набрали по 12 % голосов опрошенных. Лидер «Справедливой России» Сергей Миронов и телеведущий Андрей Малахов — по 10 %.</p>
+<p>Первую десятку российской элиты замыкают патриарх Кирилл и певец Филипп Киркоров (по 9%). В список лидеров общественного мнения также вошли юморист Максим Галкин, детский врач Леонид Рошаль, режиссер Никита Михалков, мэр Москвы Сергей Собянин и основатель партии «Яблоко» Григорий Явлинский.</p>
+<p>Всего в социологическом исследовании приняло участие 1600 человек в 138 населенных пунктах в 46 областях, краях и республиках России. Статистическая погрешность не превышает 3,4 %.</p>
+<p>Тэги: Зюганов, Жириновский, Явлинский, Малахов, Михалков, Пугачева, Медведев, Путин, опрос, ВЦИОМ, Миронов, Прохоров</p>
+<p>© Экспертный канал «ФедералПресс» Мария Захарова </p>
+<p>Подписаться на рассылку</p>
+<p>Отправить по почте </p>
+<p>Вставить в блог</p>
+<p>Прокомментировать</p>
+<p>Версия для печати</p>
+<p>Написать автору</p>
+<p>//<![CDATA[</p>
+<p>var isnews = 1;</p>
+<p>//]]></p>
+<p>answer_id = 0;</p>
+<p>sending = 0;</p>
+<p>expert = 0;</p>
+<p>function answer(id) {</p>
+<p>	if(sending==0) {</p>
+<p>		expert = 0;</p>
+<p>		answer_id = id;</p>
+<p>		document.getElementById('answer_form').focus();</p>
+<p>		document.getElementById('who_comment').innerHTML = ' &mdash; '+document.getElementById('name_'+id).innerHTML;</p>
+<p>		document.getElementById('what_add').innerHTML = 'комментарий';</p>
+<p>	}</p>
+<p>}</p>
+<p>function sendComment() {</p>
+<p>	sending = 1;</p>
+<p>	var req = new JsHttpRequest();</p>
+<p>	</p>
+<p>	var blog_id = document.getElementById('topic_id').value;</p>
+<p>	var top = answer_id;</p>
+<p>	var text = document.getElementById('answer_form').value;</p>
+<p>	if(document.getElementById('exp_zagl'))</p>
+<p>		var exp_zagl = document.getElementById('exp_zagl').value;</p>
+<p>	if(document.getElementById('exp_desc'))</p>
+<p>		var exp_desc = document.getElementById('exp_desc').value;</p>
+<p>	</p>
+<p>	if(document.getElementById('guest_name')) var guest_name = document.getElementById('guest_name').value;</p>
+<p>	else var guest_name = '';</p>
+<p>	if(document.getElementById('code')) var code = document.getElementById('code').value;</p>
+<p>	else var code = '';</p>
+<p>	if(document.getElementById('coder')) var cod_er = document.getElementById('coder').innerHTML;</p>
+<p>	else var cod_er = '';</p>
+<p>	</p>
+<p>	if(expert!=1) {</p>
+<p>		document.getElementById('answer_'+answer_id).innerHTML = '<img src="/images/ajax-loader3.gif" width="220" height="19" alt="Загрузка..." />';</p>
+<p>	} else {</p>
+<p>		if(document.getElementById('exerts_say').innerHTML=='') {</p>
+<p>			document.location = '#exerts_say_go';</p>
+<p>			document.getElementById('exerts_say').innerHTML = '<p>&nbsp;</p><img src="/images/ajax-loader3.gif" alt="Загрузка..." />';</p>
+<p>		} else {</p>
+<p>			document.location = '#exerts_say_go';</p>
+<p>			document.getElementById('exerts_say_add').innerHTML = '<img src="/images/ajax-loader3.gif" alt="Загрузка..." />';</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p>	req.onreadystatechange = function() {</p>
+<p>		if (req.readyState == 4) {</p>
+<p>			if (req.responseJS) {</p>
+<p>				if(expert==1) {</p>
+<p>					if(!document.getElementById('exerts_say_add')) {</p>
+<p>						document.getElementById('exerts_say').innerHTML = req.responseJS.ret;</p>
+<p>					} else {</p>
+<p>						document.getElementById('exerts_say_add').innerHTML = req.responseJS.ret1;</p>
+<p>					}</p>
+<p>				} else {</p>
+<p>					if(req.responseJS.ret!=null) {</p>
+<p>						document.getElementById('answer_'+answer_id).innerHTML = req.responseJS.ret;</p>
+<p>						document.getElementById('answer_form').value = '';</p>
+<p>					} else {</p>
+<p>						document.getElementById('answer_'+answer_id).innerHTML = 'При отправке возникли ошибки...';</p>
+<p>					}</p>
+<p>				}</p>
+<p>			}</p>
+<p>			sending = 0;</p>
+<p>		}</p>
+<p>	}</p>
+<p>	req.caching = false;</p>
+<p>	req.open(null, '/ajax/?act=sendComment', true);</p>
+<p>	req.send({ </p>
+<p>		blog_id: blog_id, </p>
+<p>		top: top, </p>
+<p>		text: text, </p>
+<p>		isnews: isnews, </p>
+<p>		guest_name: guest_name, </p>
+<p>		code: code, </p>
+<p>		coder: cod_er, </p>
+<p>		expert: expert,</p>
+<p>		exp_zagl:exp_zagl,</p>
+<p>		exp_desc:exp_desc</p>
+<p>	});</p>
+<p>}</p>
+<p>function rateComment(where,whom,pm) {</p>
+<p>	var req = new JsHttpRequest();</p>
+<p>	</p>
+<p>	req.onreadystatechange = function() {</p>
+<p>		if (req.readyState == 4) {</p>
+<p>			if (req.responseJS) {</p>
+<p>				if(req.responseJS.ret!=null) {</p>
+<p>					document.getElementById('rate_comm_'+where).innerHTML = req.responseJS.ret;</p>
+<p>					document.getElementById('pm_bloc_'+where).style.display = 'none';</p>
+<p>				} else {</p>
+<p>					document.getElementById('rate_comm_'+where).innerHTML = 'При отправке возникли ошибки...';</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	req.caching = false;</p>
+<p>	req.open(null, '/ajax/?act='+pm, true);</p>
+<p>	req.send({ whom: whom, where: where });</p>
+<p>}</p>
+<p>Новости партнеров</p>
+<p>Загрузка...</p>
+<p> |  | </p>
+<p>  </p>
+<p>Комментарии</p>
+<p>Россияне определили элиту общества</p>
+<p> </p>
+<p>GenghisHaim 5 Января 2012 01:08:57</p>
+<p> </p>
+<p> 0</p>
+<p>ответить</p>
+<p> </p>
+<p>Представьте, когда б незадачливый вендор</p>
+<p>Великий Остап Ибрагимович Бендер</p>
+<p>Использовал опыт российской "элиты",</p>
+<p>Стране поставляя рога и копыта:</p>
+<p>Месье Балаганов, месье Паниковский</p>
+<p>Ходили бы в гости открыто, по-свойски,</p>
+<p>К тaндeму крeмлeвскому, лучшему в мире,</p>
+<p>Даря неизменно чугунные гири;</p>
+<p>Они б говорили про моду и стили –</p>
+<p>И вместе пилили, пилили, пилили…</p>
+<p>Все было бы шито, все было бы крыто,</p>
+<p>А что вы хотите, – такая "элита".  </p>
+<p> </p>
+<p> 5 Января 2012 02:44:37</p>
+<p> </p>
+<p> 0</p>
+<p>ответить</p>
+<p> </p>
+<p>Достали </p>
+<p>Премьер, президент, супермен </p>
+<p>С плакатов взирает устало, </p>
+<p>В упор он не видит проблем: </p>
+<p>Уверен, что жить лучше стало. </p>
+<p>"Двойник" его Дима-гарант </p>
+<p>С ракеткою для бадминтона </p>
+<p>Зарыл комбайнёра талант - </p>
+<p>Брутальный терзатель айфона. </p>
+<p>Хотят они нас убедить, </p>
+<p>Что лучше правителей нету - </p>
+<p>Навечно Россией рулить, </p>
+<p>А может и всею планетой. </p>
+<p>Достали всех этой лапшой, </p>
+<p>Пиарятся вместо работы. </p>
+<p>Пора болтунам на покой, </p>
+<p>Писать для потомков отчёты.</p>
+<p>Добавить комментарий </p>
+<p>Если вы являетесь экспертом и хотите оставить свое мнение -</p>
+<p>войдите на сайт ("Вход")</p>
+<p>Ваше имя</p>
+<p>Текст сообщения</p>
+<p>Проверка</p>
+<p>rgyws</p>
+<p>Введите число:</p>
+<p> У нас Вы можете публиковать свои новости! Став экспертом Вы сможете добавлять свое мнение непосредственно в текст новости. Зарегистрируйтесь.</p>
+<p>Уважаемые читатели! Комментарии, не соответствующие теме материала, содержащие неподтвержденные сведения, порочащие</p>
+<p> честь и достоинство, деловую репутацию, имеющие заведомо клеветнический характер в адрес объектов</p>
+<p> и субъектов публикаций, а также противоречащие нормам Закона о СМИ РФ, могут быть удалены.</p>
+<p> </p>
+<p>Новости партнеров</p>
+<p>Новости СМИ2</p>
+<p>	<!--</p>
+<p>	if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() *</p>
+<p>	1000000); }</p>
+<p>	if (typeof(document.referrer) != 'undefined') {</p>
+<p>	  if (typeof(afReferrer) == 'undefined') {</p>
+<p>		afReferrer = escape(document.referrer);</p>
+<p>	  }</p>
+<p>	} else {</p>
+<p>	  afReferrer = '';</p>
+<p>	}</p>
+<p>	var addate = new Date();</p>
+<p>	document.write('<scr' + 'ipt type="text/javascript"	src="http://a.kavanga.ru/3604/prepareCode?p1=bffl&amp;p2=cyp&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>	// --></p>
+<p>	</p>
+<p>			var begun_auto_pad = 233395112;</p>
+<p>			var begun_block_id = 233401819;</p>
+<p>			</p>
+<p>Федеральный выпуск</p>
+<p>10</p>
+<p>апреля</p>
+<p>среда</p>
+<p>О нас пишут</p>
+<p>Дни рождения</p>
+<p>Анонсы и Даты</p>
+<p>Курс ЦБ РФ 09.04</p>
+<p>USD</p>
+<p>31,6144</p>
+<p>| ▼ -0,0063</p>
+<p>EUR</p>
+<p>41,0481</p>
+<p>| ▲ 0,2068</p>
+<p>CNY</p>
+<p>5,09507</p>
+<p>| ▲ 0,2068</p>
+<p>print_ind('_SPBVB_20002_-_RTS_INDEX_-_MICEX_INDEX_-_RBCCI_');</p>
+<p>    var arr19 = new Array;</p>
+<p>    arr19[0] = 244;</p>
+<p>    function list_news19(id) {</p>
+<p>       for(i = 0; i < arr19.length; i++) {</p>
+<p>            if(id == arr19[i]) {</p>
+<p>                //document.getElementById("td_" + arr[i]).InnerHTML = '<span id="item_'+arr[i]+'">'+document.getElementById("item_" + arr[i]).InnerHTML+'</span>';</p>
+<p>                document.getElementById("td_" + arr19[i]).className = 'trazd1';</p>
+<p>                document.getElementById("colum_" + arr19[i]).style.display = 'block';</p>
+<p>            }</p>
+<p>            else {</p>
+<p>                //document.getElementById("td_" + arr[i]).InnerHTML = '<a href="#" onclick="list_news('+arr[i]+'); return false;" id="item_'+arr[i]+'">'+document.getElementById("item_" + arr[i]).InnerHTML+'</a>';</p>
+<p>                document.getElementById("td_" + arr19[i]).className = 'trazd2';</p>
+<p>                document.getElementById("colum_" + arr19[i]).style.display = 'none';</p>
+<p>            }</p>
+<p>        }</p>
+<p>    }</p>
+<p>Расследования</p>
+<p>Свердловчан «залечили» обещаниями</p>
+<p>Медицинская помощь осталась либо бесплатной, либо современной</p>
+<p>Зауральский суд обязал Ростелеком закрыть доступ к наркосайтам</p>
+<p>Компания считает, что иск предъявлен не по адресу</p>
+<p>Машиностроители Курганской области разрабатывают программу подготовки кадров</p>
+<p>Все сюжеты</p>
+<p>ФедералПресс.TV</p>
+<p> Агентство StreetArt завершило работу над новым роликом «Ангел-хранитель»</p>
+<p>Глас народа: недостроенная телебашня получит «вторую жизнь»</p>
+<p>В Екатеринбурге  открылся музей Эрнста Неизвестного</p>
+<p>Владимир Путин: «Скажите спасибо украинским девушкам, они помогают раскрутить ярмарку»</p>
+<p>Все сюжеты</p>
+<p>Федеральные новости10 апреля</p>
+<p>12:12Звездные откровения: Том Круз впервые прокомментировал свой развод с Кэти Холмс</p>
+<p>10:42Экс-супруг Джей Ло снова идет под венец – на этот раз с юной богачкой</p>
+<p>9 апреля</p>
+<p>18:2346-летняя Холли Берри показала беременный животик</p>
+<p>17:52Интимные подробности с «Дома-2»: Самсонов и «телебабушка» построят любовь после ее развода</p>
+<p>15:58Для шоу «Две звезды» Анастасия Волочкова стала брюнеткой</p>
+<p>Все новости</p>
+<p>ПРИСОЕДИНЯЙТЕСЬ К КОМАНДЕэкспертов РИА ФедералПресс.</p>
+<p>Ищите нас в социальных сетях...</p>
+<p>Федеральная энциклопедия России</p>
+<p>Персоны (2119) </p>
+<p>Компании (295) </p>
+<p>Города (358) </p>
+<p>Эксперты (445) </p>
+<p>СМИ (169) </p>
+<p>Бренды (40) </p>
+<p>Комментарии</p>
+<p>31</p>
+<p>8 апреля 2013-17:33</p>
+<p>«Ашан» впустил к себе банк со стороны</p>
+<p>2</p>
+<p>7 апреля 2013-17:56</p>
+<p>В Екатеринбурге закрыли движение по улице Народного Фронта</p>
+<p>4</p>
+<p>7 апреля 2013-17:26</p>
+<p>Профсоюзный лидер Челябинской области: Народный фронт даст власть гражданскому обществу</p>
+<p>3</p>
+<p>7 апреля 2013-16:53</p>
+<p>Народному фронту в Челябинске не хватило голосов</p>
+<p>4</p>
+<p>5 апреля 2013-13:14</p>
+<p>Центризбирком отчитался о доходах российского премьера</p>
+<p>Опрос</p>
+<p>Активных опросов не обнаружено</p>
+<p>Архив опросов</p>
+<p>Новости партнеров</p>
+<p>Новости России</p>
+<p>fedpress.ru ®</p>
+<p>2002-2010 © Информационное агентство «Экспертный канал ФедералПресс»</p>
+<p>тел.: +7 495 514 72 99E-mail: Руководство, news@fedpress.ru</p>
+<p>Учредитель, главный редактор: Еремин Иван Сергеевич </p>
+<p>Адрес редакции: 620014, г. Екатеринбург, ул. Первомайская, дом 15, пом. № 14 </p>
+<p>Адрес дирекции: 620062, г. Екатеринбург, ул. Первомайская, д. 70, тел. (343) 379-00-33 </p>
+<p>Информация о региональных представительствах</p>
+<p>Размещение рекламы: тел. +7 (343) 379-00-33, ICQ: 435477375</p>
+<p>по вопросам информационного партнерства обращаться: Рекламный отдел</p>
+<p>Экспертный канал ФедералПресс в каталоге российских СМИ проекта Яндекс</p>
+<p> Регистрация | Подписка на рассылку | О сайте | Реклама| Вакансии</p>
+<p>поиск</p>
+<p> </p>
+<p>Газета Итоги недели</p>
+<p>подписка</p>
+<p>RSS</p>
+<p>English version</p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click;FederalPress' "+</p>
+<p>"target=_blank><img src='//counter.yadro.ru/hit;FederalPress?t52.1;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";h"+escape(document.title.substring(0,80))+";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet: показано число просмотров и"+</p>
+<p>" посетителей за 24 часа' "+</p>
+<p>"border='0' width='88' height='31'><\/a>")</p>
+<p>//--></p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer)</p>
+<p>js=10//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled()</p>
+<p>js=11//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)</p>
+<p>js=12//--><!--</p>
+<p>js=13//--><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=1414406"'+</p>
+<p>' target="_top"><img src="http://d5.c9.b5.a1.top.list.ru/counter'+</p>
+<p>'?id=1414406;t=49;js='+js+a+';rand='+Math.random()+</p>
+<p>'" alt="Рейтинг@Mail.ru"'+' border="0" height="31" width="88"/><\/a>')</p>
+<p>if(11<js)d.write('<'+'!-- ')//--><!--</p>
+<p>if(11<js)d.write('--'+'>')//--></p>
+<p><!--</p>
+<p>  uralweb_d=document;</p>
+<p>  uralweb_a='';</p>
+<p>  uralweb_a+='&r='+escape(uralweb_d.referrer);</p>
+<p>  uralweb_js=10;</p>
+<p>//--></p>
+<p><!--</p>
+<p>  uralweb_a+='&j='+navigator.javaEnabled();</p>
+<p>  uralweb_js=11;</p>
+<p>//--></p>
+<p><!--</p>
+<p>  uralweb_s=screen;</p>
+<p>  uralweb_a+='&s='+uralweb_s.width+'*'+uralweb_s.height;</p>
+<p>  uralweb_a+='&d='+(uralweb_s.colorDepth?uralweb_s.colorDepth:uralweb_s.pixelDepth);</p>
+<p>  uralweb_js=12;</p>
+<p>//--></p>
+<p><!--</p>
+<p>  uralweb_js=13;</p>
+<p>//--></p>
+<p><!--</p>
+<p>uralweb_d.write('<a href="http://www.uralweb.ru/rating/go/uralpolit">'+</p>
+<p>'<img border="0" src="http://hc.uralweb.ru/hc/uralpolit?js='+</p>
+<p>uralweb_js+'&rand='+Math.random()+uralweb_a+</p>
+<p>'" width="88" height="31" alt="Рейтинг UralWeb" /><'+'/a>');</p>
+<p>//--></p>
+<p>Свидетельство о регистрации СМИ ИА №ФС77-29723 от 03.10.2007 г. выдано Федеральной службой по надзору в сфере массовых коммуникаций, связи и охраны культурного наследия</p>
+<p>При использовании информационных материалов гипертекстовая индексируемая ссылка на «ФедералПресс» обязательна.</p>

@@ -1,0 +1,319 @@
+<p>Watchdog slams care at hospital for vulnerable adults - News - The Comet</p>
+<p>$(document).ready(function(){</p>
+<p>$(".gallery a[rel^='prettyPhoto[archantGallery]']").prettyPhoto({theme:'facebook', deeplinking: false});</p>
+<p>});</p>
+<p>January 17 2012 Latest news:</p>
+<p>Watchdog slams care at hospital for vulnerable adults</p>
+<p>Widow devastated by cemetery thief</p>
+<p>Battle injured troops in Letchworth karting race</p>
+<p>Beds and Herts police star in BBC1 forensics documentary</p>
+<p>Filmmakers go back to roots at London premiere</p>
+<p> Register</p>
+<p>News feeds</p>
+<p>Search Term</p>
+<p>Search</p>
+<p>Advanced search</p>
+<p>Home </p>
+<p>											</p>
+<p>                  </p>
+<p>    </p>
+<p>      </p>
+<p>        </p>
+<p>        </p>
+<p>E-edition</p>
+<p>Contact us</p>
+<p>Paper delivery enquiries</p>
+<p>Advertise with us</p>
+<p>Photo sales</p>
+<p>Competitions</p>
+<p>Twitter Profiles </p>
+<p>Facebook</p>
+<p>About The Comet</p>
+<p>RSS Feeds</p>
+<p>News </p>
+<p>								    </p>
+<p>Latest news</p>
+<p>Business</p>
+<p>Most Popular</p>
+<p>Twitter Profiles</p>
+<p>Weather</p>
+<p>Travel</p>
+<p>Herts most wanted</p>
+<p>Sport </p>
+<p>								    </p>
+<p>Stevenage FC</p>
+<p>Hitchin Town FC</p>
+<p>Crow League</p>
+<p>Girls Youth Football</p>
+<p>Olympics: London Calling</p>
+<p>Athletics</p>
+<p>Cricket</p>
+<p>Football</p>
+<p>F1</p>
+<p>Your reports</p>
+<p>Stevenage FC </p>
+<p>								    </p>
+<p>News</p>
+<p>Player Profiles</p>
+<p>Fixtures</p>
+<p>Boro Blog</p>
+<p>What's on </p>
+<p>								    </p>
+<p>Music</p>
+<p>Arts</p>
+<p>Theatre</p>
+<p>Entertainment News</p>
+<p>the Forum</p>
+<p>Cinema</p>
+<p>Reviews</p>
+<p>Sonisphere Festival</p>
+<p>TV listings</p>
+<p>Submit an event</p>
+<p>Buy and sell </p>
+<p>								    </p>
+<p>Cars</p>
+<p>Jobs</p>
+<p>Homes</p>
+<p>Local business directory</p>
+<p>Advertise with us</p>
+<p>Photo sales</p>
+<p>Holidays</p>
+<p>Subscriptions</p>
+<p>Comet life </p>
+<p>								    </p>
+<p>Competitions</p>
+<p>Forums</p>
+<p>Columnists</p>
+<p>Blogs</p>
+<p>Athletes Boost</p>
+<p>Letters</p>
+<p>Weddings</p>
+<p>Online Games</p>
+<p>Local Produce</p>
+<p>Family Notices</p>
+<p>Dating</p>
+<p>Holidays</p>
+<p>Contact us </p>
+<p>								    </p>
+<p>Contact us</p>
+<p>Send us a story</p>
+<p>Paper delivery enquiries</p>
+<p>About The Comet</p>
+<p>About Archant</p>
+<p>Press Complaints Commission</p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>My24 </p>
+<p>								    </p>
+<p>My profile</p>
+<p>My saved searches</p>
+<p> </p>
+<p>    $(document).ready(function() {        </p>
+<p>        var options = {newsList: "#tickerList",startDelay: 10}</p>
+<p>        $().newsTicker(options);</p>
+<p>    });</p>
+<p>    function loadLogin(json) {</p>
+<p>    	if (json.loginStatus.loggedIn) {</p>
+<p>    		$('#featurebar_login').empty().append(</p>
+<p>    			'<a href="/logout?referrer=http://www.thecomet.net:80/news/watchdog_slams_care_at_hospital_for_vulnerable_adults_1_1179824?action=logout" rel="nofollow">Logout</a>');</p>
+<p>    		$('#register').remove();	</p>
+<p>    	} else {</p>
+<p>    		$('#featurebar_login').empty().append(</p>
+<p>    			'<a href="http://www.thecomet.net:80/news/watchdog_slams_care_at_hospital_for_vulnerable_adults_1_1179824?action=login" rel="nofollow"><img src="http://www.thecomet.net:80/media/images/google small.png"><img src="http://www.thecomet.net:80/media/images/facebook small.png"><img src="http://www.thecomet.net:80/media/images/yahoo small.png"><img src="http://www.thecomet.net:80/media/images/windows small.png"></a><a href="http://www.thecomet.net:80/news/watchdog_slams_care_at_hospital_for_vulnerable_adults_1_1179824?action=login"  rel="nofollow">Login</a>');</p>
+<p>    	}</p>
+<p>    }</p>
+<p>    </p>
+<p>    $(document).ready(function() {    	</p>
+<p>    	$.getJSON('/ajax?action=loginStatus', loadLogin);</p>
+<p>    });</p>
+<p>Staff at the lodge were criticised for a series of failures including not dealing properly with allegations of abuse.</p>
+<p>Watchdog slams care at hospital for vulnerable adults</p>
+<p>Richard Young </p>
+<p>                                                                                                                                Tuesday, January 17, 2012  3:27 PM</p>
+<p>                    					</p>
+<p> </p>
+<p>A health service watchdog has heavily criticised a hospital after inspectors found allegations of abuse were not being properly responded to, while staff were disrespectful to patients and had no clear understanding of restraint. </p>
+<p>Comments</p>
+<p>Email</p>
+<p>Print</p>
+<p>Got a story?</p>
+<p>$(document).ready(function() {</p>
+<p>        $("#send-to-friend-email").validationAideEnable(null, {fieldErrorCssClass:'error', summaryMessage:'<p>You have the following errors</p>'});</p>
+<p>    });</p>
+<p>To send a link to this page to a friend, simply enter their email address below.</p>
+<p>The message will include the name and email address you gave us when you signed up.</p>
+<p>Email address</p>
+<p>  Send link</p>
+<p>To send a link to this page to a friend, you must be logged in.</p>
+<p>The Care Quality Commission issued a formal warning to Walkern Lodge â a private care home for women with learning disabilities in Stevenage and said it must improve standards or face legal action. The surprise inspection in late November found employees at the home which provides clinical care and rehabilitation services for up to six women, lacked proper measures to safeguard them. Staff were seen speaking in a disrespectful way to residents, did not deal appropriately with concerns and allegations of abuse, and did not demonstrate a clear understanding of restraint. âWhere restraint was being used this was not recognised as restraint. No records were being kept so the level of restraint being used in the service could not be monitored,â a commission spokesman said. The report also said the hospitalâs policy on safeguarding residents was drawn up for GP practices and unsuited to the home. Staff were unaware how to make a referral to Herts County Council or of their responsibilities to safeguard vulnerable adults. Incidents that should have been reported to the local authority and the commission had not been.  Frances Carey, CQC regional director, said: âThe law says these are the standards that everyone should be able to expect. Providers have a duty to ensure they are compliant.âShe added: âWe have received an action plan from the owner of Walkern Lodge in relation to the concerns raised and we will be returning to the hospital to follow up on progress. When we do, we will expect the hospital to be able to demonstrate it has made improvements. âThis warning sends a clear message that Walkern Lodge needs to address these issues or face serious consequences.âThe commission has a range of legal powers it can use if the required improvements are not shown to be in place by Friday, including fines, reducing the services, and closing the home down. A spokesman for care group Cambian which runs Walkern Lodge, said it was working with the commission and the Herts County Council and North Herts and Stevenage Community Learning Disability safeguarding team to remedy the situation.  âWe are working collaboratively through a transparent and open dialogue and have developed a clear action plan to address these concerns. We have made immediate changes to staff, training and administration reporting systems. We are confident that these changes will receive full approval on the return CQC visit.  âWe have also discussed the content of the CQC report with the relevant primary care trusts that use this service. They are satisfied with the action that we are taking and continue to have confidence in this service. Further to the CQC visit, a further two unannounced visits have been undertaken by two primary care trusts. The inspectors from one of these commented that they are âconfident that service users are safe at Walkern Lodge and being treated with dignity and respectâ.â   </p>
+<p>Share</p>
+<p>|</p>
+<p>Sign in to leave your comment</p>
+<p>					0</p>
+<p>				comments</p>
+<p>	</p>
+<p>Comments</p>
+<p>Welcome , please leave your message below.</p>
+<p>Comments</p>
+<p>Photo</p>
+<p>Optional - JPG files only</p>
+<p>Description</p>
+<p>Audio</p>
+<p>Optional - MP3 files only</p>
+<p>Description</p>
+<p>Video</p>
+<p>Optional - 3GP, AVI, MOV, MPG or WMV files</p>
+<p>Description</p>
+<p>Submit</p>
+<p>Comments</p>
+<p>Please log in to leave a comment and share your views with other The Comet readers.</p>
+<p>Email address</p>
+<p>Password</p>
+<p>Login</p>
+<p>Forgotten your password?</p>
+<p>OR tick the box below to log in using your account with</p>
+<p>I have read and accept the terms and conditions</p>
+<p>		    </p>
+<p>		    function showHide() {</p>
+<p>		        var elem = document.getElementById("terms");</p>
+<p>		        if(elem.checked == true) {</p>
+<p>		            showElement('widget');</p>
+<p>		        } else {</p>
+<p>		            hideElement('widget');	</p>
+<p>		        }</p>
+<p>		    }		 </p>
+<p>			function hideElement(obj) {</p>
+<p>				document.getElementById(obj).style.display = "none";</p>
+<p>			}		 </p>
+<p>			function showElement(obj) {</p>
+<p>				document.getElementById(obj).style.display = "block";</p>
+<p>			}		 </p>
+<p>		</p>
+<p>Not a member yet?</p>
+<p>Register to create your own unique The Comet account for free.</p>
+<p>Signing up is free, quick and easy and offers you the chance to add comments, personalise the site with local information picked just for you, and more.</p>
+<p>Sign up now</p>
+<p>    function loadEmailDynamic(json) {        </p>
+<p>        if( json.loginStatus.email ) {</p>
+<p>            $('#frm-email').val( json.loginStatus.email );</p>
+<p>        }</p>
+<p>    }</p>
+<p>    </p>
+<p>    $(document).ready(function() {</p>
+<p>        $.getJSON('/ajax?action=loginStatus', loadEmailDynamic);</p>
+<p>    });</p>
+<p>	function loadCommentsDynamic(json) {		</p>
+<p>		if( json.loginStatus.email ) {</p>
+<p>			$('#frm-email-input').val( json.loginStatus.email );</p>
+<p>		}</p>
+<p>		if (json.loginStatus.loggedIn) {</p>
+<p>			$('.loggedout').empty();</p>
+<p>			$('#username').text( json.loginStatus.userName );</p>
+<p>		} else {</p>
+<p>			$('.loggedin').empty();</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p>	$(document).ready(function() {</p>
+<p>		$.getJSON('/ajax?action=loginStatus', loadCommentsDynamic);</p>
+<p>	});</p>
+<p>More News</p>
+<p>Watchdog slams care at hospital for vulnerable adults</p>
+<p>Widow devastated by cemetery thief</p>
+<p>Battle injured troops in Letchworth karting race</p>
+<p>Beds and Herts police star in BBC1 forensics documentary</p>
+<p>Filmmakers go back to roots at London premiere</p>
+<p>Sonisphere 2012: Guess the first festival headliner for Knebworth</p>
+<p>Forster country heritage founder dies</p>
+<p>Stepdadâs marathon challenge for cause close to his heart</p>
+<p>Stevenage Leisure Park sold for Â£40m</p>
+<p>Council reveals plan to build homes on North Hertfordshire Green Belt</p>
+<p>			<!--</p>
+<p>			if (window.adgroupid == undefined) {</p>
+<p>				window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>			}</p>
+<p>			 document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|817|1662112|0|168|ADTECH;cookie=info;loc=100;target=_blank;key=1_1179824+Health;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');</p>
+<p>			//--></p>
+<p>			</p>
+<p>			<!--</p>
+<p>			if (window.adgroupid == undefined) {</p>
+<p>				window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>			}</p>
+<p>			 document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|817|2746100|0|170|ADTECH;cookie=info;loc=100;target=_blank;key=1_1179824+Health;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');</p>
+<p>			//--></p>
+<p>			</p>
+<p>Click here to read more of our digital publications</p>
+<p><!--</p>
+<p>			google_ad_client = "pub-7126329714135671";</p>
+<p>			/* Herts_google_ad_120x600_090810 */</p>
+<p>			google_ad_slot = "2896645673";</p>
+<p>			google_ad_width = 120;</p>
+<p>			google_ad_height = 600;</p>
+<p>			//--></p>
+<p>        DM_tag();</p>
+<p>Terms and conditions</p>
+<p>© 2012 Archant Community Media Ltd. All rights reserved.</p>
+<p>$(document).ready(function(){</p>
+<p>	$('.object-left,.object-right').each(function() {</p>
+<p>		if($(this).children('img').attr('alt')!=null)</p>
+<p>		{</p>
+<p>			$(this).data('title',$(this).children('img').attr('alt'));</p>
+<p>			$(this).append("<em>"+$(this).data('title')+"</em>");</p>
+<p>		}</p>
+<p>	});</p>
+<p>});</p>
+<p>			<!--</p>
+<p>			if (window.adgroupid == undefined) {</p>
+<p>				window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>			}</p>
+<p>			 document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|817|2601532|0|1025|ADTECH;cookie=info;loc=100;target=_blank;key=1_1179824+Health;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');</p>
+<p>			//--></p>
+<p>			</p>
+<p>			<!--</p>
+<p>			if (window.adgroupid == undefined) {</p>
+<p>				window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>			}</p>
+<p>			 document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|817|1662113|0|225|ADTECH;cookie=info;loc=100;target=_blank;key=1_1179824+Health;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');</p>
+<p>			//--></p>
+<p>			</p>
+<p>#ad-peel-back {position:absolute;z-index: 50000;</p>
+<p>margin:201px 0 0 867px;</p>
+<p>}</p>
+<p><!--</p>
+<p>if (window.adgroupid == undefined) {</p>
+<p>window.adgroupid = Math.round(Math.random() * 1000);</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtech.de/addyn|3.0|817|3472283|0|16|ADTECH;cookie=info;loc=100;target=_blank;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');</p>
+<p>//--></p>
+<p>var s_account="archantthecomet,archanthertsregion"</p>
+<p><!--</p>
+<p>/* You may give each page an identifying name, server, and channel on</p>
+<p>the next lines. */</p>
+<p>s.pageName="Watchdog slams care at hospital for vulnerable adults"</p>
+<p>s.server="www.thecomet.net"</p>
+<p>s.channel="News"</p>
+<p>s.pageType=""</p>
+<p>s.prop1="Health"</p>
+<p>s.prop2=""</p>
+<p>s.prop3=""</p>
+<p>s.prop4=""</p>
+<p>s.prop5=""</p>
+<p>s.hier1="News"</p>
+<p>s.linkInternalFilters="javascript:,www.thecomet.net:80"</p>
+<p>/* Conversion Variables */</p>
+<p>s.campaign=""</p>
+<p>s.state=""</p>
+<p>s.zip=""</p>
+<p>s.events=""</p>
+<p>s.products=""</p>
+<p>s.purchaseID=""</p>
+<p>s.eVar1=""</p>
+<p>s.eVar2=""</p>
+<p>s.eVar3=""</p>
+<p>s.eVar4=""</p>
+<p>s.eVar5=""</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>

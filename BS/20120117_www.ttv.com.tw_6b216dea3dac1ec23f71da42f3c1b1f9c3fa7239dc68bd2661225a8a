@@ -1,0 +1,687 @@
+<p>保暖靴惹禍 夏季濕疹冬季又發作</p>
+<p>　穿靴不穿襪 流汗不透氣濕疹上身</p>
+<p>　紅腫搔癢勿用手抓 避免細菌感染 - 台視新聞</p>
+<p>html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}</p>
+<p>.stepcarousel_cn{</p>
+<p> position: relative; /*leave this value alone*/</p>
+<p> overflow: scroll; /*leave this value alone*/</p>
+<p> width: 260px; /*Width of Carousel Viewer itself*/</p>
+<p> height: 280px; /*Height should enough to fit largest content's height*/</p>
+<p> background-color:#EAEDF0;</p>
+<p>}</p>
+<p> </p>
+<p>.stepcarousel_cn .belt{</p>
+<p> position: absolute; /*leave this value alone*/</p>
+<p> left: 0;</p>
+<p> top: 0;</p>
+<p> }</p>
+<p> </p>
+<p>.stepcarousel_cn .panel{</p>
+<p> float: left; /*leave this value alone*/</p>
+<p> overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/</p>
+<p> margin: 0px; /*margin around each panel*/</p>
+<p> padding-top:0px;</p>
+<p> padding-right: 0px; /*margin around each panel*/</p>
+<p> padding-left: 0px; /*margin around each panel*/</p>
+<p> width: 260px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */</p>
+<p>}</p>
+<p>.stepcarousel_nv{</p>
+<p> position: relative; /*leave this value alone*/</p>
+<p> overflow: scroll; /*leave this value alone*/</p>
+<p> width: 200px; /*Width of Carousel Viewer itself*/</p>
+<p> height: 285px; /*Height should enough to fit largest content's height*/</p>
+<p> background-color:#EAEDF0;</p>
+<p>}</p>
+<p>.stepcarousel_nv .belt{</p>
+<p> position: absolute; /*leave this value alone*/</p>
+<p> left: 0;</p>
+<p> top: 0;</p>
+<p> }</p>
+<p>.stepcarousel_nv .panel{</p>
+<p> float: left; /*leave this value alone*/</p>
+<p> overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/</p>
+<p> margin: 0px; /*margin around each panel*/</p>
+<p> padding-top:0px;</p>
+<p> padding-right: 0px; /*margin around each panel*/</p>
+<p> padding-left: 0px; /*margin around each panel*/</p>
+<p> width: 200px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */</p>
+<p>}</p>
+<p>.NewsText</p>
+<p>{</p>
+<p>    FONT-SIZE: 116%;  </p>
+<p>    LINE-HEIGHT: 24px; </p>
+<p>    TEXT-ALIGN: left    </p>
+<p>}</p>
+<p>.NewsText A:link</p>
+<p>{</p>
+<p>    COLOR: #0066ff;</p>
+<p>    TEXT-DECORATION: none</p>
+<p>}</p>
+<p>.NewsText A:visited</p>
+<p>{</p>
+<p>    COLOR: #0066ff;</p>
+<p>    TEXT-DECORATION: none</p>
+<p>}</p>
+<p>.NewsText A:hover</p>
+<p>{</p>
+<p>    COLOR: red;</p>
+<p>    TEXT-DECORATION: underline</p>
+<p>}</p>
+<p>.NewsText A:active</p>
+<p>{</p>
+<p>    COLOR: #cc6600</p>
+<p>}</p>
+<p>#articleTools{height: 18px;margin: 0 0 5px 0;background: #FFF;}</p>
+<p>#articleTools ul.tools{line-height: 18px;float:left;margin: 5px 0 0 0px;LIST-STYLE-TYPE: none;}</p>
+<p>#articleTools ul.tools li{margin:0 10px 0 0;padding: 0 0 0 0px;*padding: 3px 0 0 0px;line-height: 18px;float: left;}</p>
+<p>#articleTools ul.tools li a,#articleTools ul.tools li a:link,#articleTools ul.tools li a:visited{color:#0066ff; font-size:12px;margin:0 0 0 19px;TEXT-DECORATION: none;}</p>
+<p>#articleTools ul.tools li a:hover,#articleTools ul.tools li a:active{color: #ff0000;TEXT-DECORATION: none;}</p>
+<p>#articleTools ul.tools li.print{background: url(/news/images/icon/printer.png) left 2px no-repeat;}</p>
+<p>#articleTools ul.tools li.emailFrds{background: url(/news/images/icon/email.png) left 2px no-repeat;}</p>
+<p>#articleTools ul.tools li.bb{background: url(/news/images/icon/bb.png) left 2px no-repeat;}</p>
+<p>#articleTools ul.tools li.event{background: url(/news/images/Ystar.png) left 2px no-repeat;}</p>
+<p>#articleTools ul.tools li.comment{background: url(/news/images/icon/comment.png) left 2px no-repeat;}</p>
+<p>.opaque {</p>
+<p>	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // first!</p>
+<p>	filter: alpha(opacity=50);					// second!</p>
+<p>}</p>
+<p>.kwrelnews</p>
+<p>{</p>
+<p>	padding:5px;</p>
+<p>}</p>
+<p>.kwrelnews ul, .kwrelnews li</p>
+<p>{</p>
+<p>	list-style-type:disc;</p>
+<p>	color:#0066FF;</p>
+<p>}</p>
+<p>.kwrelnews ul</p>
+<p>{</p>
+<p>	margin-left:20px;</p>
+<p>	margin-bottom:2px;</p>
+<p>}</p>
+<p>/***********************************************</p>
+<p>* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)</p>
+<p>* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts</p>
+<p>* This notice must stay intact for legal use</p>
+<p>***********************************************/</p>
+<p>/***********************************************</p>
+<p>* jQuery Mega Menu- by JavaScript Kit (www.javascriptkit.com)</p>
+<p>* This notice must stay intact for usage</p>
+<p>* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code</p>
+<p>***********************************************/</p>
+<p>//jkmegamenu.definemenu("anchorid", "menuid", "mouseover|click")</p>
+<p>jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")</p>
+<p>jkmegamenu.definemenu("TTVEvent", "TTVEventMenu", "mouseover")</p>
+<p>stepcarousel.setup({</p>
+<p> galleryid: 'CatNews', //id of carousel DIV</p>
+<p> beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs</p>
+<p> panelclass: 'panel', //class of panel DIVs each holding content</p>
+<p> autostep: {enable:false, moveby:1, pause:8000},</p>
+<p> panelbehavior: {speed:500, wraparound:true, persist:true},</p>
+<p> defaultbuttons: {disable: true, moveby: 1, leftnav: ['/include/images/arrow-left-16.png', -20, 120], rightnav: ['/include/images/arrow-right-16.png', -20, 120]},</p>
+<p> statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels</p>
+<p> contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']</p>
+<p>})</p>
+<p>stepcarousel.setup({</p>
+<p> galleryid: 'NewsVideo', </p>
+<p> beltclass: 'belt', </p>
+<p> panelclass: 'panel', </p>
+<p> autostep: {enable:false, moveby:1, pause:8000},</p>
+<p> panelbehavior: {speed:500, wraparound:true, persist:true},</p>
+<p> defaultbuttons: {disable: true, moveby: 1, leftnav: ['/include/images/arrow-left-16.png', -20, 120], rightnav: ['/include/images/arrow-right-16.png', -20, 120]},</p>
+<p> statusvars: ['statusA', 'statusB', 'statusC'], </p>
+<p> contenttype: ['inline'] </p>
+<p>})</p>
+<p>function fblike() {</p>
+<p>	$.ajax({</p>
+<p>		type: "GET",</p>
+<p>	    url: "/news/fblikecount.asp",</p>
+<p>		data: {type:"news", i:"10101174354001I", newsid:"{78B34FE9-5EBB-456B-AFB0-16492139758A}"},</p>
+<p>	    cache: false,</p>
+<p>		error: function(xhr) {</p>
+<p>//			alert('FB Like Request Error!!');</p>
+<p>		},</p>
+<p>		success: function(response) {</p>
+<p>//			alert('FB Like Request Success!!');</p>
+<p>		}</p>
+<p>	});</p>
+<p>	</p>
+<p>//    var ttvnewspage = document.getElementById("ttvnewspage");</p>
+<p>//    ttvnewspage.style.display = "block";</p>
+<p>}</p>
+<p>function fbcommentcount() {</p>
+<p>	$.ajax({</p>
+<p>		type: "GET",</p>
+<p>	    url: "/news/fbcommentcount.asp",</p>
+<p>		data: {type:"news", i:"10101174354001I", newsid:"{78B34FE9-5EBB-456B-AFB0-16492139758A}"},</p>
+<p>	    cache: false,</p>
+<p>		error: function(xhr) {</p>
+<p>//			alert('FB Like Request Error!!');</p>
+<p>		},</p>
+<p>		success: function(response) {</p>
+<p>//			alert('FB Like Request Success!!');</p>
+<p>		}</p>
+<p>	});</p>
+<p>}</p>
+<p>body { </p>
+<p>	MARGIN: 0 0 0 0;</p>
+<p>} </p>
+<p>	</p>
+<p>#NewsTopText {</p>
+<p>    padding:3px 8px 0px 8px;</p>
+<p>    text-align:left;</p>
+<p>    height : 20px;</p>
+<p>    /* Firefox, Chrome */</p>
+<p>    line-height : 20px;</p>
+<p>    white-space : nowrap;</p>
+<p>    </p>
+<p>    /* IE */</p>
+<p>    *font-size : 18px;  /* 20px * 0.8 = 18px */</p>
+<p>    font-family : Verdana, Arial, Helvetica, sans-serif, 新細明體, 細明體;</p>
+<p>    FONT-SIZE: 13px;</p>
+<p>}</p>
+<p>#NewsTopText:after {</p>
+<p>    content : ".";</p>
+<p>    font-size : 1px;</p>
+<p>    margin-left : -1px;</p>
+<p>    opacity : 0;</p>
+<p>}</p>
+<p>#NewsTopText img {</p>
+<p>    vertical-align : middle;</p>
+<p>}</p>
+<p>AC_FL_RunContent = 0;</p>
+<p>function clearform1(which){</p>
+<p>if (which.value=="關鍵字查詢")</p>
+<p>which.value=''</p>
+<p>}</p>
+<p>InitGoogleSearchBox("google_searchbox", "/news/SearchElement.asp");</p>
+<p>mbrcolor="0066FF";</p>
+<p>mbr_init();</p>
+<p>加入會員／會員登入 </p>
+<p> 台視首頁 </p>
+<p>          節目▼戲劇節目 巔峰時代 前男友 小資女孩向前衝 我的完美男人 醉後決定愛上你綜藝節目 2012超級巨星紅白藝能大賞 百萬小學堂 百萬大歌星 超級偶像SuperIdol 鑽石夜總會兒童節目 航海王 惡魔奶爸 魔導少年 史上最強弟子兼一深度報導 熱線追蹤  台視新聞 </p>
+<p>         娛樂新聞 </p>
+<p>         台視財經 </p>
+<p>         新聞報馬仔         </p>
+<p>         RSS         </p>
+<p>    </p>
+<p>	if (AC_FL_RunContent == 0) {</p>
+<p>		alert("這個頁面必須具備 AC_RunActiveContent.js。請在 Flash 中執行「命令」選單中的「套用主動式內容更新」，將 AC_RunActiveContent.js 複製到 HTML 輸出資料夾。");</p>
+<p>	} else {</p>
+<p>		AC_FL_RunContent(</p>
+<p>			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0',</p>
+<p>			'width', '1000',</p>
+<p>			'height', '135',</p>
+<p>			'src', '/news/10/top_news',</p>
+<p>			'quality', 'high',</p>
+<p>			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',</p>
+<p>			'align', 'middle',</p>
+<p>			'play', 'true',</p>
+<p>			'loop', 'true',</p>
+<p>			'scale', 'noborder',</p>
+<p>			'wmode', 'transparent',</p>
+<p>			'devicefont', 'false',</p>
+<p>			'id', 'top_news',</p>
+<p>			'name', 'menu',</p>
+<p>			'menu', 'true',</p>
+<p>			'allowScriptAccess','sameDomain',</p>
+<p>			'movie', '/news/10/top_news',</p>
+<p>			'salign', ''</p>
+<p>			); //end AC code</p>
+<p>	}</p>
+<p> </p>
+<p>#navigation</p>
+<p>{</p>
+<p>    Z-INDEX: 51;</p>
+<p>    BORDER-BOTTOM: #4d6b89 4px solid;</p>
+<p>    POSITION: relative;</p>
+<p>    MARGIN: auto;</p>
+<p>    WIDTH: 990px;</p>
+<p>    HEIGHT: 28px;</p>
+<p>}</p>
+<p>#navigation DL</p>
+<p>{</p>
+<p>    MARGIN: 0;</p>
+<p>    DISPLAY: inline</p>
+<p>}</p>
+<p>#navigation DD</p>
+<p>{</p>
+<p>    PADDING: 0px;</p>
+<p>    MARGIN: 0px;</p>
+<p>    FLOAT: left;</p>
+<p>}</p>
+<p>#navigation A</p>
+<p>{</p>
+<p>    BACKGROUND-IMAGE: url(/news/images/select_u.gif);</p>
+<p>    BACKGROUND-REPEAT: no-repeat;</p>
+<p>    WIDTH: 59px;</p>
+<p>    HEIGHT: 25px;</p>
+<p>    PADDING-TOP: 5px;</p>
+<p>    DISPLAY: block;</p>
+<p>    FONT-SIZE: 11pt;</p>
+<p>    COLOR: #0066FF;</p>
+<p>    TEXT-DECORATION: none;</p>
+<p>    TEXT-ALIGN: center</p>
+<p>}</p>
+<p>#navigation A:hover</p>
+<p>{</p>
+<p>    BACKGROUND-IMAGE: url(/news/images/select_s.gif);</p>
+<p>    BACKGROUND-REPEAT: no-repeat;</p>
+<p>    FONT-SIZE: 11pt;    </p>
+<p>    COLOR: #ffffff</p>
+<p>}</p>
+<p>#navigation DL DL</p>
+<p>{</p>
+<p>    POSITION: absolute;</p>
+<p>    BACKGROUND-COLOR: #ffffff;</p>
+<p>    WIDTH: 450px;</p>
+<p>    DISPLAY: none;</p>
+<p>    FLOAT: left;</p>
+<p>    PADDING-LEFT: 5px;</p>
+<p>    PADDING-RIGHT: 5px;</p>
+<p>    BORDER-TOP: #4D6B89 2px solid;</p>
+<p>    *BORDER-TOP: #4D6B89 4px solid;    </p>
+<p>    BORDER-RIGHT: #4D6B89 1px solid;</p>
+<p>    BORDER-BOTTOM: #4D6B89 1px solid;</p>
+<p>    BORDER-LEFT: #4D6B89 1px solid</p>
+<p>}</p>
+<p>#navigation DL DL A</p>
+<p>{</p>
+<p>    BORDER-BOTTOM: #ffffff 2px solid;</p>
+<p>    BORDER-LEFT: #ffffff 1px solid;</p>
+<p>    WIDTH: 450px;</p>
+<p>    BACKGROUND: none transparent scroll repeat 0% 0%;</p>
+<p>    COLOR: #0066ff;</p>
+<p>    FONT-WEIGHT: normal;</p>
+<p>    BORDER-RIGHT: #ffffff 1px solid;</p>
+<p>    letter-spacing:normal;</p>
+<p>    TEXT-ALIGN: left</p>
+<p>}</p>
+<p>#navigation DL DL A:hover</p>
+<p>{</p>
+<p>    BACKGROUND-IMAGE: url(); </p>
+<p>    BACKGROUND-REPEAT: no-repeat;       </p>
+<p>    COLOR: #ff0000</p>
+<p>}</p>
+<p>.no_arrow A</p>
+<p>{</p>
+<p>    BACKGROUND: none transparent scroll repeat 0% 0%</p>
+<p>}</p>
+<p>.no_arrow A:hover</p>
+<p>{</p>
+<p>    BACKGROUND: #61aa2d</p>
+<p>}</p>
+<p>政治</p>
+<p>蔡英文敗選 李:只輸79萬值得肯定</p>
+<p> 蔡輸給九二共識?李:百姓沒人懂</p>
+<p>私立高職無預警裁班 學生成人球</p>
+<p> 15人違規遭退學 剩19人不足成班</p>
+<p>灑水說延燒 應曉薇開記者會平反</p>
+<p> 蒐證賭徒群聚 喊冤水沒灑到街友</p>
+<p>連任靠風水?縣長館終結十立委</p>
+<p> 昔縣長館辦公室 今十立委未連任</p>
+<p>空中救援新戰力 超級美洲獅登場</p>
+<p> 固定醫療急救設備 提高國軍戰力</p>
+<p>連任靠風水?縣長館終結十立委</p>
+<p> 昔縣長館辦公室 今十立委未連任</p>
+<p>蔡英文辭黨主席 做到二月底交棒</p>
+<p> 同志留人 蔡英文：我是終身黨員</p>
+<p>主席別走！同志慰留蔡留到二月底</p>
+<p> 五月改選主席 陳明文:派系推人選</p>
+<p>罵南部「鬼地方」 挺馬正妹惹議</p>
+<p> 要大家挺馬 籲中南部民眾別亂投</p>
+<p>馬新春福袋 紅金色立體造型吸睛</p>
+<p> 一元雙龍福袋 府備41萬份大放送</p>
+<p>財經</p>
+<p>企業去年募資8191億元 年增15.4% 主要為償債、擴廠</p>
+<p>規避銀行業爆發危機 IMF、歐盟或需擴大金援東歐</p>
+<p>年終獎金太吃重  大摩定出分紅上限12.5萬美元  並延後發放</p>
+<p>〈分析〉美國零售業成長緩慢一如去年 專家：關鍵是就業市場</p>
+<p>美股盤前─大陸第四季GDP報佳音 大盤或開高</p>
+<p>IHS iSuppli：擁抱雲彩  雲端伺服器需求未來三年步步高升</p>
+<p>勤業：100美元以下智慧手機 今年銷量翻倍至5億支</p>
+<p>墨比爾斯：政策面利多帶動 金磚四國股市展現補漲氣勢</p>
+<p>卡債族遭威脅催債 金管會：債權讓渡民法有據 無權介入</p>
+<p>中鋼上季虧損24.21億元 10季來首見！去年稅前EPS 1.34元</p>
+<p>社會</p>
+<p>檢察官是狼 逼女證人陪睡判7年半</p>
+<p> 覬覦應召女姿色 脅迫陪睡遭揭發</p>
+<p>砂石車撞火車 列車駕駛亡1死23傷</p>
+<p> 脫軌拖行百米 火車駕駛當場喪命</p>
+<p>新！撞砂石車 太魯閣號車廂吊起</p>
+<p> 砂石車闖平交道 太魯閣號撞上</p>
+<p>北檢搜索北院 疑書記官集體貪瀆</p>
+<p>夫妻口角 妻拿菜刀襲夫反遭砍死</p>
+<p> 存款兜不攏爆衝突 刺5刀1刀穿心</p>
+<p>超熱銷發熱衣 遭踢爆6成標示不符</p>
+<p> 天絲棉材質發熱？ 消基會:僅保暖</p>
+<p>不給修電腦 高中生大街揚言撞車</p>
+<p> 險象環生 高中男路中央作勢撞車</p>
+<p>桃園平交道車禍 23人分送三醫院</p>
+<p> 意外首當其衝 駕駛蔡崇輝傷重亡</p>
+<p>驚悚！砂石車撞火車 畫面曝光</p>
+<p>暴力集團搞笑幫規 不欺負老實人</p>
+<p> 怪怪十二條幫規 違者鞭打二十下</p>
+<p>醫藥</p>
+<p>脫軌車禍重大意外 台鐵緊急搶修</p>
+<p> 死亡車禍 45列次萬名旅客受影響</p>
+<p>流感新增四死 全是B型未施打疫苗</p>
+<p> 春節人潮南來北往 流感最高峰</p>
+<p>新！19:00通單線 24:00通雙線</p>
+<p> 死亡車禍 150列次7萬人受影響</p>
+<p>健檢驗不出癌症 醫院判賠522萬</p>
+<p> 一般健檢太陽春？肺陰影研判無礙</p>
+<p>美巴西進口柳橙汁 含微量殺蟲劑</p>
+<p> 含抑菌劑貝芬替 知名大廠：無害</p>
+<p>「食」不安心 蠶豆漂白劑超四倍</p>
+<p> 年節散裝食品 豆干防腐劑超六倍</p>
+<p>投票狀況連連 台北金澎紛傳違規 </p>
+<p> 疑幽靈人口 金門警帶回六出家人</p>
+<p>流感新增4死 年紀最小十月大女嬰</p>
+<p> 川崎氏症女嬰 染B型流感3天不治</p>
+<p>溫泉泡腳半小時 男大生燙傷腳趾</p>
+<p> 腳趾痛癢狂冒水泡 就醫確診燙傷</p>
+<p>流感春節高峰 23署醫擬春節開診</p>
+<p> 春節不打烊 區域醫院開部分診別</p>
+<p>科技</p>
+<p>新科技汽車 「變形金剛」不是夢</p>
+<p> 僕人保鑣二合一 與車主如影隨形</p>
+<p>數位3C通路 打造最大門市搶商機</p>
+<p> 達人一對一教學 教你選對好產品</p>
+<p>隱形戰機真實存在 雷達光點消失</p>
+<p> 魔術把車變不見 全靠高超障眼法</p>
+<p>生薑汁熬煮 中藥薑母鴨飄香20年</p>
+<p> 美味酥炸鴨屁股 椒麻口感誘老饕</p>
+<p>數位無線電 傳照片簡訊都免費</p>
+<p> 快了55秒 消防科技加速報案</p>
+<p>雙核心智慧手機 平實價格超親民</p>
+<p> 4.3吋大螢幕 精采畫面不漏接</p>
+<p>資訊月最後一天 總人數破90萬</p>
+<p> 平板電腦六千有找 搶便宜賣萬台</p>
+<p>手機結合轎車 智慧科技車首亮相</p>
+<p> 生活情境帶上車 開車樂趣多更多</p>
+<p>數位化明年上路 資訊展搶購電視</p>
+<p> 數位電視大促銷 推15期0利率</p>
+<p>雲端娛樂平台 打造數位文化產業</p>
+<p> 下載3D線上遊戲 受年輕人矚目</p>
+<p>娛樂</p>
+<p>台視除夕紅白大賽 精彩內容曝光</p>
+<p> 陳柏霖練情歌 遇五月天獻上擁抱</p>
+<p>楊千霈投票實況轉播 網友批白目</p>
+<p>華仔祕帶妻照4D超音波 傳懷龍子</p>
+<p> 港媒報導：華仔六月將擁男寶寶</p>
+<p>年度十大風雲歌手 A咖巨星同台</p>
+<p> 網友下載率最高 10組藝人入圍</p>
+<p>年度十大風雲歌手 A咖巨星同台</p>
+<p> 網友下載率最高 10組藝人入圍</p>
+<p>鐘錶旗艦店開幕  林依晨熱情站台</p>
+<p>稱炸蝦猴有異味 小S惹火鹿港人</p>
+<p> 改口「隔夜有差」挨轟台北看天下</p>
+<p>趙又廷像憤怒鳥？痞子首映爆話題</p>
+<p> 痞子英雄不用替身 趙又廷拚票房</p>
+<p>小豬年終撒1500萬 藝人老闆居冠</p>
+<p> 員工旅遊加獎金 小豬撒錢不手軟</p>
+<p>劉謙隔空爆水杯 梁朝偉目瞪口呆</p>
+<p> 梁朝偉飾魔術高手 劉謙高手過招</p>
+<p>國際</p>
+<p>年輕女主播上台 風格很不李春姬</p>
+<p> 語調平實自然 李氏經典哭腔不再</p>
+<p>義郵輪觸礁6死29失蹤 船長負全責</p>
+<p> 判定人為疏失 誤航入淺水區觸礁</p>
+<p>義郵輪觸礁6死29失蹤 船長負全責</p>
+<p> 判定人為疏失 誤航入淺水區觸礁</p>
+<p>金正恩主題曲 歌詞也有衝衝衝</p>
+<p>出租男女朋友回家過年</p>
+<p>大陸春運網路訂票引民怨</p>
+<p>歐債爆危機 歐商也「錢」進大陸</p>
+<p> 因應市場需求 酒商在陸搶得商機</p>
+<p>鐵達尼號翻版 71歲夫捨命救妻</p>
+<p> 救生衣僅一件 讓妻穿上犧牲自己</p>
+<p>口袋滿滿 巴西人成佛州血拚大戶</p>
+<p> 搶購百萬豪宅 佛州房市一枝獨秀</p>
+<p>紐約地鐵鼠患 橫行霸道肆無忌憚</p>
+<p> 搶食騷擾趴趴走 如入無人之境</p>
+<p>綜合</p>
+<p>保暖靴惹禍 夏季濕疹冬季又發作</p>
+<p> 穿靴不穿襪 流汗不透氣濕疹上身</p>
+<p>唆使國小女偷抱狗 母女竊盜起訴</p>
+<p> 卡哇伊！路上逗弄狗狗順手帶回家</p>
+<p>離譜護校生 實習貼文見血有快感</p>
+<p> 挨轟殘忍白衣天使 網批沒同理心</p>
+<p>LIVE:桃園 記者:劉宜函</p>
+<p>埔心火車站 砂石覆蓋月台現場亂</p>
+<p> 撞擊力道大 撞斷水泥柱車頭毀</p>
+<p>澎湖元宵網路乞龜 年年人氣旺</p>
+<p> 網路乞龜獎品多 廟宇擲筊民眾多</p>
+<p>新年床鋪換新衣 寢具特賣搶翻天</p>
+<p> 年終特賣祭好康 羊毛被下殺2200</p>
+<p>小小兒童醫學營 從遊戲中長知識</p>
+<p> 口訣教學CPR 醫學常識輕鬆學</p>
+<p>犧牲自己救全車 模範駕駛家屬慟</p>
+<p> 雙腿截肢拉出 駕駛送醫仍不治</p>
+<p>郝龍斌勘查早市 祝攤商新春財旺</p>
+<p>桃園LIVE 記者:劉宜函</p>
+<p>埔心火車站 事故後十小時吊車頭</p>
+<p> 撞擊力道大 車頭毀現場吊掛困難</p>
+<p>消費</p>
+<p>蜂蜜老薑 辣炸椒麻雞飄香20年 酥炸後切細片 緊鎖肉汁酸辣開胃</p>
+<p>澳洲和牛鐵板燒 加白蘭地增口感 特選澎湖小龍蝦 肉質細膩有彈性</p>
+<p>白鯧米粉鍋 老母雞熬湯2天湯濃郁 外婆紅燒肉甘甜 加大腸頭有嚼勁</p>
+<p>四十年如一日 石頭火鍋老店飄香 記憶中的好味道 饕客一吃三十年</p>
+<p>北國道地石狩鍋 每一口都鮮甜 湯底原料空運來台 麻油香提味</p>
+<p>鮮魷螺肉蒜湯鍋 湯鮮味美超暖身 大火快炒爆香 雞湯燉煮滋味獨特</p>
+<p>醉雞麻辣鴛鴦鍋 大學生聞香而來 醉雞醃兩天後入鍋 Q彈鮮嫩多汁</p>
+<p>老字號砂鍋魚頭餐廳 藍綠都愛吃 曾文水庫大頭鰱 豬骨熬湯十小時</p>
+<p>羊肉滋補 七旬翁如活龍老來得子 羊肉精華獨門藥材 煮火鍋活氣血</p>
+<p>客家小館創意美食 搶攻年菜大餅 養生新觀念 傳統菜餚改良上桌</p>
+<p>體育</p>
+<p>大學運動選手 悔偷79元商品遭逮</p>
+<p> 假賞玩真偷竊 職業軍人全程目擊</p>
+<p>大學運動選手 悔偷79元商品遭逮</p>
+<p> 假賞玩真偷竊 職業軍人全程目擊</p>
+<p>台灣馬拉松破紀錄 奪兩百萬大獎</p>
+<p> 百年馬拉松 各路好手共襄盛舉</p>
+<p>裙擺搖搖冠軍留台 妮妮奪12冠</p>
+<p> 妮妮本季累積獎金 破億元大關</p>
+<p>成棒國訓隊 驚爆護航打假球</p>
+<p>擊敗巴西 2017世大運在台北</p>
+<p> 獲小奧運主辦權 五度申辦終成功</p>
+<p>擊敗巴西 台北辦2017世大運</p>
+<p> 五度申辦終成 郝龍斌激動掉淚</p>
+<p>盧彥勳當一日店長 球迷爭睹風采</p>
+<p>MLB最終場 王建民領銜先發</p>
+<p> 建仔再批中華戰袍 岳母來盯場</p>
+<p>力抗MLB明星 中華隊一分飲恨</p>
+<p> 倪仔好投！林哲瑄首局打出領先</p>
+<p>休閒</p>
+<p>賽德克熱潮燒日本 組團來台悼念</p>
+<p> 22教師遠道來台 參觀部落傳統屋</p>
+<p>平溪天燈初四登場 20呎天燈亮相</p>
+<p> 北市小提燈亮相 彩色線條迷你龍</p>
+<p>北投泡湯夯 青磺白磺兩泉大學問</p>
+<p> 弱酸性青磺泉 全球僅見靜岡北投</p>
+<p>合歡山雪歇現陽光 遊客絡繹不絕</p>
+<p> 夫帶罕病妻上山 賞雪留永恆回憶</p>
+<p>新年第一場 合歡山白頭積雪6公分</p>
+<p> 冷氣團加溼度夠 低溫達零下1.3度</p>
+<p>瑞雪！玉山白頭合歡山積雪6公分</p>
+<p> 終於等到 民眾打雪仗堆雪人玩瘋</p>
+<p>11萬人共創騎蹟 轉動台灣向前行</p>
+<p> 北中南各地同串連 挑戰世界紀錄</p>
+<p>跨年泡湯擋寒流 全台泡湯大蒐密</p>
+<p> 北投星光票299 烏來陽明山煙火秀</p>
+<p>元旦迎曙光 阿里山票選第一名</p>
+<p> 風景雲海吸睛 阿里山曙光超人氣</p>
+<p>蘋果日報</p>
+<p>鹿港元宵燈會龍形主燈 歷年最大</p>
+<p>產業</p>
+<p>學測作文「自勝者強」 出自老子</p>
+<p> 「自勝者強」 考生反應兩極化</p>
+<p>消費電子大廠轉型 十線產品改革</p>
+<p> 轉成技術型服務業 平板電腦搶市</p>
+<p>石化產業升級 高毛利產品拚經濟</p>
+<p> 石化產業高值化 降進口原料依賴</p>
+<p>台北國際車展 耶誕節熱鬧開跑</p>
+<p> 34個品牌200款車 歷年之最</p>
+<p>植物加金箔 天然保養品熱銷歐洲</p>
+<p>磁磚也吹綠色風 建材展環保當道</p>
+<p> 噴墨科技增加質感 展現建築大氣</p>
+<p>歡慶40週年 磁磚業者走向國際</p>
+<p> 許下品牌承諾 成為綠色環保企業</p>
+<p>世界新車大展 環保概念車抵台</p>
+<p> 插電式油電混合車款 主打低耗油</p>
+<p>綠能樂活 節能家電體驗新生活</p>
+<p>高齡社會 打造優質銀髮居住空間</p>
+<p> 世界級專業建材 舒適環境更便利</p>
+<p>教育</p>
+<p>建國中學LIVE 記者:徐嘉瑜</p>
+<p>學測登場 老師家長喊加油助陣</p>
+<p> 防流感 考生可戴口罩.圍巾應試</p>
+<p>周董緋聞女友 昆凌參加學測受矚</p>
+<p> 遲到衝考場 趕在20分鐘前應試</p>
+<p>應考身障生創新高 284人拚學測</p>
+<p> 特殊考生應試 台大考場輔具出動</p>
+<p>過年放炮穿紅衣 嚇走年獸保平安</p>
+<p> 頭長刺人觸角 猙獰獅面象身嚇人</p>
+<p>最後一天 30萬台商搭機返鄉投票</p>
+<p> 加班機班班滿 一天逾130班創高峰</p>
+<p>大學自產農特產 過年超夯伴手禮</p>
+<p> 台大推出肉製品 臘肉香腸最熱門</p>
+<p>打女師遭拒進校園 生硬闖爆衝突</p>
+<p> 男學生出示錄音 控警察校方施暴</p>
+<p>跨年收視亮眼 謝金燕尾牙大熱門</p>
+<p> 3C通路尾牙壓軸 粉絲封「女神」</p>
+<p>政戰學院校慶 又見花木蘭小快步</p>
+<p> 每分鐘144小步 展現巾幗不讓鬚眉</p>
+<p>跆拳女教練戀國中男 判國賠32萬</p>
+<p> 稱寶貝誘師生戀 師欲分手生尋短</p>
+<p>影音</p>
+<p>砂石車撞火車 列車駕駛亡1死23傷</p>
+<p>台視除夕紅白大賽 精彩內容曝光</p>
+<p>罵南部「鬼地方」挺馬正妹惹議</p>
+<p>檢察官是狼 逼女證人陪睡判7年半</p>
+<p>離譜師改錯考卷竟逼生承認竄改</p>
+<p>瞎!上班遲到理由內容五花八門</p>
+<p>離譜護校生 實習貼文見血有快感</p>
+<p>桃園平交道車禍23人分送三醫院</p>
+<p>鮮蝦石頭火鍋 湯頭清甜不油膩</p>
+<p>脫軌車禍重大意外 台鐵緊急搶修</p>
+<p>氣象</p>
+<p>今日天氣</p>
+<p>明日預測</p>
+<p>一週天氣</p>
+<p>一週旅遊</p>
+<p>世界城市</p>
+<p>近海漁業</p>
+<p>更正</p>
+<p>新聞更正與澄清</p>
+<p><!--</p>
+<p>if (document.getElementById("") != null){</p>
+<p>identity=document.getElementById("");</p>
+<p>identity.className="selected";</p>
+<p>}</p>
+<p> </p>
+<p>// 選單數目</p>
+<p> </p>
+<p>var nav_item = 15;</p>
+<p>function nav_show(lv)</p>
+<p>{</p>
+<p>	if(document.getElementById(lv))</p>
+<p>	{</p>
+<p>		document.getElementById(lv).style.display='block';</p>
+<p>	}</p>
+<p>	for(var i=0;i<nav_item+1;i++)</p>
+<p>	{</p>
+<p>		if(document.getElementById("sub_" + i) && "sub_" + i != lv)</p>
+<p>		{</p>
+<p>			document.getElementById("sub_" + i).style.display='none';</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>--></p>
+<p>保暖靴惹禍 夏季濕疹冬季又發作</p>
+<p>　穿靴不穿襪 流汗不透氣濕疹上身</p>
+<p>　紅腫搔癢勿用手抓 避免細菌感染 </p>
+<p>2012/1/17 </p>
+<p>								蔡崇梧 報導 </p>
+<p>								</p>
+<p>						</p>
+<p>FB.Event.subscribe('edge.create',</p>
+<p>    function(response) {</p>
+<p>        fblike();</p>
+<p>    }</p>
+<p>);</p>
+<p>回應()</p>
+<p>列印</p>
+<p>轉寄</p>
+<p>討論</p>
+<p> 推薦▼巔峰時代耀龍年，新春好禮大方送發現花東 農遊尋寶趣</p>
+<p><!--</p>
+<p>var now, s = "";</p>
+<p>now = new Date();</p>
+<p>now.setDate(now.getDate());</p>
+<p>s += now.getYear();</p>
+<p>s += (now.getMonth() + 101).toString().substring(1,3) ;</p>
+<p>s += (now.getDate()+ 100).toString().substring(1,3) ;</p>
+<p>if('2012131'>=s){</p>
+<p>	document.write('<div style="padding-top:130px;"><a href="/videocity/video_play.asp?id=75255" target="_blank">');</p>
+<p>	document.write('<img src="/news/images/play.png" align="absmiddle" border="0" alt="播放影音" /></a></div>'); </p>
+<p>}</p>
+<p>--></p>
+<p>這幾天，連日細雨，民眾喜好穿著時尚、保暖的靴子出門，但大多人經常忽略了足部及靴子的保養，讓夏季常見的溼疹在冬季罕見復發。</p>
+<p>皮膚科醫師就指出，冬天鞋子和雙腳都要「定期保養」，以免不透氣的靴子潮濕、滋長黴菌，罹患香港腳。</p>
+<p>寒冷的冬天，戶外氣溫直線下降，時下愛美的年輕人，不分男女，紛紛套上時尚又保暖的靴子走上街頭</p>
+<p>嘉義基督教醫院皮膚科主任邱健群醫師發現，原本應該好發在夏季的足部濕疹，竟有患者陸續在寒冬上門求診。</p>
+<p>而這些登門求疹的患者，普遍是女多於男，共同的習慣是連日穿著不透氣的靴子，包括雪靴、皮靴、雨靴等，更有人只穿絲襪、甚至不穿襪就直接套上靴子。</p>
+<p>邱健群說，冬天穿的靴子多為皮革材質，皮膚較敏感的民眾，在接觸皮革殘留的染料、皮革軟化劑等化學物質後，可能會出現紅、腫、脫屑或搔癢感，民眾如果用手搔抓，可能會因此抓破皮，造成細菌感染。</p>
+<p>醫師提醒，民眾愛美可是要從頭到腳，尤其是皮膚容易過敏的民眾，鞋子材質的選擇上應該更加謹慎，如果足部皮膚炎已經發生，必須選對治療藥膏才能對症下藥。</p>
+<p>Facebook  馬上按讚 加入台視新聞粉絲團</p>
+<p>        				 </p>
+<p>									關鍵字：靴子、溼疹、細雨、香港腳、罹患</p>
+<p>     更多綜合新聞保暖靴惹禍 夏季濕疹冬季又發作唆使國小女偷抱狗 母女竊盜起訴離譜護校生 實習貼文見血有快感LIVE:桃園 記者:劉宜函 埔心火車站 砂石覆蓋父毒死兒女輕生 家屬怒推爆衝突威力彩連23槓 頭獎上看7.3億鮮蝦石頭火鍋 湯頭清甜不油膩KKBOX頒獎 眾星雲集HIGH翻天【ADVERTISEMENT】</p>
+<p>【保暖靴惹禍 夏季濕疹冬季又發作</p>
+<p>　穿靴不穿襪 流汗不透氣濕疹上身</p>
+<p>　紅腫搔癢勿用手抓 避免細菌感染】</p>
+<p>FB.Event.subscribe('comment.create',</p>
+<p>    function(response) {</p>
+<p>        fbcommentcount();</p>
+<p>    }</p>
+<p>);</p>
+<p><!--</p>
+<p>google_ad_client = "pub-5342396684826977";</p>
+<p>/* 300x250, 已建立 2008/11/18 */</p>
+<p>google_ad_slot = "6389628022";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p><!--</p>
+<p>google_ad_client = "pub-5342396684826977";</p>
+<p>/* 300x250, 已建立 2008/11/18 */</p>
+<p>google_ad_slot = "6389628022";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>limitLenGenKWsType=40;</p>
+<p>熱門關鍵字</p>
+<p>     熱門影音砂石車撞火車 列車駕駛亡1死23傷罵南部「鬼地方」挺馬正妹惹議檢察官是狼 逼女證人陪睡判7年半離譜師改錯考卷竟逼生承認竄改瞎!上班遲到理由內容五花八門離譜護校生 實習貼文見血有快感鮮蝦石頭火鍋 湯頭清甜不油膩桃園平交道車禍23人分送三醫院</p>
+<p>    │台視首頁</p>
+<p>    │台視節目</p>
+<p>    │台視新聞   </p>
+<p>    │台視財經   </p>
+<p>    │節目表       </p>
+<p>    │服務條款   </p>
+<p>    │      </p>
+<p>    </p>
+<p>臺灣電視事業股份有限公司 版權所有    ©2010 Taiwan Television Enterprise, Ltd. All Rights Reserved.</p>
+<p>台北市八德路三段10號　總機：(02)2775-8888　客服專線：0800-058-886</p>
+<p>  {lang: 'zh-TW'}</p>
+<p> </p>
+<p>bust = Math.floor(1000000*Math.random()); </p>
+<p>document.write('<'+'SCRIPT LANGUAGE="JavaScript1.1" SRC="http://dotmore.ttv.com.tw/verify.aspx?w=18&t=1&hc=0066ff&charset=utf-8&ord='+bust+'?">'); </p>
+<p>document.write('</'+'SCRIPT>'); </p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-99803-1");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>

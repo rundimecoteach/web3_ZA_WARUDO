@@ -1,0 +1,1243 @@
+<p>Urszulin: wójt śmiertelnie postrzelony - WPROST</p>
+<p>/* (c)AdOcean 2003-2010 */</p>
+<p>	if(typeof ado!=="object"){ado={};ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){};} </p>
+<p>	ado.config({mode: "new", xml: false, characterEncoding: true});</p>
+<p>	ado.preview({enabled: true, emiter: "myao.adocean.pl", id: "y6g3tTbLJv6vLRZ.AfyeiXkCPM0gL3CNAik2rwTzhKD.N7"});</p>
+<p>/* (c)AdOcean 2003-2012, MASTER: point.group.PointGroup_main.Informacje.Wprost.pl.Zycie_Pozostale */</p>
+<p>ado.master({id: '7i033NYsJwbH0uv0bB.buKBp4UEfr8ehOXN6UK3L_5H.N7', server: 'myao.adocean.pl' });</p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>var gemius_identifier = new String('.F5A5HxwR6hZWfrsP7VxNWZVXfvZ84biMUm5R3ISkG3.v7');</p>
+<p>//--><!]]></p>
+<p> <!--//--><![CDATA[//><!--</p>
+<p>var pp_gemius_identifier = new String('nd.ldfr8SVsHAOcUBxR2KdU5354BYy9kZhHxZt0b8yr.C7');</p>
+<p>//--><!]]></p>
+<p>    (function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&amp;appId=119818731519670";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));   </p>
+<p>window.fbAsyncInit = function() {</p>
+<p>    FB.init({</p>
+<p>      appId      : '119818731519670', </p>
+<p>      channelUrl : '//www.wprost.pl/channel.html', </p>
+<p>      status     : true, </p>
+<p>      cookie     : true, </p>
+<p>      xfbml      : true  </p>
+<p>    });</p>
+<p>};  </p>
+<p>Newsletter</p>
+<p>|</p>
+<p>Prenumerata</p>
+<p>|</p>
+<p>E-wydania</p>
+<p>|</p>
+<p> </p>
+<p>        Mobile</p>
+<p>        |</p>
+<p>RSS</p>
+<p>        Dołącz do nas:</p>
+<p>        </p>
+<p>        Zobacz także:                        </p>
+<p>        </p>
+<p>/* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Zycie_Pozostale._ycie_Pozostale_750x100 */</p>
+<p>ado.slave('adoceanmyaollffkwlgwf', {myMaster: '7i033NYsJwbH0uv0bB.buKBp4UEfr8ehOXN6UK3L_5H.N7' });</p>
+<p> </p>
+<p>Wprost</p>
+<p>Wprost</p>
+<p>Ludzie</p>
+<p>Forum</p>
+<p>Neo24.pl</p>
+<p>WprostAktualności</p>
+<p>Opinie</p>
+<p>Biznes</p>
+<p>Sport</p>
+<p>Kultura</p>
+<p>Życie</p>
+<p>Forum</p>
+<p>Tygodnik</p>
+<p>E-wydania</p>
+<p>Prenumerata</p>
+<p>Nasze serwisy</p>
+<p>Tylko u nas</p>
+<p>Kraj</p>
+<p>Świat</p>
+<p>Kryminalny</p>
+<p>TOP 7 Wprost</p>
+<p>Przegląd prasy</p>
+<p>Wideo</p>
+<p> Petelicki - Ostatni strzał </p>
+<p>Ludzie Wprost</p>
+<p>Forum Ekonomiczne</p>
+<p>Newsletter</p>
+<p>Newsletter - Podgląd</p>
+<p>Felietony</p>
+<p>Komentarze</p>
+<p>Blogi</p>
+<p>Polityka i gospodarka</p>
+<p>Firmy i rynki</p>
+<p>Finanse i inwestycje</p>
+<p>Technologie</p>
+<p>Komentarze ekspertów</p>
+<p>Notowania</p>
+<p>NBP</p>
+<p>100 najbogatszych</p>
+<p>MBA</p>
+<p>Finanse</p>
+<p>Bezpieczeństwo energetyczne </p>
+<p>Luksusowe Nieruchomości</p>
+<p>WOF</p>
+<p>Branże</p>
+<p>Wydarzenia</p>
+<p>Relacje na żywo </p>
+<p>Piłka nożna</p>
+<p>Siatkówka</p>
+<p>Koszykówka</p>
+<p>Tenis</p>
+<p>W formie</p>
+<p>Wydarzenia</p>
+<p>Film</p>
+<p>Teatr</p>
+<p>Muzyka</p>
+<p>Literatura</p>
+<p>Sztuka</p>
+<p>Telewizja</p>
+<p>Festiwale </p>
+<p>Leksykon</p>
+<p>Smaki</p>
+<p>Wydarzenia</p>
+<p>Nauka</p>
+<p>Historia</p>
+<p>Wprost Light</p>
+<p>Kariera MBA</p>
+<p>Edukacja</p>
+<p>Ranking Szkół Wyższych</p>
+<p> Aktualne wydanie</p>
+<p>Archiwum</p>
+<p>Autorzy</p>
+<p>Twoja okładka</p>
+<p>Polska OK!</p>
+<p>Rankingi</p>
+<p>30 lat Wprost</p>
+<p>Ludzie</p>
+<p>Prenumerata</p>
+<p>E-Prenumerata</p>
+<p>E-wydania</p>
+<p>  Megastore</p>
+<p>30 lat Wprost</p>
+<p>Ludzie Wprost</p>
+<p>Człowiek roku</p>
+<p>Nagroda Kisiela</p>
+<p>Złote strony</p>
+<p>Rankingi</p>
+<p>Edukacja</p>
+<p>MBA</p>
+<p>Finanse osobiste</p>
+<p>Wszystko o finansach</p>
+<p> </p>
+<p>    <!-- <![CDATA[  </p>
+<p>    var activeSM = 1;        </p>
+<p>                    </p>
+<p>    $('#header-menu ul li').removeClass('header-menu-selected');</p>
+<p>    $('#header-menu1 ul li').each(function() {</p>
+<p>       $(this).attr('submenu', $(this).attr('value'));</p>
+<p>       $(this).mouseenter(function() {   </p>
+<p>          $('#header-menu1 ul li').removeClass('header-menu-expanded');       </p>
+<p>          $(this).addClass('header-menu-expanded');</p>
+<p>          $('#header-menu2 ul').hide();   </p>
+<p>          $('#header-menu2 .sm'+$(this).attr('submenu')).fadeIn();   </p>
+<p>       });  </p>
+<p>    });      </p>
+<p>        </p>
+<p>    selectMenu(6, 80);    // ]]> --></p>
+<p>    </p>
+<p> Tutaj jesteś:</p>
+<p>Strona główna</p>
+<p>|</p>
+<p>Życie </p>
+<p>Wydarzenia </p>
+<p>Urszulin: wójt śmiertelnie postrzelony</p>
+<p>Urszulin: wójt śmiertelnie postrzelony</p>
+<p>2012-01-03 09:51</p>
+<p>    <!-- <![CDATA[ </p>
+<p>    var sc_btns = '<'+'div class="art-soc-buttons art-right-box"> \n ' +</p>
+<p>                  ''+'<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="http://www.wprost.pl/ar/286328/Urszulin-wojt-smiertelnie-postrzelony/" addthis:title="Urszulin:%20wójt%20śmiertelnie%20postrzelony">  \n ' +                            </p>
+<p>                  '<'+'a class="addthis_button_facebook"'+'><'+'/a> \n ' +</p>
+<p>                  '<'+'a class="addthis_button_google_plusone" g:plusone:size="medium" g:plusone:count="false"> \n ' +</p>
+<p>                  '<'+'span id="overGoogle"'+'>&nbsp;<'+'/span> \n ' +</p>
+<p>                  '<'+'g:plusone lang="" size="medium" count="false" href="http://www.wprost.pl/ar/286328/Urszulin-wojt-smiertelnie-postrzelony/" callback="_at_plusonecallback"></g:plusone> \n ' +</p>
+<p>                  '<'+'/a> \n ' +</p>
+<p>                  '<'+'a class="addthis_button_twitter"'+'><'+'/a> \n ' +</p>
+<p>                  '<'+'a class="addthis_button_wykop"'+'><'+'/a> \n ' +</p>
+<p>                  '<'+'!'+'-'+'- '+'<'+'a class="addthis_button_compact"'+'>'+'<'+'/a'+'>'+' -'+'-'+'> \n ' +</p>
+<p>                  '<'+'a class="addthis_counter addthis_bubble_style"'+'>'+'<'+'/a> \n ' +</p>
+<p>                  '<'+'/div> \n ' +   </p>
+<p>                  '<'+'/div> \n ';  </p>
+<p>    document.write(sc_btns);</p>
+<p>    // ]]> --></p>
+<p>     </p>
+<p>    Policja i prokuratura wyjaśniają okoliczności śmierci wójta gminy Urszulin Romana Wawrzyckiego. Mężczyzna prawdopodobnie postrzelił się na polowaniu.     </p>
+<p>Ciało wójta znalezione zostało w poniedziałek wieczorem na myśliwskiej ambonie w kompleksie leśnym Wielkopole w okolicach Urszulina – poinformował we wtorek rzecznik komendanta wojewódzkiego policji w Lublinie Janusz Wójtowicz.</p>
+<p>Skocz do tekstu</p>
+<p> </p>
+<p>       REKLAMA   </p>
+<p>       </p>
+<p>/* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Zycie_Pozostale._ycie_Pozstale_300x250_1 */</p>
+<p>ado.slave('adoceanmyaoqcfpinequu', {myMaster: '7i033NYsJwbH0uv0bB.buKBp4UEfr8ehOXN6UK3L_5H.N7' });</p>
+<p> - Mężczyzna miał ranę postrzałową uda. Postrzał nastąpił z jego broni. Według wstępnych ustaleń lekarza śmierć nastąpiła w wyniku wykrwawienia – powiedział Wójtowicz. 43-letni wójt był myśliwym. Poszedł na polowanie sam. - Prawdopodobnie był to nieszczęśliwy wypadek – dodał Wójtowicz. Śledztwo w tej sprawie wszczęła Prokuratura Rejonowa we Włodawie. Sekcja zwłok wójta wyznaczona została na czwartek – poinformowała rzeczniczka Prokuratury Okręgowej w Lublinie Beata Syk-Jankowska.eb, pap </p>
+<p> </p>
+<p>                <!-- <![CDATA[</p>
+<p>                function print_ocena_trafnosci_box(id)</p>
+<p>                {</p>
+<p>                jQuery.ajax({</p>
+<p>                        url: "/F/ajax/ocena_trafnosci_print_v4.php",</p>
+<p>                        data: { id_element: id },</p>
+<p>                        success: function(data) {</p>
+<p>                            jQuery('#ajax_ocena_trafnosci').html(data);</p>
+<p>                      }</p>
+<p>                    });</p>
+<p>                }</p>
+<p>                print_ocena_trafnosci_box(286328);</p>
+<p>                // ]]> --></p>
+<p>                </p>
+<p>Podziel się</p>
+<p>    <!-- <![CDATA[ </p>
+<p>    var sc_btns = '<'+'div class="art-soc-buttons art-right-box"> \n ' +</p>
+<p>                  ''+'<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="http://www.wprost.pl/ar/286328/Urszulin-wojt-smiertelnie-postrzelony/" addthis:title="Urszulin:%20wójt%20śmiertelnie%20postrzelony">  \n ' +                            </p>
+<p>                  '<'+'a class="addthis_button_facebook"'+'><'+'/a> \n ' +</p>
+<p>                  '<'+'a class="addthis_button_google_plusone" g:plusone:size="medium" g:plusone:count="false"> \n ' +</p>
+<p>                  '<'+'span id="overGoogle"'+'>&nbsp;<'+'/span> \n ' +</p>
+<p>                  '<'+'g:plusone lang="" size="medium" count="false" href="http://www.wprost.pl/ar/286328/Urszulin-wojt-smiertelnie-postrzelony/" callback="_at_plusonecallback"></g:plusone> \n ' +</p>
+<p>                  '<'+'/a> \n ' +</p>
+<p>                  '<'+'a class="addthis_button_twitter"'+'><'+'/a> \n ' +</p>
+<p>                  '<'+'a class="addthis_button_wykop"'+'><'+'/a> \n ' +</p>
+<p>                  '<'+'!'+'-'+'- '+'<'+'a class="addthis_button_compact"'+'>'+'<'+'/a'+'>'+' -'+'-'+'> \n ' +</p>
+<p>                  '<'+'a class="addthis_counter addthis_bubble_style"'+'>'+'<'+'/a> \n ' +</p>
+<p>                  '<'+'/div> \n ' +   </p>
+<p>                  '<'+'/div> \n ';  </p>
+<p>    document.write(sc_btns);</p>
+<p>    // ]]> --></p>
+<p>    </p>
+<p>        /* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.AdWords_ROS_480x150 */</p>
+<p>        ado.placement({id: 'ado-9P0Gd.CRkrwe.lZVOzaG4TyT7GveNl.xXgkfcmHZvWL.B7', server: 'myao.adocean.pl' });</p>
+<p>    </p>
+<p>Wasze komentarze</p>
+<p>Kolejność: NajnowszeNajstarszeNajwyżej oceniane</p>
+<p><!-- <![CDATA[  </p>
+<p>           </p>
+<p>       function comments_geturl()</p>
+<p>       {                  </p>
+<p>          var u = $('#lista-komentarzy #comment_url').val();</p>
+<p>          if (!u)</p>
+<p>            u = location.href;</p>
+<p>          return u;  </p>
+<p>       }</p>
+<p>       function coments_textCollapse(destObj, showHeight) </p>
+<p>       {                 </p>
+<p>          $(destObj+' .comment-item-expand').each(function () {</p>
+<p>              var cie_h = $(this).height();   </p>
+<p>              //if (showHeight)</p>
+<p>              //  alert(cie_h); </p>
+<p>              if (cie_h > 120) </p>
+<p>              {    </p>
+<p>                  $(this).addClass('comment-item-expand-active');  </p>
+<p>                  $(this).attr('expand-height', cie_h); </p>
+<p>                  $('.comment-item-expand-row', this).click(function () {  </p>
+<p>                       var ccie_h = $(this).parent('.comment-item-expand-active').attr('expand-height'); </p>
+<p>                       $(this).parent('.comment-item-expand-active').css({'max-height': 'none', 'height': '120px'});</p>
+<p>                       $(this).parent('.comment-item-expand-active').animate({'height': ccie_h}, function () {  </p>
+<p>                            $(this).css('height', 'auto');</p>
+<p>                            $(this).removeClass('comment-item-expand-active');</p>
+<p>                            $(this).removeClass('comment-item-expand');</p>
+<p>                       });  </p>
+<p>                  });  </p>
+<p>              }           </p>
+<p>              else  </p>
+<p>                  $(this).removeClass('comment-item-expand');</p>
+<p>          });        </p>
+<p>       }                    </p>
+<p>       function comments_get(id_element, id_parent, pos, update_arrows, dont_scroll, expand_pos, first_level, order)</p>
+<p>       {        </p>
+<p>           if (typeof order == 'undefined' || order === false) </p>
+<p>              order = -1; </p>
+<p>           $('body').css('cursor', 'wait');     </p>
+<p>           $('#comments-container-'+id_element+'-'+id_parent).animate({opacity:0.4});</p>
+<p>           $.ajax({  </p>
+<p>              type: 'POST',  </p>
+<p>              url:  '/F/ajax/comments.php',  </p>
+<p>              data: {</p>
+<p>                 'get': 1, </p>
+<p>                 'id_element': id_element, </p>
+<p>                 'id_parent': id_parent, </p>
+<p>                 'pos': pos,          </p>
+<p>                 'order': order,</p>
+<p>                 'update_arrows': (update_arrows?1:0),</p>
+<p>                 'first_level': first_level,</p>
+<p>                 'url': comments_geturl(),</p>
+<p>                 'curl': comments_geturl()</p>
+<p>              },               </p>
+<p>              dataType: 'json',</p>
+<p>              success: function(oJsonObject) {   </p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>                 if (oJsonObject)</p>
+<p>                 {       </p>
+<p>                     $('#comments-counter-'+id_element).html(oJsonObject.count);   </p>
+<p>                     $('#comments-counter-'+id_element).attr('title','Wpisów:'+oJsonObject.count);               </p>
+<p>                    </p>
+<p>                     if (first_level && oJsonObject.inlist_count==0)</p>
+<p>                     {</p>
+<p>                        comments_showAddForm(id_element, id_parent);</p>
+<p>                        $('#lista-komentarzy-toolbar').hide();</p>
+<p>                        oJsonObject.html = '<br /><br />';</p>
+<p>                     }</p>
+<p>                     </p>
+<p>                     returnHTML = oJsonObject.html;              </p>
+<p>                    </p>
+<p>                     if (oJsonObject.update_arrows==1)</p>
+<p>                     {  </p>
+<p>                         $('#comments-arrows-'+id_element).replaceWith(oJsonObject.arrows);                </p>
+<p>                         if (!dont_scroll)</p>
+<p>                         {   </p>
+<p>                             var tpx = $('#lista-komentarzy').offset().top;</p>
+<p>                             tpx = tpx - 45;</p>
+<p>                             $('html,body').animate({scrollTop: tpx });</p>
+<p>                         }     </p>
+<p>                     }  </p>
+<p>                     else</p>
+<p>                     {       </p>
+<p>                         if (oJsonObject.canExpand)</p>
+<p>                         {</p>
+<p>                             returnHTML += '<div id="comments-container-'+id_element+'-'+id_parent+'-'+oJsonObject.nwxtPos+'">'+                                                                                                          </p>
+<p>                                           '<div class="comment-item-expand-bar">'+</p>
+<p>                                           '<input onclick="comments_get('+id_element+', '+id_parent+', '+oJsonObject.nwxtPos+', false, false, '+oJsonObject.nwxtPos+');" type="button" class="form-button-white" value="Wyświetl więcej odpowiedzi" />'</p>
+<p>                                           '</div></div>';                </p>
+<p>                         }</p>
+<p>                     }        </p>
+<p>                     if (!expand_pos)</p>
+<p>                         var destObj = '#comments-container-'+id_element+'-'+id_parent;</p>
+<p>                     else</p>
+<p>                         var destObj = '#comments-container-'+id_element+'-'+id_parent+'-'+expand_pos;</p>
+<p>  </p>
+<p>                     if (oJsonObject.large_votes_buttons)</p>
+<p>                        $('#comment-large-votes-'+id_element+'-'+id_parent).html(oJsonObject.large_votes_buttons);</p>
+<p>                    </p>
+<p>                     $(destObj).html(returnHTML); </p>
+<p>                     if (first_level)</p>
+<p>                     {</p>
+<p>                         coments_textCollapse(destObj); </p>
+<p>                         $('#lista-komentarzy-combobox-order').val(oJsonObject.orderIndex);  </p>
+<p>                     }</p>
+<p>                     $('#comments-container-'+id_element+'-'+id_parent).animate({opacity:1});</p>
+<p>                           </p>
+<p>                 }</p>
+<p>              },        </p>
+<p>              error: function() {       </p>
+<p>                 $('#comments-container-'+id_element+'-'+id_parent).animate({opacity:1});</p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>              }</p>
+<p>           });              </p>
+<p>       }</p>
+<p>       function comment_toggleAnswers(id_element, id_parent)</p>
+<p>       {                                                 </p>
+<p>          var answbtn  = $('#comment-answers-'+id_element+'-'+id_parent); </p>
+<p>          var answcntr = $('#comments-container-'+id_element+'-'+id_parent);</p>
+<p>          if (answbtn.hasClass('answers-link-down')) </p>
+<p>          {</p>
+<p>              answbtn.addClass('answers-link-up');</p>
+<p>              answbtn.removeClass('answers-link-down');  </p>
+<p>              if (answcntr.text()=='')                 </p>
+<p>              {</p>
+<p>                  comments_get(id_element, id_parent, false, false, false);</p>
+<p>              }</p>
+<p>              answcntr.slideDown();  </p>
+<p>              setTimeout(function() {</p>
+<p>                      coments_textCollapse('#comments-container-'+id_element+'-'+id_parent, true); </p>
+<p>              }, 500);</p>
+<p>          }                            </p>
+<p>          else</p>
+<p>          {</p>
+<p>              answbtn.removeClass('answers-link-up');</p>
+<p>              answbtn.addClass('answers-link-down');  </p>
+<p>              answcntr.slideUp();</p>
+<p>          }     </p>
+<p>       }     </p>
+<p>          </p>
+<p>       function comments_showAlertForm(id_element, id_parent)</p>
+<p>       {       </p>
+<p>           $('.comments-newcomment').hide();  </p>
+<p>           $('.comment-item').removeClass('comment-item-added');  </p>
+<p>           $('.comment-item').removeClass('comment-item-addform');</p>
+<p>           $('body').css('cursor', 'wait');</p>
+<p>           $.ajax({  </p>
+<p>              type: 'POST',  </p>
+<p>              url:  '/F/ajax/comments.php',  </p>
+<p>              data: {</p>
+<p>                 'alert-form': 1, </p>
+<p>                 'id_element': id_element, </p>
+<p>                 'id_parent': id_parent,</p>
+<p>                 'url': comments_geturl(),</p>
+<p>                 'curl': comments_geturl()</p>
+<p>              },  </p>
+<p>              dataType: 'json',   </p>
+<p>              success: function(oJsonObject) {   </p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>                 if (oJsonObject)</p>
+<p>                 {               </p>
+<p>                     $('#comments-newcomment-'+id_element+'-'+id_parent).html(oJsonObject.html);</p>
+<p>                     $('#comments-newcomment-'+id_element+'-'+id_parent).fadeIn();        </p>
+<p>                     $('#allertcomment-text-'+id_element+'-'+id_parent).hide();   </p>
+<p>                     $('#komentarz'+id_parent).addClass('comment-item-addform');</p>
+<p>                 }</p>
+<p>              },        </p>
+<p>              error: function() {       </p>
+<p>                 $('#comments-newcomment-'+id_element+'-'+id_parent).html('Wystąpił blad');</p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>              }</p>
+<p>           });              </p>
+<p>       }            </p>
+<p>       </p>
+<p>       function comments_showAddForm(id_element, id_parent)</p>
+<p>       {       </p>
+<p>           $('.comments-newcomment').hide();  </p>
+<p>           $('.comment-item').removeClass('comment-item-added');  </p>
+<p>           $('.comment-item').removeClass('comment-item-addform');</p>
+<p>           $('body').css('cursor', 'wait');</p>
+<p>           $.ajax({  </p>
+<p>              type: 'POST',  </p>
+<p>              url:  '/F/ajax/comments.php',  </p>
+<p>              data: {</p>
+<p>                 'add-form': 1, </p>
+<p>                 'id_element': id_element, </p>
+<p>                 'id_parent': id_parent,</p>
+<p>                 'url': comments_geturl(),</p>
+<p>                 'curl': comments_geturl()</p>
+<p>              },  </p>
+<p>              dataType: 'json',   </p>
+<p>              success: function(oJsonObject) {   </p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>                 if (oJsonObject)</p>
+<p>                 {                                                    </p>
+<p>                     $('#comments-toolbar2-'+id_element+'-'+id_parent).fadeOut(20);  </p>
+<p>                     $('#comments-newcomment-'+id_element+'-'+id_parent).html(oJsonObject.html);</p>
+<p>                     $('#comments-newcomment-'+id_element+'-'+id_parent).fadeIn();  </p>
+<p>                     $('#komentarz'+id_parent).addClass('comment-item-addform');</p>
+<p>                 }</p>
+<p>              },        </p>
+<p>              error: function() {       </p>
+<p>                 $('#comments-newcomment-'+id_element+'-'+id_parent).html('Wystąpił blad');</p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>              }</p>
+<p>           });              </p>
+<p>       }            </p>
+<p>       function comments_hideAddForm(id_element, id_parent)</p>
+<p>       {               </p>
+<p>           $('#comments-newcomment-'+id_element+'-'+id_parent).slideUp();  </p>
+<p>           $('#comments-toolbar2-'+id_element+'-'+id_parent).fadeIn();  </p>
+<p>           $('.comment-item').removeClass('comment-item-addform');</p>
+<p>       }                    </p>
+<p>       function comments_submitAddForm(id_element, id_parent)</p>
+<p>       {       </p>
+<p>           $('body').css('cursor', 'wait');</p>
+<p>           $('#newcomment-wait-'+id_element+'-'+id_parent).show();   </p>
+<p>           $('#newcomment-wait-'+id_element+'-'+id_parent).html('Wysyłanie danych...'); </p>
+<p>           $('#newcomment-error-'+id_element+'-'+id_parent).html('');   </p>
+<p>           $('#newcomment-text-'+id_element+'-'+id_parent).css('opacity', 0.3);          </p>
+<p>           $('#newcomment-moreinfo-'+id_element+'-'+id_parent).css('opacity', 0.3); </p>
+<p>           $('#comments-newcomment-'+id_element+'-'+id_parent+' .newcomment-buttons').hide(); </p>
+<p>           $.ajax({                        </p>
+<p>              type: 'POST',  </p>
+<p>              url:  '/F/ajax/comments.php',  </p>
+<p>              data: {                         </p>
+<p>                 'send-comment': 1,  </p>
+<p>                 'id_element': id_element,           </p>
+<p>                 'id_parent':  id_parent,</p>
+<p>                 'text':       $('#newcomment-text-'+id_element+'-'+id_parent).val(),     </p>
+<p>                 'nick':       $('#newcomment-nick-'+id_element+'-'+id_parent).val(),     </p>
+<p>                 'uid':        $('#newcomment-user-id-'+id_element+'-'+id_parent).val(),  </p>
+<p>                 'fbuid':      $('#newcomment-user-fb-id-'+id_element+'-'+id_parent).val(),  </p>
+<p>                 'type_1':     ($('#newcomment-type-1-'+id_element+'-'+id_parent).is(':checked')?1:0), </p>
+<p>                 'type_2':     ($('#newcomment-type-2-'+id_element+'-'+id_parent).is(':checked')?1:0), </p>
+<p>                 'type_3':     ($('#newcomment-type-3-'+id_element+'-'+id_parent).is(':checked')?1:0),   </p>
+<p>                 //'id_parent':  id_parent,       </p>
+<p>                 'url':        comments_geturl(),</p>
+<p>                 'curl':       comments_geturl()</p>
+<p>              },  </p>
+<p>              dataType: 'json',   </p>
+<p>              success: function(oJsonObject) {   </p>
+<p>                 $('body').css('cursor', 'default');      </p>
+<p>                 $('#newcomment-wait-'+id_element+'-'+id_parent).hide();     </p>
+<p>                 $('#newcomment-text-'+id_element+'-'+id_parent).css('opacity', 1); </p>
+<p>                 $('#newcomment-moreinfo-'+id_element+'-'+id_parent).css('opacity', 1);   </p>
+<p>                 $('#comments-newcomment-'+id_element+'-'+id_parent+' .newcomment-buttons').fadeIn();</p>
+<p>                 if (oJsonObject)</p>
+<p>                 {    </p>
+<p>                     if (oJsonObject.error)   </p>
+<p>                     {  </p>
+<p>                         $('#newcomment-error-'+id_element+'-'+id_parent).html(oJsonObject.error);</p>
+<p>                     }</p>
+<p>                     else     </p>
+<p>                     {                  </p>
+<p>                         $('.comments-newcomment').hide(); </p>
+<p>                         $('.comment-item').removeClass('comment-item-addform');</p>
+<p>                         if (oJsonObject.html)  </p>
+<p>                         {                      </p>
+<p>                             $('#comments-container-'+id_element+'-'+id_parent).html(oJsonObject.html + $('#comments-container-'+id_element+'-'+id_parent).html() );</p>
+<p>                             $('#comments-container-'+id_element+'-'+id_parent).fadeIn();    </p>
+<p>                         }</p>
+<p>                     }</p>
+<p>                 }      </p>
+<p>                 else</p>
+<p>                     $('#newcomment-error-'+id_element+'-'+id_parent).html('Wystąpił błąd. Brak obiektu.');            </p>
+<p>              },        </p>
+<p>              error: function() {                            </p>
+<p>                 $('#newcomment-wait-'+id_element+'-'+id_parent).hide(); </p>
+<p>                 $('#newcomment-error-'+id_element+'-'+id_parent).html('Wystąpił błąd');   </p>
+<p>                 $('body').css('cursor', 'default');           </p>
+<p>                 $('#newcomment-text-'+id_element+'-'+id_parent).css('opacity', 1);</p>
+<p>                 $('#newcomment-moreinfo-'+id_element+'-'+id_parent).css('opacity', 1);   </p>
+<p>                 $('#comments-newcomment-'+id_element+'-'+id_parent+' .newcomment-buttons').fadeIn();</p>
+<p>              }    </p>
+<p>           });           </p>
+<p>       }      </p>
+<p>          </p>
+<p>       function comments_submitAlertForm(id_element, id_parent)</p>
+<p>       {       </p>
+<p>           $('body').css('cursor', 'wait');</p>
+<p>           $('#allertcomment-wait-'+id_element+'-'+id_parent).show();   </p>
+<p>           $('#allertcomment-wait-'+id_element+'-'+id_parent).html('Wysyłanie danych...'); </p>
+<p>           $('#allertcomment-error-'+id_element+'-'+id_parent).html('');   </p>
+<p>           $('#allertcomment-text-'+id_element+'-'+id_parent).css('opacity', 0.3);    </p>
+<p>           $('#comments-alertcomment-'+id_element+'-'+id_parent+' .newcomment-buttons').hide();</p>
+<p>           </p>
+<p>           $.ajax({                        </p>
+<p>              type: 'POST',  </p>
+<p>              url:  '/F/ajax/comments.php',  </p>
+<p>              data: {                         </p>
+<p>                 'alert-comment': 1,  </p>
+<p>                 'id_element': id_element,           </p>
+<p>                 'id_parent':  id_parent,</p>
+<p>                 'text':       $('#allertcomment-text-'+id_element+'-'+id_parent).val(),     </p>
+<p>                 'type_1':     ($('#comment-alert-type-1-'+id_element+'-'+id_parent).is(':checked')?1:0), </p>
+<p>                 'type_2':     ($('#comment-alert-type-2-'+id_element+'-'+id_parent).is(':checked')?1:0), </p>
+<p>                 'type_3':     ($('#comment-alert-type-3-'+id_element+'-'+id_parent).is(':checked')?1:0),   </p>
+<p>                 'type_4':     ($('#comment-alert-type-4-'+id_element+'-'+id_parent).is(':checked')?1:0),   </p>
+<p>                 'url':        comments_geturl(),</p>
+<p>                 'curl':       comments_geturl()</p>
+<p>              },  </p>
+<p>              dataType: 'json',   </p>
+<p>              success: function(oJsonObject) {   </p>
+<p>                 $('body').css('cursor', 'default');      </p>
+<p>                 $('#allertcomment-wait-'+id_element+'-'+id_parent).hide();     </p>
+<p>                 $('#allertcomment-text-'+id_element+'-'+id_parent).css('opacity', 1); </p>
+<p>                 $('#allertcomment-moreinfo-'+id_element+'-'+id_parent).css('opacity', 1);   </p>
+<p>                 $('#comments-alertcomment-'+id_element+'-'+id_parent+' .newcomment-buttons').fadeIn();</p>
+<p>                 if (oJsonObject)</p>
+<p>                 {    </p>
+<p>                     if (oJsonObject.error)   </p>
+<p>                     {  </p>
+<p>                         $('#newcomment-error-'+id_element+'-'+id_parent).html(oJsonObject.error);</p>
+<p>                     }</p>
+<p>                     else     </p>
+<p>                     {                  </p>
+<p>                         $('.comments-newcomment').hide(); </p>
+<p>                         $('.comment-item-text-'+id_parent+' b.clRed').remove(); </p>
+<p>                         $('.comment-item-text-'+id_parent).html('<b class="clRed">Zgłoszenie zostało wysłane!</b>'+$('.comment-item-text-'+id_parent).html()); </p>
+<p>                         $('.comment-button-alert-'+id_parent).attr('disabled','disabled');</p>
+<p>                     }</p>
+<p>                 }      </p>
+<p>                 else</p>
+<p>                     $('#allertcomment-error-'+id_element+'-'+id_parent).html('Wystąpił błąd. Brak obiektu.');            </p>
+<p>              },        </p>
+<p>              error: function() {                            </p>
+<p>                 $('#allertcomment-wait-'+id_element+'-'+id_parent).hide(); </p>
+<p>                 $('#allertcomment-error-'+id_element+'-'+id_parent).html('Wystąpił błąd');   </p>
+<p>                 $('body').css('cursor', 'default');           </p>
+<p>                 $('#allertcomment-text-'+id_element+'-'+id_parent).css('opacity', 1);</p>
+<p>                 $('#allertcomment-moreinfo-'+id_element+'-'+id_parent).css('opacity', 1);   </p>
+<p>                 $('#comments-alertcomment-'+id_element+'-'+id_parent+' .newcomment-buttons').fadeIn();</p>
+<p>              }    </p>
+<p>           });           </p>
+<p>       }       </p>
+<p>              </p>
+<p>       function comment_zoomIn(id_comment)</p>
+<p>       {                                          </p>
+<p>           $('#komentarz'+id_comment+' .comment-item-text-'+id_comment).addClass('comment-item-text-zoom');</p>
+<p>           $('#komentarz'+id_comment+' .comment-button-zoom-in-'+id_comment).hide();        </p>
+<p>           $('#komentarz'+id_comment+' .comment-button-zoom-out-'+id_comment).show();</p>
+<p>       }                </p>
+<p>       function comment_zoomOut(id_comment)</p>
+<p>       {</p>
+<p>           $('#komentarz'+id_comment+' .comment-item-text-'+id_comment).removeClass('comment-item-text-zoom');  </p>
+<p>           $('#komentarz'+id_comment+' .comment-button-zoom-in-'+id_comment).show();        </p>
+<p>           $('#komentarz'+id_comment+' .comment-button-zoom-out-'+id_comment).hide();</p>
+<p>       }    </p>
+<p>       </p>
+<p>       function comment_showAllUserBox(id_element, id_parent)</p>
+<p>       {                                             </p>
+<p>           $('.newcomment-user-box-'+id_element+'-'+id_parent).hide();</p>
+<p>           $('#newcomment-all-user-box-'+id_element+'-'+id_parent).show();   </p>
+<p>           $('#newcomment-type-1-'+id_element+'-'+id_parent).attr('checked','checked');   </p>
+<p>           comment_canSendComment(id_element, id_parent);</p>
+<p>       }                </p>
+<p>       function comment_showLoginUserBox(id_element, id_parent)</p>
+<p>       {</p>
+<p>           $('.newcomment-user-box-'+id_element+'-'+id_parent).hide();</p>
+<p>           $('#newcomment-login-user-box-'+id_element+'-'+id_parent).show();  </p>
+<p>           $('#newcomment-type-2-'+id_element+'-'+id_parent).attr('checked','checked');</p>
+<p>           comment_canSendComment(id_element, id_parent);</p>
+<p>       }                                                        </p>
+<p>       function comment_unsetFBprofile(id_element, id_parent)</p>
+<p>       {                                    </p>
+<p>           $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('alt', '');     </p>
+<p>           $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('title', '');  </p>
+<p>           $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('src', 'http://www.wprost.pl/G/blogi/face_blog_default.jpg');    </p>
+<p>           $('#newcomment-moreinfo-fb-'+id_element+'-'+id_parent).hide();  </p>
+<p>           $('#newcomment-infobar-4fb-'+id_element+'-'+id_parent).show(); </p>
+<p>           $('#newcomment-user-fb-id-'+id_element+'-'+id_parent).val('');  </p>
+<p>           $('#newcomment-type-1-'+id_element+'-'+id_parent).attr('checked','checked'); </p>
+<p>           $.ajax({                        </p>
+<p>                 type: 'POST',  </p>
+<p>                 url:  '/F/ajax/profil.php',  </p>
+<p>                 data: {unsetFBprofile:1},  </p>
+<p>                 dataType: 'json',   </p>
+<p>                 success: function(oJsonObject) {           </p>
+<p>                 },        </p>
+<p>                 error: function() {          </p>
+<p>                 }       </p>
+<p>           });           </p>
+<p>           comment_canSendComment(id_element, id_parent);</p>
+<p>       }                                       </p>
+<p>       function comment_assignFBprofile(id_element, id_parent)</p>
+<p>       {             </p>
+<p>           $('#assignFBprofile-error-'+id_element+'-'+id_parent).html('');</p>
+<p>           FBConnectInit(function (_FBuser) { </p>
+<p>           if (!_FBuser)</p>
+<p>           {</p>
+<p>               $('#assignFBprofile-error-'+id_element+'-'+id_parent).html('Wystąpił błąd. Brak połączenia z serwisem Facebook.');</p>
+<p>           }     </p>
+<p>           else     </p>
+<p>           if (!_FBuser.id && !_FBuser.name && !_FBuser.link)   </p>
+<p>           {</p>
+<p>               $('#assignFBprofile-error-'+id_element+'-'+id_parent).html('Wystąpił błąd. Brak połączenia z serwisem Facebook lub nie wszystkie dane zostały przekazane.');</p>
+<p>           }     </p>
+<p>           else   </p>
+<p>           {             </p>
+<p>               $('.newcomment-user-box-'+id_element+'-'+id_parent).remove(); </p>
+<p>               $('#newcomment-user-fb-id-'+id_element+'-'+id_parent).val(_FBuser.id); </p>
+<p>               $('#newcomment-infobar-'+id_element+'-'+id_parent).html('<div class="newcomment-user-box-inside">Witaj <strong>'+_FBuser.name+'</strong></div>');</p>
+<p>               $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('alt', _FBuser.name);     </p>
+<p>               $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('title', _FBuser.name); </p>
+<p>               $('#newcomment-type-3-'+id_element+'-'+id_parent).attr('checked','checked');  </p>
+<p>               if (_FBuser.link)</p>
+<p>               {                                                                                          </p>
+<p>                   $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').addClass('pointer');</p>
+<p>                   $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').click(function() {</p>
+<p>                       window.open(_FBuser.link, 'facebook');;</p>
+<p>                   });</p>
+<p>               }                               </p>
+<p>               if (_FBuser.image)</p>
+<p>               {                                                                                    </p>
+<p>                   $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('src', _FBuser.image); </p>
+<p>               }</p>
+<p>               comment_canSendComment(id_element, id_parent);</p>
+<p>           } </p>
+<p>           });    </p>
+<p>       }      </p>
+<p>       </p>
+<p>       function comments_vote(id_element, id_parent, id_vote,vote, is_large)</p>
+<p>       {                                                         </p>
+<p>           $('body').css('cursor', 'wait');        </p>
+<p>           if (is_large)      </p>
+<p>           {</p>
+<p>              $('#comment-large-votes-'+id_element+'-'+id_parent+' a').click(function () {</p>
+<p>                 return false;                                                             </p>
+<p>              });</p>
+<p>              $('#comment-large-votes-'+id_element+'-'+id_parent).animate({'opacity': 0.3});  </p>
+<p>           }</p>
+<p>           else  </p>
+<p>              $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote').animate({'opacity': 0.3});    </p>
+<p>           $.ajax({                        </p>
+<p>              type: 'POST',  </p>
+<p>              url:  '/F/ajax/comments.php',  </p>
+<p>              data: {                         </p>
+<p>                 'set-vote':   1,  </p>
+<p>                 'id_element': id_element,           </p>
+<p>                 'id_parent':  id_parent,           </p>
+<p>                 'id_vote':    id_vote,             </p>
+<p>                 'is_large':   (is_large?1:0),</p>
+<p>                 'vote':       vote,     </p>
+<p>                 'url':        comments_geturl(),</p>
+<p>                 'curl':       comments_geturl()</p>
+<p>              },  </p>
+<p>              dataType: 'json',   </p>
+<p>              success: function(oJsonObject) {   </p>
+<p>                 $('body').css('cursor', 'default');            </p>
+<p>                 $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote').animate({'opacity': 1}); </p>
+<p>                 if (oJsonObject)</p>
+<p>                 {    </p>
+<p>                     if (oJsonObject.error)   </p>
+<p>                     {  </p>
+<p>                         if (oJsonObject.voted==1)   </p>
+<p>                         {</p>
+<p>                             $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote').attr('disabled', 'disabled'); </p>
+<p>                             $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote').addClass('form-button-vote-voted');  </p>
+<p>                         }</p>
+<p>                     }</p>
+<p>                     else     </p>
+<p>                     {           </p>
+<p>                         if (is_large && oJsonObject.large_votes_buttons)   </p>
+<p>                         {</p>
+<p>                             $('#comment-large-votes-'+id_element+'-'+id_parent).html(oJsonObject.large_votes_buttons);</p>
+<p>                             $('#comment-large-votes-'+id_element+'-'+id_parent).animate({'opacity': 1});</p>
+<p>                         }</p>
+<p>                         else</p>
+<p>                         {          </p>
+<p>                             $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote').attr('disabled', 'disabled');  </p>
+<p>                             $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote').addClass('form-button-vote-voted');                         </p>
+<p>                             $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote-yes').val(oJsonObject.votes_yes); </p>
+<p>                             $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote-no').val(oJsonObject.votes_no);</p>
+<p>                         }          </p>
+<p>                     }</p>
+<p>                 }      </p>
+<p>              },        </p>
+<p>              error: function() {                            </p>
+<p>                 $('body').css('cursor', 'default');  </p>
+<p>                 $('#comments-toolbar2-'+id_element+'-'+id_parent+' .form-button-vote').animate({'opacity': 1});         </p>
+<p>                 if (is_large)  </p>
+<p>                 {</p>
+<p>                    $('#comment-large-votes-'+id_element+'-'+id_parent).html('');   </p>
+<p>                    $('#comment-large-votes-'+id_element+'-'+id_parent).animate({'opacity': 1});</p>
+<p>                 }</p>
+<p>              }    </p>
+<p>           });           </p>
+<p>       }   </p>
+<p>       function comment_canSendAlert(id_element, id_parent)</p>
+<p>       {</p>
+<p>           var txt1 = $.trim($('#allertcomment-text-'+id_element+'-'+id_parent).val());     </p>
+<p>           var ret = false;                                    </p>
+<p>           if ($('#comment-alert-type-1-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>           {</p>
+<p>              $('#allertcomment-text-'+id_element+'-'+id_parent).hide();</p>
+<p>              ret = true;</p>
+<p>           }      </p>
+<p>           else</p>
+<p>           if ($('#comment-alert-type-2-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>           {                                                          </p>
+<p>              $('#allertcomment-text-'+id_element+'-'+id_parent).hide();</p>
+<p>              ret = true;</p>
+<p>           }     </p>
+<p>           else</p>
+<p>           if ($('#comment-alert-type-3-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>           {                                                        </p>
+<p>              $('#allertcomment-text-'+id_element+'-'+id_parent).hide();</p>
+<p>              ret = true;</p>
+<p>           }     </p>
+<p>           else  </p>
+<p>           if ($('#comment-alert-type-4-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>           {                                                         </p>
+<p>              $('#allertcomment-text-'+id_element+'-'+id_parent).show();</p>
+<p>              ret = ((txt1 != '') && (txt1.length > 20));</p>
+<p>           }  </p>
+<p>           if (ret)</p>
+<p>              $('#comment-alert-send-'+id_element+'-'+id_parent).removeAttr('disabled');</p>
+<p>           else  </p>
+<p>              $('#comment-alert-send-'+id_element+'-'+id_parent).attr('disabled','disabled'); </p>
+<p>                  </p>
+<p>       }</p>
+<p>       function comment_canSendComment(id_element, id_parent)</p>
+<p>       {</p>
+<p>           var txt1 = $.trim($('#newcomment-text-'+id_element+'-'+id_parent).val());     </p>
+<p>           var txt2 = $.trim($('#newcomment-nick-'+id_element+'-'+id_parent).val());      </p>
+<p>           var idu  = $.trim($('#newcomment-user-id-'+id_element+'-'+id_parent).val());   </p>
+<p>           var iduf = $.trim($('#newcomment-user-fb-id-'+id_element+'-'+id_parent).val());    </p>
+<p>           var ret  = false;                                    </p>
+<p>                       </p>
+<p>           if ((txt1 != '') && (txt1.length >= 3) && (!$('#newcomment-moreinfo-'+id_element+'-'+id_parent).is(':visible')))</p>
+<p>           {        </p>
+<p>               if ($('#newcomment-type-3-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>               {</p>
+<p>                   $('#newcomment-moreinfo-'+id_element+'-'+id_parent).show();</p>
+<p>                   $('#newcomment-moreinfo-'+id_element+'-'+id_parent).removeAttr('disabled');</p>
+<p>               }</p>
+<p>               else</p>
+<p>               {</p>
+<p>                   $('#newcomment-moreinfo-'+id_element+'-'+id_parent).slideDown(function () {</p>
+<p>                      $('#newcomment-moreinfo-'+id_element+'-'+id_parent).removeAttr('disabled')                                                           </p>
+<p>                   });</p>
+<p>               }</p>
+<p>           }                                         </p>
+<p>           if ($('#newcomment-type-1-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>           {</p>
+<p>              ret = ((txt1 != '') && (txt2 != '') && (txt1.length >= 3) && (txt2.length >= 5));</p>
+<p>           }      </p>
+<p>           else</p>
+<p>           if ($('#newcomment-type-2-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>           {</p>
+<p>              ret = ((txt1 != '') && (idu > 0) && (txt1.length >= 3));</p>
+<p>           }     </p>
+<p>           else</p>
+<p>           if ($('#newcomment-type-3-'+id_element+'-'+id_parent).is(':checked'))</p>
+<p>           {</p>
+<p>              ret = ((txt1 != '') && (iduf > 0) && (txt1.length >= 3));</p>
+<p>           }  </p>
+<p>           if (ret)</p>
+<p>              $('#newcomment-send-'+id_element+'-'+id_parent).removeAttr('disabled');</p>
+<p>           else  </p>
+<p>              $('#newcomment-send-'+id_element+'-'+id_parent).attr('disabled','disabled'); </p>
+<p>                  </p>
+<p>       }</p>
+<p>       function comment_loginUser(id_element, id_parent)</p>
+<p>       {        </p>
+<p>           var txt1 = $.trim($('#newcomment-user-nick-'+id_element+'-'+id_parent).val());     </p>
+<p>           var txt2 = $.trim($('#newcomment-user-pwd-'+id_element+'-'+id_parent).val());  </p>
+<p>           $('body').css('cursor', 'wait');</p>
+<p>           $.ajax({  </p>
+<p>              type: 'POST',  </p>
+<p>              url:  '/F/ajax/comments.php',  </p>
+<p>              data: {</p>
+<p>                 'login-user': 1, </p>
+<p>                 'l': txt1, </p>
+<p>                 'p': txt2,   </p>
+<p>                 'url': comments_geturl(),</p>
+<p>                 'curl': comments_geturl()</p>
+<p>              },  </p>
+<p>              dataType: 'json',   </p>
+<p>              success: function(oJsonObject) {   </p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>                 if (oJsonObject)</p>
+<p>                 {   </p>
+<p>                     if (oJsonObject.error)   </p>
+<p>                     {  </p>
+<p>                         $('#newcomment-user-err-'+id_element+'-'+id_parent).html(oJsonObject.error);</p>
+<p>                     }</p>
+<p>                     else     </p>
+<p>                     if (oJsonObject.id_user > 0)   </p>
+<p>                     {              </p>
+<p>                         $('.newcomment-user-box-'+id_element+'-'+id_parent).remove(); </p>
+<p>                         $('#newcomment-user-id-'+id_element+'-'+id_parent).val(oJsonObject.id_user); </p>
+<p>                         $('#newcomment-infobar-'+id_element+'-'+id_parent).html('<div class="newcomment-user-box-inside">Witaj <strong>'+oJsonObject.username+'</strong></div>');</p>
+<p>                         $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('alt', oJsonObject.username);     </p>
+<p>                         $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('title', oJsonObject.username); </p>
+<p>                         $('#newcomment-type-2-'+id_element+'-'+id_parent).attr('checked','checked');  </p>
+<p>                         if (oJsonObject.userurl)</p>
+<p>                         {                                                                                          </p>
+<p>                             $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').addClass('pointer');</p>
+<p>                             $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').click(function() {</p>
+<p>                                 location = oJsonObject.userurl;</p>
+<p>                             });</p>
+<p>                         }                               </p>
+<p>                         if (oJsonObject.userthumb)</p>
+<p>                         {                                                                                    </p>
+<p>                             $('.comment-newcomment-form-'+id_element+'-'+id_parent+' .comment-newcomment-thumb img').attr('src', oJsonObject.userthumb); </p>
+<p>                         }</p>
+<p>                         comment_canSendComment(id_element, id_parent);</p>
+<p>                     }    </p>
+<p>                     else   </p>
+<p>                     {  </p>
+<p>                         $('#newcomment-user-err-'+id_element+'-'+id_parent).html('Wystąpił blad');</p>
+<p>                     } </p>
+<p>                 }</p>
+<p>                 else</p>
+<p>                     $('#newcomment-user-err-'+id_element+'-'+id_parent).html('Wystąpił blad');</p>
+<p>              },        </p>
+<p>              error: function() {       </p>
+<p>                 $('#newcomment-user-err-'+id_element+'-'+id_parent).html('Wystąpił blad');</p>
+<p>                 $('body').css('cursor', 'default'); </p>
+<p>              }</p>
+<p>           });  </p>
+<p>       }</p>
+<p>       </p>
+<p>       function comment_textareaAutoHeight(textarea)</p>
+<p>       {       </p>
+<p>           if ($.browser.mozilla)</p>
+<p>           {</p>
+<p>           var tah =  $(textarea).height();</p>
+<p>           if (tah < textarea.scrollHeight && tah < 480)</p>
+<p>               $(textarea).height( textarea.scrollHeight );</p>
+<p>           }</p>
+<p>       }</p>
+<p>       </p>
+<p>       </p>
+<p>       // ]]> --></p>
+<p>                                                                        </p>
+<p><!-- <![CDATA[  </p>
+<p>comments_get('286328', 0, 0, true, true, false, true, false);</p>
+<p>$('.comments-container').mouseenter(function () {</p>
+<p>     $('#additional-column').animate({opacity: 5},'slow');                               </p>
+<p>});</p>
+<p>$('.comments-container').mouseleave(function () {</p>
+<p>     $('#additional-column').animate({opacity: 1},'slow');                               </p>
+<p>});</p>
+<p>// ]]> --></p>
+<p>Czytaj również</p>
+<p><!-- <![CDATA[ </p>
+<p>jQuery.ajax({</p>
+<p>    url: "/F/ajax/elementy_count.php",</p>
+<p>    data: { id: "286328", tytul: "Urszulin: wójt śmiertelnie postrzelony", dzial: "17" }</p>
+<p>});</p>
+<p>// ]]> --></p>
+<p>Urszulin: wójt śmiertelnie postrzelony</p>
+<p>2012-01-03 09:51</p>
+<p>Policja i prokuratura wyjaśniają okoliczności śmierci wójta gminy</p>
+<p>Urszulin Romana Wawrzyckiego. Mężczyzna prawdopodobnie postrzelił się na</p>
+<p>polowaniu. </p>
+<p>Ciało wójta znalezione zostało w poniedziałek</p>
+<p>wieczorem na </p>
+<p>myśliwskiej ambonie w kompleksie leśnym Wielkopole w okolicach Urszulina</p>
+<p> – poinformował we wtorek rzecznik komendanta wojewódzkiego policji w </p>
+<p>Lublinie Janusz Wójtowicz.</p>
+<p>- Mężczyzna miał ranę postrzałową uda. Postrzał nastąpił z jego broni.</p>
+<p> Według wstępnych ustaleń lekarza śmierć nastąpiła w wyniku </p>
+<p>wykrwawienia – powiedział Wójtowicz.</p>
+<p>43-letni wójt był myśliwym. Poszedł na polowanie sam. - Prawdopodobnie był to</p>
+<p>nieszczęśliwy wypadek – dodał Wójtowicz. Śledztwo w tej sprawie wszczęła</p>
+<p>Prokuratura Rejonowa we Włodawie. </p>
+<p>Sekcja zwłok wójta wyznaczona została na czwartek – poinformowała </p>
+<p>rzeczniczka Prokuratury Okręgowej w Lublinie Beata Syk-Jankowska.eb,</p>
+<p>pap</p>
+<p> </p>
+<p>Środa, 10 Kwietnia 2013r.</p>
+<p>     </p>
+<p>        Wydanie:</p>
+<p>        </p>
+<p>15/2013 (1572)</p>
+<p>Spis treści numeru</p>
+<p>Archiwum wydań</p>
+<p>E-wydanie</p>
+<p>Prenumerata</p>
+<p>Powiększ okładkę</p>
+<p>NewsletterPodgląd</p>
+<p><!-- <![CDATA[ 	</p>
+<p>function checkNewsletterEmail() </p>
+<p>{                   </p>
+<p>     var emailReg = new RegExp( /^((([a-z]|d|[!#$%&'*+-/=?^_`{|}~]|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])+(.([a-z]|d|[!#$%&'*+-/=?^_`{|}~]|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])+)*)|((x22)((((x20|x09)*(x0dx0a))?(x20|x09)+)?(([x01-x08x0bx0cx0e-x1fx7f]|x21|[x23-x5b]|[x5d-x7e]|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])|(([x01-x09x0bx0cx0d-x7f]|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF]))))*(((x20|x09)*(x0dx0a))?(x20|x09)+)?(x22)))@((([a-z]|d|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])|(([a-z]|d|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])([a-z]|d|-|.|_|~|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])*([a-z]|d|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF]))).)+(([a-z]|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])|(([a-z]|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])([a-z]|d|-|.|_|~|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF])*([a-z]|[u00A0-uD7FFuF900-uFDCFuFDF0-uFFEF]))).?$/i );</p>
+<p>     var emailRet = false;	</p>
+<p>     var emailaVal = $("#default_value_of_email").val();</p>
+<p>     if (emailaVal == '') </p>
+<p>     {</p>
+<p>         $("#UserEmail").after('<span class="error">Please enter your email address.</span>');</p>
+<p>         emailRet = true;</p>
+<p>     }</p>
+<p>     else </p>
+<p>     if (!emailReg.test(emailaVal)) </p>
+<p>     {</p>
+<p>         $("#UserEmail").after('<span class="error">Enter a valid email address.</span>');</p>
+<p>         emailRet = true;</p>
+<p>     }</p>
+<p>     if (emailRet)</p>
+<p>	     $('#send_value_of_email').hide();</p>
+<p>	 else</p>
+<p>	     $('#send_value_of_email').fadeIn();</p>
+<p>     return !emailRet;  </p>
+<p>}	</p>
+<p>// ]]> --></p>
+<p>Najnowsze</p>
+<p>Godzina</p>
+<p>Tytuł</p>
+<p>    12:38</p>
+<p>Liga Mistrzów: Mourinho liczy na awans PSG</p>
+<p>    12:38</p>
+<p>Wymusił pierwszeństwo, strażacy rozcinali auto</p>
+<p>    12:23</p>
+<p>Niemcy biedniejsi od Greków, Hiszpanów i Włochów?</p>
+<p>    12:20</p>
+<p>Bliźniaczki odnalazły się dzięki YouTube?</p>
+<p>    12:18</p>
+<p>Krychowiak zmieni klub na lepszy?</p>
+<p>    12:06</p>
+<p>ŁKS - to już jest koniec</p>
+<p>    11:56</p>
+<p>Kierownik sądu z marihuaną. Chciał dać 10 zł łapówki</p>
+<p>    11:54</p>
+<p>Malaga czuje się oszukana. Właściciel klubu: "to rasizm"</p>
+<p>    11:52</p>
+<p>Ryfiński: PO szykuje kolejny skok na kasę</p>
+<p>    11:47</p>
+<p>Władze Jokohamy na Twitterze: leci w nas rakieta</p>
+<p>/* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Pozostale.Pozostale_300x60 */</p>
+<p>ado.slave('adoceanmyaopgjonphgah', {myMaster: '9SDhtfBPrBVE_sI6PYnu6x70DZY5yqdatrvV.MMSkVT.z7' });</p>
+<p>Najczęściej komentowane</p>
+<p>1 dzień</p>
+<p>7 dni</p>
+<p>Liczba komentarzy</p>
+<p>Tytuł</p>
+<p>    22</p>
+<p>Kaczyński: PiS powinien mieć nawet 58 proc. poparcia</p>
+<p>    8</p>
+<p>Episkopat domaga się, by religia w szkole była obowiązkowa</p>
+<p>    7</p>
+<p>Coraz więcej Polaków ufa Kaczyńskiemu</p>
+<p>    7</p>
+<p>Żartowali z papieża - teraz nikt nie chce ich zatrudniać</p>
+<p>    4</p>
+<p>Niemcy nie lubią Polaków. "Skala dystansu społecznego jest ogromna"</p>
+<p>    3</p>
+<p>Ostry spadek poparcia dla PiS. Platforma ucieka</p>
+<p>    3</p>
+<p>Szokujące słowa rabina. "Goje jak zwierzęta pociągowe - mają służyć Żydom"</p>
+<p>    3</p>
+<p>Poważne zarzuty wobec abp. Głodzia. "Pił, wyzywał, poniżał"</p>
+<p>Liczba komentarzy</p>
+<p>Tytuł</p>
+<p>    312</p>
+<p>Kaczyński: PiS powinien mieć nawet 58 proc. poparcia</p>
+<p>    98</p>
+<p>Żartowali z papieża - teraz nikt nie chce ich zatrudniać</p>
+<p>    55</p>
+<p>Coraz więcej Polaków ufa Kaczyńskiemu</p>
+<p>    37</p>
+<p>Niemcy nie lubią Polaków. "Skala dystansu społecznego jest ogromna"</p>
+<p>    31</p>
+<p>Episkopat domaga się, by religia w szkole była obowiązkowa</p>
+<p>    23</p>
+<p>Poważne zarzuty wobec abp. Głodzia. "Pił, wyzywał, poniżał"</p>
+<p>    10</p>
+<p>Szokujące słowa rabina. "Goje jak zwierzęta pociągowe - mają służyć Żydom"</p>
+<p>    3</p>
+<p>Ostry spadek poparcia dla PiS. Platforma ucieka</p>
+<p><!-- <![CDATA[                 </p>
+<p>$('#tb_najczesciej_komentowane7').hide();   </p>
+<p>$('#tb_najczesciej_komentowane30').hide();</p>
+<p>// ]]> -->    </p>
+<p>Najczęściej czytane</p>
+<p>Procent</p>
+<p>Tytuł</p>
+<p>NA ŻYWO: Borussia Dortmund - Malaga</p>
+<p>Klich o Smoleńsku: Rosjanie próbowali tuszować swoją odpowiedzialność</p>
+<p>Deresz: odnoszę wrażenie, że w Smoleńsku zginął jeden człowiek</p>
+<p>Macierewicz: w Smoleńsku trzy osoby przeżyły - są dowody</p>
+<p>Rotmistrzowie wrócą do polskiej armii?</p>
+<p>"Gen. Błasik meldował, że Tu-154M jest bezpieczny"</p>
+<p>Korea Północna 10 kwietnia wystrzeli rakiety w kierunku USA?</p>
+<p>Cyfrowy Polsat ma ofertę dla niezadowolonych z nc+?</p>
+<p>"Wielokrotnie apelowałem, by Kaczyński powiedział kto zabił mu brata..."</p>
+<p>Episkopat o in vitro: najpierw jest samogwałt...</p>
+<p>/* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Pozostale.Pozostale_300x250_2 */</p>
+<p>ado.slave('adoceanmyaosfciksnrgi', {myMaster: '9SDhtfBPrBVE_sI6PYnu6x70DZY5yqdatrvV.MMSkVT.z7' });</p>
+<p>Blogi</p>
+<p>Autor</p>
+<p>Tekst</p>
+<p>2445B</p>
+<p>Cezary Bielakowski</p>
+<p>Smoleńsk według Gargas. Mocny film z tezą</p>
+<p>2444B</p>
+<p>Bogusław Mazur</p>
+<p>Niech Olbrychski reklamuje czeską wódkę</p>
+<p>2443B</p>
+<p>Dawid Samulczyk</p>
+<p>Polscy politycy mają gen autodestrukcji</p>
+<p>2446B</p>
+<p>Joanna Gorzelińska</p>
+<p>Olśnienie</p>
+<p>2442B</p>
+<p>Anna Pawłowska-Pojawa</p>
+<p>Na dwoje, nas dwoje, wspólne bicie serc</p>
+<p>2441B</p>
+<p>Zbigniew Folta</p>
+<p>Wyjść wiośnie naprzeciw!</p>
+<p>2438B</p>
+<p>Pola B.</p>
+<p>Afganistan - kraj życzliwych ludzi</p>
+<p>OpinieNasze komentarze|Felietony</p>
+<p>Autor</p>
+<p>Tekst</p>
+<p>394616F</p>
+<p>Tomasz Jastrun</p>
+<p>I jak teraz żyć?</p>
+<p>394612F</p>
+<p>Magdalena Środa</p>
+<p>Co z tym Kongresem</p>
+<p>394585F</p>
+<p>Cezary Bielakowski</p>
+<p>Prof. Środa w kruchcie</p>
+<p>394588F</p>
+<p>Katarzyna Sielicka</p>
+<p>Mordo ty moja!</p>
+<p>394597F</p>
+<p>Krzysztof Skiba</p>
+<p>Pałac strachów</p>
+<p>Przegląd prasyz dnia: 2013-04-10</p>
+<p>Nazwa gazety</p>
+<p>Tytuł artykułu</p>
+<p>Przymusowa wymiana praw jazdy? Senatorowie protestują</p>
+<p>Gdańsk "orientuje się prorosyjsko"</p>
+<p>Poczta nie musi zapowiadać, że chce sprawdzić czy płacimy abonament</p>
+<p>"Czy ci, którzy demonstrują, znają nazwiska ofiar Smoleńska?"</p>
+<p>"TVP odczarowała film Gargas"</p>
+<p>Serafin miał wylecieć z PSL. Skończyło się na upomnieniu</p>
+<p>Rosja będzie sądzić żołnierzy, którzy okradli ofiarę Smoleńska</p>
+<p>Korupcja w Polsce, kara w USA</p>
+<p>Rotmistrzowie wrócą do polskiej armii?</p>
+<p>Co trzeci Polak wierzy w zamach w Smoleńsku</p>
+<p><!-- <![CDATA[ </p>
+<p>$('#box29 .block-header .block-tools').html( $('#ppdate29').html() );</p>
+<p>$('#ppdate29').hide();</p>
+<p>// ]]> --></p>
+<p>Polecamy</p>
+<p>Reklama</p>
+<p>          /* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Polecamy_160x240_ROS1 */</p>
+<p>          ado.placement({id: 'ado-xJU2VBzGgjsyZBZvMP5mFOEPIGd3MeNyI4P6ZNH27j..m7', server: 'myao.adocean.pl' });</p>
+<p>          </p>
+<p>Reklama</p>
+<p>          /* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Polecamy_160x240_ROS2 */</p>
+<p>          ado.placement({id: 'ado-Gg8FOfSY7VkYvvCwjnqwRwVtY_EtEhI1wp1JHS9strn.A7', server: 'myao.adocean.pl' });</p>
+<p>          </p>
+<p>Reklama</p>
+<p>          /* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Polecamy_160x240_ROS3 */</p>
+<p>          ado.placement({id: 'ado-bIdMDZBAPXkFgf8B2hr.go5_Lz2hM0_HJmvhxL4xvjf.l7', server: 'myao.adocean.pl' });</p>
+<p>          </p>
+<p>Reklama</p>
+<p>          /* (c)AdOcean 2003-2012, point.group.PointGroup_main.Informacje.Wprost.pl.Polecamy_160x240_ROS4 */</p>
+<p>          ado.placement({id: 'ado-jLCqMBCJA0WqcKKGoN3IhnzIzzkG0o8KTiukD2FJ3GD.D7', server: 'myao.adocean.pl' });</p>
+<p>          </p>
+<p>Dodatek</p>
+<p>Polecamy</p>
+<p>Polecamy</p>
+<p>        <!-- <![CDATA[ </p>
+<p>        var flashvars = {};</p>
+<p>        var params = {};</p>
+<p>        var attributes = {};</p>
+<p>        swfobject.embedSWF("http://www.money24.pl/widgets/widget_2.swf?color1=3355443&color2=15539236&color3=9156607&partner=wprost", "addbox_swf9", "140", "220", "9.0.0","expressInstall.swf", flashvars, params, attributes);</p>
+<p>        // ]]> --></p>
+<p>        </p>
+<p>Odwilż aż do Sylwestra</p>
+<p>Najnowsze wiadomości</p>
+<p>    <!-- <![CDATA[ </p>
+<p>    $(document).ready(function() {  </p>
+<p>        var i = 0;</p>
+<p>        $('#tb_najnowsze a').each(function () {</p>
+<p>            if (i < 4)</p>
+<p>            {         </p>
+<p>               var t = $(this).text();      </p>
+<p>               var h = $(this).attr('href');</p>
+<p>               $('#news-floating-center-list').append('<li class="list-item list-square square-red"><a href="'+h+'">'+t+'</a></li>');</p>
+<p>               i++;</p>
+<p>            }                      </p>
+<p>        });                        </p>
+<p>    });</p>
+<p>    // ]]> --></p>
+<p>    </p>
+<p>Życie</p>
+<p>Odwilż aż do Sylwestra</p>
+<p>zamknij</p>
+<p>Dodatkowe opcje wyszukiwania:</p>
+<p>Kategoria</p>
+<p>- Wszystkie kategorie -</p>
+<p>Telewizory plazmowe i LCD</p>
+<p>RTV duże</p>
+<p>RTV drobne</p>
+<p>Foto</p>
+<p>Komputery i akcesoria</p>
+<p>GSM</p>
+<p>AGD wolnostojące</p>
+<p>AGD do zabudowy</p>
+<p>AGD drobne</p>
+<p>Car Audio</p>
+<p>Wyposażenie biura</p>
+<p>Dla dzieci</p>
+<p>Elektronarzędzia</p>
+<p>Narzędzia ogrodowe</p>
+<p>Urządzenia czyszczące</p>
+<p>Wyprzedaż</p>
+<p>Nowości</p>
+<p>Promocje</p>
+<p>Cena (od-do)</p>
+<p>Z naszych serwisów</p>
+<p>www.blogbox.com.pl</p>
+<p>www.infotuba.pl</p>
+<p>www.gover.pl</p>
+<p>www.pitbul.pl</p>
+<p>Czy jakość obsługi klienta można...</p>
+<p>Komisarz Smuda na tropie</p>
+<p>Banki są internetowe? Tylko udają</p>
+<p>Cyberlenistwo</p>
+<p>Pink Floyd w Polsce</p>
+<p>Przez żołądek do bankructwa</p>
+<p>"Kaczyński może być honorowym...</p>
+<p>Palikot: Kaczyński jak Goebbels</p>
+<p>Palikot: Skandal! Tusk znów klęczy...</p>
+<p>Skandal! Palikot wyzywa Gowina od ciot</p>
+<p>Jarosław ujawnił bolesną prawdę o...</p>
+<p>SZOK! Cimoszewicz siedzi w twojej głowie</p>
+<p>Zobacz także</p>
+<p>Wprost</p>
+<p>Ludzie</p>
+<p>Rankingi</p>
+<p>Wszystko o finansach</p>
+<p>Kariera MBA</p>
+<p>Edukacja</p>
+<p>Smaki</p>
+<p>Wprost i Kultura</p>
+<p>Czlowiek Roku</p>
+<p>Nagroda Kisiela</p>
+<p>Finanse osobiste</p>
+<p>Forum Ekonomiczne</p>
+<p>Megastore</p>
+<p>Prezenty</p>
+<p>point-group</p>
+<p>Film</p>
+<p>Złote Kaczki</p>
+<p>Machina</p>
+<p>Sport24</p>
+<p>O firmie</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Dane sprzedażowe</p>
+<p>Praca w AWR Wprost</p>
+<p>Regulamin forum</p>
+<p>Polityka prywatności</p>
+<p>Mobile</p>
+<p>Prenumerata</p>
+<p>Poczta</p>
+<p>E-wydania</p>
+<p>Newsletter</p>
+<p>RSS</p>
+<p>Plugin News</p>
+<p>Powrót na początek</p>
+<p>Zgłoś błąd na stronie</p>
+<p>Do zakładek</p>
+<p>               © 1998-2013 Agencja Wydawniczo-Reklamowa Wprost Sp. z o.o. Wszelkie prawa zastrzeżone.</p>
+<p>               </p>
+<p>               Agencja Wydawniczo-Reklamowa "Wprost" na podstawie art. 25 ust. 1 pkt. 1 b ustawy z dnia 4 lutego 1994 roku o prawie autorskim i prawach pokrewnych wyraźnie zastrzega, </p>
+<p>               że dalsze rozpowszechnianie artykułów zamieszczonych na portalu www.wprost.pl jest zabronione.</p>
+<p>               </p>
+<p>/* (c)AdOcean 2003-2011, point.group.PointGroup_main.Informacje.Wprost.ROS.Footer_E_Commerce_985x50_ROS */</p>
+<p>ado.placement({id: 'ado-IKzwejxW1wnzoyHA9sIupr1LPrOmcLtrtez4L1SwKIj.c7', server: 'myao.adocean.pl' });</p>
+<p><!-- <![CDATA[ </p>
+<p>searchBoxInit();  </p>
+<p>addCollInit();</p>
+<p>// ]]> --></p>
+<p>        var _gaq = _gaq || [];</p>
+<p>        _gaq.push(['_setAccount', 'UA-8969414-2']);</p>
+<p>        _gaq.push(['_setDomainName', '.wprost.pl']);</p>
+<p>        _gaq.push(['_trackPageview']);</p>
+<p>        (function() {</p>
+<p>            var ga = document.createElement('script'); ga.type = 'text/javascript';</p>
+<p>            ga.async = true;</p>
+<p>            ga.src = ('https:' == document.location.protocol ? 'https://ssl' :</p>
+<p>                'http://www') + '.google-analytics.com/ga.js';</p>
+<p>            var s = document.getElementsByTagName('script')[0];</p>
+<p>            s.parentNode.insertBefore(ga, s);</p>
+<p>        })();</p>
+<p>var addthis_config =  { ui_language: "pl", ver:300 };    </p>
+<p>if ($('#addthisScript').length==0)</p>
+<p>{  </p>
+<p>   var addthis_script = document.createElement('script');</p>
+<p>   addthis_script.type = 'text/javascript';        </p>
+<p>   addthis_script.id   = 'addthisScript';</p>
+<p>   addthis_script.src  = 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f8583a231e20145&amp;domready=1';     </p>
+<p>   $('head').append(addthis_script);</p>
+<p>}  </p>
+<p> </p>
+<p><!-- <![CDATA[</p>
+<p>$(document).ready(function () {</p>
+<p>     setTimeout("initLightbox()", 200);</p>
+<p>     $('#addToFavorites').jFav();</p>
+<p>});</p>
+<p>// ]]> --></p>
+<p><!-- <![CDATA[</p>
+<p>var ghmxy_align = 'center';</p>
+<p>var ghmxy_type = 'absolute';</p>
+<p>var ghmxy_identifier = new String("zDfqy.fjmw.RFo990bL5o9U67A_N84RFDuOdLdsbwsL.T7");</p>
+<p>// ]]> --></p>

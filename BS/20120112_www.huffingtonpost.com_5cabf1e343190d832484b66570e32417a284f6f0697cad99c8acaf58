@@ -1,0 +1,1138 @@
+<p>adSetAdURL('http://' + ((document.domain && document.domain != '')?document.domain:'www.huffingtonpost.com') + ((location.port)?':'+location.port:'') + '/_uac/adpage.html');</p>
+<p>Cardiac Arrest Rare Among Marathoners, Study Finds</p>
+<p>huff.v()</p>
+<p>			jQuery.getScript('http://s.huffpost.com/assets/js.php?f=', function(){</p>
+<p>				huff.emit('ready');</p>
+<p>			});</p>
+<p>		</p>
+<p>// common modules</p>
+<p>huff.use('conf', 'modal', 'image', 'layout', 'cookies', 'user', 'track', 'common', 'promo', 'app-feeds', 'front/quickread', 'front/topnav');</p>
+<p>// bpage modules</p>
+<p>huff.use('front/bignews', 'bpage/threeup', 'bpage');</p>
+<p>						HPConfig.comments_update_interval = 200000;		HPConfig.comments_update_for_all_users = false;		HPConfig.user_show_levels_and_badges_disabled = false;	</p>
+<p>@import url("http://api.vitals.com/client/res.php?a=vheavy&v=1.0&t=css&c_border=0033cc&c_bg_on=0099ff&c_bg_off=eee&c_active=000&c_inactive=888&key=Gu67BZKkUgvA2yaUCP8AFQdehF5kq7Yj");</p>
+<p>			window.onload = function() {</p>
+<p>				var vheavy = new VTLS.VHeavyControl();</p>
+<p>				vheavy.setWidth(300);</p>
+<p>				vheavy.setDefaultTab("C");</p>
+<p>				vheavy.setNumResults("3");</p>
+<p>				vheavy.renderAt(document.getElementById("vitals_widget"));</p>
+<p>			}</p>
+<p>		</p>
+<p>    HPFB.api_key = "4d965afccc4d86c598dbf5d94fb34a7c";</p>
+<p>    HPFB.app_id = "46744042133";</p>
+<p>    </p>
+<p>var feedKeyword = "Wellness";</p>
+<p>                  HPAds.full_page_config = {"flights":[{"mode":"all_but","name":"devil","spots":["left_lower"]}]};      </p>
+<p>              </p>
+<p>                  commercial_video = {</p>
+<p>                      "site_and_category":"huffpost.healthy-living",</p>
+<p>                      "package":""</p>
+<p>                  };</p>
+<p>              </p>
+<p>        var ads_ext_ref_sig = '';</p>
+<p>    </p>
+<p>TwitterAnywhere.anywhere();</p>
+<p>	HPConfig.enable_fb_widgets = 1;</p>
+<p>	HPConfig.current_vertical_name = 'healthy-living';</p>
+<p>	HPConfig.current_vertical_id = 36;	</p>
+<p>	HPConfig.current_web_address = "www.huffingtonpost.com";</p>
+<p>    HPConfig.current_uri = "/2012/01/12/heart-marathoners-incidents-rare_n_1201597.html";</p>
+<p>	HPConfig.hp_static_domain = "s.huffpost.com";</p>
+<p>	HPConfig.inst_type = "prod";</p>
+<p>	HPConfig.timestamp_for_clearing_js = "0";</p>
+<p>	HPConfig.slideshow_individual_slide_link = false; // by default</p>
+<p>	HPConfig.slideshow_mode = "0";</p>
+<p>	HPConfig.slideshow_type = "";</p>
+<p>	HPConfig.slideshow_id = 0;</p>
+<p>	HPConfig.wide_format = 0;</p>
+<p>	HPConfig.entry_id = 1201597;</p>
+<p>	HPConfig.blog_id = 2;</p>
+<p>	HPConfig.entry_design = "";</p>
+<p>	HPConfig.display_domain = "i.huffpost.com";</p>
+<p>	HPConfig.page_type = "bpage";</p>
+<p>	HPConfig.twitter_signature = "@huffingtonpost";</p>
+<p>    HPConfig.current_vertical_color = '#6aa3b1';</p>
+<p>    HPConfig.current_vertical_color_light = '#486C75';</p>
+<p>    HPConfig.entry_tags = new Array('video','heart-incidents-marathoners','heart-marathoners','heart-risk-marathoners','marathon-runners-heart','marathoners-health','runners-heart','runners-heart-incidents','runners-heart-risks');</p>
+<p>    HPConfig.huffsite = "www.huffingtonpost.com";</p>
+<p>    </p>
+<p>	</p>
+<p>		</p>
+<p>	//Synchronise the user login status on multi-domain with huffingtonpost.com</p>
+<p>		</p>
+<p>		HPConfig.recaptcha_key = "6Ld6ZcISAAAAAIhkL02obhQNn6tdW47W-t-HcPAO";</p>
+<p>	HPConfig.bit_ly_key = {"user_name":"huffpost","user_key":"R_3db9b90fe8f78f0f2b180e72055462c8"};</p>
+<p>	HPConfig.entry_expanded = 0;</p>
+<p>	            HPConfig.image = 'http://i.huffpost.com/gen/463503/thumbs/s-HEART-MARATHONERS-large.jpg';</p>
+<p>            HPAds.social_campaigns = {"all_on_everywhere":{"fb_100x20":"","hashtag":"","twitter_optout_language":"","email_message":""},"social_healthy_living":{"fb_100x20":"","hashtag":"","twitter_optout_language":"","email_message":""}};</p>
+<p>    	</p>
+<p>	HPConfig.terms_link = "";</p>
+<p>	HPConfig.privacy_link = "";</p>
+<p>                tacProp = new Object();</p>
+<p>                tacProp.vert = "Healthy Living";</p>
+<p>                tacProp.tags="kventryid=1201597;kvcmsid=hpo:1201597;kvent=:3928137:3278440:4143739:4225492;kvsub=982065:980149:983657:981030:977640:981525:983141:979403:982564;kvpagetype=bpage:news:atf;kveditags=video:heart-incidents-marathoners:heart-marathoners:heart-risk-marathoners:marathon-runners-heart:marathoners-health:runners-heart:runners-heart-incidents:runners-heart-risks;kvvert=healthy-living;kvblogger=amanda-l-chan;kvspon=y;" + HPAds.adtech_client_side_inf();</p>
+<p>                adSetOthAT(tacProp.tags);</p>
+<p>             </p>
+<p>	HPConfig.fb_recom_version = 1;</p>
+<p>	HPConfig.most_popular_version = 1;</p>
+<p>        HPFB.init();</p>
+<p>    </p>
+<p>	    var zone_info = "huffpost.healthy-living;canada-living=1;health-news=1;healthy-living=1;sports=1;uk-lifestyle=1;;blogger=amanda-l-chan;entry_id=1201597;video=1;heart-incidents-marathoners=1;heart-marathoners=1;heart-risk-marathoners=1;marathon-runners-heart=1;marathoners-health=1;runners-heart=1;runners-heart-incidents=1;runners-heart-risks=1";</p>
+<p>	</p>
+<p>var _gaq = _gaq || [];</p>
+<p>HPTrack.async = true;</p>
+<p>HPTrack.getTracker();</p>
+<p>	HPTrack.setCustomVar("news", "default");</p>
+<p>HPTrack.setCustomVar('vertical', 'Healthy Living');</p>
+<p>		   </p>
+<p>HPTrack.trackPageview();</p>
+<p>	</p>
+<p>(function() {</p>
+<p>  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);</p>
+<p>})();</p>
+<p>		  </p>
+<p>        </p>
+<p>bN_cfg = {</p>
+<p>	h: location.hostname,</p>
+<p>	p: {"dL_ch":"us.hpmghth","dL_dpt":"default","dL_cmsID":"hpo:1201597","dL_author":"Amanda L. Chan","dL_crtdt":"2012-01-12 09:41:00","dL_tags":"video,heart incidents marathoners,heart marathoners,heart risk marathoners,marathon runners heart,marathoners health,runners heart,runners heart incidents,runners heart risks","cobrand":"HuffPost"}};</p>
+<p>        </p>
+<p>function runOmni() {</p>
+<p>  s_265.pfxID = 'hpo';</p>
+<p>  s_265.channel = 'us.hpmghth';</p>
+<p>  s_265.linkInternalFilters = 'javascript:,huffingtonpost.com';</p>
+<p>  s_265.prop16 = 'news';</p>
+<p>  s_265.prop1 = 'default';</p>
+<p>  s_265.pageName = "" + document.title;</p>
+<p>  s_265.prop9 = 'hpo:1201597';</p>
+<p>  s_265.prop22 = 'amanda-l--chan';</p>
+<p>  s_265.prop23 = '01-12-2012';</p>
+<p>  s_265.prop12 = "" + document.URL.split('?')[0];</p>
+<p>  s_265.t();</p>
+<p>  </p>
+<p>}</p>
+<p>s_265_account ="aolhuffposthealthyliving,aolsvc";</p>
+<p>(function(d){</p>
+<p>var s = d.createElement('script');</p>
+<p>s.src = "http://o.aolcdn.com/os_merge/?file=/aol/beacon.min.js&file=/aol/omniture.min.js";</p>
+<p>d.getElementsByTagName('head')[0].appendChild(s);</p>
+<p>})(document);</p>
+<p>         </p>
+<p>HuffPost's QuickRead...</p>
+<p>	ShareBox.ad = function (tag_id)</p>
+<p>	{</p>
+<p>		if ($(tag_id) == undefined) return; </p>
+<p>		if ($(tag_id).innerHTML != '') return;</p>
+<p>		</p>
+<p>		ad_spec = {</p>
+<p>			"zone_info": "huffpost.healthy-living;canada-living=1;health-news=1;healthy-living=1;sports=1;uk-lifestyle=1;;blogger=amanda-l-chan;entry_id=1201597;video=1;heart-incidents-marathoners=1;heart-marathoners=1;heart-risk-marathoners=1;marathon-runners-heart=1;marathoners-health=1;runners-heart=1;runners-heart-incidents=1;runners-heart-risks=1",</p>
+<p>			"ord": 1326380292,</p>
+<p>			"tile": 3,</p>
+<p>			"width": 300,</p>
+<p>			"height": 250,</p>
+<p>			"el_id": tag_id + "_js",</p>
+<p>			"class_name": "ad_block ad_wide top",</p>
+<p>			"type": "iframe"</p>
+<p>		}</p>
+<p>		HuffPoUtil.WEDGJE.write(ad_spec, tag_id);</p>
+<p>	};</p>
+<p>Loading...</p>
+<p>	ShareBox.set_email_class();</p>
+<p>	var CommentPoller = {</p>
+<p>		check: function(entry_id)</p>
+<p>		{</p>
+<p>			if (document.getElementById('lastComment')) {</p>
+<p>				var last=document.getElementById('lastComment').innerHTML;</p>
+<p>				Comments.addCommentMy(entry_id, last, 0);</p>
+<p>			}</p>
+<p>			setTimeout("CommentPoller.check(1201597);", 30000);</p>
+<p>		}</p>
+<p>	}</p>
+<p>	CommentPoller.check(1201597);</p>
+<p> </p>
+<p>HuffPost's QuickRead...</p>
+<p>	ShareBox.ad = function (tag_id)</p>
+<p>	{</p>
+<p>		ad_spec = {</p>
+<p>			"zone_info": "huffpost.healthy-living;canada-living=1;health-news=1;healthy-living=1;sports=1;uk-lifestyle=1;;blogger=amanda-l-chan;entry_id=1201597;video=1;heart-incidents-marathoners=1;heart-marathoners=1;heart-risk-marathoners=1;marathon-runners-heart=1;marathoners-health=1;runners-heart=1;runners-heart-incidents=1;runners-heart-risks=1",</p>
+<p>			"ord": 1326380292,</p>
+<p>			"tile": 3,</p>
+<p>			"width": 300,</p>
+<p>			"height": 250,</p>
+<p>			"el_id": tag_id + "_js",</p>
+<p>			"class_name": "ad_block ad_wide top",</p>
+<p>			"type": "iframe"</p>
+<p>		}</p>
+<p>		HuffPoUtil.WEDGJE.write(ad_spec, tag_id);</p>
+<p>	};</p>
+<p>Loading...</p>
+<p>	ShareBox.set_email_class();</p>
+<p>	var CommentPoller = {</p>
+<p>		check: function(entry_id)</p>
+<p>		{</p>
+<p>			if (document.getElementById('lastComment')) {</p>
+<p>				var last=document.getElementById('lastComment').innerHTML;</p>
+<p>				Comments.addCommentMy(entry_id, last, 0);</p>
+<p>			}</p>
+<p>			setTimeout("CommentPoller.check(1201597);", 30000);</p>
+<p>		}</p>
+<p>	}</p>
+<p>	CommentPoller.check(1201597);</p>
+<p>	/* ShareBox.ad("ad_email"); */</p>
+<p> </p>
+<p>	EDITION: U.S.	</p>
+<p>CA Canada		</p>
+<p>US United States		</p>
+<p>UK United Kingdom		</p>
+<p>Smarter Ideas More</p>
+<p>Log in</p>
+<p>                                                (function($) {</p>
+<p>                            var un = HuffCookies.getUserName(),</p>
+<p>                                c = "<div class=\"arrow-user-active\"><\/div><div class=\"user-dropdown absolute\"><div class=\"brd-container\"><ul class=\"snb-container\" id=\"li_alerts\"><li class=\"alerts\"><a href=\"\/social\/{username}?action=notifications\">My Alerts<span class=\"corners_10px count\"><\/span><\/a><\/li><li id=\"snb-comment_replies\"><a href=\"\/social\/{username}?action=notifications#!\/alerts\/new\/comment_replies\">Comment Replies<span><\/span><\/a><div class=\"updates\"><\/div><\/li><li id=\"snb-comment_badges\"><a href=\"\/social\/{username}?action=notifications#!\/alerts\/new\/comment_badges\">Comment Badges<span><\/span><\/a><div class=\"updates\"><\/div><\/li><li id=\"snb-favorited_comments\"><a href=\"\/social\/{username}?action=notifications#!\/alerts\/new\/favorited_comments\">Favorited Comments<span><\/span><\/a><div class=\"updates\"><\/div><\/li><li id=\"snb-new_followers\"><a href=\"\/social\/{username}?action=notifications#!\/alerts\/new\/new_followers\">New Followers<span><\/span><\/a><div class=\"updates\"><\/div><\/li><\/ul><ul class=\"snb-container snb-container-right\" id=\"li_stories\"><li class=\"stories\"><a href=\"\/social\/{username}?action=notifications\">My Stories<span class=\"corners_10px count\"><\/span><\/a><\/li><li id=\"snb-recommendations\"><a href=\"\/social\/{username}?action=notifications#!\/stories\/new\/recommendations\">Stories You Might Like<span><\/span><\/a><div class=\"updates\"><\/div><\/li><li id=\"snb-breaking_news\"><a href=\"\/social\/{username}?action=notifications#!\/stories\/new\/breaking_news\">Breaking News<span><\/span><\/a><div class=\"updates\"><\/div><\/li><\/ul><div class=\"clear-0\"><\/div><\/div><div class=\"get-alerts\"><a class=\"see-all-alerts\" href=\"\/social\/{username}?action=notifications\">See All Alerts<\/a><a class=\"see-all-news\" href=\"\/social\/{username}?action=notifications\">See All News Alerts<\/a><input type=\"text\" placeholder=\"Enter email address\" id=\"navbar_subscribe\" onfocus=\"QuickSubscribeUser.checkInput(this)\" class=\"email input_border color_ACACAC arial_11 padding_top_3 padding_left_3 float_left margin_right_5\" \/><a href=\"javascript:void(0);\" onclick=\"QuickSubscribeUser.pop('_form', '', null, 'navbar_subscribe'); return false;\" class=\"button small white margin_top_1 margin_right_5 text_transf_none\">Get Alerts<\/a><\/div><\/div>".replace(/{username}/g, un),</p>
+<p>                                s = $('#social-nav-bar');</p>
+<p>                            if ( un )</p>
+<p>                            {</p>
+<p>                                s.html(c).css('display', 'inline-block');</p>
+<p>                                SocialNotifications.init(</p>
+<p>                                    { </p>
+<p>                                      ajax: false                                    });</p>
+<p>                            } else s.empty();</p>
+<p>                        })(jQuery);</p>
+<p>                    </p>
+<p>|</p>
+<p>Sign Out</p>
+<p>#topnav_margin_btm { margin:0 !important } </p>
+<p>                        if(HPAds.ad_check_page_config('leaderboard_flex')) {</p>
+<p>                            var adId = '93318419';</p>
+<p>                            htmlAdWH(adId, "lb", "lb","fc");</p>
+<p>                            var debugadcode = '';</p>
+<p>                            document.write(debugadcode);</p>
+<p>                        }</p>
+<p>                    HPAds.ad_onload('div#ad_leaderboard_flex iframe','HPAds.ad_uac_onload_handler(\' iframe[class^="uac_"]\',this,\'bottom_ad_border_div\',10)')</p>
+<p>    January 12, 2012    </p>
+<p>Like</p>
+<p>10K</p>
+<p>jQuery('#fb_like_vertical').mouseenter(function() {</p>
+<p>	var html = "<div id=\"fb-tooltip\" class=\"fb-tooltip-main\"><div class=\"fb-tooltip-wrapper\"><span>Follow us on Facebook</span><br/>Get updates from HuffPost Healthy Living posted directly to your News Feed.<div class=\"corner\"><div class=\"first\"></div><div class=\"second\"></div></div></div></div>";</p>
+<p>	var coords = [-5, -78];</p>
+<p>	if( HPConfig.current_vertical_name == 'homepage' ) {</p>
+<p>		coords = [-5, -70];</p>
+<p>	}</p>
+<p>	else if( HPConfig.current_vertical_name == 'mapquest' ) {</p>
+<p>		coords = [-5, -68];</p>
+<p>	}</p>
+<p>	FloatingPrompt.embed(this, html, undefined, 'top', {fp_intersects:1, timeout_remove:2000,ignore_arrow: true, width:236, add_xy:coords, class_name: 'clear-overlay'});	</p>
+<p>});</p>
+<p> </p>
+<p>CONNECT</p>
+<p> </p>
+<p> </p>
+<p>    HPUtil.initUserNavStatus(false);</p>
+<p>FRONT PAGE</p>
+<p>U.S.</p>
+<p>UK</p>
+<p>CANADA</p>
+<p>POLITICS</p>
+<p>2012 BLOG</p>
+<p>HUFFPOST HILL</p>
+<p>2012 ELECTIONS</p>
+<p>FUNDRACE</p>
+<p>GREEN</p>
+<p>POLLSTER</p>
+<p>SPECULATRON</p>
+<p>OFF THE BUS</p>
+<p>BUSINESS</p>
+<p>SMALL BUSINESS</p>
+<p>ENTERTAINMENT</p>
+<p>CELEBRITY</p>
+<p>ENTERTAINMENT</p>
+<p>MUSIC</p>
+<p>RADIO</p>
+<p>MOVIES</p>
+<p>TV</p>
+<p>GAMES</p>
+<p>COMEDY</p>
+<p>TECH</p>
+<p>TECH</p>
+<p>TECHCRUNCH</p>
+<p>JOYSTIQ</p>
+<p>SCIENCE</p>
+<p>ENGADGET</p>
+<p>APPLE BLOG</p>
+<p>MEDIA</p>
+<p>LIFE & STYLE</p>
+<p>STYLE NEWS</p>
+<p>STYLELIST</p>
+<p>FOOD NEWS</p>
+<p>WEDDINGS</p>
+<p>PARENTS</p>
+<p>GREEN</p>
+<p>TRAVEL</p>
+<p>STYLELIST HOME</p>
+<p>KITCHEN DAILY</p>
+<p>DIVORCE</p>
+<p>HUFF/POST50</p>
+<p>RELIGION</p>
+<p>CULTURE</p>
+<p>ARTS</p>
+<p>PARENTS</p>
+<p>TRAVEL</p>
+<p>COLLEGE</p>
+<p>RELIGION</p>
+<p>IMPACT</p>
+<p>BOOKS</p>
+<p>EDUCATION</p>
+<p>COMEDY</p>
+<p>URLESQUE</p>
+<p>HEALTHY LIVING</p>
+<p>HEALTH AND FITNESS</p>
+<p>HEALTH NEWS</p>
+<p>MINDFUL LIVING</p>
+<p>SLEEP</p>
+<p>WOMEN</p>
+<p>HEALTHY LIVING</p>
+<p>PARENTS</p>
+<p>LOCAL</p>
+<p>NEW YORK</p>
+<p>SAN FRANCISCO</p>
+<p>DENVER</p>
+<p>MIAMI</p>
+<p>PATCH</p>
+<p>CHICAGO</p>
+<p>LOS ANGELES</p>
+<p>DC</p>
+<p>DETROIT</p>
+<p>YELLOW PAGES</p>
+<p>MORE</p>
+<p>SCIENCE</p>
+<p>BLACKVOICES</p>
+<p>SPORTS</p>
+<p>WORLD</p>
+<p>EDUCATION</p>
+<p>GAY VOICES</p>
+<p>GREEN</p>
+<p>LATINOVOICES</p>
+<p>COLLEGE</p>
+<p>CRIME</p>
+<p>WEIRD NEWS</p>
+<p>HIGH SCHOOL</p>
+<p> </p>
+<p>HEALTHY LIVING </p>
+<p>HEALTH AND FITNESS</p>
+<p>MINDFUL LIVING</p>
+<p>HEALTH NEWS</p>
+<p>        HuffPoUtil.AvatarLoader.loadAvatar('http://www.huffingtonpost.com');</p>
+<p>   </p>
+<p>			</p>
+<p>				var extra_view = false;</p>
+<p>				if (document.referrer != '' && typeof(document.referrer) == 'string') {</p>
+<p>					if (document.referrer.indexOf(window.location.hostname) != -1 && document.referrer.indexOf(window.location.pathname) != -1) {</p>
+<p>						extra_view = true;</p>
+<p>					}</p>
+<p>				}</p>
+<p>				var stats_project_image_src = "http://entry-stats.huffpost.com/?1201597&statsentryview" + Math.random().toString(16).replace('0.','') + '&';</p>
+<p>				if (document.referrer != '') {</p>
+<p>					stats_project_image_src += escape(document.referrer);</p>
+<p>				}</p>
+<p>				stats_project_image_src += '&' + extra_view.toString();</p>
+<p>				document.write('<img src="'+ stats_project_image_src +'" width="1" height="1" style=\"height:1px; line-height:1px; overflow:hidden\" />');</p>
+<p>				// SNP tracking</p>
+<p>				SNProject.track('1201597','entry_view',0);</p>
+<p>			</p>
+<p>            ViewTracker.VerticalType = "36";</p>
+<p>            ViewTracker.AddView();</p>
+<p>            </p>
+<p> </p>
+<p>																				Cardiac Arrest Rare Among Marathoners, Study Finds</p>
+<p>									</p>
+<p>By MALCOLM RITTER  </p>
+<p>01/11/12 05:16 PM ET</p>
+<p> </p>
+<p>Associated Press</p>
+<p>React</p>
+<p>			HPFacebookVoteV2.init(1201597, 'Cardiac Arrest Rare Among Marathoners, Study Finds', 'NEW YORK -- It\\\'s dramatic news when a marathon runner collapses with no pulse. Now a big study finds such calamities are rare and usually due to a pre-existing heart problem.  The study also found such incidents are increasing as more runners try to go the distance.', 'http://www.huffingtonpost.com/2012/01/12/heart-marathoners-incidents-rare_n_1201597.html', 'http://i.huffpost.com/gen/463503/thumbs/s-HEART-MARATHONERS-small.jpg', 'Please join me at &lt;a href=&quot;http://www.huffingtonpost.com/&quot;&gt;Huffington Post&lt;/a&gt;!', 'news', ["Amazing","Inspiring","Funny","Scary","Hot","Crazy","Important","Weird"]);</p>
+<p>		Amazing</p>
+<p>Inspiring</p>
+<p>Funny</p>
+<p>Scary</p>
+<p>Hot</p>
+<p>Crazy</p>
+<p>Important</p>
+<p>Weird</p>
+<p>Follow</p>
+<p> </p>
+<p>														Video</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Heart Incidents Marathoners</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Heart Marathoners</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Heart Risk Marathoners</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Marathon Runners Heart</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Marathoners Health</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Runners Heart</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Runners Heart Incidents</p>
+<p>													</p>
+<p>											</p>
+<p>										, 											</p>
+<p>													</p>
+<p>														Runners Heart Risks</p>
+<p>													</p>
+<p>											</p>
+<p>										,</p>
+<p>									</p>
+<p> Healthy Living News</p>
+<p>#news_entries #ad_sharebox_260x60 img {padding:0px;margin:0px} </p>
+<p>                        if(HPAds.ad_check_page_config('sharebox_260x60')) {</p>
+<p>                            var adId = '93315636';</p>
+<p>                            htmlAdWH(adId, "260", "60","f");</p>
+<p>                            var debugadcode = '';</p>
+<p>                            document.write(debugadcode);</p>
+<p>                        }</p>
+<p>                    setTimeout(function(){if(typeof social_campaign != 'undefined' && jQuery('.print-link')[0].href.indexOf(social_campaign) == -1 ) { var _print_href = jQuery('.print-link')[0].href; jQuery('.print-link').attr( 'href' , _print_href + '&comm_ref=' + social_campaign )} },3000) </p>
+<p>share this story</p>
+<p>	</p>
+<p>	</p>
+<p>		var inst_def = Badges.getUniqName();</p>
+<p>		window[inst_def.obj_name] = new Badges({</p>
+<p>			unique_id: inst_def.unique_id,</p>
+<p>			holder_id: "badges_v2_1",</p>
+<p>			panel_layout: 8,</p>
+<p>			complete_callback_func_name: "",</p>
+<p>			share_details_callback: false,</p>
+<p>			additional_panel_classes: "",</p>
+<p>			entry_params: {</p>
+<p>				"id" : 1201597,</p>
+<p>				"title" : "Cardiac Arrest Rare Among Marathoners, Study Finds",</p>
+<p>				"created_on": 1326379260,</p>
+<p>				"vertical_name": "Healthy Living",</p>
+<p>				"tweet_comm_hash" : "",</p>
+<p>				"tweet_comm_text" : "",</p>
+<p>				"force_fb_like"	  : 1,</p>
+<p>                "custom_tweet_text" : ""			},</p>
+<p>						</p>
+<p>			global_name: "window." + inst_def.obj_name</p>
+<p>		});</p>
+<p>	// =====================================================</p>
+<p>	// Now goes logic for every layout</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>		window[inst_def.obj_name].setPanelBorderStyle("glamorous_4");</p>
+<p>        var slices = {</p>
+<p>            1: "facebook_glamorous",</p>
+<p>            2: "retweet_glamorous",</p>
+<p>            3: "email_glamorous",</p>
+<p>            4: "google_plusone_glamorous"</p>
+<p>        };</p>
+<p>		</p>
+<p>		// checking for ie7 safari 3 and ff 3.5 browsers because +1 badge not work</p>
+<p>		if ((jQuery.browser.mozilla && (jQuery.browser.version <= '1.9.2')) </p>
+<p>			|| (jQuery.browser.msie && (jQuery.browser.version <= '7.0')) </p>
+<p>			|| (jQuery.browser.safari && (jQuery.browser.version <= '526.12.2')))</p>
+<p>			slices[4] = "comment_glamorous";</p>
+<p>		window[inst_def.obj_name].setSlices(slices);</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>			// Finaly, launch our badges</p>
+<p>		Badges.launch("badges_v2_1", inst_def);</p>
+<p>		</p>
+<p>				Get Healthy Living Alerts</p>
+<p>				</p>
+<p>Sign Up</p>
+<p>Submit this story</p>
+<p>digg</p>
+<p>reddit</p>
+<p>stumble</p>
+<p>NEW YORK -- It's dramatic news when a marathon runner collapses with no pulse. Now a big study finds such calamities are rare and usually due to a pre-existing heart problem.</p>
+<p>The study also found such incidents are increasing as more runners try to go the distance.</p>
+<p>"You hear about this more and more," said Dr. Aaron Baggish, senior author of the study</p>
+<p>Baggish, who runs a program for athletes with heart issues at Massachusetts General Hospital, and co-authors present their analysis in Thursday's issue of the New England Journal of Medicine.</p>
+<p>The study covers 10.9 million runners who participated in marathons or half-marathons in the United States from 2000 to 2010.</p>
+<p>By scouring media reports and checking with medical staff of races, the researchers identified 59 cases of cardiac arrest, where a runner became unconscious with no pulse during the race or within an hour of finishing. Cardiac arrest is when the heart stops because of a heart attack, a rhythm problem or other disorder.</p>
+<p>Forty-two of the runners died.</p>
+<p>The overall figures translate to 1 cardiac arrest per 184,000 participants and 1 death per 259,000 participants, the researchers said. Those numbers are low compared to other athletic activities, as shown by prior studies of deaths in college athletes, triathlon participants and previously healthy middle-aged joggers, researchers said.</p>
+<p>Most of the cardiac arrests involved marathons rather than half-marathons, and 51 of the 59 cases happened in men.</p>
+<p> </p>
+<p>                        if(HPAds.ad_check_page_config('mid_article')) {</p>
+<p>                            var adId = 'null';</p>
+<p>                            HPAds.adSonar("1517286", "2255770", "300", "250");</p>
+<p>                            var debugadcode = '';</p>
+<p>                            document.write(debugadcode);</p>
+<p>                        }</p>
+<p>                    More cases showed up during 2005-2010 than in the preceding five-year span, but that's just because more people are participating in the races, Baggish said. More worrisome was the finding that among male marathoners, the rate of cardiac arrest per 100,000 runners was higher during the latter half of the decade than in the first half.</p>
+<p>Baggish thinks that's because of a shift in attitudes about who can run long distances. Even a decade ago, 26.2-mile marathons were considered appropriate only for very athletic people, he said. But more recently people have come to think of it as "something anyone can do," and even as a healthy activity for lowering the risk of heart disease, he said. So it has attracted people with a family history of early heart disease or early deaths, and "these are just the people who are likely to get into trouble."</p>
+<p>In the 31 cardiac arrests for which researchers could find a cause, most were due to clogged, hardened arteries or hypertrophic cardiomyopathy, a sometimes inherited condition in which an unusually thick heart muscle can interfere with the pumping rhythm. Most of the victims were unaware of their pre-existing conditions, Baggish said.</p>
+<p>Baggish said he would encourage aspiring and experienced runners to talk to their doctors about their heart risks for distance running.</p>
+<p>Dr. Gordon Tomaselli, president of the American Heart Association, called the study "reassuring" for finding so few cardiac arrests. For most people, "running a marathon, if you are so inclined, is a reasonably safe proposition," he said.</p>
+<p>Tomaselli, a heart specialist at Johns Hopkins University, also said runners should pay attention if they feel chest pain, dizziness, lightheadedness or unusually short breath or rapid heartbeat while running. "You should listen to your body," he said.</p>
+<p>In the same issue of the journal, other doctors wrote a brief report about treating three runners who suffered heart attacks after finishing last year's Boston Marathon. None had cardiac arrest and all survived.</p>
+<p>"We don't want to alarm people about marathon running. The benefits of exercise are well established" said one of that report's authors, Dr. Navin Kapur of Tufts Medical Center in Boston. The report shows even seasoned marathon runners can have heart attacks, something paramedics should keep in mind if a runner shows suggestive signs, he said.</p>
+<p>___</p>
+<p>Online:</p>
+<p>.</p>
+<p>Also on HuffPost:  var src_url="http://pshared.5min.com/Scripts/PlayerSeed.js?playList=97702588&height=411&width=570&sid=577&relatedMode=2&relatedBottomHeight=60&companionPos=&hasCompanion=false&autoStart=false&colorPallet=%23FFEB00&vcdBgColor=%23191919&continuous=true"; if (typeof(commercial_video) == "object") { src_url += "&siteSection="+commercial_video.site_and_category; if (commercial_video.package) { src_url += "&sponsorship="+commercial_video.package;  } } document.write('<scr' + 'ipt type="text/javascript" src="'+src_url+'"></scr' + 'ipt>');</p>
+<p>					FOLLOW HUFFPOST HEALTHY LIVING</p>
+<p>ON</p>
+<p>Facebook:</p>
+<p>Like</p>
+<p>10K</p>
+<p>jQuery('#fb_like_submissions').mouseenter(function() {</p>
+<p>	var html = "<div id=\"fb-tooltip\" class=\"fb-tooltip-main\"><div class=\"fb-tooltip-wrapper\"><span>Follow us on Facebook</span><br/>Get updates from HuffPost Healthy Living posted directly to your News Feed.<div class=\"corner\"><div class=\"first\"></div><div class=\"second\"></div></div></div></div>";</p>
+<p>	var coords = [-5, -72];</p>
+<p>	// display fb-bubble</p>
+<p>	FloatingPrompt.embed(this, html, undefined, 'top', {fp_intersects:1, timeout_remove:2000,ignore_arrow: true, width:236, add_xy:coords, class_name: 'clear-overlay'});	</p>
+<p>});</p>
+<p> </p>
+<p>Twitter:</p>
+<p> </p>
+<p> Get Alerts</p>
+<p>  		CONTRIBUTETO THIS STORY </p>
+<p>Send Corrections</p>
+<p>Send us a Link</p>
+<p>Contact us</p>
+<p>Send a Tip</p>
+<p>Send Photos/Videos</p>
+<p>Comment</p>
+<p>	jQuery(document).ready(Submissions.init);</p>
+<p> </p>
+<p>						Copyright 2012 The Local Paper. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.					</p>
+<p> #ad_bottom_article_text {margin-bottom: 15px} </p>
+<p>HPAds.adSonar(1519969,2301767,580,275)</p>
+<p>Video</p>
+<p>				NEW YORK -- It's dramatic news when a marathon runner collapses with no pulse. Now a big study finds such calamities are rare and usually due to a pre-existing heart problem.</p>
+<p>The study also found suc...			</p>
+<p>				NEW YORK -- It's dramatic news when a marathon runner collapses with no pulse. Now a big study finds such calamities are rare and usually due to a pre-existing heart problem.</p>
+<p>The study also found suc...			</p>
+<p>HPAds.five_min={</p>
+<p>business:{url:"textBGColor_MO=%232B0073&fallbackType=featured&fallback=2&categories=2,310"},</p>
+<p>celebrity:{url:"textBGColor_MO=%23B10000&featured=true&categories=298",title:"Top Celebrity Videos..."},</p>
+<p>comedy:{url:"textBGColor_MO=%23BF1900&videoGroupID=126791",title:"Top Comedy Videos..."},</p>
+<p>entertainment:{url:"textBGColor_MO=%23B10000&fallbackType=featured&fallback=298&categories=298"},</p>
+<p>food:{url:"textBGColor_MO=%23390218&fallbackType=featured&fallback=6&categories=6"},</p>
+<p>"healthy-living":{url:"textBGColor_MO=%236AA3B1&fallbackType=featured&fallback=8&categories=8,5"},</p>
+<p>parents:{url:"textBGColor_MO=%23A1C468&fallback=11&categories=11"},</p>
+<p>style:{url:"textBGColor_MO=%23C62575&fallbackType=featured&fallback=4&categories=4"},</p>
+<p>technology:{url:"textBGColor_MO=%23616070&fallbackType=featured&fallback=16&categories=16"},</p>
+<p>travel:{url:"textBGColor_MO=%23239CB7&fallbackType=featured&fallback=17&categories=17"},</p>
+<p>world:{url:"textBGColor_MO=%230088C3&videoGroupID=124926",title:"Top World Videos..."},</p>
+<p>kitchendaily:{url:"textBGColor_MO=%237D8A66&fallbackType=featured&fallback=6&categories=6"},</p>
+<p>"uk-entertainment":{url:"textBGColor=transparent&textFGColor_MO=%23FFFFFF&textBGColor_MO=%239E1D1F&featured=true&categories=298&title=Top%20Entertainment%20Videos",title:"Top Entertainment Videos"},</p>
+<p>"uk-tech":{url:"textBGColor=transparent&textFGColor_MO=%23FFFFFF&textBGColor_MO=%23727082&fallbackType=featured&fallback=16&categories=16",title:"Related Tech Videos"},</p>
+<p>"uk-style":{url:"textBGColor=transparent&textFGColor_MO=%23FFFFFF&textBGColor_MO=%2385194C&fallbackType=featured&fallback=4&categories=4",title:"Related Style Videos"},</p>
+<p>"uk-celebrity":{url:"textBGColor=transparent&textFGColor_MO=%23FFFFFF&textBGColor_MO=%239E1D1F&fallbackType=featured&fallback=298&categories=298",title:"Related Celebrity Videos"},</p>
+<p>"uk-comedy":{url:"&textBGColor=transparent&textFGColor_MO=%23FFFFFF&textBGColor_MO=%239E1E21&videoGroupID=132116&title=Top%20Comedy%20Videos",title:"Top Comedy Videos..."}</p>
+<p>};</p>
+<p>typeof HPConfig.current_vertical_name!=="undefined"&&HPAds.five_min[HPConfig.current_vertical_name]&&(document.write('<script type="text/javascript" src="http://pshared.5min.com/Scripts/ThumbSeed2.js?sid=577&textLocation=1&thumbnailSize=0&width=579&height=200&displayHeader=' + ((HPConfig.current_vertical_name=='kitchendaily' || HPConfig.current_vertical_name.lastIndexOf('uk-') != -1 )?'true':'false') + '&textFGColor=%23000000&textBGColor=transparent&textFGColor_MO=%23FFFFFF&'+HPAds.five_min[HPConfig.current_vertical_name].url+'"><\/script>'),jQuery(function(){jQuery("div#related_videos").prepend('<div class="related" style="padding-left:3px;"><h2 class="'+HPConfig.current_vertical_name+'"><a class="text" name="5min" style="text-transform:capitalize;">'+(HPAds.five_min[HPConfig.current_vertical_name].title?HPAds.five_min[HPConfig.current_vertical_name].title:"Related "+HPConfig.current_vertical_name.replace(/[^\w\s]/gi," ")+" Videos...")+" </a></h2><br/></div>")}));</p>
+<p> </p>
+<p> </p>
+<p>Loading...</p>
+<p>Around the Web:</p>
+<p>  Low risk of heart incidents found for marathoners - USATODAY.com Cardiac-arrest risk low for marathoners Marathoners at Slim Risk of Cardiac Arrest - US News and World ... Marathoners at Slim Risk of Cardiac Arrest - healthfinder.gov Cardiac Reassurance For Marathon Runners | CommonHealth Low risk of heart incidents found for marathoners - Fox 28: South ... Good news for marathoners | Harvard Gazette Marathons Pose Little Risk to Heart Take proper care when training for a marathon Low risk of heart incidents found for marathoners </p>
+<p>Filed by Amanda L. Chan</p>
+<p>												 | </p>
+<p>										</p>
+<p>										</p>
+<p>								</p>
+<p>						</p>
+<p>						</p>
+<p>More in Healthy Living...</p>
+<p> </p>
+<p>New Prostate Cancer Gene Mutation Discovered7 Sleep Conditions, ExplainedHealing With Hurt FeelingsTrans Fat: Hiding in Plain Sight... </p>
+<p>	huff.emit('content/update', '#related_images');</p>
+<p> </p>
+<p>Comments</p>
+<p>0</p>
+<p>Pending Comments</p>
+<p>0</p>
+<p>View FAQ</p>
+<p>Previewing Your Comment.</p>
+<p>            This comment has not yet been posted</p>
+<p>            </p>
+<p>              You have exceeded your word limit by    words. Please click the "Edit" button and shorten your comment.</p>
+<p>                Post Comment            </p>
+<p>Edit</p>
+<p>Cancel</p>
+<p>Click here to leave a comment.</p>
+<p>HuffPost High School welcomes a lively, thoughtful debate in the comment section. Keep in mind that the articles here are penned by young authors, so please keep criticism respectful, and help us to keep this a safe and supportive place for writers of all ages to contribute.</p>
+<p>Post Comment</p>
+<p>Preview Comment</p>
+<p>To reply to a Comment: </p>
+<p>	                        Click "Reply" at the bottom of the comment; after being approved your comment will appear directly underneath the comment you replied to.</p>
+<p>	                    </p>
+<p>		            		Post Comment			            </p>
+<p>		            		Preview Comment			            </p>
+<p>To reply to a Comment: </p>
+<p>		                    Click "Reply" at the bottom of the comment; after being approved your comment will appear directly underneath the comment you replied to.</p>
+<p>		                </p>
+<p>Share your Comment:</p>
+<p>Post to Facebook.</p>
+<p>Post to Blogger.</p>
+<p>Post to Twitter.</p>
+<p>Post to WordPress.</p>
+<p>Post to TypePad.</p>
+<p>Post to Tumblr.</p>
+<p>Post to Yahoo!</p>
+<p>Blogger login:</p>
+<p>Blogger password:</p>
+<p>Select blog: refresh list</p>
+<p>Remember me:</p>
+<p>Wordpress host:</p>
+<p>Wordpress login:</p>
+<p>Wordpress password:</p>
+<p>Remember me:</p>
+<p>TypePad host:</p>
+<p>TypePad login:</p>
+<p>TypePad password:</p>
+<p>Select blog: refresh list</p>
+<p>Remember me:</p>
+<p>Tumblr login:</p>
+<p>Tumblr password:</p>
+<p>Remember me:</p>
+<p>				Community Notice:  We've made some changes to our badge program, including the additionof our newest badge: Community Curator.			    Read more here.</p>
+<p>View All</p>
+<p>Recency</p>
+<p>							 | </p>
+<p>						</p>
+<p>Popularity</p>
+<p> </p>
+<p> </p>
+<p> new comment(s) on this entry — Click to refresh</p>
+<p>		Loading comments…	</p>
+<p>	if (HPConfig.ipad_application)</p>
+<p>		huff.use('layout', function(l){</p>
+<p>			l.lazy_images('#comments_1201597', {</p>
+<p>				frame: '#container-for-entry .wrapper-for-entry'</p>
+<p>			});</p>
+<p>		});</p>
+<p>	else</p>
+<p>		huff.emit('content/update', '#comments_1201597');</p>
+<p>	Comments.topicName = '';</p>
+<p>	Comments.topicDir = '';</p>
+<p>			CommentsLoader.wrapped = true;</p>
+<p>		//if (HuffCookies.getUserName() || CommentsLoader.loading) {</p>
+<p>	if (HuffCookies.getUserName() ) {</p>
+<p>		// change the post button</p>
+<p>		button_logged = document.getElementById('post_button_for_logged_in');</p>
+<p>		button_not_logged = document.getElementById('post_button_for_not_logged_in');</p>
+<p>		if (button_logged && button_not_logged) {</p>
+<p>			button_logged.style.display = 'none';</p>
+<p>			button_not_logged.style.display = 'block';</p>
+<p>		}</p>
+<p>			} </p>
+<p>	if (typeof(CommentsLoader.setListeners) !== "undefined") {</p>
+<p>		CommentsLoader.setListeners();</p>
+<p>	}</p>
+<p>	var update_time_interval = 30000;</p>
+<p>	if (HPConfig.comments_update_interval || HPConfig.comments_update_interval === 0) {</p>
+<p>		update_time_interval = HPConfig.comments_update_interval;</p>
+<p>	}</p>
+<p>	var update_comments = false;</p>
+<p>	// should we update comments for everyone ?</p>
+<p>	if (HPConfig.comments_update_for_all_users === true) {</p>
+<p>		// yes, for everyone</p>
+<p>		update_comments = true;</p>
+<p>	} else {</p>
+<p>		// no - then maybe your user is logged in ?</p>
+<p>		if (HPConfig.comments_update_for_all_users === false && HuffCookies.getUserName()) {</p>
+<p>			// yes, logged in - we may update comments</p>
+<p>			update_comments = true;</p>
+<p>		}</p>
+<p>	}</p>
+<p>	if (update_comments === true) {</p>
+<p>		setTimeout("CommentPollerV3.check(1201597, true);", update_time_interval);</p>
+<p>	}</p>
+<p>   </p>
+<p>            HuffPoUtil.onPageReady(function(){Comments.init(1201597)});</p>
+<p>            HuffPoUtil.onPageReady(function() {</p>
+<p>                    var CommentsSharer = new CommentsSharerClass({</p>
+<p>                            type: 'horizontal',</p>
+<p>                            triggersClassName: 'share_comment_popup_trigger'</p>
+<p>                    });</p>
+<p>                    var CommentsFavoriteSharer = new CommentsSharerClass({</p>
+<p>                            type: 'vertical',</p>
+<p>                            triggersClassName: 'share_favorite_comment_popup_trigger'</p>
+<p>                    });</p>
+<p>                    CommentsSharer.addPopupTriggers();</p>
+<p>                    CommentsFavoriteSharer.addPopupTriggers();</p>
+<p>            });</p>
+<p>		</p>
+<p> </p>
+<p>                        if(HPAds.ad_check_page_config('right_rail_flex')) {</p>
+<p>                            var adId = '93314407';</p>
+<p>                            htmlAdWH(adId, "RR", "RR","f");</p>
+<p>                            var debugadcode = '';</p>
+<p>                            document.write(debugadcode);</p>
+<p>                        }</p>
+<p>                    </p>
+<p>PHOTO GALLERIES</p>
+<p>			            	Axed Mental Disorders			            </p>
+<p>			            	Tips For New Runners			            </p>
+<p>			            	10 Reasons To Run			            </p>
+<p>			            	Why Do You Run?			            </p>
+<p>	var group = 'B';</p>
+<p>	var trk = HPTrack.Module('galleries-' + group, 'Photo Galleries - ' + group);</p>
+<p>	trk.impression();</p>
+<p>	jQuery('#hp_module_photos_all_pages a').click(function(e) {		</p>
+<p>		var label = jQuery(this).text() || jQuery(this).next().text();</p>
+<p>		trk.trackLink(e, jQuery.trim(label));</p>
+<p>	});</p>
+<p>	function create_url_for_slideshow_posts(page) {</p>
+<p>		var url = '';</p>
+<p>		if($('slideshow_ids_'+page))</p>
+<p>			return url = '/ajax/common/photo_galleries.php?vertical=&page='+page+'&entries_ids='+$('slideshow_ids_'+page).innerHTML;</p>
+<p>		else</p>
+<p>			return false;</p>
+<p>	}</p>
+<p>	 var module_photos_pagination = new CommonPaginator({'moduleName': 'module_photos', 'maxPage': 1, 'is_circle': true, 'is_ajax_update': true, 'create_page_ajax_url':create_url_for_slideshow_posts, 'update_images': true});</p>
+<p>            SNPModule.load('');</p>
+<p>        </p>
+<p>FOLLOW US</p>
+<p>var s2title, phone_n;</p>
+<p>handleSendResponse = function(s) {</p>
+<p>	console.log(JSON.stringify(s));</p>
+<p>	console.log(s.status);</p>
+<p>	if (s.status == 4) {</p>
+<p>		s2title.html("Your message was sent to "+phone_n+'.');</p>
+<p>	} else if (s.status == 5) { </p>
+<p>		s2title.html("Send Failed");</p>
+<p>	} else if (s.status == 3) { </p>
+<p>		s2title.html("Sorry, no more messages may be sent today.");</p>
+<p>	}</p>
+<p>}</p>
+<p>errorHandle = function(request, errorType, errorThrown) {</p>
+<p>	if(errorType == 'timeout') { </p>
+<p>		s2title.html("Send Failed");</p>
+<p>	}</p>
+<p>}</p>
+<p>jQuery('#af-iphone_bubble .showlegal').live('click', function(){</p>
+<p>	if(jQuery('#af-iphone_bubble .s2disclaimer').html() != jQuery('#af-iphone_bubble .s2legal').html()) {</p>
+<p>		jQuery('#af-iphone_bubble .s2disclaimer').slideUp(500, function(){</p>
+<p>			jQuery('#af-iphone_bubble .s2disclaimer').html(jQuery('#af-iphone_bubble .s2legal').html()).slideDown(500);</p>
+<p>		});</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>});</p>
+<p>jQuery('#af-iphone_bubble input[value="Send"]').live('click', function(){</p>
+<p>	s2title = jQuery('#af-iphone_bubble .s2title');</p>
+<p>	phone_n = jQuery('#af-iphone_bubble input[name="p1"]').val().replace(/-/g, '');</p>
+<p>	if(phone_n == 5555555555 || isNaN(phone_n) || phone_n.length != 10) {</p>
+<p>		jQuery('#af-iphone_bubble .s2subtitle').fadeOut(500, function () {</p>
+<p>			jQuery('#af-iphone_bubble .s2subtitle').html('Please use a valid 10-digit mobile number.').css('color', '#FF0000').fadeIn(500);</p>
+<p>		});</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	jQuery('#af-iphone_bubble .s2title').html('Sending...');</p>
+<p>	var appid = '26';</p>
+<p>	var appkey = 'ao1qvHJSh3Z7hgQQ';</p>
+<p>	var phone = phone_n;</p>
+<p>	var message = 'Huffington Post for iPhone';</p>
+<p>	var link = 'http://itunes.apple.com/us/app/huffingtonpost-com/id306621789?mt=8';</p>
+<p>	var url = 'http://s2c.aol.com/s2c/sendtocell.jsp?appid='+encodeURIComponent(appid)+'&appkey='+encodeURIComponent(appkey)+'&phone='+encodeURIComponent(phone)+'&message='+encodeURIComponent(message)+'&link='+encodeURIComponent(link);</p>
+<p>	console.log(url);</p>
+<p>	jQuery.ajax({</p>
+<p>		url: url,</p>
+<p>		dataType: "jsonp",</p>
+<p>		crossDomain: true,</p>
+<p>		timeout: 15 * 1000,</p>
+<p>		error: errorHandle</p>
+<p>	});</p>
+<p>	return false;</p>
+<p>});</p>
+<p>jQuery('#af-iphone_bubble .closable').live('click', function(){</p>
+<p>	jQuery('#af-iphone_bubble').parent().addClass('hidden');</p>
+<p>});</p>
+<p>jQuery('#af-android_bubble .showlegal').live('click', function(){</p>
+<p>	if(jQuery('#af-android_bubble .s2disclaimer').html() != jQuery('#af-android_bubble .s2legal').html()) {</p>
+<p>		jQuery('#af-android_bubble .s2disclaimer').slideUp(500, function(){</p>
+<p>			jQuery('#af-android_bubble .s2disclaimer').html(jQuery('#af-android_bubble .s2legal').html()).slideDown(500);</p>
+<p>		});</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>});</p>
+<p>jQuery('#af-android_bubble input[value="Send"]').live('click', function(){</p>
+<p>	s2title = jQuery('#af-android_bubble .s2title');</p>
+<p>	phone_n = jQuery('#af-android_bubble input[name="p1"]').val().replace(/-/g, '');</p>
+<p>	if(phone_n == 5555555555 || isNaN(phone_n) || phone_n.length != 10) {</p>
+<p>		jQuery('#af-android_bubble .s2subtitle').fadeOut(500, function () {</p>
+<p>			jQuery('#af-android_bubble .s2subtitle').html('Please use a valid 10-digit mobile number.').css('color', '#FF0000').fadeIn(500);</p>
+<p>		});</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	jQuery('#af-android_bubble .s2title').html('Sending...');</p>
+<p>	var appid = '26';</p>
+<p>	var appkey = 'ao1qvHJSh3Z7hgQQ';</p>
+<p>	var phone = phone_n;</p>
+<p>	var message = 'Huffington Post for Android';</p>
+<p>	var link = 'http://market.android.com/details?id=com.huffingtonpost.android';</p>
+<p>	var url = 'http://s2c.aol.com/s2c/sendtocell.jsp?appid='+encodeURIComponent(appid)+'&appkey='+encodeURIComponent(appkey)+'&phone='+encodeURIComponent(phone)+'&message='+encodeURIComponent(message)+'&link='+encodeURIComponent(link);</p>
+<p>	console.log(url);</p>
+<p>	jQuery.ajax({</p>
+<p>		url: url,</p>
+<p>		dataType: "jsonp",</p>
+<p>		crossDomain: true,</p>
+<p>		timeout: 15 * 1000,</p>
+<p>		error: errorHandle</p>
+<p>	});</p>
+<p>	return false;</p>
+<p>});</p>
+<p>jQuery('#af-android_bubble .closable').live('click', function(){</p>
+<p>	jQuery('#af-android_bubble').parent().addClass('hidden');</p>
+<p>});</p>
+<p>jQuery('#af-blackberry_bubble .showlegal').live('click', function(){</p>
+<p>	if(jQuery('#af-blackberry_bubble .s2disclaimer').html() != jQuery('#af-blackberry_bubble .s2legal').html()) {</p>
+<p>		jQuery('#af-blackberry_bubble .s2disclaimer').slideUp(500, function(){</p>
+<p>			jQuery('#af-blackberry_bubble .s2disclaimer').html(jQuery('#af-blackberry_bubble .s2legal').html()).slideDown(500);</p>
+<p>		});</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>});</p>
+<p>jQuery('#af-blackberry_bubble input[value="Send"]').live('click', function(){</p>
+<p>	s2title = jQuery('#af-blackberry_bubble .s2title');</p>
+<p>	phone_n = jQuery('#af-blackberry_bubble input[name="p1"]').val().replace(/-/g, '');</p>
+<p>	if(phone_n == 5555555555 || isNaN(phone_n) || phone_n.length != 10) {</p>
+<p>		jQuery('#af-blackberry_bubble .s2subtitle').fadeOut(500, function () {</p>
+<p>			jQuery('#af-blackberry_bubble .s2subtitle').html('Please use a valid 10-digit mobile number.').css('color', '#FF0000').fadeIn(500);</p>
+<p>		});</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	jQuery('#af-blackberry_bubble .s2title').html('Sending...');</p>
+<p>	var appid = '26';</p>
+<p>	var appkey = 'ao1qvHJSh3Z7hgQQ';</p>
+<p>	var phone = phone_n;</p>
+<p>	var message = 'Huffington Post for Blackberry';</p>
+<p>	var link = 'http://appworld.blackberry.com/webstore/content/19143';</p>
+<p>	var url = 'http://s2c.aol.com/s2c/sendtocell.jsp?appid='+encodeURIComponent(appid)+'&appkey='+encodeURIComponent(appkey)+'&phone='+encodeURIComponent(phone)+'&message='+encodeURIComponent(message)+'&link='+encodeURIComponent(link);</p>
+<p>	console.log(url);</p>
+<p>	jQuery.ajax({</p>
+<p>		url: url,</p>
+<p>		dataType: "jsonp",</p>
+<p>		crossDomain: true,</p>
+<p>		timeout: 15 * 1000,</p>
+<p>		error: errorHandle</p>
+<p>	});</p>
+<p>	return false;</p>
+<p>});</p>
+<p>jQuery('#af-blackberry_bubble .closable').live('click', function(){</p>
+<p>	jQuery('#af-blackberry_bubble').parent().addClass('hidden');</p>
+<p>});</p>
+<p>Connect with your friends</p>
+<p>Check out stories you might like,  and see what your friends are sharing!</p>
+<p>Loading twitter module...</p>
+<p>Most Popular on Healthy Living</p>
+<p>kUTCd9TnBwv%2FJX4%2Bx8tob9KloOCzBx2qPQbtMHYciSYjUJzvyCmhWyNK50XbajsuDv4jh6KDWVMvzyDhvXr4oMTj4U6RwJgL</p>
+<p>uO%2FvB0T9q49m5hIRy0SFw0v48YwqMwihhXF14YhkryZe4dia%2BKEscm%2FbjNUNDX8c4JWG6gSJlU3ikeDZ9%2FXhHXGpFl%2FuvE8u</p>
+<p>1 of 2</p>
+<p>Excedrin Recalled Because Of Stray Pills</p>
+<p>Like</p>
+<p>554</p>
+<p>12 Foods To Add To Your Diet in 2012</p>
+<p>Like</p>
+<p>286</p>
+<p>7 Weird Things That Happen During Sleep, Explained</p>
+<p>Like</p>
+<p>132</p>
+<p>Trans Fat: Hiding In Plain Sight</p>
+<p>Like</p>
+<p>163</p>
+<p>How To Let Go Of Your Hurt Feelings</p>
+<p>Like</p>
+<p>314</p>
+<p>What Extreme Stress Could Be Doing To Your Brain</p>
+<p>Like</p>
+<p>172</p>
+<p>5 Tips To Avoid Yoga Injuries</p>
+<p>Like</p>
+<p>289</p>
+<p>The Truth Behind Common Eating Disorder Myths</p>
+<p>Recommend</p>
+<p>133</p>
+<p>How Frequent Restaurant Eaters Drop Pounds</p>
+<p>Like</p>
+<p>43</p>
+<p>Don't Miss HuffPost Bloggers</p>
+<p>1 of 5</p>
+<p>Donna Karan</p>
+<p>Haiti: A Story of Resilience, Creativity & Passion</p>
+<p>Dave "Mudcat" Saunders</p>
+<p>U.S. Content to Sit on Haiti Aid</p>
+<p>Bernard-Henri Lévy</p>
+<p>Could the Fate of Europe, Also, Hinge on Budapest?</p>
+<p>Martha Coakley</p>
+<p>Giving Voice Back to the People</p>
+<p>Evan Shapiro</p>
+<p>Nobody Knows Anything</p>
+<p>Mohamed A. El-Erian</p>
+<p>Noisy Election Campaign Is a Prelude to Partial Compromise</p>
+<p>Chris Mooney</p>
+<p>Why Republicans Deny Science: The Quest for a Scientific Explanation</p>
+<p>Rider Strong</p>
+<p>2011: The Year I Kept My Mouth Shut</p>
+<p>Paul Rieckhoff</p>
+<p>A Message to All Candidates: Our Troops Aren’t Props</p>
+<p>Bif Naked</p>
+<p>How My Father Put Me At Ease With My Childhood ’Lesbian’ Dalliances</p>
+<p> </p>
+<p>                if($('snp_not_signed_mp_page_0'))</p>
+<p>                    huff.emit('content/update', '#snp_not_signed_mp_page_0');</p>
+<p>                if($('snp_not_signed_mpr_page_0'))</p>
+<p>                    huff.emit('content/update', '#snp_not_signed_mpr_page_0');</p>
+<p>            </p>
+<p>MOST DISCUSSED RIGHT NOW</p>
+<p>2RgnQXLokElFimSGDV8i8a43pip0bdKP</p>
+<p>iJKomeBLqmM3QvAVQ0trgKQA9zRBn5c9</p>
+<p>1of 2</p>
+<p>7 Weird Things That Happen During Sleep, Explained</p>
+<p>Michelle Obama Tackling PTSD Treatment For Veterans</p>
+<p> </p>
+<p>HOT ON FACEBOOK</p>
+<p>2RgnQXLokElFimSGDV8i8TKPvBq8xPkmgYINREC4w8w%3D</p>
+<p>iJKomeBLqmM3QvAVQ0trgPTAYkCdRanfpr%2BnvSQA9QM%3D</p>
+<p>jpeKJKgSs0bJPlRX0pV4Fss35VaaM%2Fhsd5ArrOAf1yA%3D</p>
+<p>RmcWDq5jjxS0vgfq%2BJUHdw%3D%3D</p>
+<p>1 of 3</p>
+<p>5 Tips To Avoid Yoga Injuries</p>
+<p>Like</p>
+<p>289</p>
+<p>How To Let Go Of Your Hurt Feelings</p>
+<p>Like</p>
+<p>314</p>
+<p> </p>
+<p>HOT ON TWITTER</p>
+<p>2RgnQXLokElFimSGDV8i8f8ym0hHXTuf</p>
+<p>iJKomeBLqmM3QvAVQ0trgDrc%2BaNUFZ3B</p>
+<p>1of 2</p>
+<p>RT @alyssa_milano Incredible! Must See! ➛ http://t.co/pMdfLQZF /via @heykim</p>
+<p>alyssa_milano</p>
+<p>                           </p>
+<p>       Incredible! Must See! ➛ http://t.co/pMdfLQZF /via @heykim </p>
+<p>Retweet</p>
+<p>RT @louiebaur Girl Scout Launches Cookie Boycott Campaign After Organization's Inclusion Of Transgender Child (VIDEO) http://t.co/KfgJjZ30</p>
+<p>louiebaur</p>
+<p>                           </p>
+<p>       Girl Scout Launches Cookie Boycott Campaign After Organization's Inclusion Of Transgender Child (VIDEO) http://t.co/KfgJjZ30 </p>
+<p>Retweet</p>
+<p> </p>
+<p>		SNPModule.HotOn.init(); // initialize tracking</p>
+<p>	</p>
+<p> </p>
+<p>                        if(HPAds.ad_check_page_config('sponsorship_2')) {</p>
+<p>                            var adId = 'null';</p>
+<p>                            HPAds.adSonar("1519978", "2301767", "300", "250");</p>
+<p>                            var debugadcode = '';</p>
+<p>                            document.write(debugadcode);</p>
+<p>                        }</p>
+<p>                    </p>
+<p>HUFFPOST'S BIG NEWS PAGES</p>
+<p>Office Theft: Why Employees May Steal At Work</p>
+<p>Video</p>
+<p>Newt Gingrich vs. Mitt Romney: Former House Speaker Defends Bain Capital Attack</p>
+<p>South Carolina Primary</p>
+<p>Retail Sales December 2011: Retail Sales Increased By The Most In A Decade Last Year</p>
+<p>Holidays</p>
+<p>With 'Dr. Sweet's Tinderbox' Wright Museum Tackles Legacy Of Segregation</p>
+<p>Segregation</p>
+<p>Bill Moyers: I'm Back On TV Because 'Nothing Else Was As Interesting'</p>
+<p>AP</p>
+<p>Haiti Earthquake Aftermath: Grassroots Charities Tackle Illiteracy In Country's Slums</p>
+<p>Haiti Earthquake</p>
+<p>R-Patz shaves his head!</p>
+<p>Robert Pattinson</p>
+<p>Beyonce's Hospital Birthing Suite (PHOTOS)</p>
+<p>Beyonce </p>
+<p>David Cameron: I Want To Do My Bit To Get Women In Parliament</p>
+<p>UK Equality</p>
+<p>more big news pages »</p>
+<p>			</p>
+<p>huff.emit('content/update', '#most_popular_bpages');</p>
+<p> </p>
+<p>FRONT PAGE</p>
+<p>U.S.</p>
+<p>UK</p>
+<p>CANADA</p>
+<p>POLITICS</p>
+<p>2012 BLOG</p>
+<p>HUFFPOST HILL</p>
+<p>2012 ELECTIONS</p>
+<p>FUNDRACE</p>
+<p>GREEN</p>
+<p>POLLSTER</p>
+<p>SPECULATRON</p>
+<p>OFF THE BUS</p>
+<p>BUSINESS</p>
+<p>SMALL BUSINESS</p>
+<p>ENTERTAINMENT</p>
+<p>CELEBRITY</p>
+<p>ENTERTAINMENT</p>
+<p>MUSIC</p>
+<p>RADIO</p>
+<p>MOVIES</p>
+<p>TV</p>
+<p>GAMES</p>
+<p>COMEDY</p>
+<p>TECH</p>
+<p>TECH</p>
+<p>TECHCRUNCH</p>
+<p>JOYSTIQ</p>
+<p>SCIENCE</p>
+<p>ENGADGET</p>
+<p>APPLE BLOG</p>
+<p>MEDIA</p>
+<p>LIFE & STYLE</p>
+<p>STYLE NEWS</p>
+<p>STYLELIST</p>
+<p>FOOD NEWS</p>
+<p>WEDDINGS</p>
+<p>PARENTS</p>
+<p>GREEN</p>
+<p>TRAVEL</p>
+<p>STYLELIST HOME</p>
+<p>KITCHEN DAILY</p>
+<p>DIVORCE</p>
+<p>HUFF/POST50</p>
+<p>RELIGION</p>
+<p>CULTURE</p>
+<p>ARTS</p>
+<p>PARENTS</p>
+<p>TRAVEL</p>
+<p>COLLEGE</p>
+<p>RELIGION</p>
+<p>IMPACT</p>
+<p>BOOKS</p>
+<p>EDUCATION</p>
+<p>COMEDY</p>
+<p>URLESQUE</p>
+<p>HEALTHY LIVING</p>
+<p>HEALTH AND FITNESS</p>
+<p>HEALTH NEWS</p>
+<p>MINDFUL LIVING</p>
+<p>SLEEP</p>
+<p>WOMEN</p>
+<p>HEALTHY LIVING</p>
+<p>PARENTS</p>
+<p>LOCAL</p>
+<p>NEW YORK</p>
+<p>SAN FRANCISCO</p>
+<p>DENVER</p>
+<p>MIAMI</p>
+<p>PATCH</p>
+<p>CHICAGO</p>
+<p>LOS ANGELES</p>
+<p>DC</p>
+<p>DETROIT</p>
+<p>YELLOW PAGES</p>
+<p>MORE</p>
+<p>SCIENCE</p>
+<p>BLACKVOICES</p>
+<p>SPORTS</p>
+<p>WORLD</p>
+<p>EDUCATION</p>
+<p>GAY VOICES</p>
+<p>GREEN</p>
+<p>LATINOVOICES</p>
+<p>COLLEGE</p>
+<p>CRIME</p>
+<p>WEIRD NEWS</p>
+<p>HIGH SCHOOL</p>
+<p> </p>
+<p>HEALTHY LIVING </p>
+<p>HEALTH AND FITNESS</p>
+<p>MINDFUL LIVING</p>
+<p>HEALTH NEWS</p>
+<p>Advertise | </p>
+<p>Make HuffPost your Home Page | </p>
+<p>RSS | </p>
+<p>Careers | </p>
+<p>FAQ</p>
+<p>User Agreement | </p>
+<p>Privacy | </p>
+<p>Comment Policy | </p>
+<p>About Us | </p>
+<p>About Our Ads | </p>
+<p>Contact Us</p>
+<p>Copyright © 2012 TheHuffingtonPost.com, Inc. | </p>
+<p>"The Huffington Post" is a registered trademark of TheHuffingtonPost.com, Inc. All rights reserved.</p>
+<p>Part of AOL Lifestyle</p>
+<p>huff.emit('content/update', '#twitter_promo');</p>
+<p>    //ads processing</p>
+<p>    if (HuffPoUtil.WEDGJE.ad_renders && HuffPoUtil.WEDGJE.ad_renders.length)</p>
+<p>    {</p>
+<p>        for (var i=0; i<HuffPoUtil.WEDGJE.ad_renders.length; i++)</p>
+<p>        {</p>
+<p>            HuffPoUtil.WEDGJE.ad_renders[i]();</p>
+<p>        }</p>
+<p>    }</p>
+<p>                    </p>
+<p>                    HPAds.ad_store_move_to_place(false);</p>
+<p>                 </p>
+<p>	/* use hot keys for slidehow */</p>
+<p>		</p>
+<p>    // add to body browser type</p>
+<p>    jQuery('body').addClass(HPBrowser.browser_class().toLowerCase() + (HPBrowser.version() + '').replace('.', '-'));</p>
+<p>	if (HuffCookies.get('huffpost_become_fan'))</p>
+<p>	{</p>
+<p>		simulateClick("blogger_menu_becomefan");</p>
+<p>		HuffCookies.del('huffpost_become_fan');</p>
+<p>	}</p>
+<p>	document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>    var comscore_data = {</p>
+<p>        c1:2,</p>
+<p>        c2:6723616,</p>
+<p>        c3:"",</p>
+<p>        c4:"",</p>
+<p>        c5:"healthy-living",</p>
+<p>        c6:"",</p>
+<p>        c15:"",</p>
+<p>        options: {</p>
+<p>            url_append: "comscorekw=healthy-living"</p>
+<p>        }</p>
+<p>    }</p>
+<p>    COMSCORE.beacon(comscore_data);</p>
+<p>    var HPS = HPTrack.Services;</p>
+<p>    HPS.setOptions('Quantcast', {</p>
+<p>        labels:"Healthy-Living",</p>
+<p>        qacct:"p-6fTutip1SMLM2"</p>
+<p>    });</p>
+<p>    HPS.trackTo(['Quantcast']);</p>
+<p>    </p>
+<p>HPUtil.ExtTracking.Nielsen();</p>
+<p>HuffPost Lightbox</p>
+<p>			BF_BB_DATA = null;</p>
+<p>			(function( ){</p>
+<p>			        document.write('<div id="BF_BUZZBOX" style="height: 0px; width: 0px;"></div>');</p>
+<p>			            var sid="71I817";   var c=""; var b="";</p>
+<p>			            BF_BB_SCRIPT=document.createElement('script'); BF_BB_SCRIPT.type="text/javascript";</p>
+<p>			                BF_BB_SRC="http://buzzbox.buzzfeed.com/wd/BuzzBox?sid=" + sid + c + b + '&it=1&cb=' + (new Date()).getTime();</p>
+<p>			                setTimeout(function() { document.getElementById('BF_BUZZBOX').appendChild(BF_BB_SCRIPT); BF_BB_SCRIPT.src=BF_BB_SRC; },1);</p>
+<p>			})();</p>
+<p>		</p>
+<p>        HPAds.ad_html_wh("healthy-living","bpage");</p>
+<p>huff.use('conf', function(c){ c.set({"mtime":1326380292,"entry":1201597,"vertical":"healthy-living","vertical-id":36,"vertical-name":"Healthy Living","ads\/zone":"","vertical\/bignews":"health","threeup":{"version":2},"twitter\/search":{"clientside":true,"keyword":"heart marathoners","config":{"search_tag":"heart marathoners"}}}); });</p>

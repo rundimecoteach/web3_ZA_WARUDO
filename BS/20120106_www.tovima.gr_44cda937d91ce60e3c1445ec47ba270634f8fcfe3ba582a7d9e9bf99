@@ -1,0 +1,787 @@
+<p>ΤΟ ΒΗΜΑ - Η οδοντόβουρτσα νικά την... πνευμονία - science  - Ιατρική – Βιολογία</p>
+<p>var relatedWide = 0;</p>
+<p>var NvPage = {</p>
+<p>    PageId: 6551,</p>
+<p>    LanguageId: 1,</p>
+<p>    PageHierarchy: ".6290.6550.6551."</p>
+<p>}</p>
+<p> ΤΕΛΕΥΤΑΙΕΣ ΕΙΔΗΣΕΙΣ:   </p>
+<p>Κανονικά εκτελούνται οι συνταγές από τα φαρμακεία</p>
+<p>Παράταση ως τις 16 Ιανουαρίου για το σήμα τελών κυκλοφορίας</p>
+<p>ΕΓΓΡΑΦΗ</p>
+<p> ΕΙΣΟΔΟΣ</p>
+<p>ΒΗΜΑ24</p>
+<p>Ιστορικό Αρχείο ΔΟΛ</p>
+<p>PDF όπως στο χαρτί</p>
+<p>Τροποποίηση Στοιχείων Μέλους</p>
+<p>Επιλογές Newsletter</p>
+<p>πολιτική</p>
+<p>οικονομία</p>
+<p>γνώμες</p>
+<p>blogs</p>
+<p>κόσμος</p>
+<p>επιστήμη</p>
+<p>κοινωνία</p>
+<p>πολιτισμός</p>
+<p>αθλητισμός</p>
+<p>$(document).ready(function(){</p>
+<p>         $("body").attr("id",'page_'+getIdPageStyle());</p>
+<p>         $("div.type_homepage").attr("id",getIdPageStyle());</p>
+<p>	 $("div.type_tagpage").attr("id",getIdPageStyle());</p>
+<p>	 $("div.type_article").attr("id",getIdPageStyle());</p>
+<p>	 $("div.gallery_page").attr("id",getIdPageStyle());</p>
+<p>	 $("div.webtv_page").attr("id",getIdPageStyle());</p>
+<p>	 $("div.eikonatisimeras_page").attr("id",getIdPageStyle());</p>
+<p>	 $("div.eikones_page").attr("id",getIdPageStyle());</p>
+<p>         $("div.type_editors").attr("id",getIdPageStyle());</p>
+<p>	 $("div.eikonastisimeras_page").attr("id",getIdPageStyle());</p>
+<p>  $("span#goto_news_").attr("id",'goto_news_'+getIdPageStyle());</p>
+<p>	 $("div.navigation_menu").css("visibility","visible");</p>
+<p>       })</p>
+<p>    </p>
+<p>από </p>
+<p>freemeteo.com</p>
+<p>Σάββατο 14 Ιανουαρίου 2012</p>
+<p>ΑΝΑΖΗΤΗΣΗ</p>
+<p>παιδεία βιβλία + ιδέες </p>
+<p>υγεία + fitness εργασία</p>
+<p>media περιβάλλον ταξίδι</p>
+<p>hi tech οδηγώ web tv</p>
+<p>εικόνες</p>
+<p>ψυχαγωγία </p>
+<p>φλας comedy</p>
+<p>BHMagazino </p>
+<p>BHMAgourmet </p>
+<p>BHMAdeco BHMAdonna</p>
+<p>BHMAmen BHMA FM night</p>
+<p>store</p>
+<p> </p>
+<p> </p>
+<p>Θεοδώρα Τσώλη </p>
+<p>EMAIL</p>
+<p> </p>
+<p>Στείλτε email στον συντάκτη</p>
+<p>|</p>
+<p>RSS</p>
+<p> </p>
+<p>Όλα τα άρθρα του συντάκτη σε RSS</p>
+<p>$(document).ready(function(){</p>
+<p>$("#email").mouseover(function() {</p>
+<p>$(jQuery($(this).next())).css("left",$(this).position().left - 40);</p>
+<p>$(jQuery($(this).next())).show();</p>
+<p>}).mouseout(function() {</p>
+<p>$(jQuery($(this).next())).hide();</p>
+<p>});</p>
+<p>$("#www").mouseover(function() {</p>
+<p>$(jQuery($(this).next())).css("left",$(this).position().left - 40);</p>
+<p>$(jQuery($(this).next())).show();</p>
+<p>}).mouseout(function() {</p>
+<p>$(jQuery($(this).next())).hide();</p>
+<p>});</p>
+<p>$("#fb").mouseover(function() {</p>
+<p>$(jQuery($(this).next())).css("left",$(this).position().left - 47);</p>
+<p>$(jQuery($(this).next())).show();</p>
+<p>}).mouseout(function() {</p>
+<p>$(jQuery($(this).next())).hide();</p>
+<p>});</p>
+<p>$("#tw").mouseover(function() {</p>
+<p>$(jQuery($(this).next())).css("left",$(this).position().left - 47);</p>
+<p>$(jQuery($(this).next())).show();</p>
+<p>}).mouseout(function() {</p>
+<p>$(jQuery($(this).next())).hide();</p>
+<p>});</p>
+<p>$("#rss").mouseover(function() {</p>
+<p>$(jQuery($(this).next())).css("left",$(this).position().left - 45);</p>
+<p>$(jQuery($(this).next())).show();</p>
+<p>}).mouseout(function() {</p>
+<p>$(jQuery($(this).next())).hide();</p>
+<p>});</p>
+<p>});</p>
+<p>Η οδοντόβουρτσα νικά την... πνευμονία</p>
+<p>Κυρίως τα ηλικιωμένα άτομα αντιμετωπίζουν αυξημένο κίνδυνο της νόσου εάν δεν πλένουν συχνά τα δόντια τους</p>
+<p>ΔΗΜΟΣΙΕΥΣΗ:  28/12/2011, 15:17</p>
+<p>Το συχνό βούρτσισμα των δοντιών δεν χαρίζει μόνο λαμπερό χαμόγελο  αλλά - κυρίως στα ηλικιωμένα άτομα - σώζει και από την πνευμονία</p>
+<p>					    var addthis_config = { "data_track_clickback": true };</p>
+<p>emailεκτύπωσημικρό μέγεθος </p>
+<p>μεγάλο μέγεθος</p>
+<p>Βοστόνη </p>
+<p>Πολλοί άνθρωποι, κυρίως ηλικιωμένοι, αντιμετωπίζουν αυξημένο κίνδυνο πνευμονίας αυτόν τον χειμώνα εάν αμελούν να χρησιμοποιούν τακτικά την… οδοντόβουρτσά τους. Αυτό προειδοποιούν ειδικοί της Ιατρικής Σχολής του Πανεπιστημίου Γέιλ οι οποίοι ανακάλυψαν σύνδεση μεταξύ των βακτηρίων του στόματος και της πνευμονίας, η οποία αποτελεί έναν εν δυνάμει σοβαρό «εχθρό» της υγείας, ακόμη και της ίδιας της ζωής. </p>
+<p>Προάγγελος οι αλλαγές στα στοματικά βακτήρια</p>
+<p>Όπως συγκεκριμένα ανέφερε ο επικεφαλής της νέας μελέτης δρ Σαμίθ Τζόουσι κατά τη διάρκεια του ετήσιου συνεδρίου της Αμερικανικής Εταιρείας Μεταδοτικών Νόσων στη Βοστόνη, η ομάδα του ανακάλυψε ότι αλλαγές που προκαλούνται στα βακτήρια του στόματος προηγούνται της ανάπτυξης πνευμονίας. </p>
+<p>Σύμφωνα με τον ερευνητή, αν και απαιτούνται περαιτέρω μελέτες προκειμένου να προσδιοριστεί η ακριβής σχέση μεταξύ στοματικής υγείας και πνευμονίας, δεν είναι η πρώτη φορά που τα στοματικά προβλήματα συνδέονται με νόσους του αναπνευστικού. </p>
+<p>Διαφορετικές βακτηριακής προέλευσης ασθένειες των πνευμόνων αποδίδονται στην εισπνοή μικροσκοπικών σταγονιδίων που «ταξιδεύουν» από το στόμα και τον λαιμό ως τους πνεύμονες. Αυτό μπορεί να οδηγήσει σε λοιμώξεις όπως η πνευμονία ή να επιδεινώσει τα συμπτώματα ενός ήδη υπάρχοντος αναπνευστικού προβλήματος,. </p>
+<p>Ουλίτιδα και θνησιμότητα από πνευμονία</p>
+<p>Προηγούμενες μελέτες έχουν μάλιστα δείξει ακόμη και υψηλότερα ποσοστά θνησιμότητας εξαιτίας πνευμονίας σε άτομα με προβλήματα των ούλων. </p>
+<p>Τα νέα ευρήματα που βασίστηκαν σε παρακολούθηση 37 ατόμων επί έναν μήνα παρέχουν περαιτέρω ενδείξεις σχετικά με το ότι η στοματική υγεία αποτελεί «διαβατήριο» και για την υγεία του αναπνευστικού συστήματος, όχι μόνο στα ηλικιωμένα αλλά και στα νεαρότερα άτομα, σύμφωνα με τον επικεφαλής του Βρετανικού Ιδρύματος για την Υγεία των Δοντιών, δρα Νάιτζελ Κάρτερ.</p>
+<p>Ο δρ Κάρτερ τόνισε ότι «κατά τους χειμερινούς μήνες όλος ο πληθυσμός είναι πιο ευάλωτος στα κρυολογήματα και στις αναπνευστικές νόσους εξαιτίας της πτώσης της θερμοκρασίας. Για αυτό πρέπει να θυμόμαστε, και κυρίως τα άτομα που είναι πιο ευάλωτα, ότι η πρόληψη είναι το σημαντικότερο όπλο. Εχει ήδη φανεί από διαφορετικά στοιχεία ότι υπάρχει ισχυρή σύνδεση μεταξύ της ουλίτιδας και της γενικότερης υγείας του οργανισμού, γεγονός που μαρτυρεί ότι, ειδικά αυτήν την εποχή του χρόνου, εάν διατηρούμε σε καλά επίπεδα τη στοματική υγεία μας, μπορούμε να προλάβουμε νόσους». </p>
+<p>Συμβουλές για γερούς πνεύμονες </p>
+<p>Ο επικεφαλής του βρετανικού Ιδρύματος έδωσε μάλιστα απλές αλλά ζωτικής σημασίας συμβουλές που οδηγούν όχι μόνο σε λαμπερό χαμόγελο αλλά και σε…γερούς πνεύμονες: </p>
+<p>Βούρτσισμα των δοντιών επί δύο λεπτά τη φορά, δύο φορές την ημέρα</p>
+<p>Χρήση οδοντόκρεμας με φθόριο</p>
+<p>Καθάρισμα των δοντιών μέσα στην ημέρα με οδοντικό νήμα ή μεσοδόντια βουρτσάκια</p>
+<p>Μείωση της κατανάλωσης τροφών και ποτών με ζάχαρη</p>
+<p>Επίσκεψη στον οδοντίατρο κάθε εξάμηνο. </p>
+<p>Ο ειδικός υπογράμμισε ότι εάν ένα άτομο έχει πρησμένα ούλα που αιμορραγούν συχνά κατά το βούρτσισμα, εάν εμφανίζει δυσάρεστη αναπνοή, εάν αντιλαμβάνεται ότι τα δόντια του δεν είναι… σταθερά ή πάσχει συχνά από μολύνσεις στο στόμα, τότε πιθανότατα έχει πρόβλημα ουλίτιδας και πρέπει να επισκεφθεί άμεσα τον οδοντίατρο. </p>
+<p>Ιατρική – Βιολογία περισσότερες ειδήσεις</p>
+<p>					    var addthis_config = { "data_track_clickback": true };</p>
+<p>emailεκτύπωσημικρό μέγεθος </p>
+<p>μεγάλο μέγεθος</p>
+<p>ΛΕΞΕΙΣ ΚΛΕΙΔΙΑ</p>
+<p>βούρτσισμα, </p>
+<p>δόντια, </p>
+<p>πνευμονία, </p>
+<p>στοματικά βακτήρια, </p>
+<p>ουλίτιδα, </p>
+<p>ηλικιωμένη, </p>
+<p>νόσοι του αναπνευστικού </p>
+<p> </p>
+<p>				 var hasarticle = 0;</p>
+<p>				 </p>
+<p>			</p>
+<p>ΔΙΑΒΑΣΤΕ ΕΠΙΣΗΣ</p>
+<p> </p>
+<p>				 </p>
+<p>				$(document).ready(function(){</p>
+<p>				 if (hasarticle == 0){</p>
+<p>				 	if(jQuery(".article_readalso").length > 0){ </p>
+<p>					$(".article_readalso").remove();}</p>
+<p>				 }</p>
+<p>				 });</p>
+<p>				 </p>
+<p>				</p>
+<p>				 $(document).ready(function(){</p>
+<p>					if(relatedWide < 2)</p>
+<p>						$(".article_readalsomore").attr("id","wide");</p>
+<p>				}); </p>
+<p>		 </p>
+<p>$(document).ready(function(){</p>
+<p>FontSize.Initialize(".article_text", ".rel-icon-font-large", ".rel-icon-font-small");</p>
+<p>});</p>
+<p> </p>
+<p>σχόλια </p>
+<p>(0)</p>
+<p> </p>
+<p> </p>
+<p>            Τίτλος σχολίου *</p>
+<p>            Γράψτε το σχόλιό σας*(έως 2000 χαρακτήρες)</p>
+<p>            απομένουν 2000 χαρακτήρες</p>
+<p>          </p>
+<p>                  jQuery(function(){</p>
+<p>                        jQuery(".article_comments_form_items").tCounter();</p>
+<p>                  });</p>
+<p>              </p>
+<p>            E-mail *</p>
+<p>Όνομα που θα εμφανιστεί το σχόλιό σας</p>
+<p>              Τα πεδία που είναι σημειωμένα με * είναι υποχρεωτικά</p>
+<p>            </p>
+<p>Γράψτε το κείμενο όπως το διαβάζετε παρακάτω:</p>
+<p>            Αν το κείμενο δεν είναι ευδιάκριτο, πατήστε εδώ να δημιουργηθεί νέο κείμενο.</p>
+<p>          </p>
+<p> </p>
+<p>Αποστολή μηνύματοςΚαθαρισμός</p>
+<p>Τα μηνύματα που δημοσιεύονται στο χώρο αυτό εκφράζουν τις απόψεις των αποστολέων τους. Το ΒΗΜΑ δεν υιοθετεί καθ’ οιονδήποτε τρόπο τις απόψεις αυτές. Ο καθένας έχει δικαίωμα να εκφράζει την γνώμη του, όποια και να είναι αυτή. Δεν δημοσιεύονται συκοφαντικά ή υβριστικά σχόλια. Τέτοια μηνύματα θα διαγράφονται όποτε εντοπίζονται.</p>
+<p>                Ιατρική – Βιολογία</p>
+<p>                Φυσική – Διάστημα </p>
+<p>                Τεχνολογία – Πλανήτης</p>
+<p>                Μαθηματικά – Πληροφορική </p>
+<p>                Ψυχολογία – Κοινωνιολογία </p>
+<p>                Ερευνα στην Ελλάδα</p>
+<p> </p>
+<p>ΔΙΑΒΑΣΜΕΝΑ</p>
+<p>ΣΧΟΛΙΑΣΜΕΝΑ</p>
+<p>Ιατρική – Βιολογία-  Στις 5 εβδομάδες αποκαλύπτεται το φύλο του εμβρύου </p>
+<p>      12/01/2012, 13:02</p>
+<p>                Σχόλια (1)</p>
+<p>              </p>
+<p>Ιατρική – Βιολογία-  O εθισμός στο Ιντερνετ αλλάζει τον εγκέφαλο </p>
+<p>      12/01/2012, 16:31Σχολιάστε</p>
+<p>Ιατρική – Βιολογία-  Το πάγκρεας υποφέρει από το... κρέας </p>
+<p>      13/01/2012, 13:46Σχολιάστε</p>
+<p>Ιατρική – Βιολογία-  Το πρώτο «ένοχο» γονίδιο για τον προστάτη </p>
+<p>      12/01/2012, 14:49Σχολιάστε</p>
+<p>Ιατρική – Βιολογία-  Το αλκοόλ «γεννά» τα χημικά της ευχαρίστησης </p>
+<p>      12/01/2012, 13:21Σχολιάστε</p>
+<p>Ιατρική – Βιολογία-  Δημιούργησαν μυρμήγκια υπερστρατιώτες </p>
+<p>      09/01/2012, 13:27</p>
+<p>                Σχόλια (2)</p>
+<p>              </p>
+<p> </p>
+<p>vimascience </p>
+<p>        Η εξουσία χαρίζει... ύψοςhttp://bit.ly/yCeb66</p>
+<p> </p>
+<p>tovima </p>
+<p>				Τουλάχιστον τρία άτομα σκοτώθηκαν, σύμφωνα με πληροφορίες, όταν το κρουαζιερόπλοιο Costa Concordia προσάραξε κοντά στο νησί Τζίλιο στην Τοσκάνη.$(document).ready(function(){</p>
+<p>				</p>
+<p>				$(".facebook_follow").html('<iframe src="http://www.facebook.com/plugins/like.php?href="{link}"&amp;layout=button_count&amp;show_faces=false&amp;width=86&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:86px; height:21px;" allowTransparency="true"></iframe>');</p>
+<p>				});</p>
+<p>				</p>
+<p>					</p>
+<p>Newsroom</p>
+<p>Διαβάστε στο Βήμα της Κυριακής </p>
+<p>			</p>
+<p>[19:41]</p>
+<p>Τρεις νεκροί σε κρουαζιερόπλοιο - Σώοι τρεις Ελληνες επιβάτες  </p>
+<p>			</p>
+<p>[18:57]</p>
+<p>Αίγυπτος: Δεν θα είναι υποψήφιος στις εκλογές ο Ελ Μπαραντέι </p>
+<p>			</p>
+<p>[18:45]</p>
+<p>Ευ. Βενιζέλος: Φίλε Γιώργο σε συγχαίρω για την αποχώρηση </p>
+<p>			</p>
+<p>[18:09]</p>
+<p>Γ. Παπανδρέου: Εκλογή προέδρου τον Μάρτιο μετά το PSI </p>
+<p>			</p>
+<p>[17:01]</p>
+<p>Ξεκίνησε το Εθνικό Συμβούλιο του ΠαΣοΚ </p>
+<p>			</p>
+<p>[16:09]</p>
+<p>Στρατιωτική επέμβαση στη Συρία ζητά από αραβικές χώρες το Κατάρ </p>
+<p>			</p>
+<p>[15:29]</p>
+<p>Η ΑΕΚ στα δίχτυα του ΣΔΟΕ </p>
+<p>			</p>
+<p>[13:08]</p>
+<p>Αισιόδοξος ο κ. Βενιζέλος για την ολοκλήρωση του PSI  </p>
+<p>			</p>
+<p>[12:59]</p>
+<p>Συνελήφθησαν τρεις για την απαγωγή 25χρονης  </p>
+<p>			</p>
+<p>[12:16]</p>
+<p>Οι κουκκίδες του Ντάμιεν Χιρστ ταξιδεύουν σε όλο τον κόσμο </p>
+<p>			</p>
+<p>[11:46]</p>
+<p>Το χιόνι υπάρχει, ο κόσμος αναζητείται... </p>
+<p>			</p>
+<p>[11:26]</p>
+<p>περισσότερες ειδήσεις</p>
+<p>SITEMAP</p>
+<p>RSS ΕΝΟΤΗΤΩΝ</p>
+<p>RSS ΣΥΝΤΑΚΤΩΝ</p>
+<p>      </p>
+<p>        $(document).ready(function () {</p>
+<p>            $("select[name='moreUrlNavigateSelect']").change(function () {</p>
+<p>                $("select option:selected").each(function () {</p>
+<p>                    if ($(this).attr('value') != 'null') {</p>
+<p>                        window.open($(this).attr('value'), "newwindow");</p>
+<p>                    }</p>
+<p>                });</p>
+<p>            });</p>
+<p>        });</p>
+<p> </p>
+<p>    </p>
+<p>            ΤΟ ΒΗΜΑ</p>
+<p>          </p>
+<p>πολιτική</p>
+<p>οικονομία</p>
+<p>επικαιρότητα</p>
+<p>αγορές</p>
+<p>επιχειρήσεις</p>
+<p>διεθνή</p>
+<p>γνώμες</p>
+<p>blogs</p>
+<p>κόσμος</p>
+<p>κοινωνία</p>
+<p>αθλητισμός</p>
+<p>science</p>
+<p>ιατρική-βιολογία</p>
+<p>φυσική-διάστημα</p>
+<p>τεχνολογία-πλανήτης</p>
+<p>μαθηματικά-πληροφορική</p>
+<p>ψυχολογία-κοινωνιολογία</p>
+<p>έρευνα</p>
+<p>πολιτισμός</p>
+<p>αρχαιολογία</p>
+<p>εικαστικά</p>
+<p>θέατρο</p>
+<p>κινηματογράφος</p>
+<p>μουσική</p>
+<p>πρόσωπα</p>
+<p>παιδεία</p>
+<p>βιβλία + ιδέες</p>
+<p>υγεία + fitness</p>
+<p>media</p>
+<p>περιβάλλον</p>
+<p>hi tech</p>
+<p>ταξίδι</p>
+<p>οδηγώ</p>
+<p>comedy</p>
+<p>web tv</p>
+<p>εικόνες</p>
+<p>ψυχαγωγία</p>
+<p>φλας</p>
+<p>εργασία</p>
+<p>store</p>
+<p>night</p>
+<p>BHMagazino</p>
+<p>Συνεντεύξεις</p>
+<p>Μ΄ αρέσει</p>
+<p>Βλέμματα</p>
+<p>Last Page</p>
+<p>Εκκεντρικοί</p>
+<p>24x7</p>
+<p>BHMAgourmet</p>
+<p>Συνταγές</p>
+<p>Εστιατόρια</p>
+<p>Παντοπωλείο</p>
+<p>Κάβα</p>
+<p>Νοστιμιά</p>
+<p>BHMAdeco</p>
+<p>Σπίτια</p>
+<p>Τάσεις</p>
+<p>Δημιουργός</p>
+<p>Κήπος</p>
+<p>Αγορά</p>
+<p>BHMAdonna</p>
+<p>Μόδα</p>
+<p>Ομορφιά</p>
+<p>Σχέσεις</p>
+<p>Μίλα μου</p>
+<p>Shopping</p>
+<p>Μητέρα</p>
+<p>BHMAmen</p>
+<p>Αντρες</p>
+<p>Γυναίκες</p>
+<p>Στυλ</p>
+<p>Manual</p>
+<p>Κουβέντες</p>
+<p>Spirits</p>
+<p>BHMA FM</p>
+<p>Ακούστε ζωντανά</p>
+<p>Πρόγραμμα</p>
+<p>Παραγωγοί</p>
+<p>Διαγωνισμοί</p>
+<p>Χορηγίες</p>
+<p>Προσφορές</p>
+<p>Συνεντεύξεις</p>
+<p>Άλλοι δικτυακοί τόποι</p>
+<p>ΤA ΝΕΑ</p>
+<p>in.gr</p>
+<p>Βήμα Ιδεών</p>
+<p>BHMAFM 99,5</p>
+<p>      </p>
+<p>        $(document).ready(function () {</p>
+<p>            $("select[name='moreUrlNavigateSelect']").change(function () {</p>
+<p>                $("select option:selected").each(function () {</p>
+<p>                    if ($(this).attr('value') != 'null') {</p>
+<p>                        window.open($(this).attr('value'), "newwindow");</p>
+<p>                    }</p>
+<p>                });</p>
+<p>            });</p>
+<p>        });</p>
+<p> </p>
+<p>    </p>
+<p>            ΕΝΟΤΗΤΕΣ</p>
+<p>          </p>
+<p>πολιτική</p>
+<p>οικονομία</p>
+<p>γνώμες</p>
+<p>blogs</p>
+<p>κόσμος</p>
+<p>science</p>
+<p>κοινωνία</p>
+<p>πολιτισμός</p>
+<p>αθλητισμός</p>
+<p>παιδεία</p>
+<p>βιβλία + ιδέες</p>
+<p>υγεία + fitness</p>
+<p>media</p>
+<p>περιβάλλον</p>
+<p>hi tech</p>
+<p>ταξίδι</p>
+<p>οδηγώ</p>
+<p>comedy</p>
+<p>web tv</p>
+<p>εικόνες</p>
+<p>ψυχαγωγία</p>
+<p>φλας</p>
+<p>εργασία</p>
+<p>ΒΗΜαgazino</p>
+<p>ΒΗΜΑgourmet</p>
+<p>ΒΗΜΑFM99,5</p>
+<p>ΒΗΜΑdeco</p>
+<p>ΒΗΜΑdonna</p>
+<p>ΒΗΜΑmen</p>
+<p>night</p>
+<p>      </p>
+<p>        $(document).ready(function () {</p>
+<p>            $("select[name='moreUrlNavigateSelect']").change(function () {</p>
+<p>                $("select option:selected").each(function () {</p>
+<p>                    if ($(this).attr('value') != 'null') {</p>
+<p>                        window.open($(this).attr('value'), "newwindow");</p>
+<p>                    }</p>
+<p>                });</p>
+<p>            });</p>
+<p>        });</p>
+<p> </p>
+<p>    </p>
+<p>              ΣΥΝΤΑΚΤΕΣ</p>
+<p>            </p>
+<p>  Νικολαΐδης Ηλίας </p>
+<p>                   |</p>
+<p>              TThomas Friedman  </p>
+<p>                   |</p>
+<p>              ΑΑνδρουλάκης Μίμης </p>
+<p>                   |</p>
+<p>              Αντιγόνη Πάντα - Χαρβά  </p>
+<p>                   |</p>
+<p>              Αντώνης Καρακούσης  </p>
+<p>                   |</p>
+<p>              Αρης Ραβανός  </p>
+<p>                   |</p>
+<p>              Αφροδίτη Γραμμέλη  </p>
+<p>                   |</p>
+<p>              ΒΒαγγέλης Αρναούτογλου   </p>
+<p>                   |</p>
+<p>              Βαγγέλης Κιούσης  </p>
+<p>                   |</p>
+<p>              Βασίλης Γ. Λαμπρόπουλος  </p>
+<p>                   |</p>
+<p>              Βασίλης Κώτσης   </p>
+<p>                   |</p>
+<p>              Βασίλης Χιώτης  </p>
+<p>                   |</p>
+<p>              Βίδος Κοσμάς </p>
+<p>                   |</p>
+<p>              Βίδος Κοσμάς </p>
+<p>                   |</p>
+<p>              ΓΓεράσιμος Τρύφωνας </p>
+<p>                   |</p>
+<p>              Γεώργιος Π. Μαλούχος  </p>
+<p>                   |</p>
+<p>              Γιάννης Γεωργάκης  </p>
+<p>                   |</p>
+<p>              Γιάννης Ζουμπουλάκης  </p>
+<p>                   |</p>
+<p>              Γιάννης Ζουμπουλάκης  </p>
+<p>                   |</p>
+<p>              Γιάννης Καρτάλης  </p>
+<p>                   |</p>
+<p>              Γιάννης Σκόκας  </p>
+<p>                   |</p>
+<p>              Γιάννης Τζούστας  </p>
+<p>                   |</p>
+<p>              Γιώργος Βέλτσος  </p>
+<p>                   |</p>
+<p>              Γιώργος Νάστος  </p>
+<p>                   |</p>
+<p>              Γιώργος Παπαϊωάννου  </p>
+<p>                   |</p>
+<p>              Γιώργος Ρωμαίος  </p>
+<p>                   |</p>
+<p>              Γιώργος Σκίντσας  </p>
+<p>                   |</p>
+<p>              Γιώτης Παναγιωτάς  </p>
+<p>                   |</p>
+<p>              ΔΔήμητρα Κρουστάλλη  </p>
+<p>                   |</p>
+<p>              Δημήτρης Δανίκας  </p>
+<p>                   |</p>
+<p>              Δημήτρης Κ. Ψυχογιός  </p>
+<p>                   |</p>
+<p>              Δημήτρης Νικολακόπουλος  </p>
+<p>                   |</p>
+<p>              Διονύσης Βυθούλκας  </p>
+<p>                   |</p>
+<p>              ΕΕλλη Ισμαηλίδου  </p>
+<p>                   |</p>
+<p>              ΖΖήσης Ι. Καραβάς  </p>
+<p>                   |</p>
+<p>              Ζώης Τσώλης  </p>
+<p>                   |</p>
+<p>              Ζώτος Μάκης </p>
+<p>                   |</p>
+<p>              ΗΗρώ Πογκόη   </p>
+<p>                   |</p>
+<p>              ΘΘοδωρής Λαΐνας </p>
+<p>                   |</p>
+<p>              ΙΙωάννα Κουμπαρέλη  </p>
+<p>                   |</p>
+<p>              ΚΚαρασαρίνης Μάρκος </p>
+<p>                   |</p>
+<p>              Κέλλυ Σώκου  </p>
+<p>                   |</p>
+<p>              Κονιδάρης Ιωάννης Μ. </p>
+<p>                   |</p>
+<p>              Κωβαίος Αγγελος </p>
+<p>                   |</p>
+<p>              ΛΛιάκος Αντώνης </p>
+<p>                   |</p>
+<p>              Λιαρόπουλος Λυκούργος </p>
+<p>                   |</p>
+<p>              Λουκάκης Θεόδωρος Π. </p>
+<p>                   |</p>
+<p>              Λώρη Κέζα  </p>
+<p>                   |</p>
+<p>              ΜΜαριλένα Αστραπέλλου  </p>
+<p>                   |</p>
+<p>              Μαυρομμάτης Μανώλης </p>
+<p>                   |</p>
+<p>              Μπακουνάκης Νίκος </p>
+<p>                   |</p>
+<p>              ΝΝικολόπουλος Γιάννης </p>
+<p>                   |</p>
+<p>              Νίκος Γ. Σύκας </p>
+<p>                   |</p>
+<p>              Νίκος Π. Λινάρδος </p>
+<p>                   |</p>
+<p>              Ντίνος Σιωμόπουλος  </p>
+<p>                   |</p>
+<p>              ΠΠαντελής Καψής  </p>
+<p>                   |</p>
+<p>              Παύλος Ελευθεριάδης  </p>
+<p>                   |</p>
+<p>              ΡΡιχάρδος Σωμερίτης </p>
+<p>                   |</p>
+<p>              Ριχάρδος Σωμερίτης  </p>
+<p>                   |</p>
+<p>              ΣΣάκης Δημητρακόπουλος  </p>
+<p>                   |</p>
+<p>              Σαμπράκος Βασίλης </p>
+<p>                   |</p>
+<p>              Σήφης Πολυμίλης  </p>
+<p>                   |</p>
+<p>              Στάθης Ευσταθιάδης </p>
+<p>                   |</p>
+<p>              Σταμπόγλης Διονύσης </p>
+<p>                   |</p>
+<p>              Στέλιος Σοφιανός </p>
+<p>                   |</p>
+<p>              Στουρνάρας Γιάννης </p>
+<p>                   |</p>
+<p>              ΤΤόνια Τσακίρη  </p>
+<p>                   |</p>
+<p>              ΧΧριστίνα Πουτέτση  </p>
+<p>                   |</p>
+<p>              </p>
+<p>      </p>
+<p>        $(document).ready(function () {</p>
+<p>            $("select[name='moreUrlNavigateSelect']").change(function () {</p>
+<p>                $("select option:selected").each(function () {</p>
+<p>                    if ($(this).attr('value') != 'null') {</p>
+<p>                        window.open($(this).attr('value'), "newwindow");</p>
+<p>                    }</p>
+<p>                });</p>
+<p>            });</p>
+<p>        });</p>
+<p> </p>
+<p>    </p>
+<p>ΕΠΙΚΟΙΝΩΝΙΑ</p>
+<p>ΤΑΥΤΟΤΗΤΑ ΟΡΟΙ ΧΡΗΣΗΣ</p>
+<p>ΔΙΑΦΗΜΙΣΗ</p>
+<p>powered by</p>
+<p>NETVOLUTION</p>
+<p>© Δημοσιογραφικός Οργανισμός Λαμπράκη Α.Ε. </p>
+<p>Το σύνολο του περιεχομένου και των υπηρεσιών του site</p>
+<p>διατίθεται στους επισκέπτες αυστηρά για προσωπική χρήση. Απαγορεύεται η χρήση ή</p>
+<p>επανεκπομπή του, σε οποιοδήποτε μέσο, μετά ή άνευ επεξεργασίας, χωρίς γραπτή άδεια</p>
+<p>του εκδότη.</p>
+<p>  </p>
+<p>var addthis_config =</p>
+<p>      {</p>
+<p>          "data_track_clickback": true</p>
+<p>      };</p>
+<p>      jQuery.ready();</p>
+<p>    </p>
+<p>            jQuery.ready();</p>
+<p>          </p>
+<p>              CustomAds.push(['BMIBanner6757','#Categheaderbanner728','ScienceArticle Banner 728']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|808/728x90"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6758','#BannerCateg240left1','BannerScienceArticle240Left1']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|813/240x90"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6759','#BannerCateg240Right1','BannerScienceArticle240Left1']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|813/240x90"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6760','#BannerCategArticle300Right1','BannerScienceArticle300Right1']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|809/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6761','#BannerCategArticle300Right2','BannerScienceArticle300Right2']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|810/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6762','#BannerCategArticle300Right3','BannerScienceArticle300Right3']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|811/300x250"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6763','#GoogleAdsSlot','Google Ad Sense']);</p>
+<p>            </p>
+<p>    function SponsorLink() {</p>
+<p>        window.open('googleAdsCode/sponsorLinks.htm', 'winSelectCategory', 'status=no,toolbars=no,scrollbars=no,location=no,menubar=no,resizable=no,width=400,height=440');</p>
+<p>    }</p>
+<p>    function google_ad_request_done(google_ads) {</p>
+<p>        var s;</p>
+<p>        var i;</p>
+<p>        if (google_ads.length == 0) {</p>
+<p>            return;</p>
+<p>        }</p>
+<p>        if (google_ads[0].type == "text") {</p>
+<p>            if (google_ads.length > 0) {</p>
+<p>                s = '<div class="promoTitle"><a href="#" onclick="SponsorLink();return false;" target="_blank">ΠΡΟΒΕΒΛΗΜΕΝΕΣ ΚΑΤΑΧΩΡΗΣΕΙΣ</a></div>'; for (i = 0; i < google_ads.length; ++i) {</p>
+<p>                    s += '<div class="manyAds">' +</p>
+<p>				    '<div class="addTitle">' +</p>
+<p>					    '<a target="_blank" href="' + google_ads[i].url + '"onmouseout="window.status=\'\';return true"' +</p>
+<p>					    'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true" style="text-decoration:none">' +</p>
+<p>					    google_ads[i].line1 +</p>
+<p>					    '</a>' +</p>
+<p>				    '</div>' +</p>
+<p>				    '<div class="addText">' +</p>
+<p>					    '<span>' + google_ads[i].line2 + '&nbsp;' + google_ads[i].line3 + '</span>' +</p>
+<p>				    '</div>' +</p>
+<p>				    '<div class="addUrl">' +</p>
+<p>					    '<a target="_blank" href="' + google_ads[i].url + '"onmouseout="window.status=\'\';return true"' +</p>
+<p>					    'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true" style="text-decoration:none">' +</p>
+<p>					    google_ads[i].visible_url +</p>
+<p>					    '</a>' +</p>
+<p>				    '</div>' +</p>
+<p>			    '</div>';</p>
+<p>                }</p>
+<p>                var gAdsDiv = document.getElementById('gAdsDiv');</p>
+<p>                if (gAdsDiv == null)</p>
+<p>                    return;</p>
+<p>                gAdsDiv.innerHTML = s;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        return;</p>
+<p>    }</p>
+<p>    google_ad_client = 'pub-0654679464270989';</p>
+<p>    google_ad_output = 'js';</p>
+<p>    google_language = 'gr';</p>
+<p>    google_encoding = 'utf8';</p>
+<p>    google_safe = 'high';</p>
+<p>    google_feedback = 'on';</p>
+<p>    google_ad_type = 'text';</p>
+<p>    google_ad_slot = '8059922095';</p>
+<p>    google_ad_width = 728;</p>
+<p>    google_ad_height = 90;</p>
+<p>    /*						</p>
+<p>    google_ad_type = 'text_html';</p>
+<p>    google_image_size = '728x90';</p>
+<p>			</p>
+<p>    */</p>
+<p>    google_max_num_ads = 5;</p>
+<p>              CustomAds.push(['BMIBanner6764','#BannerPolitikiSkin','BannerScienceSkin']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|807/1x1"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6765','#BannerCateg628Middle1','BannerScience628Middle1']);</p>
+<p>            </p>
+<p>// <![CDATA[[</p>
+<p>if (typeof Adman === 'undefined' || /MSIE [456]/.test(navigator['appVersion']))</p>
+<p>document.write ('<scr'+'ipt src="http://static.adman.gr/adman.js" language="javascript" type="text/javascript"></'+'sc'+'ript>');</p>
+<p>var now=parseInt((new Date()).getTime());</p>
+<p>if (!window.admantpid) window.admantpid = now;</p>
+<p>var rnd=Math.floor(Math.random()*900000)+100,cdp=screen.width+"x"+screen.height+"x"+(navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth),burst="?"+rnd+":="+window.admantpid +"@"+cdp+"?";</p>
+<p>document.write("<scr"+"ipt language=\"Javascript\" src=\"http://adman.in.gr/gbanner/?"+now+"|803/628x86"+burst+"/\">");</p>
+<p>document.write("</"+"sc"+"ript>");</p>
+<p>// ]]></p>
+<p>              CustomAds.push(['BMIBanner6766','#BubbleBoxAds','BubbleBoxAds']);</p>
+<p>            </p>
+<p>var sppc_user = "72";</p>
+<p>var sppc_site = "138";</p>
+<p>var sppc_linkColor = "#e60300";</p>
+<p>var sppc_stripColor = "";</p>
+<p>var sppc_adhereColor = "#000000";</p>
+<p>var first_url = escape("http://bubblebox.gr/delivery/intext.php?id_user="+sppc_user+"&id_site="+sppc_site+</p>
+<p>"&ident="+Math.round(Math.random() * 10000)+"&sr="+escape(document.referrer));</p>
+<p>document.write(unescape("%3Cscript src='" + first_url + "' charset='UTF-8' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>            jQuery.ready();</p>
+<p>            MoveCustomAds();</p>
+<p>          </p>
+<p>          CleanUpAds();</p>
+<p>        </p>
+<p>    var _rsCI = "ingr";</p>
+<p>    var _rsCG = "0";</p>
+<p>    var _rsDN = "//secure-uk.imrworldwide.com/";</p>
+<p>    var _rsCC = 0;</p>
+<p>    var _rsSE = 1;</p>
+<p>    var _rsSM = 0.05;</p>
+<p>    $("html").attr("xmlns:fb", "http://www.facebook.com/2008/fbml");</p>
+<p>    window.fbAsyncInit = function () {</p>
+<p>        FB.init({ appId: '112587685485572', status: true, cookie: true,</p>
+<p>            xfbml: true</p>
+<p>        });</p>
+<p>        if (!NvUser.IsUserLoggedIn()) {</p>
+<p>            try {</p>
+<p>                FB.getLoginStatus(function (response) {</p>
+<p>                    if (response.session) {</p>
+<p>			  if (window.location.href.indexOf("fbconnectreturn") == -1)</p>
+<p>				 {	</p>
+<p>					var url = window.location.href;</p>
+<p>					if(url.indexOf("?") == -1)</p>
+<p>					{</p>
+<p>						url+="?fbconnectreturn=1";</p>
+<p>					}else</p>
+<p>					{</p>
+<p>						url+="&fbconnectreturn=1";</p>
+<p>					}</p>
+<p>					</p>
+<p>					//window.location = '/FBConnect.axd?returnUrl=' + escape(url);</p>
+<p>				}</p>
+<p>                    }</p>
+<p>                });</p>
+<p>            } catch (e)</p>
+<p>            { }</p>
+<p>        }</p>
+<p>    };</p>
+<p>    (function () {</p>
+<p>        var e = document.createElement('script');</p>
+<p>        e.type = 'text/javascript';</p>
+<p>        e.src = document.location.protocol +</p>
+<p>          '//connect.facebook.net/en_GB/all.js';</p>
+<p>        e.async = true;</p>
+<p>        document.getElementById('fb-root').appendChild(e);</p>
+<p>    } ());</p>

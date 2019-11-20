@@ -1,0 +1,253 @@
+<p>    </p>
+<p>    </p>
+<p>        </p>
+<p>    </p>
+<p>    </p>
+<p>    </p>
+<p>Health Insurance - PMI - Indebted NHS trusts "in shocking state"</p>
+<p><!--</p>
+<p>//configuration</p>
+<p>OAS_url = 'http://oas.informahealthcare.com/RealMedia/ads/';</p>
+<p>OAS_sitepage = 'www.hi-mag.com/product-area/pmi/';</p>
+<p>OAS_listpos = 'Top,Top1,TopRight,Right,Right1,Right2,Bottom,Position1';</p>
+<p>OAS_query = '';</p>
+<p>OAS_target = '_top';</p>
+<p>//end of configuration</p>
+<p>OAS_version = 10;</p>
+<p>OAS_rn = '001234567890'; OAS_rns = '1234567890';</p>
+<p>OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);</p>
+<p>function OAS_NORMAL(pos) {</p>
+<p>document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');</p>
+<p>document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '"></A>');</p>
+<p>}</p>
+<p> //--></p>
+<p> </p>
+<p><!--</p>
+<p> OAS_version = 11;</p>
+<p>if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))</p>
+<p> OAS_version = 10;</p>
+<p>if (OAS_version >= 11)</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/script>');//--></p>
+<p><!--</p>
+<p> document.write('');</p>
+<p>function OAS_AD(pos) {</p>
+<p>if (OAS_version >= 11)</p>
+<p> OAS_RICH(pos);</p>
+<p>else</p>
+<p> OAS_NORMAL(pos);</p>
+<p>}  //--></p>
+<p> </p>
+<p><!--</p>
+<p>s.pageName = "product area:pmi:article";</p>
+<p>s.channel = "product area"; </p>
+<p> </p>
+<p>s.prop1 = "product area:pmi"; </p>
+<p>s.prop2 = "product area:pmi:article";</p>
+<p>s.prop3 = "";</p>
+<p>s.prop4 = "article";</p>
+<p>s.prop5 = "indebted nhs trusts "in shocking state" - unspecified author - 15-Dec-2011 16:38"; </p>
+<p>s.prop6 = "386875"; </p>
+<p>s.prop7 = "";</p>
+<p>s.prop8 = "Health Insurance";</p>
+<p>s.prop9 = "";</p>
+<p>s.prop10 = "indebted nhs trusts "in shocking state" - unspecified author - 15-Dec-2011 16:38";</p>
+<p>s.prop11 = "news";</p>
+<p>s.prop12 = "pmi";</p>
+<p>s.prop13 = "no author";</p>
+<p>s.prop14 = "pmi";</p>
+<p>s.prop15 = "";</p>
+<p>s.prop16 = "not logged in";</p>
+<p>s.prop17 = "";</p>
+<p>s.prop18 = "";</p>
+<p>s.prop19 = "";</p>
+<p>s.prop20 = "";</p>
+<p>s.eVar29 = "browsing";</p>
+<p>/* Conversion Variables */</p>
+<p>s.events = "event7";</p>
+<p>/* Hierarchy Variables */</p>
+<p>s.hier1 = ""</p>
+<p>s.server = "ukibi5ece02";</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code = s.t();</p>
+<p>if (s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>if (navigator.appVersion.indexOf('MSIE') >= 0)document.write(unescape('%3C') + '\!-' + '-')</p>
+<p>    //--></p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-366582-7']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>(function() {</p>
+<p>   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);</p>
+<p>})();</p>
+<p>Log in / Free Email Bulletin</p>
+<p>                        </p>
+<p>                            </p>
+<p>                            </p>
+<p>                                PMI</p>
+<p>                            </p>
+<p>                        </p>
+<p>                    </p>
+<p>Log in</p>
+<p>Free Email Bulletin</p>
+<p>Free Magazine</p>
+<p>About</p>
+<p>Contact</p>
+<p>Awards</p>
+<p>Advertise</p>
+<p>LinkedIn</p>
+<p>Twitter</p>
+<p>RSS</p>
+<p>                    /* <![CDATA[ */</p>
+<p>                    OAS_AD('Top');</p>
+<p>                    /* ]]> */</p>
+<p>                </p>
+<p>                    /* <![CDATA[ */</p>
+<p>                    OAS_AD('TopRight');</p>
+<p>                    /* ]]> */</p>
+<p>                </p>
+<p>Health Insurance</p>
+<p>                There's one over-arching factor behind the high cost of PMI that's virtually never mentioned in public</p>
+<p>                </p>
+<p>more information</p>
+<p>Search</p>
+<p>Advanced Search</p>
+<p>Cash Plans/Dental</p>
+<p>Group Risk</p>
+<p>Healthcare Trust</p>
+<p>Income Protection</p>
+<p>International PMI</p>
+<p>Life/Critical Illness</p>
+<p>Long Term Care</p>
+<p>Occupational Health</p>
+<p>PMI</p>
+<p>Home</p>
+<p>People Moves</p>
+<p>Awards</p>
+<p>Directory</p>
+<p>Product Reviews</p>
+<p>Guides</p>
+<p>Insider View</p>
+<p>    .highlight {</p>
+<p>        border: 1px solid #FF0000;</p>
+<p>        color: #FF0000;</p>
+<p>        cursor: text;</p>
+<p>        text-decoration: none;</p>
+<p>    }</p>
+<p>    $(document).ready(function() {</p>
+<p>        var searhTerms = [];</p>
+<p>        if (searhTerms != null) {</p>
+<p>            for (i = 0; i < searhTerms.length; i++) {</p>
+<p>                //body</p>
+<p>                $('.article p').highlight(searhTerms[i]);</p>
+<p>                //title</p>
+<p>                $('.article-header h1').highlight(searhTerms[i]);</p>
+<p>                //byline</p>
+<p>                 $('.byline').highlight(searhTerms[i]);</p>
+<p>            }</p>
+<p>        }</p>
+<p>    });</p>
+<p>Indebted NHS trusts "in shocking state"</p>
+<p>                        Thursday 15 December 2011</p>
+<p>                    </p>
+<p>Directory</p>
+<p>PMI</p>
+<p>Send to Colleague</p>
+<p>Printer Friendly</p>
+<p>        Format</p>
+<p>Email the Editor</p>
+<p>Interested in this topic?Set up a custom email alert and we'll tell you every time we write more like this.</p>
+<p>MPs warn that mergers of hospitals could reduce access to services </p>
+<p>The dire financial state of NHS hospitals has been re-iterated by MPs, who warn that the Government's plans to give them more autonomy will not succeed unless major changes are made, including merging trusts.</p>
+<p>The Public Accounts Committee's (PAC) investigation into the pipeline of trusts yet to achieve the coveted foundation trust status (half of all hospital trusts) found that four out of the five face financial difficulties. Most have performance issues and governance problems. Twenty have said that they will never make foundation status, including ten in London. This week the King's Fund warned that London's hospitals were in urgent need of reform in order to survive financially, but also to tackle pockets of poor care in the capital and save lives.</p>
+<p>The next few years are likely to see major changes to NHS hospitals through the merging of trusts, which will see some hospitals lose services. It is likely that this will be accompanied by local opposition as people protest to "save" their local hospital.</p>
+<p>Chair of the PAC Margaret Hodge MP said that mergers could leave some deprived communities with "unequal access to high quality healthcare".</p>
+<p>"London is in a particularly shocking state and nobody has got a grip on long-standing problems," she said. "We remain to be convinced that combining struggling hospitals into larger trusts – as with South London – will somehow produce viable organizations offering good quality, accessible healthcare."</p>
+<p>It was announced today that the business case for the merger of three London NHS trusts – Barts and the London, Newham university hospital and Whipps Cross university hospital – has been approved by the NHS London board.</p>
+<p>The King's Fund report this week highlighted how political intervention had held back a plan to improve services in London, which had involved extensive consultation with clinicians.</p>
+<p>The Government intends that the majority of the remaining 113 NHS trusts will become foundation trusts by April 2014.</p>
+<p> </p>
+<p>    Interested in more articles like this? Log in to set up</p>
+<p>    automated email alerts for similar articles.</p>
+<p>    If you haven't registered with us yet, click here to complete the</p>
+<p>    quick and easy registration process.</p>
+<p>Track Your Topic</p>
+<p>You must register and/or log in to use this service</p>
+<p>PMI</p>
+<p>Frequency:</p>
+<p>daily</p>
+<p>weekly</p>
+<p>monthly</p>
+<p>No. of articles:</p>
+<p>up to 10</p>
+<p>up to 30</p>
+<p>Email address: example@example.com</p>
+<p>Set up alert »</p>
+<p>            //<![CDATA[</p>
+<p>            OAS_AD('Right');</p>
+<p>            // ]]></p>
+<p>        </p>
+<p>Related Articles</p>
+<p>Dogged by deficits and pockets of poor care, NHS London now faces 'vacuum of leadership'</p>
+<p>Government: We are lagging behind other countries in healthcare</p>
+<p>King's Fund: NHS must end 'outmoded' focus on hospital care</p>
+<p>            /* <![CDATA[ */</p>
+<p>            OAS_AD('Bottom');</p>
+<p>            /* ]]> */</p>
+<p>        </p>
+<p>News</p>
+<p>Features</p>
+<p>People Moves</p>
+<p>Insider View</p>
+<p>Directory</p>
+<p>Product Reviews</p>
+<p>Guides</p>
+<p>Log in</p>
+<p>Free Email Bulletin</p>
+<p>Free Magazine</p>
+<p>About</p>
+<p>Contact</p>
+<p>Advertise</p>
+<p>Awards</p>
+<p>Privacy</p>
+<p>Terms & Conditions</p>
+<p>Cash Plans/Dental</p>
+<p>Group Risk</p>
+<p>Healthcare Trust</p>
+<p>Income Protection</p>
+<p>International PMI</p>
+<p>Life/Critical Illness</p>
+<p>Long Term Care</p>
+<p>Occupational Health</p>
+<p>PMI</p>
+<p>This site is owned and operated by Informa plc ("Informa") whose registered office is</p>
+<p>        Mortimer House, 37-41 Mortimer Street, London, W1T 3JH. Registered in England and Wales Number 3099067.</p>
+<p>        The content of this web site is © Informa plc. Reproduction, retrieval,</p>
+<p>        copying or transmission of the content of this site is not permitted without the publisher's prior</p>
+<p>        consent. Reproduction of part or all of the content in any form is prohibited.</p>
+<p>    //<![CDATA[</p>
+<p>    var jsRt     = '1';</p>
+<p>var jsObjId  = '386875';</p>
+<p>var jsType   = escape('article');</p>
+<p>var jsCtxId  = '588';</p>
+<p>var jsPubId  = '68';</p>
+<p>var jsCat    = escape('');</p>
+<p>var jsMeta   = escape('');</p>
+<p>var jsTitle  = encodeURI('Indebted+NHS+trusts+%22in+shocking+state%22');</p>
+<p>var jsUrl    = escape('http://www.hi-mag.com/health-insurance/WEB-INF/template/common.jsp');</p>
+<p>    var ref = escape(document.referrer);</p>
+<p>    if (ref.length >= 252) ref = ref.substring(0, 252) + "...";</p>
+<p>    var isJS10 = 1;</p>
+<p>    //]]></p>
+<p>    //<![CDATA[</p>
+<p>    var isJS10 = 0;</p>
+<p>    document.write('<img src="http://stats.lloydslist.com/eae-logger/Logger?clientDT=' + (new Date()).getTime() + '&amp;rt=' + jsRt + '&amp;objId=' + jsObjId + '&amp;type=' + jsType + '&amp;ctxId=' + jsCtxId + '&amp;pubId=' + jsPubId + '&amp;cat=' + jsCat + '&amp;meta=' + jsMeta + '&amp;title=' + jsTitle + '&amp;url=' + jsUrl + '" width="1" height="1" alt=""/>');</p>
+<p>    if (isJS10) {</p>
+<p>        document.write('<img src="http://stats.lloydslist.com/eae-logger/Logger?rt=' + jsRt + '&amp;objId=' + jsObjId + '&amp;type=' + jsType + '&amp;ctxId=' + jsCtxId + '&amp;pubId=' + jsPubId + '&amp;cat=' + jsCat + '&amp;meta=' + jsMeta + '&amp;title=' + jsTitle + '&amp;url=' + jsUrl + '" width="1" height="1" alt=""/>');</p>
+<p>    }</p>
+<p>    //]]></p>
+<p>                    //<![CDATA[</p>
+<p>                    OAS_AD('Top1');</p>
+<p>                    // ]]></p>
+<p>        </p>

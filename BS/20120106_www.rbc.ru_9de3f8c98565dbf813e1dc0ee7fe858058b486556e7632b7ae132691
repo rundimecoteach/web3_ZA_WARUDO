@@ -1,0 +1,604 @@
+<p>"Третий антимонопольный пакет" вступает в силу 6 января 2012г. - Новости дня - PосБизнесКонсалтинг</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-8487723-7']);</p>
+<p>_gaq.push(['_setDomainName', '.rbc.ru']);</p>
+<p>['_addOrganic', 'images.yandex.ru', 'text', true], </p>
+<p>['_addOrganic', 'blogsearch.google.ru', 'q', true], </p>
+<p>['_addOrganic', 'blogs.yandex.ru', 'text', true]</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>_gaq.push(['_setAllowLinker', true]); </p>
+<p>(function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1239&gid=6&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1137&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>РБК</p>
+<p> </p>
+<p>Весь мир</p>
+<p>Санкт-Петербург и область</p>
+<p>Украина</p>
+<p>	</p>
+<p>	if(RBCWeatherWidget) {</p>
+<p>		RBCWeatherWidget.weatherDefault = {</p>
+<p>				alias: "france/d/paris"</p>
+<p>			  ,	timezone: "Europe/Andorra"</p>
+<p>			  , timezone_offset: "+2"</p>
+<p>			  , utc: "07:17:11"</p>
+<p>			  , link: "http:\/\/pogoda.rbc.ru\/weather\/paris"</p>
+<p>			  , data_url: "http:\/\/pogoda.rbc.ru\/XML.2.0\/264.xml"</p>
+<p>			  , name: "Париж"</p>
+<p>			  , weather: {</p>
+<p>			       temp: "+8"</p>
+<p>			     , phenomenon: "5"</p>
+<p>			     , phenomenon_descr: "облачно"</p>
+<p>                 , date : "1365562800"</p>
+<p>				}</p>
+<p>			}</p>
+<p>	}</p>
+<p>	//create init</p>
+<p>	$(function(){</p>
+<p>			RBCWeatherWidget.init( '#w-weather_clock' );</p>
+<p>		});</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1155&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Доллар</p>
+<p>31.029</p>
+<p>-0.29%</p>
+<p>Евро</p>
+<p>40.646</p>
+<p>0.19%</p>
+<p>Авто</p>
+<p>Спорт</p>
+<p>Недвижимость</p>
+<p>Quote</p>
+<p>РБК-ТВ</p>
+<p>Стиль</p>
+<p>Рейтинги</p>
+<p>Кредиты</p>
+<p>Исследования</p>
+<p>ТВ</p>
+<p>CNews</p>
+<p>RBK Money</p>
+<p>Туризм</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Происшествия</p>
+<p>Общество</p>
+<p>Прямая речь</p>
+<p>Здоровье</p>
+<p>Потребрынок</p>
+<p>Календарь</p>
+<p>Фоторепортажи</p>
+<p>Платная подписка</p>
+<p>								 | Рассылка новостей</p>
+<p>Новости дня</p>
+<p>"Третий антимонопольный пакет" вступает в силу 6 января 2012г.</p>
+<p> 06.01.2012, Москва 08:34:40 "Третий антимонопольный пакет", вносящий изменения в федеральный закон "О защите конкуренции" и отдельные законодательные акты РФ, вступает в силу 6 января 2012г. Законом уточняются такие понятия, как вертикальное соглашение, государственные или муниципальные преференции, ограничение конкуренции. Документ был принят Государственной думой 22 ноября 2011г. и одобрен Советом Федерации 29 ноября 2011г. Президент РФ Дмитрий Медведев подписал закон 5 декабря 2011г.</p>
+<p>Закон вводит понятие хозяйствующего субъекта и оговаривает условия его действий в рамках антимонопольного законодательства. В частности, уточняются возможные согласованные действия хозяйствующих субъектов, способные нанести вред конкуренции.</p>
+<p>Также документ уточняет критерии определения монопольно высокой цены товара. В частности, согласно внесенным изменениям, цена товара не признается монопольно высокой в случае, если она установлена на бирже. При этом определяется ряд обязательных условий. Например, участник торгов должен предоставить бирже список аффилированных лиц, а их действия не должны относиться к манипулированию рынком.</p>
+<p>Не признаются монопольно высокими и цены, установленные с учетом особенностей формирования стартовой цены при продаже товара на бирже и согласованные с антимонопольным органом. Также могут учитываться биржевые и внебиржевые индикаторы цен, установленные на мировых рынках аналогичных товаров.</p>
+<p>Кроме того, отдельные нормы закона дополняют действующее законодательство в части заключения договоров в отношении государственного и муниципального имущества. В частности, оговариваются условия и требования при проведении конкурсов и аукционов на предоставление в аренду или безвозмездное пользование государственного и муниципального имущества, предусматриваются обязательные требования при заключении договоров аренды.</p>
+<p>Рядом поправок рассматривается применение закона в сфере естественных монополий. В частности, правительству РФ предоставляется право установления правил недискриминационного доступа на товарные рынки и к объектам инфраструктуры, используемым субъектами естественных монополий.</p>
+<p>Закон вводит запрет на злоупотребление доминирующим положением на рынке электроэнергии, предусматривает распространение антимонопольных требований к торгам на запрос котировок, уточняет условия рассмотрения жалоб на нарушение антимонопольного законодательства и основания для направления предостережений.</p>
+<p>Кроме того, изменения вносятся в Кодекс об административных правонарушениях в части установления административной ответственности за нарушение антимонопольного законодательства. В частности, законом предусматривается административная ответственность за нарушение антимонопольного законодательства, результатом которого является устранение или ограничение конкуренции. Такое нарушение со стороны должностных лиц влечет за собой наложение административного штрафа в размере от 20 тыс. руб. до 50 тыс. руб., либо дисквалификацию сроком до трех лет; на юридических лиц - от 1/100 до 15/100 размера выручки правонарушителя, но не менее 100 тыс. руб. Если же правонарушение совершено на рынке товаров и услуг, цены и тарифы на которые регулируются законодательством РФ, то штраф за такое преступление будет составлять от 3/1000 до 3/100 размера выручки правонарушителя.</p>
+<p>        function ashare( el ) {</p>
+<p>            if ( el.tagName.toLowerCase() != 'a' ) {</p>
+<p>                return;</p>
+<p>            }</p>
+<p>            var p = {</p>
+<p>                    w : 600,</p>
+<p>                    h : 380,</p>
+<p>                    l : ( this.w - 600 ) / 2,</p>
+<p>                    t : ( this.h - 400 ) / 2</p>
+<p>            };</p>
+<p>            if ( p.l < 0 || p.t < 0 ) {</p>
+<p>                p.l = p.t = 0;</p>
+<p>            }</p>
+<p>            var w = window.open( '', 'Article share', 'top='+p.t+',left='+p.l+',width='+p.w+',height='+p.h );</p>
+<p>            w.document.write( 'Loading...' );</p>
+<p>            w.location.href = el.href;</p>
+<p>        }</p>
+<p>    </p>
+<p>Tweet</p>
+<p>Нравится</p>
+<p>остальные новости</p>
+<p>		|</p>
+<p>		печать</p>
+<p>		| </p>
+<p>		отправить на e-mail</p>
+<p>		| </p>
+<p>// <![CDATA[</p>
+<p>Bbody.next(".6de0c3b1000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("top_informers.20111102161023.142818", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1245&gid=15&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Последние новости:10:52 Движение на Каширском шоссе Подмосковья будет ограничено 2 дня.10:45 Объем промпроизводства во Франции в феврале вырос на 0,7%.10:36 "РБК daily":  НОВАТЭК борется с должниками сбытовых региональных сетей.10:29 Торги на российском рынке акций начались ростом.10:22 В Ульяновске директор по сбыту компании Siemens обвиняется в хищении 90 млн руб.10:15 Граница между Китаем и Северной Кореей закрыта для туристов. 10:04 Москвичи стали реже покупать билеты на 1-2 поездки.</p>
+<p> </p>
+<p>				Авантюрист с бесконечным обаянием. Юбилей Жан-Поля Бельмондо			</p>
+<p> </p>
+<p>				Пожар в самом высоком небоскребе Грозного			</p>
+<p> </p>
+<p>				В России впервые родился трубкозуб			</p>
+<p> </p>
+<p>				Мадонна на вручении медиапремии раскритиковала В.Путина 			</p>
+<p><!--</p>
+<p>function ml_ph(p){document.write('<div id="magnaph'+p+'" style="display:none"></div>');}function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe></div>');}function ml_getCode(n,p,s){var d;if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}try{s+=(location.href!==undefined&&location.href!=''?'&l='+encodeURI(location.href):'')+(document.referrer!==undefined&&document.referrer!=''?'&r='+encodeURI(document.referrer):'');}catch(e){}if(d){d.write('<scr'+'ipt  charset="utf-8" src="'+s+'"></scr'+'ipt>');}else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}}}var place_id ='6017';ml_ph(place_id); ml_c(place_id);ml_getCode(1,place_id,'http://adv.magna.ru/?id='+place_id+'&rid=' + Math.round(Math.random()*100000));</p>
+<p>--></p>
+<p>Фото дня</p>
+<p>Назад</p>
+<p> Авантюрист с бесконечным обаянием. Юбилей Жан-Поля Бельмондо</p>
+<p> Власти США возмутил визит Бейонсе и Jay-Z на Кубу</p>
+<p> Умерла Маргарет Тэтчер</p>
+<p> Пожар в самом высоком небоскребе Грозного</p>
+<p> В.Путин в Нидерландах поделил арктический газ</p>
+<p> В Москве прошел митинг в поддержку политзаключенных </p>
+<p> В Испании скончалась одна из самых красивых актрис ХХ века</p>
+<p> Иностранные туристы не заметили в КНДР следов подготовки к войне</p>
+<p>Далее</p>
+<p>Материалы наших партнеров</p>
+<p>function randomize_items0() </p>
+<p>{</p>
+<p> var arr = new Array();</p>
+<p>			</p>
+<p>		arr[0]='<li><a href="http://www.quote.ru/topnews/2013/04/10/33923599.html"><b>Quote.ru:</b> Ослабление доллара США позитивно сказалось на нефти </a></li>';</p>
+<p>		arr[1]='<li><a href="http://lf.rbc.ru/news/press/2013/04/09/224986.shtml"><b>Личные Финансы:</b> Потребительская активность россиян выросла за год на 16%</a></li>';var ind = Math.floor( Math.random() * (arr.length) );</p>
+<p> </p>
+<p>document.write(arr[ind]);</p>
+<p>}</p>
+<p>randomize_items0();</p>
+<p>				function randomize_items() </p>
+<p>				{</p>
+<p> 					var arr = [];</p>
+<p>					</p>
+<p>		arr[0]='<li><a href="http://www.quote.ru/topnews/2013/04/10/33923599.html"><b>Quote.ru:</b> Ослабление доллара США позитивно сказалось на нефти </a></li>';</p>
+<p>		arr[1]='<li><a href="http://lf.rbc.ru/news/press/2013/04/09/224986.shtml"><b>Личные Финансы:</b> Потребительская активность россиян выросла за год на 16%</a></li>';</p>
+<p>					arr[0] = [];</p>
+<p>				</p>
+<p>				arr[0][0]='<li><a href="http://realty.rbc.ru/articles/29/03/2013/562949986390032.shtml"><b>Недвижимость</b>: Полонский благоустроил свою тюрьму</a></li>';</p>
+<p>			</p>
+<p>					arr[1] = [];</p>
+<p>				</p>
+<p>				arr[1][0]='<li><a href="http://sport.rbc.ru/?news=scandals/newsline/20/03/2013/384687.shtml"><b>Спорт:</b> Фотографии олимпийской чемпионки на "сайте для взрослых" стали хитом</a></li>';</p>
+<p>			</p>
+<p>				arr[1][1]='<li><a href="http://sport.rbc.ru/?news=winter/newsline/20/03/2013/384664.shtml"><b>Спорт:</b> Лучшие биатлонисты мира устроили стриптиз на трассе в России. Видео</a></li>';</p>
+<p>			</p>
+<p>					arr[2] = [];</p>
+<p>				</p>
+<p>				arr[2][0]='<li><a href="http://style.rbc.ru/person/2013/03/07/15516/?from=look"><b>Стиль</b>: В Сети появились фото несуразной "Мисс России"</a></li>';</p>
+<p>			</p>
+<p>					arr[3] = [];</p>
+<p>				</p>
+<p>				arr[3][0]='<li><a href="http://www.autonews.ru/automarket_news/news/1752680/"><b>Autonews.ru</b>: Допустимые 0,5 промилле признали законными</a></li>';</p>
+<p>			</p>
+<p>				arr[3][1]='<li><a href="http://www.autonews.ru/automarket_news/news/1754160/"><b>Autonews.ru:</b> Новый скоростной режим введут с 1 мая</a></li>';</p>
+<p>			</p>
+<p>				arr[3][2]='<li><a href="http://www.autonews.ru/autobusiness/news/1752674/"><b>Autonews.ru:</b> Самые красивые девушки мотор-шоу в Женеве. Фото</a></li>';</p>
+<p>			</p>
+<p>		arr[9] = '<li><a href="http://www.iglobe.ru/promo/may/beach"><b>iGlobe:</b> Пляжный отдых на майские праздники по выгодным ценам</a></li>';</p>
+<p>	</p>
+<p>					for( var i = 0; i < arr.length; i++ ){</p>
+<p>						</p>
+<p>					arr[0] = [];</p>
+<p>				</p>
+<p>				arr[0][0]='<li><a href="http://realty.rbc.ru/articles/29/03/2013/562949986390032.shtml"><b>Недвижимость</b>: Полонский благоустроил свою тюрьму</a></li>';</p>
+<p>			</p>
+<p>					arr[1] = [];</p>
+<p>				</p>
+<p>				arr[1][0]='<li><a href="http://sport.rbc.ru/?news=scandals/newsline/20/03/2013/384687.shtml"><b>Спорт:</b> Фотографии олимпийской чемпионки на "сайте для взрослых" стали хитом</a></li>';</p>
+<p>			</p>
+<p>				arr[1][1]='<li><a href="http://sport.rbc.ru/?news=winter/newsline/20/03/2013/384664.shtml"><b>Спорт:</b> Лучшие биатлонисты мира устроили стриптиз на трассе в России. Видео</a></li>';</p>
+<p>			</p>
+<p>					arr[2] = [];</p>
+<p>				</p>
+<p>				arr[2][0]='<li><a href="http://style.rbc.ru/person/2013/03/07/15516/?from=look"><b>Стиль</b>: В Сети появились фото несуразной "Мисс России"</a></li>';</p>
+<p>			</p>
+<p>					arr[3] = [];</p>
+<p>				</p>
+<p>				arr[3][0]='<li><a href="http://www.autonews.ru/automarket_news/news/1752680/"><b>Autonews.ru</b>: Допустимые 0,5 промилле признали законными</a></li>';</p>
+<p>			</p>
+<p>				arr[3][1]='<li><a href="http://www.autonews.ru/automarket_news/news/1754160/"><b>Autonews.ru:</b> Новый скоростной режим введут с 1 мая</a></li>';</p>
+<p>			</p>
+<p>				arr[3][2]='<li><a href="http://www.autonews.ru/autobusiness/news/1752674/"><b>Autonews.ru:</b> Самые красивые девушки мотор-шоу в Женеве. Фото</a></li>';</p>
+<p>			var ind = Math.floor( Math.random() * (arr[i].length) );</p>
+<p>						document.write(arr[i][ind]);</p>
+<p>					}</p>
+<p>				}</p>
+<p>				randomize_items();</p>
+<p>			</p>
+<p>			function randomize_items2() {</p>
+<p> 				var arr = new Array();</p>
+<p>					</p>
+<p>		arr[0] = '<li><a href="http://www.iglobe.ru/promo/may/beach"><b>iGlobe:</b> Пляжный отдых на майские праздники по выгодным ценам</a></li>';</p>
+<p>	var ind = Math.floor( Math.random() * (arr.length) );</p>
+<p>				document.write(arr[ind]);</p>
+<p>			}</p>
+<p>			randomize_items2();</p>
+<p>		Snob.ru:  Евгений Бабушкин: Страшнее атомной войны</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1129&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>// <![CDATA[</p>
+<p>if(!('_px_133560' in window)){_px_133560=new Image();_px_133560.src="http://pics.rbc.ru/dewk9mgj1dy/aef/img.gif?_s=ga_RBC.20101007143447.133560&_l=ga_RBC&_b=GoodAdvert/rbc_freenews&r="+(Math.random()*100000);}</p>
+<p>Bbody.next(".d1ad183b000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>   var cookie_var = "";</p>
+<p>   if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>       Cookie.set("ga_RBC.20101007143447.133560", cookie_var, 1);</p>
+<p>   }</p>
+<p>}</p>
+<p>// ]]></p>
+<p><!--</p>
+<p>//var ml_start_point = "id_of_block"; </p>
+<p>var ml_markers = {'allow': '_ga1_on_', 'deny':'_ga1_off_'};</p>
+<p>//var ml_max_links = 15;</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.video-link.ru/code?pid=45756&gid=23&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Статьи по теме</p>
+<p>В РФ вступают в силу требования по оснащению самолетов системами безопасности.</p>
+<p>На Украине вступает в силу новый Таможенный кодекс.</p>
+<p>Выбор редакции</p>
+<p> Казаки научат участников "Селигера" ножевому бою</p>
+<p> "Аэроэкспрессы" в Домодедово отменены из-за ДТП в Подмосковье</p>
+<p> Сенат Франции разрешил однополые браки</p>
+<p> Единоросса В.Бурматова могут лишить ученой степени</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>var dreferrer = document.referrer; try { dreferrer = window.parent.document.referrer } catch(e) {}</p>
+<p>try { dreferrer = dreferrer.substr(0, 256) } catch(e) { dreferrer = "" }</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1130&gid=2&oin=1&rid=' + random +'&dreferer='+escape(dreferrer)+'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>Autonews.Ru</p>
+<p> </p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>var ml_informer_config =  {</p>
+<p>                    bannerWidth : 145, //ширина картинки баннера</p>
+<p>                    bannerHeight : 96,  //высота картинки баннера</p>
+<p>                    </p>
+<p>                    placeholders : </p>
+<p>                    [</p>
+<p>                        {</p>
+<p>                            id : "auto_informer1_10_rbctop", //Ид элемента куда выводить баннеры</p>
+<p>                            total_banners : 1, //Сколько всего баннеров выводить</p>
+<p>                            align : "list", //как выводить баннеры (вертикально / горизонтально)</p>
+<p>                            bannerWidth : 145, //ширина картинки баннеров в этом плейсхолдера</p>
+<p>                            bannerHeight : 96 //высота картинки баннеров в этом плейсхолдера</p>
+<p>                        }</p>
+<p>                    ]</p>
+<p>            }</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1290&gid=18&oin=1&rid=' + random +'"></scr' + 'ipt>'); </p>
+<p>// --></p>
+<p> </p>
+<p>			var arrayWithItems = [</p>
+<p>				</p>
+<p>			];</p>
+<p>			</p>
+<p>			</p>
+<p>				var REDIRECT_URI = 'http://redir.rbc.ru/cgi-bin/redirect.cgi?';</p>
+<p>				var ITEMS_TO_SHOW = 1;</p>
+<p>				var Cookie = {</p>
+<p>					/**</p>
+<p>					 * Установка значения куки</p>
+<p>					 * 1) если на задавать параметр expires, то кука установится на год</p>
+<p>					 * 2) чтобы удалить куку нужно задать отрицательное значение параметра expires</p>
+<p>					 * 3) если задать параметр expires как "session", то кука станет сессионной</p>
+<p>					 * @param {String} name</p>
+<p>					 * @param {String} value</p>
+<p>					 * @param {Number} expires</p>
+<p>					 */</p>
+<p>					set: function( name, value, expires, domain ){</p>
+<p>						// дата истечения срока действия куки</p>
+<p>						var expiresValue = '';</p>
+<p>						if( expires !== 'session' ){</p>
+<p>							expiresValue = 'expires=' +</p>
+<p>								( new Date( new Date().getTime() + ( expires || 365 ) * 86400000 ) ).toGMTString() + '; '</p>
+<p>						}</p>
+<p>						// запись куки</p>
+<p>						document.cookie = name + '=' + value + '; ' + expiresValue + 'path=/' + ((domain) ? '; domain=' + domain : '');</p>
+<p>					},</p>
+<p>					/**</p>
+<p>					 * Получение значения куки</p>
+<p>					 * @param {String} name</p>
+<p>					 * @return значение куки с именем name</p>
+<p>					 * @type String</p>
+<p>					 */</p>
+<p>					get: function( name ){</p>
+<p>						var re = new RegExp( '\\s*' + name + '=' );</p>
+<p>						var cookies = document.cookie.split(';');</p>
+<p>						// проверка всех кук страницы</p>
+<p>						for( var i = cookies.length; i--; ){</p>
+<p>							var c = cookies[i];</p>
+<p>							if ( re.test( c ) ){ return c.replace( re, '' ); }</p>
+<p>						}</p>
+<p>						return '';</p>
+<p>					}</p>
+<p>				};</p>
+<p>				</p>
+<p>				window.onload = show_informers();</p>
+<p>				</p>
+<p>				function show_informers() {</p>
+<p>					var countInf = 0;</p>
+<p>					return function() {</p>
+<p>						if ( countInf++ > 0 ) return;</p>
+<p>						//Cookie.set('someCounter','3');</p>
+<p>	</p>
+<p>						//загружаем массив из куки</p>
+<p>						var firstElementNumber = Cookie.get('firstElementNumber');</p>
+<p>						if (firstElementNumber) {</p>
+<p>							var newArray = [];</p>
+<p>							var y = firstElementNumber;</p>
+<p>							for (var i = 0; i < arrayWithItems.length; i++) {</p>
+<p>								newArray.push(arrayWithItems[y]);</p>
+<p>								y++;</p>
+<p>								if (y == arrayWithItems.length) {</p>
+<p>									y = 0;</p>
+<p>								}</p>
+<p>							}</p>
+<p>							arrayWithItems = newArray;</p>
+<p>						}</p>
+<p>						firstElementNumber++;</p>
+<p>						if (firstElementNumber >= arrayWithItems.length) {</p>
+<p>							firstElementNumber = 0;</p>
+<p>						}</p>
+<p>						//записываем новый порядок к куку</p>
+<p>						Cookie.set('firstElementNumber', firstElementNumber);</p>
+<p>	</p>
+<p>						var informerContainer = document.getElementById('informer');</p>
+<p>						var oldContent = informerContainer.innerHTML;</p>
+<p>	</p>
+<p>						informerContainer.innerHTML = '';</p>
+<p>						var htmlCache = printInformer( arrayWithItems, ITEMS_TO_SHOW );</p>
+<p>	</p>
+<p>						for ( var i = 0; i < htmlCache.length; i++ ) {</p>
+<p>							informerContainer.appendChild( htmlCache[i] );</p>
+<p>						}</p>
+<p>	</p>
+<p>						informerContainer.innerHTML += oldContent;</p>
+<p>					}</p>
+<p>				}</p>
+<p>				</p>
+<p>                function create_element_first( itemToShow ) {</p>
+<p>                    var div = document.createElement('div');</p>
+<p>                    div.align = 'center';</p>
+<p>                    var href = document.createElement('a');</p>
+<p>                    href.href = REDIRECT_URI + itemToShow.url;</p>
+<p>                    href.title = itemToShow.header;</p>
+<p>                    var img = document.createElement('img');</p>
+<p>                    img.src = itemToShow.imgSrc;</p>
+<p>                    img.alt = itemToShow.header;</p>
+<p>                    img.width = 145;</p>
+<p>                    img.height = 96;</p>
+<p>                    href.appendChild( img );</p>
+<p>                    div.appendChild( href );</p>
+<p>                    img = null; href = null;</p>
+<p>                    return div;</p>
+<p>                }</p>
+<p>                function create_element_seconds( itemToShow ) {</p>
+<p>                    var li = document.createElement('li');</p>
+<p>                    var href = document.createElement('a');</p>
+<p>                    href.href = REDIRECT_URI + itemToShow.url;</p>
+<p>                    href.title = itemToShow.header;</p>
+<p>                    var text = document.createTextNode( itemToShow.header );</p>
+<p>                    href.appendChild( text );</p>
+<p>                    li.appendChild( href );</p>
+<p>                    href = null; text = null;</p>
+<p>                    return li;</p>
+<p>                }</p>
+<p>				function printInformer(array, numberOfItemsToShow) {</p>
+<p>					htmlCache = [];</p>
+<p>					var itemToShow = get_informer( array[0] );</p>
+<p>					if ( itemToShow ) {</p>
+<p>						htmlCache.push( create_element_first( itemToShow ) );</p>
+<p>						htmlCache.push( create_element_seconds( itemToShow ) );</p>
+<p>					}</p>
+<p>					for ( var i = 1; i < numberOfItemsToShow; i++ ) {</p>
+<p>						itemToShow = get_informer( array[i] );</p>
+<p>						if ( itemToShow ) {</p>
+<p>							htmlCache.push( create_element_seconds( itemToShow ) );</p>
+<p>						}</p>
+<p>					}</p>
+<p>					return htmlCache;</p>
+<p>				}</p>
+<p>				function get_informer( infpl ) {</p>
+<p>					if ( ! infpl )			return false;</p>
+<p>					if ( ! infpl.length )	return false;</p>
+<p>					var num = Math.floor( Math.random() * infpl.length );</p>
+<p>					return infpl[ num ];</p>
+<p>				}</p>
+<p>			</p>
+<p>		 </p>
+<p>Yтро.ru</p>
+<p>Каширское шоссе перекрыли на два дня из-за аварии</p>
+<p>Пассажирский поезд сошел с рельсов на полном ходу</p>
+<p>Боксера-чемпиона отдали под суд за убийство</p>
+<p>Стиль</p>
+<p>По репутации Абрамовича нанесен серьезный удар. Видео</p>
+<p>Русская женщина привела в ужас Тома Круза</p>
+<p>Каково быть женой олигарха</p>
+<p>Недвижимость</p>
+<p>Подмосковные дачники теряют деньги из-за снегопадов</p>
+<p>В Солнцево построят новый микрорайон на 200 тыс. кв. м</p>
+<p>Башню "Россия" в "Москва-Сити" построят турки</p>
+<p>iGlobe - отели и билеты</p>
+<p>Выгодные предложения для отдыха в Европе на майские праздники</p>
+<p>Получите 6000 миль для Вашего путешествия</p>
+<p>Бонусные билеты на рейсы любой авиакомпании мира от 1000 миль</p>
+<p>РБК-Кредит</p>
+<p>Лучшие кредиты марта</p>
+<p>Выбор клиентов</p>
+<p>Горящие кредиты</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>var dreferrer = document.referrer; try { dreferrer = window.parent.document.referrer } catch(e) {}</p>
+<p>try { dreferrer = dreferrer.substr(0, 256) } catch(e) { dreferrer = "" }</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1120&gid=2&oin=1&rid=' + random +'&dreferer='+escape(dreferrer)+'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>ГлавноеПолиция задержала бывшего замминистра сельского хозяйства России</p>
+<p>ПолитикаСеул: КНДР запустит баллистическую ракету уже сегодняС.Степашин может уступить Т.Голиковой место в Счетной палатеЕС убеждает КНДР: Провокаций со стороны США и Южной Кореи нетпоследние новости</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>var dreferrer = document.referrer; try { dreferrer = window.parent.document.referrer } catch(e) {}</p>
+<p>try { dreferrer = dreferrer.substr(0, 256) } catch(e) { dreferrer = "" }</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1131&gid=2&oin=1&rid=' + random +'&dreferer='+escape(dreferrer)+'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Quote</p>
+<p>Ослабление доллара США позитивно сказалось на нефти </p>
+<p>TeleTrade: Центральным событием среды станет публикация протоколов ФРС</p>
+<p>HSBC: Рост ВВП России вступает в фазу оживления </p>
+<p>ЭкономикаЛ.Лаудер подарил музею картин на миллиард долларовДоллар снова медленно дорожаетБиржа вновь идет вверхпоследние новости</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1127&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>ПроисшествияСтудент из техасского колледжа мечтал о массовой резне с детства Полиция задержала бывшего замминистра сельского хозяйства России"Аэроэкспрессы" в Домодедово отменены из-за ДТП в Подмосковьепоследние новости</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1126&gid=2&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Спорт</p>
+<p>"Реал" не выжил в турецком аду, но вышел в полуфинал Лиги чемпионов</p>
+<p>Русский Феникс: Овечкин стал претендентом на Hart Trophy</p>
+<p>Сборная России по хоккею выиграла "бронзу" чемпионата мира</p>
+<p>CNews.ru</p>
+<p>Главу "Вконтакте" обвинили в наезде на полицейского</p>
+<p>Из "Роснано" уволился ИТ-директор</p>
+<p>Sony назвала цены новых телевизоров формата 4K</p>
+<p>Новости туризма</p>
+<p>"Аэроэкспресс" задерживается из-за аварии</p>
+<p>Авиакомпании потеряли 26 миллионов чемоданов</p>
+<p>Россиянина в Паттайе ограбил леди-бой</p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>var dreferrer = document.referrer; try { dreferrer = window.parent.document.referrer } catch(e) {}</p>
+<p>try { dreferrer = dreferrer.substr(0, 256) } catch(e) { dreferrer = "" }</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.rbc.medialand.ru/code?pid=1510&gid=2&oin=1&rid=' + random +'&dreferer='+escape(dreferrer)+'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>РБК</p>
+<p>О компании</p>
+<p>Услуги</p>
+<p>Реклама</p>
+<p>Контакты</p>
+<p>Вакансии</p>
+<p>Инвесторам</p>
+<p>Наша история</p>
+<p>Карта сайта</p>
+<p>Другие продукты РБК</p>
+<p>Loveplanet.ru - знакомства</p>
+<p>Readme.ru - новостной агрегатор</p>
+<p>qip.ru - общение</p>
+<p>tvidi.ru - детская соцсеть</p>
+<p>pochta.ru - почта</p>
+<p>anekdot.ru - юмор</p>
+<p>VideoLink - рекламная сеть</p>
+<p>Магна - контекстная реклама</p>
+<p>Хостинговые услуги</p>
+<p>КупонГид - все скидки</p>
+<p>Воспользуйтесь этим</p>
+<p>Новости</p>
+<p>Архив</p>
+<p>Семинары</p>
+<p>Кредит</p>
+<p>Бизнес Журнал</p>
+<p>		Все замечания и пожелания присылайте на webmaster@top.rbc.ru.</p>
+<p><!--</p>
+<p>document.write("<img src='http://counter.yadro.ru/hit;RBCRU?r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' width=1 height=1 alt=''>")//--></p>
+<p> </p>
+<p>var img = new Image();</p>
+<p>img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*rbc_ru/ru/UTF-8/tmsec=rbc_total/' + Math.round(Math.random() * 1000000000);</p>
+<p><!--</p>
+<p>	u="count.rbc.ru/p49.gif";d=document;nv=navigator;na=nv.appName;p=0;j="N";</p>
+<p>	n=(na.substring(0,2)=="Mi")?0:1;y="";</p>
+<p>	y+="<img src='http://"+u+"?r="+escape(d.referrer)+"&width="+screen.width+"&height="+screen.height+"&hash="+escape(d.location.hash.substr(1))+"&rn="+Math.random();</p>
+<p>	y+="' border=0  width=1 height=1 alt='count'>";</p>
+<p>	d.write(y);if(!n) { d.write("<"+"!--"); }//--></p>
+<p><!--</p>
+<p>	if(!n) { d.write("--"+">"); }//--></p>
+<p>Bbody.next(".4babd35f000");</p>
+<p>if ( Cookie && typeof(Cookie) == 'object') {</p>
+<p>	var cookie_var = "";</p>
+<p>	if( cookie_var.length > 0 && cookie_var != '(none)' && cookie_var.indexOf('CUR_SHOW') == -1 ) {</p>
+<p>	Cookie.set("count_nielsen_general.20081013133438.85304", cookie_var, 1);</p>
+<p>	}</p>
+<p>}</p>
+<p>			</p>
+<p>			Все права защищены и охраняются законом. © 1995 - 2013 РосБизнесКонсалтинг.</p>
+<p>			Информация об ограничениях © Reuters, © AP.</p>
+<p>			Подробнее о соблюдении авторских прав и размещении рекламы..</p>
+<p>		</p>
+<p>		if ( window.FB ) {</p>
+<p>			$( '.facebookButtonBig' ).css( { visibility: 'visible' } );</p>
+<p>			_ga.trackFacebook();</p>
+<p>		}</p>
+<p>	</p>
+<p>		if ( window.VK ) {</p>
+<p>			$('.VKbuttonBig').css({visibility: 'visible'});</p>
+<p>			try {</p>
+<p>				VK.init({apiId: 2947582, onlyWidgets: true})</p>
+<p>			} catch(err) {};</p>
+<p>			var title_654651 = $('TITLE').text();</p>
+<p>			try {</p>
+<p>				VK.Widgets.Like("vk_like", {width: 130, pageTitle: title_654651, type: "button"});</p>
+<p>				_ga.trackVkontakte();</p>
+<p>			} catch(err) {</p>
+<p>				$('.VKbuttonBig').hide();</p>
+<p>			}</p>
+<p>		}</p>
+<p>	</p>
+<p>(function(){</p>
+<p>  var twitterWidgets = document.createElement('script');</p>
+<p>  twitterWidgets.type = 'text/javascript';</p>
+<p>  twitterWidgets.async = true;</p>
+<p>  twitterWidgets.src = 'http://platform.twitter.com/widgets.js';</p>
+<p>  // Setup a callback to track once the script loads.</p>
+<p>  twitterWidgets.onload = function() {</p>
+<p>    $( '.twitterButtonBig' ).css( { visibility: 'visible' } );</p>
+<p>    _ga.trackTwitter();</p>
+<p>  }</p>
+<p>  document.getElementsByTagName('head')[0].appendChild( twitterWidgets );</p>
+<p>})();</p>
+<p>if ( mailru ) {</p>
+<p>    _ga.trackMailru();</p>
+<p>}</p>
+<p>(function (d, w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter16443139 = new Ya.Metrika({id:16443139, enableAll: true, webvisor:true});</p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>    </p>
+<p>    var n = d.getElementsByTagName("script")[0],</p>
+<p>        s = d.createElement("script"),</p>
+<p>        f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>    if (w.opera == "[object Opera]") {</p>
+<p>        d.addEventListener("DOMContentLoaded", f);</p>
+<p>    } else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>

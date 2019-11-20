@@ -1,0 +1,293 @@
+<p>Почему врачи отказывают пациентам в рецептах на виагру | Медицинский портал «Здоровье Украины»</p>
+<p>function togg_search()</p>
+<p>{$("#list").toggle(300);} </p>
+<p>function togg_serv()</p>
+<p>{$("#server-list").toggle(300);}</p>
+<p>$(window).bind("load", function() { </p>
+<p>$("div#slider-video").slideViewerPro({ </p>
+<p>        thumbs: 2,  </p>
+<p>        thumbsPercentReduction: 100, </p>
+<p>		thumbsHeight: 77,</p>
+<p>		thumbsWidth: 125,</p>
+<p>		picHeight: 175,</p>
+<p>		picWidth: 300,</p>
+<p>        galBorderWidth: 0, </p>
+<p>        galBorderColor: "aqua", </p>
+<p>        thumbsTopMargin: 5, </p>
+<p>        thumbsRightMargin: 3, </p>
+<p>        thumbsBorderWidth: 0, </p>
+<p>        thumbsActiveBorderColor: "gold", </p>
+<p>        thumbsActiveBorderOpacity: 0.8, </p>
+<p>        thumbsBorderOpacity: 0, </p>
+<p>        buttonsTextColor: "#707070", </p>
+<p>        leftButtonInner: "<img src='/img/design/slider_button_left.jpg' alt='' />", </p>
+<p>        rightButtonInner: "<img src='/img/design/slider_button_right.jpg' alt='' />", </p>
+<p>        autoslide: true,  </p>
+<p>        typo: true</p>
+<p>        });     </p>
+<p>	}); </p>
+<p>	</p>
+<p>$(function() {</p>
+<p>    $(".photo-slide").jCarouselLite({</p>
+<p>        btnNext: ".left-btn",</p>
+<p>        btnPrev: ".right-btn",</p>
+<p>		visible: 2,</p>
+<p>		auto: 4000</p>
+<p>    });</p>
+<p>});</p>
+<p>$(function(){</p>
+<p>  $("#tabs").tabs();</p>
+<p>});</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-1451854-2']);</p>
+<p>  _gaq.push(['_setDomainName', '.health-ua.org']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  _gaq.push(['_trackPageLoadTime']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p><!--</p>
+<p>bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={o:1,v:16808571,s:16808571,t:6,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}</p>
+<p>try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}</p>
+<p>try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}</p>
+<p>r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r);bm.v^=r.length}</p>
+<p>bm.v^=window.location.href.length;for(var x in bm) if(/^[ovstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>bmD.write('<sc'+'ript type="text/javascript" language="javascript" src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');</p>
+<p>//--></p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://a8.health-ua.org/www/delivery/ajs.php':'http://a8.health-ua.org/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=2");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>На главную</p>
+<p>Карта портала</p>
+<p>Тесты онлайн</p>
+<p>Перевод текста онлайн</p>
+<p> </p>
+<p>Педиатрия</p>
+<p>Весь портал</p>
+<p>Новости</p>
+<p>Консультация</p>
+<p>Видео</p>
+<p>Статьи</p>
+<p>Фото</p>
+<p>Лекарства</p>
+<p>Весь портал</p>
+<p>Новости</p>
+<p>Видео</p>
+<p>Доступно о проблеме</p>
+<p>Горячая тема</p>
+<p>Фото</p>
+<p>Лекарственные средства</p>
+<p>Правовая консультация</p>
+<p>Главная</p>
+<p>»</p>
+<p>Новости медицины » Почему врачи отказывают пациентам в рецептах на виагру</p>
+<p><!--//<![CDATA[</p>
+<p>   var m3_u = (location.protocol=='https:'?'https://a8.health-ua.org/www/delivery/ajs.php':'http://a8.health-ua.org/www/delivery/ajs.php');</p>
+<p>   var m3_r = Math.floor(Math.random()*99999999999);</p>
+<p>   if (!document.MAX_used) document.MAX_used = ',';</p>
+<p>   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);</p>
+<p>   document.write ("?zoneid=1&amp;charset=UTF-8");</p>
+<p>   document.write ('&amp;cb=' + m3_r);</p>
+<p>   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);</p>
+<p>   document.write ('&amp;charset=UTF-8');</p>
+<p>   document.write ("&amp;loc=" + escape(window.location));</p>
+<p>   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));</p>
+<p>   if (document.context) document.write ("&context=" + escape(document.context));</p>
+<p>   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");</p>
+<p>   document.write ("'><\/scr"+"ipt>");</p>
+<p>//]]>--></p>
+<p>	Машины Hyundai в Украине: актуальные цены, лучшая база </p>
+<p>	авто.</p>
+<p>	Киноафиша, новости, фильмы на kino.ukr.net.</p>
+<p>	Полная телепрограмма на все каналы.</p>
+<p>Новости спорта Украины и Мира на портале UKR.NET.</p>
+<p>Новости медицины и здоровья</p>
+<p>          для вашего сайта</p>
+<p>Новости по теме</p>
+<p>На пути «виагры» из человеческих зародышей встали таможенники</p>
+<p>Когда мужчины перестают замечать женщин</p>
+<p>Проблемы с  потенцией – виноваты женские слезы</p>
+<p>Выбирайте: потенция или избавление от лысины</p>
+<p>Тестостерон повышает половое влечение не только мужчин, но и немолодых женщин</p>
+<p>Новости партнеров</p>
+<p>Последние новости</p>
+<p>16:00 04 апреля 2013 г.</p>
+<p>Маленькие люди с обликом Купидона не болеют раком и диабетом</p>
+<p>15:00 04 апреля 2013 г.</p>
+<p>Изобретено женское белье, защищающее от насильников</p>
+<p>14:00 04 апреля 2013 г.</p>
+<p>Западные спецслужбы ловят «научных» шпионов и контрабандистов микробов</p>
+<p>13:00 04 апреля 2013 г.</p>
+<p>Создан революционный метод радиотерапии рака без побочных эффектов</p>
+<p>12:00 04 апреля 2013 г.</p>
+<p>Метод «реанимации» донорских легких поможет спасти множество жизней</p>
+<p>Консультации</p>
+<p>всего 123 880 консультаций</p>
+<p>Акушерство, гинекология, репродуктивная медицина</p>
+<p>Аллергия. Иммунитет</p>
+<p>Варикоз</p>
+<p>Гастроэнтерология</p>
+<p>Гепатология</p>
+<p>Головная боль</p>
+<p>Дерматология</p>
+<p>Детская и подростковая гинекология</p>
+<p>Избыточный вес. Диеты</p>
+<p>Изжога. Желудочно-пищеводный рефлюкс</p>
+<p>Инфекционные заболевания</p>
+<p>Кардиология</p>
+<p>Косметология</p>
+<p>Маммология</p>
+<p>Метеочувствительность</p>
+<p>Неврология</p>
+<p>Онкология</p>
+<p>Отоларингология</p>
+<p>Офтальмология</p>
+<p>Прививки</p>
+<p>Проктология</p>
+<p>Пульмонология, фтизиатрия</p>
+<p>Стоматология. Заболевания полости рта</p>
+<p>Стресс. Депрессия. Психологическое консультирование</p>
+<p>Травматология и ортопедия</p>
+<p>Урология и нефрология</p>
+<p>Эндокринология. Сахарный диабет</p>
+<p>Почему врачи отказывают пациентам в рецептах на виагру</p>
+<p>09 декабря 2011 г.</p>
+<p> </p>
+<p>В Великобритании, как и во всех других странах Европы, а также США, виагру можно приобрести только по рецепту врача. Неожиданно британские врачи получили указание выписывать желанное лекарство только в количестве 2 таблетки в месяц на человека.</p>
+<p>Многие британцы, мужчины среднего и старшего возраста еще не могут прийти в себя от шокирующего известия: руководство NHS, государственной системы здравоохранения, услугами которой пользуются практически все британцы, обнародовало новые правила, согласно которым врачи NHS могут выписывать рецепт только на 2 таблетки ежемесячно – ограничению подлежит виагра, а также ее «сестры» левитра и сиалис.</p>
+<p>Таким образом, те представители сильного пола в возрасте от 40 до 60 лет, любовный пыл которых несколько «ослаб» и которые нуждаются в приеме синенькой таблетки перед интимной близостью с женщиной, оказались ограниченными в своем праве на любовь двумя половыми актами в месяц.</p>
+<p>Подобное ограничение уже было введено некоторое время тому назад – оно лимитировало число выписанных таблеток виагры или аналогичного препарата 4-мя в месяц – по одной в неделю. Именно такова (1 половой акт в неделю), по мнению медицинских чиновников, интенсивность сексуальной жизни мужчин 40-60 летнего возраста.</p>
+<p>Теперь мужчинам среднего возраста, нуждающимся в стимуляции эрекции с помощью подобных препаратов, придется раскошелиться на поход к частному врачу, где надо будет заплатить за прием и за выписанный рецепт.</p>
+<p>Кроме того, по рецепту от врача-частника бедному пациенту придется покупать сразу всю упаковку (8 таблеток), что обойдется ему в 40 фунтов стерлингов (около 65 долларов США). А по рецептам от врачей NHS провизор в аптеке отрезал необходимое количество – 4 таблетки в месяц, и сумма которую приходилось выкладывать за гарантированное удовольствие, была меньше.</p>
+<p>«Заговор» против мужчин среднего возраста раскрыл британский журнал Pulse, который опубликовал статью о планах NHS относительно ограничений на препараты.</p>
+<p>«Для многих мужчин это нововведение может превратить секс в недоступную роскошь», – едко замечает Ричард Хоуи (Richard Hoey), главный редактор журнала Pulse.</p>
+<p>© www.health-ua.org</p>
+<p>Теги: Проблемы с потенцией</p>
+<p> </p>
+<p>Больше по теме</p>
+<p>Доступно о проблеме:</p>
+<p>Простатит – не приговор</p>
+<p>Для современных мужчин диагноз «простатит» звучит как приговор, однако в большинстве случаев это заболевание излечимо и после полного курса терапии можно забыть об этой проблеме.</p>
+<p>Читать дальше </p>
+<p>Горячая тема:</p>
+<p>В зоне особого внимания: антибиотик-ассоциированная диарея</p>
+<p>Современную медицину невозможно представить без антибиотиков. Однако, наряду со многими неоспоримыми достоинствами антибиотиков, их применение часто сопровождается побочными эффектами. Один из наиболее частых симптомов — антибиотик-ассоциированная диарея</p>
+<p>Читать дальше </p>
+<p>Медицинская консультация:</p>
+<p>Проблемы с потенцией</p>
+<p>Добрый день. У меня следующая проблема мне 26 лет. За это время секса у меня не было очень давно и вот я встретил девушку с которой я бы хотел иметь семью и не получается совершить половой акт. Возбуждаюсь нормально но когда хочу войти в ее вагину мой чле…</p>
+<p>Читать дальше </p>
+<p>Видео:</p>
+<p>Эректильная дисфункция</p>
+<p>Эректильная дисфункция – неспособность мужчины добиваться или контролировать эрекцию в достаточных для сексуальных нужд партнера пределах. Большинство мужчин сталкиваются с этим состоянием в определенный период жизни, обычно, в возрасте п...</p>
+<p>Смотреть</p>
+<p>Разделы портала</p>
+<p>Новости</p>
+<p>Видео</p>
+<p>Доступно о проблеме</p>
+<p>Горячая тема</p>
+<p>Фото</p>
+<p>Лекарственные средства</p>
+<p>Правовая консультация</p>
+<p>Тесты онлайн</p>
+<p>Перевод текста онлайн</p>
+<p>Архив</p>
+<p>Написать нам</p>
+<p>Медицинская консультация онлайн</p>
+<p>Акушерство, гинекология, репродуктивная медицина</p>
+<p>Аллергия. Иммунитет</p>
+<p>Варикоз</p>
+<p>Гастроэнтерология</p>
+<p>Гепатология</p>
+<p>Головная боль</p>
+<p>Дерматология</p>
+<p>Детская и подростковая гинекология</p>
+<p>Избыточный вес. Диеты</p>
+<p>Изжога. Желудочно-пищеводный рефлюкс</p>
+<p>Инфекционные заболевания</p>
+<p>Кардиология</p>
+<p>Косметология</p>
+<p>Маммология</p>
+<p>Метеочувствительность</p>
+<p>Неврология</p>
+<p>Онкология</p>
+<p>Отоларингология</p>
+<p>Офтальмология</p>
+<p>Прививки</p>
+<p>Проктология</p>
+<p>Пульмонология, фтизиатрия</p>
+<p>Стоматология. Заболевания полости рта</p>
+<p>Стресс. Депрессия. Психологическое консультирование</p>
+<p>Травматология и ортопедия</p>
+<p>Урология и нефрология</p>
+<p>Эндокринология. Сахарный диабет</p>
+<p>Условия использования  Мы в Google+ © 2006 - 2013 Медицинский портал «Здоровье Украины»</p>
+<p><!--</p>
+<p>function BM_Draw(oBM_STAT){</p>
+<p>document.write('<table cellpadding="0" cellspacing="0" border="0" style="display:inline;margin-right:4px;"><tr><td><div style="font-family:Tahoma;font-size:10px;padding:0px;margin:0px;"><div style="width:7px;float:left;background:url(\'http://i.bigmir.net/cnt/samples/default/b56_left.gif\');height:17px;padding-top:2px;background-repeat:no-repeat;"></div><div style="float:left;background:url(\'http://i.bigmir.net/cnt/samples/default/b56_center.gif\');text-align:left;height:17px;padding-top:2px;background-repeat:repeat-x;"><a href="http://www.bigmir.net/" target="_blank" style="color:#0000ab;text-decoration:none;">bigmir<span style="color:#ff0000;">)</span>net</a>&nbsp;&nbsp;<span style="color:#eca8aa;">хиты</span>&nbsp;<span style="color:#d44348;font:10px Tahoma;">'+oBM_STAT.hits+'</span>&nbsp;<span style="color:#eca8aa;">хосты</span>&nbsp;<span style="color:#d44348;font:10px Tahoma;">'+oBM_STAT.hosts+'</span></div><div style="width:7px;float: left;background:url(\'http://i.bigmir.net/cnt/samples/default/b56_right.gif\');height:17px;padding-top:2px;background-repeat:no-repeat;"></div></div></td></tr></table>');</p>
+<p>}</p>
+<p>//--></p>
+<p><!--</p>
+<p>iS='<img src="http://r.i.ua/s?u7180&p213&n'+Math.random();</p>
+<p>iD=document;if(!iD.cookie)iD.cookie="b=b; path=/";if(iD.cookie)iS+='&c1';</p>
+<p>iS+='&d'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)</p>
+<p>+"&w"+screen.width+'&h'+screen.height;</p>
+<p>iT=iD.referrer.slice(7);iH=window.location.href.slice(7);</p>
+<p>((iI=iT.indexOf('/'))!=-1)?(iT=iT.substring(0,iI)):(iI=iT.length);</p>
+<p>if(iT!=iH.substring(0,iI))iS+='&f'+escape(iD.referrer.slice(7));</p>
+<p>iS+='&r'+escape(iH);</p>
+<p>iD.write(iS+'" border="0" width="160" height="19" />');</p>
+<p>//--></p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter9686719 = new Ya.Metrika({id:9686719, enableAll: true, webvisor:true});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, "yandex_metrika_callbacks");</p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>    +'src="http://jsn.dt00.net/h/e/health-ua.org.9759.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+MarketGidDate.getDay()+MarketGidDate.getHours()</p>
+<p>    + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>    </p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>    +'src="http://jsn.dt00.net/h/e/health-ua.org.12594.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+MarketGidDate.getDay()+MarketGidDate.getHours()</p>
+<p>    + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>    </p>
+<p><!--</p>
+<p>Cd=document;Cr="&"+Math.random();Cp="&s=1";</p>
+<p>Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";</p>
+<p>Cp+="&t="+(new Date()).getTimezoneOffset();</p>
+<p>if(self!=top)Cp+="&f=1";</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(navigator.javaEnabled())Cp+="&j=1";</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+</p>
+<p>screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);</p>
+<p>//--></p>
+<p><!--</p>
+<p>Cd.write("<img src='http://c.hit.ua/hit?i=89030&g=0&x=2"+Cp+Cr+</p>
+<p>"&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+</p>
+<p>"' border='0' wi"+"dth='1' he"+"ight='1'/>");</p>
+<p>//--></p>

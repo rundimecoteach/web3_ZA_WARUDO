@@ -1,0 +1,449 @@
+<p>Ottawa cancer rates highest in Ontario - Ottawa - CBC News</p>
+<p>		var WRInitTime=(new Date()).getTime();</p>
+<p>	</p>
+<p>		//<![CDATA[</p>
+<p>		var advertising_zone="canada";</p>
+<p>		var advertising_section="canada";</p>
+<p>		var advertising_category="ottawa";</p>
+<p>		//]]></p>
+<p>	</p>
+<p>/* <![CDATA[ */ advertising_content_category = 'Canada'; /* ]]> */</p>
+<p>/* <![CDATA[ */ advertising_content_category = 'Ottawa'; /* ]]> */</p>
+<p>Accessibility Links</p>
+<p>Skip to main content</p>
+<p>Skip to CBC accessibility page</p>
+<p> </p>
+<p>		/* <[![CDATA */ </p>
+<p>		</p>
+<p>			var q = "/ept/html/story/2012/01/10/ottawa-cancer-rates-survival-rates.html";</p>
+<p>		</p>
+<p>		try {</p>
+<p>			if(window.top !== window.self) {</p>
+<p>				Ads.iframeSrcParse();</p>
+<p>			}</p>
+<p>		} catch(e) {}</p>
+<p>		Ads.displayAd();	</p>
+<p>		/* ]]> */</p>
+<p>	</p>
+<p>CBC Global Header Navigation</p>
+<p>CBC.ca</p>
+<p>News</p>
+<p>news drop down menu</p>
+<p>Sports</p>
+<p>sports drop down menu</p>
+<p>Radio</p>
+<p>radio drop down menu</p>
+<p>TV</p>
+<p>tv drop down menu</p>
+<p>My Region drop down menu</p>
+<p> </p>
+<p>More drop down menu</p>
+<p> </p>
+<p>Watch </p>
+<p>Watch drop down menu</p>
+<p>Listen</p>
+<p>Listen drop down menu</p>
+<p>Search CBC.ca</p>
+<p>Submit Search</p>
+<p>Sign Up</p>
+<p>Log In</p>
+<p> </p>
+<p>if (!_CBC_LOADER.modules.cbc_globalnav) _CBC_LOADER.modules.cbc_globalnav = { type:"js", fullpath:"/i/o/globalnav/v10/globalnav-min.js", requires: ['cbc_core', 'node', 'event'] };</p>
+<p>if (!_CBC_LOADER.modules.cbc_globalnav_menu_style) _CBC_LOADER.modules.cbc_globalnav_menu_style = { type:"css", fullpath:"/i/o/globalnav/v10/css/dropdown.css" };</p>
+<p>YUI(_CBC_LOADER).use('cbc_globalnav', function(Y, result){</p>
+<p>	if (result.success){</p>
+<p>		CBC.namespace("CBC.APP").globalnav = new CBC.APP.Globalnav();</p>
+<p>		var params = {};</p>
+<p>		</p>
+<p>		</p>
+<p>		CBC.APP.globalnav.init(Y, params);</p>
+<p>		CBC.APP.Instances.add("globalnav",CBC.APP.globalnav);</p>
+<p>	}</p>
+<p>});</p>
+<p>			Ottawa</p>
+<p>		</p>
+<p>LIVE</p>
+<p>Ottawa</p>
+<p>More Streams</p>
+<p>					Radio One	</p>
+<p>					</p>
+<p>Listen Live</p>
+<p>CBC News Canada</p>
+<p>Major StoriesIn The News</p>
+<p>CBC in Syria</p>
+<p>U.S. campaign blog</p>
+<p>Detroit auto show</p>
+<p>Haiti two years later</p>
+<p>CBC News Navigation</p>
+<p>Home</p>
+<p>World</p>
+<p>Canada</p>
+<p>Politics</p>
+<p>Business</p>
+<p>Health</p>
+<p>Arts & Entertainment</p>
+<p>Technology & Science</p>
+<p>Community</p>
+<p>Weather</p>
+<p>Video</p>
+<p>Canada</p>
+<p>Ottawa</p>
+<p>News</p>
+<p>Events</p>
+<p>Weather</p>
+<p>Programs</p>
+<p>Video</p>
+<p>Audio</p>
+<p>Contact Us</p>
+<p>Ottawa cancer rates highest in Ontario</p>
+<p>City also boasts best cancer survival rates in the province</p>
+<p>CBC News</p>
+<p>Posted:</p>
+<p>Jan 10, 2012   7:49 AM ET</p>
+<p>Last Updated: </p>
+<p>Jan 10, 2012   6:41 PM ET</p>
+<p> </p>
+<p>Related</p>
+<p>External Links</p>
+<p>Cancer in Ottawa 2012</p>
+<p>Cancer in Ottawa 2012: Knowledge to action report</p>
+<p>(Note:CBC does not endorse and is not responsible for the content of external links.)</p>
+<p>Ottawa has the highest cancer rates in all of Ontario but also boasts the best cancer survival rates in the province, according to a local health status report.</p>
+<p>Cancer diagnoses in Ottawa, 2007TotalMFAll cancers (combined)3,8901,9241,966Breast553NA553Lung502236266Prostate502502NAColorectal492269223Non-Hodgkin lymphoma1739875Leukemia1517873Melanoma1468957Kidney1176651Body of uterus116NA116Bladder1128230Cervical25NA25Testicular2121NAStatistics courtesy: Cancer Care Ontario</p>
+<p>The findings of Cancer in Ottawa 2012 come from 2007 statistics, the latest available from Cancer Care Ontario, which also show new cancer cases and total cancer deaths in Ottawa have increased since the mid-1980s. The average survival rate has increased, however.</p>
+<p>The report also shows the four most common cancers diagnosed in the city — female breast, lung, prostate and colorectal cancer — are not unlike most other areas. But Ottawa does have a lower rate of both prostate and cervical cancer diagnoses than the rest of Ontario.</p>
+<p>For men, the most common cancers were prostate, colorectal, lung and non-Hodgkin lymphoma. The most deadly of male cancers were lung, colorectal, prostate and pancreatic cancers.</p>
+<p>For women, cancer was most prevalent in the breast, lung, colon and body of the uterus. The most deadly were lung, breast, colorectal and pancreatic cancers.</p>
+<p>Overall, survival rates have increased in the city between five-year periods of 1993-1997 and 2003-2007.</p>
+<p>The data is about five years old so the report warns the information "may not be a truly representative picture of the current burden of cancer in Ottawa."</p>
+<p>You can read the full report here, which will be presented to the Ottawa Board of Health on Jan. 16.</p>
+<p>Share Tools</p>
+<p>Report Typo</p>
+<p>Send Feedback</p>
+<p>Stay Connected with CBC News</p>
+<p>Mobile</p>
+<p>Facebook</p>
+<p>Podcasts</p>
+<p>Twitter</p>
+<p>Alerts</p>
+<p>Newsletter</p>
+<p>Big Box Advertisement</p>
+<p>			/* <![CDATA[ */</p>
+<p>				if(typeof(Ads) != "undefined") {</p>
+<p>					Ads.displayBigBox();</p>
+<p>				} else {</p>
+<p>					document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/'+ advertising_site + '/' + advertising_zone + ';pos=topbox;tile=2;sz=300x250;page='+ advertising_page_type +';section='+advertising_section+';category='+advertising_category+';contcat='+advertising_content_category+';'+advertising_keyword+advertising_surround_session+'ord=' + ord + '?" type="text/javascript"><\/script>');</p>
+<p>				}</p>
+<p>			/* ]]> */</p>
+<p>		</p>
+<p>Latest Ottawa News Headlines</p>
+<p>Quebec mom charged in daughter's death attempts suicide </p>
+<p>A western Quebec woman charged with first-degree murder in the death of her seven-year-old daughter is in hospital in critical condition after attempting suicide.    more »</p>
+<p>Kanata commuters fuming after bus no-show  </p>
+<p>Commuters who work in a Kanata industrial park say they are furious after an OC Transpo bus scheduled to drive by their workplace has left them stranded two days in a row. more »</p>
+<p>Shafia mom says teen's photos not a 'dishonour'</p>
+<p>The Montreal mother accused in the deaths of her three daughters and her husband's first wife has testified that photos of one of the girls in revealing clothing was not a dishonour to her. more »</p>
+<p>Hospital researchers upset over Ontario funding cuts  </p>
+<p>Scientists in Ottawa say Ontario's decision to cut $66 million in health research funding is a blow to cancer and heart-disease treatment work in Canada. more »</p>
+<p>Ottawa mayor says Senate should be abolished</p>
+<p>Just days after police chief Vern White's appointment to the Senate, Ottawa mayor Jim Watson said he would abolish the Upper House.  more »</p>
+<p>Most Recent</p>
+<p>Watch</p>
+<p>Listen</p>
+<p>Show previous slide</p>
+<p> </p>
+<p>              var o = {</p>
+<p>				  containerId: 'promoContainer-0slides',</p>
+<p>                  categoryId: '1305550861',</p>
+<p>                  categoryPath: '/News/Canada/Ottawa',</p>
+<p>                  startIndex: '1',</p>
+<p>                  endIndex: '6'</p>
+<p>              };</p>
+<p>            </p>
+<p>Show next slide</p>
+<p>Show previous slide</p>
+<p> </p>
+<p>              var o = {</p>
+<p>				  containerId: 'promoContainer-1slides',</p>
+<p>                  categoryId: '1558596082',</p>
+<p>                  categoryPath: '/Radio/Local_Shows/Ontario',</p>
+<p>                  startIndex: '1',</p>
+<p>                  endIndex: '6'</p>
+<p>              };</p>
+<p>            </p>
+<p>Show next slide</p>
+<p>Top News Headlines</p>
+<p>Syria protests continue against defiant Assad  </p>
+<p>Anti-government protesters rallied for another night on the outskirts of Damascus, hours after Syrian President Bashar al-Assad made a surprise appearance at a pro-regime rally in the city centre, where he again vowed to end the months-long revolt against his rule.  more »</p>
+<p>Afghan president condemns U.S. marines urination video</p>
+<p>Afghan President Hamid Karzai condemns a video depicting what appears to be four U.S. marines urinating on the corpses of Taliban fighters, calling the apparent actions "completely inhumane" and demanding that the U.S. military punish the marines.   more »</p>
+<p>RCMP spied on Bob Rae in 1960s</p>
+<p>Newly declassified documents reveal the RCMP spied on Bob Rae during his student activist days and likely amassed a personal file on the future interim Liberal leader. more »</p>
+<p>Haiti's struggle to build better homes after quake </p>
+<p>Innovative building technology is one hope for the future in Haiti, where more than 500,000 people still live in temporary camps two years after a devastating earthquake. more »</p>
+<p>U.K. spies won't face charges for Guantanamo torture</p>
+<p>Agents working for Britain's spy agencies won't face criminal charges over their alleged complicity in the mistreatment of former Guantanamo detainees, the country's top prosecutor says.  more »</p>
+<p>More Headlines »</p>
+<p>Most Viewed/Commented</p>
+<p>Most Viewed</p>
+<p>Commented</p>
+<p>Kanata commuters fuming after bus no-show</p>
+<p>Quebec mom charged in daughter's death attempts suicide</p>
+<p>Ottawa school bus cancellations</p>
+<p>Ottawa man selling Lego Stephen Harper</p>
+<p>Shafia mom says teen's photos not a 'dishonour'</p>
+<p>Ottawa mayor says Senate should be abolished</p>
+<p>Civic hospital security guard charged with sexual assault</p>
+<p>Hospital researchers upset over Ontario funding cuts</p>
+<p>Former bank renamed after Sir John A. Macdonald</p>
+<p>Quebec mom charged in daughter's death attempts suicide</p>
+<p>A western Quebec woman charged with first-degree murder in the death of her seven-year-old daughter is in hospital in critical condition after attempting suicide.    more »</p>
+<p>Related: Chelsea mom charged with killing daughter to stand trial</p>
+<p>Kanata commuters fuming after bus no-show  </p>
+<p>Commuters who work in a Kanata industrial park say they are furious after an OC Transpo bus scheduled to drive by their workplace has left them stranded two days in a row. more »</p>
+<p>Shafia mom says teen's photos not a 'dishonour'</p>
+<p>The Montreal mother accused in the deaths of her three daughters and her husband's first wife has testified that photos of one of the girls in revealing clothing was not a dishonour to her. more »</p>
+<p>Hospital researchers upset over Ontario funding cuts  </p>
+<p>Scientists in Ottawa say Ontario's decision to cut $66 million in health research funding is a blow to cancer and heart-disease treatment work in Canada. more »</p>
+<p>Ottawa mayor says Senate should be abolished</p>
+<p>Just days after police chief Vern White's appointment to the Senate, Ottawa mayor Jim Watson said he would abolish the Upper House.  more »</p>
+<p>Civic hospital security guard charged with sexual assault</p>
+<p>A man working as a security guard at the Ottawa hospital has been charged with sexual assault after an incident involving a female patient with a developmental disability. more »</p>
+<p>Gatineau teens to be charged in bridge fire</p>
+<p>Gatineau police arrested four teens in connection with the December fire that destroyed the Brabant Philippe covered bridge in Gatineau. more »</p>
+<p>Former bank renamed after Sir John A. Macdonald  </p>
+<p>The former Bank of Montreal building at the intersection of Wellington and O'Connor streets in downtown Ottawa has been renamed after Canada's first prime minister. more »</p>
+<p>Ottawa man selling Lego Stephen Harper </p>
+<p>An Ottawa man is selling a miniature toy lookalike of Canada's prime minister, assuring he will give all money to charity. more »</p>
+<p>Man charged in 2008 death arrested in Edmonton</p>
+<p>A man wanted on a Canada-wide arrest warrant after he didn't appear at an Ottawa court for his murder trial in October has been arrested in Edmonton. more »</p>
+<p>Features</p>
+<p>SHAFIA TRIAL</p>
+<p>A look at key players in the quadruple murder trial</p>
+<p>Future earthquake</p>
+<p>Ottawa in earthquake zone</p>
+<p>Experts say Ottawa could be home to a large, violent quake</p>
+<p>Big Box Advertisement</p>
+<p>			// <![CDATA[</p>
+<p>			document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/cbc.remnant.ca/' + advertising_zone + ';pos=bottombox;tile=3;sz=300x250;page='+ advertising_page_type +';section='+advertising_section+';category='+advertising_category+';contcat='+advertising_content_category+';'+advertising_keyword+advertising_surround_session+'ord=' + ord + '?" type="text/javascript"><\/script>');</p>
+<p>			// ]]></p>
+<p>		</p>
+<p>Show previous slide</p>
+<p>Don't Miss</p>
+<p>Kathleen Petty</p>
+<p>Former Ottawa Morning host fights cancer</p>
+<p>Sit-down interview with Kathleen Petty as she details her battle with cancer</p>
+<p>2011 most viewed</p>
+<p>Top 10 stories read at CBC.ca/Ottawa</p>
+<p>The Barrhaven school explosion was the most read story of 2011</p>
+<p>Plane crash</p>
+<p>2 Ottawa pilots killed</p>
+<p>The Cessna 177 crashed Dec. 14, 2011 after an 11-day trip in the air</p>
+<p>Ottawa weather</p>
+<p>Check if school buses are running in your neighbourhood</p>
+<p>FAQ | Plasco deal</p>
+<p>Future of Ottawa's garbage processing</p>
+<p>Your source to information on the 20-year garbage-processing deal</p>
+<p>Gatineau immigrant</p>
+<p>Moroccan man investigated after complaint</p>
+<p>Email chain about probe leaked to local Moroccan immigrant</p>
+<p>Canada-U.S. border</p>
+<p>Small border crossings could close with new deal</p>
+<p>Canada and the U.S. are negotiating to close some crossings, merge others</p>
+<p>Consumer News</p>
+<p>Seller beware when shopping for gold buyers</p>
+<p>What is your gold worth? It depends where you go</p>
+<p>Security</p>
+<p>Terrorism chat kept Pembroke man in jail for year</p>
+<p>Afghan man Matin Stanikzy acquitted of all charges after October trial</p>
+<p>Dogs adopted</p>
+<p>Quebec puppy mill dogs find homes</p>
+<p>Small group of puppies from Shawville mill adopted from Ottawa pet store</p>
+<p>Hospital Parking</p>
+<p>Parking costs higher in bigger city</p>
+<p>Eastern Ontario hospitals charge varying amounts for parking</p>
+<p>The Big Fix</p>
+<p>7 Ottawa federal buildings in rough shape</p>
+<p>Older government properties are in need of repairs</p>
+<p>@CityHall</p>
+<p>Alistair Steele has the latest news from city hall</p>
+<p>Photo Gallery</p>
+<p>First snow in Ottawa</p>
+<p>See viewer pictures as winter weather comes to capital region</p>
+<p>Hidden Ottawa</p>
+<p>Cory O'Kelly looks at less-known attractions in our city</p>
+<p>Savvy spenders</p>
+<p>Ottawa savvy shopping tips</p>
+<p>Judy Trinh talks to some clever shoppers in the capital</p>
+<p>Troubled towers</p>
+<p>Angry residents at two Ottawa highrises are fed up</p>
+<p>Cyclist safety</p>
+<p>Debate over safety after fatal downtown crash</p>
+<p>Show next slide</p>
+<p>CBC Global Footer Navigation</p>
+<p>CBC.ca</p>
+<p>Aboriginal</p>
+<p>Books</p>
+<p>Contests</p>
+<p>Digital Archives</p>
+<p>Documentaries</p>
+<p>Kids</p>
+<p>Kids' CBC Preschool</p>
+<p>Kids' CBC Wonder World</p>
+<p>News</p>
+<p>Parents</p>
+<p>Program Guide</p>
+<p>Radio</p>
+<p>Sports</p>
+<p>Television</p>
+<p>CBC Member Centre</p>
+<p>CBC Player</p>
+<p>CBC Shop</p>
+<p>Corporate</p>
+<p>About CBC</p>
+<p>Transparency and Accountability</p>
+<p>Jobs</p>
+<p>Visit the Canadian Broadcasting Centre</p>
+<p>Production Facilities</p>
+<p>Mobile Production Rentals</p>
+<p>Ombudsman</p>
+<p>CBC: Get the Facts</p>
+<p>Independent Producers</p>
+<p>Pitch a Radio or Audio Program</p>
+<p>Program and Content Sales</p>
+<p>Archive Sales</p>
+<p>Educational Sales</p>
+<p>Tapes, Transcripts and Image Assets</p>
+<p>Digital TV</p>
+<p>Stay Connected</p>
+<p>Mobile</p>
+<p>RSS</p>
+<p>Podcasts</p>
+<p>Member Services:Newsletters & Alerts</p>
+<p>CBC Links</p>
+<p>Terms Of Use</p>
+<p>Reuse & Permissions</p>
+<p>Advertise</p>
+<p>Privacy</p>
+<p>Site Map</p>
+<p>Contact Us</p>
+<p>CBC Radio-Canada</p>
+<p>Copyright © CBC 2012</p>
+<p>cbc.radio-canada.ca</p>
+<p>cbc.ca</p>
+<p>radio-canada.ca</p>
+<p>	YUI(_CBC_LOADER).use('cbc_core', 'node', 'gigya', function(Y, result){</p>
+<p>		if (result.success){</p>
+<p>			var conf = {</p>
+<p>				APIKey:CBC.SETTINGS.getVal('gigyaApiKey')</p>
+<p>			};</p>
+<p>				</p>
+<p>			var ua = new gigya.services.socialize.UserAction();</p>
+<p>			ua.setUserMessage("Share this CBC content");</p>
+<p>			ua.setLinkBack(document.location.href);</p>
+<p>			</p>
+<p>			ua.setTitle("Ottawa cancer rates highest in Ontario");</p>
+<p>			</p>
+<p>			var cid = '';</p>
+<p>			</p>
+<p>				cid = "Canada";</p>
+<p>			</p>
+<p>			var params1 ={</p>
+<p>				userAction:ua,</p>
+<p>				shareButtons:'facebook, twitter, google-plusone, share, email',</p>
+<p>				containerID: "sharecount",</p>
+<p>				cid:cid,</p>
+<p>				layout:'vertical'</p>
+<p>			};</p>
+<p>			var params2 ={</p>
+<p>				userAction:ua,</p>
+<p>				shareButtons:'facebook, twitter, google-plusone, share, email',</p>
+<p>				containerID: "sharetools",</p>
+<p>				showCounts: "none",</p>
+<p>				cid:cid,</p>
+<p>				layout:'horizontal'</p>
+<p>			};</p>
+<p>			var params3 ={</p>
+<p>				userAction:ua,</p>
+<p>				shareButtons:'facebook, twitter, google-plusone, share, email',</p>
+<p>				containerID: "sharetoolstwo",</p>
+<p>				showCounts: "none",</p>
+<p>				cid:'',</p>
+<p>				layout:'horizontal'</p>
+<p>			};</p>
+<p>			if(Y.one("#sharecount"))</p>
+<p>				gigya.services.socialize.showShareBarUI(conf,params1);</p>
+<p>			if (Y.one("#sharetools"))</p>
+<p>				gigya.services.socialize.showShareBarUI(conf,params2);</p>
+<p>			if (Y.one("#sharetoolstwo"))</p>
+<p>				gigya.services.socialize.showShareBarUI(conf,params3);</p>
+<p>		}</p>
+<p>	});</p>
+<p>	var o = {</p>
+<p>		iconsContainerIds: ['storyhead','right'],</p>
+<p>		commentsContainerId: 'socialcomments',</p>
+<p>		articleKey: '2000479891',</p>
+<p>		commentsEnabled: true,</p>
+<p>		scmo: 'ApprovalRequired',</p>
+<p>		scped: '2012/01/13 11:59:00 PM',</p>
+<p>		scpm: 'Comments are [B]open[/B] and welcome until January 13, 2012 at 11:59 p.m. ET.\nWe reserve the right to close comments before then.',</p>
+<p>		scem: 'This story is now closed to commenting.',</p>
+<p>		cd: '2012/01/12 09:30:04'</p>
+<p>	};</p>
+<p>	//<![CDATA[</p>
+<p>	if (!_CBC_LOADER.modules.video_json_request) _CBC_LOADER.modules.video_json_request = { type:"js", fullpath:"/video/js/JSONRequest.js" };</p>
+<p>	if (!_CBC_LOADER.modules.video_theplatform_playlist) _CBC_LOADER.modules.video_theplatform_playlist = { type:"js", fullpath:"/video/js/ThePlatformPlaylist.js", requires: ['video_json_request', 'yui2_domevent', 'cbc_old_core']};</p>
+<p>	if (!_CBC_LOADER.modules.cbc_story_media) _CBC_LOADER.modules.cbc_story_media = { type:"js", fullpath:"/i/js/v11/media.js", requires: ['cbc_core', 'node', 'event-custom', 'event', 'video_theplatform_playlist']};</p>
+<p>	</p>
+<p>	YUI(_CBC_LOADER).use('cbc_story_media', function(Y, result){</p>
+<p>		if (result.success){</p>
+<p>			CBC.namespace("CBC.APP").storymedia = new CBC.APP.StoryMedia();</p>
+<p>	  	var params = {};</p>
+<p>	  	params.instance = "storymedia";</p>
+<p>	  	</p>
+<p>	  	</p>
+<p>	  	 params.leadvideo ='2185553183';</p>
+<p>	  	CBC.APP.storymedia.init(Y, params);</p>
+<p>	  	CBC.APP.Instances.add("storymedia",CBC.APP.storymedia);</p>
+<p>		}</p>
+<p>	});</p>
+<p>	//]]></p>
+<p>/* <![CDATA[ */</p>
+<p>	if (!_CBC_LOADER.modules.news_link_track) _CBC_LOADER.modules.news_link_track = { type:"js", fullpath:"/i/news/v10/js/linktrack.js", requires: ['cbc_core', 'node', 'event']};</p>
+<p>	YUI(_CBC_LOADER).use('news_link_track', function(Y, result){</p>
+<p>		if (result.success){</p>
+<p>			CBC.namespace("CBC.APP").newslinktrack = new CBC.APP.NewsLinkTrack();</p>
+<p>	  	var params = {};</p>
+<p>	  	params.instance = "newslinkstrack";</p>
+<p>	  	 params.mode = 'sp';</p>
+<p>	  	CBC.APP.newslinktrack.init(Y, params);</p>
+<p>	  	CBC.APP.Instances.add("newslinktrack",CBC.APP.newslinktrack);</p>
+<p>		}</p>
+<p>	});</p>
+<p>/* ]]> */</p>
+<p>//<![CDATA[</p>
+<p>try{</p>
+<p>	if(!CBC) { var CBC = {}; }</p>
+<p>	if(!CBC.APP) { CBC.APP = {}; }</p>
+<p>	if(!CBC.APP.SC) { CBC.APP.SC = {}; }</p>
+<p>	CBC.APP.SC.QueryString = "contentarea=news&amp;contenttype=story&amp;title=2012/01/10/ottawa-cancer-rates-survival-rates&amp;subsection1=regions&amp;subsection2=ottawa";</p>
+<p>	</p>
+<p>		CBC.APP.SC.storyTitle = "Ottawa%20cancer%20rates%20highest%20in%20Ontario";</p>
+<p>	</p>
+<p>}catch(e){</p>
+<p>}</p>
+<p>//]]></p>
+<p>if (typeof COMSCORE == 'undefined') {</p>
+<p>	YUI(_CBC_LOADER).use('comscore', function(Y,result) {</p>
+<p>		if (result.success) {</p>
+<p>		if (typeof advertising_zone != 'string') </p>
+<p>			var advertising_zone = '';</p>
+<p>				COMSCORE.beacon({c1:2,c2:3005684,c3:"",c4:escape(window.location.href),c5:"CBC.ca-CanadianNewsSportsEntertainmentKidsDocsRadioTV",c6:advertising_zone,c7:escape(window.location.href),c8:escape(document.title),c9:escape(document.referrer),c15:""});</p>
+<p>		}</p>
+<p>	});</p>
+<p>}</p>
+<p>		document.write(unescape("%3Cscript%20src='"+ (document.location.protocol=='https:'?'https://clicktale.pantherssl.com/':'http://s.clicktale.net/')+ "WRc5.js'%20type='text/javascript'%3E%3C/script%3E"));</p>
+<p>	</p>
+<p>		var ClickTaleSSL=1;</p>
+<p>		if(typeof ClickTale=='function') ClickTale(2944,0.003,"www08");</p>
+<p>	</p>

@@ -1,0 +1,371 @@
+<p>Ученые установили: потеря памяти начинается  с 45 лет | Капитал Страны</p>
+<p>ИНФОРМАЦИОННЫЙ ПАРТНЕР ТПП РОССИИ</p>
+<p> на главную  | </p>
+<p>									 en / рус  | </p>
+<p>									 карта сайта  | </p>
+<p>									 написать нам </p>
+<p>НОВОСТИ</p>
+<p>10:24:</p>
+<p>		Рамзан Кадыров и Ислам Кадыров обсудили вопросы благоустройства Грозного – СКФО </p>
+<p>10:13:</p>
+<p>		Сеул заявил, что КНДР намерен запустить баллистическую ракету сегодня </p>
+<p>10:07:</p>
+<p>		Вице-президент РЖД Михаил Акулов презентовал в Страсбурге поезд Москва – Берлин – Париж </p>
+<p>10:02:</p>
+<p>		«Сургутнефтегаз» потенциал роста запасов углеводородов Якутии оценивает в три раза - ДФО </p>
+<p>09:54:</p>
+<p>		В Тель-Авиве откроется фотовыставка жителя Биробиджана – ДФО </p>
+<p>09:48:</p>
+<p>		Шойгу и губернатор Сахалина обсудили вопросы передачи региону недвижимости Минобороны - ДФО </p>
+<p>Все новости </p>
+<p> cделать стартовой |</p>
+<p>					 в избранное |</p>
+<p>					 rss</p>
+<p>	$$(function(){</p>
+<p>		if(Math.random()>0.00){</p>
+<p>			function Rotate_fromtrImg(){</p>
+<p>				var fromtrImg = $$("#fromtrImg")</p>
+<p>				var a = fromtrImg.attr("a")</p>
+<p>				if(a==1){fromtrImg.attr("src", "/img/2012/banners/24oct/2.jpg").parent().attr("href","/articles/article/216084/"); fromtrImg.attr("a", 2)}</p>
+<p>				if(a==2){fromtrImg.attr("src", "/img/2012/banners/24oct/3.jpg").parent().attr("href","/articles/article/216313/"); fromtrImg.attr("a", 3)}</p>
+<p>				if(a==3){fromtrImg.attr("src", "/img/2012/banners/24oct/4.jpg").parent().attr("href","/articles/article/215076/"); fromtrImg.attr("a", 4)}</p>
+<p>				if(a==4){fromtrImg.attr("src", "/img/2012/banners/24oct/1.jpg").parent().attr("href","/articles/article/213864/"); fromtrImg.attr("a", 1)}</p>
+<p>				setTimeout(Rotate_fromtrImg, 4000)</p>
+<p>			}</p>
+<p>			$$(function(){</p>
+<p>				var fromtr = $$("#fromtr")</p>
+<p>				fromtr.html('<a href="/articles/article/213864/"><img id="fromtrImg" src="/img/2012/banners/24oct/1.jpg" a="1" /></a>')</p>
+<p>				setTimeout(Rotate_fromtrImg, 4000)</p>
+<p>			})</p>
+<p>		} else {</p>
+<p>			var fromtr = $$("#fromtr")</p>
+<p>			//fromtr.html('<a banner_id="23" href="http://www.bc-cis.ru/forum/smi" target="_blank"><img src="/img/2013/banners/mefsng2013_240x180.gif" /></a>')</p>
+<p>		}</p>
+<p>	})</p>
+<p>						Рассылка  Подписаться</p>
+<p>СОБЫТИЯ</p>
+<p>						</p>
+<p>События и факты</p>
+<p>Новые возможности</p>
+<p>Конференции</p>
+<p>Культура</p>
+<p>ОБЩЕСТВО</p>
+<p>						</p>
+<p>Редакционные статьи</p>
+<p>Наши книги</p>
+<p>Рецензии на книги и фильмы</p>
+<p>Эволюция и человек</p>
+<p>Интервью и комментарии</p>
+<p>АНАЛИТИКА</p>
+<p>						</p>
+<p>Экономика</p>
+<p>Политика</p>
+<p>Наука и технологии</p>
+<p>Исследования</p>
+<p>Бизнес-планы</p>
+<p>Тендеры</p>
+<p>РЕЙТИНГИ</p>
+<p>						</p>
+<p>Рейтинг региональных инвестиционных форумов России</p>
+<p>Рейтинг эффективности российских ЦКП научным оборудованием</p>
+<p>Сервисный рейтинг российских ЦКП научным оборудованием</p>
+<p>Обобщенный международный университетский рейтинг</p>
+<p>Рейтинг информационной открытости инвестиционных рынков</p>
+<p>Рейтинг инновационного развития регионов</p>
+<p>Рейтинг чувствительности жилищного рынка к финансовому кризису</p>
+<p>Образовательный рейтинг регионов России</p>
+<p>ВИДЕОЛЕНТА</p>
+<p>  КС</p>
+<p>О НАС</p>
+<p>						</p>
+<p>О проекте</p>
+<p>Наши координаты</p>
+<p>Наши авторы</p>
+<p>Наши партнеры</p>
+<p>Реклама на сайте</p>
+<p>	$$(function(){</p>
+<p>		$$('.lmm_mp').mouseover(function(){</p>
+<p>			$$(this).css({"border":"1px white solid", "background-color":"#B20000"}).find('.lmm_mpS').show()</p>
+<p>		})</p>
+<p>		.mouseleave(function(){</p>
+<p>			$$(this).css({"border":"1px #0074B7 solid", "background-color":"#0074B7"}).find('.lmm_mpS').hide()</p>
+<p>		})</p>
+<p>		$$('.lmm_mpS div').mouseover(function(){</p>
+<p>			$$(this).css({"background-color":"#B20000"})</p>
+<p>		})</p>
+<p>		.mouseleave(function(){</p>
+<p>			$$(this).css({"background-color":"#0074B7"})</p>
+<p>		})</p>
+<p>	})</p>
+<p>НАЙТИ:</p>
+<p>›››</p>
+<p>▪ НОВОСТИ ▪</p>
+<p>Ученые установили: потеря памяти начинается  с 45 лет </p>
+<p>Результаты нового исследования  британских ученых показали: потеря памяти и ослабевание других функций мозга начинается раньше, чем считалось ранее, сообщает NEWSru.co.il.</p>
+<p> В публикации ученых в  Британском медицинском журнале, говорится: исследователи 10 лет изучали умственные способности свыше  7 тысяч служащих госучреждений Великобритании в возрасте от 45 до 70 лет.</p>
+<p>В итоге ученые пришли к выводу:  в возрасте 45-49 лет у человека происходит небольшое, однако  явное снижение ряда функций мозга: памяти, мышления и восприятия.</p>
+<p> </p>
+<p>По материалам ленты новостей NEWSru.co.il http://www.newsru.co.il/ </p>
+<p>06.01.2012. Просмотров: 527</p>
+<p>(function(d, s, id){</p>
+<p>	var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>	if (d.getElementById(id)) {return;}</p>
+<p>	js = d.createElement(s); js.id = id;</p>
+<p>	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";</p>
+<p>	fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>Твитнуть!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</p>
+<p> </p>
+<p>								VK.init({apiId: 3006762, onlyWidgets: true});</p>
+<p>							</p>
+<p>								VK.Widgets.Comments("vk_comments", {limit: 5, width: "690", attach: false});</p>
+<p>							</p>
+<p>							< На главную     < К списку новостей</p>
+<p>▪ ПОСЛЕДНИЕ ПУБЛИКАЦИИ НА САЙТЕ ▪</p>
+<p>Германия портит отношения с Россией</p>
+<p>Рабочий визит Владимира Путина в Германию и его посещение Международной промышленной ярмарки в Ганновере, как и предполагали многие, не обошлись без едких и не всегда приятных замечаний со стороны немецкого канцлера Ангелы Меркель. Как Россия и Германия выясняли отношения в публичном пространстве? И для чего это было нужно?</p>
+<p>Мельников Александр Владимирович, 09.04.2013						</p>
+<p>экономика</p>
+<p>политика</p>
+<p>международные отношения</p>
+<p>Родные офшоры</p>
+<p>Несмотря на неточность терминологии, предложение Дмитрия Медведева о создании офшоров в России серьезно прорабатывается правительством. Что стоит за этими идеями? Насколько они жизнеспособны? В чем смысл офшорных зон для экономики? И почему после Кипра внимание было переключено на Дальний Восток?</p>
+<p>Яшина Галина Анатольевна, 08.04.2013						</p>
+<p>кипр</p>
+<p>кризис</p>
+<p>офшоры</p>
+<p>Гонка вооружений под копирку: Китай перенимает российские разработки</p>
+<p>На этой неделе 154 страны мира в рамках ООН приняли документ о необходимости регулирования торговли оружием на международном уровне. Россия воздержалась от подписания этого соглашения. Также стало известно о самой крупной за последние десять лет сделке на поставку вооружений. О чем договорились Китай и Россия?</p>
+<p>Толокнова Наталия Васильевна, 05.04.2013						</p>
+<p>торговля</p>
+<p>китай</p>
+<p>вооружение</p>
+<p>▪ РАЗНОЕ ▪</p>
+<p>	var sreenWIDTH = 1024</p>
+<p>	if (self.screen){</p>
+<p>		sreenWIDTH = screen.width</p>
+<p>	} else if (self.java) {</p>
+<p>		var j=java.awt.Toolkit.getDefaultToolkit()</p>
+<p>		var s=j.getScreenSize()</p>
+<p>		sreenWIDTH = s.width</p>
+<p>	}</p>
+<p>	if(sreenWIDTH<1280) MarketGidBlockNo = 10523; else MarketGidBlockNo = 10524;</p>
+<p>	var MarketGidDate = new Date();</p>
+<p>	document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>	+'src="http://jsn.dt00.net/k/a/kapital-rus.ru.'+MarketGidBlockNo+'.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()</p>
+<p>	+ '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>$$(function(){</p>
+<p>	{//Все изоражения новости, имеющие класс "zoomme" уменьшатся и станут кликабельными</p>
+<p>		var imgsize = 400//размер превьюшки по умолчанию</p>
+<p>		var i=0//вспомогательная переменная для определения чередования расположения (слева, справа, ...)</p>
+<p>		$$(".zoomme").each(function(){</p>
+<p>			var im = $$(this)</p>
+<p>			var url = im.attr("src")</p>
+<p>			if(im.attr("imgsize")){imgsize = im.attr("imgsize")}</p>
+<p>			im.attr('src', '/img/iResize.php?size='+imgsize+'&img='+url)</p>
+<p>			im.css({"border":"none"})</p>
+<p>			{//определяем стиль чтобы располагать фотки чередованием (слева, справа, слева, справа, ...)</p>
+<p>				i++</p>
+<p>				var styleStr = "float:right; margin-left:10px"</p>
+<p>				if(i==2){</p>
+<p>					styleStr = "float:left; margin-right:10px"</p>
+<p>					i=0</p>
+<p>				}</p>
+<p>			}</p>
+<p>			im.wrap('<a href="'+url+'" class="zoom" style="'+styleStr+'" />')</p>
+<p>		})</p>
+<p>		$$(".zoom").lightBox()</p>
+<p>	}</p>
+<p>})</p>
+<p> </p>
+<p> </p>
+<p>	function set_banner_17sep_lite(){</p>
+<p>		var seconds = 3000</p>
+<p>		var b = $$('#fromrightfirst_before1')</p>
+<p>		if(b.attr('banner_no')==1){</p>
+<p>			$$('#ban240_1a').hide()</p>
+<p>			$$('#ban240_2a').show()</p>
+<p>			b.attr('banner_no', 2)</p>
+<p>		} else if(b.attr('banner_no')==2){</p>
+<p>			$$('#ban240_2a').hide()</p>
+<p>			$$('#ban240_3a').show()</p>
+<p>			b.attr('banner_no', 3)</p>
+<p>		} else if(b.attr('banner_no')==3){</p>
+<p>			$$('#ban240_3a').hide()</p>
+<p>			$$('#ban240_1a').show()</p>
+<p>			b.attr('banner_no', 1)</p>
+<p>		}</p>
+<p>		setTimeout(set_banner_17sep_lite, seconds)</p>
+<p>	}</p>
+<p>	$$(function(){</p>
+<p>		var seconds = 3000</p>
+<p>		var b = $$('#fromrightfirst_before1')</p>
+<p>		b.html('<a id="ban240_1a" href="/lite/larticle/97" banner_id="15"><img id="ban240_1img" src="" border="0" /></a>'+</p>
+<p>			'<a id="ban240_2a" href="/lite/larticle/97" banner_id="15" style="display:none"><img id="ban240_2img" src="" border="0" /></a>'+</p>
+<p>			'<a id="ban240_3a" href="/lite/larticle/97" banner_id="15" style="display:none"><img id="ban240_3img" src="" border="0" /></a>')</p>
+<p>			.attr('banner_no', 1)</p>
+<p>			.css({"height":"74px"})</p>
+<p>		setTimeout(set_banner_17sep_lite, seconds)</p>
+<p>		$$.post('/lite/ajax/respondents/u1.php', {mode:'load_banners74height'}, function(a){</p>
+<p>			var m = a.split('<[[[>');</p>
+<p>			if(m[0]=='ok'){</p>
+<p>				var rows = m[1].split('<[[>'); rows.pop();</p>
+<p>				for(var i=0;i<rows.length;i++){</p>
+<p>					var n = rows[i].split('<[>')//поля</p>
+<p>					{//расшифровка полей</p>
+<p>						var id = n[0]</p>
+<p>						var btype = n[1]</p>
+<p>						var linkto = n[2]</p>
+<p>						var img = n[3]</p>
+<p>						var alt = n[4]</p>
+<p>					}</p>
+<p>					var id2 = String(id-3)</p>
+<p>					if(i<3){//первый блок баннеров</p>
+<p>					} else {//второй блок баннеров</p>
+<p>						if($$('#ban240_'+id2+'img').length){</p>
+<p>							$$('#ban240_'+id2+'img').attr('src', img)</p>
+<p>							$$('#ban240_'+id2+'a').attr('href', linkto)</p>
+<p>							$$('#ban240_'+id2+'a').attr('title', alt)</p>
+<p>						}</p>
+<p>					}</p>
+<p>				}</p>
+<p>			} else {alert('Ошибка чтения баннеров')}</p>
+<p>		})</p>
+<p>	})</p>
+<p><!--</p>
+<p>if(typeof(ar_cn)=="undefined") var ar_cn=1;</p>
+<p>var ar_Tail=document.referrer ? escape(document.referrer) : 'unknown';</p>
+<p>var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=179680&bt=49&target=blank&tail256=" + ar_Tail;</p>
+<p>document.write('<div style="visibility:hidden;height:0px;"><iframe id="ar_container_'+ar_cn+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn+'"><\/div>');</p>
+<p>function ar_getDoc(t,n,l){var doc;if(t<100){if(document.all && !window.opera){doc = window.frames['ar_container_'+n].document}</p>
+<p>else if(document.getElementById){doc=document.getElementById('ar_container_'+n).contentDocument}</p>
+<p>if(!doc){setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100)}else {var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>doc.write ('<sc'+'ript language="JavaScript" type="text/javascript">var ar_bnum='+n+';<\/sc'+'ript>');</p>
+<p>doc.write ('<sc'+'ript language="JavaScript" type="text/javascript" src="'+l+'&rnd='+RndNum4NoCash+'"><\/sc'+'ript>');}}}</p>
+<p>(function(num,link){function addEvent(e,t,f){if(e.addEventListener)e.addEventListener(t,f,false);else if(e.attachEvent)e.attachEvent('on'+t,f)}</p>
+<p>function removeEvent(e,t,f){if(e.removeEventListener)e.removeEventListener(t,f,false);else if(e.detachEvent)e.detachEvent('on'+t,f)}</p>
+<p>var BannerLoader={top:0,height:400,cm:document.compatMode=="CSS1Compat",</p>
+<p>scroll:function(){var ch=self.innerHeight||this.cm&&document.documentElement.clientHeight||document.body.clientHeight;</p>
+<p>var st=self.pageYOffset||this.cm&&document.documentElement.scrollTop||document.body.scrollTop;</p>
+<p>var sh=self.scrollHeight||this.cm&&document.documentElement.scrollHeight||document.body.scrollHeight;</p>
+<p>if((st-this.top<=this.height*0.2&&st+ch-this.top>=this.height*0.8)||(sh-this.top<=this.height*0.8&&(sh-st-ch<1||sh<ch))){</p>
+<p>removeEvent(window,'scroll',this.sfunc);ar_getDoc(0,num,link)}},</p>
+<p>sfunc: function(){BannerLoader.scroll()},init:function(){var t=this,obj=document.getElementById('ad_ph_'+num);</p>
+<p>if(obj){while(obj.offsetParent){t.top += obj.offsetTop; obj = obj.offsetParent}</p>
+<p>addEvent(window,'scroll',this.sfunc);t.scroll()}}};addEvent(window, 'load', function(){BannerLoader.init()})})(ar_cn++,ar_link);</p>
+<p>//--></p>
+<p>	function incrementBannerShow(id){</p>
+<p>		$$.post('/lga/silicium/ajax/respondents/u1.php', {mode:'incrementBannerShow', id:id}, function(a){})</p>
+<p>	}</p>
+<p>	function incrementBannerClick(id){</p>
+<p>		$$.post('/lga/silicium/ajax/respondents/u1.php', {mode:'incrementBannerClick', id:id}, function(a){})</p>
+<p>	}</p>
+<p>		function set_banner_traced (){</p>
+<p>		$$("[banner_id]").each(function(){</p>
+<p>			var a = $$(this)</p>
+<p>			var banner_traced = a.attr('banner_traced')</p>
+<p>			if(banner_traced==undefined){</p>
+<p>				a.click(function(){</p>
+<p>					incrementBannerClick ($$(this).attr('banner_id'))</p>
+<p>				})</p>
+<p>				a.attr('banner_traced', 1)</p>
+<p>			}</p>
+<p>		})</p>
+<p>		setTimeout(set_banner_traced, 300)</p>
+<p>	}</p>
+<p>	$$(document).ready(function(){</p>
+<p>		$$("#opx_right_block").hide()</p>
+<p>		set_banner_traced()</p>
+<p>	})</p>
+<p>▪ ПОСЛЕДНИЕ КОММЕНТАРИИ ▪</p>
+<p>Вузы и школы: зарплаты или подработки?</p>
+<p>нкиолаичу: согласен, что зарплата в федеральных вузах - это насмешка, хотя - кому от нее смешно?!...Автор: прфессор.</p>
+<p>	9.04.2013 17:21</p>
+<p>Вузы и школы: зарплаты или подработки?</p>
+<p>Николаичу: Удачи в колледже: наши тоже туда смотрят. есть у нас один - автономный, с толковым директ...Автор: Денис..</p>
+<p>	9.04.2013 16:42</p>
+<p>Вузы и школы: зарплаты или подработки?</p>
+<p>Денис, я считаю, что отец ваш прав во всём. И трудно быть братом, особенно в наше тёмное время, и в ...Автор: Гера.</p>
+<p>	9.04.2013 16:04</p>
+<p>Повестка ПМЭФ-2012: роль лидера в эпоху перемен</p>
+<p>.!.WaY.!. Значьте, "рейтинговая" серия из ентого "SeRi-aLa по RaSheN" стремительно набирает очки.!. ...Автор: SLavaK.</p>
+<p>	9.04.2013 13:18</p>
+<p>Москва без москвичей: столичный средний класс вымирает</p>
+<p>Бездомность, асоциальность и др. -типичные проблемы мегаполисов мира, как  и Москва и Питер. Капитал...Автор: Ирэн.</p>
+<p>	9.04.2013 11:45</p>
+<p>Вузы и школы: зарплаты или подработки?</p>
+<p>Денис и куда супруга подалась?</p>
+<p>Это о региональных надбавках. У жены тоже в начале года их сняли, но ...Автор: николаич.</p>
+<p>	9.04.2013 11:50</p>
+<p>Вузы и школы: зарплаты или подработки?</p>
+<p>Гере: прибавка случилась! Такая же, как у тёщи: 25% добавили к окладу, но субвенции на стимулирующие...Автор: Денис..</p>
+<p>	9.04.2013 5:24</p>
+<p>Частная благотворительность в России: особенности, проблемы и перспективы</p>
+<p>помогите пожалуйста многодетной семье господа обеспеченные материально будте милосердными...Автор: альфия.</p>
+<p>	8.04.2013 23:02</p>
+<p>	$$(function(){</p>
+<p>		$$("#fromrightlast1").html('<a banner_id="12" id="dawai-2011_246x67" href="http://www.dawai.at/" target="_blank"><img src="/img/2011/banners/dawai-2011_246x67.gif" border="0" /></a>')</p>
+<p>	})</p>
+<p>	$$(function(){</p>
+<p>		$$("#fromrightlast2").html(''+</p>
+<p>			'<div>'+</p>
+<p>			'	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="240" height="180" id="mediapiefolder" align="middle">'+</p>
+<p>			'	<param name="allowScriptAccess" value="sameDomain" />'+</p>
+<p>			'	<param name="allowFullScreen" value="false" />'+</p>
+<p>			'	<param name="movie" value="/img/2012/banners/mediapiefolder.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="/img/2012/banners/mediapiefolder.swf" quality="high" bgcolor="#ffffff" width="240" height="180" name="mediapiefolder" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_ru" />'+</p>
+<p>			'	</object>'+</p>
+<p>			'</div>'</p>
+<p>		)</p>
+<p>	})</p>
+<p>Загрузка...</p>
+<p>	var MarketGidDate = new Date();</p>
+<p>	document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>	+'src="http://jsn.dt00.net/k/a/kapital-rus.ru.10055.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()</p>
+<p>	+ '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>Новости России</p>
+<p>    (function() {</p>
+<p>    var sm = document.createElement("script");</p>
+<p>    sm.type = "text/javascript";</p>
+<p>    sm.async = true;</p>
+<p>    sm.src = "http://jsn.24smi.org/i/k/a/kapital-rus.ru.1122.js";</p>
+<p>    var s = document.getElementsByTagName("script")[0];</p>
+<p>    s.parentNode.insertBefore(sm, s);})();</p>
+<p>$$(function(){$$("#ramblercounter").attr("href", "http://top100.rambler.ru/top100/")})</p>
+<p>(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter16639138 = new Ya.Metrika({id:16639138, enableAll: true, ut:"noindex", webvisor:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f); } else { f(); } })(document, window, "yandex_metrika_callbacks");</p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height;</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></p>
+<p><!--</p>
+<p>js=13;//--><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=1218016" target="_top">'+</p>
+<p>'<img src="http://d5.c9.b2.a1.top.mail.ru/counter?id=1218016;t=57;js='+js+</p>
+<p>a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+</p>
+<p>'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');//--></p>
+<p>$$(function(){$$("#asubscribe").attr("href",'http://subscribe.ru/catalog/economics.news.investwithus')})</p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' "+</p>
+<p>"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet' "+</p>
+<p>"border='0' width='31' height='31'><\/a>")</p>
+<p>//--></p>
+<p>Copyright © 2007-2012 kapital-rus.ru.  Дизайн: Terralife strategic$$(function(){$$("#aterralife").attr("href","http://terralife.ru"); $$(".menu[href='/articles/C285/']").parent().hide();})</p>
+<p>"Капитал страны", свидетельство о регистрации СМИ Эл №ФС 77-31120, ISSN: 1999-4958</p>
+<p>try{LGAStatistics.fix()}catch(e){}</p>
+<p>function clock_form(){	day=new Date()</p>
+<p>	clock_f = day.getDate()+"."+(day.getMonth()+1 )+"."+day.getFullYear()+" "+day.getHours()+":"+day.getMinutes()+":"+day.getSeconds()</p>
+<p>	$$('#timenow').html(clock_f)</p>
+<p>	setTimeout("clock_form()",100)</p>
+<p>}</p>
+<p>$$(function(){</p>
+<p>	clock_form()})</p>
+<p>window.currency_USD='31,2086'; window.currency_EURO='40,6523';</p>

@@ -1,0 +1,810 @@
+<p> </p>
+<p>Секреты красоты от фитнес-инструктора: что кушать и сколько спать  - Красота и здоровье - Самое главное правило тренировок – заниматься с хорошим настроением | СЕГОДНЯ</p>
+<p>		var login_api = null;</p>
+<p>	</p>
+<p>		VK.init({apiId: '2212459', onlyWidgets: true});</p>
+<p>	</p>
+<p>		var sunsite = new sunsite();</p>
+<p>		sunsite.sectionid = 2061;</p>
+<p>		sunsite.articleid = 279642;</p>
+<p>					sunsite.artpages = [2041,2061];</p>
+<p>				sunsite.langid = 1;</p>
+<p>		sunsite.sections[2057] = 2057;sunsite.sections[2061] = 2061;		sunsite.statstart();</p>
+<p>	</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-26299030-1']);</p>
+<p>  _gaq.push(['_setDomainName', '.segodnya.ua']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>/*</p>
+<p>(function () {</p>
+<p>	var w = window, d = document;</p>
+<p>	w.admixZArr = (w.admixZArr || []);</p>
+<p>	w.admixerSmOptions = (w.admixerSmOptions || {});</p>
+<p>	w.admixerSmOptions.showAdsOnLoad = true;</p>
+<p>	if (!w.admixerSm) {</p>
+<p>	    var adms = document.createElement('script');</p>
+<p>	    adms.async = true;</p>
+<p>	    adms.type = 'text/javascript';</p>
+<p>	    adms.src = 'http://cdn.admixer.net/scriptlib/asm2.js?v=3';</p>
+<p>	    var node = d.getElementsByTagName('script')[0];</p>
+<p>	    node.parentNode.insertBefore(adms, node);</p>
+<p>	}</p>
+<p>})();</p>
+<p>*/</p>
+<p>(function (tos) {</p>
+<p>    window.setTimeout(function () {</p>
+<p>	tos = (function (t) {</p>
+<p>	    return t[0] == 50 ? (parseInt(t[1]) + 1) + ':00' : (t[1] || '0') + ':' + (parseInt(t[0]) + 10);</p>
+<p>	})(tos.split(':').reverse());</p>
+<p>	window.pageTracker ? pageTracker._trackEvent('Time', 'Log', tos) : _gaq.push(['_trackEvent', 'Time', 'Log', tos]);</p>
+<p>    }, 20000);</p>
+<p>})('00');</p>
+<p><!--</p>
+<p>bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={o:1,v:153464,s:153464,t:6,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>try{obHP.style.behavior="url('#default#homePage')";obHP.addBehavior('#default#homePage');if(obHP.isHomePage(window.location.href))bm.h=1;}catch(e){;}</p>
+<p>for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}</p>
+<p>try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}</p>
+<p>try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}</p>
+<p>r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r);bm.v^=r.length}</p>
+<p>bm.v^=window.location.href.length;for(var x in bm) if(/^[ohvstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>bmD.write('<sc'+'ript type="text/javascript" language="javascript" src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');</p>
+<p>//--></p>
+<p> </p>
+<p>  Мобильная версия</p>
+<p>  Планшетная версия</p>
+<p>  Эксклюзив RSS</p>
+<p>  Сделать стартовой</p>
+<p>Поиск</p>
+<p>Найди себе друга</p>
+<p>	                            Подробнее</p>
+<p>	                        </p>
+<p>Финансы</p>
+<p>	                            Курс валют на 10 апреля</p>
+<p>	                        </p>
+<p>		function updateuserbar(){</p>
+<p>	        var u_str = '';</p>
+<p>	        if(sunsite.userid > 0){</p>
+<p>	            u_str += '<img class="header_user_image" src="'+decodeURIComponent(sunsite.member.avatar)+'" alt="default_user_image" height="40" width="40" />';</p>
+<p>	            u_str += '<div class="header_user_line">Добро пожаловать, '+decodeURIComponent(sunsite.member.username.replace(/\+/g, '%20'))+'</div>';</p>
+<p>	            u_str += '<div class="header_user_links"><span><a class="pseudo_link" href="/passport/logoff.html">Выход</a></span> | <span><a class="pseudo_link" href="/passport/register.html">Редактировать данные</a></span></div>';</p>
+<p>	        } else {</p>
+<p>	            u_str += '<span class="header_no_user"></span>';</p>
+<p>	            u_str += '<div class="header_user_line">Добро пожаловать, гость</div>';</p>
+<p>	            u_str += '<div class="header_user_links"><span><a class="pseudo_link has_popup" href="javascript:sunsite.anchorset(\'\');login_api.load();void(0);" onclick="$(\'#ltabs\').tabs(\'select\',0);" rel="#popup">Вход</a></span><span class="header_user_sep">&#124;</span><span><a class="pseudo_link has_popup" href="javascript:sunsite.anchorset(\'\');login_api.load();void(0);" onclick="$(\'#ltabs\').tabs(\'select\',2);" rel="#popup">Регистрация</a></span></div>';</p>
+<p>	        }</p>
+<p>	        $('#header_user').html(u_str);</p>
+<p>		}</p>
+<p>		updateuserbar();</p>
+<p>        sunsite.addfunc('updateuserbar', function(){</p>
+<p>        	updateuserbar();</p>
+<p>		});</p>
+<p>	</p>
+<p>Главная</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Киев</p>
+<p>Культура</p>
+<p>Жизнь</p>
+<p>Фото</p>
+<p>Видео</p>
+<p>Регионы</p>
+<p>Спорт</p>
+<p>Блоги</p>
+<p>Афиша</p>
+<p>Написать нам</p>
+<p>                                                                                                	Люди</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Работа</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Образование</p>
+<p>                                                                                            </p>
+<p>                                                                	Здоровье</p>
+<p>                                                                 </p>
+<p>                                                                                                	Общество</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Путешествия</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Покупки</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Интервью</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Истории</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Невероятное</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Рестораны</p>
+<p>                                                                                            </p>
+<p>                                                                                                	Наука и Технологии</p>
+<p>                                                                                            </p>
+<p>  Главная</p>
+<p>  Жизнь</p>
+<p>  Здоровье</p>
+<p>Главная</p>
+<p> › Жизнь</p>
+<p> › Здоровье</p>
+<p>9 Декабря 2011, 11:44 </p>
+<p> Просмотров: ...</p>
+<p> Комментариев: ...</p>
+<p> Версия для печати</p>
+<p> Отправить другу</p>
+<p>×</p>
+<p>E-mail:  </p>
+<p>					Наталья Рыбка начинает утро с каши. Фото: пресс-службы ФК "Шахтер"				</p>
+<p> </p>
+<p>                  {lang: 'ru'}</p>
+<p>                </p>
+<p>                    VK.Widgets.Like("vk_like", {type: "mini"});</p>
+<p>                </p>
+<p>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) {return;}js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</p>
+<p>Секреты красоты от фитнес-инструктора: что кушать и сколько спать  </p>
+<p>Самое главное правило тренировок – заниматься с хорошим настроением</p>
+<p>Виктория Биденко, инструктор фитнес-центра FRESH «Донбасс Арены» рассказала нам, на что дамам нужно обратить особое внимание перед тренировками. </p>
+<p>«Неважно, занимались вы спортом до того как пришли в фитнес-центр или нет, самое главное правило тренировок – заниматься с хорошим настроением. И абсолютно все равно, какая за окном погода: льет ли дождь, светит ли солнце или идет мокрый снег, если есть позитивный настрой и четкая цель, то тренировки будут проходить легко и просто. Именно психологический фактор творит неимоверные чудеса в сознании начинающих и помогает им добиваться желаемых результатов. Не зря же говорят, что с улыбкой творились самые великие дела, а занятия спортом и совершенствование собственного тела – чем не великое дело? </p>
+<p>Я занимаюсь со многими, но самый интересный опыт работы для меня с нашими бразильскими девушками – Даниэлле и Ренатой. Дело в том, что часть времени они тренируются в Донецке, а часть – у себя дома, в Бразилии. Получается интересное смешение подходов к тренировкам. Обсудив их программу на родине и здесь, нам удалось разнообразить их тренировочный процесс, внести в него оригинальные упражнения. А это очень важно, потому как девушки занимаются чуть ли не каждый день. </p>
+<p>Каждый человек приходит в зал по своим причинам. Кто-то хочет похудеть или нарастить массу, кто-то стремится накачать шею или убрать второй подбородок – все достижимо. Но мой главный совет – начать с посещения кабинета диагностики. Иногда человек даже не подозревает о наличии проблем, а в занятиях спортом важно досконально знать свой организм. После диагностики врач сделает выводы о состоянии здоровья человека, и даст тренеру рекомендации, что можно, а чего нельзя применять в тренировках. Бывает так, что приходя заниматься, человек не всегда говорит даже о серьезных заболеваниях, например, таких, как сахарный диабет, а знать это инструктору просто необходимо. Если вы никогда не занимались спортом, первые дни тренировок для вас будут общеобразовательными. Нельзя прийти и сразу начать худеть, так недолго и покалечиться. В спорте, как и в бизнесе, главное –  системный подход. Если все делать правильно, то первые результаты не заставят себя долго ждать – 2-3 месяца, и вы увидите, как улетучились килограммы. Конечно, очень важно контролировать себя и вне фитнес-центра. Не стоит переедать: каждая лишняя калория – это плюс несколько десятков минут на тренажерах. Необходимо есть перед тренировками за 1-2 часа и спать не меньше 8 часов», – советует Виктория Биденко.</p>
+<p>Читайте также: Секреты красоты и хорошего настроения от жен звездных игроков "Шахтера"</p>
+<p>	    sunvotes({</p>
+<p>		    json	: '/pub/sunvotes/allvotes_1.json',</p>
+<p>            vote_id : 0,</p>
+<p>            article_id : 279642,</p>
+<p>		    url		: '/html/sunvotes/',</p>
+<p>		    block	: 'center',</p>
+<p>		    phrase	: {'errvoted':'Вы уже голосовали', 'errselect':'Выберите вариант ответа'}</p>
+<p>	    });</p>
+<p>    </p>
+<p>Опрос</p>
+<p>Автор:</p>
+<p>	                    Павлов Александр             	</p>
+<p>        Тэги: </p>
+<p>    	            красота,                     фитнес,                     рекомендации </p>
+<p>Поделись и оцени! </p>
+<p>Мы на facebook: </p>
+<p>Мы ВКонтакте: </p>
+<p> VK.Widgets.Subscribe("vk_subscribe", {soft: 1}, -25629685); </p>
+<p> </p>
+<p>                  {lang: 'ru'}</p>
+<p>                </p>
+<p>                    VK.Widgets.Like("vk_like2", {type: "mini"});</p>
+<p>                </p>
+<p>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) {return;}js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</p>
+<p> </p>
+<p> </p>
+<p>                        Новые статьи</p>
+<p>                    </p>
+<p>Доктор Пи: "Я жалею, что не уехал из Украины" Сегодня, 10:15</p>
+<p>Как защитить своего питомца от паразитов Сегодня, 08:15</p>
+<p>Добавить комментарий:</p>
+<p>Ваш комментарий (осталось символов: 1000)</p>
+<p>Написать модератору </p>
+<p>Подписка: </p>
+<p> не получать </p>
+<p> все комментарии </p>
+<p> только ответы</p>
+<p>Отправить</p>
+<p>Подписка: </p>
+<p> не получать </p>
+<p> все комментарии </p>
+<p> только ответы</p>
+<p>Отправить Отмена</p>
+<p>Показать больше</p>
+<p>	var comments = new suncomments();</p>
+<p>	comments.url = '/html/comments/';</p>
+<p>	comments.comtype = '1';</p>
+<p>	comments.sendurl = '/ajax/addcomments.html';</p>
+<p>	comments.article = '279642';</p>
+<p>	comments.start();</p>
+<p> </p>
+<p>По вопросам размещения рекламы на портале обращайтесь по телефону (093)3541114</p>
+<p> </p>
+<p>    </p>
+<p>Статьи по теме</p>
+<p>От пятен — пилинг и овес, от морщин — лазер и морковь</p>
+<p>Красота по-летнему</p>
+<p>Как избавиться от морщин между бровями</p>
+<p>Делаем ножки красивыми</p>
+<p> </p>
+<p>    $(function() { </p>
+<p>        $.get('/html/top_articles/2061.html', function(data){</p>
+<p>            $( "#tabs_cont" ).html(data); </p>
+<p>            //$( "#tabs" ).tabs(); </p>
+<p>        });</p>
+<p>    });</p>
+<p>	    sunvotes({</p>
+<p>		    json	: '/pub/sunvotes/allvotes_1.json',</p>
+<p>            vote_id : 0,</p>
+<p>            article_id : 0,</p>
+<p>		    url		: '/html/sunvotes/',</p>
+<p>		    block	: 'left',</p>
+<p>		    phrase	: {'errvoted':'Вы уже голосовали', 'errselect':'Выберите вариант ответа'}</p>
+<p>	    });</p>
+<p>    </p>
+<p>Опрос</p>
+<p>Мультимедиа</p>
+<p> </p>
+<p>Больная раком львовянка, рискуя жизнью, решила родить ребенка  (видео)</p>
+<p> </p>
+<p>Бодибилдеры в Крыму демонстрируют тела и поражают фигурами в бикини  (фото)</p>
+<p> </p>
+<p>На Ивано-Франковщине из бродячих собак делают корм для кур (видео)</p>
+<p> </p>
+<p>Из-за горе-матери ребенок впадал в кому 7 раз  (видео)</p>
+<p> </p>
+<p>Донецкий ученый-инвалид изобрел шприц, способный уменьшить распространение СПИДа и гепатита (видео)</p>
+<p>            $(function(){</p>
+<p>                $('#slider3').bxSlider({</p>
+<p>                    mode: 'fade',</p>
+<p>                    pause:5000,</p>
+<p>                    auto: false,</p>
+<p>                    autoHover: true</p>
+<p>                });</p>
+<p>            });</p>
+<p>        </p>
+<p>         </p>
+<p>Мобильная версия </p>
+<p>Планшетная версия </p>
+<p>Эксклюзив RSS </p>
+<p>В закладки </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Поиск</p>
+<p>Главная</p>
+<p>                                                                                                    Все новости</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Украина</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Мир</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Происшествия и криминал</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Спецпроекты</p>
+<p>                                                                                            </p>
+<p>Архив</p>
+<p>                                                                                                    Пресс-релизы</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Итоги года</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Онлайн-конференции</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Опросы</p>
+<p>                                                                                            </p>
+<p>Политика</p>
+<p>                                                                                                    Политика</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Власть</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Законы</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Реформы</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Общество</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Мнения</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Выборы 2012</p>
+<p>                                                                                            </p>
+<p>Экономика</p>
+<p>                                                                                                    Экономика</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Бизнес</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Финансы</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Недвижимость</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Авто</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Транспорт</p>
+<p>                                                                                            </p>
+<p>                                                                                                    ЖКХ</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Новости компаний</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Досье компаний</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Рейтинг брендов</p>
+<p>                                                                                            </p>
+<p>Культура</p>
+<p>                                                                Шоу-бизнес</p>
+<p>                                                            </p>
+<p>                                                                Скандалы</p>
+<p>                                                            </p>
+<p>                                                                Звезды</p>
+<p>                                                            </p>
+<p>                                                                Мероприятия</p>
+<p>                                                            </p>
+<p>Жизнь</p>
+<p>                                                                                                    Люди</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Работа</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Образование</p>
+<p>                                                                                            </p>
+<p>                                                                    Здоровье</p>
+<p>                                                                 </p>
+<p>                                                                                                    Общество</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Путешествия</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Покупки</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Интервью</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Истории</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Невероятное</p>
+<p>                                                                                            </p>
+<p>Регионы</p>
+<p>Киев </p>
+<p>                                                                                                    Крым</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Донбасс</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Днепропетровск</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Одесса</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Запад</p>
+<p>                                                                                            </p>
+<p>                                                                                                    Харьков</p>
+<p>                                                                                            </p>
+<p>Спорт</p>
+<p>                                                                Все новости</p>
+<p>                                                            </p>
+<p>                                                                Футбол</p>
+<p>                                                            </p>
+<p>                                                                Бокс</p>
+<p>                                                            </p>
+<p>                                                                Теннис</p>
+<p>                                                            </p>
+<p>                                                                Мотор</p>
+<p>                                                            </p>
+<p>                                                                Баскетбол</p>
+<p>                                                            </p>
+<p>                                                                Хоккей</p>
+<p>                                                            </p>
+<p>                                                                Другие</p>
+<p>                                                            </p>
+<p>                                                                Покер</p>
+<p>                                                            </p>
+<p>                                                                Турниры</p>
+<p>                                                            </p>
+<p>Фото</p>
+<p>Видео</p>
+<p>Блоги</p>
+<p>Наши проекты:</p>
+<p>            Использование материалов и новостей Сегодня разрешается при условии ссылки на Сегодня.ua. Для новостных и интернет-изданий обязательной является прямая, открытая для поисковых систем, гиперссылка в первом абзаце на цитируемую статью или новость. Материалы, отмеченные знаками "реклама", "PR", "Финансовый вопрос", "Новости компаний", "Официально", "Новости регионов", "Актуально", публикуются на правах рекламы.</p>
+<p>            Условия использования материалов сайта СЕГОДНЯ.ua</p>
+<p>© 2012 ЧАО "Сегодня Мультимедиа"© 2012 Разработка сайта  NewAgeLab</p>
+<p>  Архив</p>
+<p>Контакты</p>
+<p>Карта сайта</p>
+<p> Карта</p>
+<p>Обратная связь</p>
+<p>Форум</p>
+<p> </p>
+<p><!--</p>
+<p>function BM_Draw(oBM_STAT){</p>
+<p>document.write('<table cellpadding="0" cellspacing="0" border="0" style="display:inline;margin-right:4px;"><tr><td><div style="margin:0px;padding:0px;font-size:1px;width:88px;"><div style="background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b60_top.gif\') no-repeat bottom;">&nbsp;</div><div style="font:10px Tahoma;background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b60_center.gif\');"><div style="text-align:center;"><a href="http://www.bigmir.net/" target="_blank" style="color:#0000ab;text-decoration:none;font:10px Tahoma;">bigmir<span style="color:#ff0000;">)</span>net</a></div><div style="margin-top:3px;padding: 0px 6px 0px 6px;color:#426ed2;"><div style="float:left;font:10px Tahoma;">'+oBM_STAT.hosts+'</div><div style="float:right;font:10px Tahoma;">'+oBM_STAT.hits+'</div></div><br clear="all"/></div><div style="background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b60_bottom.gif\') no-repeat top;">&nbsp;</div></div></td></tr></table>');</p>
+<p>}</p>
+<p>//--></p>
+<p>    document.write('<a rel="nofollow" href'+'="http://top100.rambler.ru/top100/"><img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler\'s Top100" width=88 height=31 border=0></a><strong></strong>');</p>
+<p>    document.write('<a rel="nofollow" href'+'="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?1124773" alt="Rambler\'s Top100" width=1 height=1 border=0></a>');</p>
+<p><!--</p>
+<p>document.write("<a rel='nofollow' href"+"='http://www.liveinternet.ru/click' " + "target=_blank><img src='http://counter.yadro.ru/hit?t14.3;r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";i"+escape("Жж"+document.title.substring(0,80))+";"+Math.random()+"' alt='' title='LiveInternet: показано число посетителей за сегодн\я' "+"border=0 width=88 height=31><\/a>")</p>
+<p>//--></p>
+<p>(function (d, w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter922978 = new Ya.Metrika({id:922978,</p>
+<p>                    webvisor:true,</p>
+<p>                    clickmap:true,</p>
+<p>                    trackLinks:true,</p>
+<p>                    accurateTrackBounce:true});</p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>    var n = d.getElementsByTagName("script")[0],</p>
+<p>        s = d.createElement("script"),</p>
+<p>        f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>    if (w.opera == "[object Opera]") {</p>
+<p>        d.addEventListener("DOMContentLoaded", f, false);</p>
+<p>    } else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>
+<p>var tns_already;</p>
+<p>if ("undefined"==typeof(tns_already) || null==tns_already || 0==tns_already)</p>
+<p>{</p>
+<p>tns_already=1;</p>
+<p>var i=new Image();</p>
+<p>i.src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=segodnya.ua&j=1&"+Math.random();</p>
+<p>(function(){</p>
+<p>var p=document.getElementsByTagName('head')[0];</p>
+<p>var s=document.createElement("script");</p>
+<p>s.type="text/javascript";</p>
+<p>s.src="http://source.mmi.bemobile.ua/cm/cm.js";</p>
+<p>s.async = true;</p>
+<p>p.appendChild(s);</p>
+<p>})();</p>
+<p>};</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> VK.init({apiId: 2795951, onlyWidgets: true}); </p>
+<p>×</p>
+<p>Соц. сети</p>
+<p>Почта</p>
+<p>Регистрация</p>
+<p>Войдите в систему используя свою учетную запись одной из социальных сетей.</p>
+<p>В контакте</p>
+<p>Facebook</p>
+<p>Google</p>
+<p>Twitter</p>
+<p>Войдите в систему используя свою учетную запись на этом сайте</p>
+<p>Email:</p>
+<p>Пароль:</p>
+<p>Код</p>
+<p>Войти</p>
+<p>Забыли пароль?</p>
+<p>Введите адрес электронной почты из вашей учетной записи. Система вышлет на него пароль.</p>
+<p>Email:</p>
+<p>Получить</p>
+<p>Вернуться к форме авторизации</p>
+<p>Пожалуйста, заполните нижеследующую форму</p>
+<p>Имя на сайте:</p>
+<p>Email:</p>
+<p>Пароль:</p>
+<p>Номер моб.тел.:</p>
+<p>номер указывайте в формате 0631234567</p>
+<p>(данные используются только для отправки смс с кодом)</p>
+<p>Код: </p>
+<p>Продолжить</p>
+<p>Подождите несколько секунд </p>
+<p>                Вам на E-Mail отправлена ссылка для подтверждения электронного адреса. Также на Ваш номер мобильного телефона отправлен код, который Вы должны указать ниже</p>
+<p>                </p>
+<p>                Введите код из смс: </p>
+<p>Подтвердить</p>
+<p>Не пришёл код? Отправить повторно</p>
+<p> </p>
+<p>    var main_tabs_api = $('#ltabs').tabs(); </p>
+<p>    if($.cookie('login_attempt')) $('#code_holder').show();</p>
+<p>    var login_api = '';</p>
+<p>    $(function() {</p>
+<p>        $("body").append($("#popup"))</p>
+<p>        /*</p>
+<p>        function authViaOpenid(openid_url) {</p>
+<p>            window.open(base_url + "openid?url=" + encodeURIComponent(openid_url), "", "width=" + Math.round(screen.width * 0.8) + ",height=" + Math.round(screen.height * 0.6) + ",left=100,top=100,menubar=no,scrollbars=yes");</p>
+<p>        }</p>
+<p>		$('#openid_send').click(function(){</p>
+<p>              if ($('#openid_href').val()=='')</p>
+<p>              {</p>
+<p>                  $('#openid_href').focus();</p>
+<p>                  return false;</p>
+<p>              }</p>
+<p>            location.href = '/auth/openid.html?redirect='+ '&own_openid='+$('#openid_href').val()</p>
+<p>      })</p>
+<p>      $('#button_openid').click(function(){</p>
+<p>              $('#openid_form').show();</p>
+<p>              $('#soc_net').hide();</p>
+<p>      })</p>
+<p>      $('#hide_button_openid').click(function(){</p>
+<p>              $('#openid_form').hide();</p>
+<p>              $('#soc_net').show();</p>
+<p>      })</p>
+<p>	  */</p>
+<p>      $('#password').keyup(function(event){</p>
+<p>            if (event.keyCode == 13) {</p>
+<p>                $('#login_form_submit').click();</p>
+<p>            }</p>
+<p>       });</p>
+<p>        login_api = $("a.has_popup").overlay({</p>
+<p>                expose: '#1F1618',</p>
+<p>                effect: 'default',</p>
+<p>                fixed:true,</p>
+<p>                top:"20%",</p>
+<p>                api: true,</p>
+<p>                onLoad: function(event) {</p>
+<p>                    $('#login').focus();</p>
+<p>	                $('#code_img').attr('src','/exec/code.php?'+(new Date()).getTime()).show();</p>
+<p>	                $('#reg_code_captcha').attr('src','/exec/code.php?'+(new Date()).getTime()).show();</p>
+<p>                },</p>
+<p>                onBeforeLoad:function(){</p>
+<p>                	$("iframe").hide()</p>
+<p>                },</p>
+<p>                onBeforeClose:function(){</p>
+<p>                    $("iframe").show();</p>
+<p>					sunsite.anchorset('');</p>
+<p>                },</p>
+<p>                close:$('.layer_box_close')</p>
+<p>       });</p>
+<p>    });</p>
+<p>    </p>
+<p>// via mail register</p>
+<p>    </p>
+<p>    $('#register_via_email').click(function(){</p>
+<p>        var reg_emailre = /^[\w]{1}[\w\.\-_]*@[\w]{1}[\w\-_\.]*\.[\w]{2,9}$/i;</p>
+<p>        if ($('#reg_nick').val() =='')</p>
+<p>        {</p>
+<p>            show_error('#register_email_error','Вы не указали имя на сайте');</p>
+<p>            $('#reg_nick').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        if (!$('#reg_email').val().match(reg_emailre))</p>
+<p>        {</p>
+<p>            show_error('#register_email_error','Введите пожалуйста свой E-mail');</p>
+<p>            $('#reg_email').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        </p>
+<p>        var reg_phone = /^[0-9]{10}$/i;</p>
+<p>        if (!$('#reg_phone').val().match(reg_phone))</p>
+<p>        {</p>
+<p>            show_error('#register_email_error','Укажите корректный номер телефона');</p>
+<p>            $('#reg_phone').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        </p>
+<p>        if ($('#reg_passwd').val() == '')</p>
+<p>        {</p>
+<p>            show_error('#register_email_error','Введите пожалуйста пароль');</p>
+<p>            $('#reg_passwd').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        if ($('#reg_code').val()=='')</p>
+<p>        {</p>
+<p>            show_error('#register_email_error','Введите пожалуйста защитный код');</p>
+<p>            $('#reg_code').focus();</p>
+<p>            return false;  </p>
+<p>        }</p>
+<p>        $('#register_form_email').hide();</p>
+<p>        $('#loading').show();</p>
+<p>        $.getJSON('/auth/email/register.html',$('#register_form_email').serialize(),function(data){</p>
+<p>            </p>
+<p>            if (data.error !='' && data.error != undefined)</p>
+<p>            {</p>
+<p>                $('#loading').hide();        </p>
+<p>                $('#register_form_email').show();</p>
+<p>                show_error('#register_email_error',data.error);</p>
+<p>                </p>
+<p>                $('#reg_code').val('');</p>
+<p>                $('#reg_code_captcha').attr('src','/exec/code.php?'+(new Date()).getTime());</p>
+<p>                </p>
+<p>            }</p>
+<p>            else</p>
+<p>            {</p>
+<p>                $('#loading').hide();</p>
+<p>                //$('#register_form_email_result').show();</p>
+<p>                $('#main_header').hide();</p>
+<p>                $('#main_body').hide();</p>
+<p>                </p>
+<p>                //$('#check_email_header').show();</p>
+<p>                $('#check_email_body').show();</p>
+<p>                </p>
+<p>                show_error('#register_email_error',data.msg);</p>
+<p>            }</p>
+<p>        })</p>
+<p>        </p>
+<p>        return false;</p>
+<p>    })</p>
+<p>    </p>
+<p>    </p>
+<p>    // email login</p>
+<p>    $('#login_form_submit').click(function(){</p>
+<p>        /*</p>
+<p>        var reg_emailre = /^[\w]{1}[\w\.\-_]*@[\w]{1}[\w\-_\.]*\.[\w]{2,9}$/i;</p>
+<p>        if (!$('#email').val().match(reg_emailre) && ($('#email').val()!='root'))</p>
+<p>        {</p>
+<p>            show_error('#login_email_error','Введите пожалуйста свой E-mail');</p>
+<p>            $('#email').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        */</p>
+<p>        if ($('#password').val() == '')</p>
+<p>        {</p>
+<p>            show_error('#login_email_error','Введите пожалуйста пароль');</p>
+<p>            $('#pass_field_fake').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        hide_error('#login_email_error');</p>
+<p>        alax_preload(this,1);</p>
+<p>        $.post('/passport/login.html',{</p>
+<p>                'email':$('#email').val(),</p>
+<p>                'passwd':$('#password').val(),</p>
+<p>                mode:'ajax',</p>
+<p>                captcha: $('#f_code').val()</p>
+<p>        }, function(data){</p>
+<p>            eval(data);</p>
+<p>            if (typeof(data) !='' && data.success == true) {</p>
+<p>                $('#login_form_submit span').text('Вошли');</p>
+<p>                document.location.href = document.location.href+(sunsite.anchorhref()?'#'+sunsite.anchorhref():'');</p>
+<p>                document.location.reload();</p>
+<p>            } else if (data.error != null) {</p>
+<p>                show_error('#login_email_error',data.error);</p>
+<p>                var isrc = $('#code_img').attr('src');</p>
+<p>                $('#code_img').attr('src',isrc+'?'+(new Date()).getTime())</p>
+<p>                if(data.login_attempt >= 2) $('#code_holder').show();</p>
+<p>                </p>
+<p>            }</p>
+<p>            </p>
+<p>            alax_preload('#login_form_submit',0);</p>
+<p>                        </p>
+<p>        }) </p>
+<p>        </p>
+<p>        return false;</p>
+<p>    });</p>
+<p>    $('#button_facebook a, #button_twitter a, #button_google a, #button_vkontakte a').click(function(){</p>
+<p>        location.href = $(this).attr('href')+"?redirect="+encodeURIComponent(document.location.pathname)+"&anchor="+sunsite.anchorhref();</p>
+<p>        $('#soc_net').html('Подключаемся...');</p>
+<p>		return false;</p>
+<p>    })</p>
+<p>    function show_error(selector, text) {</p>
+<p>        $(selector).show().text(text);</p>
+<p>    }</p>
+<p>    function hide_error(selector) {</p>
+<p>        $(selector).hide();</p>
+<p>    }</p>
+<p>    function alax_preload(selector, mode) {</p>
+<p>        if (mode == 1) {</p>
+<p>            if (!$(selector).prev().hasClass("ajax_preload")) {</p>
+<p>                $(selector).before("<div class=\"ajax_preload\">Подождите несколько секунд <img width=\"16\" height=\"16\" alt=\"\" src=\"/user/img/loader.gif\" /></div>");</p>
+<p>            }</p>
+<p>        } else {</p>
+<p>            $(selector).prev(".ajax_preload").remove();</p>
+<p>        }</p>
+<p>    }</p>
+<p>    $('#reminder_show').click(function(){</p>
+<p>        $('#email_login').hide();</p>
+<p>        $('#email_reminder').show();</p>
+<p>        return false;</p>
+<p>    })</p>
+<p>    $('#decline_email_reminder').click(function(){</p>
+<p>        $('#email_login').show();</p>
+<p>        $('#email_reminder').hide();</p>
+<p>        return false;</p>
+<p>    })</p>
+<p>    // email reminder</p>
+<p>    $('#login_form_reminder').click(function(){</p>
+<p>        var reg_emailre = /^[\w]{1}[\w\.\-_]*@[\w]{1}[\w\-_\.]*\.[\w]{2,9}$/i;</p>
+<p>        if (!$('#login_reminder').val().match(reg_emailre))</p>
+<p>        {</p>
+<p>            show_error('#login_email_reminder_error','Введите пожалуйста свой E-mail');    </p>
+<p>            $('#login_reminder').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        </p>
+<p>        hide_error('#login_email_reminder_error');</p>
+<p>        alax_preload(this,1);</p>
+<p>        $.getJSON('/auth/email/reset.html',{'f[email]':$('#login_reminder').val()},function(data)    {</p>
+<p>            //eval(data);</p>
+<p>            if (data.msg != null && data.msg != 'undefined' )</p>
+<p>            {</p>
+<p>                show_error('#login_email_error',data.msg);</p>
+<p>                $('#decline_email_reminder').click();</p>
+<p>                $('#email').val($('#login_reminder').val());</p>
+<p>                $('#password').focus()</p>
+<p>            }</p>
+<p>            else if (data.error != null)</p>
+<p>                show_error('#login_email_reminder_error',data.error);</p>
+<p>            alax_preload('#login_form_reminder',0);</p>
+<p>        }) </p>
+<p>        </p>
+<p>        return false;</p>
+<p>    })</p>
+<p>    </p>
+<p>    $('#confirm_sms_btn').click(function(){</p>
+<p>        if($('#sms_code').val() == '') {</p>
+<p>            show_error('#login_email_error','Введите код из смс');</p>
+<p>            $('#sms_code').focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        $.getJSON('/auth/confirm_sms.html',{ 'phone_num': $('#reg_phone').val(), 'sms_code': $('#sms_code').val() },function(data)    {</p>
+<p>            if (data.error != null) {</p>
+<p>                show_error('#login_email_reminder_error','Вы ввели неверный код. Код отправлен повторно');</p>
+<p>            } else {</p>
+<p>                document.location.href = document.location.pathname+(sunsite.anchorhref()?'#'+sunsite.anchorhref():false);</p>
+<p>            }</p>
+<p>        });</p>
+<p>        return false;</p>
+<p>    });</p>
+<p>    $('#repeat_sms_code').click(function(){</p>
+<p>        $.getJSON('/auth/confirm_sms.html',{ 'phone_num': $('#reg_phone').val(), 'repeat': true },function(data)    {</p>
+<p>            if (data.error != null) {</p>
+<p>                alert(data.error);</p>
+<p>            } else {</p>
+<p>                alert('Код отправлен повторно');</p>
+<p>            }</p>
+<p>        });</p>
+<p>        return false;</p>
+<p>    });</p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>var ghmxy_align = 'center';</p>
+<p>var ghmxy_type = 'absolute';</p>
+<p>var ghmxy_identifier = 'B8zrEud.rKPGshUCwICOdqe1P8Ig5odmykCedtG2zar.z7';</p>
+<p>//--><!]]></p>
+<p><!--</p>
+<p>var _ga1_channel='2927';</p>
+<p>var _ga1_inline_max=3;</p>
+<p>var _ga1_dist_min=700;</p>
+<p>// --></p>
+<p><!--</p>
+<p>var _ga3_channel='2946';</p>
+<p>var _ga3_inline_max=3;</p>
+<p>var _ga3_dist_min=700;</p>
+<p>// --></p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>var pp_gemius_identifier = new String('olI6QTuoU2pcwAXnsxezJcch7Onw_AS2bO5m2K7QW5T.g7');</p>
+<p>//--><!]]></p>
+<p>$.ctrl = function(key, callback, args) {</p>
+<p>    var isCtrl = false;</p>
+<p>    $(document).keydown(function(e) {</p>
+<p>        if(!args) args=[]; // IE barks when args is null</p>
+<p>        </p>
+<p>        if(e.ctrlKey) isCtrl = true;</p>
+<p>        </p>
+<p>        //console.log(e.keyCode);</p>
+<p>        </p>
+<p>        if((e.keyCode == key.charCodeAt(0) || e.keyCode == 45) && isCtrl) {</p>
+<p>            callback.apply(this, args);</p>
+<p>            //return false;</p>
+<p>        }</p>
+<p>    }).keyup(function(e) {</p>
+<p>        if(e.ctrlKey) isCtrl = false;</p>
+<p>    });        </p>
+<p>};</p>
+<p>$.ctrl('C', function() {</p>
+<p>    $('body').prepend("<div id='ctrl_c' class='ctrl_c' align='justify'><span>&times;</span>Использование материалов и новостей Сегодня разрешается при условии ссылки на Сегодня.ua. Для новостных и интернет-изданий обязательной является прямая, открытая для поисковых систем, гиперссылка в первом абзаце на цитируемую статью или новость. Материалы, отмеченные знаками \"реклама\", \"PR\", \"Финансовый вопрос\", \"Новости компаний\", \"Официально\", \"Новости регионов\", \"Актуально\", публикуются на правах рекламы.<br /><a style='font-size: 11px;' href='/rules.html'>Условия использования материалов сайта СЕГОДНЯ.ua</a></div>");</p>
+<p>    $("#ctrl_c > span").click( function() { $("#ctrl_c").remove(); });</p>
+<p>});</p>
+<p>    sunsite.addfunc('top_brand_link', function(data){</p>
+<p>        </p>
+<p>        var d_brand = new Date(sunsite.time);</p>
+<p>        var h_brand = d_brand.getHours();</p>
+<p>        var m_brand = d_brand.getMinutes();</p>
+<p>        </p>
+<p>        </p>
+<p>        </p>
+<p>        if(</p>
+<p>            (h_brand == 14 && m_brand >= 40 || h_brand > 14)</p>
+<p>            &&</p>
+<p>            (h_brand == 16 && m_brand < 40 || h_brand < 16)</p>
+<p>        ) {</p>
+<p>            $('body').css('background', 'url(/user/img/b2fon.jpg) top center no-repeat');</p>
+<p>            $('body').prepend('<a style="display: block; height: 100px;" href="http://www.segodnya.ua/regions/kiev/Bilety-v-obmen-na-novosti-Segodnyayua-obyavlyaet-nebolshoy-konkurs.html"></a>');</p>
+<p>        } else {</p>
+<p>            $('body').css('background', 'url(/user/img/bg6years.jpg) top center no-repeat');</p>
+<p>            $('body').prepend('<a style="display: block; height: 115px;" href="http://video.segodnya.ua/Saytu-Segodnya-ispolnilos-6-let-Uznayte-pro-nashi-uspehi.html"></a>');</p>
+<p>        }</p>
+<p>        </p>
+<p>    });</p>
+<p> </p>
+<p>		sunsite.addfunc('after_banners', function(data){</p>
+<p>                var w = window, d = document;</p>
+<p>            w.admixZArr = (w.admixZArr || []);</p>
+<p>            w.admixerSmOptions = (w.admixerSmOptions || {});</p>
+<p>            w.admixerSmOptions.showAdsOnLoad = true;</p>
+<p>            if (!w.admixerSm) {</p>
+<p>                var adms = document.createElement('script');</p>
+<p>                adms.async = true;</p>
+<p>                adms.type = 'text/javascript';</p>
+<p>                adms.src = 'http://cdn.admixer.net/scriptlib/asm2.js?v=3';</p>
+<p>                var node = d.getElementsByTagName('script')[0];</p>
+<p>                node.parentNode.insertBefore(adms, node);</p>
+<p>            }</p>
+<p>            </p>
+<p>        });</p>
+<p>        </p>
+<p>        sunsite.start();</p>
+<p>        </p>
+<p>    </p>

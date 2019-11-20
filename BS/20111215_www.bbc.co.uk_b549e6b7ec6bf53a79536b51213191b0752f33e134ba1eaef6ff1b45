@@ -1,0 +1,304 @@
+<p>BBC - Democracy Live - Northern Ireland Assembly</p>
+<p>        if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.7.js"}]; }      bbcRequireMap = {"jquery-1":"http://static.bbc.co.uk/frameworks/jquery/0.1.8/sharedmodules/jquery-1.6.2", "jquery-1.4":"http://static.bbc.co.uk/frameworks/jquery/0.1.8/sharedmodules/jquery-1.4", "swfobject-2":"http://static.bbc.co.uk/frameworks/swfobject/0.1.3/sharedmodules/swfobject-2", "demi-1":"http://static.bbc.co.uk/frameworks/demi/0.9.0/sharedmodules/demi-1", "gelui-1":"http://static.bbc.co.uk/frameworks/gelui/0.9.3/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbc.co.uk/frameworks/gelui/0.9.3/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbc.co.uk/frameworks/istats/0.6.3/modules/istats-1", "relay-1":"http://static.bbc.co.uk/frameworks/relay/0.0.13/sharedmodules/relay-1", "clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbc.co.uk/frameworks/jssignals/0.3.2/modules/jssignals-1", "jcarousel-1":"http://static.bbc.co.uk/frameworks/jcarousel/0.1.6/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbc.co.uk/', paths: bbcRequireMap, waitSeconds: 30 });  </p>
+<p>    blq.assetPath="http://static.bbc.co.uk/frameworks/barlesque/1.21.3/desktop/2.7/"; blqOnDomReady(function() {  blq.suggest_short = false; blq.addAutoSuggest(); });  blq.setEnvironment('live');  if (blq.setLabel) blq.setLabel('searchSuggestion', "Search");       pulse.translations.intro = "We are always looking to improve the site and your opinions count."; pulse.translations.question = "Do you have a few minutes to tell us what you think about this site?"; pulse.translations.accept = "Yes"; pulse.translations.reject = "No";       </p>
+<p>        if(typeof(bbcdotcom) == "undefined") bbcdotcom = {};</p>
+<p>    </p>
+<p>@import "http://news.bbcimg.co.uk/css/screen/1_0_12/shared/v4/styles.css";</p>
+<p>@import "http://news.bbcimg.co.uk/css/screen/1_0_12/shared/emp.css";</p>
+<p>	</p>
+<p>#blq-main{font-size:1em;line-height:1.416;color:#464646}</p>
+<p><!--</p>
+<p>var _SERVERLOC="THDO";</p>
+<p> </p>
+<p>var _userLocation = 'INTERNATIONAL';</p>
+<p>--></p>
+<p><!--</p>
+<p>	bbc.fmtj.page = {</p>
+<p>		serverTime: 1323974199000,</p>
+<p>		editionToServe: null,</p>
+<p>		queryString: null,</p>
+<p>		referrer: null,</p>
+<p>		section: null,</p>
+<p>		sectionPath: null,</p>
+<p>		siteName: null,</p>
+<p>		siteToServe: 'democracylive',</p>
+<p>		siteVersion: '4',</p>
+<p>		storyId: null,</p>
+<p>		assetType: null,</p>
+<p>		uri: '/democracylive/hi/northern_ireland/newsid_9661000/9661283.stm',</p>
+<p>		country: 'fr',</p>
+<p>		masthead: false,</p>
+<p>		adKeyword: null,</p>
+<p>		templateVersion: null</p>
+<p>	}</p>
+<p>--></p>
+<p>    //<![CDATA[</p>
+<p>        require(['jquery-1'], function($){</p>
+<p>            </p>
+<p>            // set up EMP once it's loaded</p>
+<p>            var setUp = function(){</p>
+<p>                // use our own pop out page</p>
+<p>        	    embeddedMedia.setPopoutUrl('/player/emp/2_0_29/popout/pop.stm');</p>
+<p>        	    // store EMP's notifyParent function</p>
+<p>        	    var oldNotifyParent = embeddedMedia.console.notifyParent;</p>
+<p>        	    // use our own to add livestats to popout</p>
+<p>        	    embeddedMedia.console.notifyParent = function(childWin){</p>
+<p>        	        oldNotifyParent(childWin);</p>
+<p>        	        // create new live stats url</p>
+<p>                    var liveStatsUrl = bbc.fmtj.av.emp.liveStatsForPopout($('#livestats').attr('src'));</p>
+<p>                    var webBug = $('<img />', {</p>
+<p>                                     id:  'livestats',</p>
+<p>                                     src: liveStatsUrl</p>
+<p>                                 });</p>
+<p>                    // append it to popout</p>
+<p>                    $(childWin.document).find('body').append(webBug);</p>
+<p>                }</p>
+<p>            }</p>
+<p>                </p>
+<p>            // check if console is available to manipulate</p>
+<p>            if(window.embeddedMedia && window.embeddedMedia.console){</p>
+<p>                setUp();</p>
+<p>            }</p>
+<p>            // otherwise emp is still loading, so add event listener</p>
+<p>            else{</p>
+<p>                $(document).bind('empReady', function(){</p>
+<p>                    setUp();</p>
+<p>                });</p>
+<p>            }</p>
+<p>        });</p>
+<p>    //]]></p>
+<p>    //<![CDATA[</p>
+<p>        gloader.load(['glow', '1', 'glow.dom']);</p>
+<p>    //]]></p>
+<p>	//<![CDATA[</p>
+<p>	    </p>
+<p>	</p>
+<p>	    </p>
+<p>	        </p>
+<p>	    </p>
+<p>	</p>
+<p>	    </p>
+<p>	        </p>
+<p>	    </p>
+<p>	</p>
+<p>	    // set site specific config</p>
+<p>	    </p>
+<p>	        bbc.fmtj.av.emp.configs.push('democracylive');</p>
+<p>	    </p>
+<p>	    </p>
+<p>	    // when page loaded, write all created emps</p>
+<p>	    glow.ready(function(){</p>
+<p>			if(typeof bbcdotcom !== 'undefined' && bbcdotcom.av && bbcdotcom.av.emp){</p>
+<p>				bbcdotcom.av.emp.configureAll();</p>
+<p>			}</p>
+<p>			embeddedMedia.each(function(emp){</p>
+<p>				emp.set('enable3G', true);</p>
+<p>			});</p>
+<p>			embeddedMedia.writeAll();</p>
+<p>	        // mark the emps as loaded</p>
+<p>	        bbc.fmtj.av.emp.loaded = true;</p>
+<p>	    });</p>
+<p>	//]]></p>
+<p>// <![CDATA[</p>
+<p>function countername(u) {</p>
+<p>   var countername = [];</p>
+<p>    u = u.replace(/\.[^.\/]+$/, '');</p>
+<p>    u = u.replace(/[#][^#]+$/, '' );</p>
+<p>    u = u.replace(/[\?][^\?]+$/, '' );</p>
+<p>    u = u.replace(/\/newsid_\d+/g, '/');</p>
+<p>    u = u.replace(/\/[12]\//, '/');</p>
+<p>    u = u.replace(/\/reviews\//, '/');</p>
+<p>    u = u.replace(/\/sport[12]\//, '/sport/');</p>
+<p>    u = u.replace(/\/bbc_sport\//, '/sport/');</p>
+<p>    u = u.replace(/\/(hi|mobile)\//, '/');</p>
+<p>    u = u.replace(/\/(uk|i)fs\//, '/');</p>
+<p>    var path    = u.split('/').slice(3); </p>
+<p>    var asset_id_re  = /(\d+)\/?$/;</p>
+<p>    var asset_id = '';</p>
+<p>    if (matches = asset_id_re.exec( path[path.length-1] )) {</p>
+<p>        asset_id = matches[1];</p>
+<p>    }</p>
+<p>    var prod_name  = 'news'; </p>
+<p>    var prod = new Array();</p>
+<p>    prod['sport']    = /sport/; </p>
+<p>    prod['weather']  = /weather/;</p>
+<p>    prod['cbbc']     = /cbbc/;</p>
+<p>    for (var name in prod) {</p>
+<p>        if (u.match(prod[name])) {</p>
+<p>            prod_name = name;</p>
+<p>            break;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    countername.push(prod_name);</p>
+<p>    for (var i=0; i<path.length; i++) {</p>
+<p>        var part = path[i];</p>
+<p>        if (part && (part != prod_name) && (part != asset_id) && (part != 'default')) {</p>
+<p>            countername.push(part);</p>
+<p>        }</p>
+<p>    }</p>
+<p>    if (asset_id) {countername.push(asset_id);}</p>
+<p>    countername.push('page');</p>
+<p>    return countername.join('.');</p>
+<p>}</p>
+<p>function prod_name(c) {return c.replace(/^(.+?)\..*$/, "$1");}</p>
+<p>function geo_edition(u) {</p>
+<p>    var geo_edition = 'uk';</p>
+<p>    if (u.match(/\/(sport2|2|ifs)\//)) {</p>
+<p>         geo_edition = 'int';</p>
+<p>    }</p>
+<p>    return geo_edition;</p>
+<p>}</p>
+<p>function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";</p>
+<p>if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");</p>
+<p>if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;</p>
+<p>n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){</p>
+<p>n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?</p>
+<p>new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /><\/p>')};</p>
+<p>if (document.cookie.indexOf('NO-SA=') == -1) {</p>
+<p> var countername = countername(location.href), tld = prod_name(countername);</p>
+<p> sitestat("//sa.bbc.co.uk/bbc/bbc/s?name="+countername+"&ml_name=news-legacy-js&ml_version=20110330&app_type=web&app_name="+tld+"&prod_name="+tld);</p>
+<p>}</p>
+<p>// ]]></p>
+<p>//<![CDATA[</p>
+<p>    window.bbcFlagpoles_istats = "ON";</p>
+<p>    window.istatsTrackingUrl   = '//sa.bbc.co.uk/bbc/bbc/s?name=SET-COUNTER&app_type=web&ml_name=SSI&ml_version=0.5.0&language=en-GB';</p>
+<p> // ]]></p>
+<p>  </p>
+<p>    British Broadcasting CorporationHome Accessibility links  Skip to content Skip to local navigation Skip to bbc.co.uk navigation Skip to bbc.co.uk search  Help  Accessibility Help   We are always looking to improve the site and your opinions count. Do you have a few minutes to tell us what you think about this site?   </p>
+<p>Democracy Live</p>
+<p>Search, find and watch the politics that affects you</p>
+<p>	        	Search Democracy Live</p>
+<p>	        	Find a representative or topic, or words spoken in our video coverage</p>
+<p>Search terms</p>
+<p>Keyword</p>
+<p>Democracy Live site links</p>
+<p>Home</p>
+<p>House of Commons</p>
+<p>House of Lords</p>
+<p>Northern Ireland</p>
+<p>Scotland</p>
+<p>Wales</p>
+<p>Cymru</p>
+<p>Europe</p>
+<p>Your representatives</p>
+<p>Blogs and comment</p>
+<p>Key topics</p>
+<p>Institution guides</p>
+<p>Historic moments</p>
+<p>BBC Parliament</p>
+<p>Related BBC sites</p>
+<p>BBC News</p>
+<p>Following</p>
+<p>Following a representative makes it simple to find out where and when they have spoken. Videos are listed in one place, allowing you quick and easy access.</p>
+<p>Find out more</p>
+<p>View all new entries</p>
+<p>Page last updated at 17:25 GMT, Wednesday, 14 December 2011</p>
+<p>Northern Ireland Assembly</p>
+<p>Please turn on JavaScript. Media requires JavaScript to play.  </p>
+<p>    //<![CDATA[</p>
+<p>        (function(){</p>
+<p>            // create a new player, but don't write it yet</p>
+<p>            var emp = new bbc.fmtj.av.emp.Player('emp_9661283');</p>
+<p>            // if the emps have already been loaded, we need to call the write method manually</p>
+<p>            if(bbc.fmtj.av.emp.loaded){</p>
+<p>                emp.write();</p>
+<p>            }</p>
+<p>        })();</p>
+<p>    //]]></p>
+<p>The health minster has said there are people in Northern Ireland who are treating the health service as "some garage repair shop", on 14 December 2011.Edwin Poots told the health committee he believed there was "enough money in the system to deal with people's needs, but not their abuse". "Twenty-five per cent of people who call ambulances shouldn't and then we have the others who eat themselves, drink themselves or smoke themselves into bad health," he said. Mr Poots was addressing the committee on the major health and social care review which he brought to the assembly on Tuesday. Health committee chair Michelle Gildernew gave "a guarded welcome" to the report. The DUP's Paula Bradley, who worked as a social work assistant for the Northern Health and Social Care Trust before entering politics, said proposed plans "will make such a difference" as the current health service was "not workable for the patient". A number of committee members expressed concerns over a planned reduction in residential homes over the next five years. John Compton, who carried out the report, said the need for residential care was declining. Edwin Poots said there would be more packages offered within the home and therefore staff could be redeployed elsewhere. He said it was "more about reconfiguration than redundancy". Mr Poots added that the temporary closure of the Belfast City Hospital's accident and emergency department in November had yielded positive results. He said the number of 12-hour waits had dropped from a high of 89 in one month when all three emergency units were open to just three in November following the closure of the City unit. He attributed this to better availability of registrars and other key staff. Mr Compton also defended his plans to reduce the number of acute hospitals from 10 to between five or seven saying elsewhere in UK there would only be four acute hospitals covering a population the size of Northern Ireland. During a discussion on consultant fees members expressed surprise that information detailing individual bonuses had not been provided to committee members by the department on request, despite similar information having been released to media sources through freedom of information requests earlier in the year. The committee also took evidence on the health department's objectives for the forthcoming Programme for Government, and the January monitoring round. </p>
+<p>Health committee membership</p>
+<p>Michelle Gildernew, chair</p>
+<p>Jim Wells, deputy</p>
+<p>Michaela Boyle</p>
+<p>Paula Bradley</p>
+<p>Mickey Brady</p>
+<p>Gordon Dunne</p>
+<p>Mark H Durkan</p>
+<p>Sam Gardiner</p>
+<p>Pam Lewis</p>
+<p>John McCallister</p>
+<p>Kieran McCarthy</p>
+<p>SEE ALSO</p>
+<p>NI acute hospitals may be halved</p>
+<p>Story Tools</p>
+<p>Bookmark with:</p>
+<p>Delicious</p>
+<p>Digg</p>
+<p>reddit</p>
+<p>Facebook</p>
+<p>StumbleUpon</p>
+<p>What are these?</p>
+<p>E-mail this to a friend</p>
+<p><!--</p>
+<p>var bm = new BookMark({site:'',storyid:9662253,sectionid:92014,url:'/democracylive/hi/northern_ireland/newsid_9661000/9661283.stm',edition:'Domestic'});</p>
+<p>//--></p>
+<p>		</p>
+<p>			</p>
+<p>			Watch again</p>
+<p>		</p>
+<p>	</p>
+<p>Welsh budget approved</p>
+<p>Health and Social Care Bill concerns</p>
+<p>MEPs review Polish presidency</p>
+<p>Prime minister's questions</p>
+<p>  Mobile    Search term:     bbc.co.uk navigation  News Sport Weather  Travel  TV Radio More       CBBC CBeebies Comedy Food Health   History Learning Music Science Nature   Local Northern Ireland Scotland Wales Full A-Z of BBC sites        Site links   News Sources   About BBC News   BBC links   About the BBC   BBC Help   Contact Us   Accessibility Help   Terms of Use   Careers   Privacy & Cookies   Advertise With Us   Ad Choices   </p>
+<p> © 2011 The BBC is not responsible for the content of external sites. Read more. This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.  </p>
+<p>bbcdotcom.stats = {</p>
+<p>    "adEnabled" : "(none)",</p>
+<p>    "contentType" : "HTML",</p>
+<p>    "audience" : "fr"</p>
+<p>};</p>
+<p>/*<![CDATA[*/</p>
+<p>var adKeyword = document.getElementsByName('ad_keyword');</p>
+<p>if('/news/uk-11767495' == window.location.pathname) {</p>
+<p>    J08781.DM_addEncToLoc("Section","Royal Wedding");</p>
+<p>} else if (undefined != adKeyword[0]) {</p>
+<p>    J08781.DM_addEncToLoc("Section",adKeyword[0].content);</p>
+<p>} else if ("undefined" != typeof bbc &&</p>
+<p>    "undefined" != typeof bbc.fmtj &&</p>
+<p>    "undefined" != typeof bbc.fmtj.page &&</p>
+<p>    "undefined" != typeof bbc.fmtj.page.section) {</p>
+<p>        J08781.DM_addEncToLoc("Section", bbc.fmtj.page.section);</p>
+<p>}</p>
+<p>J08781.DM_tag();</p>
+<p>/*]]>*/</p>
+<p>    var s_account = "bbcwglobalprod";</p>
+<p><!--</p>
+<p>/* You may give each page an identifying name, server, and channel on</p>
+<p>the next lines. */</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=scw.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>    COMSCORE.beacon({</p>
+<p>        c1:2,</p>
+<p>        c2:"6035051",</p>
+<p>        c3:"",</p>
+<p>        c4:"news.bbc.co.uk/democracylive/hi/northern_ireland/newsid_9661000/9661283.stm",</p>
+<p>        c5:"",</p>
+<p>        c6:"",</p>
+<p>        c15:""</p>
+<p>    });</p>
+<p> </p>
+<p>    (function(w, d) { </p>
+<p>        var a = function() { </p>
+<p>            var a = d.createElement('script'); </p>
+<p>            a.type = 'text/javascript'; </p>
+<p>            a.async = 'async'; </p>
+<p>            a.src = '//' + ((w.location.protocol === 'https:') ? 's3.amazonaws.com/cdx-radar/' : 'radar.cedexis.com/') + '01-10271-radar10.min.js'; </p>
+<p>            d.body.appendChild(a); </p>
+<p>        }; </p>
+<p>        if (w.addEventListener) { </p>
+<p>            w.addEventListener('load', a, false); </p>
+<p>        } else if (w.attachEvent) { </p>
+<p>            w.attachEvent('onload', a); </p>
+<p>        } </p>
+<p>    }(window, document)); </p>
+<p>  (function() {</p>
+<p>    var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;</p>
+<p>    em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);</p>
+<p>  })();</p>
+<p>  if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); }   pulse.init( 'democracylive', false ); </p>

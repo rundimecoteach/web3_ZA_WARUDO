@@ -1,0 +1,1065 @@
+<p>	JANRAIN.SSO.CAPTURE.check_login({</p>
+<p>		sso_server: 'https://sso.canada.com',</p>
+<p>		client_id: 'dvrbjcn34dw33nnd7yq3yh5rnrcj6e5f',</p>
+<p>		redirect_uri: 'http://'+window.location.hostname+'/scripts/sso/postlogin.ashx',</p>
+<p>		logout_uri: 'http://'+window.location.hostname+'/scripts/sso/logout.ashx?type=providers',</p>
+<p>		xd_receiver: 'http://'+window.location.hostname+'/xdcomm.html'</p>
+<p>	});</p>
+<p>	CDMScriptManager.load('/js/jquery-1.2.6.min.js');</p>
+<p>	CDMScriptManager.load('/js/slider.js');</p>
+<p>     CDMScriptManager.load('/js/pluck/pluckLocal.js');</p>
+<p>     CDMScriptManager.load(pluckScriptUrl);</p>
+<p>     CDMScriptManager.load('/js/pluck/pluck.js');</p>
+<p>		.pluck-comm .pluck-user-persona {</p>
+<p>			display: block !important;</p>
+<p>		}</p>
+<p>	</p>
+<p>Postponing parenthood could have serious consequences, warns new study</p>
+<p>{</p>
+<p>	'zone':"sQ7AQQe5q5pg_paAhT_ZVJ",</p>
+<p>	'mode':"meter",</p>
+<p>	'customPreCheck': "preCheckMontrealgazette100643",</p>
+<p>        'border': "IwmirnkOqMl6GwKc5_TO4j",</p>
+<p>	'debug':0</p>
+<p>}</p>
+<p>function preCheckMontrealgazette100643($)</p>
+<p>{</p>
+<p>    if (navigator.userAgent && ( navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("PlayBook") != -1 ))</p>
+<p>    {</p>
+<p>        return 0;</p>
+<p>    }</p>
+<p>    var metamatch = document.getElementsByTagName("meta");</p>
+<p>    for (var i=0; i < metamatch.length; i++) {</p>
+<p>    if (metamatch[i].name == "keywords") {</p>
+<p>    if (metamatch[i].content.match(/breaking/)) </p>
+<p>      {</p>
+<p>       return 0;</p>
+<p>      }</p>
+<p>    }</p>
+<p>    }</p>
+<p>    loc = window.location + '';</p>
+<p>    if (loc.match(/\/(cars|jobs|homes)\/.+/i))</p>
+<p>    {</p>
+<p>        return 0;</p>
+<p>    }</p>
+<p>    else if (loc.match(/(story.html).*/i))</p>
+<p>    {</p>
+<p>         return 1;</p>
+<p>    }</p>
+<p>    </p>
+<p>    return 0;</p>
+<p>}</p>
+<p>#leaderboard { text-align:right }</p>
+<p>#leaderboard .ad { text-align:right }</p>
+<p>                        function getCookies() { return ""; }</p>
+<p>                        </p>
+<p>                        Array.prototype.uniqueAry = function ()</p>
+<p>                        {</p>
+<p>                            var r = new Array();</p>
+<p>                            o:for(var i = 0, n = this.length; i < n; i++)</p>
+<p>                            {</p>
+<p>                                for(var x = 0, y = r.length; x < y; x++)</p>
+<p>                                {</p>
+<p>                                    if(r[x]==this[i])</p>
+<p>                                    {</p>
+<p>                                        continue o;</p>
+<p>                                    }</p>
+<p>                                }</p>
+<p>                                r[r.length] = this[i];</p>
+<p>                            }</p>
+<p>                            return r;</p>
+<p>                        }</p>
+<p>                        function getCookie(cookieName)</p>
+<p>                        {</p>
+<p>                            var dc = document.cookie;</p>
+<p>                            //load external cookies from .canada.com if not currently on .canada.com</p>
+<p>                            if (location.hostname.match(/\.canada\.com$/gi) == null)</p>
+<p>                                dc += ";" + getCookies(); //append to existing document cookie</p>
+<p>                            var cookie_str = ""; //this string will contain the value of the cookie name</p>
+<p>                            var needle = "[A-Za-z0-9_-]*" + cookieName + "[A-Za-z0-9_-]*=[^;]+";</p>
+<p>                            var regex = new RegExp(needle, "gi");</p>
+<p>                            var matches = dc.match(regex);</p>
+<p>                            if (matches != null)</p>
+<p>                            {</p>
+<p>                                for (var x = 0; x < matches.length; x++)</p>
+<p>                                    matches[x] = matches[x].substring(matches[x].indexOf("=")+1).replace(new RegExp("[\\s]+$", "g"), ""); //remove keyname prefix and trim</p>
+<p>                                cookie_str = matches.join(",");</p>
+<p>                                matches = cookie_str.split(",");</p>
+<p>                                matches = matches.uniqueAry(); //remove duplicates</p>
+<p>                                cookie_str = matches.join(";") + ";";</p>
+<p>                            }</p>
+<p>                            return unescape(cookie_str);</p>
+<p>                        }</p>
+<p>                        function getAdCookie()</p>
+<p>                        {</p>
+<p>                            return getCookie("adcookie");</p>
+<p>                        }</p>
+<p>                        function setSurroundCookie(value)</p>
+<p>                        {</p>
+<p>                            document.cookie = "surroundId=" + escape(value) + "; path=/";</p>
+<p>                        }</p>
+<p>                        function getSurroundCookie()</p>
+<p>                        {</p>
+<p>                            var dc = document.cookie;</p>
+<p>                            var prefix = "surroundId=";</p>
+<p>                            var begin = dc.indexOf("; " + prefix);</p>
+<p>                            if (begin == -1)</p>
+<p>                            {</p>
+<p>                                begin = dc.indexOf(prefix);</p>
+<p>                                if (begin != 0) return null;</p>
+<p>                            }</p>
+<p>                            else</p>
+<p>                            {</p>
+<p>                                begin += 2;</p>
+<p>                            }</p>
+<p>                            var end = document.cookie.indexOf(";", begin);</p>
+<p>                            if (end == -1) end = dc.length;</p>
+<p>                            return unescape(dc.substring(begin + prefix.length, end));</p>
+<p>                        }</p>
+<p>                        // Setup for surround session.</p>
+<p>                        var adid = ""; // used in the ad to start a surround session</p>
+<p>                        var surroundTag = getSurroundCookie(); // Get surround session id from the cookie</p>
+<p>                        if(surroundTag == null) // check if there was a surround session id in the cookie</p>
+<p>                        {</p>
+<p>                            surroundTag = "";</p>
+<p>                        }</p>
+<p>                        else</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+surroundTag+";"; // finish setting up the key-value for the ad tags</p>
+<p>                        }</p>
+<p>                        //Setup for adcookie.</p>
+<p>                        var adcookieTag = getAdCookie(); // Get the ad cookie string</p>
+<p>                        </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/mg_bh.com/health/story;loc=theTop;loc=top;sz=468x60,728x90;dcopt=ist;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=72614930?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/mg_bh.com/health/story;loc=theTop;loc=top;sz=468x60,728x90;dcopt=ist;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=72614930?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p>Â Â Weather CentreÂ Â Â -6°CÂ Light snowMontrÃ©alDetailed ForecastÂ </p>
+<p>Start Home Delivery</p>
+<p>Subscriber Services</p>
+<p>Digital Edition</p>
+<p>Mobile Products</p>
+<p>canada.com network</p>
+<p>Newspapers</p>
+<p> </p>
+<p> </p>
+<p>National Post</p>
+<p>Victoria Times Colonist</p>
+<p>The Province (Vancouver)</p>
+<p>Vancouver Sun</p>
+<p>Edmonton Journal</p>
+<p>Calgary Herald</p>
+<p>Regina Leader-Post</p>
+<p>Saskatoon StarPhoenix</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Windsor Star</p>
+<p>Ottawa Citizen</p>
+<p>The Gazette (Montreal)</p>
+<p>DOSE</p>
+<p>Postmedia Community Publishing</p>
+<p>Nanaimo Daily News</p>
+<p> </p>
+<p>	function handlePostLogin() {</p>
+<p>		// change the login status bar to reflect a logged in state</p>
+<p>		jQuery.getScript("http://"+window.location.hostname+"/scripts/sso/user.ashx?format=json&callback=renderLoginStatusBar");</p>
+<p>		if((window.location+"").indexOf("/members/account-verified.html") > -1 || (window.location+"").indexOf("/members/cancel-deletion.html") > -1 || (window.location+"").indexOf("/members/reset-password-complete.html") > -1) window.location="/index.html";</p>
+<p>		else window.location.reload();</p>
+<p>	}</p>
+<p>	function handlePostLogout() {</p>
+<p>		// change the login status bar to reflect a logged out state</p>
+<p>		jQuery.getScript("http://"+window.location.hostname+"/scripts/sso/user.ashx?format=json&callback=renderLoginStatusBar");</p>
+<p>		</p>
+<p>		if((window.location+"").indexOf("edit-profile.html") > -1) window.location="/index.html";</p>
+<p>		else window.location.reload();</p>
+<p>	}</p>
+<p>	function dologout() {</p>
+<p>		// create the hidden logout iframe</p>
+<p>		var src = 'http://'+window.location.hostname+'/scripts/sso/logout.ashx?iframe=true';</p>
+<p>		jQuery('<iframe id="iframe_logout" style="visibility:hidden;display:none" frameborder="0" hspace="0" scrolling="no" src="' + src + '"></iframe>').appendTo('body');</p>
+<p>	}</p>
+<p>	function renderLoginStatusBar(user) {</p>
+<p>		var user = user.User;</p>
+<p>		var statusBarHtml = "";</p>
+<p>		if (user.IsLoggedIn) {</p>
+<p>			statusBarHtml += "<ul>";</p>
+<p>			statusBarHtml += "	<li>Hi " + user.DisplayName + "</li>";</p>
+<p>			statusBarHtml += " " + profileLink;</p>
+<p>			statusBarHtml += "	<li><a href=\"javascript:dologout();\">Sign Out</a></li>";</p>
+<p>			statusBarHtml += "</ul>";</p>
+<p>		}</p>
+<p>		else {</p>
+<p>			statusBarHtml += "<ul>";</p>
+<p>			statusBarHtml += "	<li><a href=\"javascript:light.mask(jQuery('body'),light.getHtml('user_reg_internal_1t'));\">Log in</a></li>";</p>
+<p>			statusBarHtml += "	<li><a href=\"javascript:light.mask(jQuery('body'),light.getHtml('user_reg_internal_1t'));\">Register</a></li>";</p>
+<p>			statusBarHtml += "</ul>";</p>
+<p>		}</p>
+<p>		document.getElementById("loginstatusbarchild").innerHTML = statusBarHtml;</p>
+<p>	}</p>
+<p>jQuery.getScript("http://"+window.location.hostname+"/scripts/sso/user.ashx?format=json&callback=renderLoginStatusBar");</p>
+<p> </p>
+<p>Montreal Gazette</p>
+<p> </p>
+<p>				/*Temporary styles for Aislin Xmas image*/</p>
+<p>				#logocol .headersponsor { margin-left:20px!important; width:260px!important; margin-bottom:-5px!important;}</p>
+<p>			</p>
+<p> </p>
+<p>Â Â Weather CentreÂ Â Â -6°CÂ Light snowMontrÃ©alDetailed ForecastÂ </p>
+<p>Quick Links: Shopping, Obituaries, Horoscopes</p>
+<p> </p>
+<p>Search</p>
+<p> </p>
+<p>YellowPages</p>
+<p>Find a business or person on: </p>
+<p>			CDMScriptManager.load("http://www.montrealgazette.com/js/autocomplete/jquery.autocomplete.min.js");</p>
+<p>		</p>
+<p>			function doSearch() {</p>
+<p>				var q = document.getElementById("q").value.replace(/[^0-9a-zA-Z\s*]/g,"");</p>
+<p>				q = q.replace(/ /g,"+");</p>
+<p>				if (q.length == 0) {</p>
+<p>					alert("Please enter your search criteria");</p>
+<p>					return;</p>
+<p>				}</p>
+<p>				var dname = document.domain; </p>
+<p>				if ( dname=="driving.ca") {</p>
+<p>					document.location.href="http://www.driving.ca/montreal/search/search.html?q=" + escape(q);</p>
+<p>					}</p>
+<p>				else {</p>
+<p>					document.location.href="http://www.montrealgazette.com/search/search.html?q=" + escape(q);</p>
+<p>				}</p>
+<p>			}</p>
+<p>			//FAST WAVE 1</p>
+<p>			//add javascript to hook up search text box in header</p>
+<p>			//set up autocomplete on search box in header			</p>
+<p>			jQuery(document).ready(function() {</p>
+<p>				jQuery("#q").autocomplete("http://app.canada.com/search/search.svc/autocomplete", {</p>
+<p>					dataType: 'jsonp',</p>
+<p>					parse: function(data) {</p>
+<p>						var rows = new Array();</p>
+<p>						data = data.Terms;</p>
+<p>						for(var i=0; i<data.length; i++){</p>
+<p>							rows[i] = { data:{Term:data[i]}, value:data[i], result:data[i] };</p>
+<p>						}</p>
+<p>						return rows;</p>
+<p>					},</p>
+<p>					resultsClass: "fast_wave_results",</p>
+<p>					formatItem: function(row, i, n) {</p>
+<p>						return  row.Term;</p>
+<p>					},</p>
+<p>					cacheLength: 0,</p>
+<p>					extraParams: {</p>
+<p>						format: "json"</p>
+<p>					},</p>
+<p>					minChars: 1,</p>
+<p>					max: 10,</p>
+<p>					highlight: function(value, term) {</p>
+<p>						var pos = value.toLowerCase().indexOf(term.toLowerCase());</p>
+<p>						return (pos > 0)?"<b>" + value.substring(0,pos) + "</b>" + value.substring(pos, term.length) + "<b>" + value.substring(pos + term.length) + "</b>":value.substring(0, term.length) + "<b>" + value.substring(pos + term.length) + "</b>";</p>
+<p>					},</p>
+<p>					scroll: false,</p>
+<p>					selectFirst: false</p>
+<p>				}); </p>
+<p>			});</p>
+<p>		</p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Montreal</p>
+<p>West Island</p>
+<p>National</p>
+<p>World</p>
+<p>Weather</p>
+<p>Daily Commuter</p>
+<p>Saturday Extra</p>
+<p>Oddities</p>
+<p>Today's Paper</p>
+<p>Opinion</p>
+<p>Aislin</p>
+<p>Blogs</p>
+<p>Editorials</p>
+<p>Columnists</p>
+<p>Op-Ed</p>
+<p>Letters</p>
+<p>Business</p>
+<p>Money</p>
+<p>Markets on FP</p>
+<p>Your Business</p>
+<p>Business Observer</p>
+<p>Open House</p>
+<p>Technocite</p>
+<p>Aerospace</p>
+<p>Legal Matters</p>
+<p>Sports</p>
+<p>Canadiens/Hockey</p>
+<p>Alouettes/Football</p>
+<p>Impact/Soccer</p>
+<p>Baseball</p>
+<p>Basketball</p>
+<p>Golf</p>
+<p>Auto Racing</p>
+<p>Tennis</p>
+<p>Hockey Inside/Out</p>
+<p>MMA</p>
+<p>Arts</p>
+<p>Festival Central</p>
+<p>Movie Guide</p>
+<p>Television</p>
+<p>TV Listings</p>
+<p>Music</p>
+<p>Books</p>
+<p>Celebrity</p>
+<p>Theatre</p>
+<p>Life</p>
+<p>Fashion & Beauty</p>
+<p>Food & Wine</p>
+<p>Parenting</p>
+<p>Relationships</p>
+<p>Green Life</p>
+<p>Diversions - Comics & Games</p>
+<p>Pets</p>
+<p>Mike Holmes</p>
+<p>Health</p>
+<p>Women</p>
+<p>Men</p>
+<p>Family & Child</p>
+<p>Sexual Health</p>
+<p>Diet   Fitness</p>
+<p>Technology</p>
+<p>Personal Tech</p>
+<p>Gaming</p>
+<p>Tech-Biz</p>
+<p>Internet</p>
+<p>Environment</p>
+<p>Space</p>
+<p>Science</p>
+<p>Best of YouTube</p>
+<p>Travel</p>
+<p>Trip Ideas</p>
+<p>Tools & Tips</p>
+<p>Community</p>
+<p>Destination Guides</p>
+<p>Jobs</p>
+<p>Home</p>
+<p>Search Jobs</p>
+<p>Resources</p>
+<p>Post Jobs</p>
+<p>Jobseekers</p>
+<p>Employer Login</p>
+<p>Top Employers</p>
+<p>Cars</p>
+<p>New</p>
+<p>Used</p>
+<p>Pre-Owned Weekly Specials</p>
+<p>Sell</p>
+<p>Research & Compare</p>
+<p>News & Events</p>
+<p>Videos</p>
+<p>Features</p>
+<p>Auto Show 2012</p>
+<p>Homes</p>
+<p>For Sale/Rent</p>
+<p>Real Estate Advice</p>
+<p>Renovating</p>
+<p>Decorating</p>
+<p>Gardening</p>
+<p>Vacation Homes</p>
+<p>Classifieds</p>
+<p>Obituaries</p>
+<p>Announcements</p>
+<p>Vehicles</p>
+<p>Real Estate</p>
+<p>Rentals</p>
+<p>Jobs</p>
+<p>Pets</p>
+<p>For Sale</p>
+<p>Shopping</p>
+<p>Place an Ad</p>
+<p>FlyerCity</p>
+<p> </p>
+<p>Don't miss: </p>
+<p>Year in review</p>
+<p>Urban Expressions</p>
+<p>Gazette Christmas Fund</p>
+<p>Food and wine</p>
+<p>Contracts database</p>
+<p>Interactives</p>
+<p>Shelter</p>
+<p>Â </p>
+<p> Â»</p>
+<p>			RSS</p>
+<p> </p>
+<p> </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/montrealgazette.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=72614930?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/montrealgazette.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=72614930?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p>		.promobannerwrapper {margin-left:10px;}</p>
+<p>	</p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/montrealgazette.com/health/story;loc=top;sz=960x86;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=72614930?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/montrealgazette.com/health/story;loc=top;sz=960x86;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=72614930?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/montrealgazette.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=72614930?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/montrealgazette.com/health/story;loc=top;sz=960x42;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=72614930?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p> </p>
+<p>				CDMScriptManager.load('/js/SpiderRedirect.js');</p>
+<p>			</p>
+<p>				CDMScriptManager.load('/js/pluck/pluckLocal.js');</p>
+<p>				CDMScriptManager.load('http://pluck.montrealgazette.com/ver1.0/Direct/DirectProxy');</p>
+<p>				CDMScriptManager.load('/js/pluck/pluck.js');				</p>
+<p>				CDMScriptManager.load('/js/adsync/adSyncLibrary.js');</p>
+<p>			</p>
+<p>				if (typeof dartad_url != 'undefined') {</p>
+<p>					var dd = adSync.ParseDartAdUrl(dartad_url);</p>
+<p>					cwZoneAd=dd["zone"];</p>
+<p>					cwSiteAd =dd["site"];</p>
+<p>					cwKeyAd=dd["keyValues"];</p>
+<p>				}else {</p>
+<p>					cwSiteAd = "mg_bh.com"; // plug in the Ad site variable</p>
+<p>					cwZoneAd= "health/story"; // plug in the ad zone.</p>
+<p>					cwKeyAd="kw=ron;kw=health"; // plug in the Ad key words.</p>
+<p>				}	</p>
+<p>			</p>
+<p>	</p>
+<p>				var addthis_pub = 'canada.com';</p>
+<p>				function tabClick(eventText, hasVideo, id, classname, pause,syncAds)</p>
+<p>				{	</p>
+<p>					//the statsEvent and Ad Refresh have been disabled on the story tab clicks</p>
+<p>					//I've left the code in the xsl (just commented out), in case the decision gets reversed.</p>
+<p>									</p>
+<p>					//omniture event</p>
+<p>					//statsEvent(eventText);	</p>
+<p>					</p>
+<p>					//set tab</p>
+<p>					if(hasVideo)</p>
+<p>						switchTab(id,classname, pause);</p>
+<p>					else</p>
+<p>						setClass(id, classname);</p>
+<p>					//refresh ads</p>
+<p>					//if(syncAds)</p>
+<p>						//adSync.TriggerAdSynch();</p>
+<p>				}</p>
+<p>				function statsEvent(eventText)</p>
+<p>				{</p>
+<p>					//omniture event</p>
+<p>					s.prop38=s.pageName + eventText;</p>
+<p>					s.events='';</p>
+<p>					void(s.t());				</p>
+<p>				}</p>
+<p>				function showTab(firstentrytype)</p>
+<p>				{</p>
+<p>					var tab = getQueryVar('tab');</p>
+<p>					var tabclass = '';</p>
+<p>					if (tab == 'PHOT' || (firstentrytype.indexOf('image/') != -1 && tab == ''))</p>
+<p>						tabclass = 'story_photo_content';</p>
+<p>					else if (tab == 'VID' || ((firstentrytype == 'application/vnd.ooyala') && tab == ''))</p>
+<p>						tabclass = 'story_video_content';</p>
+<p>					else if (tab == 'FLSH' || (firstentrytype == 'application/x-shockwave-flash' && tab == ''))</p>
+<p>						tabclass = 'story_interactive_content';</p>
+<p>					if (tabclass != '')</p>
+<p>						setClass('storypage', tabclass);</p>
+<p>				}</p>
+<p>				function EmailThis(qs, emailViewer) </p>
+<p>				{</p>
+<p>					var url = "http://" + window.location.hostname + window.location.pathname;</p>
+<p>					var id = "";</p>
+<p>					id = getQueryVar("id");</p>
+<p>					if (id != "")</p>
+<p>					{</p>
+<p>						url = addQS(url, "id=" + id);</p>
+<p>					}</p>
+<p>					if (qs != "")</p>
+<p>					{</p>
+<p>						url = addQS(url, qs);</p>
+<p>					}</p>
+<p>					if (typeof(emailViewer) == "undefined" || emailViewer == null || emailViewer == "") emailViewer = "/story_emailthis.html";</p>
+<p>					openWindow(emailViewer + '?referrer=' + encodeURIComponent(url), 'StoryEmailThis', 'scrollbars=yes,resizable=yes,width=550,height=380')</p>
+<p>				}</p>
+<p>				function getQueryVar(key) </p>
+<p>				{</p>
+<p>					var qs = window.location.search.substring(1);</p>
+<p>					var arrQS = qs.split("&");</p>
+<p>					var value = "";</p>
+<p>					for (i=0; i<arrQS.length; i++) {</p>
+<p>						var ft = arrQS[i].split("=");</p>
+<p>						if (ft[0] == key) {</p>
+<p>							value =  ft[1];</p>
+<p>						}</p>
+<p>					}</p>
+<p>					return value;</p>
+<p>				}</p>
+<p>				function addQS(theURL, QS)</p>
+<p>				{</p>
+<p>					var url = theURL;</p>
+<p>					if (QS != '')</p>
+<p>					{</p>
+<p>						if (url.indexOf("?") == -1)	{</p>
+<p>							url += "?" + QS;</p>
+<p>						} </p>
+<p>						else {</p>
+<p>							url += "%26amp;" + QS;</p>
+<p>						}</p>
+<p>					}</p>
+<p>					return url;</p>
+<p>				}</p>
+<p>				function openWindow(theURL, WinName, WinFeatures) {</p>
+<p>					window.open(theURL, WinName, WinFeatures);</p>
+<p>				}</p>
+<p>				function jumpToAnchor(anchor) </p>
+<p>				{</p>
+<p>					window.location = String(window.location).replace(/\#.*$/, "") + anchor;</p>
+<p>				}</p>
+<p>				function showAd(story_elem, ad_elem, ad_wrapper, offset) {</p>
+<p>					var eosPos = Y(story_elem);</p>
+<p>					var adPos = Y(ad_wrapper);</p>
+<p>					var showAd = false;</p>
+<p>					var offsetPos = 0;</p>
+<p>					</p>
+<p>					if (eosPos >= adPos)</p>
+<p>					{</p>
+<p>						showAd = true;</p>
+<p>					}</p>
+<p>					else</p>
+<p>					{</p>
+<p>						offsetPos = eosPos + offset;</p>
+<p>						if (offsetPos >= adPos)</p>
+<p>						{</p>
+<p>							showAd = true;</p>
+<p>						}</p>
+<p>					}</p>
+<p>					// write out ad include</p>
+<p>					if (showAd == true)</p>
+<p>					{</p>
+<p>					   document.getElementById(ad_elem).style.display = "block"; </p>
+<p>					}</p>
+<p>				}				</p>
+<p>				function X(id) {</p>
+<p>					var obj = document.getElementById(id);</p>
+<p>					var x = obj.offsetLeft</p>
+<p>					while (obj = obj.offsetParent) x += obj.offsetLeft</p>
+<p>					return x</p>
+<p>				}</p>
+<p>				function Y(id) {</p>
+<p>					var obj = document.getElementById(id);</p>
+<p>					var y = obj.offsetTop</p>
+<p>					while (obj = obj.offsetParent) y += obj.offsetTop</p>
+<p>					return y</p>
+<p>				}</p>
+<p>			</p>
+<p>CDMScriptManager.load("http://s9.addthis.com/js/widget.php?v=10");</p>
+<p>Postponing parenthood could have serious consequences, warns new studyÂ Â </p>
+<p>By Sharon Kirkey, Postmedia News</p>
+<p>January 17, 2012 10:13 AM</p>
+<p>Â </p>
+<p>Tweet</p>
+<p>								var pluckContentID = 'SP6:6007363'; //value used by story_share_bar.inc to pull comments</p>
+<p>							</p>
+<p>Comment</p>
+<p> 0 </p>
+<p>			function getPluckContent(ArtKey) {</p>
+<p>			    var commentsPageRequest = new PluckSDK.CommentsPageRequest();</p>
+<p>			    commentsPageRequest.CommentedOnKey = new PluckSDK.ExternalResourceKey({ Key: ArtKey });</p>
+<p>			    PluckSDK.SendRequests([commentsPageRequest], responsePluckContentCallback);</p>
+<p>			}</p>
+<p>			function responsePluckContentCallback(responses) {</p>
+<p>				//safely dump the response to Firebug</p>
+<p>				var totalItems = isNaN(responses[0].TotalItems) ? 0 : responses[0].TotalItems;</p>
+<p>				jQuery("#pluckCommentCount").text(totalItems);</p>
+<p>			}</p>
+<p>			//pluckContentID set in main.xsl</p>
+<p>			getPluckContent(pluckContentID);</p>
+<p>		</p>
+<p>		stLight.options({</p>
+<p>				publisher:'8f205be9-8545-4fa3-a030-c83238b6a3e5',</p>
+<p>				offsetLeft:'-265',</p>
+<p>				onhover: false,</p>
+<p>				embeds:'true',</p>
+<p>		});</p>
+<p>Â StoryPhotos ( 1 )</p>
+<p>						showTab("text/html");</p>
+<p>					Â </p>
+<p>				function resizeImage() {</p>
+<p>					var imgBox = document.getElementById('imageBox');</p>
+<p>					var photo = document.getElementById('storyphoto');</p>
+<p>					if (imgBox != null && photo != null)</p>
+<p>					{</p>
+<p>						if(photo.width >= 460) </p>
+<p>						{</p>
+<p>							imgBox.className = 'imagesize460';</p>
+<p>						}</p>
+<p>						else </p>
+<p>						{</p>
+<p>							if(photo.width >= 300) </p>
+<p>							{</p>
+<p>								imgBox.className = 'imagesize310';</p>
+<p>							}</p>
+<p>							else </p>
+<p>							{</p>
+<p>								imgBox.className = 'imageboxpadding';</p>
+<p>							}</p>
+<p>							imgBox.style.width = photo.width + 'px';</p>
+<p>						}</p>
+<p>					}</p>
+<p>				}</p>
+<p>				function getStoryFontSize() {</p>
+<p>					var storyfontsize = getCookie('storyfontsize');</p>
+<p>					var storyfontimage = getCookie('storyfontimage');</p>
+<p>					// use cookied value, if present</p>
+<p>					if (storyfontsize != null)</p>
+<p>					{</p>
+<p>						setClass('story_content',storyfontsize); </p>
+<p>						if (storyfontimage != null)</p>
+<p>						{</p>
+<p>							setClass('fontsizecontainer',storyfontimage); </p>
+<p>						}</p>
+<p>					}</p>
+<p>					else	// default it to para14 if no cookie</p>
+<p>					{</p>
+<p>						setClass('story_content','para14'); </p>
+<p>						setClass('fontsizecontainer','size02');</p>
+<p>					}</p>
+<p>				}</p>
+<p>				function setStoryFontSize(storyfontsize,storyfontimage) {</p>
+<p>					setClass('story_content',storyfontsize); </p>
+<p>					setClass('fontsizecontainer',storyfontimage);</p>
+<p>					setCookie('storyfontsize', storyfontsize, '365', '/', '', '');</p>
+<p>					setCookie('storyfontimage', storyfontimage, '365', '/', '', '');</p>
+<p>				}</p>
+<p>				function setCookie( name, value, expires, path, domain, secure ) {</p>
+<p>					// set time</p>
+<p>					var today = new Date();</p>
+<p>					today.setTime( today.getTime() );</p>
+<p>					if ( expires )</p>
+<p>					{</p>
+<p>						expires = expires * 1000 * 60 * 60 * 24; //days</p>
+<p>					}</p>
+<p>					var expires_date = new Date( today.getTime() + (expires) );</p>
+<p>					document.cookie = name + "=" + escape( value ) +</p>
+<p>					( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) + </p>
+<p>					( ( path ) ? ";path=" + path : "" ) + </p>
+<p>					( ( domain ) ? ";domain=" + domain : "" ) +</p>
+<p>					( ( secure ) ? ";secure" : "" );</p>
+<p>				}</p>
+<p>				function getCookie( check_name ) {</p>
+<p>					// split this cookie up into name/value pairs</p>
+<p>					var a_all_cookies = document.cookie.split( ';' );</p>
+<p>					var a_temp_cookie = '';</p>
+<p>					var cookie_name = '';</p>
+<p>					var cookie_value = '';</p>
+<p>					var b_cookie_found = false; // set boolean t/f default f</p>
+<p>					</p>
+<p>					for ( i = 0; i < a_all_cookies.length; i++ )</p>
+<p>					{</p>
+<p>						// split apart each name=value pair</p>
+<p>						a_temp_cookie = a_all_cookies[i].split( '=' );</p>
+<p>						</p>
+<p>						// and trim left/right whitespace while we're at it</p>
+<p>						cookie_name = a_temp_cookie[0].replace(/^\s+|\s+$/g, '');</p>
+<p>					</p>
+<p>						// if the extracted name matches passed check_name</p>
+<p>						if ( cookie_name == check_name )</p>
+<p>						{</p>
+<p>							b_cookie_found = true;</p>
+<p>							// we need to handle case where cookie has no value but exists (no = sign, that is):</p>
+<p>							if ( a_temp_cookie.length > 1 )</p>
+<p>							{</p>
+<p>								cookie_value = unescape( a_temp_cookie[1].replace(/^\s+|\s+$/g, '') );</p>
+<p>							}</p>
+<p>							// note that in cases where cookie is initialized but no value, null is returned</p>
+<p>							return cookie_value;</p>
+<p>							break;</p>
+<p>						}</p>
+<p>						a_temp_cookie = null;</p>
+<p>						cookie_name = '';</p>
+<p>					}</p>
+<p>					if ( !b_cookie_found )</p>
+<p>					{</p>
+<p>						return null;</p>
+<p>					}</p>
+<p>				}				</p>
+<p>			</p>
+<p>Â  The new guideline to doctors comes amid growing concerns about the number of women delaying childbearing. In Canada, 11 per cent of first births now occur in women aged 35 and older, up from five per cent in 1987.Photograph by: Thinkstock, canada.comMen, and not just women, need to be aware of the "reproductive consequences" of postponing parenthood, new national guidelines on the risks of delayed child-bearing warn.Though women especially should recognize that their "fecundity and fertility" starts to decline precipitously after 32, a man's semen quality and fertility also worsens with age, according to guidelines endorsed by the Society of Obstetricians and Gynaecologists of Canada.In addition, babies born to fathers of "advanced paternal age" â defined as 40 and older at the time of conception â are at increased risk of genetic disorders, as well as schizophrenia, autism and some forms of cancer, according to the authors.The new guideline to doctors comes amid growing concerns about the number of women delaying childbearing. In Canada, 11 per cent of first births now occur in women aged 35 and older, up from five per cent in 1987.If the trend holds, society can expect to spend more on intensive care, special care nurseries and community services for children born to older parents who may have developmental, hearing, speech or language problems, the authors say.It could also affect the future growth of the country; women who postpone their first births tend to have fewer babies, if they become pregnant at all."Widespread pre-conception counselling and education are needed and must be implemented so that the 95 per cent of Canadians who anticipate parenting at some point can make informed decisions," the authors write in this month's issue of the Journal of Obstetrics and Gynaecology Canada.But while the popular belief is that women are deferring motherhood for their careers, a related survey of more than 1,000 women in Calgary and Edmonton who gave birth to their first child between 2002 and 2003 found that the top three factors influencing timing of pregnancy â regardless of a woman's age â are relationship security, feeling in control of their life and feeling prepared to be a mother.Less than a third of women cited career goals, though women more than 35 were more likely than younger women to say they felt their biological clock was ticking."We were really surprised, because that was the colloquial dogma â 'Oh, I need to get my career underway,' " said Suzanne Tough, a professor in pediatrics and community health sciences at the University of Calgary and a co-author of the study, as well as the guideline on delayed child-bearing."Once women hit 25 . . . it was really the relationship that was the key factor in influencing when they chose to become a parent."The concern is that women may not realize what they're risking while they're waiting.For females, the biologically optimum period for having a baby is between 20 and 35. By age 32, a woman's fecundity â the probability of getting pregnant in a menstrual cycle â starts an irreversible slide.And getting pregnant is only the beginning. Compared to younger women, women more than 35 are at increased risk of miscarriage, ectopic pregnancies (where the fertilized egg implants outside the womb), diabetes, high blood pressure, placental abnormalities, multiple births and C-section deliveries.Babies born to older mothers are at higher risk of low birth weight, premature birth, chromosomal abnormalities, stillbirth and fetal death. They're more likely to need intensive care support and to have long-term health complications and challenges at school, Tough said.For men, age affects fertility a number of ways, she and her co-authors write. Older men tend to have "decreased coital frequency" and are more likely to experience sexual dysfunction. In addition, the volume, motility and per cent of normal sperm decrease with age.Reproductive health isn't just about women, said Tough, leader of a $5 million research team trying to reduce preterm births. "It's about men and women and couples and families.""The purpose of the guidelines is to enable couples to make informed decisions. There's a couple in this â not just a woman or not just a man or not just a baby."Women 35 years of age and older should be offered screening for chromosomal abnormalities and undergo a thorough second trimester ultrasound to look for "significant fetal defects", especially heart defects, according to the guideline.It also warns that while assisted baby-making technologies may be pushing the boundaries of reproduction, they can't guarantee a live birth; neither can they "compensate completely" for the natural fall off in fertility due to aging.For example, the live birth rate per cycle of in vitro fertilization falls from about 31 per cent at age 35, to less than five per cent by age 42."Often what we hear is, 'If I'd known this sooner, I would have made a different decision,' " Tough said.skirkey@postmedia.comTwitter.com/sharon_kirkeyÂ© Copyright (c) Postmedia NewsÂ Â Â E-mail this ArticlePrint this ArticleShare this ArticleÂ Â Â Â </p>
+<p>Location refreshed</p>
+<p>	var geoloc_service_domain = "app.canada.com";</p>
+<p>	var geoloc_postproxy_domain = window.location.hostname+"";</p>
+<p>	CDMScriptManager.load('/js/geo_location.js');</p>
+<p>More on This StoryÂ Do twin embryos help each other survive?Lots of pregnancies linked to a healthier heartHealthy male diet may boost IVF success: StudyMen, are you killing your sperm? Quantity, quality matter in male fertilityUsing one embryo in IVF doesn't cut birth rate: StudyÂ Story ToolsÂ E-mail this ArticlePrint this ArticlejQuery('#liComment').hide();Â Font:*****</p>
+<p>								// load up cookied story font size</p>
+<p>								getStoryFontSize();</p>
+<p>							Â Image:****Â Â Â </p>
+<p>Â Â Â   The new guideline to doctors comes amid growing concerns about the number of women delaying childbearing. In Canada, 11 per cent of first births now occur in women aged 35 and older, up from five per cent in 1987.Photograph by: Thinkstock, canada.comÂ    Â Â E-mail this GalleryPrint this GalleryShare this GalleryÂ Â Â </p>
+<p>Photo Galleries  »</p>
+<p> </p>
+<p>More Photo Galleries</p>
+<p>		   Â Â» Photos of the daySee our editors' choices of the most eye-catching ...more Â»Â   Photos: International Rythmic ...The International Rythmic Gymnastics event takes place...more Â»Â   Photos: Eyes on the guys at menswear...Prada certainly knows how to steal the spotlight. ...more Â»Â  </p>
+<p> </p>
+<p>More Photo Galleries »</p>
+<p> </p>
+<p>Â Â </p>
+<p>		var playingAd;</p>
+<p>		document.write("<img id='vid1' height='1' width='1'>");</p>
+<p>		function videoScore(evt){</p>
+<p>			playingAd=evt.data.isAd;</p>
+<p>			document.getElementById("vid1").src="http://beacon.securestudies.com/scripts/beacon.dll?C1=1&C2=10276888&C3=3005660&C4=" + window.location.pathname.toLowerCase() + "&C5=&C6=&C7=" + escape(window.location.href) + "&C8=" + escape(document.title) + "&C9=" + escape(document.referrer) + "&rn=" + Math.floor(Math.random()*99999999);</p>
+<p>		}</p>
+<p>		if (typeof tpController != 'undefined') {</p>
+<p> 		   tpController.addEventListener("OnMediaStart", "videoScore");</p>
+<p>		}</p>
+<p>	</p>
+<p>Related Topics</p>
+<p> </p>
+<p>CanadaHealth and FitnessSuzanne Tough</p>
+<p> </p>
+<p> </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/mg_bh.com/health/story;loc=top_box;loc=top;sz=250x250,300x250,300x600;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=72614930?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/mg_bh.com/health/story;loc=top_box;loc=top;sz=250x250,300x250,300x600;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=72614930?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p> </p>
+<p>Most Popular News</p>
+<p>Most Read</p>
+<p>E-mailed</p>
+<p>Commented </p>
+<p> </p>
+<p>Pop Forecast: Haywire is ready to rumble</p>
+<p>Montreal bands have big plans in 2012</p>
+<p>Montreal surgeon pioneers revolutionary technique to repair perforated eardrums</p>
+<p>Police investigating molestation cases on STM buses</p>
+<p>Montreal Canadiens win does little to raise Cole's spirits</p>
+<p>Jean-Yves Migneault guilty in abduction, sexual assault of woman in Montreal</p>
+<p>Â </p>
+<p>more</p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>Tim Horton's doubles down on cup size</p>
+<p>Montreal scientists discover origins of rare neurological disease</p>
+<p>T-shirt parties are all the rage</p>
+<p>Montreal surgeon pioneers revolutionary technique to repair perforated eardrums</p>
+<p>New Cirque du Soleil show to be called Amaluna</p>
+<p>Crosby will never be The Kid again</p>
+<p>Â </p>
+<p>more</p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>setMostCommented("mostCommented", 6, 15);</p>
+<p> </p>
+<p>Sponsored By</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>The Gazette Headline News</p>
+<p> </p>
+<p> Sign up to receive daily headline news from The Gazette.  </p>
+<p> </p>
+<p> Submit </p>
+<p> </p>
+<p> Our Privacy Statement </p>
+<p> </p>
+<p> </p>
+<p>Diet and Fitness</p>
+<p>Child and Teen</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://player.ooyala.com/player.js?wmode=transparent&playerContainerId=player2Div&callback=pmplayer2.PlayerCallbackEvent&playerId=player2&width=300&height=226&embedCode=R0ODdkMjqWI788TuOg7TAHvHmu_nHD92&'+pmAd.get()+'" ><\/script>');</p>
+<p>                    </p>
+<p>        	var pmplayer2;</p>
+<p>        	pmplayer2 = new ooYala.PMPlayer('player2', 'player2Div', 'pmplayer2', 'R0ODdkMjqWI788TuOg7TAHvHmu_nHD92', '300','226', "90x60", 4, true, true);</p>
+<p>                           pmplayer2.Init();</p>
+<p>                            </p>
+<p>                          	pmplayer2.SetUpTabs();</p>
+<p>                            </p>
+<p> </p>
+<p> </p>
+<p>                        adcookieTag = typeof(adcookieTag) != 'undefined' ? adcookieTag : '';</p>
+<p>                        dartad_tile = typeof(dartad_tile) != 'undefined' ? dartad_tile + 1 : 1;</p>
+<p>                        var dartad_url = "http://ad.ca.doubleclick.net/N3081/adj/mg_bh.com/health/story;loc=bot_box;loc=bot;sz=250x250,300x250;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile="+dartad_tile+";"+adcookieTag+surroundTag+"ord=72614930?"; // script ad code with adcookie, used for debug</p>
+<p>                        document.write('<script language="JavaScript1.1" src="http://ad.ca.doubleclick.net/N3081/adj/mg_bh.com/health/story;loc=bot_box;loc=bot;sz=250x250,300x250;kw=ron;kw=health;nk=print;pr=mg;ck=health;page=story;kw=mg;tile='+dartad_tile+';'+adcookieTag+surroundTag+'ord=72614930?"><\/script>');</p>
+<p>                        </p>
+<p>                        if(adid != "") // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>                        {</p>
+<p>                            surroundTag = "srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>                            setSurroundCookie(adid); // store the surround session id in a cookie.</p>
+<p>                        }</p>
+<p>                        </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>				<!--</p>
+<p>				 google_ad_client   = 'ca-pub-1718995873402338';</p>
+<p>				 google_ad_output   = 'js';</p>
+<p>				 google_max_num_ads = '3';</p>
+<p>				 google_hints       = 'health';</p>
+<p>				 google_safe        = 'high';</p>
+<p>				 google_kw_color    = '#E2A9A9';</p>
+<p>				 google_ad_channel  = 'montreal-gazette-health-story';</p>
+<p>				 google_adtest = 'off';</p>
+<p>				 google_feedback = 'on';</p>
+<p>				// --></p>
+<p>			</p>
+<p>			<!--</p>
+<p>				function google_ad_request_done(google_ads) {</p>
+<p>					document.write('<div class="googleadwrapper">');</p>
+<p>					document.write('<div class="box_e5e5e5">');</p>
+<p>					document.write('<div class="box_content">');</p>
+<p>					document.write('<div class="section_title_no_line">');</p>
+<p>					document.write('<h3>');</p>
+<p>					document.write('<a href="' + google_info.feedback_url + '" target="_blank"><span>Ads by Google</span></a>');</p>
+<p>					document.write('</h3>');</p>
+<p>					document.write('</div>');</p>
+<p>					document.write('<div class="clear">&nbsp;</div>');</p>
+<p>  					var i;</p>
+<p> 					// Display each ad in turn</p>
+<p>					for(i = 0; i < google_ads.length; ++i) {</p>
+<p>						document.write('<div class="col_300">');</p>
+<p>						document.write('<div class="wrapper_10_10_10_10">');</p>
+<p>						document.write('<a target="_blank" class="toplink" href="' + google_ads[i].url +'"' + 'onmouseout="window.status=\'\'"' + 'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true;">');</p>
+<p>						document.write('<b>' + google_ads[i].line1 + '</b></a>');</p>
+<p>						document.write('<div class="clear">&nbsp;</div>');</p>
+<p>						document.write(google_ads[i].line2);</p>
+<p>						document.write('<div class="clear">&nbsp;</div>');</p>
+<p>						document.write(google_ads[i].line3);</p>
+<p>						document.write('<div class="clear">&nbsp;</div>');</p>
+<p>						document.write('<a target="_blank" href="' + google_ads[i].url + '"' + 'onmouseout="window.status=\'\'"' + 'onmouseover="window.status=\'go to ' + google_ads[i].visible_url + '\';return true;">' + google_ads[i].visible_url + '</a>');</p>
+<p>						document.write('</div>');</p>
+<p>						document.write('</div>');</p>
+<p>					}</p>
+<p>					document.write('</div>');</p>
+<p>					document.write('</div>');</p>
+<p>					document.write('</div>');</p>
+<p>				}</p>
+<p>			// --></p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p>Inside The Gazette</p>
+<p> </p>
+<p> </p>
+<p>			   CDMScriptManager.load("/js/slider.js");</p>
+<p>			</p>
+<p>Â </p>
+<p>'Get back on board,' captain ordered</p>
+<p>Â </p>
+<p>Gallery: Canadian stamps honour Queen</p>
+<p>Â </p>
+<p>Stephen Colbert for president?</p>
+<p>Â </p>
+<p>Golden age at the Globes</p>
+<p>Â </p>
+<p>Man's massive mustard museum</p>
+<p>Â </p>
+<p>Hello, Lindsay Lohan ... itâs the tax man</p>
+<p>Â </p>
+<p>Salon de la lingerie 2012: gallery</p>
+<p>Â </p>
+<p>Take the weekly news quiz</p>
+<p>Â </p>
+<p>How to get Thatcher's style</p>
+<p>Â </p>
+<p>Why not have a cup of tea</p>
+<p>		var FooterFeature_2_Object = null;</p>
+<p>                jQuery(function() {</p>
+<p>			FooterFeature_2_Object = new MultiSlider2('FooterFeature_2_Window', 'FooterFeature_2_Content', 'FooterFeature_2_Entry', 10, 5, 1500, 5);</p>
+<p>			jQuery('#FooterFeature_2_LeftNavButton').click(function() { FooterFeature_2_Object.slideLeft('FooterFeature_2_Object');}) ;</p>
+<p>			jQuery('#FooterFeature_2_RightNavButton').click(function() { FooterFeature_2_Object.slideRight('FooterFeature_2_Object');}) ;</p>
+<p>		});</p>
+<p>	    </p>
+<p> </p>
+<p> </p>
+<p> tynt={'ap': "Read more: "};</p>
+<p> </p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Opinion</p>
+<p>Business</p>
+<p>Sports</p>
+<p>Entertainment</p>
+<p>Life</p>
+<p>Health</p>
+<p>Technology</p>
+<p>Travel</p>
+<p>Jobs</p>
+<p>Cars</p>
+<p>Homes</p>
+<p>Classifieds</p>
+<p> </p>
+<p>Don't Miss</p>
+<p>Year in review</p>
+<p>Urban Expressions</p>
+<p>Gazette Christmas Fund</p>
+<p>Food and wine</p>
+<p>Contracts database</p>
+<p>Interactives</p>
+<p>Shelter</p>
+<p>Â </p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>Most Popular</p>
+<p>Pop Forecast: Haywire is ready to rumble</p>
+<p>Montreal bands have big plans in 2012</p>
+<p>Montreal surgeon pioneers revolutionary technique to repair perforated eardrums</p>
+<p>Â </p>
+<p> Â»</p>
+<p>			RSS</p>
+<p>Formats</p>
+<p>Sitemap / RSS</p>
+<p>Contests</p>
+<p>Blogs</p>
+<p>Columnists</p>
+<p>Photo Galleries</p>
+<p>Videos</p>
+<p>Mobile</p>
+<p>Widget</p>
+<p>iPad App</p>
+<p>The Gazette</p>
+<p>About Us</p>
+<p>Contact Us</p>
+<p>Work for Us</p>
+<p>Advertise with Us</p>
+<p>Subscribe to the Print Edition</p>
+<p>Green Gazette</p>
+<p>The Gazette in the Community</p>
+<p>Tools</p>
+<p>Search</p>
+<p> </p>
+<p>Search for a Job</p>
+<p>Buy/Sell a Car</p>
+<p>Real Estate Listings</p>
+<p>SwarmJam Sweet Deals</p>
+<p>Place a Classified Ad</p>
+<p>E-mail Alerts</p>
+<p>Flyercity.ca</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>canada.com Logo</p>
+<p>About canada.com</p>
+<p>Privacy Statement</p>
+<p>Terms</p>
+<p>Copyright & Permissions</p>
+<p>					© 2008 - 2011 Postmedia Network Inc. All rights reserved.</p>
+<p>					 </p>
+<p>					Unauthorized distribution, transmission or republication strictly prohibited.</p>
+<p>				</p>
+<p> </p>
+<p>			function footerSearch() {</p>
+<p>				var q = document.getElementById("f").value.replace(/ /g,"+");</p>
+<p>				if (q.length == 0) {</p>
+<p>					alert("Please enter your search criteria");</p>
+<p>					return;</p>
+<p>				}</p>
+<p>				document.location.href="/search/search.html?q=" + escape(q);</p>
+<p>			}</p>
+<p>		</p>
+<p>			var _sf_async_config={uid:2831,domain:'montrealgazette.com'};</p>
+<p>			(function(){</p>
+<p>				function loadPublishflow() {</p>
+<p>					window._sf_endpt=(new Date()).getTime();</p>
+<p>					var e = document.createElement('script');</p>
+<p>					e.setAttribute('language', 'javascript');</p>
+<p>					e.setAttribute('type', 'text/javascript');</p>
+<p>					e.setAttribute('src',(('https:' == document.location.protocol) ? </p>
+<p>											'https://s3.amazonaws.com/' : 'http://s3.amazonaws.com/') + 'publishflow/javascript/data.js');</p>
+<p>					document.body.appendChild(e);</p>
+<p>				}</p>
+<p>				var oldonload = window.onload;</p>
+<p>				window.onload = (typeof window.onload != 'function') ?</p>
+<p>									loadPublishflow : </p>
+<p>									function() { </p>
+<p>										oldonload();</p>
+<p>										loadPublishflow();</p>
+<p>									};</p>
+<p>			})();</p>
+<p>		</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-24419597-2']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>                        <!--</p>
+<p>                        /* You may give each page an identifying name, server, and channel on</p>
+<p>                        the next lines. */</p>
+<p>                        s.pageName='/health/story.html';</p>
+<p>                        s.server=window.location.hostname.toLowerCase();</p>
+<p>                        s.channel='health';</p>
+<p>                        s.pageType='';</p>
+<p>                        s.prop1='health';</p>
+<p>                        s.prop2='health';</p>
+<p>                        s.prop3='canwest';</p>
+<p>                        s.prop4='Non-Registered';</p>
+<p>                        s.prop5=s.prop4 + ': ' + s.pageName;</p>
+<p>                        s.prop6='Postmedia News/FREE';</p>
+<p>                        s.prop7='Postmedia News';</p>
+<p>                        s.prop8='6007363';</p>
+<p>                        s.prop9='';</p>
+<p>                        s.prop10='';</p>
+<p>                        s.prop11='';</p>
+<p>                        s.prop13='';</p>
+<p>                        s.prop23=document.title;</p>
+<p>                        s.prop24=s.prop8;</p>
+<p>                        s.prop25='story';</p>
+<p>                        s.prop26='health';            </p>
+<p>                        s.prop27='';  </p>
+<p>                        s.prop28=''; </p>
+<p>                        s.prop29='';</p>
+<p>                        s.prop36='Fertility'; </p>
+<p>                        s.prop37='mg_bh.com'; </p>
+<p>                        s.prop43='';</p>
+<p>                        s.prop44='';</p>
+<p>                        /* E-commerce Variables */</p>
+<p>                        </p>
+<p>                        s.events='';</p>
+<p>                        s.products='';</p>
+<p>                        s.purchaseID='';</p>
+<p>                        s.transactionID = s.purchaseID;</p>
+<p>                        </p>
+<p>                        /* s.prop48 for story only */</p>
+<p>                        s.prop48='Sharon Kirkey, Postmedia News';</p>
+<p>                                      </p>
+<p>                        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>                        var s_code=s.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>                        if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>                        //--></p>

@@ -1,0 +1,463 @@
+<p>Bee Gee launches brave fight against liver cancer |</p>
+<p>			Herald Sun</p>
+<p>		//<![CDATA[</p>
+<p>			window.ndm = window.ndm || {};</p>
+<p>			var overrideNdmPageSite, overrideNdmPageUs, overridePageType, overrideNdmPageCustom, overrideNdmPageAdsenseGoogleAdClient, overrideNdmPageAdsenseGoogleAdChannel;</p>
+<p>			ndm.cam = ndm.cam || {};</p>
+<p>		//]]></p>
+<p>	</p>
+<p>	                 //<![CDATA[</p>
+<p>	                 ndm.newscomau.mediasearch.kill = true;</p>
+<p>	                 //]]></p>
+<p>					</p>
+<p>	                 //<![CDATA[</p>
+<p>	                 (function ($) {</p>
+<p>	 $(document).ready(function() {</p>
+<p>		 $('.feature-wall').featurewallv2();</p>
+<p>	 });</p>
+<p>})(ndm.jQuery);</p>
+<p>	                 //]]></p>
+<p>					</p>
+<p>				//<![CDATA[</p>
+<p>				ndm.page.section = "ENTERTAINMENT.CONFIDENTIAL.NEWS";</p>
+<p>				//]]></p>
+<p>			</p>
+<p>				//<![CDATA[</p>
+<p>					ndm.page.custom = overrideNdmPageCustom || "";</p>
+<p>					ndm.page.vignstoryid = "-1";</p>
+<p>					ndm.page.site 		= overrideNdmPageSite 	|| "HWT";</p>
+<p>					ndm.page.us  		= overrideNdmPageUs		|| "ndmheraldsun";</p>
+<p>					ndm.page.runads 	= true;</p>
+<p>					ndm.page.adstyles 	= "auto";</p>
+<p>					ndm.page.type 		= overridePageType		|| "story";</p>
+<p>					//ndm.page.pcvideosite	= "PROD_HS";</p>
+<p>					ndm.page.shareid = "c9c72e2398a4d0b6d5217874e2679ed";</p>
+<p>					ndm.page.adsense.google_ad_client 	= overrideNdmPageAdsenseGoogleAdClient || "ca-nd-heraldsun_js";</p>
+<p>					ndm.page.adsense.google_ad_channel 	= overrideNdmPageAdsenseGoogleAdChannel || "entertainment";</p>
+<p>					ndm.page.adsense.google_ad_section  = "story_headline story_introduction story_body story_related";</p>
+<p>					ndm.page.adsense.google_ad_client_intl = "ca-nd-heraldsun-st-intl_js";</p>
+<p>					ndm.page.nielsen = "manual";</p>
+<p>					ndm.page.setup();</p>
+<p>					ndm.page.searchApi = "http://search.news.com.au/embeddedjson?";</p>
+<p>				//]]></p>
+<p>		</p>
+<p>        //<![CDATA[</p>
+<p>            ndm.page.msrelatedlinks = false;</p>
+<p>            ndm.page.premiumstate = 'NON_PREMIUM';</p>
+<p>        //]]></p>
+<p>    </p>
+<p>ndm.kit.header();</p>
+<p>ndm.kit.header();</p>
+<p>ndm.kit.header();</p>
+<p>Skip to:</p>
+<p>Main Content</p>
+<p>Site Navigation</p>
+<p>Site Footer</p>
+<p>Site Search</p>
+<p>Site Map</p>
+<p>Network Navigation (other sites)</p>
+<p>news.com.au</p>
+<p>Fox Sports</p>
+<p>CareerOne</p>
+<p>Carsguide</p>
+<p>RealEstate</p>
+<p>News Network</p>
+<p>Herald Sun</p>
+<p>ndm.kit.leaderboard();</p>
+<p>ndm.kit.leaderboard();</p>
+<p>ndm.kit.leaderboard();</p>
+<p>News</p>
+<p>Breaking News</p>
+<p>Victoria and National </p>
+<p>World</p>
+<p>Learn</p>
+<p>Special Reports</p>
+<p>Sunday Herald Sun</p>
+<p>Pictures</p>
+<p>Celebrations</p>
+<p>Archives</p>
+<p>Home Delivery</p>
+<p>Sport</p>
+<p>AFL</p>
+<p>NRL</p>
+<p>Grand Prix</p>
+<p>Racing</p>
+<p>Olympics</p>
+<p>Soccer</p>
+<p>Cricket</p>
+<p>Rugby Gold</p>
+<p>Golf</p>
+<p>Motor Racing</p>
+<p>Tennis</p>
+<p>Netball</p>
+<p>More sports</p>
+<p>Sport Confidential</p>
+<p>OddsScanner</p>
+<p>Entertainment</p>
+<p>Business</p>
+<p>Breaking News</p>
+<p>Markets</p>
+<p>Dollar</p>
+<p>Worklife</p>
+<p>Entrepreneur</p>
+<p>Terry McCrann's Column</p>
+<p>Barefoot Investor</p>
+<p>In The Black</p>
+<p>Your Hip Pocket</p>
+<p>Archive</p>
+<p>Money</p>
+<p>Banking</p>
+<p>Money Matters</p>
+<p>Superannuation</p>
+<p>Investing</p>
+<p>Interest Rates</p>
+<p>Guides & Tools</p>
+<p>Blogs</p>
+<p>Travel</p>
+<p>Travel News</p>
+<p>Australia</p>
+<p>World</p>
+<p>Holiday Ideas</p>
+<p>Holiday Deals</p>
+<p>Travel Advice</p>
+<p>Galleries</p>
+<p>Lifestyle</p>
+<p>Tech</p>
+<p>Sunday Food</p>
+<p>Horoscopes</p>
+<p>The Other Side</p>
+<p>Competitions</p>
+<p>Corinella</p>
+<p>Fishing</p>
+<p>Books</p>
+<p>Opinion</p>
+<p>Editorials</p>
+<p>Readers' Comments</p>
+<p>Send a Letter to the Editor</p>
+<p>Social Media</p>
+<p>Video</p>
+<p>Tributes</p>
+<p>Shop</p>
+<p>Photo Sales</p>
+<p>Herald Sun Cartoons & Caricatures</p>
+<p>Back Issues & Front Page Reproductions</p>
+<p>Memorabilia & Limited Editions</p>
+<p>Books & DVDs</p>
+<p>Magazines & Publications</p>
+<p>body+soul</p>
+<p>body+soul</p>
+<p>Feel better</p>
+<p>Look good</p>
+<p>Lose weight</p>
+<p>Win stuff</p>
+<p>CARS</p>
+<p>carsGuide</p>
+<p>Buy A Car</p>
+<p>Sell Your Car</p>
+<p>Car News & Reviews</p>
+<p>Petrol Prices</p>
+<p>JOBS</p>
+<p>careerone.com.au</p>
+<p>Job Search</p>
+<p>Employment News</p>
+<p>Salary Calculator</p>
+<p>Advertise your Job</p>
+<p>CLASSIFIEDS</p>
+<p>Sell your car from $30, in print and online</p>
+<p>Real Estate</p>
+<p>Business Directory</p>
+<p>GetPrice Shopping</p>
+<p>Wego Travel Deals</p>
+<p>Search Listings</p>
+<p>Place an Ad</p>
+<p>						National</p>
+<p>The Australian</p>
+<p>news.com.au</p>
+<p>The Punch</p>
+<p>FOXSPORTS</p>
+<p>SportingPulse</p>
+<p>						State and Territory</p>
+<p>The Telegraph</p>
+<p>Courier Mail</p>
+<p>Herald Sun</p>
+<p>AdelaideNow</p>
+<p>Perth Now</p>
+<p>NT News</p>
+<p>The Mercury</p>
+<p>						Regional and Community</p>
+<p>Townsville Bulletin</p>
+<p>Cairns.com.au</p>
+<p>Goldcoast.com.au</p>
+<p>Geelong Advertiser</p>
+<p>Weekly Times Now</p>
+<p>Community Newspapers</p>
+<p>						Classifieds</p>
+<p>Classifieds</p>
+<p>Place my ad</p>
+<p>CareerOne</p>
+<p>Carsguide</p>
+<p>Realestate.com.au</p>
+<p>TrueLocal</p>
+<p>						Lifestyle</p>
+<p>Vogue</p>
+<p>Taste</p>
+<p>Kidspot</p>
+<p>body+soul</p>
+<p>homelife</p>
+<p>						Marketplace</p>
+<p>Moshtix</p>
+<p>Foxtix</p>
+<p>Getprice</p>
+<p>Shopferret</p>
+<p>OurDeal</p>
+<p>WeGo Travel</p>
+<p>Learning Seat</p>
+<p> </p>
+<p>Confidential</p>
+<p>Arts</p>
+<p>Fashion</p>
+<p>Movies</p>
+<p>Music</p>
+<p>TV & Radio</p>
+<p>Events</p>
+<p>Games</p>
+<p> </p>
+<p>Last Updated:</p>
+<p>		</p>
+<p>						January 13, 2012</p>
+<p>				  </p>
+<p>Search for:</p>
+<p>Weather: </p>
+<p>						Melbourne 13°C</p>
+<p>						-</p>
+<p>						21°C</p>
+<p>.</p>
+<p>					 Shower or two.</p>
+<p>				</p>
+<p> </p>
+<p>Confidential News</p>
+<p>						Bee Gee launches brave fight against liver cancer</p>
+<p>				</p>
+<p>by:</p>
+<p>										Staff Writer</p>
+<p>							</p>
+<p>From:</p>
+<p>Herald Sun</p>
+<p>January 13, 2012</p>
+<p>12:00AM</p>
+<p>Increase Text Size</p>
+<p>Decrease Text Size</p>
+<p>Print</p>
+<p>	Email</p>
+<p>Share</p>
+<p>Add to Digg</p>
+<p>Add to del.icio.us</p>
+<p>Add to Facebook</p>
+<p>Add to Kwoff</p>
+<p>Add to Myspace</p>
+<p>Add to Newsvine</p>
+<p>What are these?</p>
+<p> </p>
+<p> </p>
+<p>Robin Gibb, formerly a member of the Bee Gee's, performing at the Palais Theatre, St Kilda. Picture: Chris Scott </p>
+<p>Source: Herald Sun</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>				BEE Gee Robin Gibb has turned to a team of alternative medics as he battles liver cancer. The singer was diagnosed with the disease last year.</p>
+<p>				</p>
+<p>He has received conventional treatment, including seven rounds of chemotherapy. Doctors were pleased with his progress but Gibb decided to seek other ways of recovery. "Bee Gees star Robin Gibb has flown in a team of alternative medics from Switzerland as he battles liver cancer," British newspaper The Sun reported. It is claimed the group is on hand to help Gibb 24 hours a day. The "naturopath nutritionists" encourage him to eat foods that are good for the body so it is as strong as possible as he fights the disease. The star's wife Dwina reportedly asked her husband to speak to the professionals as she is a big believer in natural medication.</p>
+<p>It is believed Gibb, 62, has also been spending time in a special detox hut where he sweats and loses toxins. "Robin is fighting this with dignity and courage. He's trying everything possible to beat this disease," an insider said. Gibb's diagnosis was first reported in November and came after the musician was seen looking increasingly frail in public. Soon after his diagnosis was reported, Gibb posted a message on his website reassuring fans he was doing well. "I have been very unwell and am now on the road to recovery, and your prayers and wishes are a great tonic to me," he wrote. "I believe because of you I will get well and my deepest love goes out to you all."</p>
+<p>Increase Text Size</p>
+<p>Decrease Text Size</p>
+<p>Print</p>
+<p>	Email</p>
+<p>Share</p>
+<p>Add to Digg</p>
+<p>Add to del.icio.us</p>
+<p>Add to Facebook</p>
+<p>Add to Kwoff</p>
+<p>Add to Myspace</p>
+<p>Add to Newsvine</p>
+<p>What are these?</p>
+<p>Back to top of page</p>
+<p>ndm.kit.adsenselarge();</p>
+<p>ndm.kit.adsenselarge();</p>
+<p>ndm.kit.adsenselarge();</p>
+<p>Confidential</p>
+<p>Hinch steps in to give away bride</p>
+<p>		BLUSHING bride Elisabeth Kelly had something borrowed and something new on her arm yesterday - new mate Derryn Hinch.</p>
+<p>	 </p>
+<p> </p>
+<p>Offspring arrives ... right on cue</p>
+<p>		KAT Stewart welcomed her very own Offspring into the world yesterday, giving birth to son Archie Nicholas in a Melbourne hospital.</p>
+<p>	 </p>
+<p> </p>
+<p> Red carpet: Top choice before big journey </p>
+<p> New hunk: Moore spotted in LA with young model </p>
+<p> Relationships: Congrats to ex-lover from our Kylie </p>
+<p> Chat show: Ten in no rush to close The Circle </p>
+<p> </p>
+<p>More Confidential News</p>
+<p> </p>
+<p> </p>
+<p>The Other Side</p>
+<p>Uni's toilet training to raise bathroom accuracy</p>
+<p>Gemma Jones </p>
+<p> </p>
+<p>		A UNIVERSITY is teaching migrant students how to use a toilet correctly after complaints from cleaners.</p>
+<p>	 </p>
+<p> </p>
+<p>Boy finds 16th century gun at beach</p>
+<p>4:29PM</p>
+<p> </p>
+<p>		A BOY, 13, may help re-write Australia's history after finding what he believes is a 500-year-old Portuguese gun on a beach.</p>
+<p>	 </p>
+<p>5 comments on this story</p>
+<p> </p>
+<p> Lego proposal: Never Lego of me says filmmaker  </p>
+<p> Rescue: SpongeBob shorts help save man at sea </p>
+<p> Chengdu: World's 'most expensive' tea grown in panda poop </p>
+<p> Name game: Would you spell that for me, please? </p>
+<p> </p>
+<p>More The Other Side</p>
+<p> </p>
+<p> </p>
+<p>ndm.kit.halfpage();</p>
+<p>ndm.kit.halfpage();</p>
+<p>ndm.kit.halfpage();</p>
+<p>Most Popular Stories</p>
+<p>Torment too much for teenage schoolgirl </p>
+<p>Sad boy who has never grown up</p>
+<p>Free overseas trip for teen bully</p>
+<p>Pair charged over grisly death</p>
+<p>Web clue triggers hope for Daniel</p>
+<p>Top News</p>
+<p>Dodgy food's dirty secret aired</p>
+<p>Fiona Hudson</p>
+<p> </p>
+<p>		A FOOD poisoning outbreak at a sushi bar that left 84 people sick and 19 in hospital is among food incidents kept quiet by authorities.</p>
+<p>	 </p>
+<p> Victims: I lost a week of my life, says unlucky diner </p>
+<p> Comment: Keeping diners in the dark is sick </p>
+<p> </p>
+<p> Branding: Aussie icon used to sell smokes in Europe </p>
+<p> Boiling point: Acid attack on Japanese whaling boat </p>
+<p> </p>
+<p> </p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.text({tn:3,to:"v"});</p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.island(2);</p>
+<p>ndm.kit.island(2);</p>
+<p>More News</p>
+<p>Entertainment</p>
+<p>Artist Damien Hirst connects the dots</p>
+<p>4:36PM</p>
+<p>Staff writer</p>
+<p> </p>
+<p>		BRITISH artist Damien Hirst is set to open a global show involving 11 galleries displaying nothing but his spot paintings.</p>
+<p>	 </p>
+<p> </p>
+<p> Happy days: Kutcher wants to stay with Men </p>
+<p> Fan-voted: Stars step out for People's Choice Awards </p>
+<p> The Philippines: Super-spy back in action for Legacy </p>
+<p> Cancer battle: Robin Gibb seeks natural treatment </p>
+<p> </p>
+<p>More Entertainment</p>
+<p> </p>
+<p> </p>
+<p>Sport</p>
+<p>Dhoni claims Aussies started rumours</p>
+<p>Jamie Pandaram in Perth</p>
+<p> </p>
+<p>		INDIAN captain M.S. Dhoni has accused Australia of getting on the drink and making up stories about his team.</p>
+<p>	 </p>
+<p> </p>
+<p> </p>
+<p>More Sport</p>
+<p> </p>
+<p> </p>
+<p>Breaking News</p>
+<p>Man charged over Blue Mountains fire</p>
+<p>12:22AM</p>
+<p> </p>
+<p>		A MAN has been charged with deliberately lighting a large bushfire in his own Blue Mountains community, west of Sydney.</p>
+<p>	 </p>
+<p> </p>
+<p> Thailand rescues smuggled dinner dogs </p>
+<p> Man arrested over Sans Souci slaying </p>
+<p> Indian factories increasing output </p>
+<p> Man dies in three-car pile-up in Victoria </p>
+<p> </p>
+<p>More Breaking News</p>
+<p> </p>
+<p> </p>
+<p>ndm.kit.leaderboard();</p>
+<p>ndm.kit.leaderboard();</p>
+<p>ndm.kit.leaderboard();</p>
+<p>Mobile</p>
+<p>RSS Feeds</p>
+<p>Newsletters</p>
+<p>Send Stories</p>
+<p>Send Your Photos</p>
+<p>Help</p>
+<p>About Us</p>
+<p>Contact Us</p>
+<p>Get your Newspaper Delivered</p>
+<p>Advertise with us</p>
+<p>Link to Us</p>
+<p>Cadetship</p>
+<p>Job Opportunities</p>
+<p>Terms & Conditions</p>
+<p>Privacy Policy</p>
+<p>Accessibility</p>
+<p>Sitemap</p>
+<p>© Herald and Weekly Times. All times AEDT (GMT +11) </p>
+<p>ndm.kit.footer();</p>
+<p>ndm.kit.footer();</p>
+<p>ndm.kit.footer();</p>
+<p>			var _rsCI="newscorp";</p>
+<p>			var _rsCG="0";</p>
+<p>			var _rsDN="//secure-au.imrworldwide.com/";</p>
+<p>		</p>
+<p>	//<![CDATA[</p>
+<p>		var tracktrSectionName = ndm.page.section.replace(/-/g, "_");</p>
+<p>		TRAKTR = window.TRAKTR || {};</p>
+<p>		/* editable */</p>
+<p>		tconf({</p>
+<p>			'site' : "HWT",</p>
+<p>			'section' : tracktrSectionName,</p>
+<p>			'pn' : "HeraldSun | entertainment | story | Bee Gee launches brave fight against liver cancer",</p>
+<p>			'tags' : "content:type=story"</p>
+<p>		});</p>
+<p>		/* end editable */</p>
+<p>		/* Most Popular Plugin */</p>
+<p>		trak( "mostpopular", {</p>
+<p>			siteid: "1225699905610",</p>
+<p>			vignette_section_id: "1111112045385",</p>
+<p>			path: "/entertainment/confidential/news/story",</p>
+<p>			vignette_story_id: "1226242940049"</p>
+<p>		} );</p>
+<p>		/* End Most Popular Plugin */</p>
+<p>	//]]></p>
+<p>	</p>
+<p>	//<![CDATA[</p>
+<p>		(function (a) {</p>
+<p>		var df=window.ndm||{page:{site:"",section:""}},p=a||"basic:on";window.TRAKTR=window.TRAKTR||{};</p>
+<p>		p+=",site:"+(TRAKTR.site||df.page.site||"").toLowerCase();</p>
+<p>		p+=",section:"+(TRAKTR.section||df.page.section||"").toLowerCase();</p>
+<p>		p+=",plugins:"+(TRAKTR.plugins||"").toLowerCase();p+=",release:"+(TRAKTR.release ||"latest").toLowerCase();</p>
+<p>		document.write(unescape("%3Cscript src='//traktr.news.com.au/esi/traktr.js?cfg="+encodeURIComponent(p)+".js'%3E%3C/script%3E"));</p>
+<p>		}());</p>
+<p>	//]]></p>
+<p>	</p>
+<p>	//<![CDATA[</p>
+<p>		TRAKTR.pi();</p>
+<p>	//]]></p>
+<p>	</p>

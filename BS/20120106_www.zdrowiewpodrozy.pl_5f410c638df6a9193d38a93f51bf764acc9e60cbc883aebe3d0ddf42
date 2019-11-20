@@ -1,0 +1,1317 @@
+<p>Wenezuelska gorączka krwotoczna w Wenezueli</p>
+<p>    <!--</p>
+<p>		/* Styles for DJ Image Slider with module id 23 */</p>
+<p>		#djslider-loader23 {</p>
+<p>			margin: 0 auto;</p>
+<p>			position: relative;</p>
+<p>			height: 211px; </p>
+<p>			width: 524px;</p>
+<p>		}</p>
+<p>		#djslider23 {</p>
+<p>			margin: 0 auto;</p>
+<p>			position: relative;</p>
+<p>			height: 211px; </p>
+<p>			width: 524px;</p>
+<p>			display: none;</p>
+<p>		}</p>
+<p>		#slider-container23 {</p>
+<p>			position: absolute;</p>
+<p>			overflow:hidden;</p>
+<p>			left: 0; </p>
+<p>			top: 0;</p>
+<p>			height: 211px; </p>
+<p>			width: 524px;			</p>
+<p>		}</p>
+<p>		#djslider23 ul#slider23 {</p>
+<p>			margin: 0 !important;</p>
+<p>			padding: 0 !important;</p>
+<p>			border: 0 !important;</p>
+<p>		}</p>
+<p>		#djslider23 ul#slider23 li {</p>
+<p>			list-style: none outside !important;</p>
+<p>			float: left;</p>
+<p>			margin: 0 !important;</p>
+<p>			border: 0 !important;</p>
+<p>			padding: 0 0px 0px 0 !important;</p>
+<p>			position: relative;</p>
+<p>			height: 211px;</p>
+<p>			width: 524px;</p>
+<p>			background: none;</p>
+<p>			overflow: hidden;</p>
+<p>		}</p>
+<p>		#slider23 li img {</p>
+<p>			width: 524px;</p>
+<p>			height: auto;</p>
+<p>			border: 0 !important;</p>
+<p>		}</p>
+<p>		#slider23 li a img, #slider23 li a:hover img {</p>
+<p>			border: 0 !important;</p>
+<p>		}</p>
+<p>		</p>
+<p>		/* Slide description area */</p>
+<p>		#slider23 .slide-desc {</p>
+<p>			position: absolute;</p>
+<p>			bottom: 25px;</p>
+<p>			left: 0px;</p>
+<p>			width: 360px;</p>
+<p>		}</p>
+<p>		#slider23 .slide-desc-in {</p>
+<p>			position: relative;</p>
+<p>		}</p>
+<p>		#slider23 .slide-desc-bg {</p>
+<p>			position:absolute;</p>
+<p>			top: 0;</p>
+<p>			left: 0;</p>
+<p>			width: 100%;</p>
+<p>			height: 100%;</p>
+<p>		}</p>
+<p>		#slider23 .slide-desc-text {</p>
+<p>			position: relative;</p>
+<p>		}</p>
+<p>		#slider23 .slide-desc-text h3 {</p>
+<p>			display: block !important;</p>
+<p>		}</p>
+<p>		</p>
+<p>		/* Navigation buttons */</p>
+<p>		#navigation23 {</p>
+<p>			position: relative;</p>
+<p>			top: 30px; </p>
+<p>			margin: 0 5px;</p>
+<p>			text-align: center !important;</p>
+<p>		}</p>
+<p>		#prev23 {</p>
+<p>			cursor: pointer;</p>
+<p>			display: block;</p>
+<p>			position: absolute;</p>
+<p>			left: 0;</p>
+<p>			</p>
+<p>		}</p>
+<p>		#next23 {</p>
+<p>			cursor: pointer;</p>
+<p>			display: block;</p>
+<p>			position: absolute;</p>
+<p>			right: 0;</p>
+<p>			</p>
+<p>		}</p>
+<p>		#play23, </p>
+<p>		#pause23 {</p>
+<p>			cursor: pointer;</p>
+<p>			display: block;</p>
+<p>			position: absolute;</p>
+<p>			left: 47%;</p>
+<p>			</p>
+<p>		}</p>
+<p>		#cust-navigation23 {</p>
+<p>			position: absolute;</p>
+<p>			top: 10px;</p>
+<p>			right: 10px;</p>
+<p>			z-index: 15;</p>
+<p>			</p>
+<p>		}</p>
+<p>		</p>
+<p>    --></p>
+<p>  </p>
+<p>(function($){ window.addEvent('domready',function(){var Slider23 = new DJImageSlider({id: '23', slider_type: 2, slide_size: 524, visible_slides: 1, show_buttons: 2, show_arrows: 2, preload: 800},{auto: 1, transition: Fx.Transitions.linear, duration: 600, delay: 3600})}); })(document.id);</p>
+<p>  </p>
+<p><!--</p>
+<p>.transMenu31 {</p>
+<p> position:absolute ; </p>
+<p> overflow:hidden; </p>
+<p> left:-1000px; </p>
+<p> top:-1000px; </p>
+<p>}</p>
+<p>.transMenu31 .content {</p>
+<p> position:absolute  ; </p>
+<p>}</p>
+<p>.transMenu31 .items {</p>
+<p> border: 0px none #FFFFFF ; </p>
+<p> position:relative ; </p>
+<p> left:0px; top:0px; </p>
+<p> z-index:2; </p>
+<p>}</p>
+<p>.transMenu31  td</p>
+<p>{</p>
+<p> padding: 0px 0px 0px 0px  !important;  </p>
+<p> font-size: 12px !important ; </p>
+<p> font-family: Arial, Helvetica, sans-serif !important ; </p>
+<p> text-align: left !important ; </p>
+<p> font-weight: bold !important ; </p>
+<p>} </p>
+<p>#subwrap31 </p>
+<p>{ </p>
+<p> text-align: left ; </p>
+<p>}</p>
+<p>.transMenu31  .item.hover td</p>
+<p>{ </p>
+<p>}</p>
+<p>.transMenu31 .item { </p>
+<p> text-decoration: none ; </p>
+<p> cursor:pointer; </p>
+<p> cursor:hand; </p>
+<p>}</p>
+<p>.transMenu31 .background {</p>
+<p> position:absolute ; </p>
+<p> left:0px; top:0px; </p>
+<p> z-index:1; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100) </p>
+<p>}</p>
+<p>.transMenu31 .shadowRight { </p>
+<p> position:absolute ; </p>
+<p> z-index:3; </p>
+<p> top:-3000px; width:2px; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100)</p>
+<p>}</p>
+<p>.transMenu31 .shadowBottom { </p>
+<p> position:absolute ; </p>
+<p> z-index:1; </p>
+<p> left:-3000px; height:2px; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100)</p>
+<p>}</p>
+<p>.transMenu31 .item.hover {</p>
+<p>}</p>
+<p>.transMenu31 .item img { </p>
+<p> margin-left:10px !important ; </p>
+<p>}</p>
+<p>table.menu31 {</p>
+<p> top: 0px; </p>
+<p> left: 0px; </p>
+<p> position:relative ; </p>
+<p> margin:0px !important ; </p>
+<p> border: 0px none #FFFFFF ; </p>
+<p> z-index: 1; </p>
+<p>}</p>
+<p>table.menu31 a{</p>
+<p> margin:0px !important ; </p>
+<p> padding: 0px 0px 0px 0px  !important ; </p>
+<p> display:block !important; </p>
+<p> position:relative !important ; </p>
+<p>}</p>
+<p>div.menu31 a,</p>
+<p>div.menu31 a:visited,</p>
+<p>div.menu31 a:link {</p>
+<p> font-size: 12px !important ; </p>
+<p> font-family: Arial, Helvetica, sans-serif !important ; </p>
+<p> text-align: left !important ; </p>
+<p> font-weight: bold !important ; </p>
+<p> text-decoration: none !important ; </p>
+<p> margin-bottom:0px !important ; </p>
+<p> display:block !important; </p>
+<p> white-space:nowrap ; </p>
+<p>}</p>
+<p>div.menu31 td {</p>
+<p> border-right: 0px none #124170 ; </p>
+<p> border-top: 0px none #124170 ; </p>
+<p> border-left: 0px none #124170 ; </p>
+<p>} </p>
+<p>div.menu31 td.last31 {</p>
+<p> border-bottom: 0px none #124170 ; </p>
+<p>} </p>
+<p>#trans-active31 a{</p>
+<p>} </p>
+<p>#menu31 a.hover   { </p>
+<p>}</p>
+<p>#menu31 span {</p>
+<p> display:none; </p>
+<p>}</p>
+<p>#menu31 a img.seq1,</p>
+<p>.transMenu31 img.seq1,</p>
+<p>{</p>
+<p> display:    inline; </p>
+<p>}</p>
+<p>#menu31 a.hover img.seq2,</p>
+<p>.transMenu31 .item.hover img.seq2 </p>
+<p>{</p>
+<p> display:   inline; </p>
+<p>}</p>
+<p>#menu31 a.hover img.seq1,</p>
+<p>#menu31 a img.seq2,</p>
+<p>.transMenu31 img.seq2,</p>
+<p>.transMenu31 .item.hover img.seq1</p>
+<p>{</p>
+<p> display:   none; </p>
+<p>}</p>
+<p>#trans-active31 a img.seq1</p>
+<p>{</p>
+<p> display: none;</p>
+<p>}</p>
+<p>#trans-active31 a img.seq2</p>
+<p>{</p>
+<p> display: inline;</p>
+<p>}</p>
+<p>#menu31110{</p>
+<p>height: 43px !important;</p>
+<p>}</p>
+<p>#trans-active31 a#menu31110,</p>
+<p>a.hover#menu31110,</p>
+<p>a#menu31110:hover{</p>
+<p>height: 43px !important</p>
+<p>}</p>
+<p>#menu31111{</p>
+<p>height: 43px !important</p>
+<p>}</p>
+<p>#trans-active31 a#menu31111,</p>
+<p>a.hover#menu31111,</p>
+<p>a#menu31111:hover{</p>
+<p>height: 43px !important</p>
+<p>}</p>
+<p>#menu31112{</p>
+<p>height: 43px !important</p>
+<p>}</p>
+<p>#trans-active31 a#menu31112,</p>
+<p>a.hover#menu31112,</p>
+<p>a#menu31112:hover{</p>
+<p>height: 43px !important</p>
+<p>}</p>
+<p>#menu31113{</p>
+<p>height: 43px !important</p>
+<p>}</p>
+<p>#trans-active31 a#menu31113,</p>
+<p>a.hover#menu31113,</p>
+<p>a#menu31113:hover{</p>
+<p>height: 43px !important</p>
+<p>}</p>
+<p>--></p>
+<p><!--</p>
+<p>.transMenu49 {</p>
+<p> position:absolute ; </p>
+<p> overflow:hidden; </p>
+<p> left:-1000px; </p>
+<p> top:-1000px; </p>
+<p>}</p>
+<p>.transMenu49 .content {</p>
+<p> position:absolute  ; </p>
+<p>}</p>
+<p>.transMenu49 .items {</p>
+<p> border: 0px none  ; </p>
+<p> position:relative ; </p>
+<p> left:0px; top:0px; </p>
+<p> z-index:2; </p>
+<p>}</p>
+<p>.transMenu49  td</p>
+<p>{</p>
+<p> padding: 5px 5px 5px 5px !important;  </p>
+<p> font-size: 12px !important ; </p>
+<p> font-family: Arial, Helvetica, sans-serif !important ; </p>
+<p> text-align: left !important ; </p>
+<p> font-weight: bold !important ; </p>
+<p>} </p>
+<p>#subwrap49 </p>
+<p>{ </p>
+<p> text-align: left ; </p>
+<p>}</p>
+<p>.transMenu49  .item.hover td</p>
+<p>{ </p>
+<p>}</p>
+<p>.transMenu49 .item { </p>
+<p> text-decoration: none ; </p>
+<p> cursor:pointer; </p>
+<p> cursor:hand; </p>
+<p>}</p>
+<p>.transMenu49 .background {</p>
+<p> position:absolute ; </p>
+<p> left:0px; top:0px; </p>
+<p> z-index:1; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100) </p>
+<p>}</p>
+<p>.transMenu49 .shadowRight { </p>
+<p> position:absolute ; </p>
+<p> z-index:3; </p>
+<p> top:-3000px; width:2px; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100)</p>
+<p>}</p>
+<p>.transMenu49 .shadowBottom { </p>
+<p> position:absolute ; </p>
+<p> z-index:1; </p>
+<p> left:-3000px; height:2px; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100)</p>
+<p>}</p>
+<p>.transMenu49 .item.hover {</p>
+<p>}</p>
+<p>.transMenu49 .item img { </p>
+<p> margin-left:10px !important ; </p>
+<p>}</p>
+<p>table.menu49 {</p>
+<p> top: 0px; </p>
+<p> left: 0px; </p>
+<p> position:relative ; </p>
+<p> margin:0px !important ; </p>
+<p> border: 0px none  ; </p>
+<p> z-index: 1; </p>
+<p>}</p>
+<p>table.menu49 a{</p>
+<p> margin:0px !important ; </p>
+<p> padding: 0px 0px 0px 0px  !important ; </p>
+<p> display:block !important; </p>
+<p> position:relative !important ; </p>
+<p>}</p>
+<p>div.menu49 a,</p>
+<p>div.menu49 a:visited,</p>
+<p>div.menu49 a:link {</p>
+<p> font-size: 12px !important ; </p>
+<p> font-family: Arial, Helvetica, sans-serif !important ; </p>
+<p> text-align: left !important ; </p>
+<p> font-weight: bold !important ; </p>
+<p> text-decoration: none !important ; </p>
+<p> margin-bottom:0px !important ; </p>
+<p> display:block !important; </p>
+<p> white-space:nowrap ; </p>
+<p>}</p>
+<p>div.menu49 td {</p>
+<p> border-bottom: 0px none  ; </p>
+<p> border-top: 0px none  ; </p>
+<p> border-left: 0px none  ; </p>
+<p>} </p>
+<p>div.menu49 td.last49 {</p>
+<p> border-right: 0px none  ; </p>
+<p>} </p>
+<p>#trans-active49 a{</p>
+<p>} </p>
+<p>#menu49 a.hover   { </p>
+<p>}</p>
+<p>#menu49 span {</p>
+<p> display:none; </p>
+<p>}</p>
+<p>#menu49 a img.seq1,</p>
+<p>.transMenu49 img.seq1,</p>
+<p>{</p>
+<p> display:    inline; </p>
+<p>}</p>
+<p>#menu49 a.hover img.seq2,</p>
+<p>.transMenu49 .item.hover img.seq2 </p>
+<p>{</p>
+<p> display:   inline; </p>
+<p>}</p>
+<p>#menu49 a.hover img.seq1,</p>
+<p>#menu49 a img.seq2,</p>
+<p>.transMenu49 img.seq2,</p>
+<p>.transMenu49 .item.hover img.seq1</p>
+<p>{</p>
+<p> display:   none; </p>
+<p>}</p>
+<p>#trans-active49 a img.seq1</p>
+<p>{</p>
+<p> display: none;</p>
+<p>}</p>
+<p>#trans-active49 a img.seq2</p>
+<p>{</p>
+<p> display: inline;</p>
+<p>}</p>
+<p>#menu49212{</p>
+<p>margin-right:7px !important</p>
+<p>}</p>
+<p>--></p>
+<p><!--</p>
+<p>.transMenu18 {</p>
+<p> position:absolute ; </p>
+<p> overflow:hidden; </p>
+<p> left:-1000px; </p>
+<p> top:-1000px; </p>
+<p>}</p>
+<p>.transMenu18 .content {</p>
+<p> position:absolute  ; </p>
+<p>}</p>
+<p>.transMenu18 .items {</p>
+<p> border: 0px none #FFFFFF ; </p>
+<p> position:relative ; </p>
+<p> left:0px; top:0px; </p>
+<p> z-index:2; </p>
+<p>}</p>
+<p>.transMenu18  td</p>
+<p>{</p>
+<p> padding: 8px 8px 8px 8px  !important;  </p>
+<p> font-size: 12px !important ; </p>
+<p> font-family: Arial, Helvetica, sans-serif !important ; </p>
+<p> text-align: left !important ; </p>
+<p> font-weight: normal !important ; </p>
+<p> color: #ffffff !important ; </p>
+<p>} </p>
+<p>#subwrap18 </p>
+<p>{ </p>
+<p> text-align: left ; </p>
+<p>}</p>
+<p>.transMenu18  .item.hover td</p>
+<p>{ </p>
+<p> color: #ffffff !important ; </p>
+<p>}</p>
+<p>.transMenu18 .item { </p>
+<p> text-decoration: none ; </p>
+<p> cursor:pointer; </p>
+<p> cursor:hand; </p>
+<p>}</p>
+<p>.transMenu18 .background {</p>
+<p> position:absolute ; </p>
+<p> left:0px; top:0px; </p>
+<p> z-index:1; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100) </p>
+<p>}</p>
+<p>.transMenu18 .shadowRight { </p>
+<p> position:absolute ; </p>
+<p> z-index:3; </p>
+<p> top:-3000px; width:2px; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100)</p>
+<p>}</p>
+<p>.transMenu18 .shadowBottom { </p>
+<p> position:absolute ; </p>
+<p> z-index:1; </p>
+<p> left:-3000px; height:2px; </p>
+<p> opacity:1; </p>
+<p> filter:alpha(opacity=100)</p>
+<p>}</p>
+<p>.transMenu18 .item.hover {</p>
+<p>}</p>
+<p>.transMenu18 .item img { </p>
+<p> margin-left:10px !important ; </p>
+<p>}</p>
+<p>table.menu18 {</p>
+<p> top: 0px; </p>
+<p> left: 0px; </p>
+<p> position:relative ; </p>
+<p> margin:0px !important ; </p>
+<p> border: 0px none #FFFFFF ; </p>
+<p> z-index: 1; </p>
+<p>}</p>
+<p>table.menu18 a{</p>
+<p> margin:0px !important ; </p>
+<p> padding: 0px 0px 0px 0px  !important ; </p>
+<p> display:block !important; </p>
+<p> position:relative !important ; </p>
+<p>}</p>
+<p>div.menu18 a,</p>
+<p>div.menu18 a:visited,</p>
+<p>div.menu18 a:link {</p>
+<p> font-size: 11px !important ; </p>
+<p> font-family: Arial, Helvetica, sans-serif !important ; </p>
+<p> text-align: center !important ; </p>
+<p> font-weight: bold !important ; </p>
+<p> color: #ffffff !important ; </p>
+<p> text-decoration: none !important ; </p>
+<p> margin-bottom:0px !important ; </p>
+<p> display:block !important; </p>
+<p> white-space:nowrap ; </p>
+<p>}</p>
+<p>div.menu18 td {</p>
+<p> border-bottom: -px none #124170 ; </p>
+<p> border-top: -px none #124170 ; </p>
+<p> border-left: -px none #124170 ; </p>
+<p>} </p>
+<p>div.menu18 td.last18 {</p>
+<p> border-right: -px none #124170 ; </p>
+<p>} </p>
+<p>#trans-active18 a{</p>
+<p> color: #FFFFFF !important ; </p>
+<p>} </p>
+<p>#menu18 a.hover   { </p>
+<p> color: #FFFFFF !important ; </p>
+<p>}</p>
+<p>#menu18 span {</p>
+<p> display:none; </p>
+<p>}</p>
+<p>#menu18 a img.seq1,</p>
+<p>.transMenu18 img.seq1,</p>
+<p>{</p>
+<p> display:    inline; </p>
+<p>}</p>
+<p>#menu18 a.hover img.seq2,</p>
+<p>.transMenu18 .item.hover img.seq2 </p>
+<p>{</p>
+<p> display:   inline; </p>
+<p>}</p>
+<p>#menu18 a.hover img.seq1,</p>
+<p>#menu18 a img.seq2,</p>
+<p>.transMenu18 img.seq2,</p>
+<p>.transMenu18 .item.hover img.seq1</p>
+<p>{</p>
+<p> display:   none; </p>
+<p>}</p>
+<p>#trans-active18 a img.seq1</p>
+<p>{</p>
+<p> display: none;</p>
+<p>}</p>
+<p>#trans-active18 a img.seq2</p>
+<p>{</p>
+<p> display: inline;</p>
+<p>}</p>
+<p>#menu181{</p>
+<p>margin-right:1px !important</p>
+<p>}</p>
+<p>#menu182{</p>
+<p>margin-right:1px !important</p>
+<p>}</p>
+<p>#TransMenu0-0 {</p>
+<p>background:url(http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/str.png) no-repeat right center #0a67ac !important;</p>
+<p>}</p>
+<p>#TransMenu0-0:hover {</p>
+<p>background:url(http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/str.png) no-repeat right center #ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu1-0 {</p>
+<p>background:#ea4031 !important; </p>
+<p>}</p>
+<p>#TransMenu1-0:hover {</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-1 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-1:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-2 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-2:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-3 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-3:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-4 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-4:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-5 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-5:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-6 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-6:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-7 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-7:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-8 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-8:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-9 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-9:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-10 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-10:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-11 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-11:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-12 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-12:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-13 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-13:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-14 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-14:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu1-15 {</p>
+<p>background:#ea4031 !important; border-top: 1px solid #ff5b53  !important</p>
+<p>}</p>
+<p>#TransMenu1-15:hover {</p>
+<p>;background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu0-1 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important;</p>
+<p>}</p>
+<p>#TransMenu0-1:hover {</p>
+<p>border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu0-2 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important;</p>
+<p>}</p>
+<p>#TransMenu0-2:hover {</p>
+<p>border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu0-3 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important;</p>
+<p>}</p>
+<p>#TransMenu0-3:hover {</p>
+<p>border-top: 1px solid #ff5b53 !important;</p>
+<p>background:#ea4031 !important;</p>
+<p>}</p>
+<p>#TransMenu0-4 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu0-4:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu0-5 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu0-5:hover {</p>
+<p>border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#menu185{</p>
+<p>margin-right:1px !important</p>
+<p>}</p>
+<p>#TransMenu2-0 {</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu2-1 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu2-1:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu2-2 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu2-2:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu2-3 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu2-3:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#menu187{</p>
+<p>margin-right:1px !important</p>
+<p>}</p>
+<p>#trans-active18 a#menu187,</p>
+<p>a.hover#menu187,</p>
+<p>a#menu187:hover{</p>
+<p>;</p>
+<p>}</p>
+<p>#TransMenu3-0 {</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-1 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-1:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu3-2 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-2:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu3-3 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-3:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu3-4 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-4:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu3-5 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-5:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu3-6 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-6:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu3-7 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu3-7:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#menu189{</p>
+<p>margin-right:1px !important</p>
+<p>}</p>
+<p>#TransMenu4-0 {</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-1 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-1:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-2 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-2:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-3 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-3:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-4 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-4:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-5 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-5:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-6 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-6:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-7 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-7:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-8 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-8:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-9 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-9:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu4-10 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu4-10:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#menu1811{</p>
+<p>margin-right:1px !important</p>
+<p>}</p>
+<p>#TransMenu5-0 {</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu5-1 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu5-1:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu5-2 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu5-2:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu5-3 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu5-3:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>#TransMenu5-4 {</p>
+<p>border-top: 1px solid #1784ca !important;</p>
+<p>background:#0a67ac !important</p>
+<p>}</p>
+<p>#TransMenu5-4:hover {</p>
+<p>;border-top: 1px solid #ff5b53  !important;</p>
+<p>background:#ea4031 !important</p>
+<p>}</p>
+<p>--></p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-9830299-2']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p><!--</p>
+<p>if (TransMenu.isSupported()) {</p>
+<p>var ms = new TransMenuSet(TransMenu.direction.down, 0,39, TransMenu.reference.bottomLeft);</p>
+<p>var menu182 = ms.addMenu(document.getElementById("menu182"));</p>
+<p> menu182.addItem("Gorączki krwotoczne", "/index.php?option=com_content&view=category&layout=blog&id=17&Itemid=180", "0");</p>
+<p>var menu18217 = menu182.addMenu(menu182.items[0],-1,0);</p>
+<p>menu18217.addItem("Denga", "/index.php?option=com_content&view=article&id=1&Itemid=217", "0");</p>
+<p>menu18217.addItem("Omska Gorączka Krwotoczna", "/index.php?option=com_content&view=article&id=16&Itemid=218", "0");</p>
+<p>menu18217.addItem("Gorączka Zachodniego Nilu", "/index.php?option=com_content&view=article&id=15&Itemid=219", "0");</p>
+<p>menu18217.addItem("Choroba Lasu Kyasanur", "/index.php?option=com_content&view=article&id=18&Itemid=220", "0");</p>
+<p>menu18217.addItem("Gorączka Krymsko-Kongijska", "/index.php?option=com_content&view=article&id=14&Itemid=221", "0");</p>
+<p>menu18217.addItem("Gorączka Marburg", "/index.php?option=com_content&view=article&id=19&Itemid=224", "0");</p>
+<p>menu18217.addItem("Gorączka Papatacci", "/index.php?option=com_content&view=article&id=17&Itemid=222", "0");</p>
+<p>menu18217.addItem("Gorączka Krwotoczna Lassa", "/index.php?option=com_content&view=article&id=12&Itemid=223", "0");</p>
+<p>menu18217.addItem("Argentyńska Gorączka Krwotoczna", "/index.php?option=com_content&view=article&id=9&Itemid=225", "0");</p>
+<p>menu18217.addItem("Brazylijska Gorączka Krwotoczna", "/index.php?option=com_content&view=article&id=11&Itemid=226", "0");</p>
+<p>menu18217.addItem("Boliwijska Gorączka Krwotoczna", "/index.php?option=com_content&view=article&id=10&Itemid=227", "0");</p>
+<p>menu18217.addItem("Gorączka Wenezuelska", "/index.php?option=com_content&view=article&id=125&Itemid=228", "0");</p>
+<p>menu18217.addItem("Gorączka Doliny Rift", "/index.php?option=com_content&view=article&id=13&Itemid=229", "0");</p>
+<p>menu18217.addItem("Gorączki Hantawirusowe", "/index.php?option=com_content&view=article&id=89&Itemid=230", "0");</p>
+<p>menu18217.addItem("Żółta febra", "/index.php?option=com_content&view=article&id=128&Itemid=231", "0");</p>
+<p>menu18217.addItem("Gorączka Krwotoczna Ebola", "/index.php?option=com_content&view=article&id=91&Itemid=232", "0");</p>
+<p>menu182.addItem("Japońskie zapalenie mózgu", "/index.php?option=com_content&view=article&id=2&Itemid=181", "0");</p>
+<p>menu182.addItem("Wirusowe zapalenie wątroby typu A", "/index.php?option=com_content&view=article&id=3&Itemid=182", "0");</p>
+<p>menu182.addItem("Wirusowe zapalenie wątroby typu B", "/index.php?option=com_content&view=article&id=4&Itemid=183", "0");</p>
+<p>menu182.addItem("Malaria", "/index.php?option=com_content&view=article&id=5&Itemid=233", "0");</p>
+<p>menu182.addItem("Gorączka Chikungunya", "/index.php?option=com_content&view=article&id=217&Itemid=234", "0");</p>
+<p>var menu185 = ms.addMenu(document.getElementById("menu185"));</p>
+<p> menu185.addItem("Dekalog ukąszonego", "/index.php?option=com_content&view=article&id=36&Itemid=184", "0");</p>
+<p>menu185.addItem("Czego nie robić", "/index.php?option=com_content&view=article&id=37&Itemid=185", "0");</p>
+<p>menu185.addItem("Unikanie ukąszeń", "/index.php?option=com_content&view=article&id=38&Itemid=186", "0");</p>
+<p>menu185.addItem("Ukąszenia owada", "/index.php?option=com_content&view=article&id=39&Itemid=187", "0");</p>
+<p>var menu187 = ms.addMenu(document.getElementById("menu187"));</p>
+<p> menu187.addItem("Placówki", "/index.php?option=com_content&view=article&id=41&Itemid=188", "0");</p>
+<p>menu187.addItem("Informacje ogólne", "/index.php?option=com_content&view=article&id=40&Itemid=189", "0");</p>
+<p>menu187.addItem("Ameryka Południowa", "/index.php?option=com_content&view=article&id=98&Itemid=190", "0");</p>
+<p>menu187.addItem("Ameryka Północna i Środkowa", "/index.php?option=com_content&view=article&id=99&Itemid=191", "0");</p>
+<p>menu187.addItem("Azja", "/index.php?option=com_content&view=article&id=100&Itemid=192", "0");</p>
+<p>menu187.addItem("Afryka", "/index.php?option=com_content&view=article&id=101&Itemid=193", "0");</p>
+<p>menu187.addItem("Europa", "/index.php?option=com_content&view=article&id=102&Itemid=194", "0");</p>
+<p>menu187.addItem("Australia i Oceania", "/index.php?option=com_content&view=article&id=103&Itemid=195", "0");</p>
+<p>var menu189 = ms.addMenu(document.getElementById("menu189"));</p>
+<p> menu189.addItem("Informacje ogólne", "/index.php?option=com_content&view=article&id=47&Itemid=196", "0");</p>
+<p>menu189.addItem("Choroba wysokościowa", "/index.php?option=com_content&view=article&id=48&Itemid=197", "0");</p>
+<p>menu189.addItem("Obrzęk płuc", "/index.php?option=com_content&view=article&id=51&Itemid=198", "0");</p>
+<p>menu189.addItem("Obrzęk mózgu", "/index.php?option=com_content&view=article&id=49&Itemid=199", "0");</p>
+<p>menu189.addItem("Trzy zasady", "/index.php?option=com_content&view=article&id=50&Itemid=200", "0");</p>
+<p>menu189.addItem("Ślepota śnieżna", "/index.php?option=com_content&view=article&id=52&Itemid=201", "0");</p>
+<p>menu189.addItem("Poparzenia słoneczne w górach", "/index.php?option=com_content&view=article&id=53&Itemid=202", "0");</p>
+<p>menu189.addItem("Odmrożenia", "/index.php?option=com_content&view=article&id=54&Itemid=203", "0");</p>
+<p>menu189.addItem("Deterioracja", "/index.php?option=com_content&view=article&id=55&Itemid=204", "0");</p>
+<p>menu189.addItem("Stopa okopowa", "/index.php?option=com_content&view=article&id=56&Itemid=205", "0");</p>
+<p>menu189.addItem("Hipotermia", "/index.php?option=com_content&view=article&id=57&Itemid=206", "0");</p>
+<p>var menu1811 = ms.addMenu(document.getElementById("menu1811"));</p>
+<p> menu1811.addItem("Akcesoria kobiety", "/index.php?option=com_content&view=article&id=42&Itemid=207", "0");</p>
+<p>menu1811.addItem("Ciężarna w samolocie", "/index.php?option=com_content&view=article&id=30&Itemid=208", "0");</p>
+<p>menu1811.addItem("Ciężarna w samochodzie", "/index.php?option=com_content&view=article&id=46&Itemid=209", "0");</p>
+<p>menu1811.addItem("Szczepienia ciężarnej", "/index.php?option=com_content&view=article&id=45&Itemid=210", "0");</p>
+<p>menu1811.addItem("Kobieta w opałach", "/index.php?option=com_content&view=article&id=43&Itemid=211", "0");</p>
+<p>function init18() {</p>
+<p>if (TransMenu.isSupported()) {</p>
+<p>TransMenu.initialize();</p>
+<p>document.getElementById("menu181").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu181").onmouseout = function() { this.className = ""; }</p>
+<p>menu182.onactivate = function() {document.getElementById("menu182").className = "hover"; };</p>
+<p> menu182.ondeactivate = function() {document.getElementById("menu182").className = ""; };</p>
+<p> menu185.onactivate = function() {document.getElementById("menu185").className = "hover"; };</p>
+<p> menu185.ondeactivate = function() {document.getElementById("menu185").className = ""; };</p>
+<p> menu187.onactivate = function() {document.getElementById("menu187").className = "hover"; };</p>
+<p> menu187.ondeactivate = function() {document.getElementById("menu187").className = ""; };</p>
+<p> menu189.onactivate = function() {document.getElementById("menu189").className = "hover"; };</p>
+<p> menu189.ondeactivate = function() {document.getElementById("menu189").className = ""; };</p>
+<p> menu1811.onactivate = function() {document.getElementById("menu1811").className = "hover"; };</p>
+<p> menu1811.ondeactivate = function() {document.getElementById("menu1811").className = ""; };</p>
+<p> document.getElementById("menu18115").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu18115").onmouseout = function() { this.className = ""; }</p>
+<p>}}</p>
+<p>TransMenu.dingbatSize = 0;</p>
+<p>TransMenu.spacerGif = "";</p>
+<p>TransMenu.dingbatOn = "";</p>
+<p>TransMenu.dingbatOff = ""; </p>
+<p>TransMenu.sub_indicator = false;</p>
+<p>TransMenu.menuPadding = 0;</p>
+<p>TransMenu.itemPadding = 0;</p>
+<p>TransMenu.shadowSize = 2;</p>
+<p>TransMenu.shadowOffset = 3;</p>
+<p>TransMenu.shadowColor = "#888";</p>
+<p>TransMenu.shadowPng = "http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/grey-40.png";</p>
+<p>TransMenu.backgroundColor = "";</p>
+<p>TransMenu.backgroundPng = "http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/white-90.png";</p>
+<p>TransMenu.hideDelay = 100;</p>
+<p>TransMenu.slideTime = 50;</p>
+<p>TransMenu.modid = 18;</p>
+<p>TransMenu.selecthack = 0;</p>
+<p>TransMenu.autoposition = 0;</p>
+<p>TransMenu.renderAll();</p>
+<p>if ( typeof window.addEventListener != "undefined" )</p>
+<p>window.addEventListener( "load", init18, false );</p>
+<p>else if ( typeof window.attachEvent != "undefined" ) {</p>
+<p>window.attachEvent( "onload", init18 );</p>
+<p>}else{</p>
+<p>if ( window.onload != null ) {</p>
+<p>var oldOnload = window.onload;</p>
+<p>window.onload = function ( e ) {</p>
+<p>oldOnload( e );</p>
+<p>init18();</p>
+<p>}</p>
+<p>}else</p>
+<p>window.onload = init18();</p>
+<p>}</p>
+<p>}</p>
+<p>--></p>
+<p>Strona główna</p>
+<p> </p>
+<p>		        Środa, 10 kwiecień 2013 r.   </p>
+<p>     </p>
+<p> </p>
+<p>Informacje</p>
+<p>Wirus Nipah ciągle zabijaNa dzień 6 kwietnia w Bangladeszu zmarło 21 osób w wyniku infekcji wirusem Nipah (śmiertelność 88%). Dotyczczasowe przypadki notowano w prowincjach Gaibandha, Jhinaidaha, Kurigram, Kushtia, Magura, Manikgonj, Mymenshingh, Naogaon, Natore, Nilphamari, Pabna, Rajbari, Rajshahi.niedziela, 07 kwietnia 2013</p>
+<p>H7N9 w ChinachWiirus grypy H7N9 był w ostatnich dniach przyczyną śmierci 6 osóbniedziela, 07 kwietnia 2013</p>
+<p>Różyczka w JaponiiW ostanich tygodniach obserwuje się znaczący przyrost liczby chorych na różyczkę. W ciągu ubiegłego tygodnia odnotowano 700 nowych przypadków. Najgorsza sytuacja jest w Tokio.środa, 20 marca 2013</p>
+<p>Denga na wyspach SalomonaW ostatnich dniach, na Wyspach Salomona zdiagnozowano kilkaset przypadków dengi. Według gazety Solomon Star, w wyniku choroby zmarły 4 osoby. Tamtejsze Ministerstwo Zdrowia nie potwierdza informacji o śmierci chorych.środa, 20 marca 2013</p>
+<p>Aktualna informacja o dendze w TajlandiiWedług Ministerstwa Zdrowia Publicznego Tajlandii,  w okresie od 1 stycznia do 11 marca odnotowano 13 200 przypadków dengi. Z jej powodu zmarło 16 osób. Liczby te są 4 razy wyższe niż w analogicznym okresie roku ubiegłego. Ministerstwo obawia się, że sutyacja epidemiologiczna ulegnie pogorszeniu w czasie zbliżającej się pory deszczowej.środa, 20 marca 2013</p>
+<p>Wszystkie</p>
+<p> </p>
+<p><!--</p>
+<p>if (TransMenu.isSupported()) {</p>
+<p>var ms = new TransMenuSet(TransMenu.direction.down, 0,-1, TransMenu.reference.bottomLeft);</p>
+<p>function init49() {</p>
+<p>if (TransMenu.isSupported()) {</p>
+<p>TransMenu.initialize();</p>
+<p>document.getElementById("menu49212").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu49212").onmouseout = function() { this.className = ""; }</p>
+<p>document.getElementById("menu49213").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu49213").onmouseout = function() { this.className = ""; }</p>
+<p>}}</p>
+<p>TransMenu.dingbatSize = 0;</p>
+<p>TransMenu.spacerGif = "";</p>
+<p>TransMenu.dingbatOn = "";</p>
+<p>TransMenu.dingbatOff = ""; </p>
+<p>TransMenu.sub_indicator = false;</p>
+<p>TransMenu.menuPadding = 0;</p>
+<p>TransMenu.itemPadding = 0;</p>
+<p>TransMenu.shadowSize = 2;</p>
+<p>TransMenu.shadowOffset = 3;</p>
+<p>TransMenu.shadowColor = "#888";</p>
+<p>TransMenu.shadowPng = "http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/grey-40.png";</p>
+<p>TransMenu.backgroundColor = "";</p>
+<p>TransMenu.backgroundPng = "http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/white-90.png";</p>
+<p>TransMenu.hideDelay = 100;</p>
+<p>TransMenu.slideTime = 50;</p>
+<p>TransMenu.modid = 49;</p>
+<p>TransMenu.selecthack = 0;</p>
+<p>TransMenu.autoposition = 0;</p>
+<p>TransMenu.renderAll();</p>
+<p>if ( typeof window.addEventListener != "undefined" )</p>
+<p>window.addEventListener( "load", init49, false );</p>
+<p>else if ( typeof window.attachEvent != "undefined" ) {</p>
+<p>window.attachEvent( "onload", init49 );</p>
+<p>}else{</p>
+<p>if ( window.onload != null ) {</p>
+<p>var oldOnload = window.onload;</p>
+<p>window.onload = function ( e ) {</p>
+<p>oldOnload( e );</p>
+<p>init49();</p>
+<p>}</p>
+<p>}else</p>
+<p>window.onload = init49();</p>
+<p>}</p>
+<p>}</p>
+<p>--></p>
+<p>Encyklopedia</p>
+<p>  Wenezuela</p>
+<p>  Surinam</p>
+<p>  Kolumbia</p>
+<p>  Brazylia</p>
+<p>  Peru</p>
+<p>  Chiny</p>
+<p>  Paragwaj</p>
+<p>  Bhutan</p>
+<p>  Gujana</p>
+<p>  Boliwia</p>
+<p> </p>
+<p>										Użądlenia</p>
+<p>									</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>								Co robić gdy użądli owad</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>										Szczepienia na świecie</p>
+<p>									</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>								Zobacz na co się zaszczepić przed wyjazdem</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>										Nie daj się Jet-lag</p>
+<p>									</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>								Jak ustawić zegar biologiczny na nowo</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>										Apteczka w podróży</p>
+<p>									</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>								Najpotrzebniejsze przedmioty, które powinieneś mieć w podróżnej apteczce</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>										Kobieta w opałach</p>
+<p>									</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>								Wszystko co powinna wiedzieć kobieta przed wyjazdem</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>										Fobia lotnicza</p>
+<p>									</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>								Problemy z fobią lotniczą</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>							</p>
+<p>		ogólne	</p>
+<p>			Wenezuelska gorączka krwotoczna w Wenezueli</p>
+<p>		poniedziałek, 22 sierpnia 2011 12:55	</p>
+<p>W wenezuelskiej miejscowości Banco Morrones znajdującej się w okręgu  Guaranarito zmarła kobieta, u której zdiagnozowano wenezuelską gorączkę  krwotoczną. Badania trzech kolejnych mieszkańców Banco Morrones, z  podobnymi objawami co zmarła kobieta dały także pozytywne wyniki.  Dyrektor lokalnego Departamentu Zdrowia Antonio Brito, poinformował, że  zmarła zbyt późno trafiła do lekarza a wcześniej nie przyjmowała żadnych  lekarstw, mogących znosić objawy gorączki krwotocznej.Wirusy wywołujące chorobę przenoszą szczury, które wydalają go ze śliną, moczem, kałem itp. Do zakażenia dochodzi zwykle drogą oddechową. Wirusy zawarte w cząstkach kurzu dostają się do płuc, skąd rozprzestrzeniają do innych tkanek i narządów. Aby uniknąć zakażenia należy omijać tereny wiejskie Wenezueli, spożywać przegotowane potrawy oraz pić przegotowaną wodę. Ważne jest także zraszanie podłóg oraz innych miejsc, z których łatwo może unosić się kurz. Więcej o chorobie w zakładce choroby zakaźne.Źródło: http://www.el-nacional.com/www/site/p_contenido.php?q=nodo/230680/Regiones/Un-muerto-por-fiebre-hemorrÃ¡gica-venezolana, zdrowiewpodrozy.pl</p>
+<p>			Autor: AC		</p>
+<p>		  </p>
+<p>	</p>
+<p> </p>
+<p>Apteczki podróżnika</p>
+<p>W samochodzie</p>
+<p>W samolocie</p>
+<p>Na promie</p>
+<p>Przed wyjazdem</p>
+<p><!--</p>
+<p>if (TransMenu.isSupported()) {</p>
+<p>var ms = new TransMenuSet(TransMenu.direction.left, 0, -1, TransMenu.reference.topLeft);</p>
+<p>function init31() {</p>
+<p>if (TransMenu.isSupported()) {</p>
+<p>TransMenu.initialize();</p>
+<p>document.getElementById("menu31110").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu31110").onmouseout = function() { this.className = ""; }</p>
+<p>document.getElementById("menu31111").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu31111").onmouseout = function() { this.className = ""; }</p>
+<p>document.getElementById("menu31112").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu31112").onmouseout = function() { this.className = ""; }</p>
+<p>document.getElementById("menu31113").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu31113").onmouseout = function() { this.className = ""; }</p>
+<p>document.getElementById("menu31114").onmouseover = function() {</p>
+<p>ms.hideCurrent();</p>
+<p>this.className = "hover";</p>
+<p>}</p>
+<p>document.getElementById("menu31114").onmouseout = function() { this.className = ""; }</p>
+<p>}}</p>
+<p>TransMenu.dingbatSize = 0;</p>
+<p>TransMenu.spacerGif = "";</p>
+<p>TransMenu.dingbatOn = "";</p>
+<p>TransMenu.dingbatOff = ""; </p>
+<p>TransMenu.sub_indicator = false;</p>
+<p>TransMenu.menuPadding = 0;</p>
+<p>TransMenu.itemPadding = 0;</p>
+<p>TransMenu.shadowSize = 2;</p>
+<p>TransMenu.shadowOffset = 3;</p>
+<p>TransMenu.shadowColor = "#888";</p>
+<p>TransMenu.shadowPng = "http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/grey-40.png";</p>
+<p>TransMenu.backgroundColor = "";</p>
+<p>TransMenu.backgroundPng = "http://www.zdrowiewpodrozy.pl/modules/mod_swmenupro/images/transmenu/white-90.png";</p>
+<p>TransMenu.hideDelay = 100;</p>
+<p>TransMenu.slideTime = 50;</p>
+<p>TransMenu.modid = 31;</p>
+<p>TransMenu.selecthack = 0;</p>
+<p>TransMenu.autoposition = 0;</p>
+<p>TransMenu.renderAll();</p>
+<p>if ( typeof window.addEventListener != "undefined" )</p>
+<p>window.addEventListener( "load", init31, false );</p>
+<p>else if ( typeof window.attachEvent != "undefined" ) {</p>
+<p>window.attachEvent( "onload", init31 );</p>
+<p>}else{</p>
+<p>if ( window.onload != null ) {</p>
+<p>var oldOnload = window.onload;</p>
+<p>window.onload = function ( e ) {</p>
+<p>oldOnload( e );</p>
+<p>init31();</p>
+<p>}</p>
+<p>}else</p>
+<p>window.onload = init31();</p>
+<p>}</p>
+<p>}</p>
+<p>--></p>
+<p>Rady dla podróżujących</p>
+<p>"...co powinien wiedzieć każdy podróżujący, na co może być narażony i  na co powinien uważać..."</p>
+<p>Przed podróżą</p>
+<p>Główne zasady zdrowej podróży. Osoby podróżujące narażone są na liczne zagrożenia zdrowotne, które mogą znacznie obniżyć odporność na choroby.</p>
+<p>Czytaj dalej ></p>
+<p>W podróży</p>
+<p>W podróży powinieneś zastosować się do kilku poniższych reguł. Ich przestrzeganie nie jest specjalnie uciążliwe a minimalizuje zagrożenia zdrowotne związane z podróżą.</p>
+<p>Czytaj dalej ></p>
+<p>Zemsta Faraona</p>
+<p>„Zemsta faraona” jest określeniem nieklinicznym – slangowym, opisującym zespół objawów jelitowo-żołądkowych o nie do końca poznanej etiologii.</p>
+<p>Czytaj dalej ></p>
+<p>Upały, chłód</p>
+<p>Zasady ochrony przed upałem i jego skutkami</p>
+<p>Czytaj dalej ></p>
+<p>Słońce i poparzenia</p>
+<p>Skóra jest jedyną tkanką-barierą chroniącą organizm przed promieniowaniem słonecznym. Jej skomplikowana, wielowarstwowa budowa dość skutecznie opiera się działaniu różnych czynników. Wyjątek stanowi słońce...</p>
+<p>Czytaj dalej ></p>
+<p>Po podróży</p>
+<p>Po podróży zagranicznej należy zwrócić uwagę czy nie występują jakiekolwiek niepokojące objawy.</p>
+<p>Czytaj dalej ></p>
+<p>Rady dla wyjeżdżających</p>
+<p>Osoby podróżujące narażone są na liczne zagrożenia zdrowotne, które mogą znacznie obniżyć odporność na choroby.</p>
+<p>Czytaj dalej ></p>
+<p>Wszystkie</p>
+<p> </p>
+<p>Polecane artykuły:</p>
+<p>Choroby zakaźneUkąszeniaZagrożenia w górachKobieta w podróżyFotogalerieEncyklopedia </p>
+<p> </p>
+<p>Najpopularniejsze:</p>
+<p>			Rady dla wyjeżdżających</p>
+<p>			O nas</p>
+<p>			Śmiertelny wirus Hendra znowu się ujawnił</p>
+<p>			Polityka prywatności</p>
+<p>			Stopa okopowa</p>
+<p> </p>
+<p> </p>
+<p>Rady dla podróżujących:</p>
+<p>Przed podróżąW podróżyPo podróżyUpały, chłódSłońce i poparzeniaZemsta faraona </p>
+<p> </p>
+<p>Szczepienia:</p>
+<p>Ameryka PołudniowaAmeryka Północna i ŚrodkowaAzjaAfrykaEuropaAustralia i Oceania </p>
+<p> </p>
+<p>Warto wiedzieć:</p>
+<p>Apteczki podróżnikaW samochodzieW samolocieNa promiePrzed wyjazdem </p>
+<p>Do góry|O nas|Polityka prywatności|Napisz do nasCopyright © 2011 zdrowiewpodrozy.pl. Wszystkie prawa zastrzeżone.Projekt i wykonanie: webmaster</p>

@@ -1,0 +1,351 @@
+<p>全球首个“戊肝”疫苗上市 获国家一类新药证书-新闻频道-和讯网</p>
+<p>var wrap_=document.getElementById("wrap");</p>
+<p>if(wrap_!=null){</p>
+<p>if(window.location.href.indexOf("http://insurance.hexun.com")>=0 ){</p>
+<p>	wrap_.style.paddingTop="128px";</p>
+<p>}</p>
+<p>if(window.location.href.indexOf("http://opinion.hexun.com")>=0 || window.location.href.indexOf("http://bschool.hexun.com")>=0 || window.location.href.indexOf("http://book.hexun.com")>=0 || window.location.href.indexOf("http://gongyi.hexun.com")>=0 || window.location.href.indexOf("http://trust.hexun.com")>=0){</p>
+<p>		wrap_.style.paddingTop="114px";	</p>
+<p>	}</p>
+<p>         if(window.location.href.indexOf("http://news.hexun.com")>=0 ||  window.location.href.indexOf("http://funds.hexun.com")>=0 || window.location.href.indexOf("http://futures.hexun.com")>=0 || window.location.href.indexOf("http://qizhi.hexun.com")>=0 || window.location.href.indexOf("http://forex.hexun.com")>=0 || window.location.href.indexOf("http://gold.hexun.com")>=0 || window.location.href.indexOf("http://bond.hexun.com")>=0 || window.location.href.indexOf("http://money.hexun.com")>=0 || </p>
+<p>window.location.href.indexOf("http://stock.hexun.com")>=0 || </p>
+<p>window.location.href.indexOf("http://pe.hexun.com")>=0 || </p>
+<p>window.location.href.indexOf("http://shoucang.hexun.com")>=0 ||</p>
+<p>window.location.href.indexOf("http://pension.hexun.com")>=0</p>
+<p>){</p>
+<p>		wrap_.style.paddingTop="126px";	</p>
+<p>	}</p>
+<p>if(window.location.href.indexOf("http://bank.hexun.com")>=0){</p>
+<p>wrap_.style.paddingTop="167px"; </p>
+<p>}</p>
+<p>if(window.location.href.indexOf("http://tax.hexun.com")>=0){</p>
+<p>wrap_.style.paddingTop="147px"; </p>
+<p>}</p>
+<p>if(window.location.href.indexOf("http://xianhuo.hexun.com")>=0){</p>
+<p>wrap_.style.paddingTop="112px"; </p>
+<p>}</p>
+<p>}</p>
+<p>和讯网 > 新闻  > 正文</p>
+<p>全球首个“戊肝”疫苗上市 获国家一类新药证书</p>
+<p> </p>
+<p>/*实现图片的按比例缩放*/ </p>
+<p>function DrawImage(ImgD, iwidth, iheight) { </p>
+<p>    var image = new Image(); </p>
+<p>    image.src = ImgD.src; </p>
+<p>    if(image.width > 0 && image.height > 0){ </p>
+<p>        if(image.width / image.height >= iwidth / iheight){ </p>
+<p>            if(image.width > iwidth){ </p>
+<p>                ImgD.width = iwidth; </p>
+<p>                ImgD.height = (image.height * iwidth) / image.width; </p>
+<p>            } </p>
+<p>            else{ </p>
+<p>                ImgD.width = image.width; </p>
+<p>                ImgD.height = image.height; </p>
+<p>            } </p>
+<p>            // ImgD.alt = image.width + "×" + image.height; </p>
+<p>        } </p>
+<p>        else{ </p>
+<p>            if(image.height > iheight){ </p>
+<p>                ImgD.height = iheight; </p>
+<p>                ImgD.width = (image.width * iheight) / image.height; </p>
+<p>            } </p>
+<p>            else{ </p>
+<p>                ImgD.width = image.width; </p>
+<p>                ImgD.height = image.height; </p>
+<p>            } </p>
+<p>            // ImgD.alt = image.width + "×" + image.height; </p>
+<p>        } </p>
+<p>    } </p>
+<p>} </p>
+<p>//  --------------------------------------- </p>
+<p>2012年01月12日16:47 </p>
+<p>	来源：光明日报 </p>
+<p>	</p>
+<p>	作者：詹媛 </p>
+<p>showComment_01(137208310,153)</p>
+<p> 字号:   </p>
+<p>　　中广网河南分网消息　　据光明日报报道：今天从科技部了解到，历经14年研制的“重组戊型肝炎疫苗”获得国家一类新药证书和生产文号，成为世界上第一个用于预防戊型肝炎的疫苗。　　“戊肝”是流行最普遍的病毒性肝炎之一。据世界卫生组织(WHO)估计，全球三分之一的人口曾感染过戊型肝炎病毒，在南亚和东亚每年约发生650万例“戊肝”，导致16万人死亡及2700例胎儿流产。近年来我国“戊肝”发病率逐年上升，已成为成人急性肝炎发病率最高的疾病。</p>
+<p>推荐阅读</p>
+<p>今年房企资金缺口或超万亿 卖项目将成常态</p>
+<p>鲁政委：今年CPI将探底 </p>
+<p>郭树清：继续打击内幕交易 </p>
+<p>建行对部分开发商利率上浮40%</p>
+<p>多家智囊机构正酝酿铁路改革方案</p>
+<p>励小捷接任文物局局长 </p>
+<p>[股神争霸] 涨停王浮出水面</p>
+<p>朱大鸣：双独夫妻过年该去谁家？</p>
+<p>　　因此，对“戊肝”疫苗的研制进展一直受到国际医药科学界和产业界的关注，据了解，此次我国获准上市的“戊肝”疫苗临床试验结果，自2010年8月发表于国际医学刊物《柳叶刀》以来，曾被《柳叶刀》、《自然―新药述评》等国际学术刊物认为“是全世界"戊肝"预防与控制领域的一个重大突破”，“是肝病领域期待已久的一个关键的进步，是一项意义非常重大的工作”。　　据“戊肝”疫苗项目负责人厦门大学夏宁邵教授透露，“戊肝”疫苗的研制在基础研究领域、应用基础研究领域和应用研究领域取得了保护性抗原识别及结构表征、病毒颗粒组装机制等多项核心原创发现，突破了原核表达类病毒颗粒、高效纯化及体外自组装等一系列关键技术障碍，并逐步构建起了独特的原核表达类病毒颗粒疫苗的核心技术体系。　　夏宁邵教授表示，“戊肝”疫苗获准上市是全球肝炎防控领域内的一个重要里程碑，他们的研究团队将尽快使该疫苗应用于我国高危人群的预防，并积极与世界卫生组织等国际公益组织合作，争取使该疫苗能尽快造福于其他“戊肝”高流行国家和地区的民众。　　背景链接：　　“戊肝”是由戊型肝炎病毒感染所致的急性病毒性肝炎。在已知肝炎中，“戊肝”发现最晚，但危害性却远远高于最早发现的“甲肝”。“戊肝”病死率为1%-4%，是“甲肝”的10倍。“戊肝”主要经消化道传播，病毒常通过污染日常饮用水源、食物而感染人群，还可通过输血及母婴途径传播。(记者 詹媛)</p>
+<p>(function(){</p>
+<p>var obj = null;</p>
+<p>if(document.getElementById('arctTailMark')) {</p>
+<p>obj = document.getElementById('arctTailMark');</p>
+<p>}</p>
+<p>if(obj!=null) {</p>
+<p>var str = ' <a href=" http://www.hexun.com/?from=hxlogo" target="_blank" title="点击进入和讯首页"><img src=" http://img.hexun.com/home/hx.gif" style="margin:0;"/></a>';</p>
+<p>try</p>
+<p>{</p>
+<p>	var oo = obj.previousSibling;</p>
+<p>while(oo.nodeType!=1 || oo.innerHTML.replace(/\s|\u3000/g,'').length==0) {</p>
+<p>   oo = oo.previousSibling;</p>
+<p>}</p>
+<p>if(oo.nodeType==1 && oo.tagName.toLowerCase()=='p') {</p>
+<p>  var span = document.createElement('span');</p>
+<p>  span.innerHTML =str;</p>
+<p>  oo.appendChild(span);</p>
+<p> }</p>
+<p>}</p>
+<p>catch (e){}</p>
+<p>}</p>
+<p>})();</p>
+<p>　　【免责声明】本文仅代表作者本人观点，与和讯网无关。和讯网站对文中陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完整性提供任何明示或暗示的保证。请读者仅作参考，并请自行承担全部责任。</p>
+<p>财经名博</p>
+<p>双独夫妻回谁家过年</p>
+<p> </p>
+<p>为何弱市刮起增持风？</p>
+<p>相关新闻</p>
+<p>01/12 15:06“30微克”的份量--戊型肝炎疫苗自主创新培育纪实01/12 14:09太原疾控中心主任:老人和小孩应享免费流感疫苗01/12 11:58我国研制成功世界首个戊肝疫苗01/12 10:32我国研制成功世界上第一个戊肝疫苗的背后01/12 08:37全球首个戊型肝炎疫苗获准上市01/12 07:27我国自主研发世界首个戊型肝炎疫苗获准上市01/12 07:01我国研制出世界首个戊型肝炎疫苗01/12 06:0812针变成4针 五联疫苗如何减剂次</p>
+<p>相关推荐</p>
+<p>疫苗</p>
+<p>showComment_02(137208310,153)</p>
+<p>自动登录</p>
+<p>                  </p>
+<p>	用户名：</p>
+<p>	密码：</p>
+<p>请在这里发表您个人看法，发言时请遵守法纪注意文明。</p>
+<p>	</p>
+<p>正在验证用户信息...</p>
+<p>var valueofnameinput="用户名/邮箱/手机";</p>
+<p>var valueofpassinout="******";</p>
+<p>	function checkLeaveWord() {</p>
+<p>	var obj = document.getElementById('contentBefore');</p>
+<p>	obj. disabled='disabled';</p>
+<p>	obj.style.background = '#F5F5F5';</p>
+<p>	obj.value = '请登录后再发表评论！';</p>
+<p>	}</p>
+<p>alfdls  您好，欢迎您发表评论！  （言论仅代表会员个人观点，不代表和讯网观点）</p>
+<p>　　中广网河南分网消息　　据光明日报报道：今天从科技部了解到，历经14年研制的“重组戊型肝炎疫苗”获得国家一类新药证书和生产文号，成为世界上第一个用于预防戊型肝炎的疫苗。　　“戊肝”是流行最普遍的病毒性肝炎之一。据世界卫生组织(WHO)估计，全球三分之一的人口曾感染过戊型肝炎病毒，在南亚和东亚每年约发生650万例“戊肝”，导致16万人死亡及2700例胎儿流产。近年来我国“戊肝”发病率逐年上升，已成......</p>
+<p>请在这里发表您个人看法，发言时请遵守法纪注意文明。</p>
+<p>   </p>
+<p>推广</p>
+<p>热点</p>
+<p>热点</p>
+<p>推广</p>
+<p>热点专题</p>
+<p>河南安阳曝出非法集资事件</p>
+<p>巴西超英国成全球第六大经济体 </p>
+<p>十年磨一剑创业板正式推出 创业板主题研讨会 </p>
+<p>五粮液遭证监会立案调查 伯南克连任美联储主席</p>
+<p>家庭理财寻医问诊 中国理财市场一周刊</p>
+<p>2011下半年理财策略 精彩沙龙专家坐堂解读</p>
+<p>[独家]保险发展策--建言保监会新主席项俊波</p>
+<p>[论坛]和讯网2011年银行业战略发展峰会</p>
+<p>原创歌曲晒炒股经历 股市“韭菜姑娘”爆红网络 </p>
+<p>美债危机冲击全球 英国多地发生骚乱 </p>
+<p>感谢您的参与!查看[本文全部评论]</p>
+<p>您已复制了此链接。赶快分享给您的朋友吧！</p>
+<p>#head2010 .navetc{height:27px; overflow:hidden; font-family:"宋体";}</p>
+<p>#head2010 .navL a{ padding:0px 2px;}</p>
+<p>#head2010 .navetc .navL{ width:840px; float:left; padding:3px 0 0 0; height: 52px; border-right:#bebebe 1px solid;} </p>
+<p>#head2010 .navetc .navR{ width:111px; float:right; padding:3px 3px 3px 0; overflow: hidden;}</p>
+<p>#hexunMember_isloginedSetup_span_display_username{ width: 49px; height: 20px; overflow: hidden; text-align: right; padding:0 0 0 8px; margin-right: 5px;}</p>
+<p>#hexunMember_nologinSetup_div_display_nologin{ height: 20px; padding: 1px 0 0 0; line-height: 20px; text-align: center; background: #e8e8e8; overflow:hidden; margin-bottom:3px;}</p>
+<p>#hexunMember_isloginedSetup_div_display{ height: 20px; padding: 1px 0 0 0; line-height: 20px; text-align: center; background: #e8e8e8 }</p>
+<p>#hexunCalendar a,#hexunCalendar a:hover{ color:#C7E1FC;}</p>
+<p>首页-新闻-股票-基金-期货-期指-黄金-外汇-债券-理财-银行-保险-信托-房产-汽车-科技-股吧-论坛-博客-微博-视频-理财服务-Ａ股超市</p>
+<p>var href=window.location.href;   </p>
+<p>hexunMember_loginSetup_signOutURL=href;//登出地址</p>
+<p>hexunMember_loginSetup_noLoginDisplayMsg=""; //没登陆的提示</p>
+<p>hexunMember_loginSetup_noLoginDisplayFlag="|";//登录和注册中间的分隔符号 或 用户名与登出中间的分隔符号，不需要分隔符可以为空</p>
+<p>hexunMember_loginSetup_islogined_isDisplay=true;//如果是登陆状态，true=显示用户名和登出按钮等信息,flase=不显示任何信息</p>
+<p>hexunMember_loginSetup_referrer=document.referrer;//请不要修改此项</p>
+<p>hexunMember_loginSetup_MastLogin=0;//如果需要不登陆就一直弹窗，在此设置一下弹窗时间间隔(秒)。如果等于0本项无效</p>
+<p>设和讯为首页</p>
+<p>手机版</p>
+<p>手机版</p>
+<p>(function(){</p>
+<p>var obj = document.getElementById('phoneNewsText');</p>
+<p>var url = window.location.href;</p>
+<p>if(url.indexOf('news.hexun.com')!=-1) {</p>
+<p>   obj.style.margin = '17px 0 0 20px';</p>
+<p>   obj.innerHTML = '免费手机资讯客户端下载';</p>
+<p>   obj.href = 'http://3g.hexun.com/download_zx.jsp';</p>
+<p>}</p>
+<p>})();</p>
+<p>股票/基金 </p>
+<p>微博 </p>
+<p>新闻 </p>
+<p>博客 </p>
+<p>new hxSuggest('textMessage','http://data.stock.hexun.com/include/AjaxSearch2011.ashx',{contrainer:document.getElementById('standStockPanel')});</p>
+<p>(function(){</p>
+<p>var reg = /^[http:\/\/\w|/w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;</p>
+<p>if(reg.test(window.location.href)){</p>
+<p>    var newNode = document.createElement("div");//创建div</p>
+<p>newNode.className="cabar";</p>
+<p>    var oldNode =document.getElementById("hexunCalendar");//获取div</p>
+<p>newNode.innerHTML = "<div id='hexunCalendar' class='hxcal'></div>";   </p>
+<p>    oldNode.parentNode.replaceChild(newNode,oldNode);//直接替换标签</p>
+<p>var w_div = document.createElement('div');</p>
+<p>w_div.className = 'weather';</p>
+<p>var w_frame = document.createElement('iframe');</p>
+<p>w_frame.width = '100%';</p>
+<p>w_frame.height = '22';</p>
+<p>w_frame.frameBorder = '0';</p>
+<p>w_frame.scrolling = 'no';</p>
+<p>w_frame.allowTransparency = 'true';</p>
+<p>w_frame.style.display = 'none';</p>
+<p>w_frame.src = "http://m.weather.com.cn/m/hexunhead/";</p>
+<p>w_div.appendChild(w_frame);</p>
+<p>newNode.appendChild(w_div); </p>
+<p>if(w_frame.readyState) </p>
+<p>   w_frame.onreadystatechange = function() {</p>
+<p>      if(w_frame.readyState == 'loaded' || w_frame.readyState == 'complete') {</p>
+<p>    w_frame.style.display = '';</p>
+<p>}</p>
+<p>   };</p>
+<p>else </p>
+<p>w_frame.onload = function() {</p>
+<p>    w_frame.style.display = '';</p>
+<p>    };</p>
+<p>}</p>
+<p>})();</p>
+<p> </p>
+<p>滚动　金融资本　国内经济　产业经济　经济史话</p>
+<p>时事　公司新闻　国际经济　生活消费　财经评论</p>
+<p> </p>
+<p>专题　新闻周刊　一周深度　</p>
+<p>图片 </p>
+<p>人物</p>
+<p>话题</p>
+<p> 法律法规　  封面秀　</p>
+<p>  数据 </p>
+<p>访谈</p>
+<p> </p>
+<p>公益　读书　商学院　部委 </p>
+<p>天气　藏品　奢侈品　日历</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-2167933-30");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>和讯恭候您的意见 - </p>
+<p>联系我们 - </p>
+<p>关于我们 - </p>
+<p>广告服务</p>
+<p>(function(){</p>
+<p>if((/^[http:\/\/]*news\.hexun\.com(\/|\/index\.html)*$/).test(window.location.href))</p>
+<p>document.write('<span style="padding-left:18px;">执行主编：姜洪桥</span>');</p>
+<p>})();</p>
+<p>本站郑重声明：和讯公司系政府批准的证券投资咨询机构[ZX0005]。所载文章、数据仅供参考，使用前请核实，风险自负。Copyright© 和讯网 和讯信息科技有限公司 All Rights Reserved 版权所有 复制必究</p>
+<p>if(document.getElementById("shilu")!=null)</p>
+<p>{</p>
+<p>document.getElementById("shilu").style.width="710px";</p>
+<p>}</p>
+<p>function coutLinkFrom(strId,mark,isId,p){</p>
+<p>  var obj = null;</p>
+<p>  if(isId) {</p>
+<p>  if(!document.getElementById(strId)) return;</p>
+<p>  obj = document.getElementById(strId);</p>
+<p>  }</p>
+<p>  else {</p>
+<p>     var parent = (typeof p!='undefined' && document.getElementById(p))?document.getElementById(p):document;</p>
+<p>     var arr = parent.getElementsByTagName('*');</p>
+<p> var classesObj = [];</p>
+<p> for(var i=0,l=arr.length;i<l;i++) {</p>
+<p>   if(arr[i].className && arr[i].className == strId) classesObj.push(arr[i]);</p>
+<p> }</p>
+<p> if(classesObj.length>=1) obj = classesObj[0];</p>
+<p>  }</p>
+<p>  if(obj==null) return;</p>
+<p>  var alist = obj.getElementsByTagName('a');</p>
+<p>  var len = alist.length;</p>
+<p>  for(var i=0;i<len;i++) {</p>
+<p>    if(alist[i].href) {</p>
+<p>   alist[i].href = (alist[i].href.indexOf('?')!=-1)?(alist[i].href+'&'+mark):(alist[i].href+'?'+mark);</p>
+<p>}</p>
+<p>  }</p>
+<p>}</p>
+<p>coutLinkFrom('jjjxmod','fromfunds=jjjx',false,'mainleft');</p>
+<p>coutLinkFrom('yued','fromfunds=tjxd',true);</p>
+<p>(function(){</p>
+<p>  var reg = /^[http:\/\/\w|\w\.*\w|\w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;</p>
+<p>  if(!reg.test(window.location.href)) {</p>
+<p>    document.write('\x3Cscript type="text/javascript" src="http://img.hexun.com/base/version/hx_base.min1.1.js">\x3C/script>'+'\x3Cscript type="text/javascript" src="http://img.hexun.com/share/hxShare2011.js">\x3C/script><link href="http://img.hexun.com/share/hxShare2011.css" type="text/css" rel="stylesheet" />');</p>
+<p>    if(window.attachEvent) window.attachEvent('onload',function() {hxShare2011('');});</p>
+<p>	if(window.addEventListener) window.addEventListener('load',function(){hxShare2011('');},false);</p>
+<p>  }</p>
+<p>})();</p>
+<p>(function(){</p>
+<p>	//全站通发广告</p>
+<p>	var reg=/\/\d{9}(_\d+)?.(html|html\?\w*)$/;		</p>
+<p>	if(reg.test(location.href)){</p>
+<p>		document.write('<script type="text/javascript" src="http://itv.hexun.com/lbi-html/ly/2011/allPages/tempAd.js"><\/script>');</p>
+<p>	}</p>
+<p>})()</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-2167933-30");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>.selected_text { position:absolute; width:84px; height:23px; border:1px solid #DCDCDC; background:#FFF;}</p>
+<p>.selected_text ul {padding-left:8px;}</p>
+<p>.selected_text ul li {float:left; background:url(http://img.hexun.com/img/2011/pup_icon.gif) no-repeat; width:16px; height:16px; margin-right:9px; margin-top:5px; cursor:pointer;}</p>
+<p>.selected_text ul li.text_wb { background-position:0 0;}</p>
+<p>.selected_text ul li.text_pl {background-position:-27px 0;}</p>
+<p>.selected_text ul li.text_jc {background-position:-54px 0;}</p>
+<p>reuters_glos_parseDom('artibody','GlossaryWidget');</p>
+<p>var zero = 0;</p>
+<p>var cmtNum = "0";</p>
+<p>try{</p>
+<p>	if(document.getElementById("commentCount").innerText)</p>
+<p>	cmtNum = document.getElementById("commentCount").innerText ;</p>
+<p>	else if(document.getElementById("commentCount").textContent)</p>
+<p>	cmtNum = document.getElementById("commentCount").textContent;</p>
+<p>	zero = parseInt(cmtNum);</p>
+<p>}catch(e){</p>
+<p>	zero = 0;</p>
+<p>}</p>
+<p>if(document.getElementById("cmtspan"))</p>
+<p>{</p>
+<p>document.getElementById("cmtspan").style.display='';</p>
+<p>if(zero == 0 ) document.getElementById("cmtspan").innerHTML = "欢迎发表评论<span id='commentCount' style='display:none'>0</span>";</p>
+<p>else  document.getElementById("cmtspan").innerHTML = "已有<span id='commentCount'>"+zero+"</span>条评论";</p>
+<p>}</p>
+<p>         function shareyou(){</p>
+<p>			var the_url=window.location.href;</p>
+<p>			if (window.clipboardData) {</p>
+<p>				window.clipboardData.setData("Text", the_url);scall2();</p>
+<p>			} else if (window.netscape) { </p>
+<p>				var d=document.getElementById("invest_s07_31");</p>
+<p>				if(d!=null) {</p>
+<p>					d.innerHTML="请手动复制内容：<br/><input type=text size=40 onfocus='this.select();' style='border:1px solid #cccccc' value='"+the_url+"' />";</p>
+<p>					scall2();</p>
+<p>				}</p>
+<p>			}</p>
+<p>	     	return false;</p>
+<p>         }</p>
+<p>//用于内部图片超宽时,限定图片宽度</p>
+<p>         function resizeImage(){</p>
+<p>	         var seImg=document.getElementById("artibody");</p>
+<p>	         if(seImg!=null){</p>
+<p>	         	var tagNames=seImg.getElementsByTagName("IMG");</p>
+<p>	         	for(var i=0;i<tagNames.length;i++){</p>
+<p>	         		if(tagNames[i].width>580){tagNames[i].width=580}</p>
+<p>	         	}</p>
+<p>	         }</p>
+<p>	       }</p>
+<p>	       resizeImage();</p>
+<p>	       //resizeImage 结束</p>
+<p>/*iframe*/</p>
+<p>var E = function(element) {</p>
+<p>	if(typeof element == "string")</p>
+<p>	element = document.getElementById(element);</p>
+<p>	return element;</p>
+<p>	}</p>
+<p>//字体改变</p>
+<p>function changeSize(size,sizeObj) {</p>
+<p>	var obj = E(sizeObj);</p>
+<p>	obj.style.fontSize = parseInt(size)+"px";</p>
+<p>	obj.style.lineHeight = parseInt(size)+10+"px";</p>
+<p>	}</p>

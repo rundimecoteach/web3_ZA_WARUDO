@@ -1,0 +1,671 @@
+<p>try {</p>
+<p>var MSTAC = new Object();</p>
+<p>MSTAC.murl = "http://m.thehindu.com";</p>
+<p>MSTAC.d = ".thehindu.com";</p>
+<p>if ((document.cookie.search("mstac=desktop") != -1) || (document.cookie.search("mstac_override=1") != -1)) {} else if (window.location.search.search("mstac=0") != -1) {</p>
+<p>document.cookie = 'mstac_override=1; path=/; domain=' + MSTAC.d;</p>
+<p>} else {</p>
+<p>var ms = document.createElement('script'); ms.type = 'text/javascript';</p>
+<p>ms.src = MSTAC.murl + "/m/fastredirect/";</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ms, s);</p>
+<p>}</p>
+<p>} catch(err) {}</p>
+<p>The Hindu : Health / Policy & Issues : Central team examines drug-resistant TB cases</p>
+<p> </p>
+<p> </p>
+<p>$(document).ready(function() {</p>
+<p>//TABS -- MOST POPULAR</p>
+<p>$("#most-tab-header a").click(function () {</p>
+<p>return false;</p>
+<p>});</p>
+<p>$("a#th1").click(function () {</p>
+<p>showTab(1);</p>
+<p>});</p>
+<p>$("a#th2").click(function () {</p>
+<p>showTab(2);</p>
+<p>});</p>
+<p>showTab(1);</p>
+<p>//TABS -- JOBS/REAL ESTATE</p>
+<p>$("#jobs-tab-header a").click(function () {</p>
+<p>return false;</p>
+<p>});</p>
+<p>$("a#th3").click(function () {</p>
+<p>showJTab(3);</p>
+<p>});</p>
+<p>$("a#th4").click(function () {</p>
+<p>showJTab(4);</p>
+<p>});</p>
+<p>showJTab(3);</p>
+<p>//TABS -- BLOG</p>
+<p>$("#blog-tab-header a").click(function () {</p>
+<p>return false;</p>
+<p>});</p>
+<p>$("a#th5").click(function () {</p>
+<p>showBTab(5);</p>
+<p>});</p>
+<p>$("a#th6").click(function () {</p>
+<p>showBTab(6);</p>
+<p>});</p>
+<p>showBTab(5);</p>
+<p>//CAROUSELS</p>
+<p>$('#multimedia-carousel .mycarousel').jcarousel({scroll: 4,visible: 4});</p>
+<p>$('.multimedia-carousel .mycarousel').jcarousel({scroll: 2});</p>
+<p>$('#topics-carousel .mycarousel,#people-carousel .mycarousel,#video-carousel .mycarousel,#photos-carousel .mycarousel').jcarousel({scroll: 5});</p>
+<p>//CSS HELP</p>
+<p>$(".columnists-listing-left a:even").css("padding-right", "25px");</p>
+<p>$(".columnists-listing-left a:odd:not(:last)").after("<div class='line two10'></div>");</p>
+<p>$("#getting-around-links a:even").css("padding-right", "20px");</p>
+<p>$(".life-right .pick:last-child").css({border:"none", margin:"0", padding:"0"});</p>
+<p>});</p>
+<p>function showTab(num) {</p>
+<p>$("#most-tab .tab").css("display", "none");</p>
+<p>$("#most-tab .tab" + num).css("display", "block");</p>
+<p>$("#most-tab-header a").removeClass("active");</p>
+<p>$("#most-tab-header a#th" + num).addClass("active");</p>
+<p>}</p>
+<p>function showJTab(num) {</p>
+<p>$("#jobs-tab .tab").css("display", "none");</p>
+<p>$("#jobs-tab .tab" + num).css("display", "block");</p>
+<p>$("#jobs-tab-header a").removeClass("active");</p>
+<p>$("#jobs-tab-header a#th" + num).addClass("active");</p>
+<p>}</p>
+<p>function showBTab(num) {</p>
+<p>$("#blog-tab .tab").css("display", "none");</p>
+<p>$("#blog-tab .tab" + num).css("display", "block");</p>
+<p>$("#blog-tab-header a").removeClass("active");</p>
+<p>$("#blog-tab-header a#th" + num).addClass("active");</p>
+<p>}</p>
+<p>var _comscore = _comscore || [];</p>
+<p>_comscore.push({ c1: "2", c2: "11398210" });</p>
+<p>(function() {</p>
+<p>var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;</p>
+<p>s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";</p>
+<p>el.parentNode.insertBefore(s, el);</p>
+<p>})();</p>
+<p>(function(d, s, id) {</p>
+<p>var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>if (d.getElementById(id)) return;</p>
+<p>js = d.createElement(s); js.id = id;</p>
+<p>js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";</p>
+<p>fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>Archives</p>
+<p>Subscriptions</p>
+<p>RSS Feeds</p>
+<p>Site Map</p>
+<p>ePaper</p>
+<p>Mobile</p>
+<p>Social</p>
+<p>SEARCH</p>
+<p>Home</p>
+<p>News</p>
+<p>Opinion</p>
+<p>Sport</p>
+<p>Business</p>
+<p>Arts</p>
+<p>Life & Style</p>
+<p>S & T</p>
+<p>Education</p>
+<p>Health</p>
+<p>Jobs</p>
+<p>Classifieds</p>
+<p>Today's Paper</p>
+<p>Topics</p>
+<p>Diet & Nutrition</p>
+<p>Fitness</p>
+<p>Medicine & Research</p>
+<p>Policy & Issues</p>
+<p>Rx</p>
+<p> </p>
+<p>Health</p>
+<p>» Policy & Issues</p>
+<p>Mumbai,</p>
+<p>January 17, 2012</p>
+<p>Central team examines drug-resistant TB cases</p>
+<p>var addthis_pub = "thehindu";</p>
+<p>PTI</p>
+<p>var addthis_config = {</p>
+<p>"data_track_clickback":true, ui_click: true,</p>
+<p>services_compact: 'facebook,twitter, email, favorites, gmail, hotmail, blogger, instapaper, wordpress, more',</p>
+<p>}</p>
+<p> Share  ·  </p>
+<p>print   ·   </p>
+<p>var min=8;</p>
+<p>var max=18;</p>
+<p>var min1=18;</p>
+<p>var max1=24; /* set cookie functions */</p>
+<p>function setCookie (name,value,days) {</p>
+<p>if (days)</p>
+<p>{</p>
+<p>var date = new Date();</p>
+<p>date.setTime(date.getTime()+(days*24*60*60*1000));</p>
+<p>var expires = "; expires="+date.toGMTString();</p>
+<p>}</p>
+<p>else var expires = "";</p>
+<p>document.cookie = name+"="+value+expires+"; path=/";</p>
+<p>}</p>
+<p>function getCookie (name) {</p>
+<p>var nameEQ = name + "=";</p>
+<p>var ca = document.cookie.split(';');</p>
+<p>for(var i=0;i < ca.length;i++)</p>
+<p>{</p>
+<p>var c = ca[i];</p>
+<p>while (c.charAt(0)==' ') c = c.substring(1,c.length);</p>
+<p>if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);</p>
+<p>}</p>
+<p>return null;</p>
+<p>}</p>
+<p>function increaseFontSize() {</p>
+<p>var temp=document.getElementById('inc').innerHTML</p>
+<p>if(temp=="T-")</p>
+<p>decreaseFontSize();</p>
+<p>else</p>
+<p>{</p>
+<p>var p = document.getElementsByTagName('p');</p>
+<p>for(i=0;i<p.length;i++) {</p>
+<p>if(p[i].style.fontSize) {</p>
+<p>var s = parseInt(p[i].style.fontSize.replace("px",""));</p>
+<p>} else {</p>
+<p>var s = 18;</p>
+<p>}</p>
+<p>if(s!=max) {</p>
+<p>s = 18;</p>
+<p>}</p>
+<p>if(p[i].style.lineHeight) {</p>
+<p>var t = parseInt(p[i].style.lineHeight.replace("px","")); } else {</p>
+<p>var t = 24; }</p>
+<p>if(t!=max1) {</p>
+<p>t = 24; } p[i].style.fontSize = s+"px"</p>
+<p>p[i].style.lineHeight = t+"px"</p>
+<p>}</p>
+<p>document.getElementById('inc').innerHTML="T-";</p>
+<p>}</p>
+<p>// save the font size in a cookie for one day</p>
+<p>setCookie('fontsize', s, 1);</p>
+<p>setCookie('lineheight', t, 1);</p>
+<p>}</p>
+<p>function decreaseFontSize() {</p>
+<p>var p = document.getElementsByTagName('p');</p>
+<p>for(i=0;i<p.length;i++) {</p>
+<p>if(p[i].style.fontSize) {</p>
+<p>var s = parseInt(p[i].style.fontSize.replace("px",""));</p>
+<p>} else {</p>
+<p>var s = 14;</p>
+<p>}</p>
+<p>if(s!=min) {</p>
+<p>s =14;</p>
+<p>}</p>
+<p>if(p[i].style.lineHeight) {</p>
+<p>var t = parseInt(p[i].style.lineHeight.replace("px","")); } else {</p>
+<p>var t = 18; }</p>
+<p>if(t!=min1) {</p>
+<p>t = 18; } p[i].style.lineHeight = t+"px"</p>
+<p>p[i].style.fontSize = s+"px"</p>
+<p>} document.getElementById('inc').innerHTML="T+";</p>
+<p>// save the font size in a cookie for one day</p>
+<p>setCookie('fontsize', s, 1);</p>
+<p>setCookie('lineheight', t, 1);</p>
+<p>}</p>
+<p>window.onload = function() {</p>
+<p>// if the cookie exists, restore the variable</p>
+<p>var fontsize = getCookie('fontsize');</p>
+<p>var lineheight = getCookie('lineheight'); if (fontsize) {</p>
+<p>var p = document.getElementsByTagName('p');</p>
+<p>for(i=0;i<p.length;i++) {</p>
+<p>document.getElementsByTagName('p')[i].style.fontSize = fontsize + 'px' }</p>
+<p>}</p>
+<p>if (lineheight) {</p>
+<p>var p = document.getElementsByTagName('p');</p>
+<p>for(i=0;i<p.length;i++) {</p>
+<p>document.getElementsByTagName('p')[i].style.lineHeight = lineheight + 'px' }</p>
+<p>}</p>
+<p>}</p>
+<p>if(getCookie('fontsize') == "18")</p>
+<p>{</p>
+<p><!--</p>
+<p>document.write('<a href="#" onclick="javascript:increaseFontSize();" title="Change Text Size" id="inc">T-</a>&nbsp;&nbsp;');</p>
+<p>--></p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p><!--</p>
+<p>document.write('<a href="#" onclick="javascript:increaseFontSize();" title="Change Text Size" id="inc">T+</a>&nbsp;&nbsp;');</p>
+<p>--></p>
+<p>}</p>
+<p>T+  ·   T-</p>
+<p>  </p>
+<p>AP</p>
+<p>A person suffering from multi-drug-resistant tuberculosis listens to a social worker at his home, on the outskirts of Mumbai on Monday.</p>
+<p>A team of doctors, deputed by the Union Health Ministry, has reached Mumbai to ascertain facts about the reported cases of drug-resistant TB cases. </p>
+<p>The Ministry says the cases should be called ‘Extensively Drug-Resistant TB’ (XDR-TB) and not ‘Totally Drug-Resistant TB’ (TDR-TB) as per WHO norms, an official release said. </p>
+<p>The central team has started analysis of the situation and is in touch with the health authorities of Maharashtra, Mumbai Municipal Corporation, while also involving experts from concerned stake-holders, including the Hinduja Hospital, Mumbai. </p>
+<p>Hinduja hospital is not accredited to diagnose XDR or TDR, the release said. </p>
+<p>“So far as the report from Hinduja Hospital is concerned, this Hospital Laboratory is not accredited by the Revised National Tuberculosis Control Programme, for culture and sensitivity for second line drugs to diagnose Extensively Drug-Resistant (XDR)/Totally Drug-Resistant (TDR) cases and is only accredited for conducting Drug Susceptibility Testing (DST) by liquid culture and sensitivity for first line drug only,” it said. </p>
+<p>Recently, a proposal for accreditation of Line Probe Assay (LPA) test has been received and is under process, it added. </p>
+<p>As of now, the Revised National TB Control Programme has accredited only following three labs for conducting quality- assured second-line anti-TB drug susceptibility testing of flouroquinolones and injectables — National TB Institute (NTI), Bangalore; LRS Institute of TB and Chest Disease, New Delhi, and National Institute of Research in Tuberculosis, Chennai. </p>
+<p>The use of term TDR - Totally Drug-Resistant is non-standardised and misleading, according to the statement. </p>
+<p>The term “totally drug-resistant” tuberculosis is neither recognised by the WHO, nor by the Revised National Tuberculosis Control Programme (RNTCP), it said. </p>
+<p>“For now, these cases are defined as Extensively Drug-Resistant Tuberculosis (XDR-TB), according to WHO definitions, and accordingly, can be managed by national XDR-TB treatment guidelines,” it added. </p>
+<p>Testing for resistance beyond XDR-TB is not advocated by WHO and poor clinical response to treatment has not yet been correlated with diagnosis of drug-resistant TB, without laboratory conformation from Accredited Labs. </p>
+<p>Multi-Drug-Resistant (MDR-TB) is defined as resistance to at least isoniazid and rifampicin (two of the most potent first line anti-TB drugs), with or without resistance to other first-line drugs, it said. </p>
+<p>Extensively, Drug-Resistant TB (XDR-TB) is defined as resistance to at least Rifampicin, Isoniazid (i.e. MDR-TB) plus resistance to any fluoroquinolone, and to any of the 3 second-line injectable drugs (capreomycin, kanamycin and amikacin). </p>
+<p>Current WHO recommendations advise against the use of the Drug Susceptibility Testing (DST) results for second line drugs beyond those used to identify XDR-TB to guide treatment. </p>
+<p>Any type of Drug-Resistant TB can only be diagnosed by Laboratory Test and not by clinical examination alone. </p>
+<p>Preliminary results of second-line DST for MDR-TB patients from DOTS Plus sites and also isolates collected from Gujarat and Maharashtra drug resistance surveys show that there is not yet any XDR-TB among new cases, it said. </p>
+<p>$(function() {</p>
+<p>$('#articleKeywords a').click( function() { var keyword = $(this).text();</p>
+<p>if (keyword.indexOf(' ') != -1)</p>
+<p>$('input#searchString').attr("value", '"' + keyword + '"');</p>
+<p>else</p>
+<p>$('input#searchString').attr("value", keyword);</p>
+<p>$('#simpleSearchForm').submit();</p>
+<p>return false;</p>
+<p>});</p>
+<p>});</p>
+<p>Keywords: Drug-Resistant TB, tuberculosis, Totally Drug-Resistant TB, WHO, Extensively Drug-Resistant TB</p>
+<p> Share</p>
+<p>  </p>
+<p>Tweet </p>
+<p> </p>
+<p>(function() {</p>
+<p>var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>})();</p>
+<p> </p>
+<p>var addthis_config = {</p>
+<p>"data_track_clickback":true, ui_click: true,</p>
+<p>services_compact: 'email, favorites, gmail, hotmail, blogger, instapaper, wordpress, more',</p>
+<p>services_exclude: 'facebook,twitter'</p>
+<p>}</p>
+<p>   </p>
+<p><!--</p>
+<p>// These variables are for maintaining state when using ad skip</p>
+<p>var google_num_ads = 0;</p>
+<p>var google_last_ad_type = '';</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>/*</p>
+<p>* This function is required and is used to display</p>
+<p>* the ads that are returned from the JavaScript</p>
+<p>* request. You should modify the document.write</p>
+<p>* commands so that the HTML they write out fits</p>
+<p>* with your desired ad layout.</p>
+<p>*/</p>
+<p>var s;</p>
+<p>/*</p>
+<p>* Verify that there are actually ads to display.</p>
+<p>*/</p>
+<p>if (google_ads.length == 0)</p>
+<p>return;</p>
+<p>google_num_ads += google_ads.length;</p>
+<p>google_last_ad_type = google_ads[0].type;</p>
+<p>/*</p>
+<p>* If an image or Flash ad is returned, display that ad.</p>
+<p>* If a rich media ad is returned, display that as "as is."</p>
+<p>* Otherwise, build a string containing all of the ads and</p>
+<p>* then use a document.write() command to print that string.</p>
+<p>*/</p>
+<p>s = '<div class="ad_label"><a class="ad_attribution" href="'+</p>
+<p>google_info.feedback_url+'">Ads by Google</a></div>';</p>
+<p>if (google_ads[0].type == "image") {</p>
+<p>s += '<a href="' + google_ads[0].url +</p>
+<p>'" target="_top" title="go to ' + google_ads[0].visible_url +</p>
+<p>'"><img border="0" src="' + google_ads[0].image_url +</p>
+<p>'"width="' + google_ads[0].image_width +</p>
+<p>'"height="' + google_ads[0].image_height + '"></a>';</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "flash") {</p>
+<p>s += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"' +</p>
+<p>' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"' +</p>
+<p>' WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height + '">' +</p>
+<p>'<PARAM NAME="movie" VALUE="' + google_ad.image_url + '">' +</p>
+<p>'<PARAM NAME="quality" VALUE="high">' +</p>
+<p>'<PARAM NAME="AllowScriptAccess" VALUE="never">' +</p>
+<p>'<EMBED src="' + google_ad.image_url +</p>
+<p>'" WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height +</p>
+<p>'" TYPE="application/x-shockwave-flash"' +</p>
+<p>' AllowScriptAccess="never" ' +</p>
+<p>' PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>';</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "html") {</p>
+<p>s += google_ads[0].snippet;</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "text") {</p>
+<p>// Adjust text sizes to occupy the majority of ad space.</p>
+<p>if (google_ads.length == 1) {</p>
+<p>ad_title_class = 'ad_title_large';</p>
+<p>ad_text_class = 'ad_text_large';</p>
+<p>ad_url_class = 'ad_url_large';</p>
+<p>} else {</p>
+<p>ad_title_class = 'ad_title';</p>
+<p>ad_text_class = 'ad_text';</p>
+<p>ad_url_class = 'ad_url';</p>
+<p>}</p>
+<p>for(var i=0; i < google_ads.length; i++) {</p>
+<p>s += '<div class="ad_background"><br><a class="' + ad_title_class + '" href="' + google_ads[i].url + '" >' +</p>
+<p>google_ads[i].line1 + '</a><br><span class="' + ad_text_class + '">' +</p>
+<p>google_ads[i].line2 + ' ' +</p>
+<p>google_ads[i].line3 + '</span><br>' +</p>
+<p>'<a class="' + ad_url_class + '" href="' + google_ads[i].url + '" >' +</p>
+<p>google_ads[i].visible_url + '</a><br></div>';</p>
+<p>}</p>
+<p>}</p>
+<p>document.write(s);</p>
+<p>return;</p>
+<p>}</p>
+<p>// --></p>
+<p><!--</p>
+<p>/*</p>
+<p>* This section is responsible for setting the parameters of the ad call</p>
+<p>* Customize this section to your needs with input from your account manager</p>
+<p>*/</p>
+<p>// The following parameters should be modified appropriately</p>
+<p>google_ad_client = 'ca-hindu_site_html'; // substitute your client_id</p>
+<p>google_ad_channel = 'newth_article_main_text_468x60'; // substitute your channel</p>
+<p>google_ad_output = 'js'; // leave this value as js</p>
+<p>google_max_num_ads = '3'; // specify the number of maximum ads</p>
+<p>google_ad_type = 'text'; // type of ads to display - text,image,flash,html</p>
+<p>google_safe = 'high'; // specify the ad safety</p>
+<p>google_feedback = 'on';</p>
+<p>// The following parameter is required if you are displaying image, Flash or rich media ads.</p>
+<p>google_image_size = '468x60'; // the size of the ad block</p>
+<p>// The following parameters are options you can specify as necessary</p>
+<p>// google_encoding = 'utf8'; // specify the output language of the ads</p>
+<p>// google_language = 'en'; // override the default page language</p>
+<p>// The following parameter should be used only during testing</p>
+<p>// google_adtest = 'on'; // remove this line on launch day</p>
+<p>// --></p>
+<p>Related</p>
+<p>NEWS</p>
+<p>Are the days of incurable diseases really over?  New TB treatment limits infection while reducing drug resistance </p>
+<p>TOPICS</p>
+<p>disease</p>
+<p>tuberculosis</p>
+<p>health</p>
+<p>government health care</p>
+<p>Email the Editor </p>
+<p><!--</p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/pdindthehindu/ROS_MPU7;sz=300x250;ord=' + ord + '?"><\/script>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/pdindthehindu/ROS_MPU1;sz=300x250;ord=' + ord + '?"><\/script>');</p>
+<p>//--></p>
+<p>var zflag_nid="1185"; var zflag_cid="1141"; var zflag_sid="356"; var zflag_width="300"; var zflag_height="250"; var zflag_sz="9"; </p>
+<p><!--</p>
+<p>// These variables are for maintaining state when using ad skip</p>
+<p>var google_num_ads = 0;</p>
+<p>var google_last_ad_type = '';</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>/*</p>
+<p>* This function is required and is used to display</p>
+<p>* the ads that are returned from the JavaScript</p>
+<p>* request. You should modify the document.write</p>
+<p>* commands so that the HTML they write out fits</p>
+<p>* with your desired ad layout.</p>
+<p>*/</p>
+<p>var s;</p>
+<p>/*</p>
+<p>* Verify that there are actually ads to display.</p>
+<p>*/</p>
+<p>if (google_ads.length == 0)</p>
+<p>return;</p>
+<p>google_num_ads += google_ads.length;</p>
+<p>google_last_ad_type = google_ads[0].type;</p>
+<p>/*</p>
+<p>* If an image or Flash ad is returned, display that ad.</p>
+<p>* If a rich media ad is returned, display that as "as is."</p>
+<p>* Otherwise, build a string containing all of the ads and</p>
+<p>* then use a document.write() command to print that string.</p>
+<p>*/</p>
+<p>s = '<div class="ad_label"><a class="ad_attribution" href="'+</p>
+<p>google_info.feedback_url+'">Ads by Google</a></div>';</p>
+<p>if (google_ads[0].type == "image") {</p>
+<p>s += '<a href="' + google_ads[0].url +</p>
+<p>'" target="_top" title="go to ' + google_ads[0].visible_url +</p>
+<p>'"><img border="0" src="' + google_ads[0].image_url +</p>
+<p>'"width="' + google_ads[0].image_width +</p>
+<p>'"height="' + google_ads[0].image_height + '"></a>';</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "flash") {</p>
+<p>s += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"' +</p>
+<p>' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"' +</p>
+<p>' WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height + '">' +</p>
+<p>'<PARAM NAME="movie" VALUE="' + google_ad.image_url + '">' +</p>
+<p>'<PARAM NAME="quality" VALUE="high">' +</p>
+<p>'<PARAM NAME="AllowScriptAccess" VALUE="never">' +</p>
+<p>'<EMBED src="' + google_ad.image_url +</p>
+<p>'" WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height +</p>
+<p>'" TYPE="application/x-shockwave-flash"' +</p>
+<p>' AllowScriptAccess="never" ' +</p>
+<p>' PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>';</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "html") {</p>
+<p>s += google_ads[0].snippet;</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "text") {</p>
+<p>// Adjust text sizes to occupy the majority of ad space.</p>
+<p>if (google_ads.length == 1) {</p>
+<p>ad_title_class = 'ad_title_large';</p>
+<p>ad_text_class = 'ad_text_large';</p>
+<p>ad_url_class = 'ad_url_large';</p>
+<p>} else {</p>
+<p>ad_title_class = 'ad_title';</p>
+<p>ad_text_class = 'ad_text';</p>
+<p>ad_url_class = 'ad_url';</p>
+<p>}</p>
+<p>for(var i=0; i < google_ads.length; i++) {</p>
+<p>s += '<div class="ad_background"><br><a class="' + ad_title_class + '" href="' + google_ads[i].url + '" >' +</p>
+<p>google_ads[i].line1 + '</a><br><span class="' + ad_text_class + '">' +</p>
+<p>google_ads[i].line2 + ' ' +</p>
+<p>google_ads[i].line3 + '</span><br>' +</p>
+<p>'<a class="' + ad_url_class + '" href="' + google_ads[i].url + '" >' +</p>
+<p>google_ads[i].visible_url + '</a><br></div>';</p>
+<p>}</p>
+<p>}</p>
+<p>document.write(s);</p>
+<p>return;</p>
+<p>}</p>
+<p>// --></p>
+<p><!--</p>
+<p>/*</p>
+<p>* This section is responsible for setting the parameters of the ad call</p>
+<p>* Customize this section to your needs with input from your account manager</p>
+<p>*/</p>
+<p>// The following parameters should be modified appropriately</p>
+<p>google_ad_client = 'ca-hindu_site_html'; // substitute your client_id</p>
+<p>google_ad_channel = 'newth_home_sidebar_image_300x250'; // substitute your channel</p>
+<p>google_ad_output = 'js'; // leave this value as js</p>
+<p>google_max_num_ads = '3'; // specify the number of maximum ads</p>
+<p>google_ad_type = 'image'; // type of ads to display - text,image,flash,html</p>
+<p>google_safe = 'high'; // specify the ad safety</p>
+<p>google_feedback = 'on';</p>
+<p>// The following parameter is required if you are displaying image, Flash or rich media ads.</p>
+<p>google_image_size = '300x250'; // the size of the ad block</p>
+<p>// The following parameters are options you can specify as necessary</p>
+<p>// google_encoding = 'utf8'; // specify the output language of the ads</p>
+<p>// google_language = 'en'; // override the default page language</p>
+<p>// The following parameter should be used only during testing</p>
+<p>// google_adtest = 'on'; // remove this line on launch day</p>
+<p>// --></p>
+<p>Slideshow</p>
+<p>Bullish about Jallikattu </p>
+<p>Jallikattu, the adrenaline-pumping, dangerous sport of 'taming' bulls is held in Tamil Nadu annually during the Pongal festival. Young men put themselves at great risk as they try to subdue the bull. Today, a score of contestants were injured. Images from Palamedu, Avaniyapuram and Tiruchi. Compiled by N. Kesavan</p>
+<p>more slideshows</p>
+<p>»</p>
+<p>Your browser does not support iframes.  </p>
+<p>  </p>
+<p>Sudoku - January 17, 2012</p>
+<p> </p>
+<p>A mind game and a puzzle that you solve with reasoning and logic. Fill in the grid with digits in such a manner that every row, every column and every 3x3 box accommodates the digits 1 to 9, without repeating any.</p>
+<p>»</p>
+<p> WikiLeaks fights funding blockadeStarting October 24, the organisation has launched a fund-raising campaign titled "WikiLeaks Needs You." </p>
+<p>Resources</p>
+<p>Capitalism and the production of poverty by UTSA PATNAIK</p>
+<p>A Short Walk to Freedom</p>
+<p>Amendments to Lokpal Bill </p>
+<p>Lokpal and Constitution Amendment Bills</p>
+<p>Rahul Dravid's Bradman Oration</p>
+<p>More Resources »</p>
+<p>Economy Watch (column)</p>
+<p>The industrial downturn Debt as burden The cost of open skies Europe’s financial shadow Interest rates: Breaching the last dyke More » </p>
+<p><!--</p>
+<p>// These variables are for maintaining state when using ad skip</p>
+<p>var google_num_ads = 0;</p>
+<p>var google_last_ad_type = '';</p>
+<p>function google_ad_request_done(google_ads) {</p>
+<p>/*</p>
+<p>* This function is required and is used to display</p>
+<p>* the ads that are returned from the JavaScript</p>
+<p>* request. You should modify the document.write</p>
+<p>* commands so that the HTML they write out fits</p>
+<p>* with your desired ad layout.</p>
+<p>*/</p>
+<p>var s;</p>
+<p>/*</p>
+<p>* Verify that there are actually ads to display.</p>
+<p>*/</p>
+<p>if (google_ads.length == 0)</p>
+<p>return;</p>
+<p>google_num_ads += google_ads.length;</p>
+<p>google_last_ad_type = google_ads[0].type;</p>
+<p>/*</p>
+<p>* If an image or Flash ad is returned, display that ad.</p>
+<p>* If a rich media ad is returned, display that as "as is."</p>
+<p>* Otherwise, build a string containing all of the ads and</p>
+<p>* then use a document.write() command to print that string.</p>
+<p>*/</p>
+<p>s = '<div class="ad_label"><a class="ad_attribution" href="'+</p>
+<p>google_info.feedback_url+'">Ads by Google</a></div>';</p>
+<p>if (google_ads[0].type == "image") {</p>
+<p>s += '<a href="' + google_ads[0].url +</p>
+<p>'" target="_top" title="go to ' + google_ads[0].visible_url +</p>
+<p>'"><img border="0" src="' + google_ads[0].image_url +</p>
+<p>'"width="' + google_ads[0].image_width +</p>
+<p>'"height="' + google_ads[0].image_height + '"></a>';</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "flash") {</p>
+<p>s += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"' +</p>
+<p>' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"' +</p>
+<p>' WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height + '">' +</p>
+<p>'<PARAM NAME="movie" VALUE="' + google_ad.image_url + '">' +</p>
+<p>'<PARAM NAME="quality" VALUE="high">' +</p>
+<p>'<PARAM NAME="AllowScriptAccess" VALUE="never">' +</p>
+<p>'<EMBED src="' + google_ad.image_url +</p>
+<p>'" WIDTH="' + google_ad.image_width +</p>
+<p>'" HEIGHT="' + google_ad.image_height +</p>
+<p>'" TYPE="application/x-shockwave-flash"' +</p>
+<p>' AllowScriptAccess="never" ' +</p>
+<p>' PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>';</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "html") {</p>
+<p>s += google_ads[0].snippet;</p>
+<p>}</p>
+<p>else if (google_ads[0].type == "text") {</p>
+<p>// Adjust text sizes to occupy the majority of ad space.</p>
+<p>if (google_ads.length == 1) {</p>
+<p>ad_title_class = 'ad_title_large';</p>
+<p>ad_text_class = 'ad_text_large';</p>
+<p>ad_url_class = 'ad_url_large';</p>
+<p>} else {</p>
+<p>ad_title_class = 'ad_title';</p>
+<p>ad_text_class = 'ad_text';</p>
+<p>ad_url_class = 'ad_url';</p>
+<p>}</p>
+<p>for(var i=0; i < google_ads.length; i++) {</p>
+<p>s += '<div class="ad_background"><br><a class="' + ad_title_class + '" href="' + google_ads[i].url + '" >' +</p>
+<p>google_ads[i].line1 + '</a><br><span class="' + ad_text_class + '">' +</p>
+<p>google_ads[i].line2 + ' ' +</p>
+<p>google_ads[i].line3 + '</span><br>' +</p>
+<p>'<a class="' + ad_url_class + '" href="' + google_ads[i].url + '" >' +</p>
+<p>google_ads[i].visible_url + '</a><br></div>';</p>
+<p>}</p>
+<p>}</p>
+<p>document.write(s);</p>
+<p>return;</p>
+<p>}</p>
+<p>// --></p>
+<p><!--</p>
+<p>/*</p>
+<p>* This section is responsible for setting the parameters of the ad call</p>
+<p>* Customize this section to your needs with input from your account manager</p>
+<p>*/</p>
+<p>// The following parameters should be modified appropriately</p>
+<p>google_ad_client = 'ca-hindu_site_html'; // substitute your client_id</p>
+<p>google_ad_channel = 'newth_home_sidebar_text_300x250'; // substitute your channel</p>
+<p>google_ad_output = 'js'; // leave this value as js</p>
+<p>google_max_num_ads = '3'; // specify the number of maximum ads</p>
+<p>google_ad_type = 'text'; // type of ads to display - text,image,flash,html</p>
+<p>google_safe = 'high'; // specify the ad safety</p>
+<p>google_feedback = 'on';</p>
+<p>// The following parameter is required if you are displaying image, Flash or rich media ads.</p>
+<p>google_image_size = '300x250'; // the size of the ad block</p>
+<p>// The following parameters are options you can specify as necessary</p>
+<p>// google_encoding = 'utf8'; // specify the output language of the ads</p>
+<p>// google_language = 'en'; // override the default page language</p>
+<p>// The following parameter should be used only during testing</p>
+<p>// google_adtest = 'on'; // remove this line on launch day</p>
+<p>// --></p>
+<p>Follow @The_Hindu</p>
+<p>Social</p>
+<p>Please remember to logout of facebook after you complete this session.</p>
+<p>Today's Paper </p>
+<p>ePaper</p>
+<p>This Day That Age</p>
+<p>Crossword</p>
+<p>Archives</p>
+<p>Obituary</p>
+<p>Group Sites</p>
+<p>The Hindu</p>
+<p>Business Line Sportstar</p>
+<p>Images</p>
+<p>Frontline</p>
+<p>About Us</p>
+<p>Contacts</p>
+<p>Archives</p>
+<p>Subscriptions</p>
+<p>RSS Feeds</p>
+<p>Site Map</p>
+<p>Home</p>
+<p>News</p>
+<p>Opinion</p>
+<p>Sport</p>
+<p>Business</p>
+<p>Arts</p>
+<p>Life & Style</p>
+<p>S & T</p>
+<p>Education</p>
+<p>Health</p>
+<p>Jobs</p>
+<p>Classifieds</p>
+<p>Today's Paper</p>
+<p>Topics</p>
+<p>Group Sites</p>
+<p>The Hindu</p>
+<p>Business Line</p>
+<p>Sportstar</p>
+<p>Frontline</p>
+<p>Publications</p>
+<p>eBooks</p>
+<p>Images</p>
+<p>Disclaimer: The Hindu is not responsible for the content of external internet sites.</p>
+<p>Republication or redissemination of the contents of this screen are</p>
+<p>expressly prohibited without the written consent of The Hindu.</p>
+<p>Comments to : web.thehindu@thehindu.co.in</p>
+<p>  Copyright © 2012, The Hindu</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-10158580-1");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>//<![CDATA[</p>
+<p>var clientDT = new Date().getTime();</p>
+<p>document.write('<img src="http://www.thehindu.com/eae-logger/Logger?rt=1&ctxId=595&pubId=4&cat=&meta=&type=article&objId=2808498&title=Central+team+examines+drug-resistant+TB+cases&url=http%3a%2f%2fwww.thehindu.com%2fhealth%2fpolicy-and-issues%2farticle2808498.ece&amp;clientDT=' + clientDT + '" alt="" width="1" height="1"/>');</p>
+<p>//]]></p>

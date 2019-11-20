@@ -1,0 +1,186 @@
+<p>Governor undergoes heart surgery</p>
+<p>	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>	</p>
+<p>	try {</p>
+<p>	var pageTracker = _gat._getTracker("UA-2326030-1");</p>
+<p>	pageTracker._trackPageview();</p>
+<p>	} catch(err) {}</p>
+<p>	</p>
+<p>  var _comscore = _comscore || [];</p>
+<p>  _comscore.push({ c1: "2", c2: "12295759" });</p>
+<p>  (function() {</p>
+<p>    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;</p>
+<p>    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";</p>
+<p>    el.parentNode.insertBefore(s, el);</p>
+<p>  })();</p>
+<p>  </p>
+<p>                //load the slideshow content</p>
+<p>                var sSlideshowContent="&#60;&#35;&#35;&#35;&#35;REPLACE_WITH_SLIDESHOW_CONTENT_VALUE&#35;&#35;&#35;&#35;&#62;";</p>
+<p>                //current index of the image array</p>
+<p>                currentIndx=0;</p>
+<p>                //array of images</p>
+<p>                MyImages=new Array();</p>
+<p>                //array of messages</p>
+<p>                Messages=new Array();</p>
+<p>                if(sSlideshowContent.length>0)</p>
+<p>                {</p>
+<p>                        //split on #{}{!!}#</p>
+<p>                        var aImageDetails = sSlideshowContent.split("#{}{!!}#");</p>
+<p>                        var i=0;</p>
+<p>                        for(i=0; i<aImageDetails.length; i++)</p>
+<p>                        {</p>
+<p>                                if(aImageDetails[i].length>0)</p>
+<p>                                {</p>
+<p>                                        //split each string for image path and abstract</p>
+<p>                                        var aImagePathDesc=aImageDetails[i].split("#|{=@@=}|#");</p>
+<p>                                        //create the image and messages array</p>
+<p>                                        MyImages[i]=aImagePathDesc[0];</p>
+<p>                                        Messages[i]=aImagePathDesc[1];</p>
+<p>                                }</p>
+<p>                        }</p>
+<p>                }</p>
+<p>                //create an array with all the images preloaded</p>
+<p>                imagesPreloaded = new Array();</p>
+<p>                for (var i = 0; i < MyImages.length ; i++)</p>
+<p>                {</p>
+<p>                        imagesPreloaded[i] = new Image(120,120);</p>
+<p>                        imagesPreloaded[i].src=MyImages[i];</p>
+<p>                }</p>
+<p>        </p>
+<p>#Layer1 { position:absolute; top:3px; width:180px; height:125px; z-index:100; border:0px solid red;}</p>
+<p>#polliframe {height: 250px;}</p>
+<p>#masthead .mm1 {color:#fff; background-color:#515151;}</p>
+<p>#masthead .subnav .sm1 {background-color:#999; border-bottom:2px solid #000; color:#fff;}</p>
+<p>				ajaxinclude("/adcode/adcode728.php?section=news&subsection=mumbai")</p>
+<p>			</p>
+<p>EpaperLetter to EditorAdvertise</p>
+<p>		You are here: </p>
+<p>		Home ></p>
+<p>		Mumbai > </p>
+<p>		Governor undergoes heart surgery</p>
+<p>Share</p>
+<p>					   tweetmeme_style = 'compact';  </p>
+<p>					   tweetmeme_source = 'mid_day'; </p>
+<p>					</p>
+<p>							addthis_pub             = 'vikasb';</p>
+<p>							addthis_logo            = 'http://www.addthis.com/images/yourlogo.png';</p>
+<p>							addthis_logo_background = 'EFEFFF';</p>
+<p>							addthis_logo_color      = '666699';</p>
+<p>							addthis_brand           = 'midday';</p>
+<p>							addthis_options         = 'favorites, digg, delicious, myspace, facebook, google, live, more';</p>
+<p>						</p>
+<p>Governor undergoes heart surgery</p>
+<p>By: Correspondent</p>
+<p> </p>
+<p>Date: </p>
+<p>							2012-01-12</p>
+<p> </p>
+<p>Place: Mumbai</p>
+<p>						google_ad_client = 'pub-1915524449051254'; </p>
+<p>						google_ad_channel = '8098728168';</p>
+<p>						google_ad_output = 'js';</p>
+<p>						google_max_num_ads = '1';</p>
+<p>						google_ad_type = 'text_html';</p>
+<p>						google_image_size = '670x30';</p>
+<p>						google_feedback = 'on';</p>
+<p>						google_skip = google_adnum; </p>
+<p>						</p>
+<p>							google_ad_client = 'pub-1915524449051254'; </p>
+<p>							google_ad_channel = '7567718249';</p>
+<p>							google_ad_output = 'js';</p>
+<p>							google_max_num_ads = '1';</p>
+<p>							google_ad_type = 'text_html';</p>
+<p>							google_image_size = '234x60';</p>
+<p>							google_feedback = 'on';</p>
+<p>							google_skip = google_adnum; </p>
+<p>							</p>
+<p> ;</p>
+<p>				//Other stories from the same section</p>
+<p>				//get the xml path</p>
+<p>				var sPath= location.href;</p>
+<p>				var aPath = sPath.split('//');</p>
+<p>				if(aPath[1].length>0)</p>
+<p>				{</p>
+<p>				var aDomainDet = aPath[1].split('/');</p>
+<p>				var sXmlPath="";</p>
+<p>				for (var i=1;i<aDomainDet.length;i++)</p>
+<p>				{</p>
+<p>				if(i>0 && i<aDomainDet.length-1)</p>
+<p>				{</p>
+<p>				sXmlPath+=aDomainDet[i]+'/';</p>
+<p>				}else if(i>0)</p>
+<p>				{</p>
+<p>				sXmlPath+=aDomainDet[i].replace('.htm','.xml');</p>
+<p>				}</p>
+<p>				}</p>
+<p>				}</p>
+<p>				var iframeSource = "/other_articles_same_section_pV.php?path="+sXmlPath;</p>
+<p>				if ((navigator.appName.indexOf("Microsoft") != -1) || (navigator.userAgent.toLowerCase().indexOf('firefox')))</p>
+<p>				{</p>
+<p>				document.write("<IFRAME id=\"otherstories\" scrolling=\"no\" name=\"otherstories\" width=\"234\" height=\"300\" frameborder=\"0\" src="+iframeSource+" class=\"othstories\"></IFRAME><BR>");</p>
+<p>				}</p>
+<p>				else</p>
+<p>				{</p>
+<p>				document.write("<!-- //-->");</p>
+<p>				}</p>
+<p>				</p>
+<p>Governor for Maharashtra and Goa K Sankaranarayanan underwent a two-hour-long surgery at Bombay hospital yesterday, to clear the 90 per cent blockage that had been found in his carotid artery.According to officials from Raj Bhavan, the governor complained of giddiness on Monday, after which senior cardiologist Dr B K Goyal was called in to the Raj Bhavan to conduct an examination. Dr Goyal sent Sankaranarayanan for a detailed examination and tests at Bombay hospital, on the basis of which he was recommended surgery.On the road recovery: According to officials from Raj Bhavan, the governor complained of giddiness on Monday, after which he was recommended surgery. He is recuperating. FILE PICSpeaking to MiD DAY, Goyal said, "The MRI scan showed that 90 percent of his left carotid artery was blocked. Instead of performing an angioplasty, we decided to go for surgical correction. The surgery was a success." A panel of experts led by Dr Goyal and cardiac surgeon Dr S Bhattacharya conducted the surgery."The governor will be kept under observation till Sunday. He has already started showing signs of improvement," said Goyal.A senior Raj Bhavan official added, "The governor was given the additional charge of Goa on September 8 last year. For the last two weeks, he has been travelling extensively."Chief Minister Prithviraj Chavan gave the governor's family company while the surgery was being performed. Other senior political leaders, including Goa Chief Minister Digambar Kamath, PWD Minister Chhagan Bhujbal and Kripashnakar Singh, also visited the hospital.Sankaranarayanan was scheduled to leave for Delhi to meet the President and Prime Minister on Tuesday, but the programme got cancelled. He was also scheduled to host a dinner in honour of visiting Trinidad and Tobago Prime Minister Kamla Persad-Bissessar, at Raj Bhavan today, but this event was also cancelled. </p>
+<p>Share</p>
+<p>					   tweetmeme_style = 'compact';  </p>
+<p>					   tweetmeme_source = 'mid_day'; </p>
+<p>					</p>
+<p>							addthis_pub             = 'vikasb';</p>
+<p>							addthis_logo            = 'http://www.addthis.com/images/yourlogo.png';</p>
+<p>							addthis_logo_background = 'EFEFFF';</p>
+<p>							addthis_logo_color      = '666699';</p>
+<p>							addthis_brand           = 'midday';</p>
+<p>							addthis_options         = 'favorites, digg, delicious, myspace, facebook, google, live, more';</p>
+<p>						</p>
+<p>var zflag_nid="1353"; var zflag_cid="36/32"; var zflag_sid="0"; var zflag_width="468"; var zflag_height="60"; var zflag_sz="0";</p>
+<p>	var facebookXdReceiverPath = 'http://www.mid-day.com/xd_receiver.htm'</p>
+<p>Your view on this story </p>
+<p>		  // var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] </p>
+<p>		  </p>
+<p>		  (function() {</p>
+<p>		   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;</p>
+<p>		   dsq.src = 'http://midday.disqus.com/embed.js';</p>
+<p>		   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);</p>
+<p>		  })();</p>
+<p>		  Please enable JavaScript to view the comments powered by Disqus.</p>
+<p>blog comments powered by Disqus</p>
+<p>HOME</p>
+<p>NEWS</p>
+<p>ENTERTAINMENT</p>
+<p>SEX & RELATIONSHIPS</p>
+<p>FEATURES</p>
+<p>SPORTS</p>
+<p>GALLERY</p>
+<p>				ajaxinclude("/adcode/adcode300_top.php?section=news&subsection=mumbai")</p>
+<p>			</p>
+<p>			var sSection ="News";</p>
+<p>			/*document.domain="mid-day.com";</p>
+<p>			function resizer(ht)</p>
+<p>			{</p>
+<p>				i = document.getElementById('polliframe');</p>
+<p>				i.style.height = "200px";</p>
+<p>				i.style.height = ht + 5 + "px";</p>
+<p>			}</p>
+<p>			*/</p>
+<p>			if ((navigator.appName.indexOf("Microsoft") != -1) || (navigator.userAgent.toLowerCase().indexOf('firefox')))</p>
+<p>			{ </p>
+<p>				document.write("<IFRAME id=\"polliframe\" scrolling=\"no\" name=\"polliframe\"  height=\"350\" width=\"300\" frameborder=\"0\" src=\"http://poll.mid-day.com/index.php?section="+sSection+"&amp; height=\"\" ></IFRAME><BR>");</p>
+<p>			}</p>
+<p>			else</p>
+<p>			{ </p>
+<p>				document.write("<!-- //-->");</p>
+<p>			}</p>
+<p>			//--></p>
+<p>		</p>
+<p>				ajaxinclude("/adcode/adcode300_bottom.php?section=news&subsection=mumbai")</p>
+<p>			</p>
+<p>//Call this function to start the loading of slideshow automatically</p>
+<p>automatically();</p>
+<p>var zflag_nid="1353"; var zflag_cid="2"; var zflag_sid="0"; var zflag_width="1"; var zflag_height="1"; var zflag_sz="15"; </p>
+<p>	document.write('<img src="http://b.scorecardresearch.com/p?c1=2&c2=12295759&cv=2.0&cj=1" />');</p>
+<p>	</p>

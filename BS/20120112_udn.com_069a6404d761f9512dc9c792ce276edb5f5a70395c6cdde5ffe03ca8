@@ -1,0 +1,686 @@
+<p>過年看醫師 健保局告訴你上哪找 | 醫藥新聞 | 健康醫藥 | 聯合新聞網</p>
+<p> </p>
+<p>var $jq = jQuery.noConflict();</p>
+<p>$jq(document).ready(function(){</p>
+<p>						   </p>
+<p>	// 主選單</p>
+<p>	$jq("#sidemenu li").hover(</p>
+<p>		function() { $jq(this).addClass("iehover"); },</p>
+<p>		function() { $jq(this).removeClass("iehover"); }</p>
+<p>	);</p>
+<p>	</p>
+<p>	// 取消超連結的虛線框</p>
+<p>	$jq('a').focus(function(){</p>
+<p>		this.blur();</p>
+<p>	});</p>
+<p>	</p>
+<p>});</p>
+<p><!--</p>
+<p>function MM_jumpMenu(targ,selObj,restore){ //v3.0</p>
+<p>  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");</p>
+<p>  if (restore) selObj.selectedIndex=0;</p>
+<p>}</p>
+<p>//--></p>
+<p>影音│行動│理財│追星│時尚│電子報│數位閱讀│資料庫│Blog│便利貼│求職求才│購物•udn 買東西│招募夥伴</p>
+<p><!--</p>
+<p>function chkform() {</p>
+<p>   document.sform1.Keywords.value=document.sform1.q.value;  //update by  kuai for  google search</p>
+<p>  if(document.sform1.Keywords.value == "") return;</p>
+<p>  if(document.getElementById("search_type").value == "udndata" )</p>
+<p>	document.sform1.action = "http://data.udn.com/data/Search";</p>
+<p>  else</p>
+<p>	document.sform1.action = "http://udn.com/search/";</p>
+<p>  document.sform1.submit();</p>
+<p>}</p>
+<p>//--></p>
+<p>web</p>
+<p>udn</p>
+<p>歷史新聞</p>
+<p><!--</p>
+<p>// 選單數目</p>
+<p>var nav_item = 10;</p>
+<p>function nav_show(lv)</p>
+<p>{</p>
+<p>	if(document.getElementById(lv))</p>
+<p>	{</p>
+<p>		document.getElementById(lv).style.display='block';</p>
+<p>	}</p>
+<p>	</p>
+<p>	for(var i=1;i<nav_item+1;i++)</p>
+<p>	{</p>
+<p>		if(document.getElementById("sub_" + i) && "sub_" + i != lv)</p>
+<p>		{</p>
+<p>			document.getElementById("sub_" + i).style.display='none';</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>--></p>
+<p>減肥塑身</p>
+<p>•享瘦秘訣</p>
+<p>•健康甩肉法</p>
+<p>•肥胖副作用</p>
+<p>•正確減肥觀</p>
+<p>•盲目減肥</p>
+<p>•苗條菜單</p>
+<p>•明星享瘦</p>
+<p>•真人實事</p>
+<p>健康話題</p>
+<p>•全「心」護健康</p>
+<p>•骨質疏鬆症</p>
+<p>•預防子宮頸癌趁現在</p>
+<p>•輻射危害人體</p>
+<p>•護齒俱樂部</p>
+<p>•疝氣真痛苦</p>
+<p>•愛肝加油站</p>
+<p>•愛眼小百科</p>
+<p>•憂鬱與自殺</p>
+<p>•愛護腎功能</p>
+<p>美容養生</p>
+<p>•微整流行風</p>
+<p>•膳食養生</p>
+<p>•飲食停看聽</p>
+<p>•名人談養生</p>
+<p>•要活就要動</p>
+<p>•肌膚保養</p>
+<p>•整形美容</p>
+<p>•名人談美容</p>
+<p>•美胸upup</p>
+<p>•秀髮如絲</p>
+<p>醫藥中心</p>
+<p>•團隊治療護一生</p>
+<p>•診間心情</p>
+<p>•健保資訊</p>
+<p>•醫界話題</p>
+<p>•百病漫談</p>
+<p>•用藥停看聽</p>
+<p>•中醫精髓</p>
+<p>•求醫知識+</p>
+<p>•醫藥新知</p>
+<p>•法律規定</p>
+<p>癌症防治</p>
+<p>•防癌全攻略</p>
+<p>•大腸直腸癌</p>
+<p>•婦科癌症</p>
+<p>•肺癌</p>
+<p>•肝癌</p>
+<p>•胃癌</p>
+<p>•認識癌症</p>
+<p>•標靶治療</p>
+<p>•乳癌</p>
+<p>•淋巴癌</p>
+<p>兩性健康</p>
+<p>•性福人生</p>
+<p>•女人話題</p>
+<p>•婦科看診室</p>
+<p>•男人大哉問</p>
+<p>•感情困擾多</p>
+<p>•激情後遺症</p>
+<p>•不孕怎麼辦</p>
+<p>•更年期變化</p>
+<p>•愛愛也要安全</p>
+<p>•愛滋病防治</p>
+<p>親子寶貝</p>
+<p>•孩子的成長</p>
+<p>•孕婦媽媽經</p>
+<p>•孩子的飲食</p>
+<p>•小心腸病毒</p>
+<p>•娃娃的小腦袋</p>
+<p>•成功親子術</p>
+<p>•疼愛祖父母</p>
+<p>•生育率真低</p>
+<p>•學武術過暑假</p>
+<p>•了解唇顎裂</p>
+<p>生活話題</p>
+<p>•坑人黑心貨</p>
+<p>•家變與職變</p>
+<p>•最新詐術大觀</p>
+<p>•老照片說故事</p>
+<p>•樂活人生</p>
+<p>•衛生面面觀</p>
+<p>內容導覽</p>
+<p>•線上投稿</p>
+<p>•訪客留言</p>
+<p>•RSS訂閱</p>
+<p>•投票結果</p>
+<p>•作者一覽</p>
+<p>•文章排行</p>
+<p>•責任編輯：楊玲</p>
+<p>udn / 健康醫藥 / 醫藥新聞</p>
+<p><!--</p>
+<p>if (window.navigator.userAgent.indexOf("MSIE")>=1) {</p>
+<p>	//如果瀏覽器是IE</p>
+<p>	setActiveStyleSheet("sidemenu_IE.css");</p>
+<p>} else {</p>
+<p>	//如果瀏覽器是其他</p>
+<p>	setActiveStyleSheet("sidemenu_FF.css");</p>
+<p>}</p>
+<p>function setActiveStyleSheet(title){ </p>
+<p>  document.write('<link href="/2010/css/'+title+'" rel="stylesheet" type="text/css">');  </p>
+<p>}</p>
+<p>//--></p>
+<p>最新 | 發燒 | 哇新聞</p>
+<p>  var ur = document.URL;</p>
+<p>  var urArr = ur.split("/");</p>
+<p>  var urKey = urArr[urArr.length-1];</p>
+<p>  if (urKey == "" || urKey.indexOf("index") != -1) {}</p>
+<p>  else {</p>
+<p>    document.write("| 字級：<a href=\"javascript:chgFontSize('1');\"><img id=\"fs1\" border=\"0\" align=\"absmiddle\" src=\"/2010/images/fontsize_1.gif\"></a> <a href=\"javascript:chgFontSize('2');\"><img id=\"fs2\" border=\"0\" align=\"absmiddle\" src=\"/2010/images/fontsize_2.gif\"></a> <a href=\"javascript:chgFontSize('3');\"><img id=\"fs3\" border=\"0\" align=\"absmiddle\" src=\"/2010/images/fontsize_3.gif\"></a> <a href=\"javascript:chgFontSize('4');\"><img id=\"fs4\" border=\"0\" align=\"absmiddle\" src=\"/2010/images/fontsize_4.gif\"></a>");</p>
+<p>  }</p>
+<p>請選擇---<醫藥新聞>相關新聞</p>
+<p>新訊》罹癌重生 90歲單國璽活出精彩</p>
+<p>感冒糖漿惹禍 攝護腺更肥大</p>
+<p>三總、台科大合作 開發新微創手術訓練系統</p>
+<p>防流感  彰縣增克流感合約點</p>
+<p>貧血  小心大腸癌上身</p>
+<p>過年看醫師 健保局告訴你上哪找</p>
+<p>醫院掛紅布條 這兒有公費克流感</p>
+<p>流感發威 高市1周爆增23例</p>
+<p>小心B型流感 台南增14重症</p>
+<p>走不出迷網路 恐怖情人生病了</p>
+<p>流感猖獗 專家籲手背接觸、勤洗手</p>
+<p>當心選前症候群 醫師提醒健康為重</p>
+<p>乾眼病患增 醫師：注意濕度、多休息</p>
+<p>外配帶子越南探親 2童染登革熱</p>
+<p>喉返神經偵測治甲狀腺結節 女高音照飆聲</p>
+<p>幼童常見3類型結膜炎來襲</p>
+<p>流感病例倍增 買年貨穿保暖</p>
+<p>行動醫院生力軍 讓健檢無障礙</p>
+<p>過年看醫師 健保局告訴你上哪找</p>
+<p>【聯合報╱記者張嘉芳／台北報導】</p>
+<p>2012.01.12 02:09 am</p>
+<p> </p>
+<p>春節九天長假將至，期間生病該怎麼辦？健保局表示，近期將陸續彙整特約醫療院所的開診時間，提供民眾網路查詢。此外，春節旅遊遇分娩或緊急傷病，卻未帶健保卡就醫者，七日內可攜健保卡至原診治醫院申請退費。</p>
+<p>健保局醫管組組長蔡淑鈴表示，自費就診應於七日退費，例假日不計。一旦超過退費期限，民眾雖可至全台健保分局辦理；不過，健保局只能核退健保給付金額部分；若醫療院所預收額高於健保給付標準，民眾就需自行吸收差額。如，感冒自墊費五百元，健保局可能只退三百元；不過，若在七日內在原診治醫療院所退費，就不會有差額的困擾。</p>
+<p>另外，生產與緊急傷病就醫在非健保特約的醫療機構就診時，不論國內外，都要記得保存好收據，於六個月內檢附自墊醫療費用退費申請書、收據正本及費用明細、診斷書或證明文件，及出入境證明文件等資料，向投保單位所在地的健保局轄區業務組辦理退費。</p>
+<p>為方便民眾看診，近日全國九千多家的健保特約醫療院所將整理春節期間的看診時間，相關訊息會刊登在健保局網站，提供民眾春節就醫查詢。（http://www.nhi.gov.tw/Query/query14.aspx?menu=18&menu_id=683&WD_ID=751）截至昨日為止，已有1493家醫院登錄看診資訊，民眾若有疑慮，亦可撥打健保服務專線0800-030598，含春節期間上午九時至下午五時皆有專人回答。   </p>
+<p>.mpromote {	font-family: Arial;	font-size: 12pt;	margin: 0;	padding: 0;	}</p>
+<p>A.mpromote:link {	color:#2d4b92;	text-decoration: none; }</p>
+<p>A.mpromote:visited {	color:#2d4b92;	text-decoration: none;}</p>
+<p>A.mpromote:hover, A.mpromote:active, A.mpromote:focus { 	text-decoration: none;}</p>
+<p>Titles = new Array('<a href="http://www.ezding.com.tw/udn/welcome.do" target=_blank>買票省很大 網路電影票優惠下殺</a>', '<a href="http://m.udn.com" target=_blank><font color="#ff8000">m.udn.com</font>最麻吉的口袋媒體，最適合手機瀏覽的網站</a>', '<a href="http://m.udn.com" target=_blank>手機在我手，新聞跟著走　<font color="#ff8000">m.udn.com</font>提供您最豐富的新聞資訊！</a>', '<a href="http://m.udn.com" target=_blank>捷運族注意！每日新鮮事，盡在<font color="#ff8000">m.udn.com</font>！</a>', '<a href="http://zh-tw.facebook.com/myudn" target=_blank>快按讚加入<font color="#ff8000">udn粉絲團</font>，udn寶寶陪你看新聞！</a>', '<a href="http://zh-tw.facebook.com/myudn" target=_blank>「讚」出來！加入<font color="#ff8000">udn粉絲團</font>，看看網友怎麼說！</a>', '<a href="http://zh-tw.facebook.com/myudn" target=_blank>非「讚」不可！歡迎加入<font color="#ff8000">udn粉絲團</font>，新聞你HOLD住！</a>', '<a href="http://reading.udn.com/newspaper/index.html" target=_blank>報紙的數位閱讀，PC+iPad版一次擁有 ！</a>', '<a href="http://reading.udn.com/act/20120111/index.html" target=_blank>udn線上電子書展，揪甘心大回饋！超殺折扣、獨家好禮，龍底加！</a>', '<a href="http://reading.udn.com/act/20120111/pod_01.html" target=_blank>花現鬼太郎在udn個人出版，全館消費滿額送特展門票</a>', '<a href="http://reading.udn.com/act/20120111/index.html" target=_blank>買電子書、雜誌和報紙，抽平板電腦、送購物金、送展覽門票</a>');</p>
+<p>Id = Math.floor(Math.random()*Titles.length);</p>
+<p>document.write("<font class='mpromote'>"+Titles[Id]+"</font>");</p>
+<p>【2012/01/12 聯合報】@ http://udn.com/</p>
+<p>jQuery("#fs1").bind("mouseenter",function() {</p>
+<p>  this.src='/2010/images/fontsize_1o.gif'</p>
+<p>});</p>
+<p>jQuery("#fs2").bind("mouseenter",function() {</p>
+<p>  this.src='/2010/images/fontsize_2o.gif'</p>
+<p>});</p>
+<p>jQuery("#fs3").bind("mouseenter",function() {</p>
+<p>  this.src='/2010/images/fontsize_3o.gif'</p>
+<p>});</p>
+<p>jQuery("#fs4").bind("mouseenter",function() {</p>
+<p>  this.src='/2010/images/fontsize_4o.gif'</p>
+<p>});</p>
+<p>function GetCkValue( name ) {</p>
+<p>  var dc=document.cookie;</p>
+<p>  var prefix=name+"=";</p>
+<p>  var begin=dc.indexOf("; "+prefix);</p>
+<p>  if (begin==-1) begin=dc.indexOf(prefix);</p>
+<p>  else begin+=2;</p>
+<p>  if (begin==-1) return "";</p>
+<p>  var end=document.cookie.indexOf(";",begin);</p>
+<p>  if(end==-1) end=dc.length;</p>
+<p>  return dc.substring(begin+prefix.length,end);</p>
+<p>}</p>
+<p>function setCookie(name,value,expiresOrNot,path,domain,secure,flag){</p>
+<p>  var url=document.URL;</p>
+<p>  var howLong=new Date();</p>
+<p>  howLong.setFullYear(howLong.getFullYear()+1);</p>
+<p>  var curCookie=name+"="+escape(value) +</p>
+<p>  ((expiresOrNot)?";expires="+howLong.toGMTString():"") +</p>
+<p>  ((path)?";path="+path:"") +</p>
+<p>  ((domain)?";domain="+domain:"") +</p>
+<p>  ((secure)?";secure":"");</p>
+<p>  document.cookie=curCookie;</p>
+<p>  if(flag!="null")history.go(0);</p>
+<p>}</p>
+<p>if (GetCkValue("FontSize")!="") {</p>
+<p>  var fs = GetCkValue("FontSize");</p>
+<p>  chgFontSize(fs);</p>
+<p>}</p>
+<p>else {</p>
+<p>  var fs = 2;</p>
+<p>  chgFontSize(fs);</p>
+<p>}</p>
+<p>function chgFontImg(size) {</p>
+<p>  jQuery("#fs4").attr("src","/2010/images/fontsize_4.gif");</p>
+<p>  jQuery("#fs3").attr("src","/2010/images/fontsize_3.gif");</p>
+<p>  jQuery("#fs2").attr("src","/2010/images/fontsize_2.gif");</p>
+<p>  jQuery("#fs1").attr("src","/2010/images/fontsize_1.gif");</p>
+<p>  jQuery("#fs4").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_4.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs3").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_3.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs2").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_2.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs1").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_1.gif'</p>
+<p>  });</p>
+<p>  if (size == "4") {</p>
+<p>    jQuery("#fs4").attr("src","/2010/images/fontsize_4o.gif");</p>
+<p>    jQuery("#fs4").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_4o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>  if (size == "3") {</p>
+<p>    jQuery("#fs3").attr("src","/2010/images/fontsize_3o.gif");</p>
+<p>    jQuery("#fs3").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_3o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>  if (size == "2") {</p>
+<p>    jQuery("#fs2").attr("src","/2010/images/fontsize_2o.gif");</p>
+<p>    jQuery("#fs2").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_2o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>  if (size == "1") {</p>
+<p>    jQuery("#fs1").attr("src","/2010/images/fontsize_1o.gif");</p>
+<p>    jQuery("#fs1").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_1o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>}</p>
+<p>function chgFontSize(size) {</p>
+<p>  if (size == "4") {</p>
+<p>    jQuery("div#story").css("font-size","20px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>   // jQuery("div.menu_block > span").each(function () { jQuery(this).css("font-size","12pt")});</p>
+<p>    chgFontImg("4");</p>
+<p>    setCookie("FontSize","4",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>  else if (size == "3") {</p>
+<p>    jQuery("div#story").css("font-size","18px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>    chgFontImg("3");</p>
+<p>    setCookie("FontSize","3",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>  else if (size == "2") {</p>
+<p>    jQuery("div#story").css("font-size","15px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>    chgFontImg("2");</p>
+<p>    setCookie("FontSize","2",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    jQuery("div#story").css("font-size","13px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>    chgFontImg("1");</p>
+<p>    setCookie("FontSize","1",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>}</p>
+<p>//jQuery(document).ready(function() {</p>
+<p>//  jQuery(".content_hot").append("<div id='dignews'></div>");</p>
+<p>//});</p>
+<p>function rId() {</p>
+<p>  var url=window.location.toString();</p>
+<p>  var ary=url.split("/")</p>
+<p>  var page=ary[ary.length-1];</p>
+<p>  if (page.indexOf("_") != -1) {</p>
+<p>    _ary=page.split("_");</p>
+<p>    var DigId=_ary[0];</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    var ary2=page.split(".");</p>
+<p>    var DigId=ary2[0];</p>
+<p>  }</p>
+<p>  return DigId;</p>
+<p>}</p>
+<p>function InitDig(page) {</p>
+<p>  DigId = rId();</p>
+<p>  jQuery(".content_hot").append("<div id='dignews'></div>");</p>
+<p>  jQuery("#dignews").html("<center><img src='/images/forumimg/images/loading2.gif?1x'><br /><br /><font style='font-weight:bolder;font-size:16px'>討論區塊載入中</font></center>");</p>
+<p>  if (page == "") page = 1;</p>
+<p>  setTimeout("ShowDigContent("+DigId+",'b',"+page+")",100);</p>
+<p>  ShowDigCount();</p>
+<p>}</p>
+<p>function ShowDig(page) {</p>
+<p>  DigId = rId();</p>
+<p>  jQuery("#dignews").html("<center><img src='/images/forumimg/images/loading2.gif?xx'><br /><br /><font style='font-weight:bolder;font-size:16px'>討論區塊載入中</font></center>");</p>
+<p>  if (page == "") page = 1;</p>
+<p>  setTimeout("ShowDigContent("+DigId+",'a',"+page+")",100);</p>
+<p>}</p>
+<p>function ShowDigCount() {</p>
+<p>  DigId = rId();</p>
+<p>  var htmlContent = jQuery.ajax({</p>
+<p>    url: "/forum/postn.jsp?news_id="+DigId,</p>
+<p>    async: true,</p>
+<p>    success: function(html){</p>
+<p>     jQuery("#postn").html(html);</p>
+<p>    },</p>
+<p>    error: function() {}</p>
+<p>  });</p>
+<p>}</p>
+<p>function ef() {</p>
+<p>  DigId = rId();</p>
+<p>  window.location.href="http://forum.udn.com/forum/letter.jsp?newsid="+DigId;</p>
+<p>}</p>
+<p>function ShowDigContent(DigId,TUrl,page) {</p>
+<p>  //var htmlContent = </p>
+<p>  jQuery.ajax({</p>
+<p>    url: "/forum/post"+TUrl+".jsp?news_id="+DigId+"&currentPage="+page,</p>
+<p>    async: true,</p>
+<p>    success: function(html){</p>
+<p>      jQuery("#dignews").hide();</p>
+<p>      jQuery("#dignews").html(html);</p>
+<p>      jQuery("#dignews").toggle('slow');</p>
+<p>    },</p>
+<p>    error: function() {}</p>
+<p>  });</p>
+<p>  // 要判斷  success 才SHOW or IE6 will hang</p>
+<p>  //.responseText;</p>
+<p>}</p>
+<p>jQuery(document).ready(function() {</p>
+<p>  ShowDigCount();</p>
+<p> if (  $jq.browser.msie && $jq.browser.version == '6.0' )  {</p>
+<p>   // InitDig(1); </p>
+<p> }else {InitDig(1); }</p>
+<p>});</p>
+<p><!--</p>
+<p>function MM_openBrWindow(theURL,winName,features) { //v2.0</p>
+<p>window.open(theURL,winName,features);</p>
+<p>}</p>
+<p>String.prototype.trim = function() {</p>
+<p>	return this.replace(/^\s+|\s+$/g,"");</p>
+<p>}</p>
+<p>String.prototype.ltrim = function() {</p>
+<p>	return this.replace(/^\s+/,"");</p>
+<p>}</p>
+<p>String.prototype.rtrim = function() {</p>
+<p>	return this.replace(/\s+$/,"");</p>
+<p>}</p>
+<p>function openWin3(url) {</p>
+<p>    window.open(url,'','');</p>
+<p>}</p>
+<p>function searchKeyWord() {</p>
+<p>    var txt = '';</p>
+<p>     if (window.getSelection) {</p>
+<p>        txt = window.getSelection();</p>
+<p>    } else if (document.getSelection) {</p>
+<p>        txt = document.getSelection();</p>
+<p>    } else if (document.selection) {</p>
+<p>        txt = document.selection.createRange().text;</p>
+<p>    }</p>
+<p>	if (txt == "")</p>
+<p>		window.open('http://data.udn.com/images/news2data/history.html','history','height=580,width=500,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');</p>
+<p>	else {</p>
+<p>		if(confirm("您要查詢的關鍵字是(" + txt+")"))</p>
+<p>			openWin3("http://data.udn.com/data/Search?Keywords="+txt);</p>
+<p>	}</p>
+<p>}</p>
+<p>//--></p>
+<p>歷史新聞</p>
+<p>displayTrackBackMenu()</p>
+<p>轉寄</p>
+<p>列印</p>
+<p>討論</p>
+<p>推薦</p>
+<p>   </p>
+<p>相關新聞：</p>
+<p>請選擇---<醫藥新聞>相關新聞</p>
+<p>新訊》罹癌重生 90歲單國璽活出精彩</p>
+<p>感冒糖漿惹禍 攝護腺更肥大</p>
+<p>三總、台科大合作 開發新微創手術訓練系統</p>
+<p>防流感  彰縣增克流感合約點</p>
+<p>貧血  小心大腸癌上身</p>
+<p>過年看醫師 健保局告訴你上哪找</p>
+<p>醫院掛紅布條 這兒有公費克流感</p>
+<p>流感發威 高市1周爆增23例</p>
+<p>小心B型流感 台南增14重症</p>
+<p>走不出迷網路 恐怖情人生病了</p>
+<p>流感猖獗 專家籲手背接觸、勤洗手</p>
+<p>當心選前症候群 醫師提醒健康為重</p>
+<p>乾眼病患增 醫師：注意濕度、多休息</p>
+<p>外配帶子越南探親 2童染登革熱</p>
+<p>喉返神經偵測治甲狀腺結節 女高音照飆聲</p>
+<p>幼童常見3類型結膜炎來襲</p>
+<p>流感病例倍增 買年貨穿保暖</p>
+<p>行動醫院生力軍 讓健檢無障礙</p>
+<p>歷史新聞   轉寄   列印   討論   　　</p>
+<p>  var aurl=window.location.href;</p>
+<p>  //var aurl="http://forum.udn.com/forum/NewsLetter/NewsPreview?Encode=utf-8&NewsID="+rId();</p>
+<p>  var ii=aurl.indexOf("#");</p>
+<p>   if ( ii != -1 ) { </p>
+<p>     aurl=aurl.substring(0,ii);</p>
+<p>   }</p>
+<p>     document.write("<iframe src=\"http://www.facebook.com/plugins/like.php?href="+aurl+"&amp;layout=button_count&amp;locale=zh_TW&amp;show_faces=true&amp;width=90&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=80\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:120px; height:22px;\" allowTransparency=\"true\"></iframe>");</p>
+<p>  新聞臉譜</p>
+<p>(投下你對這則新聞的感覺)</p>
+<p>直接看結果 </p>
+<p> </p>
+<p>社 群 回 應</p>
+<p>(function(d, s, id) {</p>
+<p>				    </p>
+<p>					var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>					if (d.getElementById(id)) {return;}</p>
+<p>					js = d.createElement(s); js.id = id;</p>
+<p>					js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";</p>
+<p>					fjs.parentNode.insertBefore(js, fjs);</p>
+<p>					}(document, 'script', 'facebook-jssdk'));</p>
+<p>			</p>
+<p>相 關 BLOG</p>
+<p>udn 粉絲團</p>
+<p> </p>
+<p>好友分享</p>
+<p> </p>
+<p>訂閱電子報</p>
+<p> </p>
+<p>udn健康報e報</p>
+<p>常春EverGreen</p>
+<p>晨星生活元氣報</p>
+<p>健康e世界</p>
+<p>人類智庫健康生活周報</p>
+<p>RICH達人生活網電子報</p>
+<p>講義雜誌電子報</p>
+<p>柿子文化心靈養生報</p>
+<p>大家健康悅讀電子報</p>
+<p>愛生活手記</p>
+<p> </p>
+<p>刊登網站廣告︱網站總覽︱FAQ•客服︱新聞授權︱著作權•隱私權聲明︱聯合報系︱訂報紙︱關於我們︱招募夥伴</p>
+<p>Copyright © 2010 udn.com  All Rights Reserved.</p>
+<p><!--</p>
+<p>if(isMenu){</p>
+<p>document.write("<SCRIPT SRC='../../2010hierSetEnvstory.js'><\/SCRIPT>");</p>
+<p>document.write("<SCRIPT SRC='../../hierArrays.js'><\/SCRIPT>");</p>
+<p>document.write("<SCRIPT LANGUAGE='JavaScript' SRC='../../hierIE_2010.js'><\/SCRIPT>");</p>
+<p>}</p>
+<p>//--></p>
+<p>function getByteLength(str){</p>
+<p>  var iCount = 0;</p>
+<p>  for( k=0; k<str.length; k++ ) {</p>
+<p>    c = str.charCodeAt(k);</p>
+<p>    if ( c>=32 && c<=126 ) iCount++;</p>
+<p>    else iCount += 2;</p>
+<p>  }</p>
+<p>  return iCount;</p>
+<p>}</p>
+<p>function getSubString(str,maxwclength) {</p>
+<p>  var iCount = 0;</p>
+<p>  for( k=0; k<str.length; k++ ) {</p>
+<p>    c = str.charCodeAt(k);</p>
+<p>    if ( c>=32 && c<=126 ) iCount++;</p>
+<p>    else iCount += 2;</p>
+<p>    if (iCount > maxwclength) {</p>
+<p>      str = str.substr(0,k) + "...";</p>
+<p>      break;</p>
+<p>    }</p>
+<p>  }</p>
+<p>  return str;</p>
+<p>}</p>
+<p>//這裡使用 rId function 是否存在來判斷是否是在內文頁中。所以沒有include gsg 會不作。</p>
+<p>	if (typeof($jq) != "undefined" && typeof window.rId == 'function' ) {</p>
+<p>          //內文頁</p>
+<p>$jq('table.border tr td table tr:nth-child(10) td').each(function() {</p>
+<p>       $jq(this).attr("align","left"); </p>
+<p>});</p>
+<p>/* 2012 01 02 fix story 內含table 會不完整問題!!</p>
+<p>$jq('table.border tr td table tr:nth-child(6)').each(function() {</p>
+<p>     $jq(this).hide();</p>
+<p>     $jq(this).attr("id","embs2") ;</p>
+<p>});</p>
+<p>*/</p>
+<p>$jq('table.border tr td table tr:nth-child(5) td:nth-child(1) table ').each(function() {</p>
+<p>   if ( ! $jq.browser.webkit )    $jq(this).hide();</p>
+<p>     $jq(this).attr("id","embs2") ;</p>
+<p>});</p>
+<p>if ( ! $jq.browser.webkit ){ //fix author vanished on chrome!!</p>
+<p>$jq('table.border tr td table tr:nth-child(9) td').each(function() {</p>
+<p>     $jq(this).attr("id","linedot") ;</p>
+<p>     $jq(this).empty() ;</p>
+<p>});</p>
+<p>}</p>
+<p>if ( $jq.browser.webkit){ //for google chrome</p>
+<p>/*</p>
+<p>$jq('table.border tr td table tr td table tr td table tr:conddtains("story_author")').each(function() {</p>
+<p>     $jq(this).attr("id","embauth") ;</p>
+<p>});</p>
+<p>*/</p>
+<p>//table.border tr td table tr td table tr </p>
+<p>var is=0;</p>
+<p>$jq('table.border tr td table tr td table tr td').each(function() {</p>
+<p>     if ( $jq(this).html().match("linedot")  ) {</p>
+<p>       is++;</p>
+<p>      if (is==2) $jq(this).hide();</p>
+<p>     }</p>
+<p>});</p>
+<p>$jq('table.border tr td table tr td table tr td table tr').each(function() {</p>
+<p>     if ( $jq(this).html().match("letter.jsp") && $jq(this).html().match("push.gif") ) {</p>
+<p>     $jq(this).hide();</p>
+<p>     }</p>
+<p>});</p>
+<p>} //end of webkit</p>
+<p>  </p>
+<p>         var cc='--';</p>
+<p>		var str="";</p>
+<p>		var selects=$jq("#jumpMenu option");</p>
+<p>		var rlimit=20;</p>
+<p>                var displaynum=7;</p>
+<p>                //var bgimg='/2010/images/list_bg.gif';</p>
+<p>                var bgimg='/img/more_bg.gif';</p>
+<p>                 if ( location.href.indexOf("ENTERTAINMENT") > 0 ){</p>
+<p>                    bgimg='/img/more_bg_star.gif';</p>
+<p>                 }</p>
+<p>                 if ( location.href.indexOf("FUND") > 0 || location.href.indexOf("FINANCE") > 0 || location.href.indexOf("STOCK") > 0 ){</p>
+<p>                    bgimg='/img/more_bg_money.gif';</p>
+<p>                 }</p>
+<p>        var maxwclength = 36;         </p>
+<p>        var rlimit=20;</p>
+<p>aa='<div id="news_area" style="border-bottom: 1px dotted #CCCCCC;background: url('+bgimg+') repeat-x scroll left top transparent;height:206px;width:548px;padding-bottom:6px">';</p>
+<p>aa=aa+'<div id="related_news"  style="border-right: 1px solid #CCCCCC;    display: block;float:left;height:204px;position: relative;width: 269px;">';</p>
+<p>	aa=aa+'<div class="news_head" style="float:left;color: #FFFFFF;display:block;font-size: 15px;font-weight: bold;height:28px;margin-bottom:5px;padding:3px 0 0 10px;width: 261px;" ><div class="more"  style="float:right;padding-right: 10px;padding-top: 0px;" ><a href="index.shtml"><img src="/2010MAIN/img/more.gif" height="21" width="39"  border="0"></a></div>相 關 新 聞</div>';</p>
+<p>	aa=aa+'<dl>';</p>
+<p>        var jj=0;</p>
+<p>	for (var i=1;i<rlimit;i++){</p>
+<p>         if (selects[i] != undefined){</p>
+<p>         var textnode=selects[i].lastChild;</p>
+<p>                 descstr=textnode.nodeValue;</p>
+<p>         if ( (i>1) && (selects[i].value == selects[0].value ||  i > rlimit ) )  break;</p>
+<p>          if (getByteLength(descstr) > maxwclength ){</p>
+<p>                             descstr = getSubString(descstr,maxwclength);</p>
+<p>          }</p>
+<p>         var regex = /》/;</p>
+<p>         if ( descstr.match (regex)) {</p>
+<p>         }</p>
+<p>         else{</p>
+<p>           </p>
+<p>	 aa=aa+'<dd >•<a href="'+selects[i].value+'" class="story_category" style="font-size:13px;line-height:23px" >'+descstr+'</a></dd>';</p>
+<p>            jj++;</p>
+<p>           if ( jj >= displaynum ) break; </p>
+<p>        }</p>
+<p> 	}</p>
+<p>       }</p>
+<p>	aa=aa+'</dl>';</p>
+<p>	aa=aa+'</div>';</p>
+<p>aa=aa+'<div id="hot_news" style="display: block;float:left; position:relative;width: 273px; height:200px" >';</p>
+<p>    if (  $jq.browser.msie && $jq.browser.version == '6.0' )  {   </p>
+<p>	aa=aa+'<div class="news_head" style="float:left;color: #FFFFFF;display:block;font-size: 15px;font-weight: bold;height:28px;margin-bottom:5px;padding:3px 0 0 10px;width: 261px;" ><div class="more" style="float:right;padding-right: 10px;padding-top: 0px;"><a href="http://dignews.udn.com/forum/udnnews/news_hot.jsp?type=daily&from=story" target="_blank"><img src="/2010MAIN/img/more.gif" height="21" width="39" border="0"></a></div>發 燒 新 聞</div>';</p>
+<p>   }else{</p>
+<p>	aa=aa+'<div class="news_head" style="float:left;color: #FFFFFF;display:block;font-size: 15px;font-weight: bold;height:28px;margin-bottom:5px;padding:3px 0 0 10px;width: 269px;" ><div class="more" style="float:right;padding-right: 10px;padding-top: 0px;"><a href="http://dignews.udn.com/forum/udnnews/news_hot.jsp?type=daily&from=story" target="_blank"><img src="/2010MAIN/img/more.gif" height="21" width="39" border="0"></a></div>發 燒 新 聞</div>';</p>
+<p>   }</p>
+<p>        aa=aa+'<dl>';</p>
+<p>	aa=aa+'</dl>';	</p>
+<p>	aa=aa+'</div>';</p>
+<p>	aa=aa+'</div>';</p>
+<p>              if ( $jq("#adsense") != undefined ) $jq(aa).insertBefore( $jq("#adsense"));</p>
+<p>		$jq("#other table").css('display','none');</p>
+<p>    if (  $jq.browser.msie && $jq.browser.version == '6.0' )  {   </p>
+<p>         $jq.ajax({</p>
+<p>            url: "/2010MAIN/inc/focus_hot7.html",</p>
+<p>              success: function(data){</p>
+<p>                     $jq('#hot_news').toggle();</p>
+<p>                     $jq('#hot_news').append(data);</p>
+<p>                     $jq('#hot_news').toggle();</p>
+<p>            }</p>
+<p>        });</p>
+<p>     }else{</p>
+<p>           $jq.ajax({</p>
+<p>            url: "/2010MAIN/inc/focus_hot7.html",</p>
+<p>              success: function(data){</p>
+<p>                     $jq('#hot_news').toggle();</p>
+<p>                     $jq('#hot_news').append(data);</p>
+<p>                     $jq('#hot_news').toggle();</p>
+<p>            }</p>
+<p>        });</p>
+<p>     }</p>
+<p>	}</p>
+<p>        else{</p>
+<p>              var kk="<div id=\"wicon\" style=\"display:block;width:300px\"><iframe id=\"wiconif\" style=\"padding:0px;display:none\" witdth=\"200\" height=\"25\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"  src=\"/w/s.php?s\" ></iframe></div>";</p>
+<p>          //首頁才放~</p>
+<p>          if(window.location.href.indexOf("/NEWS/main") != -1) {</p>
+<p>                 document.write(kk);</p>
+<p>                 y=$('#infobar').css('top');</p>
+<p>                 x=$('#infobar').css('left');</p>
+<p>                 nx=parseInt(x.replace('px',''))+568;</p>
+<p>                 nx=nx+"px";</p>
+<p>                 </p>
+<p>                 p=$('#infobar').css('position');</p>
+<p>                     $('#wicon').css('top',y); </p>
+<p>                     $('#wicon').css('left',nx); </p>
+<p>                     $('#wicon').css('position',p); </p>
+<p>                     $('#wicon').insertAfter("#infobar"); </p>
+<p>                    // $('#wicon').toggle(); </p>
+<p>                     //$('#wiconif').toggle(1800); </p>
+<p>         }</p>
+<p>        }</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-19660006-1']);</p>
+<p>  _gaq.push(['_setDomainName', '.udn.com']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>  var _comscore = _comscore || [];</p>
+<p>  _comscore.push({ c1: "2", c2: "7390954" });</p>
+<p>  (function() {</p>
+<p>    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;</p>
+<p>    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";</p>
+<p>    el.parentNode.insertBefore(s, el);</p>
+<p>  })();</p>
+<p>/*</p>
+<p>var objtext;</p>
+<p>if ( objtext=document.getElementById('search_kw') ){</p>
+<p>	objtext.value="落點分析";</p>
+<p>	objtext.style.color = "#999999";</p>
+<p>	objtext.onclick = function(){</p>
+<p>		KwCheckClear();</p>
+<p>	};</p>
+<p>}</p>
+<p>function KwCheckClear(){</p>
+<p>	if ( objtext=document.getElementById('search_kw') ){</p>
+<p>		if( objtext.value == "落點分析" ){</p>
+<p>			objtext.value="";</p>
+<p>		}</p>
+<p>		objtext.style.color = "#000000";</p>
+<p>	}else{</p>
+<p>		return;</p>
+<p>	}</p>
+<p>}*/</p>
+<p>  if ( window.location.href.indexOf("/NEWS/main") == -1 ) {</p>
+<p>    document.write("<script src='https://apis.google.com/js/plusone.js'><\/script>");</p>
+<p>  }</p>

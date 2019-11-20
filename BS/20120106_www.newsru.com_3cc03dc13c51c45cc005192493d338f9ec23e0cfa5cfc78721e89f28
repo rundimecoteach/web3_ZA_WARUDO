@@ -1,0 +1,310 @@
+<p>Новости NEWSru.com :: Воры вернули "Олимпию" Рене Магритта после  двухлетних тщетных попыток продать картину</p>
+<p><!--</p>
+<p>browser = (</p>
+<p>	((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 ))</p>
+<p>	||</p>
+<p>	((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 ))</p>
+<p>	||</p>
+<p>	((navigator.appName == "Opera") && (parseInt(navigator.appVersion) >= 7 ))</p>
+<p>);</p>
+<p>imgon=new Array();</p>
+<p>imgoff=new Array();</p>
+<p>list = new Array("allnews","1","2","3","7","4","5","6","msc","inopress","zagolovkiru","realty","techno","auto","medicine");</p>
+<p>for(i = 1; i <= list.length; i++){</p>
+<p>	imgon["m"+i] = new Image();</p>
+<p>	imgon["m"+i].src = "http://static.newsru.com/img/menu_v/"+list[i-1]+"a.gif";</p>
+<p>	imgoff["m"+i] = new Image();</p>
+<p>	imgoff["m"+i].src = "http://static.newsru.com/img/menu_v/"+list[i-1]+".gif";</p>
+<p>}</p>
+<p>imageRef="document.images";</p>
+<p>function msover(which) {</p>
+<p>	if (browser) {</p>
+<p>		eval(imageRef + '["' + which + '"].src = imgon[which].src');</p>
+<p>	}</p>
+<p>}</p>
+<p>function msout(which) {</p>
+<p>	if (browser) {</p>
+<p>		eval(imageRef + '["' + which + '"].src = imgoff[which].src');</p>
+<p>	}</p>
+<p>}</p>
+<p>// --></p>
+<p>(function(){var j=128476,f=false,b=document,c=b.documentElement,e=window;function g(){var a="";a+="rt="+(new Date).getTime()%1E7*100+Math.round(Math.random()*99);a+=b.referrer?"&r="+escape(b.referrer):"";return a}function h(){var a=b.getElementsByTagName("head")[0];if(a)return a;for(a=c.firstChild;a&&a.nodeName.toLowerCase()=="#text";)a=a.nextSibling;if(a&&a.nodeName.toLowerCase()!="#text")return a;a=b.createElement("head");c.appendChild(a);return a}function i(){var a=b.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("src","http://c.luxup.ru/t/lb"+j+".js?"+g());typeof a!="undefined"&&h().appendChild(a)}function d(){if(!f){f=true;i()}};if(b.addEventListener)b.addEventListener("DOMContentLoaded",d,false);else if(b.attachEvent){c.doScroll&&e==e.top&&function(){try{c.doScroll("left")}catch(a){setTimeout(arguments.callee,0);return}d()}();b.attachEvent("onreadystatechange",function(){b.readyState==="complete"&&d()})}else e.onload=d})();</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=183090&target=top&bt=43&pz=0&tail256=');</p>
+<p>var img = new Image();</p>
+<p>img.src = 'http://www.tns-counter.ru/V13a***' + document.referrer.replace(/\*/g,'%2a') + '*newsru_ru/ru/CP1251/tmsec=newsru_total/';</p>
+<p><!--</p>
+<p>d=document;a='';a+=';r='+escape(d.referrer)</p>
+<p>js=10//--><!--</p>
+<p>a+=';j='+navigator.javaEnabled()</p>
+<p>js=11//--><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)</p>
+<p>js=12//--><!--</p>
+<p>js=13//--><!--</p>
+<p>d.write('<img src="http://top.list.ru/counter'+</p>
+<p>'?id=91013;js='+js+a+';rand='+Math.random()+</p>
+<p>'" height=1 width=1>')</p>
+<p>if(js>11)d.write('<'+'!-- ')//--><!--</p>
+<p>if(js>11)d.write('--'+'>')//--></p>
+<p><!--</p>
+<p>document.write('<img src="http://counter.yadro.ru/hit?r'+</p>
+<p>escape(document.referrer)+((typeof(screen)=='undefined')?'':</p>
+<p>';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+</p>
+<p>';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+</p>
+<p>'" width=1 height=1 alt="">')//--></p>
+<p>    (function(w, n) {</p>
+<p>        w[n] = w[n] || [];</p>
+<p>        w[n].push(function() {</p>
+<p>            Ya.Context.AdvManager.render({</p>
+<p>                blockId: "R-43120-1",</p>
+<p>                renderTo: "yandex_ad_R-43120-1",</p>
+<p>                async: false</p>
+<p>            }/*, callback function*/);</p>
+<p>        });</p>
+<p>        document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>    })(this, "yandexContextSyncCallbacks");</p>
+<p> NEWSru.com  // Кино, музыка, шоу-бизнес</p>
+<p>//</p>
+<p>Пятница, 6 января 2012 г.</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>var addate = new Date(); </p>
+<p>var scrheight = '', scrwidth = '';</p>
+<p>if (self.screen) {</p>
+<p>scrwidth = screen.width;</p>
+<p>scrheight = screen.height;</p>
+<p>} else if (self.java) {</p>
+<p>var jkit = java.awt.Toolkit.getDefaultToolkit();</p>
+<p>var scrsize = jkit.getScreenSize();</p>
+<p>scrwidth = scrsize.width;</p>
+<p>scrheight = scrsize.height;</p>
+<p>}</p>
+<p>document.write('<iframe src="http://ads.adfox.ru/715/getCode?p1=enx&amp;p2=tt&amp;p3=a&amp;p4=a&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr + '&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;pdw=' + scrwidth + '&amp;pdh=' + scrheight + '" frameBorder="0" width="125" height="217" marginWidth="0" marginHeight="0" scrolling="no" style="border: 0px; margin: 0px; padding: 0px;"><a href="http://ads.adfox.ru/715/goDefaultLink?p1=enx&amp;p2=tt" target="_top"><img src="http://ads.adfox.ru/715/getDefaultImage?p1=enx&amp;p2=tt" border="0" alt=""><\/a><\/iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>document.write('<SCR'+'IPT SRC="http://ads.vidigital.ru/ttj?id=980208&cb='+(Math.random()*1000000000000000000)+'" TYPE="text/javascript"></SCR'+'IPT>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=besds&amp;p2=enhd&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date();</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/715/prepareCode?p1=dsa&amp;p2=ql&amp;pucn=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;py=a&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=besdu&amp;p2=enhd&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Воры вернули "Олимпию" Рене Магритта после  двухлетних тщетных попыток продать картину</p>
+<p>			время публикации: 6 января 2012 г., 11:10</p>
+<p>			последнее обновление: 6 января 2012 г., 11:27</p>
+<p>			</p>
+<p>Картина бельгийского сюрреалиста Рене Магритта "Олимпия",  украденная из его дома-музея в Брюсселе в сентябре 2009 была возвращена похитителями, отчаявшимися продать ее, сообщает "Интерфакс". </p>
+<p>Французское телевидение сообщило, что похитители вручили картину, на которой изображена обнаженная женщина на берегу моря, бельгийскому эксперту предметов искусства Жанпьету Калленсу. Воры объяснили, что не смогли сбыть полотно основоположника сюрреализма на черном рынке, так как оно  слишком хорошо известно. Стоимость "Олимпии" оценивается в более чем 3 миллиона евро.</p>
+<p>Как отмечается, эксперт передал картину в полицию, а грабители</p>
+<p>бесследно исчезли. Как отмечает РИА "Новости" со ссылкой на местные СМИ, в ближайшее время полотно, вероятно, вновь займет место в экспозиции. </p>
+<p>При похищении картины преступники действовали дерзко. Они вошли в музей вскоре после открытия и, угрожая оружием, заставили нескольких посетителей, среди которых были два японских туриста, встать на колени рядом со стеной, а затем беспрепятственно похитили "Олимпию". Вместе с картиной они скрылись на автомобиле, который ждал их около входа в музей.</p>
+<p>"Два человека, внешность одного из которых была азиатского типа, вооруженные пистолетом, ворвались в музей в 10:00 утра. При этом один из них говорил по-французски, а другой - по-английски", - сообщил тогда Андре Гаритта, хранитель музея Магритта.</p>
+<p>Музей расположен в северном районе Брюсселя - в квартире, где на протяжении многих лет проживал сам художник вместе со своей женой Жоржеттой.</p>
+<p>Магритт написал картину "Олимпия" в 1947 году. На полотне размером 60 на 80 сантиметров изображена обнаженная Жоржетта, на животе которой лежит морская раковина.</p>
+<p><!--</p>
+<p>if (navigator.appName != 'Microsoft Internet Explorer') {</p>
+<p>	document.getElementById('newsljbut').style.display = 'block';</p>
+<p>}</p>
+<p>// --></p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>Ссылки по теме:</p>
+<p>Венская выставка Рене Магритта соберет 150 его картин со всего мира</p>
+<p>// NEWSru.com</p>
+<p>	// Культура</p>
+<p>	</p>
+<p>		// 13 октября 2011 г.</p>
+<p>Исторический музей впервые выставляет картины Дали, Магритта, Кирико и Матта</p>
+<p>// NEWSru.com</p>
+<p>	// Культура</p>
+<p>	</p>
+<p>		// 22 февраля 2011 г.</p>
+<p>Из бельгийского музея украли картину Рене Магритта "Олимпия"</p>
+<p>// NEWSru.com</p>
+<p>	// Культура</p>
+<p>	</p>
+<p>		// 24 сентября 2009 г.</p>
+<p>В Брюселле открылся музей сюрреалиста Рене Магритта</p>
+<p>// NEWSru.com</p>
+<p>	// Культура</p>
+<p>	</p>
+<p>		// 2 июня 2009 г.</p>
+<p>Каталог NEWSru.com:Информационные интернет-ресурсы</p>
+<p>Досье NEWSru.com:</p>
+<p>Культура //</p>
+<p>Изобразительное искусство //</p>
+<p>Картина</p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 43120;</p>
+<p>yandex_site_bg_color = 'E6E6E6';</p>
+<p>yandex_stat_id = 1215138;</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 0.9;</p>
+<p>yandex_font_family = 'arial';</p>
+<p>yandex_direct_type = 'flat';</p>
+<p>yandex_direct_limit = 4;</p>
+<p>yandex_direct_bg_color = 'E6E6E6';</p>
+<p>yandex_direct_title_color = '0000FF';</p>
+<p>yandex_direct_url_color = '006A29';</p>
+<p>yandex_direct_all_color = '333333';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '0016A6';</p>
+<p>yandex_direct_favicon = false;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//]]></p>
+<p>Последняя новость NEWSru.com – 10:42</p>
+<p>После громких скандалов депутаты-эсеры стали жить скромнее - на одну зарплату // В России</p>
+<p>Досье NEWSru.com:</p>
+<p>Государственная Дума России /</p>
+<p>Депутаты /</p>
+<p>Доходы</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=bezms&amp;p2=envv&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=bezmt&amp;p2=envv&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.media-networks.ru/code?pid=2297&gid=454&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.media-networks.ru/code?pid=2298&gid=454&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.media-networks.ru/code?pid=2299&gid=454&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>// <!--</p>
+<p>if(typeof(VongoMediaWorker)=="undefined" && document.getElementById("VongoMediaGateway")==null){ (function() { var s = document.createElement("script"); s.id = "VongoMediaGateway"; s.type = "text/javascript"; s.async = true; s.src = "http://cdn.vongomedia.ru/www/delivery/worker.js?_=" + Math.floor(Math.random()*99999999999); var x = document.getElementsByTagName("head")[0]; x.appendChild(s, x); })(); }</p>
+<p>// --></p>
+<p>Среда, 10 апреля 2013 г.   Последняя новость – 10:42</p>
+<p>Все права на материалы и новости, опубликованные на сайте NEWSru.com, охраняются в соответствии с законодательством РФ.</p>
+<p>Допускается цитирование без согласования с редакцией не более 50% от объема оригинального материала, с обязательной прямой гиперссылкой на страницу, с которой материал заимствован.</p>
+<p>Гиперссылка должна размещаться непосредственно в тексте, воспроизводящем оригинальный материал NEWSru.com, до или после цитируемого блока.</p>
+<p>Обратная связь:</p>
+<p>редакция сайта /</p>
+<p>служба технической поддержки /</p>
+<p>рекламный отдел</p>
+<p>Прайс-лист на размещение рекламы</p>
+<p>  </p>
+<p>Правила баннерного обмена</p>
+<p>Подписка на новости (RSS)</p>
+<p>© NEWSru.com – самые быстрые новости 2000-2013</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>var addate = new Date();</p>
+<p>document.write('<iframe src="http://ads.adfox.ru/715/getCode?p1=cnn&amp;p2=nj&amp;p3=a&amp;p4=a&amp;pucn=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr + '&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;py=a" frameBorder="0" width="200" height="377" marginWidth="0" marginHeight="0" scrolling="no" style="border: 0px; margin: 0px; padding: 0px;"><a href="http://ads.adfox.ru/715/goDefaultLink?p1=cnn&amp;p2=nj" target="_top"><img src="http://ads.adfox.ru/715/getDefaultImage?p1=cnn&amp;p2=nj" border="0" alt=""><\/a><\/iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>var addate = new Date();</p>
+<p>document.write('<iframe src="http://ads.adfox.ru/715/getCode?p1=cjo&amp;p2=mq&amp;p3=a&amp;p4=a&amp;pucn=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr + '&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;py=a" frameBorder="0" width="200" height="300" marginWidth="0" marginHeight="0" scrolling="no" style="border: 0px; margin: 0px; padding: 0px;"><a href="http://ads.adfox.ru/715/goDefaultLink?p1=cjo&amp;p2=mq" target="_top"><img src="http://ads.adfox.ru/715/getDefaultImage?p1=cjo&amp;p2=mq" border="0" alt=""><\/a><\/iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=begra&amp;p2=emzm&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=belcs&amp;p2=emzm&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p><!--</p>
+<p>//var width=0;</p>
+<p>//width=screen.width;</p>
+<p>//if (width >= 1000) {</p>
+<p>    document.getElementById('stakan').style.display = 'block';</p>
+<p>//}</p>
+<p>// --></p>
+<p>var _exchange_vars = {key: 'ee85874b16a6a5f23fec6d46dc0fd582'};</p>
+<p>(function(){</p>
+<p>var s = document.createElement("script");</p>
+<p>s.async = true;</p>
+<p>s.src = "http://b.adinch.com/static/sdk/sdk.js";</p>
+<p>document.getElementsByTagName("head")[0].appendChild(s);</p>
+<p>})();</p>

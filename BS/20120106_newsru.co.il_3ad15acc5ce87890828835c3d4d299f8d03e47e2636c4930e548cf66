@@ -1,0 +1,207 @@
+<p>NEWSru.co.il -   ::  :          45 </p>
+<p><!--</p>
+<p>browser = (</p>
+<p>	((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 ))</p>
+<p>	||</p>
+<p>	((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 ))</p>
+<p>	||</p>
+<p>	((navigator.appName == "Opera") && (parseInt(navigator.appVersion) >= 7 ))</p>
+<p>);</p>
+<p>imgon=new Array();</p>
+<p>imgoff=new Array();</p>
+<p>list = new Array("11allnews","11israel","11mideast","11world","11finance","11realty","11auto","11sport","11health","11rest","11press","11photo","11afisha","bboard");</p>
+<p>for(i = 1; i <= list.length; i++){</p>
+<p>	imgon["m"+i] = new Image();</p>
+<p>	imgon["m"+i].src = "http://static.newsru.co.il/img/menu_v/"+list[i-1]+"a.gif";</p>
+<p>	imgoff["m"+i] = new Image();</p>
+<p>	imgoff["m"+i].src = "http://static.newsru.co.il/img/menu_v/"+list[i-1]+".gif";</p>
+<p>}</p>
+<p>imageRef="document.images";</p>
+<p>function msover(which) {</p>
+<p>	if (browser) {</p>
+<p>		eval(imageRef + '["' + which + '"].src = imgon[which].src');</p>
+<p>	}</p>
+<p>}</p>
+<p>function msout(which) {</p>
+<p>	if (browser) {</p>
+<p>		eval(imageRef + '["' + which + '"].src = imgoff[which].src');</p>
+<p>	}</p>
+<p>}</p>
+<p>// --></p>
+<p><!--</p>
+<p>document.write('<img src="http://counter.yadro.ru/hit?r'+</p>
+<p>escape(document.referrer)+((typeof(screen)=='undefined')?'':</p>
+<p>';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+</p>
+<p>';i'+escape(''+document.title.substring(0,80))+';'+Math.random()+</p>
+<p>'" width=1 height=1 alt="">')//--></p>
+<p><!--</p>
+<p>d=document;a='';a+=';r='+escape(d.referrer)</p>
+<p>js=10//--><!--</p>
+<p>a+=';j='+navigator.javaEnabled()</p>
+<p>js=11//--><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)</p>
+<p>js=12//--><!--</p>
+<p>js=13//--><!--</p>
+<p>d.write('<img src="http://top.list.ru/counter'+</p>
+<p>'?id=997183;js='+js+a+';rand='+Math.random()+</p>
+<p>'" height=1 width=1>')</p>
+<p>if(js>11)d.write('<'+'!-- ')//--><!--</p>
+<p>if(js>11)d.write('--'+'>')//--></p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/c4f52d7a27cdc3a6a03a47a29e42f566.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p> NEWSru.co.il  //  // , 6  2012 .</p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/f9074a5c0d66636693b3a6df0b1cdc1c.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/11775c967fe233bda01983ff6731a93a.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p> </p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/34993a5436f70293bc618914d37b0f0f.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p><!--</p>
+<p>google_ad_client = "pub-1023896125533178";</p>
+<p>/* 120x240,  16.02.09 */</p>
+<p>google_ad_slot = "5605389949";</p>
+<p>google_ad_width = 120;</p>
+<p>google_ad_height = 240;</p>
+<p>//--></p>
+<p><!--</p>
+<p>google_ad_client = "pub-1023896125533178";</p>
+<p>/* 120x240,  16.02.09 */</p>
+<p>google_ad_slot = "5605389949";</p>
+<p>google_ad_width = 120;</p>
+<p>google_ad_height = 240;</p>
+<p>//--></p>
+<p>      (function() { var a = document.createElement('script'); a.type = 'text/javascript'; a.async = true;</p>
+<p>      a.src = 'http://ads.globescale.com/delivery.js?id=7';</p>
+<p>      var b = document.getElementsByTagName('script')[0]; b.parentNode.insertBefore(a, b); })();</p>
+<p> :          45 </p>
+<p>			 : 6  2012 ., 04:55</p>
+<p>			 : 6  2012 ., 05:12</p>
+<p>			</p>
+<p>   ,   ,          ,   .</p>
+<p>  ,     , ,     10      7         45  70 .</p>
+<p>BBC,      ,     45-49     ,      : ,   .</p>
+<p><!--</p>
+<p>if (navigator.appName != 'Microsoft Internet Explorer') {</p>
+<p>	document.getElementById('newsljbut').style.display = 'block';</p>
+<p>}</p>
+<p>// --></p>
+<p>  :</p>
+<p>"  ":   ,    </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 20  2011 .</p>
+<p>    ,    </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 29  2011 .</p>
+<p> </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 26  2011 .</p>
+<p> </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 6  2011 .</p>
+<p>:       </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 16  2010 .</p>
+<p>:         </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 10  2010 .</p>
+<p>  ,    </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 31  2010 .</p>
+<p>:    </p>
+<p>// NEWSru.co.il</p>
+<p>	// </p>
+<p>	</p>
+<p>		// 19  2010 .</p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/b64a8c8ecebfcba5093b07b003f80ff3.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p>  NEWSru.co.il – 11:52</p>
+<p>  : "", " ", "", " -". , 10  2013 </p>
+<p>// </p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/1ec3c9ca68b79b9812beb512229d88dc.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p> </p>
+<p>, 10  2013 .     – 11:52</p>
+<p>   ,    NEWSru.co.il,      .       NEWSru.co.il .      .</p>
+<p> </p>
+<p> :</p>
+<p>  /</p>
+<p>  /</p>
+<p> </p>
+<p>   (RSS)</p>
+<p>Price List (MS Word file)</p>
+<p>© NEWSru.co.il:   2005-2013 </p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/7cecec27ce9e65bfad8e27381b50ec21.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p>var pr = Math.floor(Math.random() * 10000000000);</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://banners.newsru.com/js/0dd201fb3d4e897eb5102d8993016cab.js?r='+pr+'"></scr'+ 'ipt>');</p>
+<p><!--</p>
+<p>var width=0;</p>
+<p>width=screen.width;</p>
+<p>if (width >= 1000) {</p>
+<p>	document.getElementById('stakan').style.display = 'block';</p>
+<p>}</p>
+<p>// --></p>
+<p>11:52</p>
+<p>  : "", " ", "", " -". , 10  2013 </p>
+<p>11:31</p>
+<p>: " ,  ".   </p>
+<p>11:06</p>
+<p> -      . </p>
+<p>11:03</p>
+<p> </p>
+<p>11:00</p>
+<p>     -    </p>
+<p>10:31</p>
+<p>  -  ,      ""</p>
+<p>10:28</p>
+<p>"-"    ,    6 : </p>
+<p>10:14</p>
+<p>:     600.000 </p>
+<p>10:03</p>
+<p>  " "         </p>
+<p>09:32</p>
+<p> FEMEN    </p>
+<p>09:18</p>
+<p> </p>
+<p>09:18</p>
+<p>       "  "</p>
+<p>09:15</p>
+<p>     -,      </p>
+<p>08:56</p>
+<p> :        </p>
+<p>08:36</p>
+<p> </p>
+<p>08:27</p>
+<p> </p>
+<p>08:25</p>
+<p>      - ""  </p>
+<p>08:14</p>
+<p>  :  60- </p>
+<p>08:01</p>
+<p>  : ""   </p>
+<p>07:30</p>
+<p> : ""  ""   </p>
+<p><!--</p>
+<p>var width=0;</p>
+<p>width=screen.width;</p>
+<p>if (width >= 1200) {</p>
+<p>	document.getElementById('stakan2').style.display = 'block';</p>
+<p>}</p>
+<p>// --></p>

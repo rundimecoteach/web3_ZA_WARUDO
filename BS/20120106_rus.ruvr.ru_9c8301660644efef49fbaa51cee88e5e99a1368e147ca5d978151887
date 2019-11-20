@@ -1,0 +1,586 @@
+<p>В Китае выпустили куклу Джобса, Apple подает в суд  :  Голос России</p>
+<p>	window.apiHome = '//rus.ruvr.ru/';</p>
+<p>	window.LANG = "rus";</p>
+<p>  </p>
+<p>var img = new Image();</p>
+<p>img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*ruvr_ru/ru/CP1251/tmsec=ruvr_total/';</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-9512721-40']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>×</p>
+<p>Радио:</p>
+<p>				</p>
+<p>Прямой эфир</p>
+<p>Выпуск новостей</p>
+<p>10:00</p>
+<p>   $(function() {</p>
+<p>     $('#pleer-item-radio-last-news').on('click', function(event){</p>
+<p>	var el = $(this);</p>
+<p>	el.off('click');</p>
+<p>	window.player2 = vrplayer('pleer-item-radio-last-news-player').setup({</p>
+<p>		'file'		: el.data('mediafile'),</p>
+<p>		'width'		: '260',</p>
+<p>		'height'	: '25',</p>
+<p>		'simple'	: true,</p>
+<p>		'autostart'	: true,</p>
+<p>//		'timetext'	: $('#current_radio').html(),</p>
+<p>		'modes'		: [</p>
+<p>			{'type':'html5'},</p>
+<p>			{'type':'flash', src:'/img/player-1.0/js/vrplayer.flash.swf'}</p>
+<p>		]</p>
+<p>	});</p>
+<p>     });</p>
+<p>   });</p>
+<p>                  Выбор языка</p>
+<p>                </p>
+<p>Английский English</p>
+<p>Английский English (Ind)</p>
+<p>Арабский عربي</p>
+<p>Албанский Shqip</p>
+<p>Бенгальский বাংলা</p>
+<p>Болгарский Български</p>
+<p>Венгерский Magyar</p>
+<p>Вьетнамский Tiếng Việt</p>
+<p>Греческий Ελληνικά</p>
+<p>Дари دری</p>
+<p>Испанский Español</p>
+<p>Итальянский Italiano</p>
+<p>Китайский 中文</p>
+<p>Корейский 조선어</p>
+<p>Курдский Kurdî</p>
+<p>Монгольский Монгол</p>
+<p>Немецкий Deutsch</p>
+<p>Норвежский Norsk</p>
+<p>Персидский فارسی</p>
+<p>Польский Polska</p>
+<p>Португальский Português</p>
+<p>Пушту پښتو</p>
+<p>Румынский Română</p>
+<p>Русский Русский</p>
+<p>Сербский Српски</p>
+<p>Словацкий Slovenčina</p>
+<p>Турецкий Türkçe</p>
+<p>Урду اردو</p>
+<p>Финский Suomen</p>
+<p>Французский Français</p>
+<p>Хинди हिन्दी</p>
+<p>Чешский Čeština</p>
+<p>Шведский Svenska</p>
+<p>Японский 日本語</p>
+<p>Региональные версии</p>
+<p>American Edition of the "Voice of Russia"</p>
+<p>UK Edition of the “Voice of Russia”</p>
+<p>Rusya'nın Sesi'nin Türkçe versiyonu</p>
+<p>Наши проекты</p>
+<p>Голос Столицi</p>
+<p>Diario Da Russia</p>
+<p>ProRussia.tv</p>
+<p>Вход</p>
+<p>Выйти</p>
+<p>Вход</p>
+<p>Зарегистрироваться</p>
+<p>Через социальные сети</p>
+<p>Вход с паролем</p>
+<p>Почта</p>
+<p>Пароль</p>
+<p>Забыли?</p>
+<p>  var login_destination;</p>
+<p>  $(function() {</p>
+<p>    check_user();</p>
+<p>    var match = document.location.hash.match(/^#?login\?goto=(.*)$/ );</p>
+<p>    if(match) { </p>
+<p>        login_destination = "/" + match[1];</p>
+<p>	$('#nouserF').click(); </p>
+<p>    }</p>
+<p>  }); </p>
+<p>  function onlogin_handler(user) {</p>
+<p>    var callback = $("#popup-placeholder").data('onlogin');</p>
+<p>    if(callback) { </p>
+<p>	callback(user);</p>
+<p>	$("#popup-placeholder").data('onlogin', null);</p>
+<p>    }	</p>
+<p>  }</p>
+<p>  function _openForm(form) { </p>
+<p>	if(!window.loaded_forms) window.loaded_forms={};</p>
+<p>        var wform = window.loaded_forms[form];</p>
+<p>	var place = $("#popup-placeholder");</p>
+<p>	if( wform) {</p>
+<p>	    place.html(wform);</p>
+<p>	    if(window['initialize_' + form]) window['initialize_' + form](place);</p>
+<p>	} else { </p>
+<p>/*</p>
+<p>	    wajax('getHTML/' + form, {},'GET', {dataType:'html'}, function(r) { </p>
+<p>		window.loaded_forms[form] =  r;</p>
+<p>		place.html(r);</p>
+<p>		if(window['initialize_' + form]) window['initialize_' + form](place); </p>
+<p>	    });</p>
+<p>*/</p>
+<p>            wajax('getCTPP/' + form, {},'GET', {dataType:'html'}, function(r) {</p>
+<p>                window.loaded_forms[form] =  r;                                </p>
+<p>                place.html(r);                                                 </p>
+<p>                if(window['initialize_' + form]) window['initialize_' + form](place); </p>
+<p>            });</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>  }</p>
+<p>  function user_logout() {</p>
+<p>    wajax('logout',{},'POST',{}, function(r) {</p>
+<p>        </p>
+<p>                $('#nouserF').show();</p>
+<p>                $('#userF').hide();</p>
+<p>                $('#user').html('');</p>
+<p>        </p>
+<p>    });</p>
+<p>    return false;</p>
+<p>  }</p>
+<p>Лавров не видит признаков отказа США от ЕвроПРО в новых планах Вашингтона</p>
+<p>   $(function() {</p>
+<p>      setTimeout('update_comments_count()',200);</p>
+<p>      setTimeout(function() { update_radio_issue('Прямой эфир')},200);</p>
+<p>      $('#current_radio').click(function() {</p>
+<p>         window.player = vrplayer('current_radio').setup({</p>
+<p>            'file':'http://audio1.ipercast.net/condensa.ru/radio25/mp3',</p>
+<p>            'type':'sound',</p>
+<p>            'width':'300',</p>
+<p>            'height':'25',</p>
+<p>            'simple':true,</p>
+<p>            'timetext': $('#current_radio').html(),</p>
+<p>            'modes':[</p>
+<p>                {'type':'html5'},</p>
+<p>                {'type':'flash', src:'/img/player-1.0/js/vrplayer.flash.swf'}</p>
+<p>            ],</p>
+<p>            'autostart': true</p>
+<p>         });</p>
+<p>         $('#open-player').css('display', 'block');</p>
+<p>      });</p>
+<p>      $('#open-player').click(function() {</p>
+<p>         if(window.player && player.getState() == "PLAYING")</p>
+<p>            window.player.stop();</p>
+<p>         window.open("/play/", "vrplayer", "width=404,height=240,menubar=no,toolbar=no,location=no,directories=no,status=no,resizable=yes,scrollbars=no");</p>
+<p>         return false;</p>
+<p>      });</p>
+<p>   });</p>
+<p>Главное  </p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>Культура</p>
+<p>Спорт</p>
+<p>Экс-СССР </p>
+<p>Комментарии</p>
+<p>Видео</p>
+<p>Передачи</p>
+<p>Фото</p>
+<p>Сюжеты</p>
+<p>                Банковский кризис на Кипре</p>
+<p>              </p>
+<p>‍</p>
+<p>Кипру не хватает 75 млн евро на государственные нужды</p>
+<p>                Выборы в Венесуэле</p>
+<p>              </p>
+<p>‍</p>
+<p>Венесуэла накануне выборов: обстановка накаляется</p>
+<p>                Умерла Маргарет Тэтчер</p>
+<p>              </p>
+<p>‍</p>
+<p>Похороны по высшему разряду</p>
+<p>Новости партнеров</p>
+<p>Новотека</p>
+<p>Загружается, подождите...</p>
+<p>adnews.rambler.ru</p>
+<p>Загружается, подождите...</p>
+<p>Главное  </p>
+<p>Баллистическая ракета на побережье КНДР переведена в стартовое положение</p>
+<p>По меньшей мере, одна баллистическая ракета "Мусудан" размещенная рядом с городом Вонсан на северо-востоке КНДР на восточном побережье КНДР, переведена в стартовое положение на своей мобильной пусковой установке</p>
+<p>Сегодня, 7:30</p>
+<p>Ивица Дачич: "Мы хотим максимального сближения с Россией, нашим самым большим другом"</p>
+<p>Премьер-министр Сербии Ивица Дачич, который находится в Москве с двухдневным визитом, в эксклюзивном интервью "Голосу России" прокомментировал итоги переговоров с первыми лицами России</p>
+<p>Вчера, 22:05</p>
+<p>Сергей Лавров: ЛАГ перечеркнула посреднические усилия в Сирии</p>
+<p>Лига арабских государств перечеркнула посреднические усилия по урегулированию конфликта в Сирии, когда отдала место Дамаска Национальной коалиции оппозиционных и революционных сил, заявил глава МИД РФ Сергей Лавров </p>
+<p>Сегодня, 8:19</p>
+<p>Политика</p>
+<p>Правительство Мали продлило действие режима ЧП в стране еще на три месяца</p>
+<p>Правительство Мали приняло в среду решение продлить действующий в стране с января режим чрезвычайного положения еще на три месяца</p>
+<p>Сегодня, 8:32</p>
+<p>США планируют затратить на военные цели в 2014 финансовом году $624 млрд</p>
+<p>Администрация Барака Обамы планирует израсходовать на военные цели в 2014 финансовом году более 624 млрд долларов, следует из проекта федерального бюджета США, направленного в среду из Белого дома в Конгресс</p>
+<p>Сегодня, 8:26</p>
+<p>Сергей Лавров: ЛАГ перечеркнула посреднические усилия в Сирии</p>
+<p>Лига арабских государств перечеркнула посреднические усилия по урегулированию конфликта в Сирии, когда отдала место Дамаска Национальной коалиции оппозиционных и революционных сил, заявил глава МИД РФ Сергей Лавров </p>
+<p>Сегодня, 8:19</p>
+<p>Экономика</p>
+<p>Цены на нефть падают на фоне роста запасов топлива в США</p>
+<p>Цены на нефть на мировых сырьевых биржах в четверг, 11 апреля снижаются на фоне сообщений об увеличении товарных запасов топлива в США до максимума за 22 года</p>
+<p>Сегодня, 9:13</p>
+<p>"Боржоми" возвращается на российский рынок</p>
+<p>Сегодня, 9:01</p>
+<p>ЦБ РФ: кипрский кризис не затронул Россию</p>
+<p>Россию никак не затронули финансовые меры на Кипре, так как там не были размещены российские резервы, заявил заместитель председателя российского Центробанка Сергей Щвецов</p>
+<p>Сегодня, 8:04</p>
+<p>Общество</p>
+<p>Путин посетил Иволгинский дацан и обещал поддержку буддистам</p>
+<p>Президент РФ Владимир Путин, совершающий рабочую поездку в Сибирский федеральный округ, посетил в четверг Большой Иволгинский дацан, главный монастырский комплекс крупнейшей буддийской общины России - Буддийской традиционной Сангхи /Церкви/</p>
+<p>Сегодня, 9:57</p>
+<p>«В ожидании Америки»</p>
+<p>«Когда ты ждёшь эмиграции, мечтаешь о ней, страдаешь, — ты не совсем понимаешь, какова же цена, которую тебе придётся заплатить»</p>
+<p>Сегодня, 9:43</p>
+<p>Захват заложников в США</p>
+<p>Полиция освободила пятерых пожарных, которых неизвестный взял в заложники 11 марта, в среду в американском городе Сувани, расположенном в 35 километрах от Атланты, столицы штата Джорджия</p>
+<p>Сегодня, 7:53</p>
+<p>Культура</p>
+<p>Лувр, закрытый из-за акции протеста работников, откроется в четверг</p>
+<p>Парижский Лувр, который был закрыт в среду из-за акции протеста его работников, откроется в четверг. Около 200 сотрудников, обеспечивающих безопасность и прием посетителей, бастовали из-за роста числа карманников.</p>
+<p>Вчера, 23:27</p>
+<p>История русских фамилий</p>
+<p>История фамилий - малоизученная область науки. В России никто даже не знает их точного числа: по некоторым подсчетам, их от 300 тысяч до 1 миллиона. В этом выпуске программы вы узнаете, как фамилии связаны с языком, культурой, образом мышления наших предков</p>
+<p>Вчера, 21:05</p>
+<p>Олег Кулик стал ограничителем Хаоса</p>
+<p>Пустота, буддийский ад и образы Казимира Малевича, окантованные Олегом Куликом. Один из самых известных современных российских художников представил в Москве новый проект "Рамы" (ФОТО)</p>
+<p>Вчера, 19:03</p>
+<p>Спорт</p>
+<p>Лига чемпионов: «Барселона» не без труда прошла «ПСЖ» (ВИДЕО)</p>
+<p>Испанская «Барселона», дважды сыграв вничью с французским «Пари Сен-Жермен», вышла в полуфинал Лиги чемпионов за счет большего количества голов, забитых на чужом поле.</p>
+<p>Сегодня, 1:08</p>
+<p>Российские хоккеистки выиграли бронзу чемпионат мира</p>
+<p>Женская сборная России по хоккею во второй раз в своей истории завоевала бронзовую медаль чемпионата мира. В матче за третье место, состоявшемся в Оттаве, наша команда взяла верх над Финляндией со счетом 2:0 (0:0, 0:0, 2:0).</p>
+<p>Вчера, 2:18</p>
+<p>Сочи-2014: Российским олимпийцам утвердили дизайн формы</p>
+<p>Сборная России на домашних Олимпийских играх 2014 года будет выступать в красно-белой форме. Соответствующее решение принято на заседании исполкома Олимпийского комитета России (ОКР), которое прошло 10-го апреля в Москве.</p>
+<p>Вчера, 19:50</p>
+<p>Экс-СССР </p>
+<p>Турецкий гамбит в Киргизии</p>
+<p>В Бишкеке прошли киргизско-турецкие переговоры с участием Реджепа Таипа Эрдогана и Жанторо Сатыбалдиева. Еще до приезда Эрдогана высказывались предположения, что визит направлен на обсуждение судьбы американского центра транзитных перевозок. В деталях  разбирался корреспондент "Голоса России"</p>
+<p>Вчера, 18:36</p>
+<p>Между Швецией и Белоруссией – потепление</p>
+<p>Швеция отправляет в Белоруссию своего временного представителя. Такое заявление сделал министр иностранных дел этой страны Карл Бильдт. Инициативу Швеции эксперты оценили как шаг к налаживанию отношений между странами. Каков будет ответ Минска – выясняла корреспондент "Голоса России"</p>
+<p>Вчера, 18:23</p>
+<p>В Казахстане построят высокоскоростную железнодорожную магистраль</p>
+<p>Две столицы Казахстана - официальная Астана и южная столица Алматы - станут ближе. В этом году в стране планируют начать строительство новой высокоскоростной железнодорожной магистрали. Ожидается, что она сможет сократить время в пути между двумя столицами с 12 до 5 часов. Предварительная ее стоимость составит около $6,6 млрд </p>
+<p>Вчера, 10:46</p>
+<p>Комментарии</p>
+<p>Еврейские поселения против палестинской рождаемости</p>
+<p>Израиль готов приложить серьезные усилия для окончательного урегулирования конфликта с Палестиной. Об этом заявил премьер-министр Биньямин Нетаньяху на встрече с госсекретарем США Джоном Керри. Эксперты скептически отнеслись к словам премьер-министра Израиля</p>
+<p>Вчера, 15:52</p>
+<p>Ядерный праздник в Иране</p>
+<p>Иран в трауре. Землетрясение в провинции Бушер унесло жизни десятков людей, разрушив сотни домов. Но стихия не тронула основу иранской ядерной энергетики - Бушерскую атомную электростанцию, построенную Россией</p>
+<p>Вчера, 14:50</p>
+<p>Гражданство Румынии как проездной билет в ЕС</p>
+<p>В румынскую Конституцию хотят включить статьи об объединении с Молдавией. Хотят ли молдаване войти в состав Великой Румынии? К чему этот процесс может привести и удастся ли это сделать? На эти вопросы "Голосу России" ответили эксперты</p>
+<p>Вчера, 13:40</p>
+<p>Видео</p>
+<p>Шоу японских барабанщиков в Москве</p>
+<p>Алексей Пушков: «Северной Корее надо выйти из состояния ядерной истерики»</p>
+<p>Михаил Маркелов: «Религиозным чувствам граждан нужна защита» (ВИДЕО)</p>
+<p>Константин Сивков: «Каприлес очень привлекателен, но народ Венесуэлы неглуп»</p>
+<p>ЭКСПО-2020: Екатеринбург - город будущего </p>
+<p>Армен Оганесян: "Непредсказуемая Северная Корея"</p>
+<p>Передачи</p>
+<p>Дышите глубже!</p>
+<p>Автомобили приезжают в Молдавию умирать. 8 из 10 машин, импортированных в эту страну с начала года, - старше 5 лет. В Кишиневе из-за роста числа старых машин, концентрация токсичных веществ в воздухе превышает допустимую норму</p>
+<p>Сегодня, 8:00</p>
+<p>Запад требует от Януковича продолжения эры милосердия ("Акценты")</p>
+<p>Как президенту Украины аукнулось освобождение Луценко</p>
+<p>Вчера, 20:45</p>
+<p>Армянская оппозиция разошлась без разгона ("Акценты")</p>
+<p>Ереван обсуждает антиправительственные выходки</p>
+<p>Вчера, 19:15</p>
+<p>Фото</p>
+<p>			    Военный ветеран в Сербии убил семью из 13 человек</p>
+<p>                          </p>
+<p>Вчера, 18:23</p>
+<p>			    В России и Польше вспоминают жертв авиакатастрофы под Смоленском</p>
+<p>                          </p>
+<p>Вчера, 17:19</p>
+<p>			    Выставку в Кремле вывернули наизнанку</p>
+<p>                          </p>
+<p>Вчера, 15:54</p>
+<p>5 января 2012, 18:19</p>
+<p>0</p>
+<p>В Китае выпустили куклу Джобса, Apple подает в суд </p>
+<p>	</p>
+<p>	    </p>
+<p>Фото: EPA</p>
+<p> Корпорация Apple грозит подать в суд на китайскую компанию In Icons. Фирма изготовила 30-сантиметровую фигурку, одетую в чёрную водолазку, кроссовки и фирменные голубые джинсы Стива Джобса, сообщает The Telegraph.  Apple настаивает на том, чтобы производитель прекратил продажи игрушки, слишком похожей на основателя корпорации. Права на изображение Стива Джобса Apple считает своей собственностью.</p>
+<p>0Корпорация Apple грозит подать в суд на китайскую компанию In Icons. Фирма изготовила 30-сантиметровую фигурку, одетую в чёрную водолазку, кроссовки и фирменные голубые джинсы Стива Джобса, сообщает The Telegraph.0Apple настаивает на том, чтобы производитель прекратил продажи игрушки, слишком похожей на основателя корпорации. Права на изображение Стива Джобса Apple считает своей собственностью. В письме китайскому производителю куклы руководство корпорации напоминает, что любое использование логотипа компании, личного имени или внешности сотрудника является нарушением закона.0Игрушка должна была появиться на рынке в феврале 2012 года по предварительной цене 99 долларов. Однако онлайн-продажи на сайте eBay уже начались. Стоимость одной пластиковой куклы в Интернете – 135 долларов.0В набор входит пара черных носков, очки, кожаный пояс, два яблока (одно из них надкусано), барный стул и игрушечный плакат с крылатой фразой «Еще кое-что» ("One More Thing”). Кроме того, у куклы есть три запасные пары рук, каждая из которых представляет собой один из характерных жестов Стива Джобса.0В 2010 году компания уже успешно отстояла свои права в аналогичной ситуации и запретила продажу фигурок, изготовленных другой китайской  компанией MiC Gadget.0Стив Джобс ушел из жизни 5 октября 2011 года в возрасте 56 лет после продолжительной болезни. Официальная биография Джобса, написанная при его непосредственном участии бывшим редактором журнала Time Уолтером Айзексоном, стала бестселлером еще до выхода в печать в конце октября прошлого года.</p>
+<p>Китай, суд, Apple, Стив Джобс, Общество</p>
+<p>.article-share .social-link__twitter{width:100px;}</p>
+<p>.article-share .social-link__gp{width:60px;}</p>
+<p>Поделиться:</p>
+<p>Tweet</p>
+<p><!--             </p>
+<p>document.write   </p>
+<p>(VK.Share.button </p>
+<p>        ({       </p>
+<p>                url: 'http://rus.ruvr.ru/2012/01/05/63432463.html',</p>
+<p>                title: 'В Китае выпустили куклу Джобса, Apple подает в суд ',</p>
+<p>                description: ' Корпорация Apple грозит подать в суд на китайскую компанию In Icons. Фирма изготовила 30-сантиметровую фигурку, одетую в чёрную водолазку, кроссовки и фирменные голубые джинсы Стива Джобса, сообщает The Telegraph.  Apple настаивает на том, чтобы производитель прекратил продажи игрушки, слишком похожей на основателя корпорации. Права на изображение Стива Джобса Apple считает своей собственностью.',</p>
+<p>                noparse: true</p>
+<p>        },       </p>
+<p>        {        </p>
+<p>                type: 'custom', text: "<img style=\"height: 20px !important\" src=\"http://vk.com/images/vk32.png?1\" />"</p>
+<p>        })       </p>
+<p>);               </p>
+<p>// -->           </p>
+<p>  window.___gcfg = {lang: 'RU'};</p>
+<p>                 </p>
+<p>  (function() {  </p>
+<p>    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>    po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>  })();          </p>
+<p>                        var addthis_config = {</p>
+<p>                                services_exclude: 'facebook, twitter, vk, google_plusone'</p>
+<p>                        }</p>
+<p>                </p>
+<p>Комментарии</p>
+<p>0</p>
+<p>                        По теме</p>
+<p>                        </p>
+<p>                      </p>
+<p>Стив Джобс не станет куклой</p>
+<p>  </p>
+<p>Apple готовит январскую презентацию для прессы</p>
+<p>  </p>
+<p>Итальянские власти оштрафовали Apple на 900 тысяч евро</p>
+<p>  </p>
+<p>СМИ: Apple может выпустить новый iPad ко дню рождения Джобса</p>
+<p>  </p>
+<p>Google создает программу голосового управления, аналогичную Siri от Apple</p>
+<p>  </p>
+<p>История Apple уходит с молотка</p>
+<p>  </p>
+<p>Samsung выиграл очередной суд у Apple</p>
+<p>  </p>
+<p>Apple: отравленное яблоко</p>
+<p>  </p>
+<p>  var msgs = {comments_noperm: 'У вас нет права оставлять комментарии', send_msg: 'Отправить', invalid_id: 'Неправильный id документа', notext: 'Не введен текст', anerror: 'Произошла ошибка', confirm_email: 'Подтвердите email!', operation_fail: 'При выполнении данной операции произошел сбой', cancel: 'отменить', sharein: 'Поделиться в', sn_connection_lost: 'Потеряно соединение с социальной сетью', try_again: 'Попробовать еще раз', and_sharein: 'и поделиться в', operation_fail_retry: 'При выполнении операции произошел сбой, попробуйте еще раз через несколько минут' };</p>
+<p>  $(function() { </p>
+<p>	$('a.article-commented-link').click(function() { </p>
+<p>		//alert('комментарий к абзацу ' + this.parentNode.id + ' док. 63432463');</p>
+<p>                comment_form(this.parentNode, 63432463,  this.parentNode.id, msgs)</p>
+<p>		return false;</p>
+<p>	});</p>
+<p>        $('span.article-comments-toggler').click(function() {</p>
+<p>            comment_form(this, 63432463, '', msgs)</p>
+<p>            return false; </p>
+<p>        });</p>
+<p>        $('span.article-comments-toggler').each(function() {</p>
+<p>            comment_form(this, 63432463, '', msgs)</p>
+<p>        });       </p>
+<p>  });</p>
+<p>Новости</p>
+<p>В пакистанской долине Тирах уничтожено 15 исламских экстремистов</p>
+<p>10:08</p>
+<p>Путин посетил Иволгинский дацан и обещал поддержку буддистам</p>
+<p>9:57</p>
+<p>Цены на нефть падают на фоне роста запасов топлива в США</p>
+<p>9:13</p>
+<p>Енот-ловкач ходит по проводам над домами (видео)</p>
+<p>9:04</p>
+<p>"Боржоми" возвращается на российский рынок</p>
+<p>9:01</p>
+<p>Правительство Мали продлило действие режима ЧП в стране еще на три месяца</p>
+<p>8:32</p>
+<p>США планируют затратить на военные цели в 2014 финансовом году $624 млрд</p>
+<p>8:26</p>
+<p>Сергей Лавров: ЛАГ перечеркнула посреднические усилия в Сирии</p>
+<p>8:19</p>
+<p>ЦБ РФ: кипрский кризис не затронул Россию</p>
+<p>8:04</p>
+<p>Захват заложников в США</p>
+<p>7:53</p>
+<p>Ваше мнение</p>
+<p>Соблюдаете ли Вы пост?</p>
+<p>Да, по всей строгости</p>
+<p>Да, но с послаблениями</p>
+<p>Не вижу в этом смысла</p>
+<p>Нет, здоровье не позволяет</p>
+<p>Результаты</p>
+<p>  $(document).ready(function(){</p>
+<p>      load_poll_results();</p>
+<p>      own_ans_block_toggle();</p>
+<p>  });</p>
+<p>.ruvr-bn-wrapper{margin-top:10px}</p>
+<p>.ruvr-bn-wrapper .ruvr-bn-item{display:block;position:relative;overflow:hidden;margin-bottom: 10px;}</p>
+<p>.ruvr-bn-wrapper.ruvr-bn-horizontal .ruvr-bn-item{float:left}</p>
+<p>.ruvr-bn-wrapper.ruvr-bn-horizontal .ruvr-bn-item div{padding-right:10px}</p>
+<p>.ruvr-bn-wrapper.ruvr-bn-horizontal .ruvr-bn-item:last-child div{padding-right:0}</p>
+<p>.ruvr-bn-item img{float:left;margin-right:10px}</p>
+<p>.ruvr-bn-item a {color:#235A8C;font-family: Verdana;font-size:12px;font-weight:normal;text-decoration:underline}</p>
+<p>.ruvr-bn-item a:hover{color:#007bea}</p>
+<p>.ruvr-bn-item div{margin-top:2px; display: inline;}</p>
+<p>.ruvr-bn-block-title{color:#FF0000;font-family:Verdana;font-size:12px;font-weight:bold;}</p>
+<p>.ruvr-bn-items{margin-top:8px}</p>
+<p>jQuery(document).ready(function(){</p>
+<p>      var RBanners = RuvrBanners(</p>
+<p>      {</p>
+<p>	  "placeholders": {</p>
+<p>		  ".external_banners": {</p>
+<p>			bannerplace:"1",</p>
+<p>			width:"300px",</p>
+<p>			height:"auto",</p>
+<p>			count:"5"</p>
+<p>                  }				  </p>
+<p>          }</p>
+<p>     });</p>
+<p>});</p>
+<p>Новости партнеров</p>
+<p>СМИ2	</p>
+<p>Новости СМИ2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/72078.js'; sc.charset = 'utf-8';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>ВЗГЛЯД</p>
+<p>// <!--</p>
+<p>var zrt_login = "rus_ruvr";</p>
+<p>var zrt_options = "options=NV";</p>
+<p>var zrt_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://txt.zarabotki.ru/cgi-bin/iframe/'+zrt_login+'?'+zrt_random+'&'+zrt_options+'&n=6&style=http://rus.ruvr.ru/images/static/reklama.css" width="100%" height="300" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href="http://txt.zarabotki.ru/cgi-bin/href/'+zrt_login+'?'+zrt_random +'" target="_blank"><img src="http://txt.zarabotki.ru/cgi-bin/banner/'+zrt_login+'?'+zrt_random +'&'+zrt_options+'" alt="Zarabotki" width="300" height="300" border="0" ismap="ismap"></a></iframe>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>if (typeof(afReferrer) == 'undefined') {</p>
+<p>afReferrer = escape(document.referrer);</p>
+<p>}</p>
+<p>} else {</p>
+<p>afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/3844/prepareCode?p1=bigb&p2=ehco&pct=a&pfc=a&pfb=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>//<![CDATA[ </p>
+<p>yandex_partner_id = 56305; </p>
+<p>yandex_site_bg_color = 'FFFFFF'; </p>
+<p>yandex_site_charset = 'windows-1251'; </p>
+<p>yandex_ad_format = 'direct'; </p>
+<p>yandex_font_size = 0.8; </p>
+<p>yandex_direct_type = 'vertical'; </p>
+<p>yandex_direct_border_type = 'block'; </p>
+<p>yandex_direct_limit = 3; </p>
+<p>yandex_direct_header_bg_color = 'FFFFFF'; </p>
+<p>yandex_direct_border_color = 'CCCCCC'; </p>
+<p>yandex_direct_title_color = '006699'; </p>
+<p>yandex_direct_url_color = '000000'; </p>
+<p>yandex_direct_all_color = '006699'; </p>
+<p>yandex_direct_text_color = '000000'; </p>
+<p>yandex_direct_hover_color = '006699'; </p>
+<p>yandex_direct_favicon = true; </p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>'); </p>
+<p>//]]> </p>
+<p> </p>
+<p>//<![CDATA[ </p>
+<p>yandex_partner_id = 56305; </p>
+<p>yandex_site_bg_color = 'FFFFFF'; </p>
+<p>yandex_site_charset = 'windows-1251'; </p>
+<p>yandex_ad_format = 'direct'; </p>
+<p>yandex_font_size = 0.8; </p>
+<p>yandex_direct_type = 'horizontal'; </p>
+<p>yandex_direct_border_type = 'block'; </p>
+<p>yandex_direct_limit = 5; </p>
+<p>yandex_direct_header_bg_color = 'FFFFFF'; </p>
+<p>yandex_direct_border_color = 'CCCCCC'; </p>
+<p>yandex_direct_title_color = '006699'; </p>
+<p>yandex_direct_url_color = '000000'; </p>
+<p>yandex_direct_all_color = '006699'; </p>
+<p>yandex_direct_text_color = '000000'; </p>
+<p>yandex_direct_hover_color = '006699'; </p>
+<p>yandex_direct_favicon = true; </p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>'); </p>
+<p>//]]> </p>
+<p> </p>
+<p> </p>
+<p>Загрузка...</p>
+<p>var MarketGidDate = new Date();</p>
+<p>document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>+'src="http://jsn.dt00.net/r/u/rus.ruvr.ru.9489.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+MarketGidDate.getDay()+MarketGidDate.getHours() + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p> </p>
+<p>© 2005—2013 РГРК «Голос России»</p>
+<p>                  Все права защищены. При полном или частичном использовании материалов ссылка на "Голос России" обязательна (в интернете — гиперссылка). Адрес электронной почты: letters@ruvr.ru.  </p>
+<p>                  </p>
+<p>                    18 +</p>
+<p>О проекте</p>
+<p>Контактная информация</p>
+<p>Наши вакансии</p>
+<p>Наши партнёры</p>
+<p>Размещение рекламы</p>
+<p>Фото</p>
+<p>Архив</p>
+<p>Видео</p>
+<p>Радио</p>
+<p>Поиск</p>
+<p>Все языки</p>
+<p>Почта: </p>
+<p>                  </p>
+<p>                    letters@ruvr.ru</p>
+<p>соцсети: </p>
+<p>                  </p>
+<p>window.spylog_js=1;window.spylog_js=1.1;window.spylog_js=1.2;window.spylog_js=1.3;window.spylog_js=1.4;window.spylog_js=1.5;window.spylog_js=1.6;window.spylog_js=1.7;window.spylog_js=1.8;window.spylog_js=1.9;</p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height;</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></p>
+<p><!--</p>
+<p>js=13;//--><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=1188751" target="_top">'+</p>
+<p>'<img src="http://d3.c2.b2.a1.top.mail.ru/counter?id=1188751;t=230;js='+js+</p>
+<p>a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+</p>
+<p>'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');//--></p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' "+</p>
+<p>"target=_blank><img src='//counter.yadro.ru/hit;ruvr_ru?t44.6;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";h"+escape(document.title.substring(0,80))+";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet' "+</p>
+<p>"border='0' width='31' height='31'><\/a>")</p>
+<p>//--></p>
+<p>(function (d, w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter14541928 = new Ya.Metrika({id:14541928,</p>
+<p>                    webvisor:true,</p>
+<p>                    clickmap:true,</p>
+<p>                    trackLinks:true,</p>
+<p>                    accurateTrackBounce:true});</p>
+<p>        } catch(e) { }</p>
+<p>    });</p>
+<p>    var n = d.getElementsByTagName("script")[0],</p>
+<p>        s = d.createElement("script"),</p>
+<p>        f = function () { n.parentNode.insertBefore(s, n); };</p>
+<p>    s.type = "text/javascript";</p>
+<p>    s.async = true;</p>
+<p>    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";</p>
+<p>    if (w.opera == "[object Opera]") {</p>
+<p>        d.addEventListener("DOMContentLoaded", f, false);</p>
+<p>    } else { f(); }</p>
+<p>})(document, window, "yandex_metrika_callbacks");</p>
+<p>Новости</p>
+<p>В пакистанской долине Тирах уничтожено 15 исламских экстремистов</p>
+<p>10:08</p>
+<p>"Боржоми" возвращается на российский рынок</p>
+<p>9:01</p>
+<p>Правительство Мали продлило действие режима ЧП в стране еще на три месяца</p>
+<p>8:32</p>
+<p>Мужчина, взявший в заложники пожарных в США, убит при штурме</p>
+<p>4:18</p>
+<p>Экс-министр финансов Кипра вывел деньги незадолго до краха банков</p>
+<p>3:14</p>
+<p>Преступник в американском штате Джорджия отпустил одного из пятерых заложников</p>
+<p>2:50</p>
+<p>if (document.getElementById('smi2adblock_13162')){document.write('<script charset="windows-1251" type="text/javascript" src="http://js.smi2.ru/data/js/13162.js"><\/script>');}if (document.getElementById('smi2adblock_36236')){document.write('<script type="text/javascript" src="http://js.smi2.ru/data/js/36236.js"><\/script>');}if (document.getElementById('smi2adblock_8672')){document.write('<script charset="windows-1251" type="text/javascript" src="http://js.smi2.ru/data/js/8672.js"><\/script>');}</p>

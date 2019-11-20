@@ -1,0 +1,396 @@
+<p>Central team examining Drug Resistant TB cases in Mumbai, IBN Live News</p>
+<p>.il_ln_top_box{border-bottom:1px solid #000; padding-bottom:5px; margin-bottom:20px;}</p>
+<p>.il_ln_top_box h1{font:bold 24px Arial, Helvetica, sans-serif; color:#000; float:left; margin:0px; padding:0px; width:200px; float:left;}</p>
+<p>.il_ln_top_right_box{font:bold 24px Arial, Helvetica, sans-serif; color:#000; float:left; margin:0px; padding:0px; float:right; width:332px;}</p>
+<p>.il_ln_top_right_box span{padding:0 5px; font:bold 12px Arial, Helvetica, sans-serif;}</p>
+<p>.il_ln_top_right_box select{width:120px; margin:0px; padding:0px;}</p>
+<p>function nav()</p>
+<p>   {</p>
+<p>	   $("#load").show();</p>
+<p>   var w = document.form1.category.selectedIndex;</p>
+<p>   var url_add = document.form1.category.options[w].value;</p>
+<p>   //alert(url_add)</p>
+<p>   window.location.href = url_add;</p>
+<p>   }</p>
+<p>   function nav1()</p>
+<p>   {</p>
+<p>   /* var s =  document.form1.category.selectedIndex;</p>
+<p>	var url_add_s = document.form1.category.options[s].value;</p>
+<p>	if(url_add_s == '/generalnewsfeed/')</p>
+<p>	{</p>
+<p>		alert("Please select the category");</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	else</p>
+<p>	   {*/</p>
+<p>	 </p>
+<p>	   $("#load").show();</p>
+<p>	   var w = document.form1.section.selectedIndex;</p>
+<p>	   var url_add = document.form1.section.options[w].value;</p>
+<p>	   window.location.href = url_add;</p>
+<p>	   //}</p>
+<p>   }</p>
+<p>CES 2012: Know what's new in the world of tech</p>
+<p>Delete_Cookie('redirect_path_ibn', '/', '');</p>
+<p>var_url=document.location.href;</p>
+<p>set_cookie("redirect_path_ibn", var_url,0,0,0,'/',"",'');</p>
+<p>if( get_cookie("POST_DATA_IBN") != "")</p>
+<p>{</p>
+<p>var_url=document.location.href;</p>
+<p>//if((get_cookie_variable(get_cookie("POST_DATA_IBN"),2)=="") && (get_cookie_variable(get_cookie("POST_DATA_IBN"),3)==""))</p>
+<p>if((get_cookie_variable(get_cookie("POST_DATA_IBN"),2)==""))</p>
+<p>{</p>
+<p>var us_name=get_cookie_variable(get_cookie("POST_DATA_IBN"),1);</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>//var us_name=get_cookie_variable(get_cookie("POST_DATA_IBN"),2)+' '+get_cookie_variable(get_cookie("POST_DATA_IBN"),3);</p>
+<p>var us_name=get_cookie_variable(get_cookie("POST_DATA_IBN"),2);</p>
+<p>}</p>
+<p>var us_id=get_cookie_variable(get_cookie("POST_DATA_IBN"),0);</p>
+<p>var cookieBlazeId = get_cookie_variable(get_cookie("POST_DATA_IBN"),6);</p>
+<p>var cookieBlazeImage = get_cookie_variable(get_cookie("POST_DATA_IBN"),7);</p>
+<p>var img_id = get_cookie_variable(get_cookie("POST_DATA_IBN"),8);</p>
+<p>		//alert(img_id)</p>
+<p>		if(typeof img_id != "undefined"  && img_id.length > '0')</p>
+<p>		{</p>
+<p>		    //alert("a")</p>
+<p>		    var imgpath = '<img src='+img_id+' width = "18" style="float:none;" height = "18" alt='+us_name+' title='+us_name+' align = "absmiddle" />';</p>
+<p>		}</p>
+<p>		else if(typeof cookieBlazeImage != "undefined"  && cookieBlazeImage.length > '0')</p>
+<p>		{</p>
+<p>		    //alert("a")</p>
+<p>		    var imgpath = '<img src='+cookieBlazeImage+' width = "18" style="float:none;" height = "18" alt='+us_name+' title='+us_name+' align = "absmiddle"  />';</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>			//	alert("b")</p>
+<p>			var imgpath = '';</p>
+<p>		</p>
+<p>		}</p>
+<p>document.write ('<div style = "float:right; padding-top:0px;">'+imgpath+'  <span><a href="/conversations/user/'+us_id+'.html"  target="_top" >'+us_name+'</a></span> <span>|</span>  <span><a class="none" href="/ibnregistration/logout.php" target="_top">Sign out</a></span></div>');</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>/*document.write('<div style = "float:right; padding-top:3px;"><span><a href="/ibnregistration/login.php?url_path='+var_url+'">SIGN IN</a></span> <span>|</span> <span><a href="/ibnregistration/ibn_common_registration.php">REGISTER</a></span></div>');*/</p>
+<p>document.write('<div style = "float:right; padding-top:3px;"><span><a href="/ibnregistration/login.php?url_path='+var_url+'">SIGN IN</a></span></div>');</p>
+<p>}</p>
+<p>HomeElections 2012PoliticsIndiaSouthMoviesCricketFootballSportsTechAutoBusinessWorldBooksPhotosVideoLive TVCJLatestNewsTime-Crunch TVVideo StreamsBlogsChatTalkAppsNewslettersBlazeHealthFT SpecialsForbes IndiaNewsLatestRealtimeBlogsChatTalkAppsNewsletters</p>
+<p>var zflag_nid=zflag_nid_728_90; var zflag_cid=zflag_cid_728_90; var zflag_sid=zflag_sid_728_90; var zflag_width=zflag_width_728_90; var zflag_height=zflag_height_728_90; var zflag_sz=zflag_sz_728_90;</p>
+<p>HomeElections 2012PoliticsIndiaSouthMoviesCricketFootballSportsTechAutoBusinessWorldBooksPhotosVideoLive TVCJ </p>
+<p>LatestNewsTime-Crunch TVVideo StreamsBlogsChatTalkAppsNewslettersBlazeHealthFT SpecialsForbes India</p>
+<p>Uttar PradeshPunjabUttarakhandManipurGoaBlogs</p>
+<p>NewsPhotosVideo</p>
+<p>India GlobalPhotosVideo</p>
+<p>Andhra PradeshKarnatakaKeralaTamil NaduBangaloreChennaiHyderabadThiruvananthapuramSouthern News Video</p>
+<p>MasandMovies NewsTVMusicHitlistBollywood BlockbustersE TonightNow ShowingPhotosVideo</p>
+<p>Live ScoresNewsFixturesStandingsPhotosEPLLa LigaSerie AChampions LeagueLiverpoolMan UtdBarcelonaReal Madrid</p>
+<p>TennisF1AthleticsBadmintonGolfHockeyShootingOther SportsPhotosVideoSports in Review</p>
+<p>NewsPhotosVideoTech ToyzTech2 Top StoriesTech2 ReviewsTech2 FeaturesTech2 News</p>
+<p>NewsCarsBikesReviewsPhotosVideo</p>
+<p>MarketsEconomyIBN ReportsMost Popular</p>
+<p>PakistanPhotosVideo</p>
+<p>NewsReviewsExcerptsAuthorsVideo</p>
+<p>IndiaMoviesCricketSportsTechAutoWorld</p>
+<p>IndiaBusinessMoviesCricketSportsTechHealthAutoWorldSouthShowsHindiTime-Crunch TVVideo Streams</p>
+<p>CNN-IBNIBN7IBN LokmatCNBC-TV18CNBC AwaazMy TVTime-Crunch TV</p>
+<p>NewsInteractive MapBlogNewsInteractive MapBlogNewsInteractive MapBlogNewsInteractive MapBlogNewsInteractive MapBlogUttar PradeshPunjabUttarakhandManipurGoaAndhra PradeshKarnatakaKeralaOrissaTamil NaduBangaloreChennaiHyderabadKochiThiruvananthapuramBollywoodHollywoodTamilTeluguMalayalamKannadaMarathiBengaliFirst LookTrailersMusic NewsMusic ReviewsFixtures & ResultsPointsPhotosFixtures & ResultsPointsPhotosFixtures & ResultsPointsPhotosFixtures & ResultsPointsPhotosLive ScoreNewsPhotosATP ScheduleWTA ScheduleNews RacesScheduleStandingsTeamsDriversCircuitsPhotosIndian Grand PrixLive ScoreLatest NewsMarket ReportsReccosBuzzEdgeOutlookIPOADRsGlobalEconomy NewsBusiness NewsInsuranceMF NewsMF ColumnsTrailersBollywoodRegionalHollywoodMusic30 MinutesB'wood B'bustersCJDevil's Advocate E-TonightFTNNow ShowingOverdriveSecret KitchenLast Word TWTWTech Toyz</p>
+<p> function subnavurl(str)</p>
+<p>	  {</p>
+<p>	//alert(str);</p>
+<p>		  if(str != "")</p>
+<p>		  {</p>
+<p>			var re = /\$|,|@|#|~|`|\/|\+|\=|\[|\-|\_|\]|\[|\}|\{|\;|\:|\'|\"|\<|\>|\||\\|\!|\$|\./g;</p>
+<p>			str = str.replace(re,"");</p>
+<p>			str = str.replace("?","ibncrickhabar");</p>
+<p>			//alert($("#"+str+"-sssj").length)</p>
+<p>			</p>
+<p>		</p>
+<p>		if($("#"+str+"-sssj").length)</p>
+<p>		{</p>
+<p>			//alert("A");</p>
+<p>			var pid = $("#"+str+"-sssj").parent()[0].id;</p>
+<p>			document.getElementById(str+"-sssj").style.background = '';</p>
+<p>			var tpid = pid.split("-sss");</p>
+<p>			var  superid = tpid[0];</p>
+<p>			var ssfid = $('ul#'+pid+' li:first').attr('id'); </p>
+<p>			if(ssfid != str+"-sssj")</p>
+<p>			{</p>
+<p>		</p>
+<p>			</p>
+<p>			var pppreid = $("#"+str+"-sssj").prev()[0].id; document.getElementById(pppreid).style.background = 'none';}</p>
+<p>			if($("#"+superid+"-ss").length)</p>
+<p>				{</p>
+<p>					//alert("3");</p>
+<p>					</p>
+<p>					//document.getElementById("#"+superid+"-ss").style.background = '';</p>
+<p>					var pid1 = $("#"+superid+"-ss").parent()[0].id;</p>
+<p>					//alert(pid1)</p>
+<p>					var tpid1 = pid1.split("-s");</p>
+<p>					var superid1 = tpid1[0];</p>
+<p>					//alert(superid1);</p>
+<p>					var sfid = $('ul#'+pid1+' li:first').attr('id'); </p>
+<p>					//alert(superid+"-ss")</p>
+<p>					document.getElementById(superid+"-ss").style.background = ''</p>
+<p>					if(sfid != superid+"-ss")</p>
+<p>					{</p>
+<p>					var ppreid = $("#"+superid+"-ss").prev()[0].id; document.getElementById(ppreid).style.background = 'none';</p>
+<p>					}</p>
+<p>					var fid = $('ul#flevel li:first').attr('id'); //alert(fid)</p>
+<p>					if(fid != superid1) { var preid = $("#"+superid1).prev()[0].id; document.getElementById(preid).style.background = 'none'; }</p>
+<p>					if(superid1 != "httpibnliveincom") { $("#"+superid1+"-l").show();}</p>
+<p>								var r = $("#"+superid1).html();</p>
+<p>				//alert(r);</p>
+<p>				r= r.replace('<a href="http://ibnlive.in.com/elections2012/"><font color="#fff000">Elections 2012</font></a>','<a href="http://ibnlive.in.com/elections2012/">Elections 2012</a>');</p>
+<p>				r= r.replace("<a href='http://ibnlive.in.com/elections2012/'><font color='#fff000'>Elections 2012</font></a>","<a href='http://ibnlive.in.com/elections2012/'>Elections 2012</a>");</p>
+<p>				$("#"+superid1).html(r);</p>
+<p>					$("#httpibnliveincom").removeClass("act");</p>
+<p>					$("#httpibnliveincom-s").hide();</p>
+<p>					$("#httpibnliveincom-s-sparent").hide();</p>
+<p>					</p>
+<p>//alert(pid1);</p>
+<p>					$("#"+superid1).addClass("act");</p>
+<p>					if($("#"+superid1+"-m").length) {	$("#"+superid1+"-m").show(); }</p>
+<p>					$("#"+pid1).show();</p>
+<p>					$("#"+pid1+"-sparent").show();</p>
+<p>					$("#"+superid1+"-ss").addClass("act");</p>
+<p>					//alert(superid1+"-ss");</p>
+<p>//alert(("#"+superid+"-sss"))</p>
+<p>					if($("#"+superid+"-sss").length)</p>
+<p>						{</p>
+<p>						//alert("#"+superid+"-sssf");</p>
+<p>						//alert("#"+superid+"-sss");</p>
+<p>						$("#"+superid+"-sssf").show();</p>
+<p>						$("#"+str+"-sssj").addClass("link");</p>
+<p>						$("#"+superid+"-sss").show();</p>
+<p>						//alert("#"+superid+"-sssf");</p>
+<p>						</p>
+<p>						$("#"+superid+"-ss").removeClass().addClass("act");</p>
+<p>						}</p>
+<p>					/****************/</p>
+<p>					</p>
+<p>					/****************/</p>
+<p>				}</p>
+<p>			/****************/</p>
+<p>		}</p>
+<p>		else if($("#"+str+"-ss").length)</p>
+<p>		{</p>
+<p>			//alert("2");</p>
+<p>			//alert("#"+str+"-ss")</p>
+<p>						//alert("B");</p>
+<p>					document.getElementById(str+"-ss").style.background = '';</p>
+<p>				var pid = $("#"+str+"-ss").parent()[0].id;</p>
+<p>				//alert(pid)</p>
+<p>				var tpid = pid.split("-s");</p>
+<p>				var superid = tpid[0];</p>
+<p>				$("#httpibnliveincom").removeClass("act");</p>
+<p>				$("#httpibnliveincom-s").hide();</p>
+<p>				$("#httpibnliveincom-s-sparent").hide();</p>
+<p>				var sfid = $('ul#'+pid+' li:first').attr('id'); </p>
+<p>				if(sfid != str+"-ss")</p>
+<p>				{</p>
+<p>					//alert($("#"+str+"-ss").prev()[0].id)</p>
+<p>					var ppreid = $("#"+str+"-ss").prev()[0].id;</p>
+<p>					document.getElementById(ppreid).style.background = 'none';</p>
+<p>				}</p>
+<p>		</p>
+<p>				var fid = $('ul#flevel li:first').attr('id'); //alert(fid)</p>
+<p>				if(fid != superid) { var preid = $("#"+superid).prev()[0].id; document.getElementById(preid).style.background = 'none'; }</p>
+<p>				var lid = $('ul#flevel li:last').attr('id'); //alert(lid)</p>
+<p>				if(lid == superid) { document.getElementById(superid).style.background = ''; }</p>
+<p>				if(superid != "httpibnliveincom") { $("#"+superid+"-l").show();}</p>
+<p>				else if(superid == "httpibnliveincom") { $("#"+str+"-l").show();}</p>
+<p>				//alert(superid);</p>
+<p>					var r = $("#"+superid).html();</p>
+<p>				r= r.replace('<a href="http://ibnlive.in.com/elections2012/"><font color="#fff000">Elections 2012</font></a>','<a href="http://ibnlive.in.com/elections2012/">Elections 2012</a>');</p>
+<p>				r= r.replace("<a href='http://ibnlive.in.com/elections2012/'><font color='#fff000'>Elections 2012</font></a>","<a href='http://ibnlive.in.com/elections2012/'>Elections 2012</a>");</p>
+<p>				$("#"+superid).html(r);</p>
+<p>				$("#"+superid).addClass("act");</p>
+<p>				if($("#"+superid+"-m").length) { $("#"+superid+"-m").show(); }</p>
+<p>				$("#"+pid).show();</p>
+<p>				//alert(pid)</p>
+<p>				$("#"+pid+"-sparent").show();</p>
+<p>				$("#"+str+"-ss").addClass("act");</p>
+<p>				//alert($("#"+str+"-sss").length)</p>
+<p>				if($("#"+str+"-sss").length  > 0)</p>
+<p>				{</p>
+<p>				$("#"+str+"-sss").show(); $("#"+str+"-sssf").show();  $("#"+str+"-ss").addClass("act");</p>
+<p>				}</p>
+<p>				else</p>
+<p>				{</p>
+<p>				$("#"+str+"-ss").addClass("link");</p>
+<p>				}</p>
+<p>			/****************/</p>
+<p>			</p>
+<p>			/****************/</p>
+<p>		}</p>
+<p>		else if($("#"+str).length)</p>
+<p>		{</p>
+<p>						//alert("C");</p>
+<p>//alert("#"+str);</p>
+<p>			$("#httpibnliveincom").removeClass("act");	</p>
+<p>			$("#httpibnliveincom-s").hide();</p>
+<p>			$("#httpibnliveincom-s-sparent").hide();</p>
+<p>			/***********/</p>
+<p>		   var fid = $('ul#flevel li:first').attr('id');</p>
+<p>		   if(fid != str)</p>
+<p>		   {</p>
+<p>				 var preid = $("#"+str).prev()[0].id;</p>
+<p>				 document.getElementById(preid).style.background = 'none';</p>
+<p>		   }</p>
+<p>		   </p>
+<p>		      var lid = $('ul#flevel li:last').attr('id'); //alert(lid)</p>
+<p>			if(lid == str) { document.getElementById(str).style.background = ''; }</p>
+<p>			</p>
+<p>            /********/</p>
+<p>			if(str != "httpibnliveincom") { $("#"+str+"-l").show(); }</p>
+<p>			var sl = $("#"+str+"-s").length;</p>
+<p>			if(sl>0){</p>
+<p>				</p>
+<p>				var r = $("#"+str).html();</p>
+<p>				r= r.replace('<a href="http://ibnlive.in.com/elections2012/"><font color="#fff000">Elections 2012</font></a>','<a href="http://ibnlive.in.com/elections2012/">Elections 2012</a>');</p>
+<p>				r= r.replace("<a href='http://ibnlive.in.com/elections2012/'><font color='#fff000'>Elections 2012</font></a>","<a href='http://ibnlive.in.com/elections2012/'>Elections 2012</a>");</p>
+<p>				$("#"+str).html(r);</p>
+<p>				$("#"+str).addClass("act");} else { $("#"+str).addClass("link");}</p>
+<p>			//	if($("#"+str+"-ss").length) { $("#"+str).addClass("act"); } else {  $("#"+str).addClass("link");  }</p>
+<p>              //$("#"+str).addClass("link");</p>
+<p>			  $("#"+str+"-m").show();</p>
+<p>			  $("#"+str+"-s").show();</p>
+<p>			  $("#"+str+"-s-sparent").show();</p>
+<p>			  /****************/</p>
+<p>			</p>
+<p>			/****************/</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>			//alert("D");</p>
+<p>			//alert("c");</p>
+<p>			$("#httpibnliveincom").removeClass("act");	</p>
+<p>			$("#httpibnliveincom-s").hide();</p>
+<p>			$("#httpibnliveincom-s-sparent").hide();</p>
+<p>			</p>
+<p>			$("#httpibnliveincom").addClass("act");</p>
+<p>			$("#httpibnliveincom-s").show();</p>
+<p>			$("#httpibnliveincom-s-sparent").show();</p>
+<p>		</p>
+<p>		}</p>
+<p>	</p>
+<p>	  }</p>
+<p>	  }</p>
+<p>	 subnavurl(document.URL);</p>
+<p>		</p>
+<p>	  </p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-156703-3']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>  var _comscore = _comscore || [];</p>
+<p>  _comscore.push({ c1: "2", c2: "6683813" });</p>
+<p>  (function() {</p>
+<p>    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;</p>
+<p>    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";</p>
+<p>    el.parentNode.insertBefore(s, el);</p>
+<p>  })();</p>
+<p>function showThickbox()</p>
+<p>			{</p>
+<p>			    tb_show("Sign in","/ibnregistration/edit_regis.php?flv=123&keepThis=true&TB_iframe=true&&height=630&width=623", false);  </p>
+<p>			}</p>
+<p>			</p>
+<p>//Delete_Cookie('redirect_path_ibn', '/', '');</p>
+<p>var_url=document.location.href;</p>
+<p>set_cookie("redirect_path_ibn", var_url,0,0,0,'/',"",'');</p>
+<p>//alert(get_cookie("extra_info") )</p>
+<p>if( get_cookie("extra_info") != "")</p>
+<p>{</p>
+<p>	if(get_cookie_variable(get_cookie("extra_info"),0) == "0")</p>
+<p>	{</p>
+<p>	  window.onload = showThickbox;</p>
+<p>         </p>
+<p>}</p>
+<p>}</p>
+<p>Latest news</p>
+<p>From </p>
+<p>All Sources</p>
+<p>PTIReuters </p>
+<p>in </p>
+<p>All Categories</p>
+<p>IndiaWorldSportsBusinessEntertainmentTechnologyOthers </p>
+<p> Back </p>
+<p>Tweet</p>
+<p>Central team examining Drug Resistant TB cases in Mumbai PTI | 04:01 PM,Jan 17,2012 </p>
+<p>		Mumbai, Jan 17 (PTI) A team of doctors, deputed by</p>
+<p>the Union Ministry of Health and Family Welfare, has reached</p>
+<p>Mumbai to ascertain facts about the reported cases of Drug</p>
+<p>Resistant TB cases.</p>
+<p>	The Ministry says, the cases should be called</p>
+<p>'Extensively Drug Resistant-TB' (XDR-TB) and not 'Totally Drug</p>
+<p>Resistant TB' (TDR-TB) as per WHO norms, an official release</p>
+<p>said.</p>
+<p>	The central team has started analysis of the situation</p>
+<p>and is in touch with the health authorities of Maharashtra,</p>
+<p>Mumbai Municipal Corporation, while also involving experts</p>
+<p>from concerned stake-holders, including the Hinduja Hospital,</p>
+<p>Mumbai.</p>
+<p>	Hinduja hospital is not accredited to diagnose XDR or</p>
+<p>TDR, the release said. "So far as the report from Hinduja</p>
+<p>Hospital is concerned, this Hospital Laboratory is not</p>
+<p>accredited by the Revised National Tuberculosis Control</p>
+<p>Programme, for culture and sensitivity for second line drugs</p>
+<p>to diagnose Extensively Drug-Resistant (XDR)/Totally Drug</p>
+<p>Resistant (TDR) cases and is only accredited for conducting</p>
+<p>Drug Susceptibility Testing (DST) by liquid culture and</p>
+<p>sensitivity for first line drug only," it said.</p>
+<p>	Recently, a proposal for accreditation of Line Probe</p>
+<p>Assay test (LPA) has been received and is under process, it</p>
+<p>added.</p>
+<p>	As of now, the Revised National TB Control Programme</p>
+<p>has accredited only following three labs for conducting</p>
+<p>quality-assured second-line anti-TB drug susceptibility</p>
+<p>testing of flouroquinolones and injectables: National TB</p>
+<p>Institute (NTI), Bangalore; LRS Institute of TB and Chest</p>
+<p>Disease, New Delhi, and National Institute of Research in</p>
+<p>Tuberculosis, Chennai. (More) PTI VT</p>
+<p>NP</p>
+<p>« Previous Next » </p>
+<p>This is an automated news feed. The contents have not been selected or edited by IBNLive. </p>
+<p>var zflag_nid=zflag_nid_300_250; var zflag_cid=zflag_cid_300_250; var zflag_sid=zflag_sid_300_250; var zflag_width=zflag_width_300_250; var zflag_height=zflag_height_300_250; var zflag_sz=zflag_sz_300_250;</p>
+<p>$("#Chat_View_Display").load('/xml/network18/topibnlivewidgets.html'+'?random='+new Date().getTime());</p>
+<p>.fx-ftr{height:60px; border-top:1px solid  #999999; background-color:#FFF;}</p>
+<p>		.fx-ftr-in{ width:990px;  margin:auto; padding-bottom:10px;}</p>
+<p>		.fx-ftr-in h2{ float:left; margin-right:15px; font:bold 22px arial; color:#000;  margin:0px; padding:0px; margin-top:14px; margin-right:15PX;}</p>
+<p>		.fx-ftr-in img{ float:left; margin:8px 10px 0px 0px;}</p>
+<p>		.fx-ftr-in img.fxnmrgn{ float:left; margin:0px 15px 0px 0px;}</p>
+<p>Follow IBNLive.com</p>
+<p>Politics | India | Movies | IBN South | Cricket | Photos | Videos | Video Streams |World | Business | Sports | Blogs | Tech | Latest News | Talk | Citizen Journalist | Sitemap | Football  |  News | Books | Chat | Blaze | Apps | TV | Live TV | Time-Crunch TV | South India | India Global | Masand Review | Tennis | Golf | Formula One | Tech Toys | Documents | Newsletters | Health | Popular Tags : Topics | Team | Event | People | City</p>
+<p>About Us | Disclaimer | Careers @ IBN | Contact Us | Feedback | Complaint Redressal | Advertise With Us | Connect.in.com | Live Stock Market News | India’s Premiere Technology Guide | Privacy Policy | IBNKhabar | RSS Feeds | Josh18 | Kids education and games site | Firstpost  | History India | Please tell us about your smart phone preference.. | Please tell us what you plan to buy your home this season.. | Please tell us about you mobile network.. | What is your dream car?</p>
+<p> © 2012 IBNLive.com India. All Rights Reserved. A Web18 Venture </p>
+<p>CNN name, logo and all associated elements ® and © 2012 Cable News Network LP, LLLP. A Time Warner Company. All rights reserved. CNN and the CNN logo are registered marks of Cable News Network, LP LLLP,  displayed with permission. Use of the CNN name and/or logo on or as part of CNN-IBN does not derogate from the intellectual property rights of Cable News Network in respect of them.</p>
+<p>function getDiv(val1,val2,val3,val4,val5,val6)</p>
+<p>{</p>
+<p>	//alert(document.getElementById('sms_img').style.display);</p>
+<p>	str = val1+"_img";</p>
+<p>	if(document.getElementById(str).style.display == 'none')</p>
+<p>	{</p>
+<p>		document.getElementById(str).style.display = '';</p>
+<p>	}</p>
+<p>	else</p>
+<p>	{</p>
+<p>		document.getElementById(str).style.display = 'none';</p>
+<p>	}</p>
+<p>	str2 = val2+"_img";		 </p>
+<p>	document.getElementById(str2).style.display = 'none';</p>
+<p>	str3 = val3+"_img";		 </p>
+<p>	document.getElementById(str3).style.display = 'none';</p>
+<p>	str4 = val4+"_img";		 </p>
+<p>	document.getElementById(str4).style.display = 'none';</p>
+<p>	str5 = val5+"_img";		 </p>
+<p>	document.getElementById(str5).style.display = 'none';</p>
+<p>	str6 = val6+"_img";		 </p>
+<p>	document.getElementById(str6).style.display = 'none';</p>
+<p>	</p>
+<p>}</p>
+<p>subnavurl('http://ibnlive.in.com/generalnewsfeed/');</p>

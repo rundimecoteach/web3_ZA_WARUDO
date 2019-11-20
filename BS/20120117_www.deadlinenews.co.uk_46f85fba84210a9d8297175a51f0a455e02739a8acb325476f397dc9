@@ -1,0 +1,215 @@
+<p>Pedestrians injured while using headphones triple | Deadline News</p>
+<p>@import url( http://www.deadlinenews.co.uk/wp-content/themes/Transcript/style.css );</p>
+<p>AudioPlayer.setup("http://www.deadlinenews.co.uk/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"200",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</p>
+<p>//<![CDATA[</p>
+<p>var _wpcf7 = { cached: 1 };</p>
+<p>//]]></p>
+<p>			//<![CDATA[</p>
+<p>			</p>
+<p>			// WP Geo default settings</p>
+<p>			var wpgeo_w = '100%';</p>
+<p>			var wpgeo_h = '300px';</p>
+<p>			var wpgeo_type = 'G_NORMAL_MAP';</p>
+<p>			var wpgeo_zoom = 5;</p>
+<p>			var wpgeo_controls = 'GLargeMapControl3D';</p>
+<p>			var wpgeo_controltypes = 'G_NORMAL_MAP,G_SATELLITE_MAP,G_HYBRID_MAP,G_PHYSICAL_MAP';</p>
+<p>			var wpgeo_scale = 'N';</p>
+<p>			var wpgeo_overview = 'N';</p>
+<p>			</p>
+<p>			//]]></p>
+<p>			</p>
+<p>			//<![CDATA[</p>
+<p>			// ----- WP Geo Marker Icons -----</p>
+<p>			var wpgeo_icon_large = wpgeo_createIcon(20, 34, 10, 34, 'http://www.deadlinenews.co.uk/wp-content/plugins/wp-geo/img/markers/large-marker.png', 'http://www.deadlinenews.co.uk/wp-content/plugins/wp-geo/img/markers/large-marker-shadow.png');var wpgeo_icon_small = wpgeo_createIcon(10, 17, 5, 17, 'http://www.deadlinenews.co.uk/wp-content/plugins/wp-geo/img/markers/small-marker.png', 'http://www.deadlinenews.co.uk/wp-content/plugins/wp-geo/img/markers/small-marker-shadow.png');var wpgeo_icon_dot = wpgeo_createIcon(8, 8, 3, 6, 'http://www.deadlinenews.co.uk/wp-content/plugins/wp-geo/img/markers/dot-marker.png', 'http://www.deadlinenews.co.uk/wp-content/plugins/wp-geo/img/markers/dot-marker-shadow.png');</p>
+<p>			//]]></p>
+<p>			</p>
+<p>		@font-face {</p>
+<p>		 font-family: Harabara;</p>
+<p>		 src: url("http://www.deadlinenews.co.uk/wp-content/themes/Transcript/font/Harabara.eot") /* EOT file for IE */</p>
+<p>		}</p>
+<p>		@font-face {</p>
+<p>		 font-family: Harabara;</p>
+<p>		 src: url("http://www.deadlinenews.co.uk/wp-content/themes/Transcript/font/Harabara.ttf") /* TTF file for CSS3 browsers */</p>
+<p>		}</p>
+<p>	</p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-1035490118382813";</p>
+<p>/* top banner */</p>
+<p>google_ad_slot = "5977211826";</p>
+<p>google_ad_width = 468;</p>
+<p>google_ad_height = 60;</p>
+<p>//--></p>
+<p>Home</p>
+<p>News</p>
+<p>UK & World</p>
+<p>Local News</p>
+<p>Scottish News</p>
+<p>Court & Crime</p>
+<p>Business</p>
+<p>Politics</p>
+<p>Entertainment</p>
+<p>Sport</p>
+<p>Agency</p>
+<p>News Coverage</p>
+<p>Public Relations</p>
+<p>Photography</p>
+<p>Video Services</p>
+<p>Image Galleries</p>
+<p>Feature Stories</p>
+<p>Multimedia</p>
+<p>Podcasts</p>
+<p>Videos</p>
+<p>Blogs</p>
+<p>Duncan Simpson</p>
+<p>Claire McKim</p>
+<p>Kirsty Topping</p>
+<p>Neil Pooran</p>
+<p>Niamh Anderson</p>
+<p>Peter Laing</p>
+<p>Guest Blog</p>
+<p>Community</p>
+<p>Your News</p>
+<p>Edinburgh jobs</p>
+<p>Storymap</p>
+<p>Salt ‘n’ Sauce</p>
+<p>Useful Links</p>
+<p>Contact Us</p>
+<p>Archives</p>
+<p>Edinburgh jobs</p>
+<p>Sitemap</p>
+<p>RSS</p>
+<p>Send A Story</p>
+<p>Register | Log in</p>
+<p>Tuesday, January 17th, 2012 | Posted by Kirsty Topping</p>
+<p>Pedestrians injured while using headphones triple</p>
+<p>Tweet</p>
+<p>   window.fbAsyncInit = function() {</p>
+<p>   FB.init({appId: "", status: true, cookie: true,</p>
+<p>		 xfbml: true});</p>
+<p>	};</p>
+<p> (function() {</p>
+<p>  var e = document.createElement("script"); e.async = true;</p>
+<p> e.src = document.location.protocol +</p>
+<p>   "//connect.facebook.net/en_US/all.js";</p>
+<p> document.getElementById("fb-root").appendChild(e);</p>
+<p>}());</p>
+<p>By Alessandro Brunelli</p>
+<p> </p>
+<p>Scientists found the number of pedestrians injured while wearing headphones was rising</p>
+<p>The number of pedestrians injured while listening to headphones has tripled over the last six years, a US study found out.</p>
+<p>The study, published Monday on Injury Prevention, a peer-reviewed journal for health professionals, proved that two-thirds of injured music listeners were males under the age of 30.</p>
+<p>Researchers, using data came from a number of sources, such as the American National Electronic Injury Surveillance System, the U.S. Consumer Product Safety Commission, Google, News archives and Westlaw Campus Research, counted a total of 47 dead or injured pedestrians wearing headphones in 2010 and 2011.</p>
+<p>The figures marked a dramatic rise from the 16 deaths in 2004 and 2005, and also showed that 55 percent of the victims were hit by trains, and very often (70 percent of the cases) resulted in a death of the listener.</p>
+<p>Risk</p>
+<p>Predictably, most incidents (89 percent) occurred in urban areas, and warnings such as horns, which had been reported going off in 29 percent of the cases, sometimes were not enough to spare a life.</p>
+<p>Researchers suggested that two possible reasons for the connection between the use of headphones and incidents were sensory deprivation and distraction, often referred to as “inattentional blindness”, a term which denotes a lack of attention to what’s going on around us.</p>
+<p>The study, which didn’t include data relating to injured mobile phone users, leaves room for further future analysis.</p>
+<p>The authors avoided making direct connections between the use of headphones and pedestrian risk, and while they hinted that hearing what’s happening in the environment around us may be more important than visual cues, they also added that other reasons such as intoxicated pedestrians or drivers errors could have been involved.</p>
+<p>The study concluded that “The use of headphones with handheld devices may pose a safety risk to pedestrians, especially in environments with moving vehicles. Further research is needed to determine if and how headphone use compromises pedestrian safety.”</p>
+<p>Short URL: http://www.deadlinenews.co.uk/?p=41440</p>
+<p>					</p>
+<p>					Posted by Kirsty Topping</p>
+<p>					</p>
+<p>					on Jan 17 2012. Filed under Top Stories, UK & World.</p>
+<p>					You can follow any responses to this entry through the RSS 2.0.</p>
+<p>					</p>
+<p>					You can leave a response or trackback to this entry</p>
+<p>					</p>
+<p>					</p>
+<p>Leave a Reply</p>
+<p>Click here to cancel reply.</p>
+<p>Name (required)</p>
+<p>Mail (will not be published) (required)</p>
+<p>Website</p>
+<p>CAPTCHA Code *</p>
+<p>          var sUrlInput = document.getElementById("comment");</p>
+<p>                  var oParent = sUrlInput.parentNode;</p>
+<p>          var sSubstitue = document.getElementById("captchaImgDiv");</p>
+<p>                  oParent.appendChild(sSubstitue, sUrlInput);</p>
+<p>      </p>
+<p>#submit {display:none;} </p>
+<p>Share It</p>
+<p>Digg It</p>
+<p>Del Icio Us</p>
+<p>Add to Facebook</p>
+<p>Google Bookmarks</p>
+<p>Stumble It</p>
+<p>Twitter</p>
+<p>Add to Reddit</p>
+<p>Print This Post</p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-1035490118382813";</p>
+<p>/* article adverts */</p>
+<p>google_ad_slot = "6398321434";</p>
+<p>google_ad_width = 120;</p>
+<p>google_ad_height = 600;</p>
+<p>//--></p>
+<p> </p>
+<p>Archives2012January2011DecemberNovemberOctoberSeptemberAugustJulyJuneMayAprilMarchFebruaryJanuary2010DecemberNovemberOctoberSeptemberAugustJulyJuneMayAprilMarchFebruaryJanuary2009DecemberNovemberOctoberSeptemberAugustJulyJuneMayAprilMarchFebruaryJanuary2008DecemberNovemberOctoberSeptemberAugustJulyJuneMayAprilMarchFebruaryJanuary2007DecemberNovemberOctoberSeptemberAugustJulyJuneMayAprilMarchFebruaryJanuary </p>
+<p>Related Posts</p>
+<p>Skin cancer genes identified for first time All hands on deck at thriving limb-ovators Touch BionicsMuseum waves goodbye to iconic whaleDavid Cameron makes a splash during Edinburgh University visitHunt for couples to test sex jab for men</p>
+<p>Recently Commented</p>
+<p>gelle: Long live grater Albania along with Greater UK,please this is all rubish it better 4 all of u guys to deall...</p>
+<p>paul swadzba: Snooty: It may be, but Tatty it wont be, if the shops in question listened to the council about loud...</p>
+<p>George: Interesting that the UK has given this same Albanian mafia control of the Serbian province of Kosovo. Now...</p>
+<p>Who? Me?: It’s fake fur, courtesy Marks and Sparks.</p>
+<p>Beate Schmidt: Don’t call him “JACKO”!!!!!!</p>
+<p>Recently Added</p>
+<p>Pedestrians injured while using headphones triple</p>
+<p>Own goal as footballer Rocco Quinn breaks into neighbour’s home</p>
+<p>Ghoulish relics from Edinburgh’s medical past to go on display</p>
+<p>Jellyfish have nuclear bosses in a quiver</p>
+<p>Scotsman given record £7.5million salary</p>
+<p>Edinburgh murder victim named</p>
+<p>Subo reveals fondness for the Black Stuff</p>
+<p>Charity retailer announces 8.5% hike in December sales</p>
+<p>Police hunt man who tried to get schoolgirl into his car</p>
+<p>Man unconscious after living room fire</p>
+<p>About Us</p>
+<p>Contact Us</p>
+<p>Features</p>
+<p>Archives</p>
+<p>Sitemap</p>
+<p>RSS</p>
+<p>Submit News</p>
+<p>Terms & Conditions</p>
+<p> </p>
+<p>									© 2012			Deadline News. All Rights Reserved.</p>
+<p>		</p>
+<p>//<![CDATA[</p>
+<p>var si_captcha_styles = "\</p>
+<p><!-- begin SI CAPTCHA Anti-Spam - comment form style -->\</p>
+<p><style type='text/css'>\</p>
+<p>div#captchaImgDiv { display:block; }\</p>
+<p>.captchaSizeDivSmall { width:175px; height:45px; padding-top:10px; }\</p>
+<p>.captchaSizeDivLarge { width:250px; height:60px; padding-top:10px; }\</p>
+<p>img#si_image_com,#si_image_reg,#si_image_log,#si_image_side_login { border-style:none; margin:0; padding-right:5px; float:left; }\</p>
+<p>.captchaImgRefresh { border-style:none; margin:0; vertical-align:bottom; }\</p>
+<p>div#captchaInputDiv { display:block; padding-top:15px; padding-bottom:5px; }\</p>
+<p>label#captcha_code_label { margin:0; }\</p>
+<p>input#captcha_code { width:65px; }\</p>
+<p></style>\</p>
+<p><!-- end SI CAPTCHA Anti-Spam - comment form style -->\</p>
+<p>";</p>
+<p>jQuery(document).ready(function($) {</p>
+<p>$('head').append(si_captcha_styles);</p>
+<p>});</p>
+<p>//]]></p>
+<p>        Site by Digijuice</p>
+<p>	/* <![CDATA[ */</p>
+<p>		</p>
+<p>		</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p> </p>
+<p>    try {</p>
+<p>        var pageTracker = _gat._getTracker("UA-8097383-1");</p>
+<p>        pageTracker._trackPageview();</p>
+<p>        </p>
+<p>    } catch(err) {</p>
+<p>        alert(err);</p>
+<p>    }</p>
+<p>		</p>
+<p>		</p>
+<p>		/* ]]> */</p>
+<p>	</p>

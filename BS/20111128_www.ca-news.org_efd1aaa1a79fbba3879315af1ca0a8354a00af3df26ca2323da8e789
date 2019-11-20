@@ -1,0 +1,279 @@
+<p>CA-NEWS : В Ташкенте пройдёт акция, посвященная Всемирному дню борьбы со СПИДом</p>
+<p>BODY { font-family:arial; font-size:10pt; /*background:#DFEEF5; background:#DEDFE1; */ background:#FFF; margin:0px; /*margin-top:8px; */}</p>
+<p>TD { /*background:#EFF7FB; */ /*background:#e1eff3;*/ }</p>
+<p>P { font-family: arial; font-size:10pt; margin-top:0px; margin-bottom:9px; }</p>
+<p>.newstext A { font-family: arial; font-size:10pt; color:#006596; border-bottom: dashed 1px #006596; }</p>
+<p>.newstext A:hover { font-family: arial; font-size:10pt; color:#006596; border-bottom: solid 1px #006596; text-decoration:none; }</p>
+<p>.newstext IMG {padding:0 8px; border:none; }</p>
+<p>.main { width:180px; vertical-align:top; font-size:9pt; padding-right:10px; color:#006596; }</p>
+<p>.main P { font-size:9pt; }</p>
+<p>.rowlist { width:158px; vertical-align:top; }</p>
+<p>A { font-size: 9pt; color:#274274; color:#000; font-family: arial; text-decoration:none; font-weight:normal; }</p>
+<p>A:hover { color:#4D648F; color:#000; text-decoration:underline; }</p>
+<p>.TOPMENU { /*border:1px solid #4D648F;*/ background:#cfe3eb; margin-bottom:6px; padding:3px 0; }</p>
+<p>.TOPMENU TD{ text-align:center; background:#cfe3eb; /*border-left:1px solid #dedFE1; border-right:1px solid #dedFE1;*/ }</p>
+<p>.TOPMENU A { color: #000; }</p>
+<p>.GEOMENU { height: 23px; margin-top:6px;}</p>
+<p>.GEOMENU TR { background: url('http://static.ca-news.org/.iface/img/menu.bg.png'); }</p>
+<p>.GEOMENU TD { text-align:center; background: url('http://static.ca-news.org/.iface/img/menu.bg.png'); }</p>
+<p>.GEOMENU .delim { background: url('http://static.ca-news.org/.iface/img/menu.delim.png') center no-repeat; }</p>
+<p>.GEOMENU A { color: #cfe3eb; font-weight:bold; }</p>
+<p>/* ********************************************************** */</p>
+<p>.newsday_rows { width:600px; margin-bottom:3px; }</p>
+<p>.newsday_title { /*background:#4D648F; color:white;*/ text-align:center;  background:#006596;color:#cfe3eb; /*text-align:left;  padding-left:54px;*/ }</p>
+<p>.newsday_date { width:50px; text-align:center; font-size:8pt;}</p>
+<p>.newsday_name A { font-size:10pt; }</p>
+<p>.text_date { font-size:7pt; color:#222; }</p>
+<p>.lastnews { width:100%; }</p>
+<p>/*.lastnews TD { background:#C4DFF2; }*/</p>
+<p>.topnews { width:100%; }</p>
+<p>.topnews a { font-size:8pt; }</p>
+<p>.link_sub {font-size:10pt;}</p>
+<p>.menurc { color:#274274; }</p>
+<p>/* ********************************************************** */</p>
+<p>FORM { padding:0px; margin:0px; }</p>
+<p>INPUT { width:100px; border:1px solid black;font-size:8pt;}</p>
+<p>    </p>
+<p>#cdata { text-align: center; color:black; font-weight:bold; font-size:11px; font-family:tahoma; }</p>
+<p>#cpre { width: 25px; text-align: center; color:lightblue; font-size:11px; font-family:tahoma; }</p>
+<p>#cact { width: 25px; text-align: center; color:darkblue; font-size:11px; font-weight:bold; font-family:tahoma; }</p>
+<p>#cpass { width: 25px; text-align: center; color:darkblue; font-size:11px; font-family:tahoma; }</p>
+<p>#cpost { width: 25px; text-align: center; color:lightblue; font-size:11px; font-family:tahoma; }</p>
+<p>#cact_now { width: 25px; text-align: center; color:darkblue; border:1px solid red; font-size:11px; font-weight:bold; font-family:tahoma; }</p>
+<p>.billboard_link {text-align:center;margin: 0 auto; }	</p>
+<p>.billboard_link table { width:100%; background:#EFF7FB; border:0px solid #DEDFE1; }</p>
+<p>.billboard_link img{width:27px; border:none;}</p>
+<p>.billboard_link th{vertical-align:middle; text-align:left; border-top:1px dashed #DEDFE1;  border-bottom:1px dashed #DEDFE1; }</p>
+<p>.billboard_link td{vertical-align:middle; text-align:right; border-top:1px dashed #DEDFE1;  border-bottom:1px dashed #DEDFE1; }</p>
+<p>.billboard_link A {font-size:13px;text-decoration:none;font-weight:bold;font-family:Verdana;color:#9a0000;}</p>
+<p>.billboard_link A:hover {text-decoration:underline;}</p>
+<p>.reginfo { padding:4px 4px; background:#FF6565; color: #FFF; text-align:center; font-weight:bold; }</p>
+<p>.reginfo A {color: #FFF; font-weight:bold; }</p>
+<p>.reginfoline { border-top: 2px solid #FF6565; }</p>
+<p>.titlenews { color: #ff0404; font-size:10pt; font-weight:bold; text-align:center; border-bottom: 2px solid #ff6363; background:#FFF; }</p>
+<p>.titlenews A { color: #ff0404; font-size:10pt; font-weight:bold; }</p>
+<p>.blocks { background:#e1eff3; }</p>
+<p>.blockshead { background: url('http://static.ca-news.org/.iface/img/menu.bg.png'); color:#cfe3eb; }</p>
+<p>.blockshead2 { background: url('http://static.ca-news.org/.iface/img/menu.bg2.png'); color:#FFF; }</p>
+<p>.datetitle { text-align:right; color:#006697; padding-right:24px; font-weight:bold; font-family:verdana;}</p>
+<p>.titles { color: #ff0404; font-size:12pt; font-weight:bold; text-align:center; }</p>
+<p>	#autocarousel { visibility:hidden;  width:200px; overflow:hidden; padding-top:5px; text-align:left;background:#B3D1D0; }</p>
+<p>	#autocarousel ul { list-style: none; width:1600px; margin: 0; padding: 0; position:relative; }</p>
+<p>	#autocarousel li { display:inline; float:left; }</p>
+<p>	#autocarousel .carouseladv { background:#B3D1D0; width:200px; height:185px; font-family:arial,tahoma,verdana; color:#333; font-size:11px; overflow:hidden; }</p>
+<p> 	#autocarousel .carouseladv DIV { /*height:140px;*/ margin:3px 5px; overflow:hidden; } /**/</p>
+<p>	#autocarousel A { color: #333; text-decoration: none; font-size:11px; }</p>
+<p>	#autocarousel A:hover { text-decoration: underline; }</p>
+<p>	#carousel { visibility:hidden;  width:200px; overflow:hidden; padding-top:5px; text-align:left;}</p>
+<p>	#carousel ul { list-style: none; width:1600px; margin: 0; padding: 0; position:relative; }</p>
+<p>	#carousel li { display:inline; float:left; }</p>
+<p>	#carousel .carouseladv { background:#B3D1D0; width:200px; height:150px; font-family:arial,tahoma,verdana; color:#333; font-size:11px; overflow:hidden; }</p>
+<p>	#carousel .carouseladv H1{ font-family: 'Times New Roman',serif; font-size:14px; font-size-adjust:none; font-style:normal; font-variant:normal; font-weight:normal; line-height:18px; margin:0px; margin-bottom:5px; color:#007973; }</p>
+<p>	#carousel .carouseladv span{ font-family: 'Times New Roman',serif; font-size:14px; color: #923000; }</p>
+<p>	#carousel .carouseladv DIV { height:120px; margin:5px; overflow:hidden; }</p>
+<p>	#carousel A { color: #333; text-decoration: none; font-size:11px; }</p>
+<p>	#carousel A:hover { text-decoration: underline; }</p>
+<p>.textlinkaaa {</p>
+<p>	margin-bottom:3px</p>
+<p>}</p>
+<p>.textlinkaaa A {</p>
+<p>	display:block;</p>
+<p>	padding:4px 0;</p>
+<p>	color:red;</p>
+<p>	text-decoration:none;</p>
+<p>}</p>
+<p>.textlinkaaa A:hover {</p>
+<p>	text-decoration:underline;</p>
+<p>}</p>
+<p>.comments { padding:5px;margin:0 6px; text-align:left; background:#FFF}</p>
+<p>.comments .ban { text-align:center; }</p>
+<p>.comments IMG { width:183px; }</p>
+<p>.comments a { font-size: 10px; color: #000;  text-decoration: none;font-weight: normal}</p>
+<p>.comments a:hover { text-decoration: underline; }</p>
+<p>      .send_comm{</p>
+<p>        margin:5px;padding:5px;width:auto;background:#006596;color:white;border:4px solid #bbb;cursor:pointer;font-size:12px;</p>
+<p>        -webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;</p>
+<p>      }</p>
+<p>      .send_comm:hover{</p>
+<p>        margin:4px;padding:6px;font-size:12px;</p>
+<p>        -webkit-box-shadow:0px 2px 5px #888;-moz-box-shadow:0px 2px 5px #888;box-shadow:0px 2px 5px #888;</p>
+<p>      }</p>
+<p>      .edit_msg{display: none;}</p>
+<p>    </p>
+<p>      function show(id){</p>
+<p>        $('#'+id).toggle();</p>
+<p>      }</p>
+<p>    </p>
+<p>$(function(){</p>
+<p>  	$('#autocarousel').infiniteCarousel({</p>
+<p>		displayThumbnails:0,</p>
+<p>		displayTime : 6000</p>
+<p>	});</p>
+<p>  	$('#autocarousel').css('visibility','visible');</p>
+<p>	$('#carousel').infiniteCarousel({</p>
+<p>		displayThumbnails:0,</p>
+<p>		displayTime : 4000</p>
+<p>	});</p>
+<p>  	$('#carousel').css('visibility','visible');</p>
+<p>})</p>
+<p>20:58 (Бишкек)28 ноября 2011</p>
+<p>      .langchange{</p>
+<p>        text-align: center;padding: 5px;font-size: 110%;cursor: pointer;</p>
+<p>        -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;</p>
+<p>      }</p>
+<p>      .langchange:hover{</p>
+<p>        background: #e1eff3;text-decoration: underline;</p>
+<p>        -moz-box-shadow: 0px 0px 5px #ccc;-webkit-box-shadow: 0px 0px 5px #ccc;box-shadow: 0px 0px 5px #ccc;</p>
+<p>      }</p>
+<p>    </p>
+<p>[РУС]</p>
+<p>[ENG]</p>
+<p>  .lnktomain a{font-size:110%;font-weight:bold;color:white;}</p>
+<p>Главная</p>
+<p>азия и мир</p>
+<p>казахстан</p>
+<p>кыргызстан</p>
+<p>таджикистан</p>
+<p>туркменистан</p>
+<p>узбекистан</p>
+<p>По странам</p>
+<p>По рубрикам</p>
+<p>Who is Who</p>
+<p>о нас</p>
+<p>Вакансии</p>
+<p>Реклама</p>
+<p>Подписка</p>
+<p>on-line подписка</p>
+<p>последние новости  28-11-2011, 17:53Президент Р.Отунбаева даст итоговую пресс-конференцию   28-11-2011, 17:39С 28 ноября по 1 декабря на нескольких постах дороги Бишкек-Ош будет закрыт проезд автотранспортных средств   28-11-2011, 17:38В Ташкенте пройдёт акция, посвященная Всемирному дню борьбы со СПИДом   28-11-2011, 17:32Центризбирком Казахстана надеется, что в парламент пройдут представители нескольких партий   28-11-2011, 17:31Комитет ЖК одобрил законопроект по усилению мер по предотвращению продажи алкоголя несовершеннолетним   28-11-2011, 17:30Как изменится работа депутатов по новому Регламенту Жогорку Кенеша   28-11-2011, 17:23В мэрии Бишкека пройдет второй тур конкурса «Депозит молодого учителя»   28-11-2011, 17:23Треть казахстанцев на работе играют в компьютерные "стрелялки" и файтинги   28-11-2011, 17:22В Бишкеке «Северэлектро» производит замену проводов ЛЭП 35 кВ «Промышленная-Кара-Жигач»   28-11-2011, 17:20Принимаемые правительством КР меры по предупреждению возможных ЧС из-за схода лавин на горных дорогах </p>
+<p>auto.doska.kg за сегодня</p>
+<p> Mercedes-Benz E klasse (W211 кузов)  2006г — $35000</p>
+<p> Lexus GX 470  2006г — $41000</p>
+<p> Bombardier GTI LE  2011г — $600</p>
+<p> Mercedes-Benz S klasse (W140 кузов)  1998г — $15600</p>
+<p> Toyota Land Cruiser  2011г — $37500</p>
+<p> BMW 5 series (E39)  2000г — $11000</p>
+<p> Mercedes-Benz E klasse (W210 кузов)  1996г — $7800</p>
+<p> BMW 3 series (E46)  1999г — $8000</p>
+<p> Rover прочие  2001г — $7000</p>
+<p> BMW X5 (E53)  2002г — $18000</p>
+<p> Nissan Pathfinder  2005г — $21000</p>
+<p> Subaru Forester  2001г — $6300</p>
+<p> Suzuki XL7  2003г — $16100</p>
+<p> Mercedes-Benz E klasse (W210 кузов)  1996г — $10300</p>
+<p> Subaru Forester  2002г — $9500</p>
+<p> БЕСПЛАТНО</p>
+<p><!--</p>
+<p>		google_ad_client = 'pub-7782362590249548';</p>
+<p>		/* кнопка 125x125, создано 02.04.09 */</p>
+<p>		google_ad_slot = '2108989899';</p>
+<p>		google_ad_width = 125;</p>
+<p>		google_ad_height = 125;</p>
+<p>		//--></p>
+<p>		</p>
+<p>узбекистан, общество</p>
+<p>В Ташкенте пройдёт акция, посвященная Всемирному дню борьбы со СПИДом</p>
+<p>		28 ноября 2011, 17:38</p>
+<p>CA-NEWS (UZ) - В Ташкенте 1 декабря состоится акция, посвященная Всемирному дню борьбы со СПИДом, с рамках которой пройдут выставка фотографий демонстрация роликов, посвященных вопросам ВИЧ/СПИД и концерт артистов узбекской эстрады.</p>
+<p>Как сообщают организаторы, программа акции, наряду с выступлениями представителей государственных, международных и общественных организаций, включает выставку фотографий и информационных материалов организаций, работающих в сфере профилактики ВИЧ/СПИД, демонстрацию роликов, посвященных вопросам ВИЧ/СПИД, и концертную программу с участием звезд узбекской эстрады.</p>
+<p>Цели мероприятия – повышение глобальной осведомленности о ВИЧ/СПИДе и демонстрация международной солидарности перед лицом пандемии.</p>
+<p>Основной информационный посыл акции – необходимость формирования толерантного отношения к людям, живущим с ВИЧ (ЛЖВ). Мероприятие  также направлено на привлечение внимания к проблеме распространения ВИЧ-инфекции и повышение ответственности каждого за сохранение своего здоровья и здоровья близких.</p>
+<p>В 2011 г. Узбекистан получил грант Глобального фонда для борьбы со СПИДом, туберкулёзом и малярией "Продолжение расширения масштабов противодействия ВИЧ-инфекции в Республике Узбекистан, сфокусированного на особо уязвимых слоях населения". Представительство ПРООН в республике стало основным исполнителем гранта.</p>
+<p>Проектом запланировано оказание психосоциальной помощи и обеспечение доступа к качественным медико-социальным услугам 1800 людей с ВИЧ.</p>
+<p>Организаторами выступили Фонд поддержки социальных инициатив, Фонд Форум, ПРООН/Глобальный Фонд, Центр молодежных инициатив "Келажак овози" при участии представительств UNFPA, UNAIDS в Узбекистане, Министерства здравоохранения и Министерства народного образования.</p>
+<p>[ Комментариев 0 ]   [ версия для печати ]   </p>
+<p><!--</p>
+<p>			google_ad_client = 'pub-7782362590249548';</p>
+<p>			/* 468x15, создано 02.04.09 */</p>
+<p>			google_ad_slot = '0709915133';</p>
+<p>			google_ad_width = 580;</p>
+<p>			google_ad_height = 15;</p>
+<p>			//--></p>
+<p>			</p>
+<p>          Имя: </p>
+<p>          Текст комментария:</p>
+<p>MarketGid</p>
+<p>загрузка...</p>
+<p>Загрузка...</p>
+<p>рубрикианализ и комментарииздоровьекультуранаука и технологииновости компанийобзоры прессыобществопогодаполитикапроект Синдикатпроисшествияспортэкономика</p>
+<p>авторизация</p>
+<p>логин</p>
+<p>пароль</p>
+<p>• Талантбек БатыралиевНужны международные критерии при назначении ректоров ВУЗов, НЦ и НИИ• В Оше открыт новый медицинский центр «Ош-Кардио»• Что такое синкопальное состояние?</p>
+<p>поиск</p>
+<p>архив</p>
+<p>ReLoad("/calendar.php","");</p>
+<p>Туроператоры КР</p>
+<p>Курорты и санатории КР</p>
+<p>Горнолыжные базы, охота, рафтинг и рыбалка</p>
+<p>Гостиницы и Отели</p>
+<p><!--</p>
+<p>		google_ad_client = 'pub-7782362590249548';</p>
+<p>		/* кнопка 125x125, создано 02.04.09 */</p>
+<p>		google_ad_slot = '2108989899';</p>
+<p>		google_ad_width = 125;</p>
+<p>		google_ad_height = 125;</p>
+<p>		//--></p>
+<p>		</p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer)</p>
+<p>js=10//--><!--</p>
+<p>a+=';j='+navigator.javaEnabled()</p>
+<p>js=11//--><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)</p>
+<p>js=12//--><!--</p>
+<p>js=13//--><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=80666"'+</p>
+<p>' target=_blank><img src="http://top.list.ru/counter'+</p>
+<p>'?id=80666;t=212;js='+js+a+';rand='+Math.random()+</p>
+<p>'" alt="Mail.ru"'+' border=0 height=31 width=88/><\/a>')</p>
+<p>if(11<js)d.write('<'+'!-- ')//--><!--</p>
+<p>if(11<js)d.write('--'+'>')//--></p>
+<p>java="1.0";</p>
+<p>java1=""+"refer="+escape(document.referrer)+"&page="+</p>
+<p>escape(window.location.href);</p>
+<p>document.cookie="astratop=1; path=/"; java1+="&c="+(document.cookie?"yes":"now");</p>
+<p>java="1.1";java1+="&java="+(navigator.javaEnabled()?"yes":"now")</p>
+<p>java="1.2";</p>
+<p>java1+="&razresh="+screen.width+'x'+screen.height+"&cvet="+</p>
+<p>(((navigator.appName.substring(0,3)=="Mic"))?</p>
+<p>screen.colorDepth:screen.pixelDepth)java="1.3"</p>
+<p>java1+="&jscript="+java+"&rand="+Math.random();</p>
+<p>document.write("<a href='http://www.net.kg/?fromsite=174' target='_blank'><img "+</p>
+<p>" src='http://www.net.kg/img.php?id=174&"+java1+"&' border=0 alt='WWW.NET.KG' width='88' height='31'></a>")</p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' "+</p>
+<p>"target=_blank><img src='http://counter.yadro.ru/hit?t14.11;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet'"+</p>
+<p>"border=0 width=88 height=31><\/a>")//--></p>
+<p><!--</p>
+<p>cz_user=10758;cz_type=1;cz_str="&wd="+screen.width;</p>
+<p>cz_str+="&hg="+screen.height+"&du="+escape(document.URL);</p>
+<p>cz_str+="&rf="+escape(document.referrer);</p>
+<p>cz_str="<a href='http://zero.kz/?u="+cz_user+"' target='_blank'>"+</p>
+<p>"<img src='http://zero.kz/c.php?u="+cz_user+"&t="+cz_type+cz_str+"'"+</p>
+<p>" border='0px' width='88' height='31' alt='CountZero' /><\/a>";</p>
+<p>document.write(cz_str);//--></p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter8143930 = new Ya.Metrika({id:8143930, enableAll: true});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, "yandex_metrika_callbacks");</p>
+<p>© CA-NEWS: Центральноазиатская новостная служба, 2007-2011.</p>
+<p>Все права защищены и охраняются законом. Любое использование материалов сайта допустимо при условии ссылки на CA-NEWS. Редакция не несет ответственности за достоверность информации, опубликованной в рекламных объявлениях.</p>
+<p>Редакция может не разделять мнения авторов статей в рубрике "Обзор прессы" и "Анализы и комментарии".</p>
+<p>Наш адрес:Кыргызстан, г.Бишкек, ул. Московская 189news@ca-news.org</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-179005-6");</p>
+<p>pageTracker._setDomainName(".ca-news.org");</p>
+<p> pageTracker._setVar("uz"); pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>

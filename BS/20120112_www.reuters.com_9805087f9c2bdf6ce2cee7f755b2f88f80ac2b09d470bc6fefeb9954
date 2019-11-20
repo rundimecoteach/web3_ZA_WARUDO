@@ -1,0 +1,608 @@
+<p>      Elton John to pen personal story about AIDS</p>
+<p>| Reuters</p>
+<p>.articleComments .grid8 .dividerInlineH { margin-top: 10px; }</p>
+<p>#relatedInteractive h2 { font-size: 14px; margin: 5px 0; }</p>
+<p>.pressRelease{</p>
+<p> color:#666;</p>
+<p> font-size:11px;</p>
+<p> margin-bottom:10px;</p>
+<p>}</p>
+<p>.required{</p>
+<p>  color:red;</p>
+<p>  font-size:11px;</p>
+<p>  font-weight:bold;</p>
+<p>} </p>
+<p>var currentUsedEdition = 'BETAUS';</p>
+<p> </p>
+<p>Edition:</p>
+<p>U.S.</p>
+<p>Africa</p>
+<p>Arabic</p>
+<p>Argentina</p>
+<p>Brazil</p>
+<p>Canada</p>
+<p>China</p>
+<p>France</p>
+<p>Germany</p>
+<p>India</p>
+<p>Italy</p>
+<p>Japan</p>
+<p>Latin America</p>
+<p>Mexico</p>
+<p>Russia</p>
+<p>Spain</p>
+<p>United Kingdom</p>
+<p>Home</p>
+<p>Business</p>
+<p>Business Home</p>
+<p>Economy</p>
+<p>Davos 2012</p>
+<p>Technology</p>
+<p>Media</p>
+<p>Small Business</p>
+<p>Legal</p>
+<p>Deals</p>
+<p>Earnings</p>
+<p>Summits</p>
+<p>Business Video</p>
+<p>Markets</p>
+<p>Markets Home</p>
+<p>U.S. Markets</p>
+<p>European Markets</p>
+<p>Asian Markets</p>
+<p>Global Market Data</p>
+<p>Indices</p>
+<p>M&A</p>
+<p>Stocks</p>
+<p>Bonds</p>
+<p>Currencies</p>
+<p>Commodities</p>
+<p>Futures</p>
+<p>Funds</p>
+<p>peHUB</p>
+<p>World</p>
+<p>World Home</p>
+<p>U.S.</p>
+<p>Brazil</p>
+<p>China</p>
+<p>Euro Zone</p>
+<p>Japan</p>
+<p>Mexico</p>
+<p>Russia</p>
+<p>India Insight</p>
+<p>World Video</p>
+<p>Politics</p>
+<p>Politics Home</p>
+<p>Election 2012</p>
+<p>Issues 2012</p>
+<p>Candidates 2012</p>
+<p>Tales from the Trail</p>
+<p>Political Punchlines</p>
+<p>Supreme Court</p>
+<p>Politics Video</p>
+<p>Tech</p>
+<p>Technology Home</p>
+<p>MediaFile</p>
+<p>Science</p>
+<p>Tech Video</p>
+<p>Opinion</p>
+<p>Opinion Home</p>
+<p>Chrystia Freeland</p>
+<p>John Lloyd</p>
+<p>Felix Salmon</p>
+<p>Jack Shafer</p>
+<p>David Rohde</p>
+<p>Bernd Debusmann</p>
+<p>Nader Mousavizadeh</p>
+<p>James Saft</p>
+<p>Lucy P. Marcus</p>
+<p>David Cay Johnston</p>
+<p>Bethany McLean</p>
+<p>Edward Hadas</p>
+<p>Hugo Dixon</p>
+<p>Ian Bremmer</p>
+<p>Mohamed El-Erian</p>
+<p>Lawrence Summers</p>
+<p>Susan Glasser</p>
+<p>The Great Debate</p>
+<p>Steven Brill</p>
+<p>Geraldine Fabrikant</p>
+<p>Breakingviews</p>
+<p>Equities</p>
+<p>Credit</p>
+<p>Private Equity</p>
+<p>M&A</p>
+<p>Macro & Markets</p>
+<p>Politics</p>
+<p>Money</p>
+<p>Money Home</p>
+<p>Global Investing</p>
+<p>MuniLand</p>
+<p>Unstructured Finance</p>
+<p>Linda Stern</p>
+<p>Mark Miller</p>
+<p>John Wasik</p>
+<p>Analyst Research</p>
+<p>Alerts</p>
+<p>Watchlist</p>
+<p>Portfolio</p>
+<p>Stock Screener</p>
+<p>Fund Screener</p>
+<p>Personal Finance Video</p>
+<p>Life & Culture</p>
+<p>Health</p>
+<p>Sports</p>
+<p>Arts</p>
+<p>Faithworld</p>
+<p>Business Traveler</p>
+<p>Entertainment</p>
+<p>Oddly Enough</p>
+<p>Lifestyle Video</p>
+<p>Pictures</p>
+<p>Pictures Home</p>
+<p>Reuters Photographers</p>
+<p>Full Focus</p>
+<p>Video</p>
+<p>Reuters.namespace("info");</p>
+<p>Reuters.info.articleId = 'USTRE80814C20120109';</p>
+<p>Reuters.info.articlePartnerURI = '';</p>
+<p>Reuters.info.channel = 'lifestyleMolt';</p>
+<p>Reuters.info.articleUrl = '/article/2012/01/09/us-eltonjohn-aids-book-idUSTRE80814C20120109';</p>
+<p>Reuters.utils.replaceContent("breakingNewsContent", "/assets/breakingNews", null, null);</p>
+<p>			// krux kseg and kuid from krux header tag</p>
+<p>			//var kruxvars = (typeof(kseg)=='undefined'?'':kseg) + (typeof(kuid)=='undefined'?'':kuid);</p>
+<p>			var n_pbtvars = (typeof(n_pbt)=='undefined'?'':n_pbt); </p>
+<p>			var srndvars = (typeof(srnd)=='undefined'?'':srnd);</p>
+<p>			var gscvars = (typeof(gs_channels)=='undefined' ? '' : gs_channels);</p>
+<p>		  var adsrc = 'us.reuters/news/lifestyle/article;' + n_pbtvars + srndvars + gscvars + (typeof(seg)=='undefined'?'':seg) + 'type=leaderboard;sz=728x90;tile=1;vbc=MSDynamics;articleID=USTRE80814C20120109;ord=' + (typeof(tmstmp)!='undefined'?tmstmp:12345) + '?';</p>
+<p>		  if ( typeof(AD_TRACKER) != 'undefined' ) {</p>
+<p>		      adsrc = AD_TRACKER.processAdSrcType(adsrc);</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  if ((typeof (hideAllAds) == 'undefined' || hideAllAds == false) && (typeof (AD_TRACKER) == 'undefined' || AD_TRACKER.isAdHidden('leaderboard') == false) &&</p>
+<p>		      (typeof (hideAd_10036157) == 'undefined' || hideAd_10036157 == false)) {</p>
+<p>		        document.write('<scri' + 'pt language="javascript" type="text/javascript" src="http://ad.doubleclick.net/adj/' + adsrc + '"></scri' + 'pt>');</p>
+<p>		        if ((!document.images && navigator.userAgent.indexOf("Mozilla/2.") >= 0) || navigator.userAgent.indexOf("WebTV") >= 0) {</p>
+<p>		        	/* Looks like we don't need this dart, and we are seeing weird clients with Mozilla/2. userAgent*/</p>
+<p>		            //document.write('<a href="http://ad.doubleclick.net/jump/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=leaderboard;sz=728x90;tile=1;vbc=MSDynamics;articleID=USTRE80814C20120109;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" target="_blank">');</p>
+<p>		            //document.write('<img src="http://ad.doubleclick.net/ad/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=leaderboard;sz=728x90;tile=1;vbc=MSDynamics;articleID=USTRE80814C20120109;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" width="728" height="90"  border="0" alt=""></a>');</p>
+<p>		        }</p>
+<p>		  }</p>
+<p>		  </p>
+<p>			// krux kseg and kuid from krux header tag</p>
+<p>			//var kruxvars = (typeof(kseg)=='undefined'?'':kseg) + (typeof(kuid)=='undefined'?'':kuid);</p>
+<p>			var n_pbtvars = (typeof(n_pbt)=='undefined'?'':n_pbt); </p>
+<p>			var srndvars = (typeof(srnd)=='undefined'?'':srnd);</p>
+<p>			var gscvars = (typeof(gs_channels)=='undefined' ? '' : gs_channels);</p>
+<p>		  var adsrc = 'us.reuters/news/lifestyle/article;' + n_pbtvars + srndvars + gscvars + (typeof(seg)=='undefined'?'':seg) + 'type=pushdown;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)!='undefined'?tmstmp:12345) + '?';</p>
+<p>		  if ( typeof(AD_TRACKER) != 'undefined' ) {</p>
+<p>		      adsrc = AD_TRACKER.processAdSrcType(adsrc);</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  if ( typeof(freqCap_pushdown) == 'undefined' || freqCap_pushdown == null ) {</p>
+<p>		      try { console.debug("frequency manager: %s is undefined, could be channel include/exclude or scheduling", 'freqCap_pushdown') } catch(e) {};</p>
+<p>		  }</p>
+<p>		  if ( typeof(freqCap_pushdown) != 'undefined' &&</p>
+<p>		       ((typeof(freqCap_pushdown.isAdNeeded) != 'undefined' && freqCap_pushdown.isAdNeeded()) ||</p>
+<p>		        (typeof(freqCap_pushdown.isDefaultAdNeeded) != 'undefined' && freqCap_pushdown.isDefaultAdNeeded()))) {</p>
+<p>		  </p>
+<p>		  if ((typeof (hideAllAds) == 'undefined' || hideAllAds == false) && (typeof (AD_TRACKER) == 'undefined' || AD_TRACKER.isAdHidden('pushdown') == false) &&</p>
+<p>		      (typeof (hideAd_10032916) == 'undefined' || hideAd_10032916 == false)) {</p>
+<p>		        document.write('<scri' + 'pt language="javascript" type="text/javascript" src="http://ad.doubleclick.net/adj/' + adsrc + '"></scri' + 'pt>');</p>
+<p>		        if ((!document.images && navigator.userAgent.indexOf("Mozilla/2.") >= 0) || navigator.userAgent.indexOf("WebTV") >= 0) {</p>
+<p>		        	/* Looks like we don't need this dart, and we are seeing weird clients with Mozilla/2. userAgent*/</p>
+<p>		            //document.write('<a href="http://ad.doubleclick.net/jump/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=pushdown;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" target="_blank">');</p>
+<p>		            //document.write('<img src="http://ad.doubleclick.net/ad/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=pushdown;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" width="1" height="1"  border="0" alt=""></a>');</p>
+<p>		        }</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  }</p>
+<p>		  </p>
+<p>	if ( typeof(freqCap_pushdown) != 'undefined' && </p>
+<p>       ((typeof(freqCap_pushdown.isAdNeeded) != 'undefined' && (freqCap_pushdown.isAdNeeded())) || </p>
+<p>       (typeof(freqCap_pushdown.isDefaultAdNeeded) != 'undefined' && freqCap_pushdown.isDefaultAdNeeded()))) {</p>
+<p>	    document.getElementById('freqCap_pushdown').style.display = 'block';</p>
+<p>	}</p>
+<p>Article</p>
+<p>Comments (0)</p>
+<p>			// krux kseg and kuid from krux header tag</p>
+<p>			//var kruxvars = (typeof(kseg)=='undefined'?'':kseg) + (typeof(kuid)=='undefined'?'':kuid);</p>
+<p>			var n_pbtvars = (typeof(n_pbt)=='undefined'?'':n_pbt); </p>
+<p>			var srndvars = (typeof(srnd)=='undefined'?'':srnd);</p>
+<p>			var gscvars = (typeof(gs_channels)=='undefined' ? '' : gs_channels);</p>
+<p>		  var adsrc = 'us.reuters/news/lifestyle/article;' + n_pbtvars + srndvars + gscvars + (typeof(seg)=='undefined'?'':seg) + 'type=poe;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)!='undefined'?tmstmp:12345) + '?';</p>
+<p>		  if ( typeof(AD_TRACKER) != 'undefined' ) {</p>
+<p>		      adsrc = AD_TRACKER.processAdSrcType(adsrc);</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  if ( typeof(freqCap_poe) == 'undefined' || freqCap_poe == null ) {</p>
+<p>		      try { console.debug("frequency manager: %s is undefined, could be channel include/exclude or scheduling", 'freqCap_poe') } catch(e) {};</p>
+<p>		  }</p>
+<p>		  if ( typeof(freqCap_poe) != 'undefined' &&</p>
+<p>		       ((typeof(freqCap_poe.isAdNeeded) != 'undefined' && freqCap_poe.isAdNeeded()) ||</p>
+<p>		        (typeof(freqCap_poe.isDefaultAdNeeded) != 'undefined' && freqCap_poe.isDefaultAdNeeded()))) {</p>
+<p>		  </p>
+<p>		  if ((typeof (hideAllAds) == 'undefined' || hideAllAds == false) && (typeof (AD_TRACKER) == 'undefined' || AD_TRACKER.isAdHidden('poe') == false) &&</p>
+<p>		      (typeof (hideAd_10034971) == 'undefined' || hideAd_10034971 == false)) {</p>
+<p>		        document.write('<scri' + 'pt language="javascript" type="text/javascript" src="http://ad.doubleclick.net/adj/' + adsrc + '"></scri' + 'pt>');</p>
+<p>		        if ((!document.images && navigator.userAgent.indexOf("Mozilla/2.") >= 0) || navigator.userAgent.indexOf("WebTV") >= 0) {</p>
+<p>		        	/* Looks like we don't need this dart, and we are seeing weird clients with Mozilla/2. userAgent*/</p>
+<p>		            //document.write('<a href="http://ad.doubleclick.net/jump/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=poe;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" target="_blank">');</p>
+<p>		            //document.write('<img src="http://ad.doubleclick.net/ad/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=poe;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" width="1" height="1"  border="0" alt=""></a>');</p>
+<p>		        }</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  }</p>
+<p>		  </p>
+<p>	if ( typeof(freqCap_poe) != 'undefined' && </p>
+<p>       ((typeof(freqCap_poe.isAdNeeded) != 'undefined' && (freqCap_poe.isAdNeeded())) || </p>
+<p>       (typeof(freqCap_poe.isDefaultAdNeeded) != 'undefined' && freqCap_poe.isDefaultAdNeeded()))) {</p>
+<p>	    document.getElementById('freqCap_poe').style.display = 'block';</p>
+<p>	}</p>
+<p>			// krux kseg and kuid from krux header tag</p>
+<p>			//var kruxvars = (typeof(kseg)=='undefined'?'':kseg) + (typeof(kuid)=='undefined'?'':kuid);</p>
+<p>			var n_pbtvars = (typeof(n_pbt)=='undefined'?'':n_pbt); </p>
+<p>			var srndvars = (typeof(srnd)=='undefined'?'':srnd);</p>
+<p>			var gscvars = (typeof(gs_channels)=='undefined' ? '' : gs_channels);</p>
+<p>		  var adsrc = 'us.reuters/news/lifestyle/article;' + n_pbtvars + srndvars + gscvars + (typeof(seg)=='undefined'?'':seg) + 'type=fixedpanel;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)!='undefined'?tmstmp:12345) + '?';</p>
+<p>		  if ( typeof(AD_TRACKER) != 'undefined' ) {</p>
+<p>		      adsrc = AD_TRACKER.processAdSrcType(adsrc);</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  if ( typeof(freqCap_fixedpanel) == 'undefined' || freqCap_fixedpanel == null ) {</p>
+<p>		      try { console.debug("frequency manager: %s is undefined, could be channel include/exclude or scheduling", 'freqCap_fixedpanel') } catch(e) {};</p>
+<p>		  }</p>
+<p>		  if ( typeof(freqCap_fixedpanel) != 'undefined' &&</p>
+<p>		       ((typeof(freqCap_fixedpanel.isAdNeeded) != 'undefined' && freqCap_fixedpanel.isAdNeeded()) ||</p>
+<p>		        (typeof(freqCap_fixedpanel.isDefaultAdNeeded) != 'undefined' && freqCap_fixedpanel.isDefaultAdNeeded()))) {</p>
+<p>		  </p>
+<p>		  if ((typeof (hideAllAds) == 'undefined' || hideAllAds == false) && (typeof (AD_TRACKER) == 'undefined' || AD_TRACKER.isAdHidden('fixedpanel') == false) &&</p>
+<p>		      (typeof (hideAd_14747480) == 'undefined' || hideAd_14747480 == false)) {</p>
+<p>		        document.write('<scri' + 'pt language="javascript" type="text/javascript" src="http://ad.doubleclick.net/adj/' + adsrc + '"></scri' + 'pt>');</p>
+<p>		        if ((!document.images && navigator.userAgent.indexOf("Mozilla/2.") >= 0) || navigator.userAgent.indexOf("WebTV") >= 0) {</p>
+<p>		        	/* Looks like we don't need this dart, and we are seeing weird clients with Mozilla/2. userAgent*/</p>
+<p>		            //document.write('<a href="http://ad.doubleclick.net/jump/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=fixedpanel;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" target="_blank">');</p>
+<p>		            //document.write('<img src="http://ad.doubleclick.net/ad/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=fixedpanel;sz=1x1;articleID=USTRE80814C20120109;taga=aaaaaaaaa;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" width="1" height="1"  border="0" alt=""></a>');</p>
+<p>		        }</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  }</p>
+<p>		  </p>
+<p>	if ( typeof(freqCap_fixedpanel) != 'undefined' && </p>
+<p>       ((typeof(freqCap_fixedpanel.isAdNeeded) != 'undefined' && (freqCap_fixedpanel.isAdNeeded())) || </p>
+<p>       (typeof(freqCap_fixedpanel.isDefaultAdNeeded) != 'undefined' && freqCap_fixedpanel.isDefaultAdNeeded()))) {</p>
+<p>	    document.getElementById('freqCap_fixedpanel').style.display = 'block';</p>
+<p>	}</p>
+<p>			// krux kseg and kuid from krux header tag</p>
+<p>			//var kruxvars = (typeof(kseg)=='undefined'?'':kseg) + (typeof(kuid)=='undefined'?'':kuid);</p>
+<p>			var n_pbtvars = (typeof(n_pbt)=='undefined'?'':n_pbt); </p>
+<p>			var srndvars = (typeof(srnd)=='undefined'?'':srnd);</p>
+<p>			var gscvars = (typeof(gs_channels)=='undefined' ? '' : gs_channels);</p>
+<p>		  var adsrc = 'us.reuters/news/lifestyle/article;' + n_pbtvars + srndvars + gscvars + (typeof(seg)=='undefined'?'':seg) + 'type=mpu;sz=300x250;tile=2;vbc=MSDynamics;articleID=USTRE80814C20120109;ord=' + (typeof(tmstmp)!='undefined'?tmstmp:12345) + '?';</p>
+<p>		  if ( typeof(AD_TRACKER) != 'undefined' ) {</p>
+<p>		      adsrc = AD_TRACKER.processAdSrcType(adsrc);</p>
+<p>		  }</p>
+<p>		  </p>
+<p>		  if ((typeof (hideAllAds) == 'undefined' || hideAllAds == false) && (typeof (AD_TRACKER) == 'undefined' || AD_TRACKER.isAdHidden('mpu') == false) &&</p>
+<p>		      (typeof (hideAd_10036163) == 'undefined' || hideAd_10036163 == false)) {</p>
+<p>		        document.write('<scri' + 'pt language="javascript" type="text/javascript" src="http://ad.doubleclick.net/adj/' + adsrc + '"></scri' + 'pt>');</p>
+<p>		        if ((!document.images && navigator.userAgent.indexOf("Mozilla/2.") >= 0) || navigator.userAgent.indexOf("WebTV") >= 0) {</p>
+<p>		        	/* Looks like we don't need this dart, and we are seeing weird clients with Mozilla/2. userAgent*/</p>
+<p>		            //document.write('<a href="http://ad.doubleclick.net/jump/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=mpu;sz=300x250;tile=2;vbc=MSDynamics;articleID=USTRE80814C20120109;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" target="_blank">');</p>
+<p>		            //document.write('<img src="http://ad.doubleclick.net/ad/us.reuters/news/lifestyle/article;' + (typeof(seg)=='undefined'?'':seg) + 'type=mpu;sz=300x250;tile=2;vbc=MSDynamics;articleID=USTRE80814C20120109;ord=' + (typeof(tmstmp)=='undefined'?12345:tmstmp) + '?" width="300" height="250"  border="0" alt=""></a>');</p>
+<p>		        }</p>
+<p>		  }</p>
+<p>		  </p>
+<p>highlighter.highlight();</p>
+<p>Reuters.utils.addLoadEvent(function() { Reuters.utils.replaceContent('searchModule', '/assets/searchIntercept?blob='+highlighter.searchKeywords(), null, null) });</p>
+<p>#searchInterceptResults {display:none;}</p>
+<p>#searchInterceptResults.wResults {display: block;}</p>
+<p> Follow Reuters  Facebook Twitter RSS YouTube  </p>
+<p>addImpression("13827288_Most Read Articles");</p>
+<p>					Read</p>
+<p>U.S. military moves carriers, denies Iran link</p>
+<p>11 Jan 2012 </p>
+<p>Yields fall sharply at Spanish, Italian debt sales</p>
+<p>8:12am EST </p>
+<p>Anthony says she became pregnant after passing out at party</p>
+<p>11 Jan 2012 </p>
+<p>Taliban say Marine abuse tape won't hurt talks</p>
+<p>| </p>
+<p>7:57am EST </p>
+<p>Most milk in India contaminated or diluted</p>
+<p>10 Jan 2012 </p>
+<p>					Discussed</p>
+<p>198</p>
+<p>Huntsman outraged at ad targeting adopted daughters</p>
+<p>115</p>
+<p>Buffett to GOP: You pay and so will I</p>
+<p>113</p>
+<p>Gay marriage a threat to humanity’s future-Pope</p>
+<p>					Watched</p>
+<p>U.S. Marines probe video of men urinating on Taliban corpses</p>
+<p>Wed, Jan 11 2012</p>
+<p>TV makers battle at CES</p>
+<p>Wed, Jan 11 2012</p>
+<p>Bungee jumper plummets into Zimbabwe river</p>
+<p>Sun, Jan 8 2012</p>
+<p>stripPR = function(modId) {</p>
+<p>	if (document.getElementById(modId)) {</p>
+<p>		var lis = document.getElementById(modId).getElementsByTagName("li");</p>
+<p>		var delindex = 0;</p>
+<p>		for (i=0; i<lis.length; i++) {</p>
+<p>			if (lis[i].innerHTML.search("PR Newswire") != -1) {	</p>
+<p>				lis[i].setAttribute("id", "pressli" + delindex);</p>
+<p>				delindex++;</p>
+<p>			}</p>
+<p>		}</p>
+<p>		for (i=0; i<delindex; i++) {</p>
+<p>			document.getElementById("pressli" + i).parentNode.removeChild(document.getElementById("pressli" + i));</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>stripPR("mostPopularRead");</p>
+<p>stripPR("mostPopularShared");</p>
+<p>Elton John to pen personal story about AIDS</p>
+<p>Tweet</p>
+<p>							var shortUrl = 'http://reut.rs/xQ1r9w';</p>
+<p>							var twitterShareLink = document.getElementById("twitter-share-link");</p>
+<p>							twitterShareLink.setAttribute("data-url", shortUrl);</p>
+<p>							Reuters.utils.loadScript("twitterShare", "http://platform.twitter.com/widgets.js");</p>
+<p>						</p>
+<p>Share this</p>
+<p>Email</p>
+<p>Print</p>
+<p>Related Topics</p>
+<p>Entertainment »</p>
+<p>Fashion »</p>
+<p>People »</p>
+<p>Arts »</p>
+<p>Lifestyle »</p>
+<p>if(typeof Reuters.info.skipSlideshow == 'undefined'&& document.getElementById("displayFrame")) {Reuters.utils.addLoadEvent(function() { Reuters.utils.loadScript('sJSON','/assets/multimediaJSON?articleId=USTRE80814C20120109&setImage=300&view=100&startNumber=1') });}</p>
+<p>Singer Elton John speaks during a benefit for the Elton John AIDS Foundation in New York October 26, 2011.   </p>
+<p>Credit: Reuters/Lucas Jackson</p>
+<p> </p>
+<p>LONDON | </p>
+<p>        Mon Jan 9, 2012 10:07am EST</p>
+<p>LONDON (Reuters) - Elton John will write a personal account of his life during the AIDS epidemic, including his friendship with Queen frontman Freddie Mercury who died of an AIDS-related illness in 1991 aged 45.</p>
+<p>The "Rocket Man" musician founded the Elton John AIDS Foundation around 20 years ago to raise funds to help fight the disease, and proceeds from "LOVE IS THE CURE: Ending the Global AIDS Epidemic" will go to the charity.In a statement released on Monday, publishers Hodder & Stoughton promised a "very personal story of ... Elton's life during the AIDS epidemic, including his agony at seeing friend after friend perish needlessly."Among the individuals it describes are Mercury and Ryan White, an American boy who became a "poster child" for HIV/AIDS after he was banned by a school because of his condition.According to reports at the time, John was with White when he died in a U.S. hospital in 1990 aged 18."This is a disease that must be cured not by a miraculous vaccine, but by changing hearts and minds, and through a collective effort to break down social barriers and to build bridges of compassion," John said."Why are we not doing more? This is a question I have thought deeply about, and wish to answer -- and to help change -- by writing this book."An estimated 34 million people worldwide had the human immunodeficiency virus (HIV) that causes AIDS in 2010, up 17 percent on 2001 when 28.6 million were living with HIV.According to the Hodder statement, HIV/AIDS has claimed 60 million lives.Hodder & Stoughton acquired LOVE IS THE CURE with U.S. sister company Little, Brown and Company.It is due to be published in July 2012 to coincide with the 2012 XIX International AIDS Conference to be held in Washington DC.(Reporting by Mike Collett-White, editing by Paul Casciato)</p>
+<p>Entertainment</p>
+<p>Fashion</p>
+<p>People</p>
+<p>Arts</p>
+<p>Lifestyle</p>
+<p>Tweet this</p>
+<p>Link this</p>
+<p>Share this</p>
+<p>Digg this</p>
+<p>Email</p>
+<p>Reprints</p>
+<p>function rboxReady(evnt) {</p>
+<p>	TRC.drawRBox({mode:'article',container:'box-for-rbox'});</p>
+<p>}</p>
+<p>var taboolaLoader = document.createElement('script');</p>
+<p>taboolaLoader.async = true;</p>
+<p>document.getElementsByTagName('head')[0].appendChild(taboolaLoader);</p>
+<p>if (taboolaLoader.attachEvent) { // support Internet Explorer </p>
+<p>	taboolaLoader.attachEvent("onactivate", rboxReady);</p>
+<p>} else {</p>
+<p>	taboolaLoader.addEventListener("activate", rboxReady, false);</p>
+<p>}</p>
+<p>taboolaLoader.type="text/javascript";</p>
+<p>taboolaLoader.src="http://cdn.taboolasyndication.com/libtrc/reuters/rbox.js?dynamic&article="+Reuters.info.articleId;</p>
+<p>    var headlineEncoded = 'Elton+John+to+pen+personal+story+about+AIDS';</p>
+<p>    var currentId = 'USTRE80814C20120109';</p>
+<p>    var storyChannel = 'lifestyleMolt';</p>
+<p>    var storyEdition = 'BETAUS';</p>
+<p>    var storyURL = 'www.reuters.com';</p>
+<p>    var socialCommentCount = '5';</p>
+<p>    </p>
+<p> </p>
+<p>We welcome comments that advance the story through relevant opinion, anecdotes, links and data. If you see a comment that you believe is irrelevant or inappropriate, you can flag it to our editors by using the report abuse links. Views expressed in the comments do not represent those of Reuters. For more information on our comment policy, see http://blogs.reuters.com/fulldisclosure/2010/09/27/toward-a-more-thoughtful-conversation-on-stories/</p>
+<p>Comments (0)</p>
+<p>Be the first to comment on reuters.com.</p>
+<p>Add yours using the box above.</p>
+<p>{"parsetags": "explicit"}</p>
+<p>gapi.plusone.go("googleTag");</p>
+<p> </p>
+<p>Reuters.utils.replaceContent("network-footer", "/assets/sharedModuleLoader?view=RSM-US-More-From-Reuters-2", null, Reuters.utils.fixNetworkFooter);</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>  </p>
+<p>Edition:</p>
+<p>U.S.</p>
+<p>Africa</p>
+<p>Arabic</p>
+<p>Argentina</p>
+<p>Brazil</p>
+<p>Canada</p>
+<p>China</p>
+<p>France</p>
+<p>Germany</p>
+<p>India</p>
+<p>Italy</p>
+<p>Japan</p>
+<p>Latin America</p>
+<p>Mexico</p>
+<p>Russia</p>
+<p>Spain</p>
+<p>United Kingdom</p>
+<p>if(Reuters.info.edition == "BETAUS") {</p>
+<p>	$("#editionSwitchFooter .currentEdition").text('U.S.');</p>
+<p>} else {</p>
+<p>	$("#editionSwitchFooter .currentEdition").text(Reuters.info.edition);</p>
+<p>}</p>
+<p>Back to top</p>
+<p>Reuters.com</p>
+<p>Business</p>
+<p>Markets</p>
+<p>World</p>
+<p>Politics</p>
+<p>Technology</p>
+<p>Opinion</p>
+<p>Money</p>
+<p>Pictures</p>
+<p>Videos</p>
+<p>Site Index</p>
+<p>Legal</p>
+<p>Bankruptcy Law</p>
+<p>California Legal</p>
+<p>New York Legal</p>
+<p>Securities Law</p>
+<p>Support & Contact</p>
+<p>Support</p>
+<p>Corrections</p>
+<p>Advertise With Us</p>
+<p>Connect with Reuters</p>
+<p>Twitter  </p>
+<p>Facebook  </p>
+<p>LinkedIn  </p>
+<p>RSS  </p>
+<p>Podcast  </p>
+<p>Newsletters  </p>
+<p>Mobile</p>
+<p>About</p>
+<p>Privacy Policy</p>
+<p>Terms of Use</p>
+<p>Our Flagship financial information platform incorporating Reuters Insider</p>
+<p>An ultra-low latency infrastructure for electronic trading and data distribution</p>
+<p>A connected approach to governance, risk and compliance</p>
+<p>Our next generation legal research platform</p>
+<p>Our global tax workstation</p>
+<p>Thomsonreuters.com</p>
+<p>About Thomson Reuters</p>
+<p>Investor Relations</p>
+<p>Careers</p>
+<p>Contact Us</p>
+<p> </p>
+<p>Thomson Reuters is the world's largest international multimedia news agency, providing investing news, world news, business news, technology news, headline news, small business news, news alerts, personal finance, stock market, and mutual funds information available on Reuters.com, video, mobile, and interactive television platforms. Thomson Reuters journalists are subject to an Editorial Handbook which requires fair presentation and disclosure of relevant interests.</p>
+<p>NYSE and AMEX quotes delayed by at least 20 minutes. Nasdaq delayed by at least 15 minutes. For a complete list of exchanges and delays, please click here.</p>
+<p>var _baq = _baq || [];</p>
+<p>_baq.push(['setClientId','e1icvk']);</p>
+<p>_baq.push(['trackPageView']);</p>
+<p>_baq.push(['setCustomVariable',1,'section','BETAUS'])</p>
+<p>var author = '';</p>
+<p>var authorNameList = '';</p>
+<p>if (author != '') {</p>
+<p>    author = author.replace(/<a[^>]*">/g, '');</p>
+<p>    author = author.replace(/<\/a>/g, '');</p>
+<p>    var authors = author.split(' and ');</p>
+<p>    var nameList = '';</p>
+<p>    for (var i=0; i<authors.length; i++) {</p>
+<p>       if (authorNameList != '') {</p>
+<p>            authorNameList = authorNameList.trim() + ";";</p>
+<p>       }</p>
+<p>       authorNameList = authorNameList + authors[i].trim();</p>
+<p>    }</p>
+<p>    authorNameList = authorNameList.replace(",", ";");</p>
+<p>}</p>
+<p>if (authorNameList != '') {</p>
+<p>_baq.push(['setCustomVariable',2,'author',authorNameList])</p>
+<p>}</p>
+<p>(function () { var s = document.createElement('script'); s.src = ('https:' == document.location.protocol ? 'https://commerce.us.reuters.com' : 'http://mediacdn.reuters.com') + '/pulse/2/trb.js'; (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s); }());</p>
+<p>document.write("<SCR"+"IPT TYPE='text/javascript' SRC='" + "http" + (window.location.protocol.indexOf('https:')==0?'s':'') + "://js.revsci.net/gateway/gw.js?csid=I07714' CHARSET='ISO-8859-1'"+"><\/SCR"+"IPT>");</p>
+<p><!--</p>
+<p>      I07714.DM_cat("us.reuters > news > lifestyle > article");</p>
+<p>      I07714.DM_tag();</p>
+<p>//--></p>
+<p>document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>	COMSCORE.beacon({ c1:2, c2:"6035630", c3:"", c4:"", c5:"",  c6:"", c15:"" });</p>
+<p>var loginCookieValue =  YAHOO.util.Cookie.get("login");</p>
+<p>if(loginCookieValue != null && loginCookieValue != ''){</p>
+<p>	loginMeta = document.createElement('META');</p>
+<p>	loginMeta.name = 'WT.z_li';</p>
+<p>	var customerId = YAHOO.util.Cookie.get("customerId");</p>
+<p>	var socialLoginProvider = YAHOO.util.Cookie.get("socialLoginProvider");</p>
+<p>	if(customerId != null && customerId != '' && socialLoginProvider != null && socialLoginProvider != ''){</p>
+<p>		socialLoginProvider = socialLoginProvider.toLowerCase();</p>
+<p>		if(socialLoginProvider == 'google'){</p>
+<p>			loginMeta.content = "2";</p>
+<p>		} else if(socialLoginProvider == 'facebook'){</p>
+<p>			loginMeta.content = "3";</p>
+<p>		} else if(socialLoginProvider == 'linkedin'){</p>
+<p>			loginMeta.content = "4";</p>
+<p>		} else if(socialLoginProvider=='aol'){</p>
+<p>			loginMeta.content = "5";</p>
+<p>		} else if(socialLoginProvider=='twitter'){</p>
+<p>			loginMeta.content = "6";</p>
+<p>		} else if(socialLoginProvider=='myspace'){</p>
+<p>			loginMeta.content = "7";</p>
+<p>		} else if(socialLoginProvider=='yahoo'){</p>
+<p>			loginMeta.content = "8";</p>
+<p>		}</p>
+<p>	} else {</p>
+<p>		loginMeta.content = "1";</p>
+<p>	}</p>
+<p>	document.getElementsByTagName('head')[0].appendChild(loginMeta);</p>
+<p>   }</p>
+<p>var registeredCookieValue =  YAHOO.util.Cookie.get("ruus");</p>
+<p>if(registeredCookieValue != null && registeredCookieValue != 'undefined' && registeredCookieValue != ''){</p>
+<p>	registeredMeta = document.createElement('META');</p>
+<p>	registeredMeta.name = "WT.z_registered";</p>
+<p>	registeredMeta.content = encodeURIComponent(registeredCookieValue);</p>
+<p>	document.getElementsByTagName('head')[0].appendChild(registeredMeta);</p>
+<p>}</p>
+<p>var _tag=new WebTrends();</p>
+<p>_tag.dcsGetId();</p>
+<p>setModuleImpressionTracking();</p>
+<p>_tag.dcsCollect();</p>
+<p>dscQuantcast(_tag);</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-24152976-1']);</p>
+<p>_gaq.push(['_setDomainName', '.reuters.com']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</p>
+<p>	try{</p>
+<p>		var bkMetaArray = document.getElementsByTagName("meta");</p>
+<p>		for(var i=0;i<bkMetaArray.length;i++){</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.rChannel")>-1){</p>
+<p>				bk_addPageCtx("rch", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.rCountry")>-1){</p>
+<p>				bk_addPageCtx("rco", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("WT.cg_n")>-1){</p>
+<p>				bk_addPageCtx("wcntn", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("WT.cg_s")>-1){</p>
+<p>				bk_addPageCtx("wcnts", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.ContentChannel")>-1){</p>
+<p>				bk_addPageCtx("cc", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.ContentType")>-1){</p>
+<p>				bk_addPageCtx("cnt", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.PageNumber")>-1){</p>
+<p>				bk_addPageCtx("pn", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.PageTotal")>-1){</p>
+<p>				bk_addPageCtx("pt", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.VideoType")>-1){</p>
+<p>				bk_addPageCtx("vt", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.rAuthor")>-1){</p>
+<p>				bk_addPageCtx("aut", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.Comments")>-1){</p>
+<p>				bk_addPageCtx("com", bkMetaArray[i].getAttribute("content"));</p>
+<p>			}</p>
+<p>			//if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.VBC")>-1){</p>
+<p>				//bk_addPageCtx("<<SOMEKEY>>", bkMetaArray[i].getAttribute("content"));</p>
+<p>			//}</p>
+<p>			if(bkMetaArray[i].getAttribute("name").indexOf("DCSext.DartZone")>-1){</p>
+<p>				var bkZoneArray = bkMetaArray[i].getAttribute("content").split("/");</p>
+<p>				for(var z=0;z<bkZoneArray.length;z++){</p>
+<p>					var bkHint = "z"+z;</p>
+<p>					bk_addPageCtx(bkHint, bkZoneArray[z]);</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>	</p>
+<p>		bk_doJSTag(4972, 4);</p>
+<p>	}</p>
+<p>	catch(e){}</p>

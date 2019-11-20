@@ -1,0 +1,1650 @@
+<p>Онищенко: Мы мягкие и пушистые либералы по отношению к курильщикам // VRN.KP.RU Комсомольская правда в Воронеже</p>
+<p> </p>
+<p>      $.noConflict();</p>
+<p>      KPjQuery = jQuery.noConflict();</p>
+<p>   </p>
+<p> </p>
+<p>var crtg_nid="2044";</p>
+<p>var crtg_cookiename="crt_kpru";</p>
+<p>var crtg_varname="crtg_content";</p>
+<p>function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';}</p>
+<p>var crtg_content = crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);</p>
+<p>var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&cookieName='+escape(crtg_cookiename);crtg_url+='&rnd='+crtg_rnd;crtg_url+='&varName=' + escape(crtg_varname);</p>
+<p>var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;</p>
+<p>if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);</p>
+<p> </p>
+<p>.topuslot {display:none;}</p>
+<p>#all {background:#FFFFFF; margin-bottom:-13px;}</p>
+<p>#uni_slot_41 {width:300px; overflow:hidden;}</p>
+<p>new adriver.Plugin.require("onScroll.adriver");</p>
+<p>/* функция кроссбраузерного определения отступа от верха документа к текущей позиции скроллера прокрутки */</p>
+<p>function getScrollTop() {</p>
+<p>           var scrOfY = 0;</p>
+<p>           if( typeof( window.pageYOffset ) == "number" ) {</p>
+<p>                   //Netscape compliant</p>
+<p>                   scrOfY = window.pageYOffset;</p>
+<p>           } else if( document.body</p>
+<p>           && ( document.body.scrollLeft</p>
+<p>           || document.body.scrollTop ) ) {</p>
+<p>                   //DOM compliant</p>
+<p>                   scrOfY = document.body.scrollTop;</p>
+<p>           } else if( document.documentElement</p>
+<p>           && ( document.documentElement.scrollLeft</p>
+<p>            || document.documentElement.scrollTop ) ) {</p>
+<p>                   //IE6 Strict</p>
+<p>                   scrOfY = document.documentElement.scrollTop;</p>
+<p>           }</p>
+<p>           return scrOfY;</p>
+<p>}</p>
+<p>Event.observe(window, 'scroll', function() {</p>
+<p>    if (document.getElementById("ad_ph_1").innerHTML != '') {</p>
+<p>	fixPaneRefresh();</p>
+<p>    }</p>
+<p>});</p>
+<p>function fixPaneRefresh(){</p>
+<p>	var top  = getScrollTop();</p>
+<p>	var y = 30;</p>
+<p>	if (top < y){</p>
+<p>		document.getElementById("fixedBox").style.marginTop = (y-top) + "px";</p>
+<p>	} else {</p>
+<p>		document.getElementById("fixedBox").style.marginTop = "0px";</p>
+<p>	}</p>
+<p>}</p>
+<p>наверх</p>
+<p>Воронеж</p>
+<p>Абакан</p>
+<p>Барнаул</p>
+<p>Белгород</p>
+<p>Благовещенск</p>
+<p>Брянск</p>
+<p>Великий Новгород</p>
+<p>Владивосток</p>
+<p>Владимир</p>
+<p>Волгоград</p>
+<p>Вологда</p>
+<p>Воронеж</p>
+<p>Екатеринбург</p>
+<p>Иваново</p>
+<p>Ижевск</p>
+<p>Иркутск</p>
+<p>Казань</p>
+<p>Калининград</p>
+<p>Кемерово</p>
+<p>Киров</p>
+<p>Краснодар</p>
+<p>Красноярск</p>
+<p>Курск</p>
+<p>Липецк</p>
+<p>Москва</p>
+<p>Мурманск</p>
+<p>Нижний Новгород</p>
+<p>Новосибирск</p>
+<p>Омск</p>
+<p>Орел</p>
+<p>Пенза</p>
+<p>Пермь</p>
+<p>Псков</p>
+<p>Ростов-на-Дону</p>
+<p>Рязань</p>
+<p>Самара</p>
+<p>Санкт-Петербург</p>
+<p>Саратов</p>
+<p>Смоленск</p>
+<p>Ставрополь</p>
+<p>Сыктывкар</p>
+<p>Тамбов</p>
+<p>Тверь</p>
+<p>Томск</p>
+<p>Тула</p>
+<p>Тюмень</p>
+<p>Ульяновск</p>
+<p>Уфа</p>
+<p>Хабаровск</p>
+<p>Челябинск</p>
+<p>Чита</p>
+<p>Ярославль</p>
+<p>Балканы</p>
+<p>Беларусь</p>
+<p>Бишкек</p>
+<p>Молдова</p>
+<p>Северная Европа</p>
+<p>США</p>
+<p>Украина</p>
+<p>Чехия</p>
+<p>Сегодня 10 Апреля</p>
+<p>Погода за окном</p>
+<p> +4°C</p>
+<p>Cообщества</p>
+<p>Анкета</p>
+<p>Настройки</p>
+<p>Выйти</p>
+<p>Все уведомления</p>
+<p>Быстрый сайт</p>
+<p>Подключено</p>
+<p>Отключить</p>
+<p>Добро пожаловать!</p>
+<p>Что бы сайт стал еще лучше мы скрыли рекламу. Здесь вы можете включить или отключить рекламу.</p>
+<p>Скрыть подсказку</p>
+<p>    var informer_show = 0;</p>
+<p>    </p>
+<p>	KPjQuery('.my-kp-informer').on('click',function(obj){</p>
+<p>        obj.stopPropagation();</p>
+<p>        if(!informer_show) {</p>
+<p>            var container = KPjQuery('#informer-container');</p>
+<p>            if(container.length > 0) {</p>
+<p>                KPjQuery('body').one('click', function(e){</p>
+<p>                    KPjQuery('#informer').addClass('hideDropDown');</p>
+<p>                    KPjQuery('#informer').removeClass('dropDown');</p>
+<p>                    informer_show = 0;</p>
+<p>                });    </p>
+<p>            }</p>
+<p>            </p>
+<p>    		KPjQuery.ajax(</p>
+<p>            {</p>
+<p>                url: '/_ajax/profile_informer?key='+ApolloApi.getUserInfo().sosh_o,</p>
+<p>                type: 'GET',</p>
+<p>                timeout: 15000,</p>
+<p>                cache: false,</p>
+<p>                dataType: 'json',</p>
+<p>                beforeSend: function() {</p>
+<p>                    container.html('<div class="ajax-loader" style="text-align: center; margin: 10px;"><img src="http://s3.stc.all.kpcdn.net/images/ajax-loader.gif" alt="Идет загрузка приложения..."></div>');</p>
+<p>                },</p>
+<p>                success: function(response) {</p>
+<p>                    if(response.errorCode == 0) {</p>
+<p>                        container.empty();</p>
+<p>                        var i = 0;</p>
+<p>                        var new_count = 0;</p>
+<p>                        for(; i < response.result.length; i++) {</p>
+<p>                            var elem = KPjQuery('<a>', {</p>
+<p>                                class: response.result[i].readed ? 'noticeBlock' : 'noticeBlock notRead',</p>
+<p>                                title: response.result[i].readed ? 'Прочитанное уведомление' : 'Непрочитанное уведомление',</p>
+<p>                                href: response.result[i].url,</p>
+<p>                                id: 'noticeBlock_'+response.result[i].id</p>
+<p>                            });</p>
+<p>                            elem.data({id_read: response.result[i].id});</p>
+<p>                            if(!response.result[i].readed) {</p>
+<p>                                new_count++;</p>
+<p>                                // need send message - message is read!</p>
+<p>                                elem.on('click',function(e){</p>
+<p>                                    var target = KPjQuery(this);</p>
+<p>                                    var data = 'key=' + ApolloApi.getUserInfo().sosh_o + '&ids=' + target.data('id_read');</p>
+<p>                                    KPjQuery.ajax(</p>
+<p>                                    {</p>
+<p>                                        url: '/_ajax/profile_informer?ts=' + (new Date()).getTime(),</p>
+<p>                                        type: 'POST',</p>
+<p>                                        timeout: 5000,</p>
+<p>                                        cache: false,</p>
+<p>                                        dataType: 'json',</p>
+<p>                                        'data': data,</p>
+<p>                                        success: function() {</p>
+<p>                                            window.location.href = target.attr('href');</p>
+<p>                                        },</p>
+<p>                                        error: function() {</p>
+<p>                                            window.location.href = target.attr('href');</p>
+<p>                                        }</p>
+<p>                                    });</p>
+<p>                                    return false;</p>
+<p>                                });</p>
+<p>                            }</p>
+<p>                            elem.html('<img src="' + response.result[i].image + '"/><span class="p">' + response.result[i].text + '</span>');</p>
+<p>                            container.append(elem);</p>
+<p>                        }</p>
+<p>                        // not be found notices</p>
+<p>                        if( i==0 ) {</p>
+<p>                            container.html('<p class="center">У вас нет уведомлений.</p>');</p>
+<p>                        }</p>
+<p>                        else if(new_count > 0){</p>
+<p>                            KPjQuery('#jewel_new').addClass('new').removeClass('new-none').html('<span>' + new_count + '</span>');</p>
+<p>                        }</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            });</p>
+<p>            KPjQuery('#informer').addClass('dropDown');</p>
+<p>            KPjQuery('#informer').removeClass('hideDropDown');</p>
+<p>            informer_show = 1;</p>
+<p>        }</p>
+<p>        else {</p>
+<p>            KPjQuery('#informer').addClass('hideDropDown');</p>
+<p>            KPjQuery('#informer').removeClass('dropDown');</p>
+<p>            informer_show = 0;</p>
+<p>        }</p>
+<p>		</p>
+<p>		return false;</p>
+<p>	});</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-39785797-1']);</p>
+<p>_gaq.push(['_addOrganic', 'images.yandex.ru', 'q', true]);</p>
+<p>_gaq.push(['_addOrganic', 'go.mail.ru', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'nova.rambler.ru', 'query', true]);</p>
+<p>_gaq.push(['_addOrganic', 'nigma.ru', 's']);</p>
+<p>_gaq.push(['_addOrganic', 'webalta.ru', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'aport.ru', 'r']);</p>
+<p>_gaq.push(['_addOrganic', 'poisk.ru', 'text']);</p>
+<p>_gaq.push(['_addOrganic', 'km.ru', 'sq']);</p>
+<p>_gaq.push(['_addOrganic', 'liveinternet.ru', 'ask']);</p>
+<p>_gaq.push(['_addOrganic', 'search.qip.ru', 'query']);</p>
+<p>_gaq.push(['_addOrganic', 'ru.yahoo.com', 'p']);</p>
+<p>_gaq.push(['_addOrganic', 'search.tut.by', 'query']);</p>
+<p>_gaq.push(['_addOrganic', 'blogs.yandex.ru', 'text', true]);</p>
+<p>_gaq.push(['_addOrganic', 'search.icq.com', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'search.ukr.net', 'search_query']);</p>
+<p>_gaq.push(['_addOrganic', 'all.by', 'query']);</p>
+<p>_gaq.push(['_addOrganic', 'search.conduit.com', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'ask.com', 'q']);</p>
+<p>_gaq.push(['_addOrganic', 'isearch.babylon.com', 'q']);</p>
+<p>_gaq.push(['_setDomainName', '.kp.ru']);</p>
+<p>  _gaq.push(['_setDomainName', 'kp.ru']);</p>
+<p>  _gaq.push(['_setAllowLinker', true]);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>(function(){</p>
+<p>    var b, a;</p>
+<p>    b=document.createElement("script");</p>
+<p>    b.src="//a1.vdna-assets.com/analytics.js";</p>
+<p>    b.async=true;</p>
+<p>    a=document.getElementsByTagName("head")[0];</p>
+<p>    a.insertBefore(b,a.firstChild);</p>
+<p>    this.VDNA=this.VDNA||{};</p>
+<p>    this.VDNA.queue=this.VDNA.queue||[];</p>
+<p>}());</p>
+<p>        VDNA.queue.push({</p>
+<p>            apiKey : "kp.ru-voronezh",</p>
+<p>            method : "reportPageView"</p>
+<p>        });</p>
+<p>(function(){</p>
+<p>    var b, a;</p>
+<p>    b=document.createElement("script");</p>
+<p>    b.src="//a1.vdna-assets.com/analytics.js";</p>
+<p>    b.async=true;</p>
+<p>    a=document.getElementsByTagName("head")[0];</p>
+<p>    a.insertBefore(b,a.firstChild);</p>
+<p>    this.VDNA=this.VDNA||{};</p>
+<p>    this.VDNA.queue=this.VDNA.queue||[];</p>
+<p>}());</p>
+<p>        VDNA.queue.push({</p>
+<p>            apiKey : "kp.ru",</p>
+<p>            method : "reportPageView"</p>
+<p>        });</p>
+<p>(function(){</p>
+<p>    var b, a;</p>
+<p>    b=document.createElement("script");</p>
+<p>    b.src="//a1.vdna-assets.com/analytics.js";</p>
+<p>    b.async=true;</p>
+<p>    a=document.getElementsByTagName("head")[0];</p>
+<p>    a.insertBefore(b,a.firstChild);</p>
+<p>    this.VDNA=this.VDNA||{};</p>
+<p>    this.VDNA.queue=this.VDNA.queue||[];</p>
+<p>}());</p>
+<p>        VDNA.queue.push({</p>
+<p>            apiKey : "kp.ru-voronezh",</p>
+<p>            method : "reportPageView"</p>
+<p>        });</p>
+<p>(function(){</p>
+<p>    var b, a;</p>
+<p>    b=document.createElement("script");</p>
+<p>    b.src="//a1.vdna-assets.com/analytics.js";</p>
+<p>    b.async=true;</p>
+<p>    a=document.getElementsByTagName("head")[0];</p>
+<p>    a.insertBefore(b,a.firstChild);</p>
+<p>    this.VDNA=this.VDNA||{};</p>
+<p>    this.VDNA.queue=this.VDNA.queue||[];</p>
+<p>}());</p>
+<p>        VDNA.queue.push({</p>
+<p>            apiKey : "kp.ru-voronezh",</p>
+<p>            method : "reportPageView"</p>
+<p>        });</p>
+<p>(function(){</p>
+<p>    var b, a;</p>
+<p>    b=document.createElement("script");</p>
+<p>    b.src="//a1.vdna-assets.com/analytics.js";</p>
+<p>    b.async=true;</p>
+<p>    a=document.getElementsByTagName("head")[0];</p>
+<p>    a.insertBefore(b,a.firstChild);</p>
+<p>    this.VDNA=this.VDNA||{};</p>
+<p>    this.VDNA.queue=this.VDNA.queue||[];</p>
+<p>}());</p>
+<p>        VDNA.queue.push({</p>
+<p>            apiKey : "kp.ru-voronezh",</p>
+<p>            method : "reportPageView"</p>
+<p>        });</p>
+<p>(function(){</p>
+<p>    var b, a;</p>
+<p>    b=document.createElement("script");</p>
+<p>    b.src="//a1.vdna-assets.com/analytics.js";</p>
+<p>    b.async=true;</p>
+<p>    a=document.getElementsByTagName("head")[0];</p>
+<p>    a.insertBefore(b,a.firstChild);</p>
+<p>    this.VDNA=this.VDNA||{};</p>
+<p>    this.VDNA.queue=this.VDNA.queue||[];</p>
+<p>}());</p>
+<p>        VDNA.queue.push({</p>
+<p>            apiKey : "kp.ru",</p>
+<p>            method : "reportPageView"</p>
+<p>        });</p>
+<p>(function(){</p>
+<p>    var b, a;</p>
+<p>    b=document.createElement("script");</p>
+<p>    b.src="//a1.vdna-assets.com/analytics.js";</p>
+<p>    b.async=true;</p>
+<p>    a=document.getElementsByTagName("head")[0];</p>
+<p>    a.insertBefore(b,a.firstChild);</p>
+<p>    this.VDNA=this.VDNA||{};</p>
+<p>    this.VDNA.queue=this.VDNA.queue||[];</p>
+<p>}());</p>
+<p>        VDNA.queue.push({</p>
+<p>            apiKey : "kp.ru",</p>
+<p>            method : "reportPageView"</p>
+<p>        });</p>
+<p><!--</p>
+<p>	var kref = '';</p>
+<p>	try {kref = escape(document.referrer);} catch(e){};</p>
+<p>	var d = document, b = document.body;</p>
+<p>	var img = d.createElement('IMG');</p>
+<p>	with(img.style){position = 'absolute'; width = '0px'; height = '0px';}</p>
+<p>	img.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'b.kavanga.ru/exp?sid=1223&bt=3&bn=1&ct=8&prr=' + kref + '&rnd=' + Math.round(Math.random()*1000000);</p>
+<p>	b.insertBefore(img, b.firstChild);</p>
+<p>//--></p>
+<p><!--</p>
+<p>new Image().src = "//counter.yadro.ru/hit;kp/reg/vrn?r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";h"+escape(document.title.substring(0,80))+</p>
+<p>";"+Math.random();//--></p>
+<p> </p>
+<p>	var img = new Image();</p>
+<p>	img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*kp_ru/ru/UTF-8/tmsec=kp_life/' + Math.round(Math.random() * 1000000000);</p>
+<p>//<![CDATA[</p>
+<p>var a='';js=10;d=document;</p>
+<p>try{a+=';r='+escape(d.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}</p>
+<p>try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}</p>
+<p>try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}</p>
+<p>try{d.write('<a href="http://top.mail.ru/jump?from=294001" rel="nofollow"><img src="http://dc.c7.b4.a0.top.mail.ru/counter?id=294001;js='+js+</p>
+<p>a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" style="border:0;" height="1" width="1" \/><\/a>');}catch(e){}//]]></p>
+<p>/* <![CDATA[ */</p>
+<p>var openstat = { counter: 2026010, next: openstat, vars: { region: "Воронеж", theme: "Общество" } };</p>
+<p>document.write(unescape("%3Cscript%20src=%22http" +</p>
+<p>(("https:" == document.location.protocol) ? "s" : "") +</p>
+<p>"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </p>
+<p>/* ]]> */</p>
+<p>new adriver("adriver_banner_333443659", {sid:51864, bt:52, sz:'reklama', bn:7, pz:1});</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=society&bn=3&target=top&bt=43&pz=1&tail256=');</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=171114&target=top&bt=43&pz=0&tail256=');</p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=society&bn=1&target=top&bt=43&pz=1&tail256=');</p>
+<p>Новости Воронежа</p>
+<p>связь с редакцией</p>
+<p>Для мобильных устройств:RSSWAPPDAIPADMOBILEIPhoneAndroidBadaWindows Mobile 6.5</p>
+<p>Читай свежий номер10 Апреля № 50</p>
+<p>Фото</p>
+<p>Видео</p>
+<p>Все о КП</p>
+<p>Вакансии</p>
+<p>Еженедельник</p>
+<p>Телеканал КП</p>
+<p>Радио КП</p>
+<p>Реклама</p>
+<p>Коллекции КП</p>
+<p>Акции КП</p>
+<p>Пресс-центр</p>
+<p>Партнерам</p>
+<p>Полярный дневник "КП"</p>
+<p>Подписка</p>
+<p>Моя дача</p>
+<p>2 МЛН. товаров</p>
+<p>Перевал Дятлова</p>
+<p>Колумнисты</p>
+<p>Афиша</p>
+<p>Телевизор</p>
+<p>Инфографика</p>
+<p>Гороскоп</p>
+<p>Новости</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>Происшествия</p>
+<p>Звезды</p>
+<p>Наука</p>
+<p>Спорт</p>
+<p>Авто</p>
+<p>Дом. Семья</p>
+<p>Здоровье</p>
+<p>Общество</p>
+<p>|</p>
+<p>Общество</p>
+<p>		Саша ПЯТНИЦКАЯ</p>
+<p>		</p>
+<p>(5 Января 2012, 23:32)</p>
+<p>Онищенко: Мы мягкие и пушистые либералы по отношению к курильщикамКомментарии: 45</p>
+<p>Главный санитарный врач России предлагает отказаться от курилок в госучреждениях</p>
+<p>	Главный государственный санитарный врач России Геннадий Онищенко считает, что необходимо не только запретить курение в общественных местах, но и закрыть «курилки» в госучреждениях.</p>
+<p>	«По сравнению с европейцами, мы такие прямо уж мягкие и пушистые либералы. В Европе, в США категорически запрещено курение в любом государственном учреждении. Хочешь курить - выходи на улицу и там кури, независимо от погоды. У нас же - ну, что вы? Как же бедный курильщик останется без курительной комнаты?»«, - сказал глава Роспотребнадзора в эфире радио «Эхо Москвы» в четверг.</p>
+<p>	Он напомнил, что даже в здании правительства России есть места для курения.</p>
+<p>	«Уж где-где, а там, где принимаются те категорические законы, вдруг, такая либерализация. У нас господин Козак (вице-премьер РФ Дмитрий Козак) очень злостный курильщик. У нас господин Жуков (вице-спикер Госдумы РФ) курил, но сейчас он передислоцировался в представительную власть. Это плохо, что такие «брэнды» подают плохие примеры», -  добавил Геннадий Онищенко.</p>
+<p>	По данным Роспотребнадзора,  от табака в России ежегодно умирают 400 тысяч человек.</p>
+<p>	В минувшем 2011 году министерство здравоохранения и соцразвития РФ разработало законопроект, который вводит жесткие ограничения на курение в общественных местах и продажу сигарет. Например, согласно законопроекту, с 2014 года может быть полностью запрещено курение в поездах дальнего следования, на пассажирских судах дальнего плавания, а также в зонах аэропортов, связанных с пассажирским обслуживанием, в том числе у входов в вокзалы и аэропорты в радиусе 10 метров.</p>
+<p>Вернуться на главную</p>
+<p>InitMyKpBookmark();</p>
+<p> Выслать по почте</p>
+<p> Версия для печати</p>
+<p>Показать код</p>
+<p>Скрыть код</p>
+<p><div style="margin: 0px 0px 10px 0px; padding: 10px 10px 10px 10px; border: 1px solid #969696; background:#FFFFFF; font-family:Tahoma, Arial, Helvetica, sans-serif;"><div style="padding: 0px 0px 6px 0px;"><a href="http://www.kp.ru/"><img src="http://www.kp.ru/_img/logo_min.gif" border="0" alt="Комсомольская Правда" /></a></div><div style="float: left; padding: 4px 10px 0px 0px; margin: 0px; position: relative;"><a href="http://vrn.kp.ru/online/news/1054615"><img src="http://vrn.kp.ru" alt="Онищенко: Мы мягкие и пушистые либералы по отношению к курильщикам" style="display: block; border: 0px;" /></a></div><h2 style=" padding:0px; margin:0px; padding-bottom: 5px; font-size: 12px; left:0px; font-family:Tahoma, Arial, Helvetica, sans-serif; line-height:16px;"><a href="http://vrn.kp.ru/online/news/1054615" style="text-decoration:none; color:#20507b;">Онищенко: Мы мягкие и пушистые либералы по отношению к курильщикам</a></h2><div style="color: #646464; padding-bottom: 2px;  font-size:11px;"><a href="http://vrn.kp.ru/online/news/1054615" style="color: #646464; text-decoration:none;">5 Января 2012 23:41</a></div><p style="padding: 0px; margin: 0px; font-size:11px; line-height:14px;"><a href="http://vrn.kp.ru/online/news/1054615" style="text-decoration:none; color:#323232;">Главный санитарный врач России предлагает отказаться от курилок в госучреждениях</a></p><div style="padding-top: 5px; font-size:11px;"><a href="http://vrn.kp.ru/online/news/1054615" style="color:#20507b; text-decoration:none;">Подробнее »</a></div><span style="clear:both; font-size:0px; line-height:0px; overflow:hidden; display:block;"></span></div></p>
+<p>Скопировать код</p>
+<p>Онищенко: Мы мягкие и пушистые либералы по отношению к курильщикам5 Января 2012 23:41Главный санитарный врач России предлагает отказаться от курилок в госучрежденияхПодробнее »</p>
+<p>    ZeroClipboard.setMoviePath( '/_swf/ZeroClipboard.swf' );</p>
+<p>    var clip = null;</p>
+<p>    function initZeroClipboard() {</p>
+<p>		clip = new ZeroClipboard.Client();</p>
+<p>        clip.setHandCursor( true );</p>
+<p>		clip.glue( 'ccopy' );</p>
+<p>		clip.addEventListener('complete', oncomplete);</p>
+<p>    }</p>
+<p>	function oncomplete(client) {</p>
+<p>		$('ccopy').innerHTML = "Код скопирован";</p>
+<p>	}</p>
+<p> 	Event.observe(window, 'load', function() {</p>
+<p>        //initZeroClipboard();</p>
+<p>		//clip.setText( $('tcopy').value );</p>
+<p>    });</p>
+<p>    function cshowLJtext() {</p>
+<p>		$('copen', 'cclose', 'cshow').invoke('toggle');</p>
+<p>		initZeroClipboard();</p>
+<p>		clip.setText( $('tcopy').value );</p>
+<p>	}</p>
+<p>	</p>
+<p>Новости сми</p>
+<p>Загружается, подождите...</p>
+<p>Новости СМИ2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/59333.js'; sc.charset = 'windows-1251';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p><!--</p>
+<p>function adriverPoster(L){</p>
+<p>    if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>    var W=window,D=document,E=D.documentElement,T=0,N=ar_cn,P=0,C=D.compatMode=="CSS1Compat",</p>
+<p>        X='<scr'+'ipt type="text/javascript">var ar_bnum='+N+';setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e)}},3000);',</p>
+<p>        Y='<\/sc'+'ript><sc'+'ript type="text/javascript" src="'+L+'&tail256='+escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999)+'"><\/sc'+'ript>';</p>
+<p>    function G(){if(T++<100){var o=D.getElementById('ar_container_'+N);if(o){try{var d=o.contentDocument||(W.ActiveXObject&&W.frames['ar_container_'+N].document);if(d){d.write(X+Y)}else setTimeout(arguments.callee,100)}catch(e){try{o.src = "javascript:{document.write('"+X+'document.domain="'+D.domain+'";'+Y+"')}";return}catch(E){}}}else setTimeout(arguments.callee,100)}}</p>
+<p>    function A(e,t,f){if(e.addEventListener)e.addEventListener(t,f,false);else if(e.attachEvent)e.attachEvent('on'+t,f)}</p>
+<p>    function R(e,t,f){if(e.removeEventListener)e.removeEventListener(t,f,false);else if(e.detachEvent)e.detachEvent('on'+t,f)}</p>
+<p>    function S(){var ch=self.innerHeight||C&&E.clientHeight||D.body.clientHeight,st=self.pageYOffset||C&&E.scrollTop||D.body.scrollTop;if(P>=st&&st+ch>=P){R(W,'scroll',S);G()}}</p>
+<p>    A(W,'load',function(){var o=D.getElementById('ad_ph_'+N);if(o){while(o.offsetParent){P+=o.offsetTop;o=o.offsetParent}A(W,'scroll',S);S()}});</p>
+<p>    D.write('<div style="position:absolute;visibility:hidden;height:0px;"><iframe id="ar_container_'+N+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+N+'"><\/div>');</p>
+<p>    ar_cn++;</p>
+<p>}</p>
+<p>adriverPoster("http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=society&bn=7&target=top&bt=49&pz=1");</p>
+<p>//--></p>
+<p>        function hide_complaint_form() {</p>
+<p>            KPjQuery('#popup-background, #popup-complaint-form').fadeOut(600);</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        function complaint_comment(comment_id) {</p>
+<p>            var userData;</p>
+<p>            if(typeof(ApolloApi) !== 'undefined' && ApolloApi.getUserInfo()) {</p>
+<p>                userData = ApolloApi.getUserInfo();</p>
+<p>                KPjQuery('#complaint-key').attr('value', userData.sosh_o);</p>
+<p>                KPjQuery('#complaint-comment-id').attr('value',comment_id);</p>
+<p>                switch(userData.user_type) {</p>
+<p>                    case 'journalist':</p>
+<p>                    case 'star':</p>
+<p>                    case 'expert':</p>
+<p>                        KPjQuery.ajax(</p>
+<p>                            {</p>
+<p>                                url: '/_ajax/complaint_comment/'+comment_id,</p>
+<p>                                type: 'post',</p>
+<p>                                data: 'cause_id=0&key='+userData.sosh_o, </p>
+<p>                                cache: false,</p>
+<p>                                dataType: 'json',</p>
+<p>                                beforeSend: function() {</p>
+<p>                                    KPjQuery('#comment-'+comment_id).animate({opacity: 0.2},1000);</p>
+<p>                                },</p>
+<p>                                error: function() {</p>
+<p>                                    KPjQuery('#comment-'+comment_id).css({opacity: 1});</p>
+<p>                                },</p>
+<p>                                success: function(response) {</p>
+<p>                                    if(response.errorCode == 0 && response.showComment == 0) {</p>
+<p>                                        //hide comment</p>
+<p>                                        KPjQuery('#comment-'+comment_id).fadeOut(400);</p>
+<p>                                    }</p>
+<p>                                }</p>
+<p>                            }</p>
+<p>                        );</p>
+<p>                        break;</p>
+<p>                    case 'user':</p>
+<p>                    case 'web_journalist':</p>
+<p>                    default:</p>
+<p>                        KPjQuery('#popup-complaint-form').attr('action', '/_ajax/complaint_comment/'+comment_id);</p>
+<p>                        KPjQuery('#popup-background, #popup-complaint-form').fadeIn(600);</p>
+<p>                        </p>
+<p>                        break;</p>
+<p>                    </p>
+<p>                }</p>
+<p>                return false;</p>
+<p>            }</p>
+<p>            return true;</p>
+<p>        }</p>
+<p>        function submit_complaint() {</p>
+<p>            </p>
+<p>            var comment_id = KPjQuery('#complaint-comment-id').attr('value');</p>
+<p>            KPjQuery.ajax(</p>
+<p>                {</p>
+<p>                    url: KPjQuery('#popup-complaint-form').attr('action'),</p>
+<p>                    data: KPjQuery('#popup-complaint-form').serialize(),</p>
+<p>                    type: 'POST',</p>
+<p>                    timeout: 15000,</p>
+<p>                    cache: false,</p>
+<p>                    dataType: 'json',</p>
+<p>                    success: function(response) {</p>
+<p>                        if(response.errorCode == 0 && response.showComment == 0) {</p>
+<p>                            //hide comment</p>
+<p>                            KPjQuery('#comment-'+comment_id).fadeOut(400);</p>
+<p>                        }</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            );</p>
+<p>            </p>
+<p>            KPjQuery('#popup-background, #popup-complaint-form').fadeOut(400);</p>
+<p>        }</p>
+<p>    </p>
+<p>Пожаловаться на комментарий</p>
+<p>Выберите причину для жалобы</p>
+<p>Пропаганда войны, призыв к разжиганию национальной, расовой или религиозной ненависти и вражды</p>
+<p>Нарушение авторских прав</p>
+<p>Материалы порнографического характера</p>
+<p>Оскорбление других пользователей</p>
+<p>Другая причина</p>
+<p>Читать Пользовательское соглашение и Политику по защите персональных данных</p>
+<p>Если после публикации вы перестанете видеть данный комментарий, то это значит что ваша жалоба не одинока: мы скрываем проблемный материал.</p>
+<p>Отмена</p>
+<p>Отправить</p>
+<p>Комментарии45</p>
+<p>Комментировать</p>
+<p>var CommentsObj = {</p>
+<p>    current: 0,</p>
+<p>    classId: 10,</p>
+<p>    objectId: 1054615,</p>
+<p>    regionId: 0</p>
+<p>};</p>
+<p>function toggleFormCmt( CommentID, cId, oId, rId, parentId ) {</p>
+<p>    currWrpFrm = KPjQuery( '#form_' + CommentsObj.current );</p>
+<p>    nextWrpFrm = KPjQuery( '#form_' + CommentID );</p>
+<p>        </p>
+<p>    KPjQuery('#cm-result').html('');</p>
+<p>    if (!currWrpFrm || !nextWrpFrm) { return; }</p>
+<p>        </p>
+<p>    currBtn = KPjQuery( '#btn-' + CommentsObj.current );</p>
+<p>    nextBtn = KPjQuery( '#btn-' + CommentID );</p>
+<p>    if ( nextBtn ) { nextBtn.hide(); }</p>
+<p>    if ( currBtn ) { currBtn.show(); }</p>
+<p>    currWrpFrm.hide();</p>
+<p>    nextWrpFrm.html(currWrpFrm.html());</p>
+<p>    currWrpFrm.html('');</p>
+<p>    var comment_to = KPjQuery('#cm-to');</p>
+<p>    comment_to.attr('value', CommentID);</p>
+<p>    </p>
+<p>    if (CommentID == 1) { comment_to.attr('value', 0); }</p>
+<p>    if (( CommentID == 0 ) || ( CommentID == 1 )) {</p>
+<p>        KPjQuery( '#cm-submit' ).html('Комментировать');</p>
+<p>    } else {</p>
+<p>        KPjQuery( '#cm-submit' ).html('Ответить');</p>
+<p>    }</p>
+<p>    nextWrpFrm.show();</p>
+<p>    </p>
+<p>    CommentsObj.classId = cId;</p>
+<p>    CommentsObj.objectId = oId;</p>
+<p>    CommentsObj.regionId = rId;</p>
+<p>    </p>
+<p>    KPjQuery('#cm-region').attr('value', CommentsObj.regionId);</p>
+<p>    KPjQuery('#cm-form').attr('action',"/_ajax/add_comment/" + CommentsObj.classId + "/" + CommentsObj.objectId + "/" + (parentId ? parentId : CommentID)).show();</p>
+<p>    CommentsObj.current = CommentID;</p>
+<p>}</p>
+<p>        Оставить комментарий </p>
+<p>        О модерации</p>
+<p>Уважаемые читатели!</p>
+<p>Ваши сообщения будут опубликованы только после проверки их модератором. Модерация осуществляется круглосуточно без выходных.</p>
+<p>Комментарии могут быть опубликованы, если они не содержат:</p>
+<p>— Призывов к насилию, межнациональной розни и прочим нарушениям закона</p>
+<p>                — Оскорбление или уничижение России, ее символов и первых лиц.</p>
+<p>                — Ненормативной лексики</p>
+<p>                — Личных оскорблений или проявлений неуважения в адрес авторов материала, других посетителей форума, иных лиц, а также «Комсомольской правды»</p>
+<p>                — Ссылок на какие-либо страницы в интернете</p>
+<p>                — Рекламы товаров или услуг, адресов или телефонов и т.п.</p>
+<p>Администрация сайта оставляет за собой право удалять любые сообщения с форума без объяснения причин. Администрация сайта не несет ответственности за содержание сообщений. Мнение автора сообщения может не совпадать с мнением редакции.</p>
+<p>Как пользователь социальной сети</p>
+<p>Оставить комментарий под другим именем</p>
+<p>Как пользователь любимой соцсети</p>
+<p>Гость</p>
+<p>Ваша персональная страничка на KP.RU</p>
+<p>Ваше сообщение</p>
+<p>Комментировать</p>
+<p>Осталось символов - 2000</p>
+<p>    function add_comment() {</p>
+<p>    </p>
+<p>        var form = KPjQuery('#cm-form');</p>
+<p>        var name = KPjQuery('#cm-guest-name');</p>
+<p>        if(name.attr('value') == 'Ваше имя')</p>
+<p>            name.attr('value', '');</p>
+<p>        var text = KPjQuery('#cm-text');</p>
+<p>        if(text.attr('value') == 'Ваше сообщение')</p>
+<p>            text.attr('value','');</p>
+<p>        KPjQuery.ajax(</p>
+<p>            {</p>
+<p>                url: form.attr('action'),</p>
+<p>                type: 'post',</p>
+<p>                data: form.serialize(), </p>
+<p>                cache: false,</p>
+<p>                dataType: 'html',</p>
+<p>                beforeSend: function() {</p>
+<p>                    KPjQuery('#cm-submit').attr('disabled', true);</p>
+<p>                    KPjQuery('#cm-form').hide();</p>
+<p>                    KPjQuery('#cm-preloader').show();</p>
+<p>                },</p>
+<p>                error: function() {</p>
+<p>                    KPjQuery('#cm-submit').attr('disabled', false);</p>
+<p>                    KPjQuery('#cm-preloader').hide();</p>
+<p>                    KPjQuery('#cm-result').text('Ошибка соединения');</p>
+<p>                },</p>
+<p>                success: function(response) {</p>
+<p>                    KPjQuery('#cm-text').attr('value', 'Ваше сообщение');</p>
+<p>                    max_count();</p>
+<p>                    KPjQuery('#cm-submit').attr('disabled', false);</p>
+<p>                    KPjQuery('#cm-preloader').hide();</p>
+<p>                    KPjQuery('#cm-result').html(response);</p>
+<p>                }</p>
+<p>            }</p>
+<p>        );  </p>
+<p>        </p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    KPjQuery(document).ready(function(){</p>
+<p>        // подцепляем нормальные ссылки для кнопок залогинивания</p>
+<p>        KPjQuery('.my-kp-login').each(function(index, elem){</p>
+<p>            elem.href = 'http://my.kp.ru/login.do?returnUrl=http%3A%2F%2Fvrn.kp.ru%2Fonline%2Fnews%2F1054615%2F';</p>
+<p>        });</p>
+<p>    });</p>
+<p>    function changeTypeForm(type) {</p>
+<p>        container = document.getElementById('cm-form');</p>
+<p>        // нечего делать на не существующей форме</p>
+<p>        if(!container)</p>
+<p>            return;</p>
+<p>        var guest_auto_name = readCookie('guest_user_name');</p>
+<p>        if (!guest_auto_name) {</p>
+<p>            // для анонимного пользователя присвоим имя по умолчанию</p>
+<p>            var host = window.location.host.replace(/.*\.([-a-z0-9]*)\.(\w*)$/,".$1.$2");</p>
+<p>            if(!/^\./.test(host)) {</p>
+<p>                host = "." + host;</p>
+<p>            }</p>
+<p>            guest_auto_name = 'Гость №' + Math.floor(Math.random()*10000);</p>
+<p>            createCookie('guest_user_name', guest_auto_name, 4*30, host);</p>
+<p>        }</p>
+<p>        </p>
+<p>        switch(type) {</p>
+<p>            case 'anonymous':</p>
+<p>                container.className = 'all_add-comment cm_anonymous';</p>
+<p>                document.getElementById('cm-guest-auto-name').value = guest_auto_name;</p>
+<p>                document.getElementById('cm-guest-display-auto-name').innerHTML = guest_auto_name;</p>
+<p>                document.getElementById('cm-user-id').value='';</p>
+<p>                document.getElementById('cm-user-name').innerHTML='';</p>
+<p>                // document.getElementById('cm-user-type').innerHTML='';</p>
+<p>                document.getElementById('cm-user-image').src='/regions/msk/_img/all_add-comment-img.jpg';</p>
+<p>                document.getElementById('cm-user-profile').href='#';</p>
+<p>                document.getElementById('cm-key').value='';</p>
+<p>                document.getElementById('cm-guest-mode').value = 1;</p>
+<p>                break;</p>
+<p>            case 'authorized':</p>
+<p>                var info = ApolloApi.getUserInfo();</p>
+<p>                container.className='all_add-comment cm_authenticated';</p>
+<p>                document.getElementById('cm-user-id').value=info.id;</p>
+<p>                document.getElementById('cm-user-name').innerHTML=info.name;</p>
+<p>                </p>
+<p>                // switch(info.user_type) {</p>
+<p>                //     case 'user': </p>
+<p>                //         document.getElementById('cm-user-type').innerHTML='id';</p>
+<p>                //         break;</p>
+<p>                //     case 'journalist':</p>
+<p>                //         document.getElementById('cm-user-type').innerHTML='журналист';</p>
+<p>                //         break;</p>
+<p>                // }</p>
+<p>                document.getElementById('cm-user-image').src=info.userpic.b28;</p>
+<p>                document.getElementById('cm-user-profile').href=info.userUrl;</p>
+<p>                document.getElementById('cm-key').value=info.sosh_o;</p>
+<p>                document.getElementById('cm-guest-mode').value = 0;</p>
+<p>                break;  </p>
+<p>        }</p>
+<p>        return false;</p>
+<p>    }</p>
+<p>    function max_count() {</p>
+<p>        var text    = document.getElementById('cm-text');</p>
+<p>        var max1    = document.getElementById('cm-words-count-1');</p>
+<p>        var max;</p>
+<p>        var limit   = 2000;</p>
+<p>        </p>
+<p>        max = text.value.length;</p>
+<p>        if (max < limit) {</p>
+<p>            max1.style.color = 'green';</p>
+<p>            max1.innerHTML = (limit - max);</p>
+<p>        } else {</p>
+<p>            max1.style.color = 'red';</p>
+<p>            max1.innerHTML = (limit - max);</p>
+<p>            </p>
+<p>        }</p>
+<p>    }</p>
+<p>    if (typeof(ApolloApi) !== 'undefined') {</p>
+<p>        if(!ApolloApi.getUserInfo())</p>
+<p>            // если не залогинен</p>
+<p>            changeTypeForm('anonymous');</p>
+<p>        else</p>
+<p>            changeTypeForm('authorized');</p>
+<p>    }</p>
+<p>        </p>
+<p>2</p>
+<p>1</p>
+<p>вперёд</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>дед</p>
+<p>09.01.2012, 12:18</p>
+<p>лишать лицензии курящих врачей</p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Ялот</p>
+<p>08.01.2012, 18:51</p>
+<p>Говорят о дискриминации прав крильщиков. А курильщики плюют на всех и на их права. Если уж хотите травиться, то без ущерба для других.</p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Андрей</p>
+<p>08.01.2012, 14:26</p>
+<p>Не надо растить астматиков, аллергиков, курильщиков еще из утроб матерей. Губите себя сам - ваше право! Но дурной пример детям не подавайте хотя бы, если не большее неспособны...</p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Андрей</p>
+<p>08.01.2012, 14:25</p>
+<p>Во, нашлись либералы. Кажется, господа хорошие забыли о такой вещи как пассивное курение? Некие Алиса и Сергей тут распинаются о бедных курящих и о том как плохо им чувствовать себя ущемленными в своих правах? Не верю я что вы не курите! Запах курящего человека - наипротивнейшая вещь, какая только может существовать. Пробыв в курилке 5 минут, он, с полностью прокуренными одеждой и волосами, идет по учреждению (даже детскому - вот дикость то, а?), распространяя вокруг себя ароматы (в которых до сих пор витает % никотина), предлагая всем ощутить его "наисвежайший" дезодорант. </p>
+<p>На Западе потихоньку идет перевоспитание людей - курение не модно, курение - некрасиво  и т.п. Т.к. одним здоровьем современную молодежь уже не пробить - не понимают пока. В Японии курильщики, а их не так много как вы думаете - ощущают себя некомфортно, т.к. у них принято обычно жалеть людей неспособных к нормальной жизни (больных грубо говоря). У нас вообще надо делать пропаганду: стал курить - стал маргиналом, человеком второго сорта!</p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Вега</p>
+<p>08.01.2012, 2:34</p>
+<p>Это не дискриминация Алиса - нельзя допускать что бы чьи то привычки отражались на здоровье тех, у кого таких привычек нет.</p>
+<p>07.01.2012, 22:59</p>
+<p>Я сама не курю, но я категорически против таких мер по отношению к курящим. Это дискриминация человека по признаку какой-либо привычки - хорошая или плохая - это не </p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Сергей</p>
+<p>08.01.2012, 1:20</p>
+<p>Вы такие добрые все. Посмотрите, что твориться вокруг. У нас уже малолетки с 12 лет курят. Пока вы будете нежно перевоспитывать взрослых курильщиков, молодежь деградирует полностью. Только жесткими мерами можно справиться с самоуничтожением. В этот раз Онищенко прав на все сто.     </p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>василий</p>
+<p>07.01.2012, 23:14</p>
+<p>стаж курильщика 40 лет  прочитал легкий способ бросить курить   и уже не курю 4 года   </p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Алиса</p>
+<p>07.01.2012, 22:59</p>
+<p>Я сама не курю, но я категорически против таких мер по отношению к курящим. Это дискриминация человека по признаку какой-либо привычки - хорошая или плохая  - это не так важно. У человека должен быть выбор - хочешь кури, не хочешь не кури. Пожалуйста - делайте курительные комнаты, отдельные помещения в ресторанах, в офисах, в поездах,  все что угодно, но лишать человека возможности курить в офисе, в поезде, в общественном месте - это то же самое, что лишить человека возможности сходить в туалет по той причине, что это плохо пахнет. Да, курить вредно, но подобные меры вызывают только желание сделать наоборот, закурить назло. Не с того конца беретесь за дело, господа реформаторы. </p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Алексей</p>
+<p>07.01.2012, 21:31</p>
+<p>Я курил более 40 лет. Не курю 3 года. сейчас не люблю курящих. Однако столь зверского отношения к курящим не приветствую. Выгонять на улицу в 30-ти градусный мороз человека только за то, что у него табачная зависимость это - дикость. Курительные комнаты должны создаваться. В Японии, например, при незначительном количестве курящих, такие комнаты есть на любом порядочном предприятии или крупном магазине. Своих соотечественников надо уважать, тем более, что курящий не теряет свой человеческий облик как алкаш или наркоман. Другое дело борьба со свинством, кот. присуще не только курящим и, разумеется, борьба с приобщением к курению детей. Но тут надо внимательно посмотреть на себя: как часто я прохожу мимо к-л. мерзостей делая вид, что их не замечаю. Эта черта оч. присуща нашему народу. </p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>В.П.П. и Компания</p>
+<p>07.01.2012, 19:58</p>
+<p>запретить электростанции,автомобильный транспорт, металлургические заводы,химическую промышленность и т.п. и не выдыхайте углекислый газ придурки... </p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Красноярск</p>
+<p>07.01.2012, 18:18</p>
+<p>Вот бы остальные политики считали, как Онищенко! И ещё бы ввели какой-нибудь контроль за исполнением таких запретов. Потому что запретили курить в подъездах домов, а у нас каждый день в подъезде нечем дышать. Запретили курить около университетов, а студенты как курили, так и курят, и никто к ним не подходит, не напоминает о запретах!!!</p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>антикур</p>
+<p>07.01.2012, 12:34</p>
+<p>Так может не будем пытаться объять необъятное а начнём со школ и других подобных заведений где основной контингент дети и подростки А самое главное может какие то дяди из соответствующих органов равно как и директора школ заинтересуются как в таких количествах эта отрава безпрепятственно попадает в школы кто наживается на здоровье нашего будущего ВЕДЬ СООТВЕТСТВУЮЩИЕ ЗАПРЕТЫ УЖЕ ЕСТЬ А ГДЕ РЕЗУЛЬТАТ </p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>ТИТ</p>
+<p>06.01.2012, 23:02</p>
+<p>Совершенно согласен с Ириной и Онищенко!</p>
+<p>Ведь не могут у нас курить культурно- обязательно наплюют в подъезде, окурки, пачки пустые на пол, пиво, вдобавок нассут. А возле остановок урны стоят, так мимо бросают.</p>
+<p>Предлагаю поручить полиции фиксировать подобное на видеорегистраторы и чрез суд выписывать за подобное штрафы как нам - автомобилистам выписывают, тысяч эдак по пять,и предавать гласности или принуд.работам по уборке остановок от окурков. Конечно если добры-молодцы депутаты нам помогут соответствующими ЗАКОНАМИ.А то в подъездах в прямую не запрещено</p>
+<p>курить- вот и выходят отморозки и ущербные недочеловеки в места общественного пользования</p>
+<p>и плюют и гадят БЕЗНАКАЗАННО. А их бы рубликом,</p>
+<p>рубликом, глядишь бы и воспитали как в БЕЛОРУССИИ. Просто обидно за таких "русских</p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Валера</p>
+<p>06.01.2012, 22:08</p>
+<p>Запретить курильщикам курить- это равносильно заставить курить некурильщика.Как вы бы назвали таких людей?Вот вот- небуду говорить в слух о тех кто хочет запретиь курить.</p>
+<p>Ответить</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>Kagan</p>
+<p>07.01.2012, 22:24</p>
+<p>А вообще то меня некурящего заставляют вдыхать дым  никотиновые наркоманы которые повсюду смолят свои вонючие сигареты. И между прочим это причинение вреда моему здоровью намного больше, чем здоровью курильщика. Так что давно пора это все запретить и штрафы ужесточить за курение. А то так еще и  героиновые наркоманы начнут свои права качать...</p>
+<p>Гость</p>
+<p>Как повысить статус?</p>
+<p>Как поменять статус и перестать быть Гостем на KP.RU?</p>
+<p>Есть два способа:</p>
+<p>1. Зарегистрироваться на нашем сайте, что займет у вас пару минут.</p>
+<p>2. Войти с помощью своего аккаунта в других соцсетях.</p>
+<p>В любом случае вы получаете не только оригинальное имя, но и становитесь пользователем нашей соцсети MyKP.ru. Это позволит вам комментировать любые заметки на сайте KP.RU с минимальной модерацией, участвовать в конкурсах, заводить сообщества по интересам, делиться своими фотографиями, смотреть видео.</p>
+<p>ЗАРЕГИСТРИРОВАТЬСЯ</p>
+<p>ТИТ</p>
+<p>06.01.2012, 21:50</p>
+<p>Совершенно согласен с Ириной и Онищенко!</p>
+<p>Ведь не могут у нас курить культурно- обязательно наплюют в подъезде, окурки, пачки пустые на пол, пиво, вдобавок нассут. А возле остановок урны стоят, так мимо бросают.</p>
+<p>Предлагаю поручить полиции фиксировать подобное на видеорегистраторы и чрез суд выписывать за подобное штрафы как нам - автомобилистам выписывают, тысяч эдак по пять,и предавать гласности или принуд.работам по уборке остановок от окурков. Конечно если добры-молодцы депутаты нам помогут соответствующими ЗАКОНАМИ.А то в подъездах в прямую не запрещено</p>
+<p>курить- вот и выходят отморозки и ущербные недочеловеки в места общественного пользования</p>
+<p>и плюют и гадят БЕЗНАКАЗАННО. А их бы рубликом,</p>
+<p>рубликом, глядишь бы и воспитали как в БЕЛОРУССИИ. Просто обидно за таких "русских"</p>
+<p>ТИТ</p>
+<p>Ответить</p>
+<p>2</p>
+<p>1</p>
+<p>вперёд</p>
+<p>Комментировать</p>
+<p>Новости сми</p>
+<p>Загрузка...</p>
+<p><!--</p>
+<p>function adriverPoster(L){</p>
+<p>    if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>    var W=window,D=document,E=D.documentElement,T=0,N=ar_cn,P=0,C=D.compatMode=="CSS1Compat",</p>
+<p>        X='<scr'+'ipt type="text/javascript">var ar_bnum='+N+';setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e)}},3000);',</p>
+<p>        Y='<\/sc'+'ript><sc'+'ript type="text/javascript" src="'+L+'&tail256='+escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999)+'"><\/sc'+'ript>';</p>
+<p>    function G(){if(T++<100){var o=D.getElementById('ar_container_'+N);if(o){try{var d=o.contentDocument||(W.ActiveXObject&&W.frames['ar_container_'+N].document);if(d){d.write(X+Y)}else setTimeout(arguments.callee,100)}catch(e){try{o.src = "javascript:{document.write('"+X+'document.domain="'+D.domain+'";'+Y+"')}";return}catch(E){}}}else setTimeout(arguments.callee,100)}}</p>
+<p>    function A(e,t,f){if(e.addEventListener)e.addEventListener(t,f,false);else if(e.attachEvent)e.attachEvent('on'+t,f)}</p>
+<p>    function R(e,t,f){if(e.removeEventListener)e.removeEventListener(t,f,false);else if(e.detachEvent)e.detachEvent('on'+t,f)}</p>
+<p>    function S(){var ch=self.innerHeight||C&&E.clientHeight||D.body.clientHeight,st=self.pageYOffset||C&&E.scrollTop||D.body.scrollTop;if(P>=st&&st+ch>=P){R(W,'scroll',S);G()}}</p>
+<p>    A(W,'load',function(){var o=D.getElementById('ad_ph_'+N);if(o){while(o.offsetParent){P+=o.offsetTop;o=o.offsetParent}A(W,'scroll',S);S()}});</p>
+<p>    D.write('<div style="position:absolute;visibility:hidden;height:0px;"><iframe id="ar_container_'+N+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+N+'"><\/div>');</p>
+<p>    ar_cn++;</p>
+<p>}</p>
+<p>adriverPoster("http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&bn=1&target=top&bt=49&pz=3");</p>
+<p>//--></p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=51864&sz=society&bn=2&target=top&bt=43&pz=1&tail256=');</p>
+<p>  KPjQuery(document).ready(function() {</p>
+<p>    KPjQuery( "#tabs" ).tabs({ show: { effect: "fadeIn", duration: 600 } });</p>
+<p>	 });</p>
+<p>  </p>
+<p>	new TWTR.Widget({</p>
+<p>		version: 2,</p>
+<p>		type: 'search',</p>
+<p>		search: 'onlinekpru',</p>
+<p>		interval: 60000,</p>
+<p>		title: 'Комсомольская правда',</p>
+<p>		subject: '@onlinekpru',</p>
+<p>		width: 285,</p>
+<p>		height: 120,</p>
+<p>		theme: {</p>
+<p>			shell: {</p>
+<p>				background: '#8ec1da',</p>
+<p>				color: '#ffffff'</p>
+<p>			},</p>
+<p>			tweets: {</p>
+<p>				background: '#ffffff',</p>
+<p>				color: '#444444',</p>
+<p>				links: '#1985b5'</p>
+<p>			}</p>
+<p>		},</p>
+<p>		features: {</p>
+<p>			scrollbar: false,</p>
+<p>			loop: true,</p>
+<p>			live: true,</p>
+<p>			hashtags: true,</p>
+<p>			timestamp: true,</p>
+<p>			avatars: true,</p>
+<p>			toptweets: true,</p>
+<p>			behavior: 'default'</p>
+<p>		}</p>
+<p>	}).render().start();</p>
+<p>				VK.Widgets.Group("vk_groups", {mode: 0, width: "285", height: "210"}, 15722194);</p>
+<p>			</p>
+<p>//	google.load("prototype", "1.6.1.0");</p>
+<p>//	google.load("scriptaculous", "1.8.2");</p>
+<p>	google.setOnLoadCallback(OnLoad);</p>
+<p>	function OnLoad(){</p>
+<p>			//consolelog('Google JavaScript API are loaded.');</p>
+<p>			var f_login=0;</p>
+<p> </p>
+<p>			window.fbAsyncInit = function() {</p>
+<p>				FB.init({appId: '191944177588942', cookie: true, logging: true, status: true, xfbml: true});</p>
+<p> </p>
+<p>				FB.Event.subscribe('auth.login', function(response) {</p>
+<p>					//consolelog('User is Logged In');</p>
+<p>				});</p>
+<p> </p>
+<p>				FB.Event.subscribe('auth.logout', function(response) {</p>
+<p>					//consolelog('Session was terminated!');</p>
+<p>				});</p>
+<p> </p>
+<p>				FB.Event.subscribe('edge.create', function(response) {</p>
+<p>					//consolelog("User liked <a target='_blank' href='" + response + "'>this page.</a>");</p>
+<p>				});</p>
+<p>				FB.getLoginStatus(function(response) {</p>
+<p>					if (response.status === 'connected') {</p>
+<p>						// the user is logged in and has authenticated your app, and response.authResponse supplies</p>
+<p>						// the user's ID, a valid access token, a signed request, and the time the access token </p>
+<p>						// and signed request each expire</p>
+<p>						var uid = response.authResponse.userID;</p>
+<p>						var accessToken = response.authResponse.accessToken;</p>
+<p>						$('fb_loader').show();</p>
+<p>						$('fb_nologin').hide();</p>
+<p>						f_login=1;</p>
+<p>						// проверяем состояние публикации</p>
+<p>						var f_switch = parseInt(readCookie('fbSwitch'));</p>
+<p>						if(f_switch != -1){ // если не запрещено, то ставим по умолчанию разрешение</p>
+<p>							createCookie('fbSwitch', 1, 90);</p>
+<p>							$('fb_switch').removeClassName('off');</p>
+<p>							$('fb_switch').addClassName('on');</p>
+<p>						}</p>
+<p>						// получаем данные пользователя</p>
+<p>						FB.api('/me?fields=first_name,last_name,link,username,picture', function(response) {</p>
+<p>							////consolelog('Get user info. '+response.picture+' '+response.first_name+' '+response.last_name+' ');</p>
+<p>							fbUserInfo(response); // выведем данные пользователя</p>
+<p>							fbUserActivity();</p>
+<p>						});</p>
+<p>						</p>
+<p>					} else if (response.status === 'not_authorized') {</p>
+<p>						// the user is logged in to Facebook, but has not authenticated your app</p>
+<p>						$('fb_loader').hide();</p>
+<p>						$('fb_login').hide();</p>
+<p>						$('fb_nologin').show();</p>
+<p>						fbPopupShow();</p>
+<p>					} else {</p>
+<p>						// the user isn't logged in to Facebook.</p>
+<p>						$('fb_loader').hide();</p>
+<p>						$('fb_login').hide();</p>
+<p>						$('fb_nologin').show();</p>
+<p>						fbPopupShow();</p>
+<p>					}</p>
+<p>					//consolelog('Status: '+response.status);</p>
+<p>				}, true);</p>
+<p>			};</p>
+<p>			(function() {</p>
+<p>				var e = document.createElement('script');</p>
+<p>				e.async = true;</p>
+<p>				e.src = document.location.protocol + '//connect.facebook.net/ru_RU/all.js';</p>
+<p>				document.getElementById('fb-root').appendChild(e);</p>
+<p>			}());</p>
+<p>	}</p>
+<p>	</p>
+<p>	function fbPopupShow() {</p>
+<p>		$('fb_loader').hide();</p>
+<p>		$('fb_login').hide();</p>
+<p>		$('fb_nologin').show();</p>
+<p>		var f_popup = parseInt(readCookie('fbPopup'));</p>
+<p>		if(f_popup != 1){ // если еще не показали поп-ап</p>
+<p>			//$('fb_popup').show(); // поп-ап для рекламмы приложения</p>
+<p>			var domain = document.domain.split(".").splice(-2).join('.');</p>
+<p>			createCookie('fbPopup', 1, 1,'.'+domain); // запоминаем в куке </p>
+<p>		}</p>
+<p>	}</p>
+<p> </p>
+<p>	function fbUserInfo(response){</p>
+<p>		var img = new Element('img', {src: response.picture.data.url, title: response.first_name+" "+response.last_name});</p>
+<p>		$('fb_avatar').href=response.link;</p>
+<p>		$('fb_avatar').innerHTML='';</p>
+<p>		$('fb_avatar').appendChild(img);</p>
+<p>		$('fb_username').innerHTML = response.first_name+" "+response.last_name;</p>
+<p>		$('fb_username').href=response.link;</p>
+<p>		</p>
+<p>		$('fb_profile_url').href=response.link;</p>
+<p>		</p>
+<p>		var f_switch = parseInt(readCookie('fbSwitch'));</p>
+<p>		if(f_switch == 1){</p>
+<p>			$('fb_switch').removeClassName('off');</p>
+<p>			$('fb_switch').addClassName('on');</p>
+<p>		}else{</p>
+<p>			$('fb_switch').removeClassName('on');</p>
+<p>			$('fb_switch').addClassName('off');</p>
+<p>		}</p>
+<p>		$('fb_loader').hide();</p>
+<p>		$('fb_login').show(); // покажем инфо пользователя</p>
+<p>	}</p>
+<p>	function deleteRequest(requestId) {</p>
+<p>		FB.api( "/" + requestId, "delete",</p>
+<p>		function(response) {</p>
+<p>			//consolelog(dump(response));</p>
+<p>			$('act_li_'+requestId).fade({duration: 0.3});</p>
+<p>		});</p>
+<p>	}</p>
+<p>	function fbUserActivity(){</p>
+<p>		postAct();</p>
+<p>		// удаляем старые действия</p>
+<p>		while ($('fb_activity_list').childNodes.length > 0){</p>
+<p>			$('fb_activity_list').removeChild($('fb_activity_list').lastChild);</p>
+<p>		}</p>
+<p>		// получаем последние действия</p>
+<p>		FB.api('/me/news.reads?date_format=U', function(response) {</p>
+<p>			for( var i = 0; i < (( response.data < 6 ) ? data.length : 6 ); i++  ){</p>
+<p>				if(response.data[i] != undefined){</p>
+<p>					//consolelog(" QQ: " +response.data[i]['data']['article']['title']+" "+response.data[i]['id']+" "+response.data[i]['start_time']);</p>
+<p>				</p>
+<p>					var li = new Element('li', {id: 'act_li_'+response.data[i]['id']});</p>
+<p>					var a_t =  new Element('a', {href: response.data[i]['data']['article']['url'], target: '_blank', class: 'news'}).update(response.data[i]['data']['article']['title']);</p>
+<p>					li.appendChild(a_t);</p>
+<p>					var d_date = new Element('div', {class: 'date'}).update(GetTime(response.data[i]['start_time']));</p>
+<p>					li.appendChild(d_date);</p>
+<p>					var a_delete =  new Element('a', {href: '#', title: 'Удалить запись', class: 'close', onClick: 'deleteRequest(' + response.data[i]['id']+'); return false;'});</p>
+<p>					li.appendChild(a_delete);</p>
+<p>				</p>
+<p>					$('fb_activity_list').appendChild(li);</p>
+<p>				}</p>
+<p>			}</p>
+<p>		});		</p>
+<p>	}</p>
+<p> 	function fbLogout(){</p>
+<p>		FB.logout(function(response) {</p>
+<p>			$('fb_login').hide();</p>
+<p>			$('fb_loader').show();</p>
+<p>			document.location.href = document.location.href;</p>
+<p>		});</p>
+<p>	}</p>
+<p> </p>
+<p>	function fbLogin(){</p>
+<p>		FB.login(function(response) {</p>
+<p>			if (response.authResponse) {</p>
+<p>			</p>
+<p>				//consolelog('Welcome!  Fetching your information.... ');</p>
+<p>				$('fb_nologin').hide();</p>
+<p>				$('fb_loader').show();</p>
+<p>				//$('fb_popup').hide(); // скрываем поп-ап</p>
+<p>				// проверяем состояние публикации</p>
+<p>				var f_switch = parseInt(readCookie('fbSwitch'));</p>
+<p>				if(f_switch != -1){ // если не запрещено, то ставим по умолчанию разрешение</p>
+<p>					createCookie('fbSwitch', 1, 90);</p>
+<p>					$('fb_switch').removeClassName('off');</p>
+<p>					$('fb_switch').addClassName('on');</p>
+<p>				}</p>
+<p>				FB.api('/me?fields=first_name,last_name,link,username,picture', function(response) {</p>
+<p>					//consolelog('Good to see you, ' + response.name + '.');</p>
+<p>					fbUserInfo(response);</p>
+<p>					fbUserActivity();</p>
+<p>				});</p>
+<p>			} else {</p>
+<p>				//consolelog('User cancelled login or did not fully authorize.');</p>
+<p>			}</p>
+<p>		}, {scope:'publish_actions'});</p>
+<p>	}</p>
+<p>//function createCookie( name, value, days ) {</p>
+<p>//function readCookie( name ) {</p>
+<p>//function eraseCookie( name ) {</p>
+<p>	function fbSwitch(){</p>
+<p>		var f_switch = parseInt(readCookie('fbSwitch'));</p>
+<p>		if(f_switch == 1){</p>
+<p>			createCookie('fbSwitch', -1, 90);</p>
+<p>			$('fb_switch').removeClassName('on');</p>
+<p>			$('fb_switch').addClassName('off');</p>
+<p>		}else{</p>
+<p>			createCookie('fbSwitch', 1, 90);</p>
+<p>			$('fb_switch').removeClassName('off');</p>
+<p>			$('fb_switch').addClassName('on');</p>
+<p>			postAct(); // если включили, то сразу публикуем активность</p>
+<p>		}</p>
+<p>	}</p>
+<p>	function fbRemoveApp(){</p>
+<p>		FB.api("me/permissions", "DELETE", function(response){</p>
+<p>			eraseCookie('fbSwitch');</p>
+<p>			document.location.href = document.location.href;</p>
+<p>		});</p>
+<p>	}</p>
+<p>	</p>
+<p>	function postAct(){</p>
+<p>		if($$("meta[property='og:type']")[0] == undefined) return;</p>
+<p>		var f_switch = parseInt(readCookie('fbSwitch'));</p>
+<p>		//consolelog("Switch: " +f_switch);</p>
+<p>		var url='';</p>
+<p>		</p>
+<p>		if($$("meta[property='og:type']")[0].getAttribute('content') == 'article' && f_switch != -1){</p>
+<p>			$('fb_switch').addClassName('switch-on');</p>
+<p>			url=$$("meta[property='og:url']")[0].getAttribute('content');</p>
+<p>		}else{</p>
+<p>			return;</p>
+<p>		}</p>
+<p>		FB.api(</p>
+<p>			'/me/news.reads?article=' + url,</p>
+<p>			'post',</p>
+<p>			function(response) {</p>
+<p>				if (!response || response.error) {</p>
+<p>					//consolelog('Error post act');</p>
+<p>				} else {</p>
+<p>					//consolelog('Read successful! Action ID: ' + response.id);</p>
+<p>					//var ll = new Element('li').update('adasdasdasdasd'); // добавим в ленту активности</p>
+<p>					//$('fb_activity_list').insertBefore(ll, $('fb_activity_list').firstChild);	</p>
+<p>					</p>
+<p>					fbUserActivity(); // обновляем активность, при успешной публикации</p>
+<p>				}</p>
+<p>		});</p>
+<p>	}</p>
+<p>	Event.observe(document.body, 'click', function(event) {</p>
+<p>		// First element from event source with 'container' among its CSS classes</p>
+<p>		if (!$(Event.element(event)).up('#fb_login') && !$(Event.element(event)).up('#fb_corner') && !$(Event.element(event)).up('#fb_settings') ){</p>
+<p>			fbHidePopup();</p>
+<p>		}else{</p>
+<p>			return true; // alert("No..."); //</p>
+<p>		}</p>
+<p>	});	</p>
+<p>	function GetTime (utime){</p>
+<p>		var current_timestamp = Math.round((new Date()).getTime() / 1000);</p>
+<p>		var time_ago = current_timestamp - utime,</p>
+<p>		days = Math.floor( time_ago/86400 ),</p>
+<p>		hours = Math.floor( ( time_ago - days * 86400)/3600 ),</p>
+<p>		min = Math.floor( ( time_ago - days * 86400 - hours * 3600 )/60 ),</p>
+<p>		sec = time_ago - days * 86400 - hours * 3600 - min * 60,</p>
+<p>		time_ago_text = (( days > 0 ) ? days + " " + WordMorf( days, "день", "дня", "дней" ) :</p>
+<p>			(( hours > 0 ) ? </p>
+<p>				hours + " " + WordMorf( hours, "час", "часа", "часов" ) : </p>
+<p>					(( min > 0 ) ? </p>
+<p>						min + " " + WordMorf( min, "минута", "минуты", "минут" ) : </p>
+<p>							(( sec > 0 ) ? sec + " " + WordMorf( sec, "секунда", "секунды", "секунд" ) : "0" ) </p>
+<p>					)</p>
+<p>			)</p>
+<p>		) + " назад";</p>
+<p>										</p>
+<p>		return time_ago_text;</p>
+<p>	}</p>
+<p>	</p>
+<p>	</p>
+<p>	function WordMorf(n, one, two, many){</p>
+<p>		//WordMorf( n, 'кальмар', 'кальмара', 'кальмаров' ); </p>
+<p>		return n % 10 == 1 && n % 100 != 11 ? one : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 10 || n % 100 >= 20) ? two : many;</p>
+<p>	}</p>
+<p>	function fbHidePopup(){</p>
+<p>		if($('fb_activity').style.display != "none") $('fb_activity').fade({ duration: 0.2 });</p>
+<p>		if($('fb_settings').style.display != "none") $('fb_settings').fade({ duration: 0.2 });</p>
+<p>		if($('fb_corner').style.display != "none") $('fb_corner').fade({ duration: 0.2 });</p>
+<p>	}</p>
+<p>	</p>
+<p>	</p>
+<p>		function dump(arr,level) {</p>
+<p>	var dumped_text = "";</p>
+<p>	if(!level) level = 0;</p>
+<p>	</p>
+<p>	//The padding given at the beginning of the line.</p>
+<p>	var level_padding = "";</p>
+<p>	for(var j=0;j<level+1;j++) level_padding += "	";</p>
+<p>	</p>
+<p>	if(typeof(arr) == 'object') { //Array/Hashes/Objects </p>
+<p>		for(var item in arr) {</p>
+<p>			var value = arr[item];</p>
+<p>			</p>
+<p>			if(typeof(value) == 'object') { //If it is an array,</p>
+<p>				dumped_text += level_padding + "'" + item + "' ...\n";</p>
+<p>				dumped_text += dump(value,level+1);</p>
+<p>			} else {</p>
+<p>				dumped_text += level_padding + "'" + item + "' => \"" + value + "\"\n";</p>
+<p>			}</p>
+<p>		}</p>
+<p>	} else { //Stings/Chars/Numbers etc.</p>
+<p>		dumped_text = "===>"+arr+"<===("+typeof(arr)+")";</p>
+<p>	}</p>
+<p>	return dumped_text;</p>
+<p>}	</p>
+<p>Делитесь с друзьями в Facebook информацией о том, что вы читали и смотрели на kp.ru!</p>
+<p>Войти</p>
+<p>Авторизируйтесь, чтобы начать</p>
+<p>Вы вошли с помощью Facebook</p>
+<p>Ваша активность</p>
+<p>Ваша активность</p>
+<p>посмотреть другие активности на своей стене</p>
+<p>Настройки</p>
+<p>Сообщить о проблеме</p>
+<p>Выйти из Facebook</p>
+<p>Удалить это приложение</p>
+<p>Закрыть</p>
+<p>Дорогой друг! То, что тебе интересно – интересно и твоим друзьям на «Фейсбук». Поделись новостями, которые читаешь сам. Эти новости отобразятся в твоей ленте в реальном времени.</p>
+<p>Присоединяйся!</p>
+<p>АлександрГРИШИН</p>
+<p>Обозреватель</p>
+<p>Кому мало «двушечки» в России, езжайте в Германию... За «пятериком»   </p>
+<p>Активисткам FEMEN грозят реальные тюремные сроки от европейских либералов</p>
+<p>НаталияГРАЧЕВА</p>
+<p>собственный корреспондент</p>
+<p>Есть ли жизнь без мата?</p>
+<p>Запрет на мат в СМИ - это, конечно, шах сквернословию. Но почему только на журналистском поле?</p>
+<p>Все колумнисты</p>
+<p>Советы оракула</p>
+<p>В апреле пойте шефу дифирамбы</p>
+<p>Известный экстрасенс России Александр Литвин дает прогноз на апрель</p>
+<p>Новости сми</p>
+<p>Новости СМИ2</p>
+<p>  (function() {</p>
+<p>    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>    sc.src = 'http://js.smi2.ru/data/js/59338.js'; sc.charset = 'windows-1251';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>  }());</p>
+<p>.all_block-ins2 ul li .img {float: left; background: url(/images/all_experts-img-bg.gif) top left no-repeat; width:80px; height:74px; margin-left:-4px; padding:2px 0px 0px 4px;}</p>
+<p>.all_block-ins2 ul li .img img {display: block; width: 70px; height: 70px;}</p>
+<p>.all_block-ins2 ul li .txt {float: left; width: 196px;}</p>
+<p>Родительский рекорд-2013</p>
+<p>10 миллионов - многодетным родителям</p>
+<p>«Комсомольская правда» и гуманитарный фонд Андрея Скоча «Поколение» объявляют о начале конкурса «Родительский рекорд-2013»</p>
+<p> </p>
+<p>Блоги журналистов</p>
+<p>Сергей Черных. Блогоборчество</p>
+<p>Блог редактора отдела иллюстраций</p>
+<p>Виктор Баранец. Человек с ружьем.</p>
+<p>Блог военного обозревателя "КП"</p>
+<p>Новости сми</p>
+<p>Загружается, подождите...</p>
+<p>СЕТЬ ADPROFY</p>
+<p>var AdFrameHost = (("https:" == document.location.protocol) </p>
+<p>                ? "https://" : "http://") + </p>
+<p>            "p.adframesrc.com"; document.write(unescape("%3Cscript src='" + </p>
+<p>            AdFrameHost + </p>
+<p>            "/static/js/blockm.js?" + </p>
+<p>            (new Date()).getTime() + </p>
+<p>            "' charset='UTF-8' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>            </p>
+<p>НЕДВИЖИМОСТЬ: ОБЪЯВЛЕНИЯ</p>
+<p>yandex_partner_id = 26254;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'windows-1251';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 0.9;</p>
+<p>yandex_direct_type = 'vertical';</p>
+<p>yandex_direct_border_type = 'block';</p>
+<p>yandex_direct_limit = 3;</p>
+<p>yandex_direct_title_font_size = 2;</p>
+<p>yandex_direct_header_bg_color = '545B64';</p>
+<p>yandex_direct_bg_color = 'FFFFFF';</p>
+<p>yandex_direct_border_color = 'D7D7D7';</p>
+<p>yandex_direct_title_color = '175294';</p>
+<p>yandex_direct_url_color = '175294';</p>
+<p>yandex_direct_all_color = 'CC0000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '175294';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>Новости</p>
+<p>    var el = document.getElementById('CNM117');</p>
+<p>    if (el && el.getAttribute('atr117', 3)) {</p>
+<p>        el.setAttribute('atr117', '');</p>
+<p>        var dateNM = new Date();</p>
+<p>        var t = Math.floor(dateNM.getTime()/(1000*600));</p>
+<p>        var NMces=document.createElement('script');</p>
+<p>        NMces.type = 'text/javascript';</p>
+<p>        NMces.charset = 'UTF-8';</p>
+<p>        NMces.src='http://c.novostimira.com.ua/l/117?v='+t;</p>
+<p>        el.parentNode.appendChild(NMces);</p>
+<p>    }</p>
+<p> Архив номеров | Подписка</p>
+<p> Апрель 2013 </p>
+<p>пнвтсрчтптсбвс</p>
+<p>123456789101112131415161718192021222324252627282930         12345678910111213141516171819202122232425262728293031           12345678910111213141516171819202122232425262728    12345678910111213141516171819202122232425262728293031        12345678910111213141516171819202122232425262728293031         123456789101112131415161718192021222324252627282930  </p>
+<p>Комсомолка в социальных сетях:</p>
+<p>Как с нами связаться:Схема проездаЧитателям</p>
+<p>возрастная категория сайта 12+</p>
+<p>Все о КП</p>
+<p>Вакансии</p>
+<p>Еженедельник</p>
+<p>Телеканал КП</p>
+<p>Радио КП</p>
+<p>Реклама</p>
+<p>Коллекции КП</p>
+<p>Акции КП</p>
+<p>Пресс-центр</p>
+<p>Партнерам</p>
+<p>Новости</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>Происшествия</p>
+<p>Звезды</p>
+<p>Наука</p>
+<p>Спорт</p>
+<p>Авто</p>
+<p>Дом. Семья</p>
+<p>УЧРЕДИТЕЛЬ И РЕДАКЦИЯ: ЗАО «ИД «Комсомольская правда».</p>
+<p>Сетевое издание (сайт) зарегистрировано Роскомнадзором, свидетельство Эл№ФC77-50166 от 15 июня 2012.</p>
+<p>Главный редактор - Сунгоркин В.Н.</p>
+<p>Шеф-редактор сайта - Носова О.В.</p>
+<p>Сообщения и комментарии читателей сайта размещаются без предварительного редактирования. Редакция оставляет за собой право удалить их с сайта или отредактировать, если указанные сообщения и комментарии являются злоупотреблением свободой массовой информации или нарушением иных требований закона.</p>
+<p>© ЗАО ИД «Комсомольская правда», 2013.</p>
+<p>                 АДРЕС РЕДАКЦИИ: ЗАО "КП в Воронеже", ул. Пушкинская, д. 4а, Воронеж, 394018</p>
+<p>Контактный телефон +7 (473) 232-46-42</p>
+<p>Исключительные права на материалы, размещённые на интернет-сайте www.kp.ru, в соответствии с законодательством Российской Федерации об охране результатов интеллектуальной деятельности принадлежат ЗАО "Издательский дом "Комсомольская правда", и не подлежат использованию другими лицами в какой бы то ни было форме без письменного разрешения правообладателя.Приобретение авторских прав: kp@kp.ruДля читателей. Нам важно ваше мнение: (495)777-02-82, 8-800-200-0057 (бесплатно для жителей РФ).</p>
+<p>Реклама на сайте www.kp.ru</p>
+<p>Новости</p>
+<p>Последние новости</p>
+<p>Новости шоу-бузнеса</p>
+<p>Бизнес новости</p>
+<p>Новости дня</p>
+<p>Новости России</p>
+<p>Новости Воронежа</p>
+<p>Новости мира</p>
+<p>Гид</p>
+<p>Новости в регионах:</p>
+<p>Москва</p>
+<p>Абакан</p>
+<p>Барнаул</p>
+<p>Белгород</p>
+<p>Благовещенск</p>
+<p>Брянск</p>
+<p>Великий Новгород</p>
+<p>Владивосток</p>
+<p>Владимир</p>
+<p>Волгоград</p>
+<p>Вологда</p>
+<p>Воронеж</p>
+<p>Екатеринбург</p>
+<p>Иваново</p>
+<p>Ижевск</p>
+<p>Иркутск</p>
+<p>Казань</p>
+<p>Калининград</p>
+<p>Кемерово</p>
+<p>Киров</p>
+<p>Краснодар</p>
+<p>Красноярск</p>
+<p>Курск</p>
+<p>Липецк</p>
+<p>Мурманск</p>
+<p>Нижний Новгород</p>
+<p>Новосибирск</p>
+<p>Омск</p>
+<p>Орел</p>
+<p>Пенза</p>
+<p>Пермь</p>
+<p>Псков</p>
+<p>Ростов-на-Дону</p>
+<p>Рязань</p>
+<p>Самара</p>
+<p>Санкт-Петербург</p>
+<p>Саратов</p>
+<p>Смоленск</p>
+<p>Ставрополь</p>
+<p>Сыктывкар</p>
+<p>Тамбов</p>
+<p>Тверь</p>
+<p>Томск</p>
+<p>Тула</p>
+<p>Тюмень</p>
+<p>Ульяновск</p>
+<p>Уфа</p>
+<p>Хабаровск</p>
+<p>Челябинск</p>
+<p>Чита</p>
+<p>Ярославль</p>
+<p>Новости за рубежом:</p>
+<p>Балканы</p>
+<p>Беларусь</p>
+<p>Бишкек</p>
+<p>Молдова</p>
+<p>Северная Европа</p>
+<p>США</p>
+<p>Украина</p>
+<p>Чехия</p>
+<p>var _top100q = _top100q || [];</p>
+<p>_top100q.push(["setAccount", "17841"]);</p>
+<p>_top100q.push(["trackPageviewByLogo", document.getElementById("top100counter")]);</p>
+<p>(function(){</p>
+<p> var top100 = document.createElement("script"); top100.type = "text/javascript";</p>
+<p> top100.async = true;</p>
+<p> top100.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//st.top100.ru/pack/pack.min.js";</p>
+<p> var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(top100, s);</p>
+<p>})();</p>
+<p>Партнер «Рамблера»</p>
+<p>Социализация сайта:</p>
+<p>Apollo</p>
+<p>new adriver("adriver_banner_1211996466", {sid:51864, bt:52, sz:'second', bn:8, pz:3});</p>
+<p>var begun_auto_pad = 102459057;</p>
+<p>var begun_block_id = 194583743;</p>
+<p>var MarketGidDate = new Date();</p>
+<p>document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>+'src="http://jsn.dt00.net/k/p/kp.ru.4421.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+MarketGidDate.getDay()+MarketGidDate.getHours() + '" charset="windows-1251" ></scr'+'ipt>');</p>
+<p>    var MarketGidDate = new Date();</p>
+<p>    document.write('<scr'+'ipt type="text/javascript" '+'src="http://mg.dt00.net/js/k/p/kp.ru.4421.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+ '" charset="windows-1251" ></scr'+'ipt>');</p>
+<p>    </p>
+<p>new adriver("adriver_banner_1913835637", {sid:51864, bt:52, sz:'society', bn:8, pz:3});</p>
+<p>	(function(){</p>
+<p>		function isF(c,t){</p>
+<p>			var is=!!(document.cookie.indexOf(c)==-1),e;</p>
+<p>			if (is){</p>
+<p>				e=new Date();e.setTime(e.getTime()+t);</p>
+<p>				document.cookie=c+'=1; expires='+e.toGMTString()+'; path=/;';</p>
+<p>			}</p>
+<p>			return is</p>
+<p>		}</p>
+<p>		if (navigator.cookieEnabled && isF('ar_cv', 1000 * 60 * 60 * 24 * 7)) {</p>
+<p>			new adriver("adriver_banner_sync", {sid:189921, bt:52});</p>
+<p>		}</p>
+<p>	}());</p>
+<p>if (typeof (pr) == 'undefined') var pr = Math.floor(Math.random() * 1000000);</p>
+<p>if (typeof (document.referrer) != 'undefined') {</p>
+<p>    if (typeof (afReferrer) == 'undefined') afReferrer = escape(document.referrer);</p>
+<p>} else {</p>
+<p>    afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date();</p>
+<p>(function(placeholderId, bannerPosition, banWidth, banHeight, link){</p>
+<p>    var dl = escape(document.location),</p>
+<p>        placeholder = document.getElementById(placeholderId);</p>
+<p>    link += '&dl=' + dl + '&phid=' + placeholderId + '&pap1=' + bannerPosition;</p>
+<p>    function addEvent(e,t,f){</p>
+<p>        if (e.addEventListener) e.addEventListener(t, f, false);</p>
+<p>        else if (e.attachEvent) e.attachEvent('on'+t, f);</p>
+<p>    }</p>
+<p>    function removeEvent(e,t,f){</p>
+<p>        if (e.removeEventListener) e.removeEventListener(t, f, false);</p>
+<p>        else if (e.detachEvent) e.detachEvent('on'+t, f);</p>
+<p>    }</p>
+<p>    function loadScriptAdWolf(obj,src){</p>
+<p>        var createElementScript = document.createElement("script");</p>
+<p>        createElementScript.type = 'text/javascript';</p>
+<p>        createElementScript.async = true;</p>
+<p>        createElementScript.src = src;</p>
+<p>        afterPlaceholder = obj.nextSibling;</p>
+<p>        afterPlaceholder.parentNode.insertBefore(createElementScript, afterPlaceholder);</p>
+<p>    }</p>
+<p>    function getPosition(obj){</p>
+<p>        var t = 0, l = 0;</p>
+<p>        if (obj) {</p>
+<p>            while (obj.offsetParent) {</p>
+<p>                t += obj.offsetTop;</p>
+<p>                l += obj.offsetLeft;</p>
+<p>                obj = obj.offsetParent;</p>
+<p>            }</p>
+<p>        }</p>
+<p>        return {"left":l, "top":t};</p>
+<p>    }</p>
+<p>    function getWindowGeometry() {</p>
+<p>        var cMode = document.compatMode,</p>
+<p>            ch = self.innerHeight || cMode == "CSS1Compat" && document.documentElement.clientHeight || document.body.clientHeight,</p>
+<p>            st = self.pageYOffset || cMode == "CSS1Compat" && document.documentElement.scrollTop || document.body.scrollTop,</p>
+<p>            cw = self.innerWidth || cMode == "CSS1Compat" && document.documentElement.clientWidth || document.body.clientWidth,</p>
+<p>            sl = self.pageXOffset || cMode == "CSS1Compat" && document.documentElement.scrollLeft || document.body.scrollLeft;</p>
+<p>        return {"clientHeight":ch, "clientWidth":cw, "scrollTop":st, "scrollLeft":sl};</p>
+<p>    }</p>
+<p>    function getBannerVisibility(){</p>
+<p>        var position = getPosition(placeholder),</p>
+<p>            windowGeometry = getWindowGeometry();</p>
+<p>        if ( (position.top < windowGeometry.clientHeight && position.left < windowGeometry.clientWidth) || ( (windowGeometry.scrollTop - position.top < banHeight && windowGeometry.clientHeight + windowGeometry.scrollTop > position.top) && (windowGeometry.scrollLeft - position.left < banWidth && windowGeometry.clientWidth + windowGeometry.scrollLeft > position.left) ) ) { </p>
+<p>            removeEvent(window, 'scroll', getBannerVisibility);</p>
+<p>            loadScriptAdWolf(placeholder,link);</p>
+<p>        }</p>
+<p>    }</p>
+<p>    if (placeholder) addEvent(window, 'scroll', getBannerVisibility);</p>
+<p>})('placeholderIdAdwolf40x200', 'center_left', 40, 200, 'http://a.adwolf.ru/prepareCode?p1=cec&p2=cd&pct=a&pfc=a&pfb=a&plp=a&pli=a&pop=a&pr=' + pr +'&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '&puid1=&puid2=&puid3=&puid5=&puid6=');</p>
+<p>(function(){</p>
+<p> var cb = Math.random();</p>
+<p> document.write(unescape('%3Cspan id=%22targetix-container-'+cb+'%22 style=%22display:inline-block; line-height:0px%22%3E%3C/span%3E'));</p>
+<p> document.MAX_used = document.MAX_used || ',';</p>
+<p> var m3_u = (document.location.protocol=='https:'?'https://ads.targetix.net/ajs.php':'http://ads.targetix.net/ajs.php');</p>
+<p> m3_u += unescape('%3Fzoneid=1247');</p>
+<p> m3_u += unescape('%26cb=') + cb;</p>
+<p> if (document.MAX_used != ',') m3_u += unescape('%26exclude=') + document.MAX_used;</p>
+<p> m3_u += document.charset ? unescape('%26charset=')+document.charset : (document.characterSet ? unescape('%26charset=')+document.characterSet : '');</p>
+<p> m3_u += unescape('%26loc=') + encodeURIComponent(window.location);</p>
+<p> if (document.referrer) m3_u += unescape('%26referer=') + encodeURIComponent(document.referrer);</p>
+<p> if (document.context) m3_u += unescape('%26context=') + encodeURIComponent(document.context);</p>
+<p> if (document.mmm_fo) m3_u += unescape('%26mmm_fo=1');</p>
+<p> var m3_ajs = document.createElement('script');m3_ajs.type = 'text/javascript';m3_ajs.async = true;m3_ajs.src = m3_u;</p>
+<p> (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(m3_ajs);</p>
+<p>})();</p>
+<p>  {lang: 'ru'}</p>
+<p>    if (document.getElementById("ad_ph_1").innerHTML == '') {</p>
+<p>    $('fixedBox').setStyle({</p>
+<p>      marginTop: '0'</p>
+<p>    });</p>
+<p>}  else {</p>
+<p>        $('fixedBox').setStyle({</p>
+<p>      marginTop: '30px'</p>
+<p>    });</p>
+<p>  }</p>

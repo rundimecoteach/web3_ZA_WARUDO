@@ -1,0 +1,200 @@
+<p> </p>
+<p>Olej jojoba dla urody > Kosmetyczne ABC</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('olfguvseWvyK19bH_8BdHpRMzbu6687GjlTw7AcVBez.57');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'uroda', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_uroda");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_big_board_board1_uroda");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 43;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_uroda");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_uroda");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Uroda</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_uroda");</p>
+<p>	</p>
+<p>Uroda</p>
+<p>Moda Zdrowie Seks Lifestyle</p>
+<p>Ślub Dziecko Kulinaria Dom więcej</p>
+<p>Makijaż i stylizacjaTrendy fryzjerskiePielęgnacja i zabiegiKosmetykiPorady wizażystkiSłownik urody Uroda Forum </p>
+<p>UrodaPielęgnacja i zabiegiKosmetyczne ABCOlej jojoba dla urody </p>
+<p>	</p>
+<p>	var WinWidth = $(window).width();</p>
+<p>	</p>
+<p>	if(document.screening == 0 && WinWidth >= 1356){</p>
+<p>	GA_googleFillSlot("we2_sky1_sky1_uroda");	</p>
+<p>	}</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_uroda");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_uroda");</p>
+<p>Kosmetyczne ABC03 Sty 2012kom. (1)489Agata ChabierskaOlej jojoba dla urody</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_uroda");</p>
+<p>Jeden z darów natury, który w domu trzeba po prostu mieć – czy trapi cię trądzik czy przesuszona skóra…</p>
+<p>	Olej jojoba pozyskuje się z fasolek pustynnych krzewów o łacińskiej nazwie Simmondsia chinesis, rosnących w Ameryce Południowej. Żeńskie roślinki produkują kwiaty, z których rodzą się owe oleiste nasiona będące kosmetycznym błogosławieństwem od tysięcy lat. Naturalny płynny wosk zawarty w nasionach jojoba jest niezwykle czysty i zawiera szereg woskowych estrów, witaminę E oraz fosfolipidy.</p>
+<p>	Dlaczego tylu zachwytu nad jeszcze jednym roślinnym tłuszczem? Otóż jojoba jest w swojej formule bardzo podobny do ludzkiego… sebum. I choć ta wydzielina pewnie kojarzy się negatywnie, zwłaszcza wszystkim borykającym się z trądzikiem i tłustą skórą, jej kosmetyczne zastosowanie jest paradoksalnie szerokie. Jojoba może bowiem uzupełniać tłuszcze wszędzie tam gdzie ich brakuje – przy suchej skórze, suchych, poniszczonych włosach czy paznokciach; ale też pomagać w redukowaniu naturalnego wydzielania łoju oczyszczając tym samym cerę! To jeden z niewielu olejków, który wręcz poleca się stosować na przetłuszczającą się, problematyczną skórę…</p>
+<p>	Olej jojoba posiada silne właściwości antybakteryjne i przeciwzapalne; nie wywołuje alergii, nie zatyka porów, nie posiada w swoim składzie żadnych toksyn.</p>
+<p>	Złota lista zastosowań jojoba:</p>
+<p>	1. Olejek do masażu – napina i uelastycznia skórę, nie zostawiając tłustego filtru i nie podrażniając.</p>
+<p>	2. Środek nawilżający – zwłaszcza po wysuszeniu skóry spowodowanym słońcem</p>
+<p>	3. Reduktor rozstępów – pomaga odbudować strukturę skóry; uelastycznia.</p>
+<p>	4. Szampon oczyszczający na włosy – pomaga skutecznie pozbyć się zanieczyszczeń tj. kosmetyki, łój, brud czy kurz.</p>
+<p>	5. Mleczko oczyszczające do twarzy – dokładnie oczyszcza pory, ściera cały makijaż, odświeża i pielęgnuje cerę.</p>
+<p>	6. Środek przeciwtrądzikowy – redukuje zmiany zapalne, zapobiega nowym, reguluje gospodarkę tłuszczową skóry.</p>
+<p>	7. Odżywka do włosów – nawilża, dodaje blasku, wcale nie obciążając włosów; polecanym jako serum na zniszczone końcówki.</p>
+<p>	8. Krem przeciwzmarszczkowy – odżywia skórę, głęboko nawilża, pomaga wygładzić drobne bruzdy i nadać skórze młodzieńczego blasku.</p>
+<p>	Najlepiej zaopatrzyć się w naturalny 100% olejek do nabycia w ekologicznych sklepach za ok. 20 zł za 100 ml. To jedna z lepszych inwestycji w urodę! </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_uroda");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_uroda");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123450.00/0  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Kosmetyczne ABC</p>
+<p>		Kremy z kolagenem	</p>
+<p>	Kolagen jest gwarantem naszej młodości - bez niego nie byłoby...</p>
+<p>	</p>
+<p>		Jak starzeją się gwiazdy?	</p>
+<p>		Vademecum zimowej skóry	</p>
+<p>		Najwspanialsze spojrzenia Hollywoodu	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Tagi</p>
+<p>skóra</p>
+<p>tłuszcze</p>
+<p>olej</p>
+<p>pielęgnacja urody</p>
+<p>olejek do masażu</p>
+<p>działanie przeciwzapalne</p>
+<p>antybakteryjne działanie</p>
+<p>olej jojoba</p>
+<p>trądzik rozstępy</p>
+<p>Simmondsia chinesis</p>
+<p>środek nawilżający</p>
+<p>jojoba</p>
+<p>Skomentuj Olej jojoba dla urodyfunction valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (1) - Olej jojoba dla urodyWtorek |  3 Sty 12, 15:430    nie oceniono 0SyLa30Re: Olej jojoba na wszelkie złoPrzy mojej suchej cerze,a także przy atopii i wrażliwości cery atroficznej mojej sąsiadki,cudowne lecznicze właściwości tego specyfiku są bezcenne i stosujemy systematycznie,z należytą celebracją,podczas naszych domowych zabiegów SPA :)))Skomentuj wypowiedź</p>
+<p>Podobne do Olej jojoba dla urodyOlej na zdrowie i urodęOleje roślinne mają zastosowanie nie tylko w  kuchni ale także w produkcji  wielu preparatów do pielęgnacji urody. Warto więc o nich wiedzieć więcej.więcej5.00/ 1309Skomentuj  (0)Olej czy oliwa?Zdrowe odżywianie to ciągle kulejący temat. Zastanawiałeś się kiedyś, jaka jest różnica pomiędzy zwykłym olejem roślinnym a oliwą z oliwek?więcej3.20/ 108660Skomentuj  (8)Natura dla zdrowia i urody: olej rycynowyZ czym najczęściej kojarzony jest olej rycynowy? Z silnym środkiem przeczyszczającym. Tylko czy na pewno jego działanie jest, aż tak ograniczone? Okazuje się, że olej ten ma w sobie tajemniczą moc.więcej5.00/ 1820118Skomentuj  (6)Kosmetyki Marion - Pielęgnacja z dna morzaMaski i serum do twarzy Marion.więcej0.00/ 0279Skomentuj  (18)Olej z czarnuszki - lek na dolegliwości...Czarnuszka to roślina o ślicznych niebieskich lub białych kwiatach, pochodząca z Azji. Wydaje aromatyczne, czarne nasiona dość często wykorzystywane w kuchni, m.in. jako dodatek do pieczywa lub dań z mięsa.więcej5.00/ 11127Skomentuj  (0)Olej z wiesiołka - tłuszcz przeciw...Tłuszcze są nam niezbędne do prawidłowego funkcjonowania organizmu. Najcenniejsze to tłuszcze rybne i roślinne, ale zwierzęce są dla nas równie istotne. Na ogół jednak przesadzamy z ich podażą, rezygnując niemal...więcej5.00/ 11278Skomentuj  (1)Olej z pestek winogron - dla zdrowia i...Tajemnica jego tłoczenia była znana podobno już w starożytności, ale dopiero dzisiaj laboratoria chemiczne dokonały analiz, dzięki którym okazało się, jak wielkie dobrodziejstwo tkwi w niepozornych pestkach winogron i...więcej4.59/ 3727536Skomentuj  (12)Zobacz podobne do Olej jojoba dla urody</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_uroda");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_uroda");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_uroda");</p>
+<p>GA_googleFillSlot("we2_column1_art1_uroda");</p>
+<p>	</p>
+<p>Styl na wigilięRockowe ubrania - zrób to sama!Pomysł na imprezę 2012!Jak zapakować prezent?10 najbardziej rozchwytywanych modelek 2011 roku</p>
+<p>Wydania We2.plwięcej »05StyModna czerń i czerwień oraz Karnawałowe fryzury 2012</p>
+<p>Prosta i tania reklama w Internecie sprzedawana za pomocą AdTaily(PLALLADTAILY0002)</p>
+<p>Gorące tematyPopularneKomentowaneNoweJak zrobić modną opaskę z chusty?Recepty na piękno z całego świataKreacje gwiazd na WiktorachJej wysokość czerwieńMakijaże straszne i straszniejszeStyl Alexy Chung</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_uroda");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_uroda");</p>
+<p>Galerie UrodaNajmodniejsze dodatki na sezon...Gwiazdy w czerwonych kreacjachDługie włosy - fryzury na imprezę...Gwiazdy w błyszczących kreacjach Popularne zdjęciaObuwie damskieModne buty na imprezę 2011/2012!Kolekcje, pokazyUbrania i dodatki w kolorze złota i srebra na...więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródSalony jubilerskieLISIEWSKI GROUP SP. Z O.O.zespol muzyczy Diamentino ContraSalon Mody XXL - odzież dla kobiet...</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_uroda");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_uroda");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_uroda");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.3.1.1','');</p>
+<p>bmone2n.addPosition('177.3.2.2','');</p>
+<p>bmone2n.addPosition('177.3.7.3','');</p>
+<p>bmone2n.addPosition('177.3.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.3.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

@@ -1,0 +1,399 @@
+<p>var plt = { s: 'rudelfi_article', t: (new Date()).getTime() };</p>
+<p> </p>
+<p>Для скорой помощи прошедший год был самым трудным</p>
+<p> - Delfi</p>
+<p> </p>
+<p>if (typeof ado!=="object") { ado={}; ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){}; }</p>
+<p>	ado.config({mode: "old", xml: false, characterEncoding: true});</p>
+<p>	ado.preview({enabled: true, emiter: "delfiee.adocean.pl", id: "hgPx9MMkDHofagDtPskAa_kVfP9gUQe3iOWYshaXjML.l7"});</p>
+<p>(function(){</p>
+<p>	var ua = navigator.userAgent.toLowerCase(),</p>
+<p>		keys = ["rudelfi_daily","rudelfi_estonia","rudelfi_63729086","rudelfi_article","article_63729086","channel_rudelfi"];</p>
+<p>	if (ua.match(/ipad/i) && ua.match(/os 5/)) {</p>
+<p>		keys[keys.length] = 'ua_ipadios5';</p>
+<p>	}</p>
+<p>	if (ua.match(/ipad/i)) {</p>
+<p>		keys[keys.length] = 'ua_ipad';</p>
+<p>	}</p>
+<p>	if (ua.match(/android 3/)) {</p>
+<p>		keys[keys.length] = 'ua_android3';</p>
+<p>	}</p>
+<p>	ado.master({id: 'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7', server: 'delfiee.adocean.pl', keys: keys});</p>
+<p>	window.foto_embed_keys = keys;</p>
+<p>})();</p>
+<p>dwidget.set_params('eyJiX21haW5fZ3JvdXAiOiJydW5ld3MiLCJfY2F0X0lEIjoiMzA5NjQ3IiwiZXhJbWFnZSI6IndpZGVfaW1hZ2UiLCJleE1heFdpZCI6MTc1LCJleE1heEhlaSI6MTE1LCJsYXp5cG9pc29uIjoia2FsYTE2IiwidGltZXN0YW1wIjoiMTMwNDEwMTMiLCJjc3AiOnsibGFuZyI6InJ1In0sInNpZyI6ImYwZWYyZDRhODIyMzU0YjI2NmY4NzIxMzY2ZWMzZmEyIn0')</p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p>var pp_gemius_identifier = new String('zUBFz2NQPZktO8.iOaJ6pcUX38OZi28AdZXobDOoz.3.I7');</p>
+<p>/* (c)AdOcean 2003-2013, MASTER: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90 */</p>
+<p>ado.master({id: 'VY.8fuCFjbbe.8_DbgEu6NNwED8a1EM30ZOT.99qeDX.k7', server: 'delfiee.adocean.pl', keys: (window.foto_embed_keys&&foto_embed_keys.length ? foto_embed_keys : [])});;</p>
+<p>/* (c)AdOcean 2003-2013, MASTER: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink */</p>
+<p>ado.master({id: 'Pf5L7QX.m.GiRn36ePq16kjDgn7Q7x5VmE3QRgNJMvT.17', server: 'delfiee.adocean.pl', keys: (window.foto_embed_keys&&foto_embed_keys.length ? foto_embed_keys : [])});;</p>
+<p>/* (c)AdOcean 2003-2010, MASTER: delfi_ee.Delfi blockadmin.Global Banners.Rus Right Bottom */</p>
+<p>ado.master({id: 'wqzhxDctrA4VLHH5u9bDogAtY6F.QBHl.BUpN.jx9TL.I7', server: 'delfiee.adocean.pl' });</p>
+<p>ado.slave('adoceandelfieeppkhfofsel',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>ado.slave('adoceandelfieelbcnhwjjpt',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>ado.slave('adoceandelfieepbiriqdraj',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p> </p>
+<p>ПогодаBалютaГороскопПрограмма ТВ </p>
+<p>//<![CDATA[</p>
+<p>try { if(window.external && !window.external.msIsSiteMode()) { document.write('<div style="margin-top: 4px"><a onclick="window.external.msAddSiteMode();" href="#"><img src="http://g1.nh.ee/m/win_icon.gif" width="14" height="14" border="0" alt="Добавь в стартовое меню"></a></div><div class="DelfiHeaderTopSep"></div>'); } } catch(e) { }</p>
+<p>//]]></p>
+<p>Сообщите о новостиDelfi стартовойКонтактыРеклама </p>
+<p>	$(function(){</p>
+<p>		dweatherHeaderSmall.init([{"name":"\u0422\u0430\u043b\u043b\u0438\u043d\u043d","link":"http:\/\/pogoda.delfi.ee\/harjumaa\/tallinn\/","temp":1,"icon":"03d"},{"name":"\u041f\u044f\u0440\u043d\u0443","link":"http:\/\/pogoda.delfi.ee\/parnumaa\/parnu\/","temp":2,"icon":"02d"},{"name":"\u0422\u0430\u0440\u0442\u0443","link":"http:\/\/pogoda.delfi.ee\/tartumaa\/tartu\/","temp":3,"icon":"03d"},{"name":"\u041a\u0443\u0440\u0435\u0441\u0441\u0430\u0430\u0440\u0435","link":"http:\/\/pogoda.delfi.ee\/saaremaa\/kuressaare\/","temp":1,"icon":"01d"},{"name":"\u0412\u044b\u0440\u0443","link":"http:\/\/pogoda.delfi.ee\/vorumaa\/voru\/","temp":2,"icon":"04"},{"name":"\u0425\u0430\u0430\u043f\u0441\u0430\u043b\u0443","link":"http:\/\/pogoda.delfi.ee\/laanemaa\/haapsalu\/","temp":3,"icon":"02d"},{"name":"\u0419\u044b\u0445\u0432\u0438","link":"http:\/\/pogoda.delfi.ee\/ida-virumaa\/johvi\/","temp":2,"icon":"03d"},{"name":"\u041d\u0430\u0440\u0432\u0430","link":"http:\/\/pogoda.delfi.ee\/ida-virumaa\/narva\/","temp":4,"icon":"03d"},{"name":"\u0420\u0430\u043f\u043b\u0430","link":"http:\/\/pogoda.delfi.ee\/raplamaa\/rapla\/","temp":3,"icon":"04"}]);</p>
+<p>	});</p>
+<p>прогноз на 4 часа:</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Точный прогноз</p>
+<p><!--</p>
+<p>var selectedTab = 1;</p>
+<p>--></p>
+<p>Интернет</p>
+<p>Фирмы</p>
+<p>Статьи Delfi</p>
+<p>Номера</p>
+<p>Карта</p>
+<p>Объявления</p>
+<p>ado.slave('adoceandelfieewpikqisugo', {myMaster: 'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7' });</p>
+<p>		<!--</p>
+<p>			_dct({s: 'rus', d: 't.delfi.ee'});</p>
+<p>		//--></p>
+<p>	</p>
+<p>МагазинDiilСуперскидкиФлеш-игрыПриколОткрыткиФорумАвтоНедвижимостьРаботаКаталогКарта Эстонии </p>
+<p>	Ср, 10 апр</p>
+<p>RusDelfiRusDelfi 2EstDelfiПогодаЯ - журналистЭкономикаСпортБубликГаражDelfi ТВDelfi фотоПродай!ЗнакомстваПолезное</p>
+<p>Новости Эстонии Русская школа в Эстонии Новости Ида-Вирумаа МК Эстония 110 - 112 За рубежом Европа Пресса Мнение Темы Сегодня вечером  </p>
+<p>ado.slave('adoceandelfieeyneiiuqmue',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>	var noteToEditorUrl = "/note.php?id=63729086&url=%2Fdaily%2Festonia%2Farticle.php";</p>
+<p>	function noteToEditor(){</p>
+<p>		noteWindow = window.open(noteToEditorUrl, 'noteToEditor', 'width=444,height=390,scrollbars=yes,resizable=yes');</p>
+<p>		noteWindow.focus();</p>
+<p>	}</p>
+<p>ado.master({id: 'nTSbP3MgSD3hEOfld4ktbUdO3x.wiS9dFJuRQRjaHsD.E7', server: 'delfiee.adocean.pl', keys: (window.foto_embed_keys&&foto_embed_keys.length ? foto_embed_keys : [])});</p>
+<p>ado.slave('adoceandelfieepbqnitmqpt', {myMaster: 'nTSbP3MgSD3hEOfld4ktbUdO3x.wiS9dFJuRQRjaHsD.E7' });</p>
+<p>Для скорой помощи прошедший год был самым трудным (3)</p>
+<p>				rus.DELFI.ee</p>
+<p>			</p>
+<p>				04. январь 2012 10:22</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Foto: Andres Putting</p>
+<p>jQuery(".tbox").click(function(){</p>
+<p>    jQuery('body').css('cursor', 'wait');</p>
+<p>    var _this = this;</p>
+<p>    jQuery(document).ready(function(){jQuery('body').css('cursor', 'default');</p>
+<p>    tb_show(_this.name, _this.href);});</p>
+<p>    </p>
+<p>    return false;</p>
+<p>});</p>
+<p>function set_watermark() {</p>
+<p>    jQuery('#TB_ImageOff').append('<span class="watermark_0_2"></span>');</p>
+<p>    jQuery('#TB_window').wrapInner('<div class="watermark" />');</p>
+<p>}</p>
+<p> </p>
+<p>ado.slave('adoceandelfieezcokpnqjtn', {myMaster: 'nTSbP3MgSD3hEOfld4ktbUdO3x.wiS9dFJuRQRjaHsD.E7' });ado.slave('adoceandelfieengkenshmyx', {myMaster: 'nTSbP3MgSD3hEOfld4ktbUdO3x.wiS9dFJuRQRjaHsD.E7' });ado.slave('adoceandelfieekhrkqprqxs', {myMaster: 'nTSbP3MgSD3hEOfld4ktbUdO3x.wiS9dFJuRQRjaHsD.E7' });</p>
+<p>Минувший год оказался для Таллиннской службы медицинской скорой помощи самым напряженным за последнее десятилетие.</p>
+<p>За год бригады скорой помощи выезжали на вызовы почти 68 тысяч раз, т.е. в среднем по 186 раз за день. При этом примерно в 40% случаев травмы или болезнь оказывались настолько серьезными, что требовали последующей за оказанием неотложной помощи доставки в стационар для уточнения диагноза или лечения, Raepress.</p>
+<p>ado.slave('adoceandelfieerlpeomdpgp',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>В 8233 случаях услуги скорой помощи потребовались в связи с травмами, большая часть которых относилась к категории бытовых, 63 вызова были связаны с попытками суицида, 738 пришлись на отравления, 204 пациента ко времени прибытия бригады пребывали в состоянии клинической смерти, восемь родов были приняты либо на дому у роженицы, либо во время доставки в роддом.Всю эту нагрузку несли около 270 работников службы, в том числе 25 врачей, более сотни медицинских сестер, 29 помощниц сестер и парамедиков, 69 водителей. На них приходились три десятка начальников и работников технического обслуживания. Жалоб на их работу поступило за год 18, зато задокументированы благодарности 142 работникам.</p>
+<p>ado.slave('adoceandelfieevadsjxejcl',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>			jQuery(document).ready(function(){</p>
+<p>				ODKL.init();</p>
+<p>			});</p>
+<p>			</p>
+<p>0</p>
+<p> LiveJournal</p>
+<p>document.write(VK.Share.button({</p>
+<p>			</p>
+<p>				url: 'http://rus.delfi.ee/daily/estonia/dlya-skoroj-pomoschi-proshedshij-god-byl-samym-trudnym.d?id=63729086',</p>
+<p>				title: '%D0%94%D0%BB%D1%8F+%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D0%B9+%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8+%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D0%B9+%D0%B3%D0%BE%D0%B4+%D0%B1%D1%8B%D0%BB+%D1%81%D0%B0%D0%BC%D1%8B%D0%BC+%D1%82%D1%80%D1%83%D0%B4%D0%BD%D1%8B%D0%BC',</p>
+<p>				noparse: false</p>
+<p>			</p>
+<p>			}, {type: 'button'}));</p>
+<p>Комментарии</p>
+<p>Последние новости</p>
+<p>Пиши в "Я-журналист"</p>
+<p>				Дом,</p>
+<p>				160 000 €</p>
+<p>			</p>
+<p>				,</p>
+<p>				23 000 €</p>
+<p>			</p>
+<p><!--</p>
+<p>var comment_img_path = '/misc/cc/img/default/';</p>
+<p>var comment_lightbox_path = '/misc/cc/lightbox/';</p>
+<p>var comment_backend_json = '/misc/cc/v10.php';</p>
+<p>var comment_add_php = '/misc/cc/comment_list.php';</p>
+<p>var comment_debug = '';</p>
+<p>var comment_idp_cookie_name = 'idp';</p>
+<p>var comment_compact_form = false;</p>
+<p>var comment_registered_com_only  = false;</p>
+<p>var comment_reloadvote = false;</p>
+<p>var comment_baduser_notify = true;</p>
+<p>var comment_disable_votes = false;</p>
+<p>var comment_suggest_c = 'comment_post_suggest_ru_EE';</p>
+<p>--></p>
+<p> </p>
+<p>		$(document).ready(function(){</p>
+<p>			var num = $('.comment-post-red-num').text().match(/\d+/);</p>
+<p>			if (num !== null) {</p>
+<p>				num = '<a class="comment-red-link" href="http://rus.delfi.ee/daily/estonia/dlya-skoroj-pomoschi-proshedshij-god-byl-samym-trudnym.d?id=63729086&amp;com=1" rel="nofollow"><font class="paint_red">'+num+'</font></a>';</p>
+<p>				$('.comment-post-red-num').html($('.comment-post-red-num').text().replace(/\d+/, num));</p>
+<p>			}</p>
+<p>		});</p>
+<p>ДОБАВИТЬ КОММЕНТАРИЙ</p>
+<p>К этой статье 3 комментария</p>
+<p>		$(window).bind('dcdb_idchange', function() {</p>
+<p>			CommentList.updatePostForm();</p>
+<p>			});</p>
+<p>		</p>
+<p>Имя</p>
+<p>Опубликовать анонимно</p>
+<p>Правила комментирования</p>
+<p>Читать комментарии</p>
+<p>Транслит</p>
+<p><!--</p>
+<p>// update comment list with votes</p>
+<p>CommentList.updateCommentList();</p>
+<p>// update comment posting form via ajax request</p>
+<p>CommentList.updatePostForm();</p>
+<p>CommentList.cleanAds();</p>
+<p>//--></p>
+<p>dwidget.load(5752,!0)</p>
+<p>Новости DELFI > Новости дня > Новости Эстонии</p>
+<p>dwidget.load(2901,0)dwidget.load(3651,0)dwidget.load(2995,1)dwidget.load(2903,1)dwidget.load(2909,1)dwidget.load(2907,1)dwidget.load(2911,1)dwidget.load(2913,1)</p>
+<p>ado.slave('adoceandelfieetkdilqisid',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>ado.slave('adoceandelfieeqeiibsifjc',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>ado.slave('adoceandelfieenfpoepsjix',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>ado.slave('adoceandelfieembmpnodhsu',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90.placement_5 */</p>
+<p>if(typeof adoceandelfieeteqroidplv=='function') adoceandelfieeteqroidplv();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90.placement_6 */</p>
+<p>if(typeof adoceandelfieewgnleskhgo=='function') adoceandelfieewgnleskhgo();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90.placement_1 */</p>
+<p>if(typeof adoceandelfieevdhsmpetox=='function') adoceandelfieevdhsmpetox();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90.placement_3 */</p>
+<p>if(typeof adoceandelfieeogqqbkifro=='function') adoceandelfieeogqqbkifro();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90.placement_2 */</p>
+<p>if(typeof adoceandelfieeybgkhophzg=='function') adoceandelfieeybgkhophzg();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90.placement_4 */</p>
+<p>if(typeof adoceandelfieeyoetiphuao=='function') adoceandelfieeyoetiphuao();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.250x90.placement_7 */</p>
+<p>if(typeof adoceandelfieeqoglfmhkwc=='function') adoceandelfieeqoglfmhkwc();</p>
+<p>//]]>--></p>
+<p>РЕКЛАМА</p>
+<p><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_10 */</p>
+<p>if(typeof adoceandelfieevmnlivsohv=='function') adoceandelfieevmnlivsohv();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_1 */</p>
+<p>if(typeof adoceandelfieellmoeosrqb=='function') adoceandelfieellmoeosrqb();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_6 */</p>
+<p>if(typeof adoceandelfieexodsqpnmdj=='function') adoceandelfieexodsqpnmdj();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_2 */</p>
+<p>if(typeof adoceandelfieeslqndxffju=='function') adoceandelfieeslqndxffju();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_3 */</p>
+<p>if(typeof adoceandelfieewcnecqfmru=='function') adoceandelfieewcnecqfmru();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_5 */</p>
+<p>if(typeof adoceandelfieexklrgrdlnr=='function') adoceandelfieexklrgrdlnr();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_4 */</p>
+<p>if(typeof adoceandelfieemejtgwsink=='function') adoceandelfieemejtgwsink();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_7 */</p>
+<p>if(typeof adoceandelfieeoijpiihhrq=='function') adoceandelfieeoijpiihhrq();</p>
+<p>//]]>--><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2013 */</p>
+<p>/* SLAVE: delfi_ee.Delfi blockadmin.ABBA.rus.DELFI P_evauudised.textlink.placement_8 */</p>
+<p>if(typeof adoceandelfieesenfbqngrk=='function') adoceandelfieesenfbqngrk();</p>
+<p>//]]>-->dwidget.load(4899,1)dwidget.load(5718,1)dwidget.load(1885,1)dwidget.load(5121,1)dwidget.load(5079,1)dwidget.load(6182,1)dwidget.load(6556,1)dwidget.load(4012,1)dwidget.load(5527,1)dwidget.load(1483,1)dwidget.load(1491,1)dwidget.load(2373,1)dwidget.load(4484,1)dwidget.load(5033,1)dwidget.load(1481,1)dwidget.load(693,1)dwidget.load(6436,1)dwidget.load(3619,1)dwidget.load(3691,1)dwidget.load(3213,1)</p>
+<p>/* (c)AdOcean 2003-2010, delfi_ee.Delfi blockadmin.Global Banners.Rus Right Bottom.250x250 #1 */</p>
+<p>ado.slave('adoceandelfieewddncwkrhq', {myMaster: 'wqzhxDctrA4VLHH5u9bDogAtY6F.QBHl.BUpN.jx9TL.I7' });</p>
+<p>/* (c)AdOcean 2003-2010, delfi_ee.Delfi blockadmin.Global Banners.Rus Right Bottom.230x200 #2 */</p>
+<p>ado.slave('adoceandelfieetektftegbp', {myMaster: 'wqzhxDctrA4VLHH5u9bDogAtY6F.QBHl.BUpN.jx9TL.I7' });</p>
+<p>/* (c)AdOcean 2003-2010, delfi_ee.Delfi blockadmin.Global Banners.Rus Right Bottom.230x200 #3 */</p>
+<p>ado.slave('adoceandelfieeqfrjjqoklk', {myMaster: 'wqzhxDctrA4VLHH5u9bDogAtY6F.QBHl.BUpN.jx9TL.I7' });</p>
+<p>dwidget.load(5974,1)</p>
+<p>ado.slave('adoceandelfieeomglbkntbk',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p>function formatOnAirEvents(){</p>
+<p>	var container = $('#tvonair');</p>
+<p>	// Clear floating</p>
+<p>	$('<div/>').addClass('clr').appendTo(container);</p>
+<p>	// Remove right border from last column</p>
+<p>	container.find('.onair_channel_block:last').css('border-right-width', '0px');</p>
+<p>	var height = container.height();</p>
+<p>	container.find('.onair_channel_block').each(function (i, block){</p>
+<p>		// change columns height to have separator line from top to bottom</p>
+<p>		$(block).height(height);</p>
+<p>		// remove bottom border from last element in each column</p>
+<p>		$(block).find('.onair_event:last').css('border', 0);</p>
+<p>		$(block).find('.onair_title').wrapInner('<a href="http://programma.delfi.ee" />');</p>
+<p>	});</p>
+<p>	//set logo sizes (not viable as it is done afther document onliad)</p>
+<p>	//$(".onair_channel img").each(function () {</p>
+<p>	//	$(this).attr('widht', this.width);</p>
+<p>    //    $(this).attr('height', this.height);</p>
+<p>    //});</p>
+<p>}</p>
+<p>$(document).ready(function (){</p>
+<p>	delfitvonair.language_id = 131;</p>
+<p>	delfitvonair.service_url = "http://kava.delfi.ee/tvguide/fe/service.php";</p>
+<p>	delfitvonair.channel_ids = [135, 136, 32, 106, 198, 199];</p>
+<p>	delfitvonair.placeholder = 'tvonair';</p>
+<p>	delfitvonair.limit = 4;</p>
+<p>	delfitvonair.format_callback = formatOnAirEvents;</p>
+<p>	delfitvonair.requestEvents();</p>
+<p>});</p>
+<p> </p>
+<p>/* (c)AdOcean 2003-2011, delfi_ee.Delfi.Keyword ADS RUS.Lightbox Rus */</p>
+<p>ado.slave('adoceandelfieexjltnpikxv', {myMaster: 'nTSbP3MgSD3hEOfld4ktbUdO3x.wiS9dFJuRQRjaHsD.E7' });</p>
+<p>Новости</p>
+<p>Э-Торговля</p>
+<p>Развлечения</p>
+<p>DELFI:</p>
+<p>Эстония Мнение За рубежом 110 - 112 Ида-Вирумаа МК Эстония Пресса Темы Европа </p>
+<p>Погода Я - журналист Экономика Спорт Гараж Бублик Delfi ТВ Delfi фото Полезное </p>
+<p>Э-Магазины Суперскидки DelfiDiil Продай! Топ Недвижимость</p>
+<p>Прикол Игры Гороскоп Открытки Программа ТВ Знакомства</p>
+<p>DELFI в мире</p>
+<p>ET DELFI</p>
+<p>LV DELFI</p>
+<p>RUS LV DELFI</p>
+<p>LT DELFI</p>
+<p>RUS LT DELFI</p>
+<p>UA DELFI</p>
+<p>DELFI Инфо</p>
+<p>Следи за DELFI</p>
+<p>Delfi стартовой Реклама Контакты Работа в DELFI DELFI фотоматериалы  Сообщите о новости ПоискFacebook</p>
+<p>Twitter</p>
+<p>RSS</p>
+<p>mDELFI</p>
+<p>mDELFI</p>
+<p>DELFI ID</p>
+<p>DELFI ID</p>
+<p>Использование музыкальных произведений на этой странице согласовано с EAÜ/NCB.</p>
+<p>Copyright © AS DELFI. All rights reserved</p>
+<p>ado.slave('adoceandelfieelnnrexgikj',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>
+<p> </p>
+<p>$(document).ready(function () {</p>
+<p>	var oheight = false;</p>
+<p>	function stbp(x) {</p>
+<p>		if (typeof slider4 == 'undefined') {</p>
+<p>			setTimeout(function(){</p>
+<p>				stbp(1);</p>
+<p>			}, 300);</p>
+<p>			return;</p>
+<p>		}</p>
+<p>		if (oheight === false) {</p>
+<p>			oheight = parseInt(slider4.height,10);</p>
+<p>		}</p>
+<p>		var h = $('#footer').height();</p>
+<p>		if (h) {</p>
+<p>			slider4.height = parseInt(h,10)+oheight;</p>
+<p>		}</p>
+<p>		if (x == 1) {</p>
+<p>			setTimeout(function(){</p>
+<p>				stbp(2);</p>
+<p>			}, 1300);</p>
+<p>			setTimeout(function(){</p>
+<p>				stbp(2);</p>
+<p>			}, 3300);</p>
+<p>			setTimeout(function(){</p>
+<p>				stbp(2);</p>
+<p>			}, 6300);</p>
+<p>		}</p>
+<p>	}</p>
+<p>	stbp(1);</p>
+<p> });</p>
+<p> </p>
+<p><!--<![CDATA[</p>
+<p>/* (c)AdOcean 2003-2010 */</p>
+<p>if(location.protocol.substr(0,4)=='http')document.write(unescape('%3C')+'script id="delfi_ee.Gemius.eeru_popunder" src="'+location.protocol+'//delfiee.adocean.pl/_'+(new Date()).getTime()+'/ad.js?id=VLr63n1EQ0AS2I2GJv0G87AuHSAfFkdyCSlIX9GH.I7.l7/x='+screen.width+'/y='+screen.height+'" type="text/javascript"'+unescape('%3E%3C')+'/script'+unescape('%3E'));</p>
+<p>//]]>--></p>
+<p>var sp_s = {</p>
+<p>	"s":"delfi",</p>
+<p>	"r": document.referrer</p>
+<p>}</p>
+<p>var sp_e0 = [];</p>
+<p>sp_e0.push({"cp":"Ag/RuDelfi","url":document.location.href});</p>
+<p>sp_e0.push({"cp":"Ag/Lang/Rus","url":document.location.href});</p>
+<p>sp_e0.push({"cp":"Ag/News/Rus","url":document.location.href});</p>
+<p>sp_e0.push({"cp":"Ch/Rudelfi/Estonia","url":document.location.href});</p>
+<p>spring.c(sp_s,sp_e0)</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	['_setAccount', 'UA-4729238-1'],</p>
+<p>	['_setDomainName', 'delfi.ee'],</p>
+<p>	['_trackPageLoadTime'],</p>
+<p>	['_trackPageview']</p>
+<p>);</p>
+<p>	(function() {</p>
+<p>		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>	})();</p>
+<p>var _sf_async_config={};</p>
+<p>/** CONFIGURATION START **/</p>
+<p>_sf_async_config.uid = 32440;</p>
+<p>_sf_async_config.domain = 'www.delfi.ee';</p>
+<p>_sf_async_config.sections = 'rus.delfi.ee';</p>
+<p>_sf_async_config.authors = '';</p>
+<p>_sf_async_config.useCanonical = true;</p>
+<p>/** CONFIGURATION END **/</p>
+<p>(function(){</p>
+<p>	function loadChartbeat() {</p>
+<p>		window._sf_endpt=(new Date()).getTime();</p>
+<p>		var e = document.createElement('script');</p>
+<p>		e.setAttribute('language', 'javascript');</p>
+<p>		e.setAttribute('type', 'text/javascript');</p>
+<p>		e.setAttribute('src',</p>
+<p>			(('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +</p>
+<p>			'js/chartbeat.js');</p>
+<p>		document.body.appendChild(e);</p>
+<p>	}</p>
+<p>	var oldonload = window.onload;</p>
+<p>	window.onload = (typeof window.onload != 'function') ?</p>
+<p>		loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>})();</p>
+<p>Tweet</p>
+<p>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</p>
+<p>(function() {</p>
+<p>var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>})();</p>
+<p>ado.slave('adoceandelfieeukiokpjklu',{myMaster:'dWhcMJCenXXufVmCRZprKYTtTMEdBhA0DNwvNAc37GT.F7'});</p>

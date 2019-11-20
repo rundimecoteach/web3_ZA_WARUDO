@@ -1,0 +1,265 @@
+<p>В Можайской колонии заявили о готовности принять выздоровевших детей - МедНовости - MedPortal.ru</p>
+<p>МедПортал</p>
+<p>МедЭнциклопедия</p>
+<p>МедНовости</p>
+<p>Журнал "Будь здорова"</p>
+<p>Клиники</p>
+<p>Поиск лекарств</p>
+<p>О нас</p>
+<p>МедРеклама</p>
+<p><!--</p>
+<p>        if(typeof(ar_cn)=="undefined")</p>
+<p>            var ar_cn=1;</p>
+<p>        var ar_Tail='unknown';</p>
+<p>        if (document.referrer)</p>
+<p>            ar_Tail = escape(document.referrer);</p>
+<p>        var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=mednovosti&target=top&bt=43&pz=1&tail256=" + ar_Tail;</p>
+<p>        function ar_getDoc(t,n,l){</p>
+<p>            var doc;</p>
+<p>            if (t<100) {</p>
+<p>                if(document.all && !window.opera) {</p>
+<p>                    doc = window.frames['ar_container_'+n].document;</p>
+<p>                } else if(document.getElementById) {</p>
+<p>                    doc=document.getElementById('ar_container_'+n).contentDocument;</p>
+<p>                }</p>
+<p>                if(!doc){</p>
+<p>                    setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100);</p>
+<p>                } else {</p>
+<p>                    var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>                    doc.write ('<sc'+'ript language="JavaScript" type="text/javascript">var ar_bnum='+n+';<\/sc'+'ript>');</p>
+<p>                    doc.write ('<sc'+'ript language="JavaScript" type="text/javascript" src="'+l+'&rnd='+RndNum4NoCash+'"><\/sc'+'ript>');</p>
+<p>                }</p>
+<p>            }</p>
+<p>        }</p>
+<p>        function ar_putContainer(n) {</p>
+<p>            document.write('<div style="visibility:hidden;height:0px;"><iframe id="ar_container_'+n+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');</p>
+<p>        }</p>
+<p>        function ar_putDiv(n, f) {</p>
+<p>            document.write('<div id="ad_ph_'+n+'" style="'+(f?'position:absolute;':'')+'display:none"><\/div>');</p>
+<p>        }</p>
+<p>        ar_putContainer(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);</p>
+<p>//--></p>
+<p> </p>
+<p>Профессия</p>
+<p>Общество</p>
+<p>Происшествия</p>
+<p>Наука</p>
+<p>Цифры</p>
+<p>Бизнес</p>
+<p>Альтернатива</p>
+<p>Нужна помощь</p>
+<p>Из практики</p>
+<p>Распечатать</p>
+<p>17:20</p>
+<p>        Дом ребенка в Можайской женской колонии. Кадр телеканала "Россия 1"</p>
+<p>        </p>
+<p>В Можайской колонии заявили о готовности принять выздоровевших детей</p>
+<p>Дом ребенка Можайской женской колонии номер 5, в котором произошла вспышка ОРВИ, готов принять выздоровевших детей. Об этом сообщает пресс-служба УФСИН по Московской области.</p>
+<p>Прием детей, госпитализированных из колонии в подмосковные больницы, будет вести специальная комиссия. По информации УФСИН, в состав комиссии вошли педиатр исправительного учреждения, а также представители центральной больницы Можайского района области.</p>
+<p>В сообщении УФСИН отмечается, что первоначально детей заключенных разместят в карантинном отделении дома ребенка. Спустя три недели пребывания в карантине дети смогут вернуться в свои группы.</p>
+<p>Ранее 28 ноября сообщалось о том, что выздоровевшие дети продолжают оставаться в Можайской ЦРБ, так как дом ребенка женской колонии не готов к их размещению. Главврач медучреждения выразил резкое недовольство по этому поводу.</p>
+<p>Вспышка респираторной инфекции произошла в доме ребенка Можайской женской колонии в начале ноября. С диагнозами пневмонии, бронхита и ОРВИ были госпитализированы более сотни детей, один из которых скончался в реанимационном отделении Можайской ЦРБ.</p>
+<p>Прокурорская проверка выявила ряд нарушений в исправительном учреждении. Дом ребенка колонии не имел лицензии на оказание педиатрической помощи. Кроме того, ни один из трех педиатров не присутствовал в доме ребенка во время вспышки инфекции. По факту инцидента было возбуждено уголовное дело.</p>
+<p>(function(d){</p>
+<p>  var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement('script'); js.id = id; js.async = true;</p>
+<p>  js.src = "//connect.facebook.net/en_US/all.js#appId=207776872618199&xfbml=1";</p>
+<p>  d.getElementsByTagName('head')[0].appendChild(js);</p>
+<p>}(document));</p>
+<p>Tweet</p>
+<p>  VK.init({apiId: 2478907, onlyWidgets: true});</p>
+<p>VK.Widgets.Like("vk_like", {type: "button", verb: 1});</p>
+<p>Ссылки по теме:</p>
+<p>– Детский дом готов принять детей - УФСИН по Московской области, 28.11.2011</p>
+<p>– Выздоровевшие дети из подмосковной колонии остались в больницах — Медновости, 28.11.2011</p>
+<p>– Вспышка ОРВИ в подмосковной колонии привела к гибели младенца — Медновости, 10.11.2011</p>
+<p>Представьтесь:</p>
+<p>Ваше мнение: </p>
+<p>            Осталось символов:</p>
+<p>                </p>
+<p>Код подтверждения:</p>
+<p>            </p>
+<p>Уважаемые читатели!</p>
+<p>        Ссылки на сторонние ресурсы, нецензурные, бессодержательные, пропагандистские и антинаучные высказывания удаляются без предупреждения. Максимальная длина комментария — 1000 символов.</p>
+<p>            // передаём данные о текущей странице для загрузки комментариев</p>
+<p>            var CommentsURL = 'http://medportal.ru/comments/news/2011/11/28/fsinready/',</p>
+<p>                pageNo = '0';</p>
+<p>            init(CommentsURL, pageNo);</p>
+<p>        </p>
+<p> </p>
+<p>Это интересно</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>document.write('<if'+'rame  style="width:200px; height: 80px; margin: 0px; overflow: hidden; border: 0px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="http://mama.rotabanner.com/cgi-bin/iframe/medportal?options=B&arg1=80&arg2=80&arg5=12&arg3=200&arg4=80&id=' + Math.round(Math.random() * 100000) + '"></if'+'rame>');</p>
+<p>Новости партнеров</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date();</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/3844/prepareCode?p1=ypg&amp;p2=batg&amp;pucn=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;py=a&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p>    </p>
+<p>Загрузка ...</p>
+<p><!--</p>
+<p>        if(typeof(ar_cn)=="undefined") var ar_cn=1;</p>
+<p>        var ar_Tail='unknown';</p>
+<p>        if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>        var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=Gripp&bn=10&target=top&bt=43&pz=3&tail256=" + ar_Tail;</p>
+<p>        function ar_getDoc(t,n,l) {</p>
+<p>            var doc;</p>
+<p>            if(t<100){</p>
+<p>                if(document.all && !window.opera){</p>
+<p>                    doc = window.frames['ar_container_'+n].document;</p>
+<p>                } else if(document.getElementById) {</p>
+<p>                    doc=document.getElementById('ar_container_'+n).contentDocument;</p>
+<p>                }</p>
+<p>                if(!doc){</p>
+<p>                    setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100);</p>
+<p>                } else {</p>
+<p>                    var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>                    doc.write ('<sc'+'ript language="JavaScript" type="text/javascript">var ar_bnum='+n+';<\/sc'+'ript>');</p>
+<p>                    doc.write ('<sc'+'ript language="JavaScript" type="text/javascript" src="'+l+'&rnd='+RndNum4NoCash+'"><\/sc'+'ript>');</p>
+<p>                }</p>
+<p>            }</p>
+<p>        }</p>
+<p>        function ar_putContainer(n){</p>
+<p>            document.write('<div style="visibility:hidden;height:0px;position:absolute;"><iframe id="ar_container_'+n+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');</p>
+<p>        }</p>
+<p>        function ar_putDiv(n, f) {</p>
+<p>            document.write('<div id="ad_ph_'+n+'" style="'+(f?'position:absolute;':'')+'display:none"><\/div>');</p>
+<p>        }</p>
+<p>        ar_putContainer(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);</p>
+<p>//--></p>
+<p>Происшествия</p>
+<p>16:23 Выздоровевшие дети из подмосковной колонии остались в больницах</p>
+<p>14:02 В Краснодаре ребенок умер от последствий бешенства</p>
+<p>25.11 13:24 По факту смерти избитой беременной в бурятской больнице возбуждено уголовное дело</p>
+<p>24.11 17:22 Число обратившихся за медпомощью паломников выросло вдвое за сутки</p>
+<p>24.11 14:00 Австралийка лишилась близнецов из-за удаления не того плода</p>
+<p>24.11 12:15 Осужденные за аферу с томографами оказались на свободе</p>
+<p>    new adriver("adriver_banner", {sid:107481,bt:52,pz:2,bn:0});</p>
+<p>    </p>
+<p>Новые статьи</p>
+<p>17:32</p>
+<p>Почему болит спина?</p>
+<p>Ответы врача-невролога и ревматолога на вопросы читателей.</p>
+<p>22.11 22:06</p>
+<p>Когда пора обращаться к пульмонологу?</p>
+<p>Ответы специалиста по заболеваниям лёгких</p>
+<p>18.11 12:55</p>
+<p>Спешите лечить глаза</p>
+<p>Директором "Микрохирургии глаза" станет видный единоросс</p>
+<p>Все статьи</p>
+<p><!--</p>
+<p>if(typeof(ar_cn)=="undefined") var ar_cn=1;</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>var ar_link="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=107481&sz=mednovosti&bn=3&target=top&bt=43&pz=3&tail256=" + ar_Tail;</p>
+<p>function ar_getDoc(t,n,l){</p>
+<p>    var doc;</p>
+<p>    if(t<100) {</p>
+<p>        if(document.all && !window.opera){</p>
+<p>            doc = window.frames['ar_container_'+n].document;</p>
+<p>        } else if(document.getElementById) {</p>
+<p>            doc=document.getElementById('ar_container_'+n).contentDocument;</p>
+<p>        }</p>
+<p>        if(!doc) {</p>
+<p>            setTimeout('ar_getDoc('+(++t)+','+n+',"'+l+'")', 100);</p>
+<p>        } else {</p>
+<p>            var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>            doc.write ('<sc'+'ript language="JavaScript" type="text/javascript">var ar_bnum='+n+';<\/sc'+'ript>');</p>
+<p>            doc.write ('<sc'+'ript language="JavaScript" type="text/javascript" src="'+l+'&rnd='+RndNum4NoCash+'"><\/sc'+'ript>');</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
+<p>function ar_putContainer(n) {</p>
+<p>    document.write('<div style="visibility:hidden;height:0px;position:absolute;"><iframe id="ar_container_'+n+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');</p>
+<p>}</p>
+<p>function ar_putDiv(n, f) {</p>
+<p>    document.write('<div id="ad_ph_'+n+'" style="'+(f?'position:absolute;':'')+'display:none"><\/div>');</p>
+<p>}</p>
+<p>ar_putContainer(ar_cn);ar_putDiv(ar_cn,0);ar_getDoc(0,ar_cn++,ar_link);</p>
+<p>//--></p>
+<p>Последние новости</p>
+<p>18:52 Американка украла сперму ради алиментов</p>
+<p>17:38 Шестеро британцев скончались в результате лечения СПИДа молитвами</p>
+<p>15:56 Диетологи посоветовали часто питаться во время поста</p>
+<p>12:48 Питерские врачи уличили борцов с гомосексуальностью в неграмотности</p>
+<p>25.11 19:28 Регионы будут вести учет выписанных рецептов на наркотики</p>
+<p>25.11 18:26 Американцы разработали принципиально новое средство против ВИЧ</p>
+<p>25.11 17:06 Новая модель легких уменьшит стоимость и сроки исследований лекарств</p>
+<p>25.11 16:14 Смертность россиян от отравлений алкоголем в 2011 году снизилась почти на треть</p>
+<p>Все новости</p>
+<p> </p>
+<p>Аутсайд</p>
+<p>Stanford University:</p>
+<p>Anatomy</p>
+<p>        Запись на бесплатный онлайн-курс.</p>
+<p>    </p>
+<p>Vice Magazine:</p>
+<p>Зуд за зуд</p>
+<p>        Всё, что вы хотели - и не хотели - знать о щекотке.</p>
+<p>    </p>
+<p>Deutsche Welle:</p>
+<p>Менструальный календарь времен палеолита</p>
+<p>        Нажмите на фото, чтобы увеличить.</p>
+<p>    </p>
+<p>Лучшие комментарии</p>
+<p>24.11 22:59 ординатор 2 года на статью «Повышенные стипендии интернам выплатят задним числом»</p>
+<p>Сегодня выплатили весь пересчет с июня по ноябрь  вместе со стипендией за ноябрь...</p>
+<p>24.11 12:43 Кто знает на статью «За продвижение "Виокса" Merck оштрафовали на 950 миллионов долларов»</p>
+<p>1) Виокс никогда не продавался на территории России. Его зарегистрировали в 2000...</p>
+<p>22.11 23:41 Станислав на статью «Повышенные стипендии интернам выплатят задним числом»</p>
+<p>Самара, мед.универ. Собрали всех нас-интернов и ординаторов проректор и сказал, ...</p>
+<p>22.11 06:45 Guest на статью «Провалы в памяти связали с дверными проемами»</p>
+<p>Подождите, идёт загрузка уровня...</p>
+<p> </p>
+<p>Новости партнеров</p>
+<p>        document.write('<iframe src="http://www.sj1.ru/cgi-bin/iframe/medportal?'+Math.round(Math.random()*100000)+'" width=234 height=120 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe>');</p>
+<p>    </p>
+<p>        document.write('<iframe src="http://www.sj1.ru/cgi-bin/iframe/medportal?'+Math.round(Math.random()*100000)+'" width=234 height=120 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe>');</p>
+<p>    </p>
+<p>Пресс-релизы</p>
+<p>СОБЫТИЯ: В Новосибирске откроется уникальный образовательный центр ортопедии на базе Инновационного медико-технологического центра в тесном партнерстве с НИИТО</p>
+<p>НОВОСТИ КОМПАНИЙ: Швейцарская фармацевтическая компания «Новартис» и Санкт-Петербургская государственная химико-фармацевтическая академия объявляют о начале совместного образовательного проекта</p>
+<p>НОВОСТИ КОМПАНИЙ: Сектор  «Здравоохранение»  концерна Siemens идет в ногу с динамично развивающимся рынком</p>
+<p>СОБЫТИЯ: В Казанском Образовательном  центре высоких медицинских  технологий запущен  уникальный учебный  курс для спинальных хирургов</p>
+<p>НОВОСТИ КОМПАНИЙ: «ФАРМА — 2020. Надежды и реалии» Международного Медико-Фармацевтического Форума в рамках выставки «Аптека 2011»</p>
+<p>Новости партнеров</p>
+<p>// <!--</p>
+<p>var mri_login = "med-uxi";</p>
+<p>var mri_options = "options=NVT";</p>
+<p>var mri_random = Math.round(Math.random() * 100000);</p>
+<p>document.write('<iframe src="http://tizer.mediarotator.ru/cgi-bin/iframe/'+mri_login+'?'+mri_random +'&'+mri_options+'&n=3" width="200" height="260" marginwidth=0 marginheight=0 scrolling=no frameborder=0><a href="http://tizer.mediarotator.ru/cgi-bin/href/'+mri_login+'?'+mri_random +'" target=_blank><img src="http://tizer.mediarotator.ru/cgi-bin/banner/'+mri_login+'?'+mri_random +'&'+mri_options+'" alt="Mediarotator" width="200" height="260" border=0 ismap></a></iframe>');</p>
+<p>// --></p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t17.2;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) +";i" + escape("Жж"+document.title.substring(0,80)) + ";" + Math.random() + "' border=0 width=88 height=31 alt='' title='LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня'><\/a>")</p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;</p>
+<p>//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;</p>
+<p>//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height; a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;</p>
+<p>//--></p>
+<p><!--</p>
+<p>js=13;</p>
+<p>//--></p>
+<p><!--</p>
+<p>d.write('<a href="http://top.mail.ru/jump?from=1014739" target="_top">'+'<img src="http://db.c7.bf.a0.top.mail.ru/counter?id=1014739;t=242;js='+js+a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');</p>
+<p>//--></p>
+<p>    var img = new Image();</p>
+<p>    img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*medportal_ru/ru/CP1251/tmsec=medportal_total/';</p>
+<p>    _uacct = "UA-2150055-1";urchinTracker();</p>
+<p>О нас МедРеклама</p>
+<p>Медицинский портал www.medportal.ru. E-mail: info@medportal.ru</p>
+<p>© 1998—2011 Все права защищены.</p>

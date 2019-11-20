@@ -1,0 +1,466 @@
+<p>В Одессе официально болеют ОРВИ почти 5 тысяч человек - Новости Одессы - 048.ua - сайт города Одессы</p>
+<p>    //<![CDATA[</p>
+<p>var client;</p>
+<p>$(document).ready(function(){</p>
+<p>	client = jQuery.Zend.jsonrpc({url: '/api/v1/jsonrpc'});</p>
+<p>	$('#subscribe').click(function(){</p>
+<p>		subscribenews('subscribe', $('#email').val());</p>
+<p>	});</p>
+<p>	$('#unsubscribe').click(function(){</p>
+<p>		subscribenews('unsubscribe', $('#email').val());</p>
+<p>	});</p>
+<p>});</p>
+<p>function subscribenews(action, email){</p>
+<p>	var data = client.subscribenews(action, email);</p>
+<p>	$.each(data, function(index, value) {</p>
+<p>		$("#error_block").html(value);</p>
+<p>	});</p>
+<p>}</p>
+<p>    //]]></p>
+<p>    //<![CDATA[</p>
+<p>$(document).ready(function() {</p>
+<p>	new Ya.share({</p>
+<p>		element: 'sharelink',</p>
+<p>		l10n: 'ru',</p>
+<p>		elementStyle: {</p>
+<p>			'type': 'none',</p>
+<p>			'border': false,</p>
+<p>			'quickServices': ['vkontakte', 'facebook', 'twitter', 'odnoklassniki', 'gbuzz', 'moimir', 'yaru']</p>
+<p>		},</p>
+<p>		title: 'В Одессе официально болеют ОРВИ почти 5 тысяч человек',</p>
+<p>			image: 'http://citysites.com.ua/upload/img/news/top/small/orvi1322413805.jpeg',</p>
+<p>			serviceSpecific: {</p>
+<p>			twitter: {</p>
+<p>				title: 'В Одессе официально болеют ОРВИ почти 5 тысяч человек #odessa'</p>
+<p>			}</p>
+<p>		}</p>
+<p>	});</p>
+<p>});    //]]></p>
+<p>    //<![CDATA[</p>
+<p>var page_id;</p>
+<p>var page_type;</p>
+<p>$(document).ready(function() {</p>
+<p>	page_id = 95913;</p>
+<p>	page_type = "news";</p>
+<p>});    //]]></p>
+<p>window.vkAsyncInit = function() {</p>
+<p>	VK.init({apiId: 2025692});</p>
+<p>VK.Widgets.Like("vk_like", {type: "button", verb: 1});};</p>
+<p>setTimeout(function() {</p>
+<p>	var el = document.createElement('script');</p>
+<p>	el.type = 'text/javascript';</p>
+<p>	el.src = 'http://vkontakte.ru/js/api/openapi.js';</p>
+<p>	el.async = true;</p>
+<p>	document.getElementById('vk_api_transport').appendChild(el);</p>
+<p>}, 0);</p>
+<p>window.fbAsyncInit = function() {</p>
+<p>	FB.init({appId:143932985658653, status:true, cookie:true, xfbml:true});</p>
+<p>};</p>
+<p>(function() {</p>
+<p>	var e = document.createElement('script');</p>
+<p>	e.type = 'text/javascript';</p>
+<p>	e.src = document.location.protocol + '//connect.facebook.net/ru_RU/all.js';//#xfbml=1</p>
+<p>	e.async = true;</p>
+<p>	document.getElementById('fb-root').appendChild(e);</p>
+<p>}());</p>
+<p>#pogoda_small</p>
+<p>{</p>
+<p>	position:absolute;</p>
+<p>	display:none;</p>
+<p>}</p>
+<p>Сегодня</p>
+<p>Вечером  +7 °С</p>
+<p>Завтра</p>
+<p>Днём  +8 °С</p>
+<p>Вечером  +6 °С</p>
+<p>Погода на неделю</p>
+<p>Одесса</p>
+<p>$(document).ready(function(){</p>
+<p>	$("#pogoda_blok").click(</p>
+<p>		function(){</p>
+<p>			var p = $("#pogoda_blok");</p>
+<p>			var offset = p.offset();</p>
+<p>	        offsetleft = offset.left;</p>
+<p>			offsettop = offset.top + 30;</p>
+<p>            $("#pogoda_small").css({'top' : offsettop, 'left' : offsetleft});</p>
+<p>			$("#pogoda_small").slideToggle("fast");</p>
+<p>			return false;</p>
+<p>		},</p>
+<p>		function(){</p>
+<p>			$("#pogoda_small").slideUp("fast");</p>
+<p>		}</p>
+<p>	);</p>
+<p>});</p>
+<p> </p>
+<p>			</p>
+<p>+9 °С</p>
+<p>var mounts=new Array('января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря');</p>
+<p>$(document).ready(function(){</p>
+<p>	var dateObj = new Date();</p>
+<p>	dateObj.setHours(dateObj.getHours()+2);</p>
+<p>	var new_date_str = dateObj.getUTCDate() + ' ' + mounts[dateObj.getUTCMonth()] +</p>
+<p>	' | ' + dateObj.getUTCHours() + ':' + addnul(dateObj.getUTCMinutes());</p>
+<p>	$('.header_date').html(new_date_str);</p>
+<p>});</p>
+<p>function addnul(n)</p>
+<p>{</p>
+<p>	if (n < 10) {</p>
+<p>		return '0' + n;</p>
+<p>	}</p>
+<p>	return n;</p>
+<p>}</p>
+<p>#headsearch td</p>
+<p>{</p>
+<p>color:black;</p>
+<p>font-family:verdana,tahoma,arial,verdana;</p>
+<p>font-size:11px;</p>
+<p>text-align:left;</p>
+<p>}</p>
+<p> </p>
+<p>						            </p>
+<p>						</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Главная </p>
+<p>Новости </p>
+<p>Справочник предприятий </p>
+<p>Шоппинг </p>
+<p>Работа </p>
+<p>Авто </p>
+<p>Досуг </p>
+<p>Афиша </p>
+<p>Знакомства</p>
+<p>Битва ФАКУЛЬТЕТОВ </p>
+<p>Королева Одессы 2011 </p>
+<p>Кубок Одесской области по черлидингу </p>
+<p>Погода </p>
+<p>Объявления </p>
+<p>Транспорт </p>
+<p>Гороскоп </p>
+<p>Голос города </p>
+<p>Карта города</p>
+<p>Мы в сети:</p>
+<p>   </p>
+<p> ТОП-20 новостей сайта    </p>
+<p> Художник Папашон</p>
+<p>Регистрация предприятия   </p>
+<p>            Вход для предприятий   </p>
+<p>            </p>
+<p>RSS  		</p>
+<p> </p>
+<p>Рубрики</p>
+<p>Топ-20 </p>
+<p>Криминал </p>
+<p>Культура </p>
+<p>Общество </p>
+<p>Политика </p>
+<p>Происшествия </p>
+<p>Бизнес </p>
+<p> </p>
+<p>Новости компаний </p>
+<p> </p>
+<p>Акции компаний </p>
+<p>Спорт </p>
+<p>Страна и мир </p>
+<p>Потребителю </p>
+<p>Технологии </p>
+<p>Экология </p>
+<p>Здоровье </p>
+<p>Образование </p>
+<p>Экономика </p>
+<p>Реклама </p>
+<p>Подписка на новости и афишу</p>
+<p>    Ваш e-Mail адрес </p>
+<p> </p>
+<p> </p>
+<p>Архив новостей</p>
+<p>Январь</p>
+<p>Февраль</p>
+<p>Март</p>
+<p>Апрель</p>
+<p>Май</p>
+<p>Июнь</p>
+<p>Июль</p>
+<p>Август</p>
+<p>Сентябрь</p>
+<p>Октябрь</p>
+<p>Ноябрь</p>
+<p>Декабрь</p>
+<p>2011</p>
+<p>2010</p>
+<p>$(document).ready(function()</p>
+<p>{</p>
+<p>	$("#month").change(function()</p>
+<p>{</p>
+<p>    $.get("/ajax/calendar", {month_ajax: $("#month").val(),years_ajax: $("#years").val(), model: 'Table_News_News'}, function(data)</p>
+<p>    {</p>
+<p>       $("#calendar").html(data);</p>
+<p>    });</p>
+<p>		$('#calendar').slideUp("slow");</p>
+<p>		$('#calendar').slideDown("slow");</p>
+<p>	});</p>
+<p>	$("#years").change(function()</p>
+<p>{</p>
+<p>   $.get("/ajax/calendar", {month_ajax: $("#month").val(),years_ajax: $("#years").val(), model: 'Table_News_News'}, function(data)</p>
+<p>    {</p>
+<p>       $("#calendar").html(data);</p>
+<p>    });</p>
+<p>		$('#calendar').slideUp("slow");</p>
+<p>		$('#calendar').slideDown("slow");</p>
+<p>	});</p>
+<p> $.get("/ajax/calendar", {month_ajax: $("#month").val(),years_ajax: $("#years").val(), model: 'Table_News_News'}, function(data)</p>
+<p>    {</p>
+<p>       $("#calendar").html(data);</p>
+<p>    });</p>
+<p>});</p>
+<p> </p>
+<p>В Одессе официально болеют ОРВИ почти 5 тысяч человек</p>
+<p>Сайт города Одессы /</p>
+<p>				Новости /</p>
+<p>				Здоровье /</p>
+<p>				В Одессе официально болеют ОРВИ почти 5 тысяч человек</p>
+<p>28.11.2011 | 09:15 </p>
+<p>Разместить в своём: </p>
+<p>   Версия для печати </p>
+<p>Заболеваемость острыми респираторными инфекциями среди населения города находится на сезонном уровне, сообщили в санитарно-эпидемиологической службе города Одессы.За последнюю неделю за медицинской помощью с симптомами острой респираторной вирусной инфекции в лечебно-профилактические учреждения города обратилось 4 867 человек, что соответствует средним многолетним контрольным показателям. В настоящее время на территории города регистрируется заболеваемость острыми респираторными инфекциями негриппозной природы. Наиболее важным моментом в борьбе с острыми респираторными инфекциями и гриппом является их профилактика, отмечают специалисты. Как показывает опыт предыдущих лет, наибольшую эффективность в профилактике заболевания гриппом имеет применение противогриппозных вакцин. Введение в организм вакцины не может вызвать заболевание, но путем выработки защитных антител стимулирует иммунную систему для борьбы с инфекцией. На сегодня в аптечной сети города реализуются вакцины ФЛЮАРИКС, ИНФЛУВАК, ВАКСИГРИПП, ГРИППОЛ ПЛЮС, ИНФЛЕКСАЛ В. В Одессе в этом году пожелало получить прививку против гриппа 1395 человек. </p>
+<p>048.ua </p>
+<p>Твитнуть</p>
+<p>{lang: 'ru'}</p>
+<p>	Оставить комментарий			       </p>
+<p>Пожалуйста, не оставляйте оскорбительные, клеветнические комментарии, призывы к национальной розни, а также сообщения не относящиеся к теме публикации. Эти комментарии будут удалены.</p>
+<p>Для отправки комментариев нужно включить javascript</p>
+<p>Имя</p>
+<p>setTimeout(function() {</p>
+<p>	$("div.comment_subs input#subs").bind("focusin", function() {</p>
+<p>		$("#subs").unbind("focusin");</p>
+<p>		$("div.comment_subs label").html("");</p>
+<p>	});</p>
+<p>}, 0);</p>
+<p>Всего сообщений: 0 </p>
+<p> </p>
+<p>Новости на подобную тему</p>
+<p>27.11 | 15:00</p>
+<p>Сколько стоит плохое лечение?</p>
+<p> (1)</p>
+<p>			</p>
+<p> </p>
+<p>25.11 | 14:50</p>
+<p>Одесситам предложат прививать детей от менингококка</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>25.11 | 14:15</p>
+<p>Бельгийскую прививку АКДС готовы вернуть в украинские поликлиники</p>
+<p> </p>
+<p>25.11 | 09:30</p>
+<p>Медики не нашли связи между прививкой и смертью ребенка</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>24.11 | 16:15</p>
+<p>В Одессе помогут льготникам за счет высокопоставленных стоматологов</p>
+<p> </p>
+<p>24.11 | 15:30</p>
+<p>Медики предупредили одесситов о смертельно опасной бацилле</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>23.11 | 14:15</p>
+<p>Родители умершего двухлетнего малыша считают, что перед прививкой медики не провели обследования</p>
+<p> (2)</p>
+<p>			</p>
+<p> </p>
+<p>22.11 | 12:00</p>
+<p>В Минздраве отрицают, что смерть двухлетнего ребенка в Одессе связана с введением вакцины</p>
+<p> (1)</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>22.11 | 09:00</p>
+<p>В Одессе медики устанавливают, была ли прививка причиной смерти двухлетнего ребенка</p>
+<p> </p>
+<p>18.11 | 13:00</p>
+<p>В Одесской области построят целый центр для реабилитации двух украинских космонавтов</p>
+<p> (4)</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Последние новости</p>
+<p>28.11 | 17:00</p>
+<p>На Одесщине в собственном доме сгорела 86-летняя женщина</p>
+<p> </p>
+<p>28.11 | 16:45</p>
+<p>Небо над Одессой заволокло дымом (фото)</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 16:30</p>
+<p>В Одессе Ниссан сбил велосипедиста</p>
+<p> </p>
+<p>28.11 | 16:15</p>
+<p>В Одесской области на крупной взятке «погорела» чиновница одного из беднейших районов</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 16:00</p>
+<p>В Одессе пожарные спасли кошку</p>
+<p> </p>
+<p>28.11 | 15:45</p>
+<p>Под Одессой в жилой пятиэтажке взорвался газ</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 15:30</p>
+<p>Пьяный водитель «Лады» устроил «догонялки» в центре Одессы</p>
+<p> </p>
+<p>28.11 | 15:15</p>
+<p>Депутатам за народные деньги закупили 500 невероятно дорогих ноутбуков</p>
+<p> (3)</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 15:00</p>
+<p>Одесские власти ответят за гриф «Для служебного пользования» Генплана в прокуратуре</p>
+<p> (1)</p>
+<p>			</p>
+<p> </p>
+<p>28.11 | 14:59</p>
+<p>Правительство отменило новогодние и рождественские каникулы для украинцев</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 14:45</p>
+<p>Под Одессой Ниссан сбил 34-летнего мужчину</p>
+<p> </p>
+<p>28.11 | 14:30</p>
+<p>Пенсионеры с вилами и лопатами в Донецке взяли штурмом обладминистрацию</p>
+<p> (2)</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 14:15</p>
+<p>ДемАльянс нашел повод, как оштрафовать одесскую мэрию</p>
+<p> </p>
+<p>28.11 | 14:10</p>
+<p>Неподалеку одесского ж/д вокзала сгорели два двухэтажных жилых дома (фото)</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 14:00</p>
+<p>В Одессе объявят о сотрудничестве министры Украины и Венгрии</p>
+<p> (1)</p>
+<p>			</p>
+<p> </p>
+<p>28.11 | 13:45</p>
+<p>Из Приморского района Одессы собираются отселить 26 тысяч человек?</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 13:30</p>
+<p>В Одесской области под колесами трактора погиб «пассажир» из прицепа</p>
+<p> </p>
+<p>28.11 | 13:15</p>
+<p>В Одесской области пограничники с голливудскими спецэфектами задерживали «контрабас» с молдавским куревом</p>
+<p> (1)</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>28.11 | 13:00</p>
+<p>Одесские «януковичи» и «тигипковцы» заявляют, что проблем между ними нет</p>
+<p> </p>
+<p>28.11 | 12:45</p>
+<p>Под Одессой за квартирные махинации осудили военного офицера</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>ТОП новости</p>
+<p>В Одессе прошла акция «Украина против Януковича»</p>
+<p> (44)</p>
+<p>Одесса, Янукович, «Потемкинские деревни»</p>
+<p> (51)</p>
+<p>Янукович в Одессе сотворил чудо</p>
+<p> (29)</p>
+<p>Янукович взял под личный контроль вопрос с выделением земли в Отраде</p>
+<p> (13)</p>
+<p>Ликвидация в  Одессе. День сегодняшний</p>
+<p> (20)</p>
+<p>Скандал в Одесской областной телерадиокомпании «докатился» до Президента</p>
+<p> (602)</p>
+<p>Простыни пропаганды</p>
+<p> (10)</p>
+<p>Юрий Кармазин: расследование одесских журналистов по делу Дикаева — это повод Президенту созвать СНБО</p>
+<p> (15)</p>
+<p>Я - корреспондент</p>
+<p>Есть интересная новость?Расскажите о ней всему городу. Мы опубликуем.</p>
+<p>	<!--</p>
+<p>	 var mail_user;</p>
+<p>	 var mail_host;</p>
+<p>	 mail_user = 'news';</p>
+<p>	 mail_host = '@'+ '048.ua';</p>
+<p>	 document.write('<a href="mailto:'+mail_user+mail_host+'" >'+mail_user+mail_host+'</a>');</p>
+<p>	//--></p>
+<p>Тел: </p>
+<p>                    (048) 705-1-333(многоканальный), </p>
+<p> 794-96-09 </p>
+<p>Почта:</p>
+<p>	<!--</p>
+<p>	 var mail_user;</p>
+<p>	 var mail_host;</p>
+<p>	 mail_user = 'info';</p>
+<p>	 mail_host = '@'+ '048.ua';</p>
+<p>	 document.write('<a href="mailto:'+mail_user+mail_host+'" >'+mail_user+mail_host+'</a>');</p>
+<p>	//--></p>
+<p>Авторские права</p>
+<p>	           | Реклама на сайте</p>
+<p>	           | Сеть городских сайтов</p>
+<p>               			   | Наши журналисты</p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click;048inua' "+</p>
+<p>"target=_blank rel='nofollow'><img src='//counter.yadro.ru/hit;048inua?t52.6;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet: показано число просмотров и"+</p>
+<p>" посетителей за 24 часа' "+</p>
+<p>"border='0' width='88' height='31'><\/a>")</p>
+<p>//--></p>
+<p><!--</p>
+<p>bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={v:16822505,s:16822505,t:2,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}</p>
+<p>try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}</p>
+<p>try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}</p>
+<p>r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r);bm.v^=r.length}</p>
+<p>bm.v^=window.location.href.length;for(var x in bm) if(/^[vstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>bmD.write('<a href="http://top.bigmir.net/" target="_blank" rel="nofollow" onClick="img=new Image();img.src=&quot;http://www.bigmir.net/?cl=16822505&quot;;"><img src="http://c.bigmir.net/?'+bs.join('&')+'"  width="88" height="31" border="0" alt="bigmir)net TOP 100" title="bigmir)net TOP 100"></a>');</p>
+<p>//--></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Copyright @ 2009 - 2011</p>
+<p>            048.ua - сайт города Одессы</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-8955215-3']);</p>
+<p>  _gaq.push(['_setDomainName', 'none']);</p>
+<p>  _gaq.push(['_setAllowLinker', true]);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>

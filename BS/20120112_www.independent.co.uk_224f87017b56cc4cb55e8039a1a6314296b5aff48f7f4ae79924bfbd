@@ -1,0 +1,773 @@
+<p>{</p>
+<p>'zone':"8rCVcqssYH8Dl2nF5Xl5uU",</p>
+<p>'mode':"meter",</p>
+<p>'debug':0</p>
+<p>}</p>
+<p> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-27212627-1']); _gaq.push(['_setDomainName', '.independent.co.uk']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </p>
+<p>var rsi_segs = []; var segs_beg=document.cookie.indexOf('rsi_segs='); if (segs_beg>=0){ segs_beg=document.cookie.indexOf('=',segs_beg)+1; if(segs_beg>0){ var segs_end=document.cookie.indexOf(';',segs_beg); if(segs_end==-1) segs_end=document.cookie.length; rsi_segs=document.cookie.substring(segs_beg,segs_end) .split('|'); } } var segLen=20; var segQS=""; if (rsi_segs.length<segLen){segLen=rsi_segs.length} for (var i=0;i<segLen;i++){ segQS+=('rsi='+rsi_segs[i]+";") } </p>
+<p>var ieVersion = false;</p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>var ind = {</p>
+<p>article: {},</p>
+<p>pubUrl: "http://www.independent.co.uk/",</p>
+<p>skinName: "ind"</p>
+<p>}; //]]> </p>
+<p>  <!-- var rsi_segs = []; var segs_beg=document.cookie.indexOf('rsi_segs='); if (segs_beg>=0){ segs_beg=document.cookie.indexOf('=',segs_beg)+1; if(segs_beg>0){ var segs_end=document.cookie.indexOf(';',segs_beg); if(segs_end==-1) segs_end=document.cookie.length; rsi_segs=document.cookie.substring(segs_beg,segs_end) .split('|'); } } var segLen=20; var segQS=""; if (rsi_segs.length<segLen){segLen=rsi_segs.length} for (var i=0;i<segLen;i++){ segQS+=('rsi='+rsi_segs[i]+";") } //-->  </p>
+<p> //<![CDATA[</p>
+<p>var gs_channels="DEFAULT"; document.write('<SCR' + 'IPT type="text/javascript" language="javascript" src="http://dmgt.grapeshot.co.uk/independent/channels.cgi?url=' + escape(top.location.href) + '"></SCR' + 'IPT>'); //]]></p>
+<p>InSkinParams['myPageSkin'] = {</p>
+<p>'srv_SectionID': '124015',</p>
+<p>'srv_Keywords': 'inskintest,lifech,lifech-lifhea,lifech-lifhea-newhea',</p>
+<p>'srv_UseSAS': false,</p>
+<p>'plr_ContentType': 'PAGESKIN',</p>
+<p>'plr_ContentID': 'myContent',</p>
+<p>'plr_ContentW': 975,</p>
+<p>'plr_FrameTop': 90,</p>
+<p>'plr_FrameSide': 130,</p>
+<p>'plr_FrameBottom': 90,</p>
+<p>'plr_HideElementsByID': '',</p>
+<p>'plr_HideElementsByClass': 'mfc225, mfc529',</p>
+<p>'plr_NoSkinInSkinResize': true,</p>
+<p>'plr_GetParamsFromMeta': ['srv_Keywords', 'keywords']</p>
+<p>};</p>
+<p>var objPageSkin = new InSkin.Base('myPageSkin');</p>
+<p>Private clinic refuses free breast implant removal - Health News - Health & Families - The Independent</p>
+<p>window.fbAsyncInit = function() {</p>
+<p>FB.init({appId: '235586169789578', status: true, cookie: true,</p>
+<p>xfbml: true});	};</p>
+<p>(function() {</p>
+<p>var e = document.createElement('script');</p>
+<p>e.async = true;</p>
+<p>e.src = document.location.protocol +</p>
+<p>'//connect.facebook.net/en_US/all.js';</p>
+<p>document.getElementById('fb-root').appendChild(e);</p>
+<p>}());</p>
+<p>Thursday 12 January 2012</p>
+<p>Jobs </p>
+<p>Dating </p>
+<p>Shop </p>
+<p>div.carousel div.mainDisplayContainer5054659 {</p>
+<p>width:202px;</p>
+<p>height:90px;</p>
+<p>}</p>
+<p>div.carousel .scrollable5054659 {</p>
+<p>height: 64.51829916336634px;</p>
+<p>}</p>
+<p>div.carousel div.filmstrip5054659 {</p>
+<p>padding:30px 6.5898px 10px 6.5898px;</p>
+<p>width:188.8204px;</p>
+<p>height: 64.51829916336634px;</p>
+<p>left:0px;</p>
+<p>}</p>
+<p>div.carousel .scrollable .items div.item {</p>
+<p>padding: 1.31796px;</p>
+<p>}</p>
+<p>div.carousel .scrollable .items div.item5054659 {</p>
+<p>height:59.88237916336634px;</p>
+<p>width:79.84317221782179px;</p>
+<p>margin: 0 6.5898px 0 0;</p>
+<p>}</p>
+<p>div.carousel .scrollable .items div div.titleSide5054659{</p>
+<p>padding:1.31796px;</p>
+<p>left: 82.47909221782179px;</p>
+<p>width:-4.6359200000000005px;</p>
+<p>height: 55.24645916336634px;</p>
+<p>}</p>
+<p>div.carousel div.nav5054659 {</p>
+<p>height: 0px;</p>
+<p>padding: 0px 0px 0px 0px;</p>
+<p>position: relative;</p>
+<p>}</p>
+<p> </p>
+<p>http://www.independent.co.uk/incoming/article6286052.ece/ALTERNATES/w202h90/202x90+i+banner.jpg</p>
+<p>http://www.independent.co.uk/news/media/press/watch-the-new-i-tv-advert-6285749.html</p>
+<p>// <![CDATA[</p>
+<p>var api_5054659;</p>
+<p>var obj_5054659;</p>
+<p>var cliked_index_5054659=0;</p>
+<p>var number_items_5054659=1;</p>
+<p>var max_items_perpage_5054659 = 2.1457403866581686;</p>
+<p>var totalPage5054659 = Math.ceil(0.46603960396039606);</p>
+<p>function chicked_5054659(index){</p>
+<p>cliked_index_5054659=index;</p>
+<p>return false;</p>
+<p>}</p>
+<p>// execute your scripts when the DOM is ready. this is a good habit</p>
+<p>jQuery(function() {</p>
+<p>// initialize scrollable</p>
+<p>// clickable</p>
+<p>api_5054659 = jQuery("#carouselScrollableContainer5054659").scrollable({prev:'.prevPage',next:'.nextPage', vertical:false}).navigator({api:true, navi:".indicator"});</p>
+<p>/* set navigaion indicator width so that it is rightly set at middle */</p>
+<p>/* set navigation arrows disabled status correctly */</p>
+<p>jQuery("#prevCarouselItemButton_5054659").click(function() {</p>
+<p>if(obj_5054659){</p>
+<p>obj_5054659.changeDisplayItemCarousel_5054659(api_5054659, -1);</p>
+<p>}</p>
+<p>});</p>
+<p>jQuery("#nextCarouselItemButton_5054659").click(function() {</p>
+<p>if(obj_5054659){</p>
+<p>obj_5054659.changeDisplayItemCarousel_5054659(api_5054659, 1);</p>
+<p>}</p>
+<p>});</p>
+<p>});</p>
+<p>jQuery(function()</p>
+<p>{</p>
+<p>var tabIndex_5054659 = 0;</p>
+<p>var lastClickedIndex_5054659=-1;</p>
+<p>obj_5054659 = this;</p>
+<p>function displayClickedCarouselItem_5054659(){</p>
+<p>jQuery("#mainImage5054659").css({"display":"block"});</p>
+<p>jQuery("#video5054659").css({"display":"none"});</p>
+<p>var index = cliked_index_5054659;</p>
+<p>jQuery(".item5054659").css({"border":"1px solid #000000"});</p>
+<p>jQuery("#item5054659_"+index).css({"border":"1px solid #00A0EE"});</p>
+<p>if(index!=lastClickedIndex_5054659)</p>
+<p>{</p>
+<p>lastClickedIndex_5054659 = index;</p>
+<p>var mainDisplayContainerId = "mainDisplayContainer5054659";</p>
+<p>var mainImageId = "mainImage5054659";</p>
+<p>var articleAnchorId = "articleAnchor5054659";</p>
+<p>var articleUrlContainerId = "articleUrl_5054659_" + tabIndex_5054659 + "_" + index;</p>
+<p>var imageUrlContainerId = "carouselImgaeUrl_5054659_" + tabIndex_5054659 + "_" + index;</p>
+<p>var mainDisplayContainer = jQuery("#"+mainDisplayContainerId).fadeTo("fast", 0.5);</p>
+<p>var imageUrl = jQuery("#"+imageUrlContainerId)[0].innerHTML;</p>
+<p>var img = new Image();</p>
+<p>// call this function after it's loaded</p>
+<p>img.onload = function() {</p>
+<p>// make wrapper fully visible</p>
+<p>mainDisplayContainer.fadeTo("fast", 1);</p>
+<p>// change the image</p>
+<p>jQuery("#"+mainImageId).attr("src", imageUrl);</p>
+<p>// update article ancho url</p>
+<p>jQuery("#" + articleAnchorId).attr("href", jQuery("#"+articleUrlContainerId)[0].innerHTML);</p>
+<p>// update url of a video</p>
+<p>var urlContainerId = "playButton_5054659_" + tabIndex_5054659 + "_" + index;</p>
+<p>jQuery("#playButtonr5054659").attr("href",jQuery("#"+urlContainerId)[0].getAttribute("href"));</p>
+<p>$("#playButtonr5054659").css({"display":$("#"+urlContainerId).css('display')});</p>
+<p>};</p>
+<p>img.src = imageUrl;</p>
+<p>}</p>
+<p>}</p>
+<p>jQuery("#carouselScrollableContainer5054659 .items div").click(function() {</p>
+<p>displayClickedCarouselItem_5054659();</p>
+<p>// when page loads simulate a "click" on the first image</p>
+<p>}).filter(":first").click();</p>
+<p>// change the active item index by pIndexOffset</p>
+<p>this.changeDisplayItemCarousel_5054659 = function(pApi, pIndexOffset){</p>
+<p>if(cliked_index_5054659+ pIndexOffset < 0 ){</p>
+<p>cliked_index_5054659 = cliked_index_5054659 + number_items_5054659;</p>
+<p>}</p>
+<p>cliked_index_5054659 = Math.max(0,(cliked_index_5054659+ pIndexOffset)%number_items_5054659);</p>
+<p>pApi.seekTo(cliked_index_5054659/max_items_perpage_5054659);</p>
+<p>displayClickedCarouselItem_5054659();</p>
+<p>}</p>
+<p>});</p>
+<p>var mouseOverCarousel = false;</p>
+<p>function carouselPlayPause(link){</p>
+<p>if (link.innerHTML == 'Play'){</p>
+<p>link.innerHTML = 'Pause';</p>
+<p>mouseOverCarousel = false;</p>
+<p>}</p>
+<p>else if (link.innerHTML == 'Pause'){</p>
+<p>link.innerHTML = 'Play';</p>
+<p>mouseOverCarousel = true;</p>
+<p>}</p>
+<p>}</p>
+<p>function carouselMouseOut(){</p>
+<p>mouseOverCarousel = false;</p>
+<p>}</p>
+<p>startSlideShow_5054659();</p>
+<p>function startSlideShow_5054659(){</p>
+<p>}</p>
+<p>// ]]></p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<'+'sc'+'ript type= "text/javascript" src="http://ad.doubleclick.net/adj/indy.uk/indy_indylifeandstyle_lifeandstyle;sz=728x90,468x60;tile=1;dcopt=ist;ord=' + ord + ';gs_cat='+gs_channels+';'+segQS+'?"><\/'+'sc'+'ript>');</p>
+<p>Click here...</p>
+<p>News  </p>
+<p>Opinion  </p>
+<p>Environment  </p>
+<p>Sport  </p>
+<p>Life & Style  </p>
+<p>Fashion </p>
+<p>News </p>
+<p>Features </p>
+<p>Food & Drink </p>
+<p>News </p>
+<p>Reviews </p>
+<p>Features </p>
+<p>Recipes </p>
+<p>Health & Families </p>
+<p>Health News </p>
+<p>Features </p>
+<p>Healthy Living </p>
+<p>Health Advice </p>
+<p>House & Home </p>
+<p>Interiors </p>
+<p>Gardening </p>
+<p>Property </p>
+<p>History </p>
+<p>Gadgets & Tech </p>
+<p>News </p>
+<p>Gaming </p>
+<p>Features </p>
+<p>Motoring </p>
+<p>Motoring News </p>
+<p>Features </p>
+<p>Road Tests </p>
+<p>Motorcycling </p>
+<p>Comment </p>
+<p>Used Car Search </p>
+<p>New Car Search </p>
+<p>Dating </p>
+<p>Profiles </p>
+<p>Crosswords </p>
+<p>Competitions </p>
+<p>Arts & Ents  </p>
+<p>Travel  </p>
+<p>Money  </p>
+<p>IndyBest  </p>
+<p>Blogs  </p>
+<p>Student  </p>
+<p>Hot Topics</p>
+<p>Lobbying</p>
+<p>NHS</p>
+<p>Syria</p>
+<p>Ed Miliband</p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<'+'sc'+'ript type= "text/javascript" src="http://ad.doubleclick.net/adj/indy.uk/indy_indylifeandstyle_lifeandstyle;sz=900x250;ord=' + ord + ';gs_cat='+gs_channels+';'+segQS+'?"><\/'+'sc'+'ript>');</p>
+<p>Click here...</p>
+<p>Life & Style </p>
+<p>|</p>
+<p>Health & Families </p>
+<p>|</p>
+<p>Health News </p>
+<p>Private clinic refuses free breast implant removal</p>
+<p> </p>
+<p> </p>
+<p>Jeremy Laurance</p>
+<p> </p>
+<p>Jeremy Laurance</p>
+<p>Jeremy Laurance is Health Editor at The Independent</p>
+<p>More</p>
+<p>Articles from Jeremy Laurance</p>
+<p>Follow Jeremy Laurance</p>
+<p>Thursday 12 January 2012</p>
+<p>Tweet</p>
+<p>function printArticle(url){</p>
+<p>window.open(url,'print');</p>
+<p>}</p>
+<p>Print</p>
+<p> </p>
+<p>$(document).ready(function() {</p>
+<p>/*This piece of code opens the email form in a popup style*/</p>
+<p>$("#openEmailBox").click(function(event) {</p>
+<p>$("#errorMessage").remove();</p>
+<p>$("#emailFormPageTools").jqpopup_open(this.id);</p>
+<p>setTimeout(function() {</p>
+<p>$("#emailFormPageTools").jqpopup_toCenter();</p>
+<p>}, 300);</p>
+<p>event.preventDefault();</p>
+<p>});</p>
+<p>/*The reset button will not clear the error-messages so using this code to do that*/</p>
+<p>$("#emailArticleReset").click(function() {</p>
+<p>$("#errorMessage").remove();</p>
+<p>$("#emailDelivered").remove();</p>
+<p>});</p>
+<p>/*Sending the form through the JQuery Ajax Form plugin*/</p>
+<p>$("#mailForm").ajaxForm({beforeSubmit:validateFields, success:processSuccess});</p>
+<p>});</p>
+<p>/**</p>
+<p>* This method is called by Ajax Form Plugin before submitting the form for validation.</p>
+<p>* @param formData the form data as map</p>
+<p>* @param jqForm the original form</p>
+<p>* @param options the options array if provided.</p>
+<p>* @return true if form is validated or false otherwise</p>
+<p>*</p>
+<p>* */</p>
+<p>function validateFields(formData, jqForm, options) {</p>
+<p>var emailReg = /^([a-zA-Z0-9])+([\.a-zA-Z0-9_-])*@([a-zA-Z0-9])+(\.[a-zA-Z0-9_-]+)+$/;</p>
+<p>$("#errorMessage").remove();</p>
+<p>var emailForm = jqForm[0];</p>
+<p>var receiverEmail = emailForm.mailto.value;</p>
+<p>var senderEmail = emailForm.surname.value;</p>
+<p>var emailErrorMessage = "<div id='errorMessage' style='color:red;float:right;margin-top:15px;margin-bottom:10px;'><span>You must provide a valid email address in this field</span></div>"</p>
+<p>if (!receiverEmail || !emailReg.test(receiverEmail)) {</p>
+<p>$("#mailto").before(emailErrorMessage);</p>
+<p>return false;</p>
+<p>}</p>
+<p>if (!senderEmail || !emailReg.test(senderEmail)) {</p>
+<p>$("#surname").before(emailErrorMessage);</p>
+<p>return false;</p>
+<p>}</p>
+<p>//todo: add seperate jsp for emial content:</p>
+<p>return true;</p>
+<p>}</p>
+<p>/**</p>
+<p>* This method is called by the Ajax Form Plugin after the response from the server comes back.</p>
+<p>* @param responseText the text which comes from the server.</p>
+<p>* @param statusText the status of the message returned by the server</p>
+<p>* */</p>
+<p>function processSuccess(responseText, statusText) {</p>
+<p>var emailSuccessMessage = "<span id='emailDelivered' style='margin-left: 15px; margin-top: 99px; color: green; font-size: 12px; font-weight: bold;'>Thank you! Your email has been successfully sent.</span>";</p>
+<p>$("#emailDelivered").remove();</p>
+<p>$("#emailArticleSend").after(emailSuccessMessage);</p>
+<p>var clientDT = new Date().getTime();</p>
+<p>var loggerImage = "<img style='display:none;' id='loggerEmailImage' src='http://localhost:8080/analysis-logger/Logger?rt=1&ctxId=752&pubId=2&cat=&meta=emailed-news&objId=6288346&type=article&title=Private+clinic+refuses+free+breast+implant+removal&url=http%3a%2f%2fwww.independent.co.uk%2flife-style%2fhealth-and-families%2fhealth-news%2fprivate-clinic-refuses-free-breast-implant-removal-6288346.html&amp;clientDT='" + clientDT + "' alt='' width='1' height='1' />";</p>
+<p>$("#emailArticleSend").after(loggerImage);</p>
+<p>setTimeout(function() {</p>
+<p>$("#emailDelivered").remove();</p>
+<p>$.jQpopup.close("emailFormPageTools");</p>
+<p>}, 3000);</p>
+<p>}</p>
+<p>Your friend's email address </p>
+<p>Your email address </p>
+<p>Note: We do not store your email address(es) but your IP address will be logged to prevent abuse of this feature. Please read our Legal Terms & Policies</p>
+<p>A</p>
+<p>A</p>
+<p>A</p>
+<p>Email</p>
+<p>$(document).ready(function() {</p>
+<p>$("#pageToolsSmallFont").click(function(event) {</p>
+<p>setFont('articleContent', '130%');</p>
+<p>$.get("http://www.independent.co.uk/life-style/health-and-families/health-news/private-clinic-refuses-free-breast-implant-removal-6288346.html?pageToolsFontSize=130%25");</p>
+<p>event.preventDefault();</p>
+<p>});</p>
+<p>$("#pagetToolsMediumFont").click(function(event) {</p>
+<p>setFont('articleContent', '200%');</p>
+<p>$.get("http://www.independent.co.uk/life-style/health-and-families/health-news/private-clinic-refuses-free-breast-implant-removal-6288346.html?pageToolsFontSize=200%25");</p>
+<p>event.preventDefault();</p>
+<p>});</p>
+<p>$("#pageToolsLargeFont").click(function(event) {</p>
+<p>setFont('articleContent', '300%');</p>
+<p>$.get("http://www.independent.co.uk/life-style/health-and-families/health-news/private-clinic-refuses-free-breast-implant-removal-6288346.html?pageToolsFontSize=300%25");</p>
+<p>event.preventDefault();</p>
+<p>});</p>
+<p>});</p>
+<p>var player;</p>
+<p>var video, content, exp, menu, ads, social;</p>
+<p>function onTemplateLoaded(pPlayer) {</p>
+<p>player = bcPlayer.getPlayer(pPlayer);</p>
+<p>video = player.getModule(APIModules.VIDEO_PLAYER);</p>
+<p>content = player.getModule(APIModules.CONTENT);</p>
+<p>exp = player.getModule(APIModules.EXPERIENCE);</p>
+<p>menu = player.getModule(APIModules.MENU);</p>
+<p>ads = player.getModule(APIModules.ADVERTISING);</p>
+<p>social = player.getModule(APIModules.SOCIAL);</p>
+<p>exp.addEventListener(BCExperienceEvent.CONTENT_LOAD, onContentLoad);</p>
+<p>exp.addEventListener(BCExperienceEvent.TEMPLATE_READY, onTemplateReady);</p>
+<p>}</p>
+<p>function onContentLoad(e) { trace(e.type); }</p>
+<p>function onTemplateReady(e) {</p>
+<p>var volume = 0;</p>
+<p>// Changes volume upon player load, more specifically, templateReady</p>
+<p>video.setVolume(volume);</p>
+<p>}</p>
+<p>// Changes volume based on external event</p>
+<p>function changeVolume(n) {</p>
+<p>video.setVolume(n);</p>
+<p>}</p>
+<p> brightcove.createExperiences();</p>
+<p>Latest in Health News</p>
+<p>IVF study gives fresh hope to older women</p>
+<p>Private clinic refuses free breast implant removal</p>
+<p>Porn actors may have to use condoms</p>
+<p>NHS mergers 'solve nothing'</p>
+<p>Implants bill for NHS 'is unfair', says Andrew Lansley</p>
+<p>Harley Medical Group refuses free implant removal</p>
+<p>Have you really had your greens? New test to tell doctors what we're eating</p>
+<p>If the surgeons young or old, put the operation on hold</p>
+<p>NHS pays out £1m to manager in race case</p>
+<p>Aspirin a day may not be so good for heart</p>
+<p>google_ad_channel = '5258566634+2301525710';</p>
+<p>google_ad_client = 'ca-pub-5964551156905038';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '4';</p>
+<p>google_ad_type = 'text';</p>
+<p>Life & Style blogs</p>
+<p>Chatham: Great Expectations</p>
+<p>It's the 200th anniversary of Charles Dickens' birth and our Online Property Hunter will be looking ...</p>
+<p>Researchers identify yet another threat to hive health</p>
+<p>In a study with far reaching implications for global food security, scientists have identified a new...</p>
+<p>Volunteering: Appreciating how bittersweet life can be</p>
+<p>Many of us like the idea of volunteering but find plenty of excuses not to.</p>
+<p>Steve Watkins talks abo...</p>
+<p>//<![CDATA[</p>
+<p>ind.article.largeItem = 'false';</p>
+<p>ind.article.videoPriority = 'false';</p>
+<p>ind.article.fullSlideshow = 0;</p>
+<p>//]]></p>
+<p>Suggested Topics</p>
+<p>Healthcare</p>
+<p>Andrew Lansley</p>
+<p>The blame game in the breast implant scandal intensified yesterday as one of Britain's largest private surgery clinics defied the Government by declaring it would not replace the defective implants free of charge.</p>
+<p>The announcement by the Harley Medical Group came as Andrew Lansley launched three separate inquiries into the debacle which has left at least 40,000 women in the UK at risk from the industrial grade silicone contained in the Poly Implant Prothese implants.In the Commons, Mr Lansley reiterated the Government's view that private clinics had a moral duty to look after their patients.But Mel Graham, chairman of the Harley Medical Group, said the Government had a moral responsibility to replace the PIP implants, because of a regulatory failure."We're only sitting here today because the Medicines and Healthcare products Regulatory Agency [MHRA], their own regulatory authority, has approved these implants and obviously hasn't done [the] proper checking. We're an innocent victim like everyone else, we're attempting to do our best for our patients."Mr Lansley blamed PIP, the French manufacturer of the implants, which fooled regulators by hiding the cheap industrial silicone when inspectors came to visit.But he announced further investigations into the the EU approval of the devices which resulted in them receiving a CE mark, the actions of the MHRA and reviews by NHS medical director Sir Bruce Keogh and the Care Quality Commission of the regulation of the cosmetic surgery industry.Sources said Mr Lansley was dismayed at the response of the private clinics – Transform, a second private chain, has also refused to replace the implants at its own cost – and warned NHS waiting lists could rise as a result. Worried women who cannot get help from their private clinic have been told they can have the implants removed on the NHS.A source said: "The private clinics have a duty of care to their patients, they have made a lot of money and to leave women on their own is not good enough."</p>
+<p>Tweet</p>
+<p>Comments</p>
+<p>More in</p>
+<p>Health News »</p>
+<p>//<![CDATA[</p>
+<p>channelColor = $('.submenu').css('background-color');</p>
+<p>$('.MoreIn .section').css('color', channelColor);</p>
+<p>//]]></p>
+<p>google_ad_channel = '5258566634+2301525710';</p>
+<p>google_ad_client = 'ca-pub-5964551156905038';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '4';</p>
+<p>google_ad_type = 'text';</p>
+<p>Independent Comment</p>
+<p>var disqus_shortname = "independentlifestyle";</p>
+<p>var disqus_developer = 0;</p>
+<p>var disqus_identifier = "6288346";</p>
+<p>var disqus_title = "Private clinic refuses free breast implant removal";</p>
+<p>var disqus_url = document.location.href;</p>
+<p>var facebookXdReceiverPath = 'http://www.independent.co.uk/independent.co.uk/editorial/web/comments/xd_receiver.htm';</p>
+<p>/* * * DON'T EDIT BELOW THIS LINE * * */</p>
+<p>(function() {</p>
+<p>var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;</p>
+<p>dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';</p>
+<p>(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);</p>
+<p>})();</p>
+<p>Please enable JavaScript to view the comments powered by Disqus.</p>
+<p>blog comments powered by Disqus</p>
+<p>Please provide search keyword(s)</p>
+<p>$(function() {</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete({</p>
+<p>source: ajaxCall ,</p>
+<p>delay: 2000.00,</p>
+<p>close: function(event, ui) {</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete("option", "delay", 500.00);</p>
+<p>},</p>
+<p>select: function(event, ui) {</p>
+<p>var articleId = ui.item.id;</p>
+<p>openLink('http://www.independent.co.uk/eceRedirect?articleId=' + articleId, '_self');</p>
+<p>}</p>
+<p>});</p>
+<p>});</p>
+<p>function ajaxCall(request, response) {</p>
+<p>var iChars = "!@#$%^&*()+=-[]\\\';,./{}|\":<>?~_";</p>
+<p>var term = $.trim(request.term.toLowerCase());</p>
+<p>var wordCount = term.split(" ").length;</p>
+<p>if (term.length > 0 && iChars.indexOf(term.charAt(0)) == -1) {</p>
+<p>var param = "(" + term + "*) publication:(ind) state:(published) contenttype:(news)";</p>
+<p>$.ajax({</p>
+<p>url: "/ind/ewf-servlet/search/",</p>
+<p>data: {q:param , rows:5, wt:'json'},</p>
+<p>cache: true,</p>
+<p>dataType: 'json',</p>
+<p>success: function(json) {</p>
+<p>var responseCount = json.response.docs.length;</p>
+<p>if (json != null && responseCount > 0) {</p>
+<p>response($.map(json.response.docs, function(article) {</p>
+<p>return {label: article.title, value: article.title, id: article.objectid}</p>
+<p>}));</p>
+<p>}</p>
+<p>else{</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete("close");</p>
+<p>}</p>
+<p>if (wordCount > 1 && responseCount == 0) {</p>
+<p>param = "(" + term + ") publication:(ind) state:(published) contenttype:(news)";</p>
+<p>$.ajax({</p>
+<p>url: "/ind/ewf-servlet/search/",</p>
+<p>data: {q:param , rows:5, wt:'json'},</p>
+<p>cache: true,</p>
+<p>dataType: 'json',</p>
+<p>success: function(json) {</p>
+<p>var responseCount = json.response.docs.length;</p>
+<p>if (json != null && responseCount > 0) {</p>
+<p>response($.map(json.response.docs, function(article) {</p>
+<p>return {label: article.title, value: article.title, id: article.objectid}</p>
+<p>}));</p>
+<p>}</p>
+<p>}</p>
+<p>})</p>
+<p>}</p>
+<p>}</p>
+<p>})</p>
+<p>}</p>
+<p>else if (term.length > 0 && iChars.indexOf(term.charAt(0)) != -1) {</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete("close");</p>
+<p>alert("Search word should not start with !@#$%^&*()+=-[]\\\';,./{}|\":<>?~_");</p>
+<p>}</p>
+<p>}</p>
+<p>Advanced Search </p>
+<p>Day in a page </p>
+<p>Article archive </p>
+<p>Most Commented</p>
+<p>//<![CDATA[</p>
+<p>$(".dsq-widget-item").each(</p>
+<p>function (i) {</p>
+<p>i = i+1;</p>
+<p>$(this).prepend("<span class='commentCount'>"+i+"</span>");</p>
+<p>}</p>
+<p>);</p>
+<p>$("p.dsq-widget-meta").each(</p>
+<p>function () {</p>
+<p>$(this).html($(this).html().replace(' · ',' | '));</p>
+<p>}</p>
+<p>);</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>$(document).ready(function() {</p>
+<p>$("#tabs-1 > ul.tabs").tabs("#tabs-1 > div.tabPanes > div.tabPane", {</p>
+<p>current: 'current',</p>
+<p>effect: 'default',</p>
+<p>event: 'click',</p>
+<p>initialIndex : 0</p>
+<p>});</p>
+<p>});</p>
+<p>//]]></p>
+<p>document.write('<'+'sc'+'ript type= "text/javascript" src="http://ad.doubleclick.net/adj/indy.uk/indy_indylifeandstyle_healthandfamiles;sz=300x250,300x600;tile=4;ord=' + ord + ';gs_cat='+gs_channels+';'+segQS+'?"><\/'+'sc'+'ript>');</p>
+<p>Click here...</p>
+<p>//<![CDATA[</p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<script type="text/javascript" src="https://ad.doubleclick.net/adj/indy.uk/indy_indylifeandstyle_partners;target=ps;sz=300x150;ord=' + ord + '?"><\/script>');</p>
+<p>//]]></p>
+<p>document.write('<'+'sc'+'ript type= "text/javascript" src="http://ad.doubleclick.net/adj/indy.uk/indy_indylifeandstyle_healthandfamiles;sz=160x600,120x600;tile=5;ord=' + ord + ';gs_cat='+gs_channels+';'+segQS+'?"><\/'+'sc'+'ript>');</p>
+<p>Click here...</p>
+<p>//<![CDATA[</p>
+<p>ord=Math.random()*10000000000000000;</p>
+<p>document.write('<script type="text/javascript" src="https://ad.doubleclick.net/adj/indy.uk/indy_indylifeandstyle_partners;target=ps;sz=300x250;ord=' + ord + '?"><\/script>');</p>
+<p>//]]></p>
+<p>SPONSORED FEATURES</p>
+<p> </p>
+<p>Win a Canary Island Holiday</p>
+<p>Win a seven-night holiday for two adults to two of the Canary Islands.</p>
+<p> </p>
+<p>Win a 3D TV</p>
+<p>Posh Nosh</p>
+<p>Business videos</p>
+<p> </p>
+<p>Win a home cinema system</p>
+<p>Win a 40" 3D TV with a Blu-ray home cinema system to boot!</p>
+<p> </p>
+<p>Win a holiday</p>
+<p>Posh Nosh</p>
+<p>Business videos</p>
+<p> </p>
+<p>Amazing restaurant offers</p>
+<p>Three glasses of free champagne and a special menu at 46 top London restaurants.</p>
+<p> </p>
+<p>Win a holiday</p>
+<p>Win a 3D TV</p>
+<p>Business videos</p>
+<p> </p>
+<p>Commercial thought leaders</p>
+<p>Watch the best in the business world give their insights into the world of business.</p>
+<p> </p>
+<p>Win a holiday</p>
+<p>Win a 3D TV</p>
+<p>Posh Nosh</p>
+<p>// <![CDATA[</p>
+<p>$(function() {</p>
+<p>$(window).load( function() {</p>
+<p>var allColumnHeights = equalColumns.getColumnHeights('div.commercial .scrollable-6279238 .items div');</p>
+<p>var tallestColumn = equalColumns.findHighestColumn(allColumnHeights);</p>
+<p>$('div.commercial .scrollable-6279238').height(tallestColumn);</p>
+<p>});</p>
+<p>$(".scrollable-6279238").scrollable({ circular: true });</p>
+<p>ind.commercialInstance = $(".scrollable-6279238").eq(0).data("scrollable");</p>
+<p>commercialListLayout();</p>
+<p>setInterval(function() {</p>
+<p>ind.commercialInstance.move(1);</p>
+<p>}, 10000);</p>
+<p>});	// ]]></p>
+<p>google_ad_channel = '2691865510+2301525710';</p>
+<p>google_ad_client = 'ca-pub-5964551156905038';</p>
+<p>google_ad_output = 'js';</p>
+<p>google_max_num_ads = '4';</p>
+<p>google_ad_type = 'text';</p>
+<p>Day In a Page</p>
+<p>Sun</p>
+<p>Mon</p>
+<p>Tue</p>
+<p>Wed</p>
+<p>Thu</p>
+<p>Fri</p>
+<p>Sat</p>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>5</p>
+<p>6</p>
+<p>7</p>
+<p>8</p>
+<p>9</p>
+<p>10</p>
+<p>11</p>
+<p>12</p>
+<p>13</p>
+<p>14</p>
+<p>15</p>
+<p>16</p>
+<p>17</p>
+<p>18</p>
+<p>19</p>
+<p>20</p>
+<p>21</p>
+<p>22</p>
+<p>23</p>
+<p>24</p>
+<p>25</p>
+<p>26</p>
+<p>27</p>
+<p>28</p>
+<p>29</p>
+<p>30</p>
+<p>31</p>
+<p>January</p>
+<p>February</p>
+<p>March</p>
+<p>April</p>
+<p>May</p>
+<p>June</p>
+<p>July</p>
+<p>August</p>
+<p>September</p>
+<p>October</p>
+<p>November</p>
+<p>December</p>
+<p>1992</p>
+<p>1993</p>
+<p>1994</p>
+<p>1995</p>
+<p>1996</p>
+<p>1997</p>
+<p>1998</p>
+<p>1999</p>
+<p>2000</p>
+<p>2001</p>
+<p>2002</p>
+<p>2003</p>
+<p>2004</p>
+<p>2005</p>
+<p>2006</p>
+<p>2007</p>
+<p>2008</p>
+<p>2009</p>
+<p>2010</p>
+<p>2011</p>
+<p>2012</p>
+<p>Go</p>
+<p> </p>
+<p>People's choice winners Katy Perry won the most awards but did not attend ceremony </p>
+<p>Apple's plan to reinvent the box Rumours that Apple is to enter the television-set market are casting a digital shadow over the industry </p>
+<p>Andrew Scott: A pin-up who is hard to pin down Scott's career has been as unpredictable as his portrayal of Moriarty in the BBC's new Sherlock Holmes </p>
+<p>The 10 Best Fitness Gadgets From scales that let you measure your own "fat content" to an underwater MP3 player </p>
+<p>Wanted: one school, must be prepared to travel How did an article in The Independent lead to the creation of a portable school for Burmese refugee children? </p>
+<p>Nasuwt: 'We can win the hearts and minds of parents' The UK's largest teaching union has begun industrial action but its leader is convinced families will be right behind it </p>
+<p>Shadows on the horizon The rise and rise of skyscrapers </p>
+<p>'I'm not some kind of angry black woman' says Michelle America's First Lady uses TV interview to hit out at rumours that she's losing Barack friends and alienating Washington's powerful people </p>
+<p>Pardon? Governor sparks outcry by letting off 200 criminals Rapists and murderers benefit as former Mississippi hardliner has extraordinary conversion </p>
+<p>James Lawton Dalglish's men finally show the acceptable side of Liverpool FC </p>
+<p>ESPN to continue its touchline analysis despite Keown's whack Broadcaster keen to bring fans 'as close to game as possible' </p>
+<p>Changing of the red-rose guard It looks like the end of the road for Tindall and Co as Stuart Lancaster launches new era for English rugby by calling up exciting and energised young guns </p>
+<p>Bafta Rising Star shortlist All male nominations dominated by homegrown talent </p>
+<p>1,000-piece puzzle may unlock Roman conquest secrets Historians are trying to solve an ancient mystery </p>
+<p>Soldiers train half-naked in snow South Korean army shows it is made of tough stuff </p>
+<p>$(document).ready(function() {</p>
+<p>// initialize scrollable together with the navigator plugin</p>
+<p>$("#filmstrip-5054673").scrollable().navigator();</p>
+<p>$("#filmstrip-5054673 .page img").captify();</p>
+<p>});</p>
+<p>The Independent2 Derry Street London W8 5TT© independent.co.uk</p>
+<p>Terms & Policies  </p>
+<p>Privacy Policy  </p>
+<p>Code of Conduct  </p>
+<p>Email newsletter  </p>
+<p>RSS  </p>
+<p>Contact us  </p>
+<p>Syndication  </p>
+<p>Subscriptions  </p>
+<p>Work for us  </p>
+<p>Evening Standard  </p>
+<p>Homes & Property  </p>
+<p>iJobs  </p>
+<p>Advertising Guide  </p>
+<p>Novaya Gazeta (English)  </p>
+<p>The Journalism Foundation  </p>
+<p>Please provide search keyword(s)</p>
+<p>$(function() {</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete({</p>
+<p>source: ajaxCall ,</p>
+<p>delay: 2000.00,</p>
+<p>close: function(event, ui) {</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete("option", "delay", 500.00);</p>
+<p>},</p>
+<p>select: function(event, ui) {</p>
+<p>var articleId = ui.item.id;</p>
+<p>openLink('http://www.independent.co.uk/eceRedirect?articleId=' + articleId, '_self');</p>
+<p>}</p>
+<p>});</p>
+<p>});</p>
+<p>function ajaxCall(request, response) {</p>
+<p>var iChars = "!@#$%^&*()+=-[]\\\';,./{}|\":<>?~_";</p>
+<p>var term = $.trim(request.term.toLowerCase());</p>
+<p>var wordCount = term.split(" ").length;</p>
+<p>if (term.length > 0 && iChars.indexOf(term.charAt(0)) == -1) {</p>
+<p>var param = "(" + term + "*) publication:(ind) state:(published) contenttype:(news)";</p>
+<p>$.ajax({</p>
+<p>url: "/ind/ewf-servlet/search/",</p>
+<p>data: {q:param , rows:5, wt:'json'},</p>
+<p>cache: true,</p>
+<p>dataType: 'json',</p>
+<p>success: function(json) {</p>
+<p>var responseCount = json.response.docs.length;</p>
+<p>if (json != null && responseCount > 0) {</p>
+<p>response($.map(json.response.docs, function(article) {</p>
+<p>return {label: article.title, value: article.title, id: article.objectid}</p>
+<p>}));</p>
+<p>}</p>
+<p>else{</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete("close");</p>
+<p>}</p>
+<p>if (wordCount > 1 && responseCount == 0) {</p>
+<p>param = "(" + term + ") publication:(ind) state:(published) contenttype:(news)";</p>
+<p>$.ajax({</p>
+<p>url: "/ind/ewf-servlet/search/",</p>
+<p>data: {q:param , rows:5, wt:'json'},</p>
+<p>cache: true,</p>
+<p>dataType: 'json',</p>
+<p>success: function(json) {</p>
+<p>var responseCount = json.response.docs.length;</p>
+<p>if (json != null && responseCount > 0) {</p>
+<p>response($.map(json.response.docs, function(article) {</p>
+<p>return {label: article.title, value: article.title, id: article.objectid}</p>
+<p>}));</p>
+<p>}</p>
+<p>}</p>
+<p>})</p>
+<p>}</p>
+<p>}</p>
+<p>})</p>
+<p>}</p>
+<p>else if (term.length > 0 && iChars.indexOf(term.charAt(0)) != -1) {</p>
+<p>$("#simpleSearch-5054704 .field").autocomplete("close");</p>
+<p>alert("Search word should not start with !@#$%^&*()+=-[]\\\';,./{}|\":<>?~_");</p>
+<p>}</p>
+<p>}</p>
+<p>Advanced Search </p>
+<p>Day in a page </p>
+<p>Article archive </p>
+<p>© independent.co.uk</p>
+<p>DM_tag();</p>
+<p><!--</p>
+<p>s.pageName="life-style/health-and-families/health-news/article6288346";</p>
+<p>s.server="www.independent.co.uk";</p>
+<p>s.channel="life-style";</p>
+<p>s.prop1="life-style:health-and-families";</p>
+<p>s.prop2="life-style:health-and-families:health-news";</p>
+<p>s.prop3="";</p>
+<p>s.hier1="life-style,health-and-families,health-news";</p>
+<p>s.pageType="";</p>
+<p>s.prop11="Private clinic refuses free breast implant removal";</p>
+<p>s.prop12="private-clinic-refuses-free-breast-implant-removal-6288346.html";</p>
+<p>s.prop13="Jeremy Laurance";</p>
+<p>s.prop16="Thursday, 12 January 2012";</p>
+<p>s.events="event7";</p>
+<p>s.prop22="D=User-Agent";</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code)</p>
+<p>//--></p>
+<p>objPageSkin.init();</p>

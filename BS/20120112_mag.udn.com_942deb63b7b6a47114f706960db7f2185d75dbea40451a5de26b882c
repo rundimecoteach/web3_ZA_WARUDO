@@ -1,0 +1,582 @@
+<p>細菌型感冒 吃克流感無效 - 醫藥新知 - 醫藥中心 - udn健康醫藥</p>
+<p><!--</p>
+<p>function MM_jumpMenu(targ,selObj,restore){ //v3.0</p>
+<p>  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");</p>
+<p>  if (restore) selObj.selectedIndex=0;</p>
+<p>}</p>
+<p>//--></p>
+<p><!--</p>
+<p>.style3 {color: #0000FF}</p>
+<p>.style5 {color: #0000FF; font-weight: bold; }</p>
+<p>--></p>
+<p><!--</p>
+<p>function MM_preloadImages() { //v3.0</p>
+<p>  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();</p>
+<p>    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)</p>
+<p>    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}</p>
+<p>}</p>
+<p>function MM_swapImgRestore() { //v3.0</p>
+<p>  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;</p>
+<p>}</p>
+<p>function MM_findObj(n, d) { //v4.01</p>
+<p>  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {</p>
+<p>    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}</p>
+<p>  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];</p>
+<p>  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);</p>
+<p>  if(!x && d.getElementById) x=d.getElementById(n); return x;</p>
+<p>}</p>
+<p>function MM_swapImage() { //v3.0</p>
+<p>  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)</p>
+<p>   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}</p>
+<p>}</p>
+<p>//--></p>
+<p>影音│行動│理財│追星│時尚│電子報│數位閱讀│資料庫│Blog│便利貼│求職求才│購物•udn 買東西│招募夥伴</p>
+<p><!--</p>
+<p>function chkform() {</p>
+<p>   document.sform1.Keywords.value=document.sform1.q.value;  //update by  kuai for  google search</p>
+<p>  if(document.sform1.Keywords.value == "") return;</p>
+<p>  if(document.getElementById("search_type").value == "data" )</p>
+<p>	document.sform1.action = "shdoc.jsp";</p>
+<p>  else</p>
+<p>	document.sform1.action = "http://udn.com/search/";</p>
+<p>  document.sform1.submit();</p>
+<p>}</p>
+<p>//--></p>
+<p>udn</p>
+<p>健康醫藥</p>
+<p>web</p>
+<p><!--</p>
+<p>// 選單數目</p>
+<p>var nav_item = 10;</p>
+<p>function nav_show(lv)</p>
+<p>{</p>
+<p>	if(document.getElementById(lv))</p>
+<p>	{</p>
+<p>		document.getElementById(lv).style.display='block';</p>
+<p>	}</p>
+<p>	</p>
+<p>	for(var i=1;i<nav_item+1;i++)</p>
+<p>	{</p>
+<p>		if(document.getElementById("sub_" + i) && "sub_" + i != lv)</p>
+<p>		{</p>
+<p>			document.getElementById("sub_" + i).style.display='none';</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>--></p>
+<p>減肥塑身</p>
+<p>•享瘦秘訣</p>
+<p>•健康甩肉法</p>
+<p>•肥胖副作用</p>
+<p>•正確減肥觀</p>
+<p>•盲目減肥</p>
+<p>•苗條菜單</p>
+<p>•明星享瘦</p>
+<p>•真人實事</p>
+<p>健康話題</p>
+<p>•全「心」護健康</p>
+<p>•骨質疏鬆症</p>
+<p>•預防子宮頸癌趁現在</p>
+<p>•輻射危害人體</p>
+<p>•護齒俱樂部</p>
+<p>•疝氣真痛苦</p>
+<p>•愛肝加油站</p>
+<p>•愛眼小百科</p>
+<p>•憂鬱與自殺</p>
+<p>•愛護腎功能</p>
+<p>美容養生</p>
+<p>•微整流行風</p>
+<p>•膳食養生</p>
+<p>•飲食停看聽</p>
+<p>•名人談養生</p>
+<p>•要活就要動</p>
+<p>•肌膚保養</p>
+<p>•整形美容</p>
+<p>•名人談美容</p>
+<p>•美胸upup</p>
+<p>•秀髮如絲</p>
+<p>醫藥中心</p>
+<p>•團隊治療護一生</p>
+<p>•診間心情</p>
+<p>•健保資訊</p>
+<p>•醫界話題</p>
+<p>•百病漫談</p>
+<p>•用藥停看聽</p>
+<p>•中醫精髓</p>
+<p>•求醫知識+</p>
+<p>•醫藥新知</p>
+<p>•法律規定</p>
+<p>癌症防治</p>
+<p>•防癌全攻略</p>
+<p>•大腸直腸癌</p>
+<p>•婦科癌症</p>
+<p>•肺癌</p>
+<p>•肝癌</p>
+<p>•胃癌</p>
+<p>•認識癌症</p>
+<p>•標靶治療</p>
+<p>•乳癌</p>
+<p>•淋巴癌</p>
+<p>兩性健康</p>
+<p>•性福人生</p>
+<p>•女人話題</p>
+<p>•婦科看診室</p>
+<p>•男人大哉問</p>
+<p>•感情困擾多</p>
+<p>•激情後遺症</p>
+<p>•不孕怎麼辦</p>
+<p>•更年期變化</p>
+<p>•愛愛也要安全</p>
+<p>•愛滋病防治</p>
+<p>親子寶貝</p>
+<p>•孩子的成長</p>
+<p>•孕婦媽媽經</p>
+<p>•孩子的飲食</p>
+<p>•小心腸病毒</p>
+<p>•娃娃的小腦袋</p>
+<p>•成功親子術</p>
+<p>•疼愛祖父母</p>
+<p>•生育率真低</p>
+<p>•學武術過暑假</p>
+<p>•了解唇顎裂</p>
+<p>生活話題</p>
+<p>•坑人黑心貨</p>
+<p>•家變與職變</p>
+<p>•最新詐術大觀</p>
+<p>•老照片說故事</p>
+<p>•樂活人生</p>
+<p>•衛生面面觀</p>
+<p>內容導覽</p>
+<p>•線上投稿</p>
+<p>•訪客留言</p>
+<p>•RSS訂閱</p>
+<p>•投票結果</p>
+<p>•作者一覽</p>
+<p>•文章排行</p>
+<p>•責任編輯：楊玲</p>
+<p>udn / 健康醫藥          </p>
+<p>          / 醫藥中心</p>
+<p>          / 醫藥新知</p>
+<p><!--</p>
+<p>if (window.navigator.userAgent.indexOf("MSIE")>=1) {</p>
+<p>	//如果瀏覽器是IE</p>
+<p>	setActiveStyleSheet("sidemenu_IE.css");</p>
+<p>} else {</p>
+<p>	//如果瀏覽器是其他</p>
+<p>	setActiveStyleSheet("sidemenu_FF.css");</p>
+<p>}</p>
+<p>function setActiveStyleSheet(title){ </p>
+<p>  document.write('<link href="http://udn.com/2010/css/'+title+'" rel="stylesheet" type="text/css">');  </p>
+<p>}</p>
+<p>//--></p>
+<p><!--</p>
+<p>if(isMenu){</p>
+<p>document.write("<SCRIPT SRC='http://udn.com/NEWS/2010hierSetEnvstory.js'><\/SCRIPT>");</p>
+<p>document.write("<SCRIPT SRC='http://mag.udn.com/magShierArrays.js'><\/SCRIPT>");</p>
+<p>document.write("<SCRIPT LANGUAGE='JavaScript' SRC='http://udn.com/NEWS/hierIE_2010.js'><\/SCRIPT>");</p>
+<p>}</p>
+<p>//--></p>
+<p> </p>
+<p> </p>
+<p> 瀏覽人數5802 | 字級：   </p>
+<p>請選擇---<醫藥新知>相關新聞</p>
+<p>細菌型感冒 吃克流感無效</p>
+<p>化療破壞卵巢功能 易造成婦女不孕</p>
+<p>榮總塵蟎試劑 概念似驗孕棒</p>
+<p>醫二三事／我是第817億人...</p>
+<p>醫二三事／醫師？醫生？郎中？大夫？</p>
+<p>電腦輔助器 走得更輕鬆</p>
+<p>治療巴金森 深腦刺激術十年有成</p>
+<p>25招讓你百病不侵／睡午覺 讓人變聰明</p>
+<p>25招讓你百病不侵／大蒜能滅菌 怎麼吃最佳？</p>
+<p>25招讓你百病不侵／雞湯 發揮類似感冒藥效</p>
+<p>細菌型感冒 吃克流感無效</p>
+<p>          </p>
+<p>            2012/01/12</p>
+<p>          </p>
+<p>【台灣新生報／記者蘇湘雲／台北報導】 </p>
+<p>有感冒、流感症狀，吃克流感不代表就萬無一失。衛生署疾病管制局副局長周志浩表示，感冒、流感症狀不見得都是流感病毒引起，如果是細菌引發感冒症狀，克流感就派不上用場。患者吃了克流感，若發現症狀一直未見改善，最好盡快回診、就醫，與醫師討論是否要改變用藥。</p>
+<p>周志浩說，流感患者免疫力往往較差，容易讓其他細菌、病毒有可趁之機，因此患者要慎防二度感染。流感患者千萬不要再去上班、上課，也不要四處趴趴走，要在家好好休息。體內只要有流感病毒，克流感都可幫助抑制病毒生長。</p>
+<p>公費克流感都經衛生署食品藥物管理局嚴格審查、評估，藥物都有七年效期，藥效無虞。依疾病管制局監測資料，抗流感病毒藥物對正流行的A、B型流感病毒均有效。疾管局呼籲，醫師臨床看診時，除處方流感抗病毒藥物，也應注意病患是否併發後續細菌性感染，如遇患者出現疑似流感併發症早期危險徵兆，包含出現呼吸短促、呼吸困難、發紺、血痰或痰液變濃、胸痛、意識改變、低血壓或高燒持續七十二小時以上等，應提供適當處置或轉介至大醫院治療。</p>
+<p>疾管局提醒，民眾切勿輕忽流感嚴重性，平時應養成勤洗手習慣，並要保持手部衛生、注意咳嗽禮節，維持良好呼吸道衛生、生病在家休息，以有效防治流感。 </p>
+<p>【更多精采內容，詳見新生報之《養生文化報》】 </p>
+<p>.mpromote {	font-family: Arial;	font-size: 12pt;	margin: 0;	padding: 0;	}</p>
+<p>A.mpromote:link {	color:#2d4b92;	text-decoration: none; }</p>
+<p>A.mpromote:visited {	color:#2d4b92;	text-decoration: none;}</p>
+<p>A.mpromote:hover, A.mpromote:active, A.mpromote:focus { 	text-decoration: none;}</p>
+<p>Titles = new Array('<a href="http://m.udn.com" target=_blank><font color="#ff8000">m.udn.com</font>最麻吉的口袋媒體，最適合手機瀏覽的網站</a>', '<a href="http://m.udn.com" target=_blank>手機在我手，新聞跟著走　<font color="#ff8000">m.udn.com</font>提供您最豐富的新聞資訊！</a>', '<a href="http://m.udn.com" target=_blank>捷運族注意！每日新鮮事，盡在<font color="#ff8000">m.udn.com</font>！</a>', '<a href="http://zh-tw.facebook.com/myudn" target=_blank>快按讚加入<font color="#ff8000">udn粉絲團</font>，udn寶寶陪你看新聞！</a>', '<a href="http://zh-tw.facebook.com/myudn" target=_blank>「讚」出來！加入<font color="#ff8000">udn粉絲團</font>，看看網友怎麼說！</a>', '<a href="http://zh-tw.facebook.com/myudn" target=_blank>非「讚」不可！歡迎加入<font color="#ff8000">udn粉絲團</font>，新聞你HOLD住！</a>');</p>
+<p>Id = Math.floor(Math.random()*Titles.length);</p>
+<p>document.write("<font class='mpromote'>"+Titles[Id]+"</font>");</p>
+<p><!--</p>
+<p>function GetCkValue( name ) {</p>
+<p>  var dc=document.cookie;</p>
+<p>  var prefix=name+"=";</p>
+<p>  var begin=dc.indexOf("; "+prefix);</p>
+<p>  if (begin==-1) begin=dc.indexOf(prefix);</p>
+<p>  else begin+=2;</p>
+<p>  if (begin==-1) return "";</p>
+<p>  var end=document.cookie.indexOf(";",begin);</p>
+<p>  if(end==-1) end=dc.length;</p>
+<p>  return dc.substring(begin+prefix.length,end);</p>
+<p>}</p>
+<p>function setCookie(name,value,expiresOrNot,path,domain,secure,flag){</p>
+<p>  var url=document.URL;</p>
+<p>  var howLong=new Date();</p>
+<p>  howLong.setFullYear(howLong.getFullYear()+1);</p>
+<p>  var curCookie=name+"="+escape(value) +</p>
+<p>  ((expiresOrNot)?";expires="+howLong.toGMTString():"") +</p>
+<p>  ((path)?";path="+path:"") +</p>
+<p>  ((domain)?";domain="+domain:"") +</p>
+<p>  ((secure)?";secure":"");</p>
+<p>  document.cookie=curCookie;</p>
+<p>  if(flag!="null")history.go(0);</p>
+<p>}</p>
+<p>$(document).ready(function() {</p>
+<p>  jQuery("#fs1").bind("mouseenter",function() {</p>
+<p>    this.src='/2010/images/fontsize_1o.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs2").bind("mouseenter",function() {</p>
+<p>    this.src='/2010/images/fontsize_2o.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs3").bind("mouseenter",function() {</p>
+<p>    this.src='/2010/images/fontsize_3o.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs4").bind("mouseenter",function() {</p>
+<p>    this.src='/2010/images/fontsize_4o.gif'</p>
+<p>  });</p>
+<p>  if (GetCkValue("FontSize")!="") {</p>
+<p>    var fs = GetCkValue("FontSize");</p>
+<p>    chgFontSize(fs);</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    var fs = 2;</p>
+<p>    chgFontSize(fs);</p>
+<p>  }</p>
+<p>});</p>
+<p>function chgFontImg(size) {</p>
+<p>  jQuery("#fs4").attr("src","/2010/images/fontsize_4.gif");</p>
+<p>  jQuery("#fs3").attr("src","/2010/images/fontsize_3.gif");</p>
+<p>  jQuery("#fs2").attr("src","/2010/images/fontsize_2.gif");</p>
+<p>  jQuery("#fs1").attr("src","/2010/images/fontsize_1.gif");</p>
+<p>  jQuery("#fs4").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_4.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs3").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_3.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs2").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_2.gif'</p>
+<p>  });</p>
+<p>  jQuery("#fs1").bind("mouseleave",function() {</p>
+<p>    this.src='/2010/images/fontsize_1.gif'</p>
+<p>  });</p>
+<p>  if (size == "4") {</p>
+<p>    jQuery("#fs4").attr("src","/2010/images/fontsize_4o.gif");</p>
+<p>    jQuery("#fs4").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_4o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>  if (size == "3") {</p>
+<p>    jQuery("#fs3").attr("src","/2010/images/fontsize_3o.gif");</p>
+<p>    jQuery("#fs3").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_3o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>  if (size == "2") {</p>
+<p>    jQuery("#fs2").attr("src","/2010/images/fontsize_2o.gif");</p>
+<p>    jQuery("#fs2").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_2o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>  if (size == "1") {</p>
+<p>    jQuery("#fs1").attr("src","/2010/images/fontsize_1o.gif");</p>
+<p>    jQuery("#fs1").bind("mouseleave",function() {</p>
+<p>      this.src='/2010/images/fontsize_1o.gif'</p>
+<p>    });</p>
+<p>  }</p>
+<p>}</p>
+<p>function chgFontSize(size) {</p>
+<p>  if (size == "4") {</p>
+<p>    jQuery("div#story").css("font-size","20px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>    chgFontImg(size);</p>
+<p>    setCookie("FontSize","4",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>  else if (size == "3") {</p>
+<p>    jQuery("div#story").css("font-size","18px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>    chgFontImg(size);</p>
+<p>    setCookie("FontSize","3",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>  else if (size == "2") {</p>
+<p>    jQuery("div#story").css("font-size","15px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>    chgFontImg(size);</p>
+<p>    setCookie("FontSize","2",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    jQuery("div#story").css("font-size","13px");</p>
+<p>    jQuery("div#story").css("line-height","190%");</p>
+<p>    chgFontImg(size);</p>
+<p>    setCookie("FontSize","1",false,"/","udn.com","","null");</p>
+<p>  }</p>
+<p>}</p>
+<p>//--></p>
+<p><!--</p>
+<p>function MM_openBrWindow(theURL,winName,features) { //v2.0</p>
+<p>window.open(theURL,winName,features);</p>
+<p>}</p>
+<p>String.prototype.trim = function() {</p>
+<p>	return this.replace(/^\s+|\s+$/g,"");</p>
+<p>}</p>
+<p>String.prototype.ltrim = function() {</p>
+<p>	return this.replace(/^\s+/,"");</p>
+<p>}</p>
+<p>String.prototype.rtrim = function() {</p>
+<p>	return this.replace(/\s+$/,"");</p>
+<p>}</p>
+<p>function openWin3(url) {</p>
+<p>    window.open(url,'','');</p>
+<p>}</p>
+<p>function searchKeyWord() {</p>
+<p>    var txt = '';</p>
+<p>     if (window.getSelection) {</p>
+<p>        txt = window.getSelection();</p>
+<p>    } else if (document.getSelection) {</p>
+<p>        txt = document.getSelection();</p>
+<p>    } else if (document.selection) {</p>
+<p>        txt = document.selection.createRange().text;</p>
+<p>    }</p>
+<p>	if (txt == "")</p>
+<p>		window.open('http://data.udn.com//2010/images/news2data/history.html','history','height=580,width=500,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');</p>
+<p>	else {</p>
+<p>		if(confirm("您要查詢的關鍵字是(" + txt+")"))</p>
+<p>			openWin3("http://data.udn.com/data/Search?Keywords="+txt);</p>
+<p>	}</p>
+<p>}</p>
+<p>//--></p>
+<p>歷史新聞</p>
+<p>displayTrackBackMenu()</p>
+<p>轉寄</p>
+<p>列印</p>
+<p>回應</p>
+<p>推薦</p>
+<p>   </p>
+<p> // var aurl=window.location.href;</p>
+<p> var aurl=jQuery("meta[property=og:url]").attr("content");</p>
+<p>  //var canurl=$("meta[property=og:url]").attr("content", location.toString()); </p>
+<p>  var ii=aurl.indexOf("#");</p>
+<p>   if ( ii != -1 ) { </p>
+<p>     aurl=aurl.substring(0,ii);</p>
+<p>   }</p>
+<p>     document.write("<iframe src=\"http://www.facebook.com/plugins/like.php?href="+aurl+"&amp;layout=button_count&amp;locale=zh_TW&amp;show_faces=true&amp;width=90&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=80\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:120px; height:22px;\" allowTransparency=\"true\"></iframe>");</p>
+<p> //var canurl=jQuery("meta[property=og:url]").attr("content");</p>
+<p> //alert ( "canurl ="+canurl);</p>
+<p>  </p>
+<p>相關新聞：</p>
+<p>請選擇---<醫藥新知>相關新聞</p>
+<p>細菌型感冒 吃克流感無效</p>
+<p>化療破壞卵巢功能 易造成婦女不孕</p>
+<p>榮總塵蟎試劑 概念似驗孕棒</p>
+<p>醫二三事／我是第817億人...</p>
+<p>醫二三事／醫師？醫生？郎中？大夫？</p>
+<p>電腦輔助器 走得更輕鬆</p>
+<p>治療巴金森 深腦刺激術十年有成</p>
+<p>25招讓你百病不侵／睡午覺 讓人變聰明</p>
+<p>25招讓你百病不侵／大蒜能滅菌 怎麼吃最佳？</p>
+<p>25招讓你百病不侵／雞湯 發揮類似感冒藥效</p>
+<p><!--</p>
+<p>.bg_homeitem {</p>
+<p>                                                        CLEAR: both;</p>
+<p>                                                        MARGIN-TOP: 7px;</p>
+<p>                                                        FONT-WEIGHT: bold;</p>
+<p>                                                        FONT-SIZE: 13px;</p>
+<p>                                                        BACKGROUND-IMAGE: url(http://g.udn.com/1024MAIN/img/bg_homeitem.gif);</p>
+<p>                                                        WIDTH: 550px;</p>
+<p>                                                        COLOR: #2F7EBE;</p>
+<p>                                                        BACKGROUND-REPEAT: repeat-x;</p>
+<p>                                                        FONT-FAMILY: Arial, Helvetica, sans-serif;</p>
+<p>                                                        POSITION: relative;</p>
+<p>                                                        HEIGHT: 23px;</p>
+<p>                                                        TEXT-ALIGN: left;</p>
+<p>                                                        left: 0px;</p>
+<p>                                                        }</p>
+<p>.t13b {</p>
+<p>                                font-size: 13px;</p>
+<p>                                font-weight: bold;</p>
+<p>                                color: #2F7EBE;</p>
+<p>                                }</p>
+<p>.t11 {</p>
+<p>                                font-family: Arial, Helvetica, sans-serif;</p>
+<p>                                font-size: 11px;</p>
+<p>                                color: #828282;</p>
+<p>                                }</p>
+<p>--></p>
+<p>  新聞臉譜</p>
+<p>(投下你對這則新聞的感覺)</p>
+<p>直接看結果 </p>
+<p>回 應 文 章</p>
+<p>共 0 篇回應文章</p>
+<p> 我要回應</p>
+<p>社 群 回 應 </p>
+<p>(function(d, s, id) {</p>
+<p>					var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>					if (d.getElementById(id)) {return;}</p>
+<p>					js = d.createElement(s); js.id = id;</p>
+<p>					js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";</p>
+<p>					fjs.parentNode.insertBefore(js, fjs);</p>
+<p>					}(document, 'script', 'facebook-jssdk'));</p>
+<p>最新活動看板</p>
+<p> </p>
+<p><!--</p>
+<p>  var act_no = 0;</p>
+<p>  var act_msg = new Array();</p>
+<p>  act_msg[0] = "<a href='http://blog.udn.com/ntuemba/3881525' target=_blank class=right_item>網路預測活動搶好康！台大EMBA將前往甘肅參加戈壁徒步挑戰賽，比賽結果如何，等你來預測？走過戈壁的Garmin GPS等你來拿！</a>";</p>
+<p>  act_msg[1] = "<a href='http://blog.udn.com/nana123456/3843202' target=_blank class=right_item>以《購物狂》系列風靡全球的作者，邀請粉絲傳送《1920魔幻女孩》貼紙、寫書評、塗鴉感想，就有機會獲得電影票或1920魔幻女孩tote包。</a>";</p>
+<p>  if ( act_msg.length > 0 ) document.getElementById("act_board").innerHTML = act_msg[0];</p>
+<p>  if ( act_msg.length > 1 ) setTimeout("act_play()",5000);</p>
+<p>  function act_play() {</p>
+<p>    if ( act_msg.length <= 1 ) return;</p>
+<p>    act_no++;</p>
+<p>    if ( act_no >= act_msg.length ) act_no = 0;</p>
+<p>    document.getElementById("act_board").innerHTML = act_msg[act_no];</p>
+<p>    setTimeout("act_play()",5000);</p>
+<p>  }</p>
+<p>//--></p>
+<p>udn 粉絲團</p>
+<p> </p>
+<p>好友分享</p>
+<p> </p>
+<p>蔡依林瘦身法</p>
+<p> </p>
+<p>•</p>
+<p>5日快速瘦身! 蔡依林這樣吃</p>
+<p>•</p>
+<p>蔡依林五日纖體菜單大公開</p>
+<p>•</p>
+<p>吃什麼胸部會變大呢？</p>
+<p>•</p>
+<p>如何甩掉蝴蝶袖？</p>
+<p>•</p>
+<p>如何從大餅臉變鵝蛋臉？</p>
+<p>好文推薦</p>
+<p> </p>
+<p>•</p>
+<p>元氣周報</p>
+<p>•</p>
+<p>十色客</p>
+<p>•</p>
+<p>醫院衛教文</p>
+<p>訂閱電子報</p>
+<p> </p>
+<p>udn健康報e報</p>
+<p>常春EverGreen</p>
+<p>晨星生活元氣報</p>
+<p>健康e世界</p>
+<p>人類智庫健康生活周報</p>
+<p>RICH達人生活網電子報</p>
+<p>講義雜誌電子報</p>
+<p>柿子文化心靈養生報</p>
+<p>大家健康悅讀電子報</p>
+<p>愛生活手記</p>
+<p>刊登網站廣告︱網站總覽︱FAQ•客服︱新聞授權︱著作權•隱私權聲明︱聯合報系︱訂報紙︱關於我們︱招募夥伴</p>
+<p>Copyright © 2010 udn.com  All Rights Reserved.</p>
+<p> if(window.location.href.indexOf("www.udn.com") == -1)</p>
+<p>{ //判斷網頁是否位於archive (www.udn.com) 主機</p>
+<p>var server = 'ad4.udn.com';</p>
+<p>var sitepage = "udn.com/imp-news2008";</p>
+<p>var position ="x13";</p>
+<p>if (! (RN)) {</p>
+<p>var RN = new String (Math.random());</p>
+<p>var RNS = RN.substring (2, 11);</p>
+<p>}</p>
+<p>var oas='http://' + server + '/RealMedia/ads/';</p>
+<p>var oaspage= sitepage + '/1' + RNS + '@' + position;</p>
+<p>document.write ('<SCRIPT LANGUAGE="JavaScript1.1" SRC="' + oas + 'adstream_jx.ads/' + oaspage + '">');</p>
+<p>document.write ('\<\/SCRIPT\>');</p>
+<p>} //判斷結束</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-19660006-1']);</p>
+<p>  _gaq.push(['_setDomainName', '.udn.com']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>  var _comscore = _comscore || [];</p>
+<p>  _comscore.push({ c1: "2", c2: "7390954" });</p>
+<p>  (function() {</p>
+<p>    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;</p>
+<p>    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";</p>
+<p>    el.parentNode.insertBefore(s, el);</p>
+<p>  })();</p>
+<p>  if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/android/i)) ||(navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/Pad/i))) {</p>
+<p>    var lia=$("#sidemenu li a");</p>
+<p>    if ( lia.length > 1) {</p>
+<p>     lia.each(  function() { $(this).attr("href") ;</p>
+<p>             $(this).attr("href","#");</p>
+<p>       }</p>
+<p>     );</p>
+<p>    }//end of lia.len</p>
+<p>  }//end of if</p>
+<p>function getByteLength(str){</p>
+<p>  var iCount = 0;</p>
+<p>  for( k=0; k<str.length; k++ ) {</p>
+<p>    c = str.charCodeAt(k);</p>
+<p>    if ( c>=32 && c<=126 ) iCount++;</p>
+<p>    else iCount += 2;</p>
+<p>  }</p>
+<p>  return iCount;</p>
+<p>}</p>
+<p>function getSubString(str,maxwclength) {</p>
+<p>  var iCount = 0;</p>
+<p>  for( k=0; k<str.length; k++ ) {</p>
+<p>    c = str.charCodeAt(k);</p>
+<p>    if ( c>=32 && c<=126 ) iCount++;</p>
+<p>    else iCount += 2;</p>
+<p>    if (iCount > maxwclength) {</p>
+<p>      str = str.substr(0,k) + "...";</p>
+<p>      break;</p>
+<p>    }</p>
+<p>  }</p>
+<p>  return str;</p>
+<p>}</p>
+<p>		var str="";</p>
+<p>		var selects=$("#jumpMenu option");</p>
+<p>		var rlimit=10;</p>
+<p>		var all="<div  align='center' style='line-height:22px;color:#ffffff;margin-top:8px;margin-bottom:5px;font-size:15px;font-weight:bold;background-image:url(/magimages/list_bg.gif)' >相 關 新 聞 </div>";</p>
+<p>     </p>
+<p>		for (var i=1;i<(selects.length);i++){</p>
+<p>			var c_len = "";</p>
+<p>			var aa = "";</p>
+<p>			//descstr=selects[i].innerHTML;</p>
+<p>			var textnode=selects[i].lastChild;</p>
+<p>			descstr=textnode.nodeValue;</p>
+<p>                        var maxwclength=32;</p>
+<p>                                c_len = "24px";</p>
+<p>			var std=selects[0].value;</p>
+<p>			if ( (i>1) && (selects[i].value == selects[0].value ||  i > rlimit ) ) {</p>
+<p>                  		if  (i%2 == 0 ) all=all+"</div>";</p>
+<p>				break;</p>
+<p>			}</p>
+<p>			if ( i % 2 == 1 ) aa=aa+"<div style='height:"+c_len+"'>";</p>
+<p>                         if (getByteLength(descstr) > maxwclength ){</p>
+<p>                             //descstr = descstr.substr(0,maxwclength) + "...";</p>
+<p>                             descstr = getSubString(descstr,maxwclength);</p>
+<p>                         }</p>
+<p>                        aa=aa+"<div style='line-height:22px;width:15px;float:left'><span class='story_reference_topic'>•</span></div><div id='r"+i+"' style='height:"+c_len+";line-height:22px;font-size:16px;width:260px;float:left'><a class='story_category' href='"+selects[i].value+"'>"+descstr+"</a></div>";</p>
+<p>                        if ( i % 2 == 0 ) aa=aa+"</div>";</p>
+<p>                        if ( i % 2 == 1 && i == (selects.length -1) ) aa=aa+"</div>";</p>
+<p>                        all=all+aa;</p>
+<p>		}</p>
+<p>                var ro = $("#rother");</p>
+<p>                if (typeof(ro) != "undefined")   $("#rother").css('display','none');</p>
+<p>           </p>
+<p>		var a=$("div.content_hot");</p>
+<p>		//$("div.content_hot").append(all); </p>
+<p>		</p>
+<p>		// update 20111213		</p>
+<p>		var new_20111213=all+$("div.relate_article").text();</p>
+<p>		$("div.relate_article").html(new_20111213);</p>
+<p>{lang: 'zh-TW'}</p>

@@ -1,0 +1,253 @@
+<p>微博热议：范冰冰2千万力挺韩寒征集代笔证据_时事_证券时报网</p>
+<p>	//头部搜索</p>
+<p>	var suggestStock_0;</p>
+<p>	var suggestFund_0;</p>
+<p>	function toSearch(){</p>
+<p>		var searchType1 = document.getElementById("typeSelect_0");</p>
+<p>		var value2=document.getElementById('suggestInput_0').value;</p>
+<p>		var sc="sh"</p>
+<p>		if(value2.substring(0,1)=='0' || value2.substring(0,1)=='2' || value2.substring(0,1)=='3'){</p>
+<p>		sc="sz";</p>
+<p>		}</p>
+<p>		if(searchType1.value=="3"){</p>
+<p>			if(value2 !="新闻内容" && value2 !=""){</p>
+<p>			var searchURL="http://newsearch.stcn.com/fly/search.jsp?searchText="+value2;</p>
+<p>			searchURL=encodeURI(searchURL)</p>
+<p>			window.open(searchURL);</p>
+<p>			}</p>
+<p>		}else if(searchType1.value =='1' || searchType1.value=='2'){</p>
+<p>			if (value2 != "代码/名称/拼音" && value2 != "") {</p>
+<p>				if(searchType1.value == "1"){</p>
+<p>				var stringUrl = "http://stock.stcn.com/"+sc+"/@CODE@/";</p>
+<p>				window.open(stringUrl.replace("@CODE@", value2));</p>
+<p>				}else if(searchType1.value =="2"){</p>
+<p>				var stringUrl = "http://fund.stcn.com/final/@CODE@/";</p>
+<p>				window.open(stringUrl.replace("@CODE@", value2));</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	function changeViewInputs(key, index) {</p>
+<p>		switch (key) {</p>
+<p>			case "1":</p>
+<p>			suggestStock_0 = new Suggest("suggestInput_0", "代码/名称/拼音", stock_suggest, null, StockSuggestConfiguration, toSearch);</p>
+<p>			suggestStock_0.options[12] = false;</p>
+<p>			break;</p>
+<p>			case "2":</p>
+<p>			suggestFund_0 = new Suggest("suggestInput_0", "代码/名称/拼音", fund_suggest, null, FundSuggestConfiguration, toSearch);</p>
+<p>			suggestFund_0.options[12] = false;</p>
+<p>			break;</p>
+<p>			case "3":</p>
+<p>			var $s = $('#suggestInput_0').siblings('span');</p>
+<p>			$s.remove();</p>
+<p>			document.getElementById("suggestInput_0").value="新闻内容";</p>
+<p>			break;</p>
+<p>	    }</p>
+<p>	}</p>
+<p>	//头部搜索结束 </p>
+<p>	function AddFavorite() { </p>
+<p>	  var biaoti = document.getElementById("biaoti").value;</p>
+<p>		try { </p>
+<p>			window.external.addFavorite(document.location.href, biaoti); </p>
+<p>		} catch (e) { </p>
+<p>			try { </p>
+<p>				window.sidebar.addPanel(biaoti, document.location.href, ""); </p>
+<p>			} catch (e) { </p>
+<p>				alert("加入收藏失败,请手动添加."); </p>
+<p>			} </p>
+<p>		} </p>
+<p>   } </p>
+<p>function copyToClipBoard(){</p>
+<p>	var clipBoardContent="";</p>
+<p>	//clipBoardContent+=document.title;</p>
+<p>	clipBoardContent+="\n";</p>
+<p>	clipBoardContent+=this.location.href; //获取地址</p>
+<p>	window.clipboardData.setData("Text",clipBoardContent);</p>
+<p>	alert("复制成功");</p>
+<p>} </p>
+<p>   </p>
+<p>证券时报网 > 快讯 > 时事</p>
+<p>        > 正文</p>
+<p>股票</p>
+<p>基金</p>
+<p>新闻</p>
+<p> 市场| 独家数据| 新股提示 公司| 限售解禁| 融资融券 必读| 活跃股票| 增持减持 </p>
+<p> 财经| 宏观| 观点 头条| 时事| 时政 滚动| 数据| 专题 </p>
+<p> 全球| 美股 港股| 其他 </p>
+<p> 期货| 内盘| 外盘 期指| 基金| 外汇 </p>
+<p> 机构观点| 策略研报 行业研报| 公司研报 </p>
+<p> 微博热议：范冰冰2千万力挺韩寒征集代笔证据             2012-01-17 20:40 来源：证券时报网	     字号： 12 14      证券时报网（www.stcn.com）01月17日讯      据证券时报网统计（www.stcn.com），1月17日晚间新浪微博中，范冰冰自称愿再加2千万悬赏助韩寒征集代笔证据、张绍刚节目又起争议等仍是网友热议的话题。此外，湖南卫视春晚、电影《逆战》等话题也受到网友热议。</p>
+<p>    韩寒回应包装质疑(9689787)</p>
+<p>    你怎么看“大喜哥”(73942)</p>
+<p>    张绍刚节目又起争议(530873)</p>
+<p>    微电台春运播报(475743)</p>
+<p>    湖南卫视春晚(551620)</p>
+<p>    电影《逆战》(772932)</p>
+<p>    吐槽坑爹的男人(187197436)</p>
+<p>    免费送湘潭老乡回家(15387)（证券时报网快讯中心） </p>
+<p> 分享到 |      </p>
+<p> 打印 收藏 转发 关闭页面 </p>
+<p>相关新闻</p>
+<p>网友继续热议：韩寒回应包装质疑 2012-01-17网友热议：韩寒回应包装质疑 2012-01-16韩寒回应雇团队质疑：证明有人代笔奖2000万 2012-01-16韩寒等九位作家起诉苹果侵权 索赔1200万 2012-01-06程苓峰仿韩寒体称：蒙牛，你可以关门吗 2011-12-27程苓峰仿韩寒体称：蒙牛，你可以关门吗 2011-12-27</p>
+<p>实时热点专区</p>
+<p>证券热点 | 财经热点 | 时事热点</p>
+<p>证券热点</p>
+<p>财经热点</p>
+<p>时事热点</p>
+<p>    中国资本市场信披平台实时发布上市公司、基金、港股、监管文件等各类公告，提供免费订阅功能，手机短信提醒。信息公告，即刻知道，详情请登录xinpi.stcn.com。</p>
+<p>　　声明：此栏目文章为证券时报网（www.stcn.com）原创资讯，不构成投资建议，证券时报网拥有完整版权。经证券时报网授权转载的，必须正确标注来源。侵权必究。</p>
+<p>操盘必读</p>
+<p>财经头条</p>
+<p>交易提示</p>
+<p>公告速递</p>
+<p>新股提示</p>
+<p>A股盘面</p>
+<p>活跃股票</p>
+<p>公司业绩</p>
+<p>限售解禁</p>
+<p>增持减持</p>
+<p>大宗交易</p>
+<p>融资融券</p>
+<p>研究报告</p>
+<p>经济数据</p>
+<p>热门盘点</p>
+<p>外汇汇率</p>
+<p>美股动态</p>
+<p>资金流向</p>
+<p>日日金股</p>
+<p>太阳黑子</p>
+<p>独家数据</p>
+<p>公司数据</p>
+<p>基金数据</p>
+<p>基金评级</p>
+<p>基金净值</p>
+<p>首页</p>
+<p>要闻</p>
+<p>股票</p>
+<p>公司</p>
+<p>创业板</p>
+<p>新股</p>
+<p>基金</p>
+<p>研报</p>
+<p>期货</p>
+<p>数据</p>
+<p>快讯</p>
+<p>环球</p>
+<p>货币</p>
+<p>理财</p>
+<p>港股</p>
+<p>期指</p>
+<p>产经</p>
+<p>专题</p>
+<p>维权</p>
+<p>证券微博</p>
+<p>移动终端</p>
+<p> iPad客户端Android客户端iPhone客户端手机网 </p>
+<p>信披平台</p>
+<p>电子报</p>
+<p>	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>    </p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-18256358-1']);</p>
+<p>  _gaq.push(['_setDomainName', '.stcn.com']);</p>
+<p>  _gaq.push(['_setAllowHash', 'false']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>document.write(unescape("%3Cscript src='http://cl2.webterren.com/webdig.js?z=16' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")</p>
+<p>$(function(){</p>
+<p>	var $setFZ = $('.setFZ');</p>
+<p>	$setFZ.each(function(){</p>
+<p>		var $fz = parseInt($(this).text());</p>
+<p>		var $txtObj = $(this).attr('rel');</p>
+<p>		$(this).click(function(){</p>
+<p>			var $obj = $('.' + $txtObj);</p>
+<p>			$obj.css('fontSize',$fz);</p>
+<p>		});</p>
+<p>	});</p>
+<p>	</p>
+<p>	var $relate = $('.about_news');</p>
+<p>	var $relate_ul = $('.about_news').find('ul');</p>
+<p>	if($relate_ul.size() == 0){</p>
+<p>		$relate.hide();</p>
+<p>	};	</p>
+<p>	</p>
+<p>	var $mainNavLi = $('.mainNav').find('li:has(strong)');</p>
+<p>	var $mainNavStrong = $mainNavLi.find('strong');</p>
+<p>	var $downNav = $mainNavLi.find('.downNav');</p>
+<p>	$mainNavLi.hover(function(){</p>
+<p>		$mainNavStrong.addClass('show_downNav');</p>
+<p>		$downNav.show();</p>
+<p>	}, function(){</p>
+<p>		$mainNavStrong.removeClass('show_downNav');</p>
+<p>		$downNav.hide();</p>
+<p>	});</p>
+<p>	</p>
+<p>	var $changeImg = $('.changeImg');</p>
+<p>	$changeImg.each(function(){</p>
+<p>		var $divs = $(this).prev().find('div');</p>
+<p>		var $radio = $(this).find(':radio');</p>
+<p>		$radio.each(function(){</p>
+<p>			$(this).click(function(){</p>
+<p>				var $i = $radio.index($(this));</p>
+<p>				$divs.eq($i).removeClass('hide').siblings().addClass('hide');</p>
+<p>			})</p>
+<p>		})</p>
+<p>	});</p>
+<p>	</p>
+<p>	var $numW = $('.numW');</p>
+<p>	var $block = $numW.find('.block');</p>
+<p>	var $tt = $('#market_bottom_up');</p>
+<p>	var $tb = $('#market_bottom_down');</p>
+<p>	var t;</p>
+<p>		</p>
+<p>	function autoRun(){</p>
+<p>		var $mt = parseInt($block.css('marginTop'));</p>
+<p>		$mt == -29 ? $block.animate({'marginTop':0}, 500) : $block.animate({'marginTop':-29}, 500);</p>
+<p>	}</p>
+<p>	</p>
+<p>	function autoStart(){</p>
+<p>		t = setInterval(autoRun, 3000);</p>
+<p>	}</p>
+<p>	</p>
+<p>	autoStart();</p>
+<p>	</p>
+<p>	$tt.click(function(){</p>
+<p>		clearInterval(t);</p>
+<p>		var $mt = parseInt($block.css('marginTop'));</p>
+<p>		$mt == -29 ? $block.animate({'marginTop':0}, 500) : $block.animate({'marginTop':-29}, 500);</p>
+<p>		autoStart();</p>
+<p>	});</p>
+<p>	</p>
+<p>	$tb.click(function(){</p>
+<p>		clearInterval(t);</p>
+<p>		var $mt = parseInt($block.css('marginTop'));</p>
+<p>		$mt == -29 ? $block.animate({'marginTop':0}, 500) : $block.animate({'marginTop':-29}, 500);</p>
+<p>		autoStart();</p>
+<p>	});</p>
+<p>})</p>
+<p>window.onload = function(){</p>
+<p>    changeViewInputs("1",0);</p>
+<p>	var owrap = document.getElementById('zz_text');</p>
+<p>	var op = owrap.getElementsByTagName('p');</p>
+<p>	var url = location.href;</p>
+<p>	for( var i = 0; i < op.length; i++){</p>
+<p>		var text = op[i].innerHTML;</p>
+<p>		op[i].innerHTML = text + '<a class="hide" href=' + url +'>(证券时报网快讯中心kuaixun.stcn.com)</a>';</p>
+<p>	}</p>
+<p>}</p>
+<p>document.body.oncopy = function(){</p>
+<p>	if(window.clipboardData){</p>
+<p>		event.returnValue = false;</p>
+<p>		var text = document.selection.createRange().text;</p>
+<p>		if(text){</p>
+<p>			text = text + '\n本文来自: 证券时报网(www.stcn.com) 详细出处参考：' + location.href; </p>
+<p>			clipboardData.setData('text', text);</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>

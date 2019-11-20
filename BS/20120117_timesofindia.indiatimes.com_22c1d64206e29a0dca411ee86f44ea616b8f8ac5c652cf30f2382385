@@ -1,0 +1,252 @@
+<p>        function pm_fixIEImg(img) {</p>
+<p>            if (navigator.userAgent.indexOf('MSIE 8') == -1 && navigator.userAgent.indexOf('MSIE 7') == -1 && navigator.userAgent.indexOf('MSIE 6') == -1) return img;</p>
+<p>            var parent = img.parentNode;</p>
+<p>            img.onerror = function() { this.parentNode.removeChild(this); }</p>
+<p>            img.src = 'broken';</p>
+<p>            return parent;</p>
+<p>        }</p>
+<p>        function pm_imageFailed(div) {</p>
+<p>            pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('mod-articleimage') == -1) div = div.parentNode;</p>
+<p>            if (div != null) { div.parentNode.removeChild(div); pm_removeTextMargin(); }</p>
+<p>        }</p>
+<p>        function pm_imageFailedGallery(div) {</p>
+<p>            pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.nodeName != 'LI') div = div.parentNode;</p>
+<p>            if (div != null) { div.parentNode.removeChild(div); pm_updateGallery(); }</p>
+<p>        }</p>
+<p>        function pm_updateGallery() {</p>
+<p>            if (typeof updateGallery == 'function') updateGallery();</p>
+<p>            else setTimeout('pm_updateGallery();', 100);</p>
+<p>        }</p>
+<p>        function pm_imageFailedFeatured(div) {</p>
+<p>            var logo = 'http://timesofindia.indiatimes.com/photo/5580817.cms'</p>
+<p>            if (logo != '') {</p>
+<p>                div.parentNode.parentNode.className = 'photowrapper photowrapper-logo';</p>
+<p>                div.className = 'featured-logo';</p>
+<p>                div.src = logo;</p>
+<p>                return;</p>
+<p>            }</p>
+<p>            div = pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('mod-homepageimage') == -1) div = div.parentNode;</p>
+<p>            if (div != null) div.parentNode.removeChild(div);</p>
+<p>        }</p>
+<p>        function pm_imageFailedRelatedLink(div) {</p>
+<p>            div = pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('image') == -1) div = div.parentNode;</p>
+<p>            if (div != null) {</p>
+<p>                var pN = div.parentNode;</p>
+<p>                pN.removeChild(div);</p>
+<p>                while (pN.parentNode != null && pN.className.indexOf('image-body') == -1) pN = pN.parentNode;</p>
+<p>                if (pN != null) pN.className = 'text-body';</p>
+<p>            }</p>
+<p>        }</p>
+<p>        function pm_imageFailedRelatedPhoto(div) {</p>
+<p>            div = pm_fixIEImg(div);</p>
+<p>            while (div.parentNode != null && div.className.indexOf('photos') == -1) div = div.parentNode;</p>
+<p>            if (div != null) div.parentNode.removeChild(div);</p>
+<p>        }</p>
+<p>        function pm_removeTextMargin() {</p>
+<p>            var by = document.getElementById('mod-article-byline');</p>
+<p>            var tx = document.getElementById('mod-a-body-first-para');</p>
+<p>            if (by != null) by.style.marginRight = '0px';</p>
+<p>            if (tx != null) tx.style.marginRight = '0px';</p>
+<p>        }</p>
+<p>        </p>
+<p>To shed flab, eat from a red plate - Times Of India</p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p>            function blockError(){return true;}</p>
+<p>            window.onerror = blockError;</p>
+<p>            var dtTT_startofpage = new Date();</p>
+<p>            var rndtno = Math.random();</p>
+<p>            var timeslog_channel_url = 'articles.timesofindia.indiatimes.com';</p>
+<p>            document.write('<img border="0" width="0" height="0" style="display:none;visibility:hidden;" src="http://timeslog.indiatimes.com/timeslog.dll/topcnt?CHUR=articles.timesofindia.indiatimes.com&randomno='+ rndtno +'" align="left"/>');</p>
+<p>        </p>
+<p>                    setCookie("pmk_tn", "ap-TOI_Blended_Ads", 3600);</p>
+<p>                    var sessId = getCookie("sessid");</p>
+<p>                    if (!sessId) {</p>
+<p>                        sessId = guid();</p>
+<p>                        setCookie("sessid", sessId, (30*60));</p>
+<p>                    }</p>
+<p>                    var uuId = getCookie("uuid");</p>
+<p>                    if (!uuId) {</p>
+<p>                        uuId = sessId;</p>
+<p>                        setCookie("uuid", uuId, (60*60*24*30*12*24));</p>
+<p>                    }</p>
+<p>                    var traffic_provider = getParamFromPMCookie("s");</p>
+<p>                    if(!traffic_provider) {</p>
+<p>                        traffic_provider = derive_traffic_provider();</p>
+<p>                        putParamIntoPMCookie("s", traffic_provider);</p>
+<p>                    }</p>
+<p>                    var traffic_type = getParamFromPMCookie("n");</p>
+<p>                    if(!traffic_type) {</p>
+<p>                        traffic_type = derive_traffic_type();</p>
+<p>                        putParamIntoPMCookie("n", traffic_type);</p>
+<p>                    }</p>
+<p>                    referring_domain = get_referring_domain();</p>
+<p>                    var tracSessParams = "sessid="+sessId+"&uuid="+uuId+"&s="+traffic_provider+"&n="+traffic_type+"&rd="+referring_domain;</p>
+<p>                    var query = get_query();</p>
+<p>                    if(query) {</p>
+<p>                        tracSessParams = tracSessParams + "&q=" + query;</p>
+<p>                    }</p>
+<p>                    var referring_url = get_referring_url();</p>
+<p>                    if(referring_url) {</p>
+<p>                        tracSessParams = tracSessParams + "&ru=" + encode(referring_url);</p>
+<p>                    }</p>
+<p>                    var user_agent = navigator.userAgent;</p>
+<p>                    if(user_agent) {</p>
+<p>                        tracSessParams = tracSessParams + "&ua=" + encode(user_agent);</p>
+<p>                    }</p>
+<p>                </p>
+<p>function downloadJSAtOnload(){var element, js;element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/sn.php?out=js&t=To+shed+flab%2C+eat+from+a+red+plate&u=http%3A%2F%2Ftimesofindia.indiatimes.com%2Fhome%2Fscience%2FTo-shed-flab-eat-from-a-red-plate%2Farticleshow%2F11505669.cms%3Fintenttarget%3Dno&l=AddThis%3B&i=mod-sm-badge-top-defer&p=TimesofIndia");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/sn.php?out=js&t=To+shed+flab%2C+eat+from+a+red+plate&u=http%3A%2F%2Ftimesofindia.indiatimes.com%2Fhome%2Fscience%2FTo-shed-flab-eat-from-a-red-plate%2Farticleshow%2F11505669.cms%3Fintenttarget%3Dno&l=Twitter_Large-Facebook_RecommendLarge-StumbleUpon_Large-&i=mod-sm-badge-defer&p=TimesofIndia");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/modal/modal.js.php?i=mod-article-image&g=false&c=30631095&j=10&p=TimesofIndia&b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/featured-image-offset.js.php?id=mod-article-image-lt&z=b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/featured-image-offset.js.php?id=mod-article-image-ct&z=b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);element=document.createElement("script");element.setAttribute("type", "text/javascript");element.setAttribute("src", "/featured-image-offset.js.php?id=mod-article-image-rt&z=b5a15d581c15acfdf559ae49457c364ce473ef1e");document.body.appendChild(element);}if (window.addEventListener){window.addEventListener("load", downloadJSAtOnload, false);}else if (window.attachEvent){window.attachEvent("onload", downloadJSAtOnload);}else window.onload = downloadJSAtOnload;</p>
+<p>            function resizeNav(iframe) {</p>
+<p>                // set the domain to same as nav to fix cross site scripting           </p>
+<p>                document.domain = 'indiatimes.com'; </p>
+<p>            </p>
+<p>                // get height of their header (drawn different heights if sub sections)</p>
+<p>                var iframes = document.getElementById('mod-nav').getElementsByTagName('iframe');</p>
+<p>                if (iframes == null || iframes.length == 0) return;</p>
+<p>                var header = iframes[0].contentWindow.document.getElementById('header');</p>
+<p>                if (header == null) return;</p>
+<p>                var navHeight = header.offsetHeight;</p>
+<p>                // update the iframe height</p>
+<p>                if (iframe.style.setAttribute) iframe.style.setAttribute('height', navHeight);</p>
+<p>                else iframe.style.height = navHeight + 'px';</p>
+<p>            }</p>
+<p>            You are here: Home>Collections>Food/* Javascript deferred */var addthis_options = "digg, twitter, facebook, stumbleupon, delicious, friendfeed, buzz, slashdot, reddit, mixx, fark, linkedin, aim, google, myspace, newsvine, technorati, tumblr, typepad, wordpress, more";var addthis_exclude = "print";var addthis_pub     = "archivedigger";/* Javascript deferred */var addthis_options = "digg, twitter, facebook, stumbleupon, delicious, friendfeed, buzz, slashdot, reddit, mixx, fark, linkedin, aim, google, myspace, newsvine, technorati, tumblr, typepad, wordpress, more";var addthis_exclude = "print";var addthis_pub     = "archivedigger";To shed flab, eat from a red platePTI Jan 16, 2012, 04.21AM ISTTags:Swiss academics|shed flab|red plate|eatLONDON: Want to shed the flab? Eat from a red plate and drink from a red cup, recommends a new study. German and Swiss academics claim that using a red plate stops people from eating as much food and using red cups also stops pub-goers from drinking too much alcohol - in fact, it helps reduce food and drinks consumption by 40%. They said the colour red may encourage diners to avoid snacking because it is commonly associated with the idea of "danger, prohibition and stop" , the Daily Mail reported. var adSkipCounter = 0; </p>
+<p> //<![CDATA[</p>
+<p>  var loc = window.location.href + "";</p>
+<p>  var float = "";</p>
+<p>  google_hints = "red plate";google_ad_client="pub-3198794349084862";</p>
+<p>google_ad_output="js";</p>
+<p>google_ad_channel="9476698791,8541039911,5372863901,5858161323";</p>
+<p>google_ad_type="text";</p>
+<p>google_image_size="300x250";</p>
+<p>google_safe="high";</p>
+<p>google_feedback="on";</p>
+<p>google_max_num_ads="4";</p>
+<p>google_skip="" + adSkipCounter + "";</p>
+<p>google_adtest="off";</p>
+<p>google_page_url=document.URL;</p>
+<p>function google_ad_request_done(ads) {</p>
+<p>  if (ads.length == 0) { return; } // If no ads are returned then dont build the ad block</p>
+<p>  if (ads[0].bidtype == "CPC") { adSkipCounter += ads.length; } // Increment ad skip counter when cpc</p>
+<p>  google_ad_request_done_internal(ads, "", "", "true", "custom_medium_rectangle", "", "", "pgtp=article&kwInURL=true&pi=72&ci=30631095&cat=food+%26+drink&pe_id=30631095&tv=ap-TOI_Blended_Ads&toi_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9476698791&rnrcn=g7-TOI-Property&rncci=8541039911&rnccn=g7-food+%26+drink&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=5858161323&rnlcn=5858161323&rnp=c&rt=cpc&paidClick=1&placement_id=ctr-lt-in-top", "", "", "", "", "", "ap-TOI_Blended_Ads", "The Times Of India");</p>
+<p>}</p>
+<p>//]]></p>
+<p> The findings mean the government and food industry could start using red packaging on unhealthy foods as a deterrent - and could even use more red in pubs to prevent people drinking too much. For the study, researchers recruited 41 male students who were asked to drink tea from cups marked with red or blue labels. The subjects drank 44% less from cups with red labels. In the second part, 109 people were given 10 pretzels each on either a red, blue or white plate. Those with a red plate ate fewer pretzels, say the researchers . Ursula Arens at the British Dietetic Association said, "Red may be associated with alarm or something primeval."</p>
+<p> //<![CDATA[</p>
+<p>  var loc = window.location.href + "";</p>
+<p>  var float = "";</p>
+<p>  google_hints = "red plate";google_ad_client="pub-3198794349084862";</p>
+<p>google_ad_output="js";</p>
+<p>google_ad_channel="9476698791,8541039911,2937121613,5858161323";</p>
+<p>google_ad_type="text";</p>
+<p>google_image_size="600x125";</p>
+<p>google_safe="high";</p>
+<p>google_feedback="on";</p>
+<p>google_max_num_ads="2";</p>
+<p>google_skip="" + adSkipCounter + "";</p>
+<p>google_adtest="off";</p>
+<p>google_page_url=document.URL;</p>
+<p>function google_ad_request_done(ads) {</p>
+<p>  if (ads.length == 0) { return; } // If no ads are returned then dont build the ad block</p>
+<p>  if (ads[0].bidtype == "CPC") { adSkipCounter += ads.length; } // Increment ad skip counter when cpc</p>
+<p>  google_ad_request_done_internal(ads, "", "", "true", "wide_rectangle", "", "", "pgtp=article&kwInURL=true&pi=72&ci=30631095&cat=food+%26+drink&pe_id=30631095&tv=ap-TOI_Blended_Ads&toi_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9476698791&rnrcn=g7-TOI-Property&rncci=8541039911&rnccn=g7-food+%26+drink&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=5858161323&rnlcn=5858161323&rnp=c&rt=cpc&paidClick=1&placement_id=a-body-after-first-para-ad-cpc", "", "", "", "", "", "ap-TOI_Blended_Ads", "The Times Of India");</p>
+<p>}</p>
+<p>//]]></p>
+<p>FEATURED ARTICLESLow Vitamin D ups diabetes risk in kids17 tips for healthy hair and skinMove over 'Sheila', 'Chikni chameli' is hereMore:Porn star doesn't mean prostitute:Sunny LeoneAakash tablet available to Mumbai students for Rs 1,000'It's one full year since the last polio case in India was recorded'iPhone 3GS price cut to Rs 19,990PSEB Class 10th result 2011: Only 1 student on merit list from govt schoolsApply online, get your voter ID in a month</p>
+<p>            function resizeComment(iframe) {</p>
+<p>                // set the domain to same as nav to fix cross site scripting</p>
+<p>                document.domain = 'indiatimes.com';</p>
+<p>                // get height of their header (drawn different heights if sub sections)</p>
+<p>                var iframes = document.getElementById('mod-readers-comment').getElementsByTagName('iframe');</p>
+<p>                if (iframes == null || iframes.length == 0) return;</p>
+<p>                var header = iframes[0].contentWindow.document.getElementById('cmtMainBox');</p>
+<p>                if (header == null) return;</p>
+<p>                var navHeight = header.offsetHeight;</p>
+<p>                // update the iframe height</p>
+<p>                if (iframe.style.setAttribute) iframe.style.setAttribute('height', navHeight);</p>
+<p>                else iframe.style.height = navHeight + 'px';</p>
+<p>            }</p>
+<p>            </p>
+<p> //<![CDATA[</p>
+<p>  var loc = window.location.href + "";</p>
+<p>  var float = "";</p>
+<p>  google_hints = "red plate";google_ad_client="pub-3198794349084862";</p>
+<p>google_ad_output="js";</p>
+<p>google_ad_channel="9476698791,8541039911,3471429470,5858161323";</p>
+<p>google_ad_type="text,image";</p>
+<p>google_image_size="300x250";</p>
+<p>google_safe="high";</p>
+<p>google_feedback="on";</p>
+<p>google_max_num_ads="4";</p>
+<p>google_skip="" + adSkipCounter + "";</p>
+<p>google_adtest="off";</p>
+<p>google_page_url=document.URL;</p>
+<p>function google_ad_request_done(ads) {</p>
+<p>  if (ads.length == 0) { return; } // If no ads are returned then dont build the ad block</p>
+<p>  if (ads[0].bidtype == "CPC") { adSkipCounter += ads.length; } // Increment ad skip counter when cpc</p>
+<p>  google_ad_request_done_internal(ads, "", "", "true", "medium_rectangle", "", "", "pgtp=article&kwInURL=true&pi=72&ci=30631095&cat=food+%26+drink&pe_id=30631095&tv=ap-TOI_Blended_Ads&toi_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9476698791&rnrcn=g7-TOI-Property&rncci=8541039911&rnccn=g7-food+%26+drink&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=5858161323&rnlcn=5858161323&rnp=c&rt=cpc&paidClick=1&placement_id=left-sky", "", "", "", "", "", "ap-TOI_Blended_Ads", "The Times Of India");</p>
+<p>}</p>
+<p>//]]></p>
+<p> </p>
+<p>var RN = new String (Math.random());</p>
+<p>var RNS = RN.substring (2,11);</p>
+<p>document.write('<iframe src=\"http://adstil.indiatimes.com/RealMedia/ads/adstream_sx.ads/www.timesofindia.com/TOI2009_PerfectMarket/index.html/1'+RNS+'@Right1?\" WIDTH=300 HEIGHT=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=\"#000000\"> </iframe>')RELATED ARTICLESDrink green tea daily 'to melt flab'November 19, 2008More water intake can't help cut flabSeptember 18, 2008A 'smelling diet' to fight flab!January 26, 2011IN-DEPTH COVERAGEFoodTHE TIMES OF INDIA© 2012 Bennett, Coleman & Co. Ltd. All rights reservedIndex by Keyword|Index by Datewww.timesofindia.comFeedback|Privacy Policy|Terms of Use|Advertise with us</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-21462242-1']);</p>
+<p>  _gaq.push(['_setVar', 'Template-ap-TOI_Blended_Ads']);</p>
+<p>  _gaq.push(['_setCustomVar', 1, 'Template', 'Template-ap-TOI_Blended_Ads', 3]);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-198011-4']);</p>
+<p> _gaq.push(['_setDomainName', 'none']);</p>
+<p>_gaq.push(['_setAllowLinker', true]);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>(function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p> </p>
+<p>		    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>		</p>
+<p>			 </p>
+<p>		  COMSCORE.beacon({</p>
+<p>		    c1:2,</p>
+<p>		    c2:6036484,</p>
+<p>		    c3:"",</p>
+<p>		    c4:"",</p>
+<p>		    c5:"",</p>
+<p>		    c6:"",</p>
+<p>		    c15:"" });</p>
+<p>		</p>
+<p>var _sf_async_config={uid:10538,domain:"articles.timesofindia.indiatimes.com"};</p>
+<p>		(function(){</p>
+<p>		  function loadChartbeat() {	</p>
+<p>	          window._sf_endpt=(new Date()).getTime();</p>
+<p>		    var e = document.createElement('script');</p>
+<p>		    e.setAttribute('language', 'javascript');	</p>
+<p>		    e.setAttribute('type', 'text/javascript');</p>
+<p>		    e.setAttribute('src', (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") + "static.chartbeat.com/js/chartbeat.js");				    document.body.appendChild(e);	</p>
+<p>				  }			</p>
+<p>	  var oldonload = window.onload;		</p>
+<p>	  window.onload = (typeof window.onload != 'function') ?    loadChartbeat : function() {</p>
+<p>		 oldonload(); </p>
+<p>		loadChartbeat(); };			</p>
+<p>		})();				</p>
+<p> </p>
+<p> </p>
+<p> var pvar = { cid: "in-timesinternet", content: "0", server: "secure-uk" };</p>
+<p> var trac = nol_t(pvar);</p>
+<p> trac.record().post();</p>
+<p>                      //<![CDATA[</p>
+<p>                      document.write("<iframe onload=\"params='"+window.tracSessParams+"&pgtp=article&kwInURL=true&pi=72&ci=30631095&cat=food+%26+drink&pe_id=30631095&tv=ap-TOI_Blended_Ads&toi_nav_type=full&rna=pub-3198794349084862&rn=g&rnrci=9476698791&rnrcn=g7-TOI-Property&rncci=8541039911&rnccn=g7-food+%26+drink&rnpci=&rnpcn=&rntci=&rntcn=&rnlci=5858161323&rnlcn=5858161323&rnp=c&rt=cpc&pageLoad=1';tracker();params='';\" frameborder=\"0\" width=\"0\" height=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"position:absolute;display:none;overflow-x:hidden;overflow-y:scroll;\"></iframe>");</p>
+<p>                      //]]></p>
+<p>                    </p>

@@ -1,0 +1,606 @@
+<p>     Marathon runners don't face major heart risks, study shows - HealthPop - CBS News      </p>
+<p>     </p>
+<p>        (function() {</p>
+<p>            var uvars = Cookie.read('cbs_urs');</p>
+<p>            UserVars = new LocalVars.UserVars((uvars) ? JSON.decode(uvars) : {});</p>
+<p>        })();</p>
+<p>    </p>
+<p>        PageVars = new LocalVars.PageVars({</p>
+<p>            pageType: '8301',</p>
+<p>            nodeId: '504763',</p>
+<p>            siteId: '162',</p>
+<p>            assetId: '57357712',</p>
+<p>            pageNumber: '10391704',</p>
+<p>            channelId: '204',</p>
+<p>            editionId: '3',</p>
+<p>            brandId: '55',</p>
+<p>            breadcrumb: '204:504763',</p>
+<p>            userIP: '173.48.190.59, 63.85.36.78, 173.48.190.59, 64.30.227.218, 65.197.244.61, 173.48.190.59',</p>
+<p>            sectionId: '504763',</p>
+<p>	    guid: window.cbsiGUID</p>
+<p>        });</p>
+<p>        var cbsVar_sectId = '504763';</p>
+<p>	</p>
+<p>       </p>
+<p>		    var cbsiAdGlobal = {</p>
+<p>		        'SITE' : '162',</p>
+<p>		        'BRAND' : '55',</p>
+<p>		        'DVAR_CID' : '57357712',</p>
+<p>			    'CNET-PAGE-GUID' : window.cbsiGUID,</p>
+<p>			    </p>
+<p>				</p>
+<p>			        'NCAT' : '204:504763:',</p>
+<p>			    </p>
+<p>		        'NODE' : '504763',</p>
+<p>		        'PTYPE' : '8301',</p>
+<p>		        'STAGING' : '0',</p>
+<p>		        'DVAR_EXCLUDE' : ''          //ad refresh</p>
+<p>		        </p>
+<p>		      };</p>
+<p>		    cbsiRegisterAdGlobals(cbsiAdGlobal);</p>
+<p>		    cbsiSetDeferredLocalPage("/html/Ads/common/MantaRay4_5Local_cbsnews.html");    //ad refresh</p>
+<p>		      </p>
+<p>        DW.pageParams = {</p>
+<p>            siteid: '162',</p>
+<p>            edid:   '3',</p>
+<p>            prtnr:  'CNET Networks, Inc.',</p>
+<p>            ptid:   '8301',</p>
+<p>            onid:   '504763',</p>
+<p>            asid:   '57357712',</p>
+<p>            pgnbr:  '10391704',</p>
+<p>            astId:  '28',</p>
+<p>	    pguid:  window.cbsiGUID</p>
+<p>        };</p>
+<p>        DW.regSilo = '1';</p>
+<p>        </p>
+<p>	</p>
+<p>      </p>
+<p>    <!--</p>
+<p>       var cbsiAd80_100 = {</p>
+<p>           'SP': '80',</p>
+<p>           'POS': '100'</p>
+<p>       };</p>
+<p>       cbsiGetAd(cbsiAd80_100);</p>
+<p>    //--></p>
+<p>    </p>
+<p> var _sf_startpt=(new Date()).getTime()    </p>
+<p>        PageVars.set('title', escape("Marathon runners don't face major heart risks, study shows - CBSNews"));</p>
+<p>        PageVars.set('description', escape("Marathon runners face odds of 1 cardiac arrest per 184,000 participants, 1 death per 259,000 participants, study showed"));</p>
+<p>        PageVars.set('href', escape("http://www.cbsnews.com/8301-504763_162-57357712-10391704/marathon-runners-dont-face-major-heart-risks-study-shows/"));</p>
+<p>    </p>
+<p>       </p>
+<p>        </p>
+<p> </p>
+<p>      var _gaq = _gaq || [];</p>
+<p>      _gaq.push(['nT._setAccount', 'UA-27653683-1']);</p>
+<p>      _gaq.push(['nT._setDomainName', 'cbsnews.com']);</p>
+<p>      _gaq.push(['nT._setAllowLinker', true]);</p>
+<p>      _gaq.push(['nT._setSampleRate', '1']);</p>
+<p>      _gaq.push(['nT._trackPageview']);</p>
+<p>      (function() {</p>
+<p>        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>      })();</p>
+<p>          </p>
+<p>        <!--</p>
+<p>            var cbsiAd15_100 = {</p>
+<p>                'SP': '15',</p>
+<p>                'POS': '100',</p>
+<p>                'WIDTH': '728',</p>
+<p>                'HEIGHT': '90',</p>
+<p>                'REFRESH': '1'</p>
+<p>            };</p>
+<p>            cbsiSetupAdDiv("cbsiAd15_100", cbsiAd15_100);</p>
+<p>            cbsiGetDeferredAds(["cbsiAd15_100"]);</p>
+<p>        //--></p>
+<p>        </p>
+<p>    </p>
+<p>    <!--</p>
+<p>    var cbsiAd2_100 = {</p>
+<p>      'SP' : '2',</p>
+<p>      'POS' : '100',</p>
+<p>      'REFRESH' : '1'</p>
+<p>      };</p>
+<p>    cbsiSetupAdDiv("cbsiAd2_100", cbsiAd2_100);</p>
+<p>    cbsiGetDeferredAds(["cbsiAd2_100"]);</p>
+<p>//--></p>
+<p>   Thriver Health Blog        HealthPop   HealthPop CBSNews              CBS News.com Browse News    Video U.S. World Politics Entertainment Healthwatch Moneywatch Tech Sports Opinion Popular Photos    Programs    CBS Evening News CBS This Morning 48 Hours Mystery 60 Minutes Sunday Morning Face the Nation Up to the Minute    Blogs    Political Hotsheet Crimesider HealthPop Investigates Celebrity Circuit WorldWatch EconWatch The Feed Tech Talk Coop's Corner Crossroads Fast Draw Eye on Parenting Health and Wellness      Log In</p>
+<p>|</p>
+<p> Register   </p>
+<p>Your Profile</p>
+<p>|</p>
+<p>Log Out        HEALTHPOP.COM Diet Mental Health Celebrity More Topics   Sex and Relationships Kids & Family Heart Cancer Diabetes    About Healthwatch       var breakingNewsTicker = new Ticker('breakingNewsBanner', {dataUrl: '/feedfiles/breakingnews2.xml'});                    </p>
+<p>Scroll Left Scroll Right</p>
+<p>Sports</p>
+<p>Star skier Sarah Burke critical after crash</p>
+<p>1 of 9</p>
+<p>Celebrity Circuit</p>
+<p>Perry, "Potter" win big at People's Choice Awards</p>
+<p>2 of 9</p>
+<p>CBS This Morning</p>
+<p>U.S. Marines to probe alleged urination video</p>
+<p>3 of 9</p>
+<p>Video</p>
+<p>First Lady rebuts perceived image</p>
+<p>4 of 9</p>
+<p>Gallery</p>
+<p>People's Choice Awards red carpet</p>
+<p>5 of 9</p>
+<p>U.S.</p>
+<p>Social tensions growing in U.S. between rich, poor</p>
+<p>6 of 9</p>
+<p>CNET covers the hottest tech show of the year</p>
+<p>7 of 9</p>
+<p>World</p>
+<p>Pakistan leader leaves for Dubai amid crisis</p>
+<p>8 of 9</p>
+<p>World</p>
+<p>Mexican drug war toll: 47,500 killed in 5 years</p>
+<p>9 of 9</p>
+<p>	var storyStrip = new CBSThumbScroller('storyStrip', {'setArrowClasses': true});</p>
+<p>	window.addEvent('domready', function() {</p>
+<p>	        (function(){ </p>
+<p>        		storyStrip.toNextScreen();</p>
+<p>        	}).delay(5000);</p>
+<p>	});</p>
+<p>    January 12, 2012 9:37 AM    Print Text   </p>
+<p> Marathon runners don't face major heart risks, study shows  By   CBS News Staff  Topics  News , Fitness , Heart , Research       Add Comment  Have Your Say  Email StorySend to a Friend Share ThisTell Your Friends Tweet ThisTweet This MoreShare It      .      Del.icio.us Facebook Stumbleupon   Newsvine Yahoo bookmarks Mixx   Digg Reddit Google Bookmarks   Twitter LinkedIn        </p>
+<p>Medics transport a competitor from the Philadelphia Marathon, Sunday, Nov. 20, 2011, in Philadelphia, following an emergency.</p>
+<p>(Credit:</p>
+<p>AP Photo/ Joseph Kaczmarek)</p>
+<p> (CBS/AP) The sight of a marathon runner collapsing or being carted off in a stretcher can be scary to say the least, but a new study might ease some worries for people considering running long distances.The study found the odds of a long distance runner suffering a cardiac arrest or dying are extremely low unless you have a pre-existing medical condition.PICTURES: NYC marathon's oldest runners: How'd they do? The study did however show that as more runners are trying to go the distance these days to stay fit, the number of incidences of marathoners suffering a cardiac arrest is on the rise. "You hear about this more and more," said study author Dr. Aaron Baggish, associate director of the cardiovascular performance program at Massachusetts General Hospital in Boston. Baggish's group works with athletes with heart conditions. For the study, published in the Jan. 12 issue of the New England Journal of Medicine, researchers looked at nearly 11 million runners who participated in marathons or half-marathons between 2000 and 2010.  After scouring media reports and interviewing medical staff who worked some of the races, the researchers flagged 59 cases of cardiac arrest where a runner became unconscious with no pulse during the race or within an hour of crossing the finish line. Cardiac arrest is when the heart stops because of a heart attack, a rhythm problem or another disorder.  Out of all of the runners studied, 42 people died. That overall figures translate to 1 cardiac arrest per 184,000 participants and 1 death per 259,000 participants, the researchers said. Those numbers are low compared to other athletic activities, as shown by prior studies of deaths in college athletes, triathlon participants and previously healthy middle-aged joggers, researchers said. Fifty-one of the 59 runners who had cardiac arrest were men, and most cases involved 26.2-mile marathons rather than half-marathons. More cardiac arrest cases occurred during 2005-2010 than in the preceding five-year span, but that's just because more people are participating in the races, Baggish said. More worrisome was the finding that among male marathoners, the rate of cardiac arrest per 100,000 runners was higher during the latter half of the decade than in the first half. Baggish thinks that's because of a shift in attitudes about who can run long distances. Even a decade ago, marathons were considered appropriate only for very athletic people, he said. But more recently people have come to think of it as "something anyone can do," and even as a healthy activity for lowering the risk of heart disease, he said. So it has attracted people with a family history of early heart disease or early deaths, and "these are just the people who are likely to get into trouble." Researchers could find a cause for 31 of the cardiac arrest cases, and found most were due to clogged, hardened arteries or hypertrophic cardiomyopathy, a condition that's sometimes inherited in which an unusually thick heart muscle can interfere with the pumping rhythm. Most of the victims were unaware of their pre-existing conditions, Baggish said. What should aspiring or experienced runners do to make sure they aren't risking their health? Baggish said runners should talk to their doctors before planning to run long distances. Dr. Gordon Tomaselli, president of the American Heart Association, said runners should also look out for signs of trouble while running such as chest pain, dizziness, lightheadedness or unusually short breath or rapid heartbeat. "You should listen to your body," he said. Tomaselli, a heart specialist at Johns Hopkins University, called the study "reassuring" for finding so few cardiac arrests. For most people, "running a marathon, if you are so inclined, is a reasonably safe proposition," he said. In the same issue of the journal, other doctors wrote a brief report about treating three runners who suffered heart attacks after finishing last year's Boston Marathon. None had cardiac arrest and all survived. "We don't want to alarm people about marathon running. The benefits of exercise are well established" said one of that report's authors, Dr. Navin Kapur of Tufts Medical Center in Boston. The report shows even seasoned marathon runners can have heart attacks, something paramedics should keep in mind if a runner shows suggestive signs, he said.</p>
+<p>9 Photos</p>
+<p>NYC marathon's oldest runners: How'd they do?</p>
+<p>View the Full Gallery »</p>
+<p>  </p>
+<p> </p>
+<p>window.addEvent('domready', CURS.Social.fb.init);  </p>
+<p>if($defined(OutbrainModuleInstance)){ OutbrainModuleInstance.load('http://www.cbsnews.com/8301-504763_162-57357712-10391704/marathon-runners-dont-face-major-heart-risks-study-shows/'); }</p>
+<p>      Add Comment  Have Your Say  Email StorySend to a Friend Share ThisTell Your Friends Tweet ThisTweet This MoreShare It           Add a comment     Subscribe to this comment thread by email  SUBMIT         Click here to add another comment.   The posting of advertisements, profanity, or personal attacks is prohibited. By using this Web site you agree to accept our Terms of Service. Click here to read the Rules of Engagement.      </p>
+<p>    var submitComment = new Jlogger({</p>
+<p>        ontid: '504763',</p>
+<p>        siteId: '162',</p>
+<p>        ptId: '8301',</p>
+<p>        tag: 'submitComment',</p>
+<p>        element: 'subComment',</p>
+<p>        event: 'click'</p>
+<p>    });</p>
+<p>     var loadCommentsList = new Jlogger({</p>
+<p>        ontid: '504763',</p>
+<p>        siteId: '162',</p>
+<p>        ptId: '8301',</p>
+<p>        tag: 'loadCommentsList',</p>
+<p>        element: window,</p>
+<p>        event: 'load',</p>
+<p>        fireOnce: true</p>
+<p>    });</p>
+<p>    Comment reply         Subscribe to this comment thread by email  Submit Cancel    The posting of advertisements, profanity, or personal attacks is prohibited. By using this Web site you agree to accept our Terms of Service. Click here to read the Rules of Engagement.     Report offensive content: If you believe this comment is offensive or violates the CBSNews.com Terms of Use, you can report it below (this will not automatically remove the comment). Once reported, our staff will be notified and the comment will be reviewed. Select type of offense:  Offensive: Sexually explicit or offensive language  Spam: Advertisements, commercial links, or repetitive posts  Disruptive posting: Flaming or offending other users  Illegal activities: Promote cracked software, or other illegal content  Off-topic: Commentary unrelated to the storyline Comments (optional):       Report Cancel     E-mail this comment to a friend. E-mail this to:  Your e-mail address:   Send me a copy of this message Note: Your e-mail address is used only to let the recipient know who sent the e-mail and in case of transmission error. Neither your address nor the recipients's address will be used for any other purpose. Add your own personal message: (Optional) Hi, I found this user's comment on CBSNews.com and thought you might be interested in reading it.      Send e-mail Cancel        .      Del.icio.us Facebook Stumbleupon   Newsvine Yahoo bookmarks Mixx   Digg Reddit Google Bookmarks   Twitter LinkedIn      </p>
+<p>Popular Now in Health</p>
+<p>15 Photos</p>
+<p>"Bubble Boy" 40 years later: Look back at heartbreaking case</p>
+<p>30 Photos</p>
+<p>Paralyzed pets rock their wheels: 30 awesome animals</p>
+<p>40 Photos</p>
+<p>Conjoined twins: 40 amazing photos (GRAPHIC IMAGES)</p>
+<p>Is smoking marijuana bad for your lungs? </p>
+<p>Nicotine patches, gum won't help smokers quit for good: Study </p>
+<p>Lung function aside, experts leery of marijuana </p>
+<p>Mom gives daughter, 7, liposuction gift voucher </p>
+<p>Low-cost DNA reader announced: What does it mean for patients? </p>
+<p>Novartis pill mix-up may involve painkillers </p>
+<p>Things You Didn't Know About Your Penis </p>
+<p>CDC: 38 million Americans binge drink </p>
+<p>ADHD diet study says eating healthy could help </p>
+<p>Study Shows Toxins In Marijuana Smoke </p>
+<p>Homicide no longer a top cause of death in U.S. </p>
+<p>Skin cancer self-exam: What to look for (PHOTOS) </p>
+<p>PICTURES: 15 Shocking Sexual Fetishes </p>
+<p>Heart attack 21 times more likely while grieving </p>
+<p>Porn actors must wear condoms, LA votes </p>
+<p>DASH diet: What makes it the best overall? </p>
+<p>Novartis recall: Excedrin, NoDoz, Gas-X, Bufferin </p>
+<p>Latest CBS News Headlines</p>
+<p>Ahead of the Bell: Integrated Oil</p>
+<p>Dutch nursery cares for slew of orphaned seal pups</p>
+<p>Ahead of the Bell: BP</p>
+<p>Ahead of the Bell: Wynn Resorts drops on lawsuit</p>
+<p>Popular CBS News Stories on Facebook</p>
+<p>Mo. teen girl pleads guilty to murder of 9-year-old</p>
+<p>People's Choice Awards red carpet</p>
+<p>Notorious teacher sex scandals</p>
+<p>People's Choice Awards 2012: Katy Perry, "Harry Potter" win big</p>
+<p>Most Discussed Stories on CBS News</p>
+<p>Michelle Obama says people have inaccurately cast her as an "angry black woman"</p>
+<p>Social tensions growing in U.S. between rich, poor</p>
+<p>Iranian nuke scientist killed by magnetic bomb</p>
+<p>Red wine researcher flagged for fake data</p>
+<p>Twinkies maker Hostess Inc. files for bankruptcy</p>
+<p> </p>
+<p>   Follow HealthPop  RSS » Facebook » Twitter »    </p>
+<p>    <!--</p>
+<p>        var cbsiAd131_100 = {</p>
+<p>          'SP' : '131',</p>
+<p>          'POS' : '100',</p>
+<p>          'WIDTH' : '300',</p>
+<p>          'HEIGHT' : '250',</p>
+<p>          'REFRESH' : '1'</p>
+<p>          };</p>
+<p>        cbsiSetupAdDiv("cbsiAd131_100", cbsiAd131_100);</p>
+<p>        cbsiGetDeferredAds(["cbsiAd131_100"]);</p>
+<p>    //--></p>
+<p>      </p>
+<p>Most Popular on CBS News</p>
+<p>Stories</p>
+<p>More »</p>
+<p>01Perry, "Potter" win big at People's Choice Awards</p>
+<p>02Judge blocks controversial Miss. pardons</p>
+<p>03U.S. Marines to probe alleged urination video</p>
+<p>04Beyonce baby complaints at NYC hospital dismissed</p>
+<p>05Star skier Sarah Burke critical after crash</p>
+<p>Videos</p>
+<p>More »</p>
+<p>01Evening News Online, 01.11.12</p>
+<p>02Little girl stays brave in encounter with lion</p>
+<p>03First Lady rebuts perceived image</p>
+<p>46 Photos |  View Gallery »</p>
+<p>People's Choice Awards red carpet</p>
+<p>11 Photos |  View Gallery »</p>
+<p>Sweat and tears: China's kid gymnasts</p>
+<p>16 Photos |  View Gallery »</p>
+<p>People's Choice Awards press room</p>
+<p>42 Photos |  View Gallery »</p>
+<p>People's Choice Awards highlights</p>
+<p>12 Photos |  View Gallery »</p>
+<p>Ricky Gervais</p>
+<p>Scroll Left</p>
+<p>Scroll Right</p>
+<p>More »</p>
+<p>    new CBSPostCarousel('cbsPostCarousel');</p>
+<p>Better Information. Better Health.</p>
+<p>Cholesterol Concerns? Get Personalized Advice</p>
+<p>More Medical Tests & Tools</p>
+<p> </p>
+<p>	<!--</p>
+<p>	/*</p>
+<p>	* Determins the category name</p>
+<p>	*/</p>
+<p>	var cbsVar_sectName = "Health"; /*organize by channel*/</p>
+<p>	</p>
+<p>	try</p>
+<p>	{</p>
+<p>		if(cbsVar_sectName){</p>
+<p>			var CBSNEWS_CATEGORY = ""+cbsVar_sectName.replace(/[-.\/&: ]/ig, "_")+"";</p>
+<p>		} else {</p>
+<p>			var CBSNEWS_CATEGORY = "Home";</p>
+<p>		}</p>
+<p>	}</p>
+<p>	catch(err)</p>
+<p>	{</p>
+<p>	//alert(err);</p>
+<p>	}</p>
+<p>	/*</p>
+<p>	* This function is required and is used to display</p>
+<p>	* the ads that are returned from the JavaScript</p>
+<p>	* request. You should modify the document.write</p>
+<p>	* commands so that the HTML they write out fits</p>
+<p>	* with your desired ad layout.</p>
+<p>	*/</p>
+<p>	function google_ad_request_done(google_ads) {</p>
+<p>		var s = '';</p>
+<p>		var i;</p>
+<p>		/* optional clickable backgrounds. If this is set,</p>
+<p>		* the second and third lines of text ads are</p>
+<p>		* linked to the advertiser's URL. This increases</p>
+<p>		* click-through but decreases click-through</p>
+<p>		* accuracy.</p>
+<p>		*/</p>
+<p>		var clickable_background = 0;</p>
+<p>		/*</p>
+<p>		*Attribution for Google ads</p>
+<p>		*/</p>
+<p>		var google_attribution = 'Sponsored Links';</p>
+<p>		//var google_attribution = 'Related Ads';</p>
+<p>		var title_span = '';</p>
+<p>		var description_span = '<span class="adlinks_body">';</p>
+<p>		var url_style = ' class="adlinks_small">';</p>
+<p>		/*</p>
+<p>		* Verify that there are actually ads to display.</p>
+<p>		*/</p>
+<p>		if (google_ads.length == 0)</p>
+<p>			return;</p>
+<p>		/*</p>
+<p>		* If an image or Flash ad is returned, display that ad.</p>
+<p>		* If a rich media ad is returned, display that as "as is."</p>
+<p>		* Otherwise, build a string containing all of the ads and</p>
+<p>		* then use a document.write() command to print that string.</p>
+<p>		*/</p>
+<p>		/*attributes ad to Google*/</p>
+<p>		if (google_ads[0].type == "text") {</p>
+<p>			s += '<div id="sponsoredHeader" align="left"><a href="http://cbsiprivacy.custhelp.com/app/answers/detail/a_id/1272/">'+google_attribution +'</a></div><div id="sponsoredContents">';</p>
+<p>			/*</p>
+<p>			* Larger text for single ad.</p>
+<p>			*/</p>
+<p>			if (google_ads.length == 1) {</p>
+<p>				title_span = '<span class="adlinks_header">';</p>
+<p>				description_span = '<span class="adlinks_body">';</p>
+<p>				url_style =' class="adlinks_body">' ;</p>
+<p>			}</p>
+<p>			/*</p>
+<p>			* For text ads, append each ad to the string.</p>
+<p>			*/</p>
+<p>			for(i=0; i < google_ads.length; ++i) {</p>
+<p>	</p>
+<p>				s += '<a style="font-weight: bold;" href="'+google_ads[i].url+'" target="new" onmouseover="window.status=\'http:\/\/'+google_ads[i].visible_url+'\'; return true;" onmouseout="window.status=\'\';" class="adlinks_link">' +title_span +'' + google_ads[i].line1 + '</a><br />';</p>
+<p>				if (clickable_background == 0){</p>
+<p>					s += '</a>';</p>
+<p>				}</p>
+<p>				s += google_ads[i].line2 + '<br>' +google_ads[i].line3 + '</a><br>';</p>
+<p>				if (clickable_background == 1){</p>
+<p>					s += '</a>';</p>
+<p>				}</p>
+<p>				s += '<a href="'+google_ads[i].url+'" target="new" onmouseover="window.status=\'http:\/\/'+google_ads[i].visible_url+'\'; return true;" onmouseout="window.status=\'\';" ' +url_style +google_ads[i].visible_url + '</a>&nbsp;<img src="http://wwwimage.cbsnews.com/common/images/misc_new_window.gif" alt="New Window" /><br />';</p>
+<p>				if(i < google_ads.length-1){</p>
+<p>					s += '<br />';</p>
+<p>				}</p>
+<p>			}</p>
+<p>		}</p>
+<p>		s += '</div>';</p>
+<p>		document.write(s);</p>
+<p>		return;</p>
+<p>	}</p>
+<p>	google_ad_client = 'ca-cbsnews_js'; // substitute your client_id</p>
+<p>	google_ad_channel = CBSNEWS_CATEGORY;//category;</p>
+<p>	google_ad_output = 'js';</p>
+<p>	google_max_num_ads = '3';</p>
+<p>	google_ad_type = 'text'; //, image, flash, html type of ads to display</p>
+<p>	google_language = 'en';</p>
+<p>	//google_image_size = '728x90';</p>
+<p>	//google_image_size is required if you are displaying image, Flash or rich media ads.</p>
+<p>	google_encoding = 'utf8';</p>
+<p>	google_safe = 'high';</p>
+<p>	google_adtest = 'off';</p>
+<p>	google_ad_section = 'default';</p>
+<p>	// --></p>
+<p>	  </p>
+<p> CBS News on Facebook window.addEvent('domready', CURS.Social.fb.init);  </p>
+<p>    <!--</p>
+<p>        var cbsiAd110_100 = {</p>
+<p>          'SP' : '110',</p>
+<p>          'POS' : '100',</p>
+<p>          'WIDTH' : '300',</p>
+<p>          'HEIGHT' : '60',</p>
+<p>          'REFRESH' : '1'</p>
+<p>          };</p>
+<p>        cbsiSetupAdDiv("cbsiAd110_100", cbsiAd110_100);</p>
+<p>        cbsiGetDeferredAds(["cbsiAd110_100"]);</p>
+<p>    //--></p>
+<p>     </p>
+<p>        <!--</p>
+<p>            var cbsiAd104_100 = {</p>
+<p>                'SP' : '104',</p>
+<p>                'POS' : '100',</p>
+<p>                'WIDTH' : '300',</p>
+<p>                'HEIGHT' : '250',</p>
+<p>                'REFRESH' : '1'</p>
+<p>            };</p>
+<p>            cbsiSetupAdDiv("cbsiAd104_100", cbsiAd104_100);</p>
+<p>            cbsiGetDeferredAds(["cbsiAd104_100"]);</p>
+<p>        //--></p>
+<p>      </p>
+<p>    <!--</p>
+<p>        var cbsiAd16_200 = {</p>
+<p>            'SP': '16',</p>
+<p>            'POS': '200',</p>
+<p>            'WIDTH': '300',</p>
+<p>            'HEIGHT': '250',</p>
+<p>            'REFRESH': '1'</p>
+<p>        };</p>
+<p>        cbsiSetupAdDiv("cbsiAd16_200", cbsiAd16_200);</p>
+<p>        cbsiGetDeferredAds(["cbsiAd16_200"]);</p>
+<p>    //--></p>
+<p>      </p>
+<p>       </p>
+<p>	var omniName = "Blog - Marathon runners don&#039;t face major heart risks, study shows - 57357712";</p>
+<p>	</p>
+<p>	if (typeof(window['pageName']) != 'undefined') omniName = pageName;</p>
+<p>	</p>
+<p>	var omniPath = "/health/blog/";</p>
+<p>	if (typeof(window['pagePath']) != 'undefined') omniPath = pagePath;</p>
+<p>	</p>
+<p>	var omniType = "Blog";</p>
+<p>	if (typeof(window['pageType']) != 'undefined') omniType = pageType;</p>
+<p>	</p>
+<p>	var omniProps = new Array();</p>
+<p>	</p>
+<p>	if (typeof(window['pageProps']) != 'undefined') omniProps = pageProps;</p>
+<p>	/* You may give each page an identifying name, server, and channel on</p>
+<p>	the next lines. */</p>
+<p>	</p>
+<p>	var date = new Date("12 Jan 2012 14:55:00 +0000");</p>
+<p>	var days = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");</p>
+<p>	s.pageName=omniName;</p>
+<p>	s.server="www.cbsnews.com";</p>
+<p>	s.channel="Health";</p>
+<p>	s.pageType="8301";</p>
+<p>	s.prop8= "";</p>
+<p>	s.prop1 = "Health"</p>
+<p>	s.prop2 = "HealthPop";</p>
+<p>	s.prop3 = s.pageType;</p>
+<p>	s.prop8 += s.pageName;</p>
+<p>	s.prop18 = date.getHours() + ":00";</p>
+<p>	s.prop19 = days[date.getDay()];</p>
+<p>	s.prop21 = "57357712";</p>
+<p>	s.prop22 = "Marathon runners don&#039;t face major heart risks, study shows";</p>
+<p>	s.hier1 = s.prop8; </p>
+<p>	/* Conversion Variables */</p>
+<p>	s.campaign=""</p>
+<p>	s.state=""</p>
+<p>	s.zip=""</p>
+<p>	s.events=""</p>
+<p>	s.products=""</p>
+<p>	s.purchaseID=""</p>
+<p>	s.eVar1=""</p>
+<p>	s.eVar2=""</p>
+<p>	s.eVar3=""</p>
+<p>	s.eVar4=""</p>
+<p>	s.eVar5=""</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>   </p>
+<p>  CBS News Copyright © 2012 CBS Interactive Inc. All rights reserved.                  CBSNews.com Site Map Video Site Map Mobile/WAP Site Help Contact Us CBS Bios Careers Internships Development Programs  </p>
+<p>Topics</p>
+<p>China</p>
+<p>United Nations</p>
+<p>Social Security</p>
+<p>North Korea</p>
+<p>Terrorism</p>
+<p>Capital Punishment</p>
+<p>Immigration</p>
+<p>Gay Marriage</p>
+<p>Disaster in Japan</p>
+<p>Foreclosures</p>
+<p>Debt Crisis</p>
+<p>Massacre in Norway</p>
+<p>Election 2012</p>
+<p>Marijuana</p>
+<p>Rupert Murdoch</p>
+<p>9/11: Tragedy</p>
+<p>Follow Us</p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>RSS</p>
+<p>Email Newsletters</p>
+<p>YouTube</p>
+<p>CBS Mobile</p>
+<p>Building You a Better Morning</p>
+<p>CBS This Morning</p>
+<p>		"CBS This Morning," anchored by Charlie Rose, Gayle King and Erica Hill, airs weekdays from 7 to 9 a.m. ET and at the same time in other time zones.</p>
+<p>		Learn more...</p>
+<p>Visit other CBS Interactive sites:</p>
+<p>Select Site</p>
+<p>BNET</p>
+<p>CBS College Sports</p>
+<p>CBS Radio</p>
+<p>CBS.com</p>
+<p>CBSNews.com</p>
+<p>CBSSports.com</p>
+<p>CHOW</p>
+<p>CNET</p>
+<p>CNET Channel</p>
+<p>GameSpot</p>
+<p>International</p>
+<p>Last.fm</p>
+<p>MaxPreps</p>
+<p>Moblogic</p>
+<p>MP3.com</p>
+<p>mySimon</p>
+<p>NCAA</p>
+<p>Search.com</p>
+<p>TechRepublic</p>
+<p>The Insider</p>
+<p>TV.com</p>
+<p>UrbanBaby.com</p>
+<p>UWIRE</p>
+<p>Wallstrip</p>
+<p>ZDNet</p>
+<p>BNET</p>
+<p>CBS College Sports</p>
+<p>CBS Radio</p>
+<p>CBS.com</p>
+<p>CBSNews.com</p>
+<p>CBSSports.com</p>
+<p>CHOW</p>
+<p>CNET</p>
+<p>CNET Channel</p>
+<p>GameSpot</p>
+<p>International</p>
+<p>Last.fm</p>
+<p>MaxPreps</p>
+<p>Moblogic</p>
+<p>MP3.com</p>
+<p>mySimon</p>
+<p>NCAA</p>
+<p>Search.com</p>
+<p>TechRepublic</p>
+<p>The Insider</p>
+<p>TV.com</p>
+<p>UrbanBaby.com</p>
+<p>UWIRE</p>
+<p>Wallstrip</p>
+<p>ZDNet</p>
+<p>#otherCBSsites {display:none;}</p>
+<p>Privacy Policy</p>
+<p>Terms of Use</p>
+<p>Mobile User Agreement</p>
+<p>About CBS</p>
+<p>Advertise</p>
+<p>   tyntVariables = {"ap":"Read more: "};   </p>
+<p>  </p>
+<p>    if ($defined(cbsVar_sectId)) PageVars.set('sectionId', cbsVar_sectId);</p>
+<p>    PageVars.set('assetTypeId', 28);</p>
+<p>    DW.pageParams = {</p>
+<p>        siteId: '162',</p>
+<p>        ptid: '8301',</p>
+<p>        onid: PageVars.get('sectionId') || PageVars.get('nodeId'),</p>
+<p>        asId: PageVars.get('assetId'),</p>
+<p>		</p>
+<p>        </p>
+<p>        astId: PageVars.get('assetTypeId'),</p>
+<p>        x_breadcrumb: PageVars.get('breadcrumb'),</p>
+<p>        pguid:  window.cbsiGUID</p>
+<p>    };</p>
+<p>    </p>
+<p>        DW.pageParams.testGroup = '1';</p>
+<p>	    DW.pageParams.testName = 'storyblog'</p>
+<p>        DW.pageParams.testVersion = '6';</p>
+<p>    </p>
+<p>    DW.clear();</p>
+<p>	DW.trackClicks();</p>
+<p>  </p>
+<p>  <!--</p>
+<p>      cbsiAdBehavioralSetup();</p>
+<p>      cbsiAdBehavioral();</p>
+<p>  //--></p>
+<p>       </p>
+<p>(function() {</p>
+<p>	var xclgfbrowser = Cookie.read("XCLGFbrowser");</p>
+<p>	if (xclgfbrowser == null) {</p>
+<p>		xclgfbrowser = "";</p>
+<p>	}</p>
+<p>	var cs = document.createElement('script'); cs.type = 'text/javascript';</p>
+<p>	cs.async = true;</p>
+<p>	cs.src = ('https:' == document.location.protocol ?  'https://' : 'http://') +</p>
+<p>	'static.crowdscience.com/start-c2e7cdddce.js?cp0=' + encodeURIComponent(xclgfbrowser) + '&cp1='</p>
+<p>	var s = document.getElementsByTagName('script')[0];</p>
+<p>	s.parentNode.insertBefore(cs,s);</p>
+<p>})();</p>
+<p>  tyntVariables = {"ap":"Read more: "}; </p>
+<p>if(document.location.protocol=='http:'){</p>
+<p>var Tynt=Tynt||[];Tynt.push('a3-PtMyFSr34Rsadbi-bnq');</p>
+<p>(function(){var</p>
+<p>s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var</p>
+<p>h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();</p>
+<p>}</p>
+<p> </p>
+<p>	var _sf_async_config={uid:2929,domain:"cbsnews.com",path:"/8301-504763_162-57357712.html"};</p>
+<p>        _sf_async_config.sections = "504763";</p>
+<p>	(function(){</p>
+<p>		function loadChartbeat() {</p>
+<p>			window._sf_endpt=(new Date()).getTime();</p>
+<p>				var e = document.createElement('script');</p>
+<p>				e.setAttribute('language', 'javascript');</p>
+<p>				e.setAttribute('type', 'text/javascript');</p>
+<p>				e.setAttribute('src',</p>
+<p>				(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://") +</p>
+<p>					"static.chartbeat.com/js/chartbeat.js");</p>
+<p>				document.body.appendChild(e);</p>
+<p>		}</p>
+<p>		var oldonload = window.onload;</p>
+<p>		window.onload = (typeof window.onload != 'function') ?</p>
+<p>			loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>	})();</p>
+<p>  </p>

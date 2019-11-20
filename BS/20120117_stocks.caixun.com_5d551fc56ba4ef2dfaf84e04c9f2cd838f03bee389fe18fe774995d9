@@ -1,0 +1,304 @@
+<p>金路集团预计2011年净利亏损0.9亿至1.2亿_财讯.COM</p>
+<p>GS_googleAddAdSenseService("ca-pub-1753776201213826");</p>
+<p>GS_googleEnableAllServices();</p>
+<p>GA_googleAddSlot("ca-pub-1753776201213826", "stocks_column");</p>
+<p>GA_googleFetchAds();</p>
+<p>	var commentArticleID = "NE034rh1";</p>
+<p>	var commentArticleType = 1;</p>
+<p>	var commentAritcleTitle = "金路集团预计2011年净利亏损0.9亿至1.2亿";</p>
+<p>	var channelID = "0000000n";</p>
+<p>	var pageData = '';</p>
+<p><!--</p>
+<p>function MM_reloadPage(init) {  //reloads the window if Nav4 resized</p>
+<p>  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {</p>
+<p>    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}</p>
+<p>  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();</p>
+<p>}</p>
+<p>MM_reloadPage(true);</p>
+<p>function MM_findObj(n, d) { //v4.01</p>
+<p>  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {</p>
+<p>    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}</p>
+<p>  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];</p>
+<p>  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);</p>
+<p>  if(!x && d.getElementById) x=d.getElementById(n); return x;</p>
+<p>}</p>
+<p>function MM_moveLayers(){</p>
+<p>        var ttop,tleft,h,w;</p>
+<p>        var i,p,v,obj,args=MM_moveLayers.arguments;</p>
+<p>        for (i=0; i<(args.length); i++){</p>
+<p>                if(i == 0){</p>
+<p>                        obj = args[0];</p>
+<p>                        evt=args[2];</p>
+<p>                        evt=evt?evt:window.event;</p>
+<p>                          tleft = evt.clientX+document.body.scrollLeft-5;</p>
+<p>                          ttop  = evt.clientY+document.documentElement.scrollTop-5;</p>
+<p>                }else{</p>
+<p>                        if ((obj=document.getElementById(args[i]))!=null){</p>
+<p>                                if (obj.style){</p>
+<p>                                        obj.style.left = tleft+'px';</p>
+<p>                                        obj.style.top  = ttop+2+'px';</p>
+<p>                                }</p>
+<p>                        }</p>
+<p>                }</p>
+<p>        }</p>
+<p>}</p>
+<p>function MM_showHideLayers() { //v6.0</p>
+<p>    var i,p,v,obj,args=MM_showHideLayers.arguments;</p>
+<p>    for (i=0; i<(args.length-2); i+=3)</p>
+<p>    	if ((obj=MM_findObj(args[i]))!=null){</p>
+<p>        	v=args[i+2];</p>
+<p>            if (obj.style){</p>
+<p>                obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v;</p>
+<p>            }</p>
+<p>            obj.visibility=v;</p>
+<p>    	}</p>
+<p>}</p>
+<p>var stocksCode = '金路集团||000510**';</p>
+<p>jQuery(document).ready(function(){</p>
+<p>	if ( stocksCode != '' ){</p>
+<p>        var urlMarket = '/app/common/article/getMarketGraph.ajax.php?code=' + stocksCode;</p>
+<p>    	jQuery.ajax({</p>
+<p>				type:'get',</p>
+<p>				contentType:'application/x-www-form-urlencoded; charset=GB2312',</p>
+<p>				url:urlMarket,</p>
+<p>				cache:false,</p>
+<p>				success:function(data){jQuery('#stockmarket').empty().append(data)}</p>
+<p>	    });</p>
+<p>     </p>
+<p>}</p>
+<p>});</p>
+<p>function showMarketGraph(name,code){</p>
+<p>	var html="<span id = marketText"+code+">"+name+"("+code+")</span>";</p>
+<p>	document.write(html);</p>
+<p>	var id="marketText"+code;</p>
+<p>	jQuery.ajax({</p>
+<p>				type:'get',</p>
+<p>				contentType:'application/x-www-form-urlencoded; charset=GB2312',</p>
+<p>				url:'/app/common/article/getMarketText.ajax.php?code='+code,</p>
+<p>				cache:false,</p>
+<p>				success:function(data){jQuery('#'+id).empty().append(data);}</p>
+<p>	    });</p>
+<p>}</p>
+<p>//--></p>
+<p> 财讯首页- 新闻- 经济- 商业- 理财- 基金- 股票- 期货- 外汇- 生活- 专题- 评论- 解盘- 论坛- 博客- 互动 </p>
+<p> 财迷会所 益智财迷 电子报 手机版</p>
+<p>     document.write('<a style="display:none!important" id="tanx-a-mm_29161077_2449754_9409438"></a>');</p>
+<p>     tanx_s = document.createElement("script");</p>
+<p>     tanx_s.type = "text/javascript";</p>
+<p>     tanx_s.charset = "gbk";</p>
+<p>     tanx_s.id = "tanx-s-mm_29161077_2449754_9409438";</p>
+<p>     tanx_s.async = true;</p>
+<p>     tanx_s.src = "http://p.tanx.com/ex?i=mm_29161077_2449754_9409438";</p>
+<p>     tanx_h = document.getElementsByTagName("head")[0];</p>
+<p>     if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);</p>
+<p>  </p>
+<p>if (channelID!="00000003"){document.write('<a href="http://www.caixun.com/">首页</a>&gt;');}股票>if (channelID=="00000003")($("#rtchannelhome").attr("href","http://www.caixun.com")); 正文</p>
+<p>function search_gotoLookupN() {</p>
+<p>	var inputValue = document.getElementById('searchText').value;	</p>
+<p>	if(ActionChar(inputValue) == true){</p>
+<p>	}</p>
+<p>	else{</p>
+<p>	  return false;	  </p>
+<p>	}</p>
+<p>}</p>
+<p>var searchText = $("#searchText");</p>
+<p>searchText.focus(function(){</p>
+<p>	var inputValue = $(this).attr('value');</p>
+<p>	if(inputValue == '请输入关键字')</p>
+<p>	{</p>
+<p>		$(this).attr('value','');</p>
+<p>	}</p>
+<p>});</p>
+<p>searchText.blur(function(){</p>
+<p>	var inputValue = $(this).attr('value');</p>
+<p>	if(inputValue == '')</p>
+<p>	{</p>
+<p>		$(this).attr('value','请输入关键字');</p>
+<p>	}</p>
+<p>});</p>
+<p>//对字符串进行验证FrankMeng</p>
+<p>function ActionChar(s){</p>
+<p>   var s = $("#searchText").val();</p>
+<p>  if(s ==" " && s=="请输入关键字")</p>
+<p>  {</p>
+<p>      $("#searchText").focus();</p>
+<p>      return false;</p>
+<p>  }</p>
+<p>  var reg = /^([a-zA-Z])|([\u0391-\uFFE5]+)|([,])|([\s])|([0-9])$/;</p>
+<p>  //var reg1 = /^$/</p>
+<p>  var str = s;</p>
+<p>  if(str == "")</p>
+<p>  {</p>
+<p>      alert("对不起关键词不能为空");</p>
+<p>	  $("#searchText").focus();</p>
+<p>	  //document.all.search.select();</p>
+<p>	  return false;</p>
+<p>  }else</p>
+<p>  {</p>
+<p>        var _sivalue=false;</p>
+<p>		  for(var i =0; i<str.length;i++){</p>
+<p>			 var _iKeyCode =str.substring(i,i+1);</p>
+<p>			 if(!reg.test(_iKeyCode)){</p>
+<p>			  _sivalue=true;</p>
+<p>		      }</p>
+<p>		  }</p>
+<p>		  if(_sivalue){</p>
+<p>			alert("格式不正确!");</p>
+<p>			$("#searchText").focus();</p>
+<p>	        return false;</p>
+<p>		  } else</p>
+<p>          {</p>
+<p>		   if(trim($("#searchText").val())!="请输入关键字" && trim($("#searchText").val())!="")</p>
+<p>		   {</p>
+<p>           var gotoUrl = "http://search.caixun.com/?k="+trim($("#searchText").val());</p>
+<p>	       window.open(encodeURI(gotoUrl));</p>
+<p>		   }else</p>
+<p>		   {</p>
+<p>		   alert("对不起关键词不能为空");</p>
+<p>		      $("#searchText").focus();</p>
+<p>			  //document.all.search.select();</p>
+<p>			  return false;</p>
+<p>		   }</p>
+<p>		  }		  </p>
+<p>  }</p>
+<p>}</p>
+<p>function trim(inputString) {</p>
+<p>    </p>
+<p>    if (typeof inputString != "string") { return inputString; }</p>
+<p>       var retValue = inputString;</p>
+<p>       var ch = retValue.substring(0, 1);</p>
+<p>    while (ch == " ") { </p>
+<p>    //检查字符串开始部分的空格</p>
+<p>       retValue = retValue.substring(1, retValue.length);</p>
+<p>       ch = retValue.substring(0, 1);</p>
+<p>       }</p>
+<p>       ch = retValue.substring(retValue.length-1, retValue.length);</p>
+<p>    while (ch == " ") {</p>
+<p>                 //检查字符串结束部分的空格</p>
+<p>                 retValue = retValue.substring(0, retValue.length-1);</p>
+<p>                 ch = retValue.substring(retValue.length-1, retValue.length);</p>
+<p>              }</p>
+<p>              while (retValue.indexOf("  ") != -1) { </p>
+<p>              //将文字中间多个相连的空格变为一个空格</p>
+<p>                 retValue = retValue.substring(0, retValue.indexOf("  ")) + retValue.substring(retValue.indexOf("  ")+1, retValue.length); </p>
+<p>              }</p>
+<p>              return retValue;</p>
+<p>}</p>
+<p>金路集团预计2011年净利亏损0.9亿至1.2亿</p>
+<p>2012年01月17日 19:22  已有0人阅读 字号：T | T 复制链接 打印</p>
+<p>[世华财讯]金路集团（000510）1月17日晚间公布2011年度业绩预告，预计公司2011年度净利润亏损约0.9亿元至1.2亿元，基本每股收益约-0.1477元至-0.1970元。</p>
+<p>      [世华财讯]金路集团 ( 000510 ) </p>
+<p><!--</p>
+<p>$.get('/app/common/article/getMarketText.ajax.php?code=000510', function(data) {</p>
+<p>  $('#stocksTxt000510').html(data);</p>
+<p>});</p>
+<p>//--></p>
+<p>1月17日晚间公布2011年度业绩预告，预计公司2011年度净利润亏损约0.9亿元至1.2亿元，基本每股收益约-0.1477元至-0.1970元。公司表示，报告期内，公司主要原材料电石、原盐、原煤、电力等价格不断上涨且持续高位运行，主导产品成本居高不下，加之PVC树脂销售市场低迷，特别是2011年9月下旬后，PVC树脂销售价格恶性下滑，与销售成本倒挂，导致公司亏损。(嵇南涛 编辑)</p>
+<p>已有0人阅读 字号：T | T 复制链接 打印 RSS</p>
+<p>分享</p>
+<p>function sendurl(){</p>
+<p>	var title = window.document.title;</p>
+<p>	title = title.replace("_财讯.COM","");</p>
+<p>	var url = window.location.href;</p>
+<p>	document.getElementById("kaixin").href='http://www.kaixin001.com/repaste/share.php?rurl='+encodeURIComponent(url)+'&rcontent='+encodeURIComponent('世华财讯―'+title)+'&rtitle='+encodeURIComponent('世华财讯―'+title);    </p>
+<p>	document.getElementById("xianguo").href='http://xianguo.com/service/submitdigg/?link='+encodeURIComponent(url)+'&title='+encodeURIComponent('世华财讯―'+title);</p>
+<p>	document.getElementById("tengxun").href='http://v.t.qq.com/share/share.php?url='+encodeURIComponent(url)+'&title='+encodeURIComponent('世华财讯―'+title);</p>
+<p>	return false;</p>
+<p>}</p>
+<p>function gotoWB(){</p>
+<p>	var title = window.document.title;</p>
+<p>	title = title.replace("_财讯.COM","");</p>
+<p>	var url = window.location.href;</p>
+<p>    var content = '<a href="'+url+'" taget="_blank">'+title+'</a>';</p>
+<p>	$("#wbexcerpt").attr('value', content);</p>
+<p>	</p>
+<p>	document.wbForm.submit();</p>
+<p>}</p>
+<p>财讯微博</p>
+<p>新浪微博</p>
+<p>腾讯微博</p>
+<p>搜狐微博</p>
+<p>开心网</p>
+<p>鲜果网</p>
+<p>相关新闻</p>
+<p>・渝三峡Ａ(000565)2011年度业绩预告2011/12/01</p>
+<p>・成谦声汇料全年度业绩由盈转亏2011/11/14</p>
+<p>・长源电力(000966)2011年度业绩预告2011/10/29</p>
+<p>・ST雷伊B(200168)2011年年度业绩预告2011/10/28</p>
+<p>・湖北金环(000615)2011年度业绩预告2011/10/26</p>
+<p>・美菱电器前三季净利预降56%2011/10/15</p>
+<p>・四川圣达(000835)2011年第三季度业绩预告公告2011/10/15</p>
+<p>・ST宝利来(000008)2011年度前三季度业绩预计亏损2011/10/14</p>
+<p>・建  摩Ｂ(200054)2011年度前三季度业绩预告2011/10/11</p>
+<p>・海螺型材1-9月净利预降65%-70%2011/09/29</p>
+<p>关键词</p>
+<p>材料</p>
+<p>业绩报告</p>
+<p>个股</p>
+<p>股票</p>
+<p>国内</p>
+<p>热门专题</p>
+<p>中国春运之变！</p>
+<p>年终奖那点事儿</p>
+<p>银行用户信息疑遭泄露</p>
+<p>蒙牛含毒不能道歉了事</p>
+<p>商界2011：面孔与记忆</p>
+<p>2012中国经济十大猜想</p>
+<p>防辐射服是个传说？</p>
+<p>2012中国需要什么主义</p>
+<p>盘点2011中国财经生活</p>
+<p>盘点2011：公司的选择</p>
+<p>聚焦楼市双限令</p>
+<p>电信联通遭遇反垄断</p>
+<p>	$(function(){</p>
+<p>		$('#subject').loopedCarousel({</p>
+<p>			spacing: 18</p>
+<p>		});</p>
+<p>	});</p>
+<p>财讯推广</p>
+<p>     document.write('<a style="display:none!important" id="tanx-a-mm_29161077_2449754_9432028"></a>');</p>
+<p>     tanx_s = document.createElement("script");</p>
+<p>     tanx_s.type = "text/javascript";</p>
+<p>     tanx_s.charset = "gbk";</p>
+<p>     tanx_s.id = "tanx-s-mm_29161077_2449754_9432028";</p>
+<p>     tanx_s.async = true;</p>
+<p>     tanx_s.src = "http://p.tanx.com/ex?i=mm_29161077_2449754_9432028";</p>
+<p>     tanx_h = document.getElementsByTagName("head")[0];</p>
+<p>     if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);</p>
+<p>论坛相关</p>
+<p>・ZT:如何看待高铁亏损・ZT:高铁车票为何这么贵？・ZT:高铁建设将成金融风险高发区・高铁建设为了谁 ・ZT:价值重估与价值回归・沪指3000点纠结 续演估值修复・22日金银价再创新高 银价首次突破万元大关・业绩助推 全球股市再现逼人牛气・涨幅榜背景大揭秘・业余“股神”代客炒股成被告</p>
+<p>新闻排行</p>
+<p>五粮液上黑榜 茅台股价大跌：顶端酒企玩蹦极养老金入市提振沪指暴涨 GDP增速9.2%难抗政策利好A股收评:沪指暴涨4.18% 有色板块54只股涨停 1月17日十大实力私募共爆最新股市传闻内参期指17日暴涨超5% 仍有向上动力沪综指开盘报2,206.53点涨0.02%(更新一)今日股市利好利空消息一览(1月17日)(更新一)现货交易平台启动 铁矿石价格话语权路漫漫地方养老金有望一季度入市 市场分析2011经济数据近日发布 市场影响分析</p>
+<p>财讯推荐</p>
+<p>・地方养老金有望一季度入市 市场分析・入市宜先债后股・可稳步增加国民财富・总规模达千亿・收评:沪指暴涨4.18% 有色板块54股涨停 ・又遇黑色周一 ・市场调整不足惧・极度地量藏玄机・三利空齐袭・有色金属续强势</p>
+<p>博客推荐</p>
+<p>・多方山穷水尽 大盘考验2580点・八省份公布地方债 海南债务率超93%・养生必晓：数数女人老得快的十大原委・美债降级 一个时代的终结？・中国股市的四大历史机遇（8月8日） ・解决出租司机罢工岂能一吊了之？・网上逃犯年底前自首有“优惠”・中国人为何生活得像驴子?・铁道部，请珍惜血染的动车残骸・业内人士称5年后北京或面临保姆荒</p>
+<p><!--</p>
+<p>google_ad_client = "pub-1753776201213826";</p>
+<p>/* 300x250, 创建于 08-7-1 */</p>
+<p>google_ad_slot = "8472505445";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>/*300*250，创建于2011-7-20*/ var cpro_id = 'u547227';</p>
+<p>var foja_mm_flag=true;</p>
+<p>var foja_mm_pos=1;</p>
+<p>var foja_mm_style='sytle1-1';</p>
+<p>var foja_mm_info=1;</p>
+<p> 网站地图|</p>
+<p>   关于我们| 公司动态| 合作伙伴| 诚征英才| 著作权申明| 隐私权保护| 免责申明| 广告服务| 联系我们| 友情链接 </p>
+<p>Copyright © 2011 caixun.com All rights reserved. 版权所有财讯.com </p>
+<p>京ICP备07028176号 京公网安备110301000051号</p>
+<p> </p>
+<p>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");</p>
+<p>document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F85ed4b194c2b844325d6954ed724c818' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>  visittrack_siteId = '25'; visittrack_url = 'http://gather.shushang-z.cn/Gather/trace.do'; VisitTrack.visittrack_log( visittrack_siteId, visittrack_url); </p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-22871819-1']);</p>
+<p>  _gaq.push(['_setDomainName', '.caixun.com']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>

@@ -1,0 +1,624 @@
+<p>成都12只大熊猫幼仔开始群体生活-中新网</p>
+<p>  body{font-size:12px;  text-align:center; margin:0 auto; font-family:"宋体"; background:url(</p>
+<p>http://i7.chinanews.com/tp/2011hd/images/top.gif</p>
+<p>)}</p>
+<p>.blank0{ height:0px; overflow:hidden; clear:both;}  </p>
+<p>.nav{ width:950px; margin:0 auto;}</p>
+<p>.con930 {</p>
+<p>	width: 930px;</p>
+<p>	padding-right: 10px;</p>
+<p>	padding-left: 10px;</p>
+<p>	margin: 0 auto;</p>
+<p>	clear: both;</p>
+<p>}</p>
+<p>.t1 {</p>
+<p>	font-size: 12px;</p>
+<p>	line-height: 24px;</p>
+<p>	height: 24px;</p>
+<p>	padding-top: 5px;</p>
+<p>	text-align: left;</p>
+<p>}</p>
+<p>.t1 a:link,.t1 a:visited,.t1 a:active,.t1 a:hover{</p>
+<p>	color:#000</p>
+<p>}</p>
+<p>.t2 {</p>
+<p>	font-size: 24px;</p>
+<p>	line-height: 40px;</p>
+<p>	color: #000;</p>
+<p>	background-repeat: no-repeat;</p>
+<p>	background-position: right;</p>
+<p>	text-align: left;</p>
+<p>	height: 40px;</p>
+<p>	padding-left: 10px;</p>
+<p>	width: 920px;</p>
+<p>	font-family: "黑体";</p>
+<p>}</p>
+<p>#apDiv1 {</p>
+<p>	position: absolute;</p>
+<p>	width:42px;</p>
+<p>	height:66px;</p>
+<p>	z-index:1;</p>
+<p>	left: 20px;</p>
+<p>	top: 295px;</p>
+<p>}</p>
+<p>#apDiv2 {</p>
+<p>	position: absolute;</p>
+<p>	width:42px;</p>
+<p>	height:66px;</p>
+<p>	z-index:1;</p>
+<p>	top: 295px;</p>
+<p>	right: 20px;</p>
+<p>}</p>
+<p>.border-white{border:1px solid #fff;}</p>
+<p>.t3 {</p>
+<p>	font-size: 13px;</p>
+<p>	line-height: 26px;</p>
+<p>	color: #000;</p>
+<p>	text-indent: 26px;</p>
+<p>	padding: 20px;</p>
+<p>	text-align: left;</p>
+<p>}</p>
+<p>.t4 {</p>
+<p>}</p>
+<p>.t4_1 {</p>
+<p>	text-align: center;</p>
+<p>	float: left;</p>
+<p>	height: 50px;</p>
+<p>	width: 80px;</p>
+<p>	color: #000;</p>
+<p>	padding-top: 30px;</p>
+<p>	font-weight: 700;</p>
+<p>	font-size: 14px;</p>
+<p>}</p>
+<p>.t4_2 {</p>
+<p>	float: left;</p>
+<p>	width: 634px;</p>
+<p>	padding-top:15px;</p>
+<p>}</p>
+<p>.t4_2_1 {</p>
+<p>	background-image: url(http://i7.chinanews.com/tp/2011hd/images/left.gif);</p>
+<p>	background-position: center;</p>
+<p>	float: left;</p>
+<p>	height: 80px;</p>
+<p>	width: 21px;</p>
+<p>	cursor: pointer;</p>
+<p>	background-repeat: no-repeat;</p>
+<p>}</p>
+<p>.t4_2_2 {</p>
+<p>	background-image: url(http://i7.chinanews.com/tp/2011hd/images/right.gif);</p>
+<p>	background-repeat: no-repeat;</p>
+<p>	background-position: center;</p>
+<p>	float: right;</p>
+<p>	height: 80px;</p>
+<p>	width: 21px;</p>
+<p>	cursor: pointer;</p>
+<p>}</p>
+<p>.t5{</p>
+<p>	text-align:right;</p>
+<p>	color:#FFFFFF;</p>
+<p>	clear: both;</p>
+<p>}</p>
+<p>.hd {</p>
+<p>	background-color: #efefef;</p>
+<p>	padding: 10px;</p>
+<p>	width: 930px;</p>
+<p>	margin: 0 auto;</p>
+<p>}</p>
+<p>.hd_1 {</p>
+<p>	float: left;</p>
+<p>	width: 330px;</p>
+<p>	height: 120px;</p>
+<p>	padding-left: 20px;</p>
+<p>}</p>
+<p>.hd_2 {</p>
+<p>	float: left;</p>
+<p>	width: 520px;</p>
+<p>	height: 120px;</p>
+<p>	padding-left: 20px;</p>
+<p>}</p>
+<p>.hd_3 {</p>
+<p>	background-image: url(http://i5.chinanews.com/photo/hd2010/xian.jpg);</p>
+<p>	float: left;</p>
+<p>	height: 120px;</p>
+<p>	width: 21px;</p>
+<p>}</p>
+<p>.container10{margin: 0 auto;padding:0px;width:10px;}</p>
+<p>.container930{margin: 0 auto;padding:0px;width:930px; color:#000}</p>
+<p>.container930 a{font-size:14px; </p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>.img-kuang7{ width:206px; text-align:center; float:left; margin-left:8px;margin-right:8px; margin-top:12px}</p>
+<p>.img-172{border:solid;	border-color:#d2d2d2;border-width: 1px; padding:3px 3px 3px 3px}</p>
+<p>.text-172{ width:172px;}</p>
+<p>* {margin:0;padding:0;border:0;}</p>
+<p>#scrool_div {</p>
+<p>	width:583px;</p>
+<p>	position:relative;</p>
+<p>	height:80px;</p>
+<p>	overflow:hidden;</p>
+<p>	margin-left:30px;_margin-left:15px;</p>
+<p>}</p>
+<p>#scrool_wrap {height:80px;position:absolute;width:2000px;}</p>
+<p>#scrool_wrap li {float:left;position:relative;margin-right:5px; margin-left:1px;}</p>
+<p>#scrool_div img{</p>
+<p>	width:98px; height:64px;</p>
+<p>	margin:3px;</p>
+<p>	padding:2px;</p>
+<p>}</p>
+<p>span {cursor:pointer;}</p>
+<p>.img0{</p>
+<p>	border:1px solid #7f7f7f;</p>
+<p>}</p>
+<p>.curimg{ border:1px solid #4ca9ff;}</p>
+<p>.container{</p>
+<p>	margin: 0 auto;</p>
+<p>	padding:0px;</p>
+<p>	width:100%;</p>
+<p>	text-align: left;</p>
+<p>	background-color: #e2e2e2;</p>
+<p>}</p>
+<p>.grid_4{width:230px;display:inline;float:left;margin-right:0px; margin-left:10px;}</p>
+<p>.grid_12{width:710px;display:inline;float:left;margin-left:0px;margin-right:0px; text-align:center}</p>
+<p>.clear{</p>
+<p>	clear:both;</p>
+<p>	display:block;</p>
+<p>	overflow:hidden;</p>
+<p>	visibility:hidden;</p>
+<p>	height:0px;</p>
+<p>	line-height: 0px;</p>
+<p>}</p>
+<p>#top1{</p>
+<p>	text-align:center;</p>
+<p>	height:30px;</p>
+<p>	line-height:30px;</p>
+<p>	letter-spacing:-0.5px;</p>
+<p>	background-color:#fff;</p>
+<p>}</p>
+<p>.padding-top10{ padding-top:10px;}</p>
+<p>.topbutton ,a.topbutton:link,a.topbutton:visited{width:69px;height:41px;text-align: center; background-image:url(http://i6.chinanews.com/photo/special_img2009/menu01.jpg);position: absolute; padding-top:15px; color:#FFFFFF; display:block}</p>
+<p>a.topbutton:hover{background-image:url(http://i6.chinanews.com/photo/special_img2009/menu01over.jpg); display:block; text-decoration:none; color:#FFCC66; font-weight:bold}</p>
+<p>.font-gray666 ,a.font-gray666:link,a.font-gray666:visited{color:#666666;}</p>
+<p>a.font-gray666:hover{color:#000000;}</p>
+<p>.t7 {</p>
+<p>	background-color: #000;</p>
+<p>	width: 950px;</p>
+<p>	margin: 0 auto;</p>
+<p>}</p>
+<p>#scrool_wrap{width:150000px;}</p>
+<p>#dingcaidiv{</p>
+<p>	background:url(http://i5.chinanews.com/photo/hd2010/dc-b.gif) repeat-x;</p>
+<p>}</p>
+<p>    .div950{ width:950px; margin:0 auto;}</p>
+<p>    .div-l {</p>
+<p>	float: left;</p>
+<p>	width: 200px;</p>
+<p>}</p>
+<p>    .div-r {</p>
+<p>	background-image: url(http://i5.chinanews.com/photo/hd2010/bai.gif);</p>
+<p>	background-repeat: no-repeat;</p>
+<p>	background-position: right bottom;</p>
+<p>	float: right;</p>
+<p>	width: 740px;</p>
+<p>}</p>
+<p>#nav a{ color:#000000; font-size:14px; font-weight:700}</p>
+<p>.fx{</p>
+<p>	height:32px;</p>
+<p>	line-height:32px</p>
+<p>}</p>
+<p>.fx span{ display:block; float:left}</p>
+<p>.fx img{ margin:7px 2px 0px 5px}</p>
+<p>.fx a{ font-size:12px; color:#000000; }</p>
+<p>.link{  padding:13px 20px; color:#a6b8c7}</p>
+<p>.link a{ color:#a6b8c7}</p>
+<p>.lianx{ text-align:center; color:#a6b8c7; padding:7px 0px;}</p>
+<p>.lianx a{ color:#a6b8c7}</p>
+<p>.banq{ color:#a6b8c7; text-align:center; padding:2px 8px 8px; line-height:24px}</p>
+<p>.banq a{ color:#a6b8c7;}</p>
+<p>.mid .dhlib li{ }</p>
+<p>.mid .dhlib li a{ font-size:14px; color:#333333; padding:25px; line-height:24px}</p>
+<p>.mingc{ width:101px; height:22px; margin:6px 20px 0px; padding-top:1px; text-align:center; line-height:22px;font-size:14px; color:#FFFFFF; font-weight:bold;}</p>
+<p>.mingc a{ font-size:14px; color:#FFFFFF; font-weight:bold; }</p>
+<p>#underlink{}</p>
+<p>.link_buttom{</p>
+<p>	float:right;</p>
+<p>	width:70px;</p>
+<p>	margin-right:0px;</p>
+<p>	vertical-align:center;</p>
+<p>	color: #000;</p>
+<p>}</p>
+<p>.link_buttom1{float:right;width:80px;margin-right:4px; vertical-align:center;}</p>
+<p>.link_buttom1 dt{</p>
+<p>	font-size:12px;</p>
+<p>	padding-top:-4px;</p>
+<p>*padding-top:-3px;		_padding-top:-3px;</p>
+<p>	padding-left:4px;</p>
+<p>	float:left;</p>
+<p>	cursor:pointer;</p>
+<p>	color:#000</p>
+<p>}</p>
+<p>.link_buttom1 dt a,.link_buttom2 dt a:visited { color:#7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom1 dt a:hover { color: #7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom2{</p>
+<p>	float:right;</p>
+<p>	width:78px;</p>
+<p>	margin-right:4px;</p>
+<p>	vertical-align:center;</p>
+<p>}</p>
+<p>.link_buttom2 dt{</p>
+<p>	font-size:12px;</p>
+<p>	padding-top:-6px;</p>
+<p>*padding-top:-3px;		_padding-top:-3px;</p>
+<p>	padding-left:4px;</p>
+<p>	float:left;</p>
+<p>	cursor:pointer;</p>
+<p>	color:#000</p>
+<p>}</p>
+<p>.link_buttom2 dt a,.link_buttom2 dt a:visited { color:#7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom2 dt a:hover { color: #7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom3{float:right; margin-right:0px;width:80px; vertical-align:center;}</p>
+<p>.link_buttom3 dt{ font-size:12px;  padding-top:-6px; padding-left:3px; float:left; cursor:pointer;color:#000}</p>
+<p>.link_buttom3 dt a,.link_buttom3 dt a:visited { color:#7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom3 dt a:hover { color: #7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom4{float:right;width:80px;margin-right:4px; vertical-align:center;}</p>
+<p>.link_buttom4 dt{</p>
+<p>	font-size:12px;</p>
+<p>	padding-top:-6px;</p>
+<p>	padding-left:4px;</p>
+<p>	float:left;</p>
+<p>	cursor:pointer;</p>
+<p>	color:#000</p>
+<p>}</p>
+<p>.link_buttom4 dt a,.link_buttom4 dt a:visited { color:#7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom4 dt a:hover { color: #7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom5{float:right;width:80px;margin-right:4px; vertical-align:center;}</p>
+<p>.link_buttom5 dt{</p>
+<p>	font-size:12px;</p>
+<p>	padding-top:-6px;</p>
+<p>*padding-top:-3px;		_padding-top:-3px;</p>
+<p>	padding-left:4px;</p>
+<p>	float:left;</p>
+<p>	cursor:pointer;</p>
+<p>	color:#000</p>
+<p>}</p>
+<p>.link_buttom5 dt a,.link_buttom2 dt a:visited { color:#7a7a7a; text-decoration:none; }</p>
+<p>.link_buttom5 dt a:hover { color: #7a7a7a; text-decoration:none; }</p>
+<p>.top{ width:960px; background:#FFFFFF; margin:0 auto; line-height:42px}</p>
+<p>.baner{ width:950px; margin:0 auto; background:url(http://i7.chinanews.com/tp/2011hd/images/hr_di.jpg) no-repeat bottom; text-align:left;}</p>
+<p>.baner .par1{ float:left; width:175px; display:block}</p>
+<p>.baner .par2{ float:left; width:710px; background:url(</p>
+<p>http://i7.chinanews.com/tp/2011hd/images/logo1.JPG</p>
+<p>) no-repeat bottom right; height:54px; padding-top:8px;padding-left:20px;}</p>
+<p>.baner_mc{ </p>
+<p>color:#000000;</p>
+<p> line-height:28px}</p>
+<p>.baner_mc a{ font-size:14px; font-weight:bold;  </p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>.tt1{ </p>
+<p>color:#000000;</p>
+<p> line-height:26px}</p>
+<p>.tt1 a{ font-size:12px; </p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>.zxians{ width:948px; border:1px solid #dedede; background:#FFFFFF; border-width:0px 1px;}</p>
+<p>.playNav{ height:30px;line-height:22px;padding-top:20px; padding-bottom:20px}</p>
+<p>.playNav i{ display:block;float:left;}</p>
+<p>.playNav .title{padding-left:10px;font-size:28px; line-height:32px; font-weight:bold;font-family:"黑体";</p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>i{ font-style:normal;}</p>
+<p>.jump{height:23px;line-height:22px;padding:0 1px 0 2px;text-align:center;font-size:14px; float:left; font-weight:bold;</p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>.jump span{ </p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>span#showPage{ color:#D60011;}</p>
+<p>.fx{ width:385px; height:32px; overflow:hidden; padding-left:64px; background:url(http://i7.chinanews.com/tp/2011hd/images/fx.jpg) no-repeat; float:left; text-align:left; line-height:34px}</p>
+<p>.fx a{ display:block; float:left; padding-left:16px;}</p>
+<p>.fx1{ width:409px; height:32px; overflow:hidden; background:url(http://i7.chinanews.com/tp/2011hd/images/fx1.jpg) no-repeat; float:right; text-align:left; line-height:34px}</p>
+<p>.fx1 a{ display:block; float:left; padding-left:16px;}</p>
+<p>.imgShow{ width:910px;zoom:1; padding-bottom:20px; margin:0 auto; overflow:hidden}</p>
+<p>.syzj{ display:block; float:left; background:url(http://i7.chinanews.com/tp/2011hd/images/shangyiye.jpg) no-repeat; width:118px; height:95px; padding-top:10px; padding-right:19px}</p>
+<p>.syzj img{ width:102px; height:68px;} </p>
+<p>.syzj2 img{ width:102px; height:68px;} </p>
+<p>.syzj2{ display:block; float:left; background:url(http://i7.chinanews.com/tp/2011hd/images/xiayiye.jpg) no-repeat; width:118px; height:95px; padding-top:10px; margin-left:19px; }</p>
+<p>.blank10{ height:10px; overflow:hidden; clear:both;}</p>
+<p>#dibandiv li{ width:154px; float:left; margin-left:60px; _margin-left:40px; margin-bottom:20px; line-height:24px}</p>
+<p>#dibandiv li img{ height:106px; padding:2px; cursor:pointer; border:1px solid #e5e3e4; display:block; margin:0 auto;}</p>
+<p>  </p>
+<p> </p>
+<p><!--</p>
+<p>document.domain = "chinanews.com"; </p>
+<p>--></p>
+<p>var bbsmood={"mood1":0,"mood2":0,"total":0};</p>
+<p> </p>
+<p>document.onkeydown = pageEvent; </p>
+<p>var prevpage="/tp/hd2011/2012/01-12/83984.shtml#nextpage"; </p>
+<p>var nextpage="/tp/hd2011/2012/01-12/83986.shtml#nextpage"; </p>
+<p>function pageEvent(evt){ </p>
+<p>evt = evt ||window.event; </p>
+<p>var key=evt.which||evt.keyCode; </p>
+<p>if (key == 37) location = prevpage </p>
+<p>if (key == 39) location = nextpage </p>
+<p>}; </p>
+<p>var picsJson={"pics":[</p>
+<p>     {"thumbPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83981F16470DT20120112171642.jpg","articleTag":"成都12只大熊猫幼仔开始群体生活","tag":"/tp/hd2011/2012/01-12/83981.shtml#nextpage","type":"0","pubLinkId":"0","articleUrl":"","productId":"349691","id":"0","fileSize":"0","articleTitle":"中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。中新社发 刘忠俊 摄","alt":"成都12只大熊猫幼仔开始群体生活","bigPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83981F16470DT20120112171642.jpg","uploadBy":"","middlePicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83981F16470DT20120112171642.jpg"}</p>
+<p>   ,</p>
+<p>     {"thumbPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83982F16470DT20120112171947.jpg","articleTag":"成都12只大熊猫幼仔开始群体生活","tag":"/tp/hd2011/2012/01-12/83982.shtml#nextpage","type":"0","pubLinkId":"0","articleUrl":"","productId":"349691","id":"1","fileSize":"0","articleTitle":"中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。中新社发 刘忠俊 摄","alt":"成都12只大熊猫幼仔开始群体生活","bigPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83982F16470DT20120112171947.jpg","uploadBy":"","middlePicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83982F16470DT20120112171947.jpg"}</p>
+<p>   ,</p>
+<p>     {"thumbPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83983F16470DT20120112172042.jpg","articleTag":"成都12只大熊猫幼仔开始群体生活","tag":"/tp/hd2011/2012/01-12/83983.shtml#nextpage","type":"0","pubLinkId":"0","articleUrl":"","productId":"349691","id":"2","fileSize":"0","articleTitle":"中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为脱离母亲后的大熊猫幼仔。中新社发 刘忠俊 摄","alt":"成都12只大熊猫幼仔开始群体生活","bigPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83983F16470DT20120112172042.jpg","uploadBy":"","middlePicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83983F16470DT20120112172042.jpg"}</p>
+<p>   ,</p>
+<p>     {"thumbPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83984F16470DT20120112172059.jpg","articleTag":"成都12只大熊猫幼仔开始群体生活","tag":"/tp/hd2011/2012/01-12/83984.shtml#nextpage","type":"0","pubLinkId":"0","articleUrl":"","productId":"349691","id":"3","fileSize":"0","articleTitle":"中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为正在玩耍的大熊猫幼仔。<br>中新社发 刘忠俊 摄","alt":"成都12只大熊猫幼仔开始群体生活","bigPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83984F16470DT20120112172059.jpg","uploadBy":"","middlePicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83984F16470DT20120112172059.jpg"}</p>
+<p>   ,</p>
+<p>     {"thumbPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83985F16470DT20120112172117.jpg","articleTag":"成都12只大熊猫幼仔开始群体生活","tag":"/tp/hd2011/2012/01-12/83985.shtml#nextpage","type":"0","pubLinkId":"1","articleUrl":"","productId":"349691","id":"4","fileSize":"0","articleTitle":"中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。<br>中新社发 刘忠俊 摄","alt":"成都12只大熊猫幼仔开始群体生活","bigPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83985F16470DT20120112172117.jpg","uploadBy":"","middlePicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83985F16470DT20120112172117.jpg"}</p>
+<p>   ,</p>
+<p>     {"thumbPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83986F16470DT20120112172429.jpg","articleTag":"成都12只大熊猫幼仔开始群体生活","tag":"/tp/hd2011/2012/01-12/83986.shtml#nextpage","type":"0","pubLinkId":"1","articleUrl":"","productId":"349691","id":"5","fileSize":"0","articleTitle":"中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为调皮的大熊猫幼仔爬树。<br>中新社发 刘忠俊 摄","alt":"成都12只大熊猫幼仔开始群体生活","bigPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83986F16470DT20120112172429.jpg","uploadBy":"","middlePicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83986F16470DT20120112172429.jpg"}</p>
+<p>   ,</p>
+<p>     {"thumbPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83987F16470DT20120112172450.jpg","articleTag":"成都12只大熊猫幼仔开始群体生活","tag":"/tp/hd2011/2012/01-12/83987.shtml#nextpage","type":"0","pubLinkId":"1","articleUrl":"","productId":"349691","id":"6","fileSize":"0","articleTitle":"中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为调皮的大熊猫幼仔爬树。<br>中新社发 刘忠俊 摄","alt":"成都12只大熊猫幼仔开始群体生活","bigPicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83987F16470DT20120112172450.jpg","uploadBy":"","middlePicUrl":"/tp/hd2011/2012/01-12/U225P4T426D83987F16470DT20120112172450.jpg"}</p>
+<p>					  ]};</p>
+<p>window.onload=function(){</p>
+<p>  			var isding=1;</p>
+<p>  			var url="http://app1.chinanews.com.cn/newsHeart/bbscount";</p>
+<p>			var aid='4_426_83985';</p>
+<p>			var newstime='17:21:17';</p>
+<p>			var newstitle='成都12只大熊猫幼仔开始群体生活';</p>
+<p>			var newstype='tp';</p>
+<p>			var newsdate='2012-01-12';</p>
+<p>			var newsurl='http://www.chinanews.com//tp/hd2011/2012/01-12/83985.shtml';</p>
+<p>  			var mood1;</p>
+<p>  			var mood2;</p>
+<p>			if(bbsmood==undefined){</p>
+<p>			    mood1=0;</p>
+<p>			    mood2=0;</p>
+<p>			}else{</p>
+<p>			   mood1=bbsmood.mood1;</p>
+<p>			   mood2=bbsmood.mood2;</p>
+<p>			}</p>
+<p>  			$('#mood1').html(mood1+"");</p>
+<p>  			$('#mood2').html(mood2+"");</p>
+<p>  			var tmood;</p>
+<p>  			var temaid=aid;</p>
+<p>  			var strCookie=document.cookie;</p>
+<p>			var arrCookie=strCookie.split(";");</p>
+<p>			for(var m=0;m<arrCookie.length;m++){</p>
+<p>				var ac=$.trim(arrCookie[m]);</p>
+<p>			    if(ac.indexOf(aid+'=')!=-1){</p>
+<p>			    	isding=2;</p>
+<p>					var co=ac.split("=");</p>
+<p>					var conum=parseInt(co[1]);</p>
+<p>					var el=$("#mood"+conum);</p>
+<p>					tmood=el.html();</p>
+<p>  					mood1=parseInt(tmood);</p>
+<p>  					el.html(mood1+1);</p>
+<p>			    	break;</p>
+<p>			    }</p>
+<p>			 }</p>
+<p>  			$('#dingdiv').click(function(){</p>
+<p>   var client = new PHPRPC_Client('http://app1.chinanews.com.cn/newsHeart/rpc/mood.jsp', ['getParmam']);  </p>
+<p>if(isding==1){</p>
+<p>client.getParmam(aid,"1",newstitle,newstype,newsurl,newstime,newsdate,function (result, args, output, warning) {  });  </p>
+<p>  					isding=2;</p>
+<p>  					tmood=$('#mood1').html();</p>
+<p>  					mood1=parseInt(tmood);</p>
+<p>  					$('#mood1').html(mood1+1);</p>
+<p>  					setCookie(temaid,"1");</p>
+<p>  				}else{</p>
+<p>  					alert("你已经点击过了！");</p>
+<p>  				}</p>
+<p>  			});</p>
+<p>  			$('#caidiv').click(function(){</p>
+<p>   var client = new PHPRPC_Client('http://app1.chinanews.com.cn/newsHeart/rpc/mood.jsp', ['getParmam']);  </p>
+<p>  				if(isding==1){</p>
+<p>client.getParmam(aid,"2",newstitle,newstype,newsurl,newstime,newsdate,function (result, args, output, warning) {  });  </p>
+<p>  					isding=2;</p>
+<p>  					tmood=$('#mood2').html();</p>
+<p>  					mood2=parseInt(tmood);</p>
+<p>  					$('#mood2').html(mood2+1);</p>
+<p>  					setCookie(temaid,"2");</p>
+<p>  				}else{</p>
+<p>  					alert("你已经点击过了！");</p>
+<p>  				}</p>
+<p>  			});</p>
+<p>  		}</p>
+<p> function setCookie(name,value)   </p>
+<p>  {   </p>
+<p>      var   Days   =   1;  </p>
+<p>      var   exp     =   new   Date();   </p>
+<p>      exp.setTime(exp.getTime()   +   Days*24*60*60*1000);</p>
+<p>      document.cookie=name+ "="+ escape(value)   +";expires="+exp.toGMTString();   </p>
+<p>  }</p>
+<p>var initnum=5;//每次显示张数</p>
+<p>var scrollWrapW=116;//每次滚动距离</p>
+<p>var iss=5;//当前张数</p>
+<p>var l;</p>
+<p>$(document).ready(function () {</p>
+<p>	l=$('#scrool_wrap li').length;</p>
+<p>	iss=iss-1;</p>
+<p>	$("#left").bind("click",ole);</p>
+<p>	$("#right").bind("click",ori);</p>
+<p>	var total = $('#scrool_wrap li').length;</p>
+<p>	$("#zys").html(total); </p>
+<p>	//$('#scrool_wrap li').eq(iss).find('img').eq(0).addClass('curimg');</p>
+<p>	for(tmp=0;tmp<l;tmp++){</p>
+<p>$('#scrool_wrap li').eq(tmp).find('img').eq(0).addClass('img0');</p>
+<p>}</p>
+<p>	$('#scrool_wrap li').eq(iss).find('img').eq(0).addClass('curimg');</p>
+<p>	if(iss>0&&iss<initnum){</p>
+<p>		var tiss=iss;</p>
+<p>		var temscr=-scrollWrapW*(tiss);</p>
+<p>		$("#scrool_wrap").animate({left:temscr},1000);</p>
+<p>	}else{</p>
+<p>		if(iss<=l-initnum){</p>
+<p>			var tiss=iss;</p>
+<p>			var temscr=-scrollWrapW*(tiss);</p>
+<p>			$("#scrool_wrap").animate({left:temscr},1000);</p>
+<p>		}else{</p>
+<p>			var tiss=l-initnum;</p>
+<p>			var temscr=-scrollWrapW*(tiss);</p>
+<p>			$("#scrool_wrap").animate({left:temscr},1000);</p>
+<p>			iss=tiss;</p>
+<p>		}</p>
+<p>	}</p>
+<p>});</p>
+<p>function ole(){</p>
+<p>	if(iss==-1){</p>
+<p>		iss=0;</p>
+<p>	}else if(iss==(l-initnum)){</p>
+<p>		olend();</p>
+<p>	}else if(iss<(l-initnum)){</p>
+<p>		var temscr=-scrollWrapW*(iss+1);</p>
+<p>		$("#scrool_wrap").animate({left:temscr},1000);</p>
+<p>		iss++;</p>
+<p>	}</p>
+<p>}</p>
+<p> function ori(){</p>
+<p> 	if(iss>0){</p>
+<p>		var temscr=-scrollWrapW*(iss-1);</p>
+<p>		$("#scrool_wrap").animate({left:temscr},1000);</p>
+<p>		iss--;</p>
+<p>	}else {</p>
+<p>		olend();</p>
+<p>	}</p>
+<p> }</p>
+<p>function  olend(){</p>
+<p>	//到底后的跳方法</p>
+<p>	alert("您已浏览完全部缩略图");</p>
+<p>}</p>
+<p>function  orend(){</p>
+<p>	//到底后的跳方法</p>
+<p>	alert("您已浏览完全部缩略图");</p>
+<p>}</p>
+<p>function dp(id){document.getElementById('topPrev').className ="pre"+id;}</p>
+<p>function dm(id){document.getElementById('topNext').className = "next"+id;}</p>
+<p>function mt(id){document.getElementById('mian').style.display = "none";document.getElementById('mian2').style.display = "none";document.getElementById('mian1').style.display = "block";}</p>
+<p>function mt1(id){document.getElementById('mian').style.display = "block";document.getElementById('mian2').style.display = "block";document.getElementById('mian1').style.display = "none";}</p>
+<p>function xki(id){document.getElementById('hg').style.display = "block";}</p>
+<p>function xki1(id){document.getElementById('hg').style.display = "none";}</p>
+<p>高清・图集 | 最新图片 | 国内聚焦 | 社会百态 | 国际博览 | 娱乐体育 | 时尚魅影 | 军事科技 | 港澳台侨</p>
+<p>你的位置：新闻中心> 图片频道> 高清图</p>
+<p>成都12只大熊猫幼仔开始群体生活</p>
+<p>				(5/7)</p>
+<p>全屏观看</p>
+<p>var picUrl="/tp/hd2011/2012/01-12/U225P4T426D83981F16470DT20120112171642.jpg|/tp/hd2011/2012/01-12/U225P4T426D83982F16470DT20120112171947.jpg|/tp/hd2011/2012/01-12/U225P4T426D83983F16470DT20120112172042.jpg|/tp/hd2011/2012/01-12/U225P4T426D83984F16470DT20120112172059.jpg|/tp/hd2011/2012/01-12/U225P4T426D83985F16470DT20120112172117.jpg|/tp/hd2011/2012/01-12/U225P4T426D83986F16470DT20120112172429.jpg|/tp/hd2011/2012/01-12/U225P4T426D83987F16470DT20120112172450.jpg";</p>
+<p>var currentUrl="/tp/hd2011/2012/01-12/U225P4T426D83981F16470DT20120112171642.jpg";</p>
+<p>var picTitle="成都12只大熊猫幼仔开始群体生活|成都12只大熊猫幼仔开始群体生活|成都12只大熊猫幼仔开始群体生活|成都12只大熊猫幼仔开始群体生活|成都12只大熊猫幼仔开始群体生活|成都12只大熊猫幼仔开始群体生活|成都12只大熊猫幼仔开始群体生活";</p>
+<p>var picDescribe="中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。中新社发 刘忠俊 摄|中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。中新社发 刘忠俊 摄|中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为脱离母亲后的大熊猫幼仔。中新社发 刘忠俊 摄|中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为正在玩耍的大熊猫幼仔。<br>中新社发 刘忠俊 摄|中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。<br>中新社发 刘忠俊 摄|中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为调皮的大熊猫幼仔爬树。<br>中新社发 刘忠俊 摄|中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。图为调皮的大熊猫幼仔爬树。<br>中新社发 刘忠俊 摄";</p>
+<p>   var so = new SWFObject("http://www.chinanews.com/fileftp/2011/04/2011-04-18/U33P4T47D18030F967DT20110418110027.swf", "mymovie", "34", "30", "8", "#000000");</p>
+<p>      so.addParam("quality", "high"); </p>
+<p>so.addParam("scale", "noscale");  </p>
+<p>so.addParam("salign", "tl"); </p>
+<p>   //so.addParam("wmode", "window");</p>
+<p>so.addParam('wmode','transparent'); </p>
+<p>   so.addParam("allowFullScreen", "true");</p>
+<p>so.addParam("allowscriptaccess", "always"); </p>
+<p>so.addVariable("picUrl",picUrl);</p>
+<p>so.addVariable("picTitle",picTitle);</p>
+<p>so.addVariable("picDescribe",picDescribe);</p>
+<p>so.addVariable("currentUrl",currentUrl);</p>
+<p>   so.write("flashcontent");</p>
+<p>“← →” 可以实现快速翻页</p>
+<p>    中国成都大熊猫繁育研究基地的12只大熊猫幼仔近日告别母亲开始群体生活。2011年，中国共成功繁育了21只大熊猫，圈养大熊猫数量达到328只，仅成都大熊猫繁育研究基地就有108只。</p>
+<p>中新社发 刘忠俊 摄</p>
+<p>发布时间：2012-01-12 17:21:17 【编辑：金硕】</p>
+<p>成都12只大熊猫幼仔开始群体生活</p>
+<p>$(document).ready(function(){</p>
+<p>var cts="<ul id='pkk'>";</p>
+<p> for(var i=0;i<picsJson.pics.length;i++){</p>
+<p> 				cts+="<li ><a target='_self' href='"+picsJson.pics[i].tag+"'><img id='screen' title='"+picsJson.pics[i].articleTitle+"' src='"+picsJson.pics[i].thumbPicUrl+"'/></a>";				</p>
+<p>				cts+=""+picsJson.pics[i].articleTag+"</li>";</p>
+<p>				if(i% 4==3)</p>
+<p>				{</p>
+<p>				cts+="<div class='blank0'></div>";</p>
+<p>				}</p>
+<p> }</p>
+<p>cts+="</ul>";</p>
+<p>$('#dibandiv').html(cts);</p>
+<p>var ul = document.getElementById('pkk');</p>
+<p>var lisp = ul.getElementsByTagName('img');</p>
+<p>for(var i=0;i<lisp.length;i++){</p>
+<p>    lisp[i].onclick = function(){</p>
+<p> 	 document.getElementById('screen').src=this.src	</p>
+<p>document.getElementById('pkcc').innerHTML=this.title	</p>
+<p>document.getElementById('mian1').style.display = "none";</p>
+<p>document.getElementById('mian').style.display = "block";</p>
+<p>document.getElementById('mian2').style.display = "block";</p>
+<p>    }</p>
+<p>}</p>
+<p>})	</p>
+<p>.fx_new{ width:385px; height:32px; overflow:hidden; padding-left:32px;  float:left; text-align:left; line-height:34px}</p>
+<p>.bshare-chinanews_s{background: url("http://bbs.chinanews.com/web/fileftp/2011/06/2011-06-28/U282P44T64D18F1055DT20110629150236.gif") no-repeat scroll 0 0 transparent;}</p>
+<p>分享到:</p>
+<p>更多...</p>
+<p>function share_uchome(){</p>
+<p>  var targetUrl="http://sns.chinanews.com/iframe/smoData/smoApi.php?web=uchome"+"&url="+encodeURIComponent(document.location.href)+'&title='+encodeURIComponent(document.title);</p>
+<p>   window.open(targetUrl);</p>
+<p>}</p>
+<p>我要评论 查看评论(0)</p>
+<p>顶() </p>
+<p>踩() </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>  document.getElementById('scrip1').src = "http://log.hkcna.hk/log.js?a=" + Math.floor(Math.random()*100000);</p>
+<p>编辑推荐</p>
+<p>银河系大量新星诞生</p>
+<p>南京全城搜捕抢劫嫌犯</p>
+<p>【春运】温暖回家路</p>
+<p>var sogou_param = new Array();</p>
+<p>sogou_param["pid"]  = 'chinanews';</p>
+<p>sogou_param["ct"]  = 'context';</p>
+<p>sogou_param["fmt"]  = 'h_468_60';</p>
+<p>sogou_param["iw"]   = '950';</p>
+<p>sogou_param["ih"]   = '90';</p>
+<p>sogou_param["charset"]   = 'utf-8';</p>
+<p>sogou_param["c_bo"] = 'E6E6E6';</p>
+<p>sogou_param["c_bg"] = 'FFFFFF';</p>
+<p>sogou_param["c_li"] = '0000ff';</p>
+<p>sogou_param["c_te"] = '4d4d4d';</p>
+<p>sogou_param["c_bt"] = '000000';</p>
+<p>sogou_param["c_hl"] = 'FF0900';</p>
+<p>sogou_param["sv"] = '0';</p>
+<p>sogou_param["sl"] = '1';</p>
+<p>sogou_param["hl"] = '2';</p>
+<p>sogou_param["tfs"] = '14';</p>
+<p>sogou_param["tft"] = '1';</p>
+<p>sogou_param["tml"] = '28';</p>
+<p>sogou_param["dn"] = '4';</p>
+<p>sogou_param["ucl"] = '008000';</p>
+<p>sogou_param["ufs"] = '10';</p>
+<p>sogou_param["uft"] = '0';</p>
+<p>sogou_param["dfs"] = '12';</p>
+<p>sogou_param["mhc"] = 'FF0900';</p>
+<p>sogou_param["mht"] = '0';</p>
+<p>sogou_param["tdw"] = '';</p>
+<p>sogou_param["lod"] = '64';</p>
+<p>sogou_param["ppc"] = '0';</p>
+<p>sogou_param["dul"] = '1';</p>
+<p>sogou_param["new"] = '1';</p>
+<p>sogou_param["tlh"] = '16';</p>
+<p>sogou_param["tpl"] = '0';</p>
+<p>var arrBaiduCproConfig=new Array();arrBaiduCproConfig['n'] = 'chinanews_cpr';arrBaiduCproConfig['tm'] = '15';arrBaiduCproConfig['cm'] = '30';arrBaiduCproConfig['um'] = '26';arrBaiduCproConfig['w'] = '950';arrBaiduCproConfig['h'] = '90';arrBaiduCproConfig['wn'] = '4';arrBaiduCproConfig['hn'] = '1';arrBaiduCproConfig['ta'] = 'right';arrBaiduCproConfig['tl'] = 'bottom';arrBaiduCproConfig['bu'] = '1';arrBaiduCproConfig['bd'] = '#E6E6E6';arrBaiduCproConfig['bg'] = '#FFFFFF';arrBaiduCproConfig['tt'] = '#FF0000';arrBaiduCproConfig['ct'] = '#000000';arrBaiduCproConfig['url'] = '#666666';arrBaiduCproConfig['bdl'] = '#444444';arrBaiduCproConfig['nfr'] = '1';arrBaiduCproConfig['rad'] = '1';arrBaiduCproConfig['uap'] = '0';arrBaiduCproConfig['cad'] = '0';arrBaiduCproConfig['channel'] = 'd';document.write(baiduCproIFrame());</p>
+<p><!--</p>
+<p>/*页底*/</p>
+<p>.pagebottom{width:950px;margin:0 auto;</p>
+<p>color:#000000;</p>
+<p> font-size:12px;clear:both;margin:0 auto;}</p>
+<p>.pagebottom a:link{</p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>.pagebottom a:visited{</p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>.pagebottom a:hover{</p>
+<p>color:#000000;</p>
+<p>}</p>
+<p>.pagebottom_1{height:33px;line-height:33px;text-align:center;}</p>
+<p>.pagebottom_2{text-align:center;line-height:20px;}</p>
+<p>--></p>
+<p>关于我们　| About us　|　联系我们　|　广告服务　|　供稿服务　|　法律声明　|　招聘信息　|　网站地图　|　留言反馈</p>
+<p>本网站所刊载信息，不代表中新社和中新网观点。 刊用本网站稿件，务经书面授权。</p>
+<p>未经授权禁止转载、摘编、复制及建立镜像，违者将依法追究法律责任。</p>
+<p>[网上传播视听节目许可证（0106168)] [京ICP证040655号] 总机：86-10-87826688</p>
+<p>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");</p>
+<p>document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffaa6017d4c51b2c94d1d16c0117a756e' type='text/javascript'%3E%3C/script%3E"));</p>

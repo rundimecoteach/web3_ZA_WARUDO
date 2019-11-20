@@ -1,0 +1,203 @@
+<p> </p>
+<p>Kac - syndrom dnia następnego > Warto wiedzieć</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('..fqHzQXN5W.gB4LxbAhIpSsLW_6247wLmK22DbKBeL.k7');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'zdrowie', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_zdrowie");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_big_board_board1_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 122;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_zdrowie");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Zdrowie</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_zdrowie");</p>
+<p>	</p>
+<p>Zdrowie</p>
+<p>Uroda Moda Seks Lifestyle</p>
+<p>Ślub Dziecko Kulinaria Dom więcej</p>
+<p>Warto wiedziećChorobyDietaMedycyna naturalnaProfilaktykaLeki i preparatyABC PacjentaBaza aptekBaza ZOZ Zdrowie Forum </p>
+<p>ZdrowieWarto wiedziećKac - syndrom dnia następnego </p>
+<p>	</p>
+<p>	var WinWidth = $(window).width();</p>
+<p>	</p>
+<p>	if(document.screening == 0 && WinWidth >= 1356){</p>
+<p>	GA_googleFillSlot("we2_sky1_sky1_zdrowie");	</p>
+<p>	}</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_zdrowie");</p>
+<p>Warto wiedzieć01 Sty 2012kom. (10)3071Katarzyna ZiajaKac - syndrom dnia następnego</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_zdrowie");</p>
+<p>Niemal po każdej zakrapianej imprezie odczuwamy szereg specyficznych objawów, do których należą bóle głowy, pragnienie, pieczenie skóry, senność, nietolerancja dźwięków i światła. Czasem też towarzyszą im wymioty, biegunka i bóle brzucha, a także „drżenia” rąk. Zdarza się również, że znacznemu obniżeniu ulega nastrój, co wpędza w melancholię i daje początek dość „ciekawym” przemyśleniom. Na ogół popularnie zwany „kac” dotyczy tych, którzy przeżyli intensywniejszą „alkoholizację”.</p>
+<p>	Syndrom dnia następnego, a raczej poprzedniego to reakcja naszego organizmu na zatrucie alkoholem. Alkohol w mniejszych i rozsądnych ilościach nie powoduje wystąpienia opisywanego stanu. Zazwyczaj to nasz brak umiaru i chęć „dobrej zabawy”, sprawiają że wypijamy za dużo o te kilka kieliszków, co skutkuje późniejszym „cierpieniem ciała i umysłu”.</p>
+<p>	Najlepszym środkiem na kaca jest abstynencja. Jednak nie zawsze się da dyplomatycznie odmówić i wybrnąć z konieczności wypicia kolejnej dozy trunku. Dlatego też zanim procentowo urozmaicimy sobie jakąś imprezę, trzeba zadbać o to, by nie spożywać alkoholu na „pusty żołądek” oraz wybierać mniej kolorowe i mniej „chemiczne” napoje alkoholowe.</p>
+<p>	Alkohol negatywnie wpływa na ściany żołądka, powodując ich podrażnienie, a ponadto jego metabolity znacznie obciążają pracę wątroby. Gdy doda się do tego przeróżne substancje, które uatrakcyjniają wygląd i zapach trunku – wątroba może rychło odmówić posłuszeństwa...</p>
+<p>	Nie warto też łączyć alkoholu z tytoniem. Nikotyna zawarta w dymie papierosowym potęguje działanie alkoholu i nie tylko przyspiesza stan upojenia, ale i zwiększa jego toksyczność. Nie zaleca się również mieszać rozmaitych trunków, gdyż to z kolei zwiększa ryzyko problemów z żołądkiem (ból brzucha, nudności, wymioty).</p>
+<p>	Gdy już nieuniknionym będzie doświadczenie objawów kaca, warto przed odpoczynkiem sennym nawodnić swój organizm, ponieważ jak wiemy alkohol sprzyja nadmiernej utracie płynów.</p>
+<p>	Zatem zanim smacznie ułożymy się do snu, polecamy wypić dwie szklanki wody mineralnej lub jedną szklankę wody i jedną soku pomarańczowego. Na dzień następny, już rano powinniśmy w dalszym ciągu uzupełniać stracone płyny – czego nasz organizm sam się dopomina (pragnienie) oraz zapewnić sobie podaż witaminy C i glukozy. Witamina C przyspiesza bowiem wydalanie metabolitów alkoholowych, z kolei glukoza odżywia nasze ciało, a głównie mózg (alkohol powoduje obniżenie poziomu glukozy we krwi, stąd np. bóle głowy i drżenia rąk).</p>
+<p>	Dobrym pomysłem na śniadanie po imprezie, będzie sałatka owocowa, owsianka z owocami, płatki zbożowe z mlekiem, soki owocowe przecierowe. Pamiętajmy, ze żołądka i wątroby nie wolno obciążać, zwłaszcza po alkoholowym nadwyrężeniu. Zadbajmy by w dzień rekonwalescencji przyjmować lekkostrawne posiłki.</p>
+<p>	Oprócz wszystkich zabiegów tradycyjnych, pomocą przychodzą środki farmaceutyczne, specjalnie przeznaczone do zapobiegania i leczenia syndromu dnia poprzedniego. Są to np. popularne 2KC lub Alkominus. Jednak równie dobrze sprawdzą się preparaty multiwitaminowe. Ponadto działanie kojące przynoszą też środki zawierające magnez i potas (Magnum, Aspargin). Pierwiastki te, możemy również w pożywieniu, np. soku z pomidorów, mleku, czekoladzie, bananach i wodzie mineralnej.</p>
+<p>	Jeżeli wystąpią dolegliwości bólowe obejmujące głowę lub całe ciało, raczej odradza się ich łagodzenie lekami dostępnymi bez recepty. Swoje trzeba po prostu przecierpieć. Połączenie leków z alkoholem, który jeszcze krąży po organizmie, może nam przynieść wiele szkód. Nie dość, że odbije się to na wątrobie, to jeszcze prawdopodobnie zwiększy ryzyko krwawienia, także z przewodu pokarmowego.</p>
+<p>	Nie wolno też zapomnieć o naszej fizjologii. Organizm w celu regeneracji potrzebuje stosowanej ilości snu. Po alkoholu z kolei, nie śpimy zbyt długo i wcześnie się budzimy. Warto jednak po przebudzeniu pozostać w łóżku – sen z pewnością przyjdzie niebawem.</p>
+<p>	Gdy już prześpimy najgorsze objawy kaca, kolejnym krokiem powinny być czynności higieniczne. Najlepszym i niezawodnym okazuje się być chłodny prysznic. Kolejną dawkę aktywizacji dostarczymy sobie prostą aromaterapią, używając kosmetyków o owocowych, rześkich zapachach.</p>
+<p>	Czas w którym nabieramy sił po zakrapianej imprezie, powinien być spędzony raczej w ruchu. Bierny odpoczynek, leżenie mogą przedłużać czas, w którym męczą nieprzyjemne objawy. Dlatego zgodnie z powiedzeniem: „na kaca najlepsza praca”, przełamujemy swoje słabe samopoczucie i ruszamy na spacer, pobiegać, czy też porządkujemy mieszkanie lub podwórko.</p>
+<p>	Pamiętajmy, że aby dobrze się bawić, niekoniecznie potrzebne jest nam morze alkoholu. Wszystko zależy od ludzi, nastrojów i ogólnej atmosfery przyjęcia. Życzliwością i uśmiechem także nieźle można się upoić, a nie grozi to znienawidzonym przez wszystkich kacem! Doceniajmy trzeźwe relacje, a w spożywaniu alkoholu zachowujmy umiar! </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_zdrowie");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_zdrowie");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123454.33/6  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Warto wiedzieć</p>
+<p>		Miesiąc Walki z Rakiem Piersi	</p>
+<p>	Na całym świecie dziesiąty miesiąc roku powiewa różowymi...</p>
+<p>	</p>
+<p>		Tydzień Honorowego Krwiodawstwa	</p>
+<p>		Czym zajmuje się bariatria?	</p>
+<p>		Badania profilaktyczne mężczyzn po...	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Tagi</p>
+<p>alkohol</p>
+<p>drink</p>
+<p>wymioty</p>
+<p>nudności</p>
+<p>ból brzucha</p>
+<p>ból głowy</p>
+<p>koniak</p>
+<p>kac</p>
+<p>kwas octowy</p>
+<p>klin</p>
+<p>metanol</p>
+<p>nadużycie alkoholu</p>
+<p>etanol</p>
+<p>syndrom dnia następnego</p>
+<p>umiar</p>
+<p>Skomentuj Kac - syndrom dnia następnegofunction valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (10) - Kac - syndrom dnia następnegoŚroda |  4 Sty 12, 13:530    nie oceniono 0Gość We-Dwoje.plRe: Kac - syndrom dnia następnegoczym się strułeś, tym się lecz ;PSkomentuj wypowiedźNiedziela |  1 Sty 12, 15:32+1    oceniono 1 razClauduSuRe: Kac - syndrom dnia następnegomy się leczymy gorącym bulionem z warzyw, ewentualnie lekki rosołek z kurczaka - pycha! Rozgrzewa ciało i duszę :-PSkomentuj wypowiedźWtorek | 14 Cze 11, 13:100    nie oceniono 0okularyRe: Kac - syndrom dnia następnegoJak się pije bez opamiętania,Za duże ilości , w szybkim  w tempie,takie są potem skutki,w postaci kaca.Kiedyś słyszałam ,że dobra jest kawa z wyciśniętą cytryną.Skomentuj wypowiedźPoniedziałek |  6 Cze 11, 14:580    nie oceniono 0Gość We-Dwoje.plRe: Kac - syndrom dnia następnegoNo i po co sie tak męczyc jak przeciez jest teraz wyjście-a mianowicie mozna pić bez umiaru wino bezalkoholowe.przynajmniej bedzie zdrowo i bez wyrzutów.Skomentuj wypowiedźNiedziela | 29 Lis 09, 21:190    nie oceniono 0Gość We-Dwoje.plRe: Kac - syndrom dnia następnegopo imprezie należy wypić 1 szklankę żywej wody. Po obudzeniu się rano też zalecam wypicie 1 - 2 szklanek żywej wody. I po kacuSkomentuj wypowiedźPoniedziałek | 23 Lis 09, 14:110    nie oceniono 0Gość We-Dwoje.plRe: Kac - syndrom dnia następnegoMnie pomaga KC24, albo biorę przed położeniem się spać wtedy są najlepsze efekty lub na drugi dzień.Skomentuj wypowiedźSobota | 24 Paź 09, 10:37-2    oceniono 2 razyJointowy Kac...Re: Kac - syndrom dnia następnegoMacie cos na jointowego kaca? ;dSkomentuj wypowiedźSobota | 19 Gru 09, 08:580    nie oceniono 0katRe: Re: Kac - syndrom dnia następnegotak mamy setka denaturatu wyleczy cie z wszystkiegoSkomentuj wypowiedźSobota |  5 Lut 11, 14:160    nie oceniono 0ZgrajaRe: Kac - syndrom dnia następnegopolecam zajarac chwilę po przebudzeniu.Skomentuj wypowiedźNiedziela | 28 Sie 11, 12:000    nie oceniono 0Gość We-Dwoje.plRe: Kac - syndrom dnia następnegonajlepsze na kaca jest powietrze z pompki od materaca.Skomentuj wypowiedźNapisz komentarz i dołącz do dyskusji - Kac - syndrom dnia następnego</p>
+<p>Podobne do Kac - syndrom dnia następnegoSyndrom oszustaOsoby cierpiące na syndrom oszusta nie wierzą, że sukcesy jakie odnoszą, zawdzięczają swoim zdolnościom. Ciągłe boją się, że ich „oszustwo” wyjdzie na jaw i się skompromitują. Na syndrom oszusta cierpią...więcej5.00/ 9252Skomentuj  (4)Tabletka antykoncepcyjna w 9 dniu...Tak więc zamiast o 20, 8 dnia przerwy wzięłam tabletkę 9 dnia o godzinie 20. Następnego dnia współżyłam z chłopakiem bez zabezpieczenia.więcej0.00/ 0162Skomentuj  (0)Zupa fasolowa z wkładkąFasolę myjemy i namaczamy na noc. Następnego dnia gotujemy ją w tej samej wodzie, w której się moczyła.więcej0.00/ 0229Skomentuj  (0)Test po 5 dniach?Mój chłopak 18 czerwca wrócił z Niemiec. Kochaliśmy się i nastąpił wytrysk do mojej pochwy. Następnego dnia odbyło się to samo tzn. wytrysk.więcej0.00/ 0267Skomentuj  (0)Sposób na przeziębienieNiestety nie zawsze udaje się nam uchronić przed przeziębieniem. Czasem wystarczy chwila, wybiegniemy rozgrzani do sklepu, stoimy w przeciągu albo złapie nas deszcz i już następnego dnia cieknie nam z nosa, jesteśmy...więcej4.50/ 25496Skomentuj  (14)Objawy wczesnej ciążyJestem w 6 tygodniu ciąży. Trzy dni temu miałam robione USG dopochwowe. Następnego dnia miałam brązowe plamienia (kilka kropli).więcej0.00/ 0244Skomentuj  (0)Sałatka z fasoliSuche nasiona fasoli, w przeddzień gotowania, po umyciu, namoczyć w przegotowanej, ciepłej wodzie, a następnego dnia ugotować w tej samej wodzie, w której się moczyła. Ugotowaną fasolę odcedzić, a wywar zużytkować do...więcej0.00/ 0208Skomentuj  (0)Zobacz podobne do Kac - syndrom dnia następnego</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_zdrowie");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column1_art1_zdrowie");</p>
+<p>	</p>
+<p>Fryzury na karnawał oraz studniówkęMłodzieżowa fryzura zakończona upięciemFarbowanie włosów, strzyżenie i lekko drapieżna stylizacjaJemioła - świąteczne ziołoMakijaż sylwestrowy 2011</p>
+<p>Wydania We2.plwięcej »05StyModna czerń i czerwień oraz Karnawałowe fryzury 2012</p>
+<p>Prosta i tania reklama w Internecie sprzedawana za pomocą AdTaily(PLALLADTAILY0002)</p>
+<p>Gorące tematyPopularneKomentowaneNoweToczeń rumieniowaty układowy u ludzi starszychZbadaj piersi z przystojniakiem!Dietetyczne wskazówki na świętaSLA - Stwardnienie zanikowe boczneZespół Downa cz. 1Zespół Ushera - rzadka choroba genetyczna</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_zdrowie");</p>
+<p>Popularne zdjęciaSukienki i SpódniceSpódnice Reserved na jesień i zimę 2011/2012Płaszcze, kurtkiPłaszcze i kurtki s.Oliver na sezon jesień-zima...więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródDekoracje ślubneEwis - dekoracje ślubne, weselne,...zespol muzyczy Diamentino ContraOprawa muzyczna ślubów</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_zdrowie");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_zdrowie");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.4.1.1','');</p>
+<p>bmone2n.addPosition('177.4.2.2','');</p>
+<p>bmone2n.addPosition('177.4.7.3','');</p>
+<p>bmone2n.addPosition('177.4.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.4.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

@@ -1,0 +1,804 @@
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p>Testing expedited to see if ecstasy involved in youth’s death - The Globe and Mail</p>
+<p>$.namespace('globe');</p>
+<p>globe.conf = {</p>
+<p>financeServiceUrl: 'http://services.theglobeandmail.com/InvestorServices/FinanceService',</p>
+<p>newsSourcesUrl: 'http://www.theglobeandmail.com/globe-investor/news-sources/',</p>
+<p>newsServiceUrl: 'http://services.theglobeandmail.com/InvestorServices/NewsService',</p>
+<p>searchServiceUrl: 'http://services.theglobeandmail.com/InvestorServices/SearchService',</p>
+<p>templateUrl: 'http://www.theglobeandmail.com/template/ver1-0',</p>
+<p>mediaUrl: 'http://beta.images.theglobeandmail.com',</p>
+<p>stockQuoteUrl: 'http://www.theglobeandmail.com/globe-investor/markets/stocks/summary/',</p>
+<p>fundQuoteUrl: 'http://www.theglobeandmail.com/globe-investor/funds-and-etfs/funds/summary/',</p>
+<p>indexQuoteUrl: 'http://www.theglobeandmail.com/globe-investor/markets/indexes/summary/',</p>
+<p>emptyMessage: '0 results found',</p>
+<p>publicationUrl: 'http://www.theglobeandmail.com/',</p>
+<p>ajaxUrl: 'http://www.theglobeandmail.com/',</p>
+<p>liveSuggestCacheLength: '100',</p>
+<p>liveSuggestUrl: 'http://ls.services.theglobeandmail.com/services-0.1/search/live',</p>
+<p>chartServiceUrl:	'http://freechart.globeinvestor.com/servlet/charting',</p>
+<p>secureUsrm: 'true',</p>
+<p>securePublicationUrl: 'https://sec.theglobeandmail.com/', uniqueSectionName: 'britishcolumbia',</p>
+<p>webappEnviro: 'prod',</p>
+<p>weatherJSONurl: '/static/weather/json/',</p>
+<p>watchlistUrl: '/globe-investor/my-watchlist',</p>
+<p>facebookAPI: '126045934076200',</p>
+<p>legacyDbUrl: 'http://investdb.theglobeandmail.com',</p>
+<p>watchlistServiceUrl: 'http://investdb.theglobeandmail.com/invest/investSQL/gx.get_stocklist_cookie?pi_return_url='</p>
+<p>};</p>
+<p>$.namespace('globe.investor');</p>
+<p>globe.investor.securityType = {</p>
+<p>FUND: '1',</p>
+<p>STOCK: '5',</p>
+<p>BOND: '10',</p>
+<p>COMMODITY: '15',</p>
+<p>ETF: '20',</p>
+<p>INDEX: '25',</p>
+<p>CURRENCY: '30'</p>
+<p>};</p>
+<p>globe.investor.securityNames = [];</p>
+<p>globe.investor.securityNames[globe.investor.securityType.FUND] = 'Fund';</p>
+<p>globe.investor.securityNames[globe.investor.securityType.STOCK] = 'Stock';</p>
+<p>globe.investor.securityNames[globe.investor.securityType.INDEX] = 'Index';</p>
+<p>globe.investor.securityNames[globe.investor.securityType.ETF] = 'ETF';</p>
+<p>globe.investor.securityNames[globe.investor.securityType.BOND] = 'Bond';</p>
+<p>globe.investor.securityNames[globe.investor.securityType.COMMODITY] = 'Commodity';</p>
+<p>globe.investor.securityNames[globe.investor.securityType.CURRENCY] = 'Currency';</p>
+<p>globe.investor.marketClose = {</p>
+<p>ca: 1326835800415</p>
+<p>};</p>
+<p>globe.investor.proxy = {</p>
+<p>timeout: 6*1000</p>
+<p>};</p>
+<p>var advLastSectionCookie = "gam.adv.lastSection";</p>
+<p>adv.site = "theglobeandmail.com";</p>
+<p>adv.vertical = "gam";</p>
+<p>adv.zone = "britishcolumbia";</p>
+<p>adv.crumb = "-pubRoot-news-national-britishcolumbia-article";</p>
+<p>lastSectionCookie = $.cookie(advLastSectionCookie);</p>
+<p>if (lastSectionCookie == null){</p>
+<p>lastSectionCookie = "britishcolumbia";</p>
+<p>}</p>
+<p>adv.loc = "art";</p>
+<p>adv.art.categories = "";</p>
+<p>adv.art.sections = "homepage,national,britishcolumbia";</p>
+<p>adv.art.sectionsHier = "homepage,news:national,news:national:britishcolumbia";</p>
+<p>adv.adpg = "britishcolumbia";</p>
+<p>adv.art.id = "2304395";</p>
+<p>adv.art.slug = "";</p>
+<p>adv.art.headline = "Testing expedited to see if ecstasy involved in youth&rsquo;s death";</p>
+<p>adv.art.type = "news";</p>
+<p>adv.art.byline = "wendy stueck";</p>
+<p>adv.art.credit = "globe and mail update";</p>
+<p>adv.art.keywords = "toxicology tests; b.c. coroners service; ecstasy; barb mcclintock; langley memorial hospital; british columbia; b.c.; british columbia news; b.c. news;";</p>
+<p>adv.lastSection = lastSectionCookie;</p>
+<p>if (typeof console == "undefined") { console = {log: function() {}, warn: function() {}} };</p>
+<p>document.domain = "theglobeandmail.com";</p>
+<p>var serverUrl = "http://sitelife.theglobeandmail.com/ver1.0/Direct/Process";</p>
+<p>globe.common.currUser = $.cookie('hd');</p>
+<p>Visit our mobile site</p>
+<p>$.namespace('globe.mobile');</p>
+<p>globe.mobile.mobileSmartDevice ="iphone,itouch,blackberry,android";</p>
+<p>globe.mobile.agent = navigator.userAgent.toLowerCase();</p>
+<p>globe.mobile.phones = globe.mobile.mobileSmartDevice.split(',');</p>
+<p>for(var i=0; i<globe.mobile.phones.length;i++){</p>
+<p>if (globe.mobile.phones[i] != "" && globe.mobile.agent.indexOf(globe.mobile.phones[i]) > -1) {$("#mobileDetection").show();} }</p>
+<p>$("#mobileDetection").click(function(){</p>
+<p>if($.cookie('mobile.redirect')){</p>
+<p>$.cookie('mobile.redirect', null,{domain:'theglobeandmail.com', expires:7});</p>
+<p>location.href = "?service=mobile";</p>
+<p>} else {</p>
+<p>location.href = "?service=mobile";</p>
+<p>}</p>
+<p>});</p>
+<p>  </p>
+<p>aPs="ldbd";</p>
+<p>var ldbdAC=fnTkt('a'+'ai',728,90,ai,'j',nc);</p>
+<p>document.write(ldbdAC);</p>
+<p>if(adv_ldbdW=="ldbd960"){fnSwapDivClass("ldbd-sec-1","ad ldbd","ad ldbd full");}</p>
+<p>The Globe and Mail</p>
+<p>Go to the Globe and Mail homepage</p>
+<p>Jump to main navigation</p>
+<p>Jump to main content</p>
+<p>Search:</p>
+<p>News</p>
+<p>Quote</p>
+<p>Web</p>
+<p>Businesses</p>
+<p>People</p>
+<p>Jobs</p>
+<p>News Search</p>
+<p>News</p>
+<p>Search Stock Quotes</p>
+<p>Quote</p>
+<p>Search The Web</p>
+<p>Search</p>
+<p>by Google</p>
+<p>Search People at canada411.ca</p>
+<p>People</p>
+<p> </p>
+<p>by Canada411.ca</p>
+<p>Search Businesses at yellowpages.ca</p>
+<p>Business</p>
+<p>by Yellowpages.ca</p>
+<p>Search Jobs at eluta.ca</p>
+<p>Jobs</p>
+<p>by eluta.ca</p>
+<p>$('#masthead .searchText').mouseenter(function() {$('.globalSearch .submit').fadeIn('fast');});</p>
+<p>Login</p>
+<p>Register</p>
+<p>globe.usrm.renderMastLinks();</p>
+<p>Select City</p>
+<p>Select City</p>
+<p>Calgary</p>
+<p>Halifax Montreal</p>
+<p>Toronto</p>
+<p>Vancouver</p>
+<p>More cities</p>
+<p>// add locationID to link in mast head when default city is chosen</p>
+<p>var defaultweathercity = $.cookie("gam.weather.default");</p>
+<p>//console.log(defaultweathercity);</p>
+<p>$('#weather-info a').attr('href', function() {</p>
+<p>if (defaultweathercity != null) { // if not empty</p>
+<p>return this.href + defaultweathercity;</p>
+<p>}</p>
+<p>});</p>
+<p>Home</p>
+<p>News</p>
+<p>Commentary</p>
+<p>Business</p>
+<p>Investing</p>
+<p>Sports</p>
+<p>Life</p>
+<p>Arts</p>
+<p>Technology</p>
+<p>Drive</p>
+<p>Site map</p>
+<p>National</p>
+<p>Politics</p>
+<p>World</p>
+<p>News Video</p>
+<p>Toronto</p>
+<p>Kindergarten</p>
+<p>Inside City Hall</p>
+<p>Marcus Gee</p>
+<p>Globe T.O. Features</p>
+<p>Toronto Traffic</p>
+<p>City Votes</p>
+<p>British Columbia</p>
+<p>B.C. Politics</p>
+<p>Alexandra Gill</p>
+<p>Tom Hawthorn</p>
+<p>Mark Hume</p>
+<p>Gary Mason</p>
+<p>Rod Mickleburgh</p>
+<p>Stephen Quinn</p>
+<p>The Pickton Case</p>
+<p>Prairies</p>
+<p>Ontario</p>
+<p>Quebec</p>
+<p>Atlantic</p>
+<p>Time to Lead</p>
+<p>Education</p>
+<p>Primary to Secondary</p>
+<p>University and College </p>
+<p>Graduate Studies </p>
+<p>Campus Reports</p>
+<p>Home</p>
+<p>» News</p>
+<p>» National</p>
+<p>» British Columbia</p>
+<p>Jan. 14: Letters to the editor</p>
+<p>Back to Watchlist</p>
+<p>The perfect tool to help you manage and track your investments.</p>
+<p>if(document.referrer.indexOf("theglobeandmail.com/globe-investor/my-watchlist/") != -1)</p>
+<p>document.getElementById("watchlistLink").style.display = "block";</p>
+<p>An assortment of ecstasy pills in Vancouver, Sept 22, 2003.</p>
+<p>Lyle Stafford for The Globe and Mail</p>
+<p>Enlarge this image</p>
+<p>Testing expedited to see if ecstasy involved in youth’s death</p>
+<p>wendy stueck </p>
+<p>VANCOUVER— </p>
+<p>Globe and Mail Update</p>
+<p>Published Monday, Jan. 16, 2012 5:18PM EST</p>
+<p>Last updated Monday, Jan. 16, 2012 9:12PM EST</p>
+<p>27 comments</p>
+<p>Email</p>
+<p>Tweet</p>
+<p>Print/License</p>
+<p>Decrease text size</p>
+<p>Increase text size</p>
+<p>aPs="t1"; var t1AC=fnTkt('a'+'ai',120,240,ai,'j',nc); document.write(t1AC); </p>
+<p>The B.C. Coroners Service has asked for toxicology tests to be carried out as soon as possible to determine if ecstasy played a role in the death of a 16-year-old Langley boy.The tests, requested from the provincial toxicology lab, will determine whether the boy took the drug and, if he did, whether the doses he took contained PMMA (paramethoxy-methamphetamine), a drug recently linked to five deaths in the province.</p>
+<p>More related to this story</p>
+<p>Tainted ecstasy linked to five recent B.C. deaths</p>
+<p>Coroner probing 2011 ecstasy deaths for signs of deadly new chemical </p>
+<p>“Because of our concern around these [cases], we are trying to prioritize them and move them to the head of the queue,” Barb McClintock, a spokeswoman for the coroners office, said Monday, adding that it’s hoped results would be available within days.The Provincial Toxicology Centre will conduct the tests.The coroners service said Monday it was investigating the death of a boy who was with others when he reportedly took ecstasy along with other drugs on Jan. 15. When he collapsed, someone nearby called 911 and an ambulance arrived and rushed the boy to Langley Memorial Hospital, but he could not be revived.Last week, the Coroners Service announced that PMMA had been linked to five ecstasy-related deaths in the province in the past six months, with two of those deaths occurring in January. PMMA has also been linked to several recent deaths in Alberta.Police and the coroners office have emphasized the risks of taking ecstasy, saying there is no known safe dose.In an interview last week, chief coroner Lisa Lapointe said it isn’t clear whether the PMMA was in one batch or not.“It could be just the tip of the iceberg. There could be thousands and thousands of pills out there with PMMA,” Ms. Lapointe said Friday in an interview. “That’s the worry. We just don’t know. It’s an illicit substance.”It’s thought that PMMA is being introduced, perhaps accidentally, in the process of manufacturing ecstasy.The drug is not routinely tested for, but B.C. reviewed toxicology findings for 12 ecstasy-related deaths in 2011 and two deaths this year after PMMA was linked to ecstasy-related deaths in Alberta.Although PMMA was detected in five cases, the coroners service emphasized that 13 other ecstasy-related deaths in the same period did not involve PMMA.“The finding of PMMA in five recent cases confirms the danger that has always been associated with taking ecstasy: There is no guarantee of purity in a drug that is concocted for profit in a clandestine environment,” the office said.Police have said there are an average 20 deaths from ecstasy each year in British Columbia.</p>
+<p> </p>
+<p>27 comments</p>
+<p>Email</p>
+<p>Tweet</p>
+<p>Print/License</p>
+<p>Decrease text size</p>
+<p>Increase text size</p>
+<p>aPs="boxr";</p>
+<p>var boxrAC=fnTkt('a'+'ai',300,250,ai,'j',nc);</p>
+<p>document.write(boxrAC);</p>
+<p>Today's Must Reads</p>
+<p>Globe Drive</p>
+<p>Deals of the week: Always read the fine print</p>
+<p>Sports</p>
+<p>Plushenko vs. Chan: Get ready for a skating showdown</p>
+<p>Globe Investor</p>
+<p>Is now the time to lock in my mortgage?</p>
+<p>Life</p>
+<p>Jay-Z vows to clean up his lyrics following daughter's birth</p>
+<p>Life</p>
+<p>Is Rob Ford’s weight-loss goal realistic?</p>
+<p>More from The Globe and Mail</p>
+<p>News</p>
+<p>Charged with espionage, naval officer seeks delay in bail hearing</p>
+<p>Report On Business</p>
+<p>Carney sees consumer debt burdens growing even fatter</p>
+<p>Nutrition</p>
+<p>Healthy Eating Jump-Start Day 12: Eat one vegetarian meal</p>
+<p>Technology</p>
+<p>Wikipedia, Reddit going dark to protest anti-piracy bill</p>
+<p>aPs="halfpager";</p>
+<p>var halfpagerAC=fnTkt('a'+'ai',300,600,ai,'j',nc);</p>
+<p>document.write(halfpagerAC);</p>
+<p>MOST POPULAR STORIES</p>
+<p>Captain of doomed cruise ship pleaded not to reboard</p>
+<p>Narrowly spurned by Liberals, Sheila Copps throws in the towel</p>
+<p>Iranian regime ‘frightens me,’ Harper says</p>
+<p>Charged with espionage, naval officer seeks delay in bail hearing</p>
+<p>Gallery: Cruise ship disaster</p>
+<p>Back to top</p>
+<p>MORE TOP STORIES</p>
+<p>News</p>
+<p>Captain of doomed cruise ship pleaded not to reboard</p>
+<p>Opinions</p>
+<p>This month's editorial cartoons</p>
+<p>Sports</p>
+<p>Three Canadians storm into 2nd round at Australian Open</p>
+<p>Globe Drive</p>
+<p>Average age of vehicles in U.S. hits record 10.8 years</p>
+<p>Technology</p>
+<p>Google spends big on online privacy charm offensive</p>
+<p>Technology</p>
+<p>Heads up: Pedestrians injured or killed while wearing headphones triples</p>
+<p>Photos</p>
+<p>TV: Five shows worth watching tonight</p>
+<p>Best pictures from the past 24 hours</p>
+<p>Video</p>
+<p>NJ mom gives birth on PATH Train</p>
+<p>Calgary couple describes cruise ship ordeal</p>
+<p>Step inside the Arthur, a tiny shop of vintage wonders</p>
+<p>You dirty rats! NYC subway workers go online with complaints</p>
+<p>Enjoy the convenience of having The Globe and Mail delivered right to your door, your mobile phone and computer. From exclusive content and mobile apps to online tools and loyalty programs, The Globe lets you experience Canada's deepest coverage of national, international, business, and lifestyle news where you want, when you want. </p>
+<p>Home</p>
+<p>News</p>
+<p>Commentary</p>
+<p>Business</p>
+<p>Investing</p>
+<p>Sports</p>
+<p>Life</p>
+<p>Arts</p>
+<p>Technology</p>
+<p>Drive</p>
+<p>Site map</p>
+<p>More Sections </p>
+<p>Appointments</p>
+<p>Art Store</p>
+<p>Births & Announcements</p>
+<p>Careers</p>
+<p>Globe Campus</p>
+<p>Classifieds</p>
+<p>Classroom Edition</p>
+<p>Contests</p>
+<p>Deaths</p>
+<p>Newspaper Ads</p>
+<p>Real Estate</p>
+<p>Special Reports</p>
+<p>Sustainability mandate</p>
+<p> </p>
+<p>Globe Plus</p>
+<p>Subscribe</p>
+<p>Globe Recognition</p>
+<p>Recognition card</p>
+<p>Advertise</p>
+<p>Advertise with us</p>
+<p>Newspaper</p>
+<p>Magazine</p>
+<p>Online</p>
+<p>Marketing Solutions Group</p>
+<p>Media Central</p>
+<p>Classifieds</p>
+<p>Online</p>
+<p>Help</p>
+<p>Contact Us</p>
+<p> </p>
+<p>Newspaper</p>
+<p>Customer Care</p>
+<p>Contact Us</p>
+<p>Staff</p>
+<p>Corrections</p>
+<p>Subscribe</p>
+<p>Vacation Stops</p>
+<p>Change Address</p>
+<p>Privacy Policy</p>
+<p>Terms & Conditions</p>
+<p>Disclaimer</p>
+<p> © Copyright 2012 The Globe and Mail Inc. All Rights Reserved.</p>
+<p>444 Front St. W., Toronto, ON  Canada M5V 2S9Phillip Crawley, Publisher</p>
+<p>var s_account="bellgmpnewprod";</p>
+<p><!--// SiteCatalyst code version: H.17. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com --></p>
+<p>/* standard channel vars */</p>
+<p>s.pageName = "news:national:britishcolumbia:article"; // Page</p>
+<p>s.channel = "news"; // Site section</p>
+<p>s.prop3 = s.getAndPersistValue("Not Set", "s_user_zip", (365*5));</p>
+<p>s.zip = "D=c3";</p>
+<p>s.prop4 = s.getAndPersistValue("Not Set", "s_user_country", (365*5));</p>
+<p>s.eVar4 = "D=c4";</p>
+<p>s.prop2 = s.getAndPersistValue("Not Logged In", "s_user_login_status");</p>
+<p>s.eVar3 = "D=c2";</p>
+<p>if (adv.loc == "art") {</p>
+<p>s.prop1 = "Single Page View - No Pagination"; // pagination , could not be set in omnitureParams because variable not set in header</p>
+<p>s.prop37 = "small lead photo"; // header image layout</p>
+<p>s.prop12 = "Testing expedited to see if ecstasy involved in youth&rsquo;s death"; // Content Title (headline)</p>
+<p>s.prop13 = "WENDY STUECK"; // Byline</p>
+<p>s.prop14 = "Globe and Mail Update"; // Credit(headline)</p>
+<p>s.prop16 = "2304395"; // Content ID (article ID)</p>
+<p>var selectedTab = window.location.toString().split("#")[1]; // handle preset article tabs</p>
+<p>if (!selectedTab) {</p>
+<p>selectedTab = "news";</p>
+<p>}</p>
+<p>s.prop42 = selectedTab; // Content Type (active article tab)</p>
+<p>}</p>
+<p>if (s.pageName.indexOf("carprofile") >= 0) { // check if section is car profile</p>
+<p>s.prop35 = ""; // Car Make/Model/Year</p>
+<p>var selectedTab = window.location.toString().split("#")[1]; // handle preset profile tabs</p>
+<p>if (!selectedTab) {</p>
+<p>selectedTab = "small lead photo";</p>
+<p>}</p>
+<p>s.prop37 = selectedTab; // Content Type (active article tab)</p>
+<p>}</p>
+<p>s.prop15 = document.location.href;</p>
+<p>s.prop35 = ""; // wildcard</p>
+<p>s.prop36 = "editorial"; // section type</p>
+<p>s.prop42 = "news"; // article type or blog section</p>
+<p>s.prop43 = "news"; // Sub-section 1</p>
+<p>s.prop44 = "news:national"; // Sub-section 2</p>
+<p>s.prop45 = "news:national:britishcolumbia"; // Sub-section 3</p>
+<p>s.prop46 = "news:national:britishcolumbia"; // Sub-section 4</p>
+<p>s.prop47 = "news:national:britishcolumbia"; // Sub-section 5</p>
+<p>s.prop22 = "news:national:britishcolumbia"; // Sub-section 6</p>
+<p>s.prop23 = "news:national:britishcolumbia"; // Sub-section 7</p>
+<p>s.prop29 = ""; // sponsor name</p>
+<p>s.prop41 = ""; // partner name</p>
+<p>s.prop21 = ""; // blog name</p>
+<p>if (s.pageName.indexOf("giforums") >= 0) { // check if section is GI Forum</p>
+<p>URLlocation = document.URL;</p>
+<p>var forumVar = URLlocation.toString().split("forums/")[1]; // handle preset profile tabs</p>
+<p>var forumName = forumVar.toString().split("_")[1];</p>
+<p>if (forumName) {</p>
+<p>s.prop46 = "news:national:britishcolumbia:"+forumName; // Sub-section 4</p>
+<p>s.prop47 = s.prop46; // Sub-section 5</p>
+<p>s.prop22 = s.prop47; // Sub-section 6</p>
+<p>s.prop23 = s.prop22; // Sub-section 7</p>
+<p>}</p>
+<p>}</p>
+<p>if (s.prop44.indexOf("locked article") >= 0) { // check if tag is for locked article</p>
+<p>s.prop16 = "2304395"; // Content ID (article ID)</p>
+<p>}</p>
+<p>var videoPageName = s.pageName;</p>
+<p>/**</p>
+<p>* Implementation of tracking for photos within an image gallery.</p>
+<p>* @param {int} index the current index of the photo being viewed.</p>
+<p>* @param {int} length the total number of photos within the active gallery</p>
+<p>*/</p>
+<p>function trackPhotoView(index, length) {</p>
+<p>s.events = "event35";</p>
+<p>var usePageView = false;</p>
+<p>var linkName = "Photo gallery view";</p>
+<p>s.prop1 = '';</p>
+<p>s.eVar1 = '';</p>
+<p>/* Check for restart */</p>
+<p>if (index == 1) {</p>
+<p>s.events = s.apl(s.events, "event36", ",", 1);</p>
+<p>}</p>
+<p>/* Check for initial photo view or every third photo view */</p>
+<p>if (index == 1 || index % 3 == 0) {</p>
+<p>s.events = s.apl(s.events, "event16", ",", 1);</p>
+<p>linkName = "";</p>
+<p>usePageView = true;</p>
+<p>s.prop1 = index;</p>
+<p>} else {</p>
+<p>s.eVar1 = index;</p>
+<p>}</p>
+<p>/* Check for half-way point */</p>
+<p>var half = Math.round(length / 2) + 1;</p>
+<p>if (index == (half-1)) {</p>
+<p>s.events = s.apl(s.events, "event37", ",", 1);</p>
+<p>linkName = "Half-way photo gallery view";</p>
+<p>}</p>
+<p>/* Check for complete */</p>
+<p>if (index == (length)) {</p>
+<p>s.events = s.apl(s.events, "event38", ",", 1);</p>
+<p>linkName = "Completed photo gallery";</p>
+<p>}</p>
+<p>if (usePageView) {</p>
+<p>s.t();</p>
+<p>} else {</p>
+<p>s.linkTrackVars = 'events,eVar1,prop1';</p>
+<p>s.linkTrackEvents = s.events;</p>
+<p>s.tl(this, 'o', linkName);</p>
+<p>}</p>
+<p>COMSCORE.beacon({ c1: "2", c2: "10251187" });</p>
+<p>}</p>
+<p>//try {</p>
+<p>// s.campaign = $.query.get('cid'); // $.query script not on page if this fails</p>
+<p>//} catch (e) {}</p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code)//--></p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>//<![CDATA[</p>
+<p>var clientDT = new Date().getTime();</p>
+<p>document.write('<img src="http://ecestats.theglobeandmail.com/eae-logger/Logger?rt=1&ctxId=363&pubId=350&cat=&meta=&objId=2304395&type=news&title=Testing+expedited+to+see+if+ecstasy+involved+in+youth%26amp%3brsquo%3bs+death&url=http%3a%2f%2fwww.theglobeandmail.com%2fnews%2fnational%2fbritish-columbia%2ftesting-expedited-to-see-if-ecstasy-involved-in-youths-death%2farticle2304395%2f&amp;clientDT='+clientDT+'" alt="" width="1" height="1"/>');</p>
+<p>//]]></p>
+<p> var globalPluckLocation = null; </p>
+<p>window.fbAsyncInit = function() {</p>
+<p>FB.init({appId:'126045934076200',status:true,cookie:true,xfbml:true});</p>
+<p>FB.getLoginStatus(function(response) {</p>
+<p>if (response.session) {</p>
+<p>// User is logged in to FB</p>
+<p>FB.XFBML.parse();</p>
+<p>} else {</p>
+<p>FB.Event.subscribe('auth.login', function(response) {</p>
+<p>// Listen for the user logging in to FB via TGAM</p>
+<p>FB.XFBML.parse();</p>
+<p>});</p>
+<p>}</p>
+<p>});</p>
+<p>// Track facebook like event</p>
+<p>try {</p>
+<p>FB.Event.subscribe('edge.create', function(response) {</p>
+<p>s.events = s.apl(s.events, "event7", ",", 1);</p>
+<p>s.linkTrackVars = "events";</p>
+<p>s.linkTrackEvents = s.events;</p>
+<p>s.tl(this, 'o', "Recommend Article on Facebook");</p>
+<p>});</p>
+<p>} catch (e) { console.log("Caught error in FB.Event.subscribe on edge.create ", e); }</p>
+<p>};</p>
+<p>(function() {</p>
+<p>var e = document.createElement('script');</p>
+<p>e.type = 'text/javascript';</p>
+<p>e.src = document.location.protocol+'//connect.facebook.net/en_US/all.js';</p>
+<p>e.async = true;</p>
+<p>document.getElementById('fb-root').appendChild(e);</p>
+<p>}());</p>
+<p>© 2012 The Globe and Mail Inc. All Rights Reserved.</p>
+<p>$(document).ready(function(){</p>
+<p>$('.leadPhotoPopUp').dialog({</p>
+<p>autoOpen: false,</p>
+<p>dialogClass: 'leadPhotoPopUp',</p>
+<p>width: 620,</p>
+<p>title: false,</p>
+<p>modal: true,</p>
+<p>closeOnEscape: true</p>
+<p>});</p>
+<p>function closeDialog() { $(".ui-widget-overlay").click(function() {</p>
+<p>$('.leadPhotoPopUp').dialog("close");</p>
+<p>}); }</p>
+<p>$('.articleleadphoto').click(function(){</p>
+<p>$('.leadPhotoPopUp').dialog("open");</p>
+<p>closeDialog();</p>
+<p>return false;</p>
+<p>});</p>
+<p>});</p>
+<p>var _comscore = _comscore || [];</p>
+<p>_comscore.push({ c1: "2", c2: "10251187" });</p>
+<p>(function() { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); })();</p>
+<p>var _gaq = _gaq || [];</p>
+<p>_gaq.push(['_setAccount', 'UA-9891422-4']);</p>
+<p>_gaq.push(['_setDomainName', '.theglobeandmail.com']);</p>
+<p>_gaq.push(['_trackPageview']);</p>
+<p>(function() {</p>
+<p>var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>})();</p>
+<p>Add to watchlist</p>
+<p>Close</p>
+<p>You have selected to add:</p>
+<p>No Security Selected</p>
+<p>Please select which watchlist you would like to add to:</p>
+<p>Add to Watchlist</p>
+<p>var showAddToWatchlistButton = 'true';</p>
+<p>/* @function globe.investor.watchlistOverlay</p>
+<p>*</p>
+<p>* This is function should only be available on article pages.</p>
+<p>* This will display the overlay used to add this symbol to the your watch list.</p>
+<p>*</p>
+<p>*/</p>
+<p>var globeInvestorOverlaySetting = "login";</p>
+<p>var globeInvestorErrorMsg = "";</p>
+<p>var globeInvestorFundName = "";</p>
+<p>var globeInvestorUserId = "";</p>
+<p>var globeInvestorSecurity = "";</p>
+<p>var globeInvestorSecurityType = "";</p>
+<p>globe.investor.getInvestorUserId=function(uid){</p>
+<p>var hdCookie = $.cookie("hd");</p>
+<p>var stringIndex = 0;</p>
+<p>var cookieUid = "";</p>
+<p>if (uid==""){</p>
+<p>if (hdCookie!=""){</p>
+<p>stringIndex = hdCookie.indexOf("|",0);</p>
+<p>cookieUid = hdCookie.substring(0,stringIndex);</p>
+<p>if (cookieUid==""){</p>
+<p>cookieUid="-1"</p>
+<p>return cookieUid</p>
+<p>}else{</p>
+<p>return cookieUid</p>
+<p>} }else{</p>
+<p>cookieUid="-1"</p>
+<p>return cookieUid</p>
+<p>}</p>
+<p>}else{</p>
+<p>return uid;</p>
+<p>}</p>
+<p>}</p>
+<p>globe.investor.watchlistOverlaySetting=function(type){</p>
+<p>globeInvestorOverlaySetting = type;</p>
+<p>return false;</p>
+<p>}</p>
+<p>globe.investor.popWatchlistSelect=function(json){</p>
+<p>$("#copy-watchlist").find('option').remove().end();</p>
+<p>$("#copy-watchlist").append("<option value=\"-\">Select Watchlist</option>");</p>
+<p>$.each(json, function(i, val) {</p>
+<p>if (this.watchlistId!="" || this.watchlistName!=""){</p>
+<p>var wlName = this.watchlistName;</p>
+<p>if (wlName.length > 35) wlName = wlName.substring(0, 35) + "...";</p>
+<p>$("#copy-watchlist").append("<option value=\""+this.watchlistId+"\">"+wlName+"</option>");</p>
+<p>}</p>
+<p>});</p>
+<p>if (globeInvestorSecurityType == 'funds') {</p>
+<p>$("#watchlist-add-security-name").html(globeInvestorFundName);</p>
+<p>} else {</p>
+<p>$("#watchlist-add-security-name").html(globeInvestorSecurity);</p>
+<p>}</p>
+<p>}</p>
+<p>globe.investor.successMessage=function(json){</p>
+<p>//$.each(json, function(i, val) {</p>
+<p>// console.log(json.message)</p>
+<p>$("#copy-status").html("<div class=\"loading\"><img src=\"http://beta.images.theglobeandmail.com/images/globeinvestor/watchlist-loading-35x35.gif\" alt=\"loading\"/></div>");</p>
+<p>$("#copy-status").html("<p class=\"responseMessage\">"+json.message+"</p>");</p>
+<p>//});</p>
+<p>}</p>
+<p>globe.investor.initWatchlistOverlay=function(){</p>
+<p>if (globeInvestorUserId==""){</p>
+<p>globeInvestorUserId = globe.investor.getInvestorUserId(globeInvestorUserId);</p>
+<p>}</p>
+<p>if (globeInvestorUserId != "-1"){</p>
+<p>if(globe.usrm.isLoggedIn()) {</p>
+<p>$.ajax({</p>
+<p>url: globe.conf.publicationUrl+'template/ver1-0/fragments/globeinvestor/get.watchlists.ajax.jsp',</p>
+<p>type: 'GET',</p>
+<p>dataType: 'json',</p>
+<p>cache: false,</p>
+<p>error: function(XMLHttpRequest, textStatus, errorThrown) {</p>
+<p>globe.investor.watchlistOverlayError('Your request could not be completed at this time; please refresh the page and try again');</p>
+<p>},</p>
+<p>success: function(json) {</p>
+<p>if (json.length ==1 && json[0].remessage!="-"){</p>
+<p>if(json[0].returnCode=="0"){</p>
+<p>if(json[0].remessage=="no watchlist found" ){</p>
+<p>globe.investor.watchlistOverlaySetting("promo");</p>
+<p>}</p>
+<p>}else{</p>
+<p>globe.investor.watchlistOverlaySetting("error");</p>
+<p>globe.investor.watchlistOverlayError(json[0].remessage);</p>
+<p>globeInvestorErrorMsg = json[0].remessage;</p>
+<p>}</p>
+<p>}else{</p>
+<p>globe.investor.popWatchlistSelect(json);</p>
+<p>globe.investor.watchlistOverlay(globeInvestorOverlaySetting);</p>
+<p>}</p>
+<p>}</p>
+<p>});</p>
+<p>}</p>
+<p>}else{</p>
+<p>globeInvestorOverlaySetting = "error";</p>
+<p>globeInvestorErrorMsg = "System error: Error getting user id. <br/>Please try logging in again.";</p>
+<p>globe.investor.watchlistOverlayError(globeInvestorErrorMsg);</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>globe.investor.addSecurityToWatchlist=function(){</p>
+<p>if (globeInvestorUserId==""){</p>
+<p>globeInvestorUserId = globe.investor.getInvestorUserId(globeInvestorUserId);</p>
+<p>}</p>
+<p>if (globeInvestorUserId != "-1"){</p>
+<p>if(globe.usrm.isLoggedIn()) {</p>
+<p>var watchlistid = "";</p>
+<p>var watchlistNm = "";</p>
+<p>var sym = "";</p>
+<p>var ex = "";</p>
+<p>var st = "";</p>
+<p>var strSearch = "";</p>
+<p>var strIndex = 0;</p>
+<p>var postString = "";</p>
+<p>var fundId = "";</p>
+<p>watchlistid = $("#copy-watchlist").val();</p>
+<p>watchlistNm = $("#copy-watchlist option[value='"+watchlistid+"']").text();</p>
+<p>if (watchlistid != "-") {</p>
+<p>if (globeInvestorSecurityType=="stocks"</p>
+<p>|| globeInvestorSecurityType =="indices"</p>
+<p>|| globeInvestorSecurityType == globe.investor.securityType.STOCK</p>
+<p>|| globeInvestorSecurityType == globe.investor.securityType.ETF</p>
+<p>|| globeInvestorSecurityType == globe.investor.securityType.INDEX</p>
+<p>|| globeInvestorSecurityType == globe.investor.securityType.COMMODITY</p>
+<p>|| globeInvestorSecurityType == globe.investor.securityType.CURRENCY){</p>
+<p>strIndex = globeInvestorSecurity.indexOf("-");</p>
+<p>sym = $.trim(globeInvestorSecurity.substring(0, strIndex));</p>
+<p>ex = $.trim(globeInvestorSecurity.substring(strIndex+1));</p>
+<p>//postString = "s="+sym+"&e="+ex+"&st="+globeInvestorSecurityType+"&wid="+watchlistid+"&uid="+globeInvestorUserId+"&wn="+watchlistNm</p>
+<p>postString = "s="+sym+"&e="+ex+"&st="+globeInvestorSecurityType+"&wid="+watchlistid+"&wn="+watchlistNm</p>
+<p>/* console.log(strIndex);</p>
+<p>console.log(sym);</p>
+<p>console.log(ex);</p>
+<p>console.log(postString);*/</p>
+<p>}else if (globeInvestorSecurityType.indexOf("1,") != -1){</p>
+<p>fundId = $.trim(globeInvestorSecurityType.substring(globeInvestorSecurityType.indexOf(",")+1));</p>
+<p>globeInvestorFundName = globeInvestorSecurity;</p>
+<p>//postString = "fid="+fundId+"&fn="+globeInvestorFundName+"&wid="+watchlistid+"&uid="+globeInvestorUserId+"&wn="+watchlistNm;</p>
+<p>postString = "fid="+fundId+"&fn="+globeInvestorFundName+"&wid="+watchlistid+"&wn="+watchlistNm;</p>
+<p>/*console.log("fundId = "+fundId);</p>
+<p>console.log("fn = "+globeInvestorFundName);*/</p>
+<p>}else{</p>
+<p>strIndex = globeInvestorSecurity.indexOf("-");</p>
+<p>fundId = $.trim(globeInvestorSecurity.substring(0, strIndex));</p>
+<p>//postString = "fid="+fundId+"&fn="+globeInvestorFundName+"&wid="+watchlistid+"&uid="+globeInvestorUserId+"&wn="+watchlistNm;</p>
+<p>postString = "fid="+fundId+"&fn="+globeInvestorFundName+"&wid="+watchlistid+"&wn="+watchlistNm;</p>
+<p>/*console.log("fundId = "+fundId);*/</p>
+<p>}</p>
+<p>$.ajax({</p>
+<p>url: globe.conf.publicationUrl+'template/ver1-0/fragments/globeinvestor/add.watchlist.ajax.jsp',</p>
+<p>type: 'POST',</p>
+<p>dataType: 'json',</p>
+<p>data: postString,</p>
+<p>cache: false,</p>
+<p>error: function(XMLHttpRequest, textStatus, errorThrown) {</p>
+<p>/*console.log(XMLHttpRequest);</p>
+<p>console.log(textStatus)*/</p>
+<p>globe.investor.watchlistOverlayError('Your request could not be completed at this time; please refresh the page and try again');</p>
+<p>},</p>
+<p>success: function(json) {</p>
+<p>if (json.returnCode=="0"){</p>
+<p>globe.investor.successMessage(json);</p>
+<p>setTimeout('globe.investor.watchlistOverlayHide()', 2500);</p>
+<p>}else{</p>
+<p>globe.investor.watchlistOverlaySetting("error");</p>
+<p>globe.investor.watchlistOverlayError(json.remessage);</p>
+<p>globeInvestorErrorMsg = json.remessage;</p>
+<p>}</p>
+<p>}</p>
+<p>});</p>
+<p>}else{</p>
+<p>globeInvestorOverlaySetting = "error";</p>
+<p>globeInvestorErrorMsg = "Please select a watchlist from the list above."; globe.investor.watchlistOverlayError(globeInvestorErrorMsg);</p>
+<p>}</p>
+<p>}</p>
+<p>}else{</p>
+<p>globeInvestorOverlaySetting = "error";</p>
+<p>globeInvestorErrorMsg = "System error: Error getting user id. <br/>Please try login in again."; globe.investor.watchlistOverlayError(globeInvestorErrorMsg);</p>
+<p>}</p>
+<p>}</p>
+<p>globe.investor.watchlistOverlayError=function(msg){</p>
+<p>$("#copy-status").css({display:"block"});</p>
+<p>$("#copy-status").html("<div class=\"loading\"><img src=\"http://beta.images.theglobeandmail.com/images/globeinvestor/watchlist-loading-35x35.gif\" alt=\"loading\"/></div>");</p>
+<p>$("#copy-status").html("<p class=\"responseMessage\">"+msg+"</p>").fadeIn(600);</p>
+<p>return false;</p>
+<p>}</p>
+<p>globe.investor.watchlistAddAttempt=function(){</p>
+<p>$("#copy-status").css({display:"block"});</p>
+<p>globe.investor.addSecurityToWatchlist();</p>
+<p>return false;</p>
+<p>}</p>
+<p>globe.investor.watchlistOverlay=function(){</p>
+<p>if (globeInvestorOverlaySetting=="error"){</p>
+<p>globe.investor.watchlistOverlayError(globeInvestorErrorMsg);</p>
+<p>$('body').prepend('<div id="loginOverlayUnderlay"></div>');</p>
+<p>$("#copy-watchlist").attr("disabled", true);</p>
+<p>$('.watchlist-overlay-add-stock').fadeIn(600);</p>
+<p>$('.watchlist-overlay-add-stock').css(' z-index','999999 !important;');</p>
+<p>$('.watchlist-overlay-add-stock a.cancel').bind('click', globe.investor.watchlistOverlayHide);</p>
+<p>$('.watchlist-overlay-add-stock a.submit').attr("disabled", true);</p>
+<p>}else{</p>
+<p>if(globeInvestorOverlaySetting=="login"){</p>
+<p>$("#copy-watchlist").attr("disabled", false);</p>
+<p>$('.watchlist-overlay-add-stock a.submit').attr("disabled", false);</p>
+<p>if ($("#copy-watchlist option[value='-']").text() != ""){</p>
+<p>$('body').append('<div id="loginOverlayUnderlay"></div>');</p>
+<p>$('.watchlist-overlay-add-stock').fadeIn(600);</p>
+<p>$('.watchlist-overlay-add-stock').css(' z-index','999999 !important');</p>
+<p>$('.watchlist-overlay-add-stock a.cancel').bind('click', globe.investor.watchlistOverlayHide);</p>
+<p>$('.watchlist-overlay-add-stock a.submit').bind('click', globe.investor.watchlistAddAttempt);</p>
+<p>}else{</p>
+<p>globe.investor.initWatchlistOverlay();</p>
+<p>setTimeout(globe.investor.watchlistOverlay,2500);</p>
+<p>}</p>
+<p>}else{</p>
+<p>$("#userlogin-form-watchlist-promo").css({display:"block"}).fadeIn(600);</p>
+<p>$("#userlogin").css({display:"none"});</p>
+<p>$("#usertools").css({display:"none"});</p>
+<p>$("#userlogin-form-watchlist-promo").css({borderTop:"none",marginTop:"0"});</p>
+<p>globe.usrm.login.displayOverlay();</p>
+<p>}</p>
+<p>$('#loginOverlayUnderlay').click(function(){</p>
+<p>globe.investor.watchlistOverlayHide();</p>
+<p>});</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>globe.investor.watchlistOverlayHide=function(){</p>
+<p>$('#loginOverlayUnderlay').remove();</p>
+<p>$('.watchlist-overlay-add-stock').fadeOut(600);</p>
+<p>$('.watchlist-overlay-add-stock a.cancel').unbind();</p>
+<p>$('.watchlist-overlay-add-stock a.submit').unbind();</p>
+<p>//$('#loginOverlayUnderlay').unbind();</p>
+<p>$("#copy-status").css({display:"none"});</p>
+<p>return false;</p>
+<p>}</p>
+<p>globe.investor.detectAction=function(security){</p>
+<p>var articleId = "2304395";</p>
+<p>if(!globe.usrm.isLoggedIn()) {</p>
+<p>if($.browser.msie && $.browser.version == 6) {</p>
+<p>window.location = globe.conf.publicationUrl+"globe-investor/my-watchlist";</p>
+<p>} else {</p>
+<p>window.location = globe.conf.publicationUrl+"login/?force=addtowatchlist&articleId=2304395";</p>
+<p>}</p>
+<p>}else{</p>
+<p>if($.browser.msie && $.browser.version == 6) {</p>
+<p>window.location = globe.conf.publicationUrl+"globe-investor/my-watchlist";</p>
+<p>}else{</p>
+<p>globeInvestorOverlaySetting = "login";</p>
+<p>//globeInvestorOverlaySetting = "login";</p>
+<p>globeInvestorSecurity = (security.indexOf(';') == -1) ? security : security.substring(0, security.indexOf(';'));</p>
+<p>globeInvestorSecurityType = (security.indexOf(';') == -1) ? security : security.substring(security.indexOf(';')+1);</p>
+<p>globe.investor.initWatchlistOverlay(); }</p>
+<p>}</p>
+<p>return false;</p>
+<p>//$('.addtowatchlist').click(function() {</p>
+<p>//console.log();</p>
+<p>//var security = $(this).attr( 'rel' )</p>
+<p>// $("#userlogin-form-watchlist-promo").css({display:"block"});</p>
+<p>// globe.usrm.login.loginSuccessCallback = globe.investor.watchlistOverlay;</p>
+<p>// globe.usrm.login.displayOverlay();</p>
+<p>//}</p>
+<p>//} else {</p>
+<p>}</p>
+<p>$(document).ready(function(){</p>
+<p>// globe.investor.initWatchlistOverlay();</p>
+<p>$("#close-overlay").click(function(){</p>
+<p>globe.investor.watchlistOverlayHide();</p>
+<p>return false;</p>
+<p>});</p>
+<p>$("li#watchlist a").click(function(event){</p>
+<p>event.preventDefault();</p>
+<p>var security = $(this).attr('rel');</p>
+<p>globe.investor.detectAction(security);</p>
+<p>return false;</p>
+<p>});</p>
+<p>$('.addtowatchlist').click(function(event) {</p>
+<p>event.preventDefault();</p>
+<p>var security = $(this).attr('rel');</p>
+<p>globe.investor.detectAction(security);</p>
+<p>return false;</p>
+<p>});</p>
+<p>if ($("h3.fundHeader").html()!=''){</p>
+<p>globeInvestorFundName = $("h3.fundHeader").html(); }</p>
+<p>});</p>
+<p>var _sf_async_config={uid:15880,domain:"theglobeandmail.com"};_sf_async_config.title="Testing expedited to see if ecstasy involved in youth&rsquo;s death";_sf_async_config.path="/news/national/british-columbia/testing-expedited-to-see-if-ecstasy-involved-in-youths-death/article2304395/";_sf_async_config.sections = "news,national,britishcolumbia,toxicology tests,b.c. coroners service,ecstasy,barb mcclintock,langley memorial hospital,british columbia,b.c.,british columbia news,b.c. news;"; _sf_async_config.authors = "WENDY STUECK ,unknown";(function(){function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://") + "static.chartbeat.com/js/chartbeat.js"); document.body.appendChild(e); } var oldonload = window.onload; window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })();</p>

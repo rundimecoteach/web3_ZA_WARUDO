@@ -1,0 +1,570 @@
+<p>Parents reluctant, HC orders to file affidavits - southindia - Orissa - ibnlive </p>
+<p>.gtxt10 {font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; text-decoration:none;}</p>
+<p>#floating-box{</p>
+<p>		border:1px solid #c7c7c7; width:65px; padding:0px 10px; margin:10px 25px 0 0;</p>
+<p>		position:absolute;</p>
+<p>		z-index:1;}</p>
+<p>				#floating-box02{z-index:1;}</p>
+<p> </p>
+<p>    //avoid conflict with other script</p>
+<p>    $j=jQuery.noConflict();</p>
+<p> </p>
+<p>    $j(document).ready(function($) {</p>
+<p> </p>
+<p>	//this is the floating content</p>
+<p>	var $floatingbox = $('#floating-box');</p>
+<p> </p>
+<p>	if($('#body').length > 0){</p>
+<p> </p>
+<p>	  var bodyY = parseInt($('#body').offset().top) - 20;</p>
+<p>	  var originalX = $floatingbox.css('margin-left');</p>
+<p> </p>
+<p>	  $(window).scroll(function () { </p>
+<p> </p>
+<p>	   var scrollY = $(window).scrollTop();</p>
+<p>	   var isfixed = $floatingbox.css('position') == 'fixed';</p>
+<p> </p>
+<p>	   if($floatingbox.length > 0){</p>
+<p> </p>
+<p>	  /*    $floatingbox.html("srollY : " + scrollY + ", bodyY : " </p>
+<p>                                    + bodyY + ", isfixed : " + isfixed);*/</p>
+<p> </p>
+<p>	      if ( scrollY > bodyY && !isfixed ) {</p>
+<p>			$floatingbox.stop().css({</p>
+<p>			  position: 'fixed',</p>
+<p>			  left: '50%',</p>
+<p>			  top: 10,</p>
+<p>			  marginLeft: -490</p>
+<p>			});</p>
+<p>		} else if ( scrollY < bodyY && isfixed ) {</p>
+<p>		 	  $floatingbox.css({</p>
+<p>			  position: 'absolute',</p>
+<p>			  left: 0,</p>
+<p>			  top: 0,</p>
+<p>			  marginLeft: originalX</p>
+<p>		});</p>
+<p>	     }		</p>
+<p>	   }</p>
+<p>       });</p>
+<p>     }</p>
+<p>  });</p>
+<p>  //avoid conflict with other script</p>
+<p>    $j=jQuery.noConflict();</p>
+<p> </p>
+<p>    $j(document).ready(function($) {</p>
+<p> </p>
+<p>	//this is the floating content</p>
+<p>	var $floatingbox = $('#floating-box02');</p>
+<p> </p>
+<p>	if($('#body02').length > 0){</p>
+<p> </p>
+<p>	  var bodyY = parseInt($('#body02').offset().top) - 20;</p>
+<p>	  var originalX = $floatingbox.css('margin-left');</p>
+<p> </p>
+<p>	  $(window).scroll(function () { </p>
+<p> </p>
+<p>	   var scrollY = $(window).scrollTop();</p>
+<p>	   var isfixed = $floatingbox.css('position') == 'fixed';</p>
+<p> </p>
+<p>	   if($floatingbox.length > 0){</p>
+<p> </p>
+<p>	  /*    $floatingbox.html("srollY : " + scrollY + ", bodyY : " </p>
+<p>                                    + bodyY + ", isfixed : " + isfixed);*/</p>
+<p> </p>
+<p>	      if ( scrollY > bodyY && !isfixed ) {</p>
+<p>			$floatingbox.stop().css({</p>
+<p>			  position: 'fixed',</p>
+<p>			  top: 10,</p>
+<p>			  /*marginLeft: -490*/</p>
+<p>			});</p>
+<p>		} else if ( scrollY < bodyY && isfixed ) {</p>
+<p>		 	  $floatingbox.css({</p>
+<p>			  position: 'relative',</p>
+<p>			  /*left: 0,*/</p>
+<p>			  top: 0,</p>
+<p>			  marginLeft: originalX</p>
+<p>		});</p>
+<p>	     }		</p>
+<p>	   }</p>
+<p>       });</p>
+<p>     }</p>
+<p>  });</p>
+<p>  </p>
+<p>  </p>
+<p> </p>
+<p>function showheadline()</p>
+<p>{</p>
+<p>$('#headlinebox').slideDown(500);</p>
+<p>}</p>
+<p>function hideheadline()</p>
+<p>{</p>
+<p>$('#headlinebox').slideUp(500);</p>
+<p>}</p>
+<p>funcLoading(221623, '/save_rating.php');</p>
+<p>function showThickbox1(sd)</p>
+<p>{</p>
+<p>tb_show("Sign in","/photogallery/article_inside.php?slideshow_id="+sd+"&keepThis=true&TB_iframe=true&height=815&width=740", false);  </p>
+<p>}</p>
+<p>CES 2012: Know what's new in the world of tech</p>
+<p>Delete_Cookie('redirect_path_ibn', '/', '');</p>
+<p>var_url=document.location.href;</p>
+<p>set_cookie("redirect_path_ibn", var_url,0,0,0,'/',"",'');</p>
+<p>if( get_cookie("POST_DATA_IBN") != "")</p>
+<p>{</p>
+<p>var_url=document.location.href;</p>
+<p>//if((get_cookie_variable(get_cookie("POST_DATA_IBN"),2)=="") && (get_cookie_variable(get_cookie("POST_DATA_IBN"),3)==""))</p>
+<p>if((get_cookie_variable(get_cookie("POST_DATA_IBN"),2)==""))</p>
+<p>{</p>
+<p>var us_name=get_cookie_variable(get_cookie("POST_DATA_IBN"),1);</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>//var us_name=get_cookie_variable(get_cookie("POST_DATA_IBN"),2)+' '+get_cookie_variable(get_cookie("POST_DATA_IBN"),3);</p>
+<p>var us_name=get_cookie_variable(get_cookie("POST_DATA_IBN"),2);</p>
+<p>}</p>
+<p>var us_id=get_cookie_variable(get_cookie("POST_DATA_IBN"),0);</p>
+<p>var cookieBlazeId = get_cookie_variable(get_cookie("POST_DATA_IBN"),6);</p>
+<p>var cookieBlazeImage = get_cookie_variable(get_cookie("POST_DATA_IBN"),7);</p>
+<p>var img_id = get_cookie_variable(get_cookie("POST_DATA_IBN"),8);</p>
+<p>		//alert(img_id)</p>
+<p>		if(typeof img_id != "undefined"  && img_id.length > '0')</p>
+<p>		{</p>
+<p>		    //alert("a")</p>
+<p>		    var imgpath = '<img src='+img_id+' width = "18" style="float:none;" height = "18" alt='+us_name+' title='+us_name+' align = "absmiddle" />';</p>
+<p>		}</p>
+<p>		else if(typeof cookieBlazeImage != "undefined"  && cookieBlazeImage.length > '0')</p>
+<p>		{</p>
+<p>		    //alert("a")</p>
+<p>		    var imgpath = '<img src='+cookieBlazeImage+' width = "18" style="float:none;" height = "18" alt='+us_name+' title='+us_name+' align = "absmiddle"  />';</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>			//	alert("b")</p>
+<p>			var imgpath = '';</p>
+<p>		</p>
+<p>		}</p>
+<p>document.write ('<div style = "float:right; padding-top:0px;">'+imgpath+'  <span><a href="/conversations/user/'+us_id+'.html"  target="_top" >'+us_name+'</a></span> <span>|</span>  <span><a class="none" href="/ibnregistration/logout.php" target="_top">Sign out</a></span></div>');</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>/*document.write('<div style = "float:right; padding-top:3px;"><span><a href="/ibnregistration/login.php?url_path='+var_url+'">SIGN IN</a></span> <span>|</span> <span><a href="/ibnregistration/ibn_common_registration.php">REGISTER</a></span></div>');*/</p>
+<p>document.write('<div style = "float:right; padding-top:3px;"><span><a href="/ibnregistration/login.php?url_path='+var_url+'">SIGN IN</a></span></div>');</p>
+<p>}</p>
+<p>HomeElections 2012PoliticsIndiaSouthMoviesCricketFootballSportsTechAutoBusinessWorldBooksPhotosVideoLive TVCJLatestNewsTime-Crunch TVVideo StreamsBlogsChatTalkAppsNewslettersBlazeHealthFT SpecialsForbes IndiaNewsLatestRealtimeBlogsChatTalkAppsNewsletters</p>
+<p>var zflag_nid=zflag_nid_728_90; var zflag_cid=zflag_cid_728_90; var zflag_sid=zflag_sid_728_90; var zflag_width=zflag_width_728_90; var zflag_height=zflag_height_728_90; var zflag_sz=zflag_sz_728_90;</p>
+<p>HomeElections 2012PoliticsIndiaSouthMoviesCricketFootballSportsTechAutoBusinessWorldBooksPhotosVideoLive TVCJ </p>
+<p>LatestNewsTime-Crunch TVVideo StreamsBlogsChatTalkAppsNewslettersBlazeHealthFT SpecialsForbes India</p>
+<p>Uttar PradeshPunjabUttarakhandManipurGoaBlogs</p>
+<p>NewsPhotosVideo</p>
+<p>India GlobalPhotosVideo</p>
+<p>Andhra PradeshKarnatakaKeralaTamil NaduBangaloreChennaiHyderabadThiruvananthapuramSouthern News Video</p>
+<p>MasandMovies NewsTVMusicHitlistBollywood BlockbustersE TonightNow ShowingPhotosVideo</p>
+<p>Live ScoresNewsFixturesStandingsPhotosEPLLa LigaSerie AChampions LeagueLiverpoolMan UtdBarcelonaReal Madrid</p>
+<p>TennisF1AthleticsBadmintonGolfHockeyShootingOther SportsPhotosVideoSports in Review</p>
+<p>NewsPhotosVideoTech ToyzTech2 Top StoriesTech2 ReviewsTech2 FeaturesTech2 News</p>
+<p>NewsCarsBikesReviewsPhotosVideo</p>
+<p>MarketsEconomyIBN ReportsMost Popular</p>
+<p>PakistanPhotosVideo</p>
+<p>NewsReviewsExcerptsAuthorsVideo</p>
+<p>IndiaMoviesCricketSportsTechAutoWorld</p>
+<p>IndiaBusinessMoviesCricketSportsTechHealthAutoWorldSouthShowsHindiTime-Crunch TVVideo Streams</p>
+<p>CNN-IBNIBN7IBN LokmatCNBC-TV18CNBC AwaazMy TVTime-Crunch TV</p>
+<p>NewsInteractive MapBlogNewsInteractive MapBlogNewsInteractive MapBlogNewsInteractive MapBlogNewsInteractive MapBlogUttar PradeshPunjabUttarakhandManipurGoaAndhra PradeshKarnatakaKeralaOrissaTamil NaduBangaloreChennaiHyderabadKochiThiruvananthapuramBollywoodHollywoodTamilTeluguMalayalamKannadaMarathiBengaliFirst LookTrailersMusic NewsMusic ReviewsFixtures & ResultsPointsPhotosFixtures & ResultsPointsPhotosFixtures & ResultsPointsPhotosFixtures & ResultsPointsPhotosLive ScoreNewsPhotosATP ScheduleWTA ScheduleNews RacesScheduleStandingsTeamsDriversCircuitsPhotosIndian Grand PrixLive ScoreLatest NewsMarket ReportsReccosBuzzEdgeOutlookIPOADRsGlobalEconomy NewsBusiness NewsInsuranceMF NewsMF ColumnsTrailersBollywoodRegionalHollywoodMusic30 MinutesB'wood B'bustersCJDevil's Advocate E-TonightFTNNow ShowingOverdriveSecret KitchenLast Word TWTWTech Toyz</p>
+<p> function subnavurl(str)</p>
+<p>	  {</p>
+<p>	//alert(str);</p>
+<p>		  if(str != "")</p>
+<p>		  {</p>
+<p>			var re = /$|,|@|#|~|`|\/|\+|\=|\[|\-|\_|\]|\[|\}|\{|\;|\:|\'|\"|\<|\>|\||\|\!|$|\./g;</p>
+<p>			str = str.replace(re,"");</p>
+<p>			str = str.replace("?","ibncrickhabar");</p>
+<p>			//alert($("#"+str+"-sssj").length)</p>
+<p>			</p>
+<p>		</p>
+<p>		if($("#"+str+"-sssj").length)</p>
+<p>		{</p>
+<p>			//alert("A");</p>
+<p>			var pid = $("#"+str+"-sssj").parent()[0].id;</p>
+<p>			document.getElementById(str+"-sssj").style.background = '';</p>
+<p>			var tpid = pid.split("-sss");</p>
+<p>			var  superid = tpid[0];</p>
+<p>			var ssfid = $('ul#'+pid+' li:first').attr('id'); </p>
+<p>			if(ssfid != str+"-sssj")</p>
+<p>			{</p>
+<p>		</p>
+<p>			</p>
+<p>			var pppreid = $("#"+str+"-sssj").prev()[0].id; document.getElementById(pppreid).style.background = 'none';}</p>
+<p>			if($("#"+superid+"-ss").length)</p>
+<p>				{</p>
+<p>					//alert("3");</p>
+<p>					</p>
+<p>					//document.getElementById("#"+superid+"-ss").style.background = '';</p>
+<p>					var pid1 = $("#"+superid+"-ss").parent()[0].id;</p>
+<p>					//alert(pid1)</p>
+<p>					var tpid1 = pid1.split("-s");</p>
+<p>					var superid1 = tpid1[0];</p>
+<p>					//alert(superid1);</p>
+<p>					var sfid = $('ul#'+pid1+' li:first').attr('id'); </p>
+<p>					//alert(superid+"-ss")</p>
+<p>					document.getElementById(superid+"-ss").style.background = ''</p>
+<p>					if(sfid != superid+"-ss")</p>
+<p>					{</p>
+<p>					var ppreid = $("#"+superid+"-ss").prev()[0].id; document.getElementById(ppreid).style.background = 'none';</p>
+<p>					}</p>
+<p>					var fid = $('ul#flevel li:first').attr('id'); //alert(fid)</p>
+<p>					if(fid != superid1) { var preid = $("#"+superid1).prev()[0].id; document.getElementById(preid).style.background = 'none'; }</p>
+<p>					if(superid1 != "httpibnliveincom") { $("#"+superid1+"-l").show();}</p>
+<p>								var r = $("#"+superid1).html();</p>
+<p>				//alert(r);</p>
+<p>				r= r.replace('<a href="http://ibnlive.in.com/elections2012/"><font color="#fff000">Elections 2012</font></a>','<a href="http://ibnlive.in.com/elections2012/">Elections 2012</a>');</p>
+<p>				r= r.replace("<a href='http://ibnlive.in.com/elections2012/'><font color='#fff000'>Elections 2012</font></a>","<a href='http://ibnlive.in.com/elections2012/'>Elections 2012</a>");</p>
+<p>				$("#"+superid1).html(r);</p>
+<p>					$("#httpibnliveincom").removeClass("act");</p>
+<p>					$("#httpibnliveincom-s").hide();</p>
+<p>					$("#httpibnliveincom-s-sparent").hide();</p>
+<p>					</p>
+<p>//alert(pid1);</p>
+<p>					$("#"+superid1).addClass("act");</p>
+<p>					if($("#"+superid1+"-m").length) {	$("#"+superid1+"-m").show(); }</p>
+<p>					$("#"+pid1).show();</p>
+<p>					$("#"+pid1+"-sparent").show();</p>
+<p>					$("#"+superid1+"-ss").addClass("act");</p>
+<p>					//alert(superid1+"-ss");</p>
+<p>//alert(("#"+superid+"-sss"))</p>
+<p>					if($("#"+superid+"-sss").length)</p>
+<p>						{</p>
+<p>						//alert("#"+superid+"-sssf");</p>
+<p>						//alert("#"+superid+"-sss");</p>
+<p>						$("#"+superid+"-sssf").show();</p>
+<p>						$("#"+str+"-sssj").addClass("link");</p>
+<p>						$("#"+superid+"-sss").show();</p>
+<p>						//alert("#"+superid+"-sssf");</p>
+<p>						</p>
+<p>						$("#"+superid+"-ss").removeClass().addClass("act");</p>
+<p>						}</p>
+<p>					/****************/</p>
+<p>					</p>
+<p>					/****************/</p>
+<p>				}</p>
+<p>			/****************/</p>
+<p>		}</p>
+<p>		else if($("#"+str+"-ss").length)</p>
+<p>		{</p>
+<p>			//alert("2");</p>
+<p>			//alert("#"+str+"-ss")</p>
+<p>						//alert("B");</p>
+<p>					document.getElementById(str+"-ss").style.background = '';</p>
+<p>				var pid = $("#"+str+"-ss").parent()[0].id;</p>
+<p>				//alert(pid)</p>
+<p>				var tpid = pid.split("-s");</p>
+<p>				var superid = tpid[0];</p>
+<p>				$("#httpibnliveincom").removeClass("act");</p>
+<p>				$("#httpibnliveincom-s").hide();</p>
+<p>				$("#httpibnliveincom-s-sparent").hide();</p>
+<p>				var sfid = $('ul#'+pid+' li:first').attr('id'); </p>
+<p>				if(sfid != str+"-ss")</p>
+<p>				{</p>
+<p>					//alert($("#"+str+"-ss").prev()[0].id)</p>
+<p>					var ppreid = $("#"+str+"-ss").prev()[0].id;</p>
+<p>					document.getElementById(ppreid).style.background = 'none';</p>
+<p>				}</p>
+<p>		</p>
+<p>				var fid = $('ul#flevel li:first').attr('id'); //alert(fid)</p>
+<p>				if(fid != superid) { var preid = $("#"+superid).prev()[0].id; document.getElementById(preid).style.background = 'none'; }</p>
+<p>				var lid = $('ul#flevel li:last').attr('id'); //alert(lid)</p>
+<p>				if(lid == superid) { document.getElementById(superid).style.background = ''; }</p>
+<p>				if(superid != "httpibnliveincom") { $("#"+superid+"-l").show();}</p>
+<p>				else if(superid == "httpibnliveincom") { $("#"+str+"-l").show();}</p>
+<p>				//alert(superid);</p>
+<p>					var r = $("#"+superid).html();</p>
+<p>				r= r.replace('<a href="http://ibnlive.in.com/elections2012/"><font color="#fff000">Elections 2012</font></a>','<a href="http://ibnlive.in.com/elections2012/">Elections 2012</a>');</p>
+<p>				r= r.replace("<a href='http://ibnlive.in.com/elections2012/'><font color='#fff000'>Elections 2012</font></a>","<a href='http://ibnlive.in.com/elections2012/'>Elections 2012</a>");</p>
+<p>				$("#"+superid).html(r);</p>
+<p>				$("#"+superid).addClass("act");</p>
+<p>				if($("#"+superid+"-m").length) { $("#"+superid+"-m").show(); }</p>
+<p>				$("#"+pid).show();</p>
+<p>				//alert(pid)</p>
+<p>				$("#"+pid+"-sparent").show();</p>
+<p>				$("#"+str+"-ss").addClass("act");</p>
+<p>				//alert($("#"+str+"-sss").length)</p>
+<p>				if($("#"+str+"-sss").length  > 0)</p>
+<p>				{</p>
+<p>				$("#"+str+"-sss").show(); $("#"+str+"-sssf").show();  $("#"+str+"-ss").addClass("act");</p>
+<p>				}</p>
+<p>				else</p>
+<p>				{</p>
+<p>				$("#"+str+"-ss").addClass("link");</p>
+<p>				}</p>
+<p>			/****************/</p>
+<p>			</p>
+<p>			/****************/</p>
+<p>		}</p>
+<p>		else if($("#"+str).length)</p>
+<p>		{</p>
+<p>						//alert("C");</p>
+<p>//alert("#"+str);</p>
+<p>			$("#httpibnliveincom").removeClass("act");	</p>
+<p>			$("#httpibnliveincom-s").hide();</p>
+<p>			$("#httpibnliveincom-s-sparent").hide();</p>
+<p>			/***********/</p>
+<p>		   var fid = $('ul#flevel li:first').attr('id');</p>
+<p>		   if(fid != str)</p>
+<p>		   {</p>
+<p>				 var preid = $("#"+str).prev()[0].id;</p>
+<p>				 document.getElementById(preid).style.background = 'none';</p>
+<p>		   }</p>
+<p>		   </p>
+<p>		      var lid = $('ul#flevel li:last').attr('id'); //alert(lid)</p>
+<p>			if(lid == str) { document.getElementById(str).style.background = ''; }</p>
+<p>			</p>
+<p>            /********/</p>
+<p>			if(str != "httpibnliveincom") { $("#"+str+"-l").show(); }</p>
+<p>			var sl = $("#"+str+"-s").length;</p>
+<p>			if(sl>0){</p>
+<p>				</p>
+<p>				var r = $("#"+str).html();</p>
+<p>				r= r.replace('<a href="http://ibnlive.in.com/elections2012/"><font color="#fff000">Elections 2012</font></a>','<a href="http://ibnlive.in.com/elections2012/">Elections 2012</a>');</p>
+<p>				r= r.replace("<a href='http://ibnlive.in.com/elections2012/'><font color='#fff000'>Elections 2012</font></a>","<a href='http://ibnlive.in.com/elections2012/'>Elections 2012</a>");</p>
+<p>				$("#"+str).html(r);</p>
+<p>				$("#"+str).addClass("act");} else { $("#"+str).addClass("link");}</p>
+<p>			//	if($("#"+str+"-ss").length) { $("#"+str).addClass("act"); } else {  $("#"+str).addClass("link");  }</p>
+<p>              //$("#"+str).addClass("link");</p>
+<p>			  $("#"+str+"-m").show();</p>
+<p>			  $("#"+str+"-s").show();</p>
+<p>			  $("#"+str+"-s-sparent").show();</p>
+<p>			  /****************/</p>
+<p>			</p>
+<p>			/****************/</p>
+<p>		}</p>
+<p>		else</p>
+<p>		{</p>
+<p>			//alert("D");</p>
+<p>			//alert("c");</p>
+<p>			$("#httpibnliveincom").removeClass("act");	</p>
+<p>			$("#httpibnliveincom-s").hide();</p>
+<p>			$("#httpibnliveincom-s-sparent").hide();</p>
+<p>			</p>
+<p>			$("#httpibnliveincom").addClass("act");</p>
+<p>			$("#httpibnliveincom-s").show();</p>
+<p>			$("#httpibnliveincom-s-sparent").show();</p>
+<p>		</p>
+<p>		}</p>
+<p>	</p>
+<p>	  }</p>
+<p>	  }</p>
+<p>	 subnavurl(document.URL);</p>
+<p>		</p>
+<p>	  </p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-156703-3']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>  var _comscore = _comscore || [];</p>
+<p>  _comscore.push({ c1: "2", c2: "6683813" });</p>
+<p>  (function() {</p>
+<p>    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;</p>
+<p>    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";</p>
+<p>    el.parentNode.insertBefore(s, el);</p>
+<p>  })();</p>
+<p>function showThickbox()</p>
+<p>			{</p>
+<p>			    tb_show("Sign in","/ibnregistration/edit_regis.php?flv=123&keepThis=true&TB_iframe=true&&height=630&width=623", false);  </p>
+<p>			}</p>
+<p>			</p>
+<p>//Delete_Cookie('redirect_path_ibn', '/', '');</p>
+<p>var_url=document.location.href;</p>
+<p>set_cookie("redirect_path_ibn", var_url,0,0,0,'/',"",'');</p>
+<p>//alert(get_cookie("extra_info") )</p>
+<p>if( get_cookie("extra_info") != "")</p>
+<p>{</p>
+<p>	if(get_cookie_variable(get_cookie("extra_info"),0) == "0")</p>
+<p>	{</p>
+<p>	  window.onload = showThickbox;</p>
+<p>         </p>
+<p>}</p>
+<p>}</p>
+<p>Orissa | Posted on  Jan 17, 2012 at 01:24pm IST</p>
+<p>Parents reluctant, HC orders to file affidavits</p>
+<p>  Express News Service , The New Indian Express</p>
+<p>Tweet</p>
+<p>Share on Tumblr</p>
+<p>CUTTACK: Uncertainty continues to prevail over shifting of the alleged Pipili gangrape victim to AIIMS in New Delhi even as the Orissa High Court on Monday sought details on the reported reluctance of the parents of the girl for moving her to Delhi.A division bench comprising Chief Justice V Gopalagowda and Justice B N Mohapatra directed the Tehsildar of Pipili to file an affidavit, on the refusal of the parents to give their consent to shift their daughter to AIIMS, on Wednesday. In view of their reluctance, the bench reiterated its earlier order for availing services of super speciality doctors from outside if the situation so required.“The same may be availed at the cost of the State for giving treatment to the victim girl”, the bench directed.The Superintendent of the SCB Medical College and Hospital (SCBMCH) on Monday submitted a status report on the condition of the girl along with the recommendation of the high level doctors’ team for shifting her to AIIMS for further investigations and better management.The Superintendent stated that all arrangements had been made by the Government for her airlifting to New Delhi, but the kin refused to give consent.�The petitioner, Prabir Kumar Das, submitted that advocate Haladhar Sethi had met the parents of the victim girl and confirmed that they were not willing to send her to New Delhi. The bench asked Das to file an affidavit on the reasons cited by the parents for doing so.The Crime Branch, which is probing the case, also submitted its status report on� two of the accused, Prashant Pradhan and Guna Chandra Swain. All efforts are being made to collect evidence and apprehend the other two accused at the earliest, DSP and Investigating Officer R C Sethy submitted before the court.�The bench also directed the investigating agency to file a further status report on the progress of the investigation on January 18.</p>
+<p>(For updates you can share with your friends, follow IBNLive on Facebook, Twitter and Google+)</p>
+<p>loadVoting('221623','1','news');</p>
+<p>Parties demand CBI probe into Pipili gang rape</p>
+<p>Bird Flu: Students refuse eggs in MDM</p>
+<p>More on IBNLive Right Now</p>
+<p>TOP NEWSGovt moves SC, unlikely to sack Gen VK SinghRushdie must not be allowed in India: Deoband</p>
+<p>MOST SHAREDTelugu Review: 'Businessman' is a must watchSearch continues for cruise ship survivorsTamil Review: 'Nanban' is sweet and satisfying</p>
+<p>PHOTOGALLERY</p>
+<p>                $(function(){</p>
+<p>					$('#slides22').slides22({</p>
+<p>					preload: true,</p>
+<p>					generateNextPrev: true</p>
+<p>                });</p>
+<p>                });</p>
+<p>                </p>
+<p>VIDEOS</p>
+<p>Rushdie's security remains a prime concern: Sanjoy RoyKalmadi inflated CWG contracts: AM Films ownerCong minister in West Bengal threatens to quitBihar CM's education scheme turns into a scamGovt moves SC, unlikely to sack Gen VK SinghBSP MLA breaks down after being refused ticketUP polls: Rs 1.54 crore worth cash seized in KanpurUP: SC orders sugar mill owners to pay farmersAbu Salem case: Portugal SC rejects India plea</p>
+<p>var zflag_nid=zflag_nid_300_600; var zflag_cid=zflag_cid_300_600; var zflag_sid=zflag_sid_300_600; var zflag_width=zflag_width_300_600; var zflag_height=zflag_height_300_600; var zflag_sz=zflag_sz_300_600;</p>
+<p>var zflag_nid=zflag_nid_300_250; var zflag_cid=zflag_cid_300_250; var zflag_sid=zflag_sid_300_250; var zflag_width=zflag_width_300_250; var zflag_height=zflag_height_300_250; var zflag_sz=zflag_sz_300_250;</p>
+<p>.rltsrch{ width:300px; background:url(http://static.ibnlive.in.com/ibnlive/pix/ibnhome/bgs.jpg) top #ffffff repeat-x; float:left; border:1px solid #c4d6e3;}</p>
+<p>.rltsrch ul{ text-align:left; margin:0px; padding:0px;}</p>
+<p>.rltsrch li{background:url(http://static.ibnlive.in.com/ibnlive/pix/ibnhome/blt.jpg) no-repeat 0px 8px; padding-left:12px; margin:0px 10px 5px 10px; list-style:none; line-height:18px;}</p>
+<p>.rltsrch li a{ font:normal 12px arial; color:#0460A7; text-decoration:none;}</p>
+<p>.rltsrch li a:hover{ font:normal 12px arial; color:#000; text-decoration:none;}</p>
+<p>.rltsrch h2{ margin:0px; padding:0px; font:bold 15px arial; color:#272727; border-bottom:1px solid #ccc; margin:10px 10px 6px 10px; padding-bottom:5px; }</p>
+<p>function relatedsearch(){</p>
+<p>$("#relatedsearch").load('/specials/txttxt/keywordstxt.txt?random='+new Date().getTime());} relatedsearch();</p>
+<p> Trending Searches#Indian Premier League#Bruno Senna#Narendra Modi#Salman Rushdie#Tata Consultancy Services#Mamata Banerjee#Leap second#Cruise ship#Anil Ambani#Sri Lanka#Narendra Modi#Mamata Banerjee#Sri Lanka#Kochi#Priyanka Vadra#Mayawati#Mullaperiyar Dam#Bharatiya Janata Party#Nitin Gadkari#Abu Salem  </p>
+<p>.main { width: 300px; font-family:Arial, Helvetica, sans-serif; font-size: 12px; color: #454342;}</p>
+<p>.main a { color:#454342; text-decoration: none;}</p>
+<p>.FL { float: left} .CL { clear: both}</p>
+<p>.head { background:url(http://im.in.com/images/promo/MC_head_bg.gif) no-repeat top; padding: 12px 0 10px 0}</p>
+<p>.bott { background: url(http://im.in.com/images/promo/MC_bott_bg.gif) no-repeat bottom; padding: 15px 0 14px 0; margin-top:21px}</p>
+<p>.btn { padding: 0 7px 0 0; text-align: right;}</p>
+<p>.rhs { width: 180px; padding-left: 10px;}</p>
+<p>.rhs h1 { font-size: 12px; padding: 46px 0 0 0; margin: 0; color:#58595B}</p>
+<p>.row {    border-bottom: 1px solid lightgray;    padding: 10px 0;}</p>
+<p>.thumb { width: 92px;}</p>
+<p>.txts { width: 170px; padding: 0 4px 0 10px}</p>
+<p>.txts h2 { font-size: 13px; padding: 0 0 5px 0; margin: 0; color:#454342; line-height: 13px;}</p>
+<p>.txts p { padding: 0 0 0 0; margin: 0; color: #999999; font-size: 10px;}</p>
+<p> var scrolling = null;</p>
+<p>	 </p>
+<p>    function scroll_up() {</p>
+<p>         var d = document.getElementById('scroller');</p>
+<p>  </p>
+<p>         d.scrollTop = d.scrollTop - 5;</p>
+<p>  </p>
+<p>         scrolling = window.setTimeout(function() {</p>
+<p>            scroll_up();</p>
+<p>         }, 50);</p>
+<p>     }</p>
+<p>  </p>
+<p>     function scroll_down() {</p>
+<p>         var d = document.getElementById('scroller');</p>
+<p>  </p>
+<p>         d.scrollTop = d.scrollTop + 5;</p>
+<p>  </p>
+<p>         scrolling = window.setTimeout(function() {</p>
+<p>             scroll_down();</p>
+<p>         }, 50);</p>
+<p>     }</p>
+<p>  </p>
+<p>     function stop_scroll() {</p>
+<p>         window.clearTimeout(scrolling);</p>
+<p>     }</p>
+<p>TCS Q3 net up 18% at Rs 2886 cr; PAT margins at 22%</p>
+<p>Market sees strong momentum: Is it time to book profits?</p>
+<p>Gold to peak over ,000/oz late 2012 or early 2013</p>
+<p>Montek says fiscal deficit to be very high this year</p>
+<p>Tulsian's power picks: Adani Power & Sterlite Industries</p>
+<p>SC directs Essar Oil to pay up Rs 9,100 cr tax to Guj govt</p>
+<p>Fitch says Greece to default, believes will be orderly</p>
+<p>India inflation to ease soon, RBI to hold rates: HSBC</p>
+<p>HCL Tech margins expand 2.5% on forex swap</p>
+<p>Hike in gold import duty to impact imports, rupee: Experts</p>
+<p>China banks lend .18bn to Anil Ambani's RComm</p>
+<p>Allow FDI before budget to change investor sentiment: FICCI</p>
+<p>.fx-ftr{height:60px; border-top:1px solid  #999999; background-color:#FFF;}</p>
+<p>		.fx-ftr-in{ width:990px;  margin:auto; padding-bottom:10px;}</p>
+<p>		.fx-ftr-in h2{ float:left; margin-right:15px; font:bold 22px arial; color:#000;  margin:0px; padding:0px; margin-top:14px; margin-right:15PX;}</p>
+<p>		.fx-ftr-in img{ float:left; margin:8px 10px 0px 0px;}</p>
+<p>		.fx-ftr-in img.fxnmrgn{ float:left; margin:0px 15px 0px 0px;}</p>
+<p>Follow IBNLive.com</p>
+<p>Politics | India | Movies | IBN South | Cricket | Photos | Videos | Video Streams |World | Business | Sports | Blogs | Tech | Latest News | Talk | Citizen Journalist | Sitemap | Football  |  News | Books | Chat | Blaze | Apps | TV | Live TV | Time-Crunch TV | South India | India Global | Masand Review | Tennis | Golf | Formula One | Tech Toys | Documents | Newsletters | Health | Popular Tags : Topics | Team | Event | People | City</p>
+<p>About Us | Disclaimer | Careers @ IBN | Contact Us | Feedback | Complaint Redressal | Advertise With Us | Connect.in.com | Live Stock Market News | India’s Premiere Technology Guide | Privacy Policy | IBNKhabar | RSS Feeds | Josh18 | Kids education and games site | Firstpost  | History India | Please tell us about your smart phone preference.. | Please tell us what you plan to buy your home this season.. | Please tell us about you mobile network.. | What is your dream car?</p>
+<p> © 2012 IBNLive.com India. All Rights Reserved. A Web18 Venture </p>
+<p>CNN name, logo and all associated elements ® and © 2012 Cable News Network LP, LLLP. A Time Warner Company. All rights reserved. CNN and the CNN logo are registered marks of Cable News Network, LP LLLP,  displayed with permission. Use of the CNN name and/or logo on or as part of CNN-IBN does not derogate from the intellectual property rights of Cable News Network in respect of them.</p>
+<p>function getDiv(val1,val2,val3,val4,val5,val6)</p>
+<p>{</p>
+<p>	//alert(document.getElementById('sms_img').style.display);</p>
+<p>	str = val1+"_img";</p>
+<p>	if(document.getElementById(str).style.display == 'none')</p>
+<p>	{</p>
+<p>		document.getElementById(str).style.display = '';</p>
+<p>	}</p>
+<p>	else</p>
+<p>	{</p>
+<p>		document.getElementById(str).style.display = 'none';</p>
+<p>	}</p>
+<p>	str2 = val2+"_img";		 </p>
+<p>	document.getElementById(str2).style.display = 'none';</p>
+<p>	str3 = val3+"_img";		 </p>
+<p>	document.getElementById(str3).style.display = 'none';</p>
+<p>	str4 = val4+"_img";		 </p>
+<p>	document.getElementById(str4).style.display = 'none';</p>
+<p>	str5 = val5+"_img";		 </p>
+<p>	document.getElementById(str5).style.display = 'none';</p>
+<p>	str6 = val6+"_img";		 </p>
+<p>	document.getElementById(str6).style.display = 'none';</p>
+<p>	</p>
+<p>}</p>
+<p>subnavurl('http://ibnlive.in.com/southindia/117.html?/'); </p>
+<p>		<!--</p>
+<p>		function google_ad_request_done(google_ads) {</p>
+<p>			</p>
+<p>		var s = '';</p>
+<p>		if (google_ads.length == 0) {</p>
+<p>		return;</p>
+<p>		}</p>
+<p>		if (google_ads[0].type=="text") {</p>
+<p>			var adStr='<table width="100%" border="0" cellspacing="2" cellpadding="2"><tr><td style="text-align:right;padding-right:10px;" colspan=' + google_ads.length + '><a href="'+ google_info.feedback_url +'" target="_blank" class="dgreytxt12" style="font-size:11px; color:#a2a2a2">Ads by Google</a></td></tr></table>';</p>
+<p> </p>
+<p>			</p>
+<p>				s += '<h3 ><a href="' + google_ads[0].url + '" target="_blank" style=" color: #096DB9;    font: bold 14px Arial,Helvetica,sans-serif;    text-decoration: none;">' + google_ads[0].line1 + ' </a></h3>' + google_ads[0].line2 + ' ' + google_ads[0].line3 + ' <br /><span><a href="' + google_ads[0].url + '">' + google_ads[0].visible_url +'</a></span><h5><a href="'+ google_info.feedback_url +'" target="_blank"> Ads by Google</a></h5>';			</p>
+<p>			</p>
+<p>			</p>
+<p>			document.getElementById("bottombody").innerHTML = '<div class="google_add" > '+s+'</div>' ;</p>
+<p>		}</p>
+<p>		return;</p>
+<p>		}</p>
+<p>		google_ad_client = 'ca-ibnlive_site_js'; </p>
+<p>		google_ad_channel =  "news_article_lhs";</p>
+<p>		google_ad_output = 'js';</p>
+<p>		google_max_num_ads = '2';</p>
+<p>		google_ad_type = 'text';</p>
+<p>		google_encoding = 'utf8';</p>
+<p>		google_page_url = document.location.href; </p>
+<p>		google_safe = 'high';</p>
+<p>		//google_ad_section = '';</p>
+<p>		google_hints = "Parents reluctant, HC orders to file affidavits - southindia - Orissa - ibnlive";</p>
+<p>		//google_skip = '1';</p>
+<p>		// --></p>
+<p>		</p>
+<p>FB.Event.subscribe('edge.create', function(targetUrl) {</p>
+<p>  _gaq.push(['_trackSocial', 'facebook', 'like', targetUrl]);</p>
+<p>});</p>
+<p>twttr.events.bind('tweet', function(event) {</p>
+<p>  if (event) {</p>
+<p>    var targetUrl;</p>
+<p>    if (event.target && event.target.nodeName == 'IFRAME') {</p>
+<p>      targetUrl = extractParamFromUri(event.target.src, 'url');</p>
+<p>    }</p>
+<p>    _gaq.push(['_trackSocial', 'twitter', 'tweet', targetUrl]);</p>
+<p>  }</p>
+<p>});</p>
+<p>function extractParamFromUri(uri, paramName) {</p>
+<p>  if (!uri) {</p>
+<p>    return;</p>
+<p>  }</p>
+<p>  var uri = uri.split('#')[0];  // Remove anchor.</p>
+<p>  var parts = uri.split('?');  // Check for query params.</p>
+<p>  if (parts.length == 1) {</p>
+<p>    return;</p>
+<p>  }</p>
+<p>  var query = decodeURI(parts[1]);</p>
+<p>  // Find url param.</p>
+<p>  paramName += '=';</p>
+<p>  var params = query.split('&');</p>
+<p>  for (var i = 0, param; param = params[i]; ++i) {</p>
+<p>    if (param.indexOf(paramName) === 0) {</p>
+<p>      return unescape(param.split('=')[1]);</p>
+<p>    }</p>
+<p>  }</p>
+<p>}</p>

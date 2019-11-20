@@ -1,0 +1,507 @@
+<p>{lang: 'ru'}</p>
+<p>Кернес – Турчинову: играть в «Зарницу» не дам, и бутылки свои уберите - Главред - Главред</p>
+<p>try{$(document).ready(function(){jQuery.core.ajax.init();});}catch(e){};</p>
+<p>var section_id = '35722';</p>
+<p>var pp_gemius_identifier = new String('10zlD2LMJZ.d2DY4nN7lfYYgLQoFRudULJ19Td_Grib.n7');</p>
+<p>var N = 2; var ar_bn1= Math.floor(Math.random()*N+1);</p>
+<p>try{$(document).ready(function(){scrollpane.simple('.right_photo_last',{"xpath":".right_photo_last","step":1});});}catch(e){};</p>
+<p>try{$(document).ready(function(){scrollpane.simple('.right_video_last',{"xpath":".right_video_last","step":1});});}catch(e){};</p>
+<p>try{$(document).ready(function(){box_glavred.right_poll.init();});}catch(e){};</p>
+<p>      var _gaq = _gaq || [];</p>
+<p>      _gaq.push(['_setAccount', 'UA-22507043-14']);</p>
+<p>      _gaq.push(['_trackPageview']);</p>
+<p>      (function() {</p>
+<p>        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>      })();</p>
+<p>    </p>
+<p>      (function(){</p>
+<p>      var twitterWidgets = document.createElement('script');</p>
+<p>      twitterWidgets.type = 'text/javascript';</p>
+<p>      twitterWidgets.async = true;</p>
+<p>      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';</p>
+<p>      // Setup a callback to track once the script loads.</p>
+<p>      //twitterWidgets.onload = _ga.trackTwitter;</p>
+<p>      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);</p>
+<p>      })();</p>
+<p>    </p>
+<p>(function(d, s, id) {</p>
+<p>        var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>        if (d.getElementById(id)) return;</p>
+<p>        js = d.createElement(s); js.id = id;</p>
+<p>        js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=298589413496839";</p>
+<p>        fjs.parentNode.insertBefore(js, fjs);</p>
+<p>      }(document, 'script', 'facebook-jssdk'));</p>
+<p>      </p>
+<p><!--</p>
+<p>      new Image().src = "http://counter.yadro.ru/hit?r"+</p>
+<p>      escape(top.document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>      ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>      screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>      ";h"+escape(document.title.substring(0,80))+</p>
+<p>      ";"+Math.random();//--></p>
+<p><!--</p>
+<p>    var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>    var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>    document.write('<sc' + 'ript language="JavaScript" type="text/javascript" src="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=126719&sz='+section_id+'&bn=1&target=blank&bt=16&pz=1&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '"><\/sc' + 'ript>');</p>
+<p>    //--></p>
+<p>10 апреля, 12:07</p>
+<p>RSS</p>
+<p>Вход</p>
+<p>Glavred</p>
+<p>ВКонтакте</p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>Регистрация</p>
+<p>           new adriver("top_banner", {sid:173951, bt:52, sz:section_id, pz:2});</p>
+<p>          </p>
+<p>Glavred</p>
+<p>Думать надо о том, как выжить во времена открытости, к которой постсоветские полубоги явно не приучены...</p>
+<p>Виталий Портников</p>
+<p>Главная</p>
+<p>Политика</p>
+<p>Мир</p>
+<p>Экономика</p>
+<p>Происшествия</p>
+<p>Столица</p>
+<p>Жизнь</p>
+<p>Культура</p>
+<p>Спорт</p>
+<p>VIP - Stars</p>
+<p>Колонки</p>
+<p>Фото и видео</p>
+<p>Чат</p>
+<p>  $(document).ready(function() {</p>
+<p>    $('#query').focus(</p>
+<p>      function(){</p>
+<p>          $(this).parent('div').css('background-position','0 100%');</p>
+<p>          $('#btn_search_submit').css('background-position','0 100%');</p>
+<p>      }).blur(</p>
+<p>        function(){</p>
+<p>            $(this).parent('div').css('background-position','0 0');</p>
+<p>            $('#btn_search_submit').css('background-position','0 0');</p>
+<p>        });</p>
+<p>  });</p>
+<p>  var BANDWITH = 0;</p>
+<p>  var BANDWITH_CONDITION_LIMIT = 2100;</p>
+<p>  var FILESIZE = 291812;</p>
+<p>  var FILESRC = "http://tsn.ua/static/file/metter.jpg?ac="+Math.random();</p>
+<p>  function trim(string) {</p>
+<p>    return string.replace(/(^\s+)|(\s+$)/g, "");</p>
+<p>  }</p>
+<p>  function speedTest() {</p>
+<p>    $('#top_banner_video').html('<img id="image_test" style="display:none;" src="'+FILESRC+'" onload="onLoadImage()" />');</p>
+<p>  }</p>
+<p>  function onLoadImage() {</p>
+<p>    var t1 = new Date();</p>
+<p>    var tend = t1.getTime();</p>
+<p>    var timeloading = (tend - tstart)/1000;</p>
+<p>    FILESIZE = FILESIZE*8;</p>
+<p>    BANDWITH = FILESIZE/timeloading;</p>
+<p>    BANDWITH = Math.round(BANDWITH/1000);</p>
+<p>    var expire = new Date();</p>
+<p>    expire.setTime(expire.getTime() + (7*24*60*60*1000));</p>
+<p>    set_cookie('bandwith',BANDWITH,expire);</p>
+<p>    showBanner(BANDWITH, BANDWITH_CONDITION_LIMIT);</p>
+<p>    $.ajax({</p>
+<p>      type: "GET",</p>
+<p>      url: "http://tsn.ua/speed_connection_stat/?bandwith="+BANDWITH,</p>
+<p>      dataType: "text/html",</p>
+<p>      success: function(data){</p>
+<p>      }</p>
+<p>    });</p>
+<p>  }</p>
+<p>  var cookies = document.cookie;</p>
+<p>  var cookies_data = cookies.split(';');</p>
+<p>  for (var i=0; i<cookies_data.length; i++) {</p>
+<p>    var cookie_val = cookies_data[i].split('=');</p>
+<p>    if(trim(cookie_val[0]) == 'bandwith') {</p>
+<p>      BANDWITH = Math.round(parseInt(trim(cookie_val[1])));</p>
+<p>      break;</p>
+<p>    }</p>
+<p>  }</p>
+<p>  if(BANDWITH <= 0) {</p>
+<p>    var t = new Date();</p>
+<p>    var tstart = t.getTime();</p>
+<p>    speedTest();</p>
+<p>  }</p>
+<p>  else {</p>
+<p>    showBanner(BANDWITH, BANDWITH_CONDITION_LIMIT);</p>
+<p>  }</p>
+<p>  function showBanner(BANDWITH, BANDWITH_CONDITION_LIMIT) {</p>
+<p>    if(BANDWITH < BANDWITH_CONDITION_LIMIT) {</p>
+<p>      $('#top_banner_video').html('<div id="alt_fullvideo"></div>');</p>
+<p>      new adriver("alt_fullvideo", {sid:173951, bt:52, sz:section_id, bn:10, pz:1});</p>
+<p>    }</p>
+<p>    else {</p>
+<p>      $('#top_banner_video').html('<div id="Fullvideo_banner"></div>');</p>
+<p>      new adriver("Fullvideo_banner", {sid:173951, bt:52, sz:section_id, bn:1, pz:1});</p>
+<p>    }</p>
+<p>  }</p>
+<p>  function set_cookie(name, value, expires) {</p>
+<p>    var argv = this.set_cookie.arguments;</p>
+<p>    var argc = this.set_cookie.arguments.length;</p>
+<p>    var expires = (argc > 2) ? argv[2] : null;</p>
+<p>    var path = (argc > 3) ? argv[3] : null;</p>
+<p>    var domain = (argc > 4) ? argv[4] : null;</p>
+<p>    var secure = (argc > 5) ? argv[5] : false;</p>
+<p>    document.cookie = name + "=" + escape(value) +</p>
+<p>    ((expires == null) ? "" : ("; expires=" + expires)) +</p>
+<p>    ((path == null) ? "" : ("; path=" + path)) +</p>
+<p>    ((domain == null) ? "" : ("; domain=" + domain)) +</p>
+<p>    ((secure == true) ? "; secure" : "");</p>
+<p>  }</p>
+<p>Кернес – Турчинову: играть в «Зарницу» не дам, и бутылки свои уберите</p>
+<p>4 января, 22:32</p>
+<p><!--</p>
+<p>             document.write(VK.Share.button(false,{type: "custom", text: "<img src=\"/static/img/buttons/vkontakte-top.png\" />"}));</p>
+<p>         --></p>
+<p>      new adriver("art_banner", {sid:173951, bt:52, sz:section_id, bn:3, pz:1});</p>
+<p>    </p>
+<p>Сторонники экс-премьера Юлии Тимошенко не будут «играть в войну» под стенами Качановской колонии. Об этом заявил мэр Харькова Геннадий Кернес, которого цитирует официальный сайт Харьковского горсовета.</p>
+<p>	«Никаких «зарниц» в Харькове не будет», - заявил Кернес, комментируя заявление первого заместителя главы партии «Батькивщина» Александра Турчинова.</p>
+<p>	«К сведению всех желающих приехать в Харьков с боевыми, как они  говорят, намерениями. В Харькове все спокойно, началась первая рабочая неделя нового года, и городские власти работают в интересах каждого жителя Харькова», - заявил он.</p>
+<p>	«Считаю не допустимым бахвальство «боевика» :-))) Александра Турчинова, который уже заранее уверен, что сможет здесь вести себя безнаказанно», - цитирует Кернеса его пресс-служба.</p>
+<p>	«А что касается желания представителей киевского «палаточного городка» поделиться опытом с харьковскими БЮТовцами, то довожу до сведения Турчинова и Кº следующее: пустые бутылки из-под выпитого шампанского, вина и водки, остатки бутербродов с колбасой и салом, обертки от шоколадных конфет и мандарин, недоеденные шашлыки и цыплята табака, которые так любят употреблять харьковские БЮТовцы под стенами Качановской колонии, согласно правилам благоустройства города, нужно за собой убирать. И постоянно», - заявил мэр.</p>
+<p>	 «Что касается  «боевых палаток и знамен», в войну здесь играть никто не позволит», подытожил Кернес.</p>
+<p>фото: advocat-cons.info</p>
+<p>Новости по теме:</p>
+<p>Кернес, не служивший в армии, награжден военной медалью</p>
+<p>Возле Качановской колонии начинает расти палаточный городок</p>
+<p>Портрет Тимошенко в ее колонии висел на доске почета (ФОТО)</p>
+<p>Тимошенко получит койку в камере на 60 человек - правозащитник</p>
+<p>Tweet</p>
+<p><!--</p>
+<p>                document.write(VK.Share.button(false,{type: "round", text: "Рекомендувати"}));</p>
+<p>            --></p>
+<p>Теги:  </p>
+<p>Политика</p>
+<p>ПО МАТЕРИАЛАМ: </p>
+<p>  var targetUrl = document.location.href;</p>
+<p>  var opt_pageUrl = document.location.pathname;</p>
+<p>  var _ga = _ga || {};</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _ga.trackSocial = function(opt_pageUrl, opt_trackerName) {</p>
+<p>    _ga.trackFacebook(opt_pageUrl, opt_trackerName);</p>
+<p>    _ga.trackTwitter(opt_pageUrl, opt_trackerName);</p>
+<p>  };</p>
+<p>  _ga.trackFacebook = function(opt_pageUrl, opt_trackerName) {</p>
+<p>    var trackerName = _ga.buildTrackerName_(opt_trackerName);</p>
+<p>    try {</p>
+<p>      if (FB && FB.Event && FB.Event.subscribe) {</p>
+<p>        FB.Event.subscribe('edge.create', function(targetUrl) {</p>
+<p>          _gaq.push([trackerName + '_trackSocial', 'facebook', 'like',</p>
+<p>              targetUrl, opt_pageUrl]);</p>
+<p>        });</p>
+<p>        FB.Event.subscribe('edge.remove', function(targetUrl) {</p>
+<p>          _gaq.push([trackerName + '_trackSocial', 'facebook', 'unlike',</p>
+<p>              targetUrl, opt_pageUrl]);</p>
+<p>        });</p>
+<p>        FB.Event.subscribe('message.send', function(targetUrl) {</p>
+<p>          _gaq.push([trackerName + '_trackSocial', 'facebook', 'send',</p>
+<p>              targetUrl, opt_pageUrl]);</p>
+<p>        });</p>
+<p>      }</p>
+<p>    } catch (e) {}</p>
+<p>  };</p>
+<p>  _ga.buildTrackerName_ = function(opt_trackerName) {</p>
+<p>    return opt_trackerName ? opt_trackerName + '.' : '';</p>
+<p>  };</p>
+<p>  _ga.trackTwitter = function(opt_pageUrl, opt_trackerName) {</p>
+<p>    var trackerName = _ga.buildTrackerName_(opt_trackerName);</p>
+<p>    try {</p>
+<p>      if (twttr && twttr.events && twttr.events.bind) {</p>
+<p>        twttr.events.bind('tweet', function(event) {</p>
+<p>          if (event) {</p>
+<p>            var targetUrl;</p>
+<p>            if (event.target && event.target.nodeName == 'IFRAME') {</p>
+<p>              targetUrl = _ga.extractParamFromUri_(event.target.src, 'url');</p>
+<p>            }</p>
+<p>            _gaq.push([trackerName + '_trackSocial', 'twitter', 'tweet',</p>
+<p>              targetUrl, opt_pageUrl]);</p>
+<p>          }</p>
+<p>        });</p>
+<p>      }</p>
+<p>    } catch (e) {}</p>
+<p>  };</p>
+<p>  _ga.extractParamFromUri_ = function(uri, paramName) {</p>
+<p>    if (!uri) {</p>
+<p>      return;</p>
+<p>    }</p>
+<p>    var uri = uri.split('#')[0];</p>
+<p>    var parts = uri.split('?');</p>
+<p>    if (parts.length == 1) {</p>
+<p>      return;</p>
+<p>    }</p>
+<p>    var query = decodeURI(parts[1]);</p>
+<p>    paramName += '=';</p>
+<p>    var params = query.split('&');</p>
+<p>    for (var i = 0, param; param = params[i]; ++i) {</p>
+<p>      if (param.indexOf(paramName) === 0) {</p>
+<p>        return unescape(param.split('=')[1]);</p>
+<p>      }</p>
+<p>    }</p>
+<p>    return;</p>
+<p>  };</p>
+<p>262 комментария</p>
+<p>Для того, чтобы оставлять комментарии, пожалуйста, авторизуйтесь через:</p>
+<p>Главред</p>
+<p>ВКонтакте</p>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>Символов осталось: 1000</p>
+<p>Fagner</p>
+<p>10 июня, 10:24</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>Thanks for that! It's just the answer I neeedd.</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Rosy</p>
+<p>9 июня, 19:29</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>Stands back from the kyebroad in amazement! Thanks!</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Emine</p>
+<p>19 февраля, 15:48</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>A ralely good answer, full of rationality!</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Gracye</p>
+<p>16 января, 07:57</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>That raelly captures the spirit of it. Thanks for posting.</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Jacklyn</p>
+<p>12 января, 22:12</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>Big help, big help. And superlative news of cursoe.</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Олег</p>
+<p>5 января, 15:02</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>Ну и рожа жидовская.</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Голубожопая нечисть</p>
+<p>5 января, 13:55</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>Даёш донецко-криворожскую республику.</p>
+<p>По выходу ЮВТ из колонии предоставить всем </p>
+<p>ПРидарастам республику в самых глубоких шахтах донецк-криворожья и пусть петушня  соединит два этих города подземной железной дорогой чтобы у голубцов была полная свобода.</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Голубожопая нечисть</p>
+<p>5 января, 13:23</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>ПРидарасты всех стран совокупляйтесь-Юлю и всех баб упрятать в тюрягу.</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Стас</p>
+<p>5 января, 13:21</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>А,не пора бы вспомнить про Донецко-Криворожскую республику?</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>Рюрик</p>
+<p>5 января, 13:20</p>
+<p> Не согласен</p>
+<p>0</p>
+<p> Согласен</p>
+<p>Хернес застолбил для власти право на революции и войны в качестве компенсатора эмоций народных масс, когда в бедственном  положении народа, попытаются обвинить сам народ для самобичевания, главное чтобы к властям не было претензий за их бездарное управление страной, а вернее за разворовывание страны.</p>
+<p>ответить</p>
+<p>цитировать</p>
+<p>Пожаловаться на комментарий</p>
+<p>12345...27</p>
+<p>></p>
+<p>        var _hcp = _hcp || {};_hcp.widget_id = 4928;_hcp.widget = "Stream";_hcp.xid = 64055;</p>
+<p>        (function() {</p>
+<p>            var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;</p>
+<p>            hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://widget.hypercomments.com/apps/js/hc.js";</p>
+<p>            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hcc, s.nextSibling);</p>
+<p>        })();</p>
+<p>      </p>
+<p>comments powered by HyperComments</p>
+<p> </p>
+<p>    document.write('<iframe src="http://teaser.mbn.com.ua/cgi-bin/iframe/glavred?options=B&id=' + Math.round(Math.random() * 100000) + '&arg1=12&arg2=000000' + '" style="width:200px; height: 50px; margin: 0px; overflow: hidden; border: 0px;" scrolling=no frameborder=0><\/iframe>');</p>
+<p>    Teaser MBN </p>
+<p>    document.write('<iframe src="http://teaser.mbn.com.ua/cgi-bin/iframe/glavred?options=B&id=' + Math.round(Math.random() * 100000) + '&arg1=12&arg2=000000' + '" style="width:200px; height: 50px; margin: 0px; overflow: hidden; border: 0px;" scrolling=no frameborder=0><\/iframe>');</p>
+<p>    Teaser MBN </p>
+<p>    document.write('<iframe src="http://teaser.mbn.com.ua/cgi-bin/iframe/glavred?options=B&id=' + Math.round(Math.random() * 100000) + '&arg1=12&arg2=000000' + '" style="width:200px; height: 50px; margin: 0px; overflow: hidden; border: 0px;" scrolling=no frameborder=0><\/iframe>');</p>
+<p>    Teaser MBN  </p>
+<p>traffim.com</p>
+<p>Лента новостей</p>
+<p>Загрузка...</p>
+<p>Новости</p>
+<p>  $(document).ready(function() {</p>
+<p>    box_glavred.comments_form.init();</p>
+<p>    $('#comment .list_comments .btn_vote').mouseover(function(){</p>
+<p>      $('.help', this).show();</p>
+<p>    });</p>
+<p>    $('#comment .list_comments .btn_vote').mouseout(function(){</p>
+<p>      $('.help', this).hide();</p>
+<p>    })</p>
+<p>    $('#comment .list_comments .btn_spam').mouseover(function(){</p>
+<p>      $('.help', this).show();</p>
+<p>    });</p>
+<p>    $('#comment .list_comments .btn_spam').mouseout(function(){</p>
+<p>      $('.help', this).hide();</p>
+<p>    });</p>
+<p>  });</p>
+<p>        new adriver("premium_banner", {sid:173951, bt:52, sz:section_id, pz:3});</p>
+<p>      </p>
+<p>Новости</p>
+<p>Певицу Елку назвали иконой стиля</p>
+<p>10 апреля, 11:50</p>
+<p>Доктор Пи не считает себя опасным для общества и жалеет, что не уехал из Украины</p>
+<p>10 апреля, 11:48</p>
+<p>Коршунова может сесть на два года в тюрьму за избиение Романа Ландика</p>
+<p>10 апреля, 11:32</p>
+<p>Луценко проиграл кассацию по делу об отравлении Ющенко</p>
+<p>10 апреля, 11:31</p>
+<p>Композитор Игорь Крутой признался, что он обжора</p>
+<p>10 апреля, 11:20</p>
+<p>В Украине объявлено штормовое предупреждение</p>
+<p>10 апреля, 11:12</p>
+<p>Названа причина крушения самолета в Донецке</p>
+<p>10 апреля, 11:12</p>
+<p>КНДР пообещала атаковать японские города в случае войны</p>
+<p>10 апреля, 10:59</p>
+<p>Французский сенат одобрил однополые браки</p>
+<p>10 апреля, 10:56</p>
+<p>1</p>
+<p>Джерард Батлер танцевал Harlem Shake с британскими солдатами</p>
+<p>10 апреля, 10:50</p>
+<p>Фото</p>
+<p><</p>
+<p>></p>
+<p>Пукач через суд требует переименовать улицу Гонгадзе</p>
+<p>В Иране число жертв землетрясения увеличилось до 37 погибших и 850 раненых</p>
+<p>Лига чемпионов: "Реал" проиграл в Стамбуле, "Боруссия" выбила победу у "Малаги", видео голов</p>
+<p>В Киеве оползень грозит целой улице: опубликованы фото и видео</p>
+<p>Луценко и Порошенко стали кумовьями: опубликованы фото и видео</p>
+<p>1</p>
+<p>В Луцке собралась акция "Вставай, Украина": оппозиция насчитала 10 тысяч, милиция - 600 человек</p>
+<p>2</p>
+<p>Санта Димопулос в Лос-Анджелесе довела Сергея Лазарева до слез</p>
+<p>Колесниченко не растерялся и метнул фекалии обратно в активистку: опубликованы фото</p>
+<p>Алена Водонаева показала свои детские фото</p>
+<p>Бойня в Сербии: мужчина застрелил 13 человек</p>
+<p>Видео</p>
+<p><</p>
+<p>></p>
+<p>Названа причина крушения самолета в Донецке</p>
+<p>Джерард Батлер танцевал Harlem Shake с британскими солдатами</p>
+<p>В КНДР на боевые позиции выведены несколько баллистических ракет</p>
+<p>Лига чемпионов: "Реал" проиграл в Стамбуле, "Боруссия" выбила победу у "Малаги", видео голов</p>
+<p>В Британии празднуют смерть Маргарет Тэтчер: ранены шестеро полицейских</p>
+<p>1</p>
+<p>В Киеве оползень грозит целой улице: опубликованы фото и видео</p>
+<p>Луценко и Порошенко стали кумовьями: опубликованы фото и видео</p>
+<p>1</p>
+<p>Опубликовано видео "фекальной атаки" на Колесниченко</p>
+<p>6</p>
+<p>Обнаженная Даша Астафьева послала Хью Хефнеру видео-открытку</p>
+<p>В Житомире толпа взяла штурмом облсовет</p>
+<p>2</p>
+<p>Опрос</p>
+<p>Киеву и Украине грозят паводки. Как Вы готовитесь к приходу "большой воды"? </p>
+<p>Запасся продуктами и сижу домаСтараюсь ходить пешком, чтобы не застрять в лужах или затопленном метроНа время потопа уеду в безопасное местоКупил лодку и готов плавать по улицамНе готовлюсь, как-то переживу наводнениеНикакого наводнения не будет, по крайней мере, в Киеве</p>
+<p>Женщина</p>
+<p>Мужчина</p>
+<p>Результаты</p>
+<p>    VK.Widgets.Group("vk_groups", {mode: 0, width: "300", height: "150"}, 34610156);</p>
+<p>  </p>
+<p>    window.___gcfg = {lang: 'ru'};</p>
+<p>    (function() {</p>
+<p>      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>      po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>    })();</p>
+<p>  </p>
+<p>Правовая информация </p>
+<p>Контакты</p>
+<p>Реклама</p>
+<p>©2002-2009, GLAVRED.INFO. Все права защищены.</p>
+<p>Перепечатка, копирование или воспроизведение информации, содержащей ссылку на агенство УНИАН, в каком-либо виде запрещено </p>
+<p><!--</p>
+<p>            var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>            var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>            document.write('<sc' + 'ript language="JavaScript" type="text/javascript" src="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=173951&sz='+section_id+'&bn=1&target=blank&bt=16&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '"><\/sc' + 'ript>');</p>
+<p>          //--></p>
+<p><!--</p>
+<p>          function BM_Draw(oBM_STAT){</p>
+<p>          document.write('<table cellpadding="0" cellspacing="0" border="0" style="display:inline;margin-right:4px;"><tr><td><div style="font-family:Tahoma;font-size:10px;padding:0px;margin:0px;"><div style="width:7px;float:left;background:url(\'http://i.bigmir.net/cnt/samples/default/b52_left.gif\');height:17px;padding-top:2px;background-repeat:no-repeat;"></div><div style="float:left;background:url(\'http://i.bigmir.net/cnt/samples/default/b52_center.gif\');text-align:left;height:17px;padding-top:2px;background-repeat:repeat-x;"><a href="http://www.bigmir.net/" target="_blank" style="color:#0000ab;text-decoration:none;">bigmir<span style="color:#ff0000;">)</span>net</a>  <span style="color:#797979;">хиты</span> <span style="color:#003596;font:10px Tahoma;">'+oBM_STAT.hits+'</span> <span style="color:#797979;">хосты</span> <span style="color:#003596;font:10px Tahoma;">'+oBM_STAT.hosts+'</span></div><div style="width:7px;float: left;background:url(\'http://i.bigmir.net/cnt/samples/default/b52_right.gif\');height:17px;padding-top:2px;background-repeat:no-repeat;"></div></div></td></tr></table>');</p>
+<p>          }</p>
+<p>          //--></p>
+<p>          </p>
+<p><!--</p>
+<p>          bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={o:1,v:43618,s:43618,t:0,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>          for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>          try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>          else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}</p>
+<p>          try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}</p>
+<p>          try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}</p>
+<p>          r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r).slice(0,400);bm.v^=r.length}</p>
+<p>          bm.v^=window.location.href.length;for(var x in bm) if(/^[ovstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>          bmD.write('<sc'+'ript type="text/javascript" language="javascript" src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');</p>
+<p>          //--></p>
+<p>          </p>
+<p>    (function() {</p>
+<p>    var sm = document.createElement("script");</p>
+<p>    sm.type = "text/javascript";</p>
+<p>    sm.async = true;</p>
+<p>    sm.src = "http://jsn.24smi.org/i/g/l/glavred.info.1793.js";</p>
+<p>    var s = document.getElementsByTagName("script")[0];</p>
+<p>    s.parentNode.insertBefore(sm, s);})();</p>
+<p>  </p>
+<p>      var MarketGidDate = new Date();</p>
+<p>      document.write('<scr'+'ipt type="text/javascript" '</p>
+<p>      +'src="http://jsn.dt00.net/g/l/glavred.info.1765.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+MarketGidDate.getDay()+MarketGidDate.getHours() + '" charset="utf-8" ></scr'+'ipt>');</p>
+<p>  </p>
+<p>    var tns_already;</p>
+<p>    if ("undefined"==typeof(tns_already) || null==tns_already || 0==tns_already){</p>
+<p>      tns_already=1;</p>
+<p>      var i=new Image();</p>
+<p>      i.src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=glavred.info&j=1&nocache="+Math.random();</p>
+<p>     (function(){</p>
+<p>        var p=document.getElementsByTagName('head')[0];</p>
+<p>        var s=document.createElement("script");</p>
+<p>        s.type="text/javascript";</p>
+<p>        s.src="http://source.mmi.bemobile.ua/cm/cm.js";</p>
+<p>        s.async = true;</p>
+<p>        p.appendChild(s);</p>
+<p>      })();</p>
+<p>    };</p>
+<p>  </p>

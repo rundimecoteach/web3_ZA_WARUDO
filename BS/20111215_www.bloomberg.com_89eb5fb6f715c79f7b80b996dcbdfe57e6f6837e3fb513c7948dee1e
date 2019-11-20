@@ -1,0 +1,1153 @@
+<p>var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</p>
+<p>Glenfiddich Whisky for Oldest Scot Sells at Auction for $72,630 - Bloomberg</p>
+<p>  </p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>    var reg_enabled = true || (BLOOMBERG.util.Cookie.get('reg_enabled') == 'true');</p>
+<p>    var q_enabled = true || (BLOOMBERG.util.Cookie.get('q_enabled') == 'true');</p>
+<p>  </p>
+<p>//]]></p>
+<p> </p>
+<p>        //For omniture</p>
+<p>        Description = "blp.news/muse/auctions/story";</p>
+<p>        // Setup for surround session</p>
+<p>        var adid="";</p>
+<p>        var surroundTagVal = "";</p>
+<p>        var surroundTag=BLOOMBERG.util.Cookie.get("surroundId"); // Get surround session id from the cookie</p>
+<p>        if(surroundTag == "undefined" || surroundTag == null || surroundTag == ""){ // check if there was a surround session id in the cookie</p>
+<p>            surroundTag="";</p>
+<p>        }else{</p>
+<p>            surroundTagVal="srnd="+surroundTag+";"; // finish setting up the key-value for the ad tags</p>
+<p>        }</p>
+<p>        if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>        //Market status</p>
+<p>        if (typeof gblvlty == "undefined"){ var gblvlty = 0; }</p>
+<p>        market_status_val = "status=marketstatus" + gblvlty;</p>
+<p>        HCat = "";</p>
+<p>        //Setting topic value for topic pages(Lingospot)</p>
+<p>        var topic_referrer = BLOOMBERG.referrer.topic_referrer();</p>
+<p>        if(topic_referrer != null && topic_referrer != ""){</p>
+<p>            topic_refer_key = "topic=" + topic_referrer + ";";</p>
+<p>            topic_refer_name = "blp.news/topic/" + topic_referrer;</p>
+<p>        }else{</p>
+<p>            topic_refer_key = "";</p>
+<p>            topic_refer_name = "blp.news/topic;";</p>
+<p>        }</p>
+<p>        sponsor_key = "";</p>
+<p>        var sponsor = BLOOMBERG.referrer.sponsor_referrer();</p>
+<p>        if(sponsor != null && sponsor != ""){</p>
+<p>            sponsor_key = "sponsor=" + sponsor + ";";</p>
+<p>        }</p>
+<p>        var ticker_key = ''</p>
+<p>        </p>
+<p>        //Page URL to pass url to ad call</p>
+<p>        var page_url = window.location.pathname;</p>
+<p>        //Getting sumdomain for test site</p>
+<p>        var host_name_list = window.location.hostname.split('.');</p>
+<p>        var sub_domain_name= host_name_list[0];</p>
+<p>        <!-- AUDIENCESCIENCE AD TAG CODE --></p>
+<p>        <!--</p>
+<p>        var rsi_segs = [];</p>
+<p>        var segs_beg=document.cookie.indexOf('rsi_segs=');</p>
+<p>        if (segs_beg>=0){</p>
+<p>            segs_beg=document.cookie.indexOf('=',segs_beg)+1;</p>
+<p>            if(segs_beg>0){</p>
+<p>                var segs_end=document.cookie.indexOf(';',segs_beg);</p>
+<p>                if(segs_end==-1) segs_end=document.cookie.length;</p>
+<p>                rsi_segs=document.cookie.substring(segs_beg,segs_end)</p>
+<p>                        .split('|');</p>
+<p>            }</p>
+<p>        }</p>
+<p>        var segLen=20;</p>
+<p>        var segQS="";</p>
+<p>        if (rsi_segs.length<segLen){segLen=rsi_segs.length}</p>
+<p>        for (var i=0;i<segLen;i++){</p>
+<p>            segQS+=("rsi"+"="+rsi_segs[i].substring(7, rsi_segs[i].length)+";")</p>
+<p>        }</p>
+<p>        //--></p>
+<p>        <!-- END AUDIENCESCIENCE AD TAG CODE --></p>
+<p>        HCat = HCat + segQS + topic_refer_key + sponsor_key + ticker_key; //Value to be passed to the ad call</p>
+<p>        var no_dfp_interstitial = "false",</p>
+<p>            bbg_show_int = false;</p>
+<p>                    </p>
+<p>        var story_id = 'LW70H66TTDSA01';</p>
+<p>        story_ni_code = 'ALLTOP&EURTOP&FIN&GENTOP&PW&TOP&UKTOP&WWTOP&MUSETOP&';</p>
+<p>        var story_author_name = 'Rodney Jefferson';</p>
+<p>        var story_pub_time = '2011-12-14 07:07:17 -0500';</p>
+<p>        </p>
+<p>        groupid = "LW70H66TTDSA01";</p>
+<p>        related_items = "LW7PWM0UQVI901-LW6JHV0UQVI901-LW7BEC1A1I4L01-LW5J2E1A1I4I01";</p>
+<p>        contentType = "story";</p>
+<p>        story_ni_code_dfp = story_ni_code;</p>
+<p>        if (story_ni_code_dfp != ""){</p>
+<p>        if (story_ni_code_dfp[story_ni_code_dfp.length-1] == '&') {</p>
+<p>            story_ni_code_dfp = story_ni_code_dfp.slice(0, story_ni_code_dfp.length-1);</p>
+<p>        }</p>
+<p>        story_ni_code_dfp = story_ni_code_dfp.replace(/&/g,";ni=");</p>
+<p>        story_ni_code_dfp = ";ni=" + story_ni_code_dfp;</p>
+<p>        }</p>
+<p>        var story_research_reco_link = "http://recommendations.bloomberg.com/?story_id=LW70H66TTDSA01&limit=4";</p>
+<p>    </p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>                      $(window).bind("load", function() {</p>
+<p>                      $.getScript('http://platform.linkedin.com/in.js',function(){});</p>
+<p>                      });</p>
+<p>                  </p>
+<p>//]]></p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>                  $(window).bind("load", function() {</p>
+<p>                  $.getScript('https://apis.google.com/js/plusone.js',function(){</p>
+<p>                                          BLOOMBERG.storyutil.CLONESTORYTOOL.clone_google_plusone();</p>
+<p>                                      });</p>
+<p>                  });</p>
+<p>              </p>
+<p>//]]></p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>    BLOOMBERG.mobile.register_mobile_link();</p>
+<p>  </p>
+<p>//]]></p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p>Market Snapshot</p>
+<p>U.S.</p>
+<p>Europe</p>
+<p>Asia</p>
+<p>Ticker</p>
+<p>Volume</p>
+<p>Price</p>
+<p>Price Delta</p>
+<p>Dow</p>
+<p>11,879.90</p>
+<p>+56.38</p>
+<p>0.48%</p>
+<p>S&P 500</p>
+<p>1,219.81</p>
+<p>+7.99</p>
+<p>0.66%</p>
+<p>Nasdaq</p>
+<p>2,541.92</p>
+<p>+2.61</p>
+<p>0.10%</p>
+<p>Ticker</p>
+<p>Volume</p>
+<p>Price</p>
+<p>Price Delta</p>
+<p>STOXX 50</p>
+<p>2,224.89</p>
+<p>+18.98</p>
+<p>0.86%</p>
+<p>FTSE 100</p>
+<p>5,400.85</p>
+<p>+34.05</p>
+<p>0.63%</p>
+<p>DAX </p>
+<p>5,730.62</p>
+<p>+55.48</p>
+<p>0.98%</p>
+<p>Ticker</p>
+<p>Volume</p>
+<p>Price</p>
+<p>Price Delta</p>
+<p>Nikkei</p>
+<p>8,377.37</p>
+<p>-141.76</p>
+<p>-1.66%</p>
+<p>TOPIX </p>
+<p>725.02</p>
+<p>-11.96</p>
+<p>-1.62%</p>
+<p>Hang Seng</p>
+<p>18,026.80</p>
+<p>-327.59</p>
+<p>-1.78%</p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "728x90";</p>
+<p>     Tile = "1";</p>
+<p>     Position = ";position=top";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'Banner';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>                                                                            Gold</p>
+<p>                                              </p>
+<p>                                                              1,578.20                                                          </p>
+<p>                                                              -0.55%                                                          </p>
+<p>EUR : USD</p>
+<p>                                                              1.3004                                                          </p>
+<p>                                                              0.1645%                                                          </p>
+<p>Nasdaq</p>
+<p>                                                              2,541.92                                                          </p>
+<p>                                                              +0.10%                                                          </p>
+<p>Dow</p>
+<p>                                                              11,879.90                                                          </p>
+<p>                                                              +0.48%                                                          </p>
+<p>S&P 500</p>
+<p>                                                              1,219.81                                                          </p>
+<p>                                                              +0.66%                                                          </p>
+<p>FTSE 100</p>
+<p>                                                              5,400.85                                                          </p>
+<p>                                                              +0.63%                                                          </p>
+<p>STOXX 50</p>
+<p>                                                              2,224.89                                                          </p>
+<p>                                                              +0.86%                                                          </p>
+<p>DAX</p>
+<p>                                                              5,730.62                                                          </p>
+<p>                                                              +0.98%                                                          </p>
+<p>                                                                            Oil (WTI)</p>
+<p>                                              </p>
+<p>                                                              94.22                                                          </p>
+<p>                                                              -0.77%                                                          </p>
+<p>                                                                            U.S. 10-year</p>
+<p>                                              </p>
+<p>1.913%</p>
+<p>+0.010</p>
+<p>                                                                            8411:JP</p>
+<p>                                              </p>
+<p>                                                              103.00                                                          </p>
+<p>                                                              -1.90%                                                          </p>
+<p>C:US</p>
+<p>                                                              26.26                                                          </p>
+<p>                                                              +0.81%                                                          </p>
+<p>Bloomberg</p>
+<p>Our Company</p>
+<p>Professional</p>
+<p>Anywhere</p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "160x31";</p>
+<p>     Tile = "4";</p>
+<p>     Position = ";position=queuebutton";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'queuebutton';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>          $(document).ready(function() {</p>
+<p>            if (reg_enabled && q_enabled && false) {</p>
+<p>              BLOOMBERG.q_ui.render_tut_button();</p>
+<p>            }</p>
+<p>          });</p>
+<p>          if (reg_enabled) {</p>
+<p>            document.write('<ul id="user_navigation"><li id="login_navigation_item" class="first"><a href="#"></a></li></ul>');</p>
+<p>          } else {</p>
+<p>            document.write('<ul id="user_navigation"></ul>');</p>
+<p>            document.write('<scr' + 'ipt type="text/javascript">BLOOMBERG.user_login.get_user_info($("#user_navigation"));</scr' + 'ipt>');</p>
+<p>          }</p>
+<p>        </p>
+<p>Home</p>
+<p>Bloomberg Homepage</p>
+<p>More</p>
+<p>Mobile Apps</p>
+<p>Businessweek.com</p>
+<p>Insights Series</p>
+<p>Bloomberg Blog</p>
+<p>Quick</p>
+<p>News</p>
+<p>Top Headlines</p>
+<p>Most Popular</p>
+<p>Exclusive</p>
+<p>Politics</p>
+<p>Law</p>
+<p>Entrepreneurs</p>
+<p>Leaders</p>
+<p>Arts & Culture</p>
+<p>Economy</p>
+<p>Environment</p>
+<p>Science</p>
+<p>Sports</p>
+<p>Bloomberg Markets Magazine</p>
+<p>Election 2012</p>
+<p>Regions</p>
+<p>U.S.</p>
+<p>China</p>
+<p>Europe</p>
+<p>Asia</p>
+<p>U.K. & Ireland</p>
+<p>Australia & New Zealand</p>
+<p>Canada</p>
+<p>India & Pakistan</p>
+<p>Japan</p>
+<p>Africa</p>
+<p>Eastern Europe</p>
+<p>More Regions</p>
+<p>Markets</p>
+<p>Commodities</p>
+<p>Currencies</p>
+<p>Bonds</p>
+<p>Stocks</p>
+<p>Energy Markets</p>
+<p>Municipal Bonds</p>
+<p>Emerging Markets</p>
+<p>Funds</p>
+<p>More Markets</p>
+<p>Industries</p>
+<p>Energy</p>
+<p>Technology</p>
+<p>Real Estate</p>
+<p>Finance</p>
+<p>Health Care</p>
+<p>Transportation</p>
+<p>Insurance</p>
+<p>Retail</p>
+<p>Media</p>
+<p>More Industries</p>
+<p>View</p>
+<p>Editorials</p>
+<p>Columns</p>
+<p>Op-Eds</p>
+<p>Business Class</p>
+<p>Echoes</p>
+<p>The Ticker</p>
+<p>World View</p>
+<p>Market Data</p>
+<p>Stocks</p>
+<p>Stock Futures</p>
+<p>World Indexes</p>
+<p>Movers By Index</p>
+<p>Regional Indexes</p>
+<p>Earnings</p>
+<p>Rates & Bonds</p>
+<p>Government Bonds</p>
+<p>Corporate Bonds</p>
+<p>Key Rates</p>
+<p>Commodities</p>
+<p>Commodity Futures</p>
+<p>Energy Prices</p>
+<p>Currencies</p>
+<p>World Currencies</p>
+<p>Cross Rates</p>
+<p>ETFs</p>
+<p>Mutual Funds</p>
+<p>Economic Calendar</p>
+<p>Forex Trading Videos</p>
+<p>Islamic Finance</p>
+<p>Personal Finance</p>
+<p>News & Videos</p>
+<p>Saving & Investing</p>
+<p>Retirement Planning</p>
+<p>Real Estate</p>
+<p>Taxes</p>
+<p>Financial Advisers</p>
+<p>Insurance & Health</p>
+<p>Money Gallery</p>
+<p>Portfolio Impact</p>
+<p>Calculators</p>
+<p>Portfolio Tracker</p>
+<p>Sustainability</p>
+<p>Sustainability Home</p>
+<p>Energy</p>
+<p>Corporate Sustainability</p>
+<p>Policy</p>
+<p>Natural Resources</p>
+<p>Videos</p>
+<p>Blog: The Grid</p>
+<p>TV</p>
+<p>Live TV</p>
+<p>Video</p>
+<p>Channel Finder</p>
+<p>Personalities</p>
+<p>iPad App</p>
+<p>Shows</p>
+<p>The Mentor</p>
+<p>Bloomberg West</p>
+<p>TechStars</p>
+<p>Enterprise</p>
+<p>More Shows</p>
+<p>Schedule</p>
+<p>U.S.</p>
+<p>Asia</p>
+<p>Europe</p>
+<p>Radio</p>
+<p>Live Radio</p>
+<p>Shows</p>
+<p>Schedule</p>
+<p>Personalities</p>
+<p>Podcasts</p>
+<p>First Word</p>
+<p>Surveillance</p>
+<p>Taking Stock</p>
+<p>More Podcasts</p>
+<p>More</p>
+<p>Video</p>
+<p>Podcasts</p>
+<p>Mobile Apps</p>
+<p>Businessweek.com</p>
+<p>Insights Series</p>
+<p>Bloomberg Blog</p>
+<p>Feedback</p>
+<p>//<![CDATA[</p>
+<p>        BLOOMBERG.register_ext_nav_events();</p>
+<p>                if (BLOOMBERG.noir_2_qv){</p>
+<p>        BLOOMBERG.noir_2_qv.modify_nav_link();</p>
+<p>        }</p>
+<p>    </p>
+<p>//]]></p>
+<p> </p>
+<p>  try{BLOOMBERG.global_nav_test.update_nav();}catch(exp){}</p>
+<p>Related News:</p>
+<p>Art  ·</p>
+<p>              </p>
+<p>            </p>
+<p>Dining  ·</p>
+<p>              </p>
+<p>            </p>
+<p>Auctions</p>
+<p>Glenfiddich Whisky for Oldest Scot Sells at Auction for $72,630</p>
+<p>                By</p>
+<p>                    Rodney Jefferson</p>
+<p>                 -</p>
+<p>                </p>
+<p>                document.write(dateFormat(new Date(1323864437000),"mmm d, yyyy h:MM TT Z"));</p>
+<p>Wed Dec 14 12:07:17 GMT 2011</p>
+<p>Enlarge image</p>
+<p> </p>
+<p>Glenlivet Whisky Distilled in 1883 Sells at Auction </p>
+<p> </p>
+<p>Chris Ratcliffe/Bloomberg</p>
+<p>Bottles of Glenlivet whisky travel along a conveyor belt at the Pernod Ricard SA bottling plant in Paisley, U.K.</p>
+<p>Bottles of Glenlivet whisky travel along a conveyor belt at the Pernod Ricard SA bottling plant in Paisley, U.K. Photographer: Chris Ratcliffe/Bloomberg </p>
+<p>//<![CDATA[</p>
+<p>        $(window).bind("load", function () {</p>
+<p>        $(".view_story #story_content .attachments img.small_img").each(function(){</p>
+<p>            var self = $(this);</p>
+<p>            if (self.width() > 140){</p>
+<p>                self.width(140);</p>
+<p>            }</p>
+<p>        });</p>
+<p>    });</p>
+<p>//]]></p>
+<p>            //this script is for the story image lightbox</p>
+<p>                $(".thumbnail_container > a[rel]").overlay({</p>
+<p>                    mask:'#333',</p>
+<p>                    effect: 'default',</p>
+<p>                    fixed:false,</p>
+<p>                    onBeforeLoad: function(){</p>
+<p>                        $('#container').addClass('overlay_open');</p>
+<p>                        $('.overlay_container').addClass('overlay_open');</p>
+<p>                    },</p>
+<p>                    onClose: function(){</p>
+<p>                        $('#container').removeClass('overlay_open');</p>
+<p>                        $('.overlay_container').removeClass('overlay_open');</p>
+<p>                    }</p>
+<p>                });</p>
+<p>        </p>
+<p>A bottle of Glenfiddich malt whisky</p>
+<p>produced to honor the oldest living Scot sold at auction today</p>
+<p>in Edinburgh for 46,850 pounds ($72,632), a European record. </p>
+<p>The 55-year-old Scotch, sold by Bonhams in the Scottish</p>
+<p>capital today, was one of 15 bottles of Glenfiddich Janet Sheed</p>
+<p>Roberts Reserve, according to the auction catalog. The whisky,</p>
+<p>which was put into casks in 1955 and bottled last month, had a</p>
+<p>guide price of between 30,000 and 35,000 pounds with all</p>
+<p>proceeds from the sale going to Water Aid. </p>
+<p>“It’s not often a whisky of this stature comes up at</p>
+<p>auction,” Martin Green, the whisky specialist at Bonhams, said</p>
+<p>before the sale. “The rarity and quality of the liquid, the</p>
+<p>exquisite bespoke packaging and the story behind its creation</p>
+<p>makes this a collectible that’s hard to value.” </p>
+<p>Janet Sheed Roberts is Scotland’s oldest living person, at</p>
+<p>110 years old. She lives next to the Glenfiddich distillery in</p>
+<p>the Scottish Highlands and is part of the Grant family that</p>
+<p>founded the whisky producer, according to Bonhams. Various</p>
+<p>whiskies have been sold previously to mark her recent birthdays. </p>
+<p>A bottle from the Glenfiddich distillery, with whisky</p>
+<p>matured for 64 years, sold for 25,200 pounds at Bonhams in</p>
+<p>Edinburgh on June 16, 2010. That price compared at the time with</p>
+<p>a world record of 29,400 pounds for a bottle of Scotch set in</p>
+<p>Glasgow in 2007. It was since surpassed in a sale in New York.</p>
+<p>The prices include the auctioneer’s fee. </p>
+<p>The Glenfiddich sold today in Edinburgh was bought by an</p>
+<p>unidentified Internet bidder. Offers started at 22,000 pounds</p>
+<p>and the hammer price was 38,000 pounds. </p>
+<p>To contact the writer on the story:</p>
+<p>Rodney Jefferson at </p>
+<p>r.jefferson@bloomberg.net. </p>
+<p>To contact the editor responsible for this story:</p>
+<p>Mark Beech at  mbeech@bloomberg.net. </p>
+<p>Tweet</p>
+<p>More</p>
+<p>Business Exchange</p>
+<p>Buzz up!</p>
+<p>Digg</p>
+<p>Print</p>
+<p>Email</p>
+<p>//<![CDATA[</p>
+<p>    $(window).bind("load", function() {</p>
+<p>    $.getScript('http://platform.twitter.com/widgets.js',function(){});</p>
+<p>    });</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>    $(window).bind("load", function() {</p>
+<p>    fbRecoButton("http://www.bloomberg.com");</p>
+<p>    });</p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>    $(window).bind("load", function() {</p>
+<p>      </p>
+<p>        BLOOMBERG.storyutil.CLONESTORYTOOL.clonetool();</p>
+<p>      </p>
+<p>    });</p>
+<p>//]]></p>
+<p>                  var ie = document.attachEvent?true:false;</p>
+<p>                  window[ie?'attachEvent':'addEventListener']</p>
+<p>                          (ie?'onload':'load', function(){ TRC.drawRBox({mode:'horizontal-t2v'}); },false);</p>
+<p>              </p>
+<p>Related News</p>
+<p>Art  ·</p>
+<p>              </p>
+<p>            </p>
+<p>Dining  ·</p>
+<p>              </p>
+<p>            </p>
+<p>Auctions</p>
+<p>Sponsored Links</p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "150x1";</p>
+<p>     Tile = "7";</p>
+<p>     Position = ";position=bottom";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'StoryBottom';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>//<![CDATA[</p>
+<p>    if (typeof BLOOMBERG.global_var.show_top_rails_test == "undefined" || BLOOMBERG.global_var.show_top_rails_test == "null") BLOOMBERG.global_var.show_top_rails_test = "";</p>
+<p>//]]></p>
+<p>        Headlines</p>
+<p>      </p>
+<p>        Recommended</p>
+<p>      </p>
+<p>        Most Popular</p>
+<p>      </p>
+<p>Senate Leaders Say Deal Possible on Payroll Tax</p>
+<p>Banks Wooing Women CEOs Promise Now Is Different</p>
+<p>Voters See Pitfalls in Gingrich as They Weigh Candidates</p>
+<p>Life After Wall Street: The Walkabout Journey</p>
+<p>Kaplan: Romney Honed the Right Skills in Private Equity</p>
+<p>U.S. Stocks Gain on U.S. Economic Data</p>
+<p>IMF’s Lagarde: Europe Crisis ‘Escalating’</p>
+<p>Europe to Face Run on Banks: Kyle Bass</p>
+<p>Amazon: Kindle Selling More Than 1M Per Week</p>
+<p>              More News</p>
+<p>            </p>
+<p>Based on your reading history you may be interested in: </p>
+<p>                Europe to Face Run on Banks: Kyle Bass              </p>
+<p>                Bernanke: Fed Has No Plans to Aid EU Banks              </p>
+<p>                Senate Leaders Say Deal Possible on Payroll Tax              </p>
+<p>                S&P 500 Analyst Estimate Revisions for Dec. 15              </p>
+<p>                U.S. Industrial Production Unexpectedly Falls              </p>
+<p>                S&P 500 Analyst Target Price Changes for Dec. 15              </p>
+<p>                Banks Wooing Women CEOs Promise Now Is Different              </p>
+<p>                FedEx Profit Beats Estimates, Orders 27 Jets              </p>
+<p>                Gold Extends Rout as Haven Investors Target Dollar on Europe              </p>
+<p>    $('#recommended_top_news_sub_container').hide();</p>
+<p>    if(stories_cookie_val == "a2"){</p>
+<p>        jsonpCall("GET", reco_link, {}, success_callback, error_callback);</p>
+<p>        setTimeout(function(){</p>
+<p>             BLOOMBERG.nonstop_news.event_track_story_reco_tabs();</p>
+<p>            $('#recommended_top_news_sub_container').show();</p>
+<p>            $(".view_story #non_stop_news_module_container .recommended_news_header").mousedown(function(){</p>
+<p>                BLOOMBERG.tracker.EVENTTRACK.record('Story - Reco Test Tracking',"reco_header", "recommended_news_header");</p>
+<p>            });</p>
+<p>            var reco_tabs_news_container = $(".view_story #recommended_top_news_container").find("a");</p>
+<p>            reco_tabs_news_container.each(function(){</p>
+<p>                $(this).mousedown(function(){</p>
+<p>                    BLOOMBERG.tracker.EVENTTRACK.record('Story - Recommended Link Tracking',"recommend_links", this.href);</p>
+<p>                })</p>
+<p>            });</p>
+<p>        }, 2000);</p>
+<p>    }</p>
+<p>Traders Confounded as Volatility Extends Run</p>
+<p>Victoria’s Secret Revealed in Child Labor</p>
+<p>U.S. Stocks Gain on U.S. Economic Data</p>
+<p>Paulson’s Bright Spot May Fade as Gold Plunges</p>
+<p>Morgan Stanley to Eliminate About 1,600 Jobs</p>
+<p>Merkel Buffeted by Domestic Disputes That May Sidetrack Her Crisis Efforts</p>
+<p>Jobless Claims in U.S. Drop to Three-Year Low</p>
+<p>Stocks Climb as U.S. Data Show Stronger Economy; Commodities Erase Gains</p>
+<p>RIM’s Botched PlayBook Keeps Away Acquirers</p>
+<p>//<![CDATA[</p>
+<p>        if(stories_cookie_val == "a2"){</p>
+<p>            $(".nsn_special_handler #non_stop_news_module_container").removeClass('more_top_news_header');</p>
+<p>            $(".nsn_special_handler #non_stop_news_module_container").removeClass('popular_news_header');</p>
+<p>            $(".nsn_special_handler #non_stop_news_module_container").addClass('recommended_news_header');</p>
+<p>        }</p>
+<p>    </p>
+<p>//]]></p>
+<p> $('#non_stop_news_module').hide();</p>
+<p>Senate Leaders Say Deal Possible on Payroll Tax  </p>
+<p>                      </p>
+<p> </p>
+<p>Updated 47 minutes ago </p>
+<p>Banks Wooing Women CEOs Promise Now Is Different  </p>
+<p>                      </p>
+<p> </p>
+<p>Voters See Pitfalls in Gingrich as They Weigh Candidates  </p>
+<p>                      </p>
+<p> </p>
+<p>Updated 1 hour ago </p>
+<p>Life After Wall Street: The Walkabout Journey  </p>
+<p>                      </p>
+<p> </p>
+<p>Updated 3 hours ago </p>
+<p>$('#reco_story_test_a5').hide();</p>
+<p>More Stories</p>
+<p>Liz Taylor’s ‘Cleopatra’ Robe, Wedding Gown Set Fashion Record  </p>
+<p>                      </p>
+<p> </p>
+<p>Sotheby’s Handles Lockout, Costs Rise $2.4 Million, Ruprecht Given Bonus  </p>
+<p>                      </p>
+<p> </p>
+<p>Bankers on Ice, Smart Matilda, Kate’s Hotel, Polar Pooch: London Weekend  </p>
+<p>                      </p>
+<p> </p>
+<p>Tertulia Tops 2011 Best New Restaurants List: Ryan Sutton  </p>
+<p>                      </p>
+<p> </p>
+<p>Rate These Stories</p>
+<p>        </p>
+<p>More News »</p>
+<p>        $('#related_stories_test').hide();</p>
+<p>        if(stories_cookie_val == "a2"){</p>
+<p>            $('#non_stop_news_module').show();</p>
+<p>        }else if(stories_cookie_val == "a1" || stories_cookie_val == "a3"){</p>
+<p>            show_and_q();</p>
+<p>        }else if(stories_cookie_val == "a5"){</p>
+<p>            $('#reco_story_test').replaceWith($('#reco_story_test_a5'));</p>
+<p>            $('#reco_story_test_a5').show();</p>
+<p>            show_and_q();</p>
+<p>        }else if(stories_cookie_val != "a5" && stories_cookie_val != "a4"){</p>
+<p>            jsonpCall("GET", reco_link_test, {}, stories_success_callback, stories_error_callback);</p>
+<p>        }</p>
+<p>    </p>
+<p>Advertisement</p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "300x250,300x600";</p>
+<p>     Tile = "2";</p>
+<p>     Position = ";position=right2";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'SideBar';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>Most Popular Stories </p>
+<p>Traders Confounded as Volatility Extends Run  </p>
+<p>                      </p>
+<p> </p>
+<p>Updated 1 hour ago </p>
+<p>Victoria’s Secret Revealed in Child Labor  </p>
+<p>                      </p>
+<p> </p>
+<p> </p>
+<p>U.S. Stocks Gain on U.S. Economic Data  </p>
+<p>                      </p>
+<p> </p>
+<p>Updated 31 minutes ago </p>
+<p>Paulson’s Bright Spot May Fade as Gold Plunges  </p>
+<p>                      </p>
+<p> </p>
+<p> </p>
+<p>Morgan Stanley to Eliminate About 1,600 Jobs  </p>
+<p>                      </p>
+<p> </p>
+<p> </p>
+<p>Updated 1 hour ago </p>
+<p>More Most Popular Stories »</p>
+<p>      if(stories_cookie_val == "a4"){</p>
+<p>            $('#related_stories_test').clone().insertBefore("#popular_stories").attr('id', 'related_stories_test_a4');</p>
+<p>            $('#related_stories_test').replaceWith($('#popular_stories'));</p>
+<p>            $('#related_stories_test_a4').show();</p>
+<p>            if (BLOOMBERG.queue){</p>
+<p>                setTimeout("BLOOMBERG.queue.refresh_icon('#reco_story_test')", 100);</p>
+<p>            }</p>
+<p>            $(document).ready(function(){</p>
+<p>                $('.view_story #related_stories_test_a4').each(function(){</p>
+<p>                    $(this).mousedown(function(){</p>
+<p>                        BLOOMBERG.tracker.EVENTTRACK.record('Stories - More Stories Module Tracking', "click", window.location.href);</p>
+<p>                    });</p>
+<p>                });</p>
+<p>            });</p>
+<p>      }</p>
+<p>      if(stories_cookie_val == "a3" || stories_cookie_val == "a2"){</p>
+<p>        $(".nsn_special_handler #popular_stories").hide();</p>
+<p>      }</p>
+<p>    </p>
+<p>document.write('<SCR'+'IPT LANGUAGE="JavaScript1.1" SRC="http://ad.doubleclick.net/adj/N5192.273558.BLOOMBERG/B6101052;sz=330x250;ord='+AD_RND_X+'?"'+'></SCR'+'IPT>');</p>
+<p>      $("#bb_lot_18 a").mousedown(function(){</p>
+<p>          BLOOMBERG.tracker.EVENTTRACK.record('Lot_18_Ad', 'click', window.location.href);</p>
+<p>      });</p>
+<p>    </p>
+<p>Sponsored Links</p>
+<p><!--</p>
+<p>        google_ad_client = "ca-pub-1979187633561026";</p>
+<p>        google_ad_slot = "7597199020";</p>
+<p>        google_ad_width = 300;</p>
+<p>        google_ad_height = 250;</p>
+<p>        //--></p>
+<p>    </p>
+<p>Advertisement</p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "300x250,1x1";</p>
+<p>     Tile = "3";</p>
+<p>     Position = ";position=right3";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'SideBar2';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>Advertisements</p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "88x31";</p>
+<p>     Tile = "4";</p>
+<p>     Position = ";position=tradebar01";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'Tiny0';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "88x31";</p>
+<p>     Tile = "5";</p>
+<p>     Position = ";position=tradebar02";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'Tiny1';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "88x31";</p>
+<p>     Tile = "6";</p>
+<p>     Position = ";position=tradebar03";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'Tiny2';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>     adType = "DART";</p>
+<p>     Keys = "blp.news/muse/auctions/story";</p>
+<p>     dcop_val = "";</p>
+<p>     if (typeof surroundTag == "undefined" || surroundTag == "null") surroundTag = "";</p>
+<p>     if (surroundTagVal != ""){</p>
+<p>         surroundTagVal=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>         surroundTagVal="srnd="+surroundTagVal+";";</p>
+<p>     }</p>
+<p>     if (typeof surroundTagVal == "undefined" || surroundTagVal == "null") surroundTagVal = "";</p>
+<p>     if (typeof sub_domain_name == "undefined" || sub_domain_name == "null") sub_domain_name = "";</p>
+<p>     Size = "88x31";</p>
+<p>     Tile = "7";</p>
+<p>     Position = ";position=tradebar04";</p>
+<p>     if(sub_domain_name == 'bb20ad'){</p>
+<p>       Keys = "blp.test";</p>
+<p>     }</p>
+<p>     ad_location = 'Tiny3';</p>
+<p>     if (ad_location == 'Interstitial'){</p>
+<p>        if(no_dfp_interstitial == "false"){</p>
+<p>            CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>        }</p>
+<p>     }else{</p>
+<p>         CallDfpAd(adType, HCat+dcop_val+surroundTagVal, Size, Tile, Keys, Position);</p>
+<p>     }</p>
+<p>      surroundTag=BLOOMBERG.util.Cookie.get("surroundId");</p>
+<p>       if(surroundTag == ""){</p>
+<p>          if((surroundTag == "")&&(adid != "")){ // check if the ad should start a surround session only if a surround session has not yet started</p>
+<p>              surroundTag="srnd="+adid+";"; // setup the key-value for a surround session</p>
+<p>              BLOOMBERG.util.Cookie.set("surroundId",adid,"","/"); // store the surround session id in a cookie.  Set the expiration date of the cookie to determine how long the surround session should last.  For example, if the surround session should last just one day, then set the expiration date for the cookie to tomorrow.</p>
+<p>            }</p>
+<p>       }</p>
+<p>       else{</p>
+<p>            surroundTag="srnd="+surroundTag+";";</p>
+<p>       }</p>
+<p>    </p>
+<p>Last update: 3:22 AM ET, Dec 15</p>
+<p>Bloomberg</p>
+<p>Bloomberg onFacebook</p>
+<p>Follow Bloombergon Twitter</p>
+<p>Follow Bloombergon LinkedIn</p>
+<p>//<![CDATA[</p>
+<p>          BLOOMBERG.mobile.show_mobile_redirect_link();</p>
+<p>      </p>
+<p>//]]></p>
+<p>More from Bloomberg</p>
+<p>Bloomberg Businessweek</p>
+<p>Business Exchange</p>
+<p>Bloomberg Briefs</p>
+<p>Bloomberg Government</p>
+<p>Bloomberg HT</p>
+<p>Bloomberg Institute</p>
+<p>ブルームバーグ(日本語)</p>
+<p>Bloomberg Law</p>
+<p>Bloomberg Link</p>
+<p>Bloomberg Markets Magazine</p>
+<p>Bloomberg Mart</p>
+<p>Bloomberg New Energy Finance</p>
+<p>Bloomberg Open Symbology</p>
+<p>Bloomberg Press</p>
+<p>Bloomberg Sports</p>
+<p>Jobs by Indeed</p>
+<p>Company</p>
+<p>About Bloomberg</p>
+<p>Careers</p>
+<p>Press Room</p>
+<p>Advertising</p>
+<p>Contact Us</p>
+<p>关于彭博中国</p>
+<p>会社概要(日本語)</p>
+<p>Help</p>
+<p>Sitemap</p>
+<p>Trademarks</p>
+<p>Feedback</p>
+<p>Terms of Service</p>
+<p>Privacy Policy</p>
+<p>            Rate this Page</p>
+<p>          </p>
+<p>©2011 BLOOMBERG L.P. ALL RIGHTS RESERVED.</p>
+<p>Made in NYC</p>
+<p>    if (reg_enabled) {</p>
+<p>            document.write("<scr" + "ipt type='text/javascript' src='http://cdn.gotraffic.net/r/v/20111130_091545/javascripts/breg-min.js'>" + "</scr" + "ipt>");</p>
+<p>            $(document).ready(function() {</p>
+<p>            if (BLOOMBERG.user){ BLOOMBERG.user.init({"u":"https://login.bloomberg.com","enable_tracking_cookies":true}); }</p>
+<p>        });</p>
+<p>    }</p>
+<p>    if (q_enabled && reg_enabled) {</p>
+<p>            document.write("<scr" + "ipt type='text/javascript' src='http://cdn.gotraffic.net/q/v/20111201_180747/javascripts/q-min.js'>" + "</scr" + "ipt>");</p>
+<p>            $(document).ready(function() {</p>
+<p>            if (BLOOMBERG.queue){ BLOOMBERG.queue.init({"url":"https://login.bloomberg.com/q"}); }</p>
+<p>        });</p>
+<p>    }</p>
+<p>//<![CDATA[</p>
+<p>        $(".share").bindShare();</p>
+<p>        window.onload = function()</p>
+<p>        {</p>
+<p>            BLOOMBERG.tracker.EVENTTRACK.record("more_stories", "loaded", "bucket" + getcombo_ga());</p>
+<p>            <!--var hash_array = window.location.hash.split("&");--></p>
+<p>            <!--var section_name = hash_array[0].substring(1, hash_array[0].length);--></p>
+<p>            <!--var slot_num = hash_array[1];--></p>
+<p>            <!--window.location.hash = "";--></p>
+<p>            var section_name = "";</p>
+<p>            var slot_num = "";</p>
+<p>            sendAJAXRequest( createAJAXRequestor(),'GET','/apps/data?referrer=' + document.referrer + '&section_name=' + section_name + '&slot_id=' + slot_num + '&pid=trackstoryhits&sgid=LW70H66TTDSA01',null,null );</p>
+<p>        }</p>
+<p>    </p>
+<p>//]]></p>
+<p>//<![CDATA[</p>
+<p>            $(window).bind("load", function() {</p>
+<p>              $.getScript('http://static.newstogram.com/bloomberg-v3/js/histogram.js',function(){</p>
+<p>                Newstogram.init('cdf74d8e9f86d84da565a74135adf113');</p>
+<p>                Newstogram.pageView();</p>
+<p>              });</p>
+<p>            });</p>
+<p>        </p>
+<p>//]]></p>
+<p> </p>
+<p>            if(typeof(_gat)!='object')document.write('<sc'+'ript src="http'+</p>
+<p>                    (document.location.protocol=='https:'?'s://ssl':'://www')+</p>
+<p>                    '.google-analytics.com/ga.js"></sc'+'ript>')</p>
+<p>          $(window).bind("load", function() {</p>
+<p>            try {</p>
+<p>                var gwoTracker=_gat._getTracker("UA-11413116-3");</p>
+<p>                gwoTracker._trackPageview("/0168891469/test");</p>
+<p>            }catch(err){}</p>
+<p>          });</p>
+<p>        </p>
+<p>        var disqus_shortname = 'bloombergview';</p>
+<p>        $(window).bind("load", function() {</p>
+<p>        /* * * DON'T EDIT BELOW THIS LINE * * */</p>
+<p>        (function () {</p>
+<p>            var s = document.createElement('script'); s.async = true;</p>
+<p>            s.type = 'text/javascript';</p>
+<p>            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';</p>
+<p>            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);</p>
+<p>        }());</p>
+<p>        });</p>
+<p>    </p>
+<p>    $(window).load(function () {BLOOMBERG.comscore.track();});</p>
+<p>  </p>
+<p>          // <![CDATA[</p>
+<p>          try {</p>
+<p>              var reco_cookie = BLOOMBERG.util.Cookie.get("hprec201108");</p>
+<p>              var reco_more_stories = BLOOMBERG.util.Cookie.get("morestories201112");</p>
+<p>              var opt = BLOOMBERG.util.Cookie.get("opt");</p>
+<p>              var ga_companypage = BLOOMBERG.util.Cookie.get("companypage");</p>
+<p>              var ga_viewvsopinion = BLOOMBERG.util.Cookie.get("bviewopn");</p>
+<p>              var marhptest = '';</p>
+<p>              var _gaq = _gaq || [];</p>
+<p>              _gaq.push(['_setAccount', BLOOMBERG.global_var.gaTrackAcct]);</p>
+<p>              _gaq.push(['_setCustomVar',  1,  "reco_cookie", reco_cookie,  1]);</p>
+<p>              _gaq.push(['_setCustomVar',  2,  "morestories201112", reco_more_stories, 1]);</p>
+<p>              _gaq.push(['_setCustomVar',  3,  "opt",   opt,  1]);</p>
+<p>              _gaq.push(['_setCustomVar',  4,  "companypages",   ga_companypage,  1]);</p>
+<p>              _gaq.push(['_setCustomVar',  5,  "viewvsopinion",   ga_viewvsopinion,  1]);</p>
+<p>                        if(typeof(bbPageTrackUrl) == 'undefined')</p>
+<p>                _gaq.push(['_trackPageview']);</p>
+<p>              else</p>
+<p>                _gaq.push(['_trackPageview', bbPageTrackUrl]);</p>
+<p>              (function() {</p>
+<p>                  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>                  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>              })();</p>
+<p>          } catch(err) {</p>
+<p>            //</p>
+<p>          }</p>
+<p>          // ]]></p>
+<p>      </p>
+<p>      K05539.DM_addEncToLoc("NI TAGS", story_ni_code);</p>
+<p>      K05539.DM_tag();</p>
+<p>//<![CDATA[</p>
+<p>    $(window).bind("load", function() {</p>
+<p>      $.getScript('http://log2.quintelligence.com/qlog.js',function(){</p>
+<p>        quintTracker(2);</p>
+<p>      });</p>
+<p>    });</p>
+<p>  </p>
+<p>//]]></p>
+<p> </p>
+<p>          var _sf_async_config={};</p>
+<p>          _sf_async_config.uid = 15087;</p>
+<p>          _sf_async_config.domain = 'bloomberg.com';</p>
+<p>          _sf_async_config.sections = '';</p>
+<p>          _sf_async_config.authors = 'Rodney Jefferson';</p>
+<p>          (function(){</p>
+<p>            function loadChartbeat() {</p>
+<p>              window._sf_endpt=(new Date()).getTime();</p>
+<p>              var e = document.createElement('script');</p>
+<p>              e.setAttribute('language', 'javascript');</p>
+<p>              e.setAttribute('type', 'text/javascript');</p>
+<p>              e.setAttribute('src',</p>
+<p>                 (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +</p>
+<p>                 'js/chartbeat.js');</p>
+<p>              document.body.appendChild(e);</p>
+<p>            }</p>
+<p>            var oldonload = window.onload;</p>
+<p>            window.onload = (typeof window.onload != 'function') ?</p>
+<p>               loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>          })();</p>
+<p>      </p>
+<p>          $(window).load(function () {</p>
+<p>              var d = new Image(1, 1);</p>
+<p>              d.onerror = d.onload = function () {</p>
+<p>               d.onerror = d.onload = null;</p>
+<p>              };</p>
+<p>              d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-905417h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');</p>
+<p>          });</p>
+<p>        </p>
+<p> if (!NREUMQ.f) { NREUMQ.f=function() {</p>
+<p>NREUMQ.push(["load",new Date().getTime()]);</p>
+<p>var e=document.createElement("script");</p>
+<p>e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/26/eum/rum-staging.js";</p>
+<p>document.body.appendChild(e);</p>
+<p>if(NREUMQ.a)NREUMQ.a();</p>
+<p>};</p>
+<p>NREUMQ.a=window.onload;window.onload=NREUMQ.f;</p>
+<p>};</p>
+<p>NREUMQ.push(["nrfj","beacon-1.newrelic.com","32a39e099b",94319,"JVwPEhAJDlRSQ0tKEglBCAMRSRFQWEY=",0,1178,new Date().getTime(),"","","","",""])</p>

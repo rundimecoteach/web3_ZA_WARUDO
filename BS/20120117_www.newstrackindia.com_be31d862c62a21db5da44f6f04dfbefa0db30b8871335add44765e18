@@ -1,0 +1,225 @@
+<p>function checkEmail(email) {</p>
+<p>	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){</p>
+<p>	return (true)</p>
+<p>	}</p>
+<p>	alert("Please enter correct e-mail")</p>
+<p>	return (false);</p>
+<p>}</p>
+<p>function validateForm(theForm){</p>
+<p>		</p>
+<p>	if(theForm.name.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your name!");</p>
+<p>		theForm.name.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(theForm.email.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your email address!");</p>
+<p>		theForm.email.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(checkEmail(theForm.email.value) == false){</p>
+<p>		theForm.email.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	if(theForm.phno.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your phone no!");</p>
+<p>		theForm.phno.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	</p>
+<p>	if(theForm.commentText.value == ""){</p>
+<p>		//Please enter user id</p>
+<p>		alert("Please enter your Comment here!");</p>
+<p>		theForm.commentText.focus();</p>
+<p>		return false;</p>
+<p>	}</p>
+<p>	</p>
+<p>	return true;</p>
+<p>}</p>
+<p>var min=8;</p>
+<p>var max=18;</p>
+<p>function increaseFontSize() {</p>
+<p>   var p = document.getElementsByTagName('p');</p>
+<p>   for(i=0;i<p.length;i++) {</p>
+<p>      if(p[i].style.fontSize) {</p>
+<p>         var s = parseInt(p[i].style.fontSize.replace("px",""));</p>
+<p>      } else {</p>
+<p>         var s = 12;</p>
+<p>      }</p>
+<p>      if(s!=max) {</p>
+<p>         s += 1;</p>
+<p>      }</p>
+<p>      p[i].style.fontSize = s+"px"</p>
+<p>   }</p>
+<p>}</p>
+<p>function decreaseFontSize() {</p>
+<p>   var p = document.getElementsByTagName('p');</p>
+<p>   for(i=0;i<p.length;i++) {</p>
+<p>      if(p[i].style.fontSize) {</p>
+<p>         var s = parseInt(p[i].style.fontSize.replace("px",""));</p>
+<p>      } else {</p>
+<p>         var s = 12;</p>
+<p>      }</p>
+<p>      if(s!=min) {</p>
+<p>         s -= 1;</p>
+<p>      }</p>
+<p>      p[i].style.fontSize = s+"px"</p>
+<p>   }   </p>
+<p>}</p>
+<p>Meet the virgin who fathered 14 children</p>
+<p>		</p>
+<p>		Tue, Jan 17, 2012</p>
+<p> <!--</p>
+<p>   e9 = new Object();</p>
+<p>   e9.size = "728x90,468x60";</p>
+<p>   e9.noAd = 1;</p>
+<p>//--></p>
+<p>    </p>
+<p>  </p>
+<p>HOME |</p>
+<p>SOCIETY |  WORLD  |  ECONOMY |  SPORTS  |  </p>
+<p>SCI-TECH  |  EDITORIAL  |  FEATURES  |  HUMOUR  |  HEALTH |  LIFE STYLE  |  ARTS-CULTURE  |  ENTERTAINMENT  |  SPECIAL</p>
+<p>Search</p>
+<p>Look for:</p>
+<p>				   Last 1 Month</p>
+<p>				   Last 6 Months</p>
+<p>				   All time</p>
+<p>				</p>
+<p>TOP SEARCHES:</p>
+<p>							 </p>
+<p>							</p>
+<p>UGC,</p>
+<p>							</p>
+<p>Delhi,</p>
+<p>							</p>
+<p>Maharashtra,</p>
+<p>							</p>
+<p>Rajasthan,</p>
+<p>							</p>
+<p>Mumbai,</p>
+<p>							</p>
+<p>Karnataka,</p>
+<p>							</p>
+<p>Agra,</p>
+<p>							</p>
+<p>Police,</p>
+<p>							</p>
+<p>inflation,</p>
+<p>							</p>
+<p>ICICI Bank,</p>
+<p>			</p>
+<p> </p>
+<p> </p>
+<p>           </p>
+<p> </p>
+<p> </p>
+<p>           </p>
+<p>OTHER TOP STORIES</p>
+<p>Manipur journalists condemn threats to media from insurgents</p>
+<p>X-ray of rare Shiva statue surprises Amsterdam museum</p>
+<p>Stacy Keibler signed up by famous talent agency</p>
+<p>India, China set up working mechanism to resolve boundary issues</p>
+<p>Jodie Marsh wants another boob job despite worrying over PIP </p>
+<p>'Multicolored hair band' lands tennis star Laura Robson in gay rights controversy</p>
+<p><!--</p>
+<p>google_ad_client = "pub-8521061892309803";</p>
+<p>//200x200, created 1/11/08</p>
+<p>google_ad_slot = "3713164742";</p>
+<p>google_ad_width = 200;</p>
+<p>google_ad_height = 200;</p>
+<p>//--></p>
+<p>More from this section</p>
+<p>Stacy Keibler signed up by famous talent agency</p>
+<p>Madonna uses fame for ' the greater good'</p>
+<p>50 James Bond cars on show mark 50 years of spy saga</p>
+<p>Kate Winslet ready to take up 'ultimate challenge' and play a man</p>
+<p>Peter Andre to go on 'caveman' diet</p>
+<p>Rihanna on booze filled holiday in Hawaii</p>
+<p><!--</p>
+<p>google_ad_client = "pub-8521061892309803";</p>
+<p>//160x600, created 1/11/08</p>
+<p>google_ad_slot = "1829600949";</p>
+<p>google_ad_width = 160;</p>
+<p>google_ad_height = 600;</p>
+<p>//--></p>
+<p>Home</p>
+<p>::</p>
+<p>Entertainment</p>
+<p>Meet the virgin who fathered 14 children</p>
+<p>London,</p>
+<p>Tue, 17 Jan 2012</p>
+<p>ANI</p>
+<p>London, Jan 17 (ANI): A man in US has the unique distinction of never having had sex but still managing to father 14 children through sperm donation. Trent Arsenault, 36, hit the headlines last December when his free sperm bank came under investigation from the US Food and Drug Administration, which threatened him with a 100,000-dollar fine and up to a year in jail. Now, the California local who bills himself as having an ideal gene pool to father children, has revealed that he is still a virgin. He made this confession on Anderson Cooper's daytime show, 'Anderson'. The self-confessed tech-geek, an expert in Silicon Valley, is in the highly unusual position of never having had sex, but fathering 14 healthy offspring. "I coined this term 'donor sexual' and I'll explain it means 100 per cent of my sexual energy is for producing sperm for childless couples to have babies. So I don't have other activity outside of that," the Daily Mail quoted him as saying on the show. "I will probably be the 40-year-old virgin... except I'll have 15 plus kids,' he said. The audience greeted that statement with applause while Cooper was left laughing in confusion. Arsenault was visibly moved by meeting one of his offspring for the first time, when Analise, who turns two this week, walked on to the stage at the show.  "I'm trying to not get too emotional," he said. "I'm just extremely happy that she's healthy and in a loving home. I hope she has the gene of compassion and that her parents nurture that," he said. Through a website, he touts his sperm as being organic but a health expert on the show warned that his unusual approach to fatherhood opens the door to spreading viral diseases such as HIV. Her fears echo those of the FDA which claims Arsenault did not take precautions to prevent disease spreading and found him to be unlawfully manufacturing human cells. The agency issued a 'cease-and-desist order' in what is the first ever case of its kind involving a private sperm donor in the US. Arsenault said in the past that he is simply helping out childless couples in situations where the only other alternative would be sex with a stranger. "I'm helping people in need... I'm not running a business here," he was quoted as telling the Huffington Post. (ANI) </p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* 336x280-bottom-1 */</p>
+<p>google_ad_slot = "7119820977";</p>
+<p>google_ad_width = 336;</p>
+<p>google_ad_height = 280;</p>
+<p>//--></p>
+<p>RELATED STORIES</p>
+<p>Meeting of PUDR on â??Repression by Stateâ??: a civil rights perspective. </p>
+<p>Hyderabad space Meet; ISRO unveiled plan for future space mission. </p>
+<p>Global Meet on Disaster risk on Wednesday in Delhi. </p>
+<p>Meet the cat that has been trained better than a dog!. </p>
+<p>`Meeting Mandela was like being in the presence of God,' says F1 ace Hamilton. </p>
+<p>Meet the Brit man who is turning into a woman - naturally!. </p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* bottom-link-1 */</p>
+<p>google_ad_slot = "2530436883";</p>
+<p>google_ad_width = 468;</p>
+<p>google_ad_height = 15;</p>
+<p>//--></p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* bottom-link-1 */</p>
+<p>google_ad_slot = "2530436883";</p>
+<p>google_ad_width = 468;</p>
+<p>google_ad_height = 15;</p>
+<p>//--></p>
+<p><!--</p>
+<p>google_ad_client = "ca-pub-8521061892309803";</p>
+<p>/* bottom-link-1 */</p>
+<p>google_ad_slot = "2530436883";</p>
+<p>google_ad_width = 468;</p>
+<p>google_ad_height = 15;</p>
+<p>//--></p>
+<p>MORE...</p>
+<p>Top Searches.</p>
+<p>Social bookmark this page</p>
+<p>  addthis_url    = location.href;   </p>
+<p>  addthis_title  = document.title;  </p>
+<p>  addthis_pub    = 'newstrackindia';     </p>
+<p>Comment Details</p>
+<p>HOME |</p>
+<p>SOCIETY |  </p>
+<p>WORLD  |  </p>
+<p>ECONOMY |  </p>
+<p>SPORTS  |  </p>
+<p>SCI-TECH  |  </p>
+<p>EDITORIAL  |  </p>
+<p>FEATURES  |  </p>
+<p>HUMOUR  |  </p>
+<p>HEALTH |  </p>
+<p>LIFE STYLE  |  </p>
+<p>ARTS-CULTURE  |  </p>
+<p>ENTERTAINMENT  |  </p>
+<p>SPECIAL</p>
+<p>Careers | </p>
+<p>Privacy Policy | </p>
+<p>Feedback | </p>
+<p>About Us | </p>
+<p>Contact Us |</p>
+<p>|</p>
+<p>Latest News</p>
+<p>Copyright © 2011 NEWS TRACK India All rights reserved.</p>
+<p>_uacct = "UA-287488-2";</p>
+<p>urchinTracker();</p>
+<p>var dc_AdLinkColor = 'blue' ;</p>
+<p>var dc_UnitID = 14 ;</p>
+<p>var dc_PublisherID = 31247 ;</p>
+<p>var dc_adprod = 'ADL' ;</p>

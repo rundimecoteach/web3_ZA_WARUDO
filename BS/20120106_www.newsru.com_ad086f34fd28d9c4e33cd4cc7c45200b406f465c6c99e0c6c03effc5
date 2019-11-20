@@ -1,0 +1,314 @@
+<p>Новости NEWSru.com :: Кубанский следователь устроил ДТП на трассе: погибли трое, виновника обещают "сурово наказать"</p>
+<p><!--</p>
+<p>browser = (</p>
+<p>	((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 3 ))</p>
+<p>	||</p>
+<p>	((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 ))</p>
+<p>	||</p>
+<p>	((navigator.appName == "Opera") && (parseInt(navigator.appVersion) >= 7 ))</p>
+<p>);</p>
+<p>imgon=new Array();</p>
+<p>imgoff=new Array();</p>
+<p>list = new Array("allnews","1","2","3","7","4","5","6","msc","inopress","zagolovkiru","realty","techno","auto","medicine");</p>
+<p>for(i = 1; i <= list.length; i++){</p>
+<p>	imgon["m"+i] = new Image();</p>
+<p>	imgon["m"+i].src = "http://static.newsru.com/img/menu_v/"+list[i-1]+"a.gif";</p>
+<p>	imgoff["m"+i] = new Image();</p>
+<p>	imgoff["m"+i].src = "http://static.newsru.com/img/menu_v/"+list[i-1]+".gif";</p>
+<p>}</p>
+<p>imageRef="document.images";</p>
+<p>function msover(which) {</p>
+<p>	if (browser) {</p>
+<p>		eval(imageRef + '["' + which + '"].src = imgon[which].src');</p>
+<p>	}</p>
+<p>}</p>
+<p>function msout(which) {</p>
+<p>	if (browser) {</p>
+<p>		eval(imageRef + '["' + which + '"].src = imgoff[which].src');</p>
+<p>	}</p>
+<p>}</p>
+<p>// --></p>
+<p>(function(L){if(typeof(ar_cn)=="undefined")ar_cn=1;</p>
+<p>var S='setTimeout(function(e){if(!self.CgiHref){document.close();e=parent.document.getElementById("ar_container_"+ar_bnum);e.parentNode.removeChild(e);}},3000);',</p>
+<p>    j=' type="text/javascript"',t=0,D=document,n=ar_cn;L+=escape(D.referrer||'unknown')+'&rnd='+Math.round(Math.random()*999999999);</p>
+<p>function _(){if(t++<100){var F=D.getElementById('ar_container_'+n);</p>
+<p>    if(F){try{var d=F.contentDocument||(window.ActiveXObject&&window.frames['ar_container_'+n].document);</p>
+<p>    if(d){d.write('<sc'+'ript'+j+'>var ar_bnum='+n+';'+S+'<\/sc'+'ript><sc'+'ript'+j+' src="'+L+'"><\/sc'+'ript>');t=0}</p>
+<p>    else setTimeout(_,100);}catch(e){try{F.src="javascript:{document.write('<sc'+'ript"+j+">var ar_bnum="+n+"; document.domain=\""</p>
+<p>    +D.domain+"\";"+S+"<\/sc'+'ript>');document.write('<sc'+'ript"+j+" src=\""+L+"\"><\/sc'+'ript>');}";return}catch(E){}}}else setTimeout(_,100);}}</p>
+<p>D.write('<div style="visibility:hidden;height:0px;left:-1000px;position:absolute;"><iframe id="ar_container_'+ar_cn</p>
+<p>    +'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div><div id="ad_ph_'+ar_cn</p>
+<p>    +'" style="display:none;"><\/div>');_();ar_cn++;</p>
+<p>})('http://ad.adriver.ru/cgi-bin/erle.cgi?sid=183090&target=top&bt=43&pz=0&tail256=');</p>
+<p>var img = new Image();</p>
+<p>img.src = 'http://www.tns-counter.ru/V13a***' + document.referrer.replace(/\*/g,'%2a') + '*newsru_ru/ru/CP1251/tmsec=newsru_total/';</p>
+<p><!--</p>
+<p>d=document;a='';a+=';r='+escape(d.referrer)</p>
+<p>js=10//--><!--</p>
+<p>a+=';j='+navigator.javaEnabled()</p>
+<p>js=11//--><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)</p>
+<p>js=12//--><!--</p>
+<p>js=13//--><!--</p>
+<p>d.write('<img src="http://top.list.ru/counter'+</p>
+<p>'?id=91013;js='+js+a+';rand='+Math.random()+</p>
+<p>'" height=1 width=1>')</p>
+<p>if(js>11)d.write('<'+'!-- ')//--><!--</p>
+<p>if(js>11)d.write('--'+'>')//--></p>
+<p><!--</p>
+<p>document.write('<img src="http://counter.yadro.ru/hit?r'+</p>
+<p>escape(document.referrer)+((typeof(screen)=='undefined')?'':</p>
+<p>';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+</p>
+<p>';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+</p>
+<p>'" width=1 height=1 alt="">')//--></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/715/prepareCode?p1=quc&amp;p2=y&amp;pct=c&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> NEWSru.com  // Новости России</p>
+<p>//</p>
+<p>Среда, 4 января 2012 г.</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>var addate = new Date(); </p>
+<p>var scrheight = '', scrwidth = '';</p>
+<p>if (self.screen) {</p>
+<p>scrwidth = screen.width;</p>
+<p>scrheight = screen.height;</p>
+<p>} else if (self.java) {</p>
+<p>var jkit = java.awt.Toolkit.getDefaultToolkit();</p>
+<p>var scrsize = jkit.getScreenSize();</p>
+<p>scrwidth = scrsize.width;</p>
+<p>scrheight = scrsize.height;</p>
+<p>}</p>
+<p>document.write('<iframe src="http://ads.adfox.ru/715/getCode?p1=enm&amp;p2=tt&amp;p3=a&amp;p4=a&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr + '&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;pdw=' + scrwidth + '&amp;pdh=' + scrheight + '" frameBorder="0" width="125" height="217" marginWidth="0" marginHeight="0" scrolling="no" style="border: 0px; margin: 0px; padding: 0px;"><a href="http://ads.adfox.ru/715/goDefaultLink?p1=enm&amp;p2=tt" target="_top"><img src="http://ads.adfox.ru/715/getDefaultImage?p1=enm&amp;p2=tt" border="0" alt=""><\/a><\/iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>document.write('<SCR'+'IPT SRC="http://ads.vidigital.ru/ttj?id=980205&cb='+(Math.random()*1000000000000000000)+'" TYPE="text/javascript"></SCR'+'IPT>');</p>
+<p>//--></p>
+<p> </p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/715/prepareCode?p1=bdzhu&amp;p2=ql&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p> </p>
+<p>мНБНЯРХ ялх2</p>
+<p>(function() {</p>
+<p>var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;</p>
+<p>sc.src = 'http://js.smi2.ru/data/js/60699.js'; sc.charset = 'utf-8';</p>
+<p>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);</p>
+<p>}());</p>
+<p>Кубанский следователь устроил ДТП на трассе: погибли трое, виновника обещают "сурово наказать"</p>
+<p>			время публикации: 4 января 2012 г., 12:19</p>
+<p>			последнее обновление: 4 января 2012 г., 16:29</p>
+<p>			</p>
+<p>На Кубани по вине следователя, который не справился с управлением автомобиля, произошла серьезная дорожная авария: погибли три человека, еще одна женщина госпитализирована с черепно-мозговой травмой. Как сообщается на сайте Следственного комитета РФ, ДТП произошло 3 января около 4 часов утра на трассе Краснодар - Темрюк.</p>
+<p>Следователь следственного отдела по Краснодару следственного управления краевого СК Алексей Толмачев врезался на своей машине Mitsubishi Outlander в припаркованный на обочине ВАЗ-2106, в салоне которого находились четыре человека. Двое мужчин и девушка скончались на месте.</p>
+<p>После столкновения машина Толмачева загорелась, находившийся в автомобиле брат следователя не пострадал. Сразу после аварии Толмачев явился в следственное управление и сообщил о случившемся. Возбуждено дело по ст. 264 ч. 5 Уголовного кодекса РФ ("Нарушение правил дорожного движения и эксплуатации транспортных средств, повлекшее по неосторожности смерть двух или более лиц"). Максимальное наказание по ней - семь лет тюрьмы.</p>
+<p>Толмачев был трезв, возможно, он уснул за рулем, сообщил в среду "Интерфаксу" старший помощник руководителя следственного управления СК по Краснодарскому краю Иван Сенгеров. "Толмачев - молодой следователь, мнение о нем было хорошим", - отметил представитель ведомства.</p>
+<p>Глава Следственного комитета Александр Бастрыкин потребовал провести тщательное расследование всех обстоятельств произошедшего. В сообщении СК говорится, что виновник ДТП "понесет ответственность по всей строгости закона, независимо от того, какую должность он занимает, и какие звания и заслуги имеет".</p>
+<p>Кроме того, к дисциплинарной ответственности обещают привлечь руководителей следственного отдела по Краснодару и краевого следственного управления, "не обеспечившие выполнение подчиненными установленного порядка поведения сотрудников СК в праздничные дни и не принявшие должных мер по профилактике среди личного состава дорожно-транспортных происшествий".</p>
+<p>Позже в среду стало известно, что следователь уволен из органов СК и задержан на 48 часов. "Несмотря на то, что преступление носит неумышленный характер, в связи с тем, что ДТП повлекло человеческие жертвы, следствием в ближайшее время будет рассматриваться вопрос о заключении подозреваемого под стражу и предъявлении ему обвинения", - сообщил ИТАР-ТАСС официальный представитель ведомства Владимир Маркин.</p>
+<p><!--</p>
+<p>if (navigator.appName != 'Microsoft Internet Explorer') {</p>
+<p>	document.getElementById('newsljbut').style.display = 'block';</p>
+<p>}</p>
+<p>// --></p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>var scrheight = '', scrwidth = '';</p>
+<p>if (self.screen) {</p>
+<p>scrwidth = screen.width;</p>
+<p>scrheight = screen.height;</p>
+<p>} else if (self.java) {</p>
+<p>var jkit = java.awt.Toolkit.getDefaultToolkit();</p>
+<p>var scrsize = jkit.getScreenSize();</p>
+<p>scrwidth = scrsize.width;</p>
+<p>scrheight = scrsize.height;</p>
+<p>}</p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/715/prepareCode?p1=bjted&amp;p2=y&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '&amp;pdw=' + scrwidth + '&amp;pdh=' + scrheight + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p>Ссылки по теме:</p>
+<p>Судья Верховного суда Чувашии насмерть сбил женщину</p>
+<p>// NEWSru.com</p>
+<p>	// В России</p>
+<p>	</p>
+<p>		// 7 декабря 2011 г.</p>
+<p>Прокуроров, сбивших людей на автобусной остановке в  Москве, уволили после проверки</p>
+<p>// NEWSru.com</p>
+<p>	// В России</p>
+<p>	</p>
+<p>		// 23 ноября 2011 г.</p>
+<p>Каталог NEWSru.com:Информационные интернет-ресурсы</p>
+<p>Досье NEWSru.com:</p>
+<p>Краснодарский край //</p>
+<p>Инцидент //</p>
+<p>ДТП</p>
+<p>//<![CDATA[</p>
+<p>yandex_partner_id = 43120;</p>
+<p>yandex_site_bg_color = 'E6E6E6';</p>
+<p>yandex_stat_id = 1215138;</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = 0.9;</p>
+<p>yandex_font_family = 'arial';</p>
+<p>yandex_direct_type = 'flat';</p>
+<p>yandex_direct_limit = 4;</p>
+<p>yandex_direct_bg_color = 'E6E6E6';</p>
+<p>yandex_direct_title_color = '0000FF';</p>
+<p>yandex_direct_url_color = '006A29';</p>
+<p>yandex_direct_all_color = '333333';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '0016A6';</p>
+<p>yandex_direct_favicon = false;</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//]]></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>var addate = new Date(); </p>
+<p>var scrheight = '', scrwidth = '';</p>
+<p>if (self.screen) {</p>
+<p>scrwidth = screen.width;</p>
+<p>scrheight = screen.height;</p>
+<p>} else if (self.java) {</p>
+<p>var jkit = java.awt.Toolkit.getDefaultToolkit();</p>
+<p>var scrsize = jkit.getScreenSize();</p>
+<p>scrwidth = scrsize.width;</p>
+<p>scrheight = scrsize.height;</p>
+<p>}</p>
+<p>document.write('<iframe src="http://ads.adfox.ru/715/getCode?p1=biyvs&amp;p2=t&amp;p3=a&amp;p4=a&amp;pct=a&amp;plp=a&amp;pli=a&amp;pop=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr + '&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;pdw=' + scrwidth + '&amp;pdh=' + scrheight + '" frameBorder="0" width="234" height="120" marginWidth="0" marginHeight="0" scrolling="no" style="border: 0px; margin: 0px; padding: 0px;"><a href="http://ads.adfox.ru/715/goDefaultLink?p1=biyvs&amp;p2=t" target="_top"><img src="http://ads.adfox.ru/715/getDefaultImage?p1=biyvs&amp;p2=t" border="0" alt=""><\/a><\/iframe>');</p>
+<p>//--></p>
+<p>Последняя новость NEWSru.com – 23:25</p>
+<p>Обгоревший небоскреб в Грозном будет восстановлен к 30 сентября - за дело взялся брат Кадырова // В России</p>
+<p>Досье NEWSru.com:</p>
+<p>Чечня /</p>
+<p>Грозный /</p>
+<p>Инцидент</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=bezms&amp;p2=envv&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=bezmt&amp;p2=envv&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.media-networks.ru/code?pid=2297&gid=454&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.media-networks.ru/code?pid=2298&gid=454&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>var random = Math.floor(Math.random() * 1000000000);</p>
+<p>document.write('<scr' + 'ipt language="JavaScript" src="http://engine.media-networks.ru/code?pid=2299&gid=454&oin=1&rid=' + random +'"></scr' + 'ipt>');</p>
+<p>// --></p>
+<p>// <!--</p>
+<p>if(typeof(VongoMediaWorker)=="undefined" && document.getElementById("VongoMediaGateway")==null){ (function() { var s = document.createElement("script"); s.id = "VongoMediaGateway"; s.type = "text/javascript"; s.async = true; s.src = "http://cdn.vongomedia.ru/www/delivery/worker.js?_=" + Math.floor(Math.random()*99999999999); var x = document.getElementsByTagName("head")[0]; x.appendChild(s, x); })(); }</p>
+<p>// --></p>
+<p>Вторник, 9 апреля 2013 г.   Последняя новость – 23:25</p>
+<p>Все права на материалы и новости, опубликованные на сайте NEWSru.com, охраняются в соответствии с законодательством РФ.</p>
+<p>Допускается цитирование без согласования с редакцией не более 50% от объема оригинального материала, с обязательной прямой гиперссылкой на страницу, с которой материал заимствован.</p>
+<p>Гиперссылка должна размещаться непосредственно в тексте, воспроизводящем оригинальный материал NEWSru.com, до или после цитируемого блока.</p>
+<p>Обратная связь:</p>
+<p>редакция сайта /</p>
+<p>служба технической поддержки /</p>
+<p>рекламный отдел</p>
+<p>Прайс-лист на размещение рекламы</p>
+<p>  </p>
+<p>Правила баннерного обмена</p>
+<p>Подписка на новости (RSS)</p>
+<p>© NEWSru.com – самые быстрые новости 2000-2013</p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>var addate = new Date();</p>
+<p>document.write('<iframe src="http://ads.adfox.ru/715/getCode?p1=cnh&amp;p2=nj&amp;p3=a&amp;p4=a&amp;pucn=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr + '&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;py=a" frameBorder="0" width="200" height="377" marginWidth="0" marginHeight="0" scrolling="no" style="border: 0px; margin: 0px; padding: 0px;"><a href="http://ads.adfox.ru/715/goDefaultLink?p1=cnh&amp;p2=nj" target="_top"><img src="http://ads.adfox.ru/715/getDefaultImage?p1=cnh&amp;p2=nj" border="0" alt=""><\/a><\/iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=beldb&amp;p2=emzm&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }</p>
+<p>if (typeof(document.referrer) != 'undefined') {</p>
+<p>  if (typeof(afReferrer) == 'undefined') {</p>
+<p>    afReferrer = escape(document.referrer);</p>
+<p>  }</p>
+<p>} else {</p>
+<p>  afReferrer = '';</p>
+<p>}</p>
+<p>var addate = new Date(); </p>
+<p>document.write('<scr' + 'ipt type="text/javascript" src="http://ads.adfox.ru/173617/prepareCode?p1=begra&amp;p2=emzm&amp;pct=a&amp;pfc=a&amp;pfb=a&amp;pr=' + pr +'&amp;pt=b&amp;pd=' + addate.getDate() + '&amp;pw=' + addate.getDay() + '&amp;pv=' + addate.getHours() + '&amp;prr=' + afReferrer + '"><\/scr' + 'ipt>');</p>
+<p>// --></p>
+<p><!--</p>
+<p>//var width=0;</p>
+<p>//width=screen.width;</p>
+<p>//if (width >= 1000) {</p>
+<p>    document.getElementById('stakan').style.display = 'block';</p>
+<p>//}</p>
+<p>// --></p>
+<p>var _exchange_vars = {key: 'ee85874b16a6a5f23fec6d46dc0fd582'};</p>
+<p>(function(){</p>
+<p>var s = document.createElement("script");</p>
+<p>s.async = true;</p>
+<p>s.src = "http://b.adinch.com/static/sdk/sdk.js";</p>
+<p>document.getElementsByTagName("head")[0].appendChild(s);</p>
+<p>})();</p>

@@ -1,0 +1,191 @@
+<p> </p>
+<p>Eko - mieszkanie > Wyposażenie domu</p>
+<p>{lang: 'pl'}</p>
+<p>	var pp_gemius_identifier = new String('AfHgveuOWzOwInFZWyWatYXBLQVdnI8U6Twwm2kRhR7.57');</p>
+<p>	</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(</p>
+<p>	  ['_setAccount', 'UA-56023-6'],</p>
+<p>	  ['_setDomain', 'we-dwoje.pl'],</p>
+<p>	  ['_setCustomVar', 5, 'Type', 'artykul', 3],</p>
+<p>	  	  ['_setCustomVar', 1, 'Section1', 'dom', 3],</p>
+<p>	  	  	  	  ['_trackPageview']</p>
+<p>	);	</p>
+<p>	</p>
+<p>	(function() {</p>
+<p>	    var ga = document.createElement('script');</p>
+<p>	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>	    ga.setAttribute('async', 'true');</p>
+<p>	    document.documentElement.firstChild.appendChild(ga);</p>
+<p>	})();</p>
+<p>	</p>
+<p>		document.screening = 0;</p>
+<p>	</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2065853450314435");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>	</p>
+<p>	GA_googleAddSlot("ca-pub-2065853450314435", "we2_column0_rectangle1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_rectangle1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_pasek1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column1_art1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_rectangle1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column2_pasek1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_rectangle1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_column3_pasek1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe1_pasek1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_linki_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_stripe2_pasek1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe1_pasek1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_wide_stripe2_pasek1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_sky1_sky1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_stripe_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_special_screening_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_main_title_stripe1_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_top_special_floating_top_button_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_gallery_special_gallery_first_element_dom");</p>
+<p>GA_googleAddSlot("ca-pub-2065853450314435", "we2_big_board_board1_dom");</p>
+<p>	</p>
+<p>	GA_googleFetchAds();</p>
+<p>	</p>
+<p>	var GLOBALS_CATEGORY_ID = 378;</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_special_screening_dom");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_top_special_floating_top_button_dom");</p>
+<p>	</p>
+<p>Witaj!Zaloguj się  lubZałóż kontoForum We-Dwoje.plNewsletter </p>
+<p>Dom, ogród</p>
+<p>Forum</p>
+<p>Lajt</p>
+<p>Galerie</p>
+<p>Ogłoszenia</p>
+<p>Baza Firm</p>
+<p>Wyszukaj</p>
+<p>Społeczność</p>
+<p>Facebook</p>
+<p>wybierz</p>
+<p>artykuły</p>
+<p>ogłoszenia</p>
+<p>wizytówki</p>
+<p>forum</p>
+<p>							$("#s_t_opt").selectbox();</p>
+<p>						</p>
+<p>	GA_googleFillSlot("we2_top_stripe_dom");</p>
+<p>	</p>
+<p>Dom</p>
+<p>Uroda Moda Zdrowie Seks Lifestyle</p>
+<p>Ślub Dziecko Kulinaria więcej</p>
+<p>Budowa domuDziałka i ogródWnętrzaPomysły, inspiracjeWyposażenie domuDesignArchitekturaSprawdzone porady Dom i ogród forum </p>
+<p>Dom i ogródWyposażenie domuEko - mieszkanie </p>
+<p>GA_googleFillSlot("we2_wide_stripe1_pasek1_dom");</p>
+<p>GA_googleFillSlot("we2_main_stripe1_pasek1_dom");</p>
+<p>Wyposażenie domu06 Gru 2011kom. (0)251Materiały prasoweEko - mieszkanie</p>
+<p>GA_googleFillSlot("we2_main_title_stripe1_dom");</p>
+<p>Ekologiczny styl życia, coraz modniejszy szczególnie pośród młodych, to nie tylko drogie, często nieosiągalne rozwiązania technologiczne, ale także praktyczne i kreatywne pomysły wykorzystywane w domu na co dzień. Specjaliści Dekoria.pl podpowiadają, jak stworzyć unikalną i ekologiczną aranżację mieszkania, wykorzystując przedmioty z pozoru bezużyteczne.</p>
+<p>	Pojęcie „ekologia” w ostatnich latach stało się niezwykle modne. Na co dzień korzystamy</p>
+<p>	z produktów takich jak ekologiczne torby na zakupy, przyjazne środowisku artykuły</p>
+<p>	gospodarstwa domowego czy ekologiczna żywność. Dlaczego więc nie mieszkać bardziej</p>
+<p>	ekologicznie?</p>
+<p>	Eksperci Dekoria.pl - producenta tekstyliów domowych - w prezentowanych przez siebie</p>
+<p>	aranżacjach wykorzystali innowacyjne podejście do dekoracji wnętrz. Klasyczne i tradycyjne meble zastąpili z pozoru bezużytecznymi paletami pomalowanymi na biały kolor. Tradycyjny stolik kawowy</p>
+<p>	w prezentowanej stylizacji to połączone ze sobą palety, podobnie jak innowacyjny stojak na kwiaty. Osiągnęli tym samym oryginalne wnętrze, urządzone w niestandardowym i młodzieżowym stylu.</p>
+<p>	Połączono je z ciekawymi tkaninami z linii Enjoy Dekoria.pl.</p>
+<p>	Niezwykle optymistyczna kolekcja to nowoczesne, kolorowe kwiaty i kropki w modnych kolorach, nawiązujących po części do szalonego stylu pop-art, po części do prostego i minimalistycznego skandynawskiego designu. Wyrazista kolorystyka i przyjazna stylistka to doskonała propozycja do wielbicieli nowoczesnego i charakterystycznego stylu.</p>
+<p>	W prezentowanej aranżacji wykorzystano tkaniny w odcieniach szarości, które doskonale współgrają z bielą użytych do dekoracji palet. Ciekawym zabiegiem jest również rezygnacja z tradycyjnej sofy i zastąpienie jej praktycznymi i funkcjonalnymi siedziskami czy poduchami. Aby zachować nieco więcej prywatności, w oknach zamontowano klasyczną rzymską roletę, wykonaną z materiału w identycznej kolorystyce co pozostałe dodatki. Całości wystroju dopełniają porozstawiane kwiaty i osobiste dodatki, które w tym przypadku mogą być w rozmaitych kształtach i stylach, stanowiąc ozdobę samą w sobie. Ekologiczny styl życia jest modny, a jak się okazuje, w przypadku mieszkania oryginalny i pomysłowy. Czasem warto skorzystać z tych innowacyjnych rozwiązań i niewielkim kosztem stworzyć przytulne i wyjątkowe mieszkanie. </p>
+<p>	/* <![CDATA[ */</p>
+<p>	var bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new Date()).getTimezoneOffset()+'&uti='+(new Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;</p>
+<p>	if(typeof(bburlparam)=='string') { bbh+='&'+bburlparam; }</p>
+<p>	if(typeof(bbkeywords)=='string') { bbh+='&keywords='+escape(bbkeywords); }</p>
+<p>	document.write("<scr"+"ipt  charset='utf-8' type='text/javascript' src='http://go.idmnet.bbelements.com/please/showit/177/1/2/17/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");</p>
+<p>	/* ]]> */</p>
+<p>	</p>
+<p>GA_googleFillSlot("we2_main_stripe2_linki_dom");</p>
+<p>GA_googleFillSlot("we2_main_stripe2_pasek1_dom");</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) {return;}</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/pl_PL/all.js#appId=10150298435359064&xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>OCEŃ123450.00/0  OCEN </p>
+<p>DODAJ DO </p>
+<p>Śledzik</p>
+<p>Wykop</p>
+<p>Podobne w Wyposażenie domu</p>
+<p>		Alternatywny zestaw kina domowego	</p>
+<p>	Zakup nowoczesnego wyposażenia audio-video zazwyczaj kojarzy...</p>
+<p>	</p>
+<p>		Modne kosze do recyklingu odpadów	</p>
+<p>		Stojak na parasole	</p>
+<p>		Trójwymiarowe meble	</p>
+<p><!--</p>
+<p>google_ad_client = "pub-2065853450314435";</p>
+<p>/* we2_main_rectangle1_article */</p>
+<p>google_ad_slot = "9778174194";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>Tagi</p>
+<p>dom</p>
+<p>mieszkanie</p>
+<p>sypialnia</p>
+<p>pokój</p>
+<p>stylizacja wnętrza</p>
+<p>ekologia</p>
+<p>wystrój wnętrza</p>
+<p>wyposażenie wnętrza</p>
+<p>ekologiczny dom</p>
+<p>ekologiczny styl</p>
+<p>eko dom</p>
+<p>stylizacja  wnętrza</p>
+<p>eko wnętrze</p>
+<p>Skomentuj Eko - mieszkaniefunction valid_f0(oForm) {return checkFilled(oForm.author_name, 'Proszę wpisać swoje imię!')&& checkFilled(oForm.comment, 'Proszę wpisać treść komentarza!');}AutorZarejestruj się  /  Zaloguj sięTytułTreść</p>
+<p>Komentarze (0) - Eko - mieszkanieBrak komentarzy do Eko - mieszkanie - rozpocznij dyskusję i dodaj komentarz</p>
+<p>Podobne do Eko - mieszkanieCoś więcej niż mieszkanie służboweCzy można posiadać mieszkanie służbowe i jeszcze na tym zarabiać? Na Zachodzie tak, w Polsce powoli też.więcej0.00/ 0147Skomentuj  (1)Mieszkanie - odzwierciedleniem jego...Czy ktoś pomyślał kiedyś o tym, że mieszkanie stanowi dokładne odzwierciedlenie jego właściciela? Tak, wnętrze domu, to my od środka. Więc rozejrzyjmy się wokół siebie, jakie jest to nasze schronienie?więcej3.20/ 5272Skomentuj  (2)Mieszkanie zawsze modneKażdy z nas ma własny pomysł na aranżację wnętrza mieszkania czy domu. Bez względu na to, czy wybierzemy chłodną kolorystykę, czy też przytulny klimat ciepłych barw – zawsze chcemy, aby nasze mieszkanie było...więcej0.00/ 01575Skomentuj  (1)Mieszkanie, które pomyśli za CiebieInteligentne mieszkanie, które spełnia każde polecenie domownika oraz zapewnia mu bezpieczeństwo i wygodę, to najnowsze rozwiązanie firmy Luxmat. Inteligentna instalacja wyróżnia się konkurencyjną ceną, łatwością w...więcej3.00/ 2294Skomentuj  (1)Jak zaaranżować poddaszeMyśląc o własnym mieszkaniu, chcielibyśmy mieć niekonwencjonalne, wyjątkowe wnętrze. Zastanawiamy się jak stworzyć wnętrze wymarzonego mieszkania przy niewielkim nakładzie finansowym. Niektórzy zastanawiają się nad...więcej5.00/ 119326Skomentuj  (6)XXII Targi Mieszkaniowe „Nowy...Serdecznie zapraszamy na XXII edycję największych w Polsce Targów Mieszkaniowych „Nowy DOM, Nowe MIESZKANIE”, która odbędzie się w dniach 6 i 7 września 2008 roku na warszawskim TORWARZE.więcej0.00/ 024Skomentuj  (1)Zobacz podobne do Eko - mieszkanie</p>
+<p>	GA_googleFillSlot("we2_column0_rectangle1_dom");</p>
+<p>	</p>
+<p>	GA_googleFillSlot("we2_column1_rectangle1_dom");</p>
+<p>GA_googleFillSlot("we2_column1_pasek1_dom");</p>
+<p>GA_googleFillSlot("we2_column1_art1_dom");</p>
+<p>	</p>
+<p>Karafka na wino lub wodęNajdziwniejsze domy - mieszkanie w muszelceDekoracje bożonarodzeniowe</p>
+<p>Wydania We2.plwięcej »09GruPomysły na prezenty gwiazdkowe oraz Magda Mielcarz...</p>
+<p>Prosta i tania reklama w Internecie sprzedawana za pomocą AdTaily(PLALLADTAILY0002)</p>
+<p>Gorące tematyPopularneKomentowaneNowePomysł na jesienną aranżację salonuDeski do krojeniaModna brytfannaDekoracje bożonarodzenioweSielankowy wystrój wnętrzDodatki do pokoju dziecięcego</p>
+<p>Zobacz ostatnie wydanie tygodnikaWysłanie formularza jest jednoznaczne z akceptacją Regulaminu portalu We-Dwoje.pl</p>
+<p>Konkursy We2.pl</p>
+<p>GA_googleFillSlot("we2_column2_rectangle1_dom");</p>
+<p>GA_googleFillSlot("we2_column2_pasek1_dom");</p>
+<p>Galerie Dom, ogródTop 50 swetrów wiosna/lato 2011Najmodniejsze spodnie na jesień-zimę...Doniczki od AncantiDodatki łazienkowe Geesa Popularne zdjęciaSukienki i SpódniceSukienki i spódnice InWear - moda zimowa 2011/12Swetry, bluzkiDamska kolekcja swetrów Zara - jesień/zima 2011/2012więcej zdjęć »</p>
+<p>Baza firm / wizytówkiDodaj bezpłatną wizytówkę Restauracje, kawiarnieHotele, pensjonatyŚlub, weseleModa, biżuteriaUsługi medyczneSalony urodyDzieckoRozrywka, rekreacjaDom, ogródHoteleWarsaw ApartmentsTAO CosmeticsBLOOM ŚLUB WESELE</p>
+<p>GA_googleFillSlot("we2_column3_rectangle1_dom");</p>
+<p>GA_googleFillSlot("we2_column3_pasek1_dom");</p>
+<p>GA_googleFillSlot("we2_wide_stripe2_pasek1_dom");</p>
+<p>			Copyright © 2006-2011 We-Dwoje.pl FEMINET Sp. z o.o.</p>
+<p>Publikacje zamieszczone na stronach We-Dwoje.pl są chronione prawami autorskimi. </p>
+<p>			Kopiowanie i używanie do innych celów bez pisemnej zgody redakcji zabronione.</p>
+<p>Kontakt</p>
+<p>Reklama</p>
+<p>Współpraca</p>
+<p>Zostań redaktorem</p>
+<p>Zasady korzystania z serwisu</p>
+<p>Polityka prywatności</p>
+<p>						 </p>
+<p>				Wykonanie Advisage.pl</p>
+<p>Rss We-Dwoje.pl</p>
+<p>/* <![CDATA[ */ </p>
+<p>  var bbkeywords='';                                            </p>
+<p>  bmone2n.addPosition('177.11.1.1','');</p>
+<p>bmone2n.addPosition('177.11.2.2','');</p>
+<p>bmone2n.addPosition('177.11.7.3','');</p>
+<p>bmone2n.addPosition('177.11.3.4','');</p>
+<p>  bmone2n.getAd('go.idmnet.bbelements.com',bbkeywords,''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');</p>
+<p>   /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.11.1.1'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.11.2.2'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.11.7.3'); /* ]]> */</p>
+<p>/* <![CDATA[ */ bmone2n.makeAd('177.11.3.4'); /* ]]> */</p>
+<p>	if (document.screening == 1) {</p>
+<p>		document.getElementById("ads_billboard1").style.display = "none"</p>
+<p>	}</p>

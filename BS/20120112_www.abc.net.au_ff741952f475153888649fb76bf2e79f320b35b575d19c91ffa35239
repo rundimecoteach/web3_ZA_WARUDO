@@ -1,0 +1,235 @@
+<p>Bungee jumps suspended after Australian's plunge - ABC Sydney - Australian Broadcasting Corporation</p>
+<p>$(document).ready(function(){</p>
+<p>	if (typeof $('#storyPhotosImg').attr('src') == 'undefined') {</p>
+<p>		var geoCords = $('meta[name="geo.position"]');</p>
+<p>		geoCords = geoCords.attr('content');</p>
+<p>		geoCords = geoCords.split(';');</p>
+<p>		showMap($('.related .expandable a:first'), '100%', geoCords[0], geoCords[1], '');		</p>
+<p>	}</p>
+<p>	</p>
+<p>	var h1 = $('h1').html();</p>
+<p>	$('h1').remove();</p>
+<p>	$('#anchor').after('<h1>' + h1 + '</h1>');</p>
+<p>	</p>
+<p>	$('.content_tools:first').css('background','none');</p>
+<p>	$('.content_tools:first').css('height','30px');	</p>
+<p>	</p>
+<p>	</p>
+<p>	</p>
+<p>	/* Video Check script fallback - 28112011 */</p>
+<p>	/*</p>
+<p>	var videoCheck = $('meta[name="DC.type"]');</p>
+<p>	</p>
+<p>		if (videoCheck.attr('content') == 'Moving Picture') {</p>
+<p>			$('#col1 h1').after('<div id="media_main"></div>');</p>
+<p>			</p>
+<p>				</p>
+<p>			var xmlDoc = $.ajax({</p>
+<p>			  url:"/news/2012-01-12/bungee-jumps-suspended-after-australian27s-plunge/3770386/mediarss.xml?site=sydney",</p>
+<p>			  context: document.body,</p>
+<p>			  success: function(data){</p>
+<p>			  	</p>
+<p>				</p>
+<p>					var videoUrl = $(data).find('*[type="video/x-flv"]');</p>
+<p>						videoUrl = videoUrl.attr('url');</p>
+<p>					//	play_video(videoUrl,'','media_main',700,410,true);</p>
+<p>				</p>
+<p>			  	}</p>
+<p>			  </p>
+<p>			  });		</p>
+<p>			</p>
+<p>			</p>
+<p>	</p>
+<p>		}</p>
+<p>	*/</p>
+<p>		</p>
+<p>	</p>
+<p>});</p>
+<p>Search:</p>
+<p>Radio</p>
+<p>TV</p>
+<p>Shop</p>
+<p>News</p>
+<p>Sport</p>
+<p>Local</p>
+<p>Children</p>
+<p>Science</p>
+<p>Environment</p>
+<p>more Topics</p>
+<p>help</p>
+<p>Go to sitemap|</p>
+<p>Go to primary menu|</p>
+<p>Go to content|</p>
+<p>Go to footer|</p>
+<p>ABC Local on your mobile phone</p>
+<p>visit another location</p>
+<p>Night skyline</p>
+<p> - Hanis</p>
+<p>Home</p>
+<p>Programs</p>
+<p>News</p>
+<p>Weather</p>
+<p>Emergencies</p>
+<p>Sport</p>
+<p>Events</p>
+<p>Recipes</p>
+<p>Photos & Videos</p>
+<p>Explore by Topic</p>
+<p>	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>	</p>
+<p>	try {</p>
+<p>	var pageTracker = _gat._getTracker("UA-2910561-9");	</p>
+<p>              </p>
+<p>	pageTracker._trackPageview();</p>
+<p>	} catch(err) {}</p>
+<p>	</p>
+<p>// Avoiding duplication</p>
+<p>//var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>//document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-2910561-32");</p>
+<p>pageTracker._trackPageview();</p>
+<p>pageTracker._trackPageLoadTime();</p>
+<p>} catch(err) {}</p>
+<p>Print page</p>
+<p>Email this</p>
+<p>Share</p>
+<p>						var addthis_config = {</p>
+<p>							 pubid: "ra-4e38b88a25e8b818",</p>
+<p>							 services_compact: 'google,google_plusone,linkedin,reddit,digg,stumbleupon,tumblr,more',</p>
+<p>							 data_ga_property: 'UA-2910561-32',</p>
+<p>							 data_ga_social: true,</p>
+<p>							 ui_click: true,</p>
+<p>							 data_track_textcopy: true							 </p>
+<p>					</p>
+<p>			</p>
+<p>						}</p>
+<p>						</p>
+<p>						var addthis_share =</p>
+<p>						{</p>
+<p>							</p>
+<p>								url: "http://www.abc.net.au/news/2012-01-12/bungee-jumps-suspended-after-australian27s-plunge/3770386/default.htm?site=sydney"				</p>
+<p>							</p>
+<p>						}</p>
+<p>												</p>
+<p>						</p>
+<p>Bungee jumps suspended after Australian's plunge</p>
+<p>	Updated January 12, 2012 23:39:46</p>
+<p>Erin Langworthy gives a thumbs-up in hospital (L) after surviving the bungy jump accident.</p>
+<p>		<!--</p>
+<p>		if (typeof showPhotos == 'function') showPhotos('mediarss.xml');</p>
+<p>		--></p>
+<p>	</p>
+<p>Related Story: Australian survives as bungee cord snaps</p>
+<p>        </p>
+<p>Related Story: Tourism minister takes bungee leap of faith</p>
+<p>        </p>
+<p>Map: Zambia</p>
+<p>        </p>
+<p>A Zimbabwean tourism company has suspended bungee jumps at Victoria Falls while they investigate an accident in which an Australian tourist plunged into the Zambezi River, a spokesman said on Thursday."We voluntarily suspended bungee jumping for two days [from Wednesday] to allow an audit of the accident that happened" after a cord snapped, Shearwater Adventures spokesman Clement Mukwasi said."This was to allow the auditors, management and crew the opportunity to analyse the causes of the broken cord and review the new system and procedures without distractions."Jumps could resume from the weekend, he added.On New Year's Eve, 22-year-old Australian Erin Langworthy jumped from the Victoria Falls bridge and fell headfirst into the Zambezi River, 111 metres below.The hair-raising accident was caught on video and Ms Langworthy is seen hitting the water with her feet still tied before being swept towards rapids on the river, which separates Zambia and Zimbabwe.Ms Langworthy managed to avoid any crocodiles and swim to the Zimbabwe side of the river, where she hauled herself out.She suffered a fractured collar bone and severe bruising and was taken to South Africa for treatment.Mr Mukwasi said "all other activities including bridge swings, slides tours and the restaurant facility will continue as normal."Zambia's tourism minister Given Lubinda on Sunday took a bungee jump in an attempt to assure tourists of its safety.Tourism is the lifeblood of the towns of Victoria Falls and Livingstone in Zambia, where upmarket resorts attract visitors from around the world.Mr Mukwasi said the probability of an accident was one in 50,000 jumps a year.AFP</p>
+<p>Tags: </p>
+<p>travel-and-tourism,</p>
+<p>  zambia</p>
+<p>	First posted January 12, 2012 23:33:06</p>
+<p>Print page</p>
+<p>Email this</p>
+<p>Share</p>
+<p>						var addthis_config = {</p>
+<p>							 pubid: "ra-4e38b88a25e8b818",</p>
+<p>							 services_compact: 'google,google_plusone,linkedin,reddit,digg,stumbleupon,tumblr,more',</p>
+<p>							 data_ga_property: 'UA-2910561-32',</p>
+<p>							 data_ga_social: true,</p>
+<p>							 ui_click: true,</p>
+<p>							 data_track_textcopy: true							 </p>
+<p>					</p>
+<p>			</p>
+<p>						}</p>
+<p>						</p>
+<p>						var addthis_share =</p>
+<p>						{</p>
+<p>							</p>
+<p>								url: "http://www.abc.net.au/news/2012-01-12/bungee-jumps-suspended-after-australian27s-plunge/3770386/default.htm?site=sydney"				</p>
+<p>							</p>
+<p>						}</p>
+<p>												</p>
+<p>						</p>
+<p>Search ABC Local</p>
+<p> ABC Sydney</p>
+<p>         All ABC Local</p>
+<p>		</p>
+<p>		</p>
+<p>      </p>
+<p>18.0°</p>
+<p>in Sydney</p>
+<p>17°/26°</p>
+<p>Friday</p>
+<p>19°/24°</p>
+<p>Saturday</p>
+<p>19°/23°</p>
+<p>Sunday</p>
+<p>Today's details and 7 day forecast</p>
+<p>	var ctemp = '18.0';</p>
+<p>Topics</p>
+<p>Arts and Entertainment</p>
+<p>Business, Economics and Finance</p>
+<p>Community and Society</p>
+<p>Defence and National Security</p>
+<p>Disasters and Accidents</p>
+<p>Education</p>
+<p>Environment</p>
+<p>Government and Politics</p>
+<p>Health</p>
+<p>Human Interest</p>
+<p>Information and Communication</p>
+<p>Law, Crime and Justice</p>
+<p>Lifestyle and Leisure</p>
+<p>Rural</p>
+<p>Science and Technology</p>
+<p>Sport</p>
+<p>Unrest, Conflict and War</p>
+<p>Weather</p>
+<p>Latest</p>
+<p>Videos</p>
+<p>Audio</p>
+<p>Photos</p>
+<p>Teen struck by train dies</p>
+<p>Spartan to focus police resources on drive-bys</p>
+<p>Police concerned over rise in drive-bys</p>
+<p>Narrow miss</p>
+<p>Calls for overweight passengers to pay more to fly</p>
+<p>NSW Country Hour podcast 12/1/12</p>
+<p>Sydney beset by drive-by shootings</p>
+<p>Scorchers on fire</p>
+<p>NSW Country Hour podcast 11/1/12</p>
+<p>NSW Country Hour podcast 10/1/12</p>
+<p>Pablo Picasso visits New South Wales</p>
+<p>Sculptures bring arty beachside development</p>
+<p>History hides modernism but reveals creativity aplenty</p>
+<p>City signs reveal Acts of Kindness</p>
+<p>Manly welcomes its Sea Eagles home as champions</p>
+<p>   </p>
+<p>Back to top</p>
+<p>Home</p>
+<p>About us</p>
+<p>Archives</p>
+<p>RSS</p>
+<p>Sitemap</p>
+<p>Contact us</p>
+<p>Newsletter</p>
+<p>SydneyToday</p>
+<p>Max: 26° Min: 17°</p>
+<p>Mostly sunny</p>
+<p>Visit another location</p>
+<p>ABC Home</p>
+<p>About the ABC</p>
+<p>Careers</p>
+<p>ABC Services</p>
+<p>ABC Contacts</p>
+<p>© 2012 ABC</p>
+<p>Conditions of Use</p>
+<p>Privacy Policy</p>
+<p>		var pvar = { cid: "abc-aust", content: "0", server: "secure-au" };</p>
+<p>		var trac = nol_t(pvar);</p>
+<p>		trac.record().post();</p>
+<p>	</p>

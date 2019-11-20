@@ -1,0 +1,2879 @@
+<p>var szone="cal/news/story";</p>
+<p>var smode="";</p>
+<p>var sadpg="cal/news/story";</p>
+<p>var sarena="arena=_UNDEFINED_VALUE_;";</p>
+<p>var sMAXPOP=1;</p>
+<p>@import "http://images.ctv.ca/mar/css/shared990/story990.css";</p>
+<p>.storyFeatureItem img.inline {display:none!important}</p>
+<p>var pageNameHBX="CGY_pmma_deaths_120112";</p>
+<p>var pageLocationHBX="/ctvnews/affiliates/calgary/CalgaryHome/;/ctvnews/affiliates/calgary/CalgaryHome/";</p>
+<p>Five drug deaths linked to PMMA | CTV Calgary</p>
+<p>@import "http://www.ctv.ca/mar/css/shared990/ctvlocal990.css";</p>
+<p> .dynamicMenu { position:absolute; margin-left: -163px;}</p>
+<p> </p>
+<p>/*</p>
+<p>function showMenu(id)</p>
+<p>{</p>
+<p>var element = document.getElementById(id);</p>
+<p>if (element.style.visibility == "hidden")</p>
+<p>{</p>
+<p>element.style.visibility = "visible";</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>element.style.visibility= "hidden";</p>
+<p>}</p>
+<p>}</p>
+<p>*/</p>
+<p>HOME|News|Canada AM|W5|Weather|Video|Sports|Entertainment|Programs|TV Listing|Autos|Contests</p>
+<p>.locationHeader td {padding-right: 0px!important; padding-left: 1px!important}</p>
+<p>table.Weather {</p>
+<p>   height: 92px;</p>
+<p>   width: 246px;</p>
+<p>}</p>
+<p>#weatherboxlink {</p>
+<p>	background-color:transparent;</p>
+<p>	padding-left:40px;</p>
+<p>	padding-top:30px;</p>
+<p>	position:absolute;</p>
+<p>	width:200px;</p>
+<p>	top: 146px;</p>
+<p>	height: 70px;</p>
+<p>}</p>
+<p><!--</p>
+<p>var image = new Array();</p>
+<p>image[0] = 'http://www.ctv.ca/mar/images/local990/calweather/WEB_BannerDavid.jpg' ;</p>
+<p>image[1] = 'http://www.ctv.ca/mar/images/local990/calweather/WEB_BannerVickie.jpg' ;</p>
+<p>image[2] = 'http://www.ctv.ca/mar/images/local990/calweather/WEB_BannerSteve.jpg' ;</p>
+<p>image[3] = 'http://www.ctv.ca/mar/images/local990/calweather/WEB_BannerTodd.jpg' ;</p>
+<p>image[4] = 'http://www.ctv.ca/mar/images/local990/calweather/WEB_BannerTodd.jpg' ;</p>
+<p>image[5] = 'http://www.ctv.ca/mar/images/local990/calweather/WEB_BannerDavid.jpg' ;</p>
+<p>var index = Math.floor(Math.random() * image.length);</p>
+<p>document.write('<style type="text/css"> table.Weather { background-image: url('+ image[index] +') } </style>');</p>
+<p>//--></p>
+<p>CTV News Calgary|Weather</p>
+<p>|Traffic</p>
+<p>|Consumer</p>
+<p>|Medical</p>
+<p>|Crime</p>
+<p>|Community Calendar</p>
+<p>|Lottery|</p>
+<p>Contests|About Us|Contact Us</p>
+<p>NewslettersWirelessRSS</p>
+<p>placeRandom728x90Img()</p>
+<p>CTV Calgary</p>
+<p>				h3.jhl {color:#000000; font-size:18px!important;}</p>
+<p>				#mainTableLeft h3 {margin:3px 10px}</p>
+<p>			</p>
+<p>Five drug deaths linked to PMMA</p>
+<p>.topPhoto, .photo {</p>
+<p>width:440px;</p>
+<p>}</p>
+<p>Police are warning the public about the dangers posed by a dangerous chemical that has been found in the bodies of five people who have died after the consumed Ecstasy.</p>
+<p>Updated:  Thu Jan. 12 2012 06:21:15</p>
+<p>    var byString = "";</p>
+<p>  var sourceString = "ctvcalgary.ca";</p>
+<p>  if ((sourceString != "") && (byString != "")) {</p>
+<p>      document.write(byString + ", ");</p>
+<p>  } else {</p>
+<p>    document.write(byString);</p>
+<p>  }</p>
+<p>ctvcalgary.ca</p>
+<p>Calgary police are warning the public about a lethal form of the street drug Ecstasy being distributed which is laced with a chemical five times more toxic than the drug itself. </p>
+<p>Paramethoxy-methamphetamine or PMMA was found in five people who died from apparent Ecstasy overdoses in November and December of last year. </p>
+<p>The findings were confirmed by the Office of the Chief Medical Examiner on Wednesday. </p>
+<p>Police say it's the first time they've ever seen the drug cut with the dangerous chemical. </p>
+<p>They also say that the chemical compound is thought to be less expensive to produce and can be made to look similar to regular Ecstasy pills. </p>
+<p>The cause of each individual death is still under investigation but the PMMA link remains between all the victims, all aged between 16 and 31. </p>
+<p>"This is a prime example of the gamble people take when they use illegal drugs," says S/Sgt. Mike Bossley of the Calgary Police Service Drug Unit. "You never know what is in your drug: yesterday it was MDMA, today it's PMMA, and tomorrow it could be something else. There is no safe street drug, and no safe dose of a street drug." </p>
+<p>Police say that there are absolutely no controls in illegal drug production and drugs could be cut with various substances which may lead to injury or death. </p>
+<p>In addition, each person will have a different response to drugs and their reaction to the drug will also vary. </p>
+<p>"There are some important differences in the toxicity of PMMA compared to MDMA," says Dr. Mark Yarema, Medical Director of the Poison and Drug Information Service (PADIS). "Although all have toxic effects, PMMA is considered more toxic than MDMA, with a higher incidence of seizures and elevated body temperature. Also, the onset of action of PMMA is delayed and its initial effect may be milder. This is dangerous as it may result in users ingesting several tablets to achieve a desired effect, with potentially fatal consequences." </p>
+<p>If parents believe their child is involved in drug use and/or have information to assist with an investigation targeting a drug trafficker, they are encouraged to call the CPS Drug Tip Line at 403-206-8100 or Crime Stoppers at 1-800-222-8477.</p>
+<p>a.please {</p>
+<p>-moz-background-clip:border;</p>
+<p>-moz-background-inline-policy:continuous;</p>
+<p>-moz-background-origin:padding;</p>
+<p>background:transparent url(http://images.ctv.ca/v2/images/icon/share/comment2.jpg) no-repeat scroll 0 0;</p>
+<p>font-size:13px !important;</p>
+<p>font-weight:bold;</p>
+<p>padding-bottom:11px;</p>
+<p>padding-left:32px;</p>
+<p>padding-top:7px;</p>
+<p>float:left</p>
+<p>}</p>
+<p>If you have any questions or comments about this story click here. </p>
+<p>If you have information to add click here. </p>
+<p>To contribute your own photos or videos click here.</p>
+<p>function getSzone(){</p>
+<p>return "VideoCalgaryVideo";</p>
+<p>}</p>
+<p>function simpleAd(){</p>
+<p>if(!ord){var abc=Math.random()+"";var ord=abc.substring(2,abc.length);}</p>
+<p>szone=getSzone();</p>
+<p>sadpg=szone;</p>
+<p>isbroadband=true;</p>
+<p>placeRandom("728x90");</p>
+<p>}</p>
+<p>function setAdsCookie(){</p>
+<p>var tmpDate1=new Date();</p>
+<p>var titleOfVideo;</p>
+<p>var pathOfVideo;</p>
+<p>var tmpDate2=new Date();</p>
+<p>var tmpSeconds = tmpDate1.getSeconds() + (8*60);</p>
+<p>tmpDate2.setSeconds(tmpSeconds);</p>
+<p>var cookieE = document.cookie.indexOf(escape("playVideo") + '=');</p>
+<p>if (cookieE == -1)</p>
+<p>{</p>
+<p>setCookie("playVideo", "playVideo", tmpDate2, "/");</p>
+<p>}</p>
+<p>}</p>
+<p>var storyInfo = "&hub=CalgaryHome&subhub=video&no_ads=&sortdate=20120112&slug=CGY_pmma_deaths_120112&archive=CTVNews";</p>
+<p>var currentVolume = getCookie("EmbedBroadVol");</p>
+<p>if (currentVolume == null)</p>
+<p>{</p>
+<p>setCookie("EmbedBroadVol",23,one_year,"/");</p>
+<p>currentVolume = 23;</p>
+<p>}</p>
+<p>var countFalseAd;</p>
+<p>var sourcePlayer = "story";</p>
+<p>var playAd;</p>
+<p>var waitForCompleteAd;</p>
+<p>var maxPosT = 0;</p>
+<p>var maxPosM = 0;</p>
+<p>var maxPos = 0;</p>
+<p>var currentPos = 1;</p>
+<p>var previousTime = 0; </p>
+<p>var totalTime;</p>
+<p>var cT = "T";</p>
+<p>var x = -1;</p>
+<p>var countForHBX = 0;</p>
+<p>var stateI="pause";</p>
+<p>function switchMostTabs(item)</p>
+<p>{</p>
+<p>var topStories = document.getElementById("BroadTopStories");</p>
+<p>var mostPopular = document.getElementById("BroadMostPopular");</p>
+<p>if (item == 1)</p>
+<p>{</p>
+<p>maxPos = maxPosT;</p>
+<p>cT = "T";</p>
+<p>document.getElementById("AllTopStoriesVideo").style.display = "block";</p>
+<p>document.getElementById("AllMostPopularVideo").style.display = "none";</p>
+<p>topStories.getElementsByTagName("a")[0].style.color = "white";</p>
+<p>mostPopular.getElementsByTagName("a")[0].style.color = "#515151";</p>
+<p>topStories.style.backgroundImage = "url(http://www.ctv.ca/mar/images/local990/broadBandMostPopularOn.jpg)";</p>
+<p>mostPopular.style.backgroundImage= "url(http://www.ctv.ca/mar/images/local990/broadBandMostPopularOff.jpg)";</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>maxPos = maxPosM + 1;</p>
+<p>cT = "M";</p>
+<p>document.getElementById("AllTopStoriesVideo").style.display = "none";</p>
+<p>document.getElementById("AllMostPopularVideo").style.display = "block";</p>
+<p>topStories.getElementsByTagName("a")[0].style.color = "#515151";</p>
+<p>mostPopular.getElementsByTagName("a")[0].style.color = "white";</p>
+<p>topStories.style.backgroundImage = "url(http://www.ctv.ca/mar/images/local990/broadBandMostPopularOff.jpg)";</p>
+<p>mostPopular.style.backgroundImage= "url(http://www.ctv.ca/mar/images/local990/broadBandMostPopularOn.jpg)";</p>
+<p>}</p>
+<p>}</p>
+<p>function moveSlider(event)</p>
+<p>{</p>
+<p>previousTime = 0;</p>
+<p>var movePosition = (event.clientX - findPos(document.getElementById("slider"))[0]);</p>
+<p>if (document.getElementById("VIDEO") != null && document.getElementById("VIDEO").controls != null && playAd == "false")</p>
+<p>{</p>
+<p>document.getElementById("VIDEO").controls.currentPosition = (movePosition/168) * totalTime;</p>
+<p>document.getElementById("slider").style.paddingLeft = movePosition + "px";</p>
+<p>}</p>
+<p>}</p>
+<p>var canMoveVol;</p>
+<p>function startVolMove(val)</p>
+<p>{</p>
+<p>canMoveVol = val;</p>
+<p>}</p>
+<p>function moveSliderVolC(event)</p>
+<p>{</p>
+<p>canMoveVol = 1;</p>
+<p>moveSliderVol(event);</p>
+<p>canMoveVol = 0;</p>
+<p>}</p>
+<p>function moveSliderVol(event)</p>
+<p>{</p>
+<p>if (canMoveVol == 1)</p>
+<p>{</p>
+<p>var movePosition = (event.clientX - findPos(document.getElementById("volslider"))[0]);</p>
+<p>if (movePosition <= 5)</p>
+<p>{</p>
+<p>movePosition = 0;</p>
+<p>}</p>
+<p>if (movePosition >= 23)</p>
+<p>{</p>
+<p>movePosition = 23;</p>
+<p>}</p>
+<p>if (document.getElementById("VIDEO") != null && document.getElementById("VIDEO").controls != null)</p>
+<p>{</p>
+<p>document.getElementById("VIDEO").settings.volume = movePosition * 4;</p>
+<p>}</p>
+<p>document.getElementById("volslider").style.paddingLeft = movePosition + "px";</p>
+<p>setCookie("EmbedBroadVol",movePosition,one_year,"/");</p>
+<p>currentVolume = movePosition ;</p>
+<p>}</p>
+<p>}</p>
+<p>function findPos(obj) {</p>
+<p>	var curleft = curtop = 0;</p>
+<p>	if (obj.offsetParent) {</p>
+<p>		curleft = obj.offsetLeft</p>
+<p>		curtop = obj.offsetTop</p>
+<p>		while (obj = obj.offsetParent) {</p>
+<p>			curleft += obj.offsetLeft</p>
+<p>			curtop += obj.offsetTop</p>
+<p>		}</p>
+<p>	}</p>
+<p>	return [curleft,curtop];</p>
+<p>}</p>
+<p>function showInfo(ID)</p>
+<p>{</p>
+<p>   var videoElement =  document.getElementById("blurbVideo" + ID + cT);</p>
+<p>   if (videoElement.style.display == "none")</p>
+<p>   {</p>
+<p>   videoElement.style.display = "block";</p>
+<p>   document.getElementById("infoRowImage" + ID + cT).setAttribute("src", "http://www.ctv.ca/mar/images/local990/broadbandminus.png");</p>
+<p>   }</p>
+<p>   else</p>
+<p>   {</p>
+<p>   videoElement.style.display = "none";</p>
+<p>document.getElementById("infoRowImage" + ID + cT).setAttribute("src", "http://www.ctv.ca/mar/images/local990/broadbandplus.png");</p>
+<p>   }</p>
+<p>}</p>
+<p>function clearVideoSelection(currentPosition, type)</p>
+<p>{</p>
+<p>for (i = 1; i < maxPos; i++)</p>
+<p>{</p>
+<p>var element = document.getElementById("videoSelection" + i + type);</p>
+<p>if (element != null && i != currentPosition)</p>
+<p>{</p>
+<p>element.style.backgroundColor = "#dcdcdc";</p>
+<p>}</p>
+<p>else if(element != null)</p>
+<p>{</p>
+<p>element.style.backgroundColor = "#f2f2f2";</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>function switchHubVideo(URLString, URLStringLow, clip_start, clip_end, clip_id, currentPosition, titleT)</p>
+<p>{</p>
+<p>titleOfVideo = URLString;</p>
+<p>//changeVideo(URLString, URLStringLow, clip_start, clip_end, clip_id, currentPosition);</p>
+<p>var newVideo = new Video( { ClipId:clip_id, Format:'FLV', Permalink:'http://watch.ctv.ca/news/Redirect/?ClipId=' + clip_id, Title:titleT});</p>
+<p>Playlist.GetInstance().Play(newVideo);</p>
+<p>var element = document.getElementById("videoSelection1T");</p>
+<p>element.style.backgroundColor = "#dcdcdc";</p>
+<p>location.hash="#TopVideoAn";</p>
+<p>}</p>
+<p>function returnTimeVideo(timeString)</p>
+<p>{</p>
+<p>return parseInt(timeString.substring(0, 2)*3600) + parseInt(timeString.substring(3, 5)*60) + parseInt(timeString.substring(6,8))</p>
+<p>}</p>
+<p>function changeVideo(URLString, URLStringLow, clip_start, clip_end, clip_id, currentPosition)</p>
+<p>{</p>
+<p>/*if (cT == "T")</p>
+<p>{</p>
+<p>clearVideoSelection(-1, "M");</p>
+<p>clearVideoSelection(currentPosition, "T");</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>clearVideoSelection(currentPosition, "M");</p>
+<p>clearVideoSelection(-1, "T");</p>
+<p>}*/</p>
+<p>//totalTime = parseInt(clip_end.substring(0, 2))*3600 + parseInt(clip_end.substring(3,5))* 60 + parseInt(clip_end.substring(6,8))</p>
+<p>//clip_end = "-1";</p>
+<p>currentPos = currentPosition;</p>
+<p>//switchVideo("http://www.ctv.ca/servlet/HTMLTemplate/nocompress?content_type=video/x-ms-asf&brand=generic&tf=/ctv/generic/video/videoplayer.asx&cf=/ctv/generic/video/player.cfg&url=" + URLString + "&start=" + clip_start + "&end=" + clip_end + "&spd=hi&hub=CalgaryHome");</p>
+<p>Playlist.GetInstance().Play(VideoPlaying[currentPosition])</p>
+<p>}</p>
+<p>function controlVideo(action)</p>
+<p>{</p>
+<p>previousTime = 0;</p>
+<p>if (action == 1)</p>
+<p>{</p>
+<p>document.getElementById("VIDEO").controls.stop();</p>
+<p>}</p>
+<p>else if (action == 2)</p>
+<p>{</p>
+<p>document.getElementById("VIDEO").controls.play();</p>
+<p>}</p>
+<p>else if (action == 3)</p>
+<p>{</p>
+<p>if (x == -1)</p>
+<p>{</p>
+<p>startVideo();</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>if (stateI == "pause")</p>
+<p>{</p>
+<p>document.getElementById("pausePlay").setAttribute('src', 'http://www.ctv.ca/mar/images/local990/broadbandpause.jpg');</p>
+<p>document.getElementById("VIDEO").controls.play();</p>
+<p>stateI = "play";</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>stateI = "pause";</p>
+<p>document.getElementById("pausePlay").setAttribute('src', 'http://www.ctv.ca/mar/images/local990/broadbandplay.gif');</p>
+<p>document.getElementById("VIDEO").controls.pause();</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>else if (action == 4)</p>
+<p>{</p>
+<p>currentPos++;</p>
+<p>if (currentPos == maxPos )</p>
+<p>{</p>
+<p>currentPos = 1;</p>
+<p>}</p>
+<p>functionName = document.getElementById("videoSelection" + currentPos + cT).getElementsByTagName('a')[0].getAttribute('href');</p>
+<p>parseCurrentVideo(functionName);</p>
+<p>//alert(functionName);</p>
+<p>}</p>
+<p>else if (action == 5)</p>
+<p>{</p>
+<p>currentPos--;</p>
+<p>if (currentPos == 0)</p>
+<p>{</p>
+<p>currentPos = maxPos - 1;</p>
+<p>}</p>
+<p>functionName = document.getElementById("videoSelection" + currentPos + cT).getElementsByTagName('a')[0].getAttribute('href');</p>
+<p>parseCurrentVideo(functionName);</p>
+<p>//document.getElementById("VIDEO").controls.stop();</p>
+<p>}</p>
+<p>else if (action == 6)</p>
+<p>{</p>
+<p>alert(document.getElementById("VIDEO").fullScreen);</p>
+<p>document.getElementById("VIDEO").fullScreen = true;</p>
+<p>}</p>
+<p>else if (action == 7)</p>
+<p>{</p>
+<p>alert(event);</p>
+<p>}</p>
+<p>}</p>
+<p>function parseCurrentVideo(functionName)</p>
+<p>{</p>
+<p>functionName = functionName.replace("javascript:", "");</p>
+<p>functionName = functionName.replace("changeVideo(", "");</p>
+<p>functionName = functionName.replace(/'/g,"");</p>
+<p>changeVideo(functionName.split(",")[0],functionName.split(",")[1],functionName.split(",")[2],functionName.split(",")[3],functionName.split(",")[4],functionName.split(",")[5].replace(")",""));</p>
+<p>}</p>
+<p>var mediaString;</p>
+<p>function switchVideoT()</p>
+<p>{</p>
+<p>document.getElementById("defaultBroad").style.display="none";</p>
+<p>newString = '<OBJECT name="VIDEO" id="VIDEO" width="300" height="225" CLASSID="CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6" type="application/x-oleobject">' + mediaString + '</OBJECT>';</p>
+<p>document.getElementById("mainVideo").innerHTML = newString;</p>
+<p>}</p>
+<p>function switchVideo(inString)</p>
+<p>{</p>
+<p>inString = inString + "&ads=" + playAd + "";</p>
+<p>if (playAd == "true")</p>
+<p>{</p>
+<p>simpleAd();</p>
+<p>}</p>
+<p>//mediaString = '<OBJECT name="VIDEO" id="VIDEO" width="300" height="225" CLASSID="CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6" type="application/x-oleobject">';</p>
+<p>mediaString = "";</p>
+<p>mediaString = mediaString + '<PARAM NAME="SendPlayStateChangeEvents" VALUE="True">';</p>
+<p>mediaString = mediaString + '<PARAM NAME="TransparentAtStart" VALUE="True">';</p>
+<p>mediaString = mediaString + '<PARAM NAME="AutoStart" VALUE="1">';</p>
+<p>mediaString = mediaString + '<PARAM name="uiMode" value="none">';</p>
+<p>mediaString = mediaString + '<PARAM name="fullScreen" value="false">';</p>
+<p>mediaString = mediaString + '<PARAM name="PlayCount" value="1">';</p>
+<p>mediaString = mediaString + '<PARAM NAME="CurrentPosition" VALUE="-1">';</p>
+<p>mediaString = mediaString + '<PARAM NAME="Volume" VALUE="' + (currentVolume * 4) + '">';</p>
+<p>mediaString = mediaString + '<PARAM NAME="URL" VALUE="' + inString + '">';</p>
+<p>//mediaString = mediaString + '</OBJECT>';</p>
+<p>if (x == -1)</p>
+<p>{</p>
+<p>z = setTimeout("switchVideoT()",1000);</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>//switchVideoT();</p>
+<p>//	document.getElementById("VIDEO").innerHTML = mediaString;</p>
+<p>document.getElementById("VIDEO").URL = inString;</p>
+<p>}</p>
+<p>}</p>
+<p>function playVideo()</p>
+<p>{</p>
+<p>document.getElementById("VIDEO").controls.play();</p>
+<p>}</p>
+<p>CTV NEWS VIDEO PLAYER</p>
+<p>Top Stories</p>
+<p>Most Popular</p>
+<p>Viewer</p>
+<p>function selectNewVideo(Video)</p>
+<p>{</p>
+<p>    currentPosition = -1;</p>
+<p>    for (o = 1; o < VideoPlaying.length; o++)</p>
+<p>	{</p>
+<p>	    if (VideoPlaying[o] == Video)</p>
+<p>	    {</p>
+<p>	        currentPosition = o;</p>
+<p>	    }	        </p>
+<p>	}</p>
+<p>    if (currentPosition == -1)</p>
+<p>    {</p>
+<p>       return;</p>
+<p>    }</p>
+<p>	if (cT == "T")</p>
+<p>    {</p>
+<p>    clearVideoSelection(-1, "M");</p>
+<p>    clearVideoSelection(currentPosition, "T");</p>
+<p>    }</p>
+<p>    else</p>
+<p>    {</p>
+<p>    clearVideoSelection(currentPosition, "M");</p>
+<p>    clearVideoSelection(-1, "T");</p>
+<p>    }</p>
+<p>}</p>
+<p>Interface.SetUpNext = function( pVideo )</p>
+<p>{</p>
+<p>	//selectNewVideo(pVideo);</p>
+<p>}</p>
+<p>Interface.GetInstance().PlayerViewer = document.getElementById("Viewer");</p>
+<p>Interface.SetNowPlaying = function( Video )</p>
+<p>{</p>
+<p>	if( Playlist.GetInstance && Playlist.GetInstance() && Playlist.GetInstance().Current )</p>
+<p>	{</p>
+<p>		var isAd = Playlist.GetInstance().Current.IsAd;</p>
+<p>	}</p>
+<p>	selectNewVideo(Video);</p>
+<p>//totalTime = parseInt(clip_end.substring(0, 2))*3600 + parseInt(clip_end.substring(3,5))* 60 + parseInt(clip_end.substring(6,8))</p>
+<p>//clip_end = "-1";</p>
+<p>	</p>
+<p>	//document.getElementById( "Video1" ).style.fontWeight = (Video == Video1 ? "bold" : "");</p>
+<p>	//document.getElementById( "Video4" ).style.fontWeight = (Video == Video4 ? "bold" : "");</p>
+<p>	//document.getElementById( "Video2" ).style.fontWeight = (Video == Video2 ? "bold" : "");</p>
+<p>	</p>
+<p>	document.getElementById("AdArea").innerHTML = ( isAd ? "<em>Video will play after advertisement</em>" : "" );</p>
+<p>}</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>new Framework( Format.FlashVideo, 3, "chumtvctv", "CTV News OneClip Player - Calgary", "ctv.ctvcalgarywatch.ca", "http://watch.ctv.ca/news/themes/CTVNews/player/onecliptheme.aspx","http://images.ctv.ca/archives/CTVNews/img2/20111018/300_CGY_tara_heli_videoplayer_111018.jpg" );</p>
+<p>#BroadTopStories {display:none}</p>
+<p>#BroadMostPopular {display:none}</p>
+<p>var VideoPlaying = new Array();</p>
+<p>var t;</p>
+<p>#infoRowImage1T {visibility: hidden}</p>
+<p>#infoRowImage23T,#infoRowImage24T,#infoRowImage25T,#infoRowImage26T,#infoRowImage27T,#infoRowImage28T,#infoRowImage29T,#infoRowImage30T,#infoRowImage31T {visibility: hidden}</p>
+<p>Kevin Rich is live on an Ecstasy warning</p>
+<p>VideoPlaying[1] = new Video( { ClipId:599488, Title:"CTVNews : Kevin Rich is live on an Ecstasy warning", Format:'FLV'} );</p>
+<p>                                </p>
+<p>function startVideo() </p>
+<p>{                   </p>
+<p>                   </p>
+<p>changeVideo('','MLCFCN0112_rich','00:00:00.00','00:01:27.00','599488','1');</p>
+<p>}</p>
+<p>if (sourcePlayer == "story")</p>
+<p>{</p>
+<p>//document.getElementById("videoPopup").setAttribute('href','http://www.ctv.ca/servlet/HTMLTemplate?tf=/ctv/mar/video/new_player_local.html&cf=ctv/mar/ctv.cfg&current_clip_id=' + '599488' + '&clip_start=' + '00:00:00.00' + '&clip_end=' + '00:01:27.00'+ '&video_link_high=' + '' + '&video_link_low=' + 'MLCFCN0112_rich' + '&sourceV=' + sourcePlayer + storyInfo);</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+<p>//document.getElementById("videoPopup").setAttribute('href','http://www.ctv.ca/servlet/HTMLTemplate?tf=/ctv/mar/video/new_player_local.html&cf=ctv/mar/ctv.cfg&current_clip_id=' + '599488' + '&clip_start=' + '00:00:00.00' + '&clip_end=' + '00:01:27.00' + '&video_link_high=' + '' + '&video_link_low=' + 'MLCFCN0112_rich' + '&sourceV=' + cT + "&chub=CalgaryVideo&csection=Top&clip_caption=Kevin Rich is live on an Ecstasy warning");</p>
+<p>}</p>
+<p>Playlist.FeaturedVideos = new Array();</p>
+<p>for (i = 1; i < 2; i++)</p>
+<p>{</p>
+<p>Playlist.FeaturedVideos.push( VideoPlaying[i]);</p>
+<p>}</p>
+<p>maxPosT = 2;</p>
+<p>maxPos = 2;</p>
+<p>//document.getElementById("volslider").style.paddingLeft = currentVolume + "px";</p>
+<p>Interface.PermalinkClicked = function( pUrl )</p>
+<p>{</p>
+<p> if( pUrl.indexOf ( "ad.doubleclick.net" ) > -1 ) //should probably use a regular expression</p>
+<p>    {</p>
+<p>        //document.location = pUrl; //might want to use a new window?</p>
+<p>        window.open(pUrl, "player");</p>
+<p>    }</p>
+<p>else</p>
+<p>{</p>
+<p>openW = window.open(pUrl,'bctvVideo','width=1010,height=850,status=no,scrollbars=1,resizable=1,toolbar=0');</p>
+<p>if (openW)</p>
+<p>{</p>
+<p>FlashController.GetInstance().Wait();</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p>      function printStory() {</p>
+<p>          var printUrl = '/servlet/an/plocal/CTVNews/20120112/CGY_pmma_deaths_120112/20120112/?hub=CalgaryHome';</p>
+<p>          window.open(printUrl, 'PopUpPrintStory', 'height=445,width=696,menubar=yes,toolbar=yes,navbar=no,scrollbars=yes,resizable=yes');</p>
+<p>          return false;</p>
+<p>      };</p>
+<p>  </p>
+<p>User Tools</p>
+<p>del.icio.us</p>
+<p>DIGG</p>
+<p>Share on Twitter</p>
+<p>Facebook</p>
+<p>Print This Page</p>
+<p> Email Story </p>
+<p>var addthis_config = {"data_track_clickback":true};</p>
+<p>Feedback</p>
+<p>		Fonts:BiggerSmaller</p>
+<p>Advertisement</p>
+<p>placeRandom("300x250");</p>
+<p>What's On</p>
+<p>var s_link0 = null;</p>
+<p>var s_link1 = null;</p>
+<p>var s_link2 = null;</p>
+<p>var s_link3 = null;</p>
+<p>var s_link4 = null;</p>
+<p>var tempTitle = "Remember the Times: The Michael Jackson Memorial";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/servlet/ArticleNews/show/CTVShows/20090702/special_jackson_memorial/20090702/');</p>
+<p>}</p>
+<p>}</p>
+<p>Thu</p>
+<p>Fri</p>
+<p>Sat</p>
+<p>Sun</p>
+<p>Mon</p>
+<p>              Toronto</p>
+<p>            </p>
+<p>            Thu, Jan 12, 12</p>
+<p>8:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Up All Night</p>
+<p>var tempTitle = "Up All Night";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/UpAllNight.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grey's Anatomy</p>
+<p>var tempTitle = "Grey's Anatomy";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/GreysAnatomy.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Mentalist</p>
+<p>var tempTitle = "The Mentalist";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://shows.ctv.ca/TheMentalist.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link0 != null)</p>
+<p>{</p>
+<p>if (s_link0.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic0").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>Select Your CTV</p>
+<p>  Customize</p>
+<p>  </p>
+<p>              Toronto</p>
+<p>            </p>
+<p>            Wed, Jan 11, 12</p>
+<p>8:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>CSI: NY</p>
+<p>var tempTitle = "CSI: NY";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/CSINY.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Grimm</p>
+<p>var tempTitle = "Grimm";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/Grimm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Blue Bloods</p>
+<p>var tempTitle = "Blue Bloods";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://shows.ctv.ca/BlueBloods.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link1 != null)</p>
+<p>{</p>
+<p>if (s_link1.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic1").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>Select Your CTV</p>
+<p>  Customize</p>
+<p>  </p>
+<p>              Toronto</p>
+<p>            </p>
+<p>            Tue, Jan 10, 12</p>
+<p>8:00pm</p>
+<p>CTV News</p>
+<p>var tempTitle = "CTV News";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/news');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>CTV Movie: HOT SHOTS</p>
+<p>var tempTitle = "CTV Movie: HOT SHOTS";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/generated/shows/movie.html');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Flashpoint</p>
+<p>var tempTitle = "Flashpoint";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/FlashPoint.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:30pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Man Up!</p>
+<p>var tempTitle = "Man Up!";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>10:30pm</p>
+<p>Man Up!</p>
+<p>var tempTitle = "Man Up!";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Man Up!</p>
+<p>var tempTitle = "Man Up!";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>10:30pm</p>
+<p>Man Up!</p>
+<p>var tempTitle = "Man Up!";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>NFL Today</p>
+<p>var tempTitle = "NFL Today";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>NFL Today</p>
+<p>var tempTitle = "NFL Today";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Flashpoint</p>
+<p>var tempTitle = "Flashpoint";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/FlashPoint.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:30pm</p>
+<p>The Big Bang Theory</p>
+<p>var tempTitle = "The Big Bang Theory";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/TheBigBangTheory.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>NFL Today</p>
+<p>var tempTitle = "NFL Today";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>NFL Today</p>
+<p>var tempTitle = "NFL Today";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>NFL Today</p>
+<p>var tempTitle = "NFL Today";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>NFL Today</p>
+<p>var tempTitle = "NFL Today";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>NFL</p>
+<p>var tempTitle = "NFL";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://shows.ctv.ca/NFL.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link2 != null)</p>
+<p>{</p>
+<p>if (s_link2.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic2").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>Select Your CTV</p>
+<p>  Customize</p>
+<p>  </p>
+<p>              Toronto</p>
+<p>            </p>
+<p>            Mon, Jan 9, 12</p>
+<p>8:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Desperate Housewives</p>
+<p>var tempTitle = "Desperate Housewives";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/DesperateHousewives.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Pan Am</p>
+<p>var tempTitle = "Pan Am";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/PanAm.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Desperate Housewives</p>
+<p>var tempTitle = "Desperate Housewives";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/DesperateHousewives.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The 2012 Golden Globe Arrivals Special</p>
+<p>var tempTitle = "The 2012 Golden Globe Arrivals Special";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Desperate Housewives</p>
+<p>var tempTitle = "Desperate Housewives";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/DesperateHousewives.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Once Upon a Time</p>
+<p>var tempTitle = "Once Upon a Time";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://shows.ctv.ca/OnceUponATime.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>The 69th Annual Golden Globe Awards</p>
+<p>var tempTitle = "The 69th Annual Golden Globe Awards";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link3 != null)</p>
+<p>{</p>
+<p>if (s_link3.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic3").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>Select Your CTV</p>
+<p>  Customize</p>
+<p>  </p>
+<p>              Toronto</p>
+<p>            </p>
+<p>            Sun, Jan 8, 12</p>
+<p>8:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>7:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00pm</p>
+<p>Betty White's Off Their Rockers</p>
+<p>var tempTitle = "Betty White's Off Their Rockers";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', '');</p>
+<p>}</p>
+<p>}</p>
+<p>8:30pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:00pm</p>
+<p>Two and a Half Men</p>
+<p>var tempTitle = "Two and a Half Men";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/twoAndAHalfMen.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>9:30pm</p>
+<p>Mike & Molly</p>
+<p>var tempTitle = "Mike & Molly";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/MikeAndMolly.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>10:00pm</p>
+<p>Castle</p>
+<p>var tempTitle = "Castle";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://shows.ctv.ca/Castle.aspx');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>7:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>8:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>6:00am</p>
+<p>Live 8  A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.</p>
+<p>var tempTitle = "Live 8 <br /> A historic day of rock 'n' roll as CTV broadcasts concerts from around the world.";</p>
+<p>if (s_link4 != null)</p>
+<p>{</p>
+<p>if (s_link4.toLowerCase() == tempTitle.toLowerCase())</p>
+<p>{</p>
+<p>document.getElementById("linkPic4").setAttribute('href', 'http://www.ctv.ca/generic/WebSpecials/live8/index.html');</p>
+<p>}</p>
+<p>}</p>
+<p>Select Your CTV</p>
+<p>  Customize</p>
+<p>  </p>
+<p>var currentID = 0;</p>
+<p>document.getElementById("currentData").innerHTML = "<table>" + document.getElementById("whatson" + "CFCN" + "0").innerHTML + "</table>";</p>
+<p>document.getElementById("pictureSpot").innerHTML = document.getElementById("mappingData0").innerHTML;</p>
+<p>function clickDay(ID)</p>
+<p>{</p>
+<p>for (i = 0; i< 5; i++)</p>
+<p>{</p>
+<p>document.getElementById("day" + i).style.backgroundColor = "#dcdcdc";</p>
+<p>}</p>
+<p>document.getElementById("day" + ID).style.backgroundColor = "#a9a9a9";</p>
+<p>document.getElementById("currentData").innerHTML = "<table>" + document.getElementById("whatson" + "CFCN" + ID).innerHTML + "</table>";</p>
+<p>currentID = ID;</p>
+<p>document.getElementById("pictureSpot").innerHTML = document.getElementById("mappingData" + ID).innerHTML;</p>
+<p>}</p>
+<p>removeFeatureBox();</p>
+<p>writeFooterLocal();</p>
+<p>var videoPathHBX;</p>
+<p>var _hbEC=0,_hbE=new Array;function _hbEvent(a,b){b=_hbE[_hbEC++]=new Object();b._N=a;b._C=0;return b;}</p>
+<p>var hbx=_hbEvent("pv");hbx.vpc="HBX0100u";hbx.gn="ehg-ctv.hitbox.com";</p>
+<p>//BEGIN EDITABLE SECTION</p>
+<p>//CONFIGURATION VARIABLES</p>
+<p>hbx.acct="DM551230O5NE71EN3;DM561030KMRC71EN3";//ACCOUNT NUMBER(S)</p>
+<p>hbx.pn="CGY_pmma_deaths_120112";;//PAGE NAME(S)</p>
+<p>hbx.mlc="/ctvnews/affiliate/Calgary/Story;/ctv/ctvnews/affiliate/Calgary/Story";//MULTI-LEVEL CONTENT CATEGORY</p>
+<p>videoPathHBX = "/ctvnews/affiliate/Calgary/Video;/ctv/ctvnews/affiliate/Calgary/Video";</p>
+<p>hbx.pndef="title";//DEFAULT PAGE NAME</p>
+<p>hbx.ctdef="full";//DEFAULT CONTENT CATEGORY</p>
+<p>hbx.hc1=hbx.pn;</p>
+<p>//OPTIONAL PAGE VARIABLES</p>
+<p>//ACTION SETTINGS</p>
+<p>hbx.fv="3";//FORM VALIDATION MINIMUM ELEMENTS OR SUBMIT FUNCTION NAME</p>
+<p>hbx.lt="auto";//LINK TRACKING</p>
+<p>hbx.dlf="n";//DOWNLOAD FILTER</p>
+<p>hbx.dft="n";//DOWNLOAD FILE NAMING</p>
+<p>hbx.elf="n";//EXIT LINK FILTER</p>
+<p>//REQUIRED SECTION. CHANGE "YOURSERVER" TO VALID LOCATION ON YOUR WEB SERVER (HTTPS IF FROM SECURE SERVER)</p>
+<p>var _sf_async_config={uid:2895,domain:'ctv.ca'};(function(){function loadPublishflow() {window._sf_endpt=(new Date()).getTime();var e = document.createElement('script');e.setAttribute('language', 'javascript');e.setAttribute('type', 'text/javascript');e.setAttribute('src',(('https:' == document.location.protocol) ? 'https://s3.amazonaws.com/' : 'http://s3.amazonaws.com/') + 'publishflow/javascript/data.js');document.body.appendChild(e);}var oldonload = window.onload;window.onload = (typeof window.onload != 'function') ?loadPublishflow : function() { oldonload(); loadPublishflow(); };})();</p>
+<p>var node = document.getElementById("mainTableLeft");</p>
+<p>var els = node.getElementsByTagName('div');</p>
+<p>var elsLen = els.length;</p>
+<p>var topImage;</p>
+<p>var foundImage = false;</p>
+<p>var imageString = "http://images.ctv.ca/archives/CTVNews/img2/20060901/110_ctv_Toronto_060901.jpg"</p>
+<p>for (i = 0; i < elsLen; i++)</p>
+<p>{</p>
+<p>    if (els[i].className == "topPhoto")</p>
+<p>    {</p>
+<p>        topImage = els[i].getElementsByTagName('img');</p>
+<p>        foundImage = true;</p>
+<p>        break;</p>
+<p>    }</p>
+<p>}</p>
+<p>if (foundImage == true)</p>
+<p>{</p>
+<p>if (topImage[0].getAttribute('src') == "http://images.ctv.ca/mar/images/widgets/magnifier.gif")</p>
+<p>{</p>
+<p>imageString = topImage[1].getAttribute('src');</p>
+<p>}</p>
+<p>else</p>
+<p>{imageString = topImage[0].getAttribute('src');</p>
+<p>}}var videoString = "none";var videohref = "none";</p>
+<p>node = document.getElementById("mainTableRight");</p>
+<p>els = document.getElementsByTagName('td');</p>
+<p>elsLen = els.length;</p>
+<p>for (i = 0; i< elsLen; i++)</p>
+<p>{</p>
+<p>    if (els[i].className == "MostPopularBlockTD")</p>
+<p>    {</p>
+<p>        var ul = els[i].getElementsByTagName('a');</p>
+<p>        if (ul.length >0 )</p>
+<p>        {</p>
+<p>        //var nodeli = ul[0].getElementsByTagName('a')[0];</p>
+<p>        //videoString = "none";</p>
+<p>        //videohref = nodeli.getAttribute('href').replace(/&/g, "@amp@");</p>
+<p>        var newS = ul[0].getAttribute('href');</p>
+<p>        videohref = newS.replace(/&/g, "@amp@");</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
+<p>document.write("<img src=\"http://www.ctv.ca/servlet/HTMLTemplate?tf=/ctv/mar/etracker/etracker.html&cf=ctv/mar/ctv.cfg&uniqueID=CGY_pmma_deaths_120112&typeStat=TO&displayText=Five drug deaths linked to PMMA||Calgary police are warning the public about a lethal form of the street drug Ecstasy being distributed which is laced with a chemical five times more toxic than the drug itself.||" + imageString + "||" + videoString + "||" + videohref + "&longURL=" + window.location + "&io=2316496\" height=\"1\" width=\"1\" />");</p>

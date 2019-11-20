@@ -1,0 +1,334 @@
+<p>‘Detergent foam can help fight dengue mosquito’ – The Express Tribune</p>
+<p>	/*</p>
+<p>	 * Configuration for Addthis button</p>
+<p>	 */</p>
+<p>		var addthis_config =</p>
+<p>		{</p>
+<p>			username : 'etribune',</p>
+<p>			ui_hover_direction : 1,</p>
+<p>			ui_click : true,</p>
+<p>			ui_cobrand : "The Express Tribune",</p>
+<p>			data_track_linkback : true,</p>
+<p>			ui_header_color : "#FFF",</p>
+<p>			ui_header_background : "#BE0303",</p>
+<p>			ui_offset_top : 0,</p>
+<p>			ui_offset_left : 0,</p>
+<p>			services_compact : "twitter,digg,facebook,delicious,stumbleupon,myspace,more"</p>
+<p>		};</p>
+<p>		var addthis_share = { templates:  { twitter: "{{title}} - {{url}}" } };</p>
+<p>	</p>
+<p>/* <![CDATA[ */</p>
+<p>var Ticker_config = {</p>
+<p>	ajax_url: "http://tribune.com.pk/application/xmlrpc.php",</p>
+<p>	cache_url: "http://tribune.com.pk/wp-content/plugins/express-news-ticker/cache/ticker.json"</p>
+<p>};</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>var ET_config = {</p>
+<p>	ajax_url: "http://tribune.com.pk/application/xmlrpc.php"</p>
+<p>};</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>var Express_cache_comment_module_config = {</p>
+<p>	post_id: "321625"</p>
+<p>};</p>
+<p>/* ]]> */</p>
+<p>.wp-polls .pollbar {</p>
+<p>	margin: 1px;</p>
+<p>	font-size: 14px;</p>
+<p>	line-height: 16px;</p>
+<p>	height: 16px;</p>
+<p>	background: #006db5;</p>
+<p>	border: 1px solid #ffffff;</p>
+<p>}</p>
+<p> .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</p>
+<p>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</p>
+<p>RSS</p>
+<p>Today's Paper </p>
+<p>Subscribe</p>
+<p> beta 2.0 </p>
+<p>				Faisalabad			</p>
+<p>				Gilgit			</p>
+<p>				Hyderabad			</p>
+<p>				Islamabad			</p>
+<p>				Karachi			</p>
+<p>				Lahore			</p>
+<p>				Peshawar			</p>
+<p>				Quetta			</p>
+<p>				Sargodha			</p>
+<p>				Sialkot			</p>
+<p> High: 25°C</p>
+<p> Low: 10°C</p>
+<p>Home</p>
+<p>Pakistan</p>
+<p>Business</p>
+<p>World</p>
+<p>Sports</p>
+<p>Life & Style</p>
+<p>Multimedia</p>
+<p>Opinion</p>
+<p>Magazine</p>
+<p>Blogs</p>
+<p>Jobs</p>
+<p>Classifieds</p>
+<p> Sindh</p>
+<p>Punjab</p>
+<p>Balochistan</p>
+<p>KP & FATA</p>
+<p>Jammu & Kashmir</p>
+<p>Gilgit Baltistan</p>
+<p> </p>
+<p>Alerts</p>
+<p> </p>
+<p>‘Detergent foam can help fight dengue mosquito’</p>
+<p>			Expert­s return­ing from Thaila­nd, Sri Lanka share new knowle­dge.		</p>
+<p>By Ali Usman</p>
+<p>Published: January 15, 2012</p>
+<p>					Experts returning from Thailand, </p>
+<p>Sri Lanka share </p>
+<p>new knowledge.				</p>
+<p>LAHORE: </p>
+<p>Detergent foam can be used for vector control in fishing the dengue fever spread, doctors who recently went to Thailand and Sri Lanka for training in handling the disease.</p>
+<p>Tahira Maryam, an education officer at the EDO (health) office and Dr Saadia Rehman, an entomologist at the Rawalpindi EDO (health) office, were sent to attend the Dengue Epidemic Prevention Control and Management training in the two countries.</p>
+<p>They said detergent foam had been found to be very effective in killing dengue larvae. They said a detergent-water solution made with one spoon of detergent to two litres of water should be used to clean the houses.</p>
+<p>“The technique is effective only for households. It does not have any residual effect,” they said.</p>
+<p>Entomologist Dr Wasim Akram, also the head of the Dengue Research Group, also endorsed the technique.</p>
+<p>Dr Rehman said that research and surveillance groups had been formed at several levels in Thailand to suggest how best to control the dengue virus. She said Thailand had laws regarding communicable diseases including dengue fever. A dengue day was also observed to create awareness about the disease and preventive measures among the citizens. She suggested that OPDs should be improved to treat dengue effectively. Capacity building among junior staff, she added, was also very important. “Nurses should be trained in ways to judge which dengue patient needs to be treated by senior doctors. They have achieved this in Thailand,” she said.</p>
+<p>She also proposed an online system to guide patients and care givers and coordinate with them, so that the patients load on teaching hospitals can be lessened.</p>
+<p>Dr Tariq Salahuddin, the LGH Post Graduate Medical Institute principal, was also present. He said it should not be forgotten that Pakistan does not have the health infrastructure available in Thailand or other developed countries. He also stressed the need for a credible information system differentiating patients of dengue fever and dengue hemorrhagic fever. He said some 500,000 people had approached teaching public hospitals during the 2011 epidemic.</p>
+<p>Dr Somia Iqtidar, a Mayo Hospital senior registrar, said that Pakistan had to live with dengue for some time. The goal, she said, was to reduce dengue-related mortality and morbidity. She said that primary health care system should be strengthened.</p>
+<p>“There should be a standardised referral and notification system to reduce dengue-related deaths to no more than one per cent,” she said.</p>
+<p>Dr Mohammad Ali, head of the Services Hospital paediatrics department, said the course in Thailand and Sri Lanka was pre-structured. He suggested that more health professionals be sent on training.</p>
+<p>“The outcomes so far have been good, but the real target is not allowing dengue to become an epidemic again,” he said.</p>
+<p>Published in The Express Tribune, January 15th, 2012.</p>
+<p>				Read more:</p>
+<p>												dengue</p>
+<p>Comments (1)</p>
+<p>Share this article jQuery(window).load(function(){ addthis.button("#addthis_button_321625_1292590867", {}, {url: "http://tribune.com.pk/story/321625/detergent-foam-can-help-fight-dengue-mosquito/", title: "‘Detergent foam can help fight dengue mosquito’"}); }); </p>
+<p>Print this page</p>
+<p>Email a friend</p>
+<p>Related Stories</p>
+<p>13 Jan 2012Tribune’s Gamechangers 2011: Dengue 09 Jan 2012Dengue mosquitoes still a menace indoors 09 Jan 2012Workshop on dengue diagnosis on Feb 1   </p>
+<p>Tweet</p>
+<p>Share this article jQuery(window).load(function(){ addthis.button("#addthis_button_321625_1478632879", {}, {url: "http://tribune.com.pk/story/321625/detergent-foam-can-help-fight-dengue-mosquito/", title: "‘Detergent foam can help fight dengue mosquito’"}); });  </p>
+<p>Reader Comments (1)</p>
+<p>All Comments</p>
+<p>Reader's Recommendations</p>
+<p>MarkH</p>
+<p>			Jan 15, 2012 - 2:16PM		</p>
+<p>Reply</p>
+<p>I bet acid works. I don’t know how or why, but it seems most households in Pakistan have acid.</p>
+<p>Recommend</p>
+<p> </p>
+<p> MORE </p>
+<p>            Leave Your Reply Below Click here to cancel reply.</p>
+<p>        Name (required) </p>
+<p>        Email         </p>
+<p>        Location        </p>
+<p>        Web        </p>
+<p>Your comments may appear in The Express Tribune paper. For this reason we encourage you to provide your city. The Express Tribune does not bear any responsibility for user comments.</p>
+<p>Notify me of followup comments via e-mail</p>
+<p>		 Comments are moderated and generally will be posted if they are on-topic and not abusive. For more information, please see our Comments FAQ.</p>
+<p>	 </p>
+<p> </p>
+<p>//<![CDATA[</p>
+<p>	jQuery(document).ready(function() {</p>
+<p>		var author = _get_author_cookie_info();</p>
+<p>		jQuery('#commentform input[name=author]').val(author.name);</p>
+<p>		jQuery('#commentform input[name=email]').val(author.email);</p>
+<p>		jQuery('#commentform input[name=location]').val(author.city);</p>
+<p>		jQuery('#commentform input[name=url]').val(author.url);</p>
+<p>	});</p>
+<p>	function _get_author_cookie_info() {</p>
+<p>		var author = {};</p>
+<p>		</p>
+<p>		var name  = document.cookie.match(/comment_author_[^=_]+=([^;]+)/);</p>
+<p>		var email = document.cookie.match(/comment_author_email_[^=_]+=([^;]+)/);</p>
+<p>		var url   = document.cookie.match(/comment_author_url_[^=_]+=([^;]+)/);</p>
+<p>		var city  = document.cookie.match(/exp_city=([^;]+)/);</p>
+<p>		author.name  = (name && name[1])   ? mydecodeURIComponent(name[1])  : '';</p>
+<p>		author.email = (email && email[1]) ? mydecodeURIComponent(email[1]) : '';</p>
+<p>		author.url   = (url && url[1])     ? mydecodeURIComponent(url[1])   : '';</p>
+<p>		author.city  = (city && city[1])   ? mydecodeURIComponent(city[1])  : '';</p>
+<p>		return author;</p>
+<p>	}</p>
+<p>	function mydecodeURIComponent(str) {</p>
+<p>		str = "" + str;</p>
+<p>		while(1) {</p>
+<p>			var i = str.indexOf ('+');</p>
+<p>			if (i < 0) break;</p>
+<p>			str = str.substring(0, i) + '%20' + str.substring(i + 1, str.length);</p>
+<p>		}</p>
+<p>		</p>
+<p>		return decodeURIComponent(str);</p>
+<p>	}</p>
+<p>//]]></p>
+<p>Daily Headlines Newsletter</p>
+<p>Sign up to receive the day's top stories, emailed every morning</p>
+<p>Name</p>
+<p>Email</p>
+<p>Latest News</p>
+<p>Quality control: ‘Model United Nations offer more than bonfires, concerts’ </p>
+<p>			MUNs more freque­ntly held but qualit­y of debati­ng is questi­onable.		</p>
+<p>Aroosa Shaukat</p>
+<p>Marriage halls: Judge asks DCO about closing time  </p>
+<p>			Petiti­oner conten­ded that action of the Punjab govern­ment to stop marria­ge functi­ons at 10 pm had no legal cover.		</p>
+<p>BISP: Registration of 2.5m women underway </p>
+<p>			Women were eligib­le but were not given any assist­ance as they did not have identi­ty cards.		</p>
+<p>Gold rush: Robbers loot 13 shops  </p>
+<p>			A band of robber­s plunde­red 13 shops and stole over Rs400,000 worth of jewell­ery and other items.		</p>
+<p>Roof collapse: 3 die in sleep </p>
+<p>			A man, his wife and their childr­en sleepi­ng in the two-room house were buried under the rubble.		</p>
+<p>Comment & Debate</p>
+<p>Shahzain announces bounty for Musharraf</p>
+<p>tric</p>
+<p>Only in Pakistan! </p>
+<p>Shahzain announces bounty for Musharraf</p>
+<p>Musa Khan</p>
+<p>@Noor: </p>
+<p>Dear Noor, </p>
+<p>Each MPA from baluchistan has a Rs. 250 million fund, out of which 50 million is discretionary. ...</p>
+<p>Nimoo Bazgo Dam: FIA chases Shah for ceding ground on Indian dam</p>
+<p>Khan Bhai</p>
+<p>How was he able to get a US visa? And why wasn't anyone keeping track of this guy?</p>
+<p>@John: Do you ...</p>
+<p>Threat to democracy only from government’s incompetence, corruption: Ch Nisar</p>
+<p>Z</p>
+<p>When Imran Khan was saying this, Chaudhry Nisar was busy 'saving the system.' </p>
+<p>Killing corruption: Police stations to get own budgets</p>
+<p>CK</p>
+<p>This is just extra pocket money for the cops. </p>
+<p>Pakistan is beautiful — and it’s mine</p>
+<p>Hasan_ordinary citizen</p>
+<p>Sherbano; you are Pakistan. Pakistan is Sherbano. Respect! </p>
+<p>Medical experts say Aarifa Karim’s case not ‘hopeless’</p>
+<p>Naseem Minhas</p>
+<p>May Allah grant you highest place in Janah </p>
+<p>and you will be living for ever in the hearts to every ...</p>
+<p>Nimoo Bazgo Dam: FIA chases Shah for ceding ground on Indian dam</p>
+<p>Javed</p>
+<p>@Dr.A.K.Tewari: B.S. who gave India the right in "regulating the flow of water". This is against Indus water treaty, plain ...</p>
+<p>Turning the tide: Illahi Bukhsh Soomro’s grandson joins PTI</p>
+<p>Waqar Hasan</p>
+<p>The Imran Khan Foundation(IKF) has contributed enormously in the rehabilitation of the flood affectees in Sindh.Imran is not pretentious like ...</p>
+<p>Zardari ‘biggest thief’, govt sabotaging courts to hide inefficiencies: Imran Khan</p>
+<p>A. Hasan</p>
+<p>Why Imran Khan is letting corrupt “spent fuel” leaders ride the crest of his Tsunami wave? </p>
+<p>Recent Slideshows</p>
+<p>Sunday Bazaar, the shopper's paradise</p>
+<p>2nd SANA convention held in Karachi</p>
+<p>Insignia launch their MM Alam Store in Lahore</p>
+<p>Saim Ali exhibits his latest collection in Dubai</p>
+<p>Recent Videos</p>
+<p>Tribune take: Govt. is forcing the Supreme Court's hand</p>
+<p>Manto continues to live in people's hearts</p>
+<p>Students rocking it out at ISEO</p>
+<p>Daniyal Noorani - Find Heaven</p>
+<p> </p>
+<p>More in PunjabCabinet approves 3 more women universities</p>
+<p>Pakistan SindhPunjabBalochistanKP & FATAJammu & KashmirGilgit BaltistanLife & Style BooksMusicTV & FilmFashionFoodGossipMultimedia SlideshowsVideosOpinion EditorialLetters</p>
+<p>A -- Z</p>
+<p>Blogs</p>
+<p>BusinessWorldSportsMagazine</p>
+<p>Jobs</p>
+<p>Classifieds</p>
+<p>Weather</p>
+<p>Facebook</p>
+<p> </p>
+<p>Others</p>
+<p>About us</p>
+<p>RSS Feed</p>
+<p>Subscribe to the Paper</p>
+<p>Contact us</p>
+<p>Careers</p>
+<p>Online Advertising Tariff</p>
+<p>Copyrights</p>
+<p>Video Contributions</p>
+<p>			This material may not be published, broadcast, rewritten, redistributed or derived from.</p>
+<p>			Unless otherwise stated, all content is copyrighted © 2012 The Express Tribune News Network.</p>
+<p>Technical feedback? webmaster@tribune.com.pk</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-15752538-1']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>	GS_googleAddAdSenseService("ca-pub-2620341023138785");</p>
+<p>	GS_googleEnableAllServices();</p>
+<p>		GA_googleAddSlot("ca-pub-2620341023138785", "Tribune_Pakistan_728x90");</p>
+<p>		GA_googleAddSlot("ca-pub-2620341023138785", "Tribune_Pakistan_300x250_Top");</p>
+<p>		GA_googleAddSlot("ca-pub-2620341023138785", "Tribune_All_180x90_Left");</p>
+<p>		GA_googleAddSlot("ca-pub-2620341023138785", "Tribune_All_180x90_Right");</p>
+<p>		/* Single Story Ads */</p>
+<p>				GA_googleAddSlot("ca-pub-2620341023138785", "Tribune_Story_468x60");</p>
+<p>				GA_googleAddSlot("ca-pub-2620341023138785", "Tribune_Story_300x250_Bottom");</p>
+<p>				</p>
+<p>    GA_googleFetchAds();</p>
+<p>			GA_googleFillSlot("Tribune_Pakistan_728x90");</p>
+<p>	</p>
+<p>		GA_googleFillSlot("Tribune_All_180x90_Left");</p>
+<p>	</p>
+<p>		GA_googleFillSlot("Tribune_All_180x90_Right");</p>
+<p>	</p>
+<p>		GA_googleFillSlot("Tribune_Story_300x250_Bottom");</p>
+<p>	</p>
+<p>		GA_googleFillSlot("Tribune_Story_468x60");</p>
+<p>	</p>
+<p>								GA_googleFillSlot("Tribune_Pakistan_300x250_Top");</p>
+<p>							</p>
+<p>X</p>
+<p>/* <![CDATA[ */</p>
+<p>var emailL10n = {</p>
+<p>	ajax_url: "http://tribune.com.pk/wp-content/plugins/wp-email/wp-email.php",</p>
+<p>	max_allowed: "1",</p>
+<p>	text_error: "The Following Error Occurs:",</p>
+<p>	text_name_invalid: "- Your Name is empty/invalid",</p>
+<p>	text_email_invalid: "- Your Email is empty/invalid",</p>
+<p>	text_remarks_invalid: "- Your Remarks is invalid",</p>
+<p>	text_friend_names_empty: "- Friend Name(s) is empty",</p>
+<p>	text_friend_name_invalid: "- Friend Name is empty/invalid: ",</p>
+<p>	text_max_friend_names_allowed: "- Maximum 1 Friend Name allowed",</p>
+<p>	text_friend_emails_empty: "- Friend Email(s) is empty",</p>
+<p>	text_friend_email_invalid: "- Friend Email is invalid: ",</p>
+<p>	text_max_friend_emails_allowed: "- Maximum 1 Friend Email allowed",</p>
+<p>	text_friends_tally: "- Friend Name(s) count does not tally with Friend Email(s) count",</p>
+<p>	text_image_verify_empty: "- Image Verification is empty"</p>
+<p>};</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>var pollsL10n = {</p>
+<p>	ajax_url: "http://tribune.com.pk/wp-content/plugins/wp-polls/wp-polls.php",</p>
+<p>	text_wait: "Your last request is still being processed. Please wait a while ...",</p>
+<p>	text_valid: "Please choose a valid poll answer.",</p>
+<p>	text_multiple: "Maximum number of choices allowed: ",</p>
+<p>	show_loading: "1",</p>
+<p>	show_fading: "1"</p>
+<p>};</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>var RC_config = {</p>
+<p>	xml_rpc_url: "http://tribune.com.pk/application/xmlrpc.php",</p>
+<p>	loading_url: "http://tribune.com.pk/wp-content/plugins/rate-comments//loading.gif",</p>
+<p>	update_likes_method: "CR_update_likes",</p>
+<p>	get_post_likes_method: "CR_get_post_likes",</p>
+<p>	post_id: "321625"</p>
+<p>};</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>var Weather_config = {</p>
+<p>	xmlrpc_url: "http://tribune.com.pk/application/xmlrpc.php",</p>
+<p>	remote_method: "display_weather",</p>
+<p>	cache_dir: "http://tribune.com.pk/wp-content/plugins/weather/cache/",</p>
+<p>	cookie_name: "exp_city"</p>
+<p>};</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>var comment_author_location_config = {</p>
+<p>	comment_cookie_var_name: "comment_author_location_8afab1cb3227749990f35d39f6c5beab",</p>
+<p>	comment_cookie_lifetime: "1356752112",</p>
+<p>	cookie_path: "/",</p>
+<p>	cookie_domain: ""</p>
+<p>};</p>
+<p>/* ]]> */</p>

@@ -1,0 +1,515 @@
+<p>Баня и сауна повышает настроение и самооценку человека - АН-online </p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter50615 = new Ya.Metrika({id:50615, enableAll: true,type:1});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, "yandex_metrika_callbacks");</p>
+<p>		var img = new Image();</p>
+<p>		img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*argumenti_ru/ru/UTF-8/tmsec=argumenti_total/';</p>
+<p>	</p>
+<p>Главная страница</p>
+<p>Аргументы Недели</p>
+<p>АН-Новости</p>
+<p>АН-CПб</p>
+<p>Exlibris-АН</p>
+<p>Оленеводы – в первых рядах за «Единую Россию»</p>
+<p>Аудитория «АН» снова выросла и превысила миллион человек!</p>
+<p>Внимание! Новая рубрика "АН" - Колонка главного редактора </p>
+<p>document.write(date_now());</p>
+<p>на главную страницу</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>В мире</p>
+<p>Соцпакет</p>
+<p>Расследования</p>
+<p>Город М</p>
+<p>Сад-огород</p>
+<p>Регион</p>
+<p>Вся Россия</p>
+<p>Нижний Новгород</p>
+<p>Тверь</p>
+<p>Пермь</p>
+<p>Владимир</p>
+<p>Волгоград</p>
+<p>Екатеринбург</p>
+<p>Владивосток</p>
+<p>Ростов на Дону</p>
+<p>Красноярск</p>
+<p>Криминал</p>
+<p>Шпионаж</p>
+<p>Культура</p>
+<p>Шоубиз</p>
+<p>Спорт</p>
+<p>Здоровье</p>
+<p>История</p>
+<p>Образование</p>
+<p>Туризм</p>
+<p>Армия</p>
+<p>Недвижимость</p>
+<p> </p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height;</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></p>
+<p><!--</p>
+<p>js=13;//--><!--</p>
+<p>d.write('<img src="http://d0.c5.b0.a1.top.mail.ru/counter'+'?id=1069168;js='+js+</p>
+<p>a+';rand='+Math.random()+'" height="1" width="1" alt="top.mail.ru" border="0">');</p>
+<p>if(11<js)d.write('<'+'!-- ');//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');//--></p>
+<p>//Колонка редактора</p>
+<p>Сердюкову – личный чешский самолет</p>
+<p>//Блог В.Петрика</p>
+<p>Резко возражаю против диагноза ВОЗ</p>
+<p>//Что читают</p>
+<p>Кондолиза Райс оказалась чёрной расисткой</p>
+<p>Для некоторых чиновников поручения Президента - пустой звук</p>
+<p>Пенсионная реформа в России вышла на очередной крутой вираж</p>
+<p>Суперакция «Аргументов недели»!</p>
+<p>Фёдор Емельяненко одержал победу над Джеффом Монсоном</p>
+<p>Бентли протаранил 9 машин. Ущерб 450 000 $</p>
+<p>yandex_partner_id = 50615;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'market';</p>
+<p>yandex_font_size = 0.8;</p>
+<p>yandex_font_family = 'arial';</p>
+<p>yandex_market_type = 'vertical';</p>
+<p>yandex_market_border_type = 'block';</p>
+<p>yandex_market_limit = 5;</p>
+<p>yandex_market_bg_color = 'EEEEEE';</p>
+<p>yandex_market_border_color = 'AAAAAA';</p>
+<p>yandex_market_title_color = '333333';</p>
+<p>yandex_market_category_color = 'CC0000';</p>
+<p>yandex_market_all_color = '000000';</p>
+<p>yandex_market_text_color = '000000';</p>
+<p>yandex_market_hover_color = '6666CC';</p>
+<p>document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');</p>
+<p>//Пресс-центр</p>
+<p>Стратегия климатической безопасности Москвы. Влияние служб городского хозяйства  на микроклимат столицы</p>
+<p>Позиция города Москвы в отношении трудовой миграции</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=128163&target=blank&bt=13&pz=3&h=200&w=200&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=200 height=200 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>//Он-лайн конференции</p>
+<p>Автомобилисты в камере. Какую статистику хочет скрыть ГАИ</p>
+<p>Осенний призыв в армию-2011. Советы бывалой</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=128163&target=blank&w=200&h=200&bt=40&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=200 height=200 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p> </p>
+<p>18:53Крупнейшие нефтяные компании России уверены: цены на бензин расти не будут</p>
+<p>18:34Выпил - не смей гулять с собакой!</p>
+<p>18:28На Украине убит руководитель одной из телерадиокомпаний</p>
+<p>Здоровье→ 	</p>
+<p>							Картина дня</p>
+<p>//Здоровье</p>
+<p>Баня и сауна повышает настроение и самооценку человека</p>
+<p>																															28 ноября 2011, 10:13							</p>
+<p>													[ «АН-online» ]</p>
+<p>												</p>
+<p>					</p>
+<p>Японские ученые пришли к выводу, что баня и сауна способствуют укреплению сердечно-сосудистой системы человека, а также повышают его настроение и самооценку. Научная группа из японского университета Тояма в ходе широких исследований обнаружили, что у людей, посещающих баню пять раз в неделю в течение месяца, значительно улучшается работа сердца,  увеличивается их способность к физической и интеллектуальной работе.Руководитель исследований профессор Такаши Охори рассказал, что баня повышает способность сердца прокачивать кровь. Также улучшается работа сердечной мембраны, что снижает опасность образования кровяных сгустков - тромбов, и закупорки сосудов.Ученые из Японии во время своих исследований обнаружили и еще одно свойство бани – она повышает настроение, в следствие чего человек более оптимистично смотрит на жизнь и выше оценивает собственные достижения. По мнению специалистов, это происходит в результате реагирования мозга на высокую температуру - организм, пытаясь охладить себя, активизирует биохимический механизм, который усиливает работу зон головного мозга, отвечающих за настроение человека и восприятие им внешнего мира, передает ИТАР-ТАСС.</p>
+<p>Японские ученые пришли к выводу, что баня и сауна способствуют укреплению сердечно-сосудистой системы человека, а также повышают его настроение и самооценку. Научная группа из японского университета Тояма в ходе широких исследований обнаружили, что у людей, посещающих баню пять раз в неделю в течение месяца, значительно улучшается работа сердца,  увеличивается их способность к физической и интеллектуальной работе.Руководитель исследований профессор Такаши Охори рассказал, что баня повышает способность сердца прокачивать кровь. Также улучшается работа сердечной мембраны, что снижает опасность образования кровяных сгустков - тромбов, и закупорки сосудов.Ученые из Японии во время своих исследований обнаружили и еще одно свойство бани – она повышает настроение, в следствие чего человек более оптимистично смотрит на жизнь и выше оценивает собственные достижения. По мнению специалистов, это происходит в результате реагирования мозга на высокую температуру - организм, пытаясь охладить себя, активизирует биохимический механизм, который усиливает работу зон головного мозга, отвечающих за настроение человека и восприятие им внешнего мира, передает ИТАР-ТАСС.</p>
+<p>Японские ученые пришли к выводу, что баня и сауна способствуют укреплению сердечно-сосудистой системы человека, а также повышают его настроение и самооценку. Научная группа из японского университета Тояма в ходе широких исследований обнаружили, что у людей, посещающих баню пять раз в неделю в течение месяца, значительно улучшается работа сердца,  увеличивается их способность к физической и интеллектуальной работе.Руководитель исследований профессор Такаши Охори рассказал, что баня повышает способность сердца прокачивать кровь. Также улучшается работа сердечной мембраны, что снижает опасность образования кровяных сгустков - тромбов, и закупорки сосудов.</p>
+<p>Читать полностью</p>
+<p>Версия для печати</p>
+<p>Свежий номер</p>
+<p>Ошибка в тексте? Пожалуйста, выделите ее и нажмите "Ctrl + Enter"</p>
+<p>RSS, </p>
+<p>						Избранное, </p>
+<p>						Twitter, </p>
+<p>						Facebook, </p>
+<p>						В Контакте, </p>
+<p>						Мой мир</p>
+<p>						// выпадающий список под ссылкой</p>
+<p>						(function($) {</p>
+<p>							$.fn.dropDownBlock = function(block, options) {</p>
+<p>							var defaults = {</p>
+<p>								speed: 'fast',</p>
+<p>								top: $(this).height(),</p>
+<p>								left: 0</p>
+<p>							},</p>
+<p>						opts 	= $.extend(defaults, options),</p>
+<p>						toggler = $(this),</p>
+<p>						block 	= $(block);</p>
+<p>						toggler.css({'outline': 'none'})</p>
+<p>						toggler.click(function(e) {</p>
+<p>							e.preventDefault();</p>
+<p>							$(block).css({</p>
+<p>								'position' 	: 'absolute',</p>
+<p>								'top' 		: (toggler.offset().top + opts['top']) + 'px',</p>
+<p>								'left' 		: (toggler.offset().left + opts['left']) + 'px'</p>
+<p>							});</p>
+<p>						if($(block).is(':visible')) $(block).fadeOut(opts['speed']);</p>
+<p>						else $(block).fadeIn(opts['speed']);</p>
+<p>						this.focus();</p>
+<p>						});</p>
+<p>						toggler.blur(function() {</p>
+<p>							$(block).fadeOut(opts['speed']);</p>
+<p>						});</p>
+<p>					};</p>
+<p>				})(jQuery);</p>
+<p>				</p>
+<p>				$('#li_sub').dropDownBlock($('#drop_sub'));</p>
+<p>						</p>
+<p>			</p>
+<p>СБ</p>
+<p>					$('#fulltext').hide();</p>
+<p>					$('#link_full').click(function()</p>
+<p>						{</p>
+<p>						if ($('#link_full').text() == 'Читать полностью') {</p>
+<p>							$('#shorttext').hide();</p>
+<p>							$('#fulltext').show();</p>
+<p>							$('#link_full').text('Скрыть полный текст');</p>
+<p>						}</p>
+<p>						else {</p>
+<p>							$('#fulltext').hide();</p>
+<p>								$('#shorttext').show();</p>
+<p>								$('#link_full').text('Читать полностью');</p>
+<p>							}									</p>
+<p>						});</p>
+<p>				</p>
+<p>function comments_news_SubmitForm(form){ var errorMSG =""; value_username=form.username.value;if(value_username == ""){errorMSG+="Незаполненное поле - username \n";}value_email=form.email.value;if(value_email !== ""){</p>
+<p>					var reg_email=/[0-9a-z_]+@[0-9a-z_^.]+.[a-z]{2,3}/i;</p>
+<p>if (reg_email.test(value_email)==false) errorMSG+="Неверно заполненое поле - email\n";}value_personal_text=form.personal_text.value;if(value_personal_text == ""){errorMSG+="Незаполненное поле - personal_text \n";} if (errorMSG == ""){return true;} else {alert(errorMSG); return false;}} </p>
+<p> Имя</p>
+<p>											(обязательно)</p>
+<p>									</p>
+<p> E-Mail</p>
+<p>											(не публикуется)</p>
+<p>									</p>
+<p>Текст комментария</p>
+<p> [Символов: 0 из 500]Правила размещения</p>
+<p>commented()</p>
+<p>socializm()</p>
+<p>  VK.init({apiId: 1862566, onlyWidgets: true});</p>
+<p>VK.Widgets.Like("vk_like", {type: "button", verb: 1});</p>
+<p>//Политика</p>
+<p>Оленеводы – в первых рядах за «Единую Россию»</p>
+<p>Кажется – только из домашнего утюга не идёт агитация проголосовать за партию Путина-Медведева. Школьникам раздают листовки для родителей, учителям предлагают взять открепительные талоны всем членам их семей, мэры озвучивают избирателям расценки за процент полученных голосов. Вся страна встала на защиту родной партии.  </p>
+<p>//Политика</p>
+<p>Ошибки ВВП</p>
+<p>Мы стоим накануне нового перемешивания фигур во властной вертикали. Такой способ существования власти формировался последние 12 лет. Новых лиц фактически не появлялось – карты в колоде тасовались хаотично и непонятно.  </p>
+<p>//Политика</p>
+<p>Пятая государственная дума отголосовалась</p>
+<p>Депутаты пятого думского созыва завершили свою работу. Вчерашнее финальное заседание увенчалось торжественным звучанием гимна. Впереди – неделя агитации в регионах и 4 декабря – день всероссийского голосования. </p>
+<p>//Экономика</p>
+<p>Наши олигархи  припрятали 600 млрд. долларов</p>
+<p>Частная разведывательно-аналитическая компания Stratfor (США)опубликовала шокирующую информацию. По данным источников американских разведчиков, на Западе в разных секретных фондах припрятано 600 миллиардов "русских денег".</p>
+<p> </p>
+<p>//В мире</p>
+<p>Сейф в плену. Сопротивление на свободе</p>
+<p>Сейф-аль-Ислам Каддафи, возглавивший сопротивление после смерти отца, был задержан на границе с Нигером. Он не будет выдан международному трибуналу. Выдал его один из ближайших соратников. </p>
+<p>function ml_ph(p){document.write('<div id="magnaph'+p+'" style="display:none"></div>');}function ml_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="ml_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0></iframe></div>');}function ml_getCode(n,p,s){var d;if(n<10){try{if(document.all && !window.opera){d = window.frames['ml_c'+p].document;}else if(document.getElementById){d=document.getElementById('ml_c'+p).contentDocument;}}catch(e){}try{s+=(location.href!==undefined&&location.href!=''?'&l='+location.href:'')+(document.referrer!==undefined&&document.referrer!=''?'&r='+document.referrer:'');}catch(e){}if(d){d.write('<scr'+'ipt  charset="windows-1251" src="'+s+'"></scr'+'ipt>');}else {setTimeout('ml_getCode('+(++n)+','+p+',"'+s+'")', 100);}}}var place_id = '5198';ml_ph(place_id); ml_c(place_id);ml_getCode(1,place_id,'http://adv.magna.ru/?id='+place_id+'&rid=' + Math.round(Math.random()*100000));</p>
+<p>//Армия</p>
+<p>Министр разоружений</p>
+<p>Осенью 1999 г. Владимир Путин прилетел в маленький дагестанский город Ботлих. И там, собрав командование Северо-Кавказского военного округа и старейшин района, пообещал: Российская армия будет защищать южные рубежи вечно.  </p>
+<p>//Общество</p>
+<p>Наш размерчик!</p>
+<p>Коломна – город, похожий на музей. Церкви, архитектурные ансамбли монастырей красуются и ждут туристов. Но знают Коломну по продукции машиностроения. И здесь безусловный чемпион – Коломенский завод тяжёлых станков.   </p>
+<p>//Тема номера</p>
+<p>Заказ на деградацию</p>
+<p>Если в прежние времена время кадровая политика осуществлялась в интересах государства, то теперь г-н Фурсенко имел в виду интересы бизнеса. Подобная мысль доминировала и на заседании Госсовета. </p>
+<p>//Общество</p>
+<p>Складывать крылья – последнее дело</p>
+<p>4 декабря новые выборы. По мере их приближения в редакцию и на сайт www.argumenti.ru приходят письма с вопросами, и главный из них о смысле прихода на избирательные участки.  </p>
+<p>//Политика</p>
+<p>«Доктор зло»  без штанов</p>
+<p>Хочется сказать спасибо Её Величеству королеве Елизавете II и всему народу Великобритании. Спасибо за то, что в Лондоне есть Высокий суд, который пытается разбираться в истории разграбления России. </p>
+<p> </p>
+<p>//Политика</p>
+<p>Тринадцатый элемент</p>
+<p>Итак, по иску Бориса Березовского к Роману Абрамовичу на 5,5 млрд. долларов закончил давать показания Олег Дерипаска. Владелец крупнейшего концерна выступил перед английским судом по видеотрансляции. </p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=128163&target=blank&bt=19&pz=3&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=600 height=90 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>//Экономика</p>
+<p>Европейский кризис переходит уже и на Германию</p>
+<p>Впервые с момента начала острой фазы европейского долгового кризиса, азиатские инвесторы стали чистыми продавцами бумаг правительства Германии, т.е. в Еврозоне больше нет финансовых активов, которые можно назвать защитными. </p>
+<p>//Армия</p>
+<p>Мокрецова под увольнение подвела женщина</p>
+<p>Замминистра обороны Михаил Мокрецов отправлен в отставку после скандала с начальником аппарата Сердюкова. Офицеры военного ведомства возмущены действиями Елены Васильевой. Её доход исчисляется миллионами.  </p>
+<p>//Экономика</p>
+<p>Стальная волна</p>
+<p>Стальная волна – продукция российского машиностроения – поднялась сама. Если не ставить на пути промышленности искусственные дамбы, она может захлестнуть мир. Промышленникам не надо объяснять – оборудование решает всё.  </p>
+<p>//Общество</p>
+<p>Лучшая покупка высшей пробы</p>
+<p>Признания на мировом уровне жаждут многие: отдельные личности, целые коллективы, торговые марки и т.д. Достигают желаемого, конечно же, не все: высочайшие требования, жёсткая конкуренция, абсолютно независимые жюри. </p>
+<p>//Армия</p>
+<p>Нашим генералам надо  запретить общаться с прессой</p>
+<p>17 ноября в Общественной палате РФ начальник Генерального штаба ВС генерал армии Николай Макаров прочёл доклад «Новый облик Российской армии: результаты, проблемы, перспективы». Он вызвал очень противоречивую реакцию. </p>
+<p>//Город М</p>
+<p>За пятое платное 20 миллионов отдадут здоровьем</p>
+<p>К 2022 году на расстоянии от 20 до 86 км от МКАД планируется построить платную Центральную кольцевую автодорогу (ЦКАД). Новая трасса стоимостью 468 млрд. руб. должна избавить город от транзитного транспорта.  </p>
+<p>//Соцпакет</p>
+<p>Кандидаты на исчезновение</p>
+<p>На днях Минобрнауки подарило жителям страны очередную тему для дискуссий. Представитель ведомства Елена Нечаева объявила о намерении министерства пересмотреть порядок присвоения учёных степеней.  </p>
+<p>//Общество</p>
+<p>Юбилейный год - новые идеи</p>
+<p>В России новых хозяйств практически не создают. Стартовый капитал взять негде. Но для небольших крестьянских хозяйств страховые компании устанавливают крайне высокие тарифные ставки, которые по силам очень немногим.  </p>
+<p>//История</p>
+<p>Ливийская ССР</p>
+<p>Итальянцы вместе с немцами воевали на нашей территории, нанесён ущерб, мы вправе требовать компенсации. Например -- передачи СССР части Ливии, бывшей итальянской колонии – заявил Молотов в сентябре 1945-го. </p>
+<p>//Шпионаж</p>
+<p>Привлечённые</p>
+<p>Кадровый разведчик без добровольных помощников – это инвалид без рук и ног. И хотя профессионалы порой ворчат на дилетантов, но обойтись без привлечённых к разведке не могут.  </p>
+<p>//Культура</p>
+<p>«Алёшкина любовь»  Лёни Бергера – 2</p>
+<p>Для знатоков продвинутой отечественной музыки конца 60-х – начала 70-х Леонид БЕРГЕР – заметная фигура. Участник московской подпольной группы «Орфей», солист ВИА «Весёлые ребята», исполнитель известных шлягеров. </p>
+<p>//Культура</p>
+<p>Легла, улыбнулась и умерла</p>
+<p>Недавно в российский  прокат вышел фильм Александра Гордона «Огни притона». Главная роль  - хозяйки одесского мини-борделя - досталась Оксане Фандере, которая сама родом из Одессы, где она прожила  до 14-ти лет.  </p>
+<p>//Культура</p>
+<p>За что вы, девушки, злодеев любите?</p>
+<p>Актёр «Табакерки» Андрей Смоляков снялся более чем в 80-ти фильмах. И если в начале своей кинокарьеры он играл положительных героев, то с возрастом перешёл на бандитов и негодяев. </p>
+<p>//Город М</p>
+<p>Кино: ждём перемен</p>
+<p>Городское учреждение «Москино», включающее 22 кинотеатра, выступило с предложением: переделать 12 из них в многозальные и востребованные. Чтобы москвичи могли ходить в кино по приемлемым ценам. </p>
+<p> document.write ('<scr'</p>
+<p>	+ 'ipt type="text/javascript" '</p>
+<p>	+ ' src="http://www.stroyka-direct.ru/delivery.php?&d='</p>
+<p>	+ escape(document.location.href)</p>
+<p>	+ '&cid=36'</p>
+<p>	+ '&pid=11370'</p>
+<p>	+ '"></scr'</p>
+<p>	+ 'ipt>');</p>
+<p> </p>
+<p><!--</p>
+<p>function k_ph(p){document.write('<div id="kph'+p+'" style="display:none"><\/div>');}</p>
+<p>function k_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="k_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function k_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['k_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('k_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt type="text/javascript">var kphid="kph'+p+'";<\/scr'+'ipt>');</p>
+<p>d.write('<scr'+'ipt type="text/javascript" src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('k_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>if (typeof(document.referrer) != 'undefined') {afReferrer = escape(document.referrer);}</p>
+<p>else {afReferrer = '';}</p>
+<p>var addate = new Date();</p>
+<p>if ('undefined' == typeof(kav_cn)){ var kav_cn = 0; } else {++kav_cn;}</p>
+<p>k_ph(kav_cn); k_c(kav_cn);</p>
+<p>k_getCode(1,kav_cn,'http://b.kavanga.ru/exp?sid=3223&bt=6&bn=1&bc=1&ct=2&pr=' + Math.round(Math.random()*100000) + '&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer);</p>
+<p>//--></p>
+<p> </p>
+<p>//Квартиры в новостройках</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=4&target=blank&bt=34&pz=1&w=240&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=20 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=1&target=blank&bt=34&pz=1&w=240&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=94 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Новостройки Москвы</p>
+<p>Новостройки в Подмосковье</p>
+<p>Эксклюзивные предложения!</p>
+<p>//Продажа вторичного жилья</p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=4&target=blank&bt=34&pz=1&w=240&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=20 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=2&target=blank&bt=34&pz=1&w=240&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=94 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>var RndNum4NoCash = Math.round(Math.random() * 1000000000);</p>
+<p>var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);</p>
+<p>document.write(</p>
+<p>'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'</p>
+<p>+ 'sid=80938&bn=3&target=blank&bt=34&pz=1&w=240&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail</p>
+<p>+ '" frameborder=0 vspace=0 hspace=0 width=240 height=94 marginwidth=0'</p>
+<p>+ ' marginheight=0 scrolling=no></iframe>');</p>
+<p>//--></p>
+<p>Недвижимость в Москве</p>
+<p>Агентство "НДВ-Недвижимость"</p>
+<p>//Авторы АН</p>
+<p>Андрей Угланов</p>
+<p>Оленеводы – в первых рядах за «Единую Россию»</p>
+<p>Татьяна Москвина</p>
+<p>Клонировать Фурцеву - срочно</p>
+<p>Григорий Бегларян</p>
+<p>Европейский кризис переходит уже и на Германию</p>
+<p>Михаил Винокуров</p>
+<p>От детского сада  до высшей аттестации</p>
+<p>//Советы доктора</p>
+<p>Печень под контролем функциональная диагностика</p>
+<p>Исследования всехорганов и систем ультрозвуком</p>
+<p>Голливудская улыбка вам по зубам</p>
+<p>Новейшие методикив стоматологии</p>
+<p>//Читатели комментируют:</p>
+<p>Ким Евгений-имперскому сторожевому псу</p>
+<p>Заказ на деградацию</p>
+<p>Ким Евгений-имперскому сторожевому псу</p>
+<p>Заказ на деградацию</p>
+<p>Осьен</p>
+<p>Оленеводы – в первых рядах за «Единую Россию»</p>
+<p>Алекс</p>
+<p>Мокрецова под увольнение подвела женщина</p>
+<p>Анна</p>
+<p>Складывать крылья – последнее дело</p>
+<p>smel</p>
+<p>Ошибки ВВП</p>
+<p>Иван Ветров</p>
+<p>Кондолиза Райс оказалась чёрной расисткой</p>
+<p>Черезов Сергей</p>
+<p>Оленеводы – в первых рядах за «Единую Россию»</p>
+<p>Черезов Сергей</p>
+<p>Оленеводы – в первых рядах за «Единую Россию»</p>
+<p>//Наши фотогалереи</p>
+<p>//<!--</p>
+<p>					var sur ="http://www.sotovik.ru/inc/banner_zone/argumenti.html";</p>
+<p>document.write('<iframe src="'+sur+'" frameBorder="0" width="240" height="180" marginWidth="0" marginHeight="0" scrolling="no" style="border: 0px; margin: 0px; padding: 0px;" rel="nofollow"></iframe>');</p>
+<p>//-->>></p>
+<p>//Советы профессионалов</p>
+<p>Растения могут сами защищаться от многих болезней</p>
+<p>Принципиально новая формула стимулятора корнеобразования</p>
+<p> </p>
+<p>Лаверон - безопасный стимулятор сексуальной активности!</p>
+<p> //Недвижимость</p>
+<p>Стать домовладельцем просто! Недорогие дачи и участки!</p>
+<p>Мечтаете об уютном гнёздышке? Загородные дома по доступной цене!</p>
+<p><!--</p>
+<p>function k_ph(p){document.write('<div id="kph'+p+'" style="display:none"><\/div>');}</p>
+<p>function k_c(p){document.write('<div style="visibility:hidden;position:absolute"><iframe id="k_c'+p+'" width=1 height=1 marginwidth=0 marginheight=0 scrolling=no frameborder=0><\/iframe><\/div>');}</p>
+<p>function k_getCode(n,p,s){</p>
+<p>var d;</p>
+<p>if(n<10){try{if(document.all && !window.opera){d = window.frames['k_c'+p].document;}</p>
+<p>else if(document.getElementById){d=document.getElementById('k_c'+p).contentDocument;}}catch(e){}</p>
+<p>if(d){d.write('<scr'+'ipt type="text/javascript">var kphid="kph'+p+'";<\/scr'+'ipt>');</p>
+<p>d.write('<scr'+'ipt type="text/javascript" src="'+s+'"><\/scr'+'ipt>');}</p>
+<p>else {setTimeout('k_getCode('+(++n)+','+p+',"'+s+'")', 100);}</p>
+<p>}}</p>
+<p>if (typeof(document.referrer) != 'undefined') {afReferrer = escape(document.referrer);}</p>
+<p>else {afReferrer = '';}</p>
+<p>var addate = new Date();</p>
+<p>if ('undefined' == typeof(kav_cn)){ var kav_cn = 0; } else {++kav_cn;}</p>
+<p>k_ph(kav_cn); k_c(kav_cn);</p>
+<p>k_getCode(1,kav_cn,'http://b.kavanga.ru/exp?sid=3223&bt=5&bn=1&bc=3&ct=2&pr=' + Math.round(Math.random()*100000) + '&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer);</p>
+<p>//--></p>
+<p>Библиотека здоровья</p>
+<p>feed_id: 6512</p>
+<p>pattern_id: 3062</p>
+<p>component: block_navigation</p>
+<p>category: 74789192 || 31100135 || 74748542</p>
+<p>Новости партнеров / Информация</p>
+<p>Политика</p>
+<p>Экономика</p>
+<p>Общество</p>
+<p>В мире</p>
+<p>Соцпакет</p>
+<p>Расследования</p>
+<p>Город М</p>
+<p>Сад-огород</p>
+<p>Регион</p>
+<p>Вся Россия</p>
+<p>Нижний Новгород</p>
+<p>Тверь</p>
+<p>Пермь</p>
+<p>Владимир</p>
+<p>Волгоград</p>
+<p>Екатеринбург</p>
+<p>Владивосток</p>
+<p>Ростов на Дону</p>
+<p>Красноярск</p>
+<p>Криминал</p>
+<p>Шпионаж</p>
+<p>Культура</p>
+<p>Шоубиз</p>
+<p>Спорт</p>
+<p>Здоровье</p>
+<p>История</p>
+<p>Образование</p>
+<p>Туризм</p>
+<p>Армия</p>
+<p>Недвижимость</p>
+<p>©  Учредитель ЗАО «СВР-МЕДИАПРОЕКТЫ». тел/факс: +7 (495) 638-52-63, эл. почта: anonline@argumenti.ru</p>
+<p>РЕКЛАМА +7 (495) 638-52-63</p>
+<p>Об издании</p>
+<p>Свободное использование в Интернет-пространстве текстов, фото и видеоматериалов, опубликованных на этом сайте, допускается при условии обязательного размещения гиперссылки на источник публикации www.argumenti.ru, точного воспроизведения используемых материалов и уведомления о намерении использования материалов по e-mail: anonline@argumenti.ru. Использование материалов в печатных СМИ допускается только с письменного разрешения редакции.Информация о редакции</p>
+<p>Подписка:</p>
+<p><!--</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' "+</p>
+<p>"target=_blank><img src='http://counter.yadro.ru/hit?t14.6;r"+</p>
+<p>escape(document.referrer)+((typeof(screen)=="undefined")?"":</p>
+<p>";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+</p>
+<p>";"+Math.random()+</p>
+<p>"' alt='' title='LiveInternet: показано число просмотров за 24"+</p>
+<p>" часа, посетителей за 24 часа и за сегодня' "+</p>
+<p>"border='0' width='1' height='1'><\/a>")</p>
+<p>//--></p>
+<p>//<![CDATA[</p>
+<p>yandex_direct_place = 'ya_direct';</p>
+<p>yandex_partner_id = 50615;</p>
+<p>yandex_site_bg_color = 'FFFFFF';</p>
+<p>yandex_site_charset = 'utf-8';</p>
+<p>yandex_ad_format = 'direct';</p>
+<p>yandex_font_size = .75;</p>
+<p>yandex_direct_type = 'vertical';</p>
+<p>yandex_direct_limit = 5;</p>
+<p>yandex_direct_header_bg_color = 'ECECEC';</p>
+<p>yandex_direct_bg_color = 'ECECEC';</p>
+<p>yandex_direct_border_color = 'FFFFFF';</p>
+<p>yandex_direct_title_color = '000000';</p>
+<p>yandex_direct_url_color = '666666';</p>
+<p>yandex_direct_all_color = '000000';</p>
+<p>yandex_direct_text_color = '000000';</p>
+<p>yandex_direct_hover_color = '000000';</p>
+<p>yandex_direct_favicon = true;</p>
+<p>//]]></p>
+<p><!--</p>
+<p>if (typeof(document.referrer) != 'undefined') {afReferrer = escape(document.referrer);}</p>
+<p>else {afReferrer = '';}</p>
+<p>var addate = new Date();</p>
+<p>document.write('<script type="text/javascript" src="http://b.kavanga.ru/exp?sid=3223&bt=1&bn=1&bc=1&ct=2&pr=' + Math.round(Math.random()*100000) + '&pt=b&pd=' + addate.getDate() + '&pw=' + addate.getDay() + '&pv=' + addate.getHours() + '&prr=' + afReferrer + '"><\/script>');</p>
+<p>//--></p>

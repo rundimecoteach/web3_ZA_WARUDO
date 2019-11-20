@@ -1,0 +1,503 @@
+<p>В благовещенской горбольнице открылось паллиативное отделение / ИА "Амур.инфо", 17 января 2012</p>
+<p><!--// <![CDATA[</p>
+<p>    var ox_swf = new FlashObject('http://www.amur.info/adz/www/images/324166f1c105be5d5bd4767eaa8d5223.swf', 'Advertisement', '970', '60', '6');</p>
+<p>    ox_swf.addVariable('alink1', 'http%3A%2F%2Fwww.amur.info%2Fadz%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D1317__zoneid%3D55__cb%3D4b67c03a9e__oadest%3Dhttp%253A%252F%252Fwww.dvphoenix.ru');</p>
+<p>    ox_swf.addVariable('atar1', '');</p>
+<p>    ox_swf.addParam('allowScriptAccess','always');</p>
+<p>    ox_swf.write('ox_122185b0f1886affe4a77f5fdd395249');</p>
+<p>    if (ox_swf.installedVer.versionIsValid(ox_swf.getAttribute('version'))) { document.write("<div id='beacon_4b67c03a9e' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://www.amur.info/adz/www/delivery/lg.php?bannerid=1317&amp;campaignid=619&amp;zoneid=55&amp;loc=http%3A%2F%2Fwww.amur.info%2Fnews%2F2012%2F01%2F17%2F19.html&amp;cb=4b67c03a9e' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div>"); }</p>
+<p>// ]]> --></p>
+<p>try { var yaCounter158136 = new Ya.Metrika(158136);</p>
+<p>yaCounter158136.clickmap();</p>
+<p>yaCounter158136.trackLinks({external: true});</p>
+<p>} catch(e){}</p>
+<p>18  сегодняянварясреда</p>
+<p> то, чем живет приамурье</p>
+<p>нам9 лет!</p>
+<p> 16.01</p>
+<p>новостижизнь городаблогивидеофорумпогодао нас</p>
+<p>  обновлено в 01:55</p>
+<p>−25.7°</p>
+<p> ветер  0 м/cдавл. 758.2 мм</p>
+<p>сегоднязавтра</p>
+<p> −28..−30</p>
+<p> −17..−19</p>
+<p> −28..−30</p>
+<p> −16..−18</p>
+<p>var set1 = [1,2];</p>
+<p>var set2 = [3,4];</p>
+<p>var weather_online_timeout;</p>
+<p>function selectButton(set)</p>
+<p>{</p>
+<p>    var butt1 = document.getElementById('butt' + set[0]);</p>
+<p>    if (!butt1) return false;</p>
+<p>    var butt2 = document.getElementById('butt' + set[1]);</p>
+<p>    if (!butt2) return false;</p>
+<p>    var arr1 = document.getElementById('arr' + set[0]);</p>
+<p>    if (!arr1) return false;</p>
+<p>    var arr2 = document.getElementById('arr' + set[1]);</p>
+<p>    if (!arr2) return false;</p>
+<p>    butt1.style.backgroundColor='#66CCFF'; </p>
+<p>    butt2.style.backgroundColor='#EDECE5'; </p>
+<p>    arr1.src='/images/uparr.gif'; </p>
+<p>    arr2.src='/images/dot.gif'</p>
+<p>}</p>
+<p>function showWeatherOnline()</p>
+<p>{</p>
+<p>    set1 = [1,2];</p>
+<p>    document.getElementById('weather-forecast').style.display = 'none';</p>
+<p>    document.getElementById('weather-online').style.display = '';</p>
+<p>    //makeRequest('/include/weather.inc?type=0&rand=' + Math.random(), loadWeather);</p>
+<p>    clearTimeout(weather_online_timeout);</p>
+<p>    weather_online_timeout = setTimeout("showWeatherOnline()", 60000);</p>
+<p>}</p>
+<p>function showWeatherForecast()</p>
+<p>{</p>
+<p>    set1 = [2,1];</p>
+<p>    document.getElementById('weather-online').style.display = 'none';</p>
+<p>    document.getElementById('weather-forecast').style.display = '';</p>
+<p>    //makeRequest('/include/weather.inc?type=1&rand=' + Math.random(), loadWeather);</p>
+<p>}</p>
+<p>function loadWeather(req)</p>
+<p>{</p>
+<p>    if (req.readyState == 4)</p>
+<p>    {</p>
+<p>        if (req.status == 200)</p>
+<p>        {</p>
+<p>            var weather = document.getElementById('weather');</p>
+<p>            if (!weather) return false;</p>
+<p>            weather.innerHTML = req.responseText;</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
+<p>function showCurrencyLocal()</p>
+<p>{</p>
+<p>    set2 = [3,4];</p>
+<p>    document.getElementById('currency-cb').style.display = 'none';</p>
+<p>    document.getElementById('currency-local').style.display = '';</p>
+<p>    //makeRequest('/include/currency.inc?type=0&rand=' + Math.random(), loadCurrency);</p>
+<p>}</p>
+<p>function showCurrencyCB() </p>
+<p>{</p>
+<p>    set2 = [4,3]; </p>
+<p>    document.getElementById('currency-local').style.display = 'none';</p>
+<p>    document.getElementById('currency-cb').style.display = '';</p>
+<p>    //makeRequest('/include/currency.inc?type=1&rand=' + Math.random(), loadCurrency);</p>
+<p>}</p>
+<p>function loadCurrency(req)</p>
+<p>{</p>
+<p>    if (req.readyState == 4)</p>
+<p>    {</p>
+<p>        if (req.status == 200)</p>
+<p>        {</p>
+<p>            var currency = document.getElementById('currency');</p>
+<p>            if (!currency) return false;</p>
+<p>            currency.innerHTML = req.responseText;</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
+<p>weather_online_timeout = setTimeout("showWeatherOnline()", 60000);</p>
+<p>вчеравсе банки →</p>
+<p>$31.72€40.00¥50.64</p>
+<p>31.9340.3150.90</p>
+<p>16 январявсе АЗС →</p>
+<p>А-76/80АИ-92АИ-95АИ-98ДТ</p>
+<p>27.0029.1031.1034.0031.00</p>
+<p>онлайнпрогноз</p>
+<p>валютабензин</p>
+<p>главная  /  общество  /  вчера, 17:17          </p>
+<p>версия для печатиотправить другу (email)</p>
+<p>×</p>
+<p>→ в </p>
+<p>В благовещенской горбольнице открылось паллиативное отделение</p>
+<p>увеличить</p>
+<p>function showPrevPhoto(index)</p>
+<p>{</p>
+<p>	index = index - 1;</p>
+<p>	makeRequest('/include/photo-preview.inc?id=58133&type=news&offset=' + index + '&rand=' + Math.random(), loadPhotoPreview);</p>
+<p>}</p>
+<p>function showNextPhoto(index)</p>
+<p>{</p>
+<p>	index = index + 1;</p>
+<p>	makeRequest('/include/photo-preview.inc?id=58133&type=news&offset=' + index + '&rand=' + Math.random(), loadPhotoPreview);</p>
+<p>}</p>
+<p>function loadPhotoPreview(req)</p>
+<p>{</p>
+<p>	if (req.readyState == 4)</p>
+<p>	{</p>
+<p>		if (req.status == 200)</p>
+<p>		{</p>
+<p>			var photo_preview = document.getElementById('photo_preview');</p>
+<p>			if (!photo_preview) return false;</p>
+<p>			photo_preview.innerHTML = req.responseText;</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p><!--</p>
+<p>$(document).ready(function() {</p>
+<p>	$f('video-plain').onMouseOut(function () { </p>
+<p>	  $f('video-plain').getPlugin('content').fadeOut(1000);</p>
+<p>  });</p>
+<p>	$f('video-plain').onMouseOver(function () { </p>
+<p>	  $f('video-plain').getPlugin('content').fadeIn(1000);</p>
+<p>  });</p>
+<p>	</p>
+<p>  $f('video-plain').getClip(1).onStart(function() {</p>
+<p>    if($('#restrict').val() == 1) {</p>
+<p>	    $f('video-plain').stop();</p>
+<p>	    $f('video-plain').getPlugin('c2').show();</p>
+<p>    }</p>
+<p>    else {</p>
+<p>          $.get('http://video.amur.info/video/stat/');</p>
+<p>        }</p>
+<p>  });</p>
+<p>});</p>
+<p>function toggleRestrict(q) {</p>
+<p>	if (q == 1) {</p>
+<p>    $f('video-plain').getPlugin('c2').hide();</p>
+<p>    $('#restrict').val(0);</p>
+<p>		$f('video-plain').play();</p>
+<p>    $.get('/video_stat.php?id=&1326815952');</p>
+<p>	}</p>
+<p>	else {</p>
+<p>    $f('video-plain').getPlugin('c2').hide();</p>
+<p>    $f('video-plain').getPlugin('controls').hide();</p>
+<p>    $f('video-plain').getPlugin('play').hide();</p>
+<p>    $f('video-plain').getPlugin('content').hide();</p>
+<p>    $f('video-plain').play(0);</p>
+<p>    /*$f('video-plain').getClip(1).onBegin(function() {</p>
+<p>	    $f('video-plain').stop();</p>
+<p>	  });*/</p>
+<p>    $f('video-plain').onMouseOut(function () { </p>
+<p>		  $f('video-plain').getPlugin('content').hide();</p>
+<p>	  });</p>
+<p>		$f('video-plain').onMouseOver(function () { </p>
+<p>		  $f('video-plain').getPlugin('content').hide();</p>
+<p>	  });</p>
+<p>	}</p>
+<p>}</p>
+<p>function toggleHiLo(q) {</p>
+<p>  //var content = $f('video-plain').getPlugin('content');</p>
+<p>  if (q == 1) {</p>
+<p>    $('h1.title').css('clear', 'both');</p>
+<p>    $('h1.title').css('padding-top', '17px'); </p>
+<p>    $f('video-plain').getPlugin('content').setHtml('<a href="javascript:toggleHiLo(0)"><span class="active"><span class="flag">&#9679;</span> Hi </span><br><span class="flag">&#9675;</span> Lo </a>');</p>
+<p>    $('#video-plain').animate({height: '500px'});</p>
+<p>    $('#video-container').animate({width: '100%'}, {complete: function () { </p>
+<p>      if($('#restrict').val() == 1) {</p>
+<p>    	  $f('video-plain').getClip(1).update({</p>
+<p>   		    url: 'http://data.amur.info/', </p>
+<p>   		    scaling: 'fit',</p>
+<p>   		    provider: 'h264streaming'</p>
+<p>   		  });</p>
+<p>    </p>
+<p>    	  $f('video-plain').getPlugin('c2').show();</p>
+<p>      }</p>
+<p>      else {</p>
+<p>        $f('video-plain').play({</p>
+<p>          url: 'http://data.amur.info/', </p>
+<p>          scaling: 'fit',</p>
+<p>          provider: 'h264streaming'</p>
+<p>        });</p>
+<p>        $.get('/video_stat.php?id=&1326815952');</p>
+<p>      }</p>
+<p>	  } });</p>
+<p>	  //$.cookie('amurinfo_video_quality', 'hi');</p>
+<p>  } </p>
+<p>  else {</p>
+<p>	  $('#video-plain').animate({height: '300px'});</p>
+<p>	  $('#video-container').animate({width: '50%'}, {complete: function () { </p>
+<p>      $('h1.title').css('clear', 'none'); </p>
+<p>      $('h1.title').css('padding-top', '0');</p>
+<p>       </p>
+<p>      $f('video-plain').getPlugin('content').setHtml('<a href="javascript:toggleHiLo(1)"><span class="flag">&#9675;</span> Hi <br><span class="active"><span class="flag">&#9679;</span> Lo </span></a>');</p>
+<p>      if($('#restrict').val() == 1) {</p>
+<p>    	  $f('video-plain').getClip(1).update({</p>
+<p>   		    url: 'http://data.amur.info/', </p>
+<p>   		    scaling: 'fit',</p>
+<p>   		    provider: 'h264streaming'</p>
+<p>   		  });</p>
+<p>    	  $f('video-plain').getPlugin('c2').show();</p>
+<p>      }</p>
+<p>      else {</p>
+<p>        $f('video-plain').play({</p>
+<p>          url: 'http://data.amur.info/', </p>
+<p>          scaling: 'fit',</p>
+<p>          provider: 'h264streaming'</p>
+<p>        });</p>
+<p>        $.get('/video_stat.php?id=&1326815952');</p>
+<p>      }</p>
+<p>	  } });</p>
+<p>	  //$.cookie('amurinfo_video_quality', null);</p>
+<p>  }</p>
+<p>}</p>
+<p>/*function toggleHiLo(q) {</p>
+<p>  var content = $f().getPlugin('content');</p>
+<p>  if (q == 1) {</p>
+<p>	$('#video-after').show();</p>
+<p>	$('#video-container').css({borderRight: 'none'});</p>
+<p>	$('#video-container').animate({width: '100%'});</p>
+<p>	$('#video-plain').animate({height: '500px'});</p>
+<p>    $f().getPlugin('content').setHtml('<a href="javascript:toggleHiLo(0)"><span class="active"><span class="flag">&#9679;</span> Hi </span><br><span class="flag">&#9675;</span> Lo </a>');</p>
+<p>	$f().play({</p>
+<p>          url: 'http://data.amur.info/', </p>
+<p>          scaling: 'fit',</p>
+<p>          provider: 'h264streaming'</p>
+<p>        });</p>
+<p>        $.get('/video_stat.php?id=&1326815952');</p>
+<p>	//$.cookie('amurinfo_video_quality', 'hi');</p>
+<p>  } </p>
+<p>  else {</p>
+<p>	$('#video-plain').animate({height: '300px'});</p>
+<p>	$('#video-container').animate({width: '50%'}, {complete: function () { </p>
+<p>	$('#video-container').css({borderRight: '1px solid #AAA'});</p>
+<p>	$('#video-after').hide();</p>
+<p>	} });</p>
+<p>    $f().getPlugin('content').setHtml('<a href="javascript:toggleHiLo(1)"><span class="flag">&#9675;</span> Hi <br><span class="active"><span class="flag">&#9679;</span> Lo </span></a>');</p>
+<p>	$f().play({</p>
+<p>          url: 'http://data.amur.info/', </p>
+<p>          scaling: 'fit',</p>
+<p>          provider: 'h264streaming'</p>
+<p>        });</p>
+<p>        $.get('/video_stat.php?id=&1326815952');</p>
+<p>	//$.cookie('amurinfo_video_quality', null);</p>
+<p>  }</p>
+<p>}*/</p>
+<p>flowplayer('video-plain', 'http://video.amur.info/sites/all/modules/flowplayer/flowplayer/flowplayer.swf', {</p>
+<p>  key: '#$e7877402315baa4390c',</p>
+<p>  play: {replayLabel: 'Показать снова'},</p>
+<p>  plugins: {</p>
+<p>    h264streaming: {</p>
+<p>      url: 'http://video.amur.info/sites/all/modules/flowplayer/flowplayer/flowplayer.pseudostreaming.swf'</p>
+<p>    }</p>
+<p>  },</p>
+<p>  onMouseOut: function () { </p>
+<p>	  $f().getPlugin('content').fadeOut(1000);</p>
+<p>    },</p>
+<p>  onMouseOver: function () { </p>
+<p>	  $f().getPlugin('content').fadeIn(1000);</p>
+<p>    },</p>
+<p>  playlist: [</p>
+<p>    {</p>
+<p>      url: 'http://video.amur.info/',</p>
+<p>      scaling: 'fit'</p>
+<p>    },</p>
+<p>    {</p>
+<p>      url: 'http://data.amur.info/',</p>
+<p>      autoPlay: false,</p>
+<p>      autoBuffering: false,</p>
+<p>      scaling: 'fit',</p>
+<p>      provider: 'h264streaming',</p>
+<p>      onStart: function() { </p>
+<p>        //alert(1);</p>
+<p>        $.get('/video_stat.php?id=&1326815952');</p>
+<p>        //alert(2);</p>
+<p>      }</p>
+<p>    }</p>
+<p>  ]</p>
+<p>});</p>
+<p>--></p>
+<p>В Благовещенске официально открылось отделение паллиативной, или противоболевой, терапии. В нём врачи станут оказывать помощь пациентам с последней стадией рака. Тяжёлых онкобольных будут избавлять от страданий, обеспечат им квалифицированный медицинский уход. Отделение расположено в первом корпусе объединённой городской клинической больницы.</p>
+<p>В новом отделении пока стоит резкий запах краски. Первые пациенты появятся в помещении через несколько дней. Отделение паллиативной терапии рассчитано на 10 коек. Палаты, среди которых есть одно- и двухместные, оборудованы необходимой для людей с последней стадией рака системой подачи кислорода и кнопками вызова медсестры. Возле каждой кровати установлены мониторы, на которые выводятся показатели пациента. Сами кровати с автоматическим противопролежневым матрасом. </p>
+<p>На то, чтобы отремонтировать и оборудовать отделение паллиативной терапии, ушло почти 18 с половиной миллионов рублей. Врачи просят не путать своё отделение с хосписом. В последнем онкобольные получают уход и обезболивание. В паллиативном они будут получать ещё и лечение. «Это и симптоматическое лечение, это и малоинвазивная хирургия. Для этого у нас имеется оборудование. Из оборудования, которым можно гордиться, – две эндоскопические видеостойки – бронхо- и гастро-. Если у пациента кровотечение, например, бронхиального происхождения, можно провести манипуляцию и остановить это кровотечение», – объясняет начальник управления здравоохранения администрации Благовещенска Надежда Сидоренко.</p>
+<p>Отделение паллиативной терапии примет неизлечимых онкопациентов. Это будут только жители Благовещенска, которые получили направление от комиссии врачей. Время пребывания больного в отделении не ограничено. В горздраве говорят: несмотря на то что коек всего 10, очереди возникнуть не должно. Расчёт количества мест проводился с учётом численности населения города. Если станет необходимо, в будущем отделение, возможно, расширят. Впрочем, некоторые онкологи всё же считают число коек уже сейчас недостаточным. В Благовещенске около 3 500 онкобольных. Примерно у четверти из них болезнь в четвёртой стадии. В паллиативном отделении им помогут облегчить страдания и снять боль. </p>
+<p>Между тем близится к завершению ремонт в другом муниципальном учреждении здравоохранения – детской городской больнице. В настоящее время там завершены практически все ремонтные работы, сейчас рабочие устанавливают двери, врезают замки, вывозят строительный мусор. В учреждении сделали капитальный ремонт четырёх этажей – полностью поменяли окна, двери, сантехнику, системы отопления и электроснабжения. Все ремонтные работы в больнице планируют завершить до 20 января. После помещения начнут мыть. Однако точной даты открытия детской городской больницы горздрав пока не называет. Поскольку обновлённая больница имеет направление на реабилитацию, в учреждении появится отделение физиотерапии, лечебной физкультуры и массажа. Часть оборудования для него уже приобретена, остальное докупят в течение года. Хирургическую помощь маленьким пациентам станут оказывать врачи областной детской больницы.Эта статья в категориях:  здоровье.</p>
+<p>VK.init({apiId: 2381430, onlyWidgets: true});VK.Widgets.Like("vk_like", {type: "mini", height: 20});</p>
+<p>Твитнуть</p>
+<p>{lang: 'ru', parsetags: 'explicit'}gapi.plusone.go();</p>
+<p>Нравится</p>
+<p><!--// <![CDATA[</p>
+<p>    var ox_swf = new FlashObject('http://www.amur.info/adz/www/images/c87b9a56422373cb95d797944e02ad6d.swf', 'Advertisement', '468', '60', '6');</p>
+<p>    ox_swf.addVariable('alink1', 'http%3A%2F%2Fwww.amur.info%2Fadz%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D1321__zoneid%3D2__cb%3D673878933d__oadest%3Dhttp%253A%252F%252Fwww.almazblag.ru%252Findex.html');</p>
+<p>    ox_swf.addVariable('atar1', '_blank');</p>
+<p>    ox_swf.addParam('allowScriptAccess','always');</p>
+<p>    ox_swf.write('ox_38243a38156b0c23616522afd14bbd02');</p>
+<p>    if (ox_swf.installedVer.versionIsValid(ox_swf.getAttribute('version'))) { document.write("<div id='beacon_673878933d' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://www.amur.info/adz/www/delivery/lg.php?bannerid=1321&amp;campaignid=623&amp;zoneid=2&amp;loc=http%3A%2F%2Fwww.amur.info%2Fnews%2F2012%2F01%2F17%2F19.html&amp;cb=673878933d' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div>"); }</p>
+<p>// ]]> --></p>
+<p>Комментарии  (пока нет)</p>
+<p>Материалы по теме (всего: 18)</p>
+<p>function checkAddCommentForm()</p>
+<p>{</p>
+<p>	var form = document.getElementById('form_add_comment');</p>
+<p>	if (!form) return false;</p>
+<p>	var err = document.getElementById('errors_add_comment');</p>
+<p>	if (!err) return false;</p>
+<p>	err.innerHTML = "";</p>
+<p>	var errors = new Array;</p>
+<p>	form.comment_username.style.backgroundColor = '#ffffff';</p>
+<p>	if (form.comment_password) form.comment_password.style.backgroundColor = '#ffffff';</p>
+<p>	form.comment_text.style.backgroundColor = '#ffffff';</p>
+<p>	</p>
+<p>	if (form.comment_username.value == '' || form.comment_username.value == 'имя')</p>
+<p>	{</p>
+<p>		errors.push("Не введено имя");</p>
+<p>		form.comment_username.style.backgroundColor = '#ffff99';</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (form.comment_password && (form.comment_password.value == '' || form.comment_password.value == 'пароль'))</p>
+<p>	{</p>
+<p>		errors.push("Не введен пароль");</p>
+<p>		form.comment_password.style.backgroundColor = '#ffff99';</p>
+<p>	}</p>
+<p>	</p>
+<p>	if (form.comment_text.value == '')</p>
+<p>	{</p>
+<p>		errors.push("Не введен текст комментария");</p>
+<p>		form.comment_text.style.backgroundColor = '#ffff99';</p>
+<p>	}</p>
+<p>//	if (closed == '1')</p>
+<p>//	{</p>
+<p>//		errors.push("Новость закрыта для дальнейшего добавления комментариев");</p>
+<p>//		form.comment_text.style.backgroundColor = '#ffff99';</p>
+<p>//	}</p>
+<p>	if (errors.length > 0)</p>
+<p>	{</p>
+<p>		var err_inner = "";</p>
+<p>		for (i = 0; i < errors.length; i++)</p>
+<p>		{</p>
+<p>			err_inner = err_inner + "<b>(!)</b>&nbsp;" + errors[i] + "<br>\n";</p>
+<p>		}</p>
+<p>		err.innerHTML = err_inner;</p>
+<p>		return false;</p>
+<p>    }</p>
+<p>    form.submit();</p>
+<p>}</p>
+<p>function showCommentsDislaimer()</p>
+<p>{</p>
+<p>	var more = document.getElementById('comments_disclaimer_more');</p>
+<p>	var bottom = document.getElementById('comments_disclaimer_bottom');</p>
+<p>	more.style.display = 'none';</p>
+<p>	bottom.style.display = 'block';</p>
+<p>}</p>
+<p>Комментарии посетителей сайта выражаютих субъективные точки зрения и не являются</p>
+<p>продукцией информационного агентства«Амур.инфо».  (подробнее)</p>
+<p>Если комментарий содержит информацию, которая оскорбляет  либо порочит честь, достоинство или деловую репутацию человека, </p>
+<p>он вправе обратиться в редакцию с просьбой об удалении не соответствующих действительности сведений.</p>
+<p>document.write("<" + "in" + "put" + " typ" + "e='hid" + "den'" + " name='c" + "heck' va" + "lue='1" + "'>");</p>
+<p>имя: </p>
+<p>пароль: </p>
+<p>Вы должны быть зарегистрированына форуме Амур.инфо.</p>
+<p>16 января, 09:56 / обществоК концу января в Благовещенске должна открыться отремонтированная часть онкодиспансера</p>
+<p>11 января, 15:15 / обществоНа следующей неделе в Благовещенске откроется спецотделение для помощи онкобольным амурчанам</p>
+<p>7 ноября 2011, 09:45 / обществоК концу декабря в Благовещенске начнут облегчать страдания онкобольных</p>
+<p>2 марта 2011, 10:25 / обществоАмурские кролики помогают искать средство борьбы против рака</p>
+<p>4 февраля 2011, 14:15 / обществоСегодня Всемирный день борьбы против рака</p>
+<p> поиск  |  архив  |  подписка  что нового?</p>
+<p> » </p>
+<p>популярное сегодня</p>
+<p>+42 / новостиВ Приамурье уволены министр здравоохранения и его заместитель</p>
+<p>+32 / новостиБлаговещенские депутаты не поддержали предложение о наведении порядка в «ночниках»</p>
+<p>+29 / новостиПевица из Свободного взяла Гран-при на международном конкурсе в Москве</p>
+<p>на форуме</p>
+<p>+44 / свободный полётАнекдот. Прикольный  афоризм.  Поделись!</p>
+<p>+35 / жизнь города и областиВаше отношение к топлесу</p>
+<p>+31 / жизнь города и областиСовременный американский художник Томас Кинкейд</p>
+<p>+27 / жизнь города и областиА в нашем городе есть рукодельницы?</p>
+<p><!--// <![CDATA[</p>
+<p>    var ox_swf = new FlashObject('http://www.amur.info/adz/www/images/da31dbcbecd7c1b3a81ae137a83a74d0.swf', 'Advertisement', '300', '100', '9');</p>
+<p>    ox_swf.addVariable('alink1', 'http%3A%2F%2Fwww.amur.info%2Fadz%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D1219__zoneid%3D17__cb%3D6a7b13d5d6__oadest%3Dhttp%253A%252F%252Fwww.amur.mts.ru%252Ftariffs%252Ftariffs%252Fsupermts%252F');</p>
+<p>    ox_swf.addVariable('atar1', '_blank');</p>
+<p>    ox_swf.addParam('allowScriptAccess','always');</p>
+<p>    ox_swf.write('ox_31cedc6cc87a5c81abc2eb3346f49c1d');</p>
+<p>    if (ox_swf.installedVer.versionIsValid(ox_swf.getAttribute('version'))) { document.write("<div id='beacon_6a7b13d5d6' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://www.amur.info/adz/www/delivery/lg.php?bannerid=1219&amp;campaignid=539&amp;zoneid=17&amp;loc=http%3A%2F%2Fwww.amur.info%2Fnews%2F2012%2F01%2F17%2F19.html&amp;cb=6a7b13d5d6' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div>"); }</p>
+<p>// ]]> --></p>
+<p>16 января / онлайн-конференцияТатьяна  Яковлеваруководитель управления Федеральной антимонопольной службы по Амурской области</p>
+<p>16 января / блогиБлог Дениса Киселёва: О немецкой медицине</p>
+<p>десять последних новостей</p>
+<p>вчера, 18:03 / обществоБлаговещенские депутаты не поддержали предложение о наведении порядка в «ночниках»</p>
+<p>вчера, 17:56 / обществоДвух амурских фармацевтов осудили за попытку сбыть сильнодействующие вещества</p>
+<p>вчера, 17:35 / обществоТринадцать амурских детей-сирот получили ключи от квартир в Белогорске</p>
+<p>вчера, 17:17 / обществоВ благовещенской горбольнице открылось паллиативное отделение</p>
+<p>вчера, 17:05 / обществоЗоопарк «Лигер» объявил конкурс на лучшие имена для новорождённых медвежат</p>
+<p>вчера, 16:30 / обществоМальчику, пострадавшему от зубов тигра, может понадобиться пластическая операция</p>
+<p>вчера, 16:18 / обществоАмурчанам могут разрешить выбрать следующего губернатора</p>
+<p>вчера, 15:47 / обществоВ Санкт-Петербург не пустили партию соболиных шкур из Амурской области</p>
+<p>вчера, 14:50 / спортПриамурье готовится к «Лыжне России – 2012»</p>
+<p>вчера, 14:09 / обществоБлаговещенцы избавляются от «разжалованных» новогодних деревьев</p>
+<p>Заметили ошибку?   Выделите текст и нажмите Ctrl+Enter © Orphus</p>
+<p>function showDisclaimer()</p>
+<p>{</p>
+<p>	var info = document.getElementById('bottom_info');</p>
+<p>	var disc = document.getElementById('bottom_disclaimer');</p>
+<p>	if (!info) return;</p>
+<p>	if (!disc) return;</p>
+<p>	disc.interval = setInterval("slideDisclaimer()", 10);</p>
+<p>}</p>
+<p>function slideDisclaimer()</p>
+<p>{</p>
+<p>    var info = document.getElementById('bottom_info');</p>
+<p>    var disc = document.getElementById('bottom_disclaimer');</p>
+<p>    if (!info) return;</p>
+<p>    if (!disc) return;</p>
+<p>	var h_info = info.clientHeight;</p>
+<p>	if (h_info == 0) h_info = info.offsetHeight; // IE workaround</p>
+<p>	if (h_info > 1) h_info = h_info - 1;</p>
+<p>	var h_disc = disc.clientHeight;</p>
+<p>	if (h_disc < disc.scrollHeight) h_disc = h_disc + 1;</p>
+<p>	if ((h_info == 1) && (h_disc == disc.offsetHeight))</p>
+<p>	{</p>
+<p>		clearInterval(disc.interval);</p>
+<p>	}</p>
+<p>	else</p>
+<p>	{</p>
+<p>		info.style.height = h_info + "px";</p>
+<p>		disc.style.height = h_disc + "px";</p>
+<p>	}</p>
+<p>}</p>
+<p>function showInfo()</p>
+<p>{</p>
+<p>	var info = document.getElementById('bottom_info');</p>
+<p>	var disc = document.getElementById('bottom_disclaimer');</p>
+<p>	if (!info) return;</p>
+<p>	if (!disc) return;</p>
+<p>	info.interval = setInterval("slideInfo()", 10);</p>
+<p>}</p>
+<p>function slideInfo()</p>
+<p>{</p>
+<p>	var info = document.getElementById('bottom_info');</p>
+<p>	var disc = document.getElementById('bottom_disclaimer');</p>
+<p>	if (!info) return;</p>
+<p>	if (!disc) return;</p>
+<p>	var h_info = info.clientHeight;</p>
+<p>	h_info = h_info + 1;</p>
+<p>	var h_disc = disc.clientHeight;</p>
+<p>	h_disc = h_disc - 1;</p>
+<p>	if (h_disc < 1)</p>
+<p>	{</p>
+<p>		clearInterval(info.interval);</p>
+<p>	}</p>
+<p>	else</p>
+<p>	{</p>
+<p>		info.style.height = h_info + "px";</p>
+<p>		disc.style.height = h_disc + "px";</p>
+<p>	}</p>
+<p>}</p>
+<p>© 2002—2011, ИА «Амур.инфо». Все права защищены.</p>
+<p>Свидетельство о регистрации СМИ № ФС77-24536.Учредитель: ООО «Компания «Игра»Редакция ИА «Амур.инфо»: (4162) 222-744, ТК «Альфа-канал»: 222-727Размещение рекламы: (4162) 222-700E-mail: info@amur.info, реклама: pro@alphatv.ru</p>
+<p>Условия использования материалов</p>
+<p>Партнеры:  Телепорт  Наружка  Авторадио  Футбол</p>
+<p>Тексты новостей, аналитические материалы, интервью, фотографии (с указанием логотипа ИА), размещенные на сайте amur.info, являются интеллектуальной собственностью информационного агентства "Амур.инфо".</p>
+<p>Запрещено использование этих материалов сайта либо их частей без ссылки на ИА "Амур.инфо".Нарушение указанных выше условий является нарушением законодательства РФ.</p>
+<p>вернуться</p>
+<p>document.write("<a href='http://www.liveinternet.ru/click' target=_blank><img src='http://counter.yadro.ru/hit?t44.6;r" </p>
+<p>+ escape(document.referrer) </p>
+<p>+ ((typeof(screen)=="undefined") ? "" : ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) </p>
+<p>+ ";u" </p>
+<p>+ escape(document.URL) </p>
+<p>+ ";" </p>
+<p>+ Math.random() </p>
+<p>+ "' border=0 width=1 height=1 style='visibility:hidden' alt='' title='LiveInternet'><\/a>")</p>
+<p><!--</p>
+<p>d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></p>
+<p><!--</p>
+<p>a+=';j='+navigator.javaEnabled();js=11;//--></p>
+<p><!--</p>
+<p>s=screen;a+=';s='+s.width+'*'+s.height;</p>
+<p>a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></p>
+<p><!--</p>
+<p>js=13;//--><!--</p>
+<p>d.write('<img src="http://df.c6.be.a0.top.mail.ru/counter'+'?id=945952;js='+js+</p>
+<p>a+';rand='+Math.random()+'" height="1" width="1" alt="top.mail.ru" border="0">');</p>
+<p>if(11<js)d.write('<'+'!-- ')//--></p>
+<p><!--</p>
+<p>if(11<js)d.write('--'+'>');//--></p>

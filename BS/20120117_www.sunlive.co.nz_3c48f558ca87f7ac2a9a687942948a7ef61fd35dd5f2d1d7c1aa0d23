@@ -1,0 +1,216 @@
+<p>SunLive - Coin swallow hospitalises boy - The Bay's News First</p>
+<p>		GS_googleAddAdSenseService("ca-pub-9964001585627809");</p>
+<p>		GS_googleEnableAllServices();</p>
+<p>		</p>
+<p>		GA_googleAddSlot("ca-pub-9964001585627809", "TheSun_160x160");</p>
+<p>		GA_googleAddSlot("ca-pub-9964001585627809", "TheSun_160x160_OpPoll");</p>
+<p>		GA_googleAddSlot("ca-pub-9964001585627809", "TheSun_160x160_Latest");</p>
+<p>		GA_googleAddSlot("ca-pub-9964001585627809", "TheSun_160x160_EdPicks");</p>
+<p>		GA_googleAddSlot("ca-pub-9964001585627809", "TheSun_160x600_Skyscraper");</p>
+<p>		GA_googleAddSlot("ca-pub-9964001585627809", "TheSun_468x60_Banner");</p>
+<p>		GA_googleAddSlot("ca-pub-9964001585627809", "TheSun_760x120_Banner");</p>
+<p>		</p>
+<p>		GA_googleFetchAds();</p>
+<p>		</p>
+<p>GA_googleUseIframeRendering(); </p>
+<p>        $(function() {</p>
+<p>            $(".newsscroller").jCarouselLite({</p>
+<p>                btnNext: ".next",</p>
+<p>    			btnPrev: ".prev",</p>
+<p>                hoverPause:true,</p>
+<p>                auto:10000,</p>
+<p>                visible: 1,</p>
+<p>                speed:1000</p>
+<p>            });</p>
+<p>        });</p>
+<p>        </p>
+<p>var popupWindow=null;</p>
+<p>function popup(mypage,myname,w,h,pos,infocus){</p>
+<p>if (pos == 'random')</p>
+<p>{LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}</p>
+<p>else</p>
+<p>{LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}</p>
+<p>settings='width='+ w + ',height='+ h + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=yes,location=yes,directories=no,status=no,menubar=yes,toolbar=no,resizable=yes';popupWindow=window.open('',myname,settings);</p>
+<p>if(infocus=='front'){popupWindow.focus();popupWindow.location=mypage;}</p>
+<p>if(infocus=='back'){popupWindow.blur();popupWindow.location=mypage;popupWindow.blur();}</p>
+<p>}</p>
+<p>function openPage(page,title,wdt,hgt,rsz) {</p>
+<p>	tags = 'width=' + wdt + ', height=' + hgt + ', resizeable=yes, scrollbars=yes';</p>
+<p>	window.open(page,title,tags);</p>
+<p>}</p>
+<p>function refreshPage() {</p>
+<p>	location.reload(true);</p>
+<p>}</p>
+<p>/* <![CDATA[ */</p>
+<p>try { if (undefined == xajax.config) xajax.config = {}; } catch (e) { xajax = {}; xajax.config = {}; };</p>
+<p>xajax.config.requestURI = "http://www.sunlive.co.nz/news/20820-coin-swallow-hospitalises-boy.html?post=20820-coin-swallow-hospitalises-boy.html";</p>
+<p>xajax.config.statusMessages = false;</p>
+<p>xajax.config.waitCursor = true;</p>
+<p>xajax.config.version = "xajax 0.5";</p>
+<p>xajax.config.legacy = false;</p>
+<p>xajax.config.defaultMode = "asynchronous";</p>
+<p>xajax.config.defaultMethod = "POST";</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>window.setTimeout(</p>
+<p> function() {</p>
+<p>  var scriptExists = false;</p>
+<p>  try { if (xajax.isLoaded) scriptExists = true; }</p>
+<p>  catch (e) {}</p>
+<p>  if (!scriptExists) {</p>
+<p>   alert("Error: the xajax Javascript component could not be included. Perhaps the URL is incorrect?\nURL: /xajax_js/xajax_core.js");</p>
+<p>  }</p>
+<p> }, 2000);</p>
+<p>/* ]]> */</p>
+<p>/* <![CDATA[ */</p>
+<p>xajax_voteInPoll = function() { return xajax.request( { xjxfun: 'voteInPoll' }, { parameters: arguments } ); };</p>
+<p>/* ]]> */</p>
+<p>Wednesday, January 18, 2012</p>
+<p>Search</p>
+<p>GA_googleFillSlot("TheSun_760x120_Banner");</p>
+<p>HOME</p>
+<p>LOCAL NEWS</p>
+<p>News</p>
+<p>Politics</p>
+<p>Council</p>
+<p>Business & Markets</p>
+<p>Health</p>
+<p>Environment</p>
+<p>Motoring</p>
+<p>Marine</p>
+<p>Technology</p>
+<p>Property</p>
+<p>Rural</p>
+<p>City Life</p>
+<p>Education</p>
+<p>News Archive SPORT</p>
+<p>Sports Draws</p>
+<p>ENTERTAINMENT</p>
+<p>Bay Today</p>
+<p>Competitions</p>
+<p>DVD Reviews</p>
+<p>Gig Guide</p>
+<p>Horoscopes</p>
+<p>Music</p>
+<p>Oh Baby!</p>
+<p>Whats On</p>
+<p>WEATHER & TIDES</p>
+<p>BLOGS & OPINION</p>
+<p>Sport</p>
+<p>Entertainment</p>
+<p>Technology</p>
+<p>Lifestyle</p>
+<p>Dawn & Luis:  Fitness and Food</p>
+<p>Business</p>
+<p>Regular Columnists</p>
+<p>All About Wine</p>
+<p>Politics</p>
+<p>Rural</p>
+<p>PHOTO GALLERIES</p>
+<p>CLASSIFIEDS</p>
+<p>JOBS</p>
+<p>TRAFFIC CAMS</p>
+<p>CONTACT US</p>
+<p>Our Services</p>
+<p>About Us</p>
+<p>Terms & Conditions</p>
+<p>Refund Policy</p>
+<p>Advertising / Media Pack</p>
+<p>LETTERS TO ED</p>
+<p>COUNCIL</p>
+<p>MARINE</p>
+<p>CITY LIFE</p>
+<p>WHAT'S ON</p>
+<p>COMPETITIONS</p>
+<p>RURAL</p>
+<p>FUNERAL NOTICES</p>
+<p>PROPERTY</p>
+<p>SHOPPING</p>
+<p>PUBLICATIONS</p>
+<p>The Weekend SunNew Farm DairiesLetters to the Editor</p>
+<p>Coast & CountryAvoscene</p>
+<p>Waterline MagazineBay DriverSun Creative</p>
+<p>House of the Year</p>
+<p>TV LISTINGS</p>
+<p>						GA_googleFillSlot("TheSun_160x160");</p>
+<p>					</p>
+<p>Latest News</p>
+<p>Fire destroys shed</p>
+<p>Police station demolition begins</p>
+<p>Assault at the Grumpy Mole</p>
+<p>Pharmacy robber heavily disguised</p>
+<p>Motiti clean-up slow to start</p>
+<p>Head-on crash blocks two lanes</p>
+<p>Baby food recalled</p>
+<p>Money in throat no choke</p>
+<p>First car, first spin – write-off</p>
+<p>Bureta Pharmacy robbed</p>
+<p>Elderly man assaulted</p>
+<p>Victim’s parents await apology</p>
+<p>Balloon accident investigation continues</p>
+<p>Salvors assess helicopter lift</p>
+<p>Sixth strike ‘highly irresponsible’</p>
+<p>Opinion Poll</p>
+<p>Should people who find Rena cargo washed up on beaches be allowed to keep it?</p>
+<p>YesNo</p>
+<p>						GA_googleFillSlot("TheSun_160x160_OpPoll");</p>
+<p>					</p>
+<p>Not The News</p>
+<p>Ship captains claim Earth moved - Earth scientists studying the after-effects of last year’s Japan earthquake, registering a 10 on the Richter scale, have discovered that the shifting continental plates have tilted the earth a little further on its axis. The result is... Read More</p>
+<p>						GA_googleFillSlot("TheSun_468x60_Banner");</p>
+<p>					</p>
+<p>Home >> Local News >> News</p>
+<p>Coin swallow hospitalises boy</p>
+<p>Posted at 8:56am Monday 16th Jan, 2012</p>
+<p>Share on Facebook  </p>
+<p>						 Follow Us on Facebook  </p>
+<p>						 Follow on Twitter</p>
+<p> Email A Friend  </p>
+<p>						 Printer Friendly Page</p>
+<p>A Tauranga boy is receiving medical treatment after he reportedly swallowed a $2 coin.</p>
+<p>At about 6.30pm the Westpac Waikato Air Ambulance airlifted a 10-year-old Tauranga boy from Tauranga Hospital to Waikato Hospital.</p>
+<p>Air ambulance pilot Dan Harcourt says the swallowed coin had lodged in the boy’s throat causing a constant gagging reflex.</p>
+<p>Comments</p>
+<p>There are no comments on this article.</p>
+<p>Post a CommentYou must be logged in to make a comment.</p>
+<p>            </p>
+<p>				</p>
+<p>Related Articles</p>
+<p>Fire destroys shedPolice station demolition beginsAssault at the Grumpy MolePharmacy robber heavily disguisedMotiti clean-up slow to startHead-on crash blocks two lanesBaby food recalledMoney in throat no chokeFirst car, first spin – write-offBureta Pharmacy robbedElderly man assaultedVictim’s parents await apologyBalloon accident investigation continuesSalvors assess helicopter liftSixth strike ‘highly irresponsible’</p>
+<p>						GA_googleFillSlot("TheSun_160x160_Latest");</p>
+<p>					</p>
+<p>Editor's Picks</p>
+<p>Red tape delays Mauao track repairsDogs maim exhausted penguinsChef's Thunder to roar at airshowTop pyrotechnics for city’s airshowMosquito to miss air showLoved ones amidst Rena debrisFlight school goes into liquidationRena’s bow secured for rising swellBarnacle delicacy beaches at OmanuRena's reef slip drops two containers</p>
+<p>						GA_googleFillSlot("TheSun_160x160_EdPicks");</p>
+<p>					</p>
+<p>						GA_googleFillSlot("TheSun_160x600_Skyscraper");</p>
+<p>					</p>
+<p>Bay Today</p>
+<p>Mount Maunganui from Kulim Park by Denis Player.</p>
+<p>Send us your photos and stories from around the Bay of Plenty.Email: newsroom@thesun.co.nz</p>
+<p>Oh Baby!</p>
+<p>Click here to see our newest residents.</p>
+<p>Competitions</p>
+<p>HOME</p>
+<p>LOCAL NEWS</p>
+<p>SPORT</p>
+<p>ENTERTAINMENT</p>
+<p>WHATS ON</p>
+<p>COMPETITIONS</p>
+<p>RURAL</p>
+<p>FUNERAL NOTICES</p>
+<p>CONTACT US</p>
+<p>©2010 Sun Media Ltd - All Rights Reserved</p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	_gaq.push(['_setAccount', 'UA-10384727-1']);</p>
+<p>	_gaq.push(['_trackPageview']);</p>
+<p>	(function() {</p>
+<p>		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>	})();</p>
+<p>	</p>
+<p>	 var pvar = { cid: "nz-sunmedia", content: "0", server: "secure-nz" };</p>
+<p>	 var trac = nol_t(pvar);</p>
+<p>	 trac.record().post();</p>
+<p>	</p>

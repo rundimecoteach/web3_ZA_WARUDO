@@ -1,0 +1,403 @@
+<p>Katowice. Odroczona rozprawa ws. korupcji w śląskiej służbie zdrowia</p>
+<p>var now = new Date(2012, 0, 14, 22, 16, 41);</p>
+<p>var profileBan;</p>
+<p>if (typeof profileCookie != 'undefined'){</p>
+<p>	profileBan = profileCookie; </p>
+<p>}else {</p>
+<p>	profileBan = null;</p>
+<p>}	</p>
+<p>var asParams;</p>
+<p>if (typeof asAdsParams != 'undefined' && asAdsParams != ''){</p>
+<p>	asParams = '&asParams=' + asAdsParams; </p>
+<p>}else {</p>
+<p>	asParams = '';</p>
+<p>}</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://ad.adview.pl/ad/GetBan?dir=/wiadomosci/&jsp=23&dx=114877&t='+(new Date()).getTime()+'&p='+profileBan+asParams+'"><\/script>');</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://bi.adview.pl/info/ban/banFunc.js"><\/script>');</p>
+<p>putBan(2);</p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p><!--</p>
+<p>if (top.frames.length!=0) top.location=self.document.location;</p>
+<p>// --></p>
+<p><!--</p>
+<p>    var pp_gemius_identifier = new String('olI66L9by3oJiG8hxj87V7QXDtYWcUO.yC6M2xM9Clz.M7/arg=114877/sarg='+'|'+profileCookie);</p>
+<p>//--></p>
+<p>//<![CDATA[   </p>
+<p>var gazeta_pl = {</p>
+<p>documentParam: {"jezyczek": "tak", "jezyczek_skad": "114871",</p>
+<p>	"jezyczek_max": "", "jezyczek_dni1": "", </p>
+<p>	"jezyczek_dni2": "", "jezyczek_from": "", "jezyczek_typ": "" }</p>
+<p>, topLayerNewsletterConfig: {</p>
+<p>  uri: '',</p>
+<p>  closed_cookie_name: '',</p>
+<p>  signed_cookie_name: ''</p>
+<p>} </p>
+<p>};</p>
+<p>//]]></p>
+<p>	var _gaq = _gaq || [];</p>
+<p>	var utmgif = 'http://kropka.'+ window.location.hostname+'/__utm.gif';</p>
+<p>	_gaq.push(['_setAccount', 'UA-426268-1']);</p>
+<p>	_gaq.push(['_setCampaignCookieTimeout', 0]);</p>
+<p>	_gaq.push(['_setCustomVar',1,'nr_dzialu',114877,3]);</p>
+<p>	_gaq.push(['_setLocalGifPath',utmgif]);</p>
+<p>	_gaq.push(['_setLocalRemoteServerMode']);</p>
+<p>	_gaq.push(['_setAllowAnchor', true]); </p>
+<p>	_gaq.push(['_trackPageview']);</p>
+<p>	(function() {</p>
+<p>	var ga = document.createElement('script');</p>
+<p>	ga.type = 'text/javascript'; ga.async = true;</p>
+<p>	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +</p>
+<p>	'.google-analytics.com/ga.js';</p>
+<p>	var s = document.getElementsByTagName('script')[0];</p>
+<p>	s.parentNode.insertBefore(ga, s);</p>
+<p>	})();</p>
+<p>  </p>
+<p>	(function() {</p>
+<p>	var tg = document.createElement('script');</p>
+<p>	tg.type = 'text/javascript';</p>
+<p>	tg.async = true;</p>
+<p>	tg.src = 'http://analytics.gazeta.pl/tg.js';</p>
+<p>	var s = document.getElementsByTagName('script')[0];</p>
+<p>	s.parentNode.insertBefore(tg, s);</p>
+<p>	})();</p>
+<p>  </p>
+<p>  window.fbAsyncInit = function() {</p>
+<p>    FB.init({</p>
+<p>      appId  : 159195584135753,</p>
+<p>      status : true, // check login status </p>
+<p>      cookie : true, // enable cookies to allow the server to access the session</p>
+<p>      xfbml  : true,  // parse XFBML</p>
+<p>      oauth  : true,  // OAuth 2.0</p>
+<p>      channelUrl: 'http://bi.gazeta.pl/info/facebook/fbjs.html'</p>
+<p>    });    </p>
+<p>    window.gazeta_pl = window.gazeta_pl || {};</p>
+<p>    window.gazeta_pl.functionQueue = window.gazeta_pl.functionQueue || [];</p>
+<p>    window.gazeta_pl.functionQueue.push(function(){</p>
+<p>      postFbInit();</p>
+<p>    }); </p>
+<p>    </p>
+<p>	</p>
+<p>  };</p>
+<p>//Load the SDK Asynchronously</p>
+<p>  (function(d){</p>
+<p>     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}</p>
+<p>     js = d.createElement('script'); js.id = id; js.async = true;</p>
+<p>     js.src = "//connect.facebook.net/pl_PL/all.js";</p>
+<p>     d.getElementsByTagName('head')[0].appendChild(js);</p>
+<p>   }(document));</p>
+<p>      window.___gcfg = {</p>
+<p>        lang: 'pl'</p>
+<p>      };</p>
+<p>      (function() {</p>
+<p>        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>        po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>      })();</p>
+<p>    </p>
+<p>	var idPogoda="";</p>
+<p>putBan(49);</p>
+<p>Gazeta.plRabatyTokfm.plPocztaForumBlogiGazeta WyborczaPogodaGryProgramy</p>
+<p>var gazeta_pl = gazeta_pl || {};</p>
+<p>gazeta_pl.gameCenterRefresh = 0;</p>
+<p>putBan(1);</p>
+<p>putBan(71);</p>
+<p>w serwisiew Gazeta.pl</p>
+<p> </p>
+<p>Program TVWyniki LottoAlert24605 24 24 24</p>
+<p>Warszawa</p>
+<p>-1ºC</p>
+<p>Prognoza pogody</p>
+<p> </p>
+<p> </p>
+<p>Strona GłównaWiadomościPolskaPolitykaŚwiatNaukaEkologiaRelacje na żywoPolicyjni.plDeser.plZdjęciaWideoSportBiznesKulturaKobietaMotoTechnologiePlotkiPrześlij nam informacje</p>
+<p>Próba samobójcza prokuratoraKorea po Kim Dzong IluLista leków refundowanych</p>
+<p>Płk. Przybył tłumaczy: "Chciałem, żeby zaczęto mnie słuchać"</p>
+<p>Rada Prokuratury zwołała specjalne posiedzenie ws. próby samobójczej płk....</p>
+<p>Płk Przybył trafił na obserwację psychiatryczną</p>
+<p>putBan(98);</p>
+<p>Korea Północna wystrzeliła w środę 3 rakiety krótkiego zasięgu</p>
+<p>Nie płakali dość mocno po Kimie, zostaną zesłani</p>
+<p>Kim Dzong Il jak Lenin - będzie zabalsamowany</p>
+<p>putBan(98);</p>
+<p>Stowarzyszenie Pacjentów: "Lekarze posuwają się za daleko"</p>
+<p>Absurd. Rzecznik Praw Pacjenta pisze do ministerstwa ws. ustawy i...</p>
+<p>NRL: pieczątki "Refundacja do decyzji NFZ" nadal formą protestu</p>
+<p>putBan(98);</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Wiadomości >  Depesze</p>
+<p>putBan(91);</p>
+<p>putBan(56);</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> Katowice. Odroczona rozprawa ws. korupcji w śląskiej służbie zdrowia </p>
+<p>PAP</p>
+<p>          </p>
+<p>			                             22.12.2011</p>
+<p>										</p>
+<p>										, aktualizacja: 22.12.2011 11:30</p>
+<p>										</p>
+<p>          </p>
+<p> </p>
+<p>A</p>
+<p>A</p>
+<p>A</p>
+<p>Drukuj</p>
+<p> </p>
+<p> </p>
+<p> Rozprawa przed Sądem Okręgowym w Katowicach w procesie dotyczącym korupcji w śląskiej służbie zdrowia została odroczona do 2 lutego. W czwartek jeden z oskarżonych dostarczył zaświadczenie lekarza sądowego, że nie może brać w niej udziału.  </p>
+<p>        Proces dotyczy ustawiania przetargów na sprzęt dla placówek medycznych tak, aby wybierano w nich produkty firmy Philips. Na ławie oskarżonych zasiedli m.in. dyrektorzy szpitali oskarżeni o przyjmowanie łapówek.         W środę udało się rozpocząć proces, który wcześniej już dwukrotnie był przerywany z powodów formalnych. W trakcie środowej rozprawy jeden z oskarżonych, Wacław Sz., zgłosił sędziemu, że kilka dni wcześniej przeprowadzał sekcję zwłok 23-letniej kobiety, która zmarła na skutek powikłań po infekcji wirusem typu AH1N1. Sz. mówił, że źle się czuje, ma biegunkę i nie wyklucza, że sam może być chory. Na pytanie sądu o potwierdzenie ewentualnej choroby, odparł, że nie był u lekarza, ponieważ nie był w stanie.         W trakcie odczytywania aktu oskarżenia obrońcy zaczęli dopytywać o stan zdrowia Sz. w kontekście ewentualnego zarażenia się chorobą. Po kilkudziesięciu minutach i odczytaniu 13 z 223 stron aktu oskarżenia sędzia Piotr Pisarek ogłosił przerwę, po której przerwał rozprawę. Zarządził, aby oskarżony udał się do najbliższej stacji sanitarno-epidemiologicznej i wykonał badania, które stwierdzą czy cierpi na chorobę zakaźną i czy zagraża ona uczestnikom procesu.         W czwartek, w wydziale XVI karnym katowickiego sądu, w którym orzeka sędzia Pisarek poinformowano PAP, że Wacław Sz. dostarczył zaświadczenie lekarza sądowego potwierdzające, że nie może brać udziału w zaplanowanej na ten dzień rozprawie. Kolejny termin wyznaczono na 2 lutego.         Proces od początku napotyka na problemy. Nie udało się rozpocząć go w dwóch pierwszych terminach. Najpierw Wacław Sz. wnioskował o wyznaczenie obrońcy z urzędu. Za drugim razem jeden z oskarżonych nie miał adwokata, a ponieważ w innej sprawie był badany psychiatrycznie, obligatoryjnie musi mieć obrońcę.         Pod koniec ub. roku poznańska prokuratura oskarżyła o przyjmowanie i wręczanie łapówek 23 osoby, wśród nich dyrektorów szpitali ze Śląska, Zagłębia i Podbeskidzia oraz byłych pracowników holenderskiego koncernu. Akt oskarżenia objął m.in. byłego szefa działu medycznego i dawnego kierownika regionalnego oddziału Philips Polska. Wszystkim oskarżonym poznańska prokuratura zarzuciła popełnienie łącznie 90 przestępstw.         Według śledczych łapówki w zamian za wybór sprzętu jednego producenta przyjmowali w latach 1999-2006 ówcześni dyrektorzy i inne osoby funkcyjne placówek medycznych, m.in.: w Chorzowie, Jastrzębiu Zdroju, Katowicach, Wrocławiu, Raciborzu, Bielsku-Białej i Sosnowcu. Wartość kontraktów wynosiła od ok. 100 tys. zł do kilku milionów złotych.         Proceder polegał na wprowadzaniu do specyfikacji istotnych warunków zamówienia takich parametrów technicznych sprzętu medycznego, by ograniczyć dostęp do przetargu oferentom, którzy zaproponowali dostawę urządzeń innych producentów niż Philips.         29 przestępstw zarzucono Krzysztofowi B., który jako dyrektor działu medycznego Philips Polska miał - wraz z innymi osobami - wręczać łapówki przedstawicielom szpitali. Krzysztof B. usłyszał też zarzuty związane z wyłudzeniem pieniędzy m.in. na szkodę Philips Polska, dlatego spółka ta ma w procesie status oskarżyciela posiłkowego.         Na ławie oskarżonych zasiedli też m.in. były wicemarszałek woj. śląskiego Grzegorz Sz., któremu prokuratura zarzuciła korupcję w związku z pełnieniem funkcji szefa Chorzowskiego Centrum Pediatrii i Onkologii, a także Marian K., właściciel jednej z firm oferujących sprzęt medyczny Philipsa, który powiadomił prokuraturę o przestępstwach korupcyjnych.         Pięciu spośród oskarżonych złożyło wnioski o wymierzenie im kary bez procesu. Akt oskarżenia liczy 223 strony; sąd wstępnie oszacował, że jego odczytywanie może zająć dwie-trzy rozprawy. </p>
+<p> </p>
+<p>putBan(4);</p>
+<p>Podziel się</p>
+<p>Facebook</p>
+<p>Nasza klasa</p>
+<p>Wykop</p>
+<p>Twitter</p>
+<p>LinkedIn</p>
+<p>Wyślij e-mailem</p>
+<p>Ciekawe to</p>
+<p>Fajne to</p>
+<p>Słabe to</p>
+<p>Smutne to</p>
+<p>Wkurza mnie to</p>
+<p> </p>
+<p>Drukuj</p>
+<p>Skomentuj:</p>
+<p>Login:</p>
+<p>Hasło:</p>
+<p>              Zapamiętaj</p>
+<p>            </p>
+<p>Musisz się zalogować, by dodać komentarz.  </p>
+<p>            Jeśli nie posiadasz konta zarejestruj się.</p>
+<p> </p>
+<p>Wyślij</p>
+<p> </p>
+<p> </p>
+<p>Aby ocenić zaloguj się lub zarejestrujX</p>
+<p>putBan(85);</p>
+<p><!--</p>
+<p>	var google_ad_client = 'ca-agora-pl_html';</p>
+<p>	var google_language = 'pl';</p>
+<p>	var google_gl = 'pl';</p>
+<p>	var google_encoding = 'utf8';</p>
+<p>	var google_safe = 'high';</p>
+<p>	var google_color_bg = 'FFFFFF';</p>
+<p>	var google_color_border = 'FFFFFF';</p>
+<p>	var google_color_line = 'FFFFFF';</p>
+<p>	var google_color_link = '334fdb';</p>
+<p>	var google_color_text = '000000';</p>
+<p>	var google_color_url = '008000';</p>
+<p>  // --></p>
+<p>putBan(62);</p>
+<p>          				var noBan = "";</p>
+<p>          				noBan = "false";</p>
+<p>          				function getElementsByClassName(cn){</p>
+<p>            				var arr = new Array();</p>
+<p>            				var obj_art2=document.getElementById("artykul");</p>
+<p>            				if (obj_art2==null){</p>
+<p>          				obj_art2=document.getElementById("art2");</p>
+<p>          				}</p>
+<p>            				var els = obj_art2.getElementsByTagName("*");</p>
+<p>            				var exp= new RegExp("^(.* )?"+cn+"( .*)?$", "g");</p>
+<p>            				for (var i = 0; i < els.length; i++ ){</p>
+<p>             				if (exp.test(els[i].className)){</p>
+<p>               			 arr.push(els[i]);</p>
+<p>              			}</p>
+<p>            				}</p>
+<p>            				return arr;</p>
+<p>          				}</p>
+<p>          				var obj_art=document.getElementById("artykul");</p>
+<p>          				if (obj_art==null){</p>
+<p>          				obj_art=document.getElementById("art2");</p>
+<p>          				}</p>
+<p>          				var obj = null;</p>
+<p>          				if(obj_art){</p>
+<p>          				 	var br_art = obj_art.getElementsByTagName('br');</p>
+<p>          				 	var txt_srodtytul_art = getElementsByClassName('txt_srodtytul');</p>
+<p>          					var txt_pytanie_art   = getElementsByClassName('txt_pytanie');</p>
+<p>          				 	var ban_div = document.createElement('div');</p>
+<p>          				 	var ban = document.getElementById("banP62");</p>
+<p>          				 	if(document.getElementById("banP62").innerHTML.length <= 51 || noBan.indexOf("true")!=-1){</p>
+<p>          				 		is_ban = false;</p>
+<p>          				 	}else{</p>
+<p>          				 		is_ban = true;</p>
+<p>          				 	}</p>
+<p>          				 	ban_div.appendChild(ban);</p>
+<p>          				 	if(txt_srodtytul_art.length > 3){</p>
+<p>          						obj =txt_srodtytul_art[2];</p>
+<p>          				 		obj.parentNode.insertBefore( ban_div, obj );</p>
+<p>          					}else</p>
+<p>          					if(txt_pytanie_art.length >3){</p>
+<p>          				 		obj =txt_pytanie_art[2];</p>
+<p>          				 		obj.parentNode.insertBefore( ban_div, obj );</p>
+<p>          					}else</p>
+<p>          				 	if(br_art.length>4){</p>
+<p>          						obj =br_art[3];</p>
+<p>          					 		if(obj.previousSibling.previousSibling.className == 'txt_srodtytul' )obj =br_art[5];</p>
+<p>          					 		if(obj.previousSibling.previousSibling.className == 'txt_pytanie' )obj =br_art[5];</p>
+<p>          					 		obj.parentNode.insertBefore( ban_div, obj.nextSibling );</p>
+<p>          				 	}else{</p>
+<p>          				 		obj_art.appendChild(ban);</p>
+<p>          				 	}</p>
+<p>          				}</p>
+<p>          		    </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Najczęściej czytane1.Luksusowa Concordia poszła na dno u wybrzeży Toskanii. Są ofiary [ZDJĘCIA]2.Zatonięcie Concordii: 40 osób wciąż uznanych jest za zaginione3.Zatonięcie Concordii. "Wyjrzeliśmy za okno, a woda była bliżej i bliżej" [RELACJE ŚWIADKÓW]4.Dwunastoletni problem: bije kolegów, wyłudza pieniądze5."Costa Concordia" - luksusowe pływające centrum SPA [ZDJĘCIA WNĘTRZ]6.Wspólnie zaplanowali samobójstwo w sieci7.Wielki Brat podpatrzy i podsłucha przechodniów?</p>
+<p>putBan(3);</p>
+<p>putBan(50);</p>
+<p>putBan(13);</p>
+<p>putBan(11);</p>
+<p>putBan(43);</p>
+<p>putBan(21);</p>
+<p>putBan(96);</p>
+<p>putBan(97);</p>
+<p>putBan(60);</p>
+<p>putBan(61);</p>
+<p>putBan(46);</p>
+<p>putBan(57);</p>
+<p>   				Wasze relacje, wasze zdjęcia			               Wrocław: Zeskanowano karty bankomatowe "Zniknęło mi 1500 złotych. Nie jestem jedyny"             Małopolskie: Poranny karambol na drodze 94. Trzy pojazdy [ZDJĘCIA]             Protest twórców w internecie. Wysyłają petycje do premiera             Smycz za 650 zł + piesek gratis [WASZE KOMENTARZE]       </p>
+<p>Policyjni.pl »Zobacz bandziorów, którzy pobili człowieka. Poznajesz? [ZDJĘCIA]</p>
+<p>Jesteśmy na Facebooku! Lubisz nas? </p>
+<p>			putCpcBan(0);</p>
+<p>			makeRequest(0);</p>
+<p>		</p>
+<p>putBan(88);</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>putBan(42);</p>
+<p>Na skróty:Gazeta.plWiadomościSport.plBiznesGazeta WyborczaPracaProgram TV</p>
+<p>Polecamy:MiastaWpadkiPolicjaProgram TVPogodaTematyWideoWybory 2011</p>
+<p>Newsletter</p>
+<p>Facebook</p>
+<p>RSS</p>
+<p>Poczta</p>
+<p>Copyright © Agora SA</p>
+<p>O nas</p>
+<p>Staże u nas</p>
+<p>Reklama</p>
+<p>Prywatność</p>
+<p>Wszystkie artykuły</p>
+<p>Licencje</p>
+<p>Poleć stronę</p>
+<p>Zgłoś błąd</p>
+<p><!--</p>
+<p>        function getCookie(name) {</p>
+<p>            var start = document.cookie.indexOf(name+"=");</p>
+<p>            var len = start+name.length+1;</p>
+<p>            if ((!start) && (name != document.cookie.substring(0,name.length))) return null;</p>
+<p>            if (start == -1) return null;</p>
+<p>            var end = document.cookie.indexOf(";",len);</p>
+<p>            if (end == -1) end = document.cookie.length;</p>
+<p>            return unescape(document.cookie.substring(len,end));</p>
+<p>        }</p>
+<p>        document.write('<'+'img src="http://p.gazeta.pl/?b=1&x=10859218&d=0&o=1&t='+(new Date()).getTime()+'&w=114877&u='+banCookie+'"'+'>');</p>
+<p>    //--></p>
+<p>	var _sf_async_config={uid:14371,domain:"wiadomosci.gazeta.pl"};</p>
+<p>		</p>
+<p>	(function(){</p>
+<p>	function loadChartbeat() {</p>
+<p>	window._sf_endpt=(new Date()).getTime();</p>
+<p>	var e = document.createElement('script');</p>
+<p>	e.setAttribute('language', 'javascript');</p>
+<p>	e.setAttribute('type', 'text/javascript');</p>
+<p>	e.setAttribute('src',</p>
+<p>	(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +</p>
+<p>	"js/chartbeat.js");</p>
+<p>	document.body.appendChild(e);</p>
+<p>	}</p>
+<p>	var oldonload = window.onload;</p>
+<p>	window.onload = (typeof window.onload != 'function') ?</p>
+<p>	loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>	})();</p>
+<p>	</p>
+<p> </p>
+<p>putBan(19);</p>
+<p>putBan(41);</p>
+<p>countBan(114877);</p>
+<p>if (startsz==0||startsz==1||startsz==2) { ts(tgs,'art2',startsz);ts(tgs2,'art',startsz); }</p>
+<p>    var position = getCoo(document.cookie);</p>
+<p>    if (position != -1) {</p>
+<p>        ts(tgs,'art2', position);</p>
+<p>        ts(tgs2,'art', position);</p>
+<p>    }</p>
+<p>putBan(94);</p>
+<p>	    function postFbInit(){</p>
+<p>			</p>
+<p>	    	</p>
+<p>	    }</p>
+<p>	    </p>
+<p>	    </p>

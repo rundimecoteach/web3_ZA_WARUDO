@@ -1,0 +1,488 @@
+<p>Распускать сплетни оказалось полезно для здоровья - Комментарии</p>
+<p>  VK.init({apiId: 2037776, onlyWidgets: true});</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-19572315-1']);</p>
+<p>  _gaq.push(['_setDomainName', '.comments.ua']);</p>
+<p>  _gaq.push(['_setCustomVar',1,'subtype','news',3]);</p>
+<p>  _gaq.push(['_setCustomVar',2,'type','life',3]);</p>
+<p>  _gaq.push(['_setCustomVar',3,'chapter','none',3]);</p>
+<p>  _gaq.push(['_setCustomVar',4,'author','none',3]);</p>
+<p>  _gaq.push(['_setAllowAnchor', true]); </p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p><!--//--><![CDATA[//><!--</p>
+<p>var pp_gemius_identifier = new String('pyA7y7NS1IGCeff0LelcAWYkzZW1G5sY0pmPMFsSyCX.V7');</p>
+<p>//--><!]]></p>
+<p>        </p>
+<p>    </p>
+<p>    div.site{</p>
+<p>        padding: 0 20px;</p>
+<p>        background: url('/_im/zakladki/ht_bg.png') repeat-y;</p>
+<p>    }</p>
+<p>    </p>
+<p>#bl_img_2{background-image: url('/_im/zakladki/pic_2.png');}</p>
+<p>#bl_img_5{background-image: url('/_im/zakladki/pic_5.png');}</p>
+<p>#bl_img_10{background-image: url('/_im/zakladki/pic_10.png');}</p>
+<p>    </p>
+<p>Лицо украинской власти</p>
+<p>New</p>
+<p>Гиршфельд Анатолий Моисеевич</p>
+<p>Верховная Рада VII созыва</p>
+<p>Рейтинг губернаторов Украины</p>
+<p>    function ovr(wiz,id){var ct = document.getElementById(id).style.backgroundPosition='0 -' + wiz + 'px';}</p>
+<p>    function out(id){var ct = document.getElementById(id).style.backgroundPosition='0 0';}</p>
+<p>jQuery(document).ready(function(){</p>
+<p>	/* функция кроссбраузерного определения отступа от верха документа к текущей позиции скроллера прокрутки */</p>
+<p>	function getScrollTop() {</p>
+<p>	   var scrOfY = 0;</p>
+<p>	   if(typeof(window.pageYOffset) == "number"){</p>
+<p>		   //Netscape compliant</p>
+<p>		   scrOfY = window.pageYOffset;</p>
+<p>	   }else if(document.body && (document.body.scrollLeft || document.body.scrollTop)){</p>
+<p>		   //DOM compliant</p>
+<p>		   scrOfY = document.body.scrollTop;</p>
+<p>	   }else if(document.documentElement && (document.documentElement.scrollLeft || document.documentElement.scrollTop)){</p>
+<p>		   //IE6 Strict</p>
+<p>		   scrOfY = document.documentElement.scrollTop;</p>
+<p>	   }</p>
+<p>	   return scrOfY;</p>
+<p>	}</p>
+<p>	/* пересчитываем отступ при прокрутке экрана */</p>
+<p>	jQuery(window).scroll(function() {</p>
+<p>		fixPaneRefresh();</p>
+<p>	});</p>
+<p>	function fixPaneRefresh(){</p>
+<p>		if (jQuery("#blc_r").length) {</p>
+<p>			var top  = getScrollTop();</p>
+<p>			if (top < 240) jQuery("#blc_r").css("top",240-top+"px"); /* 240 - это наш отступ */</p>
+<p>			else jQuery("#blc_r").css("top","20px");</p>
+<p>		}</p>
+<p>        if (jQuery("#blc_l").length) {</p>
+<p>			var top  = getScrollTop();</p>
+<p>			if (top < 240) jQuery("#blc_l").css("top",240-top+"px"); /* 240 - это наш отступ */</p>
+<p>			else jQuery("#blc_l").css("top","20px");</p>
+<p>		}</p>
+<p>	}</p>
+<p>});</p>
+<p>(function($) {</p>
+<p>	$(function() {</p>
+<p>		$("#scroller").simplyScroll({direction:'backwards'});</p>
+<p>	});</p>
+<p>})(jQuery);</p>
+<p>.top_menu .simply-scroll {width: 722px;height: 40px;overflow: hidden;float: left;margin-left: 10px;}</p>
+<p>.top_menu .simply-scroll-clip {position: relative;overflow: hidden;}</p>
+<p>.top_menu .simply-scroll-list {overflow: hidden;margin: 0;padding: 0;list-style: none;}</p>
+<p>.top_menu .simply-scroll-list li {float: left;width: 800px;height: 40px;}</p>
+<p>#scroller {margin: 0px;padding: 0px;width: 722px;height: 40px;overflow: hidden;float: left;margin-left: 10px;}</p>
+<p>МИР</p>
+<p>УКРАИНА</p>
+<p>КИЕВ</p>
+<p>ХАРЬКОВ</p>
+<p>ДНЕПРОПЕТРОВСК</p>
+<p>ЗАПОРОЖЬЕ</p>
+<p>ДОНЕЦК</p>
+<p>ЛУГАНСК</p>
+<p>ОДЕССА</p>
+<p>КРЫМ</p>
+<p>ЛЬВОВ</p>
+<p>КИРОВОГРАД</p>
+<p>ЧЕРНОВЦЫ</p>
+<p>09:24</p>
+<p>10.04</p>
+<p><!--</p>
+<p>bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={o:1,v:54,s:54,t:6,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}</p>
+<p>try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}</p>
+<p>try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}</p>
+<p>r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r);bm.v^=r.length}</p>
+<p>bm.v^=window.location.href.length;for(var x in bm) if(/^[ovstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>bmD.write('<sc'+'ript type="text/javascript" language="javascript" src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');</p>
+<p>//--></p>
+<p><!--</p>
+<p>iS='<img src="http://r.i.ua/s?u1121&p0&n'+Math.random();</p>
+<p>iD=document;iD.cookie="iua=1";if(iD.cookie)iS+='&c1';</p>
+<p>try{</p>
+<p>iS+='&d'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)+"&w"+screen.width+'&h'+screen.height</p>
+<p>}catch(e){ }</p>
+<p>iT=iD.referrer.slice(7);iS+='&r'+escape(iH=window.location.href.slice(7));</p>
+<p>((iI=iT.indexOf('/'))!=-1)?(iT=iT.substring(0,iI)):(iI=iT.length);</p>
+<p>if(iT!=iH.substring(0,iI))iS+='&f'+escape(iD.referrer.slice(7));</p>
+<p>iD.write(iS+'" border="0" width="1" height="1" />');</p>
+<p>//--></p>
+<p><!--</p>
+<p>document.write('<img src="http://counter.yadro.ru/hit?r'+</p>
+<p>escape(document.referrer)+((typeof(screen)=='undefined')?'':</p>
+<p>';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?</p>
+<p>screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+</p>
+<p>';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+</p>
+<p>'" width=1 height=1 alt="">')//--></p>
+<p>(function(w, c) {</p>
+<p>    (w[c] = w[c] || []).push(function() {</p>
+<p>        try {</p>
+<p>            w.yaCounter6274405 = new Ya.Metrika({id:6274405,</p>
+<p>                    clickmap:true,</p>
+<p>                    trackLinks:true});</p>
+<p>        }</p>
+<p>        catch(e) { }</p>
+<p>    });</p>
+<p>})(window, 'yandex_metrika_callbacks');</p>
+<p>НОВОСТИ</p>
+<p>ТЕСТЫ</p>
+<p>ДАЙДЖЕСТ</p>
+<p>ФОРУМ</p>
+<p>ДОСЬЕ</p>
+<p>LIVEBLOG</p>
+<p>ФОТО</p>
+<p>ВИДЕО</p>
+<p>KYIVWEEKLY</p>
+<p>КОММЕНТАРИИ</p>
+<p>власть</p>
+<p>деньги</p>
+<p>стиль жизни</p>
+<p>hi-tech</p>
+<p>спорт</p>
+<p>мир</p>
+<p>.spec_projects_submenu {position: absolute; top: 30px; left: 640px; z-index: 1999; background-color: #f1f1f1; border-left: 1px solid #dedede; border-top: 1px solid #dedede; border-right: 1px solid #dedede; padding-top: 0px; display: none;}</p>
+<p>.spec_projects {border-bottom: 1px solid #dedede;}</p>
+<p>.spec_projects a {background-image: url(/_im/materials_list_item.jpg); background-position: 10px 14px; background-repeat: no-repeat; color: #525252; float: left; font-size: 10px; text-transform: uppercase; font-family: Arial; display: block; padding-left: 25px; padding-right: 15px; padding-bottom: 10px; padding-top: 10px;}</p>
+<p>.spec_projects a:hover {color: #cf1141; text-decoration: none;}</p>
+<p>.spec_extra_button {z-index: 99; background-image: url(/_im/vibori2012/extra_spec.gif); background-repeat: no-repeat; font-family: arial; font-size: 11px; color: white; display: block !important; height: 25px !important; width: 84px !important; padding: 0px !important; margin: 0px !important; position: absolute !important; right: 252px !important; top: 5px !important;}</p>
+<p>.spec_extra_button:hover {color: white;}</p>
+<p>$(document).ready(function(){</p>
+<p>	$(".spec_extra_button").click(function() {</p>
+<p>		$(".spec_projects_submenu").show();</p>
+<p>		return false;</p>
+<p>	});</p>
+<p>	$(".spec_projects_submenu").click(function() {</p>
+<p>		$(".spec_projects_submenu").hide();</p>
+<p>	});</p>
+<p>	$(document).click(function() {</p>
+<p>		$(".spec_projects_submenu").hide();</p>
+<p>	});</p>
+<p>	$(".spec_projects_submenu").click(function(e) {</p>
+<p>		e.stopPropagation();</p>
+<p>	});</p>
+<p>	$('.scrollable').scrollable({  </p>
+<p>	    size: 3,</p>
+<p>	    speed:400,</p>
+<p>		easing: 'swing'</p>
+<p>	}).circular();</p>
+<p>});</p>
+<p> </p>
+<p>Лицо украинской власти</p>
+<p>Герои и Антигерои 2012 года</p>
+<p>21 год независимости: превращение в украинца</p>
+<p>Дневник эмигранта: Хорошо ли там, где нас нет?</p>
+<p>ОНЛАЙН Трансляции</p>
+<p>Верховная Рада VII созыва: кто есть кто</p>
+<p>Словарь Януковича</p>
+<p>function querySt(ji) {</p>
+<p>hu = window.location.search.substring(1);</p>
+<p>gy = hu.split("&");</p>
+<p>for(i=0;i<gy.length;i++) {</p>
+<p>ft = gy[i].split("=");</p>
+<p>if(ft[0]==ji) return ft[1];</p>
+<p>}</p>
+<p>return 0;</p>
+<p>}</p>
+<p>var cursm = null;</p>
+<p>var sm_a = new Array(6);</p>
+<p>sm_a[10]="politics";sm_a[12]="money";sm_a[13]="life";sm_a[14]="ht";sm_a[16]="sport";sm_a[17]="world";</p>
+<p>var curHref = window.location.href;</p>
+<p>var a_curHref = curHref.split("/");</p>
+<p>var a_host = a_curHref[3];</p>
+<p>if(a_curHref[3]=='news') $("#m_news").addClass("active");</p>
+<p>if(cursm==null&&(a_curHref[3]=='news'||a_curHref[3]=='articles')) {</p>
+<p>cursm = sm_a[querySt("tid")];</p>
+<p>}</p>
+<p>if(cursm==null) {</p>
+<p>for(var ii=0;ii<sm_a.length;ii++) { </p>
+<p>if(a_host==sm_a[ii]) cursm = sm_a[ii]; </p>
+<p>}</p>
+<p>}</p>
+<p>if(cursm!=null) {</p>
+<p>$("#sm_"+cursm).attr("className","text_red_menu");</p>
+<p>$("#sm_"+cursm+" img").attr("src","/_im/icon_"+cursm+"_menu.jpg");</p>
+<p>}</p>
+<p>var m_a = new Array(6);</p>
+<p>m_a[10]="news";m_a[11]="live";m_a[12]="foto";m_a[13]="digest";m_a[14]="video";</p>
+<p>for(var ii=0;ii<m_a.length;ii++) { </p>
+<p>if(a_host==m_a[ii]) $("#m_"+m_a[ii]).addClass("active");</p>
+<p>}</p>
+<p>function checkSearch(it) {</p>
+<p>if(it.s.value==""||it.s.value=="Поиск..") {</p>
+<p>$("#search_field").css('background-color','#FFCCCC');</p>
+<p>it.s.focus();</p>
+<p>return false;</p>
+<p>}</p>
+<p>return true;</p>
+<p>}</p>
+<p>$("#search_field").val('Пoиск..');</p>
+<p>Сплетничая, люди часто смеются, что положительно влияет на здоровье и ощущение счастья</p>
+<p>    					</p>
+<p>Распускать сплетни оказалось полезно для здоровья</p>
+<p>    				</p>
+<p>08/12/2011 17:30</p>
+<p>0</p>
+<p>    								Автор:</p>
+<p>    							</p>
+<p>		материалы по теме:</p>
+<p>	</p>
+<p>Тюремщики рассказывают, что Иващенко все лучше и лучше</p>
+<p>	</p>
+<p>Исследование: для женского здоровья полезны сплетни</p>
+<p>	</p>
+<p>Снег «озолотил» столичных таксистов</p>
+<p>	</p>
+<p>Митрополит Владимир пошел на поправку</p>
+<p>	</p>
+<p>			VK.Widgets.Like("vk_like", {type: "mini"});</p>
+<p>		</p>
+<p>Твитнуть</p>
+<p>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</p>
+<p>  window.___gcfg = {lang: 'ru'};</p>
+<p>  (function() {</p>
+<p>    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>    po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>  })();</p>
+<p>Сплетни повышают уровень положительных гормонов, помогают снять стресс и тревожность, уверены психологи</p>
+<p>Опрос, проведенный группой исследователей из Гарвардского Университета, показал, что 85% женщин</p>
+<p> обожает слушать сплетни, а 10% любят сплетничать сами. Как утверждает </p>
+<p>большинство из опрошенных, обсуждение знакомых и незнакомых людей делает</p>
+<p> людей социально сплоченными, повышает у них чувство благополучия и </p>
+<p>помогает собирать полезную информацию.</p>
+<p>	По правде говоря, если человек слышит, что у других людей тоже есть </p>
+<p>проблемы, то он испытывает облегчение. Кроме того, сплетничая, люди </p>
+<p>часто смеются, что положительно влияет на здоровье и ощущение счастья.</p>
+<p>Читайте новости Comments.UA в социальных сетях facebook и twitter.</p>
+<p>Источник: «Likar.info»</p>
+<p>Источник фото: fotokonkurs.ru</p>
+<p>Теги: сплетни, здоровье, счастье, проблемы, распускать сплетни, здоровье</p>
+<p>Версия для печати</p>
+<p><!--</p>
+<p>var vhblockID=2469, date=new Date();</p>
+<p>document.write('<scr'+'ipt type="text/javascript" src="http://i.holder.com.ua/t/content.y'+</p>
+<p>(date.getFullYear()%100)+date.getMonth()+date.getDate()+'.js"></scr'+'ipt>');</p>
+<p>//--></p>
+<p>VK.Widgets.Subscribe("vk_subscribe", {soft: 1}, -35657649);</p>
+<p>А ТЫ уже читаешь нас Вконтакте?</p>
+<p>VK.Widgets.Group("vk_groups", {mode: 0, width: "660", height: "100"}, 35657649);</p>
+<p>	var disqus_shortname = 'commentsua';</p>
+<p>	var disqus_identifier = 'id_308016_ru_life_news';</p>
+<p>	var disqus_category_id = 587118;</p>
+<p>	var disqus_url = 'http://comments.ua/life/308016-raspuskat-spletni-okazalos.html';</p>
+<p>	var disqus_title = 'Распускать сплетни оказалось полезно для здоровья';</p>
+<p>  (function() {</p>
+<p>   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.charset = 'utf-8'; dsq.async = true;</p>
+<p>   dsq.src = 'http://commentsua.disqus.com/embed.js';</p>
+<p>   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);</p>
+<p>  })();</p>
+<p>Пожалуйста включите JavaScript для просмотра комментариев powered by Disqus.</p>
+<p>комментарии powered by Disqus</p>
+<p>Украинские горы продают по европейским ценам</p>
+<p>Семь барьеров для переохлаждения: бульон, носки и трезвый образ жизни</p>
+<p>Чиновники повернут время в московскую сторону</p>
+<p>Кто украинцам будет отключать тепло</p>
+<p>Украинская молодежь хочет научиться обходить закон</p>
+<p>Украинцы массово отказываются от мучного</p>
+<p>Валерий Хорошковский: политический портрет</p>
+<p>var cur_act = 0;</p>
+<p>var max_act = 6;</p>
+<p>function nextAct() {</p>
+<p>	var next_act = cur_act==max_act ? 0 : cur_act+1;</p>
+<p>	$("#actual_"+cur_act).css("z-index","998");</p>
+<p>	$("#actual_"+next_act).css("z-index","999");</p>
+<p>	$("#actual_"+next_act).slideDown('slow',function() {</p>
+<p>		$("#actual_"+cur_act).hide(0,function(){</p>
+<p>			cur_act = next_act;</p>
+<p>		});</p>
+<p>	});</p>
+<p>}</p>
+<p>$(document).ready(function(){ </p>
+<p>	var topActualId = setInterval(function() {</p>
+<p>		nextAct();</p>
+<p>	}, 15000);</p>
+<p>	$('.photo_box').hover( </p>
+<p>		function() { clearInterval(topActualId); } </p>
+<p>	);  </p>
+<p>});</p>
+<p>new adriver("adriver_banner_37626188", {sid:173406, bt:52, sz:'main'});</p>
+<p>    (function (zid, phid, bid, bhash) {</p>
+<p>        var w = window, d = document;</p>
+<p>        iu = 'http://ad.admixer.net/adsource_async.js?zone=' + zid + '&phid=' + phid;</p>
+<p>        bid && (iu += '&item=' + bid + '&ihash=' + bhash);</p>
+<p>        d.referrer && (iu += "&ref=" + encodeURIComponent(d.referrer));</p>
+<p>        iu += '&pg=' + encodeURIComponent(w.location.href);</p>
+<p>        w.pvId || (w.pvId = new Date().getTime());</p>
+<p>        iu += '&pvId=' + w.pvId;</p>
+<p>        var h = d.getElementsByTagName("head")[0], s = document.createElement("script");</p>
+<p>        s.setAttribute("type", "text/javascript");</p>
+<p>        s.setAttribute("src", iu);</p>
+<p>        h.insertBefore(s, h.firstChild);</p>
+<p>    })('c97a22f5-638a-46c1-8b46-b4029a22fb65', 'admixer_async_1412305779');</p>
+<p>Погода Погода в Киевевлажность: давление: ветер: </p>
+<p>Последние новости</p>
+<p>			09:15</p>
+<p>		</p>
+<p>				«Динамо» подтвердило наказание от УЕФА</p>
+<p>				</p>
+<p>			</p>
+<p>			09:14</p>
+<p>		</p>
+<p>				Intel анонсировала первые серверные чипы Haswell</p>
+<p>				</p>
+<p>			</p>
+<p>			09:11</p>
+<p>		</p>
+<p>				Харви Кейтель сыграет злобного шерифа</p>
+<p>				</p>
+<p>			</p>
+<p>			09:07</p>
+<p>		</p>
+<p>				В 160 тыс. авто Hyundai и Kia нашли дефекты в тормозной системе</p>
+<p>				</p>
+<p>			</p>
+<p>			09:00</p>
+<p>		</p>
+<p>				КНДР может запустить сразу несколько ракет</p>
+<p>				</p>
+<p>			</p>
+<p>			08:58</p>
+<p>		</p>
+<p>				В Ереване столкнулись полиция с оппозицией</p>
+<p>				</p>
+<p>			</p>
+<p>			08:57</p>
+<p>		</p>
+<p>				Килограмм челябинского метеорита подарили музею Чикаго</p>
+<p>				</p>
+<p>			</p>
+<p>			08:57</p>
+<p>		</p>
+<p>				На Черниговщине на пожаре сгорели трое людей</p>
+<p>				</p>
+<p>			</p>
+<p>			08:56</p>
+<p>		</p>
+<p>				В США монахиня просадила в казино украденных у церкви $130 тыс</p>
+<p>				</p>
+<p>			</p>
+<p>			08:55</p>
+<p>		</p>
+<p>				В Китае выросло число жертв птичьего гриппа</p>
+<p>				</p>
+<p>			</p>
+<p>Читать все</p>
+<p>»</p>
+<p>Последние статьи</p>
+<p>						Вузы хотят заменить интернет-обучением</p>
+<p>					</p>
+<p>						»</p>
+<p>					</p>
+<p>						Восемь лучших фильмов Бельмондо (ВИДЕО)</p>
+<p>					</p>
+<p>						»</p>
+<p>					</p>
+<p>Читать все</p>
+<p>»</p>
+<p>Регионы</p>
+<p>Одесса</p>
+<p>Одесситка упала с пятого этажа, пытаясь спуститься по простыням (ВИДЕО)</p>
+<p>				</p>
+<p>»</p>
+<p>Киев</p>
+<p>«Динамо» посперечається з «Шахтарем» за хавбека збірної Польщі</p>
+<p>				</p>
+<p>»</p>
+<p>Харьков</p>
+<p>Милиция нашла «крайнего» за снежную атаку под ВР</p>
+<p>				</p>
+<p>»</p>
+<p>работа технолог Одесса, гороскоп совместимости водолей, http://avtosale.ua/</p>
+<p>власть</p>
+<p>деньги</p>
+<p>стиль жизни</p>
+<p>hi-tech</p>
+<p>спорт</p>
+<p>мир</p>
+<p>  window.___gcfg = {lang: 'ru'};</p>
+<p>  (function() {</p>
+<p>    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>    po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>  })();</p>
+<p>Архив</p>
+<p>Экспорт</p>
+<p>О проекте / Контакт</p>
+<p>Информатор</p>
+<p>if(cursm!=null) {</p>
+<p>$("#smb_"+cursm).attr("className","text_red_menu");</p>
+<p>$("#smb_"+cursm+" img").attr("src","/_im/icon_"+cursm+"_menu.jpg");</p>
+<p>}</p>
+<p>for(var ii=0;ii<m_a.length;ii++) { </p>
+<p>if(a_host==m_a[ii]) $("#mb_"+m_a[ii]).addClass("active");</p>
+<p>}</p>
+<p>НОВОСТИ</p>
+<p>ТЕСТЫ</p>
+<p>ДАЙДЖЕСТ</p>
+<p>ФОРУМ</p>
+<p>ДОСЬЕ</p>
+<p>LIVEBLOG</p>
+<p>ФОТО</p>
+<p>ВИДЕО</p>
+<p>KYIVWEEKLY</p>
+<p>КОММЕНТАРИИ</p>
+<p>									  </p>
+<p>									© «Комментарии:», 2013</p>
+<p>								</p>
+<p><!--</p>
+<p>function BM_Draw(oBM_STAT){</p>
+<p>document.write('<table cellpadding="0" cellspacing="0" border="0" style="display:inline;margin-right:4px;"><tr><td><div style="margin:0px;padding:0px;font-size:1px;width:88px;"><div style="background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b58_top.gif\') no-repeat bottom;"> </div><div style="font:10px Tahoma;background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b58_center.gif\');"><div style="text-align:center;"><a href="http://www.bigmir.net/" target="_blank" rel="nofollow" style="color:#0000ab;text-decoration:none;font:10px Tahoma;">bigmir<span style="color:#ff0000;">)</span>net</a></div><div style="margin-top:3px;padding: 0px 6px 0px 6px;color:#003596;"><div style="float:left;font:10px Tahoma;">'+oBM_STAT.hosts+'</div><div style="float:right;font:10px Tahoma;">'+oBM_STAT.hits+'</div></div><br clear="all"/></div><div style="background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b58_bottom.gif\') no-repeat top;"> </div></div></td></tr></table>');</p>
+<p>}</p>
+<p>//--></p>
+<p>var tns_already;</p>
+<p>if ("undefined"==typeof(tns_already) || null==tns_already || 0==tns_already)</p>
+<p>{</p>
+<p>tns_already=1;</p>
+<p>var i=new Image();</p>
+<p>i.src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=comments.ua&j=1&nocache="+Math.random();</p>
+<p>(function(){</p>
+<p>var p=document.getElementsByTagName('head')[0];</p>
+<p>var s=document.createElement("script");</p>
+<p>s.type="text/javascript";</p>
+<p>s.src="http://source.mmi.bemobile.ua/cm/cm.js";</p>
+<p>s.async = true;</p>
+<p>p.appendChild(s);</p>
+<p>})();</p>
+<p>};</p>
+<p>При воспроизведении или цитировании статей, опубликованных на Информационно-аналитическом портале «КОММЕНТАРИИ:» (comments.ua), указания имени авторов и источника обязательно. Интернет-ресурсам запрещено цитировать и воспроизводить текстовые материалы Информационно-аналитического портала «КОММЕНТАРИИ:» (comments.ua) без указания активной гиперссылки на www.comments.ua (не закрытой от индексирования поисковыми системами) непосредственно в тексте новости, не ниже второго абзаца, а также вносить изменения в тексты без письменного разрешения редакции портала. Перепечатка, копирование или воспроизведение информации, содержащей ссылку на информационные агентства «Интерфакс-Украина», «Українськi новини», УНИАН, в каком-либо виде строго запрещены. Фотографии, изображения принадлежат правообладателям. Редакция портала может не разделять мнение автора и не несет ответственности за авторские материалы. Оценочные суждения не подлежат опровержению и доказыванию их правдивости. За достоверность и содержание рекламы ответственность несет рекламодатель. В разделе «Дайджест» публикуются материалы, ранее опубликованные другими СМИ.</p>
+<p>    var disqus_shortname = a_curHref[3]=='live' ? 'livecomments' : 'commentsua';</p>
+<p>    (function () {</p>
+<p>        var s = document.createElement('script'); s.async = true;</p>
+<p>        s.type = 'text/javascript';</p>
+<p>        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';</p>
+<p>        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);</p>
+<p>    }());</p>
+<p>(function () {</p>
+<p>	var w = window, d = document;</p>
+<p>	w.admixZArr = (w.admixZArr || []);</p>
+<p>	w.admixerSmOptions = (w.admixerSmOptions || {});</p>
+<p>	w.admixerSmOptions.showAdsOnLoad = true;</p>
+<p>	if (!w.admixerSm) {</p>
+<p>	    var adms = document.createElement('script');</p>
+<p>	    adms.async = true;</p>
+<p>	    adms.type = 'text/javascript';</p>
+<p>	    adms.src = 'http://cdn.admixer.net/scriptlib/asm2.js?v=3';</p>
+<p>	    var node = d.getElementsByTagName('script')[0];</p>
+<p>	    node.parentNode.insertBefore(adms, node);</p>
+<p>	}</p>
+<p>})();</p>
+<p>    window.admixZArr = (window.admixZArr || []);</p>
+<p>    window.admixZArr.push({ z: '7274e280-fb98-452e-a4bb-f9ef1a7e942d', ph: 'admixer_async_1590858848'});</p>

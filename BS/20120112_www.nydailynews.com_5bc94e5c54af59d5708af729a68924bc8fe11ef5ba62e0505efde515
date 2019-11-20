@@ -1,0 +1,764 @@
+<p>Allergic girl dies after classmate gives her peanut at school in Virginia - NY Daily News</p>
+<p>     </p>
+<p>                                //  jQuery.noConflict();</p>
+<p>                                jQuery(document).ready(function() {</p>
+<p>                                setSearchType("site"); </p>
+<p>                                //jQuery("img[src$=png], #search_area").pngFix();</p>
+<p>                                });</p>
+<p>                                // contentType: nydn.StandardArticle</p>
+<p>                                // currentLayout: nydn.HomePageLayout</p>
+<p>                            </p>
+<p>  var _vrq = _vrq || [];</p>
+<p>  _vrq.push(['id', 5]);</p>
+<p>  _vrq.push(['automate', true]);</p>
+<p>  _vrq.push(['track', function(){}]);</p>
+<p>  (function(d, a){</p>
+<p>    var s = d.createElement(a),</p>
+<p>    x = d.getElementsByTagName(a)[0];</p>
+<p>    s.async = true;</p>
+<p>    s.src = 'http://a.visualrevenue.com/vrs.js';</p>
+<p>    x.parentNode.insertBefore(s, x);</p>
+<p>  })(document, 'script');</p>
+<p>// CURRENT_LAYOUT  nydn.HomePageLayout</p>
+<p>// CURRENT_CONTENT_TYPE nydn.StandardArticle</p>
+<p>// modelType - nydn.InitYahooAdsElement</p>
+<p>//<![CDATA[</p>
+<p><!--</p>
+<p>yld_mgr = {};</p>
+<p>yld_mgr.slots = {};</p>
+<p>yld_mgr.container_type="js";</p>
+<p>yld_mgr.request_type="ac";</p>
+<p>yld_mgr.pub_id="21058125506";</p>
+<p>yld_mgr.site_name="NYDN";</p>
+<p>yld_mgr.clk_dest="_blank";</p>
+<p>yld_mgr.content_topic_id_list=["20279001"];</p>
+<p>yld_mgr.site_section_name_list=["Article"];</p>
+<p>yld_mgr.content_type_list=["fn_news"];</p>
+<p>yld_mgr.cstm_content_cat_list=[null];</p>
+<p>yld_mgr.slots.x46 = {};</p>
+<p>yld_mgr.slots.x46.ad_delivery_mode='ipatf';</p>
+<p>yld_mgr.slots.x46.ad_size_list=['728x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x46.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x46.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x42 = {};</p>
+<p>yld_mgr.slots.x42.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x42.ad_size_list=['190x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x42.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x42.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x47 = {};</p>
+<p>yld_mgr.slots.x47.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x47.ad_size_list=['728x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x47.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x47.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x55 = {};</p>
+<p>yld_mgr.slots.x55.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x55.ad_size_list=['300x250'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x55.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x55.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x44 = {};</p>
+<p>yld_mgr.slots.x44.ad_delivery_mode='ipatf';</p>
+<p>yld_mgr.slots.x44.ad_size_list=['950x35'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x44.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x44.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x50 = {};</p>
+<p>yld_mgr.slots.x50.ad_delivery_mode='ipatf';</p>
+<p>yld_mgr.slots.x50.ad_size_list=['300x250'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x50.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x50.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x42 = {};</p>
+<p>yld_mgr.slots.x42.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x42.ad_size_list=['190x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x42.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x42.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x47 = {};</p>
+<p>yld_mgr.slots.x47.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x47.ad_size_list=['728x90'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x47.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x47.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>yld_mgr.slots.x86 = {};</p>
+<p>yld_mgr.slots.x86.ad_delivery_mode='ipbtf';</p>
+<p>yld_mgr.slots.x86.ad_size_list=['300x250'];</p>
+<p>if(typeof yld_mgr.content_type_list != 'undefined') { yld_mgr.slots.x86.content_type_list = yld_mgr.content_type_list; }</p>
+<p>if(typeof yld_mgr.cstm_content_cat_list != 'undefined') { yld_mgr.slots.x86.cstm_content_cat_list=yld_mgr.cstm_content_cat_list;}</p>
+<p>//--></p>
+<p>//]]></p>
+<p>    var _gaq = _gaq || [];</p>
+<p>    _gaq.push(['_setAccount', 'UA-20856122-1']);</p>
+<p>    _gaq.push(['_setDomainName', '.nydailynews.com']);</p>
+<p>    _gaq.push(['_trackPageview']);</p>
+<p>    (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>    })();</p>
+<p>  </p>
+<p> <!--</p>
+<p>    var YWATracker = YWA.getTracker("1000563892833");</p>
+<p>    var nydn_dgrp = jQuery.trim(jQuery("#area_title").text());</p>
+<p>  if(nydn_dgrp != "") { YWATracker.setDocumentGroup(nydn_dgrp);  } else {     YWATracker.setDocumentGroup("Homepage") ; }  </p>
+<p>  YWATracker.submit();</p>
+<p>    function dcsMultiTrack() {}</p>
+<p>    //--></p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=366487756153";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</p>
+<p>COMSCORE.beacon({</p>
+<p>    c1:2,</p>
+<p>    c2:7190388,</p>
+<p>    c3:"",</p>
+<p>    c4:"",</p>
+<p>    c5:"",</p>
+<p>    c6:"",</p>
+<p>    c15:""</p>
+<p>    });</p>
+<p>  </p>
+<p>                        //<![CDATA[</p>
+<p>                        <!--</p>
+<p>                        if(typeof yld_mgr != 'undefined') {</p>
+<p>                        yld_mgr.place_ad_here('x46');</p>
+<p>                        }</p>
+<p>                        //--></p>
+<p>                        //]]></p>
+<p>                    </p>
+<p>                        //<![CDATA[</p>
+<p>                        <!--</p>
+<p>                        if(typeof yld_mgr != 'undefined') {</p>
+<p>                        yld_mgr.place_ad_here('x42');</p>
+<p>                        }</p>
+<p>                        //--></p>
+<p>                        //]]></p>
+<p>                    </p>
+<p>Home</p>
+<p>Autos</p>
+<p>Real Estate</p>
+<p>Jobs</p>
+<p>Classifieds</p>
+<p>Apps</p>
+<p>Place an Ad</p>
+<p>Buy Pictures</p>
+<p>Contests</p>
+<p>Reader Offers</p>
+<p>                 nydn_userDetails();</p>
+<p>              </p>
+<p>National</p>
+<p>SITE</p>
+<p>BLOGS</p>
+<p>WEB</p>
+<p>Search powered by</p>
+<p>Search Field</p>
+<p><!--</p>
+<p> function search_action(){</p>
+<p>        var url = document.getElementById("selecturl").value;</p>
+<p>        if(url == "blogs"){</p>
+<p>            document.searchForm.action = "http://www.nydailynews.com/blogs/nydn";</p>
+<p>            document.searchForm.q.name = "search";</p>
+<p>            document.searchForm.submit();</p>
+<p>        }</p>
+<p>        else {</p>
+<p>            document.searchForm.action ="/search-results/search-results-7.113";</p>
+<p>            document.searchForm.submit();</p>
+<p>        }</p>
+<p> }</p>
+<p>//-->  </p>
+<p>        jQuery(document).ready(function(){ </p>
+<p>        jQuery('ul.sf-menu').superfish({ </p>
+<p>        pathClass:  'current',</p>
+<p>        pathLevels: 2,</p>
+<p>        speed: 'fast',</p>
+<p>        autoArrows:  false,</p>
+<p>        dropShadows: false</p>
+<p>        }); </p>
+<p>        }); </p>
+<p>    </p>
+<p>News </p>
+<p>		</p>
+<p>                                                                                                        National</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        World</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Politics</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Crime</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Money</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        CES</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        The Week</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>News Blogs</p>
+<p>Sports </p>
+<p>		</p>
+<p>                                                                                                        Baseball</p>
+<p>                                            </p>
+<p>Yankees</p>
+<p>Mets</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        Football</p>
+<p>                                            </p>
+<p>Giants</p>
+<p>Jets</p>
+<p>Pick'Em</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        Basketball</p>
+<p>                                            </p>
+<p>Knicks</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        Hockey</p>
+<p>                                            </p>
+<p>Rangers</p>
+<p>Scoreboard</p>
+<p>Leaders</p>
+<p>Standings</p>
+<p>Teams</p>
+<p>Players</p>
+<p>Player News</p>
+<p>Transactions</p>
+<p>Odds</p>
+<p>		</p>
+<p>                                                                                                        College</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        I-Team</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        High School</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        More Sports</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>Sports Blogs</p>
+<p>Gossip </p>
+<p>		</p>
+<p>                                                                                                        Celebrity Photos</p>
+<p>                                            </p>
+<p>Entertainment </p>
+<p>		</p>
+<p>                                                                                                        Movies</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Television</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Music & Arts</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Comics</p>
+<p>                                            </p>
+<p>Contests</p>
+<p>Horoscopes</p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        WATN Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>Entertainment Blogs</p>
+<p>Events </p>
+<p>New York </p>
+<p>		</p>
+<p>                                                                                                        Bronx</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Brooklyn</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Queens</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Uptown</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Education</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Weather</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Traffic</p>
+<p>                                            </p>
+<p>Latino</p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Columnists</p>
+<p>                                            </p>
+<p>Opinion </p>
+<p>Life & Style </p>
+<p>		</p>
+<p>                                                                                                        Eats</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Fashion</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Health</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Travel</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Horoscopes</p>
+<p>                                            </p>
+<p>Comics</p>
+<p>		</p>
+<p>                                                                                                        Photos</p>
+<p>                                            </p>
+<p>Photos</p>
+<p>Services </p>
+<p>		</p>
+<p>                                                                                                        NIE</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Feeds</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Social Media</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Mobile</p>
+<p>                                            </p>
+<p>Home Delivery</p>
+<p>Manage Home Delivery</p>
+<p>		</p>
+<p>                                                                                                        FAQs</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Sitemap</p>
+<p>                                            </p>
+<p>		</p>
+<p>                                                                                                        Media Kit</p>
+<p>                                            </p>
+<p>Your Profile</p>
+<p>		</p>
+<p>                                                                                                        Death Notices</p>
+<p>                                            </p>
+<p>            //<![CDATA[</p>
+<p>            <!--</p>
+<p>            if(typeof yld_mgr != 'undefined' && typeof yld_mgr.slots.x44 != 'undefined') { </p>
+<p>            yld_mgr.place_ad_here('x44');</p>
+<p>            }</p>
+<p>            //--></p>
+<p>            //]]></p>
+<p>        </p>
+<p>Print</p>
+<p>Allergic girl dies after classmate gives her peanut at school in Virginia</p>
+<p> Ammaria Johnson’s mom says daughter’s allergy action plan wasn’t implemented </p>
+<p>Comments</p>
+<p>                                                                                    By</p>
+<p>                                                                                             Nina Mandell                                                                                                                                         / NEW YORK DAILY NEWS</p>
+<p>                                                                                        </p>
+<p>Published: Thursday, January 12 2012, 9:00 AM</p>
+<p> Updated: Thursday, January 12 2012, 9:40 AM</p>
+<p>Tweet</p>
+<p>            </p>
+<p>            jQuery(document).ready(function(){</p>
+<p>    detectScroll;</p>
+<p>    function detectScroll(){</p>
+<p>        if( ( jQuery(window).scrollTop() > ( jQuery(".story-share").position().top + jQuery(".story-share").height() ) ) && ( jQuery(window).width() > 1230 ) ){</p>
+<p>            jQuery(".vertical").show();</p>
+<p>        }else{</p>
+<p>            jQuery(".vertical").hide();</p>
+<p>        }</p>
+<p>    }</p>
+<p>    jQuery(window).bind('scroll', detectScroll);</p>
+<p>    jQuery(window).resize(function() {</p>
+<p>        if((jQuery(window).width() > 1230) && (jQuery(window).scrollTop() > (jQuery(".story-share").position().top + jQuery(".story-share").height()))){</p>
+<p>            jQuery(".vertical").show();</p>
+<p>        }else{</p>
+<p>            jQuery(".vertical").hide();</p>
+<p>        }</p>
+<p>    });</p>
+<p>        </p>
+<p>    jQuery("span.goto-comments").click(function(){ </p>
+<p>        commentTop = jQuery("#story-comments").position().top;</p>
+<p>        jQuery('html,body').animate({ scrollTop: commentTop }, 500);</p>
+<p>    });</p>
+<p>    jQuery("span#post-comment").click(function(){ </p>
+<p>        formTop = jQuery("#comment-form").position().top;</p>
+<p>        jQuery('html,body').animate({ scrollTop: formTop }, 500);</p>
+<p>    });</p>
+<p>});</p>
+<p>            </p>
+<p>            </p>
+<p>                var act = new gigya.services.socialize.UserAction();</p>
+<p>                //act.setUserMessage("This is the user message");</p>
+<p>                act.setTitle("Allergic girl dies after eating nut at school");</p>
+<p>                act.setLinkBack("http://www.nydailynews.com/news/national/allergic-girl-dies-classmate-peanut-school-virginia-article-1.1004980");</p>
+<p>                act.setDescription("An allergic Virginia first-grader died after a classmate gave her a peanut, police concluded after an investigation.      The tragic case has rekindled questions about how prepared schools are to handle students with severe allergies, ABC News reported Wednesday.");</p>
+<p>                //  act.addActionLink("Watch this movie", "http://vimeo.com/24496773");</p>
+<p>                act.addMediaItem({ type: 'image', src: 'http://assets.nydailynews.com/polopoly_fs/1.1004979!/img/httpImage/image.jpg_gen/derivatives/searchthumbnail_75/image.jpg', href: 'http://www.nydailynews.com/news/national/allergic-girl-dies-classmate-peanut-school-virginia-article-1.1004980' });</p>
+<p>                var showShareBarUI_params=</p>
+<p>                { </p>
+<p>                containerID: 'horizontal',</p>
+<p>                shareButtons: 'Google-plusone,Stumbleupon,Tumblr, Reddit, Email',</p>
+<p>                showCounts: 'none',</p>
+<p>                userAction: act,</p>
+<p>                onLoad: onLoadHandler,</p>
+<p>                onSendDone: onSendDoneHandler</p>
+<p>                }</p>
+<p>                </p>
+<p>                function onLoadHandler(event){</p>
+<p>                    if(loginId.length > 0){</p>
+<p>                        jQuery('input[id$="gigya.services.socialize.plugins.share.showShareUI_tbYourEmail"]').val(loginId);</p>
+<p>                    }</p>
+<p>                }</p>
+<p>                </p>
+<p>                // onSendDone event handler.</p>
+<p>                function onSendDoneHandler(event){</p>
+<p>                    if (event.providers == 'email') { </p>
+<p>                        // add this to email logger</p>
+<p>                        jQuery('.logger').empty();</p>
+<p>                        jQuery('.logger').append('<img src="/logger/p.gif?type=EMAILED&d=/2.169/2.1188/2.1189&a=1.1004980"/>');</p>
+<p>                    }</p>
+<p>                    else{</p>
+<p>                        // add this to share logger</p>
+<p>                        jQuery('.logger').empty();</p>
+<p>                        jQuery('.logger').append('<img src="/logger/p.gif?type=SOCIALNETWORK&d=/2.169/2.1188/2.1189&a=1.1004980"/>');</p>
+<p>                    }</p>
+<p>                }</p>
+<p>            </p>
+<p>                gigya.services.socialize.showShareBarUI({},showShareBarUI_params);</p>
+<p>            </p>
+<p>                            var act = new gigya.services.socialize.UserAction();</p>
+<p>                            act.setTitle("Allergic girl dies after eating nut at school");</p>
+<p>                            act.setLinkBack("http://www.nydailynews.com/news/national/allergic-girl-dies-classmate-peanut-school-virginia-article-1.1004980");</p>
+<p>                            act.setDescription("An allergic Virginia first-grader died after a classmate gave her a peanut, police concluded after an investigation.      The tragic case has rekindled questions about how prepared schools are to handle students with severe allergies, ABC News reported Wednesday."); </p>
+<p>                            act.addMediaItem({ type: 'image', src: 'http://assets.nydailynews.com/polopoly_fs/1.1004979!/img/httpImage/image.jpg_gen/derivatives/searchthumbnail_75/image.jpg', href: 'http://www.nydailynews.com/news/national/allergic-girl-dies-classmate-peanut-school-virginia-article-1.1004980' });</p>
+<p>                            var showShareBarUI_params=</p>
+<p>                            {   </p>
+<p>                            layout:'vertical',</p>
+<p>                            containerID: 'vertical',</p>
+<p>                            shareButtons: [</p>
+<p>                            { provider: 'Facebook-Like',action: 'recommend',tooltip: 'Recommend'},</p>
+<p>                            { provider: 'Twitter-Tweet'},</p>
+<p>                            { provider: 'Google-plusone'},</p>
+<p>                            { provider: 'Stumbleupon'},</p>
+<p>                            { provider: 'Tumblr'},</p>
+<p>                            { provider: 'Digg'},</p>
+<p>                            { provider: 'Email'}</p>
+<p>                            ],</p>
+<p>                            showCounts: 'top',</p>
+<p>                            userAction: act,</p>
+<p>                            onLoad: onLoadHandler,</p>
+<p>                            onSendDone: onSendDoneHandler</p>
+<p>                            }</p>
+<p>                            </p>
+<p>                            function onLoadHandler(event){</p>
+<p>                                if(loginId.length > 0){</p>
+<p>                                    jQuery('input[id$="gigya.services.socialize.plugins.share.showShareUI_tbYourEmail"]').val(loginId);</p>
+<p>                                }</p>
+<p>                            }</p>
+<p>                            </p>
+<p>                            // onSendDone event handler.</p>
+<p>                            function onSendDoneHandler(event){</p>
+<p>                            if (event.providers == 'email') { </p>
+<p>                            // add this to email logger</p>
+<p>                            jQuery('.logger').empty();</p>
+<p>                            jQuery('.logger').append('<img src="/logger/p.gif?type=EMAILED&d=/2.169/2.1188/2.1189&a=1.1004980"/>');</p>
+<p>                            }</p>
+<p>                            else{</p>
+<p>                            // add this to log</p>
+<p>                            jQuery('.logger').empty();</p>
+<p>                            jQuery('.logger').append('<img src="/logger/p.gif?type=SOCIALNETWORK&d=/2.169/2.1188/2.1189&a=1.1004980"/>');</p>
+<p>                            }</p>
+<p>                            }</p>
+<p>                        </p>
+<p>                            gigya.services.socialize.showShareBarUI({},showShareBarUI_params);</p>
+<p>                        </p>
+<p> </p>
+<p> Family Photo/CBS</p>
+<p> Ammaria Johnson, 7, died  after suffering a  severe allergic reaction to a peanut given to her by a classmate at school.</p>
+<p>Related</p>
+<p>                    Stories</p>
+<p>Menin: Inject good sense into aiding those with food allergies</p>
+<p>Cats increase allergy risk in adults; Kids with cats less likely to develop sneezes </p>
+<p>No vaccine link to autism or diabetes: study</p>
+<p>Man found dead outside home had hundreds of bee stings: medical examiner</p>
+<p>City trees killing allergy sufferers</p>
+<p>Manhattan psychologist killed after fire rips through UES home</p>
+<p>	An allergic Virginia first-grader died after a classmate gave her a peanut, police concluded after an investigation.</p>
+<p>	The tragic case has rekindled questions about how prepared schools are to handle students with severe allergies, ABC News reported Wednesday.</p>
+<p>Ammaria Johnson, 7, was on the playground of her Chesterfield County elementary school when she ate the nut on Jan. 3 and quickly complained of breathing trouble and hives. By the time emergency crews arrived, Ammaria was in cardiac arrest. She died a short time later at a local hospital.</p>
+<p>	Her mother, Laura Pendleton, told WTVR-TV that she couldn't understand what had gone so wrong.</p>
+<p>	"She has an allergy action plan at the school," said Pendleton, who told the TV station she authorized the school to give her child Benadryl during an allergic reaction. "They didn't do that."</p>
+<p>FOOD ALLERGY SYMPTOMS</p>
+<p>	She added that she had tried to provide the school with an EpiPen, a single-dose emergency injection tool, but had been told to keep it at home.</p>
+<p>	Police told ABC News the investigation found no criminal wrongdoing.</p>
+<p>	"Although not a crime, Ammaria's death is a tragedy and the Chesterfield County Police Department expresses its deepest sympathies to her family, classmates and school personnel as they deal with this difficult and painful event," police chief Col. Thierry Dupuis told ABC in a statement.</p>
+<p>	The case has been especially alarming to parents and doctors who have seen peanut allergies in children triple over the past 10 years with two in every 100 children reportedly affected.</p>
+<p>	One doctor told ABC News that he believed stocking EpiPens in schools may be a good idea to prevent future tragedies.</p>
+<p>	"There are kids who don't know they're food allergic until they get into the food," Dr. Dan Atkins told ABC. "In that situation, it would be good to have an EpiPen available."</p>
+<p>Post a Comment »</p>
+<p>                      </p>
+<p>                                        jQuery.ajaxSetup({ cache: false });</p>
+<p>                                        //jQuery(document).ready(function(){</p>
+<p>                                        //alert("first");</p>
+<p>                                        //jQuery("#commentsTabLi-1425033").removeAttr('style');</p>
+<p>                                        jQuery("#commentView-1425033").empty();</p>
+<p>                                        jQuery("#commentView-1425033").load('/cmlink/comments-7.1425033?pathIds=2.169%2C2.1188%2C2.1189&action=&view=&comment=&rd=http%3A%2F%2Fwww.nydailynews.com%2Fnews%2Fnational%2Fallergic-girl-dies-classmate-peanut-school-virginia-article-1.1004980&commentId=&abuseType=');</p>
+<p>                                        jQuery("#articleTab-1004980").live('click', function(){</p>
+<p>                                        //jQuery("#articleTabLi-1004980").removeClass().addClass('art_nav_link_on tabs');</p>
+<p>                                        //jQuery("#commentsTabLi-1425033").removeClass().addClass('art_nav_link tabs');</p>
+<p>                                        // jQuery("#articleView-1004980").show();</p>
+<p>                                        // jQuery("#commentView-1425033").load('/cmlink/comments-7.1425033?pathIds=2.169%2C2.1188%2C2.1189');</p>
+<p>                                        jQuery("#commentView-1425033").load('/cmlink/comments-7.1425033?pathIds=2.169%2C2.1188%2C2.1189&view=comments');</p>
+<p>                                        });</p>
+<p>                                        jQuery("#commentsTab-1425033, #seeAllComment-1425033, #seeAllCommentOrReport-1425033").live('click', function(){</p>
+<p>                                        // alert("seocnds");</p>
+<p>                                        jQuery("#commentsTabLi-1425033").removeClass().addClass('art_nav_link_on tabs');</p>
+<p>                                        jQuery("#articleTabLi-1004980").removeClass().addClass('art_nav_link tabs');</p>
+<p>                                        jQuery("#articleView-1004980").hide();</p>
+<p>                                        jQuery("#commentView-1425033").load('/cmlink/comments-7.1425033?pathIds=2.169%2C2.1188%2C2.1189&view=&rd=http%3A%2F%2Fwww.nydailynews.com%2Fnews%2Fnational%2Fallergic-girl-dies-classmate-peanut-school-virginia-article-1.1004980');</p>
+<p>                                        });</p>
+<p>                                        // });</p>
+<p>                                    </p>
+<p> Ads by Yahoo!</p>
+<p>        <!--</p>
+<p>        var t = Math.floor(Math.random() * 100000);</p>
+<p>        var a = "http://cm.npc-nydn.overture.com/js_flat_1_0/?outputCharEnc=utf8&config=1468932575&ctxtUrl=http%3A%2F%2Fwww.nydailynews.com%2Fnews%2Fnational%2Fallergic-girl-dies-classmate-peanut-school-virginia-article-1.1004980&ctxtId=news&type=news&source=npc_nydn_newyorkdailynews_t2_ctxt&maxCount=3";</p>
+<p>        var url = a;</p>
+<p>        document.write("<scr" + "ipt language=\"JavaScript1.1\" type=\"text/javascript\" src=\"" + url + "\"></scr" + "ipt>");</p>
+<p>        //--></p>
+<p>    </p>
+<p> </p>
+<p>        <!--</p>
+<p>        if( typeof(zSr) != 'undefined') {</p>
+<p>        var i=6;</p>
+<p>        while (i < zSr.length) {</p>
+<p>            var descr = zSr[i++]; // listing description</p>
+<p>            var unused1 = zSr[i++]; // (ignore)</p>
+<p>            var clickURL = zSr[i++]; // listing link</p>
+<p>            var title = zSr[i++]; // listing title</p>
+<p>            var sitehost = zSr[i++]; // advertiser's domain name</p>
+<p>            var unused2 = zSr[i++]; // (ignore)</p>
+<p>            document.write('<p><a class="title" target="_new" href="' + clickURL + '">' + title + '</a><br /><a class="description" target="_new" href="' + clickURL + '">' + descr + '</a><br />');</p>
+<p>            document.write('<a class="host" target="_new" href="' + clickURL + '">(' + sitehost + ')</a></p>');</p>
+<p>            }</p>
+<p>            }</p>
+<p>            //--></p>
+<p> </p>
+<p>        //<![CDATA[ </p>
+<p>        <!-- </p>
+<p>        if(typeof yld_mgr != 'undefined')</p>
+<p>        { yld_mgr.place_ad_here("x50"); }</p>
+<p>        //--> </p>
+<p>        //]]> </p>
+<p>Most Popular</p>
+<p>            </p>
+<p>Most Read</p>
+<p>Most Shared</p>
+<p>1</p>
+<p>                                                                                       Video may show Marines urinating on Taliban corpses                   </p>
+<p>                                                                                       </p>
+<p>2</p>
+<p>                                                                                       Casey became pregnant with Caylee after being raped at party, her former shrink says                    </p>
+<p>                                                                                       </p>
+<p>3</p>
+<p>                                                                                       Bam! Prez's re-election team, Dems raise $68M in Q4                   </p>
+<p>                                                                                       </p>
+<p>4</p>
+<p>                                                                                       Romney has Obama, not rivals, on his mind                   </p>
+<p>                                                                                       </p>
+<p>5</p>
+<p>                                                                                       Cannibalistic polar bears                    </p>
+<p>                                                                                       </p>
+<p>6</p>
+<p>                                                                                       Foxconn workers talked out of suicide                   </p>
+<p>                                                                                       </p>
+<p>7</p>
+<p>                                                                                       Baby born with organs outside the body undergoes surgery                   </p>
+<p>                                                                                       </p>
+<p>8</p>
+<p>                                                                                       Video: Tribe bribed to dance                   </p>
+<p>                                                                                       </p>
+<p>9</p>
+<p>                                                                                       No closure for me, says Natalee Holloway's mom                   </p>
+<p>                                                                                       </p>
+<p>10</p>
+<p>                                                                                       Veena Malik: I'll never go nude again... not even for Hollywood                   </p>
+<p>                                                                                       </p>
+<p>1</p>
+<p>                                                                                       Video may show Marines urinating on Taliban corpses                   </p>
+<p>                                                                                       </p>
+<p>2</p>
+<p>                                                                                       Baby born with organs outside the body undergoes surgery                   </p>
+<p>                                                                                       </p>
+<p>3</p>
+<p>                                                                                       Pol rips 'narcissistic' Newt                   </p>
+<p>                                                                                       </p>
+<p>4</p>
+<p>                                                                                       No closure for me, says Natalee Holloway's mom                   </p>
+<p>                                                                                       </p>
+<p>5</p>
+<p>                                                                                       First Lady tired of ‘angry black woman’ tag                    </p>
+<p>                                                                                       </p>
+<p>6</p>
+<p>                                                                                       Romney has Obama, not rivals, on his mind                   </p>
+<p>                                                                                       </p>
+<p>7</p>
+<p>                                                                                       SEE IT: Tiny frog is world’s smallest vertebrae                     </p>
+<p>                                                                                       </p>
+<p>8</p>
+<p>                                                                                       Casey became pregnant with Caylee after being raped at party, her former shrink says                    </p>
+<p>                                                                                       </p>
+<p>9</p>
+<p>                                                                                       Veena Malik: I'll never go nude again... not even for Hollywood                   </p>
+<p>                                                                                       </p>
+<p>10</p>
+<p>                                                                                       Michelle is right; no she's wrong                   </p>
+<p>                                                                                       </p>
+<p>    <!--</p>
+<p>    jQuery("ul#tabs-7-1354085").idTabs();</p>
+<p>    //--></p>
+<p> </p>
+<p>        //<![CDATA[ </p>
+<p>        <!-- </p>
+<p>        if(typeof yld_mgr != 'undefined')</p>
+<p>        { yld_mgr.place_ad_here("x55"); }</p>
+<p>        //--> </p>
+<p>        //]]> </p>
+<p>Editors' Picks</p>
+<p>U.S. Marines appear to urinate on Taliban corpses in shocking video</p>
+<p>Marine Corps is investigating the source of the disturbing clip. </p>
+<p>PHOTOS: Those ain't the White House! GOP candidates' homes</p>
+<p>GOP hopefuls would definitely upgrade homes for the White House.</p>
+<p>Drunken Casey became pregnant with Caylee after party rape: shrink</p>
+<p>Acquitted mom said she got pregnant after passing out at a party. </p>
+<p>SEE IT: Polar bears turn cannibalistic</p>
+<p>Dwindling sea ice is cutting off the bears’ food supply, forcing the starving animals to devour their own kind. </p>
+<p>PHOTOS: A-Rod’s new girl is just his type - a Cameron Diaz look-a-like</p>
+<p>New York's top athletes are known for scoring on and off the field.</p>
+<p>Baby born with organs outside body fights for life </p>
+<p>Tiny Texas baby is recovering at hospital after surgery to correct rare condition. </p>
+<p>Employees stage 'mass suicide' at Foxconn factory to protest brutality </p>
+<p>Workers were talked down from their factory's roof by the town mayor. </p>
+<p>PHOTOS: Cars of the future! 2012 Detroit Auto Show</p>
+<p>Auto industry shows off their new cars and concepts.</p>
+<p>Jets players bash Sanchez, want Peyton Manning</p>
+<p>Sanchez's teammates rip the young quarterback, calling him lazy, coddled and unfit to lead the Jets.</p>
+<p>I'll never go nude again, not even for Hollywood, sexy star declares</p>
+<p>Veena Malik, the Pakistani actress who courted controversy when she appeared nude on the cover on a men's magazine in India says she's keeping her sexy curves under wraps.</p>
+<p>PHOTOS: Move over, Mitt Romney! Sexy celebrity Mormoms</p>
+<p>Julianne Hough is proof that the GOPer isn't the only good-looking Mormon. </p>
+<p>Gingrich releases ad accusing Romney of flip-flopping on abortion</p>
+<p>It’s beginning to look like all-out war between Mitt Romney and Newt Gingrich.</p>
+<p>Duuuude! Pot safer than tobacco: study </p>
+<p>Small doses won't hurt your lungs like tobacco does, two to three joints per month isn’t harmful, study claims.</p>
+<p>Super-sized shock! Ad links soda to amputations</p>
+<p>Portions have grown, and so has Type 2 diabetes, which can lead to amputations. </p>
+<p> </p>
+<p>        //<![CDATA[ </p>
+<p>        <!-- </p>
+<p>        if(typeof yld_mgr != 'undefined')</p>
+<p>        { yld_mgr.place_ad_here("x86"); }</p>
+<p>        //--> </p>
+<p>        //]]> </p>
+<p>  #story + .code_module{margin:0 0 25px;width:100%;text-align:center;float:none;}</p>
+<p>  .story-body .story-img{font:11px 'Arial';color:#999;margin-left:0;}</p>
+<p>  .story-body div img{width:635px;margin-left:-10px;}</p>
+<p>  .story-body div img + em, .story-body div img + br + em{display:block;font:11px 'Arial';color:#999;margin-bottom:25px;}</p>
+<p>  .static .facebook {width:450px;} </p>
+<p>  .vertical #vertical-reaction0 {overflow: visible !important;}</p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  (function () {</p>
+<p>    var d = new Image(1, 1);</p>
+<p>    d.onerror = d.onload = function () {</p>
+<p>      d.onerror = d.onload = null;</p>
+<p>    };</p>
+<p>    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-805104h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');</p>
+<p>  })();</p>
+<p>                //<![CDATA[</p>
+<p>                <!--</p>
+<p>                   if(typeof yld_mgr != 'undefined') {</p>
+<p>                       yld_mgr.place_ad_here('x47');</p>
+<p>                   } else {</p>
+<p>                    var cb = '&cb=' + Math.floor(Math.random() * 100000);</p>
+<p>                   var query = 'http://open.ad.yieldmanager.net/a1?v=2&amp;pubId=21058125506&amp;site=NYDN&amp;ctLng=en-US&amp;sz=728x90&amp;rTy=ac&amp;fmt=standard%20graphical&amp;cDst=_blank&amp;dlv=ipbtf&amp;cTopId=20268501%2C20422501&amp;cCat=Gossip+Individual+Galleries&amp;conTy=fn_news';</p>
+<p>                   var url = query + cb;</p>
+<p>                   document.write('<iframe scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" frameborder="0" id="nydn-adframe-x47" width="728" height="90" src="' + url + '"></iframe>');</p>
+<p>               }</p>
+<p>                //--></p>
+<p>               //]]></p>
+<p>           </p>
+<p>Back to Top</p>
+<p>Media Kit</p>
+<p>RSS</p>
+<p>Home Delivery</p>
+<p>Social Media</p>
+<p>Newsletters</p>
+<p>Place an Ad</p>
+<p>About our Ads</p>
+<p>Contact Us</p>
+<p>FAQ's</p>
+<p>Site Map</p>
+<p> Use of this website signifies your agreement to the Terms of Service and Privacy Policy. </p>
+<p>        © Copyright 2012 NYDailyNews.com. All rights reserved. </p>
+<p> if (document.location.protocol == 'http:') {  var Tynt = Tynt || [];Tynt.push('s!3'); Tynt.s = Tynt.s || {l:"http://asc.tynt.com/nydn_logo_140x32.png", lh:32, lw:140};  (function() {  var s = document.createElement('script'); s.async = "async"; s.type = "text/javascript"; s.src = 'http://asd.tynt.com/ts.js';  var h = document.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })();   }</p>
+<p>tyntVariables = {"ap":"Read more:"}; </p>
+<p>  var _qevents = _qevents || [];</p>
+<p>  (function() {</p>
+<p>  var elem = document.createElement('script');</p>
+<p>  elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";</p>
+<p>  elem.async = true;</p>
+<p>  elem.type = "text/javascript";</p>
+<p>  var scpt = document.getElementsByTagName('script')[0];</p>
+<p>  scpt.parentNode.insertBefore(elem, scpt);</p>
+<p>  })();</p>
+<p>  _qevents.push({</p>
+<p>  qacct:"p-af_gBGFZgopbs"</p>
+<p>  });</p>
+<p>  </p>

@@ -1,0 +1,912 @@
+<p>Walgreen's Flagship Store Opening: Walgreen's On Tuesday Is Slated To Open A Two-story Flagship Store On State Street In The Loop - WGN</p>
+<p>      jQuery = $;  //rename $ function</p>
+<p>    </p>
+<p>trblib.ns('trb').data = {</p>
+<p>  contentId: '67250728',</p>
+<p>  marketCode: 'wgn',</p>
+<p>  section: '/news'</p>
+<p>};</p>
+<p>      xd.configure({</p>
+<p>          'http://wgntv.signon.trb.com':{ </p>
+<p>              sender : 'http://wgntv.signon.trb.com/registration/xd/xd_sender.htm',</p>
+<p>              receiver : '/hive/common/includes/xd_receiver.html'</p>
+<p>          }</p>
+<p>          </p>
+<p>      });</p>
+<p>    </p>
+<p>      carnival.init({"hostname":"http://wgntv.signon.trb.com","apiKey":"","product":"wgntv", "xd":"1", "activateMessages":"true",</p>
+<p>  "ssorNavBackgroundColor":"", "ssorModalTextColor":"", "skipNewsletters":"0"</p>
+<p>   ,"wsHostname":"http://wgntv.signon.trb.com", "captchaType" : "reCaptcha" });</p>
+<p>    </p>
+<p>(function() {</p>
+<p>  var cookieName = 'tribanalyticscookie',</p>
+<p>      cookieData = readCookie(cookieName),</p>
+<p>      ssorId = carnival.user.profile().masterId,</p>
+<p>      data;</p>
+<p>  </p>
+<p>  if (!cookieData) {</p>
+<p>    cookieData = guidGenerator();</p>
+<p>    createCookie(cookieName, cookieData, 3650);</p>
+<p>  }</p>
+<p>  data = 'k=viewcontent&u=' + cookieData + '&url=' + encodeURIComponent(window.location.href);</p>
+<p>  if (ssorId) data += '&es=' + ssorId;</p>
+<p>  if (trb.data.contentId) data += '&contentId=P2P-' + trb.data.contentId;</p>
+<p>  if (trb.data.marketCode) data += '&marketCode=' + trb.data.marketCode;</p>
+<p>  if (trb.data.section) data += '&section=' + encodeURIComponent(trb.data.section);</p>
+<p>  trblib.jQuery.ajax({</p>
+<p>    url: 'http://tribunegls.cloudapp.net/profiles/e949eb98-f19d-472c-92cd-ee7620ad47c7/analytics',</p>
+<p>    data: data,</p>
+<p>    dataType: 'script'</p>
+<p>  });</p>
+<p>  function guidGenerator() {</p>
+<p>    function s() {</p>
+<p>      return (((1+Math.random())*0x10000)|0).toString(16).substring(1);</p>
+<p>    }</p>
+<p>    return s()+s()+'-'+s()+'-'+s()+'-'+s()+'-'+s()+s()+s();</p>
+<p>  }</p>
+<p>})();</p>
+<p>      var _sf_startpt = (new Date()).getTime();</p>
+<p>    </p>
+<p>div.galleries h2.title, div.headlines h2.title {</p>
+<p>  font-size: 18px !important;</p>
+<p>  color: #FFFFFF !important;</p>
+<p>  background-repeat: repeat-x !important;</p>
+<p>}</p>
+<p>div#content.article h2, div#content.special-package h2 {</p>
+<p>  background-color: #ffffff !important;</p>
+<p>}</p>
+<p>div.articlebody, div#special-package {</p>
+<p>  background-color: #ffffff !important;</p>
+<p>}</p>
+<p>div#footer {</p>
+<p>  background-color: #cccccc !important;</p>
+<p>}</p>
+<p>div#content.article h1, div#content.special-package h1 {</p>
+<p>  background-color: #ffffff !important;</p>
+<p>}</p>
+<p>div.module {</p>
+<p>  background-color: transparent !important;</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.headlines h2.title a {</p>
+<p>  color: #ffffff !important;</p>
+<p>  font-size: 18px !important;</p>
+<p>}</p>
+<p>ul.tabModule li.curTab a {</p>
+<p>  color: #ffffff !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>}</p>
+<p>ul.tabModule li a {</p>
+<p>  font-size: 9px !important;</p>
+<p>  font-weight: bold !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>  color: #0C0F00 !important;</p>
+<p>}</p>
+<p>ul.tabModule li.curTab {</p>
+<p>  background-color: #ffffff !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2010/09/B6934757_nav_bg.jpg) !important;</p>
+<p>}</p>
+<p>div.tabModuleContainer div.curvedTop div.curvedContent div.tabs {</p>
+<p>  background-color: transparent !important;</p>
+<p>  color: #ffffff !important;</p>
+<p>  background-repeat: repeat-x !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2010/09/FA96B021_header_bg.jpg) !important;</p>
+<p>}</p>
+<p>ul.tabModule li {</p>
+<p>  color: #ffffff !important;</p>
+<p>  font-size: 10px !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2010/08/4BD17FB5_button_bg_n.jpg) !important;</p>
+<p>}</p>
+<p>div.tabModuleContainer h2.tabTitle, div.tabModuleContainer h2.tabTitle a {</p>
+<p>  font-size: 18px !important;</p>
+<p>  color: #ffffff !important;</p>
+<p>}</p>
+<p>ul#root li ul.level2 li a {</p>
+<p>  font-weight: bold !important;</p>
+<p>  font-size: 10px !important;</p>
+<p>  color: #ffffff !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>}</p>
+<p>div#navigation div#layerOne {</p>
+<p>  font-weight: bold !important;</p>
+<p>  background-repeat: repeat-x !important;</p>
+<p>  font-size: 11px !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2011/04/FA16421C_nav_bar.jpg) !important;</p>
+<p>}</p>
+<p>ul#root li ul.level2 li.highlight a {</p>
+<p>  font-weight: bold !important;</p>
+<p>  font-size: 10px !important;</p>
+<p>  color: #ffffff !important;</p>
+<p>}</p>
+<p>ul#root li.highlight a, ul#root li.highlight a.mainNav span {</p>
+<p>  font-size: 12px !important;</p>
+<p>}</p>
+<p>ul#root li a.mainNav {</p>
+<p>  font-size: 12px !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>  background-image: url() !important;</p>
+<p>  color: #FFFFFF !important;</p>
+<p>}</p>
+<p>#memberLoginInfo {</p>
+<p>  font-size: 10px !important;</p>
+<p>  font-weight: bold !important;</p>
+<p>}</p>
+<p>div#container div#header {</p>
+<p>  font-size: 10px !important;</p>
+<p>}</p>
+<p>ul.classBarNavLink a {</p>
+<p>  font-size: 10px !important;</p>
+<p>  font-weight: bold !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>}</p>
+<p>#container, div#container {</p>
+<p>  background-repeat: repeat-y !important;</p>
+<p>  font-size: 12px !important;</p>
+<p>  background-color: #ffffff !important;</p>
+<p>}</p>
+<p>div#container div#branding div#masthead {</p>
+<p>  font-size: 10px !important;</p>
+<p>  background-repeat: no-repeat !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2011/05/E2FB99EB_masthead_v3.jpg) !important;</p>
+<p>}</p>
+<p>body {</p>
+<p>  background-color: #ffffff !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2011/07/96947BEA_WGNTV_BG_v5.jpg) !important;</p>
+<p>}</p>
+<p>div.highlight {</p>
+<p>  background-repeat: repeat-x !important;</p>
+<p>  background-color: #9db3b9 !important;</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.featurePromo {</p>
+<p>  background-color: transparent !important;</p>
+<p>}</p>
+<p>div#promodesc {</p>
+<p>  background-color: transparent !important;</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.mezzanine p {</p>
+<p>  background-color: transparent !important;</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.weathersnipet, div.weather1 {</p>
+<p>  background-color: #dbdbdb !important;</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div#promoheader h2.title, div.featurePromo h2.title, div.featurePromo div.featurePromoTitle h2.title, div.featurePromo div.featurePromoTitle h2.title a {</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2010/09/FA96B021_header_bg.jpg) !important;</p>
+<p>  font-weight: normal !important;</p>
+<p>}</p>
+<p>p.featurepromo-brief, div.featurePromo p {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.photogalleriesSecondary span.description {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>#leadcontent-main p.brief {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div#bulletedlist ul li a {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.featurePromo a {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>#leadcontent-main h2, #leadcontent-main h2 a, #leadcontent-main h3, #leadcontent-main h3 a, #leadcontent-main h4, #leadcontent-main h4 a {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>#leadcontent-main, .leadMezz {</p>
+<p>  background-color: #f0f0f0 !important;</p>
+<p>}</p>
+<p>ul.accordionToggle li.tabTitle {</p>
+<p>  font-weight: bold !important;</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>#leadcontent-main div.headline-container p.brief {</p>
+<p>  color: #666666 !important;</p>
+<p>}</p>
+<p>div.mezzanine h3 a {</p>
+<p>  color: #000000 !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>}</p>
+<p>div.headlines h2.headline a, div.headlines h3 a, div.headlines h4 a {</p>
+<p>  color: #000000 !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>}</p>
+<p>div#promoheader h2.title, div#promoheader h2.title a {</p>
+<p>  color: #ffffff !important;</p>
+<p>  background-repeat: repeat-x !important;</p>
+<p>  font-size: 18px !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2010/09/06D31937_header_bg.jpg) !important;</p>
+<p>}</p>
+<p>h2.sectiontitle, h2.sectiontitle a {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.dateStamp {</p>
+<p>  font-weight: normal !important;</p>
+<p>  text-decoration: none !important;</p>
+<p>  font-size: 11px !important;</p>
+<p>  background-color: #000000 !important;</p>
+<p>}</p>
+<p>a {</p>
+<p>  font-weight: bold !important;</p>
+<p>}</p>
+<p>div#section {</p>
+<p>  background-color: transparent !important;</p>
+<p>}</p>
+<p>div#navigation ul#root li ul.level2 {</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2011/04/24881DD4_nav_subbar.jpg) !important;</p>
+<p>  background-color: transparent !important;</p>
+<p>  background-repeat: repeat-x !important;</p>
+<p>}</p>
+<p>div#footer div#siteOverview ul li ul li a.mainOverviewLink, div#footer div#siteOverview ul li a.mainNav {</p>
+<p>  color: #ffffff !important;</p>
+<p>}</p>
+<p>div#hotTopic {</p>
+<p>  background-color: #ffffff !important;</p>
+<p>}</p>
+<p>div#slidingbillboard {</p>
+<p>  background-color: #ffffff !important;</p>
+<p>}</p>
+<p>#leadcontent-main h1 a, div.leadMezz a, div.leadMezz h2.headline a {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div#hotTopic ul li a {</p>
+<p>  color: #000000 !important;</p>
+<p>}</p>
+<p>div.photogalleryPromo h2 {</p>
+<p>  color: #ffffff !important;</p>
+<p>  background-image: url(http://media.trb.com/includes/uploads/2010/09/FA96B021_header_bg.jpg) !important;</p>
+<p>}</p>
+<p>Apartments</p>
+<p>Cars</p>
+<p>Buy/Sell Stuff</p>
+<p>Find it Fast:</p>
+<p>Homes</p>
+<p>Jobs</p>
+<p> </p>
+<p>News</p>
+<p>Local News</p>
+<p>Breaking </p>
+<p>Morning News</p>
+<p>Midday News</p>
+<p>News at Five</p>
+<p>News at Nine</p>
+<p>Weekend News</p>
+<p>National/World News</p>
+<p>News Team</p>
+<p>Lottery</p>
+<p>Weather</p>
+<p>Current </p>
+<p>Weather Blog </p>
+<p>Emergency Closings</p>
+<p>Weather Alerts</p>
+<p>Email Alerts</p>
+<p>Weather Pics</p>
+<p>Your Weather Videos</p>
+<p>Traffic</p>
+<p>Commutercast</p>
+<p>Traffic Blog </p>
+<p>Video</p>
+<p>News</p>
+<p>Viral </p>
+<p>Sports</p>
+<p>GameZone</p>
+<p>Cubs</p>
+<p>White Sox</p>
+<p>Bulls</p>
+<p>Bears</p>
+<p>Blackhawks</p>
+<p>Fire</p>
+<p>Len & Bob</p>
+<p>Baseball Stories</p>
+<p>Lexus Long Drive</p>
+<p>Auto Racing</p>
+<p>High School</p>
+<p>Health</p>
+<p>Medical Watch</p>
+<p>Cancer Central</p>
+<p>Business</p>
+<p> </p>
+<p>Tech</p>
+<p>Tech Video </p>
+<p>More tech</p>
+<p>Contests</p>
+<p> </p>
+<p>Shows</p>
+<p>All Shows</p>
+<p>TV Listings</p>
+<p>Antenna TV</p>
+<p>CLTV</p>
+<p>Weblinks</p>
+<p>Mentioned on-air</p>
+<p>WGN on Facebook</p>
+<p>WGN on YouTube</p>
+<p>Community</p>
+<p>Community Calendar</p>
+<p>Adelante Chicago</p>
+<p>People to People</p>
+<p>Online Education Center</p>
+<p>Teacher of the Month</p>
+<p>Cruisin' Illinois</p>
+<p>Store</p>
+<p>Info</p>
+<p>Contact Us</p>
+<p>Advertise on WGN</p>
+<p>Press Releases</p>
+<p>Privacy Policy</p>
+<p>Public File</p>
+<p>Station History</p>
+<p>Terms of Service</p>
+<p>Jobs & Internships</p>
+<p>Blogs</p>
+<p>Leshock Value </p>
+<p>Big Tiny World </p>
+<p>Chicago's Best</p>
+<p>Len and Bob</p>
+<p>Double Yellow Lines</p>
+<p>Living Healthy Chicago </p>
+<p>News Crews </p>
+<p>Apartments</p>
+<p>Cars</p>
+<p>Buy/Sell Stuff</p>
+<p>Find it Fast:</p>
+<p>Homes</p>
+<p>Jobs</p>
+<p>  eraseCookie("mainPage");</p>
+<p>  createCookie("mainPage","/news","1");</p>
+<p>  Event.observe("navigation", 'load', menuFix());</p>
+<p>  Event.observe("navigation", 'load', tribHover());</p>
+<p>          Quick Links</p>
+<p>        </p>
+<p>                    </p>
+<p>                    Leshock Value </p>
+<p>                  </p>
+<p>                    </p>
+<p>                    Big Tiny World</p>
+<p>                  </p>
+<p>                    </p>
+<p>                    Dean's List</p>
+<p>                  </p>
+<p>                    </p>
+<p>                    Line of Meier</p>
+<p>                  </p>
+<p>                    </p>
+<p>                    Decision 2012</p>
+<p>                  </p>
+<p>                    </p>
+<p>                    WGN-TV Store</p>
+<p>                  </p>
+<p>  /*OVERWRITES*/</p>
+<p>	.adv_search { background-color: #fff; }</p>
+<p>	#adv_search { background-color: #eee; }</p>
+<p>	#adv_search .adv_search_head,</p>
+<p>	#adv_help .adv_search_head { background-color: #666; }</p>
+<p>	#search_overlay { background-color: #eee; }</p>
+<p>	#search-results ul.advTabs { background-color: #666; }</p>
+<p>	#search-results ul.advTabs li a { background-color: #666; }</p>
+<p>	#search-results ul.advTabs li.advCurrTab a { background-color: #fff; color: #666; }</p>
+<p>	div.panelTab { background: url("/images/adv_search/adv_panel_bg.png") no-repeat; }</p>
+<p>	#adv_keywords_head { background-color: #666; }</p>
+<p>	#adv_results .clearfix {display:block;}</p>
+<p>Advanced Search</p>
+<p>Advanced Search</p>
+<p>X</p>
+<p>include all of these words: </p>
+<p>include any of these words: </p>
+<p>include this exact phrase: </p>
+<p>exclude: </p>
+<p> Select a date range</p>
+<p>this week</p>
+<p>past 30 days</p>
+<p>past 3 months</p>
+<p>past year</p>
+<p> Create a custom date range</p>
+<p>From: </p>
+<p>To: </p>
+<p>function readCookie(name) {   var nameEQ = name + "=";   var ca = document.cookie.split(';');   for(var i=0;i < ca.length;i++) {   var c = ca[i];   while (c.charAt(0)==' ') c = c.substring(1,c.length);   if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);   }   return null;   }   var x = readCookie('c_mId');   if (x)  {   try {if (typeof adTargetConsumerInfo == 'undefined') {document.write('<scr'+'ipt type="text/javascript" src="include-member-ad.javascript"></scr'+'ipt>');   }   } catch(err) {}}      var scriptSrc='http://ad.doubleclick.net/adj/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=Tbrd;dcopt=ist;sz=728x90;tile=1;ord=93440240?';   var noscriptHref='http://ad.doubleclick.net/jump/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=Tbrd;sz=728x90;tile=1;ord=93440240?" target="_blank" rel="nofollow"';   var noscriptSrc='http://ad.doubleclick.net/ad/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=Tbrd;dcopt=ist;sz=728x90;tile=1;ord=93440240?" width="728" height="90" border="0" alt=""';   indexOfHrefQuestion='146';   indexOfLastImgSrcQuestion='154';   try {       if (adTargetConsumerInfo != undefined) {           scriptSrc = scriptSrc.substring(0, scriptSrc.length -1) + adTargetConsumerInfo + '?';           noscriptHref = noscriptHref.substring(0, indexOfHrefQuestion) + adTargetConsumerInfo + '?';           noscriptSrc = noscriptSrc.substring(0, indexOfLastImgSrcQuestion) + adTargetConsumerInfo + '?';       }   } catch(err) {}   document.write('<scr'+'ipt type="text/javascript" src="'+scriptSrc+'"></scr'+'ipt>');   document.write('<noscript><a href="'+noscriptHref+'><img scr="'+noscriptSrc+'></a></noscript>');</p>
+<p><!--</p>
+<p>var date = new Date();</p>
+<p>// 0=Sun 1=Mon 2=Tue 3=Wed 4=Thu 5=Fri 6=Sat</p>
+<p>var dow = date.getDay();</p>
+<p>var d  = date.getDate();</p>
+<p>var day = (d < 10) ? '0' + d : d;</p>
+<p>var m = date.getMonth() + 1;</p>
+<p>var month = (m < 10) ? '0' + m : m;</p>
+<p>var yy = date.getYear();</p>
+<p>var year = (yy < 1000) ? yy + 1900 : yy;</p>
+<p>var hours = date.getHours();</p>
+<p>var minutes = date.getMinutes();</p>
+<p>zDate = day + "/" + month + "/" + year;</p>
+<p>zTime = hours + ":" + minutes;</p>
+<p>//SAT & Sun</p>
+<p>if(dow == 6 || dow == 0){</p>
+<p>//MORNING</p>
+<p>if(hours == 6){document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/weekend_news.png></a></div>');}</p>
+<p>//NINE</p>
+<p>else if(hours == 21){document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/weekend_news.png></a></div>');}</p>
+<p>	</p>
+<p>//ANYTIME</p>
+<p>else {document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/online_anytime.png></a></div>');}</p>
+<p>}</p>
+<p>//MON - Friday</p>
+<p>else if(dow > 0 && dow < 6){</p>
+<p>//MORNING</p>
+<p>if(hours > 3 && hours < 9){document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/morning_news.png></a></div>');}</p>
+<p>//MIDDAY</p>
+<p>else if(hours > 10 && hours < 13){document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/midday_news.png></a></div>');}</p>
+<p>//FIVE</p>
+<p>else if(hours == 17){document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/news_at_five.png></a></div>');}</p>
+<p>//POLITICS TONIGHT</p>
+<p>else if(hours == 18 && minutes < 30){document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/politics_tonight.png></a></div>');}</p>
+<p>//NINE</p>
+<p>else if(hours == 21){document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/news_at_nine.png></a></div>');}</p>
+<p>//ANYTIME</p>
+<p>else {document.write('<div style=\"width:647px; height:auto; margin-left:-25px; margin-bottom:-25px;\"><a href=/news/livestreaming/><img src=http://tv.trb.com/includes/tvdata/wgntv/livestreaming/2012/online_anytime.png></a></div>');}</p>
+<p>}</p>
+<p> //--></p>
+<p>		/*-- OVERWRITES --*/</p>
+<p>		.weatherAlert .weatherAlertMasthead-WGNTV1218 {background-color: #;}</p>
+<p>	</p>
+<p>SEVERE WEATHER ALERT</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Winter Storm Warning:</p>
+<p>Porter, IN</p>
+<p>1 of 2 alerts</p>
+<p>Winter Storm Warning:</p>
+<p>La Porte, IN;</p>
+<p>							La Porte, IN</p>
+<p>2 of 2 alerts</p>
+<p>	var alertTypeArray_WGNTV1218 = new Array();</p>
+<p>	alertTypeArray_WGNTV1218 = ("#winter storm").split("#");</p>
+<p>	</p>
+<p>	var alertArray_WGNTV1218 = new Array();</p>
+<p>	alertArray_WGNTV1218 = $('alertContainer-WGNTV1218').childElements();</p>
+<p>	document.observe("dom:loaded", function() {</p>
+<p>		loadIcons(alertTypeArray_WGNTV1218, "WGNTV1218");</p>
+<p>	  	initializeIcons(alertArray_WGNTV1218[0].down('span').innerHTML, "WGNTV1218");</p>
+<p>	});</p>
+<p>	</p>
+<p>	Event.observe(window, 'load', function() {</p>
+<p>		Event.observe('alertnext-WGNTV1218', 'click', alertAdvance.curry("WGNTV1218", alertArray_WGNTV1218));</p>
+<p>		Event.observe('alertprev-WGNTV1218', 'click', alertRetreat.curry("WGNTV1218", alertArray_WGNTV1218));</p>
+<p>	});</p>
+<p>	</p>
+<p>	var currentArrayCount = 1;</p>
+<p>	$('alertCounter-WGNTV1218').update(currentArrayCount + ' of ' + alertArray_WGNTV1218.length + ' alerts');</p>
+<p>    </p>
+<p>        loadIcons(alertTypeArray_WGNTV1218, "WGNTV1218");</p>
+<p>        initializeIcons(alertArray_WGNTV1218[0].down('span').innerHTML, "WGNTV1218");</p>
+<p>    </p>
+<p>Home</p>
+<p>            </p>
+<p>        </p>
+<p>            </p>
+<p>                </p>
+<p>                </p>
+<p>                    </p>
+<p>                    </p>
+<p>                     </p>
+<p>                         > News</p>
+<p>High-end Walgreen's grand opening on State Street</p>
+<p>Comments</p>
+<p>0</p>
+<p>                 trblib.jQuery(function() {</p>
+<p>                  trblib.require('http://w.sharethis.com/button/buttons.js', function() {</p>
+<p>                   stLight.options({</p>
+<p>                   publisher:'4b7449a5-38e2-462a-a6cd-97326133f123',</p>
+<p>                   onhover: false,</p>
+<p>                   newOrZero: 'zero'</p>
+<p>                   });</p>
+<p>                  });</p>
+<p>                });</p>
+<p>                </p>
+<p>					  (function() {</p>
+<p>					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>					    po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>					  })();</p>
+<p>					</p>
+<p>  trblib.fn.plugins.register('bcvideo');</p>
+<p>  trblib.fn.plugins.register('player_configs');</p>
+<p>  function onTemplateLoaded(item_id) {</p>
+<p>    var id_number = item_id.replace("premiumVideo", "");</p>
+<p>    createNewVideoContainer(id_number, "wgn", "www.wgntv.com", "embed");</p>
+<p>    jQuery(document).trigger( 'videoTemplateLoaded', { id: item_id } );</p>
+<p>  };</p>
+<p>WGN News, Chicago Tribune</p>
+<p>WGN News</p>
+<p>9:26 a.m. CST, January 9, 2012</p>
+<p>CHICAGO—</p>
+<p>                            </p>
+<p>                            </p>
+<p>                          	</p>
+<p>                        </p>
+<p>                    </p>
+<p>                    Walgreen's on Tuesday is slated to open a two-story flagship store on State Street in the Loop that will offer more than aspirin and batteries.</p>
+<p>The store at State and Randolph will offer manicures and eyebrow shaping, made-to-order sushi, a juice and smoothie bar, self-serve frozen yogurt and even a humidor. The new Walgreen's will also offer a clinic and an upscale cosmetics department. It will also sell wine, alcohol and fresh food.</p>
+<p>The store is marking its return to the State and Randolph intersection where it had run a store from 1926 until 2005.</p>
+<p>The grand opening ceremony will be today from 4:30 p.m. to 7:30 p.m.</p>
+<p>										</p>
+<p>									</p>
+<p>								</p>
+<p>								</p>
+<p>							</p>
+<p>textSize()</p>
+<p>Copyright © 2011, WGN-TV, Chicago</p>
+<p>wgntv-walgreens-flagship-store-opening-jan9</p>
+<p>		TUGS.setInitCount('{"message":"No rating."}');</p>
+<p>		TUGS.tugsURL = "http://discussions.wgntv.com/";</p>
+<p>		TUGS.init_starRating();</p>
+<p>	</p>
+<p>	</p>
+<p>Comments</p>
+<p>0</p>
+<p>                 trblib.jQuery(function() {</p>
+<p>                  trblib.require('http://w.sharethis.com/button/buttons.js', function() {</p>
+<p>                   stLight.options({</p>
+<p>                   publisher:'4b7449a5-38e2-462a-a6cd-97326133f123',</p>
+<p>                   onhover: false,</p>
+<p>                   newOrZero: 'zero'</p>
+<p>                   });</p>
+<p>                  });</p>
+<p>                });</p>
+<p>                </p>
+<p>					  (function() {</p>
+<p>					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>					    po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>					  })();</p>
+<p>					</p>
+<p>« Previous Story</p>
+<p>More Chicago News: daily news, local news and TV news</p>
+<p>Next Story »</p>
+<p>40 CPS schools adopt longer school day today</p>
+<p>Michael Jordan's son exits college basketball</p>
+<p>Comments (0)</p>
+<p>Add comments | Discussion FAQ</p>
+<p>Currently there are no comments.  Be the first to comment!</p>
+<p>function readCookie(name) {   var nameEQ = name + "=";   var ca = document.cookie.split(';');   for(var i=0;i < ca.length;i++) {   var c = ca[i];   while (c.charAt(0)==' ') c = c.substring(1,c.length);   if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);   }   return null;   }   var x = readCookie('c_mId');   if (x)  {   try {if (typeof adTargetConsumerInfo == 'undefined') {document.write('<scr'+'ipt type="text/javascript" src="include-member-ad.javascript"></scr'+'ipt>');   }   } catch(err) {}}      var scriptSrc='http://ad.doubleclick.net/adj/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=300x250,336x280;tile=2;ord=93440240?';   var noscriptHref='http://ad.doubleclick.net/jump/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=300x250,336x280;tile=2;ord=93440240?" target="_blank" rel="nofollow"';   var noscriptSrc='http://ad.doubleclick.net/ad/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=300x250,336x280;tile=2;ord=93440240?" width="336" height="280" border="0" alt=""';   indexOfHrefQuestion='155';   indexOfLastImgSrcQuestion='153';   try {       if (adTargetConsumerInfo != undefined) {           scriptSrc = scriptSrc.substring(0, scriptSrc.length -1) + adTargetConsumerInfo + '?';           noscriptHref = noscriptHref.substring(0, indexOfHrefQuestion) + adTargetConsumerInfo + '?';           noscriptSrc = noscriptSrc.substring(0, indexOfLastImgSrcQuestion) + adTargetConsumerInfo + '?';       }   } catch(err) {}   document.write('<scr'+'ipt type="text/javascript" src="'+scriptSrc+'"></scr'+'ipt>');   document.write('<noscript><a href="'+noscriptHref+'><img scr="'+noscriptSrc+'></a></noscript>');</p>
+<p>Popular Photos</p>
+<p>Mugs in the news</p>
+<p>           generateDate('', '', '', '');</p>
+<p>        </p>
+<p>Bizarre and unusual destinations around the world</p>
+<p>Chicago Tribune 2011 Pictures of the Year</p>
+<p>Photos: Awkward Family Vacations</p>
+<p>Bizarre Creatures</p>
+<p>Year in Review: The top sports stories of 2011</p>
+<p>Craziest Celebrity Twitter Pics</p>
+<p>Photos: Awkward Family Holidays</p>
+<p>Chicago Breaking Photos</p>
+<p>Pictures: Ugly holiday sweaters</p>
+<p>Most Viewed Stories</p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                Chicago area prepares for first significant snow</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                Multiple boats on fire at LaSalle County marina </p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                2 dead in Mundelein murder-suicide</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                WGN Exclusive: Chicago cop talks after K9 viciously attacked by pit bulls</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                Harvey police shoot suspect in tow truck robberies</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                Wheeling restaurant reopens</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                 Obama attends fundraisers in Chicago</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                Michigan Ave shoe store closes</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                Casey Anthony: Date rape led to pregnancy</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>		                       </p>
+<p>		                       </p>
+<p>                Lombard man wins lottery for second time in nine years</p>
+<p>            </p>
+<p>		                       </p>
+<p>		                     </p>
+<p>.videoModule .mainSlideHeadline { display: none; }</p>
+<p>div.greyHeadlineModule { background: url("http://www.chicagoshopping.com/media/alternatethumbnails/blurb/2010-11/56530225-03172739-22545.jpg") no-repeat scroll 10px 5px transparent !important; border: 1px solid #CCCCCC !important; }</p>
+<p>/* div#stockquotes { margin-left: 180px; } */</p>
+<p>.dogHeadline td.right { padding: 0 0 0 10px; }</p>
+<p>/* STOCK WIDGET CENTERING */</p>
+<p>div#stockquotes { display: block; margin-left: auto; margin-right: auto; width: 618px; }</p>
+<p>/* PUPPY ON ICE CUBE AD SPACING */</p>
+<p>.puppy table.cubeAd div.cube { margin-top: 0px; }</p>
+<p>.puppy table.cubeAd { margin-bottom: 0px; }</p>
+<p>/* Shirt tail fixes */</p>
+<p>.outbrain_rec_li { font-size: 13px; line-height: 16px; }</p>
+<p>div.outbrainTools { padding: 0 10px; }</p>
+<p>#_pmfa-wide1 { margin: 5px 0; }</p>
+<p>#pmad-in2 {  margin: 10px 0 10px 10px; }</p>
+<p>div.outbrainTools div.fullSpan { display: none; }</p>
+<p>.pm-fa .wrap-out { padding: 3px 0px 0px 0px }</p>
+<p>/* Removing comments on photogalleries and photos */</p>
+<p>#gallery-content-popup div#tugs_story_display, .photo #tugs_story_display, .photo .mbGuidelines { display: none; }</p>
+<p>/* Feature module adjustments */</p>
+<p>div.featurePromo div.featurePromoTitle span.description { color: #000000; }</p>
+<p>div.featurePromo div.featurePromoTitle h2.title, div.featurePromo div.featurePromoTitle h2.title a { padding: 6px 0; }</p>
+<p>div.featurePromo div.featurePromoTitle { padding: 0 5px 5px; }</p>
+<p>/* Perfect Market Outbrain change */</p>
+<p>#content .outbrainTools, #content .outbrainToolsPhotogallery { width: 275px; }</p>
+<p>#outbrain-paid h2 { font-family: Georgia, Times, Serif; }</p>
+<p>/* Temporarily removing STORY/PHOTO/PHOTOS from related rail */</p>
+<p>li.newRelatedItem span, .relatedExtraItem span { display: none; }</p>
+<p>div.article div.articlerail ul li { padding-bottom: 10px; }</p>
+<p>/* Adding height to fourCols moduleClass */</p>
+<p>.fourCols { height: 260px; }</p>
+<p>/* Adjusting width of related items div */</p>
+<p>/* div.article div.articlerail, div.storygallery div.storyGalleryRail { width: 220px; } */</p>
+<p>/* HEADLINE FIX PUPPY */</p>
+<p>.puppy td.left h2.headline a, .puppy td.right h2.headline a {  font-size: 33px; }</p>
+<p>/* HEADLINE FIX DOG */</p>
+<p>#leadcontent-bigstory h1.bigStoryHeadline a { font-size: 42px; line-height: 46px; font-weight: normal;}</p>
+<p>/* Leaderboard padding adjustment */</p>
+<p>div#masthead { padding-bottom: 6px; }</p>
+<p>/* VIDEO PLAYER BORDER */</p>
+<p>div.premiumVideo.module { border: 1px solid #ccc; padding: 2px 2px; }</p>
+<p>div.premiumVideo.module h2.headline { font-family: Georgia, 'Times New Roman', serif; font-size: 16px; padding: 2px; }</p>
+<p>div.premiumVideo.module p { font-family: Georgia, 'Times New Roman', serif; font-size: 13px; padding: 2px; }</p>
+<p>/* START SHOPPING WIDGET NEW CSS */</p>
+<p>div.chiShopHeds.headlines { background-color: #ffffff; border: 1px solid #ccc; padding: 5px 10px; margin-bottom: 15px; width: 317px; }  </p>
+<p>div.chiShopHeds div.sectionlink-head p { color: #663366; font-family: 'Letter Gothic','Lucida Console','Andale Mono',monospace;font-size: 14px; line-height: 17px; margin: 10px 0 2px; font-weight: normal; }</p>
+<p>div.chiShopHedsNew { width: 300px; border: 1px solid #ccc;}</p>
+<p>div.chiShopHedsNew img.headlineThumb { width: 300px; height: 38px;}</p>
+<p>div.chiShopHedsNew div.headlineItem h2.headline a, div.chiShopHedsNew div.headlineItem h3.headline a, div.chiShopHedsNew div.headlineItem h4.headline a { font-size: 11px; line-height: 10px; text-align: center; font-style: italic; font-family: georgia, serif; } </p>
+<p>div.chiShopHedsNew div.headlineItem h2.headline, div.chiShopHedsNew div.headlineItem h3.headline, div.chiShopHedsNew div.headlineItem h4.headline  { margin-left: 30px; }</p>
+<p>/* END SHOPPING WIDGET NEW CSS */</p>
+<p>The hottest looks from Chicago's clubs</p>
+<p>Cut your budget in half with coupon tips</p>
+<p>Win WOWPoints with Sister Save-A-Lot</p>
+<p>Lovely looks for Valentine's Day >></p>
+<p>div.chiShopHeds { width: 327px; padding: 3px; }</p>
+<p>Featured Content</p>
+<p>Send us your snow photos!</p>
+<p>2012 People's Choice Awards winners</p>
+<p>SAG 2012: Top nominees</p>
+<p>Kelly Ripa slow dancing to Corey Hart's 'By Your Side' on Dancin' On Air</p>
+<p>function readCookie(name) {   var nameEQ = name + "=";   var ca = document.cookie.split(';');   for(var i=0;i < ca.length;i++) {   var c = ca[i];   while (c.charAt(0)==' ') c = c.substring(1,c.length);   if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);   }   return null;   }   var x = readCookie('c_mId');   if (x)  {   try {if (typeof adTargetConsumerInfo == 'undefined') {document.write('<scr'+'ipt type="text/javascript" src="include-member-ad.javascript"></scr'+'ipt>');   }   } catch(err) {}}      var scriptSrc='http://ad.doubleclick.net/adj/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=160x600,300x600;tile=3;ord=93440240?';   var noscriptHref='http://ad.doubleclick.net/jump/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=160x600,300x600;tile=3;ord=93440240?" target="_blank" rel="nofollow"';   var noscriptSrc='http://ad.doubleclick.net/ad/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=160x600,300x600;tile=3;ord=93440240?" width="300" height="600" border="0" alt=""';   indexOfHrefQuestion='155';   indexOfLastImgSrcQuestion='153';   try {       if (adTargetConsumerInfo != undefined) {           scriptSrc = scriptSrc.substring(0, scriptSrc.length -1) + adTargetConsumerInfo + '?';           noscriptHref = noscriptHref.substring(0, indexOfHrefQuestion) + adTargetConsumerInfo + '?';           noscriptSrc = noscriptSrc.substring(0, indexOfLastImgSrcQuestion) + adTargetConsumerInfo + '?';       }   } catch(err) {}   document.write('<scr'+'ipt type="text/javascript" src="'+scriptSrc+'"></scr'+'ipt>');   document.write('<noscript><a href="'+noscriptHref+'><img scr="'+noscriptSrc+'></a></noscript>');</p>
+<p> </p>
+<p>Top Stories</p>
+<p>Snow likely to make evening rush a mess, city prepares</p>
+<p>           generateDate('Jan 12, 2012 07:31 -0600', '7:31 AM', '', '');</p>
+<p>        </p>
+<p>Foreign orange juice imports blocked by FDA</p>
+<p>Bears to interview four candidates for GM job</p>
+<p>Multiple boats on fire at LaSalle County marina</p>
+<p>Obama attends fundraisers in Chicago</p>
+<p>Harvey police shoot suspect in tow truck robberies</p>
+<p>function readCookie(name) {   var nameEQ = name + "=";   var ca = document.cookie.split(';');   for(var i=0;i < ca.length;i++) {   var c = ca[i];   while (c.charAt(0)==' ') c = c.substring(1,c.length);   if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);   }   return null;   }   var x = readCookie('c_mId');   if (x)  {   try {if (typeof adTargetConsumerInfo == 'undefined') {document.write('<scr'+'ipt type="text/javascript" src="include-member-ad.javascript"></scr'+'ipt>');   }   } catch(err) {}}      var scriptSrc='http://ad.doubleclick.net/adj/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=Bbrd;sz=728x91;tile=4;ord=93440240?';   var noscriptHref='http://ad.doubleclick.net/jump/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=Bbrd;sz=728x91;tile=4;ord=93440240?" target="_blank" rel="nofollow"';   var noscriptSrc='http://ad.doubleclick.net/ad/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=Bbrd;sz=728x91;tile=4;ord=93440240?" width="728" height="91" border="0" alt=""';   indexOfHrefQuestion='146';   indexOfLastImgSrcQuestion='144';   try {       if (adTargetConsumerInfo != undefined) {           scriptSrc = scriptSrc.substring(0, scriptSrc.length -1) + adTargetConsumerInfo + '?';           noscriptHref = noscriptHref.substring(0, indexOfHrefQuestion) + adTargetConsumerInfo + '?';           noscriptSrc = noscriptSrc.substring(0, indexOfLastImgSrcQuestion) + adTargetConsumerInfo + '?';       }   } catch(err) {}   document.write('<scr'+'ipt type="text/javascript" src="'+scriptSrc+'"></scr'+'ipt>');   document.write('<noscript><a href="'+noscriptHref+'><img scr="'+noscriptSrc+'></a></noscript>');</p>
+<p>function readCookie(name) {   var nameEQ = name + "=";   var ca = document.cookie.split(';');   for(var i=0;i < ca.length;i++) {   var c = ca[i];   while (c.charAt(0)==' ') c = c.substring(1,c.length);   if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);   }   return null;   }   var x = readCookie('c_mId');   if (x)  {   try {if (typeof adTargetConsumerInfo == 'undefined') {document.write('<scr'+'ipt type="text/javascript" src="include-member-ad.javascript"></scr'+'ipt>');   }   } catch(err) {}}      var scriptSrc='http://ad.doubleclick.net/adj/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=234x60;tile=5;ord=93440240?';   var noscriptHref='http://ad.doubleclick.net/jump/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=234x60;tile=5;ord=93440240?" target="_blank" rel="nofollow"';   var noscriptSrc='http://ad.doubleclick.net/ad/trb.wgntv2/news;;ptype=sbrd;slug=wgntv-walgreens-flagship-store-opening-jan9;pos=1brd;sz=234x60;tile=5;ord=93440240?" width="234" height="60" border="0" alt=""';   indexOfHrefQuestion='146';   indexOfLastImgSrcQuestion='144';   try {       if (adTargetConsumerInfo != undefined) {           scriptSrc = scriptSrc.substring(0, scriptSrc.length -1) + adTargetConsumerInfo + '?';           noscriptHref = noscriptHref.substring(0, indexOfHrefQuestion) + adTargetConsumerInfo + '?';           noscriptSrc = noscriptSrc.substring(0, indexOfLastImgSrcQuestion) + adTargetConsumerInfo + '?';       }   } catch(err) {}   document.write('<scr'+'ipt type="text/javascript" src="'+scriptSrc+'"></scr'+'ipt>');   document.write('<noscript><a href="'+noscriptHref+'><img scr="'+noscriptSrc+'></a></noscript>');</p>
+<p>News</p>
+<p>Local News</p>
+<p>Breaking </p>
+<p>Morning News</p>
+<p>Midday News</p>
+<p>News at Five</p>
+<p>News at Nine</p>
+<p>Weekend News</p>
+<p>National/World News</p>
+<p>News Team</p>
+<p>Lottery</p>
+<p>Sports</p>
+<p>GameZone</p>
+<p>Cubs</p>
+<p>White Sox</p>
+<p>Bulls</p>
+<p>Bears</p>
+<p>Blackhawks</p>
+<p>Fire</p>
+<p>Wolves</p>
+<p>Len & Bob</p>
+<p>Baseball Stories</p>
+<p>Lexus Long Drive</p>
+<p>Auto Racing</p>
+<p>High School</p>
+<p>Weather</p>
+<p>Current </p>
+<p>Weather Blog </p>
+<p>Emergency Closings</p>
+<p>Weather Alerts</p>
+<p>Email Alerts</p>
+<p>Weather Pics</p>
+<p>Your Weather Videos</p>
+<p>Community</p>
+<p>Community Calendar</p>
+<p>Adelante Chicago</p>
+<p>People to People</p>
+<p>Online Education Center</p>
+<p>Teacher of the Month</p>
+<p>Cruisin' Illinois</p>
+<p>Store</p>
+<p>Weblinks</p>
+<p>Mentioned on-air</p>
+<p>WGN on Facebook</p>
+<p>WGN on YouTube</p>
+<p>Info</p>
+<p>Contact Us</p>
+<p>Advertise on WGN</p>
+<p>Learn More About Our Ads</p>
+<p>Press Releases</p>
+<p>Privacy Policy</p>
+<p>Public File</p>
+<p>Station History</p>
+<p>Terms of Service</p>
+<p>Jobs & Internships</p>
+<p>A Tribune Broadcasting website</p>
+<p>    var s_account = "tribglobal";</p>
+<p>					s.pageName="High-end Walgreen s grand opening on State Street - WGNTV / news - story."; </p>
+<p>				</p>
+<p>				s.prop38="story";</p>
+<p>				s.eVar21="story";</p>
+<p>				</p>
+<p>			</p>
+<p>		</p>
+<p>		</p>
+<p>		</p>
+<p>		 </p>
+<p>	s.server="wgntv.com"; </p>
+<p>	  s.channel="WGNTV:news";</p>
+<p>s.prop3="";</p>
+<p>if(!!window.carnival){</p>
+<p>	carnival_username_c_unm = readCookie('c_unm');</p>
+<p>	carnival_masterid_c_mid = carnival.metrics.getMetricsId();</p>
+<p>	if(carnival_username_c_unm!=null && carnival_masterid_c_mid){</p>
+<p>		s.prop28 = carnival_masterid_c_mid;</p>
+<p>	}</p>
+<p>}</p>
+<p>if(s.prop28==null){</p>
+<p>	s.prop28 = "";</p>
+<p>}	</p>
+<p>s.prop32="";</p>
+<p> </p>
+<p>s.prop36="Page ";</p>
+<p>	s.prop37="Photo ";</p>
+<p>/* Taxonomy Variables */</p>
+<p>s.prop46=" / WGN";</p>
+<p>/* E-commerce Variables */</p>
+<p>s.events=""; </p>
+<p>s.eVar20="WGNTV";</p>
+<p>	s.hier1="WGNTV:news"; </p>
+<p>		s.hier2="news";</p>
+<p>		s.hier4="news";</p>
+<p>	</p>
+<p>	</p>
+<p>	s.prop44="wgntv-walgreens-flagship-store-opening-jan9";</p>
+<p>//AD Block Detection</p>
+<p>//Description: 	Check if any IMG, IFRAME, or SCRIPT elements are ad blocked (set to not display).</p>
+<p>//		Also check for the occurance of any Norton installed code to block popups or ads ( ie.)SymError ).</p>
+<p>//		Only need to find 1 occurrance of any of the above to confirm ad blocking is used. </p>
+<p>//		No need to continue searching through other portions of the page.</p>
+<p>var imgArray = document.images;</p>
+<p>var iframeArray = document.getElementsByTagName("iframe");</p>
+<p>var scriptArray = document.getElementsByTagName("script");</p>
+<p>var isAdBlocked = 0;</p>
+<p>if(window.SymError || window.SymWinOpen || window.SymRealWinOpen)</p>
+<p>{</p>
+<p>	isAdBlocked=1;</p>
+<p>}</p>
+<p>if (!isAdBlocked)</p>
+<p>{</p>
+<p>	for (var i=0; i<imgArray.length; i++)</p>
+<p>	{</p>
+<p>		if(imgArray[i].style.display == 'none')</p>
+<p>		{</p>
+<p>			isAdBlocked=1;</p>
+<p>			break;</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>if (!isAdBlocked)</p>
+<p>{</p>
+<p>	for (var j=0; j<iframeArray.length; j++)</p>
+<p>	{</p>
+<p>		if (iframeArray[j].style.display == 'none')</p>
+<p>		{</p>
+<p>			isAdBlocked=1;</p>
+<p>			break;</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>if (!isAdBlocked)</p>
+<p>{</p>
+<p>	for (var j=0; j<scriptArray.length; j++)</p>
+<p>	{</p>
+<p>		if (scriptArray[j].style.display == 'none')</p>
+<p>		{</p>
+<p>			isAdBlocked=1;</p>
+<p>			break;</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>if(isAdBlocked)</p>
+<p>{</p>
+<p>	s.prop50="ad blocking";</p>
+<p>}</p>
+<p>  </p>
+<p>/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/</p>
+<p>var s_code=s.t();if(s_code)document.write(s_code) </p>
+<p>-->  </p>
+<p><!--</p>
+<p>if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</p>
+<p>//--></p>
+<p>DM_addEncToLoc("Site", (s.server));</p>
+<p>DM_addEncToLoc("channel", (s.channel));</p>
+<p>DM_addEncToLoc("keyword", (s.prop3));</p>
+<p>DM_cat(s.hier1);</p>
+<p>DM_tag();</p>
+<p>    (function() { </p>
+<p>	   var old = s.ot; </p>
+<p>	   s.ot = function(el) { </p>
+<p>	       return el.tagUrn ? '' : old(el); </p>
+<p>	   }; </p>
+<p>	})(); </p>
+<p>  (function () {</p>
+<p>    var d = new Image(1, 1);</p>
+<p>    d.onerror = d.onload = function () {</p>
+<p>      d.onerror = d.onload = null;</p>
+<p>    };</p>
+<p>    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-400338h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');</p>
+<p>  })();</p>
+<p>var _sf_async_config={uid:3096,domain:"wgntv.com"};</p>
+<p>(function(){</p>
+<p>function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") + "static.chartbeat.com/js/chartbeat.js"); document.body.appendChild(e); }</p>
+<p>var oldonload = window.onload;</p>
+<p>window.onload = (typeof window.onload != 'function') ?</p>
+<p>loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); </p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-27019966-1']);</p>
+<p>  _gaq.push(['_setDomainName', 'none']);</p>
+<p>  _gaq.push(['_setAllowLinker', true]);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>

@@ -1,0 +1,285 @@
+<p>美元/日元纽约早盘探底回升，美国经常帐赤字创新低 - 汇市直播 _ 外汇网</p>
+<p>function $(s)</p>
+<p>{</p>
+<p>return document.getElementById(s);</p>
+<p>}</p>
+<p>var nickname = Get_Cookie('cookie[passport][username]');</p>
+<p>var url = document.location.href;</p>
+<p>   document.writeln('<div class="top"><div class="top1"><img src="http://images.cnfol.com/uploads/whw/1/top-01.gif" /></div>');</p>
+<p>if (!nickname) {</p>
+<p>   document.writeln('<form id="index_login" action="http://passport.cnfol.com/accounts/Login" method="post" name="loginform" target="_top">');</p>
+<p>   document.writeln('<div class="top2">用户名：</div>');</p>
+<p>   document.writeln('<div class="top3"><input type="text" class="bd1" name="username" id="username"/></div>');</p>
+<p>   document.writeln('<div class="top2">密 码：</div>');</p>
+<p>   document.writeln('<div class="top3"><input class="bd1" name="password" type="password" id="password" /></div>');</p>
+<p>   document.writeln('<div class="top4"><input type="image" src="http://images.cnfol.com/uploads/whw/1/top-02.gif"/></div>');</p>
+<p>   document.writeln('<div class="top5"><a href="http://passport.cnfol.com/accounts/Register" target="_blank"><img src="http://images.cnfol.com/uploads/whw/1/top-03.gif" border="0" /></a></div>');</p>
+<p>   document.writeln('<input type="hidden" name="act" value="login" />');</p>
+<p>    document.writeln('<input type="hidden" name="usertype" value="0" />');</p>
+<p>	document.writeln('<input type="hidden" name="return" value="'+url+'?0=0" />');</p>
+<p>   document.writeln('</form>');</p>
+<p>   $('index_login').onsubmit = function () {</p>
+<p>        if (this.username.value=="") {</p>
+<p>            alert("请输入您的用户名！");</p>
+<p>            this.username.focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        if (this.password.value=="") {</p>
+<p>            alert("请输入您的密码！");</p>
+<p>            this.password.focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>    }</p>
+<p>    var m = location.href.match(/error=([\d])/i);</p>
+<p>    if (m) {</p>
+<p>        if (m[1]==4) alert('您输入的用户名不存在！');</p>
+<p>        if (m[1]==5) alert('您的密码不正确！');</p>
+<p>        if (m[1]==6) alert('您的密码不正确！');</p>
+<p>    }</p>
+<p>}</p>
+<p>else {</p>
+<p>   var url = 'http://passport.cnfol.com/accounts/Logout?return=http://' + location.host + location.pathname;</p>
+<p>    document.writeln('<div class="flt_l">');</p>
+<p>	document.writeln('欢迎您！');</p>
+<p>    document.writeln(unescape(Get_Cookie('cookie[passport][username]'))+' | ');</p>
+<p>    document.writeln('<a href="http://passport.cnfol.com/" target="_blank">我的帐户</a> | ');</p>
+<p>    document.writeln('<a href="'+ url +'">退出</a>');</p>
+<p>	document.writeln('</div>');</p>
+<p>}</p>
+<p>   document.writeln('<div class="top7"><img src="http://images.cnfol.com/uploads/whw/1/top-04.gif" /></div>');</p>
+<p>   document.writeln('<div class="top8"><a href="http://rss.cnfol.com/wh.shtml" target="_blank"><img src="http://images.cnfol.com/uploads/whw/1/icon-01.gif" border="0" /></a></div><div class="top6"><a href="#" onclick="var strHref=window.location.href;this.style.behavior=\'url(#default#homepage)\';this.setHomePage(\'http://forex.cnfol.com\');" style="CURSOR: hand" class="red">设为首页</a>　   <a href="javascript:if(document.all){window.external.addFavorite(\'http://forex.cnfol.com\',\'中金在线 - 中国人的金融门户网站\');}else if(window.sidebar){window.sidebar.addPanel(\'外汇网\', \'http://forex.cnfol.com\',\'\');}"><span class="red">加入收藏</span></a>　   <a href="http://www.cnfol.com" target="_blank">访问中金在线</a></div></div>');</p>
+<p>首页 >> 外汇 >> 汇市直播 >> 正文</p>
+<p>美元/日元纽约早盘探底回升，美国经常帐赤字创新低</p>
+<p>手机免费访问　外汇网　2011年12月15日 23:51　外汇网　</p>
+<p> </p>
+<p>            </p>
+<p>            </p>
+<p>查看评论</p>
+<p>　　周四(12月15日)纽约早盘时段，美元/日元探底回升，目前汇价交投于77.90水平附近。</p>
+<p>　　美国商务部(DOC)公布的数据显示，包括贸易和资本流入的美国三季度经常帐录得赤字1102.8亿美元，预期赤字1075亿美元；二季度数据修正为赤字1247.2亿美元，初值为1180亿美元。</p>
+<p>　　与此同时，日本央行发布的季度短观调查报告称，第四季度日本大型制造业景气判断指数为-4，逊于9月时的+2，且低于市场预估中值的-2。这也是该指数自6月期报告以来首次出现负值。</p>
+<p>　　从技术上看，美元/日元位于5日均线附近，MACD指标红色动能柱犹在，KDJ指标拐头向下。若汇价突破78.60水平，则反弹目标将指向79.50水平。若汇价跌破76.70水平，则回调目标将指向76.30水平。</p>
+<p>　　北京时间23:48，美元/日元报77.91/94。</p>
+<p>　　外汇网声明：外汇网转载上述内容，不表明证实其描述，仅供投资者参考，并不构成投资建议。投资者据此操作，风险自担。</p>
+<p>var sharetitle = "美元/日元纽约早盘探底回升，美国经常帐赤字创新低";</p>
+<p>我要评论</p>
+<p>转发此文至微博</p>
+<p>【收藏到 博采 百度】【推荐】【打印】【大 中 小】【关闭】</p>
+<p>我来说两句</p>
+<p>function $(s)</p>
+<p>{</p>
+<p>  return document.getElementById(s);</p>
+<p>}</p>
+<p><!--</p>
+<p>document.writeln('<div id="pldl">');</p>
+<p>var nickname = Get_Cookie('cookie[passport][username]');</p>
+<p>var url = document.location.href </p>
+<p>if (!nickname) {</p>
+<p>    document.writeln('<form id="index_login" action="http://passport.cnfol.com/accounts/Login" method="post" name="loginform" target="_top">');</p>
+<p>	document.writeln('<div class="text">用户名：</div>');</p>
+<p>	document.writeln('<div class="input"><input name="username" id="username" type="text" /></div>');</p>
+<p>	document.writeln('<div class="text">密 码：</div>');</p>
+<p>	document.writeln('<div class="input"><input name="password" type="password" id="password" /></div>');</p>
+<p>	document.writeln('<div class="submit"><input type="image" src="http://images.cnfol.com/uploads/v5.0/page/pldl_submit.gif"/></div>');</p>
+<p>	document.writeln('<div class="reg"><a href="http://passport.cnfol.com/accounts/Register" target="_blank"><img src="http://images.cnfol.com/uploads/v5.0/page/pldl_reg.gif" border="0"/></a></div>');</p>
+<p>	document.writeln('<input type="hidden" name="act" value="login" />');</p>
+<p>    document.writeln('<input type="hidden" name="usertype" value="0" />');</p>
+<p>	document.writeln('<input type="hidden" name="return" value="'+url+'?0=0" />');</p>
+<p>    document.writeln('</form>');</p>
+<p>    $('index_login').onsubmit = function () {</p>
+<p>        if (this.username.value=="") {</p>
+<p>            alert("请输入您的用户名！");</p>
+<p>            this.username.focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        if (this.password.value=="") {</p>
+<p>            alert("请输入您的密码！");</p>
+<p>            this.password.focus();</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>        if ($('usertype').value == 0) {</p>
+<p>            this.backurl.value = location.href;</p>
+<p>            this.redirectUrl.value = 'http://'+location.host+location.pathname;</p>
+<p>        } else {</p>
+<p>            this.urlfrom.value = 'http://www.cnfol.com/';</p>
+<p>            this.action = 'http://service.cnfol.com/index.php?login';</p>
+<p>            this.target = '_top';</p>
+<p>        }</p>
+<p>    }</p>
+<p>    var m = location.href.match(/error=([\d])/i);</p>
+<p>    if (m) {</p>
+<p>        if (m[1]==4) alert('您输入的用户名不存在！');</p>
+<p>        if (m[1]==5) alert('您的密码不正确！');</p>
+<p>    }</p>
+<p>} else {</p>
+<p>       var CookieStr = document.cookie;</p>
+<p>        var cookieinfo = CookieStr.match(/cookie\[passport\]\[nickname\]\s*=\s*[%,\w]+;/);</p>
+<p>        var cookieinfo = cookieinfo[0].replace("cookie[passport][nickname]=","");</p>
+<p>        var cookieinfo = cookieinfo.replace(";","");</p>
+<p> </p>
+<p>    var url = 'http://passport.cnfol.com/accounts/Logout?return=http://' + location.host + location.pathname;</p>
+<p>    document.writeln('<div id="usercenter" class="p_4">');</p>
+<p>    document.writeln('<b>欢迎您！</b> ');</p>
+<p>    document.writeln(decodeURI(cookieinfo)+' | ');</p>
+<p>    document.writeln('<a href="http://passport.cnfol.com/" target="_blank">我的帐户</a> | ');</p>
+<p>    document.writeln('<a href="'+ url +'">退出</a>');</p>
+<p>    document.writeln('</div>');</p>
+<p>}</p>
+<p>document.writeln('</div>');</p>
+<p>//--></p>
+<p>var nickname = Get_Cookie('cnfol_global_username');</p>
+<p>if (!nickname) {</p>
+<p>    document.write('<input name="reply_author"  type="hidden" value="" checked />');</p>
+<p>}</p>
+<p>else </p>
+<p>{</p>
+<p>    document.write('<input name="reply_author"  type="hidden" value="'+nickname+'" checked />'+nickname+'　<input name="reply_author"  type="radio" value=""/>');</p>
+<p>	}</p>
+<p>function comment(rt) {</p>
+<p>    try {</p>
+<p>	    if(rt == 1) var action = 'reply';</p>
+<p>		else var action = 'newthread';</p>
+<p>        var f = document.pform;</p>
+<p>        var article_class_id = '1381';</p>
+<p>        var news_id = '11367084';</p>
+<p>        var news_title = '美元/日元纽约早盘探底回升，美国经常帐赤字创新低';</p>
+<p>        if (!news_title) news_title = document.title;</p>
+<p>		var news_title = news_title.replaceAll('&quot;','`');</p>
+<p>		var news_title = news_title.replaceAll('\'','`');</p>
+<p>        news_title = encodeURI(news_title);</p>
+<p>        var news_url = location.href;</p>
+<p>		var baseurl = 'http://bbs.cnfol.com/api/newspost.php?news_id=' + news_id +'&news_url=' + news_url + '&action='+action+'&news_title=' + news_title;</p>
+<p>        if (rt==1) {</p>
+<p>            if (f.post_content.value=="") {</p>
+<p>                alert('请输入评论内容');</p>
+<p>                f.post_content.focus();</p>
+<p>                return false;</p>
+<p>            }</p>
+<p>            f.action = baseurl+'&commit='+encodeURI(document.getElementById('post_content').value);</p>
+<p>            return true;</p>
+<p>        } else</p>
+<p>		referURL(baseurl);</p>
+<p>    } catch(e) {}</p>
+<p>}</p>
+<p>String.prototype.replaceAll = function(reallyDo, replaceWith, ignoreCase) {   </p>
+<p>    if (!RegExp.prototype.isPrototypeOf(reallyDo)) {   </p>
+<p>        return this.replace(new RegExp(reallyDo, (ignoreCase ? "gi": "g")), replaceWith);   </p>
+<p>    } else {   </p>
+<p>        return this.replace(reallyDo, replaceWith);   </p>
+<p>    }   </p>
+<p>}   </p>
+<p>function referURL(url){</p>
+<p>var isIe=(document.all)?true:false;</p>
+<p>if(isIe) {</p>
+<p>var linka = document.createElement('a');</p>
+<p>linka.href=url;</p>
+<p>linka.target = "_blank";</p>
+<p>document.body.appendChild(linka);</p>
+<p>linka.click();</p>
+<p>}else {</p>
+<p>window.open(url);</p>
+<p>}</p>
+<p>}</p>
+<p>24小时热门文章</p>
+<p>・默克尔：葡萄牙的最新数据非常鼓舞人心</p>
+<p>・路透调查：2012年底中国央行将累计下调存款</p>
+<p>・安住淳：理解美国及加拿大支持欧洲的立场</p>
+<p>・IEA：对伊朗石油采取更广泛全球禁令或能更有</p>
+<p>・默克尔：欧洲必须实现可持续增长</p>
+<p>・中央经济工作会议：明年经济社会发展要突出</p>
+<p>・标准人寿投资：欧元/美元或将跌至1.2000水平</p>
+<p>・1.3148――欧元/美元18个月后的病危通知书(</p>
+<p>栏目最新文章</p>
+<p>・伦敦铂金12月15日下午定盘价为每盎司1,415.</p>
+<p>・IMF：基金可能需要更多的的资源以保护全球货</p>
+<p>・美国12月10日当周EIA天然气库存减少1020亿立</p>
+<p>・伦敦钯金12月15日下午定盘价为每盎司623.50</p>
+<p>・国际货币基金组织IMF：就针对意大利的官方监</p>
+<p>・IMF：基金下周访问意大利将不会是正式的监测</p>
+<p>・国际货币基金组织IMF：正在进行讨论额外的欧</p>
+<p>・伦敦现货黄金12月15日下午定盘价为1574.00美</p>
+<p>汇市直播</p>
+<p>更多 >></p>
+<p>赞助商链接</p>
+<p>专家建议</p>
+<p>更多 >></p>
+<p>赞助商链接</p>
+<p>分类信息</p>
+<p>---------------------------------------------------------------------------------------------</p>
+<p>本站所有文章、数据仅供参考，使用前务请仔细阅读法律声明，风险自负</p>
+<p>      《中华人民共和国增值电信业务经营许可证》编号：闽 B2-20050010 号</p>
+<p>	  《电子公告服务许可证》编号：闽通信互联网 [2008]1 号</p>
+<p>          证券资讯提供:福建天信投资咨询顾问有限公司 [证书：ZX0151]</p>
+<p>        Copyright © 2003-2013  福建中金在线网络股份有限公司. All Right Reserved.</p>
+<p> </p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>var pageTracker = _gat._getTracker("UA-197044-9");</p>
+<p>pageTracker._trackPageview();</p>
+<p>BAIDU_CLB_fillSlotWithSize("304663", 300, 250);</p>
+<p>$('ads2').innerHTML = $('span_ads2').innerHTML;</p>
+<p>$('span_ads2').innerHTML = '';</p>
+<p>BAIDU_CLB_fillSlotWithSize("213852", 300, 250);</p>
+<p>$('ads4').innerHTML = $('span_ads4').innerHTML;</p>
+<p>$('span_ads4').innerHTML = '';</p>
+<p><!--</p>
+<p>google_ad_client = "pub-3738071758743360";</p>
+<p>/* 文章内页google广告3  300x250 */</p>
+<p>google_ad_slot = "5056902614";</p>
+<p>google_ad_width = 300;</p>
+<p>google_ad_height = 250;</p>
+<p>//--></p>
+<p>$('ads5').innerHTML = $('span_ads5').innerHTML;</p>
+<p>$('span_ads5').innerHTML = '';</p>
+<p>var sogou_param = new Array();</p>
+<p>sogou_param["pid"]  = 'cnfolcom';</p>
+<p>sogou_param["ct"]  = 'context';</p>
+<p>sogou_param["fmt"]  = 'v_120_240';</p>
+<p>sogou_param["iw"]   = '300';</p>
+<p>sogou_param["ih"]   = '250';</p>
+<p>sogou_param["charset"]   = 'utf-8';</p>
+<p>sogou_param["c_bo"] = 'F4F5F7';</p>
+<p>sogou_param["c_bg"] = 'F4F5F7';</p>
+<p>sogou_param["c_li"] = '0000ff';</p>
+<p>sogou_param["c_te"] = '000000';</p>
+<p>sogou_param["c_bt"] = '000000';</p>
+<p>sogou_param["c_hl"] = 'FF0900';</p>
+<p>sogou_param["sv"] = '1';</p>
+<p>sogou_param["sl"] = '1';</p>
+<p>sogou_param["hl"] = '0';</p>
+<p>sogou_param["tfs"] = '14';</p>
+<p>sogou_param["tft"] = '0';</p>
+<p>sogou_param["tml"] = '30';</p>
+<p>sogou_param["dn"] = '3';</p>
+<p>sogou_param["ucl"] = '008000';</p>
+<p>sogou_param["ufs"] = '10';</p>
+<p>sogou_param["uft"] = '0';</p>
+<p>sogou_param["dfs"] = '14';</p>
+<p>sogou_param["mhc"] = 'FF0900';</p>
+<p>sogou_param["mht"] = '0';</p>
+<p>sogou_param["tdw"] = '';</p>
+<p>sogou_param["lod"] = '70';</p>
+<p>sogou_param["ppc"] = '0';</p>
+<p>sogou_param["dul"] = '1';</p>
+<p>sogou_param["new"] = '1';</p>
+<p>sogou_param["tlh"] = '16';</p>
+<p>sogou_param["tpl"] = '0';</p>
+<p> </p>
+<p>cpro_client='cnfol_cpr';</p>
+<p>cpro_at='text_image'; </p>
+<p>cpro_161=3; </p>
+<p>cpro_flush=4; </p>
+<p>cpro_w=300; </p>
+<p>cpro_h=250; </p>
+<p>cpro_template='text_default_300_250'; </p>
+<p>cpro_cbd='#F4F5F7'; </p>
+<p>cpro_cbg='#F4F5F7'; </p>
+<p>cpro_ctitle='#0000ff'; </p>
+<p>cpro_cdesc='#444444'; </p>
+<p>cpro_curl='#008000'; </p>
+<p>cpro_cflush='#e10900'; </p>
+<p>cpro_uap=1;</p>
+<p>cpro_cad=1;</p>
+<p>$('ads6').innerHTML = $('span_ads6').innerHTML;</p>
+<p>$('span_ads6').innerHTML = '';</p>
+<p>BAIDU_CLB_fillSlot("198845");</p>

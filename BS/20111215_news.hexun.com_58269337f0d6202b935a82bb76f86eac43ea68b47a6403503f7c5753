@@ -1,0 +1,368 @@
+<p>被告人刑期与罚金均大幅减少-新闻频道-和讯网</p>
+<p>var wrap_=document.getElementById("wrap");</p>
+<p>if(wrap_!=null){</p>
+<p>if(window.location.href.indexOf("http://insurance.hexun.com")>=0 ){</p>
+<p>	wrap_.style.paddingTop="128px";</p>
+<p>}</p>
+<p>if(window.location.href.indexOf("http://opinion.hexun.com")>=0 || window.location.href.indexOf("http://bschool.hexun.com")>=0 || window.location.href.indexOf("http://book.hexun.com")>=0 || window.location.href.indexOf("http://gongyi.hexun.com")>=0 || window.location.href.indexOf("http://trust.hexun.com")>=0){</p>
+<p>		wrap_.style.paddingTop="114px";	</p>
+<p>	}</p>
+<p>         if(window.location.href.indexOf("http://news.hexun.com")>=0 ||  window.location.href.indexOf("http://funds.hexun.com")>=0 || window.location.href.indexOf("http://futures.hexun.com")>=0 || window.location.href.indexOf("http://qizhi.hexun.com")>=0 || window.location.href.indexOf("http://forex.hexun.com")>=0 || window.location.href.indexOf("http://gold.hexun.com")>=0 || window.location.href.indexOf("http://bond.hexun.com")>=0 || window.location.href.indexOf("http://money.hexun.com")>=0 || </p>
+<p>window.location.href.indexOf("http://stock.hexun.com")>=0 || </p>
+<p>window.location.href.indexOf("http://pe.hexun.com")>=0 || </p>
+<p>window.location.href.indexOf("http://shoucang.hexun.com")>=0 ||</p>
+<p>window.location.href.indexOf("http://pension.hexun.com")>=0</p>
+<p>){</p>
+<p>		wrap_.style.paddingTop="126px";	</p>
+<p>	}</p>
+<p>if(window.location.href.indexOf("http://bank.hexun.com")>=0){</p>
+<p>wrap_.style.paddingTop="167px"; </p>
+<p>}</p>
+<p>if(window.location.href.indexOf("http://tax.hexun.com")>=0){</p>
+<p>wrap_.style.paddingTop="147px"; </p>
+<p>}</p>
+<p>if(window.location.href.indexOf("http://xianhuo.hexun.com")>=0){</p>
+<p>wrap_.style.paddingTop="112px"; </p>
+<p>}</p>
+<p>}</p>
+<p>和讯网 > 新闻  > 正文</p>
+<p>被告人刑期与罚金均大幅减少</p>
+<p> </p>
+<p>/*实现图片的按比例缩放*/ </p>
+<p>function DrawImage(ImgD, iwidth, iheight) { </p>
+<p>    var image = new Image(); </p>
+<p>    image.src = ImgD.src; </p>
+<p>    if(image.width > 0 && image.height > 0){ </p>
+<p>        if(image.width / image.height >= iwidth / iheight){ </p>
+<p>            if(image.width > iwidth){ </p>
+<p>                ImgD.width = iwidth; </p>
+<p>                ImgD.height = (image.height * iwidth) / image.width; </p>
+<p>            } </p>
+<p>            else{ </p>
+<p>                ImgD.width = image.width; </p>
+<p>                ImgD.height = image.height; </p>
+<p>            } </p>
+<p>            // ImgD.alt = image.width + "×" + image.height; </p>
+<p>        } </p>
+<p>        else{ </p>
+<p>            if(image.height > iheight){ </p>
+<p>                ImgD.height = iheight; </p>
+<p>                ImgD.width = (image.width * iheight) / image.height; </p>
+<p>            } </p>
+<p>            else{ </p>
+<p>                ImgD.width = image.width; </p>
+<p>                ImgD.height = image.height; </p>
+<p>            } </p>
+<p>            // ImgD.alt = image.width + "×" + image.height; </p>
+<p>        } </p>
+<p>    } </p>
+<p>} </p>
+<p>//  --------------------------------------- </p>
+<p>2011年12月16日00:22 </p>
+<p>	来源：东方网-劳动报 </p>
+<p>	</p>
+<p>	</p>
+<p>showComment_01(136360504,153)</p>
+<p> 字号:   </p>
+<p>　　据新华社河南鲁山12月15日电 引起全国关注的“368万天价过路费案”，15日在河南省鲁山县人民法院重审，被告人犯罪事实认定和判处刑期与原判决均有重大变化。　　庭审结束后法官当庭宣判：被告人时建锋犯诈骗罪，判处有期徒刑两年6个月，并处罚金人民币1万元。此前，河南省平顶山市中级人民法院认为被告人时建锋犯诈骗罪，判处无期徒刑，剥夺政治权利终身，并判处罚金200万元。</p>
+<p>推荐阅读</p>
+<p>杨文俊卸任蒙牛总裁职务 中粮地产孙伊萍接任</p>
+<p>房地产库存超5万亿  </p>
+<p>发改委再度约谈食用油涨价企业</p>
+<p>信号商卡斯柯回应动车事故</p>
+<p>北京建筑业劳动合同范本出炉</p>
+<p>[组图]车晓离婚后否认3亿分手费 </p>
+<p>[股神争霸] 涨停王浮出水面</p>
+<p>馨月：央行意外降准的三大原因</p>
+<p>　　在犯罪事实认定方面，经鲁山县人民法院审理查明，2008年5月份，被告人时建锋到其弟时军锋经营的沙场帮忙，时军锋明确告知时建锋拉沙车辆所用的“WJ－30055”、“WJ－30056”车辆号牌、证件均系伪造。2008年10月底，时建锋开始全面参与沙场经营管理，负责安排车辆营运、发放雇工工资、购买销售河沙等。经会计事务所审计：2008年11月1日至2009年1月1日，悬挂“WJ－30055”、“WJ－30056”号牌的两辆货车在郑尧高速公路通行，骗免高速公路通行费（按核准装载量计算）计人民币117660.63元。此前，河南省平顶山市中级人民法院认为被告人时建锋骗免高速公路通行费3682110元。　　同时，法官当庭宣判被告人时军锋犯诈骗罪，判处有期徒刑7年，并处罚金人民币5万元；被告人时留申、王明伟犯伪证罪，各判处有期徒刑1年，缓刑1年。</p>
+<p>(function(){</p>
+<p>var obj = null;</p>
+<p>if(document.getElementById('arctTailMark')) {</p>
+<p>obj = document.getElementById('arctTailMark');</p>
+<p>}</p>
+<p>if(obj!=null) {</p>
+<p>var str = ' <a href=" http://www.hexun.com/?from=hxlogo" target="_blank" title="点击进入和讯首页"><img src=" http://img.hexun.com/home/hx.gif" style="margin:0;"/></a>';</p>
+<p>try</p>
+<p>{</p>
+<p>	var oo = obj.previousSibling;</p>
+<p>while(oo.nodeType!=1 || oo.innerHTML.replace(/\s|\u3000/g,'').length==0) {</p>
+<p>   oo = oo.previousSibling;</p>
+<p>}</p>
+<p>if(oo.nodeType==1 && oo.tagName.toLowerCase()=='p') {</p>
+<p>  var span = document.createElement('span');</p>
+<p>  span.innerHTML =str;</p>
+<p>  oo.appendChild(span);</p>
+<p> }</p>
+<p>}</p>
+<p>catch (e){}</p>
+<p>}</p>
+<p>})();</p>
+<p>　　【免责声明】本文仅代表作者本人观点，与和讯网无关。和讯网站对文中陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完整性提供任何明示或暗示的保证。请读者仅作参考，并请自行承担全部责任。</p>
+<p>财经名博</p>
+<p>A股资金</p>
+<p>将长期流出</p>
+<p> </p>
+<p>货币滥发 </p>
+<p>的下场</p>
+<p>相关新闻</p>
+<p>12/14 19:47陕西乾县“灭门凶杀案”一审宣判 被告人被判死刑12/14 10:24乾县一家五口险遭灭门案一审宣判被告人获死刑12/09 13:02导致35人死伤的沈阳“8・28”火灾4名被告人被判刑12/07 06:52足坛打假扫黑系列案将开庭 被告人多达13名12/06 07:43深圳硫酸泼杀儿童续：被告人一审被判无期12/06 02:27检方抗诉 否认被告人曾自首12/05 03:31未决犯罪嫌疑人、被告人审前表现纳入量刑情节</p>
+<p>相关推荐</p>
+<p>被告人</p>
+<p>showComment_02(136360504,153)</p>
+<p>自动登录</p>
+<p>                  </p>
+<p>	用户名：</p>
+<p>	密码：</p>
+<p>请在这里发表您个人看法，发言时请遵守法纪注意文明。</p>
+<p>	</p>
+<p>正在验证用户信息...</p>
+<p>var valueofnameinput="用户名/邮箱/手机";</p>
+<p>var valueofpassinout="******";</p>
+<p>	function checkLeaveWord() {</p>
+<p>	var obj = document.getElementById('contentBefore');</p>
+<p>	obj. disabled='disabled';</p>
+<p>	obj.style.background = '#F5F5F5';</p>
+<p>	obj.value = '请登录后再发表评论！';</p>
+<p>	}</p>
+<p>alfdls  您好，欢迎您发表评论！  （言论仅代表会员个人观点，不代表和讯网观点）</p>
+<p>　　据新华社河南鲁山12月15日电&nbsp;引起全国关注的“368万天价过路费案”，15日在河南省鲁山县人民法院重审，被告人犯罪事实认定和判处刑期与原判决均有重大变化。　　庭审结束后法官当庭宣判：被告人时建锋犯诈骗罪，判处有期徒刑两年6个月，并处罚金人民币1万元。此前，河南省平顶山市中级人民法院认为被告人时建锋犯诈骗罪，判处无期徒刑，剥夺政治权利终身，并判处罚金200万元。　　在犯罪事实......</p>
+<p>请在这里发表您个人看法，发言时请遵守法纪注意文明。</p>
+<p>   </p>
+<p>推广</p>
+<p>热点</p>
+<p>热点</p>
+<p>推广</p>
+<p>热点专题</p>
+<p> 思辨重庆经济路径 中国抵制欧盟征收航空碳税</p>
+<p>2012年成品油价首次上调 吴英案：刀口下的辩论</p>
+<p>帝国赌局：看不懂的海航迷雾 道不清的资本围城  </p>
+<p>三一重工26.54亿元收购普茨迈斯特90%股权</p>
+<p>大摩华鑫涉嫌基金黑幕风波 </p>
+<p>养老金入市运作拉开帷幕 </p>
+<p>保监会2012年监管新政：整顿治理</p>
+<p>烟台银行涉4.3亿元承兑汇票案 </p>
+<p>方韩之争折射时代之短 </p>
+<p>公车采购警惕伪自主 电商企业深陷三国舌战 </p>
+<p>感谢您的参与!查看[本文全部评论]</p>
+<p>您已复制了此链接。赶快分享给您的朋友吧！</p>
+<p>#head2010 .navetc{height:27px; overflow:hidden; font-family:"宋体";}</p>
+<p>#head2010 .navL a{ padding:0px 1px;}</p>
+<p>#head2010 .navetc .navL{ width:840px; float:left; padding:3px 0 0 0; height: 52px; border-right:#bebebe 1px solid;} </p>
+<p>#head2010 .navetc .navR{ width:111px; float:right; padding:3px 3px 3px 0; overflow: hidden;}</p>
+<p>#hexunMember_isloginedSetup_span_display_username{ width: 49px; height: 20px; overflow: hidden; text-align: right; padding:0 0 0 8px; margin-right: 5px;}</p>
+<p>#hexunMember_nologinSetup_div_display_nologin{ height: 20px; padding: 1px 0 0 0; line-height: 20px; text-align: center; background: #e8e8e8; overflow:hidden; margin-bottom:3px;}</p>
+<p>#hexunMember_isloginedSetup_div_display{ height: 20px; padding: 1px 0 0 0; line-height: 20px; text-align: center; background: #e8e8e8 }</p>
+<p>#hexunCalendar a,#hexunCalendar a:hover{ color:#C7E1FC;}</p>
+<p>首页-新闻-股票-基金-期货-期指-黄金-外汇-债券-理财-银行-保险-信托-房产-汽车-科技-股吧-论坛-博客-微博-视频-专栏-看点-问达-培训</p>
+<p>var href=window.location.href;   </p>
+<p>hexunMember_loginSetup_signOutURL=href;//登出地址</p>
+<p>hexunMember_loginSetup_noLoginDisplayMsg=""; //没登陆的提示</p>
+<p>hexunMember_loginSetup_noLoginDisplayFlag="|";//登录和注册中间的分隔符号 或 用户名与登出中间的分隔符号，不需要分隔符可以为空</p>
+<p>hexunMember_loginSetup_islogined_isDisplay=true;//如果是登陆状态，true=显示用户名和登出按钮等信息,flase=不显示任何信息</p>
+<p>hexunMember_loginSetup_referrer=document.referrer;//请不要修改此项</p>
+<p>hexunMember_loginSetup_MastLogin=0;//如果需要不登陆就一直弹窗，在此设置一下弹窗时间间隔(秒)。如果等于0本项无效</p>
+<p>设和讯为首页</p>
+<p>手机版</p>
+<p>免费手机资讯客户端下载</p>
+<p>(function(){</p>
+<p>var obj = document.getElementById('phoneNewsText');</p>
+<p>var url = window.location.href;</p>
+<p>if(url.indexOf('stock.hexun.com')>=0) {</p>
+<p>   obj.style.margin = '17px 0 0 20px';</p>
+<p>   obj.innerHTML = '免费手机股票客户端下载';</p>
+<p>   obj.href = 'http://3g.hexun.com/download_stock/';</p>
+<p>}else if(url.indexOf('funds.hexun.com')>=0) {</p>
+<p>  obj.style.margin = '17px 0 0 20px';</p>
+<p>   obj.innerHTML = '免费手机基金客户端下载';</p>
+<p>   obj.href = 'http://3g.hexun.com/download_fund/';</p>
+<p>}else if(url.indexOf('forex.hexun.com')>=0) {</p>
+<p>  obj.style.margin = '17px 0 0 20px';</p>
+<p>   obj.innerHTML = '免费手机外汇客户端下载';</p>
+<p>   obj.href = 'http://3g.hexun.com/download_forex/';</p>
+<p>}</p>
+<p>})();</p>
+<p>股票/基金 </p>
+<p>微博 </p>
+<p>新闻 </p>
+<p>博客 </p>
+<p>new hxSuggest('textMessage','http://data.stock.hexun.com/include/AjaxSearch2011.ashx',{contrainer:document.getElementById('standStockPanel')});</p>
+<p>(function(){</p>
+<p>var reg = /^[http:\/\/\w|/w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;</p>
+<p>if(reg.test(window.location.href)){</p>
+<p>    var newNode = document.createElement("div");//创建div</p>
+<p>newNode.className="cabar";</p>
+<p>    var oldNode =document.getElementById("hexunCalendar");//获取div</p>
+<p>newNode.innerHTML = "<div id='hexunCalendar' class='hxcal'></div>";   </p>
+<p>    oldNode.parentNode.replaceChild(newNode,oldNode);//直接替换标签</p>
+<p>var w_div = document.createElement('div');</p>
+<p>w_div.className = 'weather';</p>
+<p>var w_frame = document.createElement('iframe');</p>
+<p>w_frame.width = '100%';</p>
+<p>w_frame.height = '22';</p>
+<p>w_frame.frameBorder = '0';</p>
+<p>w_frame.scrolling = 'no';</p>
+<p>w_frame.allowTransparency = 'true';</p>
+<p>w_frame.style.display = 'none';</p>
+<p>w_frame.src = "http://m.weather.com.cn/m/hexunhead/";</p>
+<p>w_div.appendChild(w_frame);</p>
+<p>newNode.appendChild(w_div); </p>
+<p>if(w_frame.readyState) </p>
+<p>   w_frame.onreadystatechange = function() {</p>
+<p>      if(w_frame.readyState == 'loaded' || w_frame.readyState == 'complete') {</p>
+<p>    w_frame.style.display = '';</p>
+<p>}</p>
+<p>   };</p>
+<p>else </p>
+<p>w_frame.onload = function() {</p>
+<p>    w_frame.style.display = '';</p>
+<p>    };</p>
+<p>}</p>
+<p>})();</p>
+<p> </p>
+<p>滚动　金融资本　国内经济　产业经济　公司新闻</p>
+<p>时事　国际经济　新兴市场　生活消费　财经评论</p>
+<p> </p>
+<p>专题　新闻周刊　财经公司　人物 </p>
+<p>访谈</p>
+<p>热点  和讯预测  地区数据  封面   报告</p>
+<p> </p>
+<p>公益　读书　商学院　部委　理财产品 </p>
+<p>数据　藏品　奢侈品　日历　理财培训</p>
+<p>var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>try {</p>
+<p>var pageTracker = _gat._getTracker("UA-2167933-30");</p>
+<p>pageTracker._trackPageview();</p>
+<p>} catch(err) {}</p>
+<p>和讯恭候您的意见 - </p>
+<p>联系我们 - </p>
+<p>关于我们 - </p>
+<p>广告服务</p>
+<p>(function(){</p>
+<p>if((/^[http:\/\/]*news\.hexun\.com(\/|\/index\.html)*$/).test(window.location.href))</p>
+<p>document.write('<span style="padding-left:18px;">执行主编：姜洪桥</span>');</p>
+<p>})();</p>
+<p>本站郑重声明：和讯公司系政府批准的证券投资咨询机构[ZX0005]。所载文章、数据仅供参考，使用前请核实，风险自负。Copyright© 和讯网 和讯信息科技有限公司 All Rights Reserved 版权所有 复制必究</p>
+<p>if(document.getElementById("shilu")!=null)</p>
+<p>{</p>
+<p>document.getElementById("shilu").style.width="710px";</p>
+<p>}</p>
+<p>function coutLinkFrom(strId,mark,isId,p){</p>
+<p>  var obj = null;</p>
+<p>  if(isId) {</p>
+<p>  if(!document.getElementById(strId)) return;</p>
+<p>  obj = document.getElementById(strId);</p>
+<p>  }</p>
+<p>  else {</p>
+<p>     var parent = (typeof p!='undefined' && document.getElementById(p))?document.getElementById(p):document;</p>
+<p>     var arr = parent.getElementsByTagName('*');</p>
+<p> var classesObj = [];</p>
+<p> for(var i=0,l=arr.length;i<l;i++) {</p>
+<p>   if(arr[i].className && arr[i].className == strId) classesObj.push(arr[i]);</p>
+<p> }</p>
+<p> if(classesObj.length>=1) obj = classesObj[0];</p>
+<p>  }</p>
+<p>  if(obj==null) return;</p>
+<p>  var alist = obj.getElementsByTagName('a');</p>
+<p>  var len = alist.length;</p>
+<p>  for(var i=0;i<len;i++) {</p>
+<p>    if(alist[i].href) {</p>
+<p>   alist[i].href = (alist[i].href.indexOf('?')!=-1)?(alist[i].href+'&'+mark):(alist[i].href+'?'+mark);</p>
+<p>}</p>
+<p>  }</p>
+<p>}</p>
+<p>coutLinkFrom('jjjxmod','fromfunds=jjjx',false,'mainleft');</p>
+<p>coutLinkFrom('yued','fromfunds=tjxd',true);</p>
+<p>(function(){</p>
+<p>  var reg = /^[http:\/\/\w|\w\.*\w|\w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;</p>
+<p>   if(!reg.test(window.location.href)) {</p>
+<p>    document.write('\x3Cscript type="text/javascript" src="http://img.hexun.com/base/version/hx_base.min1.1.js">\x3C/script>'+'\x3Cscript type="text/javascript" src="http://img.hexun.com/share/hxShare2011_bd.js">\x3C/script><link href="http://img.hexun.com/share/hxShare2011_bd.css" type="text/css" rel="stylesheet" />');</p>
+<p>    if(window.attachEvent) window.attachEvent('onload',function() {hxShare2011('');});</p>
+<p>	if(window.addEventListener) window.addEventListener('load',function(){hxShare2011('');},false);</p>
+<p>	</p>
+<p>  }</p>
+<p>})();</p>
+<p>(function(){</p>
+<p>	//全站通发广告</p>
+<p>	var reg=/\/\d{9}(_\d+)?.(html|html\?\w*)$/;		</p>
+<p>	if(reg.test(location.href)){</p>
+<p>	    function allPages(){</p>
+<p>		    var script = document.createElement('script');</p>
+<p>			script.type = 'text/javascript';</p>
+<p>			script.src = 'http://itv.hexun.com/lbi-html/ly/2011/allPages/tempAd.js?r='+Math.random();</p>
+<p>			document.body.appendChild(script);	</p>
+<p>		}</p>
+<p>		if(window.attachEvent) window.attachEvent('onload',function() {allPages()});</p>
+<p>		if(window.addEventListener) window.addEventListener('load',function(){allPages()},false);</p>
+<p>		//document.write('<script type="text/javascript" src="http://itv.hexun.com/lbi-html/ly/2011/allPages/tempAd.js"><\/script>');</p>
+<p>	}</p>
+<p>})()</p>
+<p>  var _gaq = _gaq || [];</p>
+<p>  _gaq.push(['_setAccount', 'UA-2167933-30']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>.selected_text { position:absolute; width:84px; height:23px; border:1px solid #DCDCDC; background:#FFF;}</p>
+<p>.selected_text ul {padding-left:8px;}</p>
+<p>.selected_text ul li {float:left; background:url(http://img.hexun.com/img/2011/pup_icon.gif) no-repeat; width:16px; height:16px; margin-right:9px; margin-top:5px; cursor:pointer;}</p>
+<p>.selected_text ul li.text_wb { background-position:0 0;}</p>
+<p>.selected_text ul li.text_pl {background-position:-27px 0;}</p>
+<p>.selected_text ul li.text_jc {background-position:-54px 0;}</p>
+<p>reuters_glos_parseDom('artibody','GlossaryWidget');</p>
+<p>var zero = 0;</p>
+<p>var cmtNum = "0";</p>
+<p>try{</p>
+<p>	if(document.getElementById("commentCount").innerText)</p>
+<p>	cmtNum = document.getElementById("commentCount").innerText ;</p>
+<p>	else if(document.getElementById("commentCount").textContent)</p>
+<p>	cmtNum = document.getElementById("commentCount").textContent;</p>
+<p>	zero = parseInt(cmtNum);</p>
+<p>}catch(e){</p>
+<p>	zero = 0;</p>
+<p>}</p>
+<p>if(document.getElementById("cmtspan"))</p>
+<p>{</p>
+<p>document.getElementById("cmtspan").style.display='';</p>
+<p>if(zero == 0 ) document.getElementById("cmtspan").innerHTML = "欢迎发表评论<span id='commentCount' style='display:none'>0</span>";</p>
+<p>else  document.getElementById("cmtspan").innerHTML = "已有<span id='commentCount'>"+zero+"</span>条评论";</p>
+<p>}</p>
+<p>         function shareyou(){</p>
+<p>			var the_url=window.location.href;</p>
+<p>			if (window.clipboardData) {</p>
+<p>				window.clipboardData.setData("Text", the_url);scall2();</p>
+<p>			} else if (window.netscape) { </p>
+<p>				var d=document.getElementById("invest_s07_31");</p>
+<p>				if(d!=null) {</p>
+<p>					d.innerHTML="请手动复制内容：<br/><input type=text size=40 onfocus='this.select();' style='border:1px solid #cccccc' value='"+the_url+"' />";</p>
+<p>					scall2();</p>
+<p>				}</p>
+<p>			}</p>
+<p>	     	return false;</p>
+<p>         }</p>
+<p>//用于内部图片超宽时,限定图片宽度</p>
+<p>         function resizeImage(){</p>
+<p>	         var seImg=document.getElementById("artibody");</p>
+<p>	         if(seImg!=null){</p>
+<p>	         	var tagNames=seImg.getElementsByTagName("IMG");</p>
+<p>	         	for(var i=0;i<tagNames.length;i++){</p>
+<p>	         		if(tagNames[i].width>580){tagNames[i].width=580}</p>
+<p>	         	}</p>
+<p>	         }</p>
+<p>	       }</p>
+<p>	       resizeImage();</p>
+<p>	       //resizeImage 结束</p>
+<p>/*iframe*/</p>
+<p>var E = function(element) {</p>
+<p>	if(typeof element == "string")</p>
+<p>	element = document.getElementById(element);</p>
+<p>	return element;</p>
+<p>	}</p>
+<p>//字体改变</p>
+<p>function changeSize(size,sizeObj) {</p>
+<p>	var obj = E(sizeObj);</p>
+<p>	obj.style.fontSize = parseInt(size)+"px";</p>
+<p>	obj.style.lineHeight = parseInt(size)+10+"px";</p>
+<p>	}</p>

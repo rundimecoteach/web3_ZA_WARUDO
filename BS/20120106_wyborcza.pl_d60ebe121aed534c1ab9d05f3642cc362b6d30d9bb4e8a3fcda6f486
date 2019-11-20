@@ -1,0 +1,462 @@
+<p>Będzie szczepionka na HIV?</p>
+<p>var now = new Date(2013, 3, 10, 9, 17, 55);</p>
+<p>	document.write('<scr'+'ipt type=\"text/javascript\" src=\"http://ad.adview.pl/ad/BehavPixel.servlet?dir='+/gazetawyborcza/+'&dx='+99884+'"><\/script>');</p>
+<p>	</p>
+<p>			var profileBan;</p>
+<p>			if (typeof profileCookie != 'undefined'){</p>
+<p>				profileBan = profileCookie; </p>
+<p>			}else {</p>
+<p>				profileBan = null;</p>
+<p>			}	</p>
+<p>			var asParams;</p>
+<p>			if (typeof n_pbt != 'undefined' && n_pbt != ''){</p>
+<p>				asParams = '&asParams=' + n_pbt; </p>
+<p>			}else {</p>
+<p>				asParams = '';</p>
+<p>			}</p>
+<p>			document.write('<scr'+'ipt type="text/javascript" src="http://ad.adview.pl/ad/GetBan?dir=/gazetawyborcza/&jsp=23&dx=99884&t='+(new Date()).getTime()+'&p='+profileBan+asParams+'"><\/script>');</p>
+<p>			</p>
+<p>			document.write('<scr'+'ipt type="text/javascript" src="http://bi.adview.pl/info/ban/banFunc.js"><\/script>');</p>
+<p>		</p>
+<p>		</p>
+<p>putBan(2);</p>
+<p>var _sf_startpt=(new Date()).getTime()</p>
+<p><!--</p>
+<p>if (top.frames.length!=0) top.location=self.document.location;</p>
+<p>// --></p>
+<p><!--</p>
+<p>    var pp_gemius_identifier = new String('Apg7Ka_gcNYT1jBafP32V7R3P50WYYeMaHKm5ELGb53.c7/arg=99884/sarg='+'|'+profileCookie);</p>
+<p>//--></p>
+<p> </p>
+<p><!-- </p>
+<p>protokol = /^https/i; </p>
+<p>if ( protokol.test(window.location.href) ) </p>
+<p>{ </p>
+<p>document.writeln('<'+'scr'+'ipt type="text/javascript" src="https://gazeta.hit.gemius.pl/xgemius.js"></'+'scr'+'ipt>'); </p>
+<p>} </p>
+<p>else </p>
+<p>{ </p>
+<p>document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://gazeta.hit.gemius.pl/xgemius.js"></'+'scr'+'ipt>'); </p>
+<p>} </p>
+<p>//--> </p>
+<p>//<![CDATA[   </p>
+<p>var gazeta_pl = {</p>
+<p>documentParam: {"root": "/gazetawyborcza/" }</p>
+<p>, topLayerNewsletterConfig: {</p>
+<p>  uri: '',</p>
+<p>  closed_cookie_name: '',</p>
+<p>  signed_cookie_name: ''</p>
+<p>}</p>
+<p>};</p>
+<p>//]]></p>
+<p>  var _gaq = _gaq || [];  var utmgif = 'http://kropka.'+ window.location.hostname+'/__utm.gif';  _gaq.push(['_setAccount', 'UA-426268-1']);   _gaq.push(['_setCampaignCookieTimeout', 0]);   _gaq.push(['_trackPageview']);   _gaq.push(['second._setAccount', 'UA-426268-57']);   _gaq.push(['second._setCampaignCookieTimeout', 0]);   _gaq.push(['second._setLocalGifPath',utmgif]);   _gaq.push(['second._setLocalRemoteServerMode']);   _gaq.push(['second._trackPageview']);   (function() {  var ga = document.createElement('script');  ga.type = 'text/javascript'; ga.async = true;  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +  '.google-analytics.com/ga.js';  var s = document.getElementsByTagName('script')[0];  s.parentNode.insertBefore(ga, s);  })();    (function() {  var tg = document.createElement('script');  tg.type = 'text/javascript';  tg.async = true;  tg.src = 'http://analytics.gazeta.pl/tg.js';  var s = document.getElementsByTagName('script')[0];  s.parentNode.insertBefore(tg, s);  })(); </p>
+<p>window.gazeta_pl = window.gazeta_pl || {};</p>
+<p>window.gazeta_pl.functionQueue = window.gazeta_pl.functionQueue || [];</p>
+<p>window.gazeta_pl.functionQueue.push(function(){</p>
+<p>	function facebookReady(){</p>
+<p>		FB.init({</p>
+<p>	      appId  : 199770596725532,</p>
+<p>	      status : true, // check login status </p>
+<p>	      cookie : true, // enable cookies to allow the server to access the session</p>
+<p>	      xfbml  : true,  // parse XFBML</p>
+<p>	      oauth  : true,  // OAuth 2.0</p>
+<p>	      //channelUrl: 'http://bi.gazeta.pl/info/facebook/fbjs.html'</p>
+<p>	    });</p>
+<p>		window.postFbInit();</p>
+<p>	}</p>
+<p>	if(window.FB) {</p>
+<p>		facebookReady();</p>
+<p>	} else {</p>
+<p>		window.fbAsyncInit = facebookReady;</p>
+<p>	}</p>
+<p>	</p>
+<p>});</p>
+<p>//Load the SDK Asynchronously</p>
+<p>  (function(d){</p>
+<p>     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}</p>
+<p>     js = d.createElement('script'); js.id = id; js.async = true;</p>
+<p>     js.src = "//connect.facebook.net/pl_PL/all.js";</p>
+<p>     d.getElementsByTagName('head')[0].appendChild(js);</p>
+<p>   }(document));</p>
+<p>      window.___gcfg = {</p>
+<p>        lang: 'pl'</p>
+<p>      };</p>
+<p>      (function() {</p>
+<p>        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;</p>
+<p>        po.src = 'https://apis.google.com/js/plusone.js';</p>
+<p>        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);</p>
+<p>      })();</p>
+<p>    </p>
+<p>	var idPogoda="";</p>
+<p>putBan(49);</p>
+<p>var pianoVariables = {</p>
+<p>	service_id: '170',</p>
+<p>	mode: 'bar_normal',</p>
+<p>	method_verify:true</p>
+<p>};</p>
+<p>var pianoHostProtocol = (("https:" == document.location.protocol) ? "https://" : "http://");</p>
+<p>(function() {</p>
+<p>	var s = document.createElement('script');</p>
+<p>	s.type = 'text/javascript';</p>
+<p>	s.async = true;</p>
+<p>	s.src = pianoHostProtocol + 'pl.bar.pianomedia.eu/bar.js';</p>
+<p>	var p = document.getElementsByTagName('script')[0]; p.parentNode.insertBefore(s, p);</p>
+<p>	if (typeof firstVisitSetCookieInfo == 'undefined') return; </p>
+<p>    var checkPianoAvaiable = setInterval(function() {</p>
+<p>        if (document.getElementById('piano-root') && document.body.childNodes[0].id != 'cookieInfoMsgWrapper') {</p>
+<p>            document.body.insertBefore(document.getElementById('cookieInfoMsgWrapper'),document.body.childNodes[0])</p>
+<p>            window.clearInterval(checkPianoAvaiable);</p>
+<p>        };</p>
+<p>    },100);</p>
+<p>	</p>
+<p>})();</p>
+<p>Strona główna Gazeta.pl</p>
+<p>Tokfm.pl</p>
+<p>Poczta</p>
+<p>Forum</p>
+<p>Blogi</p>
+<p>Gazeta Wyborcza</p>
+<p>więcej</p>
+<p>Pogoda</p>
+<p>Archiwum</p>
+<p>Gry</p>
+<p>Programy</p>
+<p>Prezenty w Okazje.info</p>
+<p>Zaloguj się</p>
+<p>var gazeta_pl = gazeta_pl || {};</p>
+<p>gazeta_pl.gameCenterRefresh = 0;</p>
+<p>putBan(1);</p>
+<p>Nauka</p>
+<p>putBan(71);</p>
+<p>w serwisie</p>
+<p>w archiwum</p>
+<p>w internecie</p>
+<p>Witamy w Polsce</p>
+<p>Fałszywa reporterka TVN grasuje po kraju. Za rachunki nie płaci</p>
+<p>Magazyn Świąteczny</p>
+<p>Głowacki: Gdy wygra PiS, równie śmiesznego miejsca nie będzie</p>
+<p>Piątek Ekstra</p>
+<p>Dorwać prywaciarza. "Układ zamknięty" - film niewygodny dla władzy?</p>
+<p>Duży Format</p>
+<p>Bezdomna, ale żebrać nie będzie. Sprzedaje kwiaty, czyta "Quo vadis"</p>
+<p>Międzynarodowy</p>
+<p>Dlaczego w Szwecji nienawidzą kobiet. Czy to "efekt Breivika"</p>
+<p>Ale historia</p>
+<p>Elżbieta Batory słynęła z urody. To pierwsza seryjna morderczyni?</p>
+<p>Opinie</p>
+<p>Pomnik Sprawiedliwych w miejscu żydowskiego cierpienia</p>
+<p>WYSOKIE OBCASY</p>
+<p>Suknie balowe w obozie. Władze chciały zamęczyć i wyszydzić</p>
+<p>Sport.pl Ekstra</p>
+<p>Rosnący brzuch zmienia perspektywę. Także w sporcie</p>
+<p>MATERIAŁY PŁATNE, DOSTĘPNE W SYSTEMIE PIANO Więcej</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>KrajQuiz politycznyRozmowy KublikŚwiatKulturaKsiążkiFilmMuzykaSztukaTeatrTelewizjaNIKE 2012NaukaZdrowiePoczta TeremiskiOpinieKomentarzeMiastaWarszawaBiałystokBielsko-BiałaBydgoszczCzęstochowaGorzów Wlkp.KatowiceKielceKrakówLublinŁódźOlsztynOpolePłockPoznańRadomRzeszówSzczecinToruńTrójmiastoWrocławZielona GóraAle historiaWideoDuży FormatPiątek EkstraŚwiątecznyMiędzynarodowyNekrologiNekrologiWspomnieniaPłatnewszystkie</p>
+<p>Jak urządzić świat?</p>
+<p>Trasy magiczne</p>
+<p>Sport.pl ekstra</p>
+<p>Kraj</p>
+<p>Wiadomości z regionów</p>
+<p>Świat</p>
+<p>Komentarze</p>
+<p>Kultura</p>
+<p>Nauka</p>
+<p>Gospodarka</p>
+<p>Sport</p>
+<p>Listy do "Gazety"</p>
+<p>Poradniki GW</p>
+<p>Akcje społeczne</p>
+<p>Młodzi odwagi</p>
+<p>Leczyć po ludzku</p>
+<p>Ale historia</p>
+<p>Duży Format</p>
+<p>Piątek Ekstra</p>
+<p>Nowa Świąteczna</p>
+<p>Wysokie Obcasy</p>
+<p>Witamy w Polsce</p>
+<p>Duży Kadr</p>
+<p>Wideo</p>
+<p>Archiwum Świątecznej</p>
+<p>Świąteczna krzepi</p>
+<p>Arka Noego</p>
+<p>Dwie na jednego</p>
+<p>Klub Goście Gazety</p>
+<p>Wyborcza do wyboru</p>
+<p>Tablet</p>
+<p>Kindle</p>
+<p>Smartphone</p>
+<p>E-wydanie</p>
+<p>Prenumerata</p>
+<p>Archiwum</p>
+<p>Galeria okładek</p>
+<p>Presscliping</p>
+<p>Newsletter</p>
+<p>Kolekcje Gazety</p>
+<p>Reklama w GW</p>
+<p>Patronaty Wyborcza.pl</p>
+<p>Wyborcza.pl.bizWysokie ObcasySport</p>
+<p>  __nav_init();</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>putBan(56);</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>   </p>
+<p>        </p>
+<p>Gazeta Wyborcza >  Nauka >  Biologia</p>
+<p>putBan(91);</p>
+<p> Będzie szczepionka na HIV?</p>
+<p>wom</p>
+<p>          </p>
+<p>			                             04.01.2012</p>
+<p>										</p>
+<p>										, aktualizacja: 04.01.2012 17:02</p>
+<p>										</p>
+<p>        </p>
+<p>A</p>
+<p>A</p>
+<p>A</p>
+<p>Drukuj</p>
+<p> </p>
+<p> </p>
+<p>Wirus HIV pod mikroskopem (Fot. Cybermedia)</p>
+<p> Wyniki naszych badań są naprawdę obiecujące - piszą na łamach najnowszego "Nature" naukowcy z Harvardu. Co prawda szczepionkę przetestowano na razie tylko na małpach - rezusach - ale uczeni są przekonani, że już wkrótce będzie można zacząć próby kliniczne z udziałem ludzi.  </p>
+<p>        Zespół kierowany przez Dana Baroucha podał szczepionkę - zwaną MVA - grupie rezusów (tylko część zwierząt otrzymała prawdziwy preparat, reszta dostała placebo - nieaktywną biologicznie substancję). Okazało się, że u zaszczepionych zwierząt ryzyko zakażenia się SIV (Simian Immunodeficency Virus) - małpim odpowiednikiem wirusa HIV - było o 80-83 proc. niższe niż wśród tych, które otrzymały placebo. W dodatku u małp, które pomimo podania szczepionki uległy zakażeniu, liczba wirusów była wyraźnie mniejsza.        Jak uważają naukowcy, małpie wirusy od zawsze przenosiły się na mieszkańców odizolowanych wiosek w Afryce. Dopiero cywilizacja sprawiła, że jeden z nich - HIV - wydostał się z buszu i ruszył w świat.        Dzięki badaniom genomu wiemy, że wirus SIV przeszedł na nas z szympansów, po czym zmienił się w zabójczy HIV. Stało się to w Afryce Środkowej między 1910 a 1930 r. Epidemia zaczęła się w Kongu pod koniec lat 50. Część źródeł podaje, że najstarszy przypadek zakażenia HIV miał miejsce w 1959 r. i dotyczył mężczyzny. Inne mówią o kobiecie pochodzącej z zagubionej w buszu wioski i przez kilka lat pracującej w Kinszasie jako prostytutka. Wirus miał zostać znaleziony w próbce pobranej od niej krwi w 1957 r.</p>
+<p> </p>
+<p>     </p>
+<p>var artykuly = new Array();</p>
+<p>function show(x2){</p>
+<p>        for(var ii=0; ii < artykuly.length; ii++){</p>
+<p>                var obj=document.getElementById("li"+artykuly[ii]);</p>
+<p>                if (artykuly[ii]==x2){</p>
+<p>                        obj.style.display="none"; </p>
+<p>                }</p>
+<p>        }</p>
+<p>}</p>
+<p>function xxFromHref(href){</p>
+<p>        var wynik=new String(href);</p>
+<p>        var indx1=wynik.indexOf(",");</p>
+<p>        var indx2=0;</p>
+<p>        if (indx1 > 0) {//</p>
+<p>                wynik=wynik.substring(indx1+1);</p>
+<p>                indx1=wynik.indexOf(",");</p>
+<p>                if (indx1 > 0){</p>
+<p>                        wynik=wynik.substring(indx1+1);</p>
+<p>                        indx1=wynik.indexOf(",");</p>
+<p>                        if (indx1 > 1){</p>
+<p>                                wynik=wynik.substring(0,indx1);</p>
+<p>                        }</p>
+<p>                }</p>
+<p>        }</p>
+<p>        indx2=wynik.lastIndexOf(".");</p>
+<p>        if (indx2 > 0) wynik=wynik.substring(0,indx2);</p>
+<p>        return wynik;</p>
+<p>}</p>
+<p>var xx=xxFromHref(window.top.location);</p>
+<p>var indx=0;</p>
+<p>     </p>
+<p>Hugo-Bader, Stasiuk, Waglewski... Nowy numer magazynu KONTYNENTY na czytniki i tablety</p>
+<p> | SPRAWDŹ!</p>
+<p>show(xx);</p>
+<p>Wyślije-mailem</p>
+<p>putBan(4);</p>
+<p>putBan(85);</p>
+<p><!--</p>
+<p>	var google_ad_client = 'ca-agora-pl_html';</p>
+<p>	var google_language = 'pl';</p>
+<p>	var google_gl = 'pl';</p>
+<p>	var google_encoding = 'utf8';</p>
+<p>	var google_safe = 'high';</p>
+<p>	var google_color_bg = 'FFFFFF';</p>
+<p>	var google_color_border = 'FFFFFF';</p>
+<p>	var google_color_line = 'FFFFFF';</p>
+<p>	var google_color_link = '334fdb';</p>
+<p>	var google_color_text = '000000';</p>
+<p>	var google_color_url = '008000';</p>
+<p>  // --></p>
+<p>putBan(62);</p>
+<p>                      </p>
+<p>						  var gazeta_pl = gazeta_pl || {};</p>
+<p>						  gazeta_pl.ArticleBannerConfig = {</p>
+<p>						      "nobanner": false,</p>
+<p>						      "elem": "banP62"</p>
+<p>						  }; </p>
+<p>						</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Najczęściej czytaneWszystkoPŁATNE1.Każdego, kto przyjedzie do Warszawy z transparentem, zapytałabym, czy potrafi wymienić wszystkie 96 ofiar. Ja potrafię2.Kościelna komisja smoleńska3.Diabeł in vitro. Episkopat oficjalnie: Zakazać sztucznego zapłodnienia. Jest jak produkcja ludzi4.Polska prawica ogląda niemiecki serial5.Sąd: Poczta Polska może bez zapowiedzi kontrolować telewizory w firmach i domach1.Jak się kradnie miliony i nie idzie do więzienia2.Grzechy i grzeszki średniowiecznych sypialni3.Ksiądz, jego żona i reporterka4.Z dziejów seksu w Polsce Ludowej5.Zamek, który straszy</p>
+<p>putBan(3);</p>
+<p>putBan(13);</p>
+<p>putBan(11);</p>
+<p>putBan(43);</p>
+<p>putBan(50);</p>
+<p>putBan(21);</p>
+<p>putBan(96);</p>
+<p>putBan(97);</p>
+<p>putBan(60);</p>
+<p>putBan(61);</p>
+<p>putBan(46);</p>
+<p>putBan(57);</p>
+<p>Polecamy </p>
+<p>kraj</p>
+<p>Krucjata smoleńska - tak prawica opisuje przygotowania do obchodów rocznicy katastrofy smoleńskiej</p>
+<p>Witamy w Polsce</p>
+<p>Do wsi sprowadzili się Australijczycy. Miejscowi żule ich okradali, potem spalili. Inni przygarnęli pogorzelców</p>
+<p>Dodatki i kolekcje Gazety Wyborczej</p>
+<p>W środę z "Gazetą":Gazeta Dom</p>
+<p> </p>
+<p>		function newWindow(url) {</p>
+<p>		var parametry = "toolbar=yes,location=1,directories=1,status=yes,menubar=1,scrollbars=yes,resizable=yes,copyhistory=0,width=800,height=600,left=" + ((screen.width - 800) / 2) + ",top=" + ((screen.height - 600) / 2);</p>
+<p>		var newWindow = window.open(url, "Przykładowy_newsletter", parametry);</p>
+<p>		newWindow.focus();</p>
+<p>		} </p>
+<p>	Zamów na adres e-mail newslettera z najnowszymi wiadomościami naukowymi!wpisz tutaj swój e-mailPrzykładowy newsletter</p>
+<p>putBan(35);</p>
+<p>putBan(88);</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>putBan(42);</p>
+<p>Na skróty:Gazeta.plWiadomościSport.plBiznesGazeta WyborczaPracaProgram TV</p>
+<p>Polecamy:eMetroDodaj ogłoszenieReklama w GazecieNadaj nekrologWyniki LottoOferty nieruchomości</p>
+<p>Newsletter</p>
+<p>Facebook</p>
+<p>RSS</p>
+<p>Poczta</p>
+<p>Copyright © Agora SA</p>
+<p>O nas</p>
+<p>Staże u nas</p>
+<p>Reklama</p>
+<p>Prywatność</p>
+<p>Wszystkie artykuły</p>
+<p>Licencje</p>
+<p>Poleć stronę</p>
+<p>Zgłoś błąd</p>
+<p><!--</p>
+<p>        function getCookie(name) {</p>
+<p>            var start = document.cookie.indexOf(name+"=");</p>
+<p>            var len = start+name.length+1;</p>
+<p>            if ((!start) && (name != document.cookie.substring(0,name.length))) return null;</p>
+<p>            if (start == -1) return null;</p>
+<p>            var end = document.cookie.indexOf(";",len);</p>
+<p>            if (end == -1) end = document.cookie.length;</p>
+<p>            return unescape(document.cookie.substring(len,end));</p>
+<p>        }</p>
+<p>        document.write('<'+'img src="https://p.gazeta.pl/?b=1&x=10914468&d=0&o=1&t='+(new Date()).getTime()+'&w=99884&u='+banCookie+'"'+'>');</p>
+<p>    //--></p>
+<p>tyntVariables = {"ap":"Wi\u0119cej... "}; </p>
+<p>	var _sf_async_config={uid:14371,domain:"wyborcza.pl"};</p>
+<p>		</p>
+<p>	(function(){</p>
+<p>	function loadChartbeat() {</p>
+<p>	window._sf_endpt=(new Date()).getTime();</p>
+<p>	var e = document.createElement('script');</p>
+<p>	e.setAttribute('language', 'javascript');</p>
+<p>	e.setAttribute('type', 'text/javascript');</p>
+<p>	e.setAttribute('src',</p>
+<p>	(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +</p>
+<p>	"js/chartbeat.js");</p>
+<p>	document.body.appendChild(e);</p>
+<p>	}</p>
+<p>	var oldonload = window.onload;</p>
+<p>	window.onload = (typeof window.onload != 'function') ?</p>
+<p>	loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>	})();</p>
+<p>	</p>
+<p> </p>
+<p>putBan(19);</p>
+<p>putBan(41);</p>
+<p>countBan(99884);</p>
+<p>putBan(94);</p>
+<p>    function postFbInit(){</p>
+<p>		</p>
+<p>    	if(typeof enableFBComments != 'undefined' && enableFBComments == true) {</p>
+<p>    		gazeta_pl.FBComments.init();</p>
+<p>    	}</p>
+<p>    	</p>
+<p>    	if(typeof facebookMessageBody != 'undefined') {</p>
+<p>    		facebookMessageBody = facebookMessageBody.replace(/\[\/?\s*(quote|b|u|i|url|email|code|sonda|spoiler|video|\*).*?\]/g, '');</p>
+<p>             var FBCommentsConfig = {</p>
+<p>                 message : facebookMessageBody,</p>
+<p>                 link : 'http://wyborcza.pl/1,99884,10914468,Bedzie_szczepionka_na_HIV_.html?utm_source=facebook.com&utm_medium=SM&utm_campaign=FB_Komentarze',</p>
+<p>                 name: 'Przejdź do strony'</p>
+<p>             };</p>
+<p>             gazeta_pl.FBComments.send(FBCommentsConfig);</p>
+<p>        }</p>
+<p>        </p>
+<p>        gazeta_pl.FBC.init();</p>
+<p>        </p>
+<p>	}</p>

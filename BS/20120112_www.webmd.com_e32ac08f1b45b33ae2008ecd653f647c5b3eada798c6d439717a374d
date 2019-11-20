@@ -1,0 +1,785 @@
+<p> </p>
+<p> var s_topic="2731"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_sponsor_brand=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_type=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal=""</p>
+<p> ,s_channel_health="Health & Diet"</p>
+<p> ,s_channel_mini_topic_guide=""</p>
+<p> ,s_tug=""</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_mrt="1";</p>
+<p> var s_furl="/diet/news/20120110/diabetes-medications-may-double-as-weight-loss-drugs"; var s_sponsor_program=""; var s_sensitive="false"; var s_mrt="1"; var image_server_url="http://img.webmd.com/dtmcms/live";var s_uk_user="false";</p>
+<p>Diabetes Medications May Double as Weight Loss Drugs</p>
+<p><!-- </p>
+<p> var center="health"; var center_name="Health & Diet"; var center_id=1004; var center_prefix="www"; var center_url="/diet/default.htm";//--></p>
+<p>// write mboxes for OTT</p>
+<p>if (window.$ && window.webmd && window.mboxCreate) {</p>
+<p>	if (window.webmd.mbox) {</p>
+<p>		webmd.mbox.init();</p>
+<p>	}</p>
+<p>}</p>
+<p>					$("#bannerAd_Iframe").load(function() { $("#bannerAd_fmt").addClass("loaded"); $(".bannerAd_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>try {</p>
+<p>	document.execCommand('BackgroundImageCache', false, true);</p>
+<p>} catch(e) {}</p>
+<p>Skip to content</p>
+<p>Home & News</p>
+<p>WebMD Home</p>
+<p>WebMD News Home </p>
+<p>Free Health Newsletters</p>
+<p>WebMD Community & Experts</p>
+<p>See All Expert Blogs</p>
+<p> </p>
+<p>Health A-Z</p>
+<p>ADD/ADHD</p>
+<p>Allergies</p>
+<p>Allergy TV</p>
+<p>Alzheimer's</p>
+<p>Anxiety Disorders</p>
+<p>Arthritis</p>
+<p>Asthma</p>
+<p>Back Pain</p>
+<p>Bipolar Disorder</p>
+<p>Bipolar TV</p>
+<p>Breast Cancer</p>
+<p>Cancer</p>
+<p>Cancer Communities</p>
+<p>Cholesterol</p>
+<p>Cold & Flu</p>
+<p>Colorectal Cancer</p>
+<p>COPD </p>
+<p>Depression</p>
+<p>Depression TV</p>
+<p>Diabetes</p>
+<p>Erectile Dysfunction</p>
+<p>Eye Health</p>
+<p>Fibromyalgia</p>
+<p>Heart Disease</p>
+<p>Heartburn/GERD</p>
+<p>Herpes</p>
+<p>Hypertension</p>
+<p>IBS</p>
+<p>Incontinence/OAB</p>
+<p>Inflammatory Bowel</p>
+<p>Menopause</p>
+<p>Mental Health</p>
+<p>Migraines</p>
+<p>Multiple Sclerosis</p>
+<p>Osteoporosis</p>
+<p>Pain Management </p>
+<p>Parkinson's Disease </p>
+<p>Rheumatoid Arthritis</p>
+<p>Sexual Conditions</p>
+<p>Shingles</p>
+<p>Skin Problems</p>
+<p>Sleep Disorders</p>
+<p>Stroke</p>
+<p>See All Topics</p>
+<p>Videos A-Z</p>
+<p>Community & Experts</p>
+<p>Experts A-Z</p>
+<p>First Aid A-Z</p>
+<p>Games A-Z</p>
+<p>Tests & Tools A-Z</p>
+<p>Slideshows A-Z</p>
+<p> </p>
+<p>Drugs & Medications Center</p>
+<p>Find or Review a Drug</p>
+<p>Pill Identifier</p>
+<p>Drug News</p>
+<p>Mobile Drug Information</p>
+<p>Find a Vitamin or Supplement</p>
+<p>First Aid & Emergencies</p>
+<p>WebMD Community & Experts</p>
+<p>WebMD Ask the Pharmacist</p>
+<p> </p>
+<p>Healthy Living</p>
+<p>Women's Health</p>
+<p>Men's Health</p>
+<p>Pet Health</p>
+<p>Oral Health</p>
+<p>Emotional Health</p>
+<p>Mental Health Communities</p>
+<p>Find a Therapist</p>
+<p>Green Living</p>
+<p>50+: Live Better, Longer</p>
+<p>Sex & Relationships</p>
+<p>Healthy Beauty</p>
+<p>Healthy Skin TV</p>
+<p>Sexual Health Communities</p>
+<p>See All Topics</p>
+<p>Women's Health Communities</p>
+<p>Skin & Beauty Community</p>
+<p>Men's Health Communities</p>
+<p> </p>
+<p>Healthy Eating & Diet </p>
+<p>Healthy Eating & Diet </p>
+<p>Food & Cooking</p>
+<p>Food-o-Meter</p>
+<p>Fit-o-Meter</p>
+<p>Fitness & Exercise</p>
+<p>Food & Fitness Planner</p>
+<p>Portion Size Helper</p>
+<p>Personal Diet Evaluator</p>
+<p>BMI Plus Calculator</p>
+<p>Eating & Diet Communities</p>
+<p>Digestive Disorders Communities</p>
+<p> </p>
+<p>Parenting & Pregnancy</p>
+<p>Parenting</p>
+<p>Pregnancy</p>
+<p>Children's Health</p>
+<p>Children's Vaccines</p>
+<p>Newborn & Baby</p>
+<p>New! Raising Fit Kids</p>
+<p>New! WebMD for Kids</p>
+<p>Parenting Communities</p>
+<p>Pregnancy Communities</p>
+<p>Trying to Conceive Communities</p>
+<p> </p>
+<p>Teen Health</p>
+<p>Teen Girls</p>
+<p>New! Teen Boys</p>
+<p>WebMD FIT Teen </p>
+<p>Food</p>
+<p>Move</p>
+<p>Recharge</p>
+<p>Mood</p>
+<p> </p>
+<p>Pet Health</p>
+<p>Healthy Dogs</p>
+<p>Healthy Cats</p>
+<p>Healthy Pets Community</p>
+<p> </p>
+<p> </p>
+<p>Enter Search Keywords:</p>
+<p>Other search tools:Symptoms|Doctors|Medical Dictionary</p>
+<p>		/* Basic styles to avoid the jumping when things load. */</p>
+<p>		.bottom_header #reglinks { float:right; position:relative; margin:0px; padding:0px; height:22px; width: 330px; z-index:96; }</p>
+<p>		.bottom_header #reglinks .login_rdr { display:none; width: 330px; }</p>
+<p>		#reglinks .login_rdr ul#registration_hdr { float: right; list-style: none outside none; margin: 0; padding: 5px 0 3px 0; }</p>
+<p>		#reglinks .login_rdr ul#registration_hdr li { background:none; display: inline-block; float: left; padding: 0; }</p>
+<p>	</p>
+<p>Find us on:</p>
+<p>WebMD Home</p>
+<p>Healthy Eating & Diet  </p>
+<p>Health & Diet News </p>
+<p>Email a FriendPrint Article </p>
+<p>		if (pf_param == "true") {</p>
+<p>		printElements();</p>
+<p>		}  </p>
+<p>		</p>
+<p> Healthy Eating & Diet </p>
+<p>		(function() {</p>
+<p>			var that = function() {</p>
+<p>				var h = $("#mainContent_ThirdCol_ctr").outerHeight();</p>
+<p>				$("#navColumn_area").css('margin-top', '-'+h+'px');</p>
+<p>			};</p>
+<p>			try{ that(); } catch(e) {}</p>
+<p>			$(window).load( function() { try{ that(); } catch(e) {} } );</p>
+<p>		})();</p>
+<p>        </p>
+<p>		//Removes Popular Tools from TOC pages or where www.webmd.com is followed by "news-features"</p>
+<p>		var myTruncateds_topic = s_topic.substring(0,1);</p>
+<p>		if (myTruncateds_topic != "7" && s_publication_source != "WebMD Image Collection" && s_business_reference != "TOC" && s_business_reference != "TOC - Mini-Center Topic" && s_business_reference != "TOC - Guide" && s_business_reference != "TOC - Guide" && s_business_reference != "Nav - A-Z page" && s_business_reference != "Glossary"){</p>
+<p>				$('.pop_toolst_rdr').css('display','block');</p>
+<p>			}</p>
+<p>		</p>
+<p>Tools & ResourcesEvaluator: Assess Your DietCan Diet Help Skin Look Younger?Calculate Your Body Mass IndexFoods for Healthy HairFood & Fitness Planner: Get StartedHow to Eat for a Longer Life </p>
+<p>if (window.$) { </p>
+<p>	$(document).ready(function() {</p>
+<p>		// produce array from value(s) of 'secTopId'</p>
+<p>		var mySplitResultsecTopId = secTopId.split("|");</p>
+<p>		var wloop = mySplitResultsecTopId.length;</p>
+<p>		</p>
+<p>		//Hides the Pop Tools list on pages with a sensitive secondary topic id. </p>
+<p>		for (i = 0; i < wloop; i++) {</p>
+<p>			if (mySplitResultsecTopId[i].substring(0,1) == 7){</p>
+<p>				$('.pop_toolst_rdr').css('display','none');</p>
+<p>			}</p>
+<p>		}</p>
+<p>		//Hides the Pop Tools list on Actionset Pages</p>
+<p>		if ($('.actionset').length) {</p>
+<p>			$('.pop_toolst_rdr').css('display','none');</p>
+<p>		}</p>
+<p>	});</p>
+<p>}</p>
+<p>webmd.m.share.init();</p>
+<p>Font Size</p>
+<p>A</p>
+<p>A</p>
+<p>A</p>
+<p>webmd.m.fontSizer.init();</p>
+<p>Diabetes Medications May Double as Weight Loss Drugs</p>
+<p>Research Review Shows Byetta and Victoza Can Help Overweight People Shed Pounds</p>
+<p>By</p>
+<p>Brenda  Goodman, MAWebMD Health News</p>
+<p>Reviewed by</p>
+<p>Laura J. Martin, MD</p>
+<p>Jan. 10, 2012 -- Two drugs approved to treat type 2 diabetes may also aid weight loss in overweight people with or without diabetes, a new study shows.</p>
+<p>The drugs Byetta and Victoza mimic gut hormones that decrease appetite.</p>
+<p>They are typically prescribed when patients need medication to help control their blood sugar. A new research review, published in BMJ, reanalyzed data from 25 separate studies.</p>
+<p>The review reveals that the drugs helped overweight people without diabetes shed an average of 7 pounds and those with diabetes lose an average of 6 pounds when injected daily or weekly for at least five months.</p>
+<p>That makes these agents promising treatments for obesity, study authors say.</p>
+<p>“It’s not a cure, but it’s a good treatment. And you still need to combine it with lifestyle changes,” says researcher Tina Vilsboll, MD, DMSc, an endocrinologist and associate professor at Gentofte Hospital in Hellerup, Denmark.</p>
+<p>Vilsboll says the modest weight loss many of her diabetic patients see on the drugs helps encourage them to kick up their diet and exercise programs to lose even more weight.</p>
+<p>“They use it as a tool for changing their lifestyle,” she says.</p>
+<p>Weighing Risks and Benefits</p>
+<p>The medications also appear to lower blood pressure and cholesterol slightly, which may help heart disease risks.</p>
+<p>But the drugs, known as glucagon-like peptide-1 (GLP-1) receptor agonists, also come with side effects. They work, in part, by slowing the movement of food through the stomach. That can sometimes cause a good deal of nausea or even vomiting, especially after a large meal.</p>
+<p>But Vilsboll says that side effect generally fades over time and doesn’t usually cause people to stop taking the medication.</p>
+<p>Experts who were not involved in the review say they are cautiously optimistic about the drugs’ prospects for weight loss.</p>
+<p>“We do have an obesity epidemic. Weight loss by traditional means -- diet and exercise -- is extremely hard, and for people who are successful initially, it’s also very hard to maintain,” says Susan Spratt, MD, an endocrinologist and the director of diabetes services at Duke University Health System in Durham, N.C.</p>
+<p>“If we could use these drugs just in people with obesity and know that it’s safe, I think it would be a fantastic addition to our ability to treat obesity,” Spratt says.</p>
+<p>“I’ve had [diabetic] patients lose 60 pounds with these medications. Now, those folks were 400 pounds, so they lost 10% to 15% of their body weight,” she says. “Somebody who’s 200 pounds isn’t going to lose that much.”</p>
+<p>Drugs Can Be Used Already, but Should They?</p>
+<p>Because the drugs are already on the market, doctors have the ability to prescribe them solely for weight loss.</p>
+<p>But experts say such “off-label” use of the drugs can be risky.</p>
+<p>var pagination_title=new Array();</p>
+<p>var pagination_current=1;</p>
+<p>pagination_title[1]="";</p>
+<p>pagination_title[2]="Drugs Can Be Used Already, but Should They? continued...";</p>
+<p>1</p>
+<p>|</p>
+<p>2</p>
+<p>Next Page ></p>
+<p>/* using this to pop up interstitial instead of /click as going to the /click URL with all the other parameters becomes an encoding issue */</p>
+<p>function popInterstitial() {</p>
+<p>var interstitial = window.open("/privacy_window.html","privacy_window","width=325,height=175,resizable=no,toolbar=no,left=350,top=300");</p>
+<p>if (interstitial) {</p>
+<p>interstitial.focus();</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>function getPubType() {</p>
+<p>return "editorial";</p>
+<p>}</p>
+<p>function checkPartners(){</p>
+<p>/* Array of Partner Names */</p>
+<p>var partnerNames=[</p>
+<p>"Good Housekeeping",</p>
+<p>"Redbook",</p>
+<p>"Esquire",</p>
+<p>"Country Living",</p>
+<p>"Marie Claire",</p>
+<p>"Oxmoor House",</p>
+<p>"\"Health",</p>
+<p>"Southern Living",</p>
+<p>"Psychology Today",</p>
+<p>"EatingWell",</p>
+<p>"DrGreene.com",</p>
+<p>"Men's Health",</p>
+<p>"Women's Health",</p>
+<p>"Prevention",</p>
+<p>"eDiets",</p>
+<p>"soul\" Magazine",</p>
+<p>"Runner's World",</p>
+<p>"Men's Fitness\" Magazine",</p>
+<p>"Shape\" Magazine",</p>
+<p>"Fit Pregnancy\" Magazine",</p>
+<p>"Natural Health\" Magazine",</p>
+<p>"\"Best Life\" Magazine",</p>
+<p>"\"Cure\" Magazine",</p>
+<p>"WebMD Veterinary Reference from the ASPCA",</p>
+<p>"WebMD Veterinary Reference from ASPCA Virtual Pet Behaviorist",</p>
+<p>"COPD Foundation"</p>
+<p>]</p>
+<p>/* Array of names that go with files in partners node */</p>
+<p>var partnerScripts=[</p>
+<p>"goodHousekeeping",</p>
+<p>"redbook",</p>
+<p>"esquire",</p>
+<p>"countryLiving",</p>
+<p>"marieClaire",</p>
+<p>"cookingLight",</p>
+<p>"health",</p>
+<p>"southernLiving",</p>
+<p>"psychToday",</p>
+<p>"eatingWell",</p>
+<p>"drGreene",</p>
+<p>"mensHealth",</p>
+<p>"womensHealth",</p>
+<p>"prevention",</p>
+<p>"eDiets",</p>
+<p>"bodySoul",</p>
+<p>"runnersWorld",</p>
+<p>"mensFitness",</p>
+<p>"shapeMag",</p>
+<p>"fitPregnancy",</p>
+<p>"naturalHealth",</p>
+<p>"bestLife",</p>
+<p>"cure",</p>
+<p>"aspca",</p>
+<p>"aspca",</p>
+<p>"copdf"</p>
+<p>]</p>
+<p>/* Variables for whether a partner exists and which one in the array it is */</p>
+<p>var isThere;</p>
+<p>var whichOne = -1;</p>
+<p>/* Pulls the pub source out of the XML */</p>
+<p>var pubSource = 'WebMD Medical News';</p>
+<p>/* Runs through the different partners and sees if one of them exists in the pub source */</p>
+<p>for (var i=0; i <= partnerNames.length-1; i++) { isThere = pubSource.search(partnerNames[i]); if (isThere != -1) {whichOne = i} }</p>
+<p>/* If it found one, makes the JS calls and also populates the correct divs with the files out of partners node */</p>
+<p>if (whichOne != -1) {</p>
+<p>var JSCall = 'ht' + 'tp://img.web' + 'md.com/dtmcms/live/webmd/consumer_assets/site_images/javascript/partners/' + partnerScripts[whichOne] + '.js';</p>
+<p>var JSElement = document.createElement("script");</p>
+<p>JSElement.type = "text/javascript";</p>
+<p>JSElement.src = JSCall;</p>
+<p>document.getElementsByTagName("head")[0].appendChild(JSElement);</p>
+<p>var moduleCenter = "ContentPane8";</p>
+<p>var moduleRight = "ContentPane25";</p>
+<p>addLoadEvent(function() {</p>
+<p>$('#'+moduleCenter).append(writePartnerCenter());</p>
+<p>$('#'+moduleRight).prepend(writePartnerRight());</p>
+<p>})</p>
+<p>}</p>
+<p>}</p>
+<p>checkPartners();</p>
+<p>if (document.getElementById("headerLinks_print")) {</p>
+<p>setClass('headerLinks_print','headerLinks_fmt_on');</p>
+<p>};</p>
+<p>#url_reference {display: none};</p>
+<p>#url_reference { display: block; line-height: 150%; margin-bottom: 10px; }</p>
+<p>#logo_rdr img { visibility: visible; }</p>
+<p>.titleBar_rdr .titleBarMiddle_fmt { padding-top: 1.5em !important;}</p>
+<p>var insert1 = document.getElementById("ContentPane2");</p>
+<p>var urlDiv = articleUrl();</p>
+<p>if (insert1) {</p>
+<p>insert1.appendChild(urlDiv);</p>
+<p>}</p>
+<p>Top Picks</p>
+<p>Is It OK to Take a Day Off From Dieting?</p>
+<p>When a Spouse Sabotages Your Weight Loss Efforts</p>
+<p>Weight Loss Pills: Are They Worth a Try?</p>
+<p>10 Ways to Raise Food-Smart Kids</p>
+<p>How to Count Carbs With Diabetes</p>
+<p>Gout and Diet: What to Eat, What to Avoid</p>
+<p> </p>
+<p>				function moveMustSeeArticles() {</p>
+<p>					/* make the swap function available internally */</p>
+<p>					function doSwap() {	</p>
+<p>						/* get must-see articles, remove from the DOM */</p>
+<p>						var msa = $('#mainContentContainer_area .related_reading_rdr').clone();</p>
+<p>						$('#mainContentContainer_area .related_reading_rdr').remove();</p>
+<p>						</p>
+<p>						/* get the pagination if it exists */</p>
+<p>						var pagination = $('.attribution_rdr .pagination_fmt');</p>
+<p>						var contextual = $('.other_context_links_rdr');</p>
+<p>						var article = $('.article_rdr');</p>
+<p>						</p>
+<p>						/* certain pages use another format:</p>
+<p>						// the top picks module is in .related_wrapper .dyn_related</p>
+<p>						// as the second div with this class.</p>
+<p>						// it has an id, unlike the other div */</p>
+<p>						var dyn_related = $('.related_wrapper .dyn_related[id]');</p>
+<p>						</p>
+<p>						/* if dyn_related, it is handled one way */</p>
+<p>						if(dyn_related.html()) {</p>
+<p>							/* on last page, .related_wrapper is displayed and "Top Picks" should stay</p>
+<p>							// on other pages, it should move down */</p>
+<p>							if(dyn_related.parent().css('display') === 'none') {</p>
+<p>								var dyn_related_clone = dyn_related.clone();</p>
+<p>								dyn_related.remove();</p>
+<p>								$(pagination).after('<div class="related_wrapper" style="display: block;" id="related_wrapper_2"></div>')</p>
+<p>								$('#related_wrapper_2').append(dyn_related_clone);</p>
+<p>							}</p>
+<p>						/* if not dyn_related, it is handled   this way */</p>
+<p>						} else {</p>
+<p>							/* if pagination exists, insert must-see articles before the pagination,</p>
+<p>							else insert before the next node after the contextual related links,</p>
+<p>							else insert before the next node after the article */</p>
+<p>							if (pagination.html()) {</p>
+<p>								$(pagination).after(msa);</p>
+<p>								msa.css('padding-top','30px');</p>
+<p>							} else if (contextual.html()) {</p>
+<p>								$(contextual).after(msa);</p>
+<p>							} else {</p>
+<p>								$(article).after(msa);</p>
+<p>							}</p>
+<p>						}</p>
+<p>						</p>
+<p>						/* show */</p>
+<p>						$('#mainContentContainer_area .related_reading_rdr').show();</p>
+<p>					}</p>
+<p>					</p>
+<p>					/* do the swap unless the function getPubType exists and returns the value 'third_party' */</p>
+<p>					if (typeof(getPubType) == 'function') {</p>
+<p>						(getPubType() == 'third_party') ? null : doSwap();</p>
+<p>					} else {</p>
+<p>						doSwap();</p>
+<p>					}</p>
+<p>				}</p>
+<p>                                if (window.$) { </p>
+<p>					moveMustSeeArticles();</p>
+<p>					$('.share_rdr').hide();</p>
+<p>					}</p>
+<p>			</p>
+<p>					$("#centerAd_Iframe_c1").load(function() { $("#centerAd_top_fmt").addClass("loaded"); $(".centerAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>					$("#centerAd_Iframe_c1").load(function() { $("#centerAd_top_fmt").addClass("loaded"); $(".centerAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>var chapters = [</p>
+<p>                                    'http://www.webmd.com/diet/guide/default.htm', </p>
+<p>                        </p>
+<p>			'http://www.webmd.com/diet/guide/healthy-eating-and-diet-eating-essentials',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/diet/guide/health-and-diet-eating-healthy',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/diet/guide/healthy-eating-and-diet-life-stages',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/diet/guide/health-and-diet-supplements',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/diet/guide/healthy-eating-and-diet-real-life-tips',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/diet/guide/health-and-diet-help-support',</p>
+<p>			'',''];</p>
+<p>		var c1_1 = [</p>
+<p>			'http://www.webmd.com/diet/guide/climbing-top-food-pyramid',</p>
+<p>			'http://www.webmd.com/diet/guide/oils-new-food-pyramid',</p>
+<p>			'http://www.webmd.com/diet/guide/usda-food-guide'];</p>
+<p>	</p>
+<p>		var c1_2 = [</p>
+<p>			'http://www.webmd.com/diet/guide/vitamins-fact-from-fiction',</p>
+<p>			'http://www.webmd.com/diet/guide/essential-vitamins-for-women-at-every-age',</p>
+<p>			'http://www.webmd.com/diet/guide/vitamins-and-minerals-good-food-sources',</p>
+<p>			'http://www.webmd.com/diet/guide/antioxidants-your-immune-system-super-foods-optimal-health',</p>
+<p>			'http://www.webmd.com/diet/guide/the-benefits-of-vitamin-c',</p>
+<p>			'http://www.webmd.com/diet/guide/acai-berries-and-acai-berry-juice-what-are-the-health-benefits'];</p>
+<p>	</p>
+<p>		var c1_3 = [</p>
+<p>			'http://www.webmd.com/diet/guide/7-nutrients-your-diet-may-be-missing',</p>
+<p>			'http://www.webmd.com/diet/guide/10-everyday-super-foods',</p>
+<p>			'http://www.webmd.com/diet/guide/wonders-of-water',</p>
+<p>			'http://www.webmd.com/diet/guide/good-fat-bad-fat-facts-about-omega-3'];</p>
+<p>	</p>
+<p>		var c1_4 = [</p>
+<p>			'http://www.webmd.com/diet/guide/most-important-meal',</p>
+<p>			'http://www.webmd.com/diet/guide/brown-bag-lunches-that-make-grade',</p>
+<p>			'http://www.webmd.com/diet/features/whats-for-dinner',</p>
+<p>			'http://www.webmd.com/diet/guide/7-tips-eating-while-you-work'];</p>
+<p>	</p>
+<p>		var c2_1 = [</p>
+<p>			'http://www.webmd.com/diet/guide/expert-qa-starting-weight-loss-plan-james-o-hill',</p>
+<p>			'http://www.webmd.com/diet/guide/ideal-weight-or-happy-weight',</p>
+<p>			'http://www.webmd.com/diet/guide/setting-realistic-weight-loss-goals',</p>
+<p>			'http://www.webmd.com/diet/guide/4-ways-to-get-that-diet-going',</p>
+<p>			'http://www.webmd.com/diet/guide/expert-qa-losing-a-lot-of-weight-michael-dansinger-md',</p>
+<p>			'http://www.webmd.com/diet/guide/choosing-weight-loss-buddy',</p>
+<p>			'http://www.webmd.com/diet/guide/what-is-obesity'];</p>
+<p>	</p>
+<p>		var c2_2 = [</p>
+<p>			'http://www.webmd.com/diet/guide/choosing-weight-loss-program',</p>
+<p>			'http://www.webmd.com/diet/guide/the-truth-about-fad-diets',</p>
+<p>			'http://www.webmd.com/diet/guide/lose-weight-fast-how-to-do-it-safely',</p>
+<p>			'http://www.webmd.com/diet/guide/high-protein-diet-weight-loss'];</p>
+<p>	</p>
+<p>		var c2_3 = [</p>
+<p>			'http://www.webmd.com/diet/guide/low-fat-diet',</p>
+<p>			'http://www.webmd.com/diet/guide/low-calorie-diets',</p>
+<p>			'http://www.webmd.com/diet/features/top-10-habits-that-can-help-you-lose-weight',</p>
+<p>			'http://www.webmd.com/diet/guide/satiety-new-diet-weapon',</p>
+<p>			'http://www.webmd.com/diet/guide/rt-power-snacking',</p>
+<p>			'http://www.webmd.com/diet/guide/indulging-your-sweet-tooth',</p>
+<p>			'http://www.webmd.com/diet/guide/how-to-drop-pound-packing-habits'];</p>
+<p>	</p>
+<p>		var c2_4 = [</p>
+<p>			'http://www.webmd.com/diet/guide/keeping-weight-off',</p>
+<p>			'http://www.webmd.com/diet/guide/5-surprising-reasons-you-are-gaining-weight',</p>
+<p>			'http://www.webmd.com/diet/guide/expert-qa-fighting-midlife-weight-gain-pamela-peeke'];</p>
+<p>	</p>
+<p>		var c2_5 = [</p>
+<p>			'http://www.webmd.com/diet/guide/weight-loss-prescription-weight-loss-medicine',</p>
+<p>			'http://www.webmd.com/diet/guide/herbal-remedies',</p>
+<p>			'http://www.webmd.com/diet/guide/hoodia-lots-of-hoopla-little-science',</p>
+<p>			'http://www.webmd.com/diet/guide/is-weight-loss-surgery-right-for-you'];</p>
+<p>	</p>
+<p>		var c3_1 = [</p>
+<p>			'http://www.webmd.com/diet/guide/4-nutrients-your-child-may-be-missing',</p>
+<p>			'http://children.webmd.com/guide/what-to-feed-your-baby-toddler',</p>
+<p>			'http://www.webmd.com/diet/guide/serve-up-good-nutrition-for-preschool-children',</p>
+<p>			'http://www.webmd.com/diet/guide/good-eats-school-age-kids',</p>
+<p>			'http://www.webmd.com/diet/guide/feeding-your-teenager',</p>
+<p>			'http://www.webmd.com/diet/guide/expert-q-and-a-helping-your-child-with-weight-loss'];</p>
+<p>	</p>
+<p>		var c3_2 = [</p>
+<p>			'http://www.webmd.com/diet/guide/pregnancy-superfoods'];</p>
+<p>	</p>
+<p>		var c3_3 = [</p>
+<p>			'http://www.webmd.com/diet/guide/expert-q-and-q-antiaging-and-diet',</p>
+<p>			'http://www.webmd.com/diet/guide/aging-well-eating-right-for-longevity'];</p>
+<p>	</p>
+<p>		var c4_1 = [</p>
+<p>			'http://www.webmd.com/diet/guide/eat-smart-healthier-brain',</p>
+<p>			'http://www.webmd.com/diet/guide/anti-inflammatory-diet-road-to-good-health',</p>
+<p>			'http://www.webmd.com/diet/guide/healthy-eating-when-you-are-sick'];</p>
+<p>	</p>
+<p>		var c4_2 = [</p>
+<p>			'http://www.webmd.com/diet/guide/vegetarian-and-vegan-diet',</p>
+<p>			'http://www.webmd.com/diet/guide/best-tasting-vegetarian-foods',</p>
+<p>			'http://www.webmd.com/food-recipes/guide/10-tips-for-meatless-meals',</p>
+<p>			'http://www.webmd.com/food-recipes/guide/part-time-vegetarian',</p>
+<p>			'http://www.webmd.com/diet/guide/raw-food-diet'];</p>
+<p>	</p>
+<p>		var c4_3 = [</p>
+<p>			'http://www.webmd.com/diet/guide/expert-qa-anti-cancer-diet-karen-collins',</p>
+<p>			'http://www.webmd.com/diet/guide/eating-good-health',</p>
+<p>			'http://www.webmd.com/diet/guide/nutrition-and-healthy-foods-during-cancer-treatment'];</p>
+<p>	</p>
+<p>		var c4_4 = [</p>
+<p>			'http://www.webmd.com/diet/guide/expert-q-and-a-heart-healthy-eating',</p>
+<p>			'http://www.webmd.com/diet/guide/expert-q-and-a-eating-to-control-high-blood-pressure',</p>
+<p>			'http://www.webmd.com/diet/guide/five-superfoods-for-heart'];</p>
+<p>	</p>
+<p>		var c4_5 = [</p>
+<p>			'http://www.webmd.com/diet/guide/expert-q-and-a-a-healthy-diet-for-type-2-diabetes',</p>
+<p>			'http://www.webmd.com/diet/guide/10-diabetes-diet-myths'];</p>
+<p>	</p>
+<p>		var c5_1 = [</p>
+<p>			'http://www.webmd.com/diet/guide/eat-out-eat-smart',</p>
+<p>			'http://www.webmd.com/diet/guide/fast-food-alternatives',];</p>
+<p>	</p>
+<p>		var c5_2 = [</p>
+<p>			'http://www.webmd.com/diet/guide/10-healthy-foods-under-1-dollar',</p>
+<p>			'http://www.webmd.com/diet/guide/shopping-children'];</p>
+<p>	</p>
+<p>		var c5_3 = [</p>
+<p>			'http://www.webmd.com/diet/guide/cooking-with-children',</p>
+<p>			'http://www.webmd.com/diet/features/eat-your-vegetables-15-tips-for-veggie-haters'];</p>
+<p>	</p>
+<p>		var c6_1 = [</p>
+<p>			'http://www.webmd.com/diet/guide/health-and-diet-boards-blogs'];</p>
+<p>	</p>
+<p>		var c6_2 = [</p>
+<p>			'http://www.webmd.com/diet/guide/health-and-diet-get-more-info'];</p>
+<p>	</p>
+<p>	function definePage () {</p>
+<p>	var parentChapter, tabChapter, s_pagenameCheck;</p>
+<p>	var subChapter ="1";</p>
+<p>	var theUrl=location.href;</p>
+<p>	s_pagenameCheck = theUrl.toLowerCase();</p>
+<p>	</p>
+<p>	if (s_pagenameCheck.lastIndexOf("?") > 0) {</p>
+<p>		var s_pagenameCheck = s_pagenameCheck.substring(0,s_pagenameCheck.lastIndexOf("?"));</p>
+<p>	} </p>
+<p>					</p>
+<p>		if( s_pagenameCheck in oc(chapters) ) { </p>
+<p>		parentChapter = s_pagenameCheck;</p>
+<p>		highlightLeftBin(parentChapter);</p>
+<p>		highlightCenterBin(parentChapter);</p>
+<p>		highlightTab();</p>
+<p>		} else {</p>
+<p>		</p>
+<p>		if( s_pagenameCheck in oc(c1_1) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c1_2) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c1_3) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "3";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c1_4) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "4";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_1) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_2) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_3) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "3";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_4) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "4";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_5) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "5";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c3_1) ) { parentChapter = chapters[3]; tabChapter = "3";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c3_2) ) { parentChapter = chapters[3]; tabChapter = "3";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c3_3) ) { parentChapter = chapters[3]; tabChapter = "3";subChapter = "3";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c4_1) ) { parentChapter = chapters[4]; tabChapter = "4";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c4_2) ) { parentChapter = chapters[4]; tabChapter = "4";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c4_3) ) { parentChapter = chapters[4]; tabChapter = "4";subChapter = "3";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c4_4) ) { parentChapter = chapters[4]; tabChapter = "4";subChapter = "4";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c4_5) ) { parentChapter = chapters[4]; tabChapter = "4";subChapter = "5";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c5_1) ) { parentChapter = chapters[5]; tabChapter = "5";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c5_2) ) { parentChapter = chapters[5]; tabChapter = "5";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c5_3) ) { parentChapter = chapters[5]; tabChapter = "5";subChapter = "3";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c6_1) ) { parentChapter = chapters[6]; tabChapter = "6";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c6_2) ) { parentChapter = chapters[6]; tabChapter = "6";subChapter = "2";}</p>
+<p>	</p>
+<p>			if ((typeof(parentChapter)!="undefined") & (typeof(tabChapter)!="undefined")) {</p>
+<p>			highlightLeftBin(parentChapter);</p>
+<p>			highlightCenterBin(parentChapter);</p>
+<p>			setNavState(tabChapter, subChapter);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p>	definePage();</p>
+<p>Healthy Eating & Diet</p>
+<p>Eating Essentials</p>
+<p>Losing Weight</p>
+<p>Kids to Anti-Aging</p>
+<p>Special Diets</p>
+<p>Real-Life Tips</p>
+<p>Help & Support</p>
+<p>Fitness</p>
+<p>Fact vs. Fiction</p>
+<p>Tips for Success</p>
+<p>Get Lean</p>
+<p>Get Strong</p>
+<p>Fuel Your Body</p>
+<p>Expert Advice</p>
+<p>Food & Cooking</p>
+<p>Start Cooking</p>
+<p>Recipes</p>
+<p>Kitchen Experts</p>
+<p>Of Special Interest</p>
+<p>Help & Support</p>
+<p>Healthy Eating Guides</p>
+<p>Gluten-Free  </p>
+<p>High Protein  </p>
+<p>Low Sodium  </p>
+<p>Vegetarian </p>
+<p>Related To Diet</p>
+<p>Calorie Counter</p>
+<p>Cholesterol</p>
+<p>Diabetes</p>
+<p>Diet Evaluator</p>
+<p>Health Benefits of Fiber </p>
+<p>Heart Health</p>
+<p>Hypertension</p>
+<p>Probiotics</p>
+<p>Vitamins and Supplements Guide</p>
+<p>Weight Loss Surgery</p>
+<p>More Related Topics</p>
+<p>					$("#leftAd_Iframe").load(function() { $("#leftAd_top_fmt").addClass("loaded"); $(".leftAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>Healthy Living Tools</p>
+<p>See All Tools</p>
+<p>Ditch Those Inches</p>
+<p>Set goals, tally calorie intake, track workouts and more, all via WebMD’s free Food & Fitness Planner.</p>
+<p>Get Started</p>
+<p> </p>
+<p>Today in Healthy Eating & Diet </p>
+<p>Article</p>
+<p>5 Things Your Parents Got Wrong About Food</p>
+<p>Slideshow</p>
+<p>Diet Mistakes to Steer Clear Of</p>
+<p> </p>
+<p>Slideshow</p>
+<p>25 100-Calorie Snacks</p>
+<p>Recipes</p>
+<p>Must-Try Salad Recipes</p>
+<p> </p>
+<p>					$("#rightAd_Iframe").load(function() { $("#rightAd_top_fmt").addClass("loaded"); $(".rightAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p>Slideshow</p>
+<p>The No-Diet Diet</p>
+<p>Slideshow</p>
+<p>10 Ways to Boost Your Metabolism</p>
+<p> </p>
+<p>Slideshow</p>
+<p>All About Eating Gluten-Free</p>
+<p>Article</p>
+<p>Is Your Diet Aging You?</p>
+<p> </p>
+<p>Article</p>
+<p>Your Diabetes Menu Plan</p>
+<p>Slideshow</p>
+<p>Filling Foods That Won't Pack on Pounds</p>
+<p> </p>
+<p>fitfor Teens</p>
+<p>5 Reasons to Toss Your Skinny Jeans</p>
+<p>fitVideo</p>
+<p>See Cookie Monster's "Sometimes Food"</p>
+<p> </p>
+<p>Women's Health Newsletter</p>
+<p>Find out what women really need.</p>
+<p>Submit</p>
+<p>  </p>
+<p>Special Sections</p>
+<p>Healthy Dieting Myths and Facts</p>
+<p>The Truth About Omega 3s</p>
+<p>Start Your Day Right: Healthier and Fitter by 9 AM</p>
+<p>Health Solutions From Our Sponsors</p>
+<p>Aching Back Center</p>
+<p>Causes of Depression</p>
+<p>Chronic Low Back Pain</p>
+<p>Improve Depression</p>
+<p>Joint Pain Help Center</p>
+<p>Musculoskeletal Pain</p>
+<p>Support for Depression</p>
+<p>Treating Depression</p>
+<p>Understand Fibromyalgia</p>
+<p>What is Depression?</p>
+<p> </p>
+<p>Find us on:</p>
+<p> URAC: Accredited Health Web SiteReviewed by Trust-E site privacy statementHonCode: Health on the Net Foundation </p>
+<p> About WebMD|Terms of Use|Privacy Policy|Sponsor Policy|Site Map|Careers| Contact Us </p>
+<p> Advertise With Us|WebMD Corporate|Medscape Reference|eMedicineHealth|RxList|Medscape|MedicineNet </p>
+<p> First Aid|WebMD the Magazine|WebMD Health Record|WebMD Mobile|Newsletters </p>
+<p>©2005-2012 WebMD, LLC. All rights reserved.</p>
+<p>WebMD does not provide medical advice, diagnosis or treatment. See additional information.</p>
+<p>// adding RR test back into preview to troubleshoot</p>
+<p>try {</p>
+<p>	webmd.usability.tests.ssRightRail.writeTest();</p>
+<p>} catch(e) {};</p>
+<p>	if (document.URL.substring(0,5).indexOf('http:')>=0) {</p>
+<p>		document.write('<img src=//bi.medscape.com/pi/global/webmd-1x1.gif?'+new Date().getTime()+'" alt="" height="1" width="1" border="0" />') </p>
+<p>	}</p>
+<p>			var priTopId = "2731";</p>
+<p>			var secTopId = "";</p>
+<p>		</p>
+<p> var s_account="webmdcom"</p>
+<p> ,s_server_type="1b"</p>
+<p> ,s_server="WFAWS07L-CON-08"</p>
+<p> ,s_object_type="wbmd_cons_article"</p>
+<p> ,s_page_number="1"</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_site_class="ooc"</p>
+<p> ,s_site="core"</p>
+<p> ,s_sponsored_uri="diet/news/20120110/diabetes-medications-may-double-as-weight-loss-drugs"</p>
+<p> ,s_pagename="www.webmd.com/diet/news/20120110/diabetes-medications-may-double-as-weight-loss-drugs"</p>
+<p> ,s_channel=""</p>
+<p> ,s_topic="2731"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_intended_demographics="__"</p>
+<p> ,s_stage_condition=""</p>
+<p> ,s_asset_id="091e9c5e809931f3"</p>
+<p> ,s_unique_id="091e9c5e809931f3"</p>
+<p> ,s_company="webmd"</p>
+<p> ,s_mrt="1"</p>
+<p> ,s_refpath=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal=""</p>
+<p> ,s_channel_health="Health & Diet";</p>

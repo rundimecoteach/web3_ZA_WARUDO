@@ -1,0 +1,733 @@
+<p> </p>
+<p> var s_topic="1819"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_sponsor_brand=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_type=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal=""</p>
+<p> ,s_channel_health="Infertility and Reproduction"</p>
+<p> ,s_channel_mini_topic_guide=""</p>
+<p> ,s_tug=""</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_mrt="27";</p>
+<p> var s_furl="/infertility-and-reproduction/news/20120111/ivf-are-three-embryos-too-many-transfer"; var s_sponsor_program=""; var s_sensitive="false"; var s_mrt="27"; var image_server_url="http://img.webmd.com/dtmcms/live";var s_uk_user="false";</p>
+<p>IVF: Are 3 Embryos Too Many to Transfer?</p>
+<p><!-- </p>
+<p> var center="health"; var center_name="Infertility and Reproduction"; var center_id=1142; var center_prefix="www"; var center_url="/infertility-and-reproduction/default.htm";//--></p>
+<p>// write mboxes for OTT</p>
+<p>if (window.$ && window.webmd && window.mboxCreate) {</p>
+<p>	if (window.webmd.mbox) {</p>
+<p>		webmd.mbox.init();</p>
+<p>	}</p>
+<p>}</p>
+<p>					$("#bannerAd_Iframe").load(function() { $("#bannerAd_fmt").addClass("loaded"); $(".bannerAd_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "1819";</p>
+<p>			var secTopId = "3607";</p>
+<p>		</p>
+<p>try {</p>
+<p>	document.execCommand('BackgroundImageCache', false, true);</p>
+<p>} catch(e) {}</p>
+<p>Skip to content</p>
+<p>Home & News</p>
+<p>WebMD Home</p>
+<p>WebMD News Home </p>
+<p>Free Health Newsletters</p>
+<p>WebMD Community & Experts</p>
+<p>See All Expert Blogs</p>
+<p> </p>
+<p>Health A-Z</p>
+<p>ADD/ADHD</p>
+<p>Allergies</p>
+<p>Allergy TV</p>
+<p>Alzheimer's</p>
+<p>Anxiety Disorders</p>
+<p>Arthritis</p>
+<p>Asthma</p>
+<p>Back Pain</p>
+<p>Bipolar Disorder</p>
+<p>Bipolar TV</p>
+<p>Breast Cancer</p>
+<p>Cancer</p>
+<p>Cancer Communities</p>
+<p>Cholesterol</p>
+<p>Cold & Flu</p>
+<p>Colorectal Cancer</p>
+<p>COPD </p>
+<p>Depression</p>
+<p>Depression TV</p>
+<p>Diabetes</p>
+<p>Erectile Dysfunction</p>
+<p>Eye Health</p>
+<p>Fibromyalgia</p>
+<p>Heart Disease</p>
+<p>Heartburn/GERD</p>
+<p>Herpes</p>
+<p>Hypertension</p>
+<p>IBS</p>
+<p>Incontinence/OAB</p>
+<p>Inflammatory Bowel</p>
+<p>Menopause</p>
+<p>Mental Health</p>
+<p>Migraines</p>
+<p>Multiple Sclerosis</p>
+<p>Osteoporosis</p>
+<p>Pain Management </p>
+<p>Parkinson's Disease </p>
+<p>Rheumatoid Arthritis</p>
+<p>Sexual Conditions</p>
+<p>Shingles</p>
+<p>Skin Problems</p>
+<p>Sleep Disorders</p>
+<p>Stroke</p>
+<p>See All Topics</p>
+<p>Videos A-Z</p>
+<p>Community & Experts</p>
+<p>Experts A-Z</p>
+<p>First Aid A-Z</p>
+<p>Games A-Z</p>
+<p>Tests & Tools A-Z</p>
+<p>Slideshows A-Z</p>
+<p> </p>
+<p>Drugs & Medications Center</p>
+<p>Find or Review a Drug</p>
+<p>Pill Identifier</p>
+<p>Drug News</p>
+<p>Mobile Drug Information</p>
+<p>Find a Vitamin or Supplement</p>
+<p>First Aid & Emergencies</p>
+<p>WebMD Community & Experts</p>
+<p>WebMD Ask the Pharmacist</p>
+<p> </p>
+<p>Healthy Living</p>
+<p>Women's Health</p>
+<p>Men's Health</p>
+<p>Pet Health</p>
+<p>Oral Health</p>
+<p>Emotional Health</p>
+<p>Mental Health Communities</p>
+<p>Find a Therapist</p>
+<p>Green Living</p>
+<p>50+: Live Better, Longer</p>
+<p>Sex & Relationships</p>
+<p>Healthy Beauty</p>
+<p>Healthy Skin TV</p>
+<p>Sexual Health Communities</p>
+<p>See All Topics</p>
+<p>Women's Health Communities</p>
+<p>Skin & Beauty Community</p>
+<p>Men's Health Communities</p>
+<p> </p>
+<p>Healthy Eating & Diet </p>
+<p>Healthy Eating & Diet </p>
+<p>Food & Cooking</p>
+<p>Food-o-Meter</p>
+<p>Fit-o-Meter</p>
+<p>Fitness & Exercise</p>
+<p>Food & Fitness Planner</p>
+<p>Portion Size Helper</p>
+<p>Personal Diet Evaluator</p>
+<p>BMI Plus Calculator</p>
+<p>Eating & Diet Communities</p>
+<p>Digestive Disorders Communities</p>
+<p> </p>
+<p>Parenting & Pregnancy</p>
+<p>Parenting</p>
+<p>Pregnancy</p>
+<p>Children's Health</p>
+<p>Children's Vaccines</p>
+<p>Newborn & Baby</p>
+<p>New! Raising Fit Kids</p>
+<p>New! WebMD for Kids</p>
+<p>Parenting Communities</p>
+<p>Pregnancy Communities</p>
+<p>Trying to Conceive Communities</p>
+<p> </p>
+<p>Teen Health</p>
+<p>Teen Girls</p>
+<p>New! Teen Boys</p>
+<p>WebMD FIT Teen </p>
+<p>Food</p>
+<p>Move</p>
+<p>Recharge</p>
+<p>Mood</p>
+<p> </p>
+<p>Pet Health</p>
+<p>Healthy Dogs</p>
+<p>Healthy Cats</p>
+<p>Healthy Pets Community</p>
+<p> </p>
+<p> </p>
+<p>Enter Search Keywords:</p>
+<p>Other search tools:Symptoms|Doctors|Medical Dictionary</p>
+<p>		/* Basic styles to avoid the jumping when things load. */</p>
+<p>		.bottom_header #reglinks { float:right; position:relative; margin:0px; padding:0px; height:22px; width: 330px; z-index:96; }</p>
+<p>		.bottom_header #reglinks .login_rdr { display:none; width: 330px; }</p>
+<p>		#reglinks .login_rdr ul#registration_hdr { float: right; list-style: none outside none; margin: 0; padding: 5px 0 3px 0; }</p>
+<p>		#reglinks .login_rdr ul#registration_hdr li { background:none; display: inline-block; float: left; padding: 0; }</p>
+<p>	</p>
+<p>Find us on:</p>
+<p>WebMD Home</p>
+<p>Infertility & Reproduction Health Center  </p>
+<p>Infertility & Reproduction News </p>
+<p>Email a FriendPrint Article </p>
+<p>		if (pf_param == "true") {</p>
+<p>		printElements();</p>
+<p>		}  </p>
+<p>		</p>
+<p> Infertility & Reproduction Health Center </p>
+<p>		(function() {</p>
+<p>			var that = function() {</p>
+<p>				var h = $("#mainContent_ThirdCol_ctr").outerHeight();</p>
+<p>				$("#navColumn_area").css('margin-top', '-'+h+'px');</p>
+<p>			};</p>
+<p>			try{ that(); } catch(e) {}</p>
+<p>			$(window).load( function() { try{ that(); } catch(e) {} } );</p>
+<p>		})();</p>
+<p>        </p>
+<p>		//Removes Popular Tools from TOC pages or where www.webmd.com is followed by "news-features"</p>
+<p>		var myTruncateds_topic = s_topic.substring(0,1);</p>
+<p>		if (myTruncateds_topic != "7" && s_publication_source != "WebMD Image Collection" && s_business_reference != "TOC" && s_business_reference != "TOC - Mini-Center Topic" && s_business_reference != "TOC - Guide" && s_business_reference != "TOC - Guide" && s_business_reference != "Nav - A-Z page" && s_business_reference != "Glossary"){</p>
+<p>				$('.pop_toolst_rdr').css('display','block');</p>
+<p>			}</p>
+<p>		</p>
+<p>Tools & ResourcesQuiz: Test Your Fertility IQBoost Your Fertility Infertility Treatments Ovulation CalculatorConception: From Egg to Embryo Choosing a Fertility Clinic</p>
+<p>if (window.$) { </p>
+<p>	$(document).ready(function() {</p>
+<p>		// produce array from value(s) of 'secTopId'</p>
+<p>		var mySplitResultsecTopId = secTopId.split("|");</p>
+<p>		var wloop = mySplitResultsecTopId.length;</p>
+<p>		</p>
+<p>		//Hides the Pop Tools list on pages with a sensitive secondary topic id. </p>
+<p>		for (i = 0; i < wloop; i++) {</p>
+<p>			if (mySplitResultsecTopId[i].substring(0,1) == 7){</p>
+<p>				$('.pop_toolst_rdr').css('display','none');</p>
+<p>			}</p>
+<p>		}</p>
+<p>		//Hides the Pop Tools list on Actionset Pages</p>
+<p>		if ($('.actionset').length) {</p>
+<p>			$('.pop_toolst_rdr').css('display','none');</p>
+<p>		}</p>
+<p>	});</p>
+<p>}</p>
+<p>webmd.m.share.init();</p>
+<p>Font Size</p>
+<p>A</p>
+<p>A</p>
+<p>A</p>
+<p>webmd.m.fontSizer.init();</p>
+<p>IVF: Are 3 Embryos Too Many to Transfer?</p>
+<p>No Justification for More Than 2, Study Finds</p>
+<p>By</p>
+<p>Salynn  BoylesWebMD Health News</p>
+<p>Reviewed by</p>
+<p>Laura J. Martin, MD</p>
+<p>Jan. 11, 2012 -- Transferring more than two embryos during an IVF cycle is a dangerous practice that does not improve a woman’s chances of delivering a baby, a European study finds.</p>
+<p>Researchers analyzed close to 125,000 in vitro fertilization (IVF) cycles performed in the U.K. over a five-year period in one of the largest studies ever to compare outcomes in women younger than 40 to those of older women.</p>
+<p>The conclusion that there is no medical justification for transferring three or more embryos, even in women over the age of 40, has major implications in the U.S., where 1 in 3 IVF procedures involves the transfer of more than two embryos.</p>
+<p>Trying to Conceive? Tips to Help You Get Pregnant</p>
+<p> </p>
+<p>3 Embryos: 1 Too Many?</p>
+<p>While that represents a decline from a decade ago, when closer to 2 out of 3 IVF procedures in the U.S. involved three or more embryos, there is still plenty of room for improvement, a study co-author says.</p>
+<p>“The practice of transferring multiple embryos is very much market-driven in the United States,” says Scott M. Nelson, MD, PhD, of the University of Glasgow Centre for Population and Health Sciences. “There is an economic incentive for transferring more embryos in the U.S., but no sound medical reason for doing so.”</p>
+<p>New York infertility specialist Glenn L. Schattman, MD, disagrees. Schattman is president of the Society for Assisted Reproductive Technology (SART).</p>
+<p>SART guidelines call for the transfer of one or two embryos per IVF cycle in younger patients with the best prognosis, and as many as four embryos per cycle in patients in their late 30s and 40s with a poor chance of achieving a pregnancy.</p>
+<p>He says it is clear from SART’s own statistics that the poorest-prognosis patients have a much better chance of having a baby when more than two embryos are transferred.</p>
+<p>“There is a continuous and constant decline in fertility with increasing age, so it makes no sense to treat a 39- or 40-year-old the same way we would a 26-year-old,” he says.</p>
+<p>Lower Birth Rates Seen With 3 Embryos</p>
+<p>The 124,148 IVF cycles analyzed by Nelson and colleague Debbie A. Lawlor, PhD, of the University of Bristol, resulted in 33,514 live births.</p>
+<p>The live birth rate was greater with the transfer of two embryos, compared to one, in women under the age of 40 and in women who were older. Transferring three embryos resulted in a lower birth rate than transferring two in the younger women and made no difference in outcomes in older women.</p>
+<p>Compared to single-embryo transfer, transferring two or three embryos was associated with a higher risk for all adverse birth outcomes, including low birth weight and preterm delivery.</p>
+<p>Not surprisingly, the overall live birth rate was lower in older women compared to younger ones, no matter how many embryos were transferred.</p>
+<p>“A clear implication of our study is that [the] transfer of three embryos should no longer be supported in women of any age,” Nelson and Lawlor write.</p>
+<p>var pagination_title=new Array();</p>
+<p>var pagination_current=1;</p>
+<p>pagination_title[1]="";</p>
+<p>pagination_title[2]="60% of IVF Twin Deliveries Preterm";</p>
+<p>1</p>
+<p>|</p>
+<p>2</p>
+<p>Next Page ></p>
+<p>trying to conceive newsletter</p>
+<p>Support is so important when you're having trouble conceiving. Don't go it alone. Sign-up today for the Trying to Conceive newsletter and get the latest information on breakthroughs from the health source you know you can trust. </p>
+<p> </p>
+<p>/* using this to pop up interstitial instead of /click as going to the /click URL with all the other parameters becomes an encoding issue */</p>
+<p>function popInterstitial() {</p>
+<p>var interstitial = window.open("/privacy_window.html","privacy_window","width=325,height=175,resizable=no,toolbar=no,left=350,top=300");</p>
+<p>if (interstitial) {</p>
+<p>interstitial.focus();</p>
+<p>}</p>
+<p>return false;</p>
+<p>}</p>
+<p>function getPubType() {</p>
+<p>return "editorial";</p>
+<p>}</p>
+<p>function checkPartners(){</p>
+<p>/* Array of Partner Names */</p>
+<p>var partnerNames=[</p>
+<p>"Good Housekeeping",</p>
+<p>"Redbook",</p>
+<p>"Esquire",</p>
+<p>"Country Living",</p>
+<p>"Marie Claire",</p>
+<p>"Oxmoor House",</p>
+<p>"\"Health",</p>
+<p>"Southern Living",</p>
+<p>"Psychology Today",</p>
+<p>"EatingWell",</p>
+<p>"DrGreene.com",</p>
+<p>"Men's Health",</p>
+<p>"Women's Health",</p>
+<p>"Prevention",</p>
+<p>"eDiets",</p>
+<p>"soul\" Magazine",</p>
+<p>"Runner's World",</p>
+<p>"Men's Fitness\" Magazine",</p>
+<p>"Shape\" Magazine",</p>
+<p>"Fit Pregnancy\" Magazine",</p>
+<p>"Natural Health\" Magazine",</p>
+<p>"\"Best Life\" Magazine",</p>
+<p>"\"Cure\" Magazine",</p>
+<p>"WebMD Veterinary Reference from the ASPCA",</p>
+<p>"WebMD Veterinary Reference from ASPCA Virtual Pet Behaviorist",</p>
+<p>"COPD Foundation"</p>
+<p>]</p>
+<p>/* Array of names that go with files in partners node */</p>
+<p>var partnerScripts=[</p>
+<p>"goodHousekeeping",</p>
+<p>"redbook",</p>
+<p>"esquire",</p>
+<p>"countryLiving",</p>
+<p>"marieClaire",</p>
+<p>"cookingLight",</p>
+<p>"health",</p>
+<p>"southernLiving",</p>
+<p>"psychToday",</p>
+<p>"eatingWell",</p>
+<p>"drGreene",</p>
+<p>"mensHealth",</p>
+<p>"womensHealth",</p>
+<p>"prevention",</p>
+<p>"eDiets",</p>
+<p>"bodySoul",</p>
+<p>"runnersWorld",</p>
+<p>"mensFitness",</p>
+<p>"shapeMag",</p>
+<p>"fitPregnancy",</p>
+<p>"naturalHealth",</p>
+<p>"bestLife",</p>
+<p>"cure",</p>
+<p>"aspca",</p>
+<p>"aspca",</p>
+<p>"copdf"</p>
+<p>]</p>
+<p>/* Variables for whether a partner exists and which one in the array it is */</p>
+<p>var isThere;</p>
+<p>var whichOne = -1;</p>
+<p>/* Pulls the pub source out of the XML */</p>
+<p>var pubSource = 'WebMD Medical News';</p>
+<p>/* Runs through the different partners and sees if one of them exists in the pub source */</p>
+<p>for (var i=0; i <= partnerNames.length-1; i++) { isThere = pubSource.search(partnerNames[i]); if (isThere != -1) {whichOne = i} }</p>
+<p>/* If it found one, makes the JS calls and also populates the correct divs with the files out of partners node */</p>
+<p>if (whichOne != -1) {</p>
+<p>var JSCall = 'ht' + 'tp://img.web' + 'md.com/dtmcms/live/webmd/consumer_assets/site_images/javascript/partners/' + partnerScripts[whichOne] + '.js';</p>
+<p>var JSElement = document.createElement("script");</p>
+<p>JSElement.type = "text/javascript";</p>
+<p>JSElement.src = JSCall;</p>
+<p>document.getElementsByTagName("head")[0].appendChild(JSElement);</p>
+<p>var moduleCenter = "ContentPane8";</p>
+<p>var moduleRight = "ContentPane25";</p>
+<p>addLoadEvent(function() {</p>
+<p>$('#'+moduleCenter).append(writePartnerCenter());</p>
+<p>$('#'+moduleRight).prepend(writePartnerRight());</p>
+<p>})</p>
+<p>}</p>
+<p>}</p>
+<p>checkPartners();</p>
+<p>if (document.getElementById("headerLinks_print")) {</p>
+<p>setClass('headerLinks_print','headerLinks_fmt_on');</p>
+<p>};</p>
+<p>#url_reference {display: none};</p>
+<p>#url_reference { display: block; line-height: 150%; margin-bottom: 10px; }</p>
+<p>#logo_rdr img { visibility: visible; }</p>
+<p>.titleBar_rdr .titleBarMiddle_fmt { padding-top: 1.5em !important;}</p>
+<p>var insert1 = document.getElementById("ContentPane2");</p>
+<p>var urlDiv = articleUrl();</p>
+<p>if (insert1) {</p>
+<p>insert1.appendChild(urlDiv);</p>
+<p>}</p>
+<p>Top Picks</p>
+<p>Low Testosterone Hurting His Sex Drive?</p>
+<p>In Vitro Fertilization: What You Need to Know</p>
+<p>Slideshow: Fetal Development Month-by-Month</p>
+<p>Illustrated Guide to Assisted Reproduction</p>
+<p> </p>
+<p>				function moveMustSeeArticles() {</p>
+<p>					/* make the swap function available internally */</p>
+<p>					function doSwap() {	</p>
+<p>						/* get must-see articles, remove from the DOM */</p>
+<p>						var msa = $('#mainContentContainer_area .related_reading_rdr').clone();</p>
+<p>						$('#mainContentContainer_area .related_reading_rdr').remove();</p>
+<p>						</p>
+<p>						/* get the pagination if it exists */</p>
+<p>						var pagination = $('.attribution_rdr .pagination_fmt');</p>
+<p>						var contextual = $('.other_context_links_rdr');</p>
+<p>						var article = $('.article_rdr');</p>
+<p>						</p>
+<p>						/* certain pages use another format:</p>
+<p>						// the top picks module is in .related_wrapper .dyn_related</p>
+<p>						// as the second div with this class.</p>
+<p>						// it has an id, unlike the other div */</p>
+<p>						var dyn_related = $('.related_wrapper .dyn_related[id]');</p>
+<p>						</p>
+<p>						/* if dyn_related, it is handled one way */</p>
+<p>						if(dyn_related.html()) {</p>
+<p>							/* on last page, .related_wrapper is displayed and "Top Picks" should stay</p>
+<p>							// on other pages, it should move down */</p>
+<p>							if(dyn_related.parent().css('display') === 'none') {</p>
+<p>								var dyn_related_clone = dyn_related.clone();</p>
+<p>								dyn_related.remove();</p>
+<p>								$(pagination).after('<div class="related_wrapper" style="display: block;" id="related_wrapper_2"></div>')</p>
+<p>								$('#related_wrapper_2').append(dyn_related_clone);</p>
+<p>							}</p>
+<p>						/* if not dyn_related, it is handled   this way */</p>
+<p>						} else {</p>
+<p>							/* if pagination exists, insert must-see articles before the pagination,</p>
+<p>							else insert before the next node after the contextual related links,</p>
+<p>							else insert before the next node after the article */</p>
+<p>							if (pagination.html()) {</p>
+<p>								$(pagination).after(msa);</p>
+<p>								msa.css('padding-top','30px');</p>
+<p>							} else if (contextual.html()) {</p>
+<p>								$(contextual).after(msa);</p>
+<p>							} else {</p>
+<p>								$(article).after(msa);</p>
+<p>							}</p>
+<p>						}</p>
+<p>						</p>
+<p>						/* show */</p>
+<p>						$('#mainContentContainer_area .related_reading_rdr').show();</p>
+<p>					}</p>
+<p>					</p>
+<p>					/* do the swap unless the function getPubType exists and returns the value 'third_party' */</p>
+<p>					if (typeof(getPubType) == 'function') {</p>
+<p>						(getPubType() == 'third_party') ? null : doSwap();</p>
+<p>					} else {</p>
+<p>						doSwap();</p>
+<p>					}</p>
+<p>				}</p>
+<p>                                if (window.$) { </p>
+<p>					moveMustSeeArticles();</p>
+<p>					$('.share_rdr').hide();</p>
+<p>					}</p>
+<p>			</p>
+<p>					$("#centerAd_Iframe_c1").load(function() { $("#centerAd_top_fmt").addClass("loaded"); $(".centerAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "1819";</p>
+<p>			var secTopId = "3607";</p>
+<p>		</p>
+<p>					$("#centerAd_Iframe_c1").load(function() { $("#centerAd_top_fmt").addClass("loaded"); $(".centerAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "1819";</p>
+<p>			var secTopId = "3607";</p>
+<p>		</p>
+<p>Infertility & Reproduction Health Home</p>
+<p>Infertility & Reproduction News</p>
+<p>Infertility & Reproduction Reference</p>
+<p>Infertility & Reproduction Videos </p>
+<p>Infertility & Reproduction Community</p>
+<p>Infertility & Reproduction Questions and Answers</p>
+<p>Infertility & Reproduction Glossary</p>
+<p>Infertility & Reproduction Guide</p>
+<p>1</p>
+<p>Overview & Facts</p>
+<p>2</p>
+<p>Symptoms & Types</p>
+<p>3</p>
+<p>Diagnosis & Tests</p>
+<p>4</p>
+<p>Treatment & Care</p>
+<p>5</p>
+<p>Living & Managing</p>
+<p>6</p>
+<p>Support & Resources</p>
+<p>var chapters = [</p>
+<p>                                    'http://www.webmd.com/infertility-and-reproduction/guide/default.htm', </p>
+<p>                        </p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-reproduction-overview_facts',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-reproduction-symptoms-types',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-reproduction-diagnosis-tests',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-reproduction-treatment-care',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-guide-living-and-managing',</p>
+<p>			</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-guide-support-resources',</p>
+<p>			'',''];</p>
+<p>				</p>
+<p>		var c1_1 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/understanding-infertility-basics',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/female-reproductive-system-overview',];</p>
+<p>	</p>
+<p>		var c1_2 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/female-infertility',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/sperm-and-semen-faq',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/what-happens-pelvic-inflammatory-disease',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/male-fertility-test'];</p>
+<p>	</p>
+<p>		var c1_3 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/age-raises-infertility-risk-in-men-too',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/endometriosis-what-increases-risk',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/premature-ovarian-failure-topic-overview',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-age-weight-exercise',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/stds-women-infertility',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-tobacco-marijuana',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/premature-menopause',];</p>
+<p>	</p>
+<p>		var c1_4 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/male-infertility-facts',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/fertility-problem-prevention',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/20061101/saving-fertility-when-cancer-strikes',];</p>
+<p>	</p>
+<p>		var c2_1 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/understanding-infertility-symptoms',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/absence-periods',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/retrograde-ejaculation',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/pregnancy-miscarriage'];</p>
+<p>	</p>
+<p>		var c2_2 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/personal-reporter-answers-about-fertility-issues'];</p>
+<p>	</p>
+<p>		var c2_3 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/superovulation-def',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/multiple-pregnancy-risks'];</p>
+<p>	</p>
+<p>		var c3_1 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/understanding-infertility-treatment',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/fertility-evaluation',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/semen-analysis'];</p>
+<p>	</p>
+<p>		var c3_2 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-reproduction-hormone-testing',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/hysteroscopy-infertility',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/postcoital-test',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/hysterosalpingogram-21590',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/ultrasound-for-infertility'];</p>
+<p>	</p>
+<p>		var c4_1 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/10-questions-about-infertility',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/tubal-ligation-reversal',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/what-is-tubal-cannulation',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/irregular-periods-and-getting-pregnant',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/truth-about-sexual-positions-getting-pregnant',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/medications-for-fertility-problems',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/fertility-drugs',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/laparoscopic-surgery-for-endometriosis',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/ready-to-conceive',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/charting-your-fertility-cycle',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/20061101/herbs-and-fertility-dont-mix',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/artificial-insemination',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/in-vitro-fertilization',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/donor-eggs-in-fertility-treatments',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-and-stress',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/polycystic-ovary-syndrome-pcos-other-treatments',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/intracytoplasmic-sperm-injection-for-infertility',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/using-surrogate-mother'];</p>
+<p>	</p>
+<p>		var c4_2 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/choosing-a-fertility-clinic',];</p>
+<p>	</p>
+<p>		var c5  = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/20061101/marriage-stress-affects-infertility-treatment',</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/addicted-hope'];</p>
+<p>		</p>
+<p>		var c6_1 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-reproduction-finding-help-index'];</p>
+<p>	</p>
+<p>		var c6_2 = [</p>
+<p>			'http://www.webmd.com/infertility-and-reproduction/guide/infertility-reproduction-organizations'];</p>
+<p>	</p>
+<p>					function definePage () {</p>
+<p>	var parentChapter, tabChapter, s_pagenameCheck;</p>
+<p>	var subChapter ="1";</p>
+<p>	var theUrl=location.href;</p>
+<p>	s_pagenameCheck = theUrl.toLowerCase();</p>
+<p>	</p>
+<p>	if (s_pagenameCheck.lastIndexOf("?")  >  0) {</p>
+<p>		var s_pagenameCheck = s_pagenameCheck.substring(0,s_pagenameCheck.lastIndexOf("?"));</p>
+<p>	} </p>
+<p>					</p>
+<p>		if( s_pagenameCheck in oc(chapters) ) { </p>
+<p>		parentChapter = s_pagenameCheck;</p>
+<p>		highlightLeftBin(parentChapter);</p>
+<p>                  highlightCenterBin(parentChapter);</p>
+<p>		highlightTab();</p>
+<p>		} else {</p>
+<p>		</p>
+<p>		if( s_pagenameCheck in oc(c1_1) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c1_2) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c1_3) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "3";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c1_4) ) { parentChapter = chapters[1]; tabChapter = "1";subChapter = "4";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_1) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_2) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c2_3) ) { parentChapter = chapters[2]; tabChapter = "2";subChapter = "3";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c3_1) ) { parentChapter = chapters[3]; tabChapter = "3";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c3_2) ) { parentChapter = chapters[3]; tabChapter = "3";subChapter = "2";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c4_1) ) { parentChapter = chapters[4]; tabChapter = "4";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c4_2) ) { parentChapter = chapters[4]; tabChapter = "4";subChapter = "2";}</p>
+<p>	</p>
+<p>			if( s_pagenameCheck in oc(c5) ) { parentChapter = chapters[4]; tabChapter = "5";}</p>
+<p>			</p>
+<p>		if( s_pagenameCheck in oc(c6_1) ) { parentChapter = chapters[6]; tabChapter = "6";subChapter = "1";}</p>
+<p>	</p>
+<p>		if( s_pagenameCheck in oc(c6_2) ) { parentChapter = chapters[6]; tabChapter = "6";subChapter = "2";}</p>
+<p>	</p>
+<p>			if ((typeof(parentChapter)!="undefined")  &  (typeof(tabChapter)!="undefined")) {</p>
+<p>			highlightLeftBin(parentChapter);</p>
+<p>                           highlightCenterBin(parentChapter);</p>
+<p>			setNavState(tabChapter, subChapter);</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>	</p>
+<p>	definePage();</p>
+<p>				</p>
+<p>				</p>
+<p>Related to Infertility & Reproduction</p>
+<p>Endometriosis</p>
+<p>Getting Pregnant</p>
+<p>Menopause</p>
+<p>Men's Health</p>
+<p>Miscarriage</p>
+<p>PCOS</p>
+<p>Smoking Cessation</p>
+<p>Women’s Health</p>
+<p>More Related Topics</p>
+<p>Common Treatments for Infertility</p>
+<p>Coenzyme Q-10</p>
+<p>Femara</p>
+<p>Folic Acid</p>
+<p>Follistim</p>
+<p>Glucophage </p>
+<p>IVF</p>
+<p>L-Carnitine</p>
+<p>Lupron</p>
+<p>Progesterone</p>
+<p>Vitamin E</p>
+<p>More Drugs</p>
+<p>More Vitamins & Supplements</p>
+<p>					$("#leftAd_Iframe").load(function() { $("#leftAd_top_fmt").addClass("loaded"); $(".leftAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "1819";</p>
+<p>			var secTopId = "3607";</p>
+<p>		</p>
+<p>Today in Infertility & Reproduction</p>
+<p>Slideshow</p>
+<p>Getting Pregnant: Fertility Basics</p>
+<p>Tool</p>
+<p>Ovulation Calendar: Your Most Fertile Days</p>
+<p> </p>
+<p>Slideshow</p>
+<p>Which Infertility Treatment Is Right for You?</p>
+<p>Slideshow</p>
+<p>From Egg to Embryo: See the Conception Process</p>
+<p> </p>
+<p>					$("#rightAd_Iframe").load(function() { $("#rightAd_top_fmt").addClass("loaded"); $(".rightAd_top_fmt").addClass("loaded"); });</p>
+<p>				</p>
+<p>			var priTopId = "1819";</p>
+<p>			var secTopId = "3607";</p>
+<p>		</p>
+<p>Article</p>
+<p>Easy Ways To Encourage Fertility</p>
+<p>Article</p>
+<p>Trying to Conceive: Myths vs. Facts</p>
+<p> </p>
+<p>Video</p>
+<p>Prepare Your Body for Pregnancy</p>
+<p>Video</p>
+<p>Low-Tech Fertility Treatment Options</p>
+<p> </p>
+<p>Article</p>
+<p>Why Chart Your Menstrual Cycle?</p>
+<p>Article</p>
+<p>Choosing a Fertility Clinic</p>
+<p> </p>
+<p>Article</p>
+<p>What Are the Signs of Infertility?</p>
+<p>Article</p>
+<p>No Period but Not Pregnant? Possible Causes</p>
+<p> </p>
+<p>Women's Health Newsletter</p>
+<p>Find out what women really need.</p>
+<p>Submit</p>
+<p>  </p>
+<p>WebMD Special Sections</p>
+<p>Ovulation Calculator</p>
+<p>Health Solutions From Our Sponsors</p>
+<p>Aching Back Center</p>
+<p>Causes of Depression</p>
+<p>Chronic Low Back Pain</p>
+<p>Improve Depression</p>
+<p>Joint Pain Help Center</p>
+<p>Musculoskeletal Pain</p>
+<p>Support for Depression</p>
+<p>Treating Depression</p>
+<p>Understand Fibromyalgia</p>
+<p>What is Depression?</p>
+<p> </p>
+<p>Find us on:</p>
+<p> URAC: Accredited Health Web SiteReviewed by Trust-E site privacy statementHonCode: Health on the Net Foundation </p>
+<p> About WebMD|Terms of Use|Privacy Policy|Sponsor Policy|Site Map|Careers| Contact Us </p>
+<p> Advertise With Us|WebMD Corporate|Medscape Reference|eMedicineHealth|RxList|Medscape|MedicineNet </p>
+<p> First Aid|WebMD the Magazine|WebMD Health Record|WebMD Mobile|Newsletters </p>
+<p>©2005-2012 WebMD, LLC. All rights reserved.</p>
+<p>WebMD does not provide medical advice, diagnosis or treatment. See additional information.</p>
+<p>// adding RR test back into preview to troubleshoot</p>
+<p>try {</p>
+<p>	webmd.usability.tests.ssRightRail.writeTest();</p>
+<p>} catch(e) {};</p>
+<p>	if (document.URL.substring(0,5).indexOf('http:')>=0) {</p>
+<p>		document.write('<img src=//bi.medscape.com/pi/global/webmd-1x1.gif?'+new Date().getTime()+'" alt="" height="1" width="1" border="0" />') </p>
+<p>	}</p>
+<p>			var priTopId = "1819";</p>
+<p>			var secTopId = "3607";</p>
+<p>		</p>
+<p> var s_account="webmdcom"</p>
+<p> ,s_server_type="1b"</p>
+<p> ,s_server="WFAWS07L-CON-08"</p>
+<p> ,s_object_type="wbmd_cons_article"</p>
+<p> ,s_page_number="1"</p>
+<p> ,s_topic_dir="false"</p>
+<p> ,s_site_class="ooc"</p>
+<p> ,s_site="core"</p>
+<p> ,s_sponsored_uri="infertility-and-reproduction/news/20120111/ivf-are-three-embryos-too-many-transfer"</p>
+<p> ,s_pagename="www.webmd.com/infertility-and-reproduction/news/20120111/ivf-are-three-embryos-too-many-transfer"</p>
+<p> ,s_channel=""</p>
+<p> ,s_topic="1819"</p>
+<p> ,s_business_reference="News"</p>
+<p> ,s_publication_source="WebMD Health News"</p>
+<p> ,s_intended_demographics="__"</p>
+<p> ,s_stage_condition=""</p>
+<p> ,s_asset_id="091e9c5e80994eb1"</p>
+<p> ,s_unique_id="091e9c5e80994eb1"</p>
+<p> ,s_company="webmd"</p>
+<p> ,s_mrt="27"</p>
+<p> ,s_refpath=""</p>
+<p> ,s_sponsor_program=""</p>
+<p> ,s_package_name=""</p>
+<p> ,s_channel_super_portal=""</p>
+<p> ,s_channel_health="Infertility and Reproduction";</p>

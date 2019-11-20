@@ -1,0 +1,122 @@
+<p>[公司]绿景控股料2011年扭亏 净利1900万-2900万-财经频道-千华网</p>
+<p><!--</p>
+<p>body,td,th {</p>
+<p>	font-size: 14px;</p>
+<p>	color: #333;</p>
+<p>}</p>
+<p>.style14 {</p>
+<p>	font-size: 14px;</p>
+<p>}</p>
+<p>.style2 {</p>
+<p>	font-weight: bold;</p>
+<p>}</p>
+<p>.style3 {</p>
+<p>	font-weight: bold;</p>
+<p>	color: #FFFFFF;</p>
+<p>}</p>
+<p>.style1 {</p>
+<p>	font-size: 24px;</p>
+<p>	font-weight: bold;</p>
+<p>	font-family: "宋体";</p>
+<p>}</p>
+<p>.style4 {</p>
+<p>	font-size: 24px;</p>
+<p>	font-weight: bolder;</p>
+<p>}</p>
+<p>body {</p>
+<p>	margin-left: 0px;</p>
+<p>	margin-top: 0px;</p>
+<p>}</p>
+<p>a:link {</p>
+<p>	text-decoration: none;</p>
+<p>	color: #333333;</p>
+<p>}</p>
+<p>.style17 {</p>
+<p>	color: #333333;</p>
+<p>}</p>
+<p>a:visited {</p>
+<p>	text-decoration: none;</p>
+<p>	color: #333333;</p>
+<p>}</p>
+<p>a:hover {</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>a:active {</p>
+<p>	text-decoration: none;</p>
+<p>}</p>
+<p>.style3 {</p>
+<p>	font-weight: bold;</p>
+<p>	color: #FFFFFF;</p>
+<p>}</p>
+<p>.style5 {</p>
+<p>	font-weight: bold;</p>
+<p>	color: #3B4B48;</p>
+<p>}</p>
+<p>.STYLE15 {color: #FFFFFF}</p>
+<p>.STYLE15:link {color: #FFFFFF}  </p>
+<p>.STYLE15:visited {</p>
+<p>	color: #FFFFFF;</p>
+<p>}</p>
+<p>.STYLE15:hover {</p>
+<p>	color: #FFFFFF;</p>
+<p>}</p>
+<p>.STYLE15:active {</p>
+<p>	color: #FFFFFF;</p>
+<p>}</p>
+<p>.STYLE12s {</p>
+<p>	color: #333333;</p>
+<p>	font-size: 12px;</p>
+<p>}</p>
+<p>.STYLE12s:link {	color: #333333;</p>
+<p>	font-size: 12px;}  </p>
+<p>.STYLE12s:visited {</p>
+<p>		color: #333333;</p>
+<p>	font-size: 12px;;</p>
+<p>}</p>
+<p>.STYLE12s:hover {</p>
+<p>		</p>
+<p>		</p>
+<p>	font-size: 12px;</p>
+<p>	</p>
+<p>	COLOR: #bc2931; TEXT-DECORATION: underline</p>
+<p>}</p>
+<p>.STYLE12s:active {</p>
+<p>	color: #333333;</p>
+<p>	font-size: 12px;</p>
+<p>}</p>
+<p>--></p>
+<p> 当前位置： 千华首页 ></p>
+<p>                  </p>
+<p>              > 正文 </p>
+<p>                      [公司]绿景控股料2011年扭亏 净利1900万-2900万</p>
+<p>                  </p>
+<p>发布时间：</p>
+<p>                          2012-01-17 20:52</p>
+<p>                          来源：</p>
+<p>                          全景网</p>
+<p>                            陈祎</p>
+<p>　　全景网1月17日讯 绿景控股</p>
+<p>周二晚间发布业绩预告，预计公司2011年度扭亏为盈，实现净利润约1900万元–2900万元。2010年同期公司亏损4943.24万元。</p>
+<p>　　公司表示，报告期扭亏的主要原因为可确认的销售收入较上年同期大幅增加。可确认的销售收入主要来自公司房地产业务。(全景网/陈祎)</p>
+<p>　　</p>
+<p>(function(){</p>
+<p>  var _w = 20 , _h = 20;</p>
+<p>  var param = {</p>
+<p>    url:location.href,</p>
+<p>    type:'3',</p>
+<p>    count:'', /**是否显示分享数，1显示(可选)*/</p>
+<p>    appkey:'', /**您申请的应用appkey,显示分享来源(可选)*/</p>
+<p>    title:'', /**分享的文字内容(可选，默认为所在页面的title)*/</p>
+<p>    pic:'', /**分享图片的路径(可选)*/</p>
+<p>    ralateUid:'', /**关联用户的UID，分享微博会@该用户(可选)*/</p>
+<p>    rnd:new Date().valueOf()</p>
+<p>  }</p>
+<p>  var temp = [];</p>
+<p>  for( var p in param ){</p>
+<p>    temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )</p>
+<p>  }</p>
+<p>  document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="  http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')</p>
+<p>})()</p>
+<p>分享到</p>
+<p>分享到</p>
+<p>   财经要闻        快递旺季，消费者可以查询运行信息   证监会主席郭树清：对中国股市我们 ...   财政部、发展改革委公布取消253项涉...   证监会将公布IPO在审企业名单   商务部：力争2015年实现电子商务信 ...   工信部：明年将组织开展“中小企业 ...   克鲁格曼称发达国家不应放弃财政刺 ...   国际金价连续11年保持涨势       实时财经        团购年夜饭限制条款多 如何才能避免...   金融机构称中国经济面临“四大风险 ...   金融危机持续发酵 中国需要有多少黄...   双色球大奖得主仍未现身 这1767万元...   “过劳死”可否纳入职业病？   徐州210户农民土地反包开心农场 化 ...   网友发帖称木匠月入过万 公务员收入...   上海铁路局管内电话订票取票时间将延长       市场快讯        韩国决定接受美国要求分阶段减少进 ...   卫生部明确部分养殖梅花鹿副产品可 ...   新国都预计2011年净利增24%-31%   两市38股破净 安阳钢铁市净率最低   两市34只个股市盈率超过1000倍（名单）   专家预测今年商品房平均销售价格同 ...   英国去年12月通胀率降至4.2%   云南师宗矿难原县委书记涉嫌违纪违 ...       热点透视        聚焦保障房四大新热点问题   欧元十年之“坎”   欧元流通十年 命运仍旧悬疑   2012年欧债危机大戏拉开帷幕   2011：“限价令”大考能否过关？   看欧盟放创新长线钓增长大鱼   欧元助力德国经济   成品油税费改革三年成效显著       机构看市        期待利好助推平台上行   放量中阳收官 龙年有望开门红   大盘有望向20日均线发起攻击   小幅反弹收官 2012或收阳线   三连阳收兵2011 解套行情何时启动   普涨格局昭示大盘弹升空间有限   年尾转向 期盼龙年腾飞   三大利好共振 2011年A股强势收官    </p>

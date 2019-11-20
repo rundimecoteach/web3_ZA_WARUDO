@@ -1,0 +1,222 @@
+<p>Мариупольский врач, заразивший младенцев ВИЧ, получил срок, но риск заражения не снизился - Новости Донбасса</p>
+<p>	<!--</p>
+<p>		function send(link)</p>
+<p>		{</p>
+<p>			var myOptions = "scrollbars=no,width=320,height=275";</p>
+<p>			var win_url = "/send" + link;</p>
+<p>			var newWin = open (win_url,'myDoc',myOptions);</p>
+<p>		}</p>
+<p>	--></p>
+<p>	</p>
+<p>	 VK.init({apiId: 2737612, onlyWidgets: true});</p>
+<p>	</p>
+<p>(function(d, s, id) {</p>
+<p>  var js, fjs = d.getElementsByTagName(s)[0];</p>
+<p>  if (d.getElementById(id)) return;</p>
+<p>  js = d.createElement(s); js.id = id;</p>
+<p>  js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";</p>
+<p>  fjs.parentNode.insertBefore(js, fjs);</p>
+<p>}(document, 'script', 'facebook-jssdk'));</p>
+<p>17 января 2012 года, вторник</p>
+<p>Курсы валют:</p>
+<p>100 USD</p>
+<p> = 797.27 UAH|</p>
+<p>				100 EUR</p>
+<p> = 1119.05 UAH|</p>
+<p>				10 RUR</p>
+<p> = 2.7035 UAH|</p>
+<p>				</p>
+<p>УРА-Информ   </p>
+<p>				Крым  </p>
+<p>				Ялта</p>
+<p>Дебальцево принял бюджет. Депутаты защитили педагогов и отстояли бюджет развития</p>
+<p>В горсовете надеются, что область будет уделять больше внимания нуждам Дебальцево.  </p>
+<p>Новости</p>
+<p>Политика</p>
+<p>Общество</p>
+<p>Экономика</p>
+<p>Реплики</p>
+<p>Фото</p>
+<p>Конференции</p>
+<p>Чтиво</p>
+<p>Опрос</p>
+<p>ТОП-УРА</p>
+<p>Форум</p>
+<p> </p>
+<p><!--</p>
+<p>var rand = Math.random() * 100;</p>
+<p>var cont = 1;</p>
+<p>var rez = rand % cont;</p>
+<p>if ( rez >= 0 && rez < 1 ) </p>
+<p>document.write ('<a href="http://novosti.dn.ua/themes/42/" title="За что хотели сжечь Алексея Мацуку"><img src="http://ura.dn.ua/files/pravda-banner.gif" alt="За что хотели сжечь Алексея Мацуку" /></a>');</p>
+<p>--></p>
+<p>//<!--</p>
+<p>user = "49677";</p>
+<p>page = "1";</p>
+<p>pid = Math.round((Math.random() * (10000000 - 1)));</p>
+<p>document.write("<iframe src='http://banner.kiev.ua/cgi-bin/bi.cgi?h" +</p>
+<p>user + "&amp;"+ pid + "&amp;" + page + "&amp;5' frameborder=0 vspace=0 hspace=0 " +</p>
+<p>" width=160 height=60 marginwidth=0 marginheight=0 scrolling=no>");</p>
+<p>document.write("<a href='http://banner.kiev.ua/cgi-bin/bg.cgi?" +</p>
+<p>user + "&amp;"+ pid + "&amp;" + page + "&amp;5' target=_top>");</p>
+<p>document.write("<img border=0 src='http://banner.kiev.ua/" +</p>
+<p>"cgi-bin/bi.cgi?i" + user + "&amp;" + pid + "&amp;" + page +</p>
+<p>"&amp;5' width=160 height=60 alt='Ukrainian Banner Network'></a>");</p>
+<p>document.write("</iframe>");</p>
+<p>//--></p>
+<p>Новости Донбасса</p>
+<p>Мариупольский врач, заразивший младенцев ВИЧ, получил срок, но риск заражения не снизился</p>
+<p>  </p>
+<p>14:57 16.01.2012 </p>
+<p>Врач, заразивший троих детей Мариуполя (Донецкая область) ВИЧ-инфекцией, был осужден на 5 лет. Также его лишили права заниматься медицинской деятельностью в течение 2 лет.До того, как женщине-врачу был вынесен такой приговор, ее дело дважды закрывали якобы за отсутствием состава преступления, дважды отправляли на доследование и один раз выносили оправдательный приговор, передает «ТСН».Однако суд продолжался, хотя на последнее его заседание женщина не пришла. До сегодняшнего дня она работала в должности заместителя председателя мариупольской станции переливания крови. По решению суда теперь эта станция совместно с Донецким облсоветом должна будет выплатить каждой из пострадавших семей по 20 тыс. грн материальной компенсации.Напомним, инцидент произошел еще 7 лет назад, когда врач перелила трем новорожденным девочкам плазму, зараженную ВИЧ-инфекцией. За эти годы болезнь девочек переросла в последнюю, 4 стадию СПИДа. «Дети находятся на антиретровирусной терапии для больных СПИДом. Состояние здоровья достаточно плохое, учитывая то, что одна из пострадавших девочек родилась с детским церебральным параличом. Поэтому ситуация достаточно сложная», - заявила защитница пострадавших Татьяна Бордунис.В то же время адвокат подсудимой Людмила Пономаренко заявляет, что точку в деле ставить рано. «Мы с приговором не согласны, поскольку вина не подтверждена. Мы будем обжаловать приговор, как в апелляции, так и в высшем специализированном суде, да и в Европейском суде будем доказывать позицию защиты», - подчеркнула она.Не считает виновной свою подчиненную и руководитель Мариупольского станции переливания крови Владимир Мавров. По его словам, инцидент произошел из-за того, что на станции отсутствует совершенная система диагностики качества донорской крови. «Это не только в Мариуполе, это везде, это у нас такая практика в государстве. Поэтому риск инфицирования есть. Мы работаем на том же оборудовании, которое у нас было в 2005 году. К настоящему времени ничего не изменилось», - заявил он.УРА-Информ.Донбасс</p>
+<p> версия для печати  отправить другу  обсудить на форуме (0)</p>
+<p>					VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 18});</p>
+<p>					</p>
+<p>Если вы заметили орфографическую, стилистическую или другую ошибку на этой странице, просто выделите ее мышью и нажмите Ctrl+Enter.</p>
+<p>Загрузка...</p>
+<p>Форум</p>
+<p>Коммунисты не хотят отвечать за действия мэра Дебальцево</p>
+<p>В ДонНУ начались настоящие репрессии. Людей выживают, – глава профкома</p>
+<p>Хотите, чтобы в Донецке пролилась кровь? Вы ее получите, - Компартия</p>
+<p>Донецк встретит Евро-2102 без объездной автодороги</p>
+<p>Очередной скандал в ДонНУ: и.о. ректора запугал коллектив. За дело взялась милиция</p>
+<p>Сразу три ДТП парализовали движение в Донецке</p>
+<p>Зайти на форум »</p>
+<p>На Ура!</p>
+<p>Сразу три ДТП парализовали движение в Донецке</p>
+<p>Звезды «Глухаря» стали опасными мальчиками (ФОТО)</p>
+<p>Хотите, чтобы в Донецке пролилась кровь? Вы ее получите, - Компартия</p>
+<p>МЧС Донетчины достигло новых высот (ФОТО)</p>
+<p>В ДонНУ начались настоящие репрессии. Людей выживают, – глава профкома</p>
+<p>На Луганщине тоже напали на «Приватбанк». Объявлена награда за информацию</p>
+<p>Весь рейтинг »</p>
+<p>//<!--</p>
+<p>user = "49677";</p>
+<p>page = "1";</p>
+<p>pid = Math.round((Math.random() * (10000000 - 1)));</p>
+<p>document.write("<iframe src='http://banner.kiev.ua/cgi-bin/bi.cgi?h" +</p>
+<p>user + "&amp;"+ pid + "&amp;" + page + "&amp;5' frameborder=0 vspace=0 hspace=0 " +</p>
+<p>" width=160 height=60 marginwidth=0 marginheight=0 scrolling=no>");</p>
+<p>document.write("<a href='http://banner.kiev.ua/cgi-bin/bg.cgi?" +</p>
+<p>user + "&amp;"+ pid + "&amp;" + page + "&amp;5' target=_top>");</p>
+<p>document.write("<img border=0 src='http://banner.kiev.ua/" +</p>
+<p>"cgi-bin/bi.cgi?i" + user + "&amp;" + pid + "&amp;" + page +</p>
+<p>"&amp;5' width=160 height=60 alt='Ukrainian Banner Network'></a>");</p>
+<p>document.write("</iframe>");</p>
+<p>//--></p>
+<p>Интересные факты</p>
+<p>								Загрузка ...</p>
+<p>							</p>
+<p>Mета — новости</p>
+<p>							Загрузка ...</p>
+<p>						</p>
+<p>Новости</p>
+<p>17.01.2012</p>
+<p>1754 В Мариуполе «дожимают» игорный бизнес</p>
+<p>1748 Греция не убежит от дефолта, - Fitch</p>
+<p>1735 Коммунисты не хотят, чтобы украинцы сменили поезда на автобусы</p>
+<p>1726 «Динамо» будет играть мячом Евро-2012 (ФОТО)</p>
+<p>1704 Разговоры об экологической катастрофе в Горловке являются чьей-то пиар-акцией, - губернатор</p>
+<p>1655 Новый Президент Европарламента усилит диалог с Украиной, - депутат</p>
+<p>1647 Дебальцево принял бюджет. Депутаты защитили педагогов и отстояли бюджет развития</p>
+<p>1635 Бойко и Миллер договорились продолжить договариваться</p>
+<p>1621 Тимошенко опять отказала врачам</p>
+<p>1609 Новый ствол для шахты Бажанова обойдется в 260 млн грн</p>
+<p>1543 Госветслужба осудила контроль российского мяса</p>
+<p>1524 Коммунисты не хотят отвечать за действия мэра Дебальцево</p>
+<p>1518 России до качества украинских сыров надо еще много стараться – Азаров</p>
+<p>1511 Налоговую атаковали «упрощенцы»</p>
+<p>1452 Прокуратура Донетчины заинтересовалась ДТП, в котором погибли милиционеры</p>
+<p>1436 МИД выяснят причины изъятия паспортов у украинцев с Сosta Сonkordia</p>
+<p>1425 В 2011 году из-за своего поведения на ДонЖД погибло 70 человек</p>
+<p>1412 Медкарта Тимошенко исчезла из частной клиники, - Турчинов</p>
+<p>1357 О долгах налогоплательщикам будет напоминать компьютер</p>
+<p>1349 Глава украинского МИД Константин Грищенко посетил Латвию</p>
+<p>1342 Хотите, чтобы в Донецке пролилась кровь? Вы ее получите, - Компартия</p>
+<p>1341 В Южном Судане задержан украинец, – МИД</p>
+<p>1337 Злоумышленники растратили из бюджета 7 млн грн</p>
+<p>1326 ЦИК Казахстана подвел выборам итог</p>
+<p>1312 Львов разбазарил на откаты по Еевро-2012 более 12 млн грн</p>
+<p>1302 Голландцы могут поселиться в Донецке на Евро-2012</p>
+<p>1246 Отныне сотрудников МВД за хамство и непрофессионализм будут наказывать жестко</p>
+<p>1237 Каждый четвертый милиционер хочет уволиться, - министр</p>
+<p>1226 Шахтерская столица не готова отапливаться углем</p>
+<p>1213 Массажистка принесла Тимошенко специальный стол</p>
+<p>1201 Донецк встретит Евро-2012 без объездной автодороги</p>
+<p>1157 Встречи с Тимошенко запросил посол Франции по правам человека</p>
+<p>1146 За два дня в Донецке из-под носа у владельцев украли два дорогих автомобиля</p>
+<p>1137 Украина пока не пойдет в Стокгольмский арбитраж, - ПР</p>
+<p>1129 «Днепр» наращивает защиту</p>
+<p>Все новости »</p>
+<p>Поиск</p>
+<p>расширенный поиск</p>
+<p>Архив</p>
+<p>Опрос</p>
+<p>До Евро-2012 осталось полгода. Главная проблема для гостей Донецка - это:</p>
+<p>Языковой барьер</p>
+<p>Недостаток отелей</p>
+<p>Низкий уровень сервиса в гостиницах и ресторанах</p>
+<p>Постоянные пробки</p>
+<p>Отсутствие сервиса на автовокзалах</p>
+<p>Культурная непривлекательность города</p>
+<p>Недоброжелательность окружающих</p>
+<p>Отсутствие увлекательных туристических маршрутов</p>
+<p>результаты</p>
+<p>© 2005—2011 Украинское рейтинговое агентство.</p>
+<p>		Все права защищены. При использовании материалов ссылка на УРА-Информ.Донбасс обязательна. (Для интернет-изданий — гиперссылка).</p>
+<p>Редакция «УРА-Информ.Донбасс» может не разделять точку зрения авторов статей и ответственности за содержание републицируемых материалов не несет.</p>
+<p>Звоните нам: (062) 300-38-85, (067) 522-22-60</p>
+<p>		   Пишите нам:  ura-donetsk@yandex.ru.</p>
+<p> </p>
+<p>		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");</p>
+<p>		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</p>
+<p>		</p>
+<p>		var pageTracker = _gat._getTracker("UA-2774817-1");</p>
+<p>		pageTracker._initData();</p>
+<p>		pageTracker._trackPageview();</p>
+<p>		</p>
+<p><!--</p>
+<p>		function BM_Draw(oBM_STAT){</p>
+<p>		document.write('<table cellpadding="0" cellspacing="0" border="0" style="display:inline"><tr><td><div style="margin:0;padding:0;font-size:1px;width:88px; height:31px;overflow:hidden"><div style="background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b59_top.gif\') no-repeat bottom; width:88px;height:2px"> </div><div style="font:10px Tahoma;background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b59_center.gif\');"><div style="text-align:center;"><a href="http://top.bigmir.net/report/105335/" rel="nofollow" target="_blank" style="color:#0000ab;text-decoration:none;font:10px Tahoma;">bigmir<span style="color:#ff0000;">)</span>net</a></div><div style="margin-top:3px;padding: 0px 6px 0px 6px;color:#003596;"><div style="float:left;font:10px Tahoma;">'+oBM_STAT.hosts+'</div><div style="float:right;font:10px Tahoma;">'+oBM_STAT.hits+'</div></div><br clear="all"/></div><div style="background:url(\'http://i.bigmir.net/cnt/samples/diagonal/b59_bottom.gif\') no-repeat top;"> </div></div></td></tr></table>');</p>
+<p>		}</p>
+<p>		//--></p>
+<p>		</p>
+<p><!--</p>
+<p>		bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={o:1,v:105335,s:105335,t:0,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};</p>
+<p>		for(var f=self;f!=f.parent;f=f.parent)bm.w++;</p>
+<p>		try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));</p>
+<p>		else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}</p>
+<p>		try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}</p>
+<p>		try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}</p>
+<p>		r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r);bm.v^=r.length}</p>
+<p>		bm.v^=window.location.href.length;for(var x in bm) if(/^[ovstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];</p>
+<p>		bmD.write('<sc'+'ript type="text/javascript" language="javascript" src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');</p>
+<p>		//--></p>
+<p>		</p>
+<p><!--</p>
+<p>		document.write('<a href="http://www.liveinternet.ru/click" '+</p>
+<p>		'target=_blank><img src="http://counter.yadro.ru/hit?t15.10;r'+</p>
+<p>		escape(document.referrer)+((typeof(screen)=='undefined')?'':</p>
+<p>		';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?</p>
+<p>		screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+</p>
+<p>		';i'+escape('+¦'+document.title.substring(0,80))+';'+Math.random()+</p>
+<p>		'" alt="" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" '+</p>
+<p>		'border=0 width=88 height=31><\/a>')//--></p>
+<p>		cnsd=document;cnsd.cookie="b=b";cnsc=cnsd.cookie?1:0;</p>
+<p>		document.write('<img src="http://ura.dn.ua/cnstats/cntg.php?c='+cnsc+'&amp;r='+escape(cnsd.referrer)+'&amp;p='+escape(cnsd.location)+'" width="88" height="31" alt="">');</p>
+<p>		</p>
+<p><!--</p>
+<p>function dateChanged(calendar)</p>
+<p>{</p>
+<p>	if (calendar.dateClicked) {</p>
+<p>		var y = calendar.date.getFullYear();</p>
+<p>		var m = calendar.date.getMonth() + 1;</p>
+<p>		var d = calendar.date.getDate();</p>
+<p>		if ( m < 10 ) m = "0" + m;</p>
+<p>		if ( d < 10 ) d = "0" + d;</p>
+<p>		window.location = "/history/" + d + "." + m + "." + y + "/";</p>
+<p>	}</p>
+<p>};</p>
+<p>Calendar.setup( { flat: "calendar-container", flatCallback: dateChanged } );</p>
+<p>--></p>
+<p>var eye = new SinlessEye(708); eye.trackHit();</p>

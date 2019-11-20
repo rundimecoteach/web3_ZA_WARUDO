@@ -1,0 +1,409 @@
+<p>First lady: More research on veterans medical care - USATODAY.com</p>
+<p>var mjx_req = 'www.usatoday.com/yourlife/health';</p>
+<p>var usat_analytics_url = mjx_req;</p>
+<p>usat.contentID='52514064.story';</p>
+<p>var tagID = 52514064;</p>
+<p>jQuery(document).ready(function(){</p>
+<p>var popeyeOptions1 = {</p>
+<p>caption: 'permanent',</p>
+<p>navigation: 'permanent',</p>
+<p>direction: 'right',</p>
+<p>fixed: 'false',</p>
+<p>opacity: 1</p>
+<p>}</p>
+<p>jQuery('.ppy1, .ppy2').popeye(popeyeOptions1);</p>
+<p>jQuery('a#stories-expand').click(function () {</p>
+<p>jQuery('.addPopularStories').slideToggle();</p>
+<p>return false;</p>
+<p>});</p>
+<p>jQuery('a#videos-expand').click(function () {</p>
+<p>jQuery('.addPopularVideos').slideToggle();</p>
+<p>return false;</p>
+<p>});</p>
+<p>jQuery('a#photos-expand').click(function () {</p>
+<p>jQuery('.addPopularPhotos').slideToggle();</p>
+<p>return false;</p>
+<p>});</p>
+<p>jQuery.ajax({</p>
+<p>url: "/loadRemote.ashx?url=/_common/_includes/_community/taboola-async.ssi", </p>
+<p>success: function (html) {</p>
+<p>jQuery("#Adv4").append(html);</p>
+<p>}</p>
+<p>}); </p>
+<p>// series bar dropdown</p>
+<p>function megaHoverOver(){</p>
+<p>jQuery(this).find(".sub, .sub-sponsorship").stop().fadeTo('fast', 1).show();</p>
+<p>}</p>
+<p>function megaHoverOut(){ </p>
+<p>jQuery(this).find(".sub, .sub-sponsorship").stop().fadeTo('fast', 0, function() {</p>
+<p>jQuery(this).hide(); </p>
+<p>});</p>
+<p>}</p>
+<p>var config = {    </p>
+<p>sensitivity: 2, // number = sensitivity threshold (must be 1 or higher)    </p>
+<p>interval: 100, // number = milliseconds for onMouseOver polling interval    </p>
+<p>over: megaHoverOver, // function = onMouseOver callback (REQUIRED)    </p>
+<p>timeout: 500, // number = milliseconds delay before onMouseOut    </p>
+<p>out: megaHoverOut // function = onMouseOut callback (REQUIRED)    </p>
+<p>};</p>
+<p>jQuery("ul#topnav li .sub, ul#topnav li .sub-sponsorship").css({'opacity':'0'});</p>
+<p>jQuery("ul#topnav li").hoverIntent(config);</p>
+<p>// overlay</p>
+<p>var overlaySettings = {</p>
+<p>mask: '#000',</p>
+<p>top: 'center'</p>
+<p>};</p>
+<p>var fixedMinHeight = 720; // max height of embed + 120</p>
+<p>if (jQuery(window).height() < fixedMinHeight){</p>
+<p>jQuery.extend(overlaySettings, { fixed: false });</p>
+<p>}</p>
+<p>jQuery(".buttonModal[rel]").overlay(overlaySettings);</p>
+<p>}); // end doc ready</p>
+<p>var partnerID=1660;</p>
+<p>function getClickExpire() {</p>
+<p>if (self.clickExpire) return clickExpire; </p>
+<p>return "";</p>
+<p>}</p>
+<p>function appendAndEscape(origUrl, appendix){</p>
+<p>if(appendix == "") return escape(origUrl);</p>
+<p>var returnUrl ="";</p>
+<p>var i = origUrl.indexOf(appendix);</p>
+<p>var j = origUrl.indexOf("?");</p>
+<p>if(i == -1){</p>
+<p>if(j == -1){</p>
+<p>returnUrl = origUrl+"?"+appendix;</p>
+<p>}else{</p>
+<p>returnUrl = origUrl+"&"+appendix;</p>
+<p>}</p>
+<p>}else{</p>
+<p>returnUrl = origUrl;</p>
+<p>}</p>
+<p>return escape(returnUrl);</p>
+<p>}</p>
+<p>function getClickURL() {</p>
+<p>if (self.clickURL) return clickURL;</p>
+<p>return document.location.href;</p>
+<p>}</p>
+<p>function getClickTitle() {</p>
+<p>if (self.clickTitle) return clickTitle;</p>
+<p>return document.title;</p>
+<p>}</p>
+<p>function PT () {</p>
+<p>FDCPUrl('http://www.printthis.clickability.com/pt/printThis?clickMap=printThis'+getLocation(),true); </p>
+<p>}</p>
+<p>function getLocation () {</p>
+<p>var theUrl = escape(getClickURL());</p>
+<p>var theTitle = escape(getClickTitle());</p>
+<p>theUrl = appendAndEscape(getClickURL(),"")</p>
+<p>var theLoc = "&fb=Y&url="+theUrl+"&title="+theTitle+"&random="+Math.random()+"&partnerID="+partnerID+"&expire="+escape(getClickExpire());</p>
+<p>return theLoc;</p>
+<p>}</p>
+<p>function PTMouseOver () {</p>
+<p>window.status='PRINT THIS';</p>
+<p>return true;</p>
+<p>}</p>
+<p>function PTMouseOut () {</p>
+<p>window.status='';</p>
+<p>return true;</p>
+<p>}</p>
+<p>var originalPath= window.location.toString().toLowerCase(); </p>
+<p>var adfileSsts= (originalPath+'////').split('/');</p>
+<p>function RightslinkPopUp() {</p>
+<p>if (typeof(rightsLink) !== "undefined") {</p>
+<p>/* the xsl, which is needed to define the rightsLink, does not allow html output. </p>
+<p> * this workaround replaces &amp; with & to get the url to work */ </p>
+<p>rightsLink = rightsLink.replace(/\&amp;/g,'&');</p>
+<p>PopUp = window.open( rightsLink,  "Rightslink", "toolbar=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=550");</p>
+<p>}</p>
+<p>}</p>
+<p>function niceDate(fullDate)</p>
+<p>{</p>
+<p>if(fullDate==""||!fullDate)</p>
+<p>{</p>
+<p>return " ";</p>
+<p>}</p>
+<p>try</p>
+<p>{</p>
+<p>var strNow=new Date();</p>
+<p>var dateParts=fullDate.split(/[\/ :]/);</p>
+<p>var month=parseInt(dateParts[0])-1;</p>
+<p>var hr=dateParts[3];</p>
+<p>if(dateParts[5]=='PM' || (dateParts[6] && dateParts[6]=='PM'))</p>
+<p>{</p>
+<p>if(hr!=12)</p>
+<p>{</p>
+<p>hr=parseInt(hr)+parseInt(12);</p>
+<p>}</p>
+<p>}</p>
+<p>else if(hr==12)</p>
+<p>{</p>
+<p>hr=parseInt(hr)-parseInt(12);</p>
+<p>}</p>
+<p>var strDate=new Date(dateParts[2],month,dateParts[1],hr,dateParts[4]);</p>
+<p>}</p>
+<p>catch(e)</p>
+<p>{</p>
+<p>return fullDate;</p>
+<p>}</p>
+<p>return dateDiff(strNow,strDate,fullDate);</p>
+<p>}</p>
+<p>function dateDiff(date1,date2,fullDate){</p>
+<p>var niceDateStr='';</p>
+<p>var diff=new Date();</p>
+<p>var COMMENT = "the next line must be adjusted for DST: 5 for standard, 4 for DST";</p>
+<p>var tzo=(date1.getTimezoneOffset()/60)-5;</p>
+<p>diff.setTime(Math.abs(date1.getTime()-(date2.getTime()-(tzo*60*60*1000))));</p>
+<p>var timediff=diff.getTime();</p>
+<p>var years=Math.floor(timediff/(1000*60*60*24*365));</p>
+<p>timediff-=years*(1000*60*60*24*365);</p>
+<p>var days=Math.floor(timediff/(1000*60*60*24));</p>
+<p>timediff-=days*(1000*60*60*24);</p>
+<p>var hours=Math.floor(timediff/(1000*60*60));</p>
+<p>timediff-=hours*(1000*60*60);</p>
+<p>var mins=Math.floor(timediff/(1000*60));</p>
+<p>timediff-=mins*(1000*60);</p>
+<p>var secs=Math.floor(timediff/1000);</p>
+<p>timediff-=secs*1000;</p>
+<p>// If older than 7 days, return the full date </p>
+<p>if(diff.getTime()>(7*24*60*60*1000)) {</p>
+<p>return fullDate;</p>
+<p>}</p>
+<p>if(years>0){</p>
+<p>niceDateStr=years+"y";</p>
+<p>if(days==0){</p>
+<p>niceDateStr+=" ago";}else{</p>
+<p>niceDateStr+=" "+days+"d ago";}}else if(days>0){</p>
+<p>niceDateStr=days+"d";</p>
+<p>if(hours==0||days>=7){</p>
+<p>niceDateStr+=" ago";}else if(days<7){</p>
+<p>niceDateStr+=" "+hours+"h ago";}}else if(hours>0){</p>
+<p>niceDateStr=hours+"h";</p>
+<p>if(mins==0){</p>
+<p>niceDateStr+=" ago";}else{</p>
+<p>niceDateStr+=" "+mins+"m ago";}}else if(mins>0){</p>
+<p>niceDateStr=mins+"m ago";}else{</p>
+<p>niceDateStr="<1m ago";}</p>
+<p>return niceDateStr;}</p>
+<p>function MM_openBrWindow(theURL,winName,features) { //v2.0</p>
+<p>window.open(theURL,winName,features);</p>
+<p>}</p>
+<p>USA TODAY</p>
+<p>Your Life</p>
+<p>Get Home Delivery</p>
+<p>Mobile</p>
+<p>Home</p>
+<p>News</p>
+<p>Travel</p>
+<p>Money</p>
+<p>Sports</p>
+<p>Life</p>
+<p>Your Life</p>
+<p>Tech</p>
+<p>Weather</p>
+<p>Your Life</p>
+<p>Your Life Main</p>
+<p>Recipes</p>
+<p>Diseases & Conditions</p>
+<p>Experts & Columnists</p>
+<p>New: Hospital Mortality Rates</p>
+<p>Health</p>
+<p> Health Main</p>
+<p>Alzheimer's</p>
+<p>Breast Cancer </p>
+<p>Cancer</p>
+<p>Depression</p>
+<p>Diabetes</p>
+<p>Heart Disease</p>
+<p>Obesity</p>
+<p>Fitness & Food</p>
+<p>Fitness & Food Main</p>
+<p>Recipes</p>
+<p>Diet & Weight Loss</p>
+<p>Farm to Table</p>
+<p>New! Kick-Start To a Healthier New You</p>
+<p>Family & Parenting</p>
+<p>Family & Parenting Main</p>
+<p>Pregnancy & Baby</p>
+<p>Children's Health</p>
+<p>Teens & Pre-Teens</p>
+<p>Sex & Relationships</p>
+<p> Sex & Relationships Main</p>
+<p>Relationships</p>
+<p>Marriage</p>
+<p>Your Look</p>
+<p>Your Look Main</p>
+<p>Beauty</p>
+<p>Blogs </p>
+<p>Kindness Blog</p>
+<p>Paw Print Post</p>
+<p>NEW: Nutrition Nation Blog</p>
+<p>NEW: Healthy Perspective Blog</p>
+<p>NEW: Life Solutions Blog</p>
+<p>OAS_AD("Top728x90");</p>
+<p>body {</p>
+<p>margin: 0px !important;</p>
+<p>padding: 0px !important;</p>
+<p>}</p>
+<p>.afs_header {</p>
+<p>width: 239px;</p>
+<p>}</p>
+<p>#seriesWrap {</p>
+<p>font-size: 16px;</p>
+<p>}</p>
+<p>#seriesWrap a {</p>
+<p>font-weight: normal;</p>
+<p>}</p>
+<p>#seriesWrap p {</p>
+<p>margin-top: 1em;</p>
+<p>margin-bottom: 1em;</p>
+<p>}</p>
+<p>#footer p {</p>
+<p>text-align:center;</p>
+<p>}</p>
+<p>#largeTopper {</p>
+<p>margin: 10px 0;</p>
+<p>}</p>
+<p>First lady: More research on veterans medical care</p>
+<p>Updated document.write(niceDate("1/12/2012 9:44 AM"));</p>
+<p>Comments</p>
+<p>RICHMOND, Va.</p>
+<p>–</p>
+<p>First lady Michelle Obama on Wednesday told military members and veterans that more medical schools are teaming up to boost training and research on brain injuries and post-traumatic stress disorder.P. Kevin Morley, APFirst lady Michelle Obama, center, poses for a photo with U.S. Army Staff Sergeants Keisha Whitmore, left, and Tyeir Pritchard-Davis after Obama announced an initiative for more research on veterans medical care.EnlargeCloseP. Kevin Morley, APFirst lady Michelle Obama, center, poses for a photo with U.S. Army Staff Sergeants Keisha Whitmore, left, and Tyeir Pritchard-Davis after Obama announced an initiative for more research on veterans medical care.display_afs_ads(afs_top_ads, "topsponsoredLinks");Obama told an audience at Virginia Commonwealth University that 105 U.S. medical schools and 25 schools of osteopathic medicine are bolstering their efforts to train students in treating brain injuries, PTSD and other mental-health issues affecting service members.To that end, the American Association of Medical Colleges and the American Association of Colleges of Osteopathic Medicine have pledged to devote research, education and clinical care to address military service members' specific health care needs.The initiative is part of the Joining Forces campaign, an effort by the first lady and Vice President Joe Biden's wife, Jill, to focus on issues that affect veterans and their families.Obama cited some examples already are under way at universities, including VCU, which is undergoing a project to provide resources and training to health care providers, volunteers and community members across Virginia to help veterans.University of Pittsburgh researchers are developing a new imaging tool that allows physicians to see high-definition views of the brain's wiring, which can help with diagnosing a traumatic brain injury, she said. And the University of South Florida is working with the VA and Department of Defense to create a Center for Veterans Reintegration — a research, treatment and education center for veterans and families.The first lady told VCU medical students that the profession they've chosen is "the essence of true service.""This country is counting on you," she said. "No pressure."Obama thanked the troops for their service, and noted that anyone experiencing mental health difficulties shouldn't be ashamed."Seek help, don't bury it," she said. "Asking for help is a sign of strength."The Defense Department estimates that nearly 213,000 military personnel have suffered traumatic brain injuries in Iraq and Afghanistan since 2000.An estimated 300,000 veterans of both conflicts suffered post-traumatic stress disorder or major depression, according to a Rand Corp. report.Obama said fewer than half had sought treatment for PTSD over the preceding year and nearly 60 percent of those reporting a probable brain injury didn't seek evaluation by a physician.There is no new funding associated with the initiative, and medical schools will make their own decisions about how to integrate more training and research into PTSD and traumatic brain injury into their curricula.Before the appearance, Obama headlined a fundraiser for her husband's re-election campaign and visited a local Veterans Administration hospital. She had another fundraiser in Charlottesville after her VCU stop.———Associated Press Writer Julie Pace in Washington contributed to this report.———Zinie Chen Sampson can be reached on Twitter: https://www.twitter.com/zinieCopyright 2012 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</p>
+<p>For more information about reprints & permissions, visit our FAQ's. To report corrections and clarifications, contact Standards Editor Brent Jones. For publication consideration in the newspaper, send comments to letters@usatoday.com. Include name, phone number, city and state for verification. To view our corrections, go to corrections.usatoday.com.</p>
+<p>Posted document.write(niceDate("1/12/2012 9:43 AM")); | Updated document.write(niceDate("1/12/2012 9:44 AM"));</p>
+<p>jQuery(document).ready(function(){</p>
+<p>jQuery.getScript("http://widgets.outbrain.com/outbrain.js");</p>
+<p>});</p>
+<p>usat.contentID='52514064.story';</p>
+<p>USA TODAY is now using Facebook Comments on our stories and blog posts to provide an enhanced user experience. To post a comment, log into Facebook and then "Add" your comment. To report spam or abuse, click the "X" in the upper right corner of the comment box. To find out more, read the FAQ and Conversation Guidelines. </p>
+<p> </p>
+<p>(function(d){</p>
+<p>var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}</p>
+<p>js = d.createElement('script'); js.id = id; js.async = true;</p>
+<p>js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";</p>
+<p>d.getElementsByTagName('head')[0].appendChild(js);</p>
+<p>}(document));</p>
+<p>display_afs_ads(afs_bottom_ads, "bottomsponsoredLinks");</p>
+<p>OAS_AD("Poster3"); Advertisment</p>
+<p>Most Popular</p>
+<p>Stories</p>
+<p>Pooches take the pulpit</p>
+<p>Olivia Rusk is your average teenager --...</p>
+<p>Why Excedrin, NoDoz bottles are being...</p>
+<p>Young cancer survivors lobby Mattel for...</p>
+<p>Low risk of heart incidents found for...</p>
+<p>Videos</p>
+<p>Countdown to UFC 142 - UFC.comRaw Video: Deadly blast kills professor in IranYoung Hollywood goes YouTubeProgress slow two years after Haiti quakeApparent tornado slams N.C.; family rescued</p>
+<p>Most Popular E-mail Newsletter</p>
+<p>Sign up to get:</p>
+<p>Top viewed stories, photo galleries and community posts of the day</p>
+<p>Most popular right now:</p>
+<p>Helping breast health</p>
+<p>Your Life: Health</p>
+<p>OAS_AD("Bottom728x90");</p>
+<p>USA Today Your Life</p>
+<p> Your Life </p>
+<p> USA Today </p>
+<p> </p>
+<p>Health</p>
+<p>Alternative</p>
+<p>Alzheimer’s</p>
+<p>Autism</p>
+<p>Breast cancer</p>
+<p>Cancer</p>
+<p>Cold & flu</p>
+<p>Dental</p>
+<p>Depression</p>
+<p>Diabetes</p>
+<p>Heart disease</p>
+<p>Kids’ health</p>
+<p>Men’s health</p>
+<p>Mental health</p>
+<p>Women’s health</p>
+<p>Fitness</p>
+<p>Exercise</p>
+<p>Family fitness challenge </p>
+<p>Food</p>
+<p>Recipes & cooking</p>
+<p>Diet & nutrition</p>
+<p>Safety </p>
+<p>Family</p>
+<p>Babies</p>
+<p>Daycare</p>
+<p>Pregnancy</p>
+<p>Special needs</p>
+<p>Teens & young adults</p>
+<p>Relationships</p>
+<p>Dating</p>
+<p>Marriage</p>
+<p>Mind & Soul</p>
+<p>Doing Good</p>
+<p>Spirituality</p>
+<p>Education</p>
+<p>Health Care</p>
+<p>Hospitals</p>
+<p>Government</p>
+<p>Doctors & nurses</p>
+<p>Pets</p>
+<p>Cats</p>
+<p>Dogs</p>
+<p>Home  |  </p>
+<p>News  |  </p>
+<p>Travel  |  </p>
+<p>Money  |  </p>
+<p>Sport  |  </p>
+<p>Life  |</p>
+<p>Your Life  |</p>
+<p>Tech  |</p>
+<p>Weather   </p>
+<p>Visit our Partners: </p>
+<p>USA WEEKEND |  </p>
+<p>USA TODAY LIVE  |  </p>
+<p>Sports Weekly  |  </p>
+<p>Education  |  </p>
+<p>Space.com  |  </p>
+<p>Travel Tips  </p>
+<p>Contact us  |  </p>
+<p>Advertise  |  </p>
+<p>Pressroom  |  </p>
+<p>Developer  | </p>
+<p>Media Lounge  |  </p>
+<p>Jobs |  </p>
+<p>FAQ |  </p>
+<p>Reprints/Permissions |</p>
+<p>Privacy Notice/Your California Privacy Rights   |</p>
+<p>Ad Choices    |</p>
+<p>Terms of Service    |</p>
+<p>Site Index  </p>
+<p>2012 USA Today, a division of Gannett Co. Inc.</p>
+<p> </p>
+<p>jQuery(document).ready(function(){</p>
+<p>usatAuth.initialSetup(); // initialize UAS</p>
+<p>});</p>
+<p>var addthis_config = </p>
+<p>{ </p>
+<p>username: 'usatshare',</p>
+<p>data_track_clickback: false,</p>
+<p>services_expanded: 'digg,email,facebook,fark,gmail,googlebuzz,linkedin,mixx,posterous,reddit,stumbleupon,tumblr,twitter,buzz',</p>
+<p>services_compact: 'digg,email,facebook,fark,gmail,googlebuzz,linkedin,mixx,posterous,reddit,stumbleupon,tumblr,twitter,buzz'</p>
+<p>};</p>
+<p>var addthis_share = </p>
+<p>{</p>
+<p>templates: {</p>
+<p>twitter: '{{title}} {{url}} via @USATODAY'</p>
+<p>},</p>
+<p>url_transforms : { </p>
+<p>shorten: {</p>
+<p>twitter: 'bitly'</p>
+<p>}</p>
+<p>},</p>
+<p>shorteners : {</p>
+<p>bitly : {</p>
+<p>login: 'usatoday',</p>
+<p>apiKey: 'R_fa9e62b61f9dc04aa65ea7c615e5d4f0' </p>
+<p>}</p>
+<p>}</p>
+<p>};</p>
+<p>jQuery(window).load(function(){</p>
+<p>    usatAuth.flashTag = new Array("adPoster","adPoster2");// Hide flash ads when UAS dialogs appear</p>
+<p>});</p>

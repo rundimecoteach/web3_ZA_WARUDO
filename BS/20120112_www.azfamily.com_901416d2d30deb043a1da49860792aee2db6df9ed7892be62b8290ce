@@ -1,0 +1,978 @@
+<p>                            Body Beautiful Day Spa - hCG Diet Facts to Know | </p>
+<p>                azfamily.com Phoenix    </p>
+<p> </p>
+<p>!window.jQuery && document.write('<script src="http://www.azfamily.com/includes/jquery-1.4.2.min.js"><\/script>')</p>
+<p>if(typeof beloadcode == "undefined"){</p>
+<p>		beloadcode = {</p>
+<p>		ordId: Math.floor(Math.random()*1000000),</p>
+<p>		zoneName:"/on-tv/your-life",</p>
+<p>		dartSite:"belo.azfamily",</p>
+<p>		pageType:""</p>
+<p>		};</p>
+<p>	}</p>
+<p>if(typeof(OAS_sitepage) == "undefined"){</p>
+<p>	OAS_sitepage = "www.azfamily.com/";</p>
+<p>	}</p>
+<p>function videopopitup(url) {</p>
+<p>	videowindow=window.open(url,'name','height=376,width=778','toolbar = 0','location=1','status=0','scrollbars=0');</p>
+<p>	if (window.focus) {videowindow.focus()}</p>
+<p>	return false;</p>
+<p>}</p>
+<p>var belo_tracking_sitepage = "www.azfamily.com/on-tv/your-life";</p>
+<p>var _sf_startpt=(new Date()).getTime();</p>
+<p>  window.fbAsyncInit = function() {</p>
+<p>    FB.init({appId: '202572753169622', status: true, cookie: true,oauth : true, channelUrl :"http://www.azfamily.com/home/facebook-channel",</p>
+<p>             xfbml: true});</p>
+<p>  };</p>
+<p>  (function() {</p>
+<p>    var e = document.createElement('script'); e.async = true;</p>
+<p>    e.src = document.location.protocol +</p>
+<p>      '//connect.facebook.net/en_US/all.js';</p>
+<p>    document.getElementById('fb-root').appendChild(e);</p>
+<p>  }());</p>
+<p>Skip Navigation.</p>
+<p>Jump to Side Bar.</p>
+<p> Return to the homepage</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.azfamily"+ beloadcode.zoneName + ";dcopt=ist;sz=728x90;tile=1;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.azfamily'+beloadcode.zoneName+';dcopt=ist;sz=728x90;tile=1;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.azfamily'+beloadcode.zoneName+';dcopt=ist;sz=728x90;tile=1;pagetype=story;ord='+beloadcode.ordId+'?" width="728" height="90"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p>Search</p>
+<p>Phoenix, AZ</p>
+<p>Monsoon 2011</p>
+<p>5 Day</p>
+<p>Live Radar</p>
+<p>47°</p>
+<p>Mostly Cloudy</p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Weather</p>
+<p>Traffic</p>
+<p>Sports</p>
+<p>Video</p>
+<p>Events</p>
+<p>Community</p>
+<p>Entertainment</p>
+<p>YouNews</p>
+<p>Good Morning</p>
+<p>Your Life</p>
+<p>3TV</p>
+<p>CW6</p>
+<p>Login</p>
+<p>TV Schedule</p>
+<p>News Links</p>
+<p>Contact Us</p>
+<p>Employment</p>
+<p>FAQ</p>
+<p>Bios</p>
+<p>Your Life A-Z</p>
+<p>Marketplace</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.azfamily"+ beloadcode.zoneName + ";sz=980x30;tile=3;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.azfamily'+beloadcode.zoneName+';sz=980x30;tile=3;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.azfamily'+beloadcode.zoneName+';sz=980x30;tile=3;pagetype=story;ord='+beloadcode.ordId+'?" width="980" height="30"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.azfamily"+ beloadcode.zoneName + ";sz=160x600;tile=4;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.azfamily'+beloadcode.zoneName+';sz=160x600;tile=4;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.azfamily'+beloadcode.zoneName+';sz=160x600;tile=4;pagetype=story;ord='+beloadcode.ordId+'?" width="160" height="600"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p>/* 160 widget styles */</p>
+<p>.linktown-container-160 { width: 160px; background: transparent url('http://media.azfamily.com/designimages/sky_bg.gif') top right no-repeat; }</p>
+<p>.linktown-container-160 .linktown-logo { padding: 5px 0 45px 3px; border: 0; }</p>
+<p>.linktown-container-160 form { margin: 0 5px; padding: 5px 0 2px 0; height: 40px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }</p>
+<p>.linktown-container-160 input { margin: 0 3px 5px 0; padding: 0; color: #767676; font-size: 10px; font-family: Arial, Helvetica, sans-serif; font-style: italic; background-color: #f1f1f1; border: 1px solid #bebebe; width: 78px; float: left; }</p>
+<p>.linktown-container-160 label { margin: 0; padding: 0; display: block; float: left; width: 48px; color: #333; font-size: 10px; font-family: Arial, Helvetica, sans-serif; }</p>
+<p>.linktown-container-160 .linktown-search { border: 0; margin: 0; padding: 0; float: left; position: relative; top: -2px; }</p>
+<p>.linktown-container-160 div { padding: 5px 0 5px 25px; }</p>
+<p>.linktown-container-160 span { display: block; }</p>
+<p>.linktown-container-160 span a { font-size: 12px; }</p>
+<p>.linktown-container-160 p { margin: 0; padding: 0 5px 5px 0; text-align: right; }</p>
+<p>.linktown-container-160 p a:link { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #353535; text-decoration: none; }</p>
+<p>.linktown-container-160 p a:visited { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #353535; text-decoration: none; }</p>
+<p>.linktown-container-160 p a:hover { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #353535; text-decoration: none; }</p>
+<p>.linktown-container-160 p a:active { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #353535; text-decoration: none; }</p>
+<p>Business:</p>
+<p>Location:</p>
+<p>Auto Dealers</p>
+<p>Auto Repair</p>
+<p>Bar</p>
+<p>Carpet Cleaning</p>
+<p>Child Care</p>
+<p>Chocolate</p>
+<p>Coffee</p>
+<p>Dentist</p>
+<p>Doctor</p>
+<p>Florists</p>
+<p>Furniture</p>
+<p>Golf Course</p>
+<p>Gym</p>
+<p>Hair Salon</p>
+<p>Hotels</p>
+<p>Insurance</p>
+<p>Jewelry</p>
+<p>Landscaping</p>
+<p>Locksmith</p>
+<p>Movers</p>
+<p>Pizza</p>
+<p>Plumbing</p>
+<p>Realtor</p>
+<p>Remodeling</p>
+<p>Storage</p>
+<p>Browse all »</p>
+<p>by MojoPages</p>
+<p>Your Life A-Z</p>
+<p>Print</p>
+<p>print</p>
+<p>Email</p>
+<p>var trkcid=137130393;var partnerID=559202; var _hb=1;</p>
+<p>Email this article</p>
+<p>Share</p>
+<p>var trkcid=137130393;var partnerID=559202; var _hb=1;</p>
+<p>Tweet</p>
+<p>Facebook</p>
+<p>Share</p>
+<p>Share!</p>
+<p>X</p>
+<p>Digg</p>
+<p>Delicious</p>
+<p>MySpace</p>
+<p>LinkedIn</p>
+<p>StumbleUpon</p>
+<p>Newsvine</p>
+<p>Reddit    </p>
+<p>			Body Beautiful Day Spa - hCG Diet Facts to Know</p>
+<p>	</p>
+<p>              Body Beautiful Day Spa - hCG Diet Facts to Know</p>
+<p>              </p>
+<p>by Lloyd Dickson</p>
+<p>azfamily.com</p>
+<p>Posted on January 11, 2012 at 5:35 PM</p>
+<p>				Updated</p>
+<p>				yesterday at 5:45 PM</p>
+<p>		</p>
+<p>Related:</p>
+<p>Body Beautiful Day Spaadd to reading list</p>
+<p>Map: Body Beautiful Day Spa</p>
+<p>33.5019137</p>
+<p>-112.0300034</p>
+<p>			//<![CDATA[</p>
+<p>									            var map =  new GMap2(document.getElementById("googleMap1"),{size:new GSize (210, 210)});</p>
+<p>            map.addControl(new GSmallMapControl());</p>
+<p>                    						 	map.addMapType(G_PHYSICAL_MAP);			map.setCenter(new GLatLng(33.5019137, -112.0300034), 11);</p>
+<p>																var marker1 = new GMarker(new GPoint(-112.0300034, 33.5019137));</p>
+<p>					map.addOverlay(marker1);</p>
+<p>															//]]></p>
+<p>		</p>
+<p>View larger map</p>
+<p>Lose up to 30 pounds in 30 days for only $325 with HCG Diet Medical Grade Prescription Drops or HCG Shots with 30 days of injections for only $475! If you are committed to losing weight and stick to the 		hCG Diet program, you can lose an amazing amount of weight in a very short period of time.</p>
+<p>The hCG Diet 		has gained popularity as the cure for people struggling to lose weight. It’s been called “The Weight Loss Cure”.  The hCG Weight Loss Diet is touted by medical professionals as a major breakthrough that produces dramatic results without harmful side effects. The hCG Diet all natural weight loss program is helping people lose up to a pound per day, with many losing over 30 pounds each month! The hCG Weight Loss Diet helps you lose fat in stubborn areas like hips and stomach, allowing you to both achieve rapid weight loss and realize an improved body shape during and after treatment.</p>
+<p>Win an Anti-Aging Makeover Worth Up To $10,000!</p>
+<p>The 		“Brand New, Younger Looking You” Anti-Aging Makeover Contest 		sponsored by Body Beautiful Day Spa in Phoenix | Scottsdale is featured on AZ Family Channel 3. One lucky winner will receive:</p>
+<p>A personalized package of anti-aging Laser Skin Tightening</p>
+<p>eMatrix Collagen Regeneration</p>
+<p>Botox</p>
+<p>Juvederm</p>
+<p>and lots of other products and services!</p>
+<p>These treatments will take ten or more years off your face by both reducing wrinkles and improving skin tone.</p>
+<p>To enter, simply go to our 		online entry form, upload a current photo, and tell us in 500 words or less why you should win.  Hurry, the contest ends January 28, 2012!</p>
+<p>Is the hCG Diet Right for You?</p>
+<p>What is hCG Weight Loss Diet?</p>
+<p>hCG is a hormone produced by the placenta during pregnancy. During pregnancy, the substance almost completely controls the woman’s metabolic functions. Generally, the hCG used in the diet protocols, is synthetic.</p>
+<p>How much weight will I lose with the hCG Weight Loss Diet?</p>
+<p>This all natural weight loss program is helping people lose up to a pound per day, with many losing over 30 pounds each month! Factors that guarantee faster weight loss include increasing fresh vegetable intake and keeping hydrated by drinking lots of water.</p>
+<p>What preparations are required for hCG Weight Loss shots?</p>
+<p>Prior to treatment, our physician will require current CBC, CMP, and TSH blood tests. If you do not have current blood work, our lab accepts most insurance and will provide the series at discounted $60 (includes $10 for the blood draw) for our clients.</p>
+<p>Is it healthy to lose 1 to 2 pounds a day with hCG Weight Loss Diet?</p>
+<p>hCG Weight Loss Diet studies have shown that weight lost following the Simeons protocol comes directly from adipose fat tissue rather than lean muscle. This means that the weight lost comes directly from fat. The hCG Diet does not strip the body of much needed muscle, vitamins or minerals essential to maintain good health. hCG Weight Loss dieters report a feeling and appearance of great health and marvel at the loss of negative health risks they had as an overweight individual.</p>
+<p>Why the 500 calorie diet – VLCD (very low calorie diet )?</p>
+<p>hCG Weight Loss Diet shots cause your hypothalamus to mobilize the fat out of the fat storage locations so that it’s available for use. While you are only consuming 500 calories, your hypothalamus is continually releasing the fat stored in your body. Because of this, your body is actually operating on thousands of calories a day. The result is your body using thousands of calories of fat from your body each day, the reason HCG Weight Loss dieters lose 1 to 2 lbs of fat or more, per day.</p>
+<p>Will I be hungry on 500 calories a day?</p>
+<p>It is common for mild hunger during the first few days, however this will pass and by the 2nd week, you will find even very tiny servings, to be completely satisfying. This is partly due to your hypothalamus adjusting your metabolic rate, but largely due to the amount of calories circulating in your system from the fat being released. It is common that Hormone dieters feel as though they are stuffing themselves in order to reach that 500 calorie limit!</p>
+<p>Who is a candidate for hCG Weight Loss Diet Shots?</p>
+<p>The majority of men and women can use hCG Weight Loss Diet injections for weight loss. Those who are pregnant, planning on becoming pregnant, nursing, or who have ever had any hormone-related cancer are not good candidates.</p>
+<p>How about safety and side effects of hCG Weight Loss Shots?</p>
+<p>There are rarely side effects reported while using hCG Weight Loss Diet shots (injections), or oral hCG drops for weight loss. When the hCG hormone shots (injections) are used for fertility reasons, the larger amount is known to cause occasional headaches, and pregnancy symptoms. However, the amount differences between the hCG Weight Loss Diet protocol and hCG Hormone used for fertility purposes is significantly different in quantity.</p>
+<p>Will I gain the weight back after the HCG Weight Loss Diet?</p>
+<p>After the hCG Weight Loss Diet, you will find your appetite has changed, your eating behavior will be changed and your body will of course, have changed. This is the perfect opportunity to adopt that healthy lifestyle to maintain your weight. You will find a minimum amount of exercise will be sufficient for maintaining a very healthy body- from yoga, to 15 minutes of cardio a day, or whatever you enjoy, that gets your heart moving. With your hypothalamus reset, your metabolism will be different and you will be able to eat moderately without feeling the need to overeat.</p>
+<p>What is the hypothalamus gland?</p>
+<p>The hypothalamus gland moderates the thyroid, adrenals, fat storage, and more importantly, your metabolic rate.</p>
+<p>Is hCG Weight Loss Diet safe for men?</p>
+<p>The HCG Weight Loss Diet used for the Hormone weight loss protocol is actually already found in men. In fact, it is present in every human tissue, including males and non-pregnant women as well as pregnant.</p>
+<p>More About Us</p>
+<p>You can learn more about our hCG Diet options on our website. If you are not sure which weight loss program is best for you, contact us today at 602-522-9222 to schedule a free consultation. Our weight loss experts will help custom-design a weight loss program for your specific needs.</p>
+<p>Body Beautiful Day Spa in Phoenix, Arizona provides 		 affordable luxury day and medical spa services, including cosmetic BOTOX for wrinkle reduction, dermal fillers Juvederm and Radiesse, as well as other anti-aging services at a competitive price.</p>
+<p>Body Beautiful is conveniently located near the Biltmore in the Phoenix – Scottsdale area in Arizona.  We’re easy to get to from Tempe, Glendale, and Peoria, too. Conveniently located just south of the Biltmore Resort near the Royal Palms resort, provides affordable luxury, resort quality day spa and medical spa services. Whether you’re a permanent Arizona resident or visiting a resort in the Phoenix – Scottsdale area, you’ll get the best value on resort quality services at Body Beautiful Day Spa. Get notified of Body Beautiful Day Spa’s latest specials and newest services through our 		newsletter!</p>
+<p>Get spa and resort quality massage, facial, microdermabrasion, and manicure / pedicure services at an affordable luxury price with a 		Wellness Membership 		at Body Beautiful Day Spa.</p>
+<p>Print</p>
+<p>print</p>
+<p>Email</p>
+<p>var trkcid=137130393;var partnerID=559202; var _hb=1;</p>
+<p>Email this article</p>
+<p>Share</p>
+<p>var trkcid=137130393;var partnerID=559202; var _hb=1;</p>
+<p>Tweet</p>
+<p>Facebook</p>
+<p>Share</p>
+<p>Share!</p>
+<p>X</p>
+<p>Digg</p>
+<p>Delicious</p>
+<p>MySpace</p>
+<p>LinkedIn</p>
+<p>StumbleUpon</p>
+<p>Newsvine</p>
+<p>Reddit    </p>
+<p>Previous article </p>
+<p>									Your Life A to Z with host Lisa Haffner</p>
+<p>								</p>
+<p>Next article </p>
+<p>									The Skin and Makeup Institute of Arizona</p>
+<p>								</p>
+<p>  </p>
+<p> </p>
+<p>Sign Out</p>
+<p>Profile</p>
+<p>Mobile</p>
+<p>RSS Feeds</p>
+<p>Special Offers</p>
+<p>Newsletters</p>
+<p>Twitter</p>
+<p>Facebook</p>
+<p>Online Radio</p>
+<p>Real Estate</p>
+<p>Submit Pics</p>
+<p>				beloadcode.adsource = "http://ad.doubleclick.net/adj/belo.azfamily"+ beloadcode.zoneName + ";sz=300x250;tile=7;pagetype=story;ord="+ beloadcode.ordId + "?";</p>
+<p>				document.write('<script src="'+beloadcode.adsource+'" ><\/script>')</p>
+<p>				</p>
+<p>				<!--</p>
+<p>				if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf('WebTV') >= 0)) {</p>
+<p>					document.write('<a href="http://ad.doubleclick.net/jump/belo.azfamily'+beloadcode.zoneName+';sz=300x250;tile=7;pagetype=story;ord='+beloadcode.ordId+'?"><img src="http://ad.doubleclick.net/adj/belo.azfamily'+beloadcode.zoneName+';sz=300x250;tile=7;pagetype=story;ord='+beloadcode.ordId+'?" width="300" height="250"  border="0" /></a>');	</p>
+<p>				}</p>
+<p>				//--></p>
+<p>				</p>
+<p>Your Life A-Z Video</p>
+<p>Body Beautiful Day Spaadd to reading list</p>
+<p>  </p>
+<p>What's New In 2012 Beauty Productsadd to reading list</p>
+<p>  </p>
+<p>Eastern Medicine Centeradd to reading list</p>
+<p>Mesa Market Place Swap Meetadd to reading list</p>
+<p>  </p>
+<p>Water - Use It Wiselyadd to reading list</p>
+<p>  </p>
+<p>More Videos | More Your Life A-Z Videos</p>
+<p>Most Popular</p>
+<p>Most Viewed</p>
+<p>Most Emailed</p>
+<p>Body Beautiful Day Spa</p>
+<p>Pain Management</p>
+<p>Senior Living Community</p>
+<p>What's New In 2012 Beauty Products</p>
+<p>Cancer Treatment Centers of America</p>
+<p>Brussels Sprout Salad with Bacon, Pecorino Romano & Candied Pecans</p>
+<p>Mole Poblano</p>
+<p>More>></p>
+<p> </p>
+<p>Home</p>
+<p>News</p>
+<p>Weather</p>
+<p>Traffic</p>
+<p>Sports</p>
+<p>Video</p>
+<p>Events</p>
+<p>Community</p>
+<p>Entertainment</p>
+<p>YouNews</p>
+<p>Good Morning</p>
+<p>Your Life</p>
+<p>3TV</p>
+<p>CW6</p>
+<p>			azfamily.com</p>
+<p>		</p>
+<p>602-207-3333 (phone)  602-207-3477 (fax) feedback@azfamily.com </p>
+<p>Search</p>
+<p>Contact Us</p>
+<p>Employment</p>
+<p>Advertising</p>
+<p>Terms Of Service</p>
+<p> Privacy Policy</p>
+<p>© 2009-2012 KTVK, Inc., a subsidiary of Belo Corp. All Rights Reserved.</p>
+<p>Powered by Broadcast Interactive Media.</p>
+<p>var js="0.0";js="1.0";js="1.1";js="1.2";js="1.3";js="1.4";js="1.5";js="1.6";js="1.7";js="1.8";js="1.9"; </p>
+<p><!-- </p>
+<p>var bb=new Image();var _ti=910;var _q="";var na=(navigator.appName=="Netscape");var ns=(navigator.appName.substring(0,9)=="Microsoft");var _qDate=new Date();var _r=(document.referrer.indexOf(getdomain(location))>-1?"":document.referrer);_q+="&5="+parseInt(_qDate.getTimezoneOffset());_q+="&35="+parseInt(_qDate.toString().indexOf("aylight")>-1?1:0);_q+="&6=137130393";_q+="&7=559202";_q+="&8="+encodeURIComponent(document.location);_q+="&9="+encodeURIComponent(_r);_q+="&10="+encodeURIComponent(document.title);_q+="&11="+encodeURIComponent(navigator.userAgent);_q+="&12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&13="+((navigator.javaEnabled()?'1':'0'));_q+="&14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&18="+encodeURIComponent(Math.random());_q+="&19="+_ti;bb.src="http://s.clickability.com/s?"+_q;</p>
+<p>function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}</p>
+<p>function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i<sze; i++){if(document.links[i].onclick){lnks.li[i]=document.links[i];lnks.li[i].oldonclick=document.links[i].onclick;}eval("document.links[i].onclick=function(){return setonclicks(this,lnks);}");}}function bye(a){if(a.href.toLowerCase().indexOf('http')!=0)return true;if(getdomain(location)==getdomain(a))return true;if(a.href.toLowerCase().indexOf('http')!=0)return true;var _qc="http://s.clickability.com/s?19=912";_qc+="&6=137130393";_qc+="&7=559202";_qc+="&18="+encodeURIComponent(Math.random());_qc+="&100="+a.href;_qc+="&101="+encodeURIComponent(a.text);var cc=new Image();if(na){cc.src=_qc;pc(100);}else cc.src=_qc;return true;}function pc(a){d = new Date(); while (1){m =new Date(); df = m-d;if( df > a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i>=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup && ((window.screen)||((new Array()).toSource)||((new Array()).shift&&ns))&&(navigator.userAgent.indexOf('Mac')<0)){if(window.onload){oldonld=window.onload;hasonload=true;}window.onload=newonld;var setupalready = true;}//--></p>
+<p>_qoptions={</p>
+<p>qacct:"p-9a3CzpxOy4iiQ"</p>
+<p>};</p>
+<p> </p>
+<p>_qoptions = { tags:"broadcast.phoenix" }; _qacct="p-f3by407IY9_LE";quantserve();</p>
+<p> if(_gaq === undefined){ var _gaq = _gaq || []; }</p>
+<p>  _gaq.push(['_setAccount', 'UA-437454-13']);</p>
+<p>  _gaq.push(['_trackPageview']);</p>
+<p>  (function() {</p>
+<p>    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p>    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p>    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p>  })();</p>
+<p>Username or e-mail address</p>
+<p>Password</p>
+<p>Remember Me</p>
+<p>Forgot Password?</p>
+<p>Sign in with Facebook</p>
+<p>Sign in with Twitter</p>
+<p>Don't have an account?</p>
+<p>Register Now</p>
+<p>Member Benefits</p>
+<p>Link your account to your Twitter or Facebook account for easier login!</p>
+<p>Link your account to your Facebook profile</p>
+<p>Link your account to your Twitter profile</p>
+<p>Register on azfamily.com</p>
+<p>Connect with Facebook</p>
+<p>Connect with Twitter</p>
+<p>*Choose a username(5 character minimum):</p>
+<p>*E-mail address:</p>
+<p>*Confirm e-mail address:</p>
+<p>*Choose a password (6 character minimum):</p>
+<p>*Confirm password (6 character minimum):</p>
+<p>*Zip Code: </p>
+<p>Select your birthyear</p>
+<p>2011</p>
+<p>2010</p>
+<p>2009</p>
+<p>2008</p>
+<p>2007</p>
+<p>2006</p>
+<p>2005</p>
+<p>2004</p>
+<p>2003</p>
+<p>2002</p>
+<p>2001</p>
+<p>2000</p>
+<p>1999</p>
+<p>1998</p>
+<p>1997</p>
+<p>1996</p>
+<p>1995</p>
+<p>1994</p>
+<p>1993</p>
+<p>1992</p>
+<p>1991</p>
+<p>1990</p>
+<p>1989</p>
+<p>1988</p>
+<p>1987</p>
+<p>1986</p>
+<p>1985</p>
+<p>1984</p>
+<p>1983</p>
+<p>1982</p>
+<p>1981</p>
+<p>1980</p>
+<p>1979</p>
+<p>1978</p>
+<p>1977</p>
+<p>1976</p>
+<p>1975</p>
+<p>1974</p>
+<p>1973</p>
+<p>1972</p>
+<p>1971</p>
+<p>1970</p>
+<p>1969</p>
+<p>1968</p>
+<p>1967</p>
+<p>1966</p>
+<p>1965</p>
+<p>1964</p>
+<p>1963</p>
+<p>1962</p>
+<p>1961</p>
+<p>1960</p>
+<p>1959</p>
+<p>1958</p>
+<p>1957</p>
+<p>1956</p>
+<p>1955</p>
+<p>1954</p>
+<p>1953</p>
+<p>1952</p>
+<p>1951</p>
+<p>1950</p>
+<p>1949</p>
+<p>1948</p>
+<p>1947</p>
+<p>1946</p>
+<p>1945</p>
+<p>1944</p>
+<p>1943</p>
+<p>1942</p>
+<p>1941</p>
+<p>1940</p>
+<p>1939</p>
+<p>1938</p>
+<p>1937</p>
+<p>1936</p>
+<p>1935</p>
+<p>1934</p>
+<p>1933</p>
+<p>1932</p>
+<p>1931</p>
+<p>1930</p>
+<p>1929</p>
+<p>1928</p>
+<p>1927</p>
+<p>1926</p>
+<p>1925</p>
+<p>1924</p>
+<p>1923</p>
+<p>1922</p>
+<p>1921</p>
+<p>1920</p>
+<p>1919</p>
+<p>1918</p>
+<p>1917</p>
+<p>1916</p>
+<p>1915</p>
+<p>1914</p>
+<p>1913</p>
+<p>1912</p>
+<p>1911</p>
+<p>1910</p>
+<p>1909</p>
+<p>1908</p>
+<p>1907</p>
+<p>1906</p>
+<p>1905</p>
+<p>1904</p>
+<p>1903</p>
+<p>1902</p>
+<p>1901</p>
+<p>1900</p>
+<p>1899</p>
+<p>1898</p>
+<p>1897</p>
+<p>1896</p>
+<p>1895</p>
+<p>1894</p>
+<p>1893</p>
+<p>1892</p>
+<p>1891</p>
+<p>1890</p>
+<p>1889</p>
+<p>1888</p>
+<p>1887</p>
+<p>Check box to receive Free Special Offers</p>
+<p>Yes! Please send me exclusive discounts and special offers from retailers and businesses.</p>
+<p>* - Indicates required field</p>
+<p>*Choose a username (5 character minimum):</p>
+<p>*Choose a password(5 character minimum):</p>
+<p>*Confirm password (5 character minimum):</p>
+<p>*E-mail address:</p>
+<p>*Zipcode: </p>
+<p>Select your birthyear</p>
+<p>2011</p>
+<p>2010</p>
+<p>2009</p>
+<p>2008</p>
+<p>2007</p>
+<p>2006</p>
+<p>2005</p>
+<p>2004</p>
+<p>2003</p>
+<p>2002</p>
+<p>2001</p>
+<p>2000</p>
+<p>1999</p>
+<p>1998</p>
+<p>1997</p>
+<p>1996</p>
+<p>1995</p>
+<p>1994</p>
+<p>1993</p>
+<p>1992</p>
+<p>1991</p>
+<p>1990</p>
+<p>1989</p>
+<p>1988</p>
+<p>1987</p>
+<p>1986</p>
+<p>1985</p>
+<p>1984</p>
+<p>1983</p>
+<p>1982</p>
+<p>1981</p>
+<p>1980</p>
+<p>1979</p>
+<p>1978</p>
+<p>1977</p>
+<p>1976</p>
+<p>1975</p>
+<p>1974</p>
+<p>1973</p>
+<p>1972</p>
+<p>1971</p>
+<p>1970</p>
+<p>1969</p>
+<p>1968</p>
+<p>1967</p>
+<p>1966</p>
+<p>1965</p>
+<p>1964</p>
+<p>1963</p>
+<p>1962</p>
+<p>1961</p>
+<p>1960</p>
+<p>1959</p>
+<p>1958</p>
+<p>1957</p>
+<p>1956</p>
+<p>1955</p>
+<p>1954</p>
+<p>1953</p>
+<p>1952</p>
+<p>1951</p>
+<p>1950</p>
+<p>1949</p>
+<p>1948</p>
+<p>1947</p>
+<p>1946</p>
+<p>1945</p>
+<p>1944</p>
+<p>1943</p>
+<p>1942</p>
+<p>1941</p>
+<p>1940</p>
+<p>1939</p>
+<p>1938</p>
+<p>1937</p>
+<p>1936</p>
+<p>1935</p>
+<p>1934</p>
+<p>1933</p>
+<p>1932</p>
+<p>1931</p>
+<p>1930</p>
+<p>1929</p>
+<p>1928</p>
+<p>1927</p>
+<p>1926</p>
+<p>1925</p>
+<p>1924</p>
+<p>1923</p>
+<p>1922</p>
+<p>1921</p>
+<p>1920</p>
+<p>1919</p>
+<p>1918</p>
+<p>1917</p>
+<p>1916</p>
+<p>1915</p>
+<p>1914</p>
+<p>1913</p>
+<p>1912</p>
+<p>1911</p>
+<p>1910</p>
+<p>1909</p>
+<p>1908</p>
+<p>1907</p>
+<p>1906</p>
+<p>1905</p>
+<p>1904</p>
+<p>1903</p>
+<p>1902</p>
+<p>1901</p>
+<p>1900</p>
+<p>1899</p>
+<p>1898</p>
+<p>1897</p>
+<p>1896</p>
+<p>1895</p>
+<p>1894</p>
+<p>1893</p>
+<p>1892</p>
+<p>1891</p>
+<p>1890</p>
+<p>1889</p>
+<p>1888</p>
+<p>1887</p>
+<p>Check box to receive Free Special Offers</p>
+<p>Yes! Please send me exclusive discounts and special offers from retailers and businesses.</p>
+<p>Privacy Policy | </p>
+<p>Terms of Service</p>
+<p>Connecting to </p>
+<p>You may need to allow pop up window for this step of registration</p>
+<p>Just one more step:</p>
+<p>Please take a moment to review the available e-mail newsletters has to offer. Place a checkbox next to the newsletters you wish to subscribe to.</p>
+<p> azfamily.com Daily News Email</p>
+<p> azfamily.com Breaking News</p>
+<p> azfamily.com Daily Sports Email</p>
+<p> azfamily.com Breaking Sports</p>
+<p> azfamily.com This Week's Recipes</p>
+<p> azfamily.com Daily Health Email</p>
+<p> azfamily.com Pets</p>
+<p> azfamily.com Education</p>
+<p> azfamily.com Today in History</p>
+<p> azfamily.com Daily Entertainment Email</p>
+<p> azfamily.com Music</p>
+<p> azfamily.com Events and Concerts</p>
+<p> azfamily.com Only on 3TV</p>
+<p>Welcome.</p>
+<p>			Thank you for becoming a member of azfamily.com. You now have full access to the best local coverage and late breaking news from azfamily.com. Soon you will be redirected to the page you were seeking, and a confirmation email will be delivered to you. </p>
+<p>			</p>
+<p>You will need to respond to the confirmation e-mail for your account to be activated.</p>
+<p>azfamily.com is dedicated to bringing you exceptional news and outstanding information services, all while personalizing it to your liking. We're sure you'll enjoy being a azfamily.com member! If you need assistance, please contact us.</p>
+<p>(function(){</p>
+<p>		var regOptions = {</p>
+<p>		emailchangeurl: "/register?form=confirm"			</p>
+<p>	}</p>
+<p>	 	</p>
+<p>				</p>
+<p>	bimreg.init("83ae195725071fce346487f4e307ddfc8ac1f677",regOptions);</p>
+<p>})();</p>
+<p>var	ajaxImgObj = 'http://media.azfamily.com/designimages/belo-ajax-loader.gif';</p>
+<p>$(document).ready(function() {</p>
+<p>	$("#regModal").dialog({ </p>
+<p>		position: 'top',</p>
+<p>    	autoOpen: false,</p>
+<p>    	modal: true,</p>
+<p>    	width:"640px"</p>
+<p>    });</p>
+<p>});</p>
+<p>function belologout() {</p>
+<p>	bimreg.logout();</p>
+<p>};  </p>
+<p>function regAuthEvents() {</p>
+<p>	beloregCount();</p>
+<p>	};</p>
+<p>bimreg.listener.addListener("regAuth",regAuthEvents);</p>
+<p>bimreg.listener.addListener("regAuthNoUser",belologoutFromNav);  </p>
+<p>function userloginEvents(event){</p>
+<p>	belologinFromNav();</p>
+<p>			userNameErrorCheck();</p>
+<p>		createIMGCookie();</p>
+<p>	initRedirect();</p>
+<p>		};</p>
+<p>bimreg.listener.addListener("userLogin",userloginEvents);</p>
+<p>function beloregCount() {</p>
+<p>		if(!BELOJS.reg.optout.get()) {</p>
+<p>		if(bimreg.loggedin) {</p>
+<p>			if(bimreg.getuserkey("BELO_additional_registration") == "") {</p>
+<p>				if(BELOJS.reg.pagecount.get() > 3) {</p>
+<p>					BELOJS.reg.pagecount.reset();</p>
+<p>					window.location = "/register/?form=int&docReferrer=http://www.azfamily.com/on-tv/your-life/Body-Beautiful-Day-Spa---hCG-Diet-Facts-to-Know-137130393.html";</p>
+<p>				}</p>
+<p>			}</p>
+<p>		} else {</p>
+<p>			if(BELOJS.reg.pagecount.get() > 5) {</p>
+<p>				BELOJS.reg.pagecount.reset();</p>
+<p>				window.location = "/register/?form=signup&docReferrer=http://www.azfamily.com/on-tv/your-life/Body-Beautiful-Day-Spa---hCG-Diet-Facts-to-Know-137130393.html";</p>
+<p>			}</p>
+<p>		}</p>
+<p>	}</p>
+<p>};  </p>
+<p>function initRedirect() {</p>
+<p>			}</p>
+<p>	</p>
+<p>function createIMGCookie() {</p>
+<p>	var zipcode = bimreg.getuserkey("zip_code");</p>
+<p>	if(typeof(zipcode) == "undefined") zipcode = "";</p>
+<p>	var firstname = bimreg.getuserkey("first_name");</p>
+<p>	if(typeof(firstname) == "undefined") firstname = "";</p>
+<p>	genus.setcookie("IMG","|"+firstname+"|"+zipcode+"||");	</p>
+<p>}</p>
+<p>        </p>
+<p>function userNameErrorCheck() {</p>
+<p>	if ( bimreg.getuserkey("email").replace(/\W/g,"") === bimreg.getuserkey("username").replace(/\W/g,"") ) {</p>
+<p>		var failedName = bimreg.getuserkey("username");  </p>
+<p>		var forcedUpdateName = failedName.replace(/@.*/,"").replace(/\W/g,"");</p>
+<p>		var currentTime = new Date();</p>
+<p>		var seconds = currentTime.getTime();</p>
+<p>		var secString = seconds+'';</p>
+<p>		var digits = secString.length + forcedUpdateName.length - 16;</p>
+<p>		if (digits > 0) {</p>
+<p>			seconds = secString.substring(digits,secString.length);</p>
+<p>		}</p>
+<p>		username = forcedUpdateName + seconds;</p>
+<p>		//update user</p>
+<p>		bimreg.updateprofile({username:username});</p>
+<p>		</p>
+<p>		if ( document.URL.indexOf('form=login') > -1 ) {</p>
+<p>			window.location.replace("/register/?form=user");</p>
+<p>		} else {</p>
+<p>			window.location = "/register/?form=user";</p>
+<p>		}</p>
+<p>	}</p>
+<p>}</p>
+<p>        </p>
+<p>function checkLoginReferrer() {</p>
+<p>	if(referrer) {</p>
+<p>		genus.setcookie("BIMREG_signup_referrer","");</p>
+<p>		window.location = referrer;</p>
+<p>	} else {</p>
+<p>		try {</p>
+<p>			if (document.referrer) {</p>
+<p>				window.location = document.referrer+window.location.hash; </p>
+<p>							} else if (window.location.hash !== "") { </p>
+<p>								window.history.go(-1);</p>
+<p>			} else {</p>
+<p>				window.location = "/";</p>
+<p>			}</p>
+<p>		} catch(e) {</p>
+<p>			window.location = "/";</p>
+<p>		}  </p>
+<p>	} 	</p>
+<p>}</p>
+<p>    </p>
+<p>function beloYouNewsPostPage() {</p>
+<p>	var username = bimreg.getuserkey("username");</p>
+<p>	$("#submission").show();</p>
+<p>			if(bimreg.loggedin && document.URL.indexOf('form=post') > -1){</p>
+<p>			document.getElementById('username').appendChild(document.createTextNode(username));</p>
+<p>			document.forms['ynform']['element.author'].value = username;</p>
+<p>			$("p#author").text(username);</p>
+<p>			document.forms['ynform']['element.ae'].value = bimreg.getuserkey("private.email");</p>
+<p>			$("div#authorcopy div.text-note p a").attr("href", "/register/?profile="+username);</p>
+<p>		}</p>
+<p>	}</p>
+<p>function belologinFromNav() {</p>
+<p>	var username = bimreg.getuserkey("username");</p>
+<p>	var toolbarObject = $("#toolbar-status");</p>
+<p>	$(toolbarObject).removeClass("loggingiIn").removeClass("hide");</p>
+<p>	$(toolbarObject).find("ul").show();</p>
+<p>	$(toolbarObject).find("#status-loggingin").hide();</p>
+<p>	$(".status-out").hide();</p>
+<p>	$("li#login-item.top-level-item").addClass("hide");</p>
+<p>	$(toolbarObject).show();</p>
+<p>	$("li.status-loggedin").show();</p>
+<p>	$('span.username').text(bimreg.getuserkey("username"));</p>
+<p>	$(toolbarObject).find('li#status-welcome').html('Welcome, <a href=\"/register?profile='+username+'"\'>'+username+'<\/a>');</p>
+<p>	if(typeof bimreg.getuseravatar() != "undefined"){</p>
+<p>		$("div#avatar-image").html("<img src='"+bimreg.getuseravatar()+"' width='40' height='34'/>");</p>
+<p>	};</p>
+<p>	$(toolbarObject).find('li#status-profile').html('<a href=\"/register?profile='+username+'"\'>My Profile<\/a>');</p>
+<p>	var surveyObject = $('#content-two table .cmP_survey') </p>
+<p>	$(surveyObject).find('.cmP_question, .cmP_response, .cmP_responses, #survey-submit, .cmP_input, .cmP_label, #survey-signup-newsletters').removeClass("hide");</p>
+<p>	$("#survey-reg-prompt").addClass("hide");</p>
+<p>	$("form[name=loginformnav] input[name=login-nav-password]").val("");</p>
+<p>}</p>
+<p>    </p>
+<p>function belologoutFromNav() {</p>
+<p>	$(".status-out").show();</p>
+<p>	$("li#login-item.top-level-item, li#login-item.top-level-item #login-button").removeClass("hide");</p>
+<p>	$("#toolbar-status").hide();</p>
+<p>	$("li.status-loggedin").hide();</p>
+<p>	$("#status-loggingin").hide();</p>
+<p>	}</p>
+<p>$("#loginWFacebook, #modalFaceReg").click(function(){</p>
+<p>	bimreg.ssoPop("facebook_reg");</p>
+<p>	BELOJS.reg.resetModal();</p>
+<p>	$("#regOptions").hide();</p>
+<p>	BELOJS.reg.startSSO();</p>
+<p>	return false;	</p>
+<p>});</p>
+<p>$("#loginWTwitter, #modalTwitterReg").click(function(){</p>
+<p>	bimreg.ssoPop("twitter_reg");</p>
+<p>	BELOJS.reg.resetModal();</p>
+<p>	$("#regOptions").hide();</p>
+<p>	BELOJS.reg.startSSO();</p>
+<p>	return false;	</p>
+<p>});</p>
+<p>$("#regModal #showRegModal").click(BELOJS.reg.showRegModal);</p>
+<p>$("#newsletterSignup").submit(function(e) {</p>
+<p>	e.preventDefault();</p>
+<p>	$("#newsletterSignup .loadingHolder").append('<span id="loading-user-newsletter"><img src="'+ajaxImgObj+'" id="loadingGraphic" />Registering User...</span>');</p>
+<p>	$("#newsletterUpdate").hide();</p>
+<p>	BELOJS.reg.createmodaluser();</p>
+<p>	return false;</p>
+<p>});</p>
+<p>$("#overlayLogin").submit(function(e){</p>
+<p>	e.preventDefault();</p>
+<p>   	$("#overlayLogin .login-submit").hide();</p>
+<p>       $("#overlayLogin input").attr("readonly", true);</p>
+<p>       $(".loginError").after('<div id="loading-user"><img src="'+ajaxImgObj+'" id="loadingGraphic" /><p class="updating">Logging in...</p></div>');</p>
+<p>       $(".error-message").empty();</p>
+<p>       var username = $("#overlayUsername").val();</p>
+<p>       var password = $("#overlayPassword").val();</p>
+<p>       if($("#rememberMe:checked").val()) {</p>
+<p>           genus.setcookie("BELO_rememberme",username,30);</p>
+<p>       }</p>
+<p>       bimreg.login(username,password);</p>
+<p>});</p>
+<p>$("#normReg").validate({</p>
+<p>	rules:{</p>
+<p>		reg_birthdateobject:{oldenough : true},</p>
+<p>		reg_zip:{postalcode : true}</p>
+<p>		},</p>
+<p>	submitHandler: function(form) {</p>
+<p>		$("div.error").hide();</p>
+<p>		BELOJS.reg.showNewslettersReg();</p>
+<p>	},</p>
+<p>   invalidHandler: function(form, validator) {</p>
+<p>      var errors = validator.numberOfInvalids();</p>
+<p>      if (errors) {</p>
+<p>        var message = errors == 1</p>
+<p>          ? 'You missed 1 field. It has been highlighted'</p>
+<p>          : 'You missed ' + errors + ' fields. They have been highlighted';</p>
+<p>        $("#normReg div.error span").html(message);</p>
+<p>        $("#normReg div.error").show();</p>
+<p>      } else {</p>
+<p>        $("#normReg div.error").hide();</p>
+<p>      }</p>
+<p>    }</p>
+<p>});</p>
+<p>    	</p>
+<p>function onloadlogout(status) {</p>
+<p>	$("li#login-item.top-level-item").removeClass("hide");</p>
+<p>	$(".signin").removeClass("menu-open");</p>
+<p>	BELOJS.reg.pagecount.reset();</p>
+<p>	belologoutFromNav();</p>
+<p>}</p>
+<p>bimreg.listener.addListener("userLogout",onloadlogout);</p>
+<p>var carouselRan = false;</p>
+<p>function modalShow() {</p>
+<p>	$("#regModal").removeClass("hide").dialog();</p>
+<p>	BELOJS.reg.showLoginModal();</p>
+<p>	bimreg.listener.addListener("userLogin",BELOJS.reg.loginModalClose);</p>
+<p>	if(!carouselRan){</p>
+<p>		setTimeout("loadCarousel()",300);</p>
+<p>		carouselRan = true;</p>
+<p>	}</p>
+<p>	return false;</p>
+<p>}</p>
+<p>    </p>
+<p>$(function() {</p>
+<p>    if(document.URL.indexOf('form=int') > -1 || document.URL.indexOf('form=signup') > -1) {</p>
+<p>        $(function() {</p>
+<p>            window.onunload = function() { genus.setcookie("BELO_OptOut","true",30); }</p>
+<p>        })</p>
+<p>    }</p>
+<p>    </p>
+<p>    $("#status-signout a").click(function(e) {</p>
+<p>        belologout(belologoutFromNav);</p>
+<p>        return false;</p>
+<p>    });</p>
+<p>    $("#login-button a.signin").click(function(e) {</p>
+<p>    	modalShow();</p>
+<p>    	return false;</p>
+<p>	});</p>
+<p>});</p>
+<p>    </p>
+<p> </p>
+<p>$(function() {</p>
+<p>        </p>
+<p>                </p>
+<p>        </p>
+<p>        if ($("#popular").size() > 0) {</p>
+<p>            $("#popular").tabs().tabs("option", "disabled", false);</p>
+<p>        }</p>
+<p>        </p>
+<p>        </p>
+<p>              </p>
+<p>        </p>
+<p>        </p>
+<p>            });</p>
+<p>(function() {</p>
+<p>	autoPlayCookie = genus.readcookie("galleryAutoPlay")</p>
+<p>	if(autoPlayCookie > 0){</p>
+<p>		genus.setcookie("galleryAutoPlay", -1, -1);</p>
+<p>	}</p>
+<p>})(); </p>
+<p>//Comscore vars</p>
+<p>COMSCORE.beacon({c1:2,c2:"6036246",c3:"",c4:"",c5:"",c6:"",c15:""});</p>
+<p>	var _sf_async_config={};</p>
+<p>	/** CONFIGURATION START **/</p>
+<p>	_sf_async_config.uid = 31997;</p>
+<p>	_sf_async_config.domain = 'azfamily.com';</p>
+<p>			_sf_async_config.sections = 'AZ Family - On TV - Your Life A-Z';</p>
+<p>			_sf_async_config.authors = 'Lloyd Dickson';</p>
+<p>		_sf_async_config.title = "Body Beautiful Day Spa - hCG Diet Facts to Know";</p>
+<p>		/** CONFIGURATION END **/</p>
+<p>	(function(){</p>
+<p>		function loadChartbeat() {</p>
+<p>			window._sf_endpt=(new Date()).getTime();</p>
+<p>			var e = document.createElement('script');</p>
+<p>			e.setAttribute('language', 'javascript');</p>
+<p>			e.setAttribute('type', 'text/javascript');</p>
+<p>			e.setAttribute('src',</p>
+<p>			(('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +</p>
+<p>			'js/chartbeat.js');</p>
+<p>			document.body.appendChild(e);</p>
+<p>		}</p>
+<p>		var oldonload = window.onload;</p>
+<p>		window.onload = (typeof window.onload != 'function') ?</p>
+<p>		loadChartbeat : function() { oldonload(); loadChartbeat(); };</p>
+<p>	})(); </p>
+<p>  <!-- domname azfamilycom --></p>
+<p>             </p>
+<p>   		</p>
+<p>		</p>
+<p> </p>
+<p> </p>
+<p>if(typeof belo_tracking_sitepage == "undefined" || belo_tracking_sitepage == ""){</p>
+<p>	belo_tracking_sitepage = window.location.host + window.location.pathname+"/";</p>
+<p>	if(belo_tracking_sitepage.charAt(belo_tracking_sitepage.length-1) == "/") {</p>
+<p>	    belo_tracking_sitepage = belo_tracking_sitepage.substring(0,belo_tracking_sitepage.length-1);</p>
+<p>	}</p>
+<p>}</p>
+<p>s={};</p>
+<p>s_account="biazfamilycom,bikbnglobal";</p>
+<p>site_tag="azfamily.com";</p>
+<p>om_fpcdomain="azfamily.com";</p>
+<p>$("document").ready(function(){</p>
+<p>	$("a.modalOpen").unbind("click");</p>
+<p>	$("#storytools-bottom a.modalOpen").click( function() {</p>
+<p>		$("#shareModalWindowBottom").toggleClass("hide");   </p>
+<p>		return false;</p>
+<p>	});</p>
+<p>	$("#storytools-top a.modalOpen").click( function() {</p>
+<p>		$("#shareModalWindow").toggleClass("hide");   </p>
+<p>		return false;</p>
+<p>	});$("a.modalOpen").click(function(){</p>
+<p>		$(this).toggleClass("open");</p>
+<p>	})</p>
+<p>});</p>
+<p>						<!-- IM Track story --></p>
+<p>							$("#imwarelist li a, #shareModalWindow li a").not("#share-tool").click(function(e){</p>
+<p>		var shareTitle = $(this).attr("title");</p>
+<p>		var clicked = $(this)[0];</p>
+<p>		var s=s_gi('biazfamilycom,bikbnglobal');</p>
+<p>		s.tl(clicked,'o','Story: '+ shareTitle +': Body Beautiful Day Spa - hCG Diet Facts to Know: ktvk: /on-tv/your-life: 137130393');</p>
+<p>	});</p>
+<p>function lastFolder() {</p>
+<p>	var folderPath = window.location.pathname;</p>
+<p>	var folderPathArray = folderPath.split("/");</p>
+<p>	var lastfolder = folderPathArray[folderPathArray.length - 1];</p>
+<p>	return lastfolder;</p>
+<p>};	</p>
+<p>function rollUpUrl() {</p>
+<p>	var om_location_path = belo_tracking_sitepage;</p>
+<p>	om_location_path = om_location_path.replace("http://","");</p>
+<p>	var om_location_path_array = om_location_path.split("/");</p>
+<p>	var om_location_end = om_location_path_array.length - 1;</p>
+<p>    var s_hier1Roll = om_location_path_array[0];</p>
+<p>    for(i=1;i<om_location_path_array.length; i++){</p>
+<p>        if(i==1){</p>
+<p>            s_hier1Roll += "/" + om_location_path_array[i];</p>
+<p>        }else{</p>
+<p>            s_hier1Roll += "," + om_location_path_array[i];</p>
+<p>        }</p>
+<p>    }	</p>
+<p>    return s_hier1Roll;</p>
+<p>};</p>
